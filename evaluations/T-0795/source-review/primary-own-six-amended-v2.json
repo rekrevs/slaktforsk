@@ -1,0 +1,152 @@
+{
+  "task": "T-0795",
+  "utc": "2026-10-06T14:24:40.193011+00:00",
+  "independent_claims_seen": true,
+  "source_manifest_sha256": "4b0898d3ae119ddd9b717fb098fd582b292e7beb86b892345c2b71a6649a2b05",
+  "units": [
+    {
+      "unit": "U1",
+      "source_time_field": "Riksarkivet; möjlig inskrivning omkring1953 för född1933; rätt myndighet/område och digital metadataåtkomst",
+      "read": "U1-1 hela MCP-svaret. Stockholms inskrivningsområde SE/KrA/0473/B/01,1902–1969, Riksarkivet i Täby/Krigsarkivet, context Inskrivnings- och rullföringsområden → Inskrivningsområden. Separat arkivbildarträff SE/KrA/1748. Ingen person, volym eller digital reproduktion fastställd. U1-2 katalogdetaljen ej läst: webbverktyget otillgänglig, direkt HTTP200 ledde till CAPTCHA.",
+      "outcome": "POSITIV METADATAROUTING till kandidatarkiv; ÅTKOMSTHINDER för vald full katalog; rätt personområde OLÖST.",
+      "conclusion": "Stockholms inskrivningsområde finns som katalogträff med period som inkluderar1953. Gunnar är belagd på Lidingö till1951; det fastställer inte hans inskrivningsområde1953. Inga slutsatser om faktisk inskrivning, tjänst eller digital originalåtkomst.",
+      "missing_key": "Hemvist/församling omkring den möjliga inskrivningen, eventuellt inskrivningsnummer med provenans, jurisdiktionsuppgift och vald series/volyms exakta täckning.",
+      "acquisition": "T0359:s redan avgränsade egna1951fortsättning kan ge senare hemvist eller eget nummer; T0362:s befintliga adressfråga1951–1967 kan ge ledtråd. Ingendera garanteras. Full läsning av exakt katalogpost efter återställd åtkomst behöver eget avgränsat beslut; CAPTCHA inte löst.",
+      "limits": "Ingen bild eller personlig post. Ingen negativ slutsats om materialets existens/digitalisering. Inget certifierat personområde.",
+      "evidence": [
+        "U1-1-raw.json",
+        "U1-2-raw.json",
+        "U1-2-http-receipt.json",
+        "U1-2-http-public-receipt.json",
+        "U1-2-http-public-body.txt"
+      ],
+      "retains": [
+        "F-P-0212-source_access-C0906@1",
+        "F-P-0212-source_reference-Lidingo1951@2"
+      ]
+    },
+    {
+      "unit": "U2",
+      "source_time_field": "Falköpings kommunarkiv; Flobyskolan/Fredriksbergskolan1967–2017; arkivrouting och digital tillgång",
+      "read": "U2-2 hela Kommunens arkiv, uppdaterad2026-09-25, webbtext99rader. Arkivet omfattar kommunens verksamheter sedan1974 och införlivade tidigare kommuner från1863. Skolhandlingar nämns generellt. Allmänna handlingar kan tas del av, vissa begränsas av sekretess; frågor/åtkomst/besök hänvisas till kommunarkivet. Endast betygskopior har uttryckligt nämnd e-tjänst.",
+      "outcome": "POSITIV INSTITUTIONSROUTING; exakt skolarkivserie och digital personåtkomst OLÖST.",
+      "conclusion": "Kommunarkivet är verifierad relevant institutionell ingång över kommunbildningsgränsen1974. Guiden identifierar inte de två skolornas arkivbildare/seriesignum eller tjänstematerial1967–2017 och säger inte att allt skolmaterial är digitalt eller analogt.",
+      "missing_key": "Exakt arkivbildare, serie och årstäckning för respektive skola/tjänsteadministration; Gunnars tillträdes-/avgångsår är fortfarande okända.",
+      "acquisition": "Kommunarkivets befintliga förfrågningsväg kan precisera arkivbildare/serie efter särskilt kontaktmandat; inga förfrågningar skickade. T0362:s redan beslutade tjänsteårsfråga inom1951–1967 kan ge nyckel för den tidiga delen; senare tjänsteår kräver separat avgränsning.",
+      "limits": "Inga anställningsakter, betyg eller elevhälsodata öppnade. Generell skolrouting är inget bevis att särskild akt finns.",
+      "evidence": [
+        "U2-1-raw.json",
+        "U2-2-raw.json"
+      ],
+      "retains": [
+        "F-P-0212-occupation-school-career@1",
+        "O-P-0212-C0901-own@2",
+        "F-P-0212-source_access-C0906@1"
+      ]
+    },
+    {
+      "unit": "U3",
+      "source_time_field": "LIBRIS; lärar-/skolledarmatrikel1950–1980; relevant utgåva och nätåtkomst",
+      "read": "U3-1 frågan site:libris.kb.se \"Sveriges lärare\" matrikel1960 gav två irrelevanta träffar, Komvux2000(1990) och Läsförmåga och demokratifråga(2011), knutna till dagens organisationsnamn. Ingen full utgåvepost vald. U3-2 exakt xsearch?query=lärarmatrikel&format=json&n=50 gav HTTP200, hela JSON51bytes: {\"xsearch\":{\"from\":1,\"to\":0,\"records\":0,\"list\":[]}}.",
+      "outcome": "DATERAT SNÄVT FRÅGENOLL/FRÅGESYNLIGHET; relevant utgåva och nätåtkomst OLÖST.",
+      "conclusion": "Ingen relevant utgåva identifierades i dessa två prov. Xsearch-nollet saknar positiv kontroll och specificerat1950–1980filter; det bär endast den exakta frågan vid detta tillfälle. Varken avsaknad av moderna matriklar eller avsaknad av Gunnar är belagd.",
+      "missing_key": "Verifierad titel-/utgivar-/institutionsnyckel för en relevant utgåva1950–1980 och dess fulla katalogpost/tillgänglighetsuppgift.",
+      "acquisition": "Befintlig minnesordskälla ger lärarutbildning och två skolnamn, men inget lärosäte/examensår. T0362:s beslutade tidiga tjänsteårsfråga kan begränsa perioden. En senare avgränsad bibliografisk metadatafråga med annan titel/utgivarnyckel och fungerande positiv kontroll behöver nytt beslut; inget sådant utförande bestäms här.",
+      "limits": "Ingen titel/ISBN/utgåva uppfunnen; äldreC0906s1857/1889 och exakta tidigare frågor bevaras daterat.",
+      "evidence": [
+        "U3-1-raw.json",
+        "U3-2-raw.json",
+        "U3-2-http-receipt.json",
+        "U3-2-http-public-receipt.json",
+        "U3-2-http-public-body.txt"
+      ],
+      "retains": [
+        "F-P-0212-education-teacher@1",
+        "F-P-0212-source_access-C0906@1"
+      ]
+    },
+    {
+      "unit": "U4",
+      "source_time_field": "Lantmäteriet; möjlig historisk fastighetsidentifiering/lagfart i Floby1960-talet",
+      "read": "U4-2 hela Ta del av allmän handling,110rader. Fullständig fastighetsbeteckning krävs; guiden länkar Min karta för att hitta beteckning. Min fastighet avser den som själv är ägare. Inskrivningshandlingar registrerade före2008-06-01, inklusive lagfart/köpeskilling/inteckning/avtalsservitut, hänvisas till Riksarkivet. Digital leverans kan erbjudas efter myndighetens bedömning; ingen garanti.",
+      "outcome": "POSITIV ROUTING: fastighetsbeteckningsingång hos Lantmäteriet; före2008inskrivningshandlingar till Riksarkivet; konkret fastighet OLÖST.",
+      "conclusion": "Ett eventuellt1960talsförvärvs äldre inskrivningshandling ska inte generellt hänföras till dagens Lantmäteriakt. Lantmäteriets guide anger RA för före2008-06-01. Kart-/beteckningsvägen behöver en lokaliserbar plats eller adress; Floby ensamt identifierar inte fastigheten. Ingen fastighet, äganderätt eller handlingsexistens tillskrivs Gunnar.",
+      "missing_key": "Daterad Flobyadress/plats och full fastighetsbeteckning, därefter historisk akt-/registreringsreferens och rätt arkivserie.",
+      "acquisition": "T0362:s befintliga bostadsadressfråga1951–1967 kan ge avgränsad platsnyckel. Guidens länk till Min karta är en möjlig därefterväg till beteckning, inte utförd kartläsning. RA:s länkade beställningsväg är endast routing; ingen beställning eller personoriginalpassage tillåten här.",
+      "limits": "Guide anger institution och begäransvillkor, inte fri direktåtkomst till en1960talsakt; varken analogspärr eller nätåtkomstgaranti.",
+      "evidence": [
+        "U4-1-raw.json",
+        "U4-2-raw.json"
+      ],
+      "retains": [
+        "F-P-0212-source_access-C0906@1",
+        "F-P-0212-event_place-Floby@1"
+      ],
+      "unopened_leads": [
+        {
+          "title": "Ekonomiska kartan1935–1978",
+          "url": "https://geotorget.lantmateriet.se/dokument/projects/ekonomiska-kartan/released/2025.04/",
+          "source": "U4-1 search response",
+          "status": "UNOPENED DISCOVERY; no full service/original/map read; potential historical-designation alternative after dated place key and new decision"
+        }
+      ]
+    },
+    {
+      "unit": "U5",
+      "source_time_field": "Skatteverket; eventuell bouppteckning efter död2017; myndighet och åtkomstväg",
+      "read": "U5-2 beställningsguidens URL omdirigerades till hela allmänna Bouppteckning-guiden213rader. Avsnitt Beställ kopia på bouppteckning anger att bouppteckningar upprättade från2001-07-01 förvaras hos Skatteverket. Kopieringsavsnittets inbäddade komponent återges som [object Object], inte läst fungerande formulär. U5-1 indexerad äldre servicebeskrivning säger personnummer/e-post/registrerad handling men det är inte verifierat aktuellt formulär.",
+      "outcome": "POSITIV MYNDIGHETSROUTING; aktuellt beställningsformulär, erforderliga nycklar och personlig handling OLÖST.",
+      "conclusion": "En eventuell2017bouppteckning hör enligt den lästa guiden till Skatteverkets tidsomfång. Ingen begäran gjord, ingen förekomst kontrollerad och ingen handling läst. Guidens möjliga dödsboanmälan innebär inte att något sådant gjordes för Gunnar.",
+      "missing_key": "Verifierad aktuell tjänsteingång och dess identifieringskrav; personnummer/registreringsreferens i den mån tjänsten kräver det. Namn/födelse1933-03-26/död2017-09-22 återbrukas men är inte bevis att en registrerad bouppteckning finns.",
+      "acquisition": "En framtida separat avgränsad åtkomstkontroll av tjänstebeskrivningen kan fastställa nödvändiga nycklar. Om personnummer behövs får ägaren lämna befintlig uppgift/egen handling inom ett nytt avgränsat mandat; T0362:s1951–1967frågelista utvidgas inte. Kontakt eller beställning kräver separat ägarbeslut.",
+      "limits": "Indexed description is retained as discovery only. Inget onlinebeställningsprov, ingen personlig uppgift sänd, inget uteblivet svar tolkat som personnoll.",
+      "evidence": [
+        "U5-1-raw.json",
+        "U5-2-raw.json"
+      ],
+      "retains": [
+        "E-death-P-0212@1",
+        "F-P-0212-source_access-C0906@1"
+      ]
+    },
+    {
+      "unit": "U6",
+      "source_time_field": "Kulturnämnden i Västra Götalandsregionen/Liberalerna/FN-föreningsarkiv; före2017 inklusive medalj2008; katalog/registerrouting",
+      "read": "U6-1 generisk VGRfråga gav huvudsakligen2022–2026diarier,2026informationshanteringsplan samt PDFprotokollsnippets bl.a.2016-12-08 samt en2003ärendehänvisning. Ingen av dessa öppnades som sakpost eller belägg för person/förtroendeuppdrag. U6-2 gissad officiell institutionsväg https://www.vgregion.se/ov/regionarkivet/ gav webbverktygsfel och därefter faktiskt HTTP404.",
+      "outcome": "OLÖST INOM TVÅ INGÅNGAR; inget fullständigt relevant för2017 katalog-/guideunderlag läst.",
+      "conclusion": "De två proven fastställde inte vilken katalogserie eller vilket öppet register som täcker Gunnars tidigare uppdrag. U6taket gäller totalt över tre organisationer. Ingen separat Liberal- eller FN-ingång prövades; deras möjlighet är oprövad, inte ett noll. Sökbara historiska uppslag2016 och2003 finns i söksvaret, men underliggande protokoll är olästa; resultatet får inte beskrivas som enbart nutid eller inga historiska uppslag.",
+      "missing_key": "Korrekt regionarkiv-/kulturnämndskatalogingång med före2017täckning, nämndens exakt daterade mandatperiod; för föreningsarkiv exakt lokalavdelning och period; för medalj2008 eventuell utdelarfunktion/registeringång, inte bara medaljnamn.",
+      "acquisition": "Befintligt C0901 ger organisationsnamn och medalj2008 men inga lokala arkivnycklar. Ny begränsad institutionell metadatarouting eller en särskild ägarfråga om lokalavdelning/mandatperiod kan tillföra nycklar efter nytt beslut. Detta ingår inte i T0362:s befintliga1951–1967lista.",
+      "limits": "404 gäller endast den prövade URL:en, inte arkivets eller handlingarnas existens. Searchsnippets är inte personposter; ingen2026uppgift tillskrivs ett historiskt uppdrag.",
+      "evidence": [
+        "U6-1-raw.json",
+        "U6-2-raw.json",
+        "U6-2-http-receipt.json",
+        "U6-2-http-public-receipt.json"
+      ],
+      "retains": [
+        "F-P-0212-civic_role-obituary@1",
+        "F-P-0212-award-Karl-Staaff2008@1",
+        "O-P-0212-C0901-own@2"
+      ],
+      "unopened_leads": [
+        {
+          "title": "Kulturnämnden protocol2016-12-08",
+          "url": "https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/sofia/kun6111-136948837-125/surrogate",
+          "source": "U6-1 search response",
+          "status": "UNOPENED DISCOVERY; PDF snippet only; no original/personal record opened"
+        },
+        {
+          "title": "Regionstyrelseprotokoll snippet mentions kulturnämnden2003-02-07 §18",
+          "url": "https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/sofia/rs3878-551954431-5309/surrogate",
+          "source": "U6-1 search response",
+          "status": "UNOPENED DISCOVERY; search snippet, not independently checked date/role/person"
+        }
+      ]
+    }
+  ],
+  "scope_assessment": "Bounded metadata result complete at12cap; U1/U3/U6 retain specific unresolved outcomes. Not full personal research or source exhaustion.",
+  "protected": "Identity/tree/OWNER/relation/life/PK outcomes unchanged; full accepted T0790 review reused without broad regrading.",
+  "native_proposal": "Six separate result-path assessments with six bounded source records (each its exact two ingress responses), source descriptions and search records per schema. Keep raw query/error media. Existing fact source_access-C0906 remains dated unchanged. Metadata observations never become personal facts.",
+  "amends": "primary-own-six-frozen-v1.json preserved; independent own-six-reading-v1.md read only after both freezes"
+}

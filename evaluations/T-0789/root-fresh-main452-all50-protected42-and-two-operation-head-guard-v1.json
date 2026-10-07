@@ -1,0 +1,32 @@
+{
+  "task": "T-0789",
+  "created_utc": "2026-10-06T10:46:18.147703+00:00",
+  "actual_main_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "eabdc5aff2eefdc35136f5823ccb140f155425f61505238b77f29c984baee248"
+  },
+  "actual_state": {
+    "journal_head": 452,
+    "pending": 0
+  },
+  "baseline_DB_pin": {
+    "path": "evaluations/T-0789/preparation/baseline-j452.sqlite",
+    "sha256": "c8a648f3ea9384cb9d5c539287b2e189373707dc561179935e73884a2957930b"
+  },
+  "baseline_proof_pin": {
+    "path": "evaluations/T-0789/preparation/fresh452-preservation-backup-full50-protected42-and-exact21-current-proof-v1.json",
+    "sha256": "3aeae1f040d254dfe7842db74b4c9bdf12ceb0382c17e80168b1d8ed5055508d"
+  },
+  "package_pin": {
+    "path": "evaluations/T-0789/implementation/exact21-plus16-two-operation-resolution-draft-v1/exact21-plus16-two-operation-package-proposal-v1.json",
+    "sha256": "a14cd9dc6721c57b5ad5f0d95ae78cd9830b4d1d64888cd76bd7ca8c03d21cbc"
+  },
+  "root_readonly_checks": {
+    "all50_schema_raw_values_BLOB_and_native_order_equal_reviewed_baseline": true,
+    "protected42_entire_current_exact": true,
+    "21_expected_heads_and_sequential_supports_exact": true,
+    "two_operations_absent_live": true,
+    "no_DB_mutation_or_replace": true
+  },
+  "source_approval": "Separate two final source-consequence gates still required; this technical guard is not source approval."
+}

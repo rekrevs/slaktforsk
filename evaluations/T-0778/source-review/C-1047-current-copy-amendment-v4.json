@@ -1,0 +1,76 @@
+{
+  "task": "T-0778",
+  "changes": [
+    {
+      "object": "O-P-0047-A-5747-family_transfers",
+      "version": 1,
+      "field": "caveat",
+      "before": "Ny utvinning. Sida 638 i samma volym är `Eriksro n:o 2, Drottninggatan 3` och är läst för föräldrarnas rader; hennes egen rad på 638 är inte transkriberad. Föräldrarna och systersonen Arne flyttade samtidigt 638→563.",
+      "after": "Sida638 i samma volym är Eriksro n:o2, Drottninggatan3. T-0778 har nu prövat hennes egen rad18 och barnens19–20: egna inkommande9–10 är tomma, Astrid har egen utgående563/30 och barnens egna utgående16–17 är tomma. Denna observations barn-ditton avser den separata mottagarposten563 och dess vidare överföring949/1932, inte egna ditton på638. Föräldrarna och systersonen Arne har separat familjeöverföring638→563 år1930; samtidiga bokföringsår bevisar inte gemensam fysisk flyttdag.",
+      "expected_matches": 1,
+      "reason": "Egen638nuprövad; exakt563egenradsattribution bevaras och sammaår inte fysisk samtidighet.",
+      "append_supports": [
+        "AUDIT-T0778-C1047-Astrid@1"
+      ]
+    },
+    {
+      "object": "THEME-P-0047-BO",
+      "version": 2,
+      "field": "body",
+      "before": "| BO | ÖPPET | Sju bostadsled är daterade 1897–1932: Brenäs, Flens by, Mineberg, Ljungbacka, egen familjerad, Sundbyberg och Björkhem. SCB1930 ger senaste kommuninflyttning från Sundbyberg1926. Olästa mellanled kvarstår1919–1926 och1926–1930; detta visar inte obruten fysisk vistelse. Fortsättningen efter `fol.949`1932 återstår. Hennes egna fortsättningsrader på335/638/949 och Sundbybergs mottagande är inte fullständigt lästa i denna källväg. | Q-02, KP-04; [C-0035](../citations/C-0035-ada-mineberg-sida-420.md), [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md). |\n",
+      "after": "| BO | ÖPPET | Sju bostadsled är daterade 1897–1932: Brenäs, Flens by, Mineberg, Ljungbacka, egen familjerad, Sundbyberg och Björkhem. SCB1930 ger senaste kommuninflyttning från Sundbyberg1926. Olästa mellanled kvarstår1919–1926 och1926–1930; detta visar inte obruten fysisk vistelse. Fortsättningen efter `fol.949`1932 återstår. Hennes egna rader18–20 på638 är nu fullständigt prövade i T-0778: inkommande9–10 är tomma och ger ingen ny exakt1926ankomst. Uppslagen335/949 och Sundbybergs mottagande återstår i denna källväg. | Q-02, KP-04; [C-0035](../citations/C-0035-ada-mineberg-sida-420.md), [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md). |\n",
+      "expected_matches": 1,
+      "reason": "Prövadegen638inteolästfortsättning; ÖPPET och1926ankare kvarstår.",
+      "append_supports": [
+        "AUDIT-T0778-C1047-Astrid@1"
+      ]
+    }
+  ],
+  "retains": [
+    {
+      "object": "P-0047",
+      "version": 2,
+      "fields": "all",
+      "full_current_fields": {
+        "revision_id": "P-0047@2",
+        "display_name": "Astrid Charlotta Jansson",
+        "sex": null,
+        "legacy_state": "active",
+        "object_id": "P-0047",
+        "version": 2,
+        "kind": "person",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Egen födelsepost och den uttryckligt prövade senare personkopplingen bär en verklig separat person.",
+        "caveat": "Ingen PK- eller könsändring; egna källor och familjekorrelation behåller beroendet.",
+        "origins": [
+          {
+            "revision_id": "P-0047@2",
+            "unit_id": "8af51cb3bd9fe65a63dba698597d8ffd46c13f7417f73a4097470af1aef76d14",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0047-astrid-charlotta-jansson.md",
+            "start_line": 17,
+            "end_line": 31
+          },
+          {
+            "revision_id": "P-0047@2",
+            "unit_id": "868a4198b2d576cfd8a7941ba59d8f8bdbf55005707b5fee6231da3c1744c6b1",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/research-profiles/P-0047.md",
+            "start_line": 21,
+            "end_line": 55
+          }
+        ],
+        "evidence": [],
+        "pending_reviews": []
+      },
+      "reason": "Egen1930rad medLundkvist stöder tidigareprövad Astrididentitet, ingetnyaexaktnamnbytesdatum eller sex/gate. StarkareegenbirthnameJansson behålls."
+    }
+  ],
+  "source_spec_amendments": [
+    "Native spec v1 additional_adoption_supports AUDIT-T0777-C0896-SCB1930@1 and parish@1 confirmed exact current.",
+    "C1047 raw daughter Gun[n]vor retains source uncertainty; role d. and owndate support accepted source-context correspondence, not newpersonidentity."
+  ]
+}

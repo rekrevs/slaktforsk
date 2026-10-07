@@ -1,0 +1,42 @@
+{
+  "task": "T-0777",
+  "decisions": [
+    {
+      "object": "M-P-0072-census1900",
+      "version": 1,
+      "fields": [
+        {
+          "field": "data.role_literal",
+          "old_full_field": "",
+          "new_full_field": "d."
+        },
+        {
+          "field": "caveat",
+          "old_full_field": " Ingen separat råroll har utvunnits för denna namnrad; det obligatoriska role_literal-fältet är därför en tom sträng och innebär ingen tillskriven roll.",
+          "new_full_field": "T-0777: egen tryckt personrad har rårollen d.; det tidigare tomfältet beskrev att rollen inte hade utvunnits, inte en tom originalcell. Ingen ny identitet, könstilldelning eller familjerelation införs."
+        }
+      ],
+      "disposition": "revise",
+      "reason": "Explicit stale extraction-template amendment from settled own-row reading."
+    },
+    {
+      "object": "M-P-0073-census1900",
+      "version": 1,
+      "fields": [
+        {
+          "field": "data.role_literal",
+          "old_full_field": "",
+          "new_full_field": "s."
+        },
+        {
+          "field": "caveat",
+          "old_full_field": " Ingen separat råroll har utvunnits för denna namnrad; det obligatoriska role_literal-fältet är därför en tom sträng och innebär ingen tillskriven roll.",
+          "new_full_field": "T-0777: egen tryckt personrad har rårollen s.; det tidigare tomfältet beskrev att rollen inte hade utvunnits, inte en tom originalcell. Ingen ny identitet, könstilldelning eller familjerelation införs."
+        }
+      ],
+      "disposition": "revise",
+      "reason": "Explicit stale extraction-template amendment from settled own-row reading."
+    }
+  ],
+  "evidence": "Append AUDIT-T0777-C0402@1; preserve all other supports. Any actualauditID difference report. Enumerate resulting dependency pendingreviews, do not blanket rebind."
+}

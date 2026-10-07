@@ -1,0 +1,48 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T09:35:23.221435+00:00",
+  "prior_v2_pin": {
+    "path": "evaluations/T-0780/implementation/stage_settled_package_v2.py",
+    "sha256": "9e2f2702c8ce1f99e8480ac84d437669ef7df7374e2bd33d062245d059e40a12"
+  },
+  "new_v3_pin": {
+    "path": "evaluations/T-0780/implementation/stage_settled_package_v3.py",
+    "sha256": "7a3d43742f4aa0b697afddd4b3e11e47bdf6c76f82c556106cbc786b7fa7016e"
+  },
+  "python_AST_parse": "PASS both files",
+  "exact_unchanged_after_removing_only_added_readonly_state_function_and_step_receipt_block": true,
+  "diff": [
+    "--- evaluations/T-0780/implementation/stage_settled_package_v2.py",
+    "+++ evaluations/T-0780/implementation/stage_settled_package_v3.py",
+    "@@ -5,6 +5,11 @@",
+    " def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()",
+    " def connection(p):",
+    "  c=sqlite3.connect(p.as_uri()+'?mode=ro',uri=True);c.row_factory=sqlite3.Row;return c",
+    "+def database_state(p):",
+    "+ c=connection(p)",
+    "+ try:",
+    "+  return {'journal_head':c.execute('select max(sequence) from operation_payload').fetchone()[0],'pending':c.execute('select count(*) from review_request r left join review_resolution s on r.id=s.request_id where s.request_id is null').fetchone()[0]}",
+    "+ finally:c.close()",
+    " def canon(x):return json.dumps(x,ensure_ascii=False,separators=(',',':'),sort_keys=True)",
+    " def scalar(x):return {'bytes_hex':x.hex()} if isinstance(x,bytes) else x",
+    " def table_state(c):",
+    "@@ -29,7 +34,13 @@",
+    "  journal=stage/'journal';journal.mkdir()",
+    "  for i,(path,op) in enumerate(ops,1):",
+    "   # Execute immutable exact file; no changes, sorting, generic resolutions or substituted versions.",
+    "-  run(['apply',str(path),'--db',str(dbp),'--journal',str(journal)],stage/f'step-{i:03}-apply.json')",
+    "+  step_state={'step':i,'operation_id':op['id'],'operation_path':str(path),'operation_sha256':digest(path),'before':database_state(dbp),'state_read_from_actual_clone_database':True}",
+    "+  write(stage/f'step-{i:03}-database-state-before.json',step_state)",
+    "+  try:",
+    "+   run(['apply',str(path),'--db',str(dbp),'--journal',str(journal)],stage/f'step-{i:03}-apply.json')",
+    "+  finally:",
+    "+   step_state['after']=database_state(dbp)",
+    "+   write(stage/f'step-{i:03}-database-state-before-after.json',step_state)",
+    "  staged=connection(dbp);actual_pending=staged.execute('select count(*) from review_request r left join review_resolution s on r.id=s.request_id where s.request_id is null').fetchone()[0];expected_pending=gate['expected_pending_after'];assert expected_pending=='UNKNOWN_UNTIL_ACTUAL_FULL_STAGE' or (type(expected_pending) is int and actual_pending==expected_pending);assert protection(staged)==protected,'Protected knowledge/review state changed';write(stage/'protected-after.json',protection(staged));write(stage/'all-operation-payloads.json',[dict(r) for r in staged.execute('select * from operation_payload order by sequence')]);write(stage/'pending-after.json',[dict(r) for r in staged.execute('select r.* from review_request r left join review_resolution s on r.id=s.request_id where s.request_id is null')]);staged.close()",
+    "  for cmd in ['verify','verify-assets','verify-source','inventory']:",
+    "   run([cmd,'--db',str(dbp),'--journal',str(journal)],stage/(cmd+'.json'))"
+  ],
+  "source_gate_order_files_protection_unknown_pending_guard_unchanged": true,
+  "actual_execution": "UNRUN",
+  "no_stage_authority_inferred": true
+}

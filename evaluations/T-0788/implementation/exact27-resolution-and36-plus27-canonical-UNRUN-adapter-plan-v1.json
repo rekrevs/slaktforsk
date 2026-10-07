@@ -1,0 +1,88 @@
+{
+  "task": "T-0788",
+  "phase": "UNRUN_CODE_ONLY_NO_RESOLUTION_OPERATION_CREATED",
+  "adapters": [
+    {
+      "helper_pin": {
+        "path": "evaluations/T-0788/implementation/resolve_root_authorized_exact27_same_stage_v1.py",
+        "sha256": "d7038d763b320ebd9082b4cea0fb24898b81b94e06c39b00ff95f111ff218459"
+      },
+      "prior_proven_helper_pin": {
+        "path": "evaluations/T-0787/implementation/resolve_root_authorized_exact137_same_stage_v1.py",
+        "sha256": "ce4a8747d09ed279048365ec7977baa0dd924b267e66dbd5bfc1c636251c76f9"
+      },
+      "exact_diff_pin": {
+        "path": "evaluations/T-0788/implementation/resolve_root_authorized_exact27_same_stage_v1.exact-T0787-to-T0788.patch",
+        "sha256": "4572ad69d4608950080ffe902bfa6ae2ee4ee2962018b1f0593397692f08b103"
+      },
+      "AST_parse": "PASS"
+    },
+    {
+      "helper_pin": {
+        "path": "evaluations/T-0788/implementation/apply_root_authorized_exact36_plus27_canonical_v1.py",
+        "sha256": "9308d4fc0d335288418be15ac3b8130d56743d6320e5196bd5763fac3b1cc9a8"
+      },
+      "prior_proven_helper_pin": {
+        "path": "evaluations/T-0787/implementation/apply_root_authorized_exact_two_operations_canonical_v1.py",
+        "sha256": "8da2a4e1e462d6f49f03b82ebe58cae631ff70d9aac21463c06ac7a7bc6579ce"
+      },
+      "exact_diff_pin": {
+        "path": "evaluations/T-0788/implementation/apply_root_authorized_exact36_plus27_canonical_v1.exact-T0787-to-T0788.patch",
+        "sha256": "f892ee77f2a9e368687ff3ca09a4222de93a668aab30746b2d0e30daf12df4d3"
+      },
+      "AST_parse": "PASS"
+    }
+  ],
+  "actual_first_stage_pin": {
+    "path": "evaluations/T-0788/exact36-stage-v1/complete-exact36-stage-result-and-Astra-handoff-v1.json",
+    "sha256": "df43c415d24d0cca24c455c3a1b784238c37f486ab8fad5873eabfddaf4a4db7"
+  },
+  "actual_stage_state": {
+    "journal_head": 450,
+    "pending": 27
+  },
+  "main_state": {
+    "journal_head": 449,
+    "pending": 0
+  },
+  "source_literal_and_independent_literal_gates": "PENDING; operation/package pointers must be built from their exact approved rows only after root draft release.",
+  "same_stage_authorization_required": "ONE_EXACT27_SAME_STAGE_RESOLUTION_AND_READONLY_FINAL_SIX_CHECKS",
+  "canonical_authorization_required": "ONE_CONTROLLED_EXACT_TWO_OPERATION36_PLUS27_CANONICAL_SEQUENCE",
+  "instruction_pointer_fields_root_must_supply": [
+    "primary_instruction_rows_pointer",
+    "independent_instruction_rows_pointer",
+    "primary_resolution_instruction_pointer",
+    "independent_resolution_instruction_pointer",
+    "primary_actual_request_pointer",
+    "independent_actual_request_pointer"
+  ],
+  "expected_same_stage_transition": [
+    {
+      "journal_head": 450,
+      "pending": 27
+    },
+    {
+      "journal_head": 451,
+      "pending": 0
+    }
+  ],
+  "expected_canonical_sequence": [
+    {
+      "journal_head": 449,
+      "pending": 0
+    },
+    {
+      "journal_head": 450,
+      "pending": 27
+    },
+    {
+      "journal_head": 451,
+      "pending": 0
+    }
+  ],
+  "policy": "Exact ordered literals/request/current/scope approved by both Astra roles; explicit2, only3append reviewjournal tables on sameclone resolution; all50 final canonical comparison runtimeclocks only. No inferred retains, retries, newclone or database replacement.",
+  "same_stage_runtime_authorized": false,
+  "canonical_runtime_authorized": false,
+  "resolution_operation_constructed": false,
+  "usage": "UNKNOWN pending root collector"
+}

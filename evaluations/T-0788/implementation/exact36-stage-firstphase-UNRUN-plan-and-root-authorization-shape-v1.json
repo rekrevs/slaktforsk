@@ -1,0 +1,91 @@
+{
+  "task": "T-0788",
+  "helper_pin": {
+    "path": "evaluations/T-0788/implementation/stage_root_authorized_exact36_firstphase_v2.py",
+    "sha256": "e829b78592029e9cf2b1244370c7127d2ae47d6d82cd5767abb84a559d71022f"
+  },
+  "preserved_initial_v1_pin": {
+    "path": "evaluations/T-0788/implementation/stage_root_authorized_exact36_firstphase_v1.py",
+    "sha256": "9759891fd405bc2985dae4c53fc5c1060805938cec7f1bba2a4b76dbc34db694"
+  },
+  "exact_v1_v2_diff_pin": {
+    "path": "evaluations/T-0788/implementation/stage_root_authorized_exact36_firstphase_v2.exact-v1-v2.patch",
+    "sha256": "55bfbf179201029d3ec33e914feb235404d573d2951712a1063d69d1f984f1ff"
+  },
+  "v1_source_question_guard_schema_mismatch": "UNRUN v1 used booleanFalse; actual immutable source artifact uses empty list. v2 checks literal [] without coercion. No stage or CLI attempt occurred.",
+  "AST_parse": "PASS",
+  "phase": "UNRUN_FIRST_APPLY_AND_CAPTURE_ONLY",
+  "root_authorization_shape_NOT_AUTHORIZATION": {
+    "task": "T-0788",
+    "phase": "clone-first-apply-and-capture-actual-requests",
+    "root_authorized": true,
+    "runtime_resolution_authorized": false,
+    "canonical_authorized": false,
+    "database_replacement_authorized": false,
+    "retry_authorized": false,
+    "baseline_state": {
+      "journal_head": 449,
+      "pending": 0
+    },
+    "target_count": 36,
+    "revision_count": 31,
+    "create_count": 5,
+    "media_count": 1,
+    "actual_request_count_not_inferred_from28_inputs": true,
+    "package_pin": {
+      "path": "evaluations/T-0788/implementation/exact36-draft-v1/exact36-one-operation-package-proposal-v1.json",
+      "sha256": "bf66548538c7fdca2464150dd4ca2d1d886e8e1ee12e26f966ba6c533e20ae82"
+    },
+    "operation_pin": {
+      "path": "evaluations/T-0788/implementation/exact36-draft-v1/exact36-one-controlled-operation-v1.json",
+      "sha256": "f6e2709c21542736c330288868e404b4b300a6c0a2013e9df83d564a4dc3d07a"
+    },
+    "main_baseline_pin": {
+      "path": "genealogy2/data/research.sqlite",
+      "sha256": "040e13c47dd6a01a3fa10f470b5685776f92de5c9214e1d5bdd399ba9ef414c7"
+    },
+    "baseline_DB_pin": {
+      "path": "evaluations/T-0788/preparation/baseline-j449.sqlite",
+      "sha256": "ea35b3d3bc782c7537da0dbf5fa89089945df8ae319543a0f7d5b061fe945b8e"
+    },
+    "primary_gate": {
+      "pin": "ROOT_INSERT_EXACT_PRIMARY_BUILT_BYTE_GATE_PIN",
+      "ready_pointer": "ROOT_INSERT_LITERAL_READY_POINTER",
+      "proposal_pin_pointer": "ROOT_INSERT_LITERAL_PACKAGE_PIN_POINTER",
+      "membership_pin_pointer": "ROOT_INSERT_LITERAL_MEMBERSHIP_POINTER",
+      "operation_pin_pointer": "ROOT_INSERT_LITERAL_OPERATION_POINTER"
+    },
+    "independent_gate": {
+      "pin": "ROOT_INSERT_EXACT_SEPARATE_INDEPENDENT_BUILT_BYTE_GATE_PIN",
+      "ready_pointer": "ROOT_INSERT_LITERAL_READY_POINTER",
+      "proposal_pin_pointer": "ROOT_INSERT_LITERAL_PACKAGE_PIN_POINTER",
+      "membership_pin_pointer": "ROOT_INSERT_LITERAL_MEMBERSHIP_POINTER",
+      "operation_pin_pointer": "ROOT_INSERT_LITERAL_OPERATION_POINTER"
+    },
+    "source_code_pins": [
+      "ROOT_INSERT_RAW_CODE_NORM_REVIEW_PINS"
+    ],
+    "stage_output_root": "evaluations/T-0788/exact36-stage-v1"
+  },
+  "command_template": [
+    "python",
+    "evaluations/T-0788/implementation/stage_root_authorized_exact36_firstphase_v2.py",
+    "--authorization",
+    "ROOT_WRITTEN_AUTH_PATH",
+    "--authorization-sha256",
+    "ROOT_AUTH_SHA",
+    "--helper-sha256",
+    "e829b78592029e9cf2b1244370c7127d2ae47d6d82cd5767abb84a559d71022f"
+  ],
+  "expected_journal_transition": [
+    449,
+    450
+  ],
+  "pending_after": "ACTUAL_READ_NOT_INFERRED; every actual ID requires source and separate independent grading before any resolution.",
+  "full50_policy": "Exact schema, old raw ordered rows and full native/current metadata; narrow derived search may replace only36 exact touched object rows. Protected42/current acceptedT7 retained.",
+  "final_checks": "Six relevant readonly checks after root separately authorizes the next phase following individual actual request grades. No repeated broad model test suite.",
+  "source_operation_or_array_changes": false,
+  "runtime_executed": false,
+  "canonical_authorized": false,
+  "usage": "UNKNOWN pending root collector"
+}

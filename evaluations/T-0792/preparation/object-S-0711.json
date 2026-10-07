@@ -1,0 +1,145 @@
+{
+  "object": "S-0711",
+  "kind": "source",
+  "currentVersion": 2,
+  "current": {
+    "revision_id": "S-0711@2",
+    "title": "S-0711: SvenskaGravar.se — gravregister över flera kyrkogårdsförvaltningar",
+    "archive_reference": null,
+    "source_class": null,
+    "description": "# S-0711: SvenskaGravar.se — gravregister över flera kyrkogårdsförvaltningar\n\n- Leverantör: SvenskaGravar.se, <https://www.svenskagravar.se/>\n- Omfattning vid läsningen 2026-09-06: 1 132 kyrkogårdar hos 137\n  kyrkogårdsförvaltningar\n- Sökväg: `https://www.svenskagravar.se/search?query=<fritext>`\n  (GET-parameter `query`; fri text över namn, kyrkogård, ort, förvaltning och\n  datum). Träfflistan grupperas per förvaltning och ger namn, födelse-,\n  döds- och gravsättningsdatum, kyrkogård, kvarter, hemort, gravplats och\n  gravplatsnummer.\n- Täckningsfynd 2026-09-06: registret omfattar flera förvaltningar som\n  saknas hos gravar.se, bland andra **Floby pastorat**, **Falköpings\n  pastorat**, **Södertälje pastorat**, **Flen, Helgesta-Hyltinge\n  församling**, **Danderyds församling**, **Gustav Vasa församling** och\n  **Bygdeå församling**. Det gör tidigare täckningsnollor hos gravar.se\n  omprövningsbara för P-0003, P-0007, P-0015, P-0016, P-0048, P-0049 och\n  P-0240.\n- Åtkomst: fri, ingen inloggning. Ingen lokal kopia av sidan sparas.\n\n## Tillägg 2026-09-06 (T-0076): Kalmar och Norra Öland\n\nYtterligare två förvaltningar är belagda i registret: **Kalmar Pastorat**\n(Norra och Södra kyrkogården) och **Norra Ölands pastorat** (Högby\nkyrkogård). Sökningen `Carlman Kalmar` gav åtta träffar, varav fem i en och\nsamma gravplats, **Norra kyrkogården kvarter 02, gravplats 0056B\n(gravplatsnummer `202 0056B`)**, med länken `Gravsatta i denna grav`.\nFritextsökningen `Carlman` ensam gav 118 träffar fördelade på 28\nförvaltningar.\n\nRegistret redovisar för varje gravsatt namn, födelsedatum, dödsdatum,\ngravsättningsdatum, kyrkogård, kvarter, **hemort** och gravplatsnummer.\nHemortsfältet anger folkbokföringsorten vid dödsfallet och är därför en\nsjälvständig upplysning, inte en dubblett av kyrkogårdens ort.\n\n## Tillägg 2026-09-06 (T-0081): Malmö pastorat och en positivkontroll\n\nSökningen `Malmö` visar registrets förvaltningsfördelning och belägger att\n**Malmö pastorat ingår med 231 303 gravsatta** — den överlägset största\nposten i registret, följd av Lunds pastorat (2 161) och Ystad-Sövestads\nförsamling (426). Också Landskrona (246), Burlöv (240), Höör (263), Eslöv\n(179) och Ronneby (145) finns med. Registret täcker alltså Skåne väl.\n\n**Positivkontroll av frågesyntaxen** gjordes innan ett nollresultat fick\nbokföras: fritextsökningen `Hulda Amalia Ekholm` ger exakt en träff, den\nredan belagda graven i Flen (C-0923). Flera förnamn plus efternamn i fri\nföljd fungerar alltså, och ett nollresultat på samma form är ett giltigt\navgränsat noll.\n\nKvarstående täckningsförbehåll: registret redovisar **namngivna\ngravsättningar**. Aska i minneslund och gravar vars gravrätt upphört saknas\ni regel, och ett noll utesluter därför inte att personen är begravd inom\nförvaltningen.\n\n## Titelavstämning 2026-09-18, T-0115\n\nKällans titel har vidgats från ”SvenskaGravar.se, gravsatta i Floby pastorat” till att motsvara den redan dokumenterade användningen för flera förvaltningar, inklusive Kalmar, Norra Öland och Malmö. Samma källa och identifierare behålls. Siffror, åtkomstuppgifter och sökutfall ovan är daterade äldre observationer; de har inte aktualitetskontrollerats här. Kvarstående täcknings- och bevarandeförbehåll består. Föregående titel finns i äldre version och importursprung.\n",
+    "object_id": "S-0711",
+    "version": 2,
+    "kind": "source",
+    "disposition": "recorded",
+    "evidence_status": null,
+    "rationale": "T-0115: Den gamla titeln begränsar tjänsten till Floby trots att dess redan bevarade beskrivning också omfattar Kalmar, Norra Öland och Malmö. Det är samma SvenskaGravar-tjänst, inte ett nytt arkiv eller en ny kontroll av dess nuvarande täckning. Tidigare revision och ursprung bevaras; utkastet appliceras först efter granskning.",
+    "caveat": "Redaktionellt rättat källomfång, ingen ny webbåtkomst eller bekräftelse av tjänstens nuvarande täckning. De daterade äldre observationerna och bevarandebegränsningarna består.",
+    "origins": [
+      {
+        "revision_id": "S-0711@2",
+        "unit_id": "a5b82a13f6e99d34916fd54d688cdc52cfa793387c0b0ae95de56fc571711437",
+        "coverage": "complete",
+        "note": "Återanvändning av äldre forskningsunderlag; inte ett nytt oberoende belägg.",
+        "document_path": "genealogy/sources/S-0711-svenskagravar-hook-floby.md",
+        "start_line": 1,
+        "end_line": 52
+      }
+    ],
+    "evidence": [],
+    "pending_reviews": []
+  },
+  "conversionOrigins": [
+    {
+      "id": "UD-a5b82a13f6e99d34916fd54d688cdc52cfa793387c0b0ae95de56fc571711437@1",
+      "state": "mapped_complete",
+      "rationale": "Hela äldre källbeskrivningen inklusive metadata och senare tillägg finns ordagrant i source.description. Arkivfält och källklass är inte därmed normaliserade.",
+      "question": "",
+      "document_path": "genealogy/sources/S-0711-svenskagravar-hook-floby.md",
+      "start_line": 1,
+      "end_line": 52
+    },
+    {
+      "id": "UD-f7e51e07597ef2ad97fde7bb26802f587a108ad85be16ae7d4876ed2aa01bedf@1",
+      "state": "mapped_complete",
+      "rationale": "Hela äldre källbeskrivningen inklusive metadata och senare tillägg finns ordagrant i source.description. Arkivfält och källklass är inte därmed normaliserade.",
+      "question": "",
+      "document_path": "genealogy/sources/S-0711-svenskagravar-hook-floby.md",
+      "start_line": 20,
+      "end_line": 34
+    },
+    {
+      "id": "UD-1db801599ffff381fa7f2a26087bdc3ce55133cb84721ff4c0cd1dcc849f895f@1",
+      "state": "mapped_complete",
+      "rationale": "Hela äldre källbeskrivningen inklusive metadata och senare tillägg finns ordagrant i source.description. Arkivfält och källklass är inte därmed normaliserade.",
+      "question": "",
+      "document_path": "genealogy/sources/S-0711-svenskagravar-hook-floby.md",
+      "start_line": 35,
+      "end_line": 52
+    }
+  ],
+  "revisions": [
+    {
+      "id": "S-0711@1",
+      "object_id": "S-0711",
+      "version": 1,
+      "operation_id": "T-0645/registry-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Den fullständiga äldre källbeskrivningen och dess metadata bevaras ordagrant. Separata normaliserade arkivfält och källklass tilldelas inte genom gissning.",
+      "caveat": "",
+      "previous_id": null,
+      "data": {
+        "revision_id": "S-0711@1",
+        "title": "S-0711: SvenskaGravar.se, gravsatta i Floby pastorat",
+        "archive_reference": null,
+        "source_class": null,
+        "description": "# S-0711: SvenskaGravar.se, gravsatta i Floby pastorat\n\n- Leverantör: SvenskaGravar.se, <https://www.svenskagravar.se/>\n- Omfattning vid läsningen 2026-09-06: 1 132 kyrkogårdar hos 137\n  kyrkogårdsförvaltningar\n- Sökväg: `https://www.svenskagravar.se/search?query=<fritext>`\n  (GET-parameter `query`; fri text över namn, kyrkogård, ort, förvaltning och\n  datum). Träfflistan grupperas per förvaltning och ger namn, födelse-,\n  döds- och gravsättningsdatum, kyrkogård, kvarter, hemort, gravplats och\n  gravplatsnummer.\n- Täckningsfynd 2026-09-06: registret omfattar flera förvaltningar som\n  saknas hos gravar.se, bland andra **Floby pastorat**, **Falköpings\n  pastorat**, **Södertälje pastorat**, **Flen, Helgesta-Hyltinge\n  församling**, **Danderyds församling**, **Gustav Vasa församling** och\n  **Bygdeå församling**. Det gör tidigare täckningsnollor hos gravar.se\n  omprövningsbara för P-0003, P-0007, P-0015, P-0016, P-0048, P-0049 och\n  P-0240.\n- Åtkomst: fri, ingen inloggning. Ingen lokal kopia av sidan sparas.\n\n## Tillägg 2026-09-06 (T-0076): Kalmar och Norra Öland\n\nYtterligare två förvaltningar är belagda i registret: **Kalmar Pastorat**\n(Norra och Södra kyrkogården) och **Norra Ölands pastorat** (Högby\nkyrkogård). Sökningen `Carlman Kalmar` gav åtta träffar, varav fem i en och\nsamma gravplats, **Norra kyrkogården kvarter 02, gravplats 0056B\n(gravplatsnummer `202 0056B`)**, med länken `Gravsatta i denna grav`.\nFritextsökningen `Carlman` ensam gav 118 träffar fördelade på 28\nförvaltningar.\n\nRegistret redovisar för varje gravsatt namn, födelsedatum, dödsdatum,\ngravsättningsdatum, kyrkogård, kvarter, **hemort** och gravplatsnummer.\nHemortsfältet anger folkbokföringsorten vid dödsfallet och är därför en\nsjälvständig upplysning, inte en dubblett av kyrkogårdens ort.\n\n## Tillägg 2026-09-06 (T-0081): Malmö pastorat och en positivkontroll\n\nSökningen `Malmö` visar registrets förvaltningsfördelning och belägger att\n**Malmö pastorat ingår med 231 303 gravsatta** — den överlägset största\nposten i registret, följd av Lunds pastorat (2 161) och Ystad-Sövestads\nförsamling (426). Också Landskrona (246), Burlöv (240), Höör (263), Eslöv\n(179) och Ronneby (145) finns med. Registret täcker alltså Skåne väl.\n\n**Positivkontroll av frågesyntaxen** gjordes innan ett nollresultat fick\nbokföras: fritextsökningen `Hulda Amalia Ekholm` ger exakt en träff, den\nredan belagda graven i Flen (C-0923). Flera förnamn plus efternamn i fri\nföljd fungerar alltså, och ett nollresultat på samma form är ett giltigt\navgränsat noll.\n\nKvarstående täckningsförbehåll: registret redovisar **namngivna\ngravsättningar**. Aska i minneslund och gravar vars gravrätt upphört saknas\ni regel, och ett noll utesluter därför inte att personen är begravd inom\nförvaltningen.\n"
+      },
+      "origins": [
+        {
+          "coverage": "complete",
+          "note": "Återanvändning av äldre forskningsunderlag; inte ett nytt oberoende belägg.",
+          "id": "a5b82a13f6e99d34916fd54d688cdc52cfa793387c0b0ae95de56fc571711437",
+          "document_path": "genealogy/sources/S-0711-svenskagravar-hook-floby.md",
+          "kind": "curated_span",
+          "legacy_id": null,
+          "owner_id": null,
+          "section": "Registerunderlag 1–53",
+          "start_byte": 0,
+          "end_byte": 2872,
+          "start_line": 1,
+          "end_line": 52,
+          "raw": "# S-0711: SvenskaGravar.se, gravsatta i Floby pastorat\n\n- Leverantör: SvenskaGravar.se, <https://www.svenskagravar.se/>\n- Omfattning vid läsningen 2026-09-06: 1 132 kyrkogårdar hos 137\n  kyrkogårdsförvaltningar\n- Sökväg: `https://www.svenskagravar.se/search?query=<fritext>`\n  (GET-parameter `query`; fri text över namn, kyrkogård, ort, förvaltning och\n  datum). Träfflistan grupperas per förvaltning och ger namn, födelse-,\n  döds- och gravsättningsdatum, kyrkogård, kvarter, hemort, gravplats och\n  gravplatsnummer.\n- Täckningsfynd 2026-09-06: registret omfattar flera förvaltningar som\n  saknas hos gravar.se, bland andra **Floby pastorat**, **Falköpings\n  pastorat**, **Södertälje pastorat**, **Flen, Helgesta-Hyltinge\n  församling**, **Danderyds församling**, **Gustav Vasa församling** och\n  **Bygdeå församling**. Det gör tidigare täckningsnollor hos gravar.se\n  omprövningsbara för P-0003, P-0007, P-0015, P-0016, P-0048, P-0049 och\n  P-0240.\n- Åtkomst: fri, ingen inloggning. Ingen lokal kopia av sidan sparas.\n\n## Tillägg 2026-09-06 (T-0076): Kalmar och Norra Öland\n\nYtterligare två förvaltningar är belagda i registret: **Kalmar Pastorat**\n(Norra och Södra kyrkogården) och **Norra Ölands pastorat** (Högby\nkyrkogård). Sökningen `Carlman Kalmar` gav åtta träffar, varav fem i en och\nsamma gravplats, **Norra kyrkogården kvarter 02, gravplats 0056B\n(gravplatsnummer `202 0056B`)**, med länken `Gravsatta i denna grav`.\nFritextsökningen `Carlman` ensam gav 118 träffar fördelade på 28\nförvaltningar.\n\nRegistret redovisar för varje gravsatt namn, födelsedatum, dödsdatum,\ngravsättningsdatum, kyrkogård, kvarter, **hemort** och gravplatsnummer.\nHemortsfältet anger folkbokföringsorten vid dödsfallet och är därför en\nsjälvständig upplysning, inte en dubblett av kyrkogårdens ort.\n\n## Tillägg 2026-09-06 (T-0081): Malmö pastorat och en positivkontroll\n\nSökningen `Malmö` visar registrets förvaltningsfördelning och belägger att\n**Malmö pastorat ingår med 231 303 gravsatta** — den överlägset största\nposten i registret, följd av Lunds pastorat (2 161) och Ystad-Sövestads\nförsamling (426). Också Landskrona (246), Burlöv (240), Höör (263), Eslöv\n(179) och Ronneby (145) finns med. Registret täcker alltså Skåne väl.\n\n**Positivkontroll av frågesyntaxen** gjordes innan ett nollresultat fick\nbokföras: fritextsökningen `Hulda Amalia Ekholm` ger exakt en träff, den\nredan belagda graven i Flen (C-0923). Flera förnamn plus efternamn i fri\nföljd fungerar alltså, och ett nollresultat på samma form är ett giltigt\navgränsat noll.\n\nKvarstående täckningsförbehåll: registret redovisar **namngivna\ngravsättningar**. Aska i minneslund och gravar vars gravrätt upphört saknas\ni regel, och ett noll utesluter därför inte att personen är begravd inom\nförvaltningen.\n",
+          "parsed_json": "{\"extractor\":\"curation-span/1\",\"operation\":\"T-0645/registry-v1\"}",
+          "historical": 0,
+          "sha256": "6577b809786e11e0f7711cb0a5f04567f060e46378d93c5513267753821249ca"
+        }
+      ],
+      "evidence": [],
+      "assets": [],
+      "nativeAssets": []
+    },
+    {
+      "id": "S-0711@2",
+      "object_id": "S-0711",
+      "version": 2,
+      "operation_id": "T-0115-status-scope-correction-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "T-0115: Den gamla titeln begränsar tjänsten till Floby trots att dess redan bevarade beskrivning också omfattar Kalmar, Norra Öland och Malmö. Det är samma SvenskaGravar-tjänst, inte ett nytt arkiv eller en ny kontroll av dess nuvarande täckning. Tidigare revision och ursprung bevaras; utkastet appliceras först efter granskning.",
+      "caveat": "Redaktionellt rättat källomfång, ingen ny webbåtkomst eller bekräftelse av tjänstens nuvarande täckning. De daterade äldre observationerna och bevarandebegränsningarna består.",
+      "previous_id": "S-0711@1",
+      "data": {
+        "revision_id": "S-0711@2",
+        "title": "S-0711: SvenskaGravar.se — gravregister över flera kyrkogårdsförvaltningar",
+        "archive_reference": null,
+        "source_class": null,
+        "description": "# S-0711: SvenskaGravar.se — gravregister över flera kyrkogårdsförvaltningar\n\n- Leverantör: SvenskaGravar.se, <https://www.svenskagravar.se/>\n- Omfattning vid läsningen 2026-09-06: 1 132 kyrkogårdar hos 137\n  kyrkogårdsförvaltningar\n- Sökväg: `https://www.svenskagravar.se/search?query=<fritext>`\n  (GET-parameter `query`; fri text över namn, kyrkogård, ort, förvaltning och\n  datum). Träfflistan grupperas per förvaltning och ger namn, födelse-,\n  döds- och gravsättningsdatum, kyrkogård, kvarter, hemort, gravplats och\n  gravplatsnummer.\n- Täckningsfynd 2026-09-06: registret omfattar flera förvaltningar som\n  saknas hos gravar.se, bland andra **Floby pastorat**, **Falköpings\n  pastorat**, **Södertälje pastorat**, **Flen, Helgesta-Hyltinge\n  församling**, **Danderyds församling**, **Gustav Vasa församling** och\n  **Bygdeå församling**. Det gör tidigare täckningsnollor hos gravar.se\n  omprövningsbara för P-0003, P-0007, P-0015, P-0016, P-0048, P-0049 och\n  P-0240.\n- Åtkomst: fri, ingen inloggning. Ingen lokal kopia av sidan sparas.\n\n## Tillägg 2026-09-06 (T-0076): Kalmar och Norra Öland\n\nYtterligare två förvaltningar är belagda i registret: **Kalmar Pastorat**\n(Norra och Södra kyrkogården) och **Norra Ölands pastorat** (Högby\nkyrkogård). Sökningen `Carlman Kalmar` gav åtta träffar, varav fem i en och\nsamma gravplats, **Norra kyrkogården kvarter 02, gravplats 0056B\n(gravplatsnummer `202 0056B`)**, med länken `Gravsatta i denna grav`.\nFritextsökningen `Carlman` ensam gav 118 träffar fördelade på 28\nförvaltningar.\n\nRegistret redovisar för varje gravsatt namn, födelsedatum, dödsdatum,\ngravsättningsdatum, kyrkogård, kvarter, **hemort** och gravplatsnummer.\nHemortsfältet anger folkbokföringsorten vid dödsfallet och är därför en\nsjälvständig upplysning, inte en dubblett av kyrkogårdens ort.\n\n## Tillägg 2026-09-06 (T-0081): Malmö pastorat och en positivkontroll\n\nSökningen `Malmö` visar registrets förvaltningsfördelning och belägger att\n**Malmö pastorat ingår med 231 303 gravsatta** — den överlägset största\nposten i registret, följd av Lunds pastorat (2 161) och Ystad-Sövestads\nförsamling (426). Också Landskrona (246), Burlöv (240), Höör (263), Eslöv\n(179) och Ronneby (145) finns med. Registret täcker alltså Skåne väl.\n\n**Positivkontroll av frågesyntaxen** gjordes innan ett nollresultat fick\nbokföras: fritextsökningen `Hulda Amalia Ekholm` ger exakt en träff, den\nredan belagda graven i Flen (C-0923). Flera förnamn plus efternamn i fri\nföljd fungerar alltså, och ett nollresultat på samma form är ett giltigt\navgränsat noll.\n\nKvarstående täckningsförbehåll: registret redovisar **namngivna\ngravsättningar**. Aska i minneslund och gravar vars gravrätt upphört saknas\ni regel, och ett noll utesluter därför inte att personen är begravd inom\nförvaltningen.\n\n## Titelavstämning 2026-09-18, T-0115\n\nKällans titel har vidgats från ”SvenskaGravar.se, gravsatta i Floby pastorat” till att motsvara den redan dokumenterade användningen för flera förvaltningar, inklusive Kalmar, Norra Öland och Malmö. Samma källa och identifierare behålls. Siffror, åtkomstuppgifter och sökutfall ovan är daterade äldre observationer; de har inte aktualitetskontrollerats här. Kvarstående täcknings- och bevarandeförbehåll består. Föregående titel finns i äldre version och importursprung.\n"
+      },
+      "origins": [
+        {
+          "coverage": "complete",
+          "note": "Återanvändning av äldre forskningsunderlag; inte ett nytt oberoende belägg.",
+          "id": "a5b82a13f6e99d34916fd54d688cdc52cfa793387c0b0ae95de56fc571711437",
+          "document_path": "genealogy/sources/S-0711-svenskagravar-hook-floby.md",
+          "kind": "curated_span",
+          "legacy_id": null,
+          "owner_id": null,
+          "section": "Registerunderlag 1–53",
+          "start_byte": 0,
+          "end_byte": 2872,
+          "start_line": 1,
+          "end_line": 52,
+          "raw": "# S-0711: SvenskaGravar.se, gravsatta i Floby pastorat\n\n- Leverantör: SvenskaGravar.se, <https://www.svenskagravar.se/>\n- Omfattning vid läsningen 2026-09-06: 1 132 kyrkogårdar hos 137\n  kyrkogårdsförvaltningar\n- Sökväg: `https://www.svenskagravar.se/search?query=<fritext>`\n  (GET-parameter `query`; fri text över namn, kyrkogård, ort, förvaltning och\n  datum). Träfflistan grupperas per förvaltning och ger namn, födelse-,\n  döds- och gravsättningsdatum, kyrkogård, kvarter, hemort, gravplats och\n  gravplatsnummer.\n- Täckningsfynd 2026-09-06: registret omfattar flera förvaltningar som\n  saknas hos gravar.se, bland andra **Floby pastorat**, **Falköpings\n  pastorat**, **Södertälje pastorat**, **Flen, Helgesta-Hyltinge\n  församling**, **Danderyds församling**, **Gustav Vasa församling** och\n  **Bygdeå församling**. Det gör tidigare täckningsnollor hos gravar.se\n  omprövningsbara för P-0003, P-0007, P-0015, P-0016, P-0048, P-0049 och\n  P-0240.\n- Åtkomst: fri, ingen inloggning. Ingen lokal kopia av sidan sparas.\n\n## Tillägg 2026-09-06 (T-0076): Kalmar och Norra Öland\n\nYtterligare två förvaltningar är belagda i registret: **Kalmar Pastorat**\n(Norra och Södra kyrkogården) och **Norra Ölands pastorat** (Högby\nkyrkogård). Sökningen `Carlman Kalmar` gav åtta träffar, varav fem i en och\nsamma gravplats, **Norra kyrkogården kvarter 02, gravplats 0056B\n(gravplatsnummer `202 0056B`)**, med länken `Gravsatta i denna grav`.\nFritextsökningen `Carlman` ensam gav 118 träffar fördelade på 28\nförvaltningar.\n\nRegistret redovisar för varje gravsatt namn, födelsedatum, dödsdatum,\ngravsättningsdatum, kyrkogård, kvarter, **hemort** och gravplatsnummer.\nHemortsfältet anger folkbokföringsorten vid dödsfallet och är därför en\nsjälvständig upplysning, inte en dubblett av kyrkogårdens ort.\n\n## Tillägg 2026-09-06 (T-0081): Malmö pastorat och en positivkontroll\n\nSökningen `Malmö` visar registrets förvaltningsfördelning och belägger att\n**Malmö pastorat ingår med 231 303 gravsatta** — den överlägset största\nposten i registret, följd av Lunds pastorat (2 161) och Ystad-Sövestads\nförsamling (426). Också Landskrona (246), Burlöv (240), Höör (263), Eslöv\n(179) och Ronneby (145) finns med. Registret täcker alltså Skåne väl.\n\n**Positivkontroll av frågesyntaxen** gjordes innan ett nollresultat fick\nbokföras: fritextsökningen `Hulda Amalia Ekholm` ger exakt en träff, den\nredan belagda graven i Flen (C-0923). Flera förnamn plus efternamn i fri\nföljd fungerar alltså, och ett nollresultat på samma form är ett giltigt\navgränsat noll.\n\nKvarstående täckningsförbehåll: registret redovisar **namngivna\ngravsättningar**. Aska i minneslund och gravar vars gravrätt upphört saknas\ni regel, och ett noll utesluter därför inte att personen är begravd inom\nförvaltningen.\n",
+          "parsed_json": "{\"extractor\":\"curation-span/1\",\"operation\":\"T-0645/registry-v1\"}",
+          "historical": 0,
+          "sha256": "6577b809786e11e0f7711cb0a5f04567f060e46378d93c5513267753821249ca"
+        }
+      ],
+      "evidence": [],
+      "assets": [],
+      "nativeAssets": []
+    }
+  ]
+}

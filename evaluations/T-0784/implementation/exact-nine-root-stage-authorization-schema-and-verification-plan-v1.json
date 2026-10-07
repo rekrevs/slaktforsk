@@ -1,0 +1,54 @@
+{
+  "task": "T-0784",
+  "status": "AUTHORIZATION_TEMPLATE_ONLY_UNRUN_NOT_AUTHORITY",
+  "authorization": "ONE_FRESH_EXACT9_ORDERED_CLONE_STAGE_ONLY",
+  "required_root_authorized": true,
+  "canonical_apply_authorized": false,
+  "resolution_apply_authorized": false,
+  "helper_pin": {
+    "path": "evaluations/T-0784/implementation/stage_root_authorized_exact_nine_v1.py",
+    "sha256": "84203caeacd8725eebca229266534e821c15ae94116536e8e1fa66b37c20700d"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0784/implementation/exact-nine-settled-draft-v1/exact-nine-stage-ready-proposal-v1.json",
+    "sha256": "fd438f10ba90901ab1171868c00e8acebb86de19979bcc1c64b3d0ac393b3ee9"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0784/implementation/exact-nine-settled-draft-v1/exact-nine-ordered-operation-membership-v1.json",
+    "sha256": "33afa563644ee34c07147006cae92e4e7a54dfd92871611dac84dad94ff8c176"
+  },
+  "baseline_pin": {
+    "path": "evaluations/T-0784/root-baseline-and-current-input-v1/baseline-j442.sqlite",
+    "sha256": "2736bba18cfd3c2e9c160cd719e268b646667cdc8b9e3a55e55fb86db73e8148"
+  },
+  "main_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "42321e363573c243597aded458e6a10d2d6cd8e4be47da02a227b149bbaed45f"
+  },
+  "primary_gate": "ROOT must set pin + ready_pointer + proposal_sha_pointer + membership_sha_pointer",
+  "independent_prestage_gate": "ROOT must set separate pin + ready_pointer + proposal_sha_pointer + membership_sha_pointer",
+  "fresh_baseline_receipt_pin": "ROOT fresh immutable all50/baseline/protected/current/media proof required",
+  "protected42_pin": {
+    "path": "evaluations/T-0781/mechanical-current425-preparation-v1/complete-current-OWNER-identity-tree-life-protected-native-payloads-v1.json",
+    "sha256": "34770e3082281dd6702bbf548c99f9a1ec9e4ca42cb1a292cdbcd7a55b013487"
+  },
+  "review_pins": "ROOT exact all source/freezes/guards/code/review/artifact pins",
+  "media_pins": "ROOT exact relevant existing media file pins",
+  "stage_path": "ROOT must choose absent evaluations/T-0784 path",
+  "expected_states": {
+    "before": {
+      "journal_head": 442,
+      "pending": 0
+    },
+    "after_journal_head": 443,
+    "after_pending": "ACTUAL READ ONLY; individual dual source grades required before any resolution"
+  },
+  "verification_plan": [
+    "Read immutable auth/gates/all50/main/baseline/currenthead before stage and each CLI",
+    "One exact policy2 operation9 changes in explicit source order, stored request JSON full equality",
+    "Full50 schema, only named knowledge journal table appends, old full rows/rowid order retained; derived search narrow percurrent affected object proof",
+    "Full9 API, histories/upstream/context/units/frozen text/media, complete actual requests,42 protected unchanged",
+    "verify,verify-assets,verify-source,inventory,verifiedAdam plus three complete current person views; no broad regression or originals",
+    "Live MAIN all50/hash/media/code/sourcepins unchanged; stop and preserve actualfailure without retry"
+  ]
+}

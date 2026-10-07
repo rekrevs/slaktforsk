@@ -65,3 +65,29 @@ genealogy2/migration/pilot-coverage.json
 !genealogy2/verification/T-0677/**
 genealogy2/verification/T-0677/**/__pycache__/
 genealogy2/verification/T-0677/**/*.pyc
+
+# Disposable evaluation databases and duplicated stage journals.
+evaluations/**/*.sqlite
+evaluations/**/*.sqlite-*
+evaluations/**/journal/
+# Large full-state diagnostics remain local; their manifests and compact receipts are retained.
+/evaluations/T-0778/C1047-preparation/full-group-closure-input-v1.json
+/evaluations/T-0778/full-group-closure-input-v1.json
+/evaluations/T-0780/full10-stage-final143-v1/all-operation-payloads.json
+/evaluations/T-0780/implementation/C0069-remaining532-disposition-candidate-pointer-handoff-v1/individual532-full-prior-latest-disposition-and-actual-candidate-handoff-v1.json
+/evaluations/T-0780/implementation/five-expanded-exactnative-pointer-join-v1/deduplicated-full-source-decision-contexts-v1.json
+/evaluations/T-0780/implementation/five-expanded-exactnative-pointer-join-v2/deduplicated-full-source-decision-contexts-v1.json
+/evaluations/T-0780/implementation/resumed-final-selected-and-prior-own-predicate-join-v1/compact-strict-own-predicates-input-index-and-current-field-equality-v1.json
+/evaluations/T-0780/implementation/resumed-final-selected-and-prior-own-predicate-join-v1/five-scope-exact-own-current-field-reading-locators-v10.json
+/evaluations/T-0781/exact16-fresh-stage-v1/all-operation-payloads.json
+/evaluations/T-0784/root-authorized-exact-nine-stage-v1/all-operation-payloads.json
+/evaluations/T-0787/exact136-stage-v1/all-operation-payloads-v1.json
+/evaluations/T-0788/exact36-stage-v1/all-operation-payloads-v1.json
+/evaluations/T-0789/exact21-stage-v1/readonly-bindings-projection-continuation-v1/all-operation-payloads-v1.json
+/evaluations/T-0790/preparation/accepted-operation-receipts.json
+/evaluations/T-0791/preparation/accepted-object-operations.json
+/evaluations/T-0792/implementation/stage464-v1/qualified-full-axis-default-pedigree-proof-v1.json
+/evaluations/T-0792/preparation/accepted-object-operations.json
+/evaluations/T-0795/preparation/accepted-operation-receipts.json
+/evaluations/T-0804/implementation/stage467-v1/full-pedigree-axis-control-v1.json
+/evaluations/T-0804/preparation/full-native-focal-and-direct-support-v1.json

@@ -1,0 +1,522 @@
+{
+  "task": "T-0780",
+  "scope": "Twelve bounded current semantic residuals in finite C685448/109 review; same locked ten originals.",
+  "input_join_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-primary-C685-C60-selected-reuse-join-v1/primary-C685448-C60168-and-selected-exact-source-field-reuse-v1.json",
+    "sha256": "1261810164ae2916c286236a983bc3c6bec369105b5dfcdac4088b3a69baa105"
+  },
+  "objects": [
+    {
+      "object_id": "F-P-0422-family_context-father-own-late-row",
+      "current": {
+        "id": "F-P-0422-family_context-father-own-late-row@1",
+        "object_id": "F-P-0422-family_context-father-own-late-row",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Senare daterat tillägg överordnar gamla återgivningar; faderns egen födelsepost oläst och änklingsstatus inte säker.",
+        "previous_id": null,
+        "kind": "fact",
+        "data": {
+          "revision_id": "F-P-0422-family_context-father-own-late-row@1",
+          "subject_id": "P-0422",
+          "property": "family_context",
+          "value_type": "structured",
+          "value_json": "{\"arrival_later\":\"1869 8/11\",\"arrival_older\":\"1867 8/11[?]\",\"belongs_to_father_only\":true,\"birth_book\":\"1785 4/11 Bygdeå\",\"death_later\":\"1870 27/12\",\"death_older\":\"1870 22/12[?]\",\"father\":\"P-0470\",\"father_widower_symbol\":\"s[?]\",\"from_folio\":582}"
+        },
+        "origins": [
+          {
+            "revision_id": "F-P-0422-family_context-father-own-late-row@1",
+            "unit_id": "10f37415ffce340e69c8a0c0e5ccb75a64d358a45c8744c258f8d285194db3d0",
+            "coverage": "partial",
+            "note": "Individuellt representerad sakrad med rättade källfält, samtidiga förbehåll och uttryckliga beläggsgränser."
+          },
+          {
+            "revision_id": "F-P-0422-family_context-father-own-late-row@1",
+            "unit_id": "1d4c47d9c60121278f3bb09ba0b9664ff97cd4029dca5fed290f044180099855",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0422-family_context-father-own-late-row@1",
+            "unit_id": "ba299be69d17992d595c8ba034fca3523cc27d1cb81f2b26d27fb88aeb63bb41",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0422-family_context-father-own-late-row@1",
+            "unit_id": "cb780ff276415c16c4217a0a0644f994ac4c881a0574820132277f0ea6a8f7a0",
+            "coverage": "partial",
+            "note": "Förälder ur egen födelsepost/hushåll; faderns senare celler rättade separat."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_value_json_and_caveat",
+      "edits": [
+        {
+          "field": "value_json",
+          "old": "{\"arrival_later\":\"1869 8/11\",\"arrival_older\":\"1867 8/11[?]\",\"belongs_to_father_only\":true,\"birth_book\":\"1785 4/11 Bygdeå\",\"death_later\":\"1870 27/12\",\"death_older\":\"1870 22/12[?]\",\"father\":\"P-0470\",\"father_widower_symbol\":\"s[?]\",\"from_folio\":582}",
+          "new": "{\"arrival_later\":\"1869 8/11\",\"arrival_older\":\"1867 8/11[?]\",\"belongs_to_father_only\":true,\"birth_book\":\"1785 4/11 Bygdeå\",\"death_later\":\"1870 27/12\",\"death_older\":\"1870 22/12[?]\",\"father\":\"P-0470\",\"from_folio\":582,\"father_widower_symbol_older_reading\":\"s[?], tidigare felaktigt knutet till änkefältet\",\"father_koppor_symbol\":\"s-liknande tecken\",\"father_widow_column\":\"tom\",\"father_widower_status_established\":false}"
+        },
+        {
+          "field": "caveat",
+          "old": "Senare daterat tillägg överordnar gamla återgivningar; faderns egen födelsepost oläst och änklingsstatus inte säker.",
+          "new": "Senare daterat tillägg överordnar gamla återgivningar; faderns egen födelsepost oläst och änklingsstatus inte säker. T-0780: den tidigare etiketten father_widower_symbol är fel kolumnattribution. Det s-liknande tecknet står i Koppor; Enkling eller Enka är tom. Ingen änklingsstatus eller hustrudöd följer av tecknet."
+        }
+      ],
+      "reason": "Återbruk av redan avgjord C0563-faderrad; gammal strukturerad fältnyckel får inte bära annan kolumninnebörd än fullTR. Äldre råform bevaras uttryckligen historiskt.",
+      "evidence_additions": [
+        {
+          "object": "TR-T0780-C0563-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "Samma redan fullständigt lästa faderrad: s-liknande i Koppor, tom änkekolumn; ingen ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "object_id": "P-0426/Q-01",
+      "current": {
+        "id": "P-0426/Q-01@1",
+        "object_id": "P-0426/Q-01",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil, fulla C0562/C0690 och hushållscitationer inklusive senare rättelser samt S0440 lästa. Ingen obelagd drängtjänst eller Stenbergvigsel återinförs.31/21oktober reserveras, fräjd9Klinte tjänst, åtta dopvittnen inklusive två namnlösa hustrur.",
+        "previous_id": null,
+        "kind": "question",
+        "data": {
+          "revision_id": "P-0426/Q-01@1",
+          "subject_id": "P-0426",
+          "title": "Q-01: Vad blev av Per August efter utflyttningen i oktober 1888?",
+          "outcome": "ÖPPEN.",
+          "body": "### Q-01: Vad blev av Per August efter utflyttningen i oktober 1888?\n\n- Fråga och betydelse: identifiera hans hushåll på sida 738 i Sävar A I/8 b och\n  därmed yrke, civilstånd, eventuell hustru och barn samt nästa folio. Frågan\n  avgör också om den avförda uppgiften om drängtjänst och giftermål 1890 med\n  Anna Karolina Stenberg har någon grund.\n- Känt underlag: `738` och `88 3[1?]/10` i bortflyttningskolumnen på hans egen,\n  överstrukna rad\n  ([C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md));\n  volymens ortregister anger sida 738 som Botsmark N:o 4\n  ([S-0440](../sources/S-0440-riksarkivet-savar-AI8b-botsmark-sida-756.md)).\n  Batch 84 uppger att sidorna 725–760 lästes, men ingen avskrift av sida 738\n  eller 760 bevarades.\n- Alternativ och motprövning: mottagarsidan kan visa honom som dräng, som\n  bonde, som måg eller inte alls, vilket i så fall skulle betyda att\n  hänvisningen är felläst eller att raden fortsätter i en annan volym.\n  Dagtalet är omläst i förstoring mot samma hands `738` och mot grannradernas\n  `86 11/4` och `93 12/8` och behåller reservationen `3[1?]/10`; 21 kan inte\n  säkert uteslutas, och mottagarsidan avgör dagen. En hustru vid namn Stenberg\n  kan varken bekräftas eller avvisas utan sidan.\n- Källvägar: KP-01; därefter KP-03 för senare liv.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: konflikten är intern i projektet, inte mellan\n  källor: en tidigare akttext bar uppgifter som ingen bevarad källa stöder.\n  Ingen del av den obevarade läsningen får återanvändas som belägg innan\n  sidan är läst och citerad.\n- Påverkade personer/påståenden: P-0426 och A-2435; en hustru och barn skulle\n  ge nya personer och påverka P-0422:s och P-0028:s familjebild.\n\n"
+        },
+        "origins": [
+          {
+            "revision_id": "P-0426/Q-01@1",
+            "unit_id": "5f967b5039bbd0b7545641fbd479fd018c42d333dba0bd13c72f12fc796953c2",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_body_only",
+      "edits": [
+        {
+          "field": "body",
+          "old": "### Q-01: Vad blev av Per August efter utflyttningen i oktober 1888?\n\n- Fråga och betydelse: identifiera hans hushåll på sida 738 i Sävar A I/8 b och\n  därmed yrke, civilstånd, eventuell hustru och barn samt nästa folio. Frågan\n  avgör också om den avförda uppgiften om drängtjänst och giftermål 1890 med\n  Anna Karolina Stenberg har någon grund.\n- Känt underlag: `738` och `88 3[1?]/10` i bortflyttningskolumnen på hans egen,\n  överstrukna rad\n  ([C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md));\n  volymens ortregister anger sida 738 som Botsmark N:o 4\n  ([S-0440](../sources/S-0440-riksarkivet-savar-AI8b-botsmark-sida-756.md)).\n  Batch 84 uppger att sidorna 725–760 lästes, men ingen avskrift av sida 738\n  eller 760 bevarades.\n- Alternativ och motprövning: mottagarsidan kan visa honom som dräng, som\n  bonde, som måg eller inte alls, vilket i så fall skulle betyda att\n  hänvisningen är felläst eller att raden fortsätter i en annan volym.\n  Dagtalet är omläst i förstoring mot samma hands `738` och mot grannradernas\n  `86 11/4` och `93 12/8` och behåller reservationen `3[1?]/10`; 21 kan inte\n  säkert uteslutas, och mottagarsidan avgör dagen. En hustru vid namn Stenberg\n  kan varken bekräftas eller avvisas utan sidan.\n- Källvägar: KP-01; därefter KP-03 för senare liv.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: konflikten är intern i projektet, inte mellan\n  källor: en tidigare akttext bar uppgifter som ingen bevarad källa stöder.\n  Ingen del av den obevarade läsningen får återanvändas som belägg innan\n  sidan är läst och citerad.\n- Påverkade personer/påståenden: P-0426 och A-2435; en hustru och barn skulle\n  ge nya personer och påverka P-0422:s och P-0028:s familjebild.\n\n",
+          "new": "### Q-01: Vad blev av Per August efter utflyttningen i oktober 1888?\n\n- Fråga och betydelse: pröva hans möjliga rad på sida 738 i Sävar A I/8 b och\n  vilka uppgifter den faktiskt innehåller om yrke, civilstånd, eventuell\n  familj och fortsättning. Frågan\n  avgör också om den avförda uppgiften om drängtjänst och giftermål 1890 med\n  Anna Karolina Stenberg har någon grund.\n- Känt underlag: `738` och `88 3[1?]/10` i bortflyttningskolumnen på hans egen,\n  överstrukna rad\n  ([C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md));\n  volymens ortregister anger sida 738 som Botsmark N:o 4\n  ([S-0440](../sources/S-0440-riksarkivet-savar-AI8b-botsmark-sida-756.md)).\n  Batch 84 uppger att sidorna 725–760 lästes, men ingen avskrift av sida 738\n  eller 760 bevarades.\n- Alternativ och motprövning: mottagarsidan kan visa honom som dräng, som\n  bonde, som måg eller inte alls, vilket i så fall skulle betyda att\n  hänvisningen är felläst eller att raden fortsätter i en annan volym.\n  Dagtalet är omläst i förstoring mot samma hands `738` och mot grannradernas\n  `86 11/4` och `93 12/8` och behåller reservationen `3[1?]/10`; 21 kan inte\n  säkert uteslutas. Mottagarsidan kan ge jämförelsematerial, men en säker\n  dag eller personkorrelation är inte garanterad. Stenberguppgiften saknar\n  nu bevarat stöd och kan prövas där eller i annat identifierat relevant\n  material; denna enda sida är inte en nödvändig enda bevisväg.\n- Källvägar: KP-01; därefter KP-03 för senare liv.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: konflikten är intern i projektet, inte mellan\n  källor: en tidigare akttext bar uppgifter som ingen bevarad källa stöder.\n  Ingen del av den obevarade läsningen får återanvändas som belägg innan\n  sidan är läst och citerad.\n- Påverkade personer/påståenden: P-0426 och A-2435; en hustru och barn skulle\n  ge nya personer och påverka P-0422:s och P-0028:s familjebild.\n\n"
+        }
+      ],
+      "reason": "Hela egna nuvarande body/data och caveat lästa. Källbunden information återbrukas; formuleringar om oläst innehåll, garanterad lösning eller enda vägen preciseras utan ny originaltolkning. Inga utfall, identiteter, statusar eller skyddade granskningsfält ändras."
+    },
+    {
+      "object_id": "PATH-P-0426-KP-01",
+      "current": {
+        "id": "PATH-P-0426-KP-01@1",
+        "object_id": "PATH-P-0426-KP-01",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil, fulla C0562/C0690 och hushållscitationer inklusive senare rättelser samt S0440 lästa. Ingen obelagd drängtjänst eller Stenbergvigsel återinförs.31/21oktober reserveras, fräjd9Klinte tjänst, åtta dopvittnen inklusive två namnlösa hustrur.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "PATH-P-0426-KP-01@1",
+          "subject_id": "P-0426",
+          "criteria": "legacy_source_path",
+          "outcome": "EJ UNDERSÖKT. Batch 84 anger att sidorna",
+          "body": "### KP-01: Mottagarsidan Sävar A I/8 b s. 738\n\n- Frågor/teman: Q-01, BO, REL, ARB, SAM, HAL.\n- Källklass: K-01.\n- Tid/plats och arkivbildare: Sävars kyrkoarkiv, husförhörslängd A I/8 b\n  1884–1893, Botsmark N:o 4, sida 738.\n- Förväntad information: hushållsroll, yrke, eventuell hustru och barn,\n  koppympning, fräjdnoteringar och nästa folio eller utflyttning. Kan inte\n  ensam avgöra livsslut eller ekonomi.\n- Ingång och söknycklar: bortflyttningen `738` `88 31/10` ur\n  [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md);\n  bildbatchen `A0001472` och sidregistret ur\n  [S-0440](../sources/S-0440-riksarkivet-savar-AI8b-botsmark-sida-756.md), som\n  anger Botsmark N:o 4 från sida 738.\n- Beroenden: inga. Volymen är publikt serverad via IIIF och redan använd i\n  projektet; sidan ligger nio uppslag före den redan hämtade sidan 756.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet, publik IIIF. Åtkomsten till samma\n  batch är kontrollerad 2026-08-29 för sida 756; sida 738 är EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT. Batch 84 anger att sidorna\n  725–760 orienterades i 2000 pixlar, men ingen personrad från sida 738\n  bevarades och den läsningen kan inte tillgodoräknas.\n- Bedömning och återaktivering: detta är hans enskilt billigaste och mest\n  informationstäta öppna passage och den enda som kan pröva de avförda\n  uppgifterna. Ett resultat som saknar honom på sidan återöppnar läsningen av\n  bortflyttningshänvisningen.\n- Wotan: EJ BESLUTAT UTFÖRANDE — T-0161 är en konsolideringsuppgift utan ny\n  arkivåtkomst; passagen behöver en egen avgränsad uppgift.\n\n"
+        },
+        "origins": [
+          {
+            "revision_id": "PATH-P-0426-KP-01@1",
+            "unit_id": "87619229d9d7dde81f071fffa60ea564212a35e78102c86d84bb2ea349f28484",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_body_only",
+      "edits": [
+        {
+          "field": "body",
+          "old": "### KP-01: Mottagarsidan Sävar A I/8 b s. 738\n\n- Frågor/teman: Q-01, BO, REL, ARB, SAM, HAL.\n- Källklass: K-01.\n- Tid/plats och arkivbildare: Sävars kyrkoarkiv, husförhörslängd A I/8 b\n  1884–1893, Botsmark N:o 4, sida 738.\n- Förväntad information: hushållsroll, yrke, eventuell hustru och barn,\n  koppympning, fräjdnoteringar och nästa folio eller utflyttning. Kan inte\n  ensam avgöra livsslut eller ekonomi.\n- Ingång och söknycklar: bortflyttningen `738` `88 31/10` ur\n  [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md);\n  bildbatchen `A0001472` och sidregistret ur\n  [S-0440](../sources/S-0440-riksarkivet-savar-AI8b-botsmark-sida-756.md), som\n  anger Botsmark N:o 4 från sida 738.\n- Beroenden: inga. Volymen är publikt serverad via IIIF och redan använd i\n  projektet; sidan ligger nio uppslag före den redan hämtade sidan 756.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet, publik IIIF. Åtkomsten till samma\n  batch är kontrollerad 2026-08-29 för sida 756; sida 738 är EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT. Batch 84 anger att sidorna\n  725–760 orienterades i 2000 pixlar, men ingen personrad från sida 738\n  bevarades och den läsningen kan inte tillgodoräknas.\n- Bedömning och återaktivering: detta är hans enskilt billigaste och mest\n  informationstäta öppna passage och den enda som kan pröva de avförda\n  uppgifterna. Ett resultat som saknar honom på sidan återöppnar läsningen av\n  bortflyttningshänvisningen.\n- Wotan: EJ BESLUTAT UTFÖRANDE — T-0161 är en konsolideringsuppgift utan ny\n  arkivåtkomst; passagen behöver en egen avgränsad uppgift.\n\n",
+          "new": "### KP-01: Mottagarsidan Sävar A I/8 b s. 738\n\n- Frågor/teman: Q-01, BO, REL, ARB, SAM, HAL.\n- Källklass: K-01.\n- Tid/plats och arkivbildare: Sävars kyrkoarkiv, husförhörslängd A I/8 b\n  1884–1893, Botsmark N:o 4, sida 738.\n- Förväntad information: hushållsroll, yrke, eventuell hustru och barn,\n  koppympning, fräjdnoteringar och nästa folio eller utflyttning. Faktiskt innehåll är\n  oprövat; en eventuell döds- eller ekonominot kan ge en avgränsad uppgift,\n  utan att ensam dokumentera hela livsslutet eller ekonomin.\n- Ingång och söknycklar: bortflyttningen `738` `88 3[1?]/10` (21 är inte säkert uteslutet) ur\n  [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md);\n  bildbatchen `A0001472` och sidregistret ur\n  [S-0440](../sources/S-0440-riksarkivet-savar-AI8b-botsmark-sida-756.md), som\n  anger Botsmark N:o 4 från sida 738.\n- Beroenden: volym och folionyckel finns. Åtkomsten till samma batch är\n  tidigare prövad, men exakt sida738, dess innehåll och personkorrelation\n  återstår att kontrollera; nio uppslags skillnad garanterar inget resultat.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet, publik IIIF. Åtkomsten till samma\n  batch är kontrollerad 2026-08-29 för sida 756; sida 738 är EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT. Batch 84 anger att sidorna\n  725–760 orienterades i 2000 pixlar, men ingen personrad från sida 738\n  bevarades och den läsningen kan inte tillgodoräknas.\n- Bedömning och återaktivering: detta är en konkret prioriterad fortsatt källväg.\n  Arbetskostnad, faktiskt innehåll och möjligheten att pröva de avförda\n  uppgifterna är ännu inte fastställda; andra relevanta källor kan också\n  bidra till prövningen. Ett resultat som saknar honom på sidan återöppnar läsningen av\n  bortflyttningshänvisningen.\n- Wotan: EJ BESLUTAT UTFÖRANDE — T-0161 är en konsolideringsuppgift utan ny\n  arkivåtkomst; passagen behöver en egen avgränsad uppgift.\n\n"
+        }
+      ],
+      "reason": "Hela egna nuvarande body/data och caveat lästa. Källbunden information återbrukas; formuleringar om oläst innehåll, garanterad lösning eller enda vägen preciseras utan ny originaltolkning. Inga utfall, identiteter, statusar eller skyddade granskningsfält ändras."
+    },
+    {
+      "object_id": "PATH-P-0426-KP-02",
+      "current": {
+        "id": "PATH-P-0426-KP-02@1",
+        "object_id": "PATH-P-0426-KP-02",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil, fulla C0562/C0690 och hushållscitationer inklusive senare rättelser samt S0440 lästa. Ingen obelagd drängtjänst eller Stenbergvigsel återinförs.31/21oktober reserveras, fräjd9Klinte tjänst, åtta dopvittnen inklusive två namnlösa hustrur.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "PATH-P-0426-KP-02@1",
+          "subject_id": "P-0426",
+          "criteria": "legacy_source_path",
+          "outcome": "EJ UNDERSÖKT.",
+          "body": "### KP-02: Värnplikts- och inskrivningshandlingar för årsklassen\n\n- Frågor/teman: Q-02, MIL, ARB.\n- Källklass: K-27.\n- Tid/plats och arkivbildare: inskrivningsområdet för Sävar, årsklasser från\n  1879 och framåt.\n- Förväntad information: inskrivningsnummer, klass, tjänstgöring och eventuellt\n  signalement, vilket skulle upplösa `9 Kl. 87.`. Kan inte avgöra hans civila\n  hemvist efter 1888.\n- Ingång och söknycklar: födelseåret 1858, Sävar, och råläsningen `9 Kl. 87.`\n  ur [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n- Beroenden: rätt inskrivningsområde och serieform för Västerbotten i den\n  aktuella perioden är inte fastställd i projektet; nummerformatet måste\n  tolkas i sitt tidssystem innan en träff kan knytas till honom.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet och Krigsarkivet. EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: lägre prioritet än KP-01, eftersom en\n  mottagarsida kan ge både yrke och militärnot i ett steg. Återaktiveras om en\n  upplöst förkortning eller ett inskrivningsnummer påträffas.\n- Wotan: EJ BESLUTAT UTFÖRANDE.\n\n"
+        },
+        "origins": [
+          {
+            "revision_id": "PATH-P-0426-KP-02@1",
+            "unit_id": "2a314d1eb25c88b75b41cdfe4e7b93e8959af4de0b86a61c6b90b623d4514a8c",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_body_only",
+      "edits": [
+        {
+          "field": "body",
+          "old": "### KP-02: Värnplikts- och inskrivningshandlingar för årsklassen\n\n- Frågor/teman: Q-02, MIL, ARB.\n- Källklass: K-27.\n- Tid/plats och arkivbildare: inskrivningsområdet för Sävar, årsklasser från\n  1879 och framåt.\n- Förväntad information: inskrivningsnummer, klass, tjänstgöring och eventuellt\n  signalement, vilket skulle upplösa `9 Kl. 87.`. Kan inte avgöra hans civila\n  hemvist efter 1888.\n- Ingång och söknycklar: födelseåret 1858, Sävar, och råläsningen `9 Kl. 87.`\n  ur [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n- Beroenden: rätt inskrivningsområde och serieform för Västerbotten i den\n  aktuella perioden är inte fastställd i projektet; nummerformatet måste\n  tolkas i sitt tidssystem innan en träff kan knytas till honom.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet och Krigsarkivet. EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: lägre prioritet än KP-01, eftersom en\n  mottagarsida kan ge både yrke och militärnot i ett steg. Återaktiveras om en\n  upplöst förkortning eller ett inskrivningsnummer påträffas.\n- Wotan: EJ BESLUTAT UTFÖRANDE.\n\n",
+          "new": "### KP-02: Värnplikts- och inskrivningshandlingar för årsklassen\n\n- Frågor/teman: Q-02, MIL, ARB.\n- Källklass: K-27.\n- Tid/plats och arkivbildare: inskrivningsområdet för Sävar, årsklasser från\n  1879 och framåt.\n- Förväntad information: inskrivningsnummer, klass, tjänstgöring och eventuellt\n  signalement, vilket kan bidra till att pröva `9 Kl. 87.` utan garanterad upplösning.\n  En eventuell civil hemvistuppgift efter1888 måste bedömas i det faktiskt\n  påträffade materialet; innehållet är ännu oläst.\n- Ingång och söknycklar: födelseåret 1858, Sävar, och råläsningen `9 Kl. 87.`\n  ur [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n- Beroenden: rätt inskrivningsområde och serieform för Västerbotten i den\n  aktuella perioden är inte fastställd i projektet; nummerformatet måste\n  tolkas i sitt tidssystem innan en träff kan knytas till honom.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet och Krigsarkivet. EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: lägre prioritet än KP-01, eftersom en\n  mottagarsida kan ge både yrke och militärnot i ett steg. Återaktiveras om en\n  upplöst förkortning eller ett inskrivningsnummer påträffas.\n- Wotan: EJ BESLUTAT UTFÖRANDE.\n\n"
+        }
+      ],
+      "reason": "Hela egna nuvarande body/data och caveat lästa. Källbunden information återbrukas; formuleringar om oläst innehåll, garanterad lösning eller enda vägen preciseras utan ny originaltolkning. Inga utfall, identiteter, statusar eller skyddade granskningsfält ändras."
+    },
+    {
+      "object_id": "PATH-P-0426-KP-03",
+      "current": {
+        "id": "PATH-P-0426-KP-03@1",
+        "object_id": "PATH-P-0426-KP-03",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil, fulla C0562/C0690 och hushållscitationer inklusive senare rättelser samt S0440 lästa. Ingen obelagd drängtjänst eller Stenbergvigsel återinförs.31/21oktober reserveras, fräjd9Klinte tjänst, åtta dopvittnen inklusive två namnlösa hustrur.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "PATH-P-0426-KP-03@1",
+          "subject_id": "P-0426",
+          "criteria": "legacy_source_path",
+          "outcome": "EJ UNDERSÖKT.",
+          "body": "### KP-03: Senare liv, egen familj och livsslut\n\n- Frågor/teman: Q-01, EKO, HAL, PER, SAM, REL.\n- Källklass: K-01, K-03, K-04, K-14.\n- Tid/plats och arkivbildare: efter 1888, ännu okänd församling och\n  jurisdiktion.\n- Förväntad information: vigsel, barn, yrkesförlopp, död och eventuellt\n  dödsbo. Vilken serie som gäller kan inte bestämmas innan hemvisten är känd.\n- Ingång och söknycklar: kräver ett vuxet personankare från KP-01; namnformer\n  och födelsedatum är redan säkrade i\n  [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md).\n- Beroenden: hela vägen beror på KP-01. Ingen bred namnsökning görs utan en\n  ort- eller tidsnyckel, eftersom Zingmark är vanligt i socknen.\n- Föregående källvägar: KP-01\n- Leverantörer och åtkomst: EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: preciseras först när KP-01 gett hemvist eller\n  civilstånd.\n- Wotan: EJ BESLUTAT UTFÖRANDE — beroende av KP-01, inte en parallell arbetskö.\n\n"
+        },
+        "origins": [
+          {
+            "revision_id": "PATH-P-0426-KP-03@1",
+            "unit_id": "d196b54d1480d65bb34cbff35588b4fcf4bb8aa6104a11681d3bd3f417f687f9",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_body_only",
+      "edits": [
+        {
+          "field": "body",
+          "old": "### KP-03: Senare liv, egen familj och livsslut\n\n- Frågor/teman: Q-01, EKO, HAL, PER, SAM, REL.\n- Källklass: K-01, K-03, K-04, K-14.\n- Tid/plats och arkivbildare: efter 1888, ännu okänd församling och\n  jurisdiktion.\n- Förväntad information: vigsel, barn, yrkesförlopp, död och eventuellt\n  dödsbo. Vilken serie som gäller kan inte bestämmas innan hemvisten är känd.\n- Ingång och söknycklar: kräver ett vuxet personankare från KP-01; namnformer\n  och födelsedatum är redan säkrade i\n  [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md).\n- Beroenden: hela vägen beror på KP-01. Ingen bred namnsökning görs utan en\n  ort- eller tidsnyckel, eftersom Zingmark är vanligt i socknen.\n- Föregående källvägar: KP-01\n- Leverantörer och åtkomst: EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: preciseras först när KP-01 gett hemvist eller\n  civilstånd.\n- Wotan: EJ BESLUTAT UTFÖRANDE — beroende av KP-01, inte en parallell arbetskö.\n\n",
+          "new": "### KP-03: Senare liv, egen familj och livsslut\n\n- Frågor/teman: Q-01, EKO, HAL, PER, SAM, REL.\n- Källklass: K-01, K-03, K-04, K-14.\n- Tid/plats och arkivbildare: efter 1888, ännu okänd församling och\n  jurisdiktion.\n- Förväntad information: vigsel, barn, yrkesförlopp, död och eventuellt\n  dödsbo. Vilken serie som gäller kan inte bestämmas innan hemvisten är känd.\n- Ingång och söknycklar: prioriterar ett vuxet personankare från KP-01 eller annan relevant\n  personkorrelerad källa; namnformer\n  och födelsedatum är redan säkrade i\n  [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md).\n- Beroenden: nuvarande prioritering börjar med KP-01; den är inte en bevisad\n  enda väg till ett vuxenankare. Ingen bred namnsökning görs utan en\n  ort- eller tidsnyckel, eftersom Zingmark är vanligt i socknen.\n- Föregående källvägar: KP-01\n- Leverantörer och åtkomst: EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: preciseras när KP-01 eller annan relevant källa faktiskt\n  gett ett korrelerat person-, ort- eller tidsankare.\n- Wotan: EJ BESLUTAT UTFÖRANDE — nu prioriterad efter KP-01; annan framtida nyckel kan ändra\n  beroendet inom ett eget avgränsat beslut, ingen parallell arbetskö.\n\n"
+        }
+      ],
+      "reason": "Hela egna nuvarande body/data och caveat lästa. Källbunden information återbrukas; formuleringar om oläst innehåll, garanterad lösning eller enda vägen preciseras utan ny originaltolkning. Inga utfall, identiteter, statusar eller skyddade granskningsfält ändras."
+    },
+    {
+      "object_id": "PATH-P-0427-KP-01",
+      "current": {
+        "id": "PATH-P-0427-KP-01@1",
+        "object_id": "PATH-P-0427-KP-01",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil och fulla barn-/hushållscitationer lästa inklusive sena rättelser.24mars respektiveAxels23mars bevaras, egen död20april1892 via Död-kolumn, egna arbets-/militärnoter utan överinferens, sex vittnen inklusive anonymhustru och syskonrelation endast mellan två vittnen.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "PATH-P-0427-KP-01@1",
+          "subject_id": "P-0427",
+          "criteria": "legacy_source_path",
+          "outcome": "EJ UNDERSÖKT. Det dokumenterade dödsnollet i",
+          "body": "### KP-01: Egen dödbokspost i Sävar 1892\n\n- Frågor/teman: Q-01, HAL, SAM, SYN, ID.\n- Källklass: K-04.\n- Tid/plats och arkivbildare: Sävars kyrkoarkiv, död- och begravningsbok för\n  april 1892.\n- Förväntad information: dödsorsak, uppgiven ålder, begravningsdag, hemvist\n  och eventuell dödsplats. Åldersuppgiften prövar födelsedatumet oberoende av\n  husförhörskedjan. Kan inte avgöra vad han arbetade med.\n- Ingång och söknycklar: dödsdagen 1892-04-20, Botsmark N:o 7 och namnformerna\n  ur [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n- Beroenden: inga. Dag, församling och hemvist är kända; endast rätt volym för\n  1892 behöver identifieras.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet. Sävars äldre död- och begravningsdel\n  E I/1 är redan hämtad publikt inom\n  [S-0441](../sources/S-0441-riksarkivet-savar-EI1-doda-och-vigslar-1861-1876.md)\n  och F/1 inom projektets P-0058-arbete, men båda slutar långt före 1892; rätt\n  volym för 1892 är EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT. Det dokumenterade dödsnollet i\n  E I/1 och F/1 gäller 1865 och 1868–1870 och har ingen räckvidd för 1892.\n- Bedömning och återaktivering: detta är hans enskilt viktigaste öppna\n  passage. En avvikande dag eller ålder gör A-6270 till en konflikt i stället\n  för en avskrift och återöppnar Q-01.\n- Wotan: EJ BESLUTAT UTFÖRANDE — T-0161 är en konsolideringsuppgift utan ny\n  arkivåtkomst; passagen behöver en egen avgränsad uppgift.\n\n"
+        },
+        "origins": [
+          {
+            "revision_id": "PATH-P-0427-KP-01@1",
+            "unit_id": "288cf08eb5e9565f8b25f4939e5208585f7396c2bff1d220675a98eae3eaa95b",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_body_only",
+      "edits": [
+        {
+          "field": "body",
+          "old": "### KP-01: Egen dödbokspost i Sävar 1892\n\n- Frågor/teman: Q-01, HAL, SAM, SYN, ID.\n- Källklass: K-04.\n- Tid/plats och arkivbildare: Sävars kyrkoarkiv, död- och begravningsbok för\n  april 1892.\n- Förväntad information: dödsorsak, uppgiven ålder, begravningsdag, hemvist\n  och eventuell dödsplats. Åldersuppgiften prövar födelsedatumet oberoende av\n  husförhörskedjan. Kan inte avgöra vad han arbetade med.\n- Ingång och söknycklar: dödsdagen 1892-04-20, Botsmark N:o 7 och namnformerna\n  ur [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n- Beroenden: inga. Dag, församling och hemvist är kända; endast rätt volym för\n  1892 behöver identifieras.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet. Sävars äldre död- och begravningsdel\n  E I/1 är redan hämtad publikt inom\n  [S-0441](../sources/S-0441-riksarkivet-savar-EI1-doda-och-vigslar-1861-1876.md)\n  och F/1 inom projektets P-0058-arbete, men båda slutar långt före 1892; rätt\n  volym för 1892 är EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT. Det dokumenterade dödsnollet i\n  E I/1 och F/1 gäller 1865 och 1868–1870 och har ingen räckvidd för 1892.\n- Bedömning och återaktivering: detta är hans enskilt viktigaste öppna\n  passage. En avvikande dag eller ålder gör A-6270 till en konflikt i stället\n  för en avskrift och återöppnar Q-01.\n- Wotan: EJ BESLUTAT UTFÖRANDE — T-0161 är en konsolideringsuppgift utan ny\n  arkivåtkomst; passagen behöver en egen avgränsad uppgift.\n\n",
+          "new": "### KP-01: Egen dödbokspost i Sävar 1892\n\n- Frågor/teman: Q-01, HAL, SAM, SYN, ID.\n- Källklass: K-04.\n- Tid/plats och arkivbildare: Sävars kyrkoarkiv, död- och begravningsbok för\n  april 1892.\n- Förväntad information: dödsorsak, uppgiven ålder, begravningsdag, hemvist\n  och eventuell dödsplats. En eventuell åldersuppgift kan jämföras med födelsedatumet,\n  men informationsoberoende av husförhörskedjan måste först prövas.\n  Yrkesbeteckning kan förekomma; den olästa postens fält får inte förutsättas.\n- Ingång och söknycklar: dödsdagen 1892-04-20, Botsmark N:o 7 och namnformerna\n  ur [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n- Beroenden: dag, församling och hemvist ger ingångsnycklar. Rätt\n  volym för1892, faktisk åtkomst, postens innehåll och personkorrelation\n  behöver fortfarande fastställas.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet. Sävars äldre död- och begravningsdel\n  E I/1 är redan hämtad publikt inom\n  [S-0441](../sources/S-0441-riksarkivet-savar-EI1-doda-och-vigslar-1861-1876.md)\n  och F/1 inom projektets P-0058-arbete, men båda slutar långt före 1892; rätt\n  volym för 1892 är EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT. Det dokumenterade dödsnollet i\n  E I/1 och F/1 gäller 1865 och 1868–1870 och har ingen räckvidd för 1892.\n- Bedömning och återaktivering: detta är hans enskilt viktigaste öppna\n  passage. En avvikande dag eller ålder gör A-6270 till en konflikt i stället\n  för en avskrift och återöppnar Q-01.\n- Wotan: EJ BESLUTAT UTFÖRANDE — T-0161 är en konsolideringsuppgift utan ny\n  arkivåtkomst; passagen behöver en egen avgränsad uppgift.\n\n"
+        }
+      ],
+      "reason": "Hela egna nuvarande body/data och caveat lästa. Källbunden information återbrukas; formuleringar om oläst innehåll, garanterad lösning eller enda vägen preciseras utan ny originaltolkning. Inga utfall, identiteter, statusar eller skyddade granskningsfält ändras."
+    },
+    {
+      "object_id": "PATH-P-0427-KP-02",
+      "current": {
+        "id": "PATH-P-0427-KP-02@1",
+        "object_id": "PATH-P-0427-KP-02",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil och fulla barn-/hushållscitationer lästa inklusive sena rättelser.24mars respektiveAxels23mars bevaras, egen död20april1892 via Död-kolumn, egna arbets-/militärnoter utan överinferens, sex vittnen inklusive anonymhustru och syskonrelation endast mellan två vittnen.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "PATH-P-0427-KP-02@1",
+          "subject_id": "P-0427",
+          "criteria": "legacy_source_path",
+          "outcome": "EJ UNDERSÖKT.",
+          "body": "### KP-02: Värnplikts- och arbetsbetygsvägen 1887–1891\n\n- Frågor/teman: Q-02, MIL, ARB, PER.\n- Källklass: K-27, K-06.\n- Tid/plats och arkivbildare: inskrivningsområdet för Sävar för årsklassen\n  1885, samt kyrkoarkivets eventuella betygs- och attestserier 1887–1891.\n- Förväntad information: inskrivningsnummer, klass och tjänstgöring skulle\n  upplösa `3 Kl. 87.`; en bevarad betygsserie skulle upplösa `arb.` och\n  möjligen namnge en arbetsgivare eller mottagarort. Kan inte avgöra\n  dödsorsaken.\n- Ingång och söknycklar: födelseåret 1864, Sävar, de fyra majdatumen och\n  råläsningarna ur\n  [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n- Beroenden: rätt inskrivningsområde och serieform för Västerbotten i\n  perioden är inte fastställd i projektet; för kyrkoarkivets bilage- och\n  betygsserier visade motsvarande kontroll för P-0423 att målåren saknas i\n  katalogen, vilket är ett kataloghinder och inte bevis mot handlingen.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet och Krigsarkivet. EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: prövas efter KP-01, eftersom dödboken kan ge en\n  yrkesbeteckning som i sig upplöser frågan. Återaktiveras omedelbart om en\n  upplöst förkortning eller ett inskrivningsnummer påträffas för någon av\n  bröderna.\n- Wotan: EJ BESLUTAT UTFÖRANDE.\n\n"
+        },
+        "origins": [
+          {
+            "revision_id": "PATH-P-0427-KP-02@1",
+            "unit_id": "5807db6926f01999e0d7893d61061a982cbcb6563f4636fef831b40b1e9687e8",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_body_only",
+      "edits": [
+        {
+          "field": "body",
+          "old": "### KP-02: Värnplikts- och arbetsbetygsvägen 1887–1891\n\n- Frågor/teman: Q-02, MIL, ARB, PER.\n- Källklass: K-27, K-06.\n- Tid/plats och arkivbildare: inskrivningsområdet för Sävar för årsklassen\n  1885, samt kyrkoarkivets eventuella betygs- och attestserier 1887–1891.\n- Förväntad information: inskrivningsnummer, klass och tjänstgöring skulle\n  upplösa `3 Kl. 87.`; en bevarad betygsserie skulle upplösa `arb.` och\n  möjligen namnge en arbetsgivare eller mottagarort. Kan inte avgöra\n  dödsorsaken.\n- Ingång och söknycklar: födelseåret 1864, Sävar, de fyra majdatumen och\n  råläsningarna ur\n  [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n- Beroenden: rätt inskrivningsområde och serieform för Västerbotten i\n  perioden är inte fastställd i projektet; för kyrkoarkivets bilage- och\n  betygsserier visade motsvarande kontroll för P-0423 att målåren saknas i\n  katalogen, vilket är ett kataloghinder och inte bevis mot handlingen.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet och Krigsarkivet. EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: prövas efter KP-01, eftersom dödboken kan ge en\n  yrkesbeteckning som i sig upplöser frågan. Återaktiveras omedelbart om en\n  upplöst förkortning eller ett inskrivningsnummer påträffas för någon av\n  bröderna.\n- Wotan: EJ BESLUTAT UTFÖRANDE.\n\n",
+          "new": "### KP-02: Värnplikts- och arbetsbetygsvägen 1887–1891\n\n- Frågor/teman: Q-02, MIL, ARB, PER.\n- Källklass: K-27, K-06.\n- Tid/plats och arkivbildare: inskrivningsområdet för Sävar för årsklassen\n  1885, samt kyrkoarkivets eventuella betygs- och attestserier 1887–1891.\n- Förväntad information: inskrivningsnummer, klass och tjänstgöring kan bidra till\n  prövningen av `3 Kl. 87.`; en bevarad betygsserie kan belysa `arb.` och\n  möjligen namnge arbetsgivare eller mottagarort. Inget av detta garanteras,\n  och dödsorsaksuppgift får varken lovas eller uteslutas i det olästa materialet.\n- Ingång och söknycklar: födelseåret 1864, Sävar, de fyra majdatumen och\n  råläsningarna ur\n  [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n- Beroenden: rätt inskrivningsområde och serieform för Västerbotten i\n  perioden är inte fastställd i projektet; för kyrkoarkivets bilage- och\n  betygsserier visade motsvarande kontroll för P-0423 att målåren saknas i\n  katalogen, vilket är ett kataloghinder och inte bevis mot handlingen.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet och Krigsarkivet. EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: prövas efter KP-01, eftersom dödboken kan ge en\n  yrkesbeteckning eller annan jämförelseuppgift; den löser inte automatiskt\n  de äldre förkortningarna. Återaktiveras omedelbart om en\n  upplöst förkortning eller ett inskrivningsnummer påträffas för någon av\n  bröderna.\n- Wotan: EJ BESLUTAT UTFÖRANDE.\n\n"
+        }
+      ],
+      "reason": "Hela egna nuvarande body/data och caveat lästa. Källbunden information återbrukas; formuleringar om oläst innehåll, garanterad lösning eller enda vägen preciseras utan ny originaltolkning. Inga utfall, identiteter, statusar eller skyddade granskningsfält ändras."
+    },
+    {
+      "object_id": "PATH-P-0427-KP-03",
+      "current": {
+        "id": "PATH-P-0427-KP-03@1",
+        "object_id": "PATH-P-0427-KP-03",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil och fulla barn-/hushållscitationer lästa inklusive sena rättelser.24mars respektiveAxels23mars bevaras, egen död20april1892 via Död-kolumn, egna arbets-/militärnoter utan överinferens, sex vittnen inklusive anonymhustru och syskonrelation endast mellan två vittnen.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "PATH-P-0427-KP-03@1",
+          "subject_id": "P-0427",
+          "criteria": "legacy_source_path",
+          "outcome": "EJ UNDERSÖKT.",
+          "body": "### KP-03: Bouppteckning och kvarlåtenskap efter 1892\n\n- Frågor/teman: EKO, REL, SAM, PER.\n- Källklass: K-14, K-16.\n- Tid/plats och arkivbildare: Umeå domsagas häradsrätt, bouppteckningar från\n  och med 1892.\n- Förväntad information: arvingar, lösöre och skulder efter en ogift 28-åring;\n  skulle namnge fadern, styvmodern och syskonen med hemvist och kan avslöja\n  yrkesredskap. Kan inte avgöra dödsorsaken.\n- Ingång och söknycklar: dödsdagen 1892-04-20 och Botsmark N:o 7 ur\n  [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n  Dessa nycklar fanns inte innan A-6270 utvanns.\n- Beroenden: en ung ogift man utan egendom får inte alltid en bouppteckning;\n  registrets täckning måste bedömas innan ett noll kan tolkas. Jämför de\n  dokumenterade läsesals- och registerhindren för samma domsaga i P-0058:s\n  äldre vägar, som är åtkomstlägen och inte bevis för att handling saknas.\n- Föregående källvägar: KP-01\n- Leverantörer och åtkomst: Riksarkivet. EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: prövas efter KP-01 när dödsdagen är bekräftad.\n- Wotan: EJ BESLUTAT UTFÖRANDE.\n\n"
+        },
+        "origins": [
+          {
+            "revision_id": "PATH-P-0427-KP-03@1",
+            "unit_id": "395ff3a3bd0a759aa50f473fbb3c4253a74556cddfb868dced3b1081c3db439e",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_body_only",
+      "edits": [
+        {
+          "field": "body",
+          "old": "### KP-03: Bouppteckning och kvarlåtenskap efter 1892\n\n- Frågor/teman: EKO, REL, SAM, PER.\n- Källklass: K-14, K-16.\n- Tid/plats och arkivbildare: Umeå domsagas häradsrätt, bouppteckningar från\n  och med 1892.\n- Förväntad information: arvingar, lösöre och skulder efter en ogift 28-åring;\n  skulle namnge fadern, styvmodern och syskonen med hemvist och kan avslöja\n  yrkesredskap. Kan inte avgöra dödsorsaken.\n- Ingång och söknycklar: dödsdagen 1892-04-20 och Botsmark N:o 7 ur\n  [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n  Dessa nycklar fanns inte innan A-6270 utvanns.\n- Beroenden: en ung ogift man utan egendom får inte alltid en bouppteckning;\n  registrets täckning måste bedömas innan ett noll kan tolkas. Jämför de\n  dokumenterade läsesals- och registerhindren för samma domsaga i P-0058:s\n  äldre vägar, som är åtkomstlägen och inte bevis för att handling saknas.\n- Föregående källvägar: KP-01\n- Leverantörer och åtkomst: Riksarkivet. EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: prövas efter KP-01 när dödsdagen är bekräftad.\n- Wotan: EJ BESLUTAT UTFÖRANDE.\n\n",
+          "new": "### KP-03: Bouppteckning och kvarlåtenskap efter 1892\n\n- Frågor/teman: EKO, REL, SAM, PER.\n- Källklass: K-14, K-16.\n- Tid/plats och arkivbildare: Umeå domsagas häradsrätt, bouppteckningar från\n  och med 1892.\n- Förväntad information: arvingar, lösöre och skulder efter en ogift 28-åring;\n  kan eventuellt namnge arvingar och deras hemvist eller redovisa\n  yrkesredskap. Vilka släktingar och sakuppgifter som faktiskt anges är\n  oprövat; inte heller eventuell dödsorsak kan lovas eller uteslutas.\n- Ingång och söknycklar: dödsdagen 1892-04-20 och Botsmark N:o 7 ur\n  [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md).\n  Dessa nycklar fanns inte innan A-6270 utvanns.\n- Beroenden: en ung ogift man utan egendom får inte alltid en bouppteckning;\n  registrets täckning måste bedömas innan ett noll kan tolkas. Jämför de\n  dokumenterade läsesals- och registerhindren för samma domsaga i P-0058:s\n  äldre vägar, som är åtkomstlägen och inte bevis för att handling saknas.\n- Föregående källvägar: KP-01\n- Leverantörer och åtkomst: Riksarkivet. EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: prövas efter KP-01 när dödsdagen är bekräftad.\n- Wotan: EJ BESLUTAT UTFÖRANDE.\n\n"
+        }
+      ],
+      "reason": "Hela egna nuvarande body/data och caveat lästa. Källbunden information återbrukas; formuleringar om oläst innehåll, garanterad lösning eller enda vägen preciseras utan ny originaltolkning. Inga utfall, identiteter, statusar eller skyddade granskningsfält ändras."
+    },
+    {
+      "object_id": "THEME-P-0426-ARB",
+      "current": {
+        "id": "THEME-P-0426-ARB@1",
+        "object_id": "THEME-P-0426-ARB",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil, fulla C0562/C0690 och hushållscitationer inklusive senare rättelser samt S0440 lästa. Ingen obelagd drängtjänst eller Stenbergvigsel återinförs.31/21oktober reserveras, fräjd9Klinte tjänst, åtta dopvittnen inklusive två namnlösa hustrur.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "THEME-P-0426-ARB@1",
+          "subject_id": "P-0426",
+          "criteria": "legacy_theme/ARB",
+          "outcome": "ÖPPET",
+          "body": "| ARB | ÖPPET | Inget eget yrke är belagt; han skrivs `Barn:` eller son på alla lästa sidor. Den tidigare uppgiften om drängtjänst saknar belägg och är avförd. Yrke kan bara nås på mottagarsidan. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-01, Q-01 |\n"
+        },
+        "origins": [
+          {
+            "revision_id": "THEME-P-0426-ARB@1",
+            "unit_id": "c2cdacb39a7e1eb27a8b0883956947a0206a040f8fee281bee5551451ab76b85",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_body_only",
+      "edits": [
+        {
+          "field": "body",
+          "old": "| ARB | ÖPPET | Inget eget yrke är belagt; han skrivs `Barn:` eller son på alla lästa sidor. Den tidigare uppgiften om drängtjänst saknar belägg och är avförd. Yrke kan bara nås på mottagarsidan. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-01, Q-01 |\n",
+          "new": "| ARB | ÖPPET | Inget eget yrke är belagt; han skrivs `Barn:` eller son på alla lästa sidor. Den tidigare uppgiften om drängtjänst saknar belägg och är avförd. Mottagarsidan är en konkret prioriterad möjlighet att söka en egen yrkesuppgift; den är oläst och inte visad vara den enda informationsvägen. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-01, Q-01 |\n"
+        }
+      ],
+      "reason": "Hela egna nuvarande body/data och caveat lästa. Källbunden information återbrukas; formuleringar om oläst innehåll, garanterad lösning eller enda vägen preciseras utan ny originaltolkning. Inga utfall, identiteter, statusar eller skyddade granskningsfält ändras."
+    },
+    {
+      "object_id": "THEME-P-0426-HAL",
+      "current": {
+        "id": "THEME-P-0426-HAL@1",
+        "object_id": "THEME-P-0426-HAL",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil, fulla C0562/C0690 och hushållscitationer inklusive senare rättelser samt S0440 lästa. Ingen obelagd drängtjänst eller Stenbergvigsel återinförs.31/21oktober reserveras, fräjd9Klinte tjänst, åtta dopvittnen inklusive två namnlösa hustrur.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "THEME-P-0426-HAL@1",
+          "subject_id": "P-0426",
+          "criteria": "legacy_theme/HAL",
+          "outcome": "ÖPPET",
+          "body": "| HAL | ÖPPET | Koppympning `v` är belagd som en vidareförd uppgift i tre böcker. Dödskolumnen är tom på alla fyra sidorna, så han levde 1888; död, sjukdom och livsslut är okända. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-01, KP-03 |\n"
+        },
+        "origins": [
+          {
+            "revision_id": "THEME-P-0426-HAL@1",
+            "unit_id": "e3b0e4af1a8bd3e52b6f8159822815f011b1d80b7c3f09c41acf9fedacf21897",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_body_only",
+      "edits": [
+        {
+          "field": "body",
+          "old": "| HAL | ÖPPET | Koppympning `v` är belagd som en vidareförd uppgift i tre böcker. Dödskolumnen är tom på alla fyra sidorna, så han levde 1888; död, sjukdom och livsslut är okända. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-01, KP-03 |\n",
+          "new": "| HAL | ÖPPET | Koppympning `v` är belagd som en vidareförd uppgift i tre böcker. Dödskolumnen är tom på de fyra lästa sidorna; tomheten bevisar inte i sig att han levde1888. Den positiva egna överföringsnoteringen i oktober1888 är ett daterat bokföringsankare, med dag3[1?]/10 och21 inte säkert uteslutet; den belägger inte kontinuerlig fysisk vistelse. Egen död, sjukdom och livsslut är inte fastställda av dessa fält. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-01, KP-03 |\n"
+        }
+      ],
+      "reason": "Hela egna nuvarande body/data och caveat lästa. Källbunden information återbrukas; formuleringar om oläst innehåll, garanterad lösning eller enda vägen preciseras utan ny originaltolkning. Inga utfall, identiteter, statusar eller skyddade granskningsfält ändras."
+    },
+    {
+      "object_id": "THEME-P-0426-PER",
+      "current": {
+        "id": "THEME-P-0426-PER@1",
+        "object_id": "THEME-P-0426-PER",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil, fulla C0562/C0690 och hushållscitationer inklusive senare rättelser samt S0440 lästa. Ingen obelagd drängtjänst eller Stenbergvigsel återinförs.31/21oktober reserveras, fräjd9Klinte tjänst, åtta dopvittnen inklusive två namnlösa hustrur.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "THEME-P-0426-PER@1",
+          "subject_id": "P-0426",
+          "criteria": "legacy_theme/PER",
+          "outcome": "ÖPPET",
+          "body": "| PER | ÖPPET | Inga fotografier, brev, underskrifter eller familjeminnen är kända, och ingen personlig källgräns är prövad. Ett vuxenhushåll skulle ge ort och yrke för en riktad sökning. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-03 |\n"
+        },
+        "origins": [
+          {
+            "revision_id": "THEME-P-0426-PER@1",
+            "unit_id": "1747534fad6b9ad6d1693c46a0d973400bd3ec677ae9ed5355d6383e415987b1",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_body_only",
+      "edits": [
+        {
+          "field": "body",
+          "old": "| PER | ÖPPET | Inga fotografier, brev, underskrifter eller familjeminnen är kända, och ingen personlig källgräns är prövad. Ett vuxenhushåll skulle ge ort och yrke för en riktad sökning. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-03 |\n",
+          "new": "| PER | ÖPPET | Inga fotografier, brev, underskrifter eller familjeminnen är kända, och ingen personlig källgräns är prövad. En läst och personkorrelerad vuxenrad kan ge ort eller yrkesuppgift för en riktad sökning; innehållet är ännu inte känt. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-03 |\n"
+        }
+      ],
+      "reason": "Hela egna nuvarande body/data och caveat lästa. Källbunden information återbrukas; formuleringar om oläst innehåll, garanterad lösning eller enda vägen preciseras utan ny originaltolkning. Inga utfall, identiteter, statusar eller skyddade granskningsfält ändras."
+    },
+    {
+      "object_id": "THEME-P-0427-PER",
+      "current": {
+        "id": "THEME-P-0427-PER@1",
+        "object_id": "THEME-P-0427-PER",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil och fulla barn-/hushållscitationer lästa inklusive sena rättelser.24mars respektiveAxels23mars bevaras, egen död20april1892 via Död-kolumn, egna arbets-/militärnoter utan överinferens, sex vittnen inklusive anonymhustru och syskonrelation endast mellan två vittnen.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "THEME-P-0427-PER@1",
+          "subject_id": "P-0427",
+          "criteria": "legacy_theme/PER",
+          "outcome": "ÖPPET",
+          "body": "| PER | ÖPPET | Inga fotografier, brev, underskrifter eller familjeminnen är kända, och ingen personlig källgräns är prövad. Ett arbetsbetyg 1887–1891 skulle, om förkortningen håller, vara den enda handling om honom utanför kyrkoboken. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-02, KP-03 |\n"
+        },
+        "origins": [
+          {
+            "revision_id": "THEME-P-0427-PER@1",
+            "unit_id": "2fdd610de96a0d50f4f1fab3efd2bde9ba84d6b84936782b46a896246b8b87d8",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "revise_exact_body_only",
+      "edits": [
+        {
+          "field": "body",
+          "old": "| PER | ÖPPET | Inga fotografier, brev, underskrifter eller familjeminnen är kända, och ingen personlig källgräns är prövad. Ett arbetsbetyg 1887–1891 skulle, om förkortningen håller, vara den enda handling om honom utanför kyrkoboken. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-02, KP-03 |\n",
+          "new": "| PER | ÖPPET | Inga fotografier, brev, underskrifter eller familjeminnen är kända, och ingen personlig källgräns är prövad. Ett arbetsbetyg 1887–1891 skulle, om förkortningen håller, kunna vara ett ytterligare personbundet material. Ingen allmän gräns för andra handlingar är undersökt, och betygets bevarande/innehåll är oprövat. | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md); KP-02, KP-03 |\n"
+        }
+      ],
+      "reason": "Hela egna nuvarande body/data och caveat lästa. Källbunden information återbrukas; formuleringar om oläst innehåll, garanterad lösning eller enda vägen preciseras utan ny originaltolkning. Inga utfall, identiteter, statusar eller skyddade granskningsfält ändras."
+    }
+  ],
+  "implementation": "Guard latest current/candidate overlap and all-history incoming first. Apply exact fields only; preserve full other API data/metadata/ordered links. No status/name/outcome/review-gate changes. Evidence addition only for F422 column correction as specified. No stage/apply."
+}

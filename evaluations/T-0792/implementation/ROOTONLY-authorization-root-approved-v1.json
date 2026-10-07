@@ -1,0 +1,101 @@
+{
+  "task": "T-0792",
+  "mode": "ROOT_ONLY_EXACT_APPROVED_CANONICAL_APPLIES",
+  "rootAuthorized": true,
+  "root_authorized_at": "2026-10-06T18:48:03.174432+00:00",
+  "code_sha256": "d7a963e7c4f8a04c8693de7507de76b7a742f773510b05129b7ca99695f01dec",
+  "helper_pin": {
+    "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py",
+    "sha256": "ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2"
+  },
+  "final_manifest_pin": {
+    "path": "evaluations/T-0792/implementation/stage464-v1/final-package-manifest-v1.json",
+    "sha256": "f8d7bfb16c5bab248ff61c1de484bde345139a8417fe36197539b929826ec251"
+  },
+  "consequence_table_pin": {
+    "path": "evaluations/T-0792/implementation/individual-consequence-table-v2.json",
+    "sha256": "d959c438097a2a9dab7e26a4d86e4437de51be0b67608994c48f82b22285f50a"
+  },
+  "extra_allocation_pins": [
+    {
+      "path": "evaluations/T-0792/root-bounded-followup-allocation-v1.json",
+      "sha256": "92be14548270ab1ef7988bf82b7c66e9ab31fd5822a107c14cc62ec87a37b48e"
+    }
+  ],
+  "baseline_state_pin": {
+    "path": "evaluations/T-0792/implementation/baseline-state-v1.json",
+    "sha256": "38d131449a26859b14775c148b819c9aefe77b25c43f0ed591494a6d800b360e"
+  },
+  "final_result_pin": {
+    "path": "evaluations/T-0792/implementation/stage464-v1/final-result-qualified-v1.json",
+    "sha256": "19d5a6b682433abd3981bc5a8358838b5e42d776e371dc942899bfce4d4259f9"
+  },
+  "operation_pins": [
+    {
+      "path": "evaluations/T-0792/implementation/candidate-operation-v2.json",
+      "sha256": "c1d486d79482b00febd24bdfa4586735b18e5668abc7c351dc0584abf2a95f96"
+    },
+    {
+      "path": "evaluations/T-0792/implementation/candidate-fourteen-retains-operation-v1.json",
+      "sha256": "a71ad6632ec6d1f350e308d25822adee090a4d6b05dff81c85fc4a0f9fe569a8"
+    }
+  ],
+  "baseline_state": {
+    "journal_head": 462,
+    "pending": 0
+  },
+  "final_state": {
+    "journal_head": 464,
+    "pending": 0
+  },
+  "operation_expectations": [
+    {
+      "id": "T-0792/current-four-life-and-exact-semantic-corrections-v1",
+      "change_count": 81,
+      "resolve_count": 0,
+      "resulting_state": {
+        "journal_head": 463,
+        "pending": 14
+      }
+    },
+    {
+      "id": "T-0792/fourteen-individual-context-consequence-retains-v1",
+      "change_count": 0,
+      "resolve_count": 14,
+      "resulting_state": {
+        "journal_head": 464,
+        "pending": 0
+      }
+    }
+  ],
+  "output_path": "evaluations/T-0792/implementation/root-actual-canonical-v1",
+  "root_review": "Full exacthelper and bothfinalSOURCEgates read,989pins verified, root4fullLIFE bodies unchangedv3; ownerallocationexact. Reportlabelstage461 explicitlyqualifiedbyindependentfinalgate as actual linkedstage463. Actualcanonicalcomparison required, noDBreplacement/noextraexecution.",
+  "primary_final_gate": {
+    "pin": {
+      "path": "evaluations/T-0792/primary/final-staged-source-gate-v1.json",
+      "sha256": "be14361ac398a0bb1536aa1db3138a3123182faca611f6023455a89c8d9e9cc0"
+    },
+    "ready_pointer": "/ready_for_root_canonical_apply",
+    "manifest_sha_pointer": "/finalManifestSha256",
+    "stage_db_sha_pointer": "/stageDbSha256",
+    "consequence_sha_pointer": "/consequenceSha256",
+    "operation_sha_pointers": [
+      "/operationSha256",
+      "/resolutionOperationSha256"
+    ]
+  },
+  "independent_final_gate": {
+    "pin": {
+      "path": "evaluations/T-0792/independent-final-source-gate-v1.json",
+      "sha256": "401d698ec7d4589cfb25a4174c5ce8480ad78f3758a4d216759894c0eaf6492e"
+    },
+    "ready_pointer": "/ready_for_root_canonical_apply",
+    "manifest_sha_pointer": "/finalManifestSha256",
+    "stage_db_sha_pointer": "/stageDbSha256",
+    "consequence_sha_pointer": "/consequenceSha256",
+    "operation_sha_pointers": [
+      "/operationSha256",
+      "/resolutionOperationSha256"
+    ]
+  }
+}

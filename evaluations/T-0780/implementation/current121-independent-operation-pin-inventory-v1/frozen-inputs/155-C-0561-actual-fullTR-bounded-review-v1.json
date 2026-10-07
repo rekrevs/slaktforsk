@@ -1,0 +1,53 @@
+{
+  "task": "T-0780",
+  "scope": "Exact C0561 single fullTR operation; not entire citation package",
+  "status": "Bounded actual fullTR meaning/payload agrees with explicit source reservations; allcurrentconsequences/dependencies/freshglobalstage still pending. No final10 PASS.",
+  "pins": [
+    {
+      "path": "evaluations/T-0780/implementation/C0561-settled-queue-v1/full-transcription-operation-v1.json",
+      "sha256": "13a64c44d1a22ad5a1873de657d9ae19295d7c99d29a78f7dae2945c29867fdb"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0561-full-transcription-decisions-v1.json",
+      "sha256": "c771a84450c4d90673ea1ca311826d9476bc4fcfe5c6cbd5b27791c512ed348e"
+    },
+    {
+      "path": "evaluations/T-0780/fresh-independent-review/C-0561-own-reading-v1.md",
+      "sha256": "837c85f1827422d008e56b213cb35543485e3fc554746e51b5d06b34803e163b"
+    },
+    {
+      "path": "evaluations/T-0780/fresh-independent-review/C-0561-comparative-amendment-v1.json",
+      "sha256": "f26fc28e8d8c6c4b6a201ebb800c79f9f2b3b2545a0973e82966067a5fa979f9"
+    }
+  ],
+  "coverage": "Full metadata/header/margins/source limits/publication history, all14 whole rows with140 yearcells/280 F-N outcomes, ownrow d:o/blanks, all remaining columns read. First own raw and additivecomparativeamendment reread; no pointless neworiginal.",
+  "source_judgments": [
+    "Cajsa/Maria names, head marriage2July, Johandeparture7Oct and Cajsa31Oct ownadditive corrections accurately adopted; firstraw unchanged.",
+    "Maria4?/10 distinct outgoingattest15, CarlForstar4, Anders1881N2/10 reflect explicit primary glyphrecheck; not automatic events.",
+    "Ester1883 abs-like note remains unresolved17/?; own tentative21/10 does not justify forced date, no exactdateevent.",
+    "Carl668187723?/11 remains reserved. Each listed yearcell remains graphic/cell reading rather than dailypresence.",
+    "Jonas1876Feb10 and Olof1878Sep20 own d:o,v and blankannuals present; Begges children preserved, no Nannyabsence-demotion.",
+    "No7 already on this book; cannot be first1884. Glbok603 not new movement.",
+    "Entire source recorded under oldR1, no new evidence voice, no person/status change."
+  ],
+  "payload_checks": {
+    "one_new_transcription": true,
+    "expected_version_null": true,
+    "content_exact_primary": true,
+    "caveat_duplicate_byte_equal_text": true,
+    "data_record_id_exact": true,
+    "origins_empty": true,
+    "evidence": [
+      {
+        "object": "R-cb1f11fb7e673fa673e7adec",
+        "version": 1,
+        "role": "supports",
+        "note": "Samma låsta original, full14rads egen utvinning med exakta reservationer; ingen extra oberoende källa."
+      }
+    ],
+    "metadata": "Full actor/reason/dependencyReviewVersion2/rationale/recorded/nullstatus/readingnote read, explicitly pendingglobalreview."
+  },
+  "production_deviations": [
+    "Initial metadata display unexpectedly contained full duplicate caveat and truncated at3500tokens. No fullreading credit assigned then. Repair verified caveat byteequaltext and read allnonrowfields plus rows1–7/8–14 in two complete compact blocks without truncation."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source_pins": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0069-nine-assessment-event-relation-decisions-v1.json",
+      "sha256": "c221ce72788325e8fb5cfd3eb25a75256e377c5762351ff3ca56c472e8469fd4"
+    }
+  ],
+  "input_pin": {
+    "path": "evaluations/T-0780/implementation/C0069-nine-assessment-event-relation-queue-v1/stronger-C70-support-and-all-history-incoming-input-v1.json",
+    "sha256": "e2fba8fe08736a59549fd02d538daa456a43709a221170f1e6140ec8052e89e6"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0780/implementation/C0069-nine-assessment-event-relation-queue-v1/current106-candidate-membership-inventory-v1.json",
+    "sha256": "c9524d86c71d292ed695d0530d6fda780ffd1cfd0839f9348d01e6b33a3fac0d"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0780/implementation/C0069-nine-assessment-event-relation-queue-v1/concrete-current106-partial-sequence-and-constraint-proposal-v1.json",
+    "sha256": "4764bb41ac7c235b172b086884b661568904158e4a1269d89c639049d9e053c8"
+  },
+  "revisions": 5,
+  "legacy_review_retains": 4,
+  "full_field_entries": 75,
+  "incoming_edges": 1,
+  "full_native_referencers": 1,
+  "failed_attempts": [
+    {
+      "script": "finalize_C0069_nine_assessment_event_relation_phase_v1.py",
+      "reason": "Initial placement included new fullTR among old bases, placing dependent module too early. Corrected proposed insertion considers only existing revised bases, preserving all payloads."
+    }
+  ],
+  "elapsed_since_candidate_seconds": 68.02291297912598,
+  "initial_reads_excluded": true,
+  "model_usage_root_collect_after_final": true,
+  "all_outcomes_unchanged": true,
+  "F98_before_O98_proposed_no_rebind": true,
+  "no_stage_probe_apply_actual328_modification": true
+}

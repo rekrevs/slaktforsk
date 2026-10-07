@@ -1,0 +1,115 @@
+{
+  "task": "T-0787",
+  "phase": "SETTLED_MINIMUM_PHYSICAL_PAGE_AND_BOUNDED_SEARCH_APIS",
+  "schema_pin": {
+    "path": "evaluations/T-0787/preparation/minimal-3011-negative-search-and-literal-media-native-schema-interface-NOT-API-v1.json",
+    "sha256": "90bd6afef41be1292c8f1868be4ee4f19634d214b77abcf25225caee69ca432f"
+  },
+  "own_full_read_pin": {
+    "path": "evaluations/T-0787/source-review/own-postlogin-3011-full-page-target-comparison-reading-freeze-v1.json",
+    "sha256": "8a684353671932cbaaa5bdba8159b33cca9116c8d06f2c43d2cce7e8b7cafb8f"
+  },
+  "route_disposition_pin": {
+    "path": "evaluations/T-0787/source-review/postlogin3011-exact-route-premise-and-fixed-scope-additive-disposition-v1.json",
+    "sha256": "863e8d694f774a1a5c299a2c3be7b487bc720e634896c402688cf19b1a7ab6a2"
+  },
+  "media_registration_API": {
+    "id": "M-bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96",
+    "storagePath": "genealogy2/media/objects/bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96",
+    "sha256": "bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96",
+    "bytes": 1313110,
+    "originalName": "00205124_00259.jpg",
+    "provenance": "{\"task\":\"T-0787\",\"at_utc\":\"2026-10-06T07:21:50.994354+00:00\",\"url\":\"https://sok.riksarkivet.se/bildvisning/00205124_00259\",\"source\":\"SE/HLA/1010190/A II a/15 (1912-1937)\",\"canvas\":\"00205124_00259\",\"label\":\"Bild259 / Sida3011\",\"method\":\"Logged-in officialChromeviewer Ladda ner > Hela bilden5722x4062px(jpg); receivedbrowserdownload copiedunaltered. sipsverifieddimensions.\",\"path\":\"evaluations/T-0787/postlogin-originals/00205124_00259.jpg\",\"width\":5722,\"height\":4062,\"bytes\":1313110,\"sha256\":\"bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96\",\"source_reading\":\"NOT_YET; bothAstraownreads required; 3oldlocals reused\"}"
+  },
+  "rows": [
+    {
+      "action": "create",
+      "full_new_API": {
+        "id": "R-T0787-Sundsvall-AIIa15-f3011-tested-page",
+        "kind": "record",
+        "expectedVersion": null,
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0787 AC2/5: bevarar den faktiskt öppnade fysiska sidan som avgränsat prövad hänvisningskandidat, skild från målposten2995.",
+        "caveat": "Endast denna exakta tryckta sida3011/bild00259 prövas. Grön3011 i fol2995kol14 har inte bevisad bok/riktningskoppling. Avsaknaden här är inte person-/församlings-/årsnoll eller källuttömning. Inga främmande familjer personregistreras. Downloadproveniensens NOT_YET beskriver tiden före de nu avslutade egna läsningarna.",
+        "data": {
+          "source_id": "S-0731",
+          "record_type": "household_page_scope_check",
+          "locator": "Sundsvalls Gustav Adolfs kyrkoarkiv SE/HLA/1010190/A II a/15 (1912–1937), tryckt folio3011, bild259,00205124_00259; hela sidan för avgränsad familjekontroll",
+          "dependence_note": "Samma volymfamilj som2995. En prövad hänvisningskandidat, inte en ny oberoende identitetsröst eller bevisad fortsättningspost."
+        },
+        "origins": [],
+        "evidence": [
+          {
+            "object": "S-0731",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Exakt befintlig källbeskrivning; fysisk passage avgränsad av bild/header."
+          }
+        ],
+        "media": [
+          {
+            "id": "M-bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96",
+            "region": "Hela tryckta3011 med rubriker, radpositioner1–25, tomrum, marginaler och båda bildhalvor för exakt familjekontroll."
+          }
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "full_new_API": {
+        "id": "SEARCH-T0787-exact3011-family-nonmatch",
+        "kind": "search",
+        "expectedVersion": null,
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0787 AC2/5: egen fullrelevant kontroll av exakt tillåten3011kandidat med avgränsat negativt resultat; rättar tidigare överstark hänvisningspremiss.",
+        "caveat": "Endast denna exakta tryckta sida3011/bild00259 prövas. Grön3011 i fol2995kol14 har inte bevisad bok/riktningskoppling. Avsaknaden här är inte person-/församlings-/årsnoll eller källuttömning. Inga främmande familjer personregistreras. Downloadproveniensens NOT_YET beskriver tiden före de nu avslutade egna läsningarna.",
+        "data": {
+          "question_id": null,
+          "source_id": "S-0731",
+          "scope_json": {
+            "description": "Exakt tryckta3011 i Sundsvall AIIa15, endast jämförelse med fol2995r16–22 målgruppen.",
+            "query": "Axel Edvin Henriksson1901-01-31 och Emma Petronella Eugenia Larsson1900-07-23 med barnen på2995r16–22; finns gruppen på denna kandidatsida?",
+            "bounds": {
+              "canvas": "00205124_00259",
+              "printed_page": 3011,
+              "volume": "SE/HLA/1010190/A II a/15 (1912–1937)",
+              "row_positions": "1–25, hela relevanta sidan",
+              "physical_record": "R-T0787-Sundsvall-AIIa15-f3011-tested-page",
+              "image_sha256": "bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96",
+              "exclusions": "Inga andra volymer/sidor/årsserier; ingen generell personfrånvaro."
+            },
+            "persons": [
+              "P-0241",
+              "P-0246"
+            ],
+            "unresolved_annotation_owner": "T-0214"
+          },
+          "outcome": "negative",
+          "body": "T-0787,2026-10-06. Exakta fulloriginalet00205124_00259, tryckt3011, SHA-256 bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96,5722×4062, har prövats med hela relevanta sidans rubriker, namn-, födelse-, familje-, hänvisningsfält, tomma radpositioner och marginaler. Sidan har25 radpositioner;13 besatta rader i tre åtskilda grupper1–4,9–13,18–21, med tomma5–8,14–17,22–25. Ingen av grupperna är Axel Edvin Henriksson/Emma Petronella Eugenia Larsson med målpostens barn. Andra sidans familjenamn är enbart kontext för denna kontroll och införs inte som nya personer.\n\nDen riktade omprövningen av målpost2995 visar grön3011 i kol14 Anteckningar, med egna gröna familjedittos. Ingen bokbeteckning, riktningspil, följdmarkör eller synlig överstrykning visar att denna siffra säkert hänvisar till just en egen familjefortsättning på den prövade sidan. Svart[Fl./H.?]897/36 är separat; verklig utflyttningsregistrering står i kol16–17, Sättna36 14/11. Tidigare uttryck direktfortsättning och det tillfälliga antagandet om en obligatorisk oläst post ersätts därför uttryckligen.\n\nUtfall: exakt denna kandidatsida saknar målgruppen. Notens betydelse/bokkoppling förblir en precist reserverad T0214-fråga, inte en ny fri bildsökningsbeställning eller ett påhittat känt oläst identitetsstöd. Inga extra originals öppnas här. De tre ursprungliga målposterna och accepterade starkare äldre stöd påverkas inte av sidnollen; deras fulla egna fält behandlas i separata versionsbundna transkriptioner och aktuella följdobjekt."
+        },
+        "origins": [],
+        "evidence": [
+          {
+            "object": "R-T0787-Sundsvall-AIIa15-f3011-tested-page",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Hela exakt prövade fysiska kandidatsidan, med fulloriginal."
+          },
+          {
+            "object": "TR-30cc52cfdcfa165b6e35c31f",
+            "version": 2,
+            "role": "context",
+            "note": "Målpost2995: grön3011 i kol14 med egen familjeditto och reserverad innebörd, inte bevisad riktad fortsättning."
+          }
+        ]
+      }
+    }
+  ],
+  "order": "Register exact media first; create physical3011 record before search; corrected2995TR@2 precedes search. No attachment to2995.",
+  "new_objects": 2,
+  "new_people": 0,
+  "no_legacy_grade_or_OWNER_mutation": true,
+  "canonical_authorized": false
+}

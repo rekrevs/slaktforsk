@@ -1,0 +1,66 @@
+{
+  "task": "T-0775",
+  "state": "COMPLETED_AT_J248_END_METER_PENDING",
+  "owner_budget_baseline_percent": 37,
+  "owner_budget_baseline_recorded_at_utc": "2026-10-01T19:52:56.152355+00:00",
+  "previous_reported_percent": 36,
+  "baseline_note": "Owner fresh37% during metadata-preparation, before any newsourceimage reading. Initial preparation began before baseline; do not hide prebaselinework or attribute36→37solelypilot. najs previously reportedpaused.",
+  "tokens": "actualusagecollector pending; no fabricated count",
+  "production_stages": [
+    "sol_preparation",
+    "astra_source_decisions",
+    "sol_implementation",
+    "astra_final_review",
+    "sol_finalization"
+  ],
+  "extra_pilot_controls_separate": true,
+  "root_cost_included_or_unknown_explicit": true,
+  "halving_comparator": "No matched allAstra baseline for new3sources; old17→33sharedmeterconfounded. Targetnotclaimedachievedfromcallcounts.",
+  "events": [
+    {
+      "at_utc": "2026-10-01T19:52:56.152355+00:00",
+      "phase": "owner_start_meter",
+      "percent": 37
+    },
+    {
+      "at_utc": "2026-10-01T20:18:18.884691+00:00",
+      "phase": "independent_astra_final_review_start",
+      "thread_id": "01a0f91d-72c9-7741-a4df-3bf32dd26a0b",
+      "launch": "standardCLI",
+      "production": true
+    },
+    {
+      "at_utc": "2026-10-01T20:41:12.828252+00:00",
+      "phase": "canonical_verified",
+      "journal": 248,
+      "scopes": 3
+    }
+  ],
+  "owner_budget_end_percent": null,
+  "completed_at_utc": "2026-10-01T20:46:28.616679+00:00",
+  "logged_agent_tokens_by_model": {
+    "gpt-6-astra": {
+      "input_tokens": 21010254,
+      "cached_input_tokens": 20347520,
+      "output_tokens": 61745,
+      "reasoning_output_tokens": 6759,
+      "total_tokens": 21071999,
+      "record_count": 166,
+      "uncached_input_tokens": 662734
+    },
+    "gpt-6.1-sol": {
+      "input_tokens": 24785570,
+      "cached_input_tokens": 24517760,
+      "output_tokens": 64111,
+      "reasoning_output_tokens": 13274,
+      "total_tokens": 24849681,
+      "record_count": 175,
+      "uncached_input_tokens": 267810
+    }
+  },
+  "usage_final_path": "evaluations/T-0775/usage-final.json",
+  "usage_final_sha256": "73c9bc72a89c86c65484a01a7de05095e7dad6e1acf703cc21468327915748b8",
+  "root_actual_model_and_usage": "UNKNOWN, not zero",
+  "canonical_journal": 248,
+  "accepted_scopes": 3
+}

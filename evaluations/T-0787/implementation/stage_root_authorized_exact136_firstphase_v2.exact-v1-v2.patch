@@ -1,0 +1,80 @@
+--- evaluations/T-0787/implementation/stage_root_authorized_exact136_v1.py
++++ evaluations/T-0787/implementation/stage_root_authorized_exact136_firstphase_v2.py
+@@ -1,4 +1,4 @@
+-"""UNRUN exact136 one-op clone stage. Requires separate immutable root authorization.
++"""UNRUN exact136 first-phase clone apply/capture. Requires exact root authorization.
+ 
+ No canonical/resolution writes. All stage mutation uses the controlled CLI once.
+ """
+@@ -22,10 +22,37 @@
+     parser = argparse.ArgumentParser()
+     parser.add_argument('--authorization', type=Path, required=True)
+     parser.add_argument('--authorization-sha256', required=True)
++    parser.add_argument('--helper-sha256', required=True)
+     args = parser.parse_args()
+     ap = args.authorization.resolve()
+     assert ap.is_relative_to(R) and h.sha(ap) == args.authorization_sha256
+-    auth = json.loads(ap.read_text())
++    assert h.sha(Path(__file__).resolve()) == args.helper_sha256
++    raw_authorization = json.loads(ap.read_text())
++    assert raw_authorization['task'] == 'T-0787'
++    assert raw_authorization['phase'] == 'clone-first-apply-and-capture-actual-requests'
++    assert raw_authorization['root_authorized'] is True
++    assert all(raw_authorization[k] is False for k in ['runtime_resolution_authorized', 'canonical_authorized', 'database_replacement_authorized', 'retry_authorized'])
++    assert raw_authorization['baseline_state'] == {'journal_head': 447, 'pending': 0}
++    assert (raw_authorization['target_count'], raw_authorization['revision_count'], raw_authorization['create_count'], raw_authorization['media_count']) == (136, 130, 6, 1)
++    assert raw_authorization['actual_request_count_not_inferred_from94_inputs'] is True
++    # Explicit interface adapter only: all source/package/API values stay literal.
++    _, package = h.readpin(raw_authorization['package_pin'])
++    assert package['operations'][0]['operation_pin'] == raw_authorization['operation_pin']
++    gate = lambda pin, package_pointer: {'pin': pin, 'ready_pointer': '/source_ready_for_root_authorized_stage',
++            'proposal_pin_pointer': package_pointer, 'membership_pin_pointer': '/membership_pin', 'operation_pin_pointer': '/operation_pin'}
++    auth = {'authorization': 'ONE_FRESH_EXACT136_ONE_OPERATION_CLONE_STAGE_ONLY', 'root_authorized': True,
++            'canonical_apply_authorized': False, 'resolution_apply_authorized': False,
++            'helper_pin': {'path': str(Path(__file__).resolve().relative_to(R)), 'sha256': args.helper_sha256},
++            'proven_utility_pin': {'path': str(HELPER.relative_to(R)), 'sha256': 'e36e60ec42a99e5b0dc428ad0666210e59ba76b4ead438f18d89ab42e2f788d6'},
++            'proposal_pin': raw_authorization['package_pin'], 'membership_pin': package['membership_pin'],
++            'main_pin': raw_authorization['main_baseline_pin'], 'baseline_pin': raw_authorization['baseline_DB_pin'],
++            'fresh_baseline_receipt_pin': h.pin(ap),
++            'protected42_pin': h.pin(R / 'evaluations/T-0781/mechanical-current425-preparation-v1/complete-current-OWNER-identity-tree-life-protected-native-payloads-v1.json'),
++            'primary_gate': gate(raw_authorization['primary_gate_pin'], '/proposal_pin'),
++            'independent_prestage_gate': gate(raw_authorization['independent_gate_pin'], '/package_pin'),
++            'review_pins': raw_authorization['source_code_pins'],
++            'media_pins': [{'path': 'evaluations/T-0787/postlogin-originals/00205124_00259.jpg', 'sha256': 'bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96'}],
++            'stage_path': raw_authorization['stage_output_root']}
+     assert auth['authorization'] == 'ONE_FRESH_EXACT136_ONE_OPERATION_CLONE_STAGE_ONLY'
+     assert auth['root_authorized'] is True
+     assert auth['canonical_apply_authorized'] is False and auth['resolution_apply_authorized'] is False
+@@ -110,7 +137,7 @@
+         assert h.sha(db) == auth['baseline_pin']['sha256']
+         shutil.copytree(R / 'genealogy2/journal', journal)
+         journal_prefix = {str(p.relative_to(journal)): h.sha(p) for p in journal.rglob('*') if p.is_file()}
+-        h.write(stage / 'authorization-and-baseline-v1.json', {'authorization_pin': h.pin(ap), 'authorization': auth,
++        h.write(stage / 'authorization-and-baseline-v1.json', {'authorization_pin': h.pin(ap), 'raw_authorization': raw_authorization, 'explicit_interface_adapter': auth,
+                 'baseline_all50': before, 'before': h.state(base), 'journal_prefix': journal_prefix})
+         recheck_pins()
+         c = h.conn(db)
+@@ -236,14 +263,7 @@
+         h.write(stage / 'all-operation-payloads-v1.json', [dict(r) for r in c.execute('select * from operation_payload order by sequence')])
+         c.close()
+         validators = []
+-        for cmd in ['verify', 'verify-assets', 'verify-source', 'inventory']:
+-            out = stage / (cmd + '.json')
+-            h.run_cli([cmd, '--db', str(db), '--journal', str(journal)], out)
+-            validators.append(h.pin(out))
+-        for person in ['P-0269', 'P-0270']:
+-            out = stage / (person + '-default-verified-pedigree.json')
+-            h.run_cli(['pedigree', person, '--db', str(db)], out)
+-            validators.append(h.pin(out))
++        # Root authorized first phase only: six final checks follow individual resolutions.
+         recheck_pins()
+         assert h.all50(live) == before
+         c = h.conn(db)
+@@ -255,6 +275,7 @@
+                          'actual_native_context_pin': native_pin, 'all136_API_pin': target_pin, 'individual_request_pin': requests_pin,
+                          'old_context_baseline_equality_pin': old_pin, 'all50_diff_pin': diff_pin, 'stage_DB_pin': h.pin(db), 'validators': validators,
+                          'protected42_exact': True, 'main_physical_and_all50_unchanged': True, 'resolutions_applied': 0,
++                         'final_six_validators_status': 'UNRUN_PENDING_INDIVIDUAL_SOURCE_AND_INDEPENDENT_REQUEST_GRADES_AND_ROOT_PHASE_AUTH',
+                          'actual_request_source_independent_grades_required': True, 'canonical_applied': False, 'program_acceptance': False,
+                          'usage': 'UNKNOWN pending root collector'})
+         print(json.dumps({'handoff_pin': handoff, 'actual_state': final}))

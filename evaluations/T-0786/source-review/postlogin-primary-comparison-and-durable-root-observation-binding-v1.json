@@ -1,0 +1,24 @@
+{
+  "task": "T-0786",
+  "source_spec_pin": {
+    "path": "evaluations/T-0786/source-review/one-postlogin-shared-access-search-exact-primary-specification-v1.json",
+    "sha256": "973737882881aaae0ad37a2d5a7cec258371b0d24b7742914b68bdb7d60e830a"
+  },
+  "durable_root_observation_pin": {
+    "path": "evaluations/T-0786/postlogin-exact-reproduction-root-observation-v1.json",
+    "sha256": "2b3ec521eead134d126a407a5e9fd74061f2a7fa2108d89f9544dfe2ca7a7745"
+  },
+  "independent_inputs_read_after_root_release": [
+    {
+      "path": "evaluations/T-0786/independent-review/own-postlogin-two-catalog-units-source-bound-freeze-v1.json",
+      "sha256": "6214f5c74ddb6ee7093bcfd0a6376cb881c73f515d4653ac51e5038b159cc895"
+    },
+    {
+      "path": "evaluations/T-0786/independent-review/own-exact00023696-response-source-bound-addendum-v1.json",
+      "sha256": "83e871224757eb55cdcbfe090d3690c3b018d79ab32e1cd3a24638453a931dbd"
+    }
+  ],
+  "judgment": "Whole independent frozen catalogue and response dispositions agree with primary; new durable root viewer/HTML response artifact matches attributed message observation in ownfreeze/spec. No actual API or substantive amendment required. Original15 remains unread; no furthercatalog, no implicit restriction bypass, no oldgradechange.",
+  "ready_for_mechanical_draft": true,
+  "ready_for_canonical": false
+}

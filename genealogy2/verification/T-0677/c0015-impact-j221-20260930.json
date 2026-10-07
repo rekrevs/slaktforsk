@@ -1,0 +1,2171 @@
+{
+  "command": "node genealogy2/cli.mjs impact C-0015",
+  "exit": 0,
+  "payload": {
+    "format": "genealogy2-impact/1",
+    "input": "C-0015",
+    "query": null,
+    "database_state": {
+      "operations": 222,
+      "revisions": 47614,
+      "last_operation": {
+        "sequence": 221,
+        "operation_id": "T-0677/C0010-person-v1"
+      }
+    },
+    "seeds": [
+      {
+        "object_id": "R-5c698cffffc10deb0b1f37f8",
+        "revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "routes": [
+          {
+            "type": "citation_representation",
+            "via_object": "R-5c698cffffc10deb0b1f37f8"
+          },
+          {
+            "type": "citation_representation",
+            "via_object": "READ-d73e7c8386f32c9d123bcc9a"
+          },
+          {
+            "type": "citation_representation",
+            "via_object": "TR-e34f795149b22e3edcc2995b"
+          }
+        ]
+      },
+      {
+        "object_id": "R-C0015-Hulda-Margareta-index",
+        "revision_id": "R-C0015-Hulda-Margareta-index@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "routes": [
+          {
+            "type": "citation_representation",
+            "via_object": "R-C0015-Hulda-Margareta-index"
+          }
+        ]
+      }
+    ],
+    "routing_limit": "C-id maps to bounded records through import representations; this routing is provenance, not source support. No record mapping means no inferred dependency graph.",
+    "dependencies": {
+      "current": [
+        {
+          "object_id": "E-arrival1929-P-0007",
+          "revision_id": "E-arrival1929-P-0007@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "E-arrival1929-P-0007@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "E-arrival1929-P-0007@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "E-registered_arrival-P-0016-Hyltinge1929",
+          "revision_id": "E-registered_arrival-P-0016-Hyltinge1929@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "E-registered_arrival-P-0016-Hyltinge1929@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "E-registered_arrival-P-0016-Hyltinge1929@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "EP-E-arrival1929-P-0007-P-0007-principal",
+          "revision_id": "EP-E-arrival1929-P-0007-P-0007-principal@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 2,
+          "path": [
+            {
+              "revision_id": "E-arrival1929-P-0007@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            },
+            {
+              "revision_id": "EP-E-arrival1929-P-0007-P-0007-principal@1",
+              "basis_revision_id": "E-arrival1929-P-0007@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: event_id"
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "EP-E-arrival1929-P-0007-P-0007-principal@1",
+              "basis_revision_id": "E-arrival1929-P-0007@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: event_id"
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "EP-E-registered_arrival-P-0016-Hyltinge1929-P-0016-migrant",
+          "revision_id": "EP-E-registered_arrival-P-0016-Hyltinge1929-P-0016-migrant@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 2,
+          "path": [
+            {
+              "revision_id": "E-registered_arrival-P-0016-Hyltinge1929@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            },
+            {
+              "revision_id": "EP-E-registered_arrival-P-0016-Hyltinge1929-P-0016-migrant@1",
+              "basis_revision_id": "E-registered_arrival-P-0016-Hyltinge1929@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "EP-E-registered_arrival-P-0016-Hyltinge1929-P-0016-migrant@1",
+              "basis_revision_id": "E-registered_arrival-P-0016-Hyltinge1929@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0007-civil_status-1930",
+          "revision_id": "F-P-0007-civil_status-1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0007-civil_status-1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0007-civil_status-1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0007-education-1930",
+          "revision_id": "F-P-0007-education-1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0007-education-1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0007-education-1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0007-household_membership-census1930",
+          "revision_id": "F-P-0007-household_membership-census1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0007-household_membership-census1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0007-household_membership-census1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0007-name_form-census1930",
+          "revision_id": "F-P-0007-name_form-census1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0007-name_form-census1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0007-name_form-census1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0007-residence-solliden1930",
+          "revision_id": "F-P-0007-residence-solliden1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0007-residence-solliden1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0007-residence-solliden1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0016-household_membership-Solliden1930",
+          "revision_id": "F-P-0016-household_membership-Solliden1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0016-household_membership-Solliden1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0016-household_membership-Solliden1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0016-name_form-adult",
+          "revision_id": "F-P-0016-name_form-adult@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0016-name_form-adult@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0016-name_form-adult@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0017-name_form-index",
+          "revision_id": "F-P-0017-name_form-index@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0017-name_form-index@1",
+              "basis_revision_id": "R-C0015-Hulda-Margareta-index@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0017-name_form-index@1",
+              "basis_revision_id": "R-C0015-Hulda-Margareta-index@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0017-residence-index1930",
+          "revision_id": "F-P-0017-residence-index1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0017-residence-index1930@1",
+              "basis_revision_id": "R-C0015-Hulda-Margareta-index@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0017-residence-index1930@1",
+              "basis_revision_id": "R-C0015-Hulda-Margareta-index@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "ID-P-0017-index",
+          "revision_id": "ID-P-0017-index@1",
+          "version": 1,
+          "kind": "identity",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 2,
+          "path": [
+            {
+              "revision_id": "M-P-0017-index@1",
+              "basis_revision_id": "R-C0015-Hulda-Margareta-index@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            },
+            {
+              "revision_id": "ID-P-0017-index@1",
+              "basis_revision_id": "M-P-0017-index@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "ID-P-0017-index@1",
+              "basis_revision_id": "M-P-0017-index@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "M-P-0017-index",
+          "revision_id": "M-P-0017-index@1",
+          "version": 1,
+          "kind": "mention",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "M-P-0017-index@1",
+              "basis_revision_id": "R-C0015-Hulda-Margareta-index@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "M-P-0017-index@1",
+              "basis_revision_id": "R-C0015-Hulda-Margareta-index@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0007-census-neighbors",
+          "revision_id": "O-P-0007-census-neighbors@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0007-census-neighbors@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0007-census-neighbors@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0016-civil-occupation1930",
+          "revision_id": "O-P-0016-civil-occupation1930@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0016-civil-occupation1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0016-civil-occupation1930@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0017-birth-index",
+          "revision_id": "O-P-0017-birth-index@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0017-birth-index@1",
+              "basis_revision_id": "R-C0015-Hulda-Margareta-index@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0017-birth-index@1",
+              "basis_revision_id": "M-P-0017-index@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            },
+            {
+              "revision_id": "O-P-0017-birth-index@1",
+              "basis_revision_id": "R-C0015-Hulda-Margareta-index@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "READ-4a7bb11808e0277c4a5d33ce",
+          "revision_id": "READ-4a7bb11808e0277c4a5d33ce@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "READ-4a7bb11808e0277c4a5d33ce@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "READ-4a7bb11808e0277c4a5d33ce@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "READ-d73e7c8386f32c9d123bcc9a",
+          "revision_id": "READ-d73e7c8386f32c9d123bcc9a@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "READ-d73e7c8386f32c9d123bcc9a@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "READ-d73e7c8386f32c9d123bcc9a@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "TR-e34f795149b22e3edcc2995b",
+          "revision_id": "TR-e34f795149b22e3edcc2995b@1",
+          "version": 1,
+          "kind": "transcription",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "TR-e34f795149b22e3edcc2995b@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "TR-e34f795149b22e3edcc2995b@1",
+              "basis_revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        }
+      ],
+      "historical": []
+    },
+    "provenance": {
+      "classification": "import_provenance_not_evidence",
+      "origins": [
+        {
+          "revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+          "unit_id": "845cf2bd61f612243afee85df6d7067c0224c8bacd872485b8188a89bb458ff4",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-5c698cffffc10deb0b1f37f8",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md",
+          "start_line": 32,
+          "end_line": 41,
+          "historical": 0,
+          "sha256": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb"
+        },
+        {
+          "revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+          "unit_id": "a5be284a14eaa4f9d50e705fc6ee91a831e718f899e61d80ba51cba28e50649c",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-5c698cffffc10deb0b1f37f8",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md",
+          "start_line": 1,
+          "end_line": 46,
+          "historical": 0,
+          "sha256": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb"
+        },
+        {
+          "revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+          "unit_id": "eddc940c563ed1dc14e33cbbe060a021b5fd60cdf7e030bdaad2dfa4caf54036",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-5c698cffffc10deb0b1f37f8",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md",
+          "start_line": 9,
+          "end_line": 23,
+          "historical": 0,
+          "sha256": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb"
+        },
+        {
+          "revision_id": "R-C0015-Hulda-Margareta-index@1",
+          "unit_id": "a149a96f25f6edc4964d71341321362ce9a3284a04b99d36c82a795f49d50fb4",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-C0015-Hulda-Margareta-index",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md",
+          "start_line": 8,
+          "end_line": 36,
+          "historical": 0,
+          "sha256": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb"
+        },
+        {
+          "revision_id": "READ-d73e7c8386f32c9d123bcc9a@1",
+          "unit_id": "845cf2bd61f612243afee85df6d7067c0224c8bacd872485b8188a89bb458ff4",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-d73e7c8386f32c9d123bcc9a",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md",
+          "start_line": 32,
+          "end_line": 41,
+          "historical": 0,
+          "sha256": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb"
+        },
+        {
+          "revision_id": "READ-d73e7c8386f32c9d123bcc9a@1",
+          "unit_id": "a5be284a14eaa4f9d50e705fc6ee91a831e718f899e61d80ba51cba28e50649c",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-d73e7c8386f32c9d123bcc9a",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md",
+          "start_line": 1,
+          "end_line": 46,
+          "historical": 0,
+          "sha256": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb"
+        },
+        {
+          "revision_id": "READ-d73e7c8386f32c9d123bcc9a@1",
+          "unit_id": "eddc940c563ed1dc14e33cbbe060a021b5fd60cdf7e030bdaad2dfa4caf54036",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-d73e7c8386f32c9d123bcc9a",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md",
+          "start_line": 9,
+          "end_line": 23,
+          "historical": 0,
+          "sha256": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb"
+        },
+        {
+          "revision_id": "TR-e34f795149b22e3edcc2995b@1",
+          "unit_id": "a5be284a14eaa4f9d50e705fc6ee91a831e718f899e61d80ba51cba28e50649c",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "TR-e34f795149b22e3edcc2995b",
+          "version": 1,
+          "kind": "transcription",
+          "document_path": "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md",
+          "start_line": 1,
+          "end_line": 46,
+          "historical": 0,
+          "sha256": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb"
+        },
+        {
+          "revision_id": "TR-e34f795149b22e3edcc2995b@1",
+          "unit_id": "f3e64655433b2832517582288b1f0c2bed2a9f5e745aaf93aac85ddb88c75d22",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "TR-e34f795149b22e3edcc2995b",
+          "version": 1,
+          "kind": "transcription",
+          "document_path": "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md",
+          "start_line": 20,
+          "end_line": 23,
+          "historical": 0,
+          "sha256": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb"
+        }
+      ],
+      "targets": [
+        {
+          "unit_id": "a149a96f25f6edc4964d71341321362ce9a3284a04b99d36c82a795f49d50fb4",
+          "decision_id": "UD-a149a96f25f6edc4964d71341321362ce9a3284a04b99d36c82a795f49d50fb4@1",
+          "target_id": "R-C0015-Hulda-Margareta-index",
+          "state": "preserved_text",
+          "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+          "question": "",
+          "document_path": "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md",
+          "start_line": 8,
+          "end_line": 36,
+          "historical": 0,
+          "sha256": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb",
+          "object_id": "R-C0015-Hulda-Margareta-index",
+          "revision_id": "R-C0015-Hulda-Margareta-index@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true
+        },
+        {
+          "unit_id": "f3e64655433b2832517582288b1f0c2bed2a9f5e745aaf93aac85ddb88c75d22",
+          "decision_id": "UD-f3e64655433b2832517582288b1f0c2bed2a9f5e745aaf93aac85ddb88c75d22@1",
+          "target_id": "TR-e34f795149b22e3edcc2995b",
+          "state": "mapped_complete",
+          "rationale": "C-0015: Hela enheten återges ordagrant i avskriften; inte ett godkännande av uppgifterna. Indexets extra person och skillnaden mellan kandidatstatus 2026-08-19 och senare identifiering bevaras. Antal underliggande poster bakom hela hushållsvyn fastställs inte. Maj/Hulda-gruppen återbrukar C-0019:s familj 2 enligt den uttryckliga kopplingen på rader 32–37. Registermetadata Folk_130107300 och sida/rad 6/50 bevaras här. Rader 25–28 om indexets ytterligare person ingår enbart i bevarad text och pending, inte i den avgränsade postens evidens.",
+          "question": "",
+          "document_path": "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md",
+          "start_line": 20,
+          "end_line": 23,
+          "historical": 0,
+          "sha256": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb",
+          "object_id": "TR-e34f795149b22e3edcc2995b",
+          "revision_id": "TR-e34f795149b22e3edcc2995b@1",
+          "version": 1,
+          "kind": "transcription",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true
+        }
+      ]
+    },
+    "search": {
+      "matching": "Case-sensitive literal phrase; identifiers require boundaries. No stemming, date normalization or semantic matching.",
+      "terms": [
+        {
+          "value": "C-0015",
+          "source": "identifier",
+          "boundary": true
+        },
+        {
+          "value": "R-5c698cffffc10deb0b1f37f8",
+          "source": "identifier",
+          "boundary": true
+        },
+        {
+          "value": "R-C0015-Hulda-Margareta-index",
+          "source": "identifier",
+          "boundary": true
+        }
+      ]
+    },
+    "text_candidates": {
+      "current": [
+        {
+          "object_id": "ASSESSMENT-P-0007",
+          "revision_id": "ASSESSMENT-P-0007@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 642,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "ns/C-0028-maj-amalia-originalfodelse-1920.md), [C-0019](../citations/C-0019-maj-amalia-folkrakning-1930.md), [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md), [C-0033](../citations/C-0033-maj-amalia-forsam",
+              "excerpt_start": 532
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0016",
+          "revision_id": "ASSESSMENT-P-0016@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 397,
+              "line": 12,
+              "occurrences": 1,
+              "excerpt": "D`\n- Granskningsdatum: 2026-09-07\n- Granskningsbelägg: C-0075, C-0077–C-0079, C-0081, C-0085, C-0088, C-0091, C-0015, C-0019–C-0020, C-0028, C-0033, C-0919, C-0923, C-0952–C-0957, C-0961 och C-0972–C-0979 med respektive källbe",
+              "excerpt_start": 287
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0017",
+          "revision_id": "ASSESSMENT-P-0017@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 516,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": ": T-0150, [dev-log](../../wotan/dev-log/T-0150.md), med den avgränsade följdpåverkan från T-0125 2026-09-07; [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md), [C-0019](../citations/C-0019-maj-amalia-folkra",
+              "excerpt_start": 406
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "BIO-P-0007",
+          "revision_id": "BIO-P-0007@4",
+          "version": 4,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 1816,
+              "line": 5,
+              "occurrences": 2,
+              "excerpt": "systerns egen födelsepost i Helgesta är oläst. [C-0019](../citations/C-0019-maj-amalia-folkrakning-1930.md), [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md), [C-0972](../citations/C-0972-hulda-amalia-lyck",
+              "excerpt_start": 1706
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "BIO-P-0017",
+          "revision_id": "BIO-P-0017@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 956,
+              "line": 17,
+              "occurrences": 1,
+              "excerpt": " men bara med förnamn, födelseår\noch födelseförsamling, och hennes rad saknas på den bevarade originalbilden\n(C-0015, C-0019). Den 24 april 1933 flyttade hushållet till Lyckedal i Flen,\noch där får hon för första gången en ege",
+              "excerpt_start": 846
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "CONTRACT-P-0017-PK-01",
+          "revision_id": "CONTRACT-P-0017-PK-01@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 367,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "ns/C-0972-hulda-amalia-lyckedal-1933-1940.md), [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md), [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md) |\n",
+              "excerpt_start": 257
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "CONTRACT-P-0017-PK-05",
+          "revision_id": "CONTRACT-P-0017-PK-05@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 469,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "e heller fullständigt avskrivna. KP-04, KP-06. [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md), [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md) |\n",
+              "excerpt_start": 359
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "M-P-0017-index",
+          "revision_id": "M-P-0017-index@1",
+          "version": 1,
+          "kind": "mention",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-C0015-Hulda-Margareta-index",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-C0015-Hulda-Margareta-index",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0007-census-neighbors",
+          "revision_id": "O-P-0007-census-neighbors@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-5c698cffffc10deb0b1f37f8",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-5c698cffffc10deb0b1f37f8",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0016-civil-occupation1930",
+          "revision_id": "O-P-0016-civil-occupation1930@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-5c698cffffc10deb0b1f37f8",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-5c698cffffc10deb0b1f37f8",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0017-birth-index",
+          "revision_id": "O-P-0017-birth-index@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-C0015-Hulda-Margareta-index",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-C0015-Hulda-Margareta-index",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0017/Q-01",
+          "revision_id": "P-0017/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 560,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "C-0972-hulda-amalia-lyckedal-1933-1940.md), [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md) och [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md). Faderns hushåll utflyttade från Hyltinge till ",
+              "excerpt_start": 450
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "PATH-P-0017-KP-01",
+          "revision_id": "PATH-P-0017-KP-01@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 842,
+              "line": 7,
+              "occurrences": 2,
+              "excerpt": "iden i Hyltinge, samt namnformen Eriksson. Hyltingesidan nås via 1930 års ortnyckel Skarvnäs ägor, Solliden ([C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md)).\n- Beroenden: inga saknade nycklar. Vägen är ö",
+              "excerpt_start": 732
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "R-5c698cffffc10deb0b1f37f8",
+          "revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": true,
+          "hits": [
+            {
+              "field": "dependence_note",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 307,
+              "line": 2,
+              "occurrences": 1,
+              "excerpt": "a Hulda Margareta-raden ingår inte i denna avgränsade posts evidens.\nSamma postnyckel som Maj/Hulda-gruppen i C-0015; indexavskrift och originalbild är samma informationsväg. Familj 1 är separat på samma sida/adress; ingen obe",
+              "excerpt_start": 197
+            },
+            {
+              "field": "rationale",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 21,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Källpost avgränsad i C-0015. Samma postnyckel som C-0019:s familj 2: registeravskriften är en representation av samma uttryckligt identif",
+              "excerpt_start": 0
+            },
+            {
+              "field": "caveat",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 140,
+              "line": 2,
+              "occurrences": 1,
+              "excerpt": "egisterhushållet men inte synlig på originalgruppen enligt C-0019; hon läggs inte i originalets hushållspost.\nC-0015: Indexets extra person och skillnaden mellan kandidatstatus 2026-08-19 och senare identifiering bevaras. Anta",
+              "excerpt_start": 30
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "READ-4a7bb11808e0277c4a5d33ce",
+          "revision_id": "READ-4a7bb11808e0277c4a5d33ce@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "subject_id",
+              "term": "R-5c698cffffc10deb0b1f37f8",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-5c698cffffc10deb0b1f37f8",
+              "excerpt_start": 0
+            },
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 226,
+              "line": 2,
+              "occurrences": 1,
+              "excerpt": "iens; ingen extra källa eller ny hushållssammanslagning konstrueras.\nSamma postnyckel som Maj/Hulda-gruppen i C-0015; indexavskrift och originalbild är samma informationsväg. Familj 1 är separat på samma sida/adress; ingen obe",
+              "excerpt_start": 116
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "READ-d73e7c8386f32c9d123bcc9a",
+          "revision_id": "READ-d73e7c8386f32c9d123bcc9a@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "subject_id",
+              "term": "R-5c698cffffc10deb0b1f37f8",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-5c698cffffc10deb0b1f37f8",
+              "excerpt_start": 0
+            },
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "C-0015: Indexets extra person och skillnaden mellan kandidatstatus 2026-08-19 och senare identifiering bevaras. Anta",
+              "excerpt_start": 0
+            },
+            {
+              "field": "rationale",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 43,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Dokumenterad avgränsning och läshistorik i C-0015; ingen ny oberoende evidensröst.",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0017-9d76f0343410",
+          "revision_id": "RESEARCH-P-0017-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 146,
+              "line": 5,
+              "occurrences": 2,
+              "excerpt": "eta är belagd i tre källytor som alla pekar på samma person: den\nindexerade folkräkningsvyn 1930 i Hyltinge\n([C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md)) och två\npå varandra följande egna rader i Flen",
+              "excerpt_start": 36
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0017-BO",
+          "revision_id": "THEME-P-0017-BO@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 354,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "ns/C-0972-hulda-amalia-lyckedal-1933-1940.md), [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md), [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md); KP-01, KP-02, KP-03 |\n",
+              "excerpt_start": 244
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0017-EKO",
+          "revision_id": "THEME-P-0017-EKO@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 250,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "fullständigt avskriven för henne. En bouppteckningsväg förutsätter dödsdatum och jurisdiktion, som saknas. | [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md); KP-03, KP-06 |\n",
+              "excerpt_start": 140
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0017-ID",
+          "revision_id": "THEME-P-0017-ID@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 370,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "ns/C-0972-hulda-amalia-lyckedal-1933-1940.md), [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md), [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md); KP-01 |\n",
+              "excerpt_start": 260
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "TR-e34f795149b22e3edcc2995b",
+          "revision_id": "TR-e34f795149b22e3edcc2995b@1",
+          "version": 1,
+          "kind": "transcription",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-5c698cffffc10deb0b1f37f8",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-5c698cffffc10deb0b1f37f8",
+              "excerpt_start": 0
+            },
+            {
+              "field": "rationale",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 51,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0015; ingen ny originalavläsning.",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        }
+      ],
+      "historical": [
+        {
+          "object_id": "ASSESSMENT-P-0007",
+          "revision_id": "ASSESSMENT-P-0007@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 642,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "ns/C-0028-maj-amalia-originalfodelse-1920.md), [C-0019](../citations/C-0019-maj-amalia-folkrakning-1930.md), [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md), [C-0033](../citations/C-0033-maj-amalia-forsam",
+              "excerpt_start": 532
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0007",
+          "revision_id": "BIO-P-0007@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 1794,
+              "line": 5,
+              "occurrences": 2,
+              "excerpt": "systerns egen födelsepost i Helgesta är oläst. [C-0019](../citations/C-0019-maj-amalia-folkrakning-1930.md), [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md), [C-0972](../citations/C-0972-hulda-amalia-lyck",
+              "excerpt_start": 1684
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0007",
+          "revision_id": "BIO-P-0007@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 1794,
+              "line": 5,
+              "occurrences": 2,
+              "excerpt": "systerns egen födelsepost i Helgesta är oläst. [C-0019](../citations/C-0019-maj-amalia-folkrakning-1930.md), [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md), [C-0972](../citations/C-0972-hulda-amalia-lyck",
+              "excerpt_start": 1684
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0007",
+          "revision_id": "BIO-P-0007@3",
+          "version": 3,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 1816,
+              "line": 5,
+              "occurrences": 2,
+              "excerpt": "systerns egen födelsepost i Helgesta är oläst. [C-0019](../citations/C-0019-maj-amalia-folkrakning-1930.md), [C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md), [C-0972](../citations/C-0972-hulda-amalia-lyck",
+              "excerpt_start": 1706
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0017",
+          "revision_id": "BIO-P-0017@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 956,
+              "line": 17,
+              "occurrences": 1,
+              "excerpt": " men bara med förnamn, födelseår\noch födelseförsamling, och hennes rad saknas på den bevarade originalbilden\n(C-0015, C-0019). Den 24 april 1933 flyttade hushållet till Lyckedal i Flen,\noch där får hon för första gången en ege",
+              "excerpt_start": 846
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0017-9d76f0343410",
+          "revision_id": "RESEARCH-P-0017-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0015",
+              "term_source": "identifier",
+              "offset": 146,
+              "line": 5,
+              "occurrences": 2,
+              "excerpt": "eta är belagd i tre källytor som alla pekar på samma person: den\nindexerade folkräkningsvyn 1930 i Hyltinge\n([C-0015](../citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md)) och två\npå varandra följande egna rader i Flen",
+              "excerpt_start": 36
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        }
+      ]
+    },
+    "review": {
+      "items": [
+        {
+          "object_id": "ASSESSMENT-P-0007",
+          "revision_id": "ASSESSMENT-P-0007@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0016",
+          "revision_id": "ASSESSMENT-P-0016@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0017",
+          "revision_id": "ASSESSMENT-P-0017@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "BIO-P-0007",
+          "revision_id": "BIO-P-0007@4",
+          "version": 4,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "BIO-P-0017",
+          "revision_id": "BIO-P-0017@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "CONTRACT-P-0017-PK-01",
+          "revision_id": "CONTRACT-P-0017-PK-01@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "CONTRACT-P-0017-PK-05",
+          "revision_id": "CONTRACT-P-0017-PK-05@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "E-arrival1929-P-0007",
+          "revision_id": "E-arrival1929-P-0007@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "E-registered_arrival-P-0016-Hyltinge1929",
+          "revision_id": "E-registered_arrival-P-0016-Hyltinge1929@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "EP-E-arrival1929-P-0007-P-0007-principal",
+          "revision_id": "EP-E-arrival1929-P-0007-P-0007-principal@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "EP-E-registered_arrival-P-0016-Hyltinge1929-P-0016-migrant",
+          "revision_id": "EP-E-registered_arrival-P-0016-Hyltinge1929-P-0016-migrant@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0007-civil_status-1930",
+          "revision_id": "F-P-0007-civil_status-1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0007-education-1930",
+          "revision_id": "F-P-0007-education-1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0007-household_membership-census1930",
+          "revision_id": "F-P-0007-household_membership-census1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0007-name_form-census1930",
+          "revision_id": "F-P-0007-name_form-census1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0007-residence-solliden1930",
+          "revision_id": "F-P-0007-residence-solliden1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0016-household_membership-Solliden1930",
+          "revision_id": "F-P-0016-household_membership-Solliden1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0016-name_form-adult",
+          "revision_id": "F-P-0016-name_form-adult@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0017-name_form-index",
+          "revision_id": "F-P-0017-name_form-index@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0017-residence-index1930",
+          "revision_id": "F-P-0017-residence-index1930@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ID-P-0017-index",
+          "revision_id": "ID-P-0017-index@1",
+          "version": 1,
+          "kind": "identity",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "M-P-0017-index",
+          "revision_id": "M-P-0017-index@1",
+          "version": 1,
+          "kind": "mention",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0007-census-neighbors",
+          "revision_id": "O-P-0007-census-neighbors@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0016-civil-occupation1930",
+          "revision_id": "O-P-0016-civil-occupation1930@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0017-birth-index",
+          "revision_id": "O-P-0017-birth-index@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0017/Q-01",
+          "revision_id": "P-0017/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "PATH-P-0017-KP-01",
+          "revision_id": "PATH-P-0017-KP-01@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "R-5c698cffffc10deb0b1f37f8",
+          "revision_id": "R-5c698cffffc10deb0b1f37f8@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "R-C0015-Hulda-Margareta-index",
+          "revision_id": "R-C0015-Hulda-Margareta-index@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence",
+            "import_target_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "READ-4a7bb11808e0277c4a5d33ce",
+          "revision_id": "READ-4a7bb11808e0277c4a5d33ce@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "READ-d73e7c8386f32c9d123bcc9a",
+          "revision_id": "READ-d73e7c8386f32c9d123bcc9a@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "import_origin_not_evidence",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0017-9d76f0343410",
+          "revision_id": "RESEARCH-P-0017-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0017-BO",
+          "revision_id": "THEME-P-0017-BO@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0017-EKO",
+          "revision_id": "THEME-P-0017-EKO@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0017-ID",
+          "revision_id": "THEME-P-0017-ID@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "TR-e34f795149b22e3edcc2995b",
+          "revision_id": "TR-e34f795149b22e3edcc2995b@1",
+          "version": 1,
+          "kind": "transcription",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "import_origin_not_evidence",
+            "import_target_not_evidence",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        }
+      ],
+      "instructions": "Read inspect for each current object and its evidence. Record a reasoned decision in the active Wotan task / authorized operation. Revise through apply only when warranted; resolve only the exact existing pending request after individual review. Text/provenance candidates do not create requests. Null decisions are unreviewed, never approvals."
+    },
+    "limitations": [
+      "Read-only snapshot, not an execution queue. Re-run after revisions.",
+      "Text matches cannot establish copied facts, identity, error, relevance or support. Current text may contain historical retractions.",
+      "Unlinked paraphrases or different date/name spellings may be missed; supply relevant --query variants and inspect affected person profiles.",
+      "No query mutates data, adds evidence, opens/closes reviews or certifies complete semantic coverage."
+    ]
+  }
+}

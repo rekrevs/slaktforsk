@@ -1,0 +1,1154 @@
+{
+  "schema": "task-work-measurement/1",
+  "task": "T-0677",
+  "owner_request": "Mät nu på något lämpligt sätt hur mycket arbete du utför så att jag kan jämföra det med tokenåtgången.",
+  "started_at_utc": "2026-09-30T16:40:22Z",
+  "purpose": "Compare evidenced research output and elapsed wall time with owner-observed token usage. No composite productivity score.",
+  "token_usage": {
+    "value": null,
+    "source": "Owner/client usage counter; agent has no reliable aggregate session counter.",
+    "boundary": "Use tokens after started_at_utc, including parent and subagents if available; exclude earlier session work.",
+    "recommended_normalization": "Report each outcome category per 100000 tokens once a matching token delta is available."
+  },
+  "baseline": {
+    "journal_sequence": 202,
+    "pending_reviews": 0,
+    "completed_post_scopes": [
+      "C-0002",
+      "C-0004",
+      "C-0751",
+      "C-0008",
+      "C-0028",
+      "C-0033",
+      "C-0034",
+      "C-0030",
+      "C-0031",
+      "C-0032"
+    ],
+    "active_post": "C-0016",
+    "already_started_not_counted_as_new_output": "Scope reconciliation, five person/research snapshots, and primary header/geometry inspection were prepared before measurement start. Partial work can contribute to later completion, but is not counted as new work in this window.",
+    "existing_artifacts": [
+      {
+        "path": "genealogy2/verification/T-0677/c0016-header-left-20260930.png",
+        "sha256": "2c33647a772bac0bc8551ff264cbc41915279f868dee4f7254c3ab6def9b1679"
+      },
+      {
+        "path": "genealogy2/verification/T-0677/c0016-header-right-20260930.png",
+        "sha256": "67f778120d7cab2c8d658990f466f33475786d4f4d8c9cdf085b3ac3378b71f8"
+      },
+      {
+        "path": "genealogy2/verification/T-0677/c0016-prestart-person-P-0009-j202-20260930.json",
+        "sha256": "c965631b7da53bc526da64913802270462cc6370848a069c2c43e69ab122e091"
+      },
+      {
+        "path": "genealogy2/verification/T-0677/c0016-prestart-person-P-0042-j202-20260930.json",
+        "sha256": "ae89fe8dccf14bb905e41b5726a3c2220902c48004595157c6c169d293e7b377"
+      },
+      {
+        "path": "genealogy2/verification/T-0677/c0016-prestart-person-P-0043-j202-20260930.json",
+        "sha256": "6cf6206be403e80be6f437e763247fe09fbfc6215b50e1121323469d744dbc65"
+      },
+      {
+        "path": "genealogy2/verification/T-0677/c0016-prestart-person-P-0108-j202-20260930.json",
+        "sha256": "11e4c990a1edc92845fa2216d6ed62ec66a7f2ce68ea773c91beff2b74c48524"
+      },
+      {
+        "path": "genealogy2/verification/T-0677/c0016-prestart-person-P-0109-j202-20260930.json",
+        "sha256": "dbdddb27ed9021b7c62bacd3dbf3c23d1ab53acf746844497671eb7891dee9f2"
+      },
+      {
+        "path": "genealogy2/verification/T-0677/c0016-primary-stage1-20260930.json",
+        "sha256": "8a0efba5ff195241029769a104b617e85f29ef8c45e4dd6d909357d4daf2c469"
+      },
+      {
+        "path": "genealogy2/verification/T-0677/g001-resumption-mechanical-reconciliation-j202-20260930.json",
+        "sha256": "f6d6d26b6a031c9c423041297a6998a7fffae5507f91e605eff4fb6017a43965"
+      }
+    ]
+  },
+  "definitions": {
+    "completed_post_scopes": "Unique bounded source posts with substantive comparison, consequences, canonical application if required, and verification completed. Not entire citations unless the scope proves that.",
+    "newly_controlled_fields": "Unique physical source cells/explicit field units controlled after start. Repeated/second readings reported separately, never counted twice.",
+    "documentary_reuse_fields": "Previously sufficient field readings explicitly accepted after exact scope/version comparison; separate from new source reading.",
+    "substantive_corrections": "Unique substantive source/documentation corrections identified through accepted review; canonical application reported separately. Copy edits do not multiply count.",
+    "consequence_objects_reviewed": "Unique current objects given an individual substantive disposition. Mechanical matches and repeated checks excluded.",
+    "canonical_objects_created_or_revised": "Distinct object IDs successfully applied, counted once even across multiple operations; mechanical implementation measure, not independent discoveries.",
+    "dependency_requests_resolved": "Actual individually justified request IDs closed; report separately from reviewed objects.",
+    "verification": "Named passing/failing check runs and their scope; no inflation from the number of assertions.",
+    "preparation": "Snapshots, maps, geometry/header work and other enabling steps, separately evidenced.",
+    "elapsed": "Wall time from start, including parallel agent activity only once; report checkpoints so pauses can be identified.",
+    "compared_new_fields": "Subset of newly_controlled_fields with separate second reading and accepted comparison; not additional field count.",
+    "new_source_observations_identified": "Distinct newly extracted raw source observations accepted for preservation, including reserved readings; not automatically established person facts.",
+    "research_status_updates": "Distinct prior accurate knowledge/work-coverage statements made obsolete by newly completed investigation; separate from pre-existing factual errors.",
+    "source_object_review_pairs": "Unique(source post,current object id)judgments; same object reviewed for two source posts is two pairs but one distinct object in consequence_objects_reviewed.",
+    "canonical_change_entries": "Applied change entries across source operations; repeated revision of the same object counted as another entry, but only once in distinct canonical object count.",
+    "documentary_layers_disposed": "Distinct content layers classified within preserved secondary text; separate from historical records, new raw observations, and visual fields."
+  },
+  "events": [
+    {
+      "at_utc": "2026-09-30T16:40:54Z",
+      "category": "preparation",
+      "result": "C0016 documentary gap mask prepared:28 columns,6 whole-field reuse candidates,5 partial gaps,17 whole gaps. These are planned units, not completed controls or accepted reuse.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0016-documentary-gapmask-20260930.json",
+          "sha256": "d1375a2c4259b728f557900df9f0e8c24ef88389f3b0245fcc24cedafc7a4c2a"
+        }
+      ],
+      "outcome_counter_delta": {}
+    },
+    {
+      "at_utc": "2026-09-30T16:42:48Z",
+      "category": "primary_field_control",
+      "source": "Astra report; separately locked primary raw reading",
+      "post": "C-0016",
+      "unique_units": 22,
+      "breakdown": {
+        "blank": 14,
+        "transcribed_or_reserved": 8
+      },
+      "state": "PRIMARY_READING_COMPLETE_COMPARISON_PENDING",
+      "second_reading_counts_as_additional_unique_fields": false,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0016-primary-gaps-locked-20260930.json",
+          "sha256": "99a06b927815d722ae8dba6c6f16e5b28ab5ef79f9300bffa4cd1b6cefea10d0"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T16:45:00Z",
+      "timestamp_precision": "approximate minute; completion observed by parent tool before this entry",
+      "category": "preparation",
+      "result": "91 full current impact objects captured;91 current-version matches and CLI exit0. No substantive dispositions yet.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0016-impact-current-j202-20260930.json",
+          "sha256": "83286730c9b3bf8150986291c78c798505923bf6ba3a1e8d45281bccf34847bc"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T16:45:24.573546+00:00",
+      "category": "source_comparison",
+      "post": "C-0016",
+      "result": "22 unique new gap/partial field controls compared between two readers;6 whole documentary field readings accepted for reuse.28 columns covered; reservations retained. No canonical application yet.",
+      "new_unique_control_delta": 0,
+      "documentary_reuse_delta": 6,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0016-source-comparison-acceptance-20260930.json",
+          "sha256": "c23a8646dac8dceb25d89167d67062e40dbf04041c3f713404f31b83ada43482"
+        }
+      ],
+      "technical_check": "All five referenced input hashes matched."
+    },
+    {
+      "at_utc": "2026-09-30T16:54:07.150675+00:00",
+      "category": "consequence_review",
+      "post": "C-0016",
+      "current_relevant_objects": 79,
+      "partition": {
+        "revise": 8,
+        "retain": 71,
+        "historical_preserve_separate": 5,
+        "irrelevant_global_matches_separate": 9
+      },
+      "new_source_observations_identified": 4,
+      "substantive_text_corrections_identified": 2,
+      "canonical_applied": false,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0016-impact-individual-dispositions-20260930.json",
+          "sha256": "fac6c849e11cc2729bf5221142322d25588a8f0c526755646ef36ac1ef0b32e5"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T16:55:54.622383+00:00",
+      "category": "verification",
+      "result": "Isolated temp:21 full objects match generated operations;13new+8revisions;pending0;verify/verify-assets/verify-source all passed. No canonical write.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0016-temp-preflight-summary-20260930.json",
+          "sha256": "6ce727b3f9d80aff0af9d39f4b32f5293c4ea87553aba2bbd9872d3ce90b2de7"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T16:58:46.727014+00:00",
+      "category": "canonical_application",
+      "post": "C-0016",
+      "journal_sequences": [
+        203,
+        204
+      ],
+      "object_ids": [
+        "TR-T0677-C0016-consolidated-control",
+        "AUDIT-T0677-C0016",
+        "O-T0677-C0016-marriage-duration",
+        "O-T0677-C0016-upper-age25",
+        "O-T0677-C0016-delivery-mark",
+        "O-T0677-C0016-churching-date",
+        "F-T0677-C0016-P0042-source-comparison",
+        "F-T0677-C0016-P0043-source-context",
+        "CONTRACT-P-0009-PK-05",
+        "PATH-P-0009-KP-01",
+        "CONTRACT-P-0108-PK-05",
+        "PATH-P-0108-KP-02",
+        "RESEARCH-P-0042-9d76f0343410",
+        "BIO-P-0042",
+        "BIO-P-0043",
+        "PATH-P-0043-KP-01",
+        "ADOPT-T0677-C0016-P-0009",
+        "ADOPT-T0677-C0016-P-0042",
+        "ADOPT-T0677-C0016-P-0043",
+        "ADOPT-T0677-C0016-P-0108",
+        "ADOPT-T0677-C0016-P-0109"
+      ],
+      "new_objects": 13,
+      "revised_objects": 8,
+      "pending": 0,
+      "full_actual_object_match": true,
+      "final_validators": "running",
+      "evidence": [
+        {
+          "path": "genealogy2/operations/T-0677-C0016-source-v1.json",
+          "sha256": "da76af9a1eaae0f28be2f2598fa585c081d7ccfbacdf7d95e55d7e8bcaf69357"
+        },
+        {
+          "path": "genealogy2/operations/T-0677-C0016-person-v1.json",
+          "sha256": "4233780c0f3d2bf14378c2fe627f5c818c324fdd0272ec0ea9d9e1d7c5383312"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T16:59:36Z",
+      "category": "post_completion",
+      "post": "C-0016",
+      "elapsed_from_measurement_start_seconds": 1154,
+      "result": "Bounded post complete, canonical j204/pending0,21objects matched;three validators passed; no identity/tree status upgrade. Source reading reservations retained.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0016-astra-completion-20260930.json",
+          "sha256": "452b31446bfa03f62fea964ab74a1bcf878592d1448ad1400a114361cc7032eb"
+        },
+        {
+          "path": "genealogy2/verification/T-0677/c0016-postapply-derived-views-20260930.json",
+          "sha256": "fee687d2f0131fb7036d6fc836798e4b1bc22ac0ead3577de62dcad74314a711"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:01:41.381718+00:00",
+      "category": "measurement_correction",
+      "post": "C-0016",
+      "corrects": "Earlier count of two substantive text corrections",
+      "accepted_by": "Astra g001_continue",
+      "reason": "C0074 wrongly attributed to original is one pre-existing substantive error. The statement that(1)was unexamined was correct atj202 and updated only after new examination; it is one research-status update, not a second discovered error.",
+      "substantive_error_count": 1,
+      "research_status_updates": 1
+    },
+    {
+      "at_utc": "2026-09-30T17:01:41.381814+00:00",
+      "category": "preparation",
+      "post": "C-0014",
+      "result": "23column mask:3whole documentary reuse candidates+5partial+15whole gaps;20 unique controls planned. No completed field count yet."
+    },
+    {
+      "at_utc": "2026-09-30T17:04:53.126802+00:00",
+      "category": "source_comparison",
+      "post": "C-0014",
+      "unique_new_controlled_fields": 20,
+      "compared_new_fields": 20,
+      "documentary_reuse_fields": 3,
+      "result": "SCB copy read separately with reserved source dependence and graphical distinctions. No canonical application yet.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0014-source-comparison-acceptance-20260930.json",
+          "sha256": "ba126e0f524b3351ff169a889c3efb1bdbb03e6280c9fd7351d13a088a43353a"
+        }
+      ],
+      "technical_check": "Five input hashes matched."
+    },
+    {
+      "at_utc": "2026-09-30T17:08:15.675624+00:00",
+      "category": "verification_and_rework",
+      "post": "C-0014",
+      "result": "Initial temp passed14object match/pending0/threevalidators. Independent substantive review requires two specification precisions before canonical: exact printed header and neutral own-copy suffix property. This temp is historical and must not be applied; revised temp is needed.",
+      "count_as_new_research_output": false,
+      "canonical_changed": false,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0014-temp-preflight-summary-20260930.json",
+          "sha256": "d8872f6ba4d248a7f9513e9f87e03a06a3172085be3908435c452879eb4d446c"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:07:36.071022+00:00",
+      "category": "consequence_review",
+      "post": "C-0014",
+      "current_relevant_objects": 20,
+      "partition": {
+        "revise": 4,
+        "retain": 16,
+        "historical_or_retired_separate": 4
+      },
+      "new_source_observations_identified": 3,
+      "pre_existing_substantive_errors_discovered": 0,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0014-impact-individual-dispositions-20260930.json",
+          "sha256": "ade7e9344cc71088f806e6d093ae236d715c9412ea0e604d40bfa16be4cb2eec"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:10:47.996568+00:00",
+      "category": "canonical_application",
+      "post": "C-0014",
+      "journal_sequences": [
+        205,
+        206
+      ],
+      "object_ids": [
+        "TR-T0677-C0014-consolidated-control",
+        "AUDIT-T0677-C0014",
+        "O-T0677-C0014-canceled-upper25",
+        "O-T0677-C0014-duration-suffix",
+        "O-T0677-C0014-delivery-ex",
+        "F-T0677-C0014-P0042-copy-comparison",
+        "F-T0677-C0014-P0043-copy-context",
+        "CONTRACT-P-0009-PK-05",
+        "PATH-P-0009-KP-01",
+        "BIO-P-0042",
+        "BIO-P-0043",
+        "ADOPT-T0677-C0014-P-0009",
+        "ADOPT-T0677-C0014-P-0042",
+        "ADOPT-T0677-C0014-P-0043"
+      ],
+      "new_objects": 10,
+      "revised_objects": 4,
+      "pending": 0,
+      "full_actual_object_match": true,
+      "final_validators": "verify/verify-assets/verify-source PASS",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0014-canonical-implementation-receipt-20260930.json",
+          "sha256": "5f6e22d791215d3d62727907586873f540526800442228883042bfa4fd5d5a56"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:11:59Z",
+      "category": "post_completion",
+      "post": "C-0014",
+      "elapsed_from_measurement_start_seconds": 1897,
+      "result": "Bounded source/copy comparison and consequences complete, canonicalj206/pending0,14fullobjects matched and3validators passed.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0014-astra-completion-20260930.json",
+          "sha256": "4472841ef59693a46f98b3605228013eccb5a6dadf94b19bd01ab049941ccb21"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:18:18.405909+00:00",
+      "category": "preparation",
+      "post": "C-0011",
+      "result": "Astra scoped6rows×14columns=84cells,7whole documentary reuse candidates and77whole/partial controls planned. No new field completion credited yet.",
+      "metric_caveat": "A checked blank/status cell counts as a field control, not a new genealogical fact."
+    },
+    {
+      "at_utc": "2026-09-30T17:22:31Z",
+      "category": "source_comparison",
+      "post": "C-0011",
+      "unique_new_controlled_fields": 77,
+      "compared_new_fields": 77,
+      "documentary_reuse_fields": 7,
+      "result": "Six person rows controlled. Reserved possible1910occupation reading forTorvald, small codes and graphical marks retained; source dependencies unchanged. No canonical application yet.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0011-source-comparison-acceptance-20260930.json",
+          "sha256": "ec444469a73da4820cd4aef02819246a200424db96ade3ae36319a8a4f207934"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:29:20.004627+00:00",
+      "category": "consequence_review",
+      "post": "C-0011",
+      "current_relevant_objects": 33,
+      "partition": {
+        "revise": 2,
+        "retain": 31,
+        "historical_or_retired_separate": 3
+      },
+      "new_source_observations_identified": 2,
+      "pre_existing_substantive_errors_discovered": 0,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0011-impact-individual-dispositions-20260930.json",
+          "sha256": "0fec6ef243961f24ba7054e0b017110c5bcac293303ef261d94ce29ee0772887"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:32:22.143257+00:00",
+      "category": "canonical_application",
+      "post": "C-0011",
+      "journal_sequences": [
+        207,
+        208
+      ],
+      "object_ids": [
+        "TR-T0677-C0011-consolidated-control",
+        "AUDIT-T0677-C0011",
+        "O-T0677-C0011-Torvald-occupation",
+        "O-T0677-C0011-church-column-marks",
+        "F-T0677-C0011-P0045-occupation-comparison",
+        "BIO-P-0045",
+        "THEME-P-0045-ARB",
+        "ADOPT-T0677-C0011-P-0009",
+        "ADOPT-T0677-C0011-P-0042",
+        "ADOPT-T0677-C0011-P-0043",
+        "ADOPT-T0677-C0011-P-0045",
+        "ADOPT-T0677-C0011-P-0046",
+        "ADOPT-T0677-C0011-P-0047"
+      ],
+      "new_objects": 11,
+      "revised_objects": 2,
+      "pending": 0,
+      "full_actual_object_match": true,
+      "final_validators": "verify/verify-assets/verify-source PASS",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0011-canonical-implementation-receipt-20260930.json",
+          "sha256": "22e245ce90812a6295c28907c1b3fe933c642f81fc462c1dedbfde2146456ef5"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:33:31Z",
+      "category": "post_completion",
+      "post": "C-0011",
+      "elapsed_from_measurement_start_seconds": 3189,
+      "result": "Bounded six-row household source and consequences complete, canonicalj208/pending0,13fullobjects matched and3validators passed.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0011-astra-completion-20260930.json",
+          "sha256": "b4a01acd40e0cfde5ffee188dc1e202bba708eaf105c9c8f080abea8198cb888"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:37:45Z",
+      "category": "primary_field_control",
+      "post": "C-0012",
+      "unique_units": 83,
+      "state": "PRIMARY_READING_COMPLETE_COMPARISON_PENDING",
+      "second_reading_counts_as_additional_unique_fields": false,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0012-primary-gaps-locked-20260930.json",
+          "sha256": "2058708385e8006cb79d26f91b0afbda6f262f053e0c3d6bc7a8582600231a5e"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:39:30Z",
+      "category": "source_comparison",
+      "post": "C-0012",
+      "compared_new_fields": 83,
+      "new_unique_control_delta": 0,
+      "documentary_reuse_fields": 8,
+      "result": "83uniquecontrols compared,8wholefields reused. No new own occupation; blank fields and uncertain rawditto/marks preserved in transcription. One prior inaccurate last-known-date statement in Sven housing theme identified.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0012-source-comparison-acceptance-20260930.json",
+          "sha256": "917f1f8d05eb88e638edfe23a11d121e269ad2fe49634f3910bfddfc8e8c6e6f"
+        }
+      ],
+      "technical_check": "All comparison inputhashes match."
+    },
+    {
+      "at_utc": "2026-09-30T17:41:45.996688+00:00",
+      "category": "consequence_review",
+      "post": "C-0012",
+      "current_relevant_objects": 27,
+      "partition": {
+        "revise": 1,
+        "retain": 26,
+        "historical_or_retired_separate": 1
+      },
+      "new_source_observations_identified": 0,
+      "pre_existing_substantive_errors_discovered": 1,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0012-impact-individual-dispositions-20260930.json",
+          "sha256": "d398d561c474154867bef5ba003aa51d639dd63831c40296d70f431f2170b964"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:45:59.489892+00:00",
+      "category": "canonical_application",
+      "post": "C-0012",
+      "journal_sequences": [
+        209,
+        210
+      ],
+      "object_ids": [
+        "TR-T0677-C0012-consolidated-control",
+        "AUDIT-T0677-C0012",
+        "THEME-P-0044-BO",
+        "ADOPT-T0677-C0012-P-0042",
+        "ADOPT-T0677-C0012-P-0043",
+        "ADOPT-T0677-C0012-P-0044",
+        "ADOPT-T0677-C0012-P-0009",
+        "ADOPT-T0677-C0012-P-0045",
+        "ADOPT-T0677-C0012-P-0046",
+        "ADOPT-T0677-C0012-P-0047"
+      ],
+      "new_objects": 9,
+      "revised_objects": 1,
+      "pending": 0,
+      "full_actual_object_match": true,
+      "final_validators": "verify/verify-assets/verify-source PASS",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0012-canonical-implementation-receipt-20260930.json",
+          "sha256": "421aeb482a252d2b0e02ff05e0346866202705b70f6b6d62859390a0e03a3959"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:47:22Z",
+      "category": "post_completion",
+      "post": "C-0012",
+      "elapsed_from_measurement_start_seconds": 4020,
+      "result": "Bounded seven-row household source and consequences complete, canonicalj210/pending0,10fullobjects matched and3validators passed.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0012-astra-completion-20260930.json",
+          "sha256": "8c85c441e9a9127b52a402747f4f40a2d5306bbd01c63dab3e87ec93946f12e7"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T17:47:22Z",
+      "category": "preparation",
+      "post": "C-0013",
+      "result": "Six rows×13fields=78;6whole documentaryreuse candidates and72new gap/partialcontrols planned. No completed control count yet."
+    },
+    {
+      "at_utc": "2026-09-30T17:49:56.488220+00:00",
+      "category": "source_comparison",
+      "post": "C-0013",
+      "unique_new_controlled_fields": 72,
+      "compared_new_fields": 72,
+      "documentary_reuse_fields": 6,
+      "result": "Six household rows compared; reserved graphical marks retained. Own o.ä.S. status in extract requires consequence assessment before application.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0013-source-comparison-acceptance-20260930.json",
+          "sha256": "199283cd5c5b6156bf2ff48bf1505e338e685ceee9f7f31287afb48766770b7e"
+        }
+      ],
+      "technical_check": "All five comparison input hashes match."
+    },
+    {
+      "at_utc": "2026-09-30T17:56:26.739398+00:00",
+      "category": "consequence_review",
+      "post": "C-0013",
+      "current_relevant_objects": 54,
+      "partition": {
+        "revise": 3,
+        "retain": 51,
+        "historical_separate": 8,
+        "irrelevant_separate": 8
+      },
+      "new_source_observations_identified": 2,
+      "pre_existing_substantive_errors_discovered": 0,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0013-impact-individual-dispositions-20260930.json",
+          "sha256": "1729cfbd3dd4a7cde52b42addb23712a281d619fdc06d83d21864caa36960c70"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T18:00:27.106664+00:00",
+      "category": "canonical_application",
+      "post": "C-0013",
+      "journal_sequences": [
+        211,
+        212
+      ],
+      "object_ids": [
+        "TR-T0677-C0013-consolidated-control",
+        "AUDIT-T0677-C0013",
+        "O-T0677-C0013-Sven-role",
+        "O-T0677-C0013-column4-edge-marks",
+        "F-T0677-C0013-P0044-recorded-role-comparison",
+        "BIO-P-0044",
+        "RESEARCH-P-0044-9d76f0343410",
+        "THEME-P-0044-SAM",
+        "ADOPT-T0677-C0013-P-0042",
+        "ADOPT-T0677-C0013-P-0043",
+        "ADOPT-T0677-C0013-P-0044",
+        "ADOPT-T0677-C0013-P-0009",
+        "ADOPT-T0677-C0013-P-0045",
+        "ADOPT-T0677-C0013-P-0046"
+      ],
+      "new_objects": 11,
+      "revised_objects": 3,
+      "pending": 0,
+      "full_actual_object_match": true,
+      "final_validators": "verify/verify-assets/verify-source PASS",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0013-canonical-implementation-receipt-20260930.json",
+          "sha256": "5de4a40df18e5c05956655dc1253aa941efa236c807f034b2eca05897584d1d2"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T18:01:19Z",
+      "category": "post_completion",
+      "post": "C-0013",
+      "elapsed_from_measurement_start_seconds": 4857,
+      "result": "Bounded six-row source and consequences complete, canonicalj212/pending0,14fullobjects matched and3validators passed.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0013-astra-completion-20260930.json",
+          "sha256": "eb9adabdb9cb8402a3bf23d08016d314b8c891ff3fc1890ec8156ae282a9739e"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T18:20:27.622922+00:00",
+      "category": "consequence_review",
+      "post": "C-0001",
+      "current_relevant_objects": 123,
+      "partition": {
+        "revise": 47,
+        "retain": 76
+      },
+      "new_source_observations_identified": 0,
+      "new_visual_fields": 0,
+      "documentary_layers_disposed": 5,
+      "pre_existing_substantive_errors_discovered": 9,
+      "error_groups": [
+        "Missing-profile-URL claim",
+        "Universal archival-image metadata claim",
+        "Owner-fragment versus Geni attribution",
+        "Hällsten reservation propagation across copies",
+        "Ni[c/k]olaus reservation propagation",
+        "P0030 unsupported certain lifespan",
+        "P0034 unsupported certain lifespan",
+        "P0039 unsupported certain lifespan",
+        "P0040 unsupported certain lifespan"
+      ],
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0001-impact-individual-dispositions-20260930.json",
+          "sha256": "54517c0b10ba92197db6a781c680ba8d8269e6ec6879708463e2ff04c8ca2304"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T18:25:19.959702+00:00",
+      "category": "canonical_application",
+      "post": "C-0001",
+      "journal_sequences": [
+        213,
+        214,
+        215
+      ],
+      "object_ids": [
+        "S-T0677-C0001-owner-fragment",
+        "R-T0677-C0001-owner-fragment",
+        "R-57465eb99730b7a08dd962c7",
+        "READ-87740f0fa417627668b7acba",
+        "O-P-0003-C0001-incomplete-birthyear",
+        "AUDIT-T0677-C0001",
+        "CONTRACT-P-0001-PK-11",
+        "CONTRACT-P-0005-PK-01",
+        "RESEARCH-P-0005-9d76f0343410",
+        "CONTRACT-P-0030-PK-02",
+        "CONTRACT-P-0030-PK-03",
+        "CONTRACT-P-0030-PK-04",
+        "CONTRACT-P-0030-PK-06",
+        "CONTRACT-P-0030-PK-07",
+        "CONTRACT-P-0030-PK-08",
+        "CONTRACT-P-0030-PK-10",
+        "CONTRACT-P-0030-PK-11",
+        "CONTRACT-P-0030-PK-12",
+        "KEY-P-0030-19e41d4220ad",
+        "KEY-P-0030-2e0f06a56ee7",
+        "KEY-P-0030-5a00d4f2e683",
+        "KEY-P-0030-b646fb10abe1",
+        "KEY-P-0030-d344c60c4cb9",
+        "KEY-P-0030-dd3646cd1b71",
+        "KEY-P-0030-e90bd4fa2f1c",
+        "PATH-P-0030-KP-01",
+        "PATH-P-0030-KP-02",
+        "PATH-P-0030-KP-03",
+        "PATH-P-0030-KP-04",
+        "THEME-P-0030-ARB",
+        "THEME-P-0030-BO",
+        "THEME-P-0030-EKO",
+        "THEME-P-0030-HAL",
+        "THEME-P-0030-MIL",
+        "THEME-P-0030-PER",
+        "THEME-P-0030-REL",
+        "THEME-P-0030-SAM",
+        "THEME-P-0030-SYN",
+        "P-0030/Q-01",
+        "THEME-P-0034-SYN",
+        "F-P-0034-name_form-documented",
+        "THEME-P-0039-PER",
+        "CONTRACT-P-0039-PK-03",
+        "THEME-P-0039-EKO",
+        "THEME-P-0039-SYN",
+        "THEME-P-0040-PER",
+        "CONTRACT-P-0040-PK-03",
+        "THEME-P-0040-EKO",
+        "THEME-P-0040-SYN",
+        "P-0039/Q-01",
+        "ADOPT-T0677-C0001-P-0001",
+        "ADOPT-T0677-C0001-P-0003",
+        "ADOPT-T0677-C0001-P-0005",
+        "ADOPT-T0677-C0001-P-0030",
+        "ADOPT-T0677-C0001-P-0034",
+        "ADOPT-T0677-C0001-P-0039",
+        "ADOPT-T0677-C0001-P-0040"
+      ],
+      "new_objects": 10,
+      "revised_objects": 47,
+      "dependency_requests_resolved": 8,
+      "pending": 0,
+      "full_actual_object_match": true,
+      "full_actual_resolutions_match": true,
+      "final_validators": "verify/verify-assets/verify-source PASS",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0001-canonical-implementation-receipt-20260930.json",
+          "sha256": "eec3b4a2d2c7dd06399f9bbbbc3571baaaf3c9c25a6181a3a0464c3a5978c3c2"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T18:29:38.796461+00:00",
+      "category": "post_completion",
+      "post": "C-0001",
+      "elapsed_from_measurement_start_seconds": 6556,
+      "result": "Documentary citation scope complete:57fullobjects and8resolutionrows exact,pending0,threevalidatorsPASS. No new visual fields or rawO.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0001-astra-completion-20260930.json",
+          "sha256": "c307e8da3e205f878fb3a832f84c298422cd41f49814defbd23b843a67cadd95"
+        }
+      ]
+    }
+  ],
+  "latest_totals": {
+    "completed_post_scopes": 6,
+    "newly_controlled_fields": 274,
+    "documentary_reuse_fields": 30,
+    "substantive_corrections": 11,
+    "consequence_objects_reviewed": 289,
+    "canonical_objects_created_or_revised": 125,
+    "dependency_requests_resolved": 8,
+    "compared_new_fields": 274,
+    "new_source_observations_identified": 11,
+    "research_status_updates": 1,
+    "source_object_review_pairs": 336,
+    "canonical_change_entries": 129,
+    "documentary_layers_disposed": 5
+  },
+  "limitations": [
+    "Different source posts vary in difficulty, number of people and dependency fan-out. Preserve field and consequence counts beside post count.",
+    "Task files, artifact count, words and tool calls are not research output.",
+    "A preserved unresolved reading is a valid bounded outcome but is not counted as a corrected fact.",
+    "Prior ten completed posts and work before the timestamp are excluded."
+  ],
+  "latest_checkpoint_utc": "2026-09-30T18:29:38.796461+00:00",
+  "reviewed_object_registry": [
+    {
+      "post": "C-0016",
+      "ids": [
+        "ADOPT-T0677-C0008-P-0009",
+        "ASSESSMENT-P-0009",
+        "ASSESSMENT-P-0042",
+        "ASSESSMENT-P-0043",
+        "ASSESSMENT-P-0108",
+        "ASSESSMENT-P-0109",
+        "BIO-P-0009",
+        "BIO-P-0042",
+        "BIO-P-0043",
+        "BIO-P-0108",
+        "BIO-P-0109",
+        "CONTRACT-P-0009-PK-01",
+        "CONTRACT-P-0009-PK-04",
+        "CONTRACT-P-0009-PK-05",
+        "CONTRACT-P-0108-PK-01",
+        "CONTRACT-P-0108-PK-05",
+        "CONTRACT-P-0108-PK-11",
+        "CONTRACT-P-0109-PK-01",
+        "E-baptism-P-0009",
+        "E-birth-P-0009",
+        "EP-E-baptism-P-0009-M-P-0009-C0016-witness-Caroline-witness",
+        "EP-E-baptism-P-0009-P-0009-baptized",
+        "EP-E-baptism-P-0009-P-0108-witness",
+        "EP-E-birth-P-0009-P-0009-child",
+        "F-P-0009-name_form-main",
+        "F-P-0009-source_comparison-C0008-birth-reading",
+        "F-P-0043-relation_context-117",
+        "ID-M-P-0009-C0016-child",
+        "ID-M-P-0009-C0016-witness-Carl",
+        "ID-M-P-0009-C0016-witness-Caroline-P-0109",
+        "KEY-P-0009-1bea8735985f",
+        "KEY-P-0009-5b356c0f542e",
+        "KEY-P-0108-3829dba28c42",
+        "KEY-P-0108-aa1e35d35517",
+        "KEY-P-0108-adddd0c7a63e",
+        "KEY-P-0108-bfb09d593fb5",
+        "KEY-P-0108-fd91122eef6f",
+        "KEY-P-0109-57723489b134",
+        "KEY-P-0109-a551d2d59013",
+        "M-P-0009-C0016-child",
+        "M-P-0009-C0016-witness-Carl",
+        "M-P-0009-C0016-witness-Caroline",
+        "O-P-0009-C0016-witness-home",
+        "O-P-0042-A-2374-banns_participation",
+        "O-P-0042-A-3959-corrected_place",
+        "O-P-0043-A-0190-name",
+        "O-P-0043-C0016-maternal-age19",
+        "O-P-0044-A-3954-baptism_witnesses_assistance",
+        "O-P-0108-witness-couple",
+        "P-0009",
+        "P-0108/Q-01",
+        "P-0108/Q-02",
+        "P-0109/Q-01",
+        "PATH-P-0009-KP-01",
+        "PATH-P-0043-KP-01",
+        "PATH-P-0108-KP-02",
+        "R-0d1c75412788b5465ccb5bd3",
+        "R-2e236aa398da1233240274cc",
+        "R-dc7d8a2eba63d983a98e6aa5",
+        "REL-parent-P-0042-P-0009",
+        "REL-parent-P-0043-P-0009",
+        "RESEARCH-P-0009-9d76f0343410",
+        "RESEARCH-P-0042-9d76f0343410",
+        "RESEARCH-P-0108-9d76f0343410",
+        "RESEARCH-P-0109-9d76f0343410",
+        "S-0423",
+        "THEME-P-0009-ID",
+        "THEME-P-0009-SAM",
+        "THEME-P-0108-ARB",
+        "THEME-P-0108-BO",
+        "THEME-P-0108-EKO",
+        "THEME-P-0108-HAL",
+        "THEME-P-0108-ID",
+        "THEME-P-0108-MIL",
+        "THEME-P-0108-REL",
+        "THEME-P-0108-SAM",
+        "THEME-P-0109-EKO",
+        "THEME-P-0109-REL",
+        "THEME-P-0109-SAM"
+      ]
+    },
+    {
+      "post": "C-0014",
+      "ids": [
+        "ADOPT-T0677-C0008-P-0009",
+        "ASSESSMENT-P-0042",
+        "ASSESSMENT-P-0043",
+        "BIO-P-0042",
+        "BIO-P-0043",
+        "CONTRACT-P-0009-PK-05",
+        "E-birth-P-0009",
+        "EP-E-birth-P-0009-P-0009-child",
+        "F-P-0009-name_form-main",
+        "F-P-0009-source_comparison-C0008-birth-reading",
+        "IDRES-P-0008-P-0009",
+        "KEY-P-0003-e24f76fd20a2",
+        "KEY-P-0009-5b356c0f542e",
+        "O-P-0043-A-0190-name",
+        "PATH-P-0009-KP-01",
+        "R-0d1c75412788b5465ccb5bd3",
+        "R-dc7d8a2eba63d983a98e6aa5",
+        "REL-parent-P-0008-P-0003",
+        "REL-parent-P-0009-P-0003",
+        "RESEARCH-P-0003-9d76f0343410"
+      ]
+    },
+    {
+      "post": "C-0011",
+      "ids": [
+        "ASSESSMENT-P-0042",
+        "ASSESSMENT-P-0043",
+        "ASSESSMENT-P-0044",
+        "ASSESSMENT-P-0045",
+        "ASSESSMENT-P-0046",
+        "ASSESSMENT-P-0047",
+        "BIO-P-0044",
+        "BIO-P-0045",
+        "CONTRACT-P-0046-PK-11",
+        "F-P-0009-household_membership-1910",
+        "F-P-0042-occupation-1910",
+        "F-P-0045-relation_context-71",
+        "F-P-0045-relation_context-72",
+        "F-P-0045-relation_context-73",
+        "F-P-0045-relation_context-75",
+        "F-P-0045-relation_context-76",
+        "F-P-0046-relation_context-43",
+        "F-P-0046-relation_context-44",
+        "IDRES-P-0008-P-0009",
+        "KEY-P-0044-96e64cb690e0",
+        "KEY-P-0047-c8c80457f26a",
+        "O-P-0009-C0011-father-job",
+        "O-P-0043-A-0190-name",
+        "O-P-0045-A-0194-household_anchors",
+        "O-P-0046-A-0195-household_anchors",
+        "P-0044/Q-01",
+        "P-0046/Q-01",
+        "R-ca303fdfd26ab95519ce632f",
+        "REL-parent-P-0008-P-0003",
+        "REL-parent-P-0009-P-0003",
+        "RESEARCH-P-0003-9d76f0343410",
+        "THEME-P-0044-HAL",
+        "THEME-P-0045-ARB"
+      ]
+    },
+    {
+      "post": "C-0012",
+      "ids": [
+        "ASSESSMENT-P-0043",
+        "ASSESSMENT-P-0044",
+        "ASSESSMENT-P-0045",
+        "ASSESSMENT-P-0047",
+        "BIO-P-0009",
+        "BIO-P-0044",
+        "BIO-P-0046",
+        "F-P-0009-household_membership-1900",
+        "F-P-0009-household_membership-with-P-0047",
+        "F-P-0042-occupation-1900",
+        "F-P-0044-relation_context-88",
+        "F-P-0044-relation_context-89",
+        "F-P-0045-relation_context-74",
+        "F-P-0046-relation_context-46",
+        "F-P-0047-relation_context-73",
+        "F-P-0047-relation_context-74",
+        "KEY-P-0044-96e64cb690e0",
+        "KEY-P-0046-ce589702e41f",
+        "O-P-0009-C0012-father-job",
+        "O-P-0009-relative-P-0047",
+        "O-P-0044-A-0193-household_role",
+        "O-P-0047-A-0196-household_anchor",
+        "O-P-0047-A-5740-source_dependence_birth_jurisdiction",
+        "P-0044/Q-01",
+        "R-b272f6072c57c93a5bfe6b4c",
+        "THEME-P-0044-ARB",
+        "THEME-P-0044-BO"
+      ]
+    },
+    {
+      "post": "C-0013",
+      "ids": [
+        "AS-P-0044-A-3951",
+        "AS-P-0044-A-3967",
+        "AS-P-0044-A-3987",
+        "AS-P-0044-A-5710",
+        "ASSESSMENT-P-0043",
+        "ASSESSMENT-P-0044",
+        "ASSESSMENT-P-0045",
+        "ASSESSMENT-P-0046",
+        "AUDIT-T0677-C0030",
+        "BIO-P-0009",
+        "BIO-P-0042",
+        "BIO-P-0043",
+        "BIO-P-0044",
+        "BIO-P-0045",
+        "CONTRACT-P-0009-PK-11",
+        "CONTRACT-P-0044-PK-01",
+        "CONTRACT-P-0044-PK-05",
+        "CONTRACT-P-0044-PK-09",
+        "CONTRACT-P-0046-PK-11",
+        "F-P-0009-household_membership-1890",
+        "F-P-0009-household_membership-with-P-0045",
+        "F-P-0009-household_membership-with-P-0046",
+        "F-P-0042-occupation-1890",
+        "F-P-0044-relation_context-87",
+        "F-P-0044-relation_context-88",
+        "F-P-0045-relation_context-74",
+        "F-P-0046-relation_context-46",
+        "KEY-P-0044-593403bb74d4",
+        "O-P-0009-C0013-father-job",
+        "O-P-0009-relative-P-0045",
+        "O-P-0009-relative-P-0046",
+        "O-P-0042-A-3957-unnamed_father",
+        "O-P-0042-A-3962-contrasting_child_roles",
+        "O-P-0043-A-3964-child_roles",
+        "O-P-0044-A-3966-maternal_son_role",
+        "O-P-0044-A-3998-bounded_absent_mark",
+        "O-P-0044-A-4010-bounded_absent_mark",
+        "P-0043/Q-01",
+        "P-0044/Q-02",
+        "P-0044/Q-03",
+        "P-0045/Q-03",
+        "P-0046/Q-01",
+        "PATH-P-0009-KP-01",
+        "PATH-P-0044-KP-02",
+        "PATH-P-0044-KP-05",
+        "R-19a0dd9cc6954ae7652e5599",
+        "RESEARCH-P-0042-9d76f0343410",
+        "RESEARCH-P-0044-9d76f0343410",
+        "RESEARCH-P-0045-9d76f0343410",
+        "RESEARCH-P-0046-9d76f0343410",
+        "S-0013",
+        "S-0016",
+        "THEME-P-0044-BO",
+        "THEME-P-0044-SAM"
+      ]
+    },
+    {
+      "post": "C-0001",
+      "ids": [
+        "ASSESSMENT-P-0001",
+        "ASSESSMENT-P-0002",
+        "ASSESSMENT-P-0005",
+        "ASSESSMENT-P-0006",
+        "ASSESSMENT-P-0030",
+        "ASSESSMENT-P-0031",
+        "ASSESSMENT-P-0032",
+        "ASSESSMENT-P-0033",
+        "ASSESSMENT-P-0034",
+        "ASSESSMENT-P-0036",
+        "ASSESSMENT-P-0037",
+        "ASSESSMENT-P-0039",
+        "ASSESSMENT-P-0040",
+        "ASSESSMENT-P-0041",
+        "BIO-P-0001",
+        "BIO-P-0030",
+        "BIO-P-0034",
+        "BIO-P-0035",
+        "BIO-P-0038",
+        "BIO-P-0039",
+        "BIO-P-0040",
+        "CONTRACT-P-0004-PK-01",
+        "CONTRACT-P-0006-PK-05",
+        "CONTRACT-P-0030-PK-10",
+        "CONTRACT-P-0034-PK-09",
+        "E-birth-P-0006",
+        "EP-E-birth-P-0006-P-0006-principal",
+        "F-P-0006-name_form-correlated",
+        "F-P-0006-name_form-married",
+        "F-P-0035-secondary_source_report-A0179",
+        "KEY-P-0001-5348b50b00c1",
+        "KEY-P-0006-aa60b392fb9f",
+        "KEY-P-0028-a0d204fe9fc0",
+        "KEY-P-0030-e90bd4fa2f1c",
+        "KEY-P-0031-e51063df565d",
+        "KEY-P-0032-326c71d3a225",
+        "KEY-P-0033-307e20f2f6d4",
+        "KEY-P-0033-da122e81cbd8",
+        "KEY-P-0036-78df6a989db4",
+        "KEY-P-0037-15afa7fc66ec",
+        "KEY-P-0037-efb3843796b0",
+        "KEY-P-0039-38f95b163a8a",
+        "KEY-P-0040-48e4cd809042",
+        "KEY-P-0040-e0c879fffc87",
+        "KEY-P-0041-750610c675e5",
+        "O-P-0001-C0001-death",
+        "O-P-0002-C0001-birthyear",
+        "O-P-0002-C0001-deathyear",
+        "O-P-0003-C0001-incomplete-birthyear",
+        "P-0001/Q-02",
+        "P-0006/Q-01",
+        "P-0034/Q-03",
+        "P-0035/Q-04",
+        "P-0038/Q-04",
+        "P-0039/Q-01",
+        "P-0040/Q-01",
+        "P-0041/Q-01",
+        "PATH-P-0030-KP-03",
+        "PATH-P-0030-KP-04",
+        "PATH-P-0034-KP-05",
+        "R-57465eb99730b7a08dd962c7",
+        "READ-87740f0fa417627668b7acba",
+        "RESEARCH-P-0001-9d76f0343410",
+        "RESEARCH-P-0002-9d76f0343410",
+        "RESEARCH-P-0004-9d76f0343410",
+        "RESEARCH-P-0005-9d76f0343410",
+        "RESEARCH-P-0006-9d76f0343410",
+        "RESEARCH-P-0030-9d76f0343410",
+        "RESEARCH-P-0040-9d76f0343410",
+        "RESEARCH-P-0041-dc9e05f77b98",
+        "S-0001",
+        "THEME-P-0004-ID",
+        "THEME-P-0006-ID",
+        "THEME-P-0028-PER",
+        "THEME-P-0030-HAL",
+        "THEME-P-0030-PER",
+        "THEME-P-0030-SYN",
+        "THEME-P-0031-HAL",
+        "THEME-P-0034-HAL",
+        "THEME-P-0034-SYN",
+        "THEME-P-0035-HAL",
+        "THEME-P-0036-HAL",
+        "THEME-P-0037-HAL",
+        "THEME-P-0038-HAL",
+        "THEME-P-0039-PER",
+        "THEME-P-0040-PER",
+        "THEME-P-0041-ID",
+        "CONTRACT-P-0001-PK-11",
+        "CONTRACT-P-0005-PK-01",
+        "CONTRACT-P-0030-PK-02",
+        "CONTRACT-P-0030-PK-03",
+        "CONTRACT-P-0030-PK-04",
+        "CONTRACT-P-0030-PK-06",
+        "CONTRACT-P-0030-PK-07",
+        "CONTRACT-P-0030-PK-08",
+        "CONTRACT-P-0030-PK-11",
+        "CONTRACT-P-0030-PK-12",
+        "KEY-P-0030-19e41d4220ad",
+        "KEY-P-0030-2e0f06a56ee7",
+        "KEY-P-0030-5a00d4f2e683",
+        "KEY-P-0030-b646fb10abe1",
+        "KEY-P-0030-d344c60c4cb9",
+        "KEY-P-0030-dd3646cd1b71",
+        "PATH-P-0030-KP-01",
+        "PATH-P-0030-KP-02",
+        "THEME-P-0030-ARB",
+        "THEME-P-0030-BO",
+        "THEME-P-0030-EKO",
+        "THEME-P-0030-MIL",
+        "THEME-P-0030-REL",
+        "THEME-P-0030-SAM",
+        "P-0030/Q-01",
+        "F-P-0034-name_form-documented",
+        "CONTRACT-P-0039-PK-03",
+        "THEME-P-0039-EKO",
+        "THEME-P-0039-SYN",
+        "CONTRACT-P-0040-PK-03",
+        "THEME-P-0040-EKO",
+        "THEME-P-0040-SYN",
+        "P-0001/Q-03",
+        "PATH-P-0001-KP-05",
+        "F-P-0039-secondary_source_report-A-0183",
+        "F-P-0040-secondary_source_report-A-0184"
+      ]
+    }
+  ],
+  "owner_reported_budget_usage": {
+    "reported_at_utc": "2026-09-30T18:34:31.675741+00:00",
+    "weekly_budget_percentage_points": 11,
+    "source": "Owner report: nu har detta tagit 11% av min veckobudget",
+    "boundary": "Approximate owner-observed run usage; exact alignment with measurement-start timestamp and any pre-start preparation is not verified. Not a measured token count.",
+    "completed_post_scopes_at_report": 6
+  }
+}

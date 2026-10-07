@@ -1,0 +1,73 @@
+{
+  "task": "T-0791",
+  "mode": "ROOT_ONLY_EXACT_TWO_CANONICAL_APPLIES",
+  "rootAuthorized": true,
+  "note": "Root reviewed complete helper and both final SOURCE gates. User mandate T0791 and T0792. Exactly two controlled native CLI operations on actual reconciled MAIN460; verify actual462 against exact reviewed stage. No database replacement, no auto retry.",
+  "code_sha256": "75a11d59cf9281276280f8534dd991b0771380942d23c4e3c0f76c949ebb38f3",
+  "helper_pin": {
+    "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py",
+    "sha256": "ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2"
+  },
+  "baseline_state_pin": {
+    "path": "evaluations/T-0791/implementation/baseline-state-v1.json",
+    "sha256": "5a8388f93f827536c99a9340a83f27756d4f7625043807c14e9131c8cf735a57"
+  },
+  "final_manifest_pin": {
+    "path": "evaluations/T-0791/implementation/stage462-v1/final-package-manifest-v1.json",
+    "sha256": "84c65ebc784c52d59d57260ac40c0b979dee4b876f353333c97e80f2b551b0a1"
+  },
+  "final_result_pin": {
+    "path": "evaluations/T-0791/implementation/stage462-v1/final-result-qualified-v2.json",
+    "sha256": "58d08083da6f914405945e33fb396ca8686009c1b7e4c963ec68cf1d252ea239"
+  },
+  "consequence_table_pin": {
+    "path": "evaluations/T-0791/implementation/individual-consequence-table-v3.json",
+    "sha256": "7abb5f48dcb23ba4324ee7e43ab0c6aa26a7ff81da83e4cf1a25e3cdede8df9a"
+  },
+  "operation_pins": [
+    {
+      "path": "evaluations/T-0791/implementation/candidate-operation-v3.json",
+      "sha256": "07054732d21fae6b2ab93c59c833dde0fa4cb733bf0b3bc5e5aacc2440a63ae2"
+    },
+    {
+      "path": "evaluations/T-0791/implementation/candidate-six-retains-operation-v1.json",
+      "sha256": "bd4a9f79b5ae6043a4d176b367fdc0d021222103f0dcc6543ff0600bbbab81e1"
+    }
+  ],
+  "primary_final_gate": {
+    "pin": {
+      "path": "evaluations/T-0791/primary/final-staged-source-gate-v1.json",
+      "sha256": "56a449c4c41d14b3c0f74743ddafb01eee25c427bd49a0ebafd05e17094432f1"
+    },
+    "ready_pointer": "/sourceApproved",
+    "manifest_sha_pointer": "/pins/0/sha256",
+    "stage_db_sha_pointer": "/pins/4/sha256",
+    "consequence_sha_pointer": "/pins/3/sha256",
+    "operation_sha_pointers": [
+      "/pins/1/sha256",
+      "/pins/2/sha256"
+    ]
+  },
+  "independent_final_gate": {
+    "pin": {
+      "path": "evaluations/T-0791/independent-final-source-gate-v1.json",
+      "sha256": "ca721c44d2892803f813eb7c740fb61dc9d7608c1968a3a7af1c3d7f1934f594"
+    },
+    "ready_pointer": "/SOURCE_APPROVED",
+    "manifest_sha_pointer": "/stageManifestSha256",
+    "stage_db_sha_pointer": "/stageDbSha256",
+    "consequence_sha_pointer": "/consequenceSha256",
+    "operation_sha_pointers": [
+      "/operationSha256",
+      "/resolutionOperationSha256"
+    ]
+  },
+  "extra_allocation_pins": [
+    {
+      "path": "evaluations/T-0791/root-T0800-allocation-v1.json",
+      "sha256": "adc0b379d89ff366f10ac7b9491a026355ca0cf912eeb59a4eb04f66ff9559c6"
+    }
+  ],
+  "output_path": "evaluations/T-0791/implementation/root-actual-canonical-v1",
+  "root_review_at": "2026-10-06T18:15:20.890338+00:00"
+}

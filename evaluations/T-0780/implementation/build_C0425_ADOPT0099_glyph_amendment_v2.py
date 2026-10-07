@@ -1,0 +1,15 @@
+import json,pathlib,hashlib,copy,time
+start=time.time();b=pathlib.Path('evaluations/T-0780');w=b/'implementation/C0425-ADOPT0099-glyph-amendment-v2';w.mkdir(exist_ok=False);load=lambda p:json.load(open(p));sha=lambda p:hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
+def save(n,x):
+ p=w/n;p.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n');return {'path':str(p),'sha256':sha(p)}
+zp=b/'source-review/C-0425-nine-person-adoption-decisions-v2.json';assert sha(zp)=='99e5e73ca5ea568984df0683bcde61446ef16ca0480213101059b00f048fc5ec';z=load(zp);ap=pathlib.Path(z['amendment']['supersedes_source']);assert sha(ap)==z['amendment']['sha256'];a=load(ap);assert a['objects']==z['objects'];assert len(a['new_objects'])==len(z['new_objects'])==9;am=z['amendment']['exact_changes'][0];assert len(z['amendment']['exact_changes'])==1;id=am['object'];oldnew=[]
+for x,y in zip(a['new_objects'],z['new_objects']):
+ if x['id']!=id:assert x==y;continue
+ restored=copy.deepcopy(y);restored['content']=x['content'];assert restored==x;ax=json.loads(x['content']);zy=json.loads(y['content']);assert ax['own_rows'][1]['examination_years']==am['old'] and zy['own_rows'][1]['examination_years']==am['new'];restore=copy.deepcopy(zy);restore['own_rows'][1]['examination_years']=am['old'];assert restore==ax;oldnew=[x,y]
+assert len(oldnew)==2
+mp=b/'implementation/C0563-three-theme-amendment-queue-v2/current123-candidate-membership-inventory-v1.json';membership=load(mp);matches=[p for p in membership['candidate_members'] if any(x['id']==id for x in load(p['path'])['changes'])];assert len(matches)==1;oldmember=matches[0];assert sha(oldmember['path'])==oldmember['sha256'];oldop=load(oldmember['path']);newop=copy.deepcopy(oldop);changed=[]
+for x in newop['changes']:
+ if x['id']!=id:continue
+ assert x['expectedVersion'] is None and x['data']['body']==x['caveat']==oldnew[0]['content'];oldpayload=copy.deepcopy(x);x['data']['body']=x['caveat']=oldnew[1]['content'];restore=copy.deepcopy(x);restore['data']['body']=restore['caveat']=oldpayload['data']['body'];assert restore==oldpayload;changed=[oldpayload,copy.deepcopy(x)]
+assert len(changed)==2
+newop['id']='T-0780/C0425-nine-adoption-P0099-glyph-v2';newop['reason']=oldop['reason']+'; explicit source glyph-copy amendment '+sha(zp)+'; same NEW null/native1.';pin=save('nine-person-adoption-operation-v2.json',newop);proof=save('full-source-candidate-glyph-reconstruction-proof-v1.json',{'source_pins':[{'path':str(p),'sha256':sha(p)} for p in [ap,zp]],'source_old_new_target':oldnew,'nine_current_core_decisions':z['objects'],'eight_other_new_payloads_exact_unchanged':True,'old_member':oldmember,'whole_old_new_changed_payload':changed,'only_body_and_duplicated_caveat_changed':True,'all_supports_origins_metadata_order_same':True});save('settled-module-receipt-v1.json',{'source_pins':[{'path':str(zp),'sha256':sha(zp)}],'candidate_modules':[pin],'reconstruction_pin':proof,'full_field_count':2,'elapsed_seconds':time.time()-start,'failed_attempts':[]});print(pin)

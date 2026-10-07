@@ -1,0 +1,332 @@
+{
+  "task": "T-0789",
+  "prior20_guard_pin": {
+    "path": "evaluations/T-0789/preparation/exact20-readonly-full-old-absence-schema-planned-head-and-incoming-annual-routing-guard-v1.json",
+    "sha256": "cd71e4614e422175bb05edc40b0f2c116a88b1323e6b355663402de07eb376fc"
+  },
+  "explicit_planned_head_amendment_pin": {
+    "path": "evaluations/T-0789/source-review/exact20-source-module-order-and-readonly-guard-request-v2.json",
+    "sha256": "752ba61ae8f471b20c5587a7fd4fb3c2357fa0ca1c1915b9ceb9925d01fd38cf"
+  },
+  "additional_source_spec_pin": {
+    "path": "evaluations/T-0789/source-review/one-current1944-observation-annual-coverage-caveat-exact-spec-v1.json",
+    "sha256": "83ff7202667d6f40234600286a0ac893888264f1cd4aaeda4a8bb29a5fda47c1"
+  },
+  "frozen449_baseline_pin": {
+    "path": "evaluations/T-0788/preparation/baseline-j449.sqlite",
+    "sha256": "ea35b3d3bc782c7537da0dbf5fa89089945df8ae319543a0f7d5b061fe945b8e"
+  },
+  "prior20_rows_all_unchanged_reused": true,
+  "exact_one_planned_TR2_question_closed_by_source_declaration": {
+    "id": "TR-81ff8a207c9e0e37f1c1aeed",
+    "version": 2
+  },
+  "planned_TR2_producer_pin": {
+    "path": "evaluations/T-0788/implementation/exact36-draft-v1/exact36-one-controlled-operation-v1.json",
+    "sha256": "f6e2709c21542736c330288868e404b4b300a6c0a2013e9df83d564a4dc3d07a"
+  },
+  "planned_TR2_producer_pointer": "/changes/1",
+  "additional_row": {
+    "object_id": "O-P-0007-mantal1944",
+    "source_spec_pin": {
+      "path": "evaluations/T-0789/source-review/one-current1944-observation-annual-coverage-caveat-exact-spec-v1.json",
+      "sha256": "83ff7202667d6f40234600286a0ac893888264f1cd4aaeda4a8bb29a5fda47c1"
+    },
+    "source_row_pointer": "/rows/0",
+    "whole_source_row": {
+      "object_id": "O-P-0007-mantal1944",
+      "expected_version": 1,
+      "whole_old_native": {
+        "id": "O-P-0007-mantal1944@1",
+        "object_id": "O-P-0007-mantal1944",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Hennes egna1945/46rader olästa, inte makens.",
+        "previous_id": null,
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0007-mantal1944@1",
+          "record_id": "R-80f0ba33d2a09b30178f7f95",
+          "mention_id": null,
+          "property": "registration",
+          "value_literal": "May Amalia Jansson, född1920-05-11, distriktV, Mejseln3,1944",
+          "value_json": "{\"birth_date\":\"1920-05-11\",\"district\":\"V\",\"name\":\"May Amalia Jansson\",\"property\":\"Mejseln3\",\"year\":\"1944\"}"
+        },
+        "origins": [
+          {
+            "revision_id": "O-P-0007-mantal1944@1",
+            "unit_id": "954b3c4055dd40795c496a68d1070babe9884f2abb40c1fa1a888aba4aec409b",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0007-mantal1944@1",
+            "basis_revision_id": "R-80f0ba33d2a09b30178f7f95@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ]
+      },
+      "field_edits": [
+        {
+          "field": "caveat",
+          "old": "Hennes egna1945/46rader olästa, inte makens.",
+          "new": "Denna observation gäller enbart den redan lästa egna1944-raden. Äldre avgränsning i C0883 var: hennes egna1945/46-rader var då olästa, inte makens. T-0789 har nu fullutvunnit och bevarat två separata egna årsrader1945 tryckt99 och1946 tryckt108, båda VI:Gondolen2.1944-observationens Mejseln3/distriktV/namn/födelsedata består; inga nya1945/46-värden kopieras in i1944fältet. Registren är samma administrativa kedja och visar inte en fysisk flyttdag eller obruten vistelse."
+        }
+      ],
+      "evidence_rebinds": [],
+      "evidence_additions": [
+        {
+          "object": "TR-T0789-P0007-own-annual-1945",
+          "version": 1,
+          "role": "supports",
+          "note": "Egen årsrad inom samma registreringskedja; endast uttryckliga namn-/födelse-/distriktfält och råreservationer."
+        },
+        {
+          "object": "TR-T0789-P0007-own-annual-1946",
+          "version": 1,
+          "role": "supports",
+          "note": "Egen årsrad inom samma registreringskedja; endast uttryckliga namn-/födelse-/distriktfält och råreservationer."
+        }
+      ],
+      "individual_source_disposition": "Whole current observation has explicit unqualified annualunread caveat outside its own1944 literal. Date that scope and state now-completed separateownyears; keep own1944structureddata and basis/version unchanged.",
+      "incoming_disposition": "Return allcurrent/history incoming before dependentbuild; noautomaticrebind."
+    },
+    "full_old_native": {
+      "id": "O-P-0007-mantal1944@1",
+      "object_id": "O-P-0007-mantal1944",
+      "version": 1,
+      "operation_id": "T-0652/persons-01-v1",
+      "disposition": "recorded",
+      "evidence_status": "TRANSCRIBED",
+      "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+      "caveat": "Hennes egna1945/46rader olästa, inte makens.",
+      "previous_id": null,
+      "kind": "observation",
+      "data": {
+        "revision_id": "O-P-0007-mantal1944@1",
+        "record_id": "R-80f0ba33d2a09b30178f7f95",
+        "mention_id": null,
+        "property": "registration",
+        "value_literal": "May Amalia Jansson, född1920-05-11, distriktV, Mejseln3,1944",
+        "value_json": "{\"birth_date\":\"1920-05-11\",\"district\":\"V\",\"name\":\"May Amalia Jansson\",\"property\":\"Mejseln3\",\"year\":\"1944\"}"
+      },
+      "origins": [
+        {
+          "revision_id": "O-P-0007-mantal1944@1",
+          "unit_id": "954b3c4055dd40795c496a68d1070babe9884f2abb40c1fa1a888aba4aec409b",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "O-P-0007-mantal1944@1",
+          "basis_revision_id": "R-80f0ba33d2a09b30178f7f95@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id"
+        }
+      ]
+    },
+    "full_old_API": {
+      "id": "O-P-0007-mantal1944",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-80f0ba33d2a09b30178f7f95",
+        "mention_id": null,
+        "property": "registration",
+        "value_literal": "May Amalia Jansson, född1920-05-11, distriktV, Mejseln3,1944",
+        "value_json": {
+          "birth_date": "1920-05-11",
+          "district": "V",
+          "name": "May Amalia Jansson",
+          "property": "Mejseln3",
+          "year": "1944"
+        }
+      },
+      "origins": [
+        {
+          "unit": "954b3c4055dd40795c496a68d1070babe9884f2abb40c1fa1a888aba4aec409b",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-80f0ba33d2a09b30178f7f95",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id"
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+      "caveat": "Hennes egna1945/46rader olästa, inte makens."
+    },
+    "source_new_API_projection_NOT_OPERATION": {
+      "id": "O-P-0007-mantal1944",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-80f0ba33d2a09b30178f7f95",
+        "mention_id": null,
+        "property": "registration",
+        "value_literal": "May Amalia Jansson, född1920-05-11, distriktV, Mejseln3,1944",
+        "value_json": {
+          "birth_date": "1920-05-11",
+          "district": "V",
+          "name": "May Amalia Jansson",
+          "property": "Mejseln3",
+          "year": "1944"
+        }
+      },
+      "origins": [
+        {
+          "unit": "954b3c4055dd40795c496a68d1070babe9884f2abb40c1fa1a888aba4aec409b",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-80f0ba33d2a09b30178f7f95",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id"
+        },
+        {
+          "object": "TR-T0789-P0007-own-annual-1945",
+          "version": 1,
+          "role": "supports",
+          "note": "Egen årsrad inom samma registreringskedja; endast uttryckliga namn-/födelse-/distriktfält och råreservationer."
+        },
+        {
+          "object": "TR-T0789-P0007-own-annual-1946",
+          "version": 1,
+          "role": "supports",
+          "note": "Egen årsrad inom samma registreringskedja; endast uttryckliga namn-/födelse-/distriktfält och råreservationer."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+      "caveat": "Denna observation gäller enbart den redan lästa egna1944-raden. Äldre avgränsning i C0883 var: hennes egna1945/46-rader var då olästa, inte makens. T-0789 har nu fullutvunnit och bevarat två separata egna årsrader1945 tryckt99 och1946 tryckt108, båda VI:Gondolen2.1944-observationens Mejseln3/distriktV/namn/födelsedata består; inga nya1945/46-värden kopieras in i1944fältet. Registren är samma administrativa kedja och visar inte en fysisk flyttdag eller obruten vistelse."
+    }
+  },
+  "additive_all_history_incoming": [],
+  "all21_target_history_incoming": [
+    {
+      "native_rowid": 39090,
+      "revision_id": "ASSESSMENT-T0784-P0007-identity@1",
+      "basis_revision_id": "CONTRACT-P-0007-PK-05@3",
+      "role": "context",
+      "note": "Hela aktuella legacykravet, inklusive historiskt utfall och förbehåll, individuellt läst. Det nya utfallet följer denna prövning; det är inte en automatisk konvertering.",
+      "changed_target_object_id": "CONTRACT-P-0007-PK-05",
+      "target_current_revision_id": "CONTRACT-P-0007-PK-05@3",
+      "caller_current_revision_id": "ASSESSMENT-T0784-P0007-identity@1",
+      "caller_is_current": true,
+      "basis_is_current": true,
+      "source_disposition": "PENDING_ASTRA"
+    },
+    {
+      "native_rowid": 39108,
+      "revision_id": "ASSESSMENT-T0784-P0007-identity@1",
+      "basis_revision_id": "PATH-P-0007-KP-05@2",
+      "role": "supports",
+      "note": "Samma paket: avgränsad oläst passage och åtkomst; inga källresultat eller åtkomstlöften.",
+      "changed_target_object_id": "PATH-P-0007-KP-05",
+      "target_current_revision_id": "PATH-P-0007-KP-05@2",
+      "caller_current_revision_id": "ASSESSMENT-T0784-P0007-identity@1",
+      "caller_is_current": true,
+      "basis_is_current": true,
+      "source_disposition": "PENDING_ASTRA"
+    },
+    {
+      "native_rowid": 39109,
+      "revision_id": "ASSESSMENT-T0784-P0007-identity@1",
+      "basis_revision_id": "BIO-P-0007@7",
+      "role": "supports",
+      "note": "Samma paket: redan accepterad rad16 påuppslag13 synliggjord; fortsatta Helgestaåren inte förklarade lästa.",
+      "changed_target_object_id": "BIO-P-0007",
+      "target_current_revision_id": "BIO-P-0007@7",
+      "caller_current_revision_id": "ASSESSMENT-T0784-P0007-identity@1",
+      "caller_is_current": true,
+      "basis_is_current": true,
+      "source_disposition": "PENDING_ASTRA"
+    },
+    {
+      "native_rowid": 39095,
+      "revision_id": "ASSESSMENT-T0784-P0007-identity@1",
+      "basis_revision_id": "RESEARCH-P-0007-9d76f0343410@3",
+      "role": "supports",
+      "note": "Versionsbundet befintligt underlag inom de namngivna person-/fältgränserna i denna bedömning. Samma historiska uppgiftskedja räknas inte som en ny oberoende röst.",
+      "changed_target_object_id": "RESEARCH-P-0007-9d76f0343410",
+      "target_current_revision_id": "RESEARCH-P-0007-9d76f0343410@3",
+      "caller_current_revision_id": "ASSESSMENT-T0784-P0007-identity@1",
+      "caller_is_current": true,
+      "basis_is_current": true,
+      "source_disposition": "PENDING_ASTRA"
+    }
+  ],
+  "additional_full_exact_and_current_caller_native": {
+    "O-P-0007-mantal1944@1": {
+      "id": "O-P-0007-mantal1944@1",
+      "object_id": "O-P-0007-mantal1944",
+      "version": 1,
+      "operation_id": "T-0652/persons-01-v1",
+      "disposition": "recorded",
+      "evidence_status": "TRANSCRIBED",
+      "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+      "caveat": "Hennes egna1945/46rader olästa, inte makens.",
+      "previous_id": null,
+      "kind": "observation",
+      "data": {
+        "revision_id": "O-P-0007-mantal1944@1",
+        "record_id": "R-80f0ba33d2a09b30178f7f95",
+        "mention_id": null,
+        "property": "registration",
+        "value_literal": "May Amalia Jansson, född1920-05-11, distriktV, Mejseln3,1944",
+        "value_json": "{\"birth_date\":\"1920-05-11\",\"district\":\"V\",\"name\":\"May Amalia Jansson\",\"property\":\"Mejseln3\",\"year\":\"1944\"}"
+      },
+      "origins": [
+        {
+          "revision_id": "O-P-0007-mantal1944@1",
+          "unit_id": "954b3c4055dd40795c496a68d1070babe9884f2abb40c1fa1a888aba4aec409b",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "O-P-0007-mantal1944@1",
+          "basis_revision_id": "R-80f0ba33d2a09b30178f7f95@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id"
+        }
+      ]
+    }
+  },
+  "remaining_support_head_issues": [],
+  "pending_actual_T8_acceptance": "RESEARCH@4 full native and declared T8 heads must be captured/reconciled after actual accepted T8; no synthetic current or native claim.",
+  "counts": {
+    "targets": 21,
+    "creates": 12,
+    "revisions": 9,
+    "actual449_whole_old_exact": 8,
+    "planned_T8_whole_native_pending": 1,
+    "media": 2,
+    "additional_incoming": 0,
+    "incoming_unique": 4
+  },
+  "final_source_order_not_inferred_from_additive_table": true,
+  "source_grades_inferred": false,
+  "build_stage_canonical_Wotan_authorized": false,
+  "usage": "UNKNOWN pending root collector"
+}

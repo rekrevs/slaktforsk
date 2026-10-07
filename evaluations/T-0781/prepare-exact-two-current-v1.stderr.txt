@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/sverker/repos/slaktforsk/evaluations/T-0781/prepare_exact_two_current_inputs_v1.py", line 124, in <module>
+    assert all(x['field'] in ['evidence','origins','assets','media'] and sorted(map(lambda y:json.dumps(y,sort_keys=True),x['prior']))==sorted(map(lambda y:json.dumps(y,sort_keys=True),x['actual_ORDER_BY_rowid'])) for x in diffs),(oid,diffs)
+           ^^^
+  File "/Users/sverker/repos/slaktforsk/evaluations/T-0781/prepare_exact_two_current_inputs_v1.py", line 124, in <genexpr>
+    assert all(x['field'] in ['evidence','origins','assets','media'] and sorted(map(lambda y:json.dumps(y,sort_keys=True),x['prior']))==sorted(map(lambda y:json.dumps(y,sort_keys=True),x['actual_ORDER_BY_rowid'])) for x in diffs),(oid,diffs)
+                                                                                ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable

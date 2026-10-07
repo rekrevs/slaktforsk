@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "T-0786",
+    "T-0787",
+    "T-0788",
+    "T-0789"
+  ],
+  "at_utc": "2026-10-06T10:55:18.036298+00:00",
+  "checks": [
+    {
+      "command": "node --test scripts/",
+      "exit_code": 0,
+      "tests": 75,
+      "pass": 75,
+      "fail": 0
+    },
+    {
+      "command": "node scripts/validate-genealogy.mjs",
+      "exit_code": 0,
+      "assertions": 5130,
+      "Markdown_records": 3035,
+      "media_files": 5065,
+      "Wotan_JSON_valid": true
+    },
+    {
+      "command": "node scripts/media-manifest.mjs --check",
+      "exit_code": 0,
+      "media_files": 5064,
+      "exact": 3140,
+      "source_scoped": 1879,
+      "citation_scoped": 28,
+      "unlinked": 17
+    }
+  ],
+  "archive_or_dashboard_written": false,
+  "earlier_archive_diagnostic": "Earlier ongoing-phase frozen-inventory/multiple-ONGOING diagnostic bbc078 receipt retained. Latest readonly invocation now PASS; no archive write used."
+}

@@ -1,0 +1,187 @@
+{
+  "case": "B",
+  "logical_unit": 5,
+  "max_claims": 6,
+  "claims": [
+    {
+      "id": "B-025",
+      "object": "F-P-0003-household_membership-maternal-grandparents@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 108,
+      "quote": "{\"grandparents\": [\"P-0042\", \"P-0043\"], \"places\": [\"Björkhem\", \"Norraberg\", \"Tulefors\"], \"role\": \"dotterson\"}",
+      "quoted_value": {
+        "grandparents": [
+          "P-0042",
+          "P-0043"
+        ],
+        "places": [
+          "Björkhem",
+          "Norraberg",
+          "Tulefors"
+        ],
+        "role": "dotterson"
+      },
+      "semantic_focus": "role dotterson",
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "old_support": [
+        "RESEARCH-P-0003-9d76f0343410@1 body22:975",
+        "AS-T0676-FLEN914-upper-P-0003@1 body0:454"
+      ],
+      "source_observation": "SCB Arne struckfosts?/overwritten d:s?, originalHushåll1 bracket overtargetthree",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Grandparentidentity is establishedthrough motherAda and her ownparents plus ownparishchain; newSCB struckfosts?/d:s? isreserved but doesnot demote that strongergenealogicalrelation. The threepersonhouseholdbrace agrees with1930membership; no directparentedge tograndparents iscreated.",
+      "before": {
+        "grandparents": [
+          "P-0042",
+          "P-0043"
+        ],
+        "places": [
+          "Björkhem",
+          "Norraberg",
+          "Tulefors"
+        ],
+        "role": "dotterson"
+      },
+      "after": {
+        "grandparents": [
+          "P-0042",
+          "P-0043"
+        ],
+        "places": [
+          "Björkhem",
+          "Norraberg",
+          "Tulefors"
+        ],
+        "role": "dotterson"
+      },
+      "affected_copies": [
+        "BIO-P-0003@2",
+        "RESEARCH-P-0003-9d76f0343410@1"
+      ],
+      "remaining_question": "SCB exactprefix unresolved; actualfirstcareday remainsunknown."
+    },
+    {
+      "id": "B-026",
+      "object": "F-P-0003-family_account-early-care@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 185,
+      "quote": "{\"account\": \"Ada lämnade tidigt Arne hos sina föräldrar Fredrik och Vilhelmina, där han växte upp\", \"firstCareDate\": null, \"narrator\": \"Jan-Christer\", \"registeredArrival\": \"1918-10-28\"}",
+      "quoted_value": {
+        "account": "Ada lämnade tidigt Arne hos sina föräldrar Fredrik och Vilhelmina, där han växte upp",
+        "firstCareDate": null,
+        "narrator": "Jan-Christer",
+        "registeredArrival": "1918-10-28"
+      },
+      "semantic_focus": "firstCareDate null",
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "old_support": [
+        "RESEARCH-P-0003-9d76f0343410@1 body22:975",
+        "AS-T0676-FLEN914-upper-P-0003@1 body0:454"
+      ],
+      "source_observation": "SCB Arne struckfosts?/overwritten d:s?, originalHushåll1 bracket overtargetthree",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "1930householdmembership cannot datefirstcare. Existingfamilyaccount and formal1918arrivalare separate; retainunknownfirstCareDate, not newactualcarestartfromSCB. Strongerold1918registrationremains explicit.",
+      "before": {
+        "account": "Ada lämnade tidigt Arne hos sina föräldrar Fredrik och Vilhelmina, där han växte upp",
+        "firstCareDate": null,
+        "narrator": "Jan-Christer",
+        "registeredArrival": "1918-10-28"
+      },
+      "after": {
+        "account": "Ada lämnade tidigt Arne hos sina föräldrar Fredrik och Vilhelmina, där han växte upp",
+        "firstCareDate": null,
+        "narrator": "Jan-Christer",
+        "registeredArrival": "1918-10-28"
+      },
+      "affected_copies": [
+        "BIO-P-0003@2",
+        "RESEARCH-P-0003-9d76f0343410@1"
+      ],
+      "remaining_question": "SCB exactprefix unresolved; actualfirstcareday remainsunknown."
+    },
+    {
+      "id": "B-027",
+      "object": "REL-parent-P-0010-P-0003@1",
+      "field": "nature",
+      "start": 0,
+      "end": 15,
+      "quote": "recorded_parent",
+      "old_support": [
+        "REL-parent-P-0010-P-0003@1 revision.evidence_status+revision.caveat",
+        "RESEARCH-P-0003-9d76f0343410@1 body1000:1637"
+      ],
+      "source_observation": "candidate/reconciled/B.json target Karl/Charlotta/Arne rows2–4; originalSCBimage, not registercapture",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Bernhard’s fatheredge isexplicitlyOWNER_CONFIRMED. UncertainSCB householdrole isnot a newparentidentityclaim andcannot demote ownerknowledge or requireanotherarchivalfatheroriginal. Preserve edge/data/status exactly.",
+      "before": "recorded_parent",
+      "after": "recorded_parent",
+      "affected_copies": [],
+      "remaining_question": "Name/role/code raw reservations remain explicit; three identitygates unchanged."
+    },
+    {
+      "id": "B-028",
+      "object": "BIO-P-0003@2",
+      "field": "markdown",
+      "start": 923,
+      "end": 932,
+      "quote": "dotterson",
+      "old_support": [
+        "F-P-0003-household_membership-maternal-grandparents@1",
+        "RESEARCH-P-0003-9d76f0343410@1 body22:975"
+      ],
+      "source_observation": "candidate/reconciled/B.json target Karl/Charlotta/Arne rows2–4; originalSCBimage, not registercapture",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "The biologicalgrandson summary has sufficientownmother/grandparentcontext, not onlyrawSCBprefix. Newprefixuncertainty staysin sourceadoption, while the establishedfamilyrole remains; no newdailycarestartinferred.",
+      "before": "dotterson",
+      "after": "dotterson",
+      "affected_copies": [],
+      "remaining_question": "Name/role/code raw reservations remain explicit; three identitygates unchanged."
+    },
+    {
+      "id": "B-029",
+      "object": "RESEARCH-P-0003-9d76f0343410@1",
+      "field": "body",
+      "start": 305,
+      "end": 314,
+      "quote": "dotterson",
+      "old_support": [
+        "F-P-0003-household_membership-maternal-grandparents@1",
+        "AUDIT-T0677-C0007@1 body404:1272"
+      ],
+      "source_observation": "candidate/reconciled/B.json target Karl/Charlotta/Arne rows2–4; originalSCBimage, not registercapture",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "The currentidentityrelation follows the alreadyreadmother/ownfamilychain. SCBpartialglyph quality cannot erase an establishedgrandparentedge; preserve sourceuncertainty withoutforcinga newexactroleexpansion.",
+      "before": "dotterson",
+      "after": "dotterson",
+      "affected_copies": [],
+      "remaining_question": "Name/role/code raw reservations remain explicit; three identitygates unchanged."
+    },
+    {
+      "id": "B-030",
+      "object": "ADOPT-T0677-C0007-P-0003@1",
+      "field": "body",
+      "start": 157,
+      "end": 205,
+      "quote": "familj 2 gör inte morföräldrarna till föräldrar.",
+      "old_support": [
+        "R-8c6b91c855d10a9152cbbbdf@2 caveat",
+        "candidate/reconciled/B.json scope+bracketnotes"
+      ],
+      "source_observation": "candidate/reconciled/B.json target Karl/Charlotta/Arne rows2–4; originalSCBimage, not registercapture",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Family2 belongs olderindexmetadata; originalHushåll has1 andathreepersonbrace, withneighborstargetexcluded. Bothrepresentations classifyadministrativegroups, not biologicalparenthood. Keep explicitnon-parentinference andseparatesourcegeometry.",
+      "before": "familj 2 gör inte morföräldrarna till föräldrar.",
+      "after": "familj 2 gör inte morföräldrarna till föräldrar.",
+      "affected_copies": [],
+      "remaining_question": "Name/role/code raw reservations remain explicit; three identitygates unchanged."
+    }
+  ]
+}

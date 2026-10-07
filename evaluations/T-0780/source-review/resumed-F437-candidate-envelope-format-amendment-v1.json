@@ -1,0 +1,358 @@
+{
+  "task": "T-0780",
+  "amends": {
+    "path": "evaluations/T-0780/source-review/resumed-F437-sixteen-incoming-decisions-v1.json",
+    "sha256": "6952ebddabb915908a344ee76ade3e541312c5484d0d16f9c4f1a60828280b2d"
+  },
+  "reason": "Original source input candidate_if_any was [fullAPI,membershipmetadata], not two alternative API payloads; explicitly split fields to remove mechanical ambiguity without altering source judgments or exact candidate bytes.",
+  "entries": [
+    {
+      "referring_revision": "BIO-P-0437@2",
+      "candidate_payload": {
+        "id": "BIO-P-0437",
+        "kind": "narrative",
+        "expectedVersion": 2,
+        "data": {
+          "subject_id": "P-0437",
+          "title": "Biografisk sammanfattning",
+          "markdown": "## Biografisk sammanfattning\n\nMaria Elina föddes den 29 juli 1856 i **Botsmark** i Sävar och döptes en\nvecka senare. Hon var dotter till Johan Peter Zingmark och Sara Sophia\nPehrsdotter.\n\n**Hennes egen C-0561-rad anger Degerfors, år 1875 och 4[?]/10 samt det separata attestnumret 15.** Den äldre läsningen 15 oktober blandade samman dag och attestnummer. Hon var nitton år vid den noterade tiden; anteckningen är ett registerankare, inte ensam belägg för resans exakta dag.\nDet var inte en främmande ort. Hennes mor kom därifrån — moderns\nföräldrahem i Ånäset är belagt 1843–1850, och föräldrarna hade vigts i\nDegerfors den 24 november 1850. Familjens förbindelse med socknen var\ntjugofem år äldre än hennes egen flytt.\n\n**Hon blev den första av fem redovisade familjemedlemmar i Degerfors.**\nBrodern Johan Oskar följde 1880, fadern 1898, halvbrodern Nikanor 1899\noch halvbrodern Olof Konrad 1900. Faderns dödsuppgift 1903-07-24 anger\nEkträsk som hemvist, inte en uttrycklig fysisk dödsplats eller hennes\negen bostad efter 1900.\n\n**Sex år efter flytten föddes det första barnet i 1900 års redovisade serie.**\nHusförhörsboken C-0548 rapporterar dessförinnan gift `79 21/11`\n(1879-11-21) och från `163/2 79 24/10` på hennes Ekträskrad. Egen\nvigselpost och vigselförsamling är fortfarande olästa. Maken Erik August\nLindberg var bonde i Ekträsk och född i Degerfors samma år som hon själv.\n\n**År 1900 redovisas åtta barn med födelseår 1881–1899** — 1881, 1884, 1887, 1889, 1891, 1894, 1896\noch 1899 — alla födda i Degerfors, och alla i livet vid folkräkningen\n1900. I samma post står hennes far som `svärfar`, änkling, sjuttiofem år\ngammal.\n\n**Barnens namn ger möjliga jämförelser, inte kontaktbevis.** De åtta\nredovisade barnen har namnledsmotsvarigheter i den kända moderns släkt,\näven Axel hos morbrodern P-0439. Olof Konrad motsvarar en halvbror född\nefter hennes flytt, men likheten bevisar inte uppkallning eller fortsatt\nkontakt. Makens föräldrar är ännu oprövade; Olof Reinhold är en möjlig\nkontextnyckel för den sidan, utan avgjort faderskap.\n\n**Där slutar det belagda om henne.** Hon var fyrtiofyra år.\n\n"
+        },
+        "origins": [
+          {
+            "unit": "80ae097426a983ded7402a5e35bbc12cafb5f46566371144782db314eec30404",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "F-P-0422-household_context-Olof-Reinhold",
+            "version": 1,
+            "role": "supports",
+            "note": "Olof Reinhold är kontextnyckel utan avgjord paternell identitet."
+          },
+          {
+            "object": "F-P-0437-family_context-degerfors-network",
+            "version": 1,
+            "role": "supports",
+            "note": "Fem medlemmar och faderns hemvist skild från dotterns senare liv."
+          },
+          {
+            "object": "F-P-0437-family_hypothesis-naming",
+            "version": 1,
+            "role": "supports",
+            "note": "Åtta möjliga namnledsmotsvarigheter, inget kontaktbevis."
+          },
+          {
+            "object": "O-P-0028-Maria_Elina_Ektrask",
+            "version": 1,
+            "role": "supports",
+            "note": "Befintlig normalisering1879-11-21; samma underlag, ingen extra röst."
+          },
+          {
+            "object": "TR-047081876069d29686847217",
+            "version": 1,
+            "role": "supports",
+            "note": "C0548 egenrad6, uttrycklig äldre råavskrift gift79 21/11."
+          },
+          {
+            "object": "TR-T0780-C0561-fullpost",
+            "version": 1,
+            "role": "supports",
+            "note": "Fulla egna C-0561-rader, utan fysisk kontinuitets- eller födelseplatsinferens från hushållsrubriken."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Tidigare berättelse versionsbevarad; inte en ny oberoende faktakälla.\nT-0677 C-0751: Samordnar den redan bevarade C0548-vigselnyckeln; egen vigselpost och ort är fortsatt olästa, inga utfall ändras. Precis ersättning av de listade felaktiga meningarna i detta fält; övrig aktuell text inklusive vigselv2 och befintligt utfall bevaras.",
+        "caveat": "Hela akt/profil och C0562/0561/0751/0727/0997/0571/0584/0585 lästa. Rättelse fem Degerforsmedlemmar gäller. Namnkontakt och vigsel1875–81 är hypotes/sökfönster, inte bevisade fakta. Faderns1903död daterar inte hennes eget liv."
+      },
+      "candidate_membership_pointer": {
+        "index": 58,
+        "path": "evaluations/T-0780/implementation/C0561-final-expanded-queue-v1/two-expanded-biography-operation-v1.json",
+        "sha256": "e7fa51bf51acc970fe8bf3e0378ec3fc01bab84005179b8d893125bc98b4633a",
+        "operation_id": "T-0780/C0561-two-expanded-biography-v1",
+        "targets": [
+          {
+            "id": "BIO-P-0432",
+            "expectedVersion": 1,
+            "payload_sha256": "b7f21d68c8d2af4f37f805e0dd4827ece6609c50411099c1bba6275fb1f23ae9"
+          },
+          {
+            "id": "BIO-P-0437",
+            "expectedVersion": 2,
+            "payload_sha256": "1752987060e9cf0129c3e8c1b22f2ec6b76d944678017a3a45032761539ea13c"
+          }
+        ]
+      },
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "BIO437 candidate already corrects own departure4[?]/10 versus attest15 and directly adds new C561 TR. Historical F437@1 support is cited specifically for five members and father1903 home, both unchanged; retain this older scoped basis and candidate, no new rebind.",
+      "constraint_candidate_before_F437": true
+    },
+    {
+      "referring_revision": "CONTRACT-P-0437-PK-03@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "CONTRACT437PK03 concerns parents1850 and1903 versus own life, and retains C0548 October/November1879 anchors. No day15October1875 asserted; F437 parents context unchanged. Retain STYRKT and current payload/basis.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "P-0437/Q-02@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "Q43702 asks after1900 and explicitly limits father1903 Ekträsk to his life. The corrected1875 day has no consequence for this question; retain OPEN and current payload/basis.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "P-0481/Q-02@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "Q48102 Johan Reinhold: own1900 age19 and possible later paths; grandfather1903 not own continuation. No1875 day claim. Historical scoped F437 support unaffected; retain OPEN/current.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "P-0482/Q-02@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "Q48202 Karl Erik: own1900 age16 and possible later paths; grandfather1903 not own continuation. No1875 day claim. Historical scoped F437 support unaffected; retain OPEN/current.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "P-0483/Q-02@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "Q48302 Sofia Evelina: own1900 age13 and possible later paths; grandfather1903 not own continuation. No1875 day claim. Historical scoped F437 support unaffected; retain OPEN/current.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "P-0484/Q-02@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "Q48402 Per August: own1900 age11 and possible later paths; grandfather1903 not own continuation. No1875 day claim. Historical scoped F437 support unaffected; retain OPEN/current.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "P-0485/Q-02@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "Q48502 Olof Konrad: own1900 age9 and possible later paths; grandfather1903 not own continuation. No1875 day claim. Historical scoped F437 support unaffected; retain OPEN/current.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "P-0486/Q-02@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "Q48602 Oskar Rudolf: own1900 age6 and possible later paths; grandfather1903 not own continuation. No1875 day claim. Historical scoped F437 support unaffected; retain OPEN/current.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "P-0487/Q-02@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "Q48702 Axel Heribert: own1900 age4 and possible later paths; grandfather1903 not own continuation. No1875 day claim. Historical scoped F437 support unaffected; retain OPEN/current.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "P-0488/Q-02@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "Q48802 Ester Maria: own1900 age1 and possible later paths; grandfather1903 not own continuation. No1875 day claim. Historical scoped F437 support unaffected; retain OPEN/current.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "RESEARCH-P-0437-9d76f0343410@2",
+      "candidate_payload": {
+        "id": "RESEARCH-P-0437-9d76f0343410",
+        "kind": "assessment",
+        "expectedVersion": 2,
+        "data": {
+          "subject_id": "P-0437",
+          "criteria": "legacy_profile_section/Identitetsbedömning",
+          "outcome": "recorded",
+          "body": "## Identitetsbedömning\n\n**Egna poster bär personkedjan; dokumentantal är inte antal oberoende informationsvägar.** Folkräkningsutdraget och dess index räknas inte som oberoende datumröster.\n\n**Egen födelsenotis** ger `Maria Elina`, född 1856-07-29 i Botsmark, döpt\n5 augusti, dotter till Johan Peter Zingmark och Sara Sophia Pehrsdotter\n([C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md)).\nEgen husförhörsrad anger Degerfors, `1875 4[?]/10` och separat utflyttningsattest15\n([C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md)).\nEgen folkräkningsrad ger henne 1900 som hustru i Ekträsk, med\nefternamnet `Zingmark` utskrivet, och med sin änklige far i samma hushåll\nsom `svärfar`\n([C-0751](../citations/C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md)).\n\n**Mellanperioden har bevarade hållpunkter.** C-0548:s egen rad 6 i Ekträsk s. 171 återger\n`Hu Maria Elina Zingmark 1856 29/7 Säfvar`, hustru till Erik August Lindberg,\ngift `79 21/11` och från `163/2 79 24/10`. Normaliseringen 1879-11-21\när en husförhörsboksuppgift; egen vigselpost och vigselförsamling är olästa.\nIntervallet 1875–1881 är alltså inte helt obelagt, men posterna ger inte\nobruten fysisk vistelse eller hennes hela livsbild under mellanåren.\n\n**En datumrättelse står och får inte glömmas.** Den äldre läsningen av\nutflyttningsraden var1877; T-0133 rättade året till1875 och läste då dagen15oktober. T-0780:s egen jämförelse skiljer datumtäljaren4[?] från den separata attesten15. Året1877 är fortsatt avfört; dagens osäkerhet bevaras som `4[?]/10` utan slutsats om exakt fysisk resdag.\n\n### Flytten till moderns hemförsamling\n\n**Föräldrarnas vigsel i Degerfors 1850 föregår hennes flytt dit 1875 med tjugofem kalenderår.**\n\n| Person | Till Degerfors | Belägg |\n|---|---|---|\n| hon själv | 1875 4[?]/10; attest15 separat | egen husförhörsrads utflyttningscell |\n| brodern [Johan Oskar](P-0028.md) | 1880-10-07 | egen utflyttningspost |\n| fadern [Johan Petter](P-0422.md), änkling | 1898-11-28 | egen rad |\n| halvbrodern [Nikanor](P-0430.md) | 1899-11-28 | C-0571 |\n| halvbrodern [Olof Konrad](P-0433.md) | 1900-10-13/14 | flyttlängd och församlingsbok |\n\n**Förbindelsen vilar på två belagda förhållanden, inte på moderns omtvistade\nfödelseförsamling:** moderns föräldrahem i Ånäset, Degerfors, belagt\n1843–1850\n([C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md)),\noch föräldrarnas vigsel i Degerfors 1850-11-24\n([C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md)).\nModerns egen födelsenotis är oläst, och slutsatsen behöver den inte.\n\n**Följden är praktisk och inte orsaksförklarande.** Uppgiften säger var\nförbindelsen fanns, inte varför någon använde den. Degerfors har en dokumenterad familjeanknytning, men den belägger\ninte orsaken till någon enskild flytt.\n\nFadern följdes av Nikanor och Olof Konrad. Hans dödsuppgift\n1903-07-24 anger Ekträsk som hemvist; den daterar inte dotterns liv\neller bostad och anger inte uttryckligen fysisk dödsplats.\n\n### Rättelse 2026-09-10: kedjan har fem medlemmar\n\n**T-0199 kompletterade den dåvarande uppräkningen med en person.** Halvbrodern\n[Nikanor Zingmark](P-0430.md) skrevs in i Degerfors 1899-11-28, belagt i\nC-0571 sedan tidigare, och saknades därför att han låg utanför T-0198:s\nkohort. Fadern och han skrevs in samma kalenderdag ett år isär — ett\nsammanträffande utan tillskriven innebörd.\n\n**A-7946 skrivs inte om**, och dagens sammanställning omfattar fem familjemedlemmars dokumenterade\nanknytning till Degerfors, utan slutsats om gemensam flyttorsak. Utvidgningen är\nförd som A-7959 i [P-0441](P-0441.md).\n\n**Kohortgränser är arbetsindelningar, inte kunskapsgränser.**\n\n### Barnens namnled\n\n**De åtta redovisade barnen har möjliga namnledsmotsvarigheter i den kända moderns släkt, inklusive Axel**, och två bär exakta namnpar\nmed hennes egna syskon. Se A-7947.\n\n| Barn | Namnled ur moderns släkt |\n|---|---|\n| `Johan Reinhold` 1881 | fadern Johan Peter; brodern Carl Reinhold |\n| `Karl Erik` 1884 | brodern Carl Reinhold |\n| `Sofia Evelina` 1887 | modern Sara Sophia |\n| `Per August` 1889 | broderns exakta namnpar, född 1858-10-26 |\n| `Olof Konrad` 1891 | halvbroderns exakta namnpar, född 1878-09-20 |\n| `Oskar Rudolf` 1894 | brodern Johan Oskar |\n| `Axel Heribert` 1896 | Axel: morbrodern P-0439; Heribert: ingen identifierad motsvarighet |\n| `Ester Maria` 1899 | systern Ester Amalia; hennes eget Maria |\n\n**Den bärande iakttagelsen gäller `Olof Konrad`.** Halvbrodern föddes i Sävar\n1878-09-20, tre år efter att hon flyttade därifrån. Halvbrodern var ännu inte född vid hennes flytt, men namnlikheten\n1891 bevisar inte att han var förebilden eller att kontakten fortsatte.\n\n**Tre gränser är utskrivna, och den första är avgörande.** Kontrollen\nsaknas: makens härkomst är helt outforskad, och matchningarna hittades\ngenom att bara Zingmarksidan söktes. `Olof` och `Konrad` var vanliga\nnamn, och ett gemensamt uppkallningsmönster bakåt skulle ge samma utfall\nutan kontakt. Brodern [Johan Oskar](P-0028.md) fanns i Degerfors från\n1880 och är en möjlig kanal endast om kontakt faktiskt fanns.\nOlof Reinhold i den bevarade C-0585-kontexten och C-0751:s rad 7 är\ndessutom en möjlig söknyckel för den oprövade fadernsidan, inte en\nfastställd far till Erik August eller namngivare.\n\n`Trädverkan: EJ BÄRANDE`: ingen anlinje passerar henne. Antavlans person i\nsyskonskaran är [P-0028](P-0028.md).\n\n"
+        },
+        "origins": [
+          {
+            "unit": "62c45904eb7f3d7c8f1f5a08a8b09cc9da7495d53b06c1af56ff5f9bd9a6a841",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "F-P-0422-household_context-Olof-Reinhold",
+            "version": 1,
+            "role": "supports",
+            "note": "Olof Reinhold är kontextnyckel utan avgjord paternell identitet."
+          },
+          {
+            "object": "F-P-0437-family_context-degerfors-network",
+            "version": 1,
+            "role": "supports",
+            "note": "Fem medlemmar och faderns hemvist skild från dotterns senare liv."
+          },
+          {
+            "object": "F-P-0437-family_hypothesis-naming",
+            "version": 1,
+            "role": "supports",
+            "note": "Åtta möjliga namnledsmotsvarigheter, inget kontaktbevis."
+          },
+          {
+            "object": "O-P-0028-Maria_Elina_Ektrask",
+            "version": 1,
+            "role": "supports",
+            "note": "Befintlig normalisering1879-11-21; samma underlag, ingen extra röst."
+          },
+          {
+            "object": "TR-047081876069d29686847217",
+            "version": 1,
+            "role": "supports",
+            "note": "C0548 egenrad6, uttrycklig äldre råavskrift gift79 21/11."
+          },
+          {
+            "object": "TR-T0780-C0561-fullpost",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen utflyttningscell4[?]/10 skild frånattest15; samma original."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.\nT-0677 C-0751: Samordnar den redan bevarade C0548-vigselnyckeln; egen vigselpost och ort är fortsatt olästa, inga utfall ändras. Precis ersättning av de listade felaktiga meningarna i detta fält; övrig aktuell text inklusive vigselv2 och befintligt utfall bevaras.",
+        "caveat": "Hela akt/profil och C0562/0561/0751/0727/0997/0571/0584/0585 lästa. Rättelse fem Degerforsmedlemmar gäller. Namnkontakt och vigsel1875–81 är hypotes/sökfönster, inte bevisade fakta. Faderns1903död daterar inte hennes eget liv."
+      },
+      "candidate_membership_pointer": {
+        "index": 55,
+        "path": "evaluations/T-0780/implementation/C0561-second-settled-queue-v1/Maria-nine-research-operation-v1.json",
+        "sha256": "3f615d39544745a93648bc0bfa00b49457e59e809e7ee2d98cf5087eef5e6d6e",
+        "operation_id": "T-0780/C0561-Maria-nine-research-v1",
+        "targets": [
+          {
+            "id": "ASSESSMENT-P-0437",
+            "expectedVersion": 1,
+            "payload_sha256": "6a594ca78f3deee8eef3ea10aff8ee69bb830d6feae8447515c13dba12e89515"
+          },
+          {
+            "id": "KEY-P-0437-4548ed9b332b",
+            "expectedVersion": 1,
+            "payload_sha256": "8e37059fec3e531ead43e98b409b3672db059dab726273efc0bcaa7b6f549314"
+          },
+          {
+            "id": "KEY-P-0437-9f37bc7ad769",
+            "expectedVersion": 1,
+            "payload_sha256": "308d2c5eb03528f7d42bf091dba5bbaf87049a7c1de0ab54da0669b15666e6ba"
+          },
+          {
+            "id": "RESEARCH-P-0437-9d76f0343410",
+            "expectedVersion": 2,
+            "payload_sha256": "0bec83181c8426e7d5dbc8704c79a30a0d9e81634cd09489d3277579c35a5210"
+          }
+        ]
+      },
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "RESEARCH437 candidate already corrects every asserted15October1875 to source4[?]/10 with separateattest15 and preserves historical correction narrative and C0548 own1879 anchors. F437@1 supports unchanged five-person/1903 limits; direct newTR supports corrected day. Retain candidate with its unchanged historical basis.",
+      "constraint_candidate_before_F437": true
+    },
+    {
+      "referring_revision": "BIO-P-0422@2",
+      "candidate_payload": {
+        "id": "BIO-P-0422",
+        "kind": "narrative",
+        "expectedVersion": 2,
+        "data": {
+          "subject_id": "P-0422",
+          "title": "Biografisk sammanfattning",
+          "markdown": "## Biografisk sammanfattning\n\nJohan Petter Zingmark föddes 1825-02-01 i Botsmark i Sävar som son till\nbonden Carl Jonas Zingmark och Anna Sophia Holmström och döptes den 15\nfebruari. Både födelsenotisen i C/1 s. 91 och barndomshushållet i A I/1\ns. 157 namnger föräldrarna, och de två posterna är oberoende av varandra\n([C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md)).\nOm de tjugo åren mellan barndomshushållet och giftermålet finns ingen läst\negen rad. Sävar A I/4 b:s hela Botsmarkavsnitt är läst utan att ett säkert\nZingmark–Pehrsdotter-hushåll framträder, vilket är väntat eftersom han\nvar ogift till slutet av 1850, men det betyder också att hans ungdomsår\nsaknar källa ([C-0686](../citations/C-0686-savar-flytt-och-AI4-sara-sophia-avgransning.md)).\n\nDen 24 november 1850 vigdes han i **Degerfors** med Sara Sophia\nPehrsdotter från Ånäset. Vigselposten kallar honom `Landbonden Joh. Pett.\nZingmark` från Botsmark, namnger hans far och brudens föräldrar och\nantecknar att brudens far var närvarande som giftoman. Lysningsdagen läses\n`3/11[?]`, och en not om ett avvittringsbetyg står i posten utan att någon\navvittringshandling är läst ([C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md)).\nDe tidigare nollresultaten i Sävars och Lyckseles vigselböcker står kvar\ninom sina egna årgångar och är nu förklarade: vigseln skedde i brudens\nhemförsamling ([C-0684](../citations/C-0684-savar-lycksele-vigslar-1850-negativ.md)).\n\nTitelföljden under de följande åren är inte enhetlig. Egen vigsel 1850 ger\nlandbonde, tre av barnens födelsenotiser 1853, 1854 och 1858 sätter `Sold.`\nframför hans namn, 1856 läses `B:d[?]` och 1851 är svårläst, medan 1864 och\n1868 ger `f. Landb.` respektive `landbonden`. På husförhörssidan A I/5 b\ns. 470 är ståndskolumnen tom och raden ovanför hushållet överstruken och\noläsbar. A I/6 b s. 603 har den reserverade egna råtiteln `hem.ä[?]`; senare böckers bondetitel får inte fyllas tillbaka som ordagrann titel där. Följden fastställer varken ett militärt tjänsteförlopp eller ett\ndaterat jordförvärv; rote, kompani och soldatnummer är okända\n([C-0983](../citations/C-0983-johan-peter-zingmark-soldatbeteckning-1853-1858.md),\n[C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md),\n[C-0685](../citations/C-0685-savar-AI5b-sida470-zingmark.md)).\n\nI det första äktenskapet föddes **minst tio barn** mellan 1851 och 1868,\ndäribland två tvillingpar. Sonen Axel dog tio månader gammal i februari\n1865, och tvillingen Sara Rebecka dog enligt sin egen födelsenotis efter\nundfånget nöddop utan att någon dödsdag anges där\n([C-0566](../citations/C-0566-savar-EI1-axel-zingmark-dod-1865.md),\n[C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md)).\nHushållssidan A I/6 b s. 603 antecknar Sara Sophias död 1868-08-14, men\nSävars dödböcker är fullständigt kontrollerade för hela intervallet utan\natt en säker post för henne kunde förenas; dagen står därför kvar som en\npositiv hushållsuppgift i konflikt med ett avgränsat tvåvolymsnoll\n([C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md),\n[C-0555](../citations/C-0555-savar-dodbocker-sara-sophia-1868-1870-negativ.md)).\nPå samma sida skrivs hans far Carl Jonas in i hushållet 1867 och dör där\n1870; faderns rådatum hör till hans egen rad och inte till sonens.\n\nKnappt två år efter Sara Sophias död gifte han om sig. Lysningen togs ut\nden **19 juni 1870** och vigseln förrättades den 2 juli 1870 av\nH. L. Strinnholm. Bruden Kajsa Greta Nilsdotter skrivs `dersammastädes`\nmed samma husförhörsfolio 603 som brudgummen. Samma folio i vigselposten bevisar inte ensamt samma hushåll. C-0563:s egna tjänste- och hustrurader ger däremot den särskilda reciproka hänvisningen `ofvan/nedan` den 9 juli 1870 och tjänsteradens införing från Umeå landsförsamling den 10 november 1869. Hennes far Nils Peter Ericsson i Tafvelsjö[?] av Umeå\nförsamling gav skriftligt bifall, uppvisat som avskrift av den 14 juni\n([C-0553](../citations/C-0553-savar-EI1-zingmark-nilsdotter-vigsel-1870.md)).\nI det andra äktenskapet föddes sex barn mellan 1871 och 1887. År 1892 gav\nhan skriftligt medgivande till att den artonårige sonen Emanuel utvandrade\ntill Nordamerika ([C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md)).\n\nHushållets dokumenterade bokkedja följs genom folierna 470 → 603 → 672 → 756 → 670; den bevisar inte obruten fysisk vistelse eller samma fastighet. C-0685:s framåthänvisning har råreservationen `60[3/7?]`, medan C-0563:s `Gl. Bok 470` stöder sidförbindelsen. Beteckningen **Botsmark N:o 7** finns redan i C-0561:s sidhuvud; den får därför inte sägas vara först belagd 1884. Den närliggande nummeruppgiften vid C-0685:s överstrukna föregående rubrik är inte ett säkert eget fastighetsbelägg för familjen. C-0563:s egen rubrik är Botsmark. Samma fastighet över hela perioden och gårdens storlek är okända; bråktalet `3/128` vid hushållets ingång 1894 är\nen rå söknyckel mot mantalslängderna, inte ett styrkt mantal. Sävars\nmantalsvolymer är katalogidentifierade men olästa\n([C-0554](../citations/C-0554-savar-AI9b-zingmark-hushall-1894-1898.md),\n[C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md)).\n\nKajsa Greta dog 1895 och han blev änkling. Dagen är omstridd: den äldre\navskriften anger 1895-07-02, men omläsningen 2026-09-09 av båda\nhushållsböckernas råform ger `95 27/2`, alltså 27 februari. Hennes egen\ndödbokspost är oläst och skulle avgöra frågan (A-6200).\n\nDen 28 november 1898 lämnade han Botsmark för Degerfors med attest 14.\nDegerfors inflyttningslängd för hela treårsperioden 1898–1900 är läst utan\nhans post, men församlingsboken tar emot honom på **Ekträsk sida 601**, i\nhushållet hos dottern Maria Elina och hennes man Erik August Lindberg med\nåtta barn. Där skrivs han helt enkelt `Svärfar`, och yrkeskolumnen på hans\nrad är tom; folkräkningen 1900 använder samma ord. På samma sida står också\nOlof Reinhold Lindberg på rad 25. Den bevarade kontexten anger\n1814-07-06, Degerfors och död 1904-05-29. C-0751 rad 7 har motsvarande\nnamn, råår 14 och änklingsuppgift samt Förmånstagare och far:/fad:[?].\nDet är en kandidat till samma person i en beroende bokkedja, inte\nfastställd identitet eller fadersrelation till Erik August ([C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md),\n[C-0751](../citations/C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md)).\n\nHan dog den **24 juli 1903**, med Ekträsk som antecknad hemvist,\nsjuttioåtta år gammal, och\nbegravdes den 2 augusti. Dödboken kallar honom `såg. arb.` — utan\nförkortningen `f.d.` — och dess kolumner för dödsorsak, läkarintyg och\navvikande dödsort är prövade och tomma. Att bonden från Botsmark slutade\nsom sågverksarbetare i Ekträsk vilar alltså på dödbokens enda ord;\nförsamlingsboken ger honom ingen yrkesuppgift alls, och den tidigare\nformuleringen om en `före detta sågverksarbetare` som blivit\nindustriarbetare på ålderdomen är rättad\n([C-0584](../citations/C-0584-degerfors-F3-johan-peter-zingmark-dod-1903.md)).\nIngen bouppteckning har kunnat identifieras i registret för hans namn och\nförsamling 1903–1904 ([C-0823](../citations/C-0823-bouppteckningsregister-sverker-djup5.md)).\n\nÖppna materiella frågor och källvägar finns i\n[forskningsprofilen](../research-profiles/P-0422.md).\n\n"
+        },
+        "origins": [
+          {
+            "unit": "091b4d11ec0e66e5d840dbb1236617454db0053725b5b34d7905c4c5b3b1d5d1",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "F-P-0422-household_context-Olof-Reinhold",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen C-0585-kontext rad 25, ingen felbindning till rad 24."
+          },
+          {
+            "object": "F-P-0437-family_context-degerfors-network",
+            "version": 1,
+            "role": "supports",
+            "note": "Dödsuppgift med Ekträsk som hemvist, inte uttrycklig fysisk dödsplats."
+          },
+          {
+            "object": "TR-T0677-C0751-consolidated-control",
+            "version": 1,
+            "role": "supports",
+            "note": "Rad 7 ger rå kandidatkontext utan relation."
+          },
+          {
+            "object": "TR-T0780-C0563-fullpost",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact C0563 own title, reciprocal wife rows and oldbook470; broader three-source statement also binds immutable primary C0561 and C0685 raw decisions."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Tidigare berättelse versionsbevarad; inte en ny oberoende faktakälla.\nT-0677 C-0751: Precis ersättning av de listade felaktiga meningarna i detta fält; övrig aktuell text inklusive vigselv2 och befintligt utfall bevaras.",
+        "caveat": "Hela715radiga akt/profil och senare tillägg i C-0681/C-0563/C-0552 m.fl. lästa. Två giften, minst10+6barn, separata råtitlar, folioföljd och egna kolumner. Senare fadersrad1869/27dec rättar äldre1867/22dec; sexsyskon/sixdopvittnen tillkommer ur bevarat C0681. Änkedagen1895 olöst; såg. arb. saknar f.d. och är bara dödbokens titel. C0553postgräns inte avgjord."
+      },
+      "candidate_membership_pointer": {
+        "index": 38,
+        "path": "evaluations/T-0780/implementation/C0685-C0563-split-proposal-v2/20-C0561-C0685-Johan-biography-combined-operation-v1.json",
+        "sha256": "7153d01572e038723eda0d6c6e7919306509fd4786b5630f753ebf3fb399f021",
+        "operation_id": "T-0780/C0563-C0561-C0685-Johan-biography-combined-v1",
+        "targets": [
+          {
+            "id": "BIO-P-0422",
+            "expectedVersion": 2,
+            "payload_sha256": "fcc77ae4b15c84732faac00f1563fefa5cfee2d3bbd189bb87fd62f8485b2bb1"
+          }
+        ]
+      },
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "BIO422 current/candidate concern father own life and Ekträsk death1903, not Maria1875 day. Whole caveat already qualifies historical title/father date where applicable. F437@1 supports unchanged death-home limitation, candidate other C563/C685 corrections separately bound. Retain scoped edge and candidate.",
+      "constraint_candidate_before_F437": true
+    },
+    {
+      "referring_revision": "BIO-P-0480@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "BIO480 refers to Maria1875 only at year level, which is unchanged; F437 supports father death-home1903 limits. C0548 supports own marriage date separately. Retain full current and exact old basis; no correction from day/attest change.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "P-0480/Q-03@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "Q48003 explicitly separates father1903 home from ErikAugust continuation, keeps property and Sara questions open. No1875 day asserted; retain old scoped support and current.",
+      "constraint_candidate_before_F437": false
+    },
+    {
+      "referring_revision": "RESEARCH-P-0480-9d76f0343410@2",
+      "candidate_payload": null,
+      "candidate_membership_pointer": null,
+      "disposition": "retain_scoped_historical_basis_no_rebind",
+      "rationale": "RESEARCH480 full body/caveat concerns marriage1879/census1900/household/naming limitations. No15October1875 repeated. F437 support note specifically father1903 home, unaffected. Retain full current and old basis.",
+      "constraint_candidate_before_F437": false
+    }
+  ],
+  "acceptance": "Compare latest API singleton exactly to candidate_payload; metadata is pointer only. Retains are explicitnull. On unequal actual API return primary; no inferred rebind."
+}

@@ -1,0 +1,15 @@
+# G001 slutförd — T-0677 och T-0778
+
+G001:s samtliga 40 avgränsade källutfall är accepterade. Separat Astra har godkänt hela gruppens sakliga slutavstämning mot faktisk journal281, pending0, och de aktuella beläggen. Godkännandet omfattar48 tilldelade poster,228 stödassociationer,33 äldre primärmedier,32 innehållsägare,11 korsmedievägar och59 prioriterade påståenden, med nya nativeunderlag redovisade separat. Tidigare accepterade kvitton och tillräckliga källäsningar är bevarade.
+
+De två sista källorna, C-1060 och C-1047, har lästs och införts genom12 kontrollerade operationer. Det gav80 unika berörda objekt,87 versionshändelser och216 individuella beroendeavgöranden. C-1060 omfattar28 fält och fyra fadderlinjer; C-1047 omfattar sju egna rader och126 kolumnenheter. Den verifierade antavlans grindar,20 personvägar och19 föräldralänkar är oförändrade. Informationslistorna med forskningsbedömningar avspeglar de godkända uppdateringarna.
+
+Tre kanoniska validatorer, full jämförelse med granskad testmodell, mediemanifestkontroll och67 arkivregressionstester passerar. Även den äldre arkivvalidatorn passerar efter WotanDONE:5 130 assertions,3 035 Markdownposter,5 065 mediefiler och giltig WotanJSON. Den tidigare flaggan under pågående överordnad/batchuppgift är bevarad som försökshistorik; ingen arkivinventering har skrivits om. Detaljer och bevarade rättelser finns i [arbetsrapporten](report-final-before-closure-v1.md). Slutkontrollens två dokumentära fynd — preliminär C-1060-kreditering och två äldre versionshänvisningar — är rättade i separata v6/v7-tillägg; inga nya käll- eller databasändringar behövdes.
+
+Kvarstående sakfrågor har ändliga uppgiftsägare. T-0227, T-0237 och T-0410 har fått exakt kreditering utan att deras övriga krav har stängts. T-0779:s Flenfråga för maj1909 är följdarbete och har inte utförts. Gruppens avslut betyder inte att personernas livsbilder eller hela forskningsprogrammet är färdiga. G002 har inte startats.
+
+[Den faktiska arbetsmätningen](measurement-final-before-closure-v1.json) omfattar väntan och samtidiga arbetsinsatser. [Slutlig workerusage](usage-final-v3.json), insamlad efter alla fyra workers slutrespons, visar2 913 040 inputtoken utan cache,111 225 472 cachelagrade inputtoken och275 427 outputtoken. Reasoning ingår i output. Rootusage och färsk budget är okända, inte noll; inga kostnadsbesparingar eller halveringar påstås. Misslyckade försök, den första reviewerns metodavvikelse, ersättningsgranskningen och sluträttelser ingår i produktionen.
+
+[Oberoende gruppgodkännande](fresh-independent-review/G001-final-independent-PASS-v1.json) och [roots slutacceptans](root-G001-final-acceptance-v1.json) binder det exakta underlaget. Tidigare rapporter är bevarade snapshots. Wotan är auktoritativ för avslutad uppgiftsstatus. Ingen dashboard, fryst forskningsarkiv, PDF, commit eller push har gjorts.
+
+[Slutmanifestet](completion-manifest-v2.json) binder rapporten, faktiska acceptanskvitton, granskningar, mätningar och Wotans slutstatus.

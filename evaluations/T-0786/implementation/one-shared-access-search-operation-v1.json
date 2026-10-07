@@ -1,0 +1,62 @@
+{
+  "id": "T-0786/shared-Sodertalje-uppslag15-access-note-v1",
+  "actor": "Sol; exact settled primary source decision under root stage authorization",
+  "reason": "T-0786: preserve one explicitly settled dated shared access observation; all existing knowledge and reviews retained.",
+  "dependencyReviewVersion": 2,
+  "changes": [
+    {
+      "id": "SEARCH-T0786-Sodertalje-uppslag15-access",
+      "expectedVersion": null,
+      "kind": "search",
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0786: ett gemensamt versionsbundet åtkomstprov, utan ny originalutvinning eller terminal slutsats om källans tillgänglighet. Rootens bevarade råprovsobservationer är här självständigt bedömda av primärAstra.",
+      "caveat": "Ingen egen full katalog- eller originalpostläsning i detta prov. Root observerade externa HTTP-/browserresultat; primärAstra läste de bevarade resultaten. Noten gäller provets daterade tillstånd och blir inte löfte om framtida åtkomst, personnoll eller godkänd PK05. Befintliga fulla person-/forskningsläsningar återbrukas exakt mot accepterat T-0784 journal443.",
+      "data": {
+        "question_id": null,
+        "source_id": "S-0689",
+        "scope_json": {
+          "description": "Gemensam direkt uppslag15-hänvisning för P-0003/P-0007 från C0882 nr132 1943-11-24; exakt volym-/åtkomstprov, ingen originalutvinning.",
+          "query": "\"SE/SSA/1572/A II a/90\"; känd arkivkod \"SE/SSA/1572\"; exakt AIIa-serieväg zA0MyLTP29EgwUdsmSjKh3.",
+          "persons": [
+            "P-0003",
+            "P-0007"
+          ],
+          "date": "2026-10-06",
+          "bounds": {
+            "catalog_target": "AIIa90 som ännu obekräftad kandidat, AIIa-serien som navigation",
+            "opened_target_records": 0,
+            "maximum_catalog_units": 2,
+            "maximum_allowed_provider_checks": 2,
+            "scope_excludes": [
+              "nya1951källor",
+              "Majs egna1945–46",
+              "Flen744",
+              "fristående sidoforskning"
+            ]
+          }
+        },
+        "outcome": "access_problem",
+        "body": "T-0786, avgränsat åtkomstprov 2026-10-06 för P-0003 Arne Godvig Jansson och P-0007 Maj Amalia Ekholm/Jansson. Målet är den egna familjepost på uppslag15 som Arnes redan lästa inflyttningspost C-0882, Södertälje B I/11 s279 nr132, 1943-11-24, hänvisar till. Maj namnges inte i post132; hennes koppling till den gemensamma passagen vilar på övrig accepterad familjekedja, inte på hushållssumman2+2 eller blyerts38/40.\n\nProvets bevarade tillstånd: MCP-frågan med känd arkivkod SE/SSA/1572 gav15 metadataresultat; den exakta frågan \"SE/SSA/1572/A II a/90\" gav0. Detta är ett frågeresultat, inte volym- eller personnoll. Seriervägen https://data.riksarkivet.se/archive/zA0MyLTP29EgwUdsmSjKh3.jsonld gav enligt den sparade körningen först TLS-anslutningsfel och därefter HTTP403. Full katalog returnerades inte. Webbverktygets exaktkodfråga stoppades av robots-begränsning. Rootens Chrome-prov av https://sok.riksarkivet.se/arkiv/zA0MyLTP29EgwUdsmSjKh3 nådde sidan för människeverifiering; ingen full katalog eller personbild lästes genom det provet. Provsnapshot och exakta svar finns i evaluations/T-0786/root-current-input-and-raw-access-release-v1.json samt dess MCP-underlag.\n\nS-0689:s äldre uppgift om A II a/90 Hå–Jans och /91 Jant–Joh är endast daterad routing. Rätt volym, faktisk uppslag15-koppling, full kataloganmärkning/reproduktionshänvisning och tillåten åtkomst är ännu inte verifierade. Saknad bildlänk, frågenoll eller HTTP/CAPTCHA-hinder visar inte att volymen saknas eller aldrig digitaliserats. Ingen uttömning av alternativa arkiv-/leverantörsvägar hävdas.\n\nUtfall: åtkomstproblem vid det dokumenterade provet; den utlovade egna målposten är oläst. Nästa sakliga steg är fungerande tillåten åtkomst förbi människeverifieringen eller motsvarande exakt katalogleverans, därefter full katalog- och volymkorrelation och, om möjlig inom T-0786:s gräns, hela relevanta egna posten. Ingen beställning, kontakt eller ArkivDigital-åtkomst har beslutats genom denna not.\n\nKonsekvens: T-0784:s aktuella identitetsgranskningar och trädverkan behålls: Arne failed på PK05 och waiting; Maj failed på PK05/11 och waiting. Inga nya person-, föräldra- eller OWNER-beslut, inga livsbildsuppgraderingar. Majs egna1945–46-passager och den redan använda Flen744-passagen ligger kvar hos T-0789 respektive T-0788. Wotan ensam anger aktuellt utförande, stopp och återstart; denna söknot bevarar den daterade kunskaps-/åtkomstgränsen."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "version": 1,
+          "role": "context",
+          "note": "Daterad äldre katalogrouting; inte bevis om nu uttömd åtkomst eller läst personpost.",
+          "object": "S-0689"
+        },
+        {
+          "version": 2,
+          "role": "supports",
+          "note": "Redan läst egen inflyttningspost132 med direkt uppslag15-hänvisning; inga namn för hustru/barn i den posten.",
+          "object": "R-18122baf2db2f6c17eda5082"
+        }
+      ],
+      "bindings": {
+        "S-0689": 1
+      }
+    }
+  ]
+}

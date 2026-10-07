@@ -1,0 +1,26 @@
+{
+  "run": "ownerordered T0791+T0792 only",
+  "worker_logs": [
+    {
+      "agent": "/root/t0791_0792_prepare",
+      "thread_id": "01a11249-9f62-7893-95a9-edb6a185fb57",
+      "source_log": "/Users/sverker/.codex/sessions/2026/10/06/rollout-2026-10-06T19-36-17-01a11249-9f62-7893-95a9-edb6a185fb57.jsonl",
+      "phase_floor": "2026-10-06T17:36:17.561Z"
+    },
+    {
+      "agent": "/root/t0791_primary",
+      "thread_id": "01a11250-45b3-7f71-833c-8f3745134514",
+      "source_log": "/Users/sverker/.codex/sessions/2026/10/06/rollout-2026-10-06T19-43-33-01a11250-45b3-7f71-833c-8f3745134514.jsonl",
+      "phase_floor": "2026-10-06T17:43:33.073Z"
+    },
+    {
+      "agent": "/root/t0791_independent",
+      "thread_id": "01a11251-17f7-73c3-a970-b1476193f6e7",
+      "source_log": "/Users/sverker/.codex/sessions/2026/10/06/rollout-2026-10-06T19-44-26-01a11251-17f7-73c3-a970-b1476193f6e7.jsonl",
+      "phase_floor": "2026-10-06T17:44:26.904Z"
+    }
+  ],
+  "T0792_execution_floor": "2026-10-06T18:21:09.552817+00:00",
+  "joint_preparation_note": "Preparationworker started before root T0791 Wotanstart; all actual preparation counted. T0792 prep happened during T0791 elapsed, not billed twice. Separate laterphase by timestamps cautiously.",
+  "root_usage": "UNKNOWN_NOT_ZERO"
+}

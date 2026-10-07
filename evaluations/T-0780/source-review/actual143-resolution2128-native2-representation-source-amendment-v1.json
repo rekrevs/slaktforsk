@@ -1,0 +1,66 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T12:52:48.202773+00:00",
+  "scope": "Bounded actual resolution operation representation only; no new original/source or native knowledge decision.",
+  "approved_input_operation_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-all2128-one-resolution-draft-v1/001-individual-source-approved-resolution-operation-v1.json",
+    "sha256": "31479f6a523088a64df8c7ee218ef91416ae726e2724aae3b0e20e1009389aee"
+  },
+  "actual_readonly_difference_proof_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/individual2128-resolution-apply-v1/failed-post-apply-journal-input-equality-readonly-difference-proof-v1.json",
+    "sha256": "16febd40e0d43dbd852410fe8166ba9b08f61d9c1b0d889e28a8dff93edc7141"
+  },
+  "actual_stage_DB_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/stage.sqlite",
+    "sha256": "f834633262e88405afd7fb0bc454202e1476c824d88c40618df4d949d772b7bd"
+  },
+  "source_complete_gate_pin": {
+    "path": "evaluations/T-0780/source-review/actual143-all2128-complete-primary-source-resolution-gate-v2.json",
+    "sha256": "54005a67bff3f7c3c92137fe8d7fdf2132b1094d4d1c94dbf9f031665ed3d5f2"
+  },
+  "source_code_pins": [
+    {
+      "path": "genealogy2/lib/recovery.mjs",
+      "sha256": "1215607ef6ebd21e9d70831e05f2ab883b80727489139dc01bb09613087054e5"
+    },
+    {
+      "path": "genealogy2/lib/domain.mjs",
+      "sha256": "b4f104f30bda6277c797fc57a538a9c32cf4db5eb0d24423c6d0cb9c64fec25e"
+    }
+  ],
+  "actual_journal_state": {
+    "journal_head": 425,
+    "pending": 0,
+    "policy": "native/2",
+    "stored_request_hash": "84e0ae35ba847f356b3dbe15977abaa6417805b549d4e174f1a232899da46632"
+  },
+  "only_allowed_representation_amendment": {
+    "field": "/dependencyReviewVersion",
+    "approved_input_present": false,
+    "stored_present": true,
+    "stored_value": 2,
+    "stored_value_type": "number",
+    "meaning": "Existing nonlegacy writeOperation normalizes a new native request before applyOperation/hash/journal storage. Accept only whole stored request deep equality to the untouched approved input plus this one field; no arbitrary normalization or omitted-field acceptance."
+  },
+  "primary_own_readonly_checks": {
+    "full_actual_operation_payload_from_difference_proof_equals_approved_plus_single_field": true,
+    "direct_readonly_SQL_operation_payload_equals_approved_plus_single_field": true,
+    "direct_readonly_SQL_resolution2128_entire_request_rationale_array_equals_input_in_rowid_order": true,
+    "resolution_count": 2128,
+    "input_changes": [],
+    "input_has_other_mutation_arrays": false,
+    "actual_DB_hash_unchanged_by_this_assessment": true
+  },
+  "source_and_evidence_consequence_judgment": "Accept the sole dependencyReviewVersion:2 stored representation difference for this exact resolution-only operation. recovery.mjs75–84 explicitly adds it for a new nonlegacy request. domain.mjs70–71 selects the dependency traversal policy, but changes is empty so changed is empty and its traversal at172–188 does not execute. The independent resolve loop189–193 consumes the exact approved2128 request/rationale entries. Therefore no source observation, identity, stronger-support limit, existing support version, original count, protected review outcome or individual resolution meaning changes. Actual stored2128 literals and order were directly verified again; prior sufficient all2128 source judgments remain binding without new readings.",
+  "historical_evidence_preservation": "Untouched input31479 and prior pins/gates remain provenance. Stored request hash84e0 differs because it hashes the explicit normalized request. Preserve initial failed raw-equality postcondition and this additive amendment; do not rewrite the original operation or claim raw input/journal equality.",
+  "mechanical_acceptance_instruction": "For this exact operation only, preserve input file SHA31479, require changes[] and exact approved2128 resolve array, require stored native/2 request equals input plus numeric dependencyReviewVersion2 with no other differences, then continue post-apply read-only verification of the already committed425/0 stage. No second apply.",
+  "source_representation_finding_closed": true,
+  "new_native_changes": [],
+  "new_rebinds": [],
+  "reapply_authorized": false,
+  "canonical_apply_authorized": false,
+  "runtime_authorized": false,
+  "independent_assessment": "Separate independent judgment required; not borrowed here.",
+  "remaining": "Root-controlled validators/finalstage checks and eventual actual acceptance remain separate.",
+  "production_note": "An initial unbounded printing of the large proof exceeded tool output; no truncated rationale reading credited. Read complete bounded metadata/code and verified full stored request/2128 arrays structurally and via direct read-only SQL, reusing prior source meanings."
+}

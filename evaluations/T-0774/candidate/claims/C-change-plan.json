@@ -1,0 +1,2324 @@
+{
+  "case": "C",
+  "status": "DRAFT; independentreview/coverage/support-versioncompilation pending",
+  "apply_authorized": false,
+  "operation": {
+    "id": "T-0774/C-claim-consolidation-draft-v1",
+    "actor": "gpt-6.1-sol isolated T-0774",
+    "reason": "SourceC only; fixedj227baseline-bound draft. No currentDB/reference/apply.",
+    "dependencyReviewVersion": 2,
+    "changes": [
+      {
+        "id": "TR-T0774-C-full-source",
+        "expectedVersion": null,
+        "kind": "transcription",
+        "data": {
+          "record_id": "R-6f16c980ae3f813987601133",
+          "text": "{\n  \"case\": \"C\",\n  \"image_sha256\": \"5d98c916010499ef82f275dc5ca2afd9d3025e64127fb50f6269a0fc9c2d0ddc\",\n  \"scope\": {\n    \"target\": \"Värsås 1886, post mellan nr 13 och 15, locator nr 14\",\n    \"bounds_original_px_approx\": [\n      370,\n      1350,\n      4390,\n      1560\n    ],\n    \"included\": \"Barnfält och båda föräldrarader, samtliga administrativa/anteckningskolumner. Nr 11–13 endast år/månadsankare och nr 15 nedre gräns.\",\n    \"header\": \"Utdrag ur 1886 års Födelsebok för Värsås annex församling i Fägre[?] Prosteri, Skara Stift, Skaraborgs Län. 3 blad.\",\n    \"header_qualifier\": \"Prosteriets namn preliminärt; sidans Värsås annex, år, stift och län läsbara.\"\n  },\n  \"headers\": {\n    \"1\": \"Inskrifningens löpande nummer.\",\n    \"2–5\": \"De framfödda barnens födelse-: år och månad; dag; Kön m./q.\",\n    \"6\": \"De lefvande födda barnens dop- eller förnamn.\",\n    \"7–10\": \"civilstånd: Äkta m./q.; Oäkta m./q.\",\n    \"11–14\": \"Dödfödda: Äkta m./q.; Oäkta m./q.\",\n    \"15\": \"Föräldrarnes namn, embete, yrke, stånd, hemvist, nationalitet och religionsbekännelse (om främmande) samt stället för modrens nedkomst (om ej i hemorten).\",\n    \"16\": \"Barnet adeligt.\",\n    \"17–21\": \"Modren: gift; enka eller frånskild; trolofvad; ej gift; sist fylldt ålders-år.\",\n    \"22\": \"Förlossningsbiträdet examineradt.\",\n    \"23\": \"För anteckning af hvad särskildt är föreskrifvet, såsom dopförrättarens namn, afsända eller emottagna attester m. m.\"\n  },\n  \"rows\": [\n    {\n      \"id\": \"14 (locator; nummer täckt)\",\n      \"fields\": {\n        \"number\": {\n          \"raw\": \"[täckt]\",\n          \"state\": \"oläst\",\n          \"qualifier\": \"Finger/skugga täcker löpnumret; nr 14 ges av kortet och placering mellan synliga 13 och 15.\",\n          \"anchor\": null\n        },\n        \"birth_year\": {\n          \"raw\": \"〃\",\n          \"state\": \"läst\",\n          \"qualifier\": \"Överfört år från 1886 på nr 11 och sidhuvud.\",\n          \"anchor\": \"nr 11: 1886\"\n        },\n        \"birth_month\": {\n          \"raw\": \"〃\",\n          \"state\": \"läst\",\n          \"qualifier\": \"Ditto i egen cell, inte utskrivet April.\",\n          \"anchor\": \"nr 11: April; nr 12–13: ditto\"\n        },\n        \"birth_day\": {\n          \"raw\": \"19\",\n          \"state\": \"läst\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"sex_m\": {\n          \"raw\": \"1\",\n          \"state\": \"läst\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"sex_f\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"child_name\": {\n          \"raw\": \"Bernhard Natanael\",\n          \"state\": \"läst\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"child_inline_annotation\": {\n          \"raw\": \"1:a b.\",\n          \"state\": \"osäkert\",\n          \"qualifier\": \"Liten anteckning vid namncellens högra kant; preliminärt 1:a b., bevarad utan säker expansion.\",\n          \"anchor\": null\n        },\n        \"live_legitimate_m\": {\n          \"raw\": \"1\",\n          \"state\": \"läst\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"live_legitimate_f\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"live_illegitimate_m\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"live_illegitimate_f\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"stillborn_legitimate_m\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"stillborn_legitimate_f\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"stillborn_illegitimate_m\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"stillborn_illegitimate_f\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"father_surname\": {\n          \"raw\": \"Eliasson\",\n          \"state\": \"läst\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"father_given_names\": {\n          \"raw\": \"Per Wilhelm\",\n          \"state\": \"läst\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"father_occupation\": {\n          \"raw\": \"h.eg.[?]\",\n          \"state\": \"osäkert\",\n          \"qualifier\": \"Kortform före i; inte säkert upplöst till titel.\",\n          \"anchor\": null\n        },\n        \"father_residence\": {\n          \"raw\": \"i Djursätra Westerg.[?]\",\n          \"state\": \"osäkert\",\n          \"qualifier\": \"Djursätra läst; sista ort-/gårdsledet preliminärt Westerg. med slutförkortning olöst.\",\n          \"anchor\": null\n        },\n        \"mother_surname\": {\n          \"raw\": \"[Johannesson/Johansson?]\",\n          \"state\": \"osäkert\",\n          \"qualifier\": \"Kompakt mittenkedja räcker inte för säker namnnormalisering; första säkraJohannesson nedgraderas. ÄldreJohansson är återbrukad kunskap separat.\",\n          \"anchor\": null\n        },\n        \"mother_given_names\": {\n          \"raw\": \"Augusta Viktoria\",\n          \"state\": \"läst\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"nationality\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"religion\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"delivery_elsewhere\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"child_noble\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"mother_married\": {\n          \"raw\": \"1\",\n          \"state\": \"läst\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"mother_widow_divorced\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"mother_betrothed\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"mother_unmarried\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"mother_completed_age\": {\n          \"raw\": \"22\",\n          \"state\": \"läst\",\n          \"qualifier\": \"Moderns eget22 på undre delrad; genomstreckat tal på övre delrad hålls separat.\",\n          \"anchor\": null\n        },\n        \"qualified_birth_attendant\": {\n          \"raw\": \"Ex.\",\n          \"state\": \"läst\",\n          \"qualifier\": \"Kortform i kolumn 22 Förlossningsbiträdet examineradt.; ingen namngiven barnmorska.\",\n          \"anchor\": null\n        },\n        \"remarks_text\": {\n          \"raw\": null,\n          \"state\": \"tomt\",\n          \"qualifier\": null,\n          \"anchor\": null\n        },\n        \"remarks_edge_marks\": {\n          \"raw\": \"två korta lodräta/krokiga vänsterkantstreck\",\n          \"state\": \"läst\",\n          \"qualifier\": \"Ett vid vardera anteckningsrad; utan fastställd betydelse.\",\n          \"anchor\": null\n        },\n        \"mother_annotation\": {\n          \"raw\": \"(1 år)\",\n          \"state\": \"läst\",\n          \"qualifier\": \"Text läst, innebörd olöst. Fältnamnet i första matris var för starkt; ingen säker äktenskapsvaraktighet eller vigselhändelse.\",\n          \"anchor\": null\n        },\n        \"crossed_upper_age_trace\": {\n          \"raw\": \"[36/30?] genomstreckat\",\n          \"state\": \"osäkert\",\n          \"qualifier\": \"Övre faderdelrad i tryckta modernsålderskolumnen. Ny svagare omläsning upplöser inte sista6/0 och upphäver inte äldre uttryckliga36/rejected30.\",\n          \"anchor\": \"nr14 kol21\"\n        }\n      }\n    }\n  ],\n  \"boundarynotes\": [\n    \"Fader Eliasson och moder Johannesson hör till Bernhard Natanael. Karlsson Per August/Torpare i Lia... hör till följande nr 15.\",\n    \"Attesttext i Hjo den 19 April 1886 ligger i föregående nr 13 och överförs inte till nr 14.\",\n    \"Nummerfältet är fysiskt skymt och rapporteras oläst, inte som säkert avläst 14.\",\n    \"Postens anteckningsfält saknar verbal text men har kantstreck.\"\n  ],\n  \"uncertainties\": [\n    \"Nummerfält täckt;14 endastlocator/sekvens.\",\n    \"ModernsJohannesson/Johansson mittsekvens olöst.\",\n    \"h.eg. ochWesterg. slut fortfarande preliminära.\",\n    \"Genomstruket övretal36/30? ny osäkerhet; äldre36-rättelse separat.\",\n    \"1:a b. litenförkortning osäker och utan säker expansion.\",\n    \"(1 år) textläst, innebörd olöst.\",\n    \"Kantstreckensinnebörd olöst.\"\n  ],\n  \"reconciliation\": {\n    \"first_freeze_immutable\": true,\n    \"peer_findings\": \"review/reconciled/C-findings.json, alla8 fynd konkreta lästa\",\n    \"own_original\": \"OriginalC.jpg återöppnat; egna första crops tillräckliga, inga repetitiva nycroppningar.\",\n    \"older_objects\": [\n      \"O-P-0010-C0023-parent-ages@1\",\n      \"O-P-0010-C0023-mother-note@1\",\n      \"TR-99c2bd8aeee97f3168c8d680@1\"\n    ],\n    \"limit\": \"Äldre36/Johansson/dop1maj är äldreunderlag, inte nyaSCBbildutvinningar. Ingen person/slutsatsoperation.\"\n  }\n}",
+          "reading_note": "Independent wholepost firstfreeze precedes peerreading. Actualnumbercovered14locatoronly; day19 plus1886/April dittos, Könm1/Äktam1, parents, alltestedblank/statusfields, struckupperage and twoedge marks preserved. Firstfreezeimmutable. Own(1år) textread/meaningopen and1:a b.?unexpanded. OldJohansson/36-rejected30 and1Maybaptism correction remain explicitlyolderknowledge, not normalized into newraw. Noownbaptismdatecolumn. Two readers of sameimage are qualitycontrol, not independenthistoricalwitnesses."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 protocol1–4 fullsourcegeometry/fields/rawstatus and planned adoption; no canonicalapply.",
+        "caveat": "NewweakJohannesson/Johansson?; h.eg./Westerg.?; struck36/30?; annotationmeaning/inlineabbreviation/edge-markmeaning unresolved. Stronger old36/rejected30 and exactbirths/marriage are not automaticallydemoted.",
+        "evidence": [
+          {
+            "object": "R-6f16c980ae3f813987601133",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Same preservedSCBimage SHA256 5d98c916010499ef82f275dc5ca2afd9d3025e64127fb50f6269a0fc9c2d0ddc"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "ADOPT-T0774-C-P-0010",
+        "expectedVersion": null,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "bounded_source_adoption/1",
+          "outcome": "PRÖVAD MED RESERVATIONER",
+          "body": "OwnSCBpost confirms1886-04-19 from day19 and April/1886dittos; coverednumber14 remainslocatoronly. BernhardNatanael and namedPerWilhelm/AugustaViktoria match acceptedidentity; explicitmcount1 andÄktam1 supportmale, not name/role inference. ParentresidenceDjursätraWesterg.? isnotproveddeliverybuilding. Tiny1:a b.? unexpanded; knowneldest rank isbounded tosevennamedchildren inolderfamilyrosters, nottotalfertility. Newh.eg.?/motherJohannesson-Johansson?/upper36-30? remainrawreservations; oldercorrectedhemmansägare/Johansson/36-rejected30 preserved with strongerownparentgrounds. Older1May1886baptism correction retained withoutnewSCBdateclaim; exactdirectunderlyingprovenance remainsopen. Allwholepoststatuscells/striking/twoedge marks nowextracted. Fourreciprocalidentitybridges andOWNER_CONFIRMED Arnefather remain sufficient; BÄRANDE retained, life-picture notpromoted."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Wholeboundedsourceadoption plus individuallydecided olderknowledge; not freshfullcontractreview.",
+        "caveat": "Olderbirth/marriage/name/numericagefacts preserved; sourceattribution/annotationquestions remainexplicit. Independentclaimreview andcoverageclosure pending.",
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "supports",
+            "note": "WholeownSCBrow/header/rawqualifiers."
+          },
+          {
+            "object": "E-birth-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed current support: Current event retains exact older1886-05-01 and adds no-own-SCB-column/directunderlying-provenance reservation. Every dependent copy explicitly uses older report or provenance question, not new firsthand date."
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "O-P-0010-C0023-parent-ages",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "O-P-0010-C0023-mother-note",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "O-P-0010-C0023-parents",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "REL-parent-P-0020-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "REL-parent-P-0021-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "REL-parent-P-0010-P-0003",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "CONTRACT-P-0010-PK-01",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "CONTRACT-P-0010-PK-04",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "ADOPT-T0774-C-P-0020",
+        "expectedVersion": null,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0020",
+          "criteria": "bounded_source_adoption/1",
+          "outcome": "PRÖVAD MED RESERVATIONER",
+          "body": "PerWilhelmEliasson isownnamedfather; h.eg.? andDjursätraWesterg.? are currentrawreservations, not freshliteralcanonicalexpansion. Reuse strongerown1885marriage/laterpointwisehemmansägare and accepted1850-03-18combinedidentitygrounds, ownbirthpoststillunread and1858variantpreserved. Older36/rejected30 correction remains, consistentwith1850date; the newstruckupperentry liesunder mothercompletedageheader, so directsourceattribution staysopen withouterasingold36. Parentresidence isnot anexactchilddeliveryhouse or continuousownershipchain. Ownmarriage1885-06-19 remainsstronger than(1år), whosemeaningstillopen afterperformedheaderattempt. CurrentC23detaildebt nowmarkedattempted/reserved inbothpathcopies. Olderchildbaptism1Mayretainedasoldercorrection/provenancequestion, notnewSCBfield. Actualchildhood/1916period/PK05/11debts andAVVAKTARunchanged."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Wholeboundedsourceadoption plus individuallydecided olderknowledge; not freshfullcontractreview.",
+        "caveat": "Olderbirth/marriage/name/numericagefacts preserved; sourceattribution/annotationquestions remainexplicit. Independentclaimreview andcoverageclosure pending.",
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "supports",
+            "note": "WholeownSCBrow/header/rawqualifiers."
+          },
+          {
+            "object": "E-birth-P-0020",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "E-marriage-P-0020-P-0021-1885",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "F-P-0020-occupation-1885-1916",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "O-P-0010-C0023-parent-ages",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "RESEARCH-P-0020-9d76f0343410",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed current support: Current father profile preserves combined childhood/adult1850-03-18 identity and ownbirthoriginalunread, adds explicit1890raw1830/older1900raw58 versus weakernew38/58. Dependent adoption/path relies on same acceptedidentity and actual remainingdebts, now with full conflict enumeration; no independentdatevotes."
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "ADOPT-T0774-C-P-0021",
+        "expectedVersion": null,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0021",
+          "criteria": "bounded_source_adoption/1",
+          "outcome": "PRÖVAD MED RESERVATIONER",
+          "body": "OwnAugustaViktoria/nameglyphJohannesson-Johansson? isboundedsourceuncertainty. Preserve establishedownJohansson/adultidentity and correctedmothernameoldO; patronymicdoesnotresolve her1863biologicalfatherconflict. Ownmothergift1 andcompletedage22 arepositivefields. Strongerown1863-06-24Mofallabirth remains, later1867/27June/Kyrkefalla variantskept; age22isnotnewexactbirthdate. Keep exactownmarriage1885-06-19; own(1år) readbutmeaningopen, not inferredwedding/firstmarriageevent. Legitimatechildm1 isSCBclassification, not anindependentresolutionofherownparents. Namedsevenchildren areknownrostercoverage, nottotalfertility. Ownparentsexnotfilledfromroles. SupportedmotherP0536 andtwo-man Johannes/Rothconflict remain; missingownfields/originals andAVVAKTARunchanged."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Wholeboundedsourceadoption plus individuallydecided olderknowledge; not freshfullcontractreview.",
+        "caveat": "Olderbirth/marriage/name/numericagefacts preserved; sourceattribution/annotationquestions remainexplicit. Independentclaimreview andcoverageclosure pending.",
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "supports",
+            "note": "WholeownSCBrow/header/rawqualifiers."
+          },
+          {
+            "object": "E-birth-P-0021",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "E-marriage-P-0020-P-0021-1885",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "F-P-0021-name_form-lifetime",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "O-P-0010-C0023-mother-note",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "O-P-0021-mother-age-1886",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "RESEARCH-P-0021-9d76f0343410",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          },
+          {
+            "object": "REL-parent-P-0021-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific sufficient older ground reused at fixedj227version; no newarchivaloriginalopened."
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "P-0010",
+        "expectedVersion": 2,
+        "kind": "person",
+        "data": {
+          "display_name": "Bernhard Natanael Eliasson",
+          "sex": "male",
+          "legacy_state": "active"
+        },
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "T-0774 C individual claim consolidation: C-003: Assign male from own explicit Kön m count1, independently corroborated by Äkta m1. This is a printedsex-field attribution, not inference from Bernhard’s name or sonrole. Established identity and treeeffect stay unchanged.",
+        "caveat": "Egen identitet accepteras uttryckligen genom den dokumenterade kedjan; kvarstående livsluckor består.",
+        "origins": [
+          {
+            "unit": "365f1f23f0c7e072ff1290c6f211aa78b55dd7e9211f2433ae9832c1d3f320eb",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "4cb1b3ab1c3b11dade79b2d10c062f45c7cfa15db5186295a3b54516e2ebd18e",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "d42c374d6279fd50ed2d59724bef7662a25051ac3ca173ad6ac299885b7473d7",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-18df18d44d81e11a21a93743",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-301274634b1d64bcd8934ad1",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed @1→@2: Same Bernhard identity/1923 marriage row; current qualification distinguishes registration from physical wedding venue and religious-form inference. C person sex does not infer venue or ceremony."
+          },
+          {
+            "object": "R-6f16c980ae3f813987601133",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-9313e31df3ce7e6ec1ac7471",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-a2f5b5fa3781291a541749f1",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-c66825545c5b93a96a19898a",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed @1→@2: Same Bernhard reciprocal household identity; current raw military23937/06[?] replaces older229 in current reading, retains no service inference and attempted blanks. C person sex requires no military normalization."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "E-birth-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-003: E-birth-P-0010@1 exactdate/parents context"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "E-baptism-P-0010",
+        "expectedVersion": 1,
+        "kind": "event",
+        "data": {
+          "event_type": "baptism",
+          "date_json": {
+            "literal": "1886-05-01",
+            "precision": "exact",
+            "value": "1886-05-01"
+          },
+          "place_id": null,
+          "place_role": "Värsås enligt äldre dopuppgift; datumet är inte nyavläst ur denna SCB-rad"
+        },
+        "disposition": "accepted",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0774 C individual claim consolidation: C-007: The current categorical registration attribution needs the actual source boundary. Retain older1May date, but currentSCBhas noownbaptismdatecolumn and noverbalremarks. Attach the exactold correction and flag unresolved underlyingprovenance rather than claiming anewSCBreading.",
+        "caveat": " Older1886-05-01 correction retained. This SCBimage has noownbaptismdatecolumn or own1Mayremarks; exactunderlyingdirectprovenance remains unresolved, not newly read or numericallydemoted.",
+        "origins": [
+          {
+            "unit": "ff9f9f707a605249bbeedb481fc6b6599e42a06a3e1818b605fcd06ae6bc6e03",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-6f16c980ae3f813987601133",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-007: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "BIO-P-0010",
+        "expectedVersion": 5,
+        "kind": "narrative",
+        "data": {
+          "subject_id": "P-0010",
+          "title": "Biografisk sammanfattning",
+          "markdown": "## Biografisk sammanfattning\n\nBernhard Natanael Eliasson föddes den 19 april 1886 enligt Värsås födelseregistrering. Föräldrahemvisten anges som Djursätra Västergården; han var son till hemmansägaren Per Wilhelm Eliasson, då 36 år, och Augusta\nViktoria Johansson, då 22 år, och uppges enligt den äldre rättelsen ha döpts den 1 maj samma år\n([C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md)). Han växte upp\nsom äldst bland de sju namngivna barnen i de lästa familjeraderna och står i föräldrahushållet i folkräkningarna\n1890, 1900 och 1910, det sista året som jordbruksarbetare\n([C-0024](../citations/C-0024-bernhard-folkrakning-1890.md)–[C-0026](../citations/C-0026-bernhard-folkrakning-1910.md)).\nFörsamlingsboken visar honom kyrkobokförd i hemmet ända till den 22 november\n1916, med kunskapsbetyget `b`, nattvardsgång och värnpliktsnumret 239 ³⁷/₀₆\n([C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md)).\n\nFamiljen berättar att han var bokhållare vid Ökna säteri i Floda 1911–1916 och\natt sonen Arne blev till där sommaren 1914 i ett förhållande med barnjungfrun\nAda Jansson ([C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md),\n[C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md)). Den lästa kyrkobokföringen avviker från tidsuppgiften; Värsås och Flodas\nflyttuppgifter hör till samma administrativa kedja: han saknas på samtliga\nkontrollerade Öknauppslag 1910–1914, där bokhållaren var Gustaf Sigfrid\nPettersson, och hans egen inskrivning vid Ökna börjar först den 22 november 1916\n([C-0913](../citations/C-0913-okna-sateri-1910-1914-utan-bernhard.md),\n[C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md)).\nKonflikten är bevarad och lyft till ägaren; en tänkbar förklaring är vistelse\nsom lantbrukselev utan egen kyrkobokföring i Floda. Faderskapet till Arne, född\ni Flen den 21 februari 1915, är ägarfastställd projektinformation\n([PCD-2026-08-20-001](../../PROJECT-CONTROL.md#pcd-2026-08-20-001)), och familjen\nberättar att Bernhard privat erkände det och senare gav Arne pengar\n([C-0086](../citations/C-0086-arne-faderskap-familjeuppgift-2026-08-20.md)).\nIngen samtida handling namnger honom som far, och han och Ada var samtidigt\nkyrkobokförda vid Ökna endast under året 1916–1917, alltså efter sonens födelse.\n\nFrån Ökna flyttade han den 3 november 1917 till Oskarshamns stadsförsamling,\ndär rad1 anger bostads-nr293 efter ett struket äldre tal174[?]. Det äldre talet är osäkert och daterar ingen adressändring. Kassör är den lästa yrkestiteln; en äldre rättelse från bokhållare återbrukas med reservation och utan känt ändringsdatum. Den parentetiska noten (: Fingjut…[?]) fastställer ingen arbetsgivare. Efter lysning i september vigdes han den 11 november\n1923 med Katy Leonie Nilsson, vars yrke läses kontorsbiträde med reservation och som bodde på samma adress; det var\nför båda det första äktenskapet, och pastorsadjunkten Josef Wahlgren förrättade\nvigseln. Vigselposten är registrerad i Oskarshamns stadsförsamling; fysisk vigselort är inte fastställd av denna registrering eller förrättarens ortuppgift ([C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md),\n[C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md)). Tio\ndagar senare, den 21 november, registrerades Bernhard utflyttad från Oskarshamn till Limhamn, efter flyttningsbetyg den19november. Katys motsvarande dag är inte läst; hennes eget1930utdrag anger inflyttning från Oskarshamn1923.\n\nI Limhamn föddes döttrarna Lucy Gudrun 1924 och Maj-Grete 1927. Vid\nfolkräkningen den 31 december 1930 bodde familjen på 136 Siljan 10 och Bernhard\nvar kassör vid ett kraftverk; arbetsgivaren namnges inte\n([C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md)). Den tredje\ndottern Ann-Catherine föddes enligt familjeuppgift 1938. Sex porträtt och ett\nfamiljefoto följer honom därefter till Malmö 1944 och 1964\n([C-0264](../citations/C-0264-portrattbilder-bernhard-1913-1964.md)).\n\nBoendekedjan är sammanhängande i original från 1907 till den 21 november 1923.\nDärefter är två avsnitt olästa: Limhamns församlingsbok 1923–1930 och den senare\nMalmöanknutna fortsättningen efter 1930, med bildankare till 1964 men utan fastställd slutpunkt. Sekundärträdets uppgift att han dog den 8 september 1978\ni Malmö S:t Petri kvarstår som obestyrkt ledtråd: gravregistret för Malmö\npastorat omfattar 231 303 gravsatta men saknar både honom och hustrun, och\nsvenska dödsuppgifter efter 1949 finns bara i en köpprodukt utanför projektets\nåtkomst ([C-0960](../citations/C-0960-bernhard-eliasson-malmo-gravnoll-2026-09-06.md)).\n\nÖppna materiella frågor och källvägar finns i\n[forskningsprofilen](../research-profiles/P-0010.md).\n\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-008: Own broad parentheader and nootherdelivery-place entry report parentalresidence, not proved physicaldeliverybuilding. Existing nativebirth explicitly says föräldrahemvist and reservedWesterg.; retain establishedVärsåsdate and laterknownfarm, but this current physicalbirth wording needs the same boundary.; C-010: Retain exactolderbaptism correction without implying currentimagehas adatefield. This currentbiography must distinguish the knownolder1May from firsthandSCBbirthday19April. Underlying directbaptismprovenance remains a visiblequestion.; C-029: Preserve already known rank within namedfamily, but phrase the enumeration at its actualcoveragelevel. The newtiny1:a b.? is not securelyexpanded to provedfirstbirth and older native motheredge explicitly rejectsseven as totalfertility. No additionalchildidentity created.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "9538355a2256744d812fbb2fbf7570a84ffedc49ad05e9d95c4cccf7e53f6edc",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-08",
+            "version": 1,
+            "role": "context",
+            "note": "Avgränsad sakgranskning av den egna äktenskapsposten utan ny oberoende röst."
+          },
+          {
+            "object": "AUDIT-T0676-22",
+            "version": 1,
+            "role": "context",
+            "note": "Värsås auditerad fullfältstäckning och återbrukade familjerader."
+          },
+          {
+            "object": "AUDIT-T0676-38",
+            "version": 1,
+            "role": "supports",
+            "note": "Scope38 full källpostgranskning med reservationer; ingen extra oberoende röst."
+          },
+          {
+            "object": "AUDIT-T0677-C0010",
+            "version": 1,
+            "role": "supports",
+            "note": ""
+          },
+          {
+            "object": "O-P-0010-C0915-supplementary-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "O-P-0010-C0917-full-row",
+            "version": 1,
+            "role": "supports",
+            "note": "Befintlig egen Bernhardrad i samma avgränsade källa; ingen ny bildröst."
+          },
+          {
+            "object": "R-301274634b1d64bcd8934ad1",
+            "version": 2,
+            "role": "derived_from",
+            "note": "Egen källpost med registrerings-/ortsreservation och bevarad originalbild."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN-08",
+            "version": 1,
+            "role": "supports",
+            "note": "Fullt fältprotokoll med 13 rubriker, äldre återbruk och nya råstreck/marginaltecken."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN1208-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "E-birth-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-008: E-birth-P-0010@1 place_role0:63"
+          },
+          {
+            "object": "R-6f16c980ae3f813987601133",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-008: R-6f16c980ae3f813987601133@1 dependence_note0:131"
+          },
+          {
+            "object": "O-P-0010-C0023-parents",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-008: O-P-0010-C0023-parents@1 value_json retainedparentnames"
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-010: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed current support: Current event retains exact older1886-05-01 and adds no-own-SCB-column/directunderlying-provenance reservation. Every dependent copy explicitly uses older report or provenance question, not new firsthand date."
+          },
+          {
+            "object": "REL-parent-P-0021-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-029: REL-parent-P-0021-P-0010@1 revision.caveat"
+          },
+          {
+            "object": "CONTRACT-P-0010-PK-04",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-029: CONTRACT-P-0010-PK-04@1 body0:579"
+          },
+          {
+            "object": "BIO-P-0020",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed current support: Current father BIO preserves own1850 date, namedseven children and pointwise title; qualifies struckupperage and olderbaptism attribution. Dependent child/adoption keeps older36/knownroster without new literalfatherage or baptism extraction."
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "RESEARCH-P-0010-9d76f0343410",
+        "expectedVersion": 1,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_profile_section/Identitetsbedömning",
+          "outcome": "recorded",
+          "body": "## Identitetsbedömning\n\nBernhard Natanael föddes 1886-04-19 som son till hemmansägaren Per Wilhelm\nEliasson och Augusta Viktoria Johansson med föräldrahemvist Djursätra Västergården i Värsås och\nuppges i den äldre rättelsen ha döpts 1 maj samma år; datumet står inte i en egen dopkolumn i den nu prövade SCB-raden\n([C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md)). Han står i\nföräldrahushållet 1890, 1900 och 1910, det sista året som jordbruksarbetare\n([C-0024](../citations/C-0024-bernhard-folkrakning-1890.md),\n[C-0025](../citations/C-0025-bernhard-folkrakning-1900.md),\n[C-0026](../citations/C-0026-bernhard-folkrakning-1910.md)), och är\nkyrkobokförd där till 1916-11-22\n([C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md)).\n\n**Identiteten bärs av fyra reciproka arkivpar, inte av namnlikhet.** Värsås\nutflyttning och Flodas inflyttning anger samma dag 1916-11-22; Flodas\nutflyttning och Oskarshamns inflyttning anger samma dag 1917-11-03; Oskarshamns\nförsamlingsbok binds till lysningsboken genom noteringen `Lysn.B. ³⁵/₂₃`; och\nOskarshamns utflyttning till Limhamn 1923-11-21 möter 1930 års utdrag, som anger\ninflyttning från Oskarshamn och vigselåret 23\n([C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md),\n[C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md),\n[C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md),\n[C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md)). Varje led bär\ndessutom samma födelsedag, och två av posterna hänvisar uttryckligen tillbaka\ntill Värsås födelsebok. Ingen konkurrerande person med samma namn och födelsedag\nhar påträffats i det lästa materialet. Den tidigare formuleringen att kedjan\n1910–1930 var oläst är därmed inaktuell och rättad i akten.\n\nFaderskapet till Arne Godvig Jansson är fastställt av ägaren\n([PCD-2026-08-20-001](../../PROJECT-CONTROL.md#pcd-2026-08-20-001)) med familjens\nuppgifter om privat erkännande, ekonomiskt stöd och likhet\n([C-0086](../citations/C-0086-arne-faderskap-familjeuppgift-2026-08-20.md));\ninget ytterligare belägg krävs. Den bevarade konflikten gäller **omständigheten**:\nfamiljekrönikans Öknatjänst 1911–1916 motsägs av två kyrkoböcker, och Bernhard\noch Ada var samtidigt kyrkobokförda vid Ökna endast 1916-11-22–1917-11-03, alltså\nefter sonens födelse ([C-0913](../citations/C-0913-okna-sateri-1910-1914-utan-bernhard.md),\n[C-0909](../citations/C-0909-ada-och-arne-okna-floda-1915-1918.md)). Frågan ligger\nhos ägaren i PCR-2026-09-06-003 och ändrar inte identiteten.\n\n**Identitetsnivåns utlåtande 2026-09-08 (T-0151): `GODKÄND`, Trädverkan\n`BÄRANDE`.** De sju kraven PK-01, 02, 05, 07, 09, 11 och 12 står `STYRKT` med\nbeläggslänk nedan och `Identitetsläge` är `PRÖVAT`. Utlåtandet ersätter\nläsningen från T-0103 och vilar denna gång på en genomförd fullradsutvinning av\nhans egna målposter, inte enbart på tidigare gjorda bedömningar. Personen är\nanposition på djup 4 på Sverkers sida och antavlan får passera positionen.\nLivsbildsnivån är inte godkänd och redovisas separat nedan.\n\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-009: This separatecurrentidentitycopy repeats the physicalbirth/residence ambiguity. Reuse existing nativebirth’s explicit parentalresidence distinction; absence ofanotherdeliveryplace field is not a positive namedhouse-of-delivery observation.; C-011: Thecurrentresearchcopy links C23 directly to bothvitals. Preserve old1May andacceptedidentity but make the currentheader boundaryexplicit, without inventing a newuncertain birthdate or erasing oldknowledge.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "dde7ca3dd7947613d55d666fcf3688e37d1e655ef0a6df983a349d72bf3ccf36",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "E-birth-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-009: E-birth-P-0010@1 place_role0:63"
+          },
+          {
+            "object": "KEY-P-0010-2f7566f9cba1",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-009: KEY-P-0010-2f7566f9cba1@1 body0:248"
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-011: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed current support: Current event retains exact older1886-05-01 and adds no-own-SCB-column/directunderlying-provenance reservation. Every dependent copy explicitly uses older report or provenance question, not new firsthand date."
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "BIO-P-0020",
+        "expectedVersion": 1,
+        "kind": "narrative",
+        "data": {
+          "subject_id": "P-0020",
+          "title": "Biografisk sammanfattning",
+          "markdown": "## Biografisk sammanfattning\n\nPer Wilhelm Eliasson uppges född den 18 mars 1850 i Värsås. I barndomens husförhörslängd står han som sonen Petter Wilhelm hos Gabriel Eliasson och Stina Larsdotter i Djursätra Västergården, tillsammans med Margaretha Sofia och ytterligare ännu ofullständigt avskrivna barnrader. Den familjekombination som också finns i Ulla Göthbergs sammanställning, hans exakta datum och Värsåsanknytningen bär sammanföringen med den vuxne Per Wilhelm. Egen födelsepost är ännu oläst. 1858 i 1900-registret är en avvikande uppgift; C-0917:s äldre 1850-08-18 är ett avskriftsfel, rättat till 1850-03-18 i T-0127; samstämmiga böckers datum räknas inte som oberoende röster (C-0820, C-0262, C-0025, C-0917, C-0418).\n\nDen 19 juni 1885 registrerades hans vigsel med Augusta Viktoria Johansson i Mofallas lysnings- och vigselbok. Hon bodde i Bjerg, han var redan hemmansägare i Djursätra och hade betyg från Värsås. Tre lysningar hölls från 26 april till 10 maj. Djursätras bok har också 19 juni; dess tidigare avskrift 7 juni rättades vid originalomläsning i T-0127. De äldre nollen i Värsås och Kyrkefalla moderförsamling har därmed en positiv lösning i Mofallas särskilda bok (C-0990/C-0420).\n\nSonen Bernhard föddes den 19 april 1886 och uppges i den äldre rättelsen ha döpts den 1 maj; någon egen dopdatumskolumn finns inte i den nu prövade SCB-raden. Den äldre lokala omläsningen i C-0023 återger Pers ålder som 36 och Augustas som 22. Den nya svagare bildläsningen av det strukna övre talet 36/30[?] upphäver inte den äldre uttryckliga 36-rättelsen. Talet står på faderdelraden under rubriken för moderns sist fyllda ålder; dess direkta tillskrivning är därför inte en ny säker fadersåldersavläsning. Moderns eget 22 är läst. Folkräkningarna 1890, 1900 och 1910 visar en växande familj på Djursätra Västergården med sammanlagt sju namngivna barn. Dessa källor visar hemmansägartiteln och hushållet vid sina tidpunkter; de är ingen fullständig barnräkning eller obruten fyrtioårig ägarkedja. I den senare församlingsboken står Johan Martin Gabriel som brukare. Föräldrarna och tre barn utflyttningsfördes till Kyrkefalla den 24 november 1916; Bernhard hade en annan destination två dagar tidigare, Agnes hade en tidigare intern hänvisning och alla barn följde inte med samtidigt (C-0023–C-0026, C-0917).\n\nDet första Kyrkefallahushållet är ännu inte identifierat. Familjen återfinns däremot på folio 623 i boken 1922–1929. Per, Augusta och Alva registrerades som utflyttade till Skövde den 20 juni 1924, medan Sven hade en egen passage via Önum. Skövdeböckernas sidor 329 och 768 binder samma familj vidare. Vid döden den 5 september 1929 kallades Per lägenhetsägare i Skövde; dödboken uppgav också att han ägde 1/8 mantal Djursätra Västergården. Han begravdes den 15 september och finns i Värsås kyrkogårds gravregister tillsammans med Augusta, som dog 1949 (C-0870/C-0873/C-0868, C-0418/C-0962).\n\nÄgaruppgifterna har ännu inte följts till fastighets- eller dödsbohandlingar, och tiden mellan barndomsboken och vigseln behöver en säkrare följd. Hans liv har samtidigt ett bevarat personligt spår: släktsammanställningen återger ett foto identifierat som honom, men fotograf, bilddatum och ursprungsfoto saknas (C-0262/S-0207).\n\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-012: Father’s currentbiography is anothercopy of thesameolderbaptismdatum. Itssourceattribution needs identicalqualification, retaining the oldcorrection rather than treating repeatedprose asindependentbaptismproof.; C-015: Preserve the old explicitly corrected36 and separate mother22, rather than promoting weaknew30. Currentprose needs the actually discoveredheader/striking boundary; source-specific ageattribution is not automatically a new parentbirth event. Older accepted1850date independently makes36consistent, but doesnot change the printedcolumnheader.",
+        "caveat": "Personidentiteten och föräldrarelationerna består trots underkänd identitetsgranskning på utvinnings-/provenanskrav. Egen födelsepost oläst. Aktens sista tillägg 257–284 preciserar att 1858 faktiskt står på 1900-bladet, inte bara i registerposten; profilens äldre formulering är därmed otillräcklig. 1850-08-18 och vigsel 7 juni är rättade avskriftsfel, medan 1858 är en verklig avvikande bladuppgift. Samma bokföringskedja räknas inte som flera oberoende röster. Sju barn är namngivna över hushållsposterna, ingen uttömmande barnräkning. Äldre åtkomstslutsatser är avvisade; begränsade söknoll består.",
+        "origins": [
+          {
+            "unit": "7807ef5338b9ca59be7c6098f05b474104e1ecc96431cfa980f03e012740b506",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-012: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed current support: Current event retains exact older1886-05-01 and adds no-own-SCB-column/directunderlying-provenance reservation. Every dependent copy explicitly uses older report or provenance question, not new firsthand date."
+          },
+          {
+            "object": "O-P-0010-C0023-parent-ages",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-015: O-P-0010-C0023-parent-ages@1 value_json + value_literal0:26"
+          },
+          {
+            "object": "E-birth-P-0020",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-015: E-birth-P-0020@1 date_json1850-03-18"
+          },
+          {
+            "object": "E-birth-P-0021",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-015: E-birth-P-0021@1 date_json1863-06-24"
+          },
+          {
+            "object": "TR-T0774-D-full-source",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific source/older claim ground; baseline-bound version."
+          },
+          {
+            "object": "R-60c5e6ee22db82938e6fa7c2",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific source/older claim ground; baseline-bound version."
+          },
+          {
+            "object": "O-P-0020-C0025-birth1858",
+            "version": 2,
+            "role": "supports",
+            "note": "Specific source/older claim ground; baseline-bound version."
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "KEY-P-0010-0c0ade41f877",
+        "expectedVersion": 1,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_search_key",
+          "outcome": "recorded",
+          "body": "| Bernhard Natanael Eliasson, född 1886-04-19 i Värsås, döpt 1886-05-01 | Person- och hushållsnyckel i alla serier; Värsås A II a/2 folio 134 | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) | Födelsen stöds av egen dag och år/månadsankare. Dopdagen 1886-05-01 tillkom som äldre rättelse 2026-09-08 och är inte nyavläst i SCB-raden; direkt ursprungsbelägg behöver spåras utan att den äldre uppgiften raderas. |\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-013: This current searchkey’s certaintycell must distinguish the confirmedSCBbirth from the older baptismcorrection, retaining exact1May but not falsely claiming a currentbaptismfield.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "0c0ade41f8771066fded25d724f3bf76de6b8ab58646cd9c445da115941708e6",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "E-birth-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-013: E-birth-P-0010@1 date_json"
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-013: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "THEME-P-0010-ID",
+        "expectedVersion": 1,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_theme/ID",
+          "outcome": "GENOMGÅNGET",
+          "body": "| ID | GENOMGÅNGET | Egen SCB-födelsepost och separat återbrukad äldre dopuppgift, fyra reciproka församlingsboks-/vigselposter och två folkräkningar bär samma man 1886–1930. Kvarstående läsosäkerheter är namngivna och normaliseras inte. Konkurrerande identitet saknas i det lästa materialet. | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md), [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md), [C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md) |\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-014: This source-class formulation gives the currentSCB a baptismnotis which its actualheaders/remarks do not provide. Keep olderdop1May and reciprocalidentitychain, while separating observedbirth from reusedolderbaptismknowledge.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "d3572622080d57e32ae701913ab28278402c35cff530b9bff21af9c7b190943f",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-014: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed current support: Current event retains exact older1886-05-01 and adds no-own-SCB-column/directunderlying-provenance reservation. Every dependent copy explicitly uses older report or provenance question, not new firsthand date."
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "PATH-P-0020-KP-01",
+        "expectedVersion": 2,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0020",
+          "criteria": "legacy_source_path",
+          "outcome": "Positiva personposter och A I/8:s sidbundna noll återanvänds. C-0820/S-0636 lämnar tre barnrader och titel ofullständiga; C-0873 utelämnar Svens exakta utflyttningsdatum. C-0917 reserverar tillägg över rad 1 samt några barnnamn/nummer. C-0023:s fadersålder 36, modern Johansson och dop 1886-05-01 återbrukas som äldre lokal rättelse i T-0121, inte som ny SCB-cellavläsning; direkt ursprungsbelägg behöver spåras; parentesen (1 år) och hemvistsuffixet har nu prövats mot hela målpostens formulär i T-0774: texten (1 år) är läst med öppen innebörd och Westerg.[?] är prövad men reserverad råform.",
+          "body": "### KP-01: Befintliga familjeposter och egen födelseväg\n\n- Frågor/teman: Q-03, ID, REL, BO, HAL.\n- Källklass: K-01, K-02, K-03, K-04, K-06, K-08.\n- Tid/plats och arkivbildare: Värsås A I/7 s. 159, A II a/2 s. 134, E/2 1929 s. 74 post 11; SCB 1886 nr 14; Kyrkefalla A II a/12 s. 623 och B/9 1924 s. 65 nr 43–44; Skövde s. 329→768.\n- Förväntad information: Fulla målkolumner, ytterligare barndomssyskon och läsbara flytt-/yrkesnoter; verifierade fulloriginal.\n- Ingång och söknycklar: C-0820/S-0636, C-0023, C-0917, C-0418, C-0870/C-0873/C-0868 och tabellens exakta bild-id:n.\n- Beroenden: Lokala fullbilder återanvänds där de finns. Fulloriginal saknas för C-0870/C-0873; åtkomst behöver prövas för bevarande, inte för ett nytt allmänt personsök.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Inloggad Riksarkivsvisning fungerade vid tidigare läsningar 2026-09-03–06; direkt IIIF gav ibland 401. C-0870/C-0873 har endast skärmbilder. Ingen ny extern kontroll i T-0121.\n- Undersökt omfång och utfall: Positiva personposter och A I/8:s sidbundna noll återanvänds. C-0820/S-0636 lämnar tre barnrader och titel ofullständiga; C-0873 utelämnar Svens exakta utflyttningsdatum. C-0917:s egna rader 1, 5–9 och tjänstefolksraderna 23–24 är fullfältigt visuellt genomgångna i T-0676; rader 2–4 återbrukas från tidigare fulla läsningar. Svag ägarrad ovanför rad 1 och överstrukna namnled på rad 6/8 samt kunskapstecknet på rad 24 förblir reserverade. Värnpliktstalen på rad 5/6 och överstruket upprepningstal på rad 7 återbrukas från T-0151; ingen värnpliktsuppgift tillskrivs Rut. C-0023:s fadersålder 36, modern Johansson och dop 1886-05-01 återbrukas som äldre lokal rättelse i T-0121; datumet är inte nyavläst i en egen dopkolumn i den nu prövade SCB-raden och det direkta ursprungsbelägget behöver spåras; parentesen (1 år) och hemvistsuffixet har nu prövats mot hela det avgränsade SCB-formuläret i T-0774. (1 år) är läst men innebörden förblir öppen; Westerg.[?] är en reserverad råform. Detta är utförd detaljprövning med kvarstående reservationer, inte oprövade fält eller en ny vigselhändelse.\n- Bedömning och återaktivering: Full utvinning och provenans kompletteras endast i de angivna målposterna. Värsås C/- [H0003] 1824–1853 är separat oläst födelseväg med ingen bildlänk vid senaste kontroll; det är inte generell odigitalisering eller personnoll. Redan korroborerade föräldrar görs inte osäkra enbart därför.\n- Wotan: [T-0221](../../wotan/dev-log/T-0221.md) äger C-0820:s fulla hushåll; [T-0223](../../wotan/dev-log/T-0223.md) äger övriga angivna målposter och deras provenans. Tidigare T-0026/T-0028/T-0070/T-0082 tillgodoräknas inom dokumenterat omfång.\n\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-031: The current source-path debt must reflect the performed fullheader/rowattempt. Meaning remainsopen despite textread, and weakWestergsuffix is attempted rather than untouched. No claim broaderhousehold/sourcepath isexhausted.; C-032: This separatecurrentpathcopy needs thesameolder/currentbaptism boundary as event/BIO/KEY. Preserve the older correction anddatedpastprövning, but actualprintedheaders have noownbaptismdate andremarks no1Maytext.; C-039: Outcome is a separatecurrentcopy of thebodydebt alreadycorrectedC031. Wholeheader/detailprövning nowperformed, but neitherannotationmeaning nor suffixexpansion forced; no genericfullsourcepathexhaustion claimed.; C-040: Separateoutcome copy mustcarry the sameolderdate/actualheader distinction as thebody, event and narratives. Retainstrongolderdate without multiplying repeatedcopiestoevidence.",
+        "caveat": "Personidentiteten och föräldrarelationerna består trots underkänd identitetsgranskning på utvinnings-/provenanskrav. Egen födelsepost oläst. Aktens sista tillägg 257–284 preciserar att 1858 faktiskt står på 1900-bladet, inte bara i registerposten; profilens äldre formulering är därmed otillräcklig. 1850-08-18 och vigsel 7 juni är rättade avskriftsfel, medan 1858 är en verklig avvikande bladuppgift. Samma bokföringskedja räknas inte som flera oberoende röster. Sju barn är namngivna över hushållsposterna, ingen uttömmande barnräkning. Äldre åtkomstslutsatser är avvisade; begränsade söknoll består.",
+        "origins": [
+          {
+            "unit": "fa80631f24295c8bed8c96c847ba6d1d0a8f5b202f9f10ae31700d21c0b44cf0",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-22",
+            "version": 1,
+            "role": "context",
+            "note": "Värsås fullfältiga radgranskning och återbruk r2–4."
+          },
+          {
+            "object": "O-T0676-VARSAS-r1-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen fullradobservation Värsås r1; ett källled, ingen ny oberoende röst."
+          },
+          {
+            "object": "TR-T0676-VARSAS-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "Full reserverad 18-kolumnsläsning av egen rad 1."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "O-P-0010-C0023-mother-note",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-031: O-P-0010-C0023-mother-note@1 annotationMeaning:null"
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-031: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed current support: Current event retains exact older1886-05-01 and adds no-own-SCB-column/directunderlying-provenance reservation. Every dependent copy explicitly uses older report or provenance question, not new firsthand date."
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "CONTRACT-P-0010-PK-05",
+        "expectedVersion": 4,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_person_contract/PK-05",
+          "outcome": "STYRKT",
+          "body": "| PK-05 | STYRKT | De sex egna målposternas tidigare fältutvinning tillgodoräknas inom respektive dokumenterat omfång. T-0774 kompletterar C-0023:s hela målpost med råstatus, skymt nummer, struket övre ålderstal och två anteckningskantstreck; det äldre dopdatumet är inte en ny SCB-cellavläsning. Denna granskning fann fem outvunna uppgifter i redan sparade källor och förde in dem: den äldre rättelsen dopdagen 1886-05-01 och de äldre lästa föräldraåldrarna (dopdatumet står inte i en egen dopkolumn i den nu prövade SCB-raden) (A-5180, A-5181), hela hans egen rad på Värsås folio 134 med kunskapsbetyg, nattvard, koppympning och tom dödskolumn (A-5183), vigselbokens kolumn 11 om äktenskapsordning, kolumn 12 om förrättare och kolumn 13 om vigselbevis (A-5185, A-5186) samt hela hans egen rad i 1930 års utdrag med hemort, folio och råkoder (A-5187, A-5188). Kvarstående celler är lästa men odekodade och bevaras som råvärden i Q-04; namngivna läsosäkerheter är källgränser, inte utvinningsbrist. [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md), [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md), [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) |\n\n\nT-0676 kompletterar uttryckligen C-0915:s dokumentationsluckor: kol7/8/13/18 tomma, b11, N12 samt reserverad yrkesparentes, struket bostadstal och aktuell militärsifferform. Detta är återbruk av tillräckliga huvudfält plus avgränsad luckläsning, inte ett nytt fullt originalpass. Historiskt PK-utfall och identitetsgrind ändras inte.\n\nT-0676 har nu även dokumenterat C-0912:s sex tidigare ej explicit redovisade celler på Bernhards egen rad12: kol7/8/13/18 tomma, kol11 b. och kol12 N. Radens övriga tolv positioner återbrukas med befintliga reservationer. De fyra separata kontextpersonernas rader1/2/5/11 har totalt45 kompletterande celler och27 återbrukade positioner; de uppgraderas inte till egna personakter. Detta preciserar när dokumentationsluckorna fylldes och ändrar inte historiskt PK-utfall eller identitetsgrind."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-037: This current completenesswrapper needs performed-source scope rather than a blanket field claim. Preserve prioridentityassessment and sufficientolderfullrowwork, but actuallynewwholeCmatrix includes coverednumber/unresolvedglyphs/edge marks and nobaptismcolumn. Reservedattemptedfields are not unattempteddebts.; C-038: This is a separatedirect-source precisionclaim inside the samecurrentcontract. Preserve olderdate/36correction, while avoiding anewownbaptismdate read from a sourcewithout suchcolumn. Attach exactoldTR/event grounds and preserve numericage correction versus weakupperglyph.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "5446e4ae72b6add8d60cddfa628761c7ed1c9308ae0776eeea39d6312e78bb5e",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-08",
+            "version": 1,
+            "role": "context",
+            "note": "Avgränsad sakgranskning av den egna äktenskapsposten utan ny oberoende röst."
+          },
+          {
+            "object": "AUDIT-T0676-28",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källpostgranskning med reservationer."
+          },
+          {
+            "object": "AUDIT-T0676-38",
+            "version": 1,
+            "role": "supports",
+            "note": "Scope38 full källpostgranskning med reservationer; ingen extra oberoende röst."
+          },
+          {
+            "object": "O-P-0010-C0915-supplementary-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "R-301274634b1d64bcd8934ad1",
+            "version": 2,
+            "role": "derived_from",
+            "note": "Egen källpost med registrerings-/ortsreservation och bevarad originalbild."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r1-r2",
+            "version": 1,
+            "role": "context",
+            "note": "Endast de separata kontextradernas celler; samma historiska källa ger ingen extra oberoende röst."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r11",
+            "version": 1,
+            "role": "context",
+            "note": "Endast de separata kontextradernas celler; samma historiska källa ger ingen extra oberoende röst."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r12",
+            "version": 1,
+            "role": "supports",
+            "note": "Bernhards egen rad 12 och dess kompletterade råceller."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r5",
+            "version": 1,
+            "role": "context",
+            "note": "Endast de separata kontextradernas celler; samma historiska källa ger ingen extra oberoende röst."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN-08",
+            "version": 1,
+            "role": "supports",
+            "note": "Fullt fältprotokoll med 13 rubriker, äldre återbruk och nya råstreck/marginaltecken."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN1208-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-037: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "O-P-0010-C0023-parent-ages",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-038: O-P-0010-C0023-parent-ages@1 value_json"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed current support: Current event retains exact older1886-05-01 and adds no-own-SCB-column/directunderlying-provenance reservation. Every dependent copy explicitly uses older report or provenance question, not new firsthand date."
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "P-0010/Q-04",
+        "expectedVersion": 2,
+        "kind": "question",
+        "data": {
+          "subject_id": "P-0010",
+          "title": "Q-04: Vad säger de odekodade cellerna och läsosäkerheterna i hans egna poster?",
+          "outcome": "ÖPPEN",
+          "body": "### Q-04: Vad säger de odekodade cellerna och läsosäkerheterna i hans egna poster?\n\n- Fråga och betydelse: hans egna målposter innehåller fyra celler som är utvunna men inte tolkade. I 1930 års SCB-utdrag står födelseortskoden `353`, skolbildningskoden `5`, inkomst-/förmögenhetscellen `69 —` och koden `02-0-0-0-02` i kolumngruppen för barn som lever men inte bor i föräldrahemmet. Om den sista koden verkligen räknar barn utanför hemmet vore den en samtida administrativ spårlinje kring det ägarfastställda faderskapet — och om den inte gör det måste akten säga det. Dessutom finns fyra namngivna läsosäkerheter: värnpliktstalen, dagen i Värsåsradens flyttningsbetygsnot, vigselbevisets dag och noteringen `(1 år)` efter moderns namn i födelsenotisen. Den har nu prövats mot hela SCB-postens rubriker i T-0774: texten är läst men innebörden är fortsatt öppen, utan säker äktenskapsvaraktighet eller ny vigselhändelse.\n- Känt underlag: [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) och den lokalt bevarade helbilden `B0001122_00532`; [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) och `00073285_00141`; [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md); [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md). Motsvarande råvärden har bevarats utan avkodning för hustrun (A-4870) och för modern i C-0417.\n- Alternativ och motprövning: koden kan vara en statistisk yrkes-/hushållskod snarare än ett barnantal; jämförelse med grannhushållens motsvarande koder på samma sida och med formulärets tryckta instruktion avgör. Inkomstcellens `69 —` kan vara hundratal kronor, vilket hela projektet hittills antagit, eller något annat; samma fråga rättades öppet för modern i T-0127.\n- Källvägar: KP-07.\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: råvärdena är bevarade i A-0120, A-5182, A-5184, A-5186 och A-5188 och får inte fyllas ut till sakuppgifter. Ingen slutsats om barn utanför hemmet, inkomstnivå eller skolgång dras innan kodnyckeln är läst. Frågan kan lösas utan ny arkivbeställning: 1930 års folkräkningsformulär och SCB:s instruktion är publicerat material.\n- Påverkade personer/påståenden: A-0120, A-5182, A-5184, A-5186, A-5188; P-0011 (A-4870, kolumn m 572), P-0021 (C-0417, `5 —` och `3-103-21`), P-0014 (A-4701).\n\n\n\nT-0676 scope38 tillför två namngivna råreservationer i C-0915: parentetiska yrkesnoten (: Fingjut…[?]) och struket bostadstal174[?]. Militärfältets aktuella läsning är239 37/06[?], äldre229 37/06 är historisk. Dessa reservationer normaliseras inte. Kol13 har nu kontrollerats tom, vilket inte betyder att husförhör aldrig bevistats."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-041: Currentopenquestion shoulddistinguish performedheaderattempt from unresolvedmeaning. Preserve allotherrawcode/military/date questions, whichsourceCdoesnotresolve, and no newevent fromannotation.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "9587243dcf4993d732cdf3776c08818feef40b1a4b0e096ad5be6fc3690237db",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-38",
+            "version": 1,
+            "role": "supports",
+            "note": "Scope38 full källpostgranskning med reservationer; ingen extra oberoende röst."
+          },
+          {
+            "object": "O-P-0010-C0915-supplementary-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN1208-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "O-P-0010-C0023-mother-note",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-041: O-P-0010-C0023-mother-note@1 value_json annotationMeaning:null"
+          },
+          {
+            "object": "E-marriage-P-0020-P-0021-1885",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-041: E-marriage-P-0020-P-0021-1885@1 exactdate"
+          }
+        ],
+        "assets": []
+      },
+      {
+        "id": "CONTRACT-P-0010-PK-11",
+        "expectedVersion": 1,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_person_contract/PK-11",
+          "outcome": "STYRKT",
+          "body": "| PK-11 | STYRKT | De dokumenterade källställena och rättelserna bevaras; den äldre dopuppgiften 1886-05-01 återbrukas, men dess direkta underliggande källställe är ännu inte klarlagt och datumet är inte en egen kolumn i det nu lästa SCB-utdraget, och sex egna helbilder finns lokalt med SHA-256. Rättelser är länkade: A-3449, A-0079, A-0120, A-0117, A-0121 och A-1646 har ny lydelse med ursprunglig text och grund bevarade i aktens historik, och de ursprungliga observationerna står kvar. [C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md), [Historik och rättelser](../people/P-0010-bernard-natanael-eliasson.md#historik-och-rättelser) |\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific source/older claim ground; baseline-bound version."
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Specific source/older claim ground; baseline-bound version."
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 2,
+            "role": "supports",
+            "note": "Individually reviewed current support: Current event retains exact older1886-05-01 and adds no-own-SCB-column/directunderlying-provenance reservation. Every dependent copy explicitly uses older report or provenance question, not new firsthand date."
+          }
+        ],
+        "assets": [],
+        "origins": [
+          {
+            "unit": "b846a2c78e609f0f812e8017ea08c640a1a1bdeec142441f9bc957b8c9fb6bf9",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ]
+      }
+    ]
+  },
+  "full_object_comparisons": [
+    {
+      "object": "P-0010@2",
+      "decisions": [
+        "C-003"
+      ],
+      "before": {
+        "kind": "person",
+        "revision": {
+          "id": "P-0010@2",
+          "object_id": "P-0010",
+          "version": 2,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+          "caveat": "Egen identitet accepteras uttryckligen genom den dokumenterade kedjan; kvarstående livsluckor består.",
+          "previous_id": "P-0010@1"
+        },
+        "data": {
+          "display_name": "Bernhard Natanael Eliasson",
+          "sex": null,
+          "legacy_state": "active"
+        },
+        "origins": [
+          {
+            "unit": "365f1f23f0c7e072ff1290c6f211aa78b55dd7e9211f2433ae9832c1d3f320eb",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "4cb1b3ab1c3b11dade79b2d10c062f45c7cfa15db5186295a3b54516e2ebd18e",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "d42c374d6279fd50ed2d59724bef7662a25051ac3ca173ad6ac299885b7473d7",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-18df18d44d81e11a21a93743",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-301274634b1d64bcd8934ad1",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-6f16c980ae3f813987601133",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-9313e31df3ce7e6ec1ac7471",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-a2f5b5fa3781291a541749f1",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-c66825545c5b93a96a19898a",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "assets": []
+      },
+      "after": {
+        "id": "P-0010",
+        "expectedVersion": 2,
+        "kind": "person",
+        "data": {
+          "display_name": "Bernhard Natanael Eliasson",
+          "sex": "male",
+          "legacy_state": "active"
+        },
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "T-0774 C individual claim consolidation: C-003: Assign male from own explicit Kön m count1, independently corroborated by Äkta m1. This is a printedsex-field attribution, not inference from Bernhard’s name or sonrole. Established identity and treeeffect stay unchanged.",
+        "caveat": "Egen identitet accepteras uttryckligen genom den dokumenterade kedjan; kvarstående livsluckor består.",
+        "origins": [
+          {
+            "unit": "365f1f23f0c7e072ff1290c6f211aa78b55dd7e9211f2433ae9832c1d3f320eb",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "4cb1b3ab1c3b11dade79b2d10c062f45c7cfa15db5186295a3b54516e2ebd18e",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "d42c374d6279fd50ed2d59724bef7662a25051ac3ca173ad6ac299885b7473d7",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-18df18d44d81e11a21a93743",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-301274634b1d64bcd8934ad1",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-6f16c980ae3f813987601133",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-9313e31df3ce7e6ec1ac7471",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-a2f5b5fa3781291a541749f1",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-c66825545c5b93a96a19898a",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "E-birth-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-003: E-birth-P-0010@1 exactdate/parents context"
+          }
+        ],
+        "assets": []
+      }
+    },
+    {
+      "object": "E-baptism-P-0010@1",
+      "decisions": [
+        "C-007"
+      ],
+      "before": {
+        "kind": "event",
+        "revision": {
+          "id": "E-baptism-P-0010@1",
+          "object_id": "E-baptism-P-0010",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+          "caveat": "",
+          "previous_id": null
+        },
+        "data": {
+          "event_type": "baptism",
+          "date_json": {
+            "literal": "1886-05-01",
+            "precision": "exact",
+            "value": "1886-05-01"
+          },
+          "place_id": null,
+          "place_role": "Värsås dopregistrering"
+        },
+        "origins": [
+          {
+            "unit": "ff9f9f707a605249bbeedb481fc6b6599e42a06a3e1818b605fcd06ae6bc6e03",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-6f16c980ae3f813987601133",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "assets": []
+      },
+      "after": {
+        "id": "E-baptism-P-0010",
+        "expectedVersion": 1,
+        "kind": "event",
+        "data": {
+          "event_type": "baptism",
+          "date_json": {
+            "literal": "1886-05-01",
+            "precision": "exact",
+            "value": "1886-05-01"
+          },
+          "place_id": null,
+          "place_role": "Värsås enligt äldre dopuppgift; datumet är inte nyavläst ur denna SCB-rad"
+        },
+        "disposition": "accepted",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0774 C individual claim consolidation: C-007: The current categorical registration attribution needs the actual source boundary. Retain older1May date, but currentSCBhas noownbaptismdatecolumn and noverbalremarks. Attach the exactold correction and flag unresolved underlyingprovenance rather than claiming anewSCBreading.",
+        "caveat": " Older1886-05-01 correction retained. This SCBimage has noownbaptismdatecolumn or own1Mayremarks; exactunderlyingdirectprovenance remains unresolved, not newly read or numericallydemoted.",
+        "origins": [
+          {
+            "unit": "ff9f9f707a605249bbeedb481fc6b6599e42a06a3e1818b605fcd06ae6bc6e03",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-6f16c980ae3f813987601133",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-007: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          }
+        ],
+        "assets": []
+      }
+    },
+    {
+      "object": "BIO-P-0010@5",
+      "decisions": [
+        "C-008",
+        "C-010",
+        "C-029"
+      ],
+      "before": {
+        "kind": "narrative",
+        "revision": {
+          "id": "BIO-P-0010@5",
+          "object_id": "BIO-P-0010",
+          "version": 5,
+          "operation_id": "T-0677/C0010-person-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Rätta odaterad/reserverad yrkesform, osäker äldre bostad och parets felaktigt gemensamma exakta flyttdag enligt redan gällande caveat. T-0677 AC3: individuellt beslutade följdrättelser enligt låst C0010-specifikation; övrig evidens och utfall bevaras.",
+          "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+          "previous_id": "BIO-P-0010@4"
+        },
+        "data": {
+          "subject_id": "P-0010",
+          "title": "Biografisk sammanfattning",
+          "markdown": "## Biografisk sammanfattning\n\nBernhard Natanael Eliasson föddes den 19 april 1886 på Djursätra Västergården i\nVärsås som son till hemmansägaren Per Wilhelm Eliasson, då 36 år, och Augusta\nViktoria Johansson, då 22 år, och döptes den 1 maj samma år\n([C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md)). Han växte upp\nsom äldst av sju syskon på gården och står i föräldrahushållet i folkräkningarna\n1890, 1900 och 1910, det sista året som jordbruksarbetare\n([C-0024](../citations/C-0024-bernhard-folkrakning-1890.md)–[C-0026](../citations/C-0026-bernhard-folkrakning-1910.md)).\nFörsamlingsboken visar honom kyrkobokförd i hemmet ända till den 22 november\n1916, med kunskapsbetyget `b`, nattvardsgång och värnpliktsnumret 239 ³⁷/₀₆\n([C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md)).\n\nFamiljen berättar att han var bokhållare vid Ökna säteri i Floda 1911–1916 och\natt sonen Arne blev till där sommaren 1914 i ett förhållande med barnjungfrun\nAda Jansson ([C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md),\n[C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md)). Den lästa kyrkobokföringen avviker från tidsuppgiften; Värsås och Flodas\nflyttuppgifter hör till samma administrativa kedja: han saknas på samtliga\nkontrollerade Öknauppslag 1910–1914, där bokhållaren var Gustaf Sigfrid\nPettersson, och hans egen inskrivning vid Ökna börjar först den 22 november 1916\n([C-0913](../citations/C-0913-okna-sateri-1910-1914-utan-bernhard.md),\n[C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md)).\nKonflikten är bevarad och lyft till ägaren; en tänkbar förklaring är vistelse\nsom lantbrukselev utan egen kyrkobokföring i Floda. Faderskapet till Arne, född\ni Flen den 21 februari 1915, är ägarfastställd projektinformation\n([PCD-2026-08-20-001](../../PROJECT-CONTROL.md#pcd-2026-08-20-001)), och familjen\nberättar att Bernhard privat erkände det och senare gav Arne pengar\n([C-0086](../citations/C-0086-arne-faderskap-familjeuppgift-2026-08-20.md)).\nIngen samtida handling namnger honom som far, och han och Ada var samtidigt\nkyrkobokförda vid Ökna endast under året 1916–1917, alltså efter sonens födelse.\n\nFrån Ökna flyttade han den 3 november 1917 till Oskarshamns stadsförsamling,\ndär rad1 anger bostads-nr293 efter ett struket äldre tal174[?]. Det äldre talet är osäkert och daterar ingen adressändring. Kassör är den lästa yrkestiteln; en äldre rättelse från bokhållare återbrukas med reservation och utan känt ändringsdatum. Den parentetiska noten (: Fingjut…[?]) fastställer ingen arbetsgivare. Efter lysning i september vigdes han den 11 november\n1923 med Katy Leonie Nilsson, vars yrke läses kontorsbiträde med reservation och som bodde på samma adress; det var\nför båda det första äktenskapet, och pastorsadjunkten Josef Wahlgren förrättade\nvigseln. Vigselposten är registrerad i Oskarshamns stadsförsamling; fysisk vigselort är inte fastställd av denna registrering eller förrättarens ortuppgift ([C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md),\n[C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md)). Tio\ndagar senare, den 21 november, registrerades Bernhard utflyttad från Oskarshamn till Limhamn, efter flyttningsbetyg den19november. Katys motsvarande dag är inte läst; hennes eget1930utdrag anger inflyttning från Oskarshamn1923.\n\nI Limhamn föddes döttrarna Lucy Gudrun 1924 och Maj-Grete 1927. Vid\nfolkräkningen den 31 december 1930 bodde familjen på 136 Siljan 10 och Bernhard\nvar kassör vid ett kraftverk; arbetsgivaren namnges inte\n([C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md)). Den tredje\ndottern Ann-Catherine föddes enligt familjeuppgift 1938. Sex porträtt och ett\nfamiljefoto följer honom därefter till Malmö 1944 och 1964\n([C-0264](../citations/C-0264-portrattbilder-bernhard-1913-1964.md)).\n\nBoendekedjan är sammanhängande i original från 1907 till den 21 november 1923.\nDärefter är två avsnitt olästa: Limhamns församlingsbok 1923–1930 och den senare\nMalmöanknutna fortsättningen efter 1930, med bildankare till 1964 men utan fastställd slutpunkt. Sekundärträdets uppgift att han dog den 8 september 1978\ni Malmö S:t Petri kvarstår som obestyrkt ledtråd: gravregistret för Malmö\npastorat omfattar 231 303 gravsatta men saknar både honom och hustrun, och\nsvenska dödsuppgifter efter 1949 finns bara i en köpprodukt utanför projektets\nåtkomst ([C-0960](../citations/C-0960-bernhard-eliasson-malmo-gravnoll-2026-09-06.md)).\n\nÖppna materiella frågor och källvägar finns i\n[forskningsprofilen](../research-profiles/P-0010.md).\n\n"
+        },
+        "origins": [
+          {
+            "unit": "9538355a2256744d812fbb2fbf7570a84ffedc49ad05e9d95c4cccf7e53f6edc",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-08",
+            "version": 1,
+            "role": "context",
+            "note": "Avgränsad sakgranskning av den egna äktenskapsposten utan ny oberoende röst."
+          },
+          {
+            "object": "AUDIT-T0676-22",
+            "version": 1,
+            "role": "context",
+            "note": "Värsås auditerad fullfältstäckning och återbrukade familjerader."
+          },
+          {
+            "object": "AUDIT-T0676-38",
+            "version": 1,
+            "role": "supports",
+            "note": "Scope38 full källpostgranskning med reservationer; ingen extra oberoende röst."
+          },
+          {
+            "object": "AUDIT-T0677-C0010",
+            "version": 1,
+            "role": "supports",
+            "note": ""
+          },
+          {
+            "object": "O-P-0010-C0915-supplementary-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "O-P-0010-C0917-full-row",
+            "version": 1,
+            "role": "supports",
+            "note": "Befintlig egen Bernhardrad i samma avgränsade källa; ingen ny bildröst."
+          },
+          {
+            "object": "R-301274634b1d64bcd8934ad1",
+            "version": 2,
+            "role": "derived_from",
+            "note": "Egen källpost med registrerings-/ortsreservation och bevarad originalbild."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN-08",
+            "version": 1,
+            "role": "supports",
+            "note": "Fullt fältprotokoll med 13 rubriker, äldre återbruk och nya råstreck/marginaltecken."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN1208-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          }
+        ],
+        "assets": []
+      },
+      "after": {
+        "id": "BIO-P-0010",
+        "expectedVersion": 5,
+        "kind": "narrative",
+        "data": {
+          "subject_id": "P-0010",
+          "title": "Biografisk sammanfattning",
+          "markdown": "## Biografisk sammanfattning\n\nBernhard Natanael Eliasson föddes den 19 april 1886 enligt Värsås födelseregistrering. Föräldrahemvisten anges som Djursätra Västergården; han var son till hemmansägaren Per Wilhelm Eliasson, då 36 år, och Augusta\nViktoria Johansson, då 22 år, och uppges enligt den äldre rättelsen ha döpts den 1 maj samma år\n([C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md)). Han växte upp\nsom äldst bland de sju namngivna barnen i de lästa familjeraderna och står i föräldrahushållet i folkräkningarna\n1890, 1900 och 1910, det sista året som jordbruksarbetare\n([C-0024](../citations/C-0024-bernhard-folkrakning-1890.md)–[C-0026](../citations/C-0026-bernhard-folkrakning-1910.md)).\nFörsamlingsboken visar honom kyrkobokförd i hemmet ända till den 22 november\n1916, med kunskapsbetyget `b`, nattvardsgång och värnpliktsnumret 239 ³⁷/₀₆\n([C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md)).\n\nFamiljen berättar att han var bokhållare vid Ökna säteri i Floda 1911–1916 och\natt sonen Arne blev till där sommaren 1914 i ett förhållande med barnjungfrun\nAda Jansson ([C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md),\n[C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md)). Den lästa kyrkobokföringen avviker från tidsuppgiften; Värsås och Flodas\nflyttuppgifter hör till samma administrativa kedja: han saknas på samtliga\nkontrollerade Öknauppslag 1910–1914, där bokhållaren var Gustaf Sigfrid\nPettersson, och hans egen inskrivning vid Ökna börjar först den 22 november 1916\n([C-0913](../citations/C-0913-okna-sateri-1910-1914-utan-bernhard.md),\n[C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md)).\nKonflikten är bevarad och lyft till ägaren; en tänkbar förklaring är vistelse\nsom lantbrukselev utan egen kyrkobokföring i Floda. Faderskapet till Arne, född\ni Flen den 21 februari 1915, är ägarfastställd projektinformation\n([PCD-2026-08-20-001](../../PROJECT-CONTROL.md#pcd-2026-08-20-001)), och familjen\nberättar att Bernhard privat erkände det och senare gav Arne pengar\n([C-0086](../citations/C-0086-arne-faderskap-familjeuppgift-2026-08-20.md)).\nIngen samtida handling namnger honom som far, och han och Ada var samtidigt\nkyrkobokförda vid Ökna endast under året 1916–1917, alltså efter sonens födelse.\n\nFrån Ökna flyttade han den 3 november 1917 till Oskarshamns stadsförsamling,\ndär rad1 anger bostads-nr293 efter ett struket äldre tal174[?]. Det äldre talet är osäkert och daterar ingen adressändring. Kassör är den lästa yrkestiteln; en äldre rättelse från bokhållare återbrukas med reservation och utan känt ändringsdatum. Den parentetiska noten (: Fingjut…[?]) fastställer ingen arbetsgivare. Efter lysning i september vigdes han den 11 november\n1923 med Katy Leonie Nilsson, vars yrke läses kontorsbiträde med reservation och som bodde på samma adress; det var\nför båda det första äktenskapet, och pastorsadjunkten Josef Wahlgren förrättade\nvigseln. Vigselposten är registrerad i Oskarshamns stadsförsamling; fysisk vigselort är inte fastställd av denna registrering eller förrättarens ortuppgift ([C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md),\n[C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md)). Tio\ndagar senare, den 21 november, registrerades Bernhard utflyttad från Oskarshamn till Limhamn, efter flyttningsbetyg den19november. Katys motsvarande dag är inte läst; hennes eget1930utdrag anger inflyttning från Oskarshamn1923.\n\nI Limhamn föddes döttrarna Lucy Gudrun 1924 och Maj-Grete 1927. Vid\nfolkräkningen den 31 december 1930 bodde familjen på 136 Siljan 10 och Bernhard\nvar kassör vid ett kraftverk; arbetsgivaren namnges inte\n([C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md)). Den tredje\ndottern Ann-Catherine föddes enligt familjeuppgift 1938. Sex porträtt och ett\nfamiljefoto följer honom därefter till Malmö 1944 och 1964\n([C-0264](../citations/C-0264-portrattbilder-bernhard-1913-1964.md)).\n\nBoendekedjan är sammanhängande i original från 1907 till den 21 november 1923.\nDärefter är två avsnitt olästa: Limhamns församlingsbok 1923–1930 och den senare\nMalmöanknutna fortsättningen efter 1930, med bildankare till 1964 men utan fastställd slutpunkt. Sekundärträdets uppgift att han dog den 8 september 1978\ni Malmö S:t Petri kvarstår som obestyrkt ledtråd: gravregistret för Malmö\npastorat omfattar 231 303 gravsatta men saknar både honom och hustrun, och\nsvenska dödsuppgifter efter 1949 finns bara i en köpprodukt utanför projektets\nåtkomst ([C-0960](../citations/C-0960-bernhard-eliasson-malmo-gravnoll-2026-09-06.md)).\n\nÖppna materiella frågor och källvägar finns i\n[forskningsprofilen](../research-profiles/P-0010.md).\n\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-008: Own broad parentheader and nootherdelivery-place entry report parentalresidence, not proved physicaldeliverybuilding. Existing nativebirth explicitly says föräldrahemvist and reservedWesterg.; retain establishedVärsåsdate and laterknownfarm, but this current physicalbirth wording needs the same boundary.; C-010: Retain exactolderbaptism correction without implying currentimagehas adatefield. This currentbiography must distinguish the knownolder1May from firsthandSCBbirthday19April. Underlying directbaptismprovenance remains a visiblequestion.; C-029: Preserve already known rank within namedfamily, but phrase the enumeration at its actualcoveragelevel. The newtiny1:a b.? is not securelyexpanded to provedfirstbirth and older native motheredge explicitly rejectsseven as totalfertility. No additionalchildidentity created.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "9538355a2256744d812fbb2fbf7570a84ffedc49ad05e9d95c4cccf7e53f6edc",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-08",
+            "version": 1,
+            "role": "context",
+            "note": "Avgränsad sakgranskning av den egna äktenskapsposten utan ny oberoende röst."
+          },
+          {
+            "object": "AUDIT-T0676-22",
+            "version": 1,
+            "role": "context",
+            "note": "Värsås auditerad fullfältstäckning och återbrukade familjerader."
+          },
+          {
+            "object": "AUDIT-T0676-38",
+            "version": 1,
+            "role": "supports",
+            "note": "Scope38 full källpostgranskning med reservationer; ingen extra oberoende röst."
+          },
+          {
+            "object": "AUDIT-T0677-C0010",
+            "version": 1,
+            "role": "supports",
+            "note": ""
+          },
+          {
+            "object": "O-P-0010-C0915-supplementary-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "O-P-0010-C0917-full-row",
+            "version": 1,
+            "role": "supports",
+            "note": "Befintlig egen Bernhardrad i samma avgränsade källa; ingen ny bildröst."
+          },
+          {
+            "object": "R-301274634b1d64bcd8934ad1",
+            "version": 2,
+            "role": "derived_from",
+            "note": "Egen källpost med registrerings-/ortsreservation och bevarad originalbild."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN-08",
+            "version": 1,
+            "role": "supports",
+            "note": "Fullt fältprotokoll med 13 rubriker, äldre återbruk och nya råstreck/marginaltecken."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN1208-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "E-birth-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-008: E-birth-P-0010@1 place_role0:63"
+          },
+          {
+            "object": "R-6f16c980ae3f813987601133",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-008: R-6f16c980ae3f813987601133@1 dependence_note0:131"
+          },
+          {
+            "object": "O-P-0010-C0023-parents",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-008: O-P-0010-C0023-parents@1 value_json retainedparentnames"
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-010: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-010: E-baptism-P-0010@1 date_json"
+          },
+          {
+            "object": "REL-parent-P-0021-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-029: REL-parent-P-0021-P-0010@1 revision.caveat"
+          },
+          {
+            "object": "CONTRACT-P-0010-PK-04",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-029: CONTRACT-P-0010-PK-04@1 body0:579"
+          },
+          {
+            "object": "BIO-P-0020",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-029: BIO-P-0020@1 markdown explicit not fullchildcount"
+          }
+        ],
+        "assets": []
+      }
+    },
+    {
+      "object": "RESEARCH-P-0010-9d76f0343410@1",
+      "decisions": [
+        "C-009",
+        "C-011"
+      ],
+      "before": {
+        "kind": "assessment",
+        "revision": {
+          "id": "RESEARCH-P-0010-9d76f0343410@1",
+          "object_id": "RESEARCH-P-0010-9d76f0343410",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+          "previous_id": null
+        },
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_profile_section/Identitetsbedömning",
+          "outcome": "recorded",
+          "body": "## Identitetsbedömning\n\nBernhard Natanael föddes 1886-04-19 som son till hemmansägaren Per Wilhelm\nEliasson och Augusta Viktoria Johansson på Djursätra Västergården i Värsås och\ndöptes 1 maj samma år\n([C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md)). Han står i\nföräldrahushållet 1890, 1900 och 1910, det sista året som jordbruksarbetare\n([C-0024](../citations/C-0024-bernhard-folkrakning-1890.md),\n[C-0025](../citations/C-0025-bernhard-folkrakning-1900.md),\n[C-0026](../citations/C-0026-bernhard-folkrakning-1910.md)), och är\nkyrkobokförd där till 1916-11-22\n([C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md)).\n\n**Identiteten bärs av fyra reciproka arkivpar, inte av namnlikhet.** Värsås\nutflyttning och Flodas inflyttning anger samma dag 1916-11-22; Flodas\nutflyttning och Oskarshamns inflyttning anger samma dag 1917-11-03; Oskarshamns\nförsamlingsbok binds till lysningsboken genom noteringen `Lysn.B. ³⁵/₂₃`; och\nOskarshamns utflyttning till Limhamn 1923-11-21 möter 1930 års utdrag, som anger\ninflyttning från Oskarshamn och vigselåret 23\n([C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md),\n[C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md),\n[C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md),\n[C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md)). Varje led bär\ndessutom samma födelsedag, och två av posterna hänvisar uttryckligen tillbaka\ntill Värsås födelsebok. Ingen konkurrerande person med samma namn och födelsedag\nhar påträffats i det lästa materialet. Den tidigare formuleringen att kedjan\n1910–1930 var oläst är därmed inaktuell och rättad i akten.\n\nFaderskapet till Arne Godvig Jansson är fastställt av ägaren\n([PCD-2026-08-20-001](../../PROJECT-CONTROL.md#pcd-2026-08-20-001)) med familjens\nuppgifter om privat erkännande, ekonomiskt stöd och likhet\n([C-0086](../citations/C-0086-arne-faderskap-familjeuppgift-2026-08-20.md));\ninget ytterligare belägg krävs. Den bevarade konflikten gäller **omständigheten**:\nfamiljekrönikans Öknatjänst 1911–1916 motsägs av två kyrkoböcker, och Bernhard\noch Ada var samtidigt kyrkobokförda vid Ökna endast 1916-11-22–1917-11-03, alltså\nefter sonens födelse ([C-0913](../citations/C-0913-okna-sateri-1910-1914-utan-bernhard.md),\n[C-0909](../citations/C-0909-ada-och-arne-okna-floda-1915-1918.md)). Frågan ligger\nhos ägaren i PCR-2026-09-06-003 och ändrar inte identiteten.\n\n**Identitetsnivåns utlåtande 2026-09-08 (T-0151): `GODKÄND`, Trädverkan\n`BÄRANDE`.** De sju kraven PK-01, 02, 05, 07, 09, 11 och 12 står `STYRKT` med\nbeläggslänk nedan och `Identitetsläge` är `PRÖVAT`. Utlåtandet ersätter\nläsningen från T-0103 och vilar denna gång på en genomförd fullradsutvinning av\nhans egna målposter, inte enbart på tidigare gjorda bedömningar. Personen är\nanposition på djup 4 på Sverkers sida och antavlan får passera positionen.\nLivsbildsnivån är inte godkänd och redovisas separat nedan.\n\n"
+        },
+        "origins": [
+          {
+            "unit": "dde7ca3dd7947613d55d666fcf3688e37d1e655ef0a6df983a349d72bf3ccf36",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [],
+        "assets": []
+      },
+      "after": {
+        "id": "RESEARCH-P-0010-9d76f0343410",
+        "expectedVersion": 1,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_profile_section/Identitetsbedömning",
+          "outcome": "recorded",
+          "body": "## Identitetsbedömning\n\nBernhard Natanael föddes 1886-04-19 som son till hemmansägaren Per Wilhelm\nEliasson och Augusta Viktoria Johansson med föräldrahemvist Djursätra Västergården i Värsås och\nuppges i den äldre rättelsen ha döpts 1 maj samma år; datumet står inte i en egen dopkolumn i den nu prövade SCB-raden\n([C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md)). Han står i\nföräldrahushållet 1890, 1900 och 1910, det sista året som jordbruksarbetare\n([C-0024](../citations/C-0024-bernhard-folkrakning-1890.md),\n[C-0025](../citations/C-0025-bernhard-folkrakning-1900.md),\n[C-0026](../citations/C-0026-bernhard-folkrakning-1910.md)), och är\nkyrkobokförd där till 1916-11-22\n([C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md)).\n\n**Identiteten bärs av fyra reciproka arkivpar, inte av namnlikhet.** Värsås\nutflyttning och Flodas inflyttning anger samma dag 1916-11-22; Flodas\nutflyttning och Oskarshamns inflyttning anger samma dag 1917-11-03; Oskarshamns\nförsamlingsbok binds till lysningsboken genom noteringen `Lysn.B. ³⁵/₂₃`; och\nOskarshamns utflyttning till Limhamn 1923-11-21 möter 1930 års utdrag, som anger\ninflyttning från Oskarshamn och vigselåret 23\n([C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md),\n[C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md),\n[C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md),\n[C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md)). Varje led bär\ndessutom samma födelsedag, och två av posterna hänvisar uttryckligen tillbaka\ntill Värsås födelsebok. Ingen konkurrerande person med samma namn och födelsedag\nhar påträffats i det lästa materialet. Den tidigare formuleringen att kedjan\n1910–1930 var oläst är därmed inaktuell och rättad i akten.\n\nFaderskapet till Arne Godvig Jansson är fastställt av ägaren\n([PCD-2026-08-20-001](../../PROJECT-CONTROL.md#pcd-2026-08-20-001)) med familjens\nuppgifter om privat erkännande, ekonomiskt stöd och likhet\n([C-0086](../citations/C-0086-arne-faderskap-familjeuppgift-2026-08-20.md));\ninget ytterligare belägg krävs. Den bevarade konflikten gäller **omständigheten**:\nfamiljekrönikans Öknatjänst 1911–1916 motsägs av två kyrkoböcker, och Bernhard\noch Ada var samtidigt kyrkobokförda vid Ökna endast 1916-11-22–1917-11-03, alltså\nefter sonens födelse ([C-0913](../citations/C-0913-okna-sateri-1910-1914-utan-bernhard.md),\n[C-0909](../citations/C-0909-ada-och-arne-okna-floda-1915-1918.md)). Frågan ligger\nhos ägaren i PCR-2026-09-06-003 och ändrar inte identiteten.\n\n**Identitetsnivåns utlåtande 2026-09-08 (T-0151): `GODKÄND`, Trädverkan\n`BÄRANDE`.** De sju kraven PK-01, 02, 05, 07, 09, 11 och 12 står `STYRKT` med\nbeläggslänk nedan och `Identitetsläge` är `PRÖVAT`. Utlåtandet ersätter\nläsningen från T-0103 och vilar denna gång på en genomförd fullradsutvinning av\nhans egna målposter, inte enbart på tidigare gjorda bedömningar. Personen är\nanposition på djup 4 på Sverkers sida och antavlan får passera positionen.\nLivsbildsnivån är inte godkänd och redovisas separat nedan.\n\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-009: This separatecurrentidentitycopy repeats the physicalbirth/residence ambiguity. Reuse existing nativebirth’s explicit parentalresidence distinction; absence ofanotherdeliveryplace field is not a positive namedhouse-of-delivery observation.; C-011: Thecurrentresearchcopy links C23 directly to bothvitals. Preserve old1May andacceptedidentity but make the currentheader boundaryexplicit, without inventing a newuncertain birthdate or erasing oldknowledge.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "dde7ca3dd7947613d55d666fcf3688e37d1e655ef0a6df983a349d72bf3ccf36",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "E-birth-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-009: E-birth-P-0010@1 place_role0:63"
+          },
+          {
+            "object": "KEY-P-0010-2f7566f9cba1",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-009: KEY-P-0010-2f7566f9cba1@1 body0:248"
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-011: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-011: E-baptism-P-0010@1 date_json"
+          }
+        ],
+        "assets": []
+      }
+    },
+    {
+      "object": "BIO-P-0020@1",
+      "decisions": [
+        "C-012",
+        "C-015"
+      ],
+      "before": {
+        "kind": "narrative",
+        "revision": {
+          "id": "BIO-P-0020@1",
+          "object_id": "BIO-P-0020",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Tidigare berättelse versionsbevarad; inte en ny oberoende faktakälla.",
+          "caveat": "Personidentiteten och föräldrarelationerna består trots underkänd identitetsgranskning på utvinnings-/provenanskrav. Egen födelsepost oläst. Aktens sista tillägg 257–284 preciserar att 1858 faktiskt står på 1900-bladet, inte bara i registerposten; profilens äldre formulering är därmed otillräcklig. 1850-08-18 och vigsel 7 juni är rättade avskriftsfel, medan 1858 är en verklig avvikande bladuppgift. Samma bokföringskedja räknas inte som flera oberoende röster. Sju barn är namngivna över hushållsposterna, ingen uttömmande barnräkning. Äldre åtkomstslutsatser är avvisade; begränsade söknoll består.",
+          "previous_id": null
+        },
+        "data": {
+          "subject_id": "P-0020",
+          "title": "Biografisk sammanfattning",
+          "markdown": "## Biografisk sammanfattning\n\nPer Wilhelm Eliasson uppges född den 18 mars 1850 i Värsås. I barndomens husförhörslängd står han som sonen Petter Wilhelm hos Gabriel Eliasson och Stina Larsdotter i Djursätra Västergården, tillsammans med Margaretha Sofia och ytterligare ännu ofullständigt avskrivna barnrader. Den familjekombination som också finns i Ulla Göthbergs sammanställning, hans exakta datum och Värsåsanknytningen bär sammanföringen med den vuxne Per Wilhelm. Egen födelsepost är ännu oläst. 1858 i 1900-registret är en avvikande uppgift; C-0917:s äldre 1850-08-18 är ett avskriftsfel, rättat till 1850-03-18 i T-0127; samstämmiga böckers datum räknas inte som oberoende röster (C-0820, C-0262, C-0025, C-0917, C-0418).\n\nDen 19 juni 1885 registrerades hans vigsel med Augusta Viktoria Johansson i Mofallas lysnings- och vigselbok. Hon bodde i Bjerg, han var redan hemmansägare i Djursätra och hade betyg från Värsås. Tre lysningar hölls från 26 april till 10 maj. Djursätras bok har också 19 juni; dess tidigare avskrift 7 juni rättades vid originalomläsning i T-0127. De äldre nollen i Värsås och Kyrkefalla moderförsamling har därmed en positiv lösning i Mofallas särskilda bok (C-0990/C-0420).\n\nSonen Bernhard föddes den 19 april 1886 och döptes den 1 maj. Födelseposten anger Pers ålder till 36 och Augustas till 22, enligt den lokala omläsningen i C-0023. Folkräkningarna 1890, 1900 och 1910 visar en växande familj på Djursätra Västergården med sammanlagt sju namngivna barn. Dessa källor visar hemmansägartiteln och hushållet vid sina tidpunkter; de är ingen fullständig barnräkning eller obruten fyrtioårig ägarkedja. I den senare församlingsboken står Johan Martin Gabriel som brukare. Föräldrarna och tre barn utflyttningsfördes till Kyrkefalla den 24 november 1916; Bernhard hade en annan destination två dagar tidigare, Agnes hade en tidigare intern hänvisning och alla barn följde inte med samtidigt (C-0023–C-0026, C-0917).\n\nDet första Kyrkefallahushållet är ännu inte identifierat. Familjen återfinns däremot på folio 623 i boken 1922–1929. Per, Augusta och Alva registrerades som utflyttade till Skövde den 20 juni 1924, medan Sven hade en egen passage via Önum. Skövdeböckernas sidor 329 och 768 binder samma familj vidare. Vid döden den 5 september 1929 kallades Per lägenhetsägare i Skövde; dödboken uppgav också att han ägde 1/8 mantal Djursätra Västergården. Han begravdes den 15 september och finns i Värsås kyrkogårds gravregister tillsammans med Augusta, som dog 1949 (C-0870/C-0873/C-0868, C-0418/C-0962).\n\nÄgaruppgifterna har ännu inte följts till fastighets- eller dödsbohandlingar, och tiden mellan barndomsboken och vigseln behöver en säkrare följd. Hans liv har samtidigt ett bevarat personligt spår: släktsammanställningen återger ett foto identifierat som honom, men fotograf, bilddatum och ursprungsfoto saknas (C-0262/S-0207).\n\n"
+        },
+        "origins": [
+          {
+            "unit": "7807ef5338b9ca59be7c6098f05b474104e1ecc96431cfa980f03e012740b506",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [],
+        "assets": []
+      },
+      "after": {
+        "id": "BIO-P-0020",
+        "expectedVersion": 1,
+        "kind": "narrative",
+        "data": {
+          "subject_id": "P-0020",
+          "title": "Biografisk sammanfattning",
+          "markdown": "## Biografisk sammanfattning\n\nPer Wilhelm Eliasson uppges född den 18 mars 1850 i Värsås. I barndomens husförhörslängd står han som sonen Petter Wilhelm hos Gabriel Eliasson och Stina Larsdotter i Djursätra Västergården, tillsammans med Margaretha Sofia och ytterligare ännu ofullständigt avskrivna barnrader. Den familjekombination som också finns i Ulla Göthbergs sammanställning, hans exakta datum och Värsåsanknytningen bär sammanföringen med den vuxne Per Wilhelm. Egen födelsepost är ännu oläst. 1858 i 1900-registret är en avvikande uppgift; C-0917:s äldre 1850-08-18 är ett avskriftsfel, rättat till 1850-03-18 i T-0127; samstämmiga böckers datum räknas inte som oberoende röster (C-0820, C-0262, C-0025, C-0917, C-0418).\n\nDen 19 juni 1885 registrerades hans vigsel med Augusta Viktoria Johansson i Mofallas lysnings- och vigselbok. Hon bodde i Bjerg, han var redan hemmansägare i Djursätra och hade betyg från Värsås. Tre lysningar hölls från 26 april till 10 maj. Djursätras bok har också 19 juni; dess tidigare avskrift 7 juni rättades vid originalomläsning i T-0127. De äldre nollen i Värsås och Kyrkefalla moderförsamling har därmed en positiv lösning i Mofallas särskilda bok (C-0990/C-0420).\n\nSonen Bernhard föddes den 19 april 1886 och uppges i den äldre rättelsen ha döpts den 1 maj; någon egen dopdatumskolumn finns inte i den nu prövade SCB-raden. Den äldre lokala omläsningen i C-0023 återger Pers ålder som 36 och Augustas som 22. Den nya svagare bildläsningen av det strukna övre talet 36/30[?] upphäver inte den äldre uttryckliga 36-rättelsen. Talet står på faderdelraden under rubriken för moderns sist fyllda ålder; dess direkta tillskrivning är därför inte en ny säker fadersåldersavläsning. Moderns eget 22 är läst. Folkräkningarna 1890, 1900 och 1910 visar en växande familj på Djursätra Västergården med sammanlagt sju namngivna barn. Dessa källor visar hemmansägartiteln och hushållet vid sina tidpunkter; de är ingen fullständig barnräkning eller obruten fyrtioårig ägarkedja. I den senare församlingsboken står Johan Martin Gabriel som brukare. Föräldrarna och tre barn utflyttningsfördes till Kyrkefalla den 24 november 1916; Bernhard hade en annan destination två dagar tidigare, Agnes hade en tidigare intern hänvisning och alla barn följde inte med samtidigt (C-0023–C-0026, C-0917).\n\nDet första Kyrkefallahushållet är ännu inte identifierat. Familjen återfinns däremot på folio 623 i boken 1922–1929. Per, Augusta och Alva registrerades som utflyttade till Skövde den 20 juni 1924, medan Sven hade en egen passage via Önum. Skövdeböckernas sidor 329 och 768 binder samma familj vidare. Vid döden den 5 september 1929 kallades Per lägenhetsägare i Skövde; dödboken uppgav också att han ägde 1/8 mantal Djursätra Västergården. Han begravdes den 15 september och finns i Värsås kyrkogårds gravregister tillsammans med Augusta, som dog 1949 (C-0870/C-0873/C-0868, C-0418/C-0962).\n\nÄgaruppgifterna har ännu inte följts till fastighets- eller dödsbohandlingar, och tiden mellan barndomsboken och vigseln behöver en säkrare följd. Hans liv har samtidigt ett bevarat personligt spår: släktsammanställningen återger ett foto identifierat som honom, men fotograf, bilddatum och ursprungsfoto saknas (C-0262/S-0207).\n\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-012: Father’s currentbiography is anothercopy of thesameolderbaptismdatum. Itssourceattribution needs identicalqualification, retaining the oldcorrection rather than treating repeatedprose asindependentbaptismproof.; C-015: Preserve the old explicitly corrected36 and separate mother22, rather than promoting weaknew30. Currentprose needs the actually discoveredheader/striking boundary; source-specific ageattribution is not automatically a new parentbirth event. Older accepted1850date independently makes36consistent, but doesnot change the printedcolumnheader.",
+        "caveat": "Personidentiteten och föräldrarelationerna består trots underkänd identitetsgranskning på utvinnings-/provenanskrav. Egen födelsepost oläst. Aktens sista tillägg 257–284 preciserar att 1858 faktiskt står på 1900-bladet, inte bara i registerposten; profilens äldre formulering är därmed otillräcklig. 1850-08-18 och vigsel 7 juni är rättade avskriftsfel, medan 1858 är en verklig avvikande bladuppgift. Samma bokföringskedja räknas inte som flera oberoende röster. Sju barn är namngivna över hushållsposterna, ingen uttömmande barnräkning. Äldre åtkomstslutsatser är avvisade; begränsade söknoll består.",
+        "origins": [
+          {
+            "unit": "7807ef5338b9ca59be7c6098f05b474104e1ecc96431cfa980f03e012740b506",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-012: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-012: E-baptism-P-0010@1 date_json"
+          },
+          {
+            "object": "O-P-0010-C0023-parent-ages",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-015: O-P-0010-C0023-parent-ages@1 value_json + value_literal0:26"
+          },
+          {
+            "object": "E-birth-P-0020",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-015: E-birth-P-0020@1 date_json1850-03-18"
+          },
+          {
+            "object": "E-birth-P-0021",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-015: E-birth-P-0021@1 date_json1863-06-24"
+          }
+        ],
+        "assets": []
+      }
+    },
+    {
+      "object": "KEY-P-0010-0c0ade41f877@1",
+      "decisions": [
+        "C-013"
+      ],
+      "before": {
+        "kind": "assessment",
+        "revision": {
+          "id": "KEY-P-0010-0c0ade41f877@1",
+          "object_id": "KEY-P-0010-0c0ade41f877",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+          "previous_id": null
+        },
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_search_key",
+          "outcome": "recorded",
+          "body": "| Bernhard Natanael Eliasson, född 1886-04-19 i Värsås, döpt 1886-05-01 | Person- och hushållsnyckel i alla serier; Värsås A II a/2 folio 134 | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) | Säker; dopdagen tillkom 2026-09-08. |\n"
+        },
+        "origins": [
+          {
+            "unit": "0c0ade41f8771066fded25d724f3bf76de6b8ab58646cd9c445da115941708e6",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [],
+        "assets": []
+      },
+      "after": {
+        "id": "KEY-P-0010-0c0ade41f877",
+        "expectedVersion": 1,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_search_key",
+          "outcome": "recorded",
+          "body": "| Bernhard Natanael Eliasson, född 1886-04-19 i Värsås, döpt 1886-05-01 | Person- och hushållsnyckel i alla serier; Värsås A II a/2 folio 134 | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) | Födelsen stöds av egen dag och år/månadsankare. Dopdagen 1886-05-01 tillkom som äldre rättelse 2026-09-08 och är inte nyavläst i SCB-raden; direkt ursprungsbelägg behöver spåras utan att den äldre uppgiften raderas. |\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-013: This current searchkey’s certaintycell must distinguish the confirmedSCBbirth from the older baptismcorrection, retaining exact1May but not falsely claiming a currentbaptismfield.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "0c0ade41f8771066fded25d724f3bf76de6b8ab58646cd9c445da115941708e6",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "E-birth-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-013: E-birth-P-0010@1 date_json"
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-013: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          }
+        ],
+        "assets": []
+      }
+    },
+    {
+      "object": "THEME-P-0010-ID@1",
+      "decisions": [
+        "C-014"
+      ],
+      "before": {
+        "kind": "assessment",
+        "revision": {
+          "id": "THEME-P-0010-ID@1",
+          "object_id": "THEME-P-0010-ID",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+          "previous_id": null
+        },
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_theme/ID",
+          "outcome": "GENOMGÅNGET",
+          "body": "| ID | GENOMGÅNGET | Egen födelse- och dopnotis, fyra reciproka församlingsboks-/vigselposter och två folkräkningar bär samma man 1886–1930. Kvarstående läsosäkerheter är namngivna och normaliseras inte. Konkurrerande identitet saknas i det lästa materialet. | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md), [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md), [C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md) |\n"
+        },
+        "origins": [
+          {
+            "unit": "d3572622080d57e32ae701913ab28278402c35cff530b9bff21af9c7b190943f",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [],
+        "assets": []
+      },
+      "after": {
+        "id": "THEME-P-0010-ID",
+        "expectedVersion": 1,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_theme/ID",
+          "outcome": "GENOMGÅNGET",
+          "body": "| ID | GENOMGÅNGET | Egen SCB-födelsepost och separat återbrukad äldre dopuppgift, fyra reciproka församlingsboks-/vigselposter och två folkräkningar bär samma man 1886–1930. Kvarstående läsosäkerheter är namngivna och normaliseras inte. Konkurrerande identitet saknas i det lästa materialet. | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md), [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md), [C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md) |\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-014: This source-class formulation gives the currentSCB a baptismnotis which its actualheaders/remarks do not provide. Keep olderdop1May and reciprocalidentitychain, while separating observedbirth from reusedolderbaptismknowledge.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "d3572622080d57e32ae701913ab28278402c35cff530b9bff21af9c7b190943f",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-014: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-014: E-baptism-P-0010@1 date_json"
+          }
+        ],
+        "assets": []
+      }
+    },
+    {
+      "object": "PATH-P-0020-KP-01@2",
+      "decisions": [
+        "C-031",
+        "C-032",
+        "C-039",
+        "C-040"
+      ],
+      "before": {
+        "kind": "assessment",
+        "revision": {
+          "id": "PATH-P-0020-KP-01@2",
+          "object_id": "PATH-P-0020-KP-01",
+          "version": 2,
+          "operation_id": "T-0676/varsas-followup-v2-proposed-revised",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Personidentiteten och föräldrarelationerna består trots underkänd identitetsgranskning på utvinnings-/provenanskrav. Egen födelsepost oläst. Aktens sista tillägg 257–284 preciserar att 1858 faktiskt står på 1900-bladet, inte bara i registerposten; profilens äldre formulering är därmed otillräcklig. 1850-08-18 och vigsel 7 juni är rättade avskriftsfel, medan 1858 är en verklig avvikande bladuppgift. Samma bokföringskedja räknas inte som flera oberoende röster. Sju barn är namngivna över hushållsposterna, ingen uttömmande barnräkning. Äldre åtkomstslutsatser är avvisade; begränsade söknoll består.",
+          "previous_id": "PATH-P-0020-KP-01@1"
+        },
+        "data": {
+          "subject_id": "P-0020",
+          "criteria": "legacy_source_path",
+          "outcome": "Positiva personposter och A I/8:s sidbundna noll återanvänds. C-0820/S-0636 lämnar tre barnrader och titel ofullständiga; C-0873 utelämnar Svens exakta utflyttningsdatum. C-0917 reserverar tillägg över rad 1 samt några barnnamn/nummer. C-0023:s fadersålder 36, modern Johansson och dop 1886-05-01 har omprövats lokalt i T-0121; parentesen (1 år) och hemvistsuffixet kräver fortfarande formulärbunden detaljprövning.",
+          "body": "### KP-01: Befintliga familjeposter och egen födelseväg\n\n- Frågor/teman: Q-03, ID, REL, BO, HAL.\n- Källklass: K-01, K-02, K-03, K-04, K-06, K-08.\n- Tid/plats och arkivbildare: Värsås A I/7 s. 159, A II a/2 s. 134, E/2 1929 s. 74 post 11; SCB 1886 nr 14; Kyrkefalla A II a/12 s. 623 och B/9 1924 s. 65 nr 43–44; Skövde s. 329→768.\n- Förväntad information: Fulla målkolumner, ytterligare barndomssyskon och läsbara flytt-/yrkesnoter; verifierade fulloriginal.\n- Ingång och söknycklar: C-0820/S-0636, C-0023, C-0917, C-0418, C-0870/C-0873/C-0868 och tabellens exakta bild-id:n.\n- Beroenden: Lokala fullbilder återanvänds där de finns. Fulloriginal saknas för C-0870/C-0873; åtkomst behöver prövas för bevarande, inte för ett nytt allmänt personsök.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Inloggad Riksarkivsvisning fungerade vid tidigare läsningar 2026-09-03–06; direkt IIIF gav ibland 401. C-0870/C-0873 har endast skärmbilder. Ingen ny extern kontroll i T-0121.\n- Undersökt omfång och utfall: Positiva personposter och A I/8:s sidbundna noll återanvänds. C-0820/S-0636 lämnar tre barnrader och titel ofullständiga; C-0873 utelämnar Svens exakta utflyttningsdatum. C-0917:s egna rader 1, 5–9 och tjänstefolksraderna 23–24 är fullfältigt visuellt genomgångna i T-0676; rader 2–4 återbrukas från tidigare fulla läsningar. Svag ägarrad ovanför rad 1 och överstrukna namnled på rad 6/8 samt kunskapstecknet på rad 24 förblir reserverade. Värnpliktstalen på rad 5/6 och överstruket upprepningstal på rad 7 återbrukas från T-0151; ingen värnpliktsuppgift tillskrivs Rut. C-0023:s fadersålder 36, modern Johansson och dop 1886-05-01 har omprövats lokalt i T-0121; parentesen (1 år) och hemvistsuffixet kräver fortfarande formulärbunden detaljprövning.\n- Bedömning och återaktivering: Full utvinning och provenans kompletteras endast i de angivna målposterna. Värsås C/- [H0003] 1824–1853 är separat oläst födelseväg med ingen bildlänk vid senaste kontroll; det är inte generell odigitalisering eller personnoll. Redan korroborerade föräldrar görs inte osäkra enbart därför.\n- Wotan: [T-0221](../../wotan/dev-log/T-0221.md) äger C-0820:s fulla hushåll; [T-0223](../../wotan/dev-log/T-0223.md) äger övriga angivna målposter och deras provenans. Tidigare T-0026/T-0028/T-0070/T-0082 tillgodoräknas inom dokumenterat omfång.\n\n"
+        },
+        "origins": [
+          {
+            "unit": "fa80631f24295c8bed8c96c847ba6d1d0a8f5b202f9f10ae31700d21c0b44cf0",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-22",
+            "version": 1,
+            "role": "context",
+            "note": "Värsås fullfältiga radgranskning och återbruk r2–4."
+          },
+          {
+            "object": "O-T0676-VARSAS-r1-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen fullradobservation Värsås r1; ett källled, ingen ny oberoende röst."
+          },
+          {
+            "object": "TR-T0676-VARSAS-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "Full reserverad 18-kolumnsläsning av egen rad 1."
+          }
+        ],
+        "assets": []
+      },
+      "after": {
+        "id": "PATH-P-0020-KP-01",
+        "expectedVersion": 2,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0020",
+          "criteria": "legacy_source_path",
+          "outcome": "Positiva personposter och A I/8:s sidbundna noll återanvänds. C-0820/S-0636 lämnar tre barnrader och titel ofullständiga; C-0873 utelämnar Svens exakta utflyttningsdatum. C-0917 reserverar tillägg över rad 1 samt några barnnamn/nummer. C-0023:s fadersålder 36, modern Johansson och dop 1886-05-01 återbrukas som äldre lokal rättelse i T-0121, inte som ny SCB-cellavläsning; direkt ursprungsbelägg behöver spåras; parentesen (1 år) och hemvistsuffixet har nu prövats mot hela målpostens formulär i T-0774: texten (1 år) är läst med öppen innebörd och Westerg.[?] är prövad men reserverad råform.",
+          "body": "### KP-01: Befintliga familjeposter och egen födelseväg\n\n- Frågor/teman: Q-03, ID, REL, BO, HAL.\n- Källklass: K-01, K-02, K-03, K-04, K-06, K-08.\n- Tid/plats och arkivbildare: Värsås A I/7 s. 159, A II a/2 s. 134, E/2 1929 s. 74 post 11; SCB 1886 nr 14; Kyrkefalla A II a/12 s. 623 och B/9 1924 s. 65 nr 43–44; Skövde s. 329→768.\n- Förväntad information: Fulla målkolumner, ytterligare barndomssyskon och läsbara flytt-/yrkesnoter; verifierade fulloriginal.\n- Ingång och söknycklar: C-0820/S-0636, C-0023, C-0917, C-0418, C-0870/C-0873/C-0868 och tabellens exakta bild-id:n.\n- Beroenden: Lokala fullbilder återanvänds där de finns. Fulloriginal saknas för C-0870/C-0873; åtkomst behöver prövas för bevarande, inte för ett nytt allmänt personsök.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Inloggad Riksarkivsvisning fungerade vid tidigare läsningar 2026-09-03–06; direkt IIIF gav ibland 401. C-0870/C-0873 har endast skärmbilder. Ingen ny extern kontroll i T-0121.\n- Undersökt omfång och utfall: Positiva personposter och A I/8:s sidbundna noll återanvänds. C-0820/S-0636 lämnar tre barnrader och titel ofullständiga; C-0873 utelämnar Svens exakta utflyttningsdatum. C-0917:s egna rader 1, 5–9 och tjänstefolksraderna 23–24 är fullfältigt visuellt genomgångna i T-0676; rader 2–4 återbrukas från tidigare fulla läsningar. Svag ägarrad ovanför rad 1 och överstrukna namnled på rad 6/8 samt kunskapstecknet på rad 24 förblir reserverade. Värnpliktstalen på rad 5/6 och överstruket upprepningstal på rad 7 återbrukas från T-0151; ingen värnpliktsuppgift tillskrivs Rut. C-0023:s fadersålder 36, modern Johansson och dop 1886-05-01 återbrukas som äldre lokal rättelse i T-0121; datumet är inte nyavläst i en egen dopkolumn i den nu prövade SCB-raden och det direkta ursprungsbelägget behöver spåras; parentesen (1 år) och hemvistsuffixet har nu prövats mot hela det avgränsade SCB-formuläret i T-0774. (1 år) är läst men innebörden förblir öppen; Westerg.[?] är en reserverad råform. Detta är utförd detaljprövning med kvarstående reservationer, inte oprövade fält eller en ny vigselhändelse.\n- Bedömning och återaktivering: Full utvinning och provenans kompletteras endast i de angivna målposterna. Värsås C/- [H0003] 1824–1853 är separat oläst födelseväg med ingen bildlänk vid senaste kontroll; det är inte generell odigitalisering eller personnoll. Redan korroborerade föräldrar görs inte osäkra enbart därför.\n- Wotan: [T-0221](../../wotan/dev-log/T-0221.md) äger C-0820:s fulla hushåll; [T-0223](../../wotan/dev-log/T-0223.md) äger övriga angivna målposter och deras provenans. Tidigare T-0026/T-0028/T-0070/T-0082 tillgodoräknas inom dokumenterat omfång.\n\n"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-031: The current source-path debt must reflect the performed fullheader/rowattempt. Meaning remainsopen despite textread, and weakWestergsuffix is attempted rather than untouched. No claim broaderhousehold/sourcepath isexhausted.; C-032: This separatecurrentpathcopy needs thesameolder/currentbaptism boundary as event/BIO/KEY. Preserve the older correction anddatedpastprövning, but actualprintedheaders have noownbaptismdate andremarks no1Maytext.; C-039: Outcome is a separatecurrentcopy of thebodydebt alreadycorrectedC031. Wholeheader/detailprövning nowperformed, but neitherannotationmeaning nor suffixexpansion forced; no genericfullsourcepathexhaustion claimed.; C-040: Separateoutcome copy mustcarry the sameolderdate/actualheader distinction as thebody, event and narratives. Retainstrongolderdate without multiplying repeatedcopiestoevidence.",
+        "caveat": "Personidentiteten och föräldrarelationerna består trots underkänd identitetsgranskning på utvinnings-/provenanskrav. Egen födelsepost oläst. Aktens sista tillägg 257–284 preciserar att 1858 faktiskt står på 1900-bladet, inte bara i registerposten; profilens äldre formulering är därmed otillräcklig. 1850-08-18 och vigsel 7 juni är rättade avskriftsfel, medan 1858 är en verklig avvikande bladuppgift. Samma bokföringskedja räknas inte som flera oberoende röster. Sju barn är namngivna över hushållsposterna, ingen uttömmande barnräkning. Äldre åtkomstslutsatser är avvisade; begränsade söknoll består.",
+        "origins": [
+          {
+            "unit": "fa80631f24295c8bed8c96c847ba6d1d0a8f5b202f9f10ae31700d21c0b44cf0",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-22",
+            "version": 1,
+            "role": "context",
+            "note": "Värsås fullfältiga radgranskning och återbruk r2–4."
+          },
+          {
+            "object": "O-T0676-VARSAS-r1-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen fullradobservation Värsås r1; ett källled, ingen ny oberoende röst."
+          },
+          {
+            "object": "TR-T0676-VARSAS-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "Full reserverad 18-kolumnsläsning av egen rad 1."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "O-P-0010-C0023-mother-note",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-031: O-P-0010-C0023-mother-note@1 annotationMeaning:null"
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-031: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-032: E-baptism-P-0010@1 date_json"
+          }
+        ],
+        "assets": []
+      }
+    },
+    {
+      "object": "CONTRACT-P-0010-PK-05@4",
+      "decisions": [
+        "C-037",
+        "C-038"
+      ],
+      "before": {
+        "kind": "assessment",
+        "revision": {
+          "id": "CONTRACT-P-0010-PK-05@4",
+          "object_id": "CONTRACT-P-0010-PK-05",
+          "version": 4,
+          "operation_id": "T-0676/floda592-scopes4-12-28-47-v2",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Det historiska fullutvinningspåståendet kompletteras med faktiskt tillkomna dokumentationsceller; inga statusändringar och tidigare scope38-text bevaras.",
+          "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+          "previous_id": "CONTRACT-P-0010-PK-05@3"
+        },
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_person_contract/PK-05",
+          "outcome": "STYRKT",
+          "body": "| PK-05 | STYRKT | Samtliga sex egna målposter är nu kolumnutvunna. Denna granskning fann fem outvunna uppgifter i redan sparade källor och förde in dem: dopdagen 1886-05-01 och föräldrarnas åldrar ur födelsenotisen (A-5180, A-5181), hela hans egen rad på Värsås folio 134 med kunskapsbetyg, nattvard, koppympning och tom dödskolumn (A-5183), vigselbokens kolumn 11 om äktenskapsordning, kolumn 12 om förrättare och kolumn 13 om vigselbevis (A-5185, A-5186) samt hela hans egen rad i 1930 års utdrag med hemort, folio och råkoder (A-5187, A-5188). Kvarstående celler är lästa men odekodade och bevaras som råvärden i Q-04; namngivna läsosäkerheter är källgränser, inte utvinningsbrist. [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md), [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md), [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) |\n\n\nT-0676 kompletterar uttryckligen C-0915:s dokumentationsluckor: kol7/8/13/18 tomma, b11, N12 samt reserverad yrkesparentes, struket bostadstal och aktuell militärsifferform. Detta är återbruk av tillräckliga huvudfält plus avgränsad luckläsning, inte ett nytt fullt originalpass. Historiskt PK-utfall och identitetsgrind ändras inte.\n\nT-0676 har nu även dokumenterat C-0912:s sex tidigare ej explicit redovisade celler på Bernhards egen rad12: kol7/8/13/18 tomma, kol11 b. och kol12 N. Radens övriga tolv positioner återbrukas med befintliga reservationer. De fyra separata kontextpersonernas rader1/2/5/11 har totalt45 kompletterande celler och27 återbrukade positioner; de uppgraderas inte till egna personakter. Detta preciserar när dokumentationsluckorna fylldes och ändrar inte historiskt PK-utfall eller identitetsgrind."
+        },
+        "origins": [
+          {
+            "unit": "5446e4ae72b6add8d60cddfa628761c7ed1c9308ae0776eeea39d6312e78bb5e",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-08",
+            "version": 1,
+            "role": "context",
+            "note": "Avgränsad sakgranskning av den egna äktenskapsposten utan ny oberoende röst."
+          },
+          {
+            "object": "AUDIT-T0676-28",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källpostgranskning med reservationer."
+          },
+          {
+            "object": "AUDIT-T0676-38",
+            "version": 1,
+            "role": "supports",
+            "note": "Scope38 full källpostgranskning med reservationer; ingen extra oberoende röst."
+          },
+          {
+            "object": "O-P-0010-C0915-supplementary-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "R-301274634b1d64bcd8934ad1",
+            "version": 2,
+            "role": "derived_from",
+            "note": "Egen källpost med registrerings-/ortsreservation och bevarad originalbild."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r1-r2",
+            "version": 1,
+            "role": "context",
+            "note": "Endast de separata kontextradernas celler; samma historiska källa ger ingen extra oberoende röst."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r11",
+            "version": 1,
+            "role": "context",
+            "note": "Endast de separata kontextradernas celler; samma historiska källa ger ingen extra oberoende röst."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r12",
+            "version": 1,
+            "role": "supports",
+            "note": "Bernhards egen rad 12 och dess kompletterade råceller."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r5",
+            "version": 1,
+            "role": "context",
+            "note": "Endast de separata kontextradernas celler; samma historiska källa ger ingen extra oberoende röst."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN-08",
+            "version": 1,
+            "role": "supports",
+            "note": "Fullt fältprotokoll med 13 rubriker, äldre återbruk och nya råstreck/marginaltecken."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN1208-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          }
+        ],
+        "assets": []
+      },
+      "after": {
+        "id": "CONTRACT-P-0010-PK-05",
+        "expectedVersion": 4,
+        "kind": "assessment",
+        "data": {
+          "subject_id": "P-0010",
+          "criteria": "legacy_person_contract/PK-05",
+          "outcome": "STYRKT",
+          "body": "| PK-05 | STYRKT | De sex egna målposternas tidigare fältutvinning tillgodoräknas inom respektive dokumenterat omfång. T-0774 kompletterar C-0023:s hela målpost med råstatus, skymt nummer, struket övre ålderstal och två anteckningskantstreck; det äldre dopdatumet är inte en ny SCB-cellavläsning. Denna granskning fann fem outvunna uppgifter i redan sparade källor och förde in dem: den äldre rättelsen dopdagen 1886-05-01 och de äldre lästa föräldraåldrarna (dopdatumet står inte i en egen dopkolumn i den nu prövade SCB-raden) (A-5180, A-5181), hela hans egen rad på Värsås folio 134 med kunskapsbetyg, nattvard, koppympning och tom dödskolumn (A-5183), vigselbokens kolumn 11 om äktenskapsordning, kolumn 12 om förrättare och kolumn 13 om vigselbevis (A-5185, A-5186) samt hela hans egen rad i 1930 års utdrag med hemort, folio och råkoder (A-5187, A-5188). Kvarstående celler är lästa men odekodade och bevaras som råvärden i Q-04; namngivna läsosäkerheter är källgränser, inte utvinningsbrist. [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md), [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md), [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) |\n\n\nT-0676 kompletterar uttryckligen C-0915:s dokumentationsluckor: kol7/8/13/18 tomma, b11, N12 samt reserverad yrkesparentes, struket bostadstal och aktuell militärsifferform. Detta är återbruk av tillräckliga huvudfält plus avgränsad luckläsning, inte ett nytt fullt originalpass. Historiskt PK-utfall och identitetsgrind ändras inte.\n\nT-0676 har nu även dokumenterat C-0912:s sex tidigare ej explicit redovisade celler på Bernhards egen rad12: kol7/8/13/18 tomma, kol11 b. och kol12 N. Radens övriga tolv positioner återbrukas med befintliga reservationer. De fyra separata kontextpersonernas rader1/2/5/11 har totalt45 kompletterande celler och27 återbrukade positioner; de uppgraderas inte till egna personakter. Detta preciserar när dokumentationsluckorna fylldes och ändrar inte historiskt PK-utfall eller identitetsgrind."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-037: This current completenesswrapper needs performed-source scope rather than a blanket field claim. Preserve prioridentityassessment and sufficientolderfullrowwork, but actuallynewwholeCmatrix includes coverednumber/unresolvedglyphs/edge marks and nobaptismcolumn. Reservedattemptedfields are not unattempteddebts.; C-038: This is a separatedirect-source precisionclaim inside the samecurrentcontract. Preserve olderdate/36correction, while avoiding anewownbaptismdate read from a sourcewithout suchcolumn. Attach exactoldTR/event grounds and preserve numericage correction versus weakupperglyph.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "5446e4ae72b6add8d60cddfa628761c7ed1c9308ae0776eeea39d6312e78bb5e",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-08",
+            "version": 1,
+            "role": "context",
+            "note": "Avgränsad sakgranskning av den egna äktenskapsposten utan ny oberoende röst."
+          },
+          {
+            "object": "AUDIT-T0676-28",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källpostgranskning med reservationer."
+          },
+          {
+            "object": "AUDIT-T0676-38",
+            "version": 1,
+            "role": "supports",
+            "note": "Scope38 full källpostgranskning med reservationer; ingen extra oberoende röst."
+          },
+          {
+            "object": "O-P-0010-C0915-supplementary-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "R-301274634b1d64bcd8934ad1",
+            "version": 2,
+            "role": "derived_from",
+            "note": "Egen källpost med registrerings-/ortsreservation och bevarad originalbild."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r1-r2",
+            "version": 1,
+            "role": "context",
+            "note": "Endast de separata kontextradernas celler; samma historiska källa ger ingen extra oberoende röst."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r11",
+            "version": 1,
+            "role": "context",
+            "note": "Endast de separata kontextradernas celler; samma historiska källa ger ingen extra oberoende röst."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r12",
+            "version": 1,
+            "role": "supports",
+            "note": "Bernhards egen rad 12 och dess kompletterade råceller."
+          },
+          {
+            "object": "TR-T0676-FLODA592-r5",
+            "version": 1,
+            "role": "context",
+            "note": "Endast de separata kontextradernas celler; samma historiska källa ger ingen extra oberoende röst."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN-08",
+            "version": 1,
+            "role": "supports",
+            "note": "Fullt fältprotokoll med 13 rubriker, äldre återbruk och nya råstreck/marginaltecken."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN1208-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "TR-99c2bd8aeee97f3168c8d680",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-037: TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+          },
+          {
+            "object": "O-P-0010-C0023-parent-ages",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-038: O-P-0010-C0023-parent-ages@1 value_json"
+          },
+          {
+            "object": "E-baptism-P-0010",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-038: E-baptism-P-0010@1 date_json"
+          }
+        ],
+        "assets": []
+      }
+    },
+    {
+      "object": "P-0010/Q-04@2",
+      "decisions": [
+        "C-041"
+      ],
+      "before": {
+        "kind": "question",
+        "revision": {
+          "id": "P-0010/Q-04@2",
+          "object_id": "P-0010/Q-04",
+          "version": 2,
+          "operation_id": "T-0676/oskarshamn1208-scope38-v2",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Q04 måste upptaga nya konkreta reservationer och tomkol13; inga råkoder avkodas.",
+          "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+          "previous_id": "P-0010/Q-04@1"
+        },
+        "data": {
+          "subject_id": "P-0010",
+          "title": "Q-04: Vad säger de odekodade cellerna och läsosäkerheterna i hans egna poster?",
+          "outcome": "ÖPPEN",
+          "body": "### Q-04: Vad säger de odekodade cellerna och läsosäkerheterna i hans egna poster?\n\n- Fråga och betydelse: hans egna målposter innehåller fyra celler som är utvunna men inte tolkade. I 1930 års SCB-utdrag står födelseortskoden `353`, skolbildningskoden `5`, inkomst-/förmögenhetscellen `69 —` och koden `02-0-0-0-02` i kolumngruppen för barn som lever men inte bor i föräldrahemmet. Om den sista koden verkligen räknar barn utanför hemmet vore den en samtida administrativ spårlinje kring det ägarfastställda faderskapet — och om den inte gör det måste akten säga det. Dessutom finns fyra namngivna läsosäkerheter: värnpliktstalen, dagen i Värsåsradens flyttningsbetygsnot, vigselbevisets dag och noteringen `(1 år)` efter moderns namn i födelsenotisen.\n- Känt underlag: [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) och den lokalt bevarade helbilden `B0001122_00532`; [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) och `00073285_00141`; [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md); [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md). Motsvarande råvärden har bevarats utan avkodning för hustrun (A-4870) och för modern i C-0417.\n- Alternativ och motprövning: koden kan vara en statistisk yrkes-/hushållskod snarare än ett barnantal; jämförelse med grannhushållens motsvarande koder på samma sida och med formulärets tryckta instruktion avgör. Inkomstcellens `69 —` kan vara hundratal kronor, vilket hela projektet hittills antagit, eller något annat; samma fråga rättades öppet för modern i T-0127.\n- Källvägar: KP-07.\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: råvärdena är bevarade i A-0120, A-5182, A-5184, A-5186 och A-5188 och får inte fyllas ut till sakuppgifter. Ingen slutsats om barn utanför hemmet, inkomstnivå eller skolgång dras innan kodnyckeln är läst. Frågan kan lösas utan ny arkivbeställning: 1930 års folkräkningsformulär och SCB:s instruktion är publicerat material.\n- Påverkade personer/påståenden: A-0120, A-5182, A-5184, A-5186, A-5188; P-0011 (A-4870, kolumn m 572), P-0021 (C-0417, `5 —` och `3-103-21`), P-0014 (A-4701).\n\n\n\nT-0676 scope38 tillför två namngivna råreservationer i C-0915: parentetiska yrkesnoten (: Fingjut…[?]) och struket bostadstal174[?]. Militärfältets aktuella läsning är239 37/06[?], äldre229 37/06 är historisk. Dessa reservationer normaliseras inte. Kol13 har nu kontrollerats tom, vilket inte betyder att husförhör aldrig bevistats."
+        },
+        "origins": [
+          {
+            "unit": "9587243dcf4993d732cdf3776c08818feef40b1a4b0e096ad5be6fc3690237db",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-38",
+            "version": 1,
+            "role": "supports",
+            "note": "Scope38 full källpostgranskning med reservationer; ingen extra oberoende röst."
+          },
+          {
+            "object": "O-P-0010-C0915-supplementary-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN1208-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          }
+        ],
+        "assets": []
+      },
+      "after": {
+        "id": "P-0010/Q-04",
+        "expectedVersion": 2,
+        "kind": "question",
+        "data": {
+          "subject_id": "P-0010",
+          "title": "Q-04: Vad säger de odekodade cellerna och läsosäkerheterna i hans egna poster?",
+          "outcome": "ÖPPEN",
+          "body": "### Q-04: Vad säger de odekodade cellerna och läsosäkerheterna i hans egna poster?\n\n- Fråga och betydelse: hans egna målposter innehåller fyra celler som är utvunna men inte tolkade. I 1930 års SCB-utdrag står födelseortskoden `353`, skolbildningskoden `5`, inkomst-/förmögenhetscellen `69 —` och koden `02-0-0-0-02` i kolumngruppen för barn som lever men inte bor i föräldrahemmet. Om den sista koden verkligen räknar barn utanför hemmet vore den en samtida administrativ spårlinje kring det ägarfastställda faderskapet — och om den inte gör det måste akten säga det. Dessutom finns fyra namngivna läsosäkerheter: värnpliktstalen, dagen i Värsåsradens flyttningsbetygsnot, vigselbevisets dag och noteringen `(1 år)` efter moderns namn i födelsenotisen. Den har nu prövats mot hela SCB-postens rubriker i T-0774: texten är läst men innebörden är fortsatt öppen, utan säker äktenskapsvaraktighet eller ny vigselhändelse.\n- Känt underlag: [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) och den lokalt bevarade helbilden `B0001122_00532`; [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) och `00073285_00141`; [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md); [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md). Motsvarande råvärden har bevarats utan avkodning för hustrun (A-4870) och för modern i C-0417.\n- Alternativ och motprövning: koden kan vara en statistisk yrkes-/hushållskod snarare än ett barnantal; jämförelse med grannhushållens motsvarande koder på samma sida och med formulärets tryckta instruktion avgör. Inkomstcellens `69 —` kan vara hundratal kronor, vilket hela projektet hittills antagit, eller något annat; samma fråga rättades öppet för modern i T-0127.\n- Källvägar: KP-07.\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: råvärdena är bevarade i A-0120, A-5182, A-5184, A-5186 och A-5188 och får inte fyllas ut till sakuppgifter. Ingen slutsats om barn utanför hemmet, inkomstnivå eller skolgång dras innan kodnyckeln är läst. Frågan kan lösas utan ny arkivbeställning: 1930 års folkräkningsformulär och SCB:s instruktion är publicerat material.\n- Påverkade personer/påståenden: A-0120, A-5182, A-5184, A-5186, A-5188; P-0011 (A-4870, kolumn m 572), P-0021 (C-0417, `5 —` och `3-103-21`), P-0014 (A-4701).\n\n\n\nT-0676 scope38 tillför två namngivna råreservationer i C-0915: parentetiska yrkesnoten (: Fingjut…[?]) och struket bostadstal174[?]. Militärfältets aktuella läsning är239 37/06[?], äldre229 37/06 är historisk. Dessa reservationer normaliseras inte. Kol13 har nu kontrollerats tom, vilket inte betyder att husförhör aldrig bevistats."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0774 C individual claim consolidation: C-041: Currentopenquestion shoulddistinguish performedheaderattempt from unresolvedmeaning. Preserve allotherrawcode/military/date questions, whichsourceCdoesnotresolve, and no newevent fromannotation.",
+        "caveat": "Hela akten 1–501 och profilen 1–271 är lästa, inklusive full historik. Accepterad egen identitet grundas i födelsepost och reciproka egna rader, skild från ägarfastställt faderskap. Aktuell identitetsgranskning GODKÄND/BÄRANDE och fortsatt underkänd livsbild blandas inte. 69 —, 5, 353 och 02-0-0-0-02 förblir råfält; 6 900 är upphävd normalisering. Två osäkra attestdateringar, modersnot (1 år), värnpliktsvarianter och Kyrkefalla/Värsås-konflikten står kvar. Öknas registrering från 1916 motsäger familjens period, inte ägarkunskapen om faderskap. Död 1978 är LEAD och Malmöporträtt ger ingen obruten bosättning. Katys precisa avgränsning i egen akt rad 99 styr att 1923 års betyg och utflyttning bara får Bernhards deltagande trots bredare familjeformulering i hans biografi.",
+        "origins": [
+          {
+            "unit": "9587243dcf4993d732cdf3776c08818feef40b1a4b0e096ad5be6fc3690237db",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0676-38",
+            "version": 1,
+            "role": "supports",
+            "note": "Scope38 full källpostgranskning med reservationer; ingen extra oberoende röst."
+          },
+          {
+            "object": "O-P-0010-C0915-supplementary-fields",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "TR-T0676-OSKARSHAMN1208-r1",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0676 scope38 godkänd radbunden källgranskning; samma historiska källa."
+          },
+          {
+            "object": "TR-T0774-C-full-source",
+            "version": 1,
+            "role": "context",
+            "note": "Current wholeSCBpost/header/marks/raw reservations; not new evidence for oldbaptismdate or strongerparentbirths."
+          },
+          {
+            "object": "O-P-0010-C0023-mother-note",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-041: O-P-0010-C0023-mother-note@1 value_json annotationMeaning:null"
+          },
+          {
+            "object": "E-marriage-P-0020-P-0021-1885",
+            "version": 1,
+            "role": "supports",
+            "note": "Exact older ground reused for C-041: E-marriage-P-0020-P-0021-1885@1 exactdate"
+          }
+        ],
+        "assets": []
+      }
+    },
+    {
+      "object": "CONTRACT-P-0010-PK-11@1",
+      "before": {
+        "subject_id": "P-0010",
+        "criteria": "legacy_person_contract/PK-11",
+        "outcome": "STYRKT",
+        "body": "| PK-11 | STYRKT | Varje sakrad har exakt källställe med arkivbildare, volym, uppslag, rad och löpnummer, och sex egna helbilder finns lokalt med SHA-256. Rättelser är länkade: A-3449, A-0079, A-0120, A-0117, A-0121 och A-1646 har ny lydelse med ursprunglig text och grund bevarade i aktens historik, och de ursprungliga observationerna står kvar. [C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md), [Historik och rättelser](../people/P-0010-bernard-natanael-eliasson.md#historik-och-rättelser) |\n"
+      },
+      "after": {
+        "subject_id": "P-0010",
+        "criteria": "legacy_person_contract/PK-11",
+        "outcome": "STYRKT",
+        "body": "| PK-11 | STYRKT | De dokumenterade källställena och rättelserna bevaras; den äldre dopuppgiften 1886-05-01 återbrukas, men dess direkta underliggande källställe är ännu inte klarlagt och datumet är inte en egen kolumn i det nu lästa SCB-utdraget, och sex egna helbilder finns lokalt med SHA-256. Rättelser är länkade: A-3449, A-0079, A-0120, A-0117, A-0121 och A-1646 har ny lydelse med ursprunglig text och grund bevarade i aktens historik, och de ursprungliga observationerna står kvar. [C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md), [Historik och rättelser](../people/P-0010-bernard-natanael-eliasson.md#historik-och-rättelser) |\n"
+      },
+      "decision_ids": [
+        "C-061"
+      ]
+    }
+  ],
+  "blockers": [
+    "Independent C review/nativegraph/copyclosure pending.",
+    "Remaining routedcoverage gaps explicit in C-inventory; no completecoverage claim.",
+    "Baptism1886-05-01 preserved as older correction, but directunderlyingprovenance notlocated inthisSCBrow.",
+    "Upperage numericolder36 retained; directattribution under motherageheader andannotationmeaning remainopen.",
+    "No isolatedcontrolledapply/fullobjectcomparison forC; compilation must individuallyreview updatedsupport versions, especiallyE-baptism@1→planned@2, without blanketrebinding."
+  ],
+  "compiled_support_decisions": "../compile-decisions-v2.json"
+}

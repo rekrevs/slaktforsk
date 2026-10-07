@@ -1,0 +1,42 @@
+{
+  "task": "T-0776",
+  "at_utc": "2026-10-02T07:51:27.102833+00:00",
+  "approved": "CONTROLLED_APPLY_EXACT_SEVEN_OPERATIONS",
+  "owner_mandate": "vi fortsätter som du rekommenderar: exact three-scope hybrid continuation",
+  "baseline_journal": 248,
+  "candidate_journal": 255,
+  "review_path": "evaluations/T-0776/independent-final-review-v1.json",
+  "review_sha256": "6b36e0c3a7ac7472aea7a3aba5a10d4bf4cc3b8aa824bf149ec0a5858cd467ac",
+  "candidate_freeze_sha256": "32723bf440877a7f1533abf3a75601928f822eb476d881e3e695b2ae2ff5cda2",
+  "operations": [
+    {
+      "path": "evaluations/T-0776/C-0037-candidate-operation-v2.json",
+      "sha256": "4cf1f00a2ecdf237f4c1b8dbe5266f3f81d9cb26cb63b13cbfa0c0d3a2178222"
+    },
+    {
+      "path": "evaluations/T-0776/C-0038-candidate-operation-v1.json",
+      "sha256": "b96841128dd884c264166d2c5ea87bedd8635a5e69b0dfe9b89b37255a0cd83a"
+    },
+    {
+      "path": "evaluations/T-0776/C-0038-resolution-operation-v1.json",
+      "sha256": "331ac871d0fb4827f5fc0a3ac6a3142a8552cdd836a117d9dfc16d535d8a67b6"
+    },
+    {
+      "path": "evaluations/T-0776/C-0083-initial-candidate-operation-v1.json",
+      "sha256": "1e3ea5032c647bef21377e4f3bd708590f892736ebc793c33d23c47342036104"
+    },
+    {
+      "path": "evaluations/T-0776/independent-IF2-IF3-operation-v1.json",
+      "sha256": "11e2bf9fe9dc270f1ba833c4ed845d559aebccad773b7045f75abc9f55ac9a48"
+    },
+    {
+      "path": "evaluations/T-0776/C-0083-consequence-amendment-operation-v1.json",
+      "sha256": "6e83920985b31c8cc8004a17e1bef62d041724c4f5255ab02344bdefb0229682"
+    },
+    {
+      "path": "evaluations/T-0776/C-0083-final-participation-operation-v2.json",
+      "sha256": "29ab655df805211711b33ae33599f98fee4f4ae5b6925e2b8c64e6263db85c6b"
+    }
+  ],
+  "conditions": "Recheck live head248 and hashes immediately before sequential controlled CLI apply. No SQLite replacement. Then strict full actual state vs reviewed stage and validators/invariants. No fourth source/commit/push/dashboard."
+}

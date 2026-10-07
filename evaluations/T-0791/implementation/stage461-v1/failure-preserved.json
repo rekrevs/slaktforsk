@@ -1,0 +1,10 @@
+{
+  "error": "('Stop; preserve actual stage; no retry', ['apply', '/Users/sverker/repos/slaktforsk/evaluations/T-0791/implementation/candidate-operation-v2.json', '--db', '/Users/sverker/repos/slaktforsk/evaluations/T-0791/implementation/stage461-v1/stage.sqlite', '--journal', '/Users/sverker/repos/slaktforsk/evaluations/T-0791/implementation/stage461-v1/journal'], 'Belägg blev inaktuellt inom operationen; lägg rättelsen före beroende slutsatser\\n')",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/sverker/repos/slaktforsk/evaluations/T-0791/implementation/stage-literal-v1-UNRUN.py\", line 69, in main\n    cli(['apply',str(op_path),'--db',str(db),'--journal',str(journal)],stage/'apply.json')\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/sverker/repos/slaktforsk/evaluations/T-0791/implementation/stage-literal-v1-UNRUN.py\", line 27, in cli\n    assert r.returncode==0,('Stop; preserve actual stage; no retry',args,r.stderr)\n           ^^^^^^^^^^^^^^^\nAssertionError: ('Stop; preserve actual stage; no retry', ['apply', '/Users/sverker/repos/slaktforsk/evaluations/T-0791/implementation/candidate-operation-v2.json', '--db', '/Users/sverker/repos/slaktforsk/evaluations/T-0791/implementation/stage461-v1/stage.sqlite', '--journal', '/Users/sverker/repos/slaktforsk/evaluations/T-0791/implementation/stage461-v1/journal'], 'Belägg blev inaktuellt inom operationen; lägg rättelsen före beroende slutsatser\\n')\n",
+  "actual_state": {
+    "journal_head": 460,
+    "pending": 0
+  },
+  "elapsed_seconds": 20.860155000002123,
+  "no_retry": true
+}

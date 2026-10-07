@@ -1,0 +1,37 @@
+{
+  "index": 8,
+  "authorization_pin": {
+    "path": "evaluations/T-0781/root-controlled-canonical-exact17-authorization-v1.json",
+    "sha256": "78f616d3f569ec53572bd3e3ffe94f924ff65f58a5ccad70701ff004414551a7"
+  },
+  "operation_pin": {
+    "path": "evaluations/T-0781/implementation/C0067-fullTR-audit-READ-draft-v1/03-C0067-READ-exact-prior-full-scope-draft-operation-v1.json",
+    "sha256": "eae8f9cb1d600e418ddf68b64b9752a2117d734d6086cb51b158c1b35454de31"
+  },
+  "operation_id": "T-0781/C0067-READ-prior-full-scope-amendment-v1",
+  "before": {
+    "journal_head": 432,
+    "pending": 14
+  },
+  "reviewed_stage_step_pin": {
+    "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-08-actual-before-after.json",
+    "sha256": "87814bbca6352ee879ea15fa81621dabdc3b442ddc5e68f5bdb1b5b43fbbe716"
+  },
+  "started_at_utc": "2026-10-04T16:25:18.206370+00:00",
+  "argv": [
+    "node",
+    "genealogy2/cli.mjs",
+    "apply",
+    "evaluations/T-0781/implementation/C0067-fullTR-audit-READ-draft-v1/03-C0067-READ-exact-prior-full-scope-draft-operation-v1.json"
+  ],
+  "exit_code": 0,
+  "after": {
+    "journal_head": 433,
+    "pending": 14
+  },
+  "MAIN_pin_after": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "767850c8f3f5d8cffd8a6dee194a07f1b585bad66a55195f69f221446dfd67ee"
+  },
+  "finished_at_utc": "2026-10-04T16:25:23.644089+00:00"
+}

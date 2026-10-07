@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    "T-0786",
+    "T-0787",
+    "T-0788",
+    "T-0789"
+  ],
+  "phase": "ONGOING T8/T9, MAIN449",
+  "validate_genealogy": {
+    "command": "node scripts/validate-genealogy.mjs",
+    "exit_code": 1,
+    "observed_errors": [
+      "multiple ONGOING Wotan tasks: T-0788, T-0789",
+      "Wotan har flera ONGOING",
+      "research inventory missing/stale: review changes, then node scripts/research-inventory.mjs --write"
+    ],
+    "classification": "No archive links/identity/media checks failed. TwoONGOING are explicit bounded-four-task runtime/checkpoint exception, expected to disappear at completion. Legacy frozen research-inventory equality is coupled to changing Wotan by buildInventory; current AGENTS prohibits archive --write. Not a PASS; no frozen artifact updated. Repeat only at final Wotan status transition to remove concurrency errors, preserve any legacy-only exception."
+  },
+  "media_manifest": {
+    "command": "node scripts/media-manifest.mjs --check",
+    "exit_code": 0,
+    "stdout": "OK: 5064 media files; 3140 exact, 1879 source-scoped, 28 citation-scoped, 17 unlinked"
+  },
+  "no_archive_dashboard_write": true
+}

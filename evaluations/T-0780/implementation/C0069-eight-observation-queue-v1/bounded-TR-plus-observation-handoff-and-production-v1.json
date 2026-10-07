@@ -1,0 +1,42 @@
+{
+  "TR_phase_receipt_pin": {
+    "path": "evaluations/T-0780/implementation/C0069-corrected-full13-queue-v1/bounded-corrected13-TR-handoff-and-production-v1.json",
+    "sha256": "268921a7c2976d0177be20e317210b80292aa6640f3a57eba8b84520bebcdb5b"
+  },
+  "source_pins": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0069-eight-observation-decisions-v1.json",
+      "sha256": "6e7a2710c82a77cb0ba7e8f6f515a4ebe4f0d40085e49cf981d127229c758ac2"
+    }
+  ],
+  "input_pin": {
+    "path": "evaluations/T-0780/implementation/C0069-eight-observation-queue-v1/all-history-observation-incoming-full-native-input-v1.json",
+    "sha256": "c6f9953a537a1d1c923708eb03c74b670ce910522b1d69a998f748851b465c14"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0780/implementation/C0069-eight-observation-queue-v1/current99-candidate-membership-inventory-v1.json",
+    "sha256": "fd8ce668a5d671958b10936a7ba0fa263e74af2e7bec0843f5ff213032d0fa1c"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0780/implementation/C0069-eight-observation-queue-v1/concrete-current99-partial-sequence-and-constraint-proposal-v1.json",
+    "sha256": "7c24f433879f64316184cc6657d6718bb95277ff35a7191c3ba7a184cf4fa1c1"
+  },
+  "new_TR_objects": 1,
+  "observation_revisions": 7,
+  "observation_retains": 1,
+  "full_field_entries": 72,
+  "all_history_incoming_edges": 6,
+  "current_incoming_edges": 6,
+  "full_native_referencers": 6,
+  "failed_mechanical_attempts": [
+    {
+      "script": "finalize_C0069_TR_observation_phase_v1.py",
+      "reason": "Initial observation placement preceded C425 E-birth96 retaining O96@1. Preserved failed proposal; moved payload-identical seven-observation module after existing consumers and before final source operation, requiring primary hash approval. No evidence rebind or field change."
+    }
+  ],
+  "observed_seconds_since_TR_candidate": 169.67513704299927,
+  "prebuild_reads_excluded": true,
+  "source_coverage_failure_and_nonblind_repair_not_zero_production_preserved_in_source_and_TR_receipts": true,
+  "model_usage_root_collect_after_final": true,
+  "no_stage_probe_apply_actual328_modification": true
+}

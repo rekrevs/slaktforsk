@@ -1,0 +1,84 @@
+{
+  "task": "T-0780",
+  "status": "PREPARATION_ONLY_UNRUN",
+  "builder_pin": {
+    "path": "evaluations/T-0780/implementation/prepare_complete_approved_actual2128_resolution_operations_TEMPLATE_v2.py",
+    "sha256": "35997a68ea4502f96255a1c49cf39accecc832887d28a214a733e3136d313126"
+  },
+  "actual_count": 2128,
+  "input_contract": {
+    "task": "T-0780",
+    "status": "COMPLETE_APPROVED_ALL2128_INDIVIDUAL_RESOLUTIONS",
+    "no_canonical_apply_authorized": true,
+    "actual_request_index_pin": "Exact full stage2128 index",
+    "stage_DB_pin": "Exact immutable stage DB before resolution, SHA required",
+    "expected_actual_stage_state": {
+      "journal_head": 424,
+      "pending": 2128
+    },
+    "primary_complete_resolution_gate_pin": "Final complete actual-ID gate; not prestage source gate",
+    "independent_complete_resolution_gate_pin": "Final complete actual-ID gate; not prestage source gate",
+    "primary_gate_ready_pointer": "JSON pointer to literal true ready boolean",
+    "independent_gate_ready_pointer": "JSON pointer to literal true ready boolean",
+    "primary_gate_stage_pin_pointer": "JSON pointer to exact stage DB pin",
+    "independent_gate_stage_pin_pointer": "JSON pointer to exact stage DB pin",
+    "primary_gate_approved_IDs_pointer": "JSON pointer to complete2128 explicit unique request-ID list",
+    "independent_gate_approved_IDs_pointer": "JSON pointer to complete2128 explicit unique request-ID list",
+    "operation_id_prefix": "Root chosen exact new native operation ID prefix",
+    "operation_actor": "Root approved actor",
+    "operation_reason": "Root approved exact reason (no per-ID rationale synthesis)",
+    "max_resolutions_per_operation": "Explicit integer1..2128; preserves manifest request order",
+    "individual_approvals": [
+      {
+        "request_id": "Exact SHA requestID",
+        "primary_decision_pin": "Exact primary file SHA/path",
+        "primary_row_pointer": "Individual row JSONpointer",
+        "primary_resolution_instruction_pointer": "Within row JSONpointer to native request+rationale instruction",
+        "primary_current_revision_pointer": "Within row exact currentrevision pointer",
+        "primary_individual_scope_pointer": "Within row explicit source/time/field/version scope",
+        "independent_decision_pin": "Exact own file SHA/path",
+        "independent_row_pointer": "Own individual row JSONpointer",
+        "independent_approved_resolution_instruction_pointer": "Within row explicitly approved exact request+rationale instruction",
+        "independent_current_revision_pointer": "Within ownrow exact currentrevision pointer",
+        "independent_individual_scope_pointer": "Within ownrow explicit scope/reading limits"
+      }
+    ]
+  },
+  "checks": [
+    "All2128 actual pending IDs covered once with no unexpected IDs",
+    "Full exact request identity and changed/affected versions match source and independent rows",
+    "Primary instruction exactly equals independent explicitly approved instruction",
+    "No inferred automatic retain/rebind/rationale",
+    "Explicit per-ID scopes/current revision required",
+    "Stage read only; original SHA same after validation",
+    "Write review artifacts only after complete validation; never applies",
+    "Native API includes changes:[] as required by domain.mjs68"
+  ],
+  "compare_helper_assessment": {
+    "pin": {
+      "path": "evaluations/T-0780/root_compare_stage.py",
+      "sha256": "ea1eafbadbf8421890d5bad2c8e080f7241d07db142ce7a320b465d7c940338f"
+    },
+    "amended": false,
+    "reason": "Valid resolution-only native operations require changes:[]; existing helper handles this. Missing changes is invalid and should fail."
+  },
+  "verification": {
+    "AST_parse": "PASS",
+    "builder_execution": "UNRUN",
+    "resolution_operations_built": 0,
+    "runtime_writes": 0
+  },
+  "previous_contract_pin": {
+    "path": "evaluations/T-0780/implementation/actual2128-resolution-builder-input-contract-v1.json",
+    "sha256": "b2367dcb158a9fe4d6ae07fcfafb59561f4155510a6d66fd32010d9200594a83"
+  },
+  "previous_builder_pin": {
+    "path": "evaluations/T-0780/implementation/prepare_complete_approved_actual2128_resolution_operations_TEMPLATE_v1.py",
+    "sha256": "c0ce20b7a45e3c08d49268bb5ce0abff1bfd4bd5e52839e2d74bbaad5236e8b3"
+  },
+  "exact_diff_pin": {
+    "path": "evaluations/T-0780/implementation/actual2128-resolution-builder-v2-exact-diff-v1.patch",
+    "sha256": "7f7a1a5f04bc5e83b95cd2c536439e790fa83b503920fcd661c801b202cd92de"
+  },
+  "mechanical_optimization": "Memoize parsed pinned JSON by resolved(path,sha), reject same path differing hashes; final one-pass hash recheck of all inputs. Exact2128 approval/order/scope/rationale/DB guards unchanged."
+}

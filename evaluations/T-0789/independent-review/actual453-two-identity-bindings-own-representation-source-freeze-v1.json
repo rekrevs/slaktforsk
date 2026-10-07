@@ -1,0 +1,273 @@
+{
+  "task": "T-0789",
+  "phase": "OWN_TWO_IDENTITY_BINDINGS_REPRESENTATION_FREEZE_BEFORE_PRIMARY_COMPARISON",
+  "created_utc": "2026-10-06T10:32:40.391029+00:00",
+  "operation_pin": {
+    "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-one-controlled-operation-v1.json",
+    "sha256": "e34073264fda8de0f4c9ed054afa5f5dbd20e2465508c149e2276ba8b04323e2"
+  },
+  "stage_DB_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/stage.sqlite",
+    "sha256": "c14b718134c9973320440074ebde59ea3997b45699b135fbd2df6be20f567d71"
+  },
+  "code_pin": {
+    "path": "genealogy2/lib/domain.mjs",
+    "sha256": "b4f104f30bda6277c797fc57a538a9c32cf4db5eb0d24423c6d0cb9c64fec25e"
+  },
+  "code_scope": [
+    "lines8 target-kind reference validation",
+    "lines15–16 boundReferences identity includes mention_id ONLY",
+    "lines122–130 revision/data/origin/evidence persistence; explicit evidence current-head version validation",
+    "lines132–139 expectedversion fallback explicit.version then m.bindings[target] then same-op target; insert structural dependency only without explicit evidence"
+  ],
+  "rows": [
+    {
+      "index": 4,
+      "whole_submitted_API": {
+        "id": "ID-T0789-P0007-own-annual-1945",
+        "kind": "identity",
+        "expectedVersion": null,
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Egen May Amalia/Jansson via ditto,20 11/5 ochGondolen2 korrelerar till redan etablerad MajP0007 och tidigare accepterad registreringskedja. Ingen sammanslagning av konkurrerande personer.",
+        "caveat": "Källnamnet May är inte ett beslut om exakt juridisk namnändringsdag. Samma administrativa födelseuppgift är inte oberoende födelsebevis; detta är omnämnandets personkoppling, inte ett nytt passed identitetsgrindsutfall.",
+        "data": {
+          "mention_id": "M-T0789-P0007-own-annual-1945",
+          "person_id": "P-0007",
+          "decision": "accepted"
+        },
+        "origins": [],
+        "evidence": [
+          {
+            "object": "M-T0789-P0007-own-annual-1945",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "object": "O-T0789-P0007-own-annual-1945",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen födelseprofil och fastighetsnyckel."
+          },
+          {
+            "object": "P-0007",
+            "version": 2,
+            "role": "context",
+            "note": "Befintlig accepterad person, ingen revision/merge."
+          }
+        ],
+        "bindings": {
+          "P-0007": 2
+        }
+      },
+      "actual_revision": {
+        "id": "ID-T0789-P0007-own-annual-1945@1",
+        "object_id": "ID-T0789-P0007-own-annual-1945",
+        "version": 1,
+        "operation_id": "T-0789/exact21-own-annual1945-1946-source-adoption-and-current-consequences-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Egen May Amalia/Jansson via ditto,20 11/5 ochGondolen2 korrelerar till redan etablerad MajP0007 och tidigare accepterad registreringskedja. Ingen sammanslagning av konkurrerande personer.",
+        "caveat": "Källnamnet May är inte ett beslut om exakt juridisk namnändringsdag. Samma administrativa födelseuppgift är inte oberoende födelsebevis; detta är omnämnandets personkoppling, inte ett nytt passed identitetsgrindsutfall.",
+        "previous_id": null
+      },
+      "actual_native_identity_data": {
+        "mention_id": "M-T0789-P0007-own-annual-1945",
+        "person_id": "P-0007",
+        "decision": "accepted"
+      },
+      "actual_ordered_dependencies": [
+        {
+          "revision_id": "ID-T0789-P0007-own-annual-1945@1",
+          "basis_revision_id": "M-T0789-P0007-own-annual-1945@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "ID-T0789-P0007-own-annual-1945@1",
+          "basis_revision_id": "O-T0789-P0007-own-annual-1945@1",
+          "role": "supports",
+          "note": "Egen födelseprofil och fastighetsnyckel."
+        },
+        {
+          "revision_id": "ID-T0789-P0007-own-annual-1945@1",
+          "basis_revision_id": "P-0007@2",
+          "role": "context",
+          "note": "Befintlig accepterad person, ingen revision/merge."
+        }
+      ],
+      "actual_native_API_projection": {
+        "id": "ID-T0789-P0007-own-annual-1945",
+        "kind": "identity",
+        "expectedVersion": null,
+        "data": {
+          "mention_id": "M-T0789-P0007-own-annual-1945",
+          "person_id": "P-0007",
+          "decision": "accepted"
+        },
+        "origins": [],
+        "evidence": [
+          {
+            "object": "M-T0789-P0007-own-annual-1945",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "object": "O-T0789-P0007-own-annual-1945",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen födelseprofil och fastighetsnyckel."
+          },
+          {
+            "object": "P-0007",
+            "version": 2,
+            "role": "context",
+            "note": "Befintlig accepterad person, ingen revision/merge."
+          }
+        ],
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Egen May Amalia/Jansson via ditto,20 11/5 ochGondolen2 korrelerar till redan etablerad MajP0007 och tidigare accepterad registreringskedja. Ingen sammanslagning av konkurrerande personer.",
+        "caveat": "Källnamnet May är inte ett beslut om exakt juridisk namnändringsdag. Samma administrativa födelseuppgift är inte oberoende födelsebevis; detta är omnämnandets personkoppling, inte ett nytt passed identitetsgrindsutfall."
+      },
+      "sole_projection_omission": {
+        "bindings": {
+          "P-0007": 2
+        }
+      },
+      "whole_remaining_API_exact": true
+    },
+    {
+      "index": 9,
+      "whole_submitted_API": {
+        "id": "ID-T0789-P0007-own-annual-1946",
+        "kind": "identity",
+        "expectedVersion": null,
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Egen May Amalia/Jansson via ditto,20 11/5 ochGondolen2 korrelerar till redan etablerad MajP0007 och tidigare accepterad registreringskedja. Ingen sammanslagning av konkurrerande personer.",
+        "caveat": "Källnamnet May är inte ett beslut om exakt juridisk namnändringsdag. Samma administrativa födelseuppgift är inte oberoende födelsebevis; detta är omnämnandets personkoppling, inte ett nytt passed identitetsgrindsutfall.",
+        "data": {
+          "mention_id": "M-T0789-P0007-own-annual-1946",
+          "person_id": "P-0007",
+          "decision": "accepted"
+        },
+        "origins": [],
+        "evidence": [
+          {
+            "object": "M-T0789-P0007-own-annual-1946",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "object": "O-T0789-P0007-own-annual-1946",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen födelseprofil och fastighetsnyckel."
+          },
+          {
+            "object": "P-0007",
+            "version": 2,
+            "role": "context",
+            "note": "Befintlig accepterad person, ingen revision/merge."
+          }
+        ],
+        "bindings": {
+          "P-0007": 2
+        }
+      },
+      "actual_revision": {
+        "id": "ID-T0789-P0007-own-annual-1946@1",
+        "object_id": "ID-T0789-P0007-own-annual-1946",
+        "version": 1,
+        "operation_id": "T-0789/exact21-own-annual1945-1946-source-adoption-and-current-consequences-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Egen May Amalia/Jansson via ditto,20 11/5 ochGondolen2 korrelerar till redan etablerad MajP0007 och tidigare accepterad registreringskedja. Ingen sammanslagning av konkurrerande personer.",
+        "caveat": "Källnamnet May är inte ett beslut om exakt juridisk namnändringsdag. Samma administrativa födelseuppgift är inte oberoende födelsebevis; detta är omnämnandets personkoppling, inte ett nytt passed identitetsgrindsutfall.",
+        "previous_id": null
+      },
+      "actual_native_identity_data": {
+        "mention_id": "M-T0789-P0007-own-annual-1946",
+        "person_id": "P-0007",
+        "decision": "accepted"
+      },
+      "actual_ordered_dependencies": [
+        {
+          "revision_id": "ID-T0789-P0007-own-annual-1946@1",
+          "basis_revision_id": "M-T0789-P0007-own-annual-1946@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "ID-T0789-P0007-own-annual-1946@1",
+          "basis_revision_id": "O-T0789-P0007-own-annual-1946@1",
+          "role": "supports",
+          "note": "Egen födelseprofil och fastighetsnyckel."
+        },
+        {
+          "revision_id": "ID-T0789-P0007-own-annual-1946@1",
+          "basis_revision_id": "P-0007@2",
+          "role": "context",
+          "note": "Befintlig accepterad person, ingen revision/merge."
+        }
+      ],
+      "actual_native_API_projection": {
+        "id": "ID-T0789-P0007-own-annual-1946",
+        "kind": "identity",
+        "expectedVersion": null,
+        "data": {
+          "mention_id": "M-T0789-P0007-own-annual-1946",
+          "person_id": "P-0007",
+          "decision": "accepted"
+        },
+        "origins": [],
+        "evidence": [
+          {
+            "object": "M-T0789-P0007-own-annual-1946",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "object": "O-T0789-P0007-own-annual-1946",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen födelseprofil och fastighetsnyckel."
+          },
+          {
+            "object": "P-0007",
+            "version": 2,
+            "role": "context",
+            "note": "Befintlig accepterad person, ingen revision/merge."
+          }
+        ],
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Egen May Amalia/Jansson via ditto,20 11/5 ochGondolen2 korrelerar till redan etablerad MajP0007 och tidigare accepterad registreringskedja. Ingen sammanslagning av konkurrerande personer.",
+        "caveat": "Källnamnet May är inte ett beslut om exakt juridisk namnändringsdag. Samma administrativa födelseuppgift är inte oberoende födelsebevis; detta är omnämnandets personkoppling, inte ett nytt passed identitetsgrindsutfall."
+      },
+      "sole_projection_omission": {
+        "bindings": {
+          "P-0007": 2
+        }
+      },
+      "whole_remaining_API_exact": true
+    }
+  ],
+  "entire_stored_request_equal_original_including_bindings": true,
+  "own_verdict": "ACCEPT bounded input/native representation difference; no source amendment or evidence rebind required.",
+  "precise_semantics": "bindings is input-only, not an identity-table field. IMPORTANT: bindings.P-0007 itself is not the active guard here: identity boundReferences lists mention_id, not person_id. P-0007@2 is actually checked by the explicit context evidence edge in both APIs (domain125–130), and that exact versioned edge persists. Thus do not claim the redundant bindings.P-0007 entry independently enforced person-version validation. Person_id and accepted mention correlation persist exactly; no new person, merge, OWNER/identity-review/life promotion follows.",
+  "source_consequence": "Both own annual mention-to-existing-person correlations and source-dependence caveats remain exact. Removal solely from native comparison projection is justified; retain original full submitted bytes and stored request. This is not authorization to rewrite an operation or to waive any other difference.",
+  "projection_policy": "Exclude only top-level bindings from these two identity native API projections, while separately verifying full raw request and explicit P-0007@2 evidence. No sort/order normalization.",
+  "no_primary_new_representation_candidate_seen": true,
+  "new_originals_read": false,
+  "actual16_requests_graded": false,
+  "ready_for_readonly_capture_with_explicit_projection": true,
+  "runtime_authorized": false,
+  "final_ready_for_canonical": false,
+  "usage": "UNKNOWN"
+}

@@ -1,0 +1,64 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T12:52:40.977865+00:00",
+  "renewed_authorization_pin": {
+    "path": "evaluations/T-0780/root-one-sameclone-individual2128-resolution-runtime-authorization-v2.json",
+    "sha256": "248bf551c5638b0dc8300cc65efd43ef66bc294ba54ccefca2671be41ccf4535"
+  },
+  "stage_actual_state": {
+    "journal_head": 425,
+    "pending": 0
+  },
+  "live_actual_state": {
+    "journal_head": 281,
+    "pending": 0
+  },
+  "actual_stage_DB_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/stage.sqlite",
+    "sha256": "f834633262e88405afd7fb0bc454202e1476c824d88c40618df4d949d772b7bd"
+  },
+  "snapshot_original_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/pre-resolution-stage-original-ae906-v1.sqlite",
+    "sha256": "ae906e23de24bbded3cf392980c9749fe75d8ba6161fec7a92a1fbfdd17fe5ac"
+  },
+  "readonly_comparison_pins": [
+    {
+      "path": "evaluations/T-0780/full10-stage-final143-v1/individual2128-resolution-apply-v1/postapply-stop-readonly-all50-stage-table-state-after-v1.json",
+      "sha256": "0f276b84f2c61258382f69c42d52f50cea85578b937171cd4081ba86bcd26167"
+    },
+    {
+      "path": "evaluations/T-0780/full10-stage-final143-v1/individual2128-resolution-apply-v1/postapply-stop-readonly-ordered-evidence-origins-assets-media-rowid-after-v1.json",
+      "sha256": "64dd824ec2c8c8d320fe8e34c8bdf9e86c61a5c02e61bebd21a8c4af64a41dcf"
+    },
+    {
+      "path": "evaluations/T-0780/full10-stage-final143-v1/individual2128-resolution-apply-v1/postapply-stop-readonly-protected42-after-v1.json",
+      "sha256": "dfea90b7a9a1fbcccf00abe19984752e02b3f013baeeda959d59f5ed0be235c8"
+    },
+    {
+      "path": "evaluations/T-0780/full10-stage-final143-v1/individual2128-resolution-apply-v1/postapply-stop-readonly-live-all50-table-state-after-v1.json",
+      "sha256": "88614481ca56e25ef5909a3e33abfa9a76a2e7ec102ec48dfe550824901b1d11"
+    },
+    {
+      "path": "evaluations/T-0780/full10-stage-final143-v1/individual2128-resolution-apply-v1/postapply-stop-readonly-actual2128-stored-resolution-rows-v1.json",
+      "sha256": "e4f33050db6979ca9f880a5dc0ee83bd63ca37366e828897209eac36cb75eabd"
+    }
+  ],
+  "changed_tables": [
+    "operation",
+    "operation_payload",
+    "review_resolution"
+  ],
+  "all47_knowledge_tables_exact": true,
+  "ordered_rowid_metadata_exact": true,
+  "protected42_exact": true,
+  "all50_live_baseline_exact": true,
+  "stored2128_resolution_order_and_literals_exact": true,
+  "CLI_apply_invocations": 1,
+  "validators": "UNRUN pending explicit renewal",
+  "failing_journal_controlfield_diff_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/individual2128-resolution-apply-v1/failed-post-apply-journal-input-equality-readonly-difference-proof-v1.json",
+    "sha256": "16febd40e0d43dbd852410fe8166ba9b08f61d9c1b0d889e28a8dff93edc7141"
+  },
+  "source_or_controlfield_effect_grade": "Astra pending",
+  "no_reapply_or_runtime_mutation": true
+}

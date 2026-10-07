@@ -1,0 +1,54 @@
+{
+  "task": "T-0789",
+  "status": "PRIMARY_EXACT_SPEC_PENDING_COMPARATIVE_AND_ACTUAL_BUILD",
+  "own_freeze_pin": {
+    "path": "evaluations/T-0789/source-review/primary-own-bounded-access-current-consequence-freeze-v1.json",
+    "sha256": "9294e7ecff75a7515c4777f698d50f39e663deaf5ae44d25198d52613034ce79"
+  },
+  "expected_new": 1,
+  "expected_revisions": 0,
+  "full_new_API": {
+    "id": "SEARCH-T0789-Maj-1945-1946-own-register-access",
+    "expectedVersion": null,
+    "kind": "search",
+    "disposition": "recorded",
+    "evidenceStatus": null,
+    "rationale": "T-0789: explicit avgränsad daterad åtkomstobservation, utan nytt originalinnehåll eller ny personbedömning. Root observerade externa svar; primärAstra bedömde bevarade råresultat.",
+    "caveat": "Original mottagna/lästa0. Historiska hash-/manifest-/viewermetadata är routing och äldre proveniens, inte egen ny källäsning. HTTP401/login är ett tillfälligt provutfall, inte permanent otillgänglighet eller käll-/personnoll. All befintlig kunskap och granskningsnivå bevaras.",
+    "data": {
+      "question_id": null,
+      "source_id": "S-0689",
+      "scope_json": {
+        "description": "P-0007 May Amalia Jansson1920-05-11, Mejseln3/Gondolen2; högst en egen post1945 och en1946 samt relevant egetregister.",
+        "query": "Bevarade manifest AIIc33/1945 Mantalsregister-J start00023815_00098 och AIIc34/1946 start00023816_00106; exakt vardera publicfullmax och egen visarsida.",
+        "date": "2026-10-06",
+        "persons": [
+          "P-0007"
+        ],
+        "new_originals_received_or_read": 0,
+        "bounded_task": "T-0789"
+      },
+      "outcome": "access_problem",
+      "body": "T-0789, daterat åtkomstprov2026-10-06. Målet är Maj P-0007:s egna mantalsrader1945 och1946, inte makens redan lästa C0883rader. Bevarade manifest anger Mantalsregister-J-ingångarna00023815_00098 för Södertälje AIIc33/1945 och00023816_00106 för AIIc34/1946. Detta är exakt metadata för registerstarter, inte lokalisering av Majs egen personrad. Arnes s96/104 och bilder99/107 används inte som hennes egna träffar.\n\nRoot prövade båda exakta offentliga fullmax-adresserna med respektive visarsidas Referer; båda gav HTTP401. Chromevisarna nådde inloggning:1945 års initiala AX-fel följdes av verifierad exakt login-URL/titel i tablistan,1946 års egen AX visade login med tomma fält. Inga originalbytes mottogs och inget register eller egen Majrad lästes. PrimärAstra bedömer de bevarade rootobservationerna, inte egen browser- eller originalläsning.\n\nUtfall: tillfälligt åtkomstproblem för båda årsregisteringångarna. Ingen personnoll, digitaliseringsgräns eller källuttömning. Efter fungerande tillåten inloggning återstår att öppna just registeringångarna och lokalisera May Amalia1920-05-11 separat per år med Mejseln3/Gondolen2 som befintliga nycklar; högst en egen målpost per år och relevant egetregister inom T-0789.\n\nMajs exakt återbrukade T-0784-granskning och failed/waiting, alla övriga PK/PATH/KEY/OWNER-/relation-/livsbeslut samt accepterat gravkort AUDIT-T0676-20 behålls. Graven öppnas inte om och ger inte eget1945/46belägg. T-0789 äger enbart denna mantalsdel; T-0379:s andra delar bevaras. Wotan ensam anger aktuell blockering och återstart."
+    },
+    "origins": [],
+    "evidence": [
+      {
+        "object": "S-0689",
+        "version": 1,
+        "role": "context",
+        "note": "Exakt befintlig arkivrutt; äldre beskrivning återbrukas som routing utan ny åtkomst-/innehållsclaim."
+      }
+    ],
+    "bindings": {
+      "S-0689": 1
+    }
+  },
+  "current_disposition": "Retain all existingnative/source/record/person/relation/OWNER/PK/PATH/KEY/review/life andorderedmetadata unchanged. No source/contentchanged; no dependentnativecorrection or rebind.",
+  "guards": [
+    "NewID absent, expectedVersionnull.",
+    "All citedsource/recordheads exact1, whole currentunchanged from current444 lock.",
+    "If ownerlogin yields new actualsourceaccess beforefinalgate, preserveinitialspec and return to source role."
+  ],
+  "canonical_authorized": false
+}

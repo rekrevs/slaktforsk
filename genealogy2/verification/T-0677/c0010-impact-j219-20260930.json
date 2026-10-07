@@ -1,0 +1,1412 @@
+{
+  "command": "node genealogy2/cli.mjs impact C-0010",
+  "exit": 0,
+  "payload": {
+    "format": "genealogy2-impact/1",
+    "input": "C-0010",
+    "query": null,
+    "database_state": {
+      "operations": 220,
+      "revisions": 47599,
+      "last_operation": {
+        "sequence": 219,
+        "operation_id": "T-0677/C0009-person-v1"
+      }
+    },
+    "seeds": [
+      {
+        "object_id": "R-60a1fe99c7fbb5b19e91c547",
+        "revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "routes": [
+          {
+            "type": "citation_representation",
+            "via_object": "R-60a1fe99c7fbb5b19e91c547"
+          },
+          {
+            "type": "citation_representation",
+            "via_object": "READ-69c73a1cf4324136be2128c3"
+          }
+        ]
+      }
+    ],
+    "routing_limit": "C-id maps to bounded records through import representations; this routing is provenance, not source support. No record mapping means no inferred dependency graph.",
+    "dependencies": {
+      "current": [
+        {
+          "object_id": "E-death-P-0003",
+          "revision_id": "E-death-P-0003@2",
+          "version": 2,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "E-death-P-0003@2",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "E-death-P-0003@2",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "E-death-P-0007",
+          "revision_id": "E-death-P-0007@2",
+          "version": 2,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "E-death-P-0007@2",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "E-death-P-0007@2",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "EP-E-death-P-0003-P-0003-deceased",
+          "revision_id": "EP-E-death-P-0003-P-0003-deceased@2",
+          "version": 2,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 2,
+          "path": [
+            {
+              "revision_id": "E-death-P-0003@2",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            },
+            {
+              "revision_id": "EP-E-death-P-0003-P-0003-deceased@2",
+              "basis_revision_id": "E-death-P-0003@2",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "EP-E-death-P-0003-P-0003-deceased@2",
+              "basis_revision_id": "E-death-P-0003@2",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "EP-E-death-P-0007-P-0007-principal",
+          "revision_id": "EP-E-death-P-0007-P-0007-principal@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 2,
+          "path": [
+            {
+              "revision_id": "E-death-P-0007@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            },
+            {
+              "revision_id": "EP-E-death-P-0007-P-0007-principal@1",
+              "basis_revision_id": "E-death-P-0007@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: event_id"
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "EP-E-death-P-0007-P-0007-principal@1",
+              "basis_revision_id": "E-death-P-0007@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: event_id"
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0003-C0010-death",
+          "revision_id": "O-P-0003-C0010-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0003-C0010-death@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0003-C0010-death@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0003-C0010-father",
+          "revision_id": "O-P-0003-C0010-father@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0003-C0010-father@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0003-C0010-father@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0007-ancestry-children",
+          "revision_id": "O-P-0007-ancestry-children@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0007-ancestry-children@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0007-ancestry-children@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0007-ancestry-death",
+          "revision_id": "O-P-0007-ancestry-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0007-ancestry-death@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0007-ancestry-death@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0009-C0010-reported-death",
+          "revision_id": "O-P-0009-C0010-reported-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0009-C0010-reported-death@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0009-C0010-reported-death@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0010-C0010-name",
+          "revision_id": "O-P-0010-C0010-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0010-C0010-name@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0010-C0010-name@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "READ-69c73a1cf4324136be2128c3",
+          "revision_id": "READ-69c73a1cf4324136be2128c3@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "READ-69c73a1cf4324136be2128c3@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "READ-69c73a1cf4324136be2128c3@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        }
+      ],
+      "historical": [
+        {
+          "object_id": "E-death-P-0003",
+          "revision_id": "E-death-P-0003@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": false,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "E-death-P-0003@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "E-death-P-0003@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "E-death-P-0007",
+          "revision_id": "E-death-P-0007@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": false,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "E-death-P-0007@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "E-death-P-0007@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "EP-E-death-P-0003-P-0003-deceased",
+          "revision_id": "EP-E-death-P-0003-P-0003-deceased@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": false,
+          "classification": "registered_version_dependency",
+          "distance": 2,
+          "path": [
+            {
+              "revision_id": "E-death-P-0003@1",
+              "basis_revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            },
+            {
+              "revision_id": "EP-E-death-P-0003-P-0003-deceased@1",
+              "basis_revision_id": "E-death-P-0003@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "EP-E-death-P-0003-P-0003-deceased@1",
+              "basis_revision_id": "E-death-P-0003@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        }
+      ]
+    },
+    "provenance": {
+      "classification": "import_provenance_not_evidence",
+      "origins": [
+        {
+          "revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+          "unit_id": "504ef0c3043d36d6e78147b9208a3e88d967c5c338e746e83183aa76cae4f43e",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-60a1fe99c7fbb5b19e91c547",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0010-ancestry-arne-godvig-jansson.md",
+          "start_line": 9,
+          "end_line": 27,
+          "historical": 0,
+          "sha256": "e4e1e077ed8b24f143fc46466f6e73b350a5eca8e192381f1cf6b5f005932c3d"
+        },
+        {
+          "revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+          "unit_id": "8b9cc31075dcec520bbe34d9ef18843df5d61bf68194c205e7f9e3069d421785",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-60a1fe99c7fbb5b19e91c547",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0010-ancestry-arne-godvig-jansson.md",
+          "start_line": 1,
+          "end_line": 31,
+          "historical": 0,
+          "sha256": "e4e1e077ed8b24f143fc46466f6e73b350a5eca8e192381f1cf6b5f005932c3d"
+        },
+        {
+          "revision_id": "READ-69c73a1cf4324136be2128c3@1",
+          "unit_id": "504ef0c3043d36d6e78147b9208a3e88d967c5c338e746e83183aa76cae4f43e",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-69c73a1cf4324136be2128c3",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0010-ancestry-arne-godvig-jansson.md",
+          "start_line": 9,
+          "end_line": 27,
+          "historical": 0,
+          "sha256": "e4e1e077ed8b24f143fc46466f6e73b350a5eca8e192381f1cf6b5f005932c3d"
+        },
+        {
+          "revision_id": "READ-69c73a1cf4324136be2128c3@1",
+          "unit_id": "8b9cc31075dcec520bbe34d9ef18843df5d61bf68194c205e7f9e3069d421785",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-69c73a1cf4324136be2128c3",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0010-ancestry-arne-godvig-jansson.md",
+          "start_line": 1,
+          "end_line": 31,
+          "historical": 0,
+          "sha256": "e4e1e077ed8b24f143fc46466f6e73b350a5eca8e192381f1cf6b5f005932c3d"
+        }
+      ],
+      "targets": []
+    },
+    "search": {
+      "matching": "Case-sensitive literal phrase; identifiers require boundaries. No stemming, date normalization or semantic matching.",
+      "terms": [
+        {
+          "value": "C-0010",
+          "source": "identifier",
+          "boundary": true
+        },
+        {
+          "value": "R-60a1fe99c7fbb5b19e91c547",
+          "source": "identifier",
+          "boundary": true
+        }
+      ]
+    },
+    "text_candidates": {
+      "current": [
+        {
+          "object_id": "BIO-P-0003",
+          "revision_id": "BIO-P-0003@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 2654,
+              "line": 13,
+              "occurrences": 1,
+              "excerpt": "är sonens uppgift; gravplatsen och den sekundära adressen Järpstigen 27 avgör inte dödsplatsen (C-0923/C-0266/C-0010).\n\n\n\nT-0675 källgranskningsnot: Berättelsens hushållsår, roller och huvudkedja består. I förekommande fall är",
+              "excerpt_start": 2544
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "BIO-P-0009",
+          "revision_id": "BIO-P-0009@3",
+          "version": 3,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 3811,
+              "line": 11,
+              "occurrences": 2,
+              "excerpt": "ister-om-arne-anki-och-sidogrenar.md), [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md), [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md)).\n\n",
+              "excerpt_start": 3701
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0003-c7aececa0140",
+          "revision_id": "KEY-P-0003-c7aececa0140@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 1191,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "kas):\n| Död 1993-07-31, Järpstigen 27, Södertälje; Södertälje lasarett | Grav, dödbok, bouppteckning 1993. | [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md), [C-0266](../citations/C-0266-jan-christer-slaktkronika",
+              "excerpt_start": 1081
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0009-41f0a3457219",
+          "revision_id": "KEY-P-0009-41f0a3457219@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 56,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| Död 1961 | Döds-/gravväg efter säkrare platsnyckel | [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md) | LEAD utan dag, ort eller land. |\n",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0003-C0010-death",
+          "revision_id": "O-P-0003-C0010-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-60a1fe99c7fbb5b19e91c547",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-60a1fe99c7fbb5b19e91c547",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0003-C0010-father",
+          "revision_id": "O-P-0003-C0010-father@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-60a1fe99c7fbb5b19e91c547",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-60a1fe99c7fbb5b19e91c547",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0007-ancestry-children",
+          "revision_id": "O-P-0007-ancestry-children@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-60a1fe99c7fbb5b19e91c547",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-60a1fe99c7fbb5b19e91c547",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0007-ancestry-death",
+          "revision_id": "O-P-0007-ancestry-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-60a1fe99c7fbb5b19e91c547",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-60a1fe99c7fbb5b19e91c547",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0009-C0010-reported-death",
+          "revision_id": "O-P-0009-C0010-reported-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-60a1fe99c7fbb5b19e91c547",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-60a1fe99c7fbb5b19e91c547",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0010-C0010-name",
+          "revision_id": "O-P-0010-C0010-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-60a1fe99c7fbb5b19e91c547",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-60a1fe99c7fbb5b19e91c547",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0003/Q-06",
+          "revision_id": "P-0003/Q-06@2",
+          "version": 2,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 1469,
+              "line": 7,
+              "occurrences": 1,
+              "excerpt": " och gravsättning 1994-06-06, Södertälje kyrkogård 106 0238, med namn/födelsedatum och gemensam grav med Maj. C-0010 har samma dödsdag och adressJärpstigen 27; C-0266 uppger lasarett och pankreatit.\n- Alternativ och motprövnin",
+              "excerpt_start": 1359
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0009/Q-02",
+          "revision_id": "P-0009/Q-02@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 143,
+              "line": 4,
+              "occurrences": 1,
+              "excerpt": " Fråga och betydelse: Säkra livslinjens slutpunkt och ort innan eventuell bouppteckningsväg.\n- Känt underlag: C-0010 anger 1961; C-0923 prövar två exakta namnfrågor utan gravträff. Äldre profil redovisar även andra grav-/Digit",
+              "excerpt_start": 33
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "R-60a1fe99c7fbb5b19e91c547",
+          "revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": true,
+          "hits": [
+            {
+              "field": "rationale",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 21,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Källpost avgränsad i C-0010. Ursprung bakom släktträdets påståenden framgår inte; separat webbplats är inte visat informationsoberoende.",
+              "excerpt_start": 0
+            },
+            {
+              "field": "caveat",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 97,
+              "line": 2,
+              "occurrences": 1,
+              "excerpt": "Profilens Documents 0; synliga familjefakta är sekundära uppgifter, inte primärkällverifikation.\nC-0010: Profiluppgifter om födelse, död och familj bevaras som profiltext. Faderskap måste läsas med ägarbeslutet i ",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "READ-69c73a1cf4324136be2128c3",
+          "revision_id": "READ-69c73a1cf4324136be2128c3@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "subject_id",
+              "term": "R-60a1fe99c7fbb5b19e91c547",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-60a1fe99c7fbb5b19e91c547",
+              "excerpt_start": 0
+            },
+            {
+              "field": "body",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "C-0010: Profiluppgifter om födelse, död och familj bevaras som profiltext. Faderskap måste läsas med ägarbeslutet i ",
+              "excerpt_start": 0
+            },
+            {
+              "field": "rationale",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 43,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Dokumenterad avgränsning och läshistorik i C-0010; ingen ny oberoende evidensröst.",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "S-0025",
+          "revision_id": "S-0025@1",
+          "version": 1,
+          "kind": "source",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "description",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 427,
+              "line": 13,
+              "occurrences": 1,
+              "excerpt": " som familjeuppgift men skiljs från ett historiskt\nfaderskapsbevis. Den överensstämmer med Ancestry-ledtråden C-0010.\n\n",
+              "excerpt_start": 317
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0009-HAL",
+          "revision_id": "THEME-P-0009-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 93,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "| HAL | ÖPPET | Död 1961 endast sekundär; inga egna medicinska eller begravningsuppgifter. | C-0010/C-0923; KP-02/KP-04 |\n",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        }
+      ],
+      "historical": [
+        {
+          "object_id": "BIO-P-0003",
+          "revision_id": "BIO-P-0003@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 2654,
+              "line": 13,
+              "occurrences": 1,
+              "excerpt": "är sonens uppgift; gravplatsen och den sekundära adressen Järpstigen 27 avgör inte dödsplatsen (C-0923/C-0266/C-0010).\n\n",
+              "excerpt_start": 2544
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0009",
+          "revision_id": "BIO-P-0009@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 3709,
+              "line": 11,
+              "occurrences": 2,
+              "excerpt": "ister-om-arne-anki-och-sidogrenar.md), [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md), [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md)).\n\n",
+              "excerpt_start": 3599
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0009",
+          "revision_id": "BIO-P-0009@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 3710,
+              "line": 11,
+              "occurrences": 2,
+              "excerpt": "ister-om-arne-anki-och-sidogrenar.md), [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md), [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md)).\n\n",
+              "excerpt_start": 3600
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "KEY-P-0003-c7aececa0140",
+          "revision_id": "KEY-P-0003-c7aececa0140@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 104,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| Död 1993-07-31, Järpstigen 27, Södertälje; Södertälje lasarett | Grav, dödbok, bouppteckning 1993. | [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md), [C-0266](../citations/C-0266-jan-christer-slaktkronika",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "P-0003/Q-06",
+          "revision_id": "P-0003/Q-06@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0010",
+              "term_source": "identifier",
+              "offset": 382,
+              "line": 4,
+              "occurrences": 1,
+              "excerpt": " och gravsättning 1994-06-06, Södertälje kyrkogård 106 0238, med namn/födelsedatum och gemensam grav med Maj. C-0010 har samma dödsdag och adressJärpstigen 27; C-0266 uppger lasarett och pankreatit.\n- Alternativ och motprövnin",
+              "excerpt_start": 272
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        }
+      ]
+    },
+    "review": {
+      "items": [
+        {
+          "object_id": "BIO-P-0003",
+          "revision_id": "BIO-P-0003@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "BIO-P-0009",
+          "revision_id": "BIO-P-0009@3",
+          "version": 3,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "E-death-P-0003",
+          "revision_id": "E-death-P-0003@2",
+          "version": 2,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "E-death-P-0007",
+          "revision_id": "E-death-P-0007@2",
+          "version": 2,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "EP-E-death-P-0003-P-0003-deceased",
+          "revision_id": "EP-E-death-P-0003-P-0003-deceased@2",
+          "version": 2,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "EP-E-death-P-0007-P-0007-principal",
+          "revision_id": "EP-E-death-P-0007-P-0007-principal@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0003-c7aececa0140",
+          "revision_id": "KEY-P-0003-c7aececa0140@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0009-41f0a3457219",
+          "revision_id": "KEY-P-0009-41f0a3457219@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0003-C0010-death",
+          "revision_id": "O-P-0003-C0010-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0003-C0010-father",
+          "revision_id": "O-P-0003-C0010-father@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0007-ancestry-children",
+          "revision_id": "O-P-0007-ancestry-children@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0007-ancestry-death",
+          "revision_id": "O-P-0007-ancestry-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0009-C0010-reported-death",
+          "revision_id": "O-P-0009-C0010-reported-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0010-C0010-name",
+          "revision_id": "O-P-0010-C0010-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0003/Q-06",
+          "revision_id": "P-0003/Q-06@2",
+          "version": 2,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0009/Q-02",
+          "revision_id": "P-0009/Q-02@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "R-60a1fe99c7fbb5b19e91c547",
+          "revision_id": "R-60a1fe99c7fbb5b19e91c547@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "READ-69c73a1cf4324136be2128c3",
+          "revision_id": "READ-69c73a1cf4324136be2128c3@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "import_origin_not_evidence",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "S-0025",
+          "revision_id": "S-0025@1",
+          "version": 1,
+          "kind": "source",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0009-HAL",
+          "revision_id": "THEME-P-0009-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        }
+      ],
+      "instructions": "Read inspect for each current object and its evidence. Record a reasoned decision in the active Wotan task / authorized operation. Revise through apply only when warranted; resolve only the exact existing pending request after individual review. Text/provenance candidates do not create requests. Null decisions are unreviewed, never approvals."
+    },
+    "limitations": [
+      "Read-only snapshot, not an execution queue. Re-run after revisions.",
+      "Text matches cannot establish copied facts, identity, error, relevance or support. Current text may contain historical retractions.",
+      "Unlinked paraphrases or different date/name spellings may be missed; supply relevant --query variants and inspect affected person profiles.",
+      "No query mutates data, adds evidence, opens/closes reviews or certifies complete semantic coverage."
+    ]
+  }
+}

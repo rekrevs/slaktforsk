@@ -1,0 +1,35 @@
+{
+  "task": "T-0789",
+  "root_authorized": true,
+  "phase": "BOUNDED_ACTUAL16_TWO_OWN_FREEZES_COMPARATIVE_RELEASE_ONLY",
+  "created_utc": "2026-10-06T10:39:23.839045+00:00",
+  "primary_own_pin": {
+    "path": "evaluations/T-0789/source-review/actual16-own-primary-current-source-path-and-individual-disposition-freeze-v1.json",
+    "sha256": "ca33a15a9407c2aa076bce4f8b2b85d27b39734c7e6baad05e80ad8ceb6ca373"
+  },
+  "independent_own_pin": {
+    "path": "evaluations/T-0789/independent-review/actual16-own-individual-source-consequence-and-literal-instructions-freeze-v1.json",
+    "sha256": "b2f6989b6f22ef78f8072dad1fa493c812d18389ad2bd9cf8282e497578a8731"
+  },
+  "actual_handoff_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/readonly-bindings-projection-continuation-v1/complete-exact21-stage-result-and-Astra-handoff-v1.json",
+    "sha256": "48a2e147acdd02b3a6d0f540773a0d2517f295ce0febf20bb300ac6c6062318a"
+  },
+  "actual_stage_DB_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/stage.sqlite",
+    "sha256": "c14b718134c9973320440074ebde59ea3997b45699b135fbd2df6be20f567d71"
+  },
+  "actual_state": {
+    "journal_head": 453,
+    "pending": 16
+  },
+  "checks": {
+    "actual16_literal_request_order_current_retain_equal": true,
+    "two_own_freezes_before_comparison": true,
+    "own_source_reasons_retain_dated_historical_paths": true
+  },
+  "authorized_next": "Compare EACH16 source reason and old/current path; primary emits explicit literal native changes:[] dependencyReviewVersion:2 resolve:[request,rationale] source authority; independent approves exact selected primary literals only after own judgments. No blanket inference.",
+  "runtime_authorized": false,
+  "resolver_build_authorized": false,
+  "canonical_authorized": false
+}

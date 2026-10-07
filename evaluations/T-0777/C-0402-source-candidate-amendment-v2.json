@@ -1,0 +1,30 @@
+{
+  "task": "T-0777",
+  "basis": "source-review/C-0402-source-amendment-v2.json",
+  "classification": "PRIMARY_SOURCE_REJECTED_READING_CORRECTED_NOT_SOL_IMPLEMENTATION_MISMATCH",
+  "preserved_first_candidate_sha256": "ea2a3530d7e4d77911a9dae59681b17bb5b9977763550154b39aba37d94445d4",
+  "new_candidate_sha256": "3ac8e5ede73362159c1176f7a8583c5ede2d01b1f9263d80c6c7d728d110ac5a",
+  "changes": [
+    {
+      "id": "TR-T0777-C0402-fullfields",
+      "field": "data.text",
+      "old": "d. Hildur Charlotta",
+      "new": "d. Hildur Elisabetta",
+      "match_count": 1
+    },
+    {
+      "id": "AUDIT-T0777-C0402",
+      "field": "data.body",
+      "old": "HildurCharlotta1878",
+      "new": "HildurElisabetta1878 + explicit display-source distinction",
+      "match_count": 1
+    },
+    {
+      "id": "ADOPT-T0777-C0402-P-0070",
+      "field": "data.body.source_name+caveat",
+      "old": "Hildur Charlotta",
+      "new": "Hildur Elisabetta + exact source/display distinction",
+      "match_count": 1
+    }
+  ]
+}

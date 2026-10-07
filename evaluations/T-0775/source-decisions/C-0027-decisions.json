@@ -1,0 +1,128 @@
+{
+  "citation": "C-0027",
+  "source_decision": "settled_with_reservations",
+  "native_changes": [
+    {
+      "id": "R-18df18d44d81e11a21a93743",
+      "expectedVersion": 1,
+      "action": "append_caveat_and_bind_full_extraction",
+      "text": "T0775fullradskontroll30–33: tryckt kolumnm innehåller353/572/X−/lodrätt fortsättningsstreck; administrativa råkoder avkodas inte till moderns kyrkobokföringsort. Katy yrkestecken kontrollerat men oavgjort. Borderink och kodrester dokumenterade separat utan personstatus.69— förblir råcell utan dokumenterad enhet."
+    },
+    {
+      "id": "O-P-0010-C0027-own-row",
+      "expectedVersion": 1,
+      "action": "patch_value_json",
+      "remove_keys": [
+        "birthPlaceCode"
+      ],
+      "set_keys": {
+        "columnMRaw": "353",
+        "birthPlaceRaw": "Värsås Skarab.l.",
+        "communionRaw": "u-lik markering",
+        "arrivalPlaceCodeRaw": "572",
+        "occupationAdministrativeTrace": "Övre kod-/sifferstreck överlappar föregående rad; exakt följd och attribution reserverad"
+      },
+      "reason": "353 står under tryckt m-rubrik och är oavkodad; bevara talet utan påstådd säkert identifierad kodtyp. Övriga värden/koder består."
+    },
+    {
+      "id": "O-P-0012-C0027-own-row",
+      "expectedVersion": 1,
+      "action": "patch_value_json",
+      "remove_from_empty": [
+        "moderns kyrkobokföringsort"
+      ],
+      "set_keys": {
+        "columnMRaw": "X−"
+      },
+      "reason": "Egen32rad har synligX−, inte tom m-cell; ingen moderns ort härleds ur märket."
+    },
+    {
+      "id": "O-P-0014-C0027-own-row",
+      "expectedVersion": 1,
+      "action": "patch_value_json",
+      "set_keys": {
+        "columnMRaw": "lodrätt fortsättnings-/dittoliknande streck; ingen avkodning"
+      },
+      "reason": "Egen33rad har lodrätt spår under LucysX−; bevara råspår separat från tom egen bokhänvisning."
+    },
+    {
+      "id": "THEME-P-0011-ID",
+      "expectedVersion": 1,
+      "action": "replace_exact_span",
+      "before": "ursprunget — föräldrar, födelseförsamling och uppväxt — är helt okänt",
+      "after": "föräldrar och uppväxt är okända; Oskarshamn är uppgiven födelseort på egen SCB-rad1930, medan egen födelsepost och säker församlingstillhörighet vid födelsen återstår att pröva"
+    },
+    {
+      "id": "RESEARCH-P-0011-9d76f0343410",
+      "expectedVersion": 3,
+      "action": "replace_exact_span",
+      "before": "föräldrar, födelseförsamling och uppväxt saknas.",
+      "after": "föräldrar och uppväxt saknas. Oskarshamn är redan uppgiven födelseort i hennes egen SCB-rad1930; egen födelsepost och säker församlingstillhörighet vid födelsen är ännu oprövade.",
+      "also_replace": {
+        "sin ena olästa cell": "sitt kontrollerade men oavgjorda yrkestecken"
+      }
+    },
+    {
+      "id": "E-birth-P-0011",
+      "expectedVersion": 1,
+      "action": "replace_caveat",
+      "text": "Egen födelsepost är inte läst; accepterat datum kommer från egen vigselrad. Oskarshamn är uppgiven födelseort i SCB1930, utan oberoende födelseboksbekräftelse."
+    },
+    {
+      "id": "EP-E-birth-P-0011-P-0011-child",
+      "expectedVersion": 1,
+      "action": "replace_caveat",
+      "text": "Egen födelsepost är inte läst; accepterat datum kommer från egen vigselrad. Oskarshamn är uppgiven födelseort i SCB1930, utan oberoende födelseboksbekräftelse."
+    },
+    {
+      "id": "P-0010/Q-04",
+      "expectedVersion": 2,
+      "action": "replace_exact_span",
+      "before": "födelseortskoden `353`",
+      "after": "råkoden `353` i den tryckta m-kolumnen (kodens typ/nyckel ej fastställd)"
+    }
+  ],
+  "retain_specific": [
+    {
+      "id": "O-P-0011-C0027-own-row",
+      "version": 1,
+      "reason": "572raw, occupation unread, gift,98/Oskarshamn, communion och school5 består. Vigsel/arrival23 är dittoburen normalisering; precisera rawditto utan ny dag."
+    },
+    {
+      "id": "O-P-0011-C0027-arrival",
+      "version": 1,
+      "reason": "Dittoburen Oskarshamn1923 består och exactDate:null är korrekt."
+    },
+    {
+      "id": "O-P-0010-C0027-wife-place",
+      "version": 1,
+      "reason": "Oskarshamn står tydligt i Katys egen födelseortscell."
+    },
+    {
+      "id": "PATH-P-0011-KP-02",
+      "version": 1,
+      "reason": "Oskarshamn som förstahandsalternativ från SCB och oberoende födelsebok öppen är redan korrekt. Ingen ny födelseboksläsning eller ny utförandeuppgift."
+    },
+    {
+      "id": "THEME-P-0011-ARB",
+      "version": 2,
+      "reason": "Ställning-i-yrket-tecknet förblir oavgjort efter faktisk kontroll. Kontorsbiträde1923 kommer från annat belägg och består."
+    }
+  ],
+  "copy_search": [
+    "födelseortskod +353",
+    "moderns kyrkobokföringsort +tom/empty",
+    "Katy +helt okänt/saknas +födelse",
+    "olästa yrkescell / olästa cell +1930",
+    "6900 /6 900"
+  ],
+  "impact_people": [
+    "P-0010",
+    "P-0011",
+    "P-0012",
+    "P-0014"
+  ],
+  "gates": "OWNER_CONFIRMED faderskap inklusive ej avbildadAnn-Catherine består; ingen ålderskonflikt Maj1927/1925 löses genom samma original igen. Ingen identitets-/tree-/life-reviewuppgradering.",
+  "coverage": "Alla fyra målraders fulla18fält kontrollerade samt administrativa gränsspår. Avskrift och koder hålls skilda från återbrukad identitet och normaliserad datering.",
+  "implementation_note": "Råfältsaudit+4personadoptions kan införas; hela gamla R/READ-provenansen bevaras. Läs/klassificera ytterligare dependency/current-copyträffar individuellt; kom tillbaka med sakfrågor."
+}

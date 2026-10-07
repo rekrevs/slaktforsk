@@ -1,0 +1,162 @@
+{
+  "case": "C",
+  "logical_unit": 3,
+  "max_claims": 6,
+  "claims": [
+    {
+      "id": "C-013",
+      "object": "KEY-P-0010-0c0ade41f877@1",
+      "field": "body",
+      "start": 290,
+      "end": 325,
+      "quote": "Säker; dopdagen tillkom 2026-09-08.",
+      "old_support": [
+        "E-birth-P-0010@1 date_json",
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "This current searchkey’s certaintycell must distinguish the confirmedSCBbirth from the older baptismcorrection, retaining exact1May but not falsely claiming a currentbaptismfield.",
+      "before": "Säker; dopdagen tillkom 2026-09-08.",
+      "after": "Födelsen stöds av egen dag och år/månadsankare. Dopdagen 1886-05-01 tillkom som äldre rättelse 2026-09-08 och är inte nyavläst i SCB-raden; direkt ursprungsbelägg behöver spåras utan att den äldre uppgiften raderas.",
+      "affected_copies": [
+        "E-baptism-P-0010@1",
+        "BIO-P-0010@5",
+        "BIO-P-0020@1",
+        "RESEARCH-P-0010-9d76f0343410@1",
+        "KEY-P-0010-0c0ade41f877@1",
+        "THEME-P-0010-ID@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-014",
+      "object": "THEME-P-0010-ID@1",
+      "field": "body",
+      "start": 21,
+      "end": 47,
+      "quote": "Egen födelse- och dopnotis",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "E-baptism-P-0010@1 date_json"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "This source-class formulation gives the currentSCB a baptismnotis which its actualheaders/remarks do not provide. Keep olderdop1May and reciprocalidentitychain, while separating observedbirth from reusedolderbaptismknowledge.",
+      "before": "Egen födelse- och dopnotis",
+      "after": "Egen SCB-födelsepost och separat återbrukad äldre dopuppgift",
+      "affected_copies": [
+        "E-baptism-P-0010@1",
+        "BIO-P-0010@5",
+        "BIO-P-0020@1",
+        "RESEARCH-P-0010-9d76f0343410@1",
+        "KEY-P-0010-0c0ade41f877@1",
+        "THEME-P-0010-ID@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-015",
+      "object": "BIO-P-0020@1",
+      "field": "markdown",
+      "start": 1270,
+      "end": 1370,
+      "quote": "Födelseposten anger Pers ålder till 36 och Augustas till 22, enligt den lokala omläsningen i C-0023.",
+      "old_support": [
+        "O-P-0010-C0023-parent-ages@1 value_json + value_literal0:26",
+        "E-birth-P-0020@1 date_json1850-03-18",
+        "E-birth-P-0021@1 date_json1863-06-24"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Preserve the old explicitly corrected36 and separate mother22, rather than promoting weaknew30. Currentprose needs the actually discoveredheader/striking boundary; source-specific ageattribution is not automatically a new parentbirth event. Older accepted1850date independently makes36consistent, but doesnot change the printedcolumnheader.",
+      "before": "Födelseposten anger Pers ålder till 36 och Augustas till 22, enligt den lokala omläsningen i C-0023.",
+      "after": "Den äldre lokala omläsningen i C-0023 återger Pers ålder som 36 och Augustas som 22. Den nya svagare bildläsningen av det strukna övre talet 36/30[?] upphäver inte den äldre uttryckliga 36-rättelsen. Talet står på faderdelraden under rubriken för moderns sist fyllda ålder; dess direkta tillskrivning är därför inte en ny säker fadersåldersavläsning. Moderns eget 22 är läst.",
+      "affected_copies": [],
+      "remaining_question": "Upper36numericoldercorrection kept; directsemantic attribution under motherageheader unresolved. No newparentbirthdate."
+    },
+    {
+      "id": "C-016",
+      "object": "BIO-P-0010@5",
+      "field": "markdown",
+      "start": 166,
+      "end": 174,
+      "quote": "då 36 år",
+      "old_support": [
+        "E-birth-P-0020@1 date_json1850-03-18",
+        "O-P-0010-C0023-parent-ages@1 value_jsonfatherAge36/rejected30"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "The old accepted1850-03-18 date yields completedage36 at1886-04-19, agreeing with the stronger explicit older36 correction. Weaknewupperglyph36/30? doesnot erase that oldage. Treat this biographyage as reusedolderdate/ageknowledge, not a newly unstruckfathercell under the motherageheader.",
+      "before": "då 36 år",
+      "after": "då 36 år",
+      "affected_copies": [],
+      "remaining_question": "Upper36numericoldercorrection kept; directsemantic attribution under motherageheader unresolved. No newparentbirthdate."
+    },
+    {
+      "id": "C-017",
+      "object": "O-P-0010-C0023-parent-ages@1",
+      "field": "value_literal",
+      "start": 0,
+      "end": 26,
+      "quote": "Fadern 36 år; modern 22 år",
+      "old_support": [
+        "O-P-0010-C0023-parent-ages@1 value_json + revision.caveat",
+        "E-birth-P-0020@1 date_json1850-03-18"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "olöst",
+      "decision": "lämna sakfrågan uttryckligen öppen",
+      "grounds": "Keep the historical explicit36/rejected30numeric correction. The new image leaves upperglyphweaker and shows itstruck under themotherageheader; exact semantic attribution of thatsourceupperentry remains open in boundedadoption. No automatic demotion ofolder36 and no literalparentbirth1830/1850derived from newuncertainty.",
+      "before": "Fadern 36 år; modern 22 år",
+      "after": "Fadern 36 år; modern 22 år",
+      "affected_copies": [],
+      "remaining_question": "Upper36numericoldercorrection kept; directsemantic attribution under motherageheader unresolved. No newparentbirthdate."
+    },
+    {
+      "id": "C-018",
+      "object": "F-P-0021-name_form-lifetime@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 82,
+      "quote": "[\"Augusta Viktoria Johansson\", \"Augusta Victoria Johansson\", \"Eliasson Johansson\"]",
+      "quoted_value": [
+        "Augusta Viktoria Johansson",
+        "Augusta Victoria Johansson",
+        "Eliasson Johansson"
+      ],
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "current lifetime nameforms",
+      "old_support": [
+        "F-P-0021-name_form-lifetime@1 evidence R-e8459194dbd3ccbf50531a03@1/R-d2dae342a01c14af474e5fbf@1",
+        "RESEARCH-P-0021-9d76f0343410@1 body0:2132"
+      ],
+      "source_observation": "NewJohannesson/Johansson? and AugustaViktoria",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Lifetime nameforms have ownmarriage/adultrecord support beyond the weakSCBsurname glyph. Preserve Johansson/Victoria/sourcevariants and oldcorrection fromJohansdotter; do not replace with newly uncertainJohannesson or infer a fatherfrom patronymic.",
+      "before": [
+        "Augusta Viktoria Johansson",
+        "Augusta Victoria Johansson",
+        "Eliasson Johansson"
+      ],
+      "after": [
+        "Augusta Viktoria Johansson",
+        "Augusta Victoria Johansson",
+        "Eliasson Johansson"
+      ],
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    }
+  ]
+}

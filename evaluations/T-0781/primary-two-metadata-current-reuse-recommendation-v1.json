@@ -1,0 +1,1651 @@
+{
+  "task": "T-0781",
+  "status": "PREPARATION_ONLY_AWAIT_ROOT_SCOPE_LOCK_AND_SOURCE_RELEASE",
+  "created_utc": "2026-10-04T14:16:41.329513+00:00",
+  "recommended_exact_two": [
+    "C-0049",
+    "C-0067"
+  ],
+  "canonical_baseline": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "efea4dfa8feec3f2f5bff8167792b01513ebb5689d9d2ec5278983a23ca208b3"
+  },
+  "actual_state": {
+    "journal_head": 425,
+    "pending": 0
+  },
+  "current250_snapshot": {
+    "path": "evaluations/T-0781/proposed-two-current425-metadata-and-prior-reuse-inputs-v1.json",
+    "sha256": "085a7fd8742af2ea88761ea59e1dd7f45367ed8d22d0bc574ba5f92033a48965"
+  },
+  "captured_current_native_payload_count": 250,
+  "reading_credit": "250 är komplett fångade aktuella payloads för avgränsad routing/återbruk, inte 250 nya semantiska helläsningar eller antal källpersoner. Originalfiler har endast hashkontrollerats.",
+  "actual_remaining_reconciliation": {
+    "path": "evaluations/T-0780/actual-ten-accepted-remaining21-reconciliation-v1.json",
+    "sha256": "2d4a5477c0c1f7d5df3d16b2e2d76633d4d45d3d670d1d934b3d5de13efc634a"
+  },
+  "actual_root_acceptance": {
+    "path": "evaluations/T-0780/root-actual-canonical-ten-program-acceptance-v1.json",
+    "sha256": "a934a2c9dd5e6d7a3c60716d5bab7eabad7bb2b396ab6d8276568152a3ee8e7e"
+  },
+  "remaining_count": 21,
+  "remaining_citations": [
+    "C-0039",
+    "C-0040",
+    "C-0041",
+    "C-0042",
+    "C-0046",
+    "C-0048",
+    "C-0049",
+    "C-0050",
+    "C-0051",
+    "C-0053",
+    "C-0054",
+    "C-0055",
+    "C-0057",
+    "C-0058",
+    "C-0059",
+    "C-0061",
+    "C-0067",
+    "C-0073",
+    "C-0208",
+    "C-0218",
+    "C-0913"
+  ],
+  "prior_priority_proposal": {
+    "path": "evaluations/T-0780/source-review/resumed-next-two-metadata-priority-proposal-v1.json",
+    "sha256": "7cd634a7f26301e2c7e5c7de160cb1b10f4febfb69a956372527375e67bafb89"
+  },
+  "source_units": [
+    {
+      "citation": "C-0049",
+      "in_actual_remaining21": true,
+      "current_references": [
+        {
+          "object_id": "BIO-P-0048",
+          "id": "BIO-P-0048@2",
+          "version": 2,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "BIO-P-0050",
+          "id": "BIO-P-0050@3",
+          "version": 3,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "BIO-P-0051",
+          "id": "BIO-P-0051@3",
+          "version": 3,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "BIO-P-0052",
+          "id": "BIO-P-0052@2",
+          "version": 2,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "BIO-P-0053",
+          "id": "BIO-P-0053@2",
+          "version": 2,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "BIO-P-0057",
+          "id": "BIO-P-0057@1",
+          "version": 1,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-01",
+          "id": "CONTRACT-P-0048-PK-01@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-02",
+          "id": "CONTRACT-P-0048-PK-02@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-03",
+          "id": "CONTRACT-P-0048-PK-03@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-04",
+          "id": "CONTRACT-P-0048-PK-04@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-05",
+          "id": "CONTRACT-P-0048-PK-05@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-06",
+          "id": "CONTRACT-P-0048-PK-06@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-07",
+          "id": "CONTRACT-P-0048-PK-07@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-08",
+          "id": "CONTRACT-P-0048-PK-08@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-09",
+          "id": "CONTRACT-P-0048-PK-09@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-10",
+          "id": "CONTRACT-P-0048-PK-10@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-11",
+          "id": "CONTRACT-P-0048-PK-11@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0048-PK-12",
+          "id": "CONTRACT-P-0048-PK-12@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-01",
+          "id": "CONTRACT-P-0050-PK-01@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-02",
+          "id": "CONTRACT-P-0050-PK-02@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-03",
+          "id": "CONTRACT-P-0050-PK-03@3",
+          "version": 3,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-04",
+          "id": "CONTRACT-P-0050-PK-04@3",
+          "version": 3,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-05",
+          "id": "CONTRACT-P-0050-PK-05@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-06",
+          "id": "CONTRACT-P-0050-PK-06@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-07",
+          "id": "CONTRACT-P-0050-PK-07@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-08",
+          "id": "CONTRACT-P-0050-PK-08@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-09",
+          "id": "CONTRACT-P-0050-PK-09@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-10",
+          "id": "CONTRACT-P-0050-PK-10@3",
+          "version": 3,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-11",
+          "id": "CONTRACT-P-0050-PK-11@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0050-PK-12",
+          "id": "CONTRACT-P-0050-PK-12@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-01",
+          "id": "CONTRACT-P-0051-PK-01@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-02",
+          "id": "CONTRACT-P-0051-PK-02@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-03",
+          "id": "CONTRACT-P-0051-PK-03@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-04",
+          "id": "CONTRACT-P-0051-PK-04@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-05",
+          "id": "CONTRACT-P-0051-PK-05@3",
+          "version": 3,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-06",
+          "id": "CONTRACT-P-0051-PK-06@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-07",
+          "id": "CONTRACT-P-0051-PK-07@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-08",
+          "id": "CONTRACT-P-0051-PK-08@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-09",
+          "id": "CONTRACT-P-0051-PK-09@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-10",
+          "id": "CONTRACT-P-0051-PK-10@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-11",
+          "id": "CONTRACT-P-0051-PK-11@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0051-PK-12",
+          "id": "CONTRACT-P-0051-PK-12@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-01",
+          "id": "CONTRACT-P-0052-PK-01@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-02",
+          "id": "CONTRACT-P-0052-PK-02@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-03",
+          "id": "CONTRACT-P-0052-PK-03@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-04",
+          "id": "CONTRACT-P-0052-PK-04@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-05",
+          "id": "CONTRACT-P-0052-PK-05@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-06",
+          "id": "CONTRACT-P-0052-PK-06@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-07",
+          "id": "CONTRACT-P-0052-PK-07@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-08",
+          "id": "CONTRACT-P-0052-PK-08@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-09",
+          "id": "CONTRACT-P-0052-PK-09@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-10",
+          "id": "CONTRACT-P-0052-PK-10@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-11",
+          "id": "CONTRACT-P-0052-PK-11@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0052-PK-12",
+          "id": "CONTRACT-P-0052-PK-12@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-01",
+          "id": "CONTRACT-P-0053-PK-01@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-02",
+          "id": "CONTRACT-P-0053-PK-02@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-03",
+          "id": "CONTRACT-P-0053-PK-03@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-04",
+          "id": "CONTRACT-P-0053-PK-04@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-05",
+          "id": "CONTRACT-P-0053-PK-05@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-06",
+          "id": "CONTRACT-P-0053-PK-06@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-07",
+          "id": "CONTRACT-P-0053-PK-07@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-08",
+          "id": "CONTRACT-P-0053-PK-08@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-09",
+          "id": "CONTRACT-P-0053-PK-09@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-10",
+          "id": "CONTRACT-P-0053-PK-10@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-11",
+          "id": "CONTRACT-P-0053-PK-11@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0053-PK-12",
+          "id": "CONTRACT-P-0053-PK-12@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-01",
+          "id": "CONTRACT-P-0057-PK-01@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-02",
+          "id": "CONTRACT-P-0057-PK-02@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-03",
+          "id": "CONTRACT-P-0057-PK-03@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-04",
+          "id": "CONTRACT-P-0057-PK-04@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-05",
+          "id": "CONTRACT-P-0057-PK-05@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-06",
+          "id": "CONTRACT-P-0057-PK-06@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-07",
+          "id": "CONTRACT-P-0057-PK-07@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-08",
+          "id": "CONTRACT-P-0057-PK-08@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-09",
+          "id": "CONTRACT-P-0057-PK-09@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-10",
+          "id": "CONTRACT-P-0057-PK-10@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-11",
+          "id": "CONTRACT-P-0057-PK-11@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0057-PK-12",
+          "id": "CONTRACT-P-0057-PK-12@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "F-P-0050-occupation-Jomark",
+          "id": "F-P-0050-occupation-Jomark@1",
+          "version": 1,
+          "kind": "fact"
+        },
+        {
+          "object_id": "ID-P-0052-C0049",
+          "id": "ID-P-0052-C0049@1",
+          "version": 1,
+          "kind": "identity"
+        },
+        {
+          "object_id": "ID-P-0053-C0049",
+          "id": "ID-P-0053-C0049@1",
+          "version": 1,
+          "kind": "identity"
+        },
+        {
+          "object_id": "ID-P-0057-C0049",
+          "id": "ID-P-0057-C0049@2",
+          "version": 2,
+          "kind": "identity"
+        },
+        {
+          "object_id": "M-P-0052-C0049",
+          "id": "M-P-0052-C0049@1",
+          "version": 1,
+          "kind": "mention"
+        },
+        {
+          "object_id": "M-P-0053-C0049",
+          "id": "M-P-0053-C0049@1",
+          "version": 1,
+          "kind": "mention"
+        },
+        {
+          "object_id": "M-P-0057-C0049",
+          "id": "M-P-0057-C0049@1",
+          "version": 1,
+          "kind": "mention"
+        },
+        {
+          "object_id": "O-P-0048-A-0248-child_family",
+          "id": "O-P-0048-A-0248-child_family@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0050-A-0222-name_report",
+          "id": "O-P-0050-A-0222-name_report@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0052-C0049",
+          "id": "O-P-0052-C0049@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0053-C0049",
+          "id": "O-P-0053-C0049@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0057-C0049",
+          "id": "O-P-0057-C0049@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "P-0048",
+          "id": "P-0048@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "P-0050",
+          "id": "P-0050@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "P-0051",
+          "id": "P-0051@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "P-0052",
+          "id": "P-0052@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "P-0053",
+          "id": "P-0053@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "P-0057",
+          "id": "P-0057@3",
+          "version": 3,
+          "kind": "person"
+        },
+        {
+          "object_id": "R-d9840df54c7f19f2454c4d2d",
+          "id": "R-d9840df54c7f19f2454c4d2d@1",
+          "version": 1,
+          "kind": "record"
+        },
+        {
+          "object_id": "READ-afbfe3f933d234b8f0f60c3e",
+          "id": "READ-afbfe3f933d234b8f0f60c3e@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0048-9d76f0343410",
+          "id": "RESEARCH-P-0048-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0050-9d76f0343410",
+          "id": "RESEARCH-P-0050-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0051-9d76f0343410",
+          "id": "RESEARCH-P-0051-9d76f0343410@3",
+          "version": 3,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0052-9d76f0343410",
+          "id": "RESEARCH-P-0052-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0053-9d76f0343410",
+          "id": "RESEARCH-P-0053-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0057-9d76f0343410",
+          "id": "RESEARCH-P-0057-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "S-0042",
+          "id": "S-0042@1",
+          "version": 1,
+          "kind": "source"
+        },
+        {
+          "object_id": "TR-bf8e09efe7e3e3c20156c785",
+          "id": "TR-bf8e09efe7e3e3c20156c785@1",
+          "version": 1,
+          "kind": "transcription"
+        }
+      ],
+      "current_payload_pointer": {
+        "file": {
+          "path": "evaluations/T-0781/proposed-two-current425-metadata-and-prior-reuse-inputs-v1.json",
+          "sha256": "085a7fd8742af2ea88761ea59e1dd7f45367ed8d22d0bc574ba5f92033a48965"
+        },
+        "pointer": "/objects"
+      },
+      "metadata_person_links_not_certified_source_membership": [
+        "P-0048",
+        "P-0050",
+        "P-0051",
+        "P-0052",
+        "P-0053",
+        "P-0057"
+      ],
+      "prior_direct_routing_versions_all_still_current": true,
+      "record_scope": "Bygdeå A I/14b 1863–1873, Jomark sida 591, bild 235, C0034028_00235: den redan utpekade familjeposten, hela dess egna rader och relevanta rubriker, kolumnfält, ditton och marginaler.",
+      "mode": "BOUNDED_ORIGINAL_COMPLETION_AFTER_ROOT_LOCK",
+      "reason": "Nuvarande R/READ anger uttryckligen att övriga bleka kolumner inte transkriberats. Tre befintliga identitetsanspråk pekar hit; fullposten kan därför klarlägga exakt vad stödet innehåller utan att grafens antal bevisar oberoende eller ensam bärighet.",
+      "image_pin": {
+        "path": "genealogy/media/C-0049-riksarkivet-SE-HLA-1010025-AI14b-bild-235-sida-591.jpg",
+        "sha256": "2732d869d869b6c1c10b6cf0881b473f856812e32755e9b7b80f30e635c6ace8"
+      },
+      "existing_settled_boundaries": [
+        "Vigseldatum 60 5/7 har redan rättats till 1860-07-05; 7 maj är historisk felläsning. Återbruka egen vigsel C0184, R-d952f4ce2a1f22401b9b5fc1@1.",
+        "Anders Alfreds egen födelsepost C0048, R-5bff8de790faa07588de3620@2 och AUDIT-T0110-C-0048@1, är starkare egen födelsekälla; ingen ny rutinläsning.",
+        "C0044:s accepterade fullpost stödjer sin egen föräldra/syskonkontext; den ersätter inte Margareta Euphrosynes egen rad i C0049.",
+        "Tidigare Bygdeå-normalisering ur ditto skiljs från utskrivet ord på varje barnrad. Barbru Catharina/Barbro Christina är bevarad namnvariation, inte automatiskt en ny person.",
+        "Barnens olästa egna födelseposter, moderns föräldraidentitet/Bodanfråga och kontinuerlig fysisk hemvist avslutas inte av denna hushållspost. Accepterad begränsad T0766-läsning välfr. återbrukas."
+      ],
+      "exclusions": [
+        "Ingen årgångs- eller personjakt utanför den utpekade familjeposten.",
+        "Grannrader endast som nödvändig läskontext, inte extra slutförda poster.",
+        "Ingen generell tomhetsbedömning innan den egna relevanta kolumnen faktiskt prövats."
+      ],
+      "original_opened_in_this_preparation": false
+    },
+    {
+      "citation": "C-0067",
+      "in_actual_remaining21": true,
+      "current_references": [
+        {
+          "object_id": "BIO-P-0049",
+          "id": "BIO-P-0049@4",
+          "version": 4,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "BIO-P-0094",
+          "id": "BIO-P-0094@2",
+          "version": 2,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "BIO-P-0095",
+          "id": "BIO-P-0095@2",
+          "version": 2,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "BIO-P-0104",
+          "id": "BIO-P-0104@2",
+          "version": 2,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "BIO-P-0105",
+          "id": "BIO-P-0105@1",
+          "version": 1,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "BIO-P-0106",
+          "id": "BIO-P-0106@2",
+          "version": 2,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "BIO-P-0107",
+          "id": "BIO-P-0107@1",
+          "version": 1,
+          "kind": "narrative"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-01",
+          "id": "CONTRACT-P-0049-PK-01@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-02",
+          "id": "CONTRACT-P-0049-PK-02@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-03",
+          "id": "CONTRACT-P-0049-PK-03@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-04",
+          "id": "CONTRACT-P-0049-PK-04@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-05",
+          "id": "CONTRACT-P-0049-PK-05@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-06",
+          "id": "CONTRACT-P-0049-PK-06@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-07",
+          "id": "CONTRACT-P-0049-PK-07@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-08",
+          "id": "CONTRACT-P-0049-PK-08@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-09",
+          "id": "CONTRACT-P-0049-PK-09@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-10",
+          "id": "CONTRACT-P-0049-PK-10@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-11",
+          "id": "CONTRACT-P-0049-PK-11@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0049-PK-12",
+          "id": "CONTRACT-P-0049-PK-12@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-01",
+          "id": "CONTRACT-P-0094-PK-01@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-02",
+          "id": "CONTRACT-P-0094-PK-02@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-03",
+          "id": "CONTRACT-P-0094-PK-03@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-04",
+          "id": "CONTRACT-P-0094-PK-04@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-05",
+          "id": "CONTRACT-P-0094-PK-05@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-06",
+          "id": "CONTRACT-P-0094-PK-06@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-07",
+          "id": "CONTRACT-P-0094-PK-07@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-08",
+          "id": "CONTRACT-P-0094-PK-08@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-09",
+          "id": "CONTRACT-P-0094-PK-09@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-10",
+          "id": "CONTRACT-P-0094-PK-10@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-11",
+          "id": "CONTRACT-P-0094-PK-11@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0094-PK-12",
+          "id": "CONTRACT-P-0094-PK-12@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-01",
+          "id": "CONTRACT-P-0095-PK-01@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-02",
+          "id": "CONTRACT-P-0095-PK-02@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-03",
+          "id": "CONTRACT-P-0095-PK-03@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-04",
+          "id": "CONTRACT-P-0095-PK-04@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-05",
+          "id": "CONTRACT-P-0095-PK-05@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-06",
+          "id": "CONTRACT-P-0095-PK-06@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-07",
+          "id": "CONTRACT-P-0095-PK-07@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-08",
+          "id": "CONTRACT-P-0095-PK-08@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-09",
+          "id": "CONTRACT-P-0095-PK-09@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-10",
+          "id": "CONTRACT-P-0095-PK-10@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-11",
+          "id": "CONTRACT-P-0095-PK-11@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0095-PK-12",
+          "id": "CONTRACT-P-0095-PK-12@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-01",
+          "id": "CONTRACT-P-0104-PK-01@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-02",
+          "id": "CONTRACT-P-0104-PK-02@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-03",
+          "id": "CONTRACT-P-0104-PK-03@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-04",
+          "id": "CONTRACT-P-0104-PK-04@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-05",
+          "id": "CONTRACT-P-0104-PK-05@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-06",
+          "id": "CONTRACT-P-0104-PK-06@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-07",
+          "id": "CONTRACT-P-0104-PK-07@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-08",
+          "id": "CONTRACT-P-0104-PK-08@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-09",
+          "id": "CONTRACT-P-0104-PK-09@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-10",
+          "id": "CONTRACT-P-0104-PK-10@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-11",
+          "id": "CONTRACT-P-0104-PK-11@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0104-PK-12",
+          "id": "CONTRACT-P-0104-PK-12@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-01",
+          "id": "CONTRACT-P-0105-PK-01@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-02",
+          "id": "CONTRACT-P-0105-PK-02@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-03",
+          "id": "CONTRACT-P-0105-PK-03@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-04",
+          "id": "CONTRACT-P-0105-PK-04@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-05",
+          "id": "CONTRACT-P-0105-PK-05@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-06",
+          "id": "CONTRACT-P-0105-PK-06@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-07",
+          "id": "CONTRACT-P-0105-PK-07@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-08",
+          "id": "CONTRACT-P-0105-PK-08@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-09",
+          "id": "CONTRACT-P-0105-PK-09@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-10",
+          "id": "CONTRACT-P-0105-PK-10@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-11",
+          "id": "CONTRACT-P-0105-PK-11@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0105-PK-12",
+          "id": "CONTRACT-P-0105-PK-12@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-01",
+          "id": "CONTRACT-P-0106-PK-01@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-02",
+          "id": "CONTRACT-P-0106-PK-02@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-03",
+          "id": "CONTRACT-P-0106-PK-03@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-04",
+          "id": "CONTRACT-P-0106-PK-04@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-05",
+          "id": "CONTRACT-P-0106-PK-05@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-06",
+          "id": "CONTRACT-P-0106-PK-06@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-07",
+          "id": "CONTRACT-P-0106-PK-07@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-08",
+          "id": "CONTRACT-P-0106-PK-08@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-09",
+          "id": "CONTRACT-P-0106-PK-09@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-10",
+          "id": "CONTRACT-P-0106-PK-10@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-11",
+          "id": "CONTRACT-P-0106-PK-11@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0106-PK-12",
+          "id": "CONTRACT-P-0106-PK-12@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-01",
+          "id": "CONTRACT-P-0107-PK-01@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-02",
+          "id": "CONTRACT-P-0107-PK-02@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-03",
+          "id": "CONTRACT-P-0107-PK-03@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-04",
+          "id": "CONTRACT-P-0107-PK-04@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-05",
+          "id": "CONTRACT-P-0107-PK-05@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-06",
+          "id": "CONTRACT-P-0107-PK-06@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-07",
+          "id": "CONTRACT-P-0107-PK-07@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-08",
+          "id": "CONTRACT-P-0107-PK-08@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-09",
+          "id": "CONTRACT-P-0107-PK-09@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-10",
+          "id": "CONTRACT-P-0107-PK-10@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-11",
+          "id": "CONTRACT-P-0107-PK-11@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "CONTRACT-P-0107-PK-12",
+          "id": "CONTRACT-P-0107-PK-12@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "E-baptism-P-0049",
+          "id": "E-baptism-P-0049@1",
+          "version": 1,
+          "kind": "event"
+        },
+        {
+          "object_id": "E-birth-P-0049",
+          "id": "E-birth-P-0049@1",
+          "version": 1,
+          "kind": "event"
+        },
+        {
+          "object_id": "F-P-0094-occupation-adult-life",
+          "id": "F-P-0094-occupation-adult-life@1",
+          "version": 1,
+          "kind": "fact"
+        },
+        {
+          "object_id": "ID-P-0049-C0067-witness-Anna",
+          "id": "ID-P-0049-C0067-witness-Anna@1",
+          "version": 1,
+          "kind": "identity"
+        },
+        {
+          "object_id": "ID-P-0049-C0067-witness-farmer",
+          "id": "ID-P-0049-C0067-witness-farmer@1",
+          "version": 1,
+          "kind": "identity"
+        },
+        {
+          "object_id": "ID-P-0049-C0067-witness-maid",
+          "id": "ID-P-0049-C0067-witness-maid@1",
+          "version": 1,
+          "kind": "identity"
+        },
+        {
+          "object_id": "ID-P-0049-C0067-witness-wife",
+          "id": "ID-P-0049-C0067-witness-wife@1",
+          "version": 1,
+          "kind": "identity"
+        },
+        {
+          "object_id": "M-P-0049-witness-Anna",
+          "id": "M-P-0049-witness-Anna@2",
+          "version": 2,
+          "kind": "mention"
+        },
+        {
+          "object_id": "M-P-0049-witness-farmer",
+          "id": "M-P-0049-witness-farmer@2",
+          "version": 2,
+          "kind": "mention"
+        },
+        {
+          "object_id": "M-P-0049-witness-maid",
+          "id": "M-P-0049-witness-maid@2",
+          "version": 2,
+          "kind": "mention"
+        },
+        {
+          "object_id": "M-P-0049-witness-wife",
+          "id": "M-P-0049-witness-wife@2",
+          "version": 2,
+          "kind": "mention"
+        },
+        {
+          "object_id": "O-P-0049-A-0219-birth",
+          "id": "O-P-0049-A-0219-birth@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0049-A-0357-parents_residence",
+          "id": "O-P-0049-A-0357-parents_residence@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0049-A-0358-baptism",
+          "id": "O-P-0049-A-0358-baptism@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0049-A-5520-birth_marginal_fields",
+          "id": "O-P-0049-A-5520-birth_marginal_fields@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0049-A-5521-baptism_witnesses",
+          "id": "O-P-0049-A-5521-baptism_witnesses@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0104-witness-details",
+          "id": "O-P-0104-witness-details@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0105-witness-details",
+          "id": "O-P-0105-witness-details@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0106-witness-details",
+          "id": "O-P-0106-witness-details@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "O-P-0107-witness-details",
+          "id": "O-P-0107-witness-details@1",
+          "version": 1,
+          "kind": "observation"
+        },
+        {
+          "object_id": "P-0049",
+          "id": "P-0049@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "P-0094",
+          "id": "P-0094@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "P-0095",
+          "id": "P-0095@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "P-0104",
+          "id": "P-0104@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "P-0105",
+          "id": "P-0105@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "P-0106",
+          "id": "P-0106@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "P-0107",
+          "id": "P-0107@2",
+          "version": 2,
+          "kind": "person"
+        },
+        {
+          "object_id": "R-59279649d0a5ccf6537e098c",
+          "id": "R-59279649d0a5ccf6537e098c@1",
+          "version": 1,
+          "kind": "record"
+        },
+        {
+          "object_id": "READ-4791805f82dfee11d335a425",
+          "id": "READ-4791805f82dfee11d335a425@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0049-9d76f0343410",
+          "id": "RESEARCH-P-0049-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0094-9d76f0343410",
+          "id": "RESEARCH-P-0094-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0095-9d76f0343410",
+          "id": "RESEARCH-P-0095-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0104-9d76f0343410",
+          "id": "RESEARCH-P-0104-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0105-9d76f0343410",
+          "id": "RESEARCH-P-0105-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0106-9d76f0343410",
+          "id": "RESEARCH-P-0106-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "RESEARCH-P-0107-9d76f0343410",
+          "id": "RESEARCH-P-0107-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment"
+        },
+        {
+          "object_id": "S-0041",
+          "id": "S-0041@1",
+          "version": 1,
+          "kind": "source"
+        },
+        {
+          "object_id": "TR-7a74f618307821a5cdcec476",
+          "id": "TR-7a74f618307821a5cdcec476@1",
+          "version": 1,
+          "kind": "transcription"
+        }
+      ],
+      "current_payload_pointer": {
+        "file": {
+          "path": "evaluations/T-0781/proposed-two-current425-metadata-and-prior-reuse-inputs-v1.json",
+          "sha256": "085a7fd8742af2ea88761ea59e1dd7f45367ed8d22d0bc574ba5f92033a48965"
+        },
+        "pointer": "/objects"
+      },
+      "metadata_person_links_not_certified_source_membership": [
+        "P-0049",
+        "P-0094",
+        "P-0095",
+        "P-0104",
+        "P-0105",
+        "P-0106",
+        "P-0107"
+      ],
+      "prior_direct_routing_versions_all_still_current": true,
+      "record_scope": "Bygdeå C/5, 1872 nr 15, sida 88, bild 94, A0027066_00094: Anna Fredrikas egen födelse-/doppost inklusive fyra vittnesled, egna sidokolumner och relevanta rubriker/marginaler.",
+      "mode": "SUFFICIENT_PRIOR_FULL_POST_REUSE_AND_CURRENT_CONSEQUENCE_AUDIT",
+      "reason": "T0131 dokumenterar fullständig postprövning 2026-09-08. T0182-tillägget och nuvarande RESEARCH P0104–P0107 bekräftar att svaga namn/ortstecken är prövade läsgränser. En rutinmässig tredje läsning skulle inte vara nytt arbete; exakt tidigare scope återbrukas med individuell aktuell konsekvensbedömning.",
+      "image_pin": {
+        "path": "genealogy/media/C-0067-riksarkivet-SE-HLA-1010025-C5-bild-94-sida-88-anna-fredrika-1872.jpg",
+        "sha256": "674ada206f85566b8526dca3b123c80ec8bccc9ec58fb4b11d58efc235448008"
+      },
+      "prior_full_post_documentation": {
+        "pin": {
+          "path": "wotan/dev-log/T-0131.md",
+          "sha256": "f901654f9e25f93da10a838308f898c018679d2c2da637c389c17b39c85cbe34"
+        },
+        "heading": "Inkommen observation från T-0182, 2026-09-09",
+        "exact_excerpt": "## Inkommen observation från T-0182, 2026-09-09\n\nC-0067:s vittnesled har fått ett tillägg vid konsolideringen av\n[P-0105](../../genealogy/people/P-0105-hustru-till-a-andersson-dopvittne.md),\n[P-0106](../../genealogy/people/P-0106-c-jacobsdotter-dopvittne.md) och\n[P-0107](../../genealogy/people/P-0107-anna-nilsdotter-dopvittne.md).\n**Ingen ny bildläsning har gjorts** — denna uppgifts fullständiga\npostprövning 2026-09-08 står oförändrad och har styrt läsningen.\n\n**Tillägget preciserar vad vittnesledet inte innehåller.** Vittneskolumnen\nanger **ingen relation till dopbarnet för något av de fyra vittnena**, och\nfrånvaron är **källans, inte avskriftens** — den kan inte avhjälpas genom\nomläsning, och **den gäller lika för varje hypotes om släktskap.**\n\n**De fyra vittnenas led skiljer sig systematiskt**, och skillnaderna är\nutskrivna: `A. Andersson` och `C. Jacobsd:r` bär **initialer**, P-0105 är\n**helt namnlös**, och `Anna Nilsd:r[?]` har ett **fullständigt förnamn men\ningen ståndsbeteckning.** **Tre av fyra anges i dopbarnets egen by**, som\nredan är läst i två volymer; **P-0107 är postens enda uppgift om familjens\nnätverk utanför Ultervattnet.**\n\n**Två hypoteser är registrerade som `LEAD` och ingen prövas.**\n`C. Jacobsd:r` bär ett patronymikon som pekar in i dopbarnets familj — barnets\nfar hette **Jacob** Andersson, barnets farmor **Maria Jacobsdotter**.\n**Åldern talar mot båda:** föräldrarna gifte sig omkring 1861, så en äldre\ndotter skulle 1872 vara tio eller elva år — för ung både för att vara piga och\nför att vara dopvittne — och farmodern var född 1799, så en syster skulle vara\nomkring sjuttio. **`pigan` förs inte på en hemmavarande dotter**, och\n`Jacobsdotter` var så vanligt att sammanträffandet inte är ett argument.\nSe A-7805.\n\n**Denna uppgifts formulering är den distinktion P-0107:s akt bygger på.**\nT-0131 skrev att **de svaga namn- och ortstecknen är prövade reservationer,\ninte säkra identiteter.** Det innebär att `Anna Nilsd:r[?]` och\n`Ytteråträsk[?]` är **prövade läsgränser och inte outvunna celler** — och\ndärmed att en tredje omläsning av samma cell inte är en ny prövning.\n**Nästa steg är en annan skriftbärare.**\n\n**Denna uppgifts avgränsning gäller oförändrad:** faddrarna hålls separata\nfrån föräldrar och släktingar **tills en identitetskedja finns.** Samtliga\nfyra vittnesakter står `Trädverkan: EJ BÄRANDE`.\n",
+        "reuse_limit": "Tilläggets äldre genealogiska/åldershypoteser är historik, inte nya godkända slutsatser. Återbruk gäller dokumenterad fullpostläsning och explicit prövade källgränser; current native caveats och accepterade T0780-rättelser styr nuvarande kunskap."
+      },
+      "existing_settled_boundaries": [
+        "Nuvarande R/READ/TR bär redan födelse 8 februari och dop 11 februari 1872, föräldrar Jacob Andersson/Maria C. Hansdr och Ultervattnet/folio567; detta är tidigare uppgift, inte ny originaltolkning här.",
+        "A. Andersson och C. Jacobsd:r har initialer; hustrun saknar namn; Anna Nilsd:r[?]/Ytteråträsk[?] är prövade reservationer. Ingen relation till barnet anges för något vittne.",
+        "Ålder 41/31, E, (4) och förrättarens råform bevaras inom sin tidigare uttryckliga fälttolkning. Inga vittnesåldrar eller säkra släktskapsidentiteter härleds.",
+        "Fyra ID-P-0049-C0067-witness-…@1 länkar historiska M@1, medan de fyra M-P-0049-witness-… har current@2. Inget automatiskt evidensversionsbyte.",
+        "P0094:s egen födelse1830-04-16 och P0095:s1840-10-17 är tidigare starkare egna födelsestöd i current RESEARCH; äldre juli-/27-varianter återinförs inte.",
+        "Accepterad C0069/C0425-kunskap och aktuella vittnesakters caveats återbrukas; äldre farbrors-/åldershypoteser får inte återuppstå som fakta."
+      ],
+      "exclusions": [
+        "Ingen ny blind originalförstaläsning tillskrivs någon roll.",
+        "Ingen rutinmässig omläsning av redan tillräckligt prövade celler.",
+        "Ingen annan skriftbärare, identifiering av vittnen eller årgångssökning ingår.",
+        "Ingen automatisk person-, livsbilds- eller identitetskontraktsfullbordan."
+      ],
+      "original_opened_in_this_preparation": false
+    }
+  ],
+  "current_stronger_prior_reuse_refs": [
+    {
+      "object_id": "S-0093",
+      "revision_id": "S-0093@2",
+      "pointer": "/objects/S-0093"
+    },
+    {
+      "object_id": "R-d952f4ce2a1f22401b9b5fc1",
+      "revision_id": "R-d952f4ce2a1f22401b9b5fc1@1",
+      "pointer": "/objects/R-d952f4ce2a1f22401b9b5fc1"
+    },
+    {
+      "object_id": "R-5bff8de790faa07588de3620",
+      "revision_id": "R-5bff8de790faa07588de3620@2",
+      "pointer": "/objects/R-5bff8de790faa07588de3620"
+    },
+    {
+      "object_id": "AUDIT-T0110-C-0048",
+      "revision_id": "AUDIT-T0110-C-0048@1",
+      "pointer": "/objects/AUDIT-T0110-C-0048"
+    },
+    {
+      "object_id": "R-f81045d395fcb687a2417ed6",
+      "revision_id": "R-f81045d395fcb687a2417ed6@2",
+      "pointer": "/objects/R-f81045d395fcb687a2417ed6"
+    },
+    {
+      "object_id": "TR-T0780-C0044-fullpost",
+      "revision_id": "TR-T0780-C0044-fullpost@1",
+      "pointer": "/objects/TR-T0780-C0044-fullpost"
+    },
+    {
+      "object_id": "AUDIT-T0780-C0044",
+      "revision_id": "AUDIT-T0780-C0044@1",
+      "pointer": "/objects/AUDIT-T0780-C0044"
+    },
+    {
+      "object_id": "R-d1208f4d205fd7597ca682a8",
+      "revision_id": "R-d1208f4d205fd7597ca682a8@2",
+      "pointer": "/objects/R-d1208f4d205fd7597ca682a8"
+    },
+    {
+      "object_id": "TR-T0780-C0069-fullpost",
+      "revision_id": "TR-T0780-C0069-fullpost@1",
+      "pointer": "/objects/TR-T0780-C0069-fullpost"
+    },
+    {
+      "object_id": "AUDIT-T0780-C0069-fullpost",
+      "revision_id": "AUDIT-T0780-C0069-fullpost@1",
+      "pointer": "/objects/AUDIT-T0780-C0069-fullpost"
+    },
+    {
+      "object_id": "R-704cab19e220a827cf2acf58",
+      "revision_id": "R-704cab19e220a827cf2acf58@2",
+      "pointer": "/objects/R-704cab19e220a827cf2acf58"
+    },
+    {
+      "object_id": "R-85c7e85b48634a6413e79c49",
+      "revision_id": "R-85c7e85b48634a6413e79c49@2",
+      "pointer": "/objects/R-85c7e85b48634a6413e79c49"
+    },
+    {
+      "object_id": "TR-T0780-C0425-upper-family-fullpost",
+      "revision_id": "TR-T0780-C0425-upper-family-fullpost@1",
+      "pointer": "/objects/TR-T0780-C0425-upper-family-fullpost"
+    },
+    {
+      "object_id": "TR-T0780-C0425-Nils-family-fullpost",
+      "revision_id": "TR-T0780-C0425-Nils-family-fullpost@1",
+      "pointer": "/objects/TR-T0780-C0425-Nils-family-fullpost"
+    },
+    {
+      "object_id": "AUDIT-T0780-C0425-all-five-posts",
+      "revision_id": "AUDIT-T0780-C0425-all-five-posts@1",
+      "pointer": "/objects/AUDIT-T0780-C0425-all-five-posts"
+    }
+  ],
+  "book_node_limit": "S-0093@2 rättade endast T0780:s C0069-relaterade avgränsade uppgifter. C0184:s historiska S0093@1-basis får inte automatiskt bytas; ingen full läsning av boken tillskrivs andra poster.",
+  "complexity_balance": "C0049 är en avgränsad hushållspost med uttryckligt kvarstående kolumnarbete; C0067 är en avgränsad fullpost-återbruksaudit med fyra vittnesled. C0218:s 19 bilder/tre native recordenheter utvidgas inte till denna tvåpostsbatch. C0048:s tidigare fullpostprövning återbrukas utan ny originalrutin. Ingen kostnads- eller tidsvinst utlovas.",
+  "root_next_step": "Lås exakt dessa två scope, originalhashar, current250-pins och återbruksgränser i T0781 AC1 efter T0780-administration. Ge därefter uttrycklig source release. Ingen originaltolkning har påbörjats i denna förberedelse.",
+  "canonical_writes": 0,
+  "wotan_writes": 0,
+  "new_original_reads": 0,
+  "scope_locked_by_this_recommendation": false
+}

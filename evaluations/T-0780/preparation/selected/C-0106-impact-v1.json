@@ -1,0 +1,3272 @@
+{
+  "format": "genealogy2-impact/1",
+  "input": "C-0106",
+  "query": null,
+  "database_state": {
+    "operations": 282,
+    "revisions": 48093,
+    "last_operation": {
+      "sequence": 281,
+      "operation_id": "T-0778/C1047-individual-resolutions-v1"
+    }
+  },
+  "seeds": [
+    {
+      "object_id": "R-3a1e056cc4652ec4b1a2b719",
+      "revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+      "version": 1,
+      "kind": "record",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "current": true,
+      "routes": [
+        {
+          "type": "citation_representation",
+          "via_object": "M-C0106-Anders-Olofsson"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "M-P-0065-marriage1867"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "M-P-0066-marriage1867"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "O-P-0065-marriage1867-fields"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "O-P-0066-marriage1867-bride"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "O-P-0145-C0106-giftoman"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "R-3a1e056cc4652ec4b1a2b719"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "READ-f35cd3e0880bf21185e9b761"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "TR-ebf405768c55df7fbf3e1f75"
+        }
+      ]
+    }
+  ],
+  "routing_limit": "C-id maps to bounded records through import representations; this routing is provenance, not source support. No record mapping means no inferred dependency graph.",
+  "dependencies": {
+    "current": [
+      {
+        "object_id": "ASSESS-P-0065-November1839",
+        "revision_id": "ASSESS-P-0065-November1839@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "rejected",
+        "evidence_status": "REJECTED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0065-marriage1867-fields@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "ASSESS-P-0065-November1839@1",
+            "basis_revision_id": "O-P-0065-marriage1867-fields@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "ASSESS-P-0065-November1839@1",
+            "basis_revision_id": "O-P-0065-marriage1867-fields@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "ASSESS-P-0065-marriage-birth-reading",
+        "revision_id": "ASSESS-P-0065-marriage-birth-reading@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": "CONFLICT",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0065-marriage1867-fields@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "ASSESS-P-0065-marriage-birth-reading@1",
+            "basis_revision_id": "O-P-0065-marriage1867-fields@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "ASSESS-P-0065-marriage-birth-reading@1",
+            "basis_revision_id": "O-P-0065-marriage1867-fields@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "ASSESS-P-0066-October-birth",
+        "revision_id": "ASSESS-P-0066-October-birth@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "rejected",
+        "evidence_status": "REJECTED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0066-marriage1867-bride@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "ASSESS-P-0066-October-birth@1",
+            "basis_revision_id": "O-P-0066-marriage1867-bride@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "ASSESS-P-0066-October-birth@1",
+            "basis_revision_id": "O-P-0066-marriage1867-bride@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "E-banns-P-0065-P-0066-1867",
+        "revision_id": "E-banns-P-0065-P-0066-1867@1",
+        "version": 1,
+        "kind": "event",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "E-banns-P-0065-P-0066-1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "E-banns-P-0065-P-0066-1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "E-marriage-P-0065-P-0066-1867",
+        "revision_id": "E-marriage-P-0065-P-0066-1867@1",
+        "version": 1,
+        "kind": "event",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "E-marriage-P-0065-P-0066-1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "E-marriage-P-0065-P-0066-1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "EP-E-banns-P-0065-P-0066-1867-P-0065-subject",
+        "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0065-subject@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "E-banns-P-0065-P-0066-1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0065-subject@1",
+            "basis_revision_id": "E-banns-P-0065-P-0066-1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0065-subject@1",
+            "basis_revision_id": "E-banns-P-0065-P-0066-1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "EP-E-banns-P-0065-P-0066-1867-P-0066-subject",
+        "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0066-subject@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "E-banns-P-0065-P-0066-1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0066-subject@1",
+            "basis_revision_id": "E-banns-P-0065-P-0066-1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0066-subject@1",
+            "basis_revision_id": "E-banns-P-0065-P-0066-1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman",
+        "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "E-banns-P-0065-P-0066-1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman@1",
+            "basis_revision_id": "E-banns-P-0065-P-0066-1867@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman@1",
+            "basis_revision_id": "E-banns-P-0065-P-0066-1867@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          },
+          {
+            "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman@1",
+            "basis_revision_id": "O-P-0066-marriage1867-bride@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "EP-E-marriage-P-0065-P-0066-1867-P-0065-spouse",
+        "revision_id": "EP-E-marriage-P-0065-P-0066-1867-P-0065-spouse@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "E-marriage-P-0065-P-0066-1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "EP-E-marriage-P-0065-P-0066-1867-P-0065-spouse@1",
+            "basis_revision_id": "E-marriage-P-0065-P-0066-1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "EP-E-marriage-P-0065-P-0066-1867-P-0065-spouse@1",
+            "basis_revision_id": "E-marriage-P-0065-P-0066-1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "EP-E-marriage-P-0065-P-0066-1867-P-0066-spouse",
+        "revision_id": "EP-E-marriage-P-0065-P-0066-1867-P-0066-spouse@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "E-marriage-P-0065-P-0066-1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "EP-E-marriage-P-0065-P-0066-1867-P-0066-spouse@1",
+            "basis_revision_id": "E-marriage-P-0065-P-0066-1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "EP-E-marriage-P-0065-P-0066-1867-P-0066-spouse@1",
+            "basis_revision_id": "E-marriage-P-0065-P-0066-1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0065-name_form-Jonsson-Jansson",
+        "revision_id": "F-P-0065-name_form-Jonsson-Jansson@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "F-P-0065-name_form-Jonsson-Jansson@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0065-name_form-Jonsson-Jansson@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0065-occupation-source-series",
+        "revision_id": "F-P-0065-occupation-source-series@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "F-P-0065-occupation-source-series@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0065-occupation-source-series@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0066-family_context-father-giftoman",
+        "revision_id": "F-P-0066-family_context-father-giftoman@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0066-marriage1867-bride@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "F-P-0066-family_context-father-giftoman@1",
+            "basis_revision_id": "O-P-0066-marriage1867-bride@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0066-family_context-father-giftoman@1",
+            "basis_revision_id": "O-P-0066-marriage1867-bride@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0066-family_context-paternal-grandmother",
+        "revision_id": "F-P-0066-family_context-paternal-grandmother@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "REL-parent-P-0145-P-0066@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "F-P-0066-family_context-paternal-grandmother@1",
+            "basis_revision_id": "REL-parent-P-0145-P-0066@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0066-family_context-paternal-grandmother@1",
+            "basis_revision_id": "REL-parent-P-0145-P-0066@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0066-source_reading-birth-variants",
+        "revision_id": "F-P-0066-source_reading-birth-variants@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0066-marriage1867-bride@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "F-P-0066-source_reading-birth-variants@1",
+            "basis_revision_id": "O-P-0066-marriage1867-bride@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0066-source_reading-birth-variants@1",
+            "basis_revision_id": "O-P-0066-marriage1867-bride@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0145-name_form-adult_sources",
+        "revision_id": "F-P-0145-name_form-adult_sources@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0145-C0106-giftoman@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0145-name_form-adult_sources@1",
+            "basis_revision_id": "O-P-0145-C0106-giftoman@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0145-name_form-adult_sources@1",
+            "basis_revision_id": "O-P-0145-C0106-giftoman@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0145-occupation-1828_1867",
+        "revision_id": "F-P-0145-occupation-1828_1867@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0145-C0106-giftoman@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0145-occupation-1828_1867@1",
+            "basis_revision_id": "O-P-0145-C0106-giftoman@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0145-occupation-1828_1867@1",
+            "basis_revision_id": "O-P-0145-C0106-giftoman@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0145-residence-Roda_anchors",
+        "revision_id": "F-P-0145-residence-Roda_anchors@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0145-C0106-giftoman@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0145-residence-Roda_anchors@1",
+            "basis_revision_id": "O-P-0145-C0106-giftoman@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0145-residence-Roda_anchors@1",
+            "basis_revision_id": "O-P-0145-C0106-giftoman@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "ID-M-C0106-Anders-Olofsson",
+        "revision_id": "ID-M-C0106-Anders-Olofsson@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "M-C0106-Anders-Olofsson@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "ID-M-C0106-Anders-Olofsson@1",
+            "basis_revision_id": "M-C0106-Anders-Olofsson@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "ID-M-C0106-Anders-Olofsson@1",
+            "basis_revision_id": "M-C0106-Anders-Olofsson@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "ID-M-P-0065-marriage1867",
+        "revision_id": "ID-M-P-0065-marriage1867@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "M-P-0065-marriage1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "ID-M-P-0065-marriage1867@1",
+            "basis_revision_id": "M-P-0065-marriage1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "ID-M-P-0065-marriage1867@1",
+            "basis_revision_id": "M-P-0065-marriage1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "ID-M-P-0066-marriage1867",
+        "revision_id": "ID-M-P-0066-marriage1867@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "M-P-0066-marriage1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "ID-M-P-0066-marriage1867@1",
+            "basis_revision_id": "M-P-0066-marriage1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "ID-M-P-0066-marriage1867@1",
+            "basis_revision_id": "M-P-0066-marriage1867@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "M-C0106-Anders-Olofsson",
+        "revision_id": "M-C0106-Anders-Olofsson@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "M-C0106-Anders-Olofsson@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "M-C0106-Anders-Olofsson@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "M-P-0065-marriage1867",
+        "revision_id": "M-P-0065-marriage1867@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "M-P-0065-marriage1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "M-P-0065-marriage1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "M-P-0066-marriage1867",
+        "revision_id": "M-P-0066-marriage1867@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "M-P-0066-marriage1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "M-P-0066-marriage1867@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "O-P-0065-marriage1867-fields",
+        "revision_id": "O-P-0065-marriage1867-fields@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "O-P-0065-marriage1867-fields@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "O-P-0065-marriage1867-fields@1",
+            "basis_revision_id": "M-P-0065-marriage1867@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0065-marriage1867-fields@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "O-P-0066-marriage1867-bride",
+        "revision_id": "O-P-0066-marriage1867-bride@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "O-P-0066-marriage1867-bride@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "O-P-0066-marriage1867-bride@1",
+            "basis_revision_id": "M-P-0066-marriage1867@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0066-marriage1867-bride@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "O-P-0145-C0106-giftoman",
+        "revision_id": "O-P-0145-C0106-giftoman@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "O-P-0145-C0106-giftoman@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "O-P-0145-C0106-giftoman@1",
+            "basis_revision_id": "M-C0106-Anders-Olofsson@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0145-C0106-giftoman@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Återbrukat befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "P-0066",
+        "revision_id": "P-0066@2",
+        "version": 2,
+        "kind": "person",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "P-0066@2",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "P-0066@2",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "READ-62351b52ec293f50c47b9151",
+        "revision_id": "READ-62351b52ec293f50c47b9151@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "READ-62351b52ec293f50c47b9151@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "READ-62351b52ec293f50c47b9151@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "READ-f35cd3e0880bf21185e9b761",
+        "revision_id": "READ-f35cd3e0880bf21185e9b761@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "READ-f35cd3e0880bf21185e9b761@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "READ-f35cd3e0880bf21185e9b761@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "REL-parent-P-0145-P-0066",
+        "revision_id": "REL-parent-P-0145-P-0066@1",
+        "version": 1,
+        "kind": "relation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "REL-parent-P-0145-P-0066@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "REL-parent-P-0145-P-0066@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "REL-spouse-P-0065-P-0066",
+        "revision_id": "REL-spouse-P-0065-P-0066@1",
+        "version": 1,
+        "kind": "relation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "REL-spouse-P-0065-P-0066@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "REL-spouse-P-0065-P-0066@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "TR-ebf405768c55df7fbf3e1f75",
+        "revision_id": "TR-ebf405768c55df7fbf3e1f75@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "TR-ebf405768c55df7fbf3e1f75@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "TR-ebf405768c55df7fbf3e1f75@1",
+            "basis_revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      }
+    ],
+    "historical": []
+  },
+  "provenance": {
+    "classification": "import_provenance_not_evidence",
+    "origins": [
+      {
+        "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman@1",
+        "unit_id": "61565c6df418aecd4993bca5eda6842149076ff74d696a2a349696089ff0a8ed",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman",
+        "version": 1,
+        "kind": "participation",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 83,
+        "end_line": 85,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "ID-M-C0106-Anders-Olofsson@1",
+        "unit_id": "3b77c91963955876ca93bf2169200b1ec82067ecf28edee42c540e2be192831d",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ID-M-C0106-Anders-Olofsson",
+        "version": 1,
+        "kind": "identity",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 83,
+        "end_line": 83,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "ID-M-C0106-Anders-Olofsson@1",
+        "unit_id": "e58c4a52db4bf2fe13af082e265c71f802b8c9d57076f557362bbc21cc7c28e7",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ID-M-C0106-Anders-Olofsson",
+        "version": 1,
+        "kind": "identity",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 26,
+        "end_line": 26,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "ID-M-P-0065-marriage1867@1",
+        "unit_id": "c5bcb5de5a78d910a58d1ed5bd654d9ed72d783192bccbda072cc6f5c1c10e5e",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ID-M-P-0065-marriage1867",
+        "version": 1,
+        "kind": "identity",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 21,
+        "end_line": 22,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "ID-M-P-0066-marriage1867@1",
+        "unit_id": "217dd74781d76573a7b8cd757ab5a9c808e2b42cb753717258fea6da0d331434",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ID-M-P-0066-marriage1867",
+        "version": 1,
+        "kind": "identity",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 24,
+        "end_line": 24,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "M-C0106-Anders-Olofsson@1",
+        "unit_id": "3b77c91963955876ca93bf2169200b1ec82067ecf28edee42c540e2be192831d",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "M-C0106-Anders-Olofsson",
+        "version": 1,
+        "kind": "mention",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 83,
+        "end_line": 83,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "M-C0106-Anders-Olofsson@1",
+        "unit_id": "e58c4a52db4bf2fe13af082e265c71f802b8c9d57076f557362bbc21cc7c28e7",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "M-C0106-Anders-Olofsson",
+        "version": 1,
+        "kind": "mention",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 26,
+        "end_line": 26,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "M-P-0065-marriage1867@1",
+        "unit_id": "c5bcb5de5a78d910a58d1ed5bd654d9ed72d783192bccbda072cc6f5c1c10e5e",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "M-P-0065-marriage1867",
+        "version": 1,
+        "kind": "mention",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 21,
+        "end_line": 22,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "M-P-0066-marriage1867@1",
+        "unit_id": "217dd74781d76573a7b8cd757ab5a9c808e2b42cb753717258fea6da0d331434",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "M-P-0066-marriage1867",
+        "version": 1,
+        "kind": "mention",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 24,
+        "end_line": 24,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "O-P-0065-marriage1867-fields@1",
+        "unit_id": "90e50488ca1dad38a228deefa4f836d9cedc0cee1003cef87c5f3d83fe24c646",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "O-P-0065-marriage1867-fields",
+        "version": 1,
+        "kind": "observation",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 71,
+        "end_line": 79,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "O-P-0066-marriage1867-bride@1",
+        "unit_id": "117707dddf9acb89c85abfb33437e666584844ecdcc6d76ee609bb545ee99abd",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "O-P-0066-marriage1867-bride",
+        "version": 1,
+        "kind": "observation",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 83,
+        "end_line": 90,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "O-P-0145-C0106-giftoman@1",
+        "unit_id": "117707dddf9acb89c85abfb33437e666584844ecdcc6d76ee609bb545ee99abd",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "O-P-0145-C0106-giftoman",
+        "version": 1,
+        "kind": "observation",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 83,
+        "end_line": 90,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+        "unit_id": "4df7b09ad63d854ac93418d8e02776b9f07b6f68cdfa9300b8a64edd9a38c2c3",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-3a1e056cc4652ec4b1a2b719",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 63,
+        "end_line": 63,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+        "unit_id": "84f9229324b0ff551cf0e9e6cf4e1b3ed6a45f23c20d2486c72700bcfcc8e648",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-3a1e056cc4652ec4b1a2b719",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 30,
+        "end_line": 59,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+        "unit_id": "942b6cee566dc5c768cf2dd0006dc46bddb55df62addea43052efe688c2e7001",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-3a1e056cc4652ec4b1a2b719",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 1,
+        "end_line": 101,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+        "unit_id": "d0fe69cd983cd284569d242048cc773a4492c2724002476990db2f10642bd91b",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-3a1e056cc4652ec4b1a2b719",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 9,
+        "end_line": 15,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+        "unit_id": "f73cd50990715f9dedcb8a9070dc4644c90fc64385c38db05e80e2c77894ecd8",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-3a1e056cc4652ec4b1a2b719",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 71,
+        "end_line": 101,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "READ-f35cd3e0880bf21185e9b761@1",
+        "unit_id": "4df7b09ad63d854ac93418d8e02776b9f07b6f68cdfa9300b8a64edd9a38c2c3",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-f35cd3e0880bf21185e9b761",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 63,
+        "end_line": 63,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "READ-f35cd3e0880bf21185e9b761@1",
+        "unit_id": "84f9229324b0ff551cf0e9e6cf4e1b3ed6a45f23c20d2486c72700bcfcc8e648",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-f35cd3e0880bf21185e9b761",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 30,
+        "end_line": 59,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "READ-f35cd3e0880bf21185e9b761@1",
+        "unit_id": "942b6cee566dc5c768cf2dd0006dc46bddb55df62addea43052efe688c2e7001",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-f35cd3e0880bf21185e9b761",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 1,
+        "end_line": 101,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "READ-f35cd3e0880bf21185e9b761@1",
+        "unit_id": "d0fe69cd983cd284569d242048cc773a4492c2724002476990db2f10642bd91b",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-f35cd3e0880bf21185e9b761",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 9,
+        "end_line": 15,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "READ-f35cd3e0880bf21185e9b761@1",
+        "unit_id": "f73cd50990715f9dedcb8a9070dc4644c90fc64385c38db05e80e2c77894ecd8",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-f35cd3e0880bf21185e9b761",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 71,
+        "end_line": 101,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "TR-ebf405768c55df7fbf3e1f75@1",
+        "unit_id": "942b6cee566dc5c768cf2dd0006dc46bddb55df62addea43052efe688c2e7001",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "TR-ebf405768c55df7fbf3e1f75",
+        "version": 1,
+        "kind": "transcription",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 1,
+        "end_line": 101,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      },
+      {
+        "revision_id": "TR-ebf405768c55df7fbf3e1f75@1",
+        "unit_id": "e75702a9bd1c5b97b6b9646466b5dc70cf3f161bb10e91c01ff35ce15496d017",
+        "coverage": "complete",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "TR-ebf405768c55df7fbf3e1f75",
+        "version": 1,
+        "kind": "transcription",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 19,
+        "end_line": 28,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4"
+      }
+    ],
+    "targets": [
+      {
+        "unit_id": "61565c6df418aecd4993bca5eda6842149076ff74d696a2a349696089ff0a8ed",
+        "decision_id": "UD-61565c6df418aecd4993bca5eda6842149076ff74d696a2a349696089ff0a8ed@1",
+        "target_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 83,
+        "end_line": 85,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman",
+        "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "3b77c91963955876ca93bf2169200b1ec82067ecf28edee42c540e2be192831d",
+        "decision_id": "UD-3b77c91963955876ca93bf2169200b1ec82067ecf28edee42c540e2be192831d@1",
+        "target_id": "ID-M-C0106-Anders-Olofsson",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 83,
+        "end_line": 83,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "ID-M-C0106-Anders-Olofsson",
+        "revision_id": "ID-M-C0106-Anders-Olofsson@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "e58c4a52db4bf2fe13af082e265c71f802b8c9d57076f557362bbc21cc7c28e7",
+        "decision_id": "UD-e58c4a52db4bf2fe13af082e265c71f802b8c9d57076f557362bbc21cc7c28e7@1",
+        "target_id": "ID-M-C0106-Anders-Olofsson",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 26,
+        "end_line": 26,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "ID-M-C0106-Anders-Olofsson",
+        "revision_id": "ID-M-C0106-Anders-Olofsson@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "c5bcb5de5a78d910a58d1ed5bd654d9ed72d783192bccbda072cc6f5c1c10e5e",
+        "decision_id": "UD-c5bcb5de5a78d910a58d1ed5bd654d9ed72d783192bccbda072cc6f5c1c10e5e@1",
+        "target_id": "ID-M-P-0065-marriage1867",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 21,
+        "end_line": 22,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "ID-M-P-0065-marriage1867",
+        "revision_id": "ID-M-P-0065-marriage1867@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true
+      },
+      {
+        "unit_id": "217dd74781d76573a7b8cd757ab5a9c808e2b42cb753717258fea6da0d331434",
+        "decision_id": "UD-217dd74781d76573a7b8cd757ab5a9c808e2b42cb753717258fea6da0d331434@1",
+        "target_id": "ID-M-P-0066-marriage1867",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 24,
+        "end_line": 24,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "ID-M-P-0066-marriage1867",
+        "revision_id": "ID-M-P-0066-marriage1867@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true
+      },
+      {
+        "unit_id": "3b77c91963955876ca93bf2169200b1ec82067ecf28edee42c540e2be192831d",
+        "decision_id": "UD-3b77c91963955876ca93bf2169200b1ec82067ecf28edee42c540e2be192831d@1",
+        "target_id": "M-C0106-Anders-Olofsson",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 83,
+        "end_line": 83,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "M-C0106-Anders-Olofsson",
+        "revision_id": "M-C0106-Anders-Olofsson@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "e58c4a52db4bf2fe13af082e265c71f802b8c9d57076f557362bbc21cc7c28e7",
+        "decision_id": "UD-e58c4a52db4bf2fe13af082e265c71f802b8c9d57076f557362bbc21cc7c28e7@1",
+        "target_id": "M-C0106-Anders-Olofsson",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 26,
+        "end_line": 26,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "M-C0106-Anders-Olofsson",
+        "revision_id": "M-C0106-Anders-Olofsson@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "c5bcb5de5a78d910a58d1ed5bd654d9ed72d783192bccbda072cc6f5c1c10e5e",
+        "decision_id": "UD-c5bcb5de5a78d910a58d1ed5bd654d9ed72d783192bccbda072cc6f5c1c10e5e@1",
+        "target_id": "M-P-0065-marriage1867",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 21,
+        "end_line": 22,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "M-P-0065-marriage1867",
+        "revision_id": "M-P-0065-marriage1867@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "217dd74781d76573a7b8cd757ab5a9c808e2b42cb753717258fea6da0d331434",
+        "decision_id": "UD-217dd74781d76573a7b8cd757ab5a9c808e2b42cb753717258fea6da0d331434@1",
+        "target_id": "M-P-0066-marriage1867",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 24,
+        "end_line": 24,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "M-P-0066-marriage1867",
+        "revision_id": "M-P-0066-marriage1867@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "90e50488ca1dad38a228deefa4f836d9cedc0cee1003cef87c5f3d83fe24c646",
+        "decision_id": "UD-90e50488ca1dad38a228deefa4f836d9cedc0cee1003cef87c5f3d83fe24c646@1",
+        "target_id": "O-P-0065-marriage1867-fields",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 71,
+        "end_line": 79,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "O-P-0065-marriage1867-fields",
+        "revision_id": "O-P-0065-marriage1867-fields@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "117707dddf9acb89c85abfb33437e666584844ecdcc6d76ee609bb545ee99abd",
+        "decision_id": "UD-117707dddf9acb89c85abfb33437e666584844ecdcc6d76ee609bb545ee99abd@1",
+        "target_id": "O-P-0066-marriage1867-bride",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 83,
+        "end_line": 90,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "O-P-0066-marriage1867-bride",
+        "revision_id": "O-P-0066-marriage1867-bride@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "117707dddf9acb89c85abfb33437e666584844ecdcc6d76ee609bb545ee99abd",
+        "decision_id": "UD-117707dddf9acb89c85abfb33437e666584844ecdcc6d76ee609bb545ee99abd@1",
+        "target_id": "O-P-0145-C0106-giftoman",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 83,
+        "end_line": 90,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "O-P-0145-C0106-giftoman",
+        "revision_id": "O-P-0145-C0106-giftoman@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "e75702a9bd1c5b97b6b9646466b5dc70cf3f161bb10e91c01ff35ce15496d017",
+        "decision_id": "UD-e75702a9bd1c5b97b6b9646466b5dc70cf3f161bb10e91c01ff35ce15496d017@1",
+        "target_id": "TR-ebf405768c55df7fbf3e1f75",
+        "state": "mapped_complete",
+        "rationale": "C-0106: Hela enheten återges ordagrant i avskriften; inte ett godkännande av uppgifterna. Lysning 6 januari och vigsel 28 januari består. Senaste folioförslag och rättelse om faderskapsargument måste följas.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md",
+        "start_line": 19,
+        "end_line": 28,
+        "historical": 0,
+        "sha256": "bd89438a3a945b97a741dbaa25f986d1c902a3dfb60f2c394c9f8cff9d2548d4",
+        "object_id": "TR-ebf405768c55df7fbf3e1f75",
+        "revision_id": "TR-ebf405768c55df7fbf3e1f75@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true
+      }
+    ]
+  },
+  "search": {
+    "matching": "Case-sensitive literal phrase; identifiers require boundaries. No stemming, date normalization or semantic matching.",
+    "terms": [
+      {
+        "value": "C-0106",
+        "source": "identifier",
+        "boundary": true
+      },
+      {
+        "value": "R-3a1e056cc4652ec4b1a2b719",
+        "source": "identifier",
+        "boundary": true
+      }
+    ]
+  },
+  "text_candidates": {
+    "current": [
+      {
+        "object_id": "ASSESSMENT-P-0066",
+        "revision_id": "ASSESSMENT-P-0066@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 620,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "lofsson-hushall-roda-1861.md), [C-0116](../citations/C-0116-anders-olofsson-sofia-magdalena-vigsel-1828.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0110](../citations/C-0110-degerfors-oktob",
+            "excerpt_start": 510
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0145",
+        "revision_id": "ASSESSMENT-P-0145@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 540,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "olofsson-sofia-magdalena-vigsel-1828.md), [C-0844](../citations/C-0844-degerfors-C2-anders-1806-negativ.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md)\n- Tidslinje: [aktens kronologi](../people/P-0",
+            "excerpt_start": 430
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0148",
+        "revision_id": "ASSESSMENT-P-0148@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 561,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "ofia-magdalena-vigsel-1828.md), [C-0119](../citations/C-0119-degerfors-negativ-kontroll-sofia-magdalena.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md)\n- Tidslinje: [aktens kronologi](../people/P-0",
+            "excerpt_start": 451
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "BIO-P-0065",
+        "revision_id": "BIO-P-0065@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 776,
+            "line": 5,
+            "occurrences": 2,
+            "excerpt": "ngarna 1898 är en annan avgränsning. Mågen Johan Oskar Zingmark förs in med Ida Sofia och deras dotter 1888. [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0064](../citations/C-0064-ida-sofia-barnd",
+            "excerpt_start": 666
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "BIO-P-0066",
+        "revision_id": "BIO-P-0066@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 2136,
+            "line": 7,
+            "occurrences": 2,
+            "excerpt": "ten av livet. Elva månader senare föddes dottern Ida Sofia, och födelseboken anger moderns ålder till 24 år. [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0062](../citations/C-0062-ida-sofia-fodel",
+            "excerpt_start": 2026
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "BIO-P-0145",
+        "revision_id": "BIO-P-0145@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 721,
+            "line": 3,
+            "occurrences": 2,
+            "excerpt": "lofsson-sofia-magdalena-vigsel-1828.md), [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md).\n\nDe senare födelseuppgifterna har inte lett ",
+            "excerpt_start": 611
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "CONTRACT-P-0145-PK-05",
+        "revision_id": "CONTRACT-P-0145-PK-05@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 180,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "olumnbredd prövade i C-0111/C-0116; svaga ort-/datumtecken reserverade, inte outvunna. Giftomannens egen post C-0106 tillgodoräknas. [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md), [C-0116](../citations/C-0",
+            "excerpt_start": 70
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "CONTRACT-P-0148-PK-05",
+        "revision_id": "CONTRACT-P-0148-PK-05@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 179,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "kolumnbredd prövade i C-0111/C-0116; svaga ort-/datumtecken reserverade, inte outvunna. Makens giftomannapost C-0106 ger ingen egen ny Sofia-uppgift. [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md), [C-0116]",
+            "excerpt_start": 69
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "E-marriage-P-0065-P-0066-1867",
+        "revision_id": "E-marriage-P-0065-P-0066-1867@1",
+        "version": 1,
+        "kind": "event",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "caveat",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "C-0106 anger 28 januari; P-0065:s sena tillägg rad 487 säger 29 januari utan ny vigselläsning. Den skillnaden bevara",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "EP-E-marriage-P-0065-P-0066-1867-P-0065-spouse",
+        "revision_id": "EP-E-marriage-P-0065-P-0066-1867-P-0065-spouse@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "caveat",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "C-0106 anger 28 januari; P-0065:s sena tillägg rad 487 säger 29 januari utan ny vigselläsning. Den skillnaden bevara",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "EP-E-marriage-P-0065-P-0066-1867-P-0066-spouse",
+        "revision_id": "EP-E-marriage-P-0065-P-0066-1867-P-0066-spouse@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "caveat",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "C-0106 anger 28 januari; P-0065:s sena tillägg rad 487 säger 29 januari utan ny vigselläsning. Den skillnaden bevara",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "KEY-P-0066-59ae48b86c29",
+        "revision_id": "KEY-P-0066-59ae48b86c29@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 103,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "| Oktoberformerna `17/10`, `20/10` och `30/10` 1843 | Förekommer i vigselboken, A I/9c och A I/10c. | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0064](../citations/C-0064-ida-sofia-barnd",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "KEY-P-0066-af18f69b8600",
+        "revision_id": "KEY-P-0066-af18f69b8600@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 183,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "et och lysningsbokens foliohänvisning. | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Sidan säker. Foliots nedre siffra är svag o",
+            "excerpt_start": 73
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "M-C0106-Anders-Olofsson",
+        "revision_id": "M-C0106-Anders-Olofsson@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-3a1e056cc4652ec4b1a2b719",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-3a1e056cc4652ec4b1a2b719",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "M-P-0065-marriage1867",
+        "revision_id": "M-P-0065-marriage1867@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-3a1e056cc4652ec4b1a2b719",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-3a1e056cc4652ec4b1a2b719",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "M-P-0066-marriage1867",
+        "revision_id": "M-P-0066-marriage1867@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-3a1e056cc4652ec4b1a2b719",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-3a1e056cc4652ec4b1a2b719",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "O-P-0065-marriage1867-fields",
+        "revision_id": "O-P-0065-marriage1867-fields@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-3a1e056cc4652ec4b1a2b719",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-3a1e056cc4652ec4b1a2b719",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "O-P-0066-marriage1867-bride",
+        "revision_id": "O-P-0066-marriage1867-bride@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-3a1e056cc4652ec4b1a2b719",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-3a1e056cc4652ec4b1a2b719",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "O-P-0145-C0106-giftoman",
+        "revision_id": "O-P-0145-C0106-giftoman@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-3a1e056cc4652ec4b1a2b719",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-3a1e056cc4652ec4b1a2b719",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "R-3a1e056cc4652ec4b1a2b719",
+        "revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": true,
+        "hits": [
+          {
+            "field": "rationale",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 21,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Källpost avgränsad i C-0106. Giftomansrollen ensam bevisar inte faderskap; den senare slutsatsen kräver C-0111:s dotterrad och personkorr",
+            "excerpt_start": 0
+          },
+          {
+            "field": "caveat",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 132,
+            "line": 2,
+            "occurrences": 1,
+            "excerpt": " är 14/16 april olöst läsning, inte säkert originalfel. Brudens folio rättas i steg 14/2 → 14/4[?] → 14/3[?].\nC-0106: Lysning 6 januari och vigsel 28 januari består. Senaste folioförslag och rättelse om faderskapsargument måst",
+            "excerpt_start": 22
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "READ-62351b52ec293f50c47b9151",
+        "revision_id": "READ-62351b52ec293f50c47b9151@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "subject_id",
+            "term": "R-3a1e056cc4652ec4b1a2b719",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-3a1e056cc4652ec4b1a2b719",
+            "excerpt_start": 0
+          },
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 207,
+            "line": 2,
+            "occurrences": 1,
+            "excerpt": ". Ingen sockenomfattande kandidatutredning; bilder 45–47 omlästes inte i denna kontroll.\nSamma vigselpost som C-0106. Äldre 14-läsning kvarstår som läshistorik, inte säker källkonflikt.",
+            "excerpt_start": 97
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "READ-f35cd3e0880bf21185e9b761",
+        "revision_id": "READ-f35cd3e0880bf21185e9b761@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "subject_id",
+            "term": "R-3a1e056cc4652ec4b1a2b719",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-3a1e056cc4652ec4b1a2b719",
+            "excerpt_start": 0
+          },
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "C-0106: Lysning 6 januari och vigsel 28 januari består. Senaste folioförslag och rättelse om faderskapsargument måst",
+            "excerpt_start": 0
+          },
+          {
+            "field": "rationale",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 43,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Dokumenterad avgränsning och läshistorik i C-0106; ingen ny oberoende evidensröst.",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "RESEARCH-P-0066-9d76f0343410",
+        "revision_id": "RESEARCH-P-0066-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 1792,
+            "line": 32,
+            "occurrences": 3,
+            "excerpt": "tterraden i barndomshushållet och av giftomannaskapet i\nlysningsboken 1867, där hon kallas nämndemansdotter\n([C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md)).\nDen äldre LEAD-slutsatsen i C-0106 är därme",
+            "excerpt_start": 1682
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "S-0050",
+        "revision_id": "S-0050@1",
+        "version": 1,
+        "kind": "source",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "description",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 705,
+            "line": 22,
+            "occurrences": 1,
+            "excerpt": "st och rättar en tidigare felläsning av datumet som 25 maj.\n\n## Personbunden avstämning — T-0139, 2026-09-08\n\nC-0106:s hela relevanta vigselpost har återanvänts i T-0139. Giftomannens egen roll och hemvist AndersOlofsson/Rödå ",
+            "excerpt_start": 595
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "THEME-P-0065-ARB",
+        "revision_id": "THEME-P-0065-ARB@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 147,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "rdägare 1870, bonde senare; f.d. hemmansägare 1898. Ägandets förändring och tillträde är inte fastställda. | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0485](../citations/C-0485-degerfors-AIIa3",
+            "excerpt_start": 37
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "THEME-P-0066-ARB",
+        "revision_id": "THEME-P-0066-ARB@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 308,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "i denna tid är det den normala källsituationen; en ytterligare yrkeskälla för henne är inte identifierbar. | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0549](../citations/C-0549-degerfors-AI10c",
+            "excerpt_start": 198
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "THEME-P-0066-SAM",
+        "revision_id": "THEME-P-0066-SAM@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 465,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "lumner, inte en genomsökt dombokserie. | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0485](../citations/C-0485-degerfors-AIIa3",
+            "excerpt_start": 355
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "TR-ebf405768c55df7fbf3e1f75",
+        "revision_id": "TR-ebf405768c55df7fbf3e1f75@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-3a1e056cc4652ec4b1a2b719",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-3a1e056cc4652ec4b1a2b719",
+            "excerpt_start": 0
+          },
+          {
+            "field": "rationale",
+            "term": "C-0106",
+            "term_source": "identifier",
+            "offset": 51,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0106; ingen ny originalavläsning.",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      }
+    ],
+    "historical": []
+  },
+  "review": {
+    "items": [
+      {
+        "object_id": "ASSESS-P-0065-marriage-birth-reading",
+        "revision_id": "ASSESS-P-0065-marriage-birth-reading@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": "CONFLICT",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESS-P-0065-November1839",
+        "revision_id": "ASSESS-P-0065-November1839@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "rejected",
+        "evidence_status": "REJECTED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESS-P-0066-October-birth",
+        "revision_id": "ASSESS-P-0066-October-birth@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "rejected",
+        "evidence_status": "REJECTED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0066",
+        "revision_id": "ASSESSMENT-P-0066@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0145",
+        "revision_id": "ASSESSMENT-P-0145@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0148",
+        "revision_id": "ASSESSMENT-P-0148@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "BIO-P-0065",
+        "revision_id": "BIO-P-0065@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "BIO-P-0066",
+        "revision_id": "BIO-P-0066@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "BIO-P-0145",
+        "revision_id": "BIO-P-0145@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "CONTRACT-P-0145-PK-05",
+        "revision_id": "CONTRACT-P-0145-PK-05@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "CONTRACT-P-0148-PK-05",
+        "revision_id": "CONTRACT-P-0148-PK-05@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "E-banns-P-0065-P-0066-1867",
+        "revision_id": "E-banns-P-0065-P-0066-1867@1",
+        "version": 1,
+        "kind": "event",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "E-marriage-P-0065-P-0066-1867",
+        "revision_id": "E-marriage-P-0065-P-0066-1867@1",
+        "version": 1,
+        "kind": "event",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "EP-E-banns-P-0065-P-0066-1867-P-0065-subject",
+        "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0065-subject@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "EP-E-banns-P-0065-P-0066-1867-P-0066-subject",
+        "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0066-subject@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman",
+        "revision_id": "EP-E-banns-P-0065-P-0066-1867-P-0145-giftoman@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "EP-E-marriage-P-0065-P-0066-1867-P-0065-spouse",
+        "revision_id": "EP-E-marriage-P-0065-P-0066-1867-P-0065-spouse@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "EP-E-marriage-P-0065-P-0066-1867-P-0066-spouse",
+        "revision_id": "EP-E-marriage-P-0065-P-0066-1867-P-0066-spouse@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0065-name_form-Jonsson-Jansson",
+        "revision_id": "F-P-0065-name_form-Jonsson-Jansson@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0065-occupation-source-series",
+        "revision_id": "F-P-0065-occupation-source-series@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0066-family_context-father-giftoman",
+        "revision_id": "F-P-0066-family_context-father-giftoman@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0066-family_context-paternal-grandmother",
+        "revision_id": "F-P-0066-family_context-paternal-grandmother@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0066-source_reading-birth-variants",
+        "revision_id": "F-P-0066-source_reading-birth-variants@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0145-name_form-adult_sources",
+        "revision_id": "F-P-0145-name_form-adult_sources@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0145-occupation-1828_1867",
+        "revision_id": "F-P-0145-occupation-1828_1867@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0145-residence-Roda_anchors",
+        "revision_id": "F-P-0145-residence-Roda_anchors@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ID-M-C0106-Anders-Olofsson",
+        "revision_id": "ID-M-C0106-Anders-Olofsson@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ID-M-P-0065-marriage1867",
+        "revision_id": "ID-M-P-0065-marriage1867@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ID-M-P-0066-marriage1867",
+        "revision_id": "ID-M-P-0066-marriage1867@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "KEY-P-0066-59ae48b86c29",
+        "revision_id": "KEY-P-0066-59ae48b86c29@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "KEY-P-0066-af18f69b8600",
+        "revision_id": "KEY-P-0066-af18f69b8600@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "M-C0106-Anders-Olofsson",
+        "revision_id": "M-C0106-Anders-Olofsson@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "M-P-0065-marriage1867",
+        "revision_id": "M-P-0065-marriage1867@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "M-P-0066-marriage1867",
+        "revision_id": "M-P-0066-marriage1867@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "O-P-0065-marriage1867-fields",
+        "revision_id": "O-P-0065-marriage1867-fields@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "O-P-0066-marriage1867-bride",
+        "revision_id": "O-P-0066-marriage1867-bride@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "O-P-0145-C0106-giftoman",
+        "revision_id": "O-P-0145-C0106-giftoman@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "P-0066",
+        "revision_id": "P-0066@2",
+        "version": 2,
+        "kind": "person",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "R-3a1e056cc4652ec4b1a2b719",
+        "revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "import_origin_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "READ-62351b52ec293f50c47b9151",
+        "revision_id": "READ-62351b52ec293f50c47b9151@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "READ-f35cd3e0880bf21185e9b761",
+        "revision_id": "READ-f35cd3e0880bf21185e9b761@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "REL-parent-P-0145-P-0066",
+        "revision_id": "REL-parent-P-0145-P-0066@1",
+        "version": 1,
+        "kind": "relation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "REL-spouse-P-0065-P-0066",
+        "revision_id": "REL-spouse-P-0065-P-0066@1",
+        "version": 1,
+        "kind": "relation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "RESEARCH-P-0066-9d76f0343410",
+        "revision_id": "RESEARCH-P-0066-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "S-0050",
+        "revision_id": "S-0050@1",
+        "version": 1,
+        "kind": "source",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "THEME-P-0065-ARB",
+        "revision_id": "THEME-P-0065-ARB@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "THEME-P-0066-ARB",
+        "revision_id": "THEME-P-0066-ARB@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "THEME-P-0066-SAM",
+        "revision_id": "THEME-P-0066-SAM@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "TR-ebf405768c55df7fbf3e1f75",
+        "revision_id": "TR-ebf405768c55df7fbf3e1f75@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      }
+    ],
+    "instructions": "Read inspect for each current object and its evidence. Record a reasoned decision in the active Wotan task / authorized operation. Revise through apply only when warranted; resolve only the exact existing pending request after individual review. Text/provenance candidates do not create requests. Null decisions are unreviewed, never approvals."
+  },
+  "limitations": [
+    "Read-only snapshot, not an execution queue. Re-run after revisions.",
+    "Text matches cannot establish copied facts, identity, error, relevance or support. Current text may contain historical retractions.",
+    "Unlinked paraphrases or different date/name spellings may be missed; supply relevant --query variants and inspect affected person profiles.",
+    "No query mutates data, adds evidence, opens/closes reviews or certifies complete semantic coverage."
+  ]
+}

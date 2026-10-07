@@ -1,0 +1,123 @@
+{
+  "task": "T-0789",
+  "status": "UNRUN_TEMPLATES_NOT_AUTHORIZATIONS",
+  "operation_constructed": false,
+  "draft_builder_pin": {
+    "path": "evaluations/T-0789/preparation/build_root_authorized_exact21_guard_projection_draft_v1.py",
+    "sha256": "dadb067f29f0b32d53eb88dc9af9206aff26ae122dd7c67760f0c5c91bdf1c4d"
+  },
+  "firstphase_helper_pin": {
+    "path": "evaluations/T-0789/preparation/stage_root_authorized_exact21_firstphase_v1.py",
+    "sha256": "623c861e738050e49b5828c8ebb930ad86b658b762bad03bac28005a81c26c0d"
+  },
+  "baseline_proof_pin": {
+    "path": "evaluations/T-0789/preparation/fresh452-preservation-backup-full50-protected42-and-exact21-current-proof-v1.json",
+    "sha256": "3aeae1f040d254dfe7842db74b4c9bdf12ceb0382c17e80168b1d8ed5055508d"
+  },
+  "baseline_DB_pin": {
+    "path": "evaluations/T-0789/preparation/baseline-j452.sqlite",
+    "sha256": "c8a648f3ea9384cb9d5c539287b2e189373707dc561179935e73884a2957930b"
+  },
+  "main_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "eabdc5aff2eefdc35136f5823ccb140f155425f61505238b77f29c984baee248"
+  },
+  "draft_authorization_required_fields": {
+    "action": "BUILD_EXACT21_GUARDED_DRAFT_ONLY",
+    "helper_pin": {
+      "path": "evaluations/T-0789/preparation/build_root_authorized_exact21_guard_projection_draft_v1.py",
+      "sha256": "dadb067f29f0b32d53eb88dc9af9206aff26ae122dd7c67760f0c5c91bdf1c4d"
+    },
+    "guard_pin": {
+      "path": "evaluations/T-0789/preparation/exact21-actual-accepted452-input-guard-v1/exact21-actual-accepted452-whole-old-schema-support-head-and-full-incoming-guard-v1.json",
+      "sha256": "8def7d7ac334f5b8c63711b3f90800bb1de28947926faf26134fec05fffdad26"
+    },
+    "baseline_proof_pin": {
+      "path": "evaluations/T-0789/preparation/fresh452-preservation-backup-full50-protected42-and-exact21-current-proof-v1.json",
+      "sha256": "3aeae1f040d254dfe7842db74b4c9bdf12ceb0382c17e80168b1d8ed5055508d"
+    },
+    "runtime_authorized": false,
+    "output_directory": "evaluations/T-0789/implementation/exact21-draft-v1",
+    "operation_id": "ROOT_TO_SETTLE",
+    "actor": "ROOT_TO_SETTLE",
+    "reason": "ROOT_TO_SETTLE",
+    "final_source_union_pin": "PENDING_FINAL_SOURCE21_READY",
+    "source_order_pointer": "/ordered_source_rows",
+    "primary_final_input_gate": {
+      "pin": "PENDING",
+      "ready_pointer": "PENDING",
+      "source_union_pin_pointer": "PENDING",
+      "guard_pin_pointer": "PENDING"
+    },
+    "independent_final_input_gate": {
+      "pin": "PENDING",
+      "ready_pointer": "PENDING",
+      "source_union_pin_pointer": "PENDING",
+      "guard_pin_pointer": "PENDING"
+    },
+    "individual_source_bindings": "ORDERED21 of {object_id,pin,pointer,literal_source_disposition, optional full_API_pointer}; every full_API_pointer literal equals guarded projection",
+    "individual_incoming_bindings": "ORDERED5 of {native_rowid,actual_native_edge,primary:{pin,pointer,literal_disposition},independent:{pin,pointer,literal_disposition}}",
+    "finite58_readiness_bindings": "EXACT2 separate primary+independent {pin,ready_pointer}, values true"
+  },
+  "firstphase_runtime_authorization_required_fields": {
+    "task": "T-0789",
+    "phase": "clone-first-apply-and-capture-actual-requests",
+    "root_authorized": true,
+    "runtime_resolution_authorized": false,
+    "canonical_authorized": false,
+    "database_replacement_authorized": false,
+    "retry_authorized": false,
+    "baseline_state": {
+      "journal_head": 452,
+      "pending": 0
+    },
+    "target_count": 21,
+    "revision_count": 9,
+    "create_count": 12,
+    "media_count": 2,
+    "actual_request_count_not_inferred_from5_inputs": true,
+    "package_pin": "PENDING_BUILT_AND_TWO_BYTEGATES",
+    "operation_pin": "PENDING_BUILT",
+    "main_baseline_pin": {
+      "path": "genealogy2/data/research.sqlite",
+      "sha256": "eabdc5aff2eefdc35136f5823ccb140f155425f61505238b77f29c984baee248"
+    },
+    "baseline_DB_pin": {
+      "path": "evaluations/T-0789/preparation/baseline-j452.sqlite",
+      "sha256": "c8a648f3ea9384cb9d5c539287b2e189373707dc561179935e73884a2957930b"
+    },
+    "primary_gate": {
+      "pin": "PENDING_BUILT",
+      "ready_pointer": "PENDING",
+      "proposal_pin_pointer": "PENDING",
+      "membership_pin_pointer": "PENDING",
+      "operation_pin_pointer": "PENDING"
+    },
+    "independent_gate": {
+      "pin": "PENDING_BUILT",
+      "ready_pointer": "PENDING",
+      "proposal_pin_pointer": "PENDING",
+      "membership_pin_pointer": "PENDING",
+      "operation_pin_pointer": "PENDING"
+    },
+    "source_order_pointer": "/ordered_source_rows",
+    "source_code_pins": "ALL required immutable JSON/code/norm/review pins; raw hash checked, JSON gates parsed separately",
+    "media_pins": [
+      {
+        "path": "evaluations/T-0789/postlogin-originals/00023815_00102.jpg",
+        "sha256": "2238526f79d9e19fc1d638df6c796ff6f7bf90080dedae2b6b89552d1d2b2c7e"
+      },
+      {
+        "path": "evaluations/T-0789/postlogin-originals/00023816_00111.jpg",
+        "sha256": "c0ff0afad11f5de83ee280789cb6d5b50ff8971a1e635143f22be79058dd38dc"
+      }
+    ],
+    "stage_output_root": "evaluations/T-0789/exact21-stage-v1"
+  },
+  "commands_UNRUN": [
+    "python evaluations/T-0789/preparation/build_root_authorized_exact21_guard_projection_draft_v1.py --authorization <ROOT_DRAFT_AUTH> --authorization-sha256 <ROOT_AUTH_SHA>",
+    "python evaluations/T-0789/preparation/stage_root_authorized_exact21_firstphase_v1.py --authorization <ROOT_SEPARATE_STAGE_AUTH> --authorization-sha256 <ROOT_AUTH_SHA> --helper-sha256 623c861e738050e49b5828c8ebb930ad86b658b762bad03bac28005a81c26c0d"
+  ],
+  "actual_requests": "Captured from actual stage pending after one controlled CLI; no inferred five, no automatic retain/rebind/resolver. Final six checks await own primary+independent actual request dispositions and root phase authority.",
+  "usage": "UNKNOWN pending root collector"
+}

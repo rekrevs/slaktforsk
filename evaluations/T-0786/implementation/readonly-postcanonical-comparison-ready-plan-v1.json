@@ -1,0 +1,34 @@
+{
+  "task": "T-0786",
+  "original_helper_pin": {
+    "path": "evaluations/T-0781/root_compare_actual_stage_v1.py",
+    "sha256": "cc7cb140aeb67d11dc05e5cb2c994d53027e9875f879ea79062d1d149d69ad9f"
+  },
+  "new_helper_pin": {
+    "path": "evaluations/T-0786/implementation/compare_root_applied_one_search_to_reviewed_stage_v1.py",
+    "sha256": "b6e9d29eac54a5a8943b776737e409116f5fb6862af931d7a787a0a87651920a"
+  },
+  "sole_helper_change": "Output task label T0781→T0786; all comparison semantics unchanged",
+  "AST_parse": true,
+  "comparison_input_pin": {
+    "path": "evaluations/T-0786/implementation/root-postcanonical-all50-comparison-input-v1.json",
+    "sha256": "8f6a37e90e81ce085b185abb0a0a0fc841fcd44acd548f270f7ec724b31d81d6"
+  },
+  "reviewed_stage_pin": {
+    "path": "evaluations/T-0786/one-search-stage-v1/stage.sqlite",
+    "sha256": "aa7d413cb946d743e0db3bd5c8cb1f32410f23aac55f0d797af988b16748a35a"
+  },
+  "UNRUN": true,
+  "readonly": true,
+  "root_command": [
+    "python3",
+    "evaluations/T-0786/implementation/compare_root_applied_one_search_to_reviewed_stage_v1.py",
+    "--stage",
+    "evaluations/T-0786/one-search-stage-v1/stage.sqlite",
+    "--gate",
+    "evaluations/T-0786/implementation/root-postcanonical-all50-comparison-input-v1.json",
+    "--output",
+    "evaluations/T-0786/root-actual444-all50-reviewed-stage-comparison-v1.json"
+  ],
+  "expected": "All50 rawschema/rows/BLOB/JSON/oldhistory/currentmetadata equal; exact dependency/origin/asset/media/reviewresolution rowid order; only authorized new operation recorded_at clock may differ; actual444/0"
+}

@@ -1,0 +1,61 @@
+{
+  "task": "T-0788",
+  "status": "PRIMARY_EXACT_SPEC_PENDING_COMPARATIVE_AND_ACTUAL_BUILD",
+  "own_freeze_pin": {
+    "path": "evaluations/T-0788/source-review/primary-own-bounded-access-current-consequence-freeze-v1.json",
+    "sha256": "b0f0383c440d9e85400f8c7aa4fe0be04012fa746e755769b90fcd9a3bb0b7ee"
+  },
+  "expected_new": 1,
+  "expected_revisions": 0,
+  "full_new_API": {
+    "id": "SEARCH-T0788-Flen744-original-access",
+    "expectedVersion": null,
+    "kind": "search",
+    "disposition": "recorded",
+    "evidenceStatus": null,
+    "rationale": "T-0788: explicit avgränsad daterad åtkomstobservation, utan nytt originalinnehåll eller ny personbedömning. Root observerade externa svar; primärAstra bedömde bevarade råresultat.",
+    "caveat": "Original mottagna/lästa0. Historiska hash-/manifest-/viewermetadata är routing och äldre proveniens, inte egen ny källäsning. HTTP401/login är ett tillfälligt provutfall, inte permanent otillgänglighet eller käll-/personnoll. All befintlig kunskap och granskningsnivå bevaras.",
+    "data": {
+      "question_id": null,
+      "source_id": "S-0758",
+      "scope_json": {
+        "description": "P-0007/P-0017: Flen AIIa7c fol744r9–10; systerns egenrad10 kol9–13 och relevant moderns rad9.",
+        "query": "Exakt F0015634_00156, https://lbiiif.riksarkivet.se/arkis!F0015634_00156/full/max/0/default.jpg och https://sok.riksarkivet.se/bildvisning/F0015634_00156",
+        "date": "2026-10-06",
+        "persons": [
+          "P-0007",
+          "P-0017"
+        ],
+        "new_originals_received_or_read": 0,
+        "bounded_task": "T-0788"
+      },
+      "outcome": "access_problem",
+      "body": "T-0788, daterat åtkomstprov2026-10-06. Målet är Flen AIIa7c fol744r9–10, vars egen systerrad10 redan används i Maj P-0007:s familje-/helsysterargument. Tidigare egna932r3/860/720resultat och Majs accepterade T-0784-bedömning återbrukas; de ersätter inte de ännu outvunna egna744kol9–13.\n\nRoot kontrollerade den exakta lokala originalrutten och den historiska browserhashen464e9a5b04fecc67bb8bc7ad36c32b7c94c159b37d93bfd09e21ffea83cb9efd. Den lokala fullbilden kunde inte återfinnas i det dokumenterade omfånget. Hashen bevarar äldre proveniens men är inte en nu tillgänglig bild. Exakt offentligt fullmax-anrop med egen visarsidas Referer gav HTTP401. Den exakta Chromevisaren nådde inloggningssida med tomma användarnamns-/lösenordsfält; ett initialt styravbrott följdes av faktisk tab-/AX-kontroll. Inga originalbytes mottogs eller lästes. PrimärAstra bedömer de bevarade rootobservationerna och gör inget anspråk på egen browser- eller bildläsning.\n\nUtfall: ett tillfälligt åtkomstproblem. Varken frånvaro av person/källa, odigitaliserat material eller uttömd åtkomst visas. Efter fungerande tillåten inloggning återstår exakt744fullbild/hash och full relevant egenrad/rad9kontext, följt av avgränsad käll-/konsekvensprövning. Andra C0973folios, systerns egenfödelse, make och senareliv ingår inte.\n\nAlla befintliga person-, föräldra-/syskon-, OWNER-, PK-, identitets-, träd- och livsbeslut behålls. Ingen ny uppgift om originalets innehåll eller automatisk godkänd grind följer. T-0788 äger den avgränsade744passagen; T-0237/T-0377:s andra delar och accepterade932arbete bevaras. Wotan ensam anger faktisk blockering och återstart."
+    },
+    "origins": [],
+    "evidence": [
+      {
+        "object": "S-0758",
+        "version": 1,
+        "role": "context",
+        "note": "Exakt befintlig arkivrutt; äldre beskrivning återbrukas som routing utan ny åtkomst-/innehållsclaim."
+      },
+      {
+        "object": "R-ab847c1960d02f28801419b3",
+        "version": 1,
+        "role": "context",
+        "note": "Befintlig delvis utvunnen744post och exakt originalrutt; inget nytt originalinnehåll observerat."
+      }
+    ],
+    "bindings": {
+      "S-0758": 1
+    }
+  },
+  "current_disposition": "Retain all existingnative/source/record/person/relation/OWNER/PK/PATH/KEY/review/life andorderedmetadata unchanged. No source/contentchanged; no dependentnativecorrection or rebind.",
+  "guards": [
+    "NewID absent, expectedVersionnull.",
+    "All citedsource/recordheads exact1, whole currentunchanged from current444 lock.",
+    "If ownerlogin yields new actualsourceaccess beforefinalgate, preserveinitialspec and return to source role."
+  ],
+  "canonical_authorized": false
+}

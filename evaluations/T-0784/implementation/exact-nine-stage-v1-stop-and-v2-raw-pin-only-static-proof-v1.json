@@ -1,0 +1,35 @@
+{
+  "status": "V2_STATIC_AST_AND_RAW_PIN_GUARDS_PASS_UNRUN",
+  "v1_helper_pin": {
+    "path": "evaluations/T-0784/implementation/stage_root_authorized_exact_nine_v1.py",
+    "sha256": "84203caeacd8725eebca229266534e821c15ae94116536e8e1fa66b37c20700d"
+  },
+  "v2_helper_pin": {
+    "path": "evaluations/T-0784/implementation/stage_root_authorized_exact_nine_v2.py",
+    "sha256": "e36e60ec42a99e5b0dc428ad0666210e59ba76b4ead438f18d89ab42e2f788d6"
+  },
+  "exact_diff_pin": {
+    "path": "evaluations/T-0784/implementation/stage-exact-nine-v1-to-v2-raw-review-pin-only.patch",
+    "sha256": "9162d1fb65b73b77bf247219a4a006614ede50c33f6561a8f590639409f8900c"
+  },
+  "preserved_authorization_v1_pin": {
+    "path": "evaluations/T-0784/root-exact-nine-stage-only-authorization-v1.json",
+    "sha256": "65a2e9d871aa534a4860ba8a299188120a45673561fe9a7529673e49e5b7c1f4"
+  },
+  "original_attempt_error_from_root": "JSONDecodeError line198 readpin(review_pins), exit1 before stage creation or any CLIapply",
+  "stage_path": "evaluations/T-0784/root-authorized-exact-nine-stage-v1",
+  "stage_path_absent": true,
+  "actual_MAIN_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "42321e363573c243597aded458e6a10d2d6cd8e4be47da02a227b149bbaed45f"
+  },
+  "actual_state": {
+    "journal_head": 442,
+    "pending": 0
+  },
+  "all_authorized_raw_review_pin_hashes_match": true,
+  "review_pin_count": 14,
+  "changes_only": "Introduce checked_pin_path(path/hash); readpin JSON reader delegates to it; two review_pins loops use checked_pin_path. Actual JSON gate/proposal/membership reads, all runtime guards and operations unchanged.",
+  "AST_parse": true,
+  "no_retry_no_stage_no_CLI_no_native_Wotan_mutation": true
+}

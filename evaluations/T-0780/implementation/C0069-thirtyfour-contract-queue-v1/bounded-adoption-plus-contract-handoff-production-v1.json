@@ -1,0 +1,44 @@
+{
+  "prior_adoption_phase_pin": {
+    "path": "evaluations/T-0780/implementation/C0069-eight-adoption-retain-queue-v1/bounded-eight-adoption-fourteen-retains-handoff-production-v1.json",
+    "sha256": "d5b65ae5ebec4c58fc2cf0f41b1b19b0cbd4bec93f100c02bedc07f755967aa7"
+  },
+  "source_pins": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0069-thirtyfour-contract-decisions-v1.json",
+      "sha256": "86375a1aa4ad49fa0d92857c0704b90db5481223f6cf2d0b0ff0f1943270e587"
+    }
+  ],
+  "input_pin": {
+    "path": "evaluations/T-0780/implementation/C0069-thirtyfour-contract-queue-v1/contract-full-supports-and-all-history-incoming-input-v1.json",
+    "sha256": "f8ade101e0ee687056ea5ccce336cc2fe774b6b004abae0150c35e66d1ae5789"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0780/implementation/C0069-thirtyfour-contract-queue-v1/current102-candidate-membership-inventory-v1.json",
+    "sha256": "1672d1dd28e2fb9156c466f29931ec4066abf53c077a52f0ecd2e82f1f4c52c0"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0780/implementation/C0069-thirtyfour-contract-queue-v1/concrete-current102-partial-sequence-and-constraint-proposal-v1.json",
+    "sha256": "c997bec8664b1e6afded8760bb12d1c624d1adbc2dd41b7bcd46d82f09ceb4aa"
+  },
+  "new_adoptions_this_phase": 8,
+  "contract_revisions": 6,
+  "contract_retains": 28,
+  "core_revisions": 0,
+  "full_contract_field_entries": 272,
+  "incoming_edges": 0,
+  "additional_failed_attempt": {
+    "script": "finalize_C0069_adoption_contract_phase_v1.py",
+    "reason": "Mechanical template replacement changed predecessor101 filename to102; failed before writes. Corrected exact existing prior101 pin."
+  },
+  "failed_attempts": [
+    {
+      "script": "build_C0069_thirtyfour_contract_queue_v1.py",
+      "reason": "Root message appended six-revision count to SHA. Initial 65-character guard stopped before writes; exact actual 64-character prefix independently verified and bound, parent notified."
+    }
+  ],
+  "observed_since_contract_candidate_seconds": 39.74382662773132,
+  "initial_reads_excluded": true,
+  "model_usage_root_collect_after_final": true,
+  "no_stage_probe_apply_actual328_modification": true
+}

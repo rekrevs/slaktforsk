@@ -1,0 +1,1201 @@
+{
+  "task": "T-0780",
+  "input": "evaluations/T-0780/implementation/C0425-first-settled-queue-v1/full-all-history-fanout-overlap-and-extra-support-input-v1.json",
+  "input_sha256": "b0f36e27d284b940ac53191c22a6ed28314136bbacb7a3ed53e87d49c703e68c",
+  "scope": "34edges29wholecurrent;24exactpriorfullread reused,5participations freshly fully read.",
+  "decisions": [
+    {
+      "edge": {
+        "revision_id": "E-death-P-0094@1",
+        "basis_revision_id": "O-P-0094-household1895@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "E-death-P-0094",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "7b50ef8c84e49e7193d09811f3c3e8f411474bb14af9e22cad8b2034ae6bed8b",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 4,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Faderns egna dödsfält1895-09-08 ändras inte av O-rättelserna för årsgrupper/ort/rånamn.",
+      "basis_retained": "O-P-0094-household1895@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "F-P-0094-occupation-adult-life@1",
+        "basis_revision_id": "O-P-0094-household1895@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "F-P-0094-occupation-adult-life",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "7088fe18848a12601d6c8e06dbf2a4464de238e5909cc31b3fa521f0c44cfb97",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 25,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen Bonde/undantagsman och separata yrkesankare består; ingen fysisk kontinuitet eller godsägande tillkommer.",
+      "basis_retained": "O-P-0094-household1895@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "ASSESS-P-0094-marriage-date@1",
+        "basis_revision_id": "O-P-0094-household1895@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ASSESS-P-0094-marriage-date",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "0e2441a1fd1c8cabea2aa70dfce7ebd3c35eb9ea9eededea2e204eabefd31510",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-selected14-assessment-search-decisions-v1.json",
+        "sha256": "5161661942127c414675cb7c03a8b88a974701efad9581c60df2cf948f1e63a6",
+        "objects_index": 0,
+        "rationale": "Whole review header, bounded assessment or search and complete caveat read; identical shared caveat corrections explicitly reuse approved C425 contract clauses after exact equality. Search-key source/time limits retained; no execution or source exhaustion inferred.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "O-rå61[?] förblir reserverat och äldre vigselsökning är avgränsad; ingen säker vigseldag tillkommer.",
+      "basis_retained": "O-P-0094-household1895@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "ASSESS-P-0094-birth-conflict-resolved@1",
+        "basis_revision_id": "O-P-0094-household1895@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ASSESS-P-0094-birth-conflict-resolved",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "018e6d2cc53507418efc6ffe8399a7a14ab6871133c15a009f35f8cda8457410",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-C0069-expanded-nine-source-path-decisions-v1.json",
+        "sha256": "3878cb1bc5b179d934ed6886356f1fcc60cf72bfa746c4dfb9ba0b1c19e9ec5b",
+        "objects_index": 0,
+        "rationale": "Stronger explicit ownbirth16April resolves lateC0069July variant; no reopening equivalent conflict.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Starkare egen16April1830 kvar mot rå16July; metadata/literaländringen återöppnar inte avgjord egenfödelse.",
+      "basis_retained": "O-P-0094-household1895@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "E-death-P-0095@1",
+        "basis_revision_id": "O-P-0095-household1895@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "E-death-P-0095",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "f75ed782bdffd4a9d178990e8c950861df7e56018a9d57a75868134fe8fafcd0",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 5,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Moderns egna dödsfält1903-02-11 består; nya års-/kunskapsgränser ändrar inte eventdatum.",
+      "basis_retained": "O-P-0095-household1895@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "E-birth-P-0096@1",
+        "basis_revision_id": "O-P-0096-adult-household@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "E-birth-P-0096",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "957867c2eba6f669e1db9ca8c7adb8ff2101fa277596f3b2302c65bc49a1c6f5",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 2,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": [
+          {
+            "field": "caveat",
+            "old": "Accepterad bokuppgift, egen samtida födelsepost och exakt fysisk födelselokal ej lästa. Kyrkoböcker och folkräkningsutdrag är beroende.",
+            "new": "Accepterad bokuppgift om dagen bevaras. Egna födelseortsceller i C0069 och C0425 är tomma; Ultervattnet avser hushållets registrering och dessa rader ger ingen uttrycklig egen födelseförsamling. Befintlig ortetikett återges som äldre hushållsbaserad attribution, inte ny verifiering. Egen samtida födelsepost och fysisk födelselokal ej lästa; kyrkoböcker och räkneutdrag är beroende."
+          }
+        ]
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Född1863-05-18 kvar i båda rader; beslutad eventcaveat kvalificerar blankort och hushållsort. O1 bär datum, inte fysisk födelseplats.",
+      "basis_retained": "O-P-0096-adult-household@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "F-P-0096-military_registration-1884@1",
+        "basis_revision_id": "O-P-0096-adult-household@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "F-P-0096-military_registration-1884",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "70b23db260e0234c07c1926d07e3836232db3ef84680c97f95f1ab61c13e4a19",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 30,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen nummerkombination218/71/1884 står kvar på egna rader; ändrade andra celler ger ingen ny förbands-/tjänstslutsats.",
+      "basis_retained": "O-P-0096-adult-household@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "F-P-0096-occupation-1890-1910@1",
+        "basis_revision_id": "O-P-0096-adult-household@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "F-P-0096-occupation-1890-1910",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "88826fbbd3756b541b6747b0e3ecd72be22d4f6aefb2dc841c2fa5a2075737cc",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 31,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egna Bonde-titel och redan avgränsade bokankare består; ingen gårdsövertagande- eller fysiskvistelseinferens.",
+      "basis_retained": "O-P-0096-adult-household@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "F-P-0096-residence-known-households@1",
+        "basis_revision_id": "O-P-0096-adult-household@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "F-P-0096-residence-known-households",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "c8e21d6ed45cb5383de96f16d7a966431d96a51e7cd8fd143ca34e0606224480",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 32,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Registreringsankare kvar, inte kontinuerlig fysiskvistelse; full sourcecaveat bevaras.",
+      "basis_retained": "O-P-0096-adult-household@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+        "basis_revision_id": "O-P-0096-adult-household@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "E-marriage-P-0096-Mathilda-Granberg-1898",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "701fc60a2beead80a570ca75e3e1dbfd8fca51c9cc27453cd6218df46acfc6c3",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 6,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen vigsel1898-10-29 oförändrad; sourcebeslut kvalificerar hustruns efternamn till Gr[ö/o/a?]nberg. Bestående event-id är identifierare, ingen påtvingad glyphnormalisering.",
+      "basis_retained": "O-P-0096-adult-household@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "E-birth-P-0096@1",
+        "basis_revision_id": "O-P-0096-child1895@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "E-birth-P-0096",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "957867c2eba6f669e1db9ca8c7adb8ff2101fa277596f3b2302c65bc49a1c6f5",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 2,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": [
+          {
+            "field": "caveat",
+            "old": "Accepterad bokuppgift, egen samtida födelsepost och exakt fysisk födelselokal ej lästa. Kyrkoböcker och folkräkningsutdrag är beroende.",
+            "new": "Accepterad bokuppgift om dagen bevaras. Egna födelseortsceller i C0069 och C0425 är tomma; Ultervattnet avser hushållets registrering och dessa rader ger ingen uttrycklig egen födelseförsamling. Befintlig ortetikett återges som äldre hushållsbaserad attribution, inte ny verifiering. Egen samtida födelsepost och fysisk födelselokal ej lästa; kyrkoböcker och räkneutdrag är beroende."
+          }
+        ]
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Född1863-05-18 kvar i båda rader; beslutad eventcaveat kvalificerar blankort och hushållsort. O1 bär datum, inte fysisk födelseplats.",
+      "basis_retained": "O-P-0096-child1895@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "F-P-0096-military_registration-1884@1",
+        "basis_revision_id": "O-P-0096-child1895@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "F-P-0096-military_registration-1884",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "70b23db260e0234c07c1926d07e3836232db3ef84680c97f95f1ab61c13e4a19",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 30,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen nummerkombination218/71/1884 står kvar på egna rader; ändrade andra celler ger ingen ny förbands-/tjänstslutsats.",
+      "basis_retained": "O-P-0096-child1895@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "F-P-0096-residence-known-households@1",
+        "basis_revision_id": "O-P-0096-child1895@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "F-P-0096-residence-known-households",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "c8e21d6ed45cb5383de96f16d7a966431d96a51e7cd8fd143ca34e0606224480",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 32,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Registreringsankare kvar, inte kontinuerlig fysiskvistelse; full sourcecaveat bevaras.",
+      "basis_retained": "O-P-0096-child1895@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+        "basis_revision_id": "O-P-0096-wife@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "E-marriage-P-0096-Mathilda-Granberg-1898",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "701fc60a2beead80a570ca75e3e1dbfd8fca51c9cc27453cd6218df46acfc6c3",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 6,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen vigsel1898-10-29 oförändrad; sourcebeslut kvalificerar hustruns efternamn till Gr[ö/o/a?]nberg. Bestående event-id är identifierare, ingen påtvingad glyphnormalisering.",
+      "basis_retained": "O-P-0096-wife@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "F-P-0097-military_registration-Frik@1",
+        "basis_revision_id": "O-P-0097-household-r4@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "F-P-0097-military_registration-Frik",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "f033323046f4776e21b4614415d5f6dac7504ce2c8e00741c2d80930c8c11c00",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 34,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget Frik. kvar, varken datum/orsak/tjänst tillskrivs från andra ändrade fält.",
+      "basis_retained": "O-P-0097-household-r4@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "F-P-0097-name_form-Burman@1",
+        "basis_revision_id": "O-P-0097-household-r4@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "F-P-0097-name_form-Burman",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "a8a87e207214da7e0777311ee5db9f67b091e0a68c9576ecee74296525b49f43",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 35,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget Burman kvar som namnform; ingen automatisk yrkes-/soldattolkning eller witnessidentity följer.",
+      "basis_retained": "O-P-0097-household-r4@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "F-P-0099-military_registration-Frik@1",
+        "basis_revision_id": "O-P-0099-child-r6@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "F-P-0099-military_registration-Frik",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "b375fe1bc1ea64058e79ab20514f8fe5b2cf9270ddb6bf77747fe8f3f3d97eca",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 40,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Frik.-fält oförändrat; övre födelsedagsreservation och nedre26September ändrar inte denna odaterade not.",
+      "basis_retained": "O-P-0099-child-r6@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "F-P-0100-source_reference-folio820@1",
+        "basis_revision_id": "O-P-0100-household-r7@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "F-P-0100-source_reference-folio820",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "0981425b673028dad1a2650f1cd6a95d2ad538f1c2316f0995a94c8e2f0ad31e",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-expanded69-structured-decisions-v2.json",
+        "sha256": "0efa07b5d01df665c53437c1765e72b1e1924761f43762a9ab880668169b16b5",
+        "objects_index": 45,
+        "rationale": "Full structured data/meta/evidence and whole caveat read. Date-specific older ownbirth/death/census facts retain exact support; C425 blank fields do not erase these. Existing explicit limits suffice; no identity/status demotion or automatic basis rebind.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen820 och1905-12-02 kvar som registrerad hänvisning, inget säkert innehåll på ännu oläst sida.",
+      "basis_retained": "O-P-0100-household-r7@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+        "basis_revision_id": "O-P-0101-wife@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst.",
+        "object_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "d41a313de9a9ef882e743b3780115c458367bcbffb557ade2d916f4a9f713f64",
+      "reading_reuse": {
+        "fresh_full_native_read": {
+          "id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+          "object_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife",
+          "version": 1,
+          "operation_id": "T-0654/persons-03-v1",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+          "caveat": "Hustruns källperson, ingen påhittad kanonisk P-identitet.",
+          "previous_id": null,
+          "kind": "participation",
+          "data": {
+            "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+            "event_id": "E-marriage-P-0101-Katarina-Sandstrom-1907",
+            "person_id": null,
+            "mention_id": "M-C0425-Katarina-Sandstrom",
+            "role": "spouse"
+          },
+          "origins": [
+            {
+              "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+              "unit_id": "8bdf5ff29fdfc0a842a8bfec5f9cd2046bd991002a5a210a20f9a788997e0106",
+              "coverage": "partial",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+              "basis_revision_id": "E-marriage-P-0101-Katarina-Sandstrom-1907@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: event_id"
+            },
+            {
+              "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+              "basis_revision_id": "M-C0425-Katarina-Sandstrom@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            },
+            {
+              "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+              "basis_revision_id": "O-P-0101-wife@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ]
+        }
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Endast egen spouse/child-roll med oförändrad person/mention/eventkoppling. Hela payload/caveat har ingen egen felstavnings-, ort- eller dateringsutsaga; literalnamn/ortreservation behandlas i nya M/O/event. Gammal ID-sträng är inte ny sourceglyph eller ny P-kärna.",
+      "basis_retained": "O-P-0101-wife@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "O-P-0096-child-youngest@1",
+        "basis_revision_id": "M-C0425-Anders-Petter-child-youngest@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id",
+        "object_id": "O-P-0096-child-youngest",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "be4aa4e2ac71652a3d8721eca02ff7d76edeb463fd232ce1c3989442a8f9a024",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-selected27-observation-decisions-v2.json",
+        "sha256": "7aa02a2480c80170fe840949f2312908de1ebac40d916a9b8a0967d5f2125aee",
+        "objects_index": 8,
+        "rationale": "Whole own observation, structured fields, caveat and basis list read against full source row. Changed exact glyph/coverage only; no identity/relation/outcome promotion, own birth record substitution, physical continuity or ownership inference.",
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "Stig Ernst;född1908-04-14;död1908-12-03[?]",
+            "new": "Nils Emil;född1908-11-14;död1908-12-03[?]"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"alternative_name\":\"Nils Emil[?]\",\"birth_reported\":\"1908-04-14\",\"death_reported\":\"1908-12-03[?]\",\"name\":\"Stig Ernst\",\"parents\":[\"Anders Petter Jakobsson\",\"Mathilda Granberg\"]}",
+            "new": "{\"alternative_name\":\"Stig Ernst (äldre avskrift, avvisad i T-0780)\",\"birth_reported\":\"1908-11-14\",\"death_reported\":\"1908-12-03[?]\",\"name\":\"Nils Emil\",\"parents\":[\"Anders Petter Jakobsson\",\"Mathilda Gr[ö/o/a?]nberg\"]}"
+          },
+          {
+            "field": "caveat",
+            "old": "Alternativ källäsning Nils Emil[?] kvarstår; ingen form normaliseras. Döddagens3/12 är reserverad. Ingen ny personkärna, medicinsk orsak eller diagnos för föräldrarna.",
+            "new": "T-0780 läser Nils Emil och08 14/11 i egenrad; äldre Stig Ernst/14April bevaras som rättad avskrift, inte likvärdig aktuell läsning. Dödsdagen3/12 är fortsatt reserverad. Ingen ny personkärna, medicinsk orsak eller diagnos för föräldrarna."
+          }
+        ]
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Denna exakta observation får redan avgjorda own literal/JSON/caveat-korrigeringar enligt bundet sourcebeslut. Samma mention-id betecknar samma egenrad; M1 behold som historisk strukturreferens, inte som säker äldre stavning. Skriv den beslutade O2 före M2.",
+      "basis_retained": "M-C0425-Anders-Petter-child-youngest@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "O-P-0101-child-Ingrid@1",
+        "basis_revision_id": "M-C0425-Carl-Eric-child-Ingrid@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id",
+        "object_id": "O-P-0101-child-Ingrid",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "832a7fc1135a3871126e861b422ccaae255d029b176c7c26f56c4c492d87d40c",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-selected27-observation-decisions-v2.json",
+        "sha256": "7aa02a2480c80170fe840949f2312908de1ebac40d916a9b8a0967d5f2125aee",
+        "objects_index": 22,
+        "rationale": "Whole own observation, structured fields, caveat and basis list read against full source row. Changed exact glyph/coverage only; no identity/relation/outcome promotion, own birth record substitution, physical continuity or ownership inference.",
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "Ingrid Viktoria[?]; 1907-07-31[?]; dotter i familjegruppen",
+            "new": "Ingrid Hiltina[?];1907 [2/3?]1/7;dotter i familjegruppen"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth_literal\":\"1907-07-31[?]\",\"death_column\":null,\"family_role\":\"dotter\",\"name_readings\":[\"Ingrid Viktoria[?]\",\"Ingrid Kristina[?]\"],\"parent_mentions\":[\"M-C0425-Carl-Eric-r8\",\"M-C0425-Katarina-Sandstrom\"],\"residence\":\"Ultervattnet\"}",
+            "new": "{\"birth_literal\":\"1907 [2/3?]1/7\",\"death_column\":null,\"family_role\":\"dotter\",\"name_readings\":[\"Ingrid Hiltina[?]\",\"Ingrid Viktoria[?] (äldre avskrift)\",\"Ingrid Kristina[?] (äldre avskrift)\"],\"parent_mentions\":[\"M-C0425-Carl-Eric-r8\",\"M-C0425-Katarina-Sandstrom\"],\"residence\":\"Ultervattnet\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "Dagläsning osäker; ingen alternativ namnform väljs bort. Ingen ny person eller säker egen födelsehändelse. Tom dödskolumn säger inget om fortsatt liv efter bokens slut.",
+            "new": "Dagläsning osäker; ingen alternativ namnform väljs bort. Ingen ny person eller säker egen födelsehändelse. Tom dödskolumn säger inget om fortsatt liv efter bokens slut. T-0780 föredrar reserverat Hiltina[?]; tidigare former är bevarad avskriftshistorik, ingen säker normalisering."
+          }
+        ]
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Denna exakta observation får redan avgjorda own literal/JSON/caveat-korrigeringar enligt bundet sourcebeslut. Samma mention-id betecknar samma egenrad; M1 behold som historisk strukturreferens, inte som säker äldre stavning. Skriv den beslutade O2 före M2.",
+      "basis_retained": "M-C0425-Carl-Eric-child-Ingrid@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "O-P-0101-child-Karl-Birger@1",
+        "basis_revision_id": "M-C0425-Carl-Eric-child-Karl-Birger@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id",
+        "object_id": "O-P-0101-child-Karl-Birger",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "5b213637dc6338e0808f9a44eb80565b19e1ac51c443b2789222e2fa37ce736b",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-selected27-observation-decisions-v2.json",
+        "sha256": "7aa02a2480c80170fe840949f2312908de1ebac40d916a9b8a0967d5f2125aee",
+        "objects_index": 23,
+        "rationale": "Whole own observation, structured fields, caveat and basis list read against full source row. Changed exact glyph/coverage only; no identity/relation/outcome promotion, own birth record substitution, physical continuity or ownership inference.",
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "Karl Birger; 1909-03-14[?]; son i familjegruppen",
+            "new": "Karl Birger;1909 [4/11?]/3;son i familjegruppen"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth_literal\":\"1909-03-14[?]\",\"death_column\":null,\"family_role\":\"son\",\"name_readings\":[\"Karl Birger\"],\"parent_mentions\":[\"M-C0425-Carl-Eric-r8\",\"M-C0425-Katarina-Sandstrom\"],\"residence\":\"Ultervattnet\"}",
+            "new": "{\"birth_literal\":\"1909 [4/11?]/3\",\"death_column\":null,\"family_role\":\"son\",\"name_readings\":[\"Karl Birger\"],\"parent_mentions\":[\"M-C0425-Carl-Eric-r8\",\"M-C0425-Katarina-Sandstrom\"],\"residence\":\"Ultervattnet\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "Dagläsning osäker; ingen alternativ namnform väljs bort. Ingen ny person eller säker egen födelsehändelse. Tom dödskolumn säger inget om fortsatt liv efter bokens slut.",
+            "new": "Dagläsning osäker; ingen alternativ namnform väljs bort. Ingen ny person eller säker egen födelsehändelse. Tom dödskolumn säger inget om fortsatt liv efter bokens slut. Den täta numeratoren föredras11 men4/11 reserveras; äldre14/3[?] är inte den aktuella primärläsningen."
+          }
+        ]
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Denna exakta observation får redan avgjorda own literal/JSON/caveat-korrigeringar enligt bundet sourcebeslut. Samma mention-id betecknar samma egenrad; M1 behold som historisk strukturreferens, inte som säker äldre stavning. Skriv den beslutade O2 före M2.",
+      "basis_retained": "M-C0425-Carl-Eric-child-Karl-Birger@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "O-P-0101-child-Marta@1",
+        "basis_revision_id": "M-C0425-Carl-Eric-child-Marta@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id",
+        "object_id": "O-P-0101-child-Marta",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "d8a91c0001f4cb3f4c3111bcc79f3963e1ffd5090589a1ea484d9feebb2dd5de",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-selected27-observation-decisions-v2.json",
+        "sha256": "7aa02a2480c80170fe840949f2312908de1ebac40d916a9b8a0967d5f2125aee",
+        "objects_index": 24,
+        "rationale": "Whole own observation, structured fields, caveat and basis list read against full source row. Changed exact glyph/coverage only; no identity/relation/outcome promotion, own birth record substitution, physical continuity or ownership inference.",
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "Märta Abgalia[?]; 1910-05-11[?]; dotter i familjegruppen",
+            "new": "Märta A[d?]alia [namn osäkert];1910-05-11;dotter i familjegruppen"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth_literal\":\"1910-05-11[?]\",\"death_column\":null,\"family_role\":\"dotter\",\"name_readings\":[\"Märta Abgalia[?]\"],\"parent_mentions\":[\"M-C0425-Carl-Eric-r8\",\"M-C0425-Katarina-Sandstrom\"],\"residence\":\"Ultervattnet\"}",
+            "new": "{\"birth_literal\":\"1910-05-11\",\"death_column\":null,\"family_role\":\"dotter\",\"name_readings\":[\"Märta A[d?]alia [osäkert]\",\"Märta Abgalia[?] (äldre avskrift)\",\"Märta Amalia (primär första läsning, ej certifierad)\"],\"parent_mentions\":[\"M-C0425-Carl-Eric-r8\",\"M-C0425-Katarina-Sandstrom\"],\"residence\":\"Ultervattnet\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "Dagläsning osäker; ingen alternativ namnform väljs bort. Ingen ny person eller säker egen födelsehändelse. Tom dödskolumn säger inget om fortsatt liv efter bokens slut.",
+            "new": "T-0780 läser11/5 även i datumspillet i födelseortskolumnen; det är ingen ortsuppgift. Mellannamnet är fortsatt osäkert. Ingen ny person eller självständigt verifierad födelsehändelse; tom dödskolumn visar inte fortsatt liv."
+          }
+        ]
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Denna exakta observation får redan avgjorda own literal/JSON/caveat-korrigeringar enligt bundet sourcebeslut. Samma mention-id betecknar samma egenrad; M1 behold som historisk strukturreferens, inte som säker äldre stavning. Skriv den beslutade O2 före M2.",
+      "basis_retained": "M-C0425-Carl-Eric-child-Marta@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "ID-M-C0425-Jakob-Andersson@1",
+        "basis_revision_id": "M-C0425-Jakob-Andersson@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ID-M-C0425-Jakob-Andersson",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "fbbd5a79e08ce7cb4c110ed920399679cf4c18500bbe1a34d6a5a9c42e001055",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-C0069-thirtyfour-relation-identity-decisions-v1.json",
+        "sha256": "16aa72ac11b3e286a771b398b5b88326baf1601ff27f5274528a229d24e0a332",
+        "objects_index": 5,
+        "rationale": "Full accepted identity payload/caveat and own mention basis read. Preserve exact old mention basis: literal spelling/abbreviation correction or own day reservation does not change whom this older bounded mention identifies. Reciprocal references and accepted family context remain; no automatic rebind required.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Accepterad samma person-bindning på egen rad består; exakt namnabbreviation/literal korrigeras i M2 utan att ändra vem raden gäller. Övriga starkare personbaser och identitetsstatus bevaras.",
+      "basis_retained": "M-C0425-Jakob-Andersson@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "O-P-0094-household1895@1",
+        "basis_revision_id": "M-C0425-Jakob-Andersson@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id",
+        "object_id": "O-P-0094-household1895",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "2b6a9df75df715fb8d451ed7432c5bcf7335d46db5ad9fc1853599400402878e",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-selected27-observation-decisions-v2.json",
+        "sha256": "7aa02a2480c80170fe840949f2312908de1ebac40d916a9b8a0967d5f2125aee",
+        "objects_index": 1,
+        "rationale": "Whole own observation, structured fields, caveat and basis list read against full source row. Changed exact glyph/coverage only; no identity/relation/outcome promotion, own birth record substitution, physical continuity or ownership inference.",
+        "exact_edits": [
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1830-04-16\",\"conscription\":\"Tomt\",\"death\":\"1905-10-03\",\"fractions\":[\"19/128\",\"3/16[?]\"],\"hearing\":\"Bleka överlagrade årtal reserverade.\",\"knowledge\":\"b-/N-liknande råtecken\",\"marriage_year_literal\":\"61\",\"outgoing\":\"Tomt\",\"remarks\":\"Kolumn 14 läst och tom.\",\"title\":\"Bonde\",\"vaccination\":\"v\"}",
+            "new": "{\"birth\":\"1830-04-16\",\"conscription\":\"Tomt\",\"death\":\"1905-10-03\",\"fractions\":[\"19/128\",\"3/16[?]\"],\"hearing\":\"faint97[?],98[?],99[?],00[?];01,02,03,04,05; own source marks, not attendance or continuous residence\",\"knowledge\":\"b-/N-liknande råtecken\",\"marriage_year_literal\":\"61\",\"outgoing\":\"Tomt\",\"remarks\":\"Kolumn 14 läst och tom.\",\"title\":\"Bonde\",\"vaccination\":\"v\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "Egna rader skiljs från sönernas värnplikt och senare hushåll. Ingen betygsskala, årtalstolkning av bleka tecken eller fastighetsidentitet.",
+            "new": "Egna rader skiljs från sönernas värnplikt och senare hushåll. Ingen betygsskala, årtalstolkning av bleka tecken eller fastighetsidentitet. T-0780 skiljer nu lästa årtal från de fortfarande reserverade bleka tecknen; äldre allmänt oläsbar-formulering gäller inte samtliga egna årsceller. Marginalens säkra19/128 skiljs från övriga reserverade bråkspår; 3/16[?] är en äldre reserverad läsning, inte belagd areal eller fastighetsidentitet."
+          }
+        ]
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Denna exakta observation får redan avgjorda own literal/JSON/caveat-korrigeringar enligt bundet sourcebeslut. Samma mention-id betecknar samma egenrad; M1 behold som historisk strukturreferens, inte som säker äldre stavning. Skriv den beslutade O2 före M2.",
+      "basis_retained": "M-C0425-Jakob-Andersson@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "O-P-0101-wife@1",
+        "basis_revision_id": "M-C0425-Katarina-Sandstrom@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id",
+        "object_id": "O-P-0101-wife",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "e5f772e81f531e786bf70f43955b7a161c1b6487b6d8239706bbd3de1e8be255",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-selected27-observation-decisions-v2.json",
+        "sha256": "7aa02a2480c80170fe840949f2312908de1ebac40d916a9b8a0967d5f2125aee",
+        "objects_index": 26,
+        "rationale": "Whole own observation, structured fields, caveat and basis list read against full source row. Changed exact glyph/coverage only; no identity/relation/outcome promotion, own birth record substitution, physical continuity or ownership inference.",
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "Katarina Annali[?] Sandström; 1883 8/10; från Nysätra5/6 1907[?]; gifta23/6 1907",
+            "new": "Katarina Amalia[?] Sandström;1883 8/10;frånNysätra5/6 1907;gifta23/6 1907"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth_reported\":\"1883-10-08\",\"family_role\":\"hustru\",\"marriage_reported\":\"1907-06-23\",\"previous_parish\":\"Nysätra\",\"transfer_date_literal\":\"1907-06-05[?]\"}",
+            "new": "{\"birth_reported\":\"1883-10-08\",\"family_role\":\"hustru\",\"marriage_reported\":\"1907-06-23\",\"previous_parish\":\"Nysätra\",\"transfer_date_literal\":\"1907-06-05\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "Boköverföring med rå reservation, ingen säker fysisk resdag. Egen identitet/födelsepost och vigselbok är inte separat prövade.",
+            "new": "Boköverföring, ingen säker fysisk resdag. Egen identitet/födelsepost och vigselbok är inte separat prövade. T-0780 föredrar Amalia[?], inte äldre Annali[?]; mellannamnsreservation kvarstår."
+          }
+        ]
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Denna exakta observation får redan avgjorda own literal/JSON/caveat-korrigeringar enligt bundet sourcebeslut. Samma mention-id betecknar samma egenrad; M1 behold som historisk strukturreferens, inte som säker äldre stavning. Skriv den beslutade O2 före M2.",
+      "basis_retained": "M-C0425-Katarina-Sandstrom@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+        "basis_revision_id": "M-C0425-Katarina-Sandstrom@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id",
+        "object_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "d41a313de9a9ef882e743b3780115c458367bcbffb557ade2d916f4a9f713f64",
+      "reading_reuse": {
+        "fresh_full_native_read": {
+          "id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+          "object_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife",
+          "version": 1,
+          "operation_id": "T-0654/persons-03-v1",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+          "caveat": "Hustruns källperson, ingen påhittad kanonisk P-identitet.",
+          "previous_id": null,
+          "kind": "participation",
+          "data": {
+            "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+            "event_id": "E-marriage-P-0101-Katarina-Sandstrom-1907",
+            "person_id": null,
+            "mention_id": "M-C0425-Katarina-Sandstrom",
+            "role": "spouse"
+          },
+          "origins": [
+            {
+              "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+              "unit_id": "8bdf5ff29fdfc0a842a8bfec5f9cd2046bd991002a5a210a20f9a788997e0106",
+              "coverage": "partial",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+              "basis_revision_id": "E-marriage-P-0101-Katarina-Sandstrom-1907@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: event_id"
+            },
+            {
+              "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+              "basis_revision_id": "M-C0425-Katarina-Sandstrom@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            },
+            {
+              "revision_id": "EP-E-marriage-P-0101-Katarina-Sandstrom-1907-wife@1",
+              "basis_revision_id": "O-P-0101-wife@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ]
+        }
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Endast egen spouse/child-roll med oförändrad person/mention/eventkoppling. Hela payload/caveat har ingen egen felstavnings-, ort- eller dateringsutsaga; literalnamn/ortreservation behandlas i nya M/O/event. Gammal ID-sträng är inte ny sourceglyph eller ny P-kärna.",
+      "basis_retained": "M-C0425-Katarina-Sandstrom@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "ID-M-C0425-Maria-Christina@1",
+        "basis_revision_id": "M-C0425-Maria-Christina@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ID-M-C0425-Maria-Christina",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "417ebb503d10386dd97f5e11a97b7ed432d0d3ca1ddd10bab6c99d524b199ad7",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-C0069-thirtyfour-relation-identity-decisions-v1.json",
+        "sha256": "16aa72ac11b3e286a771b398b5b88326baf1601ff27f5274528a229d24e0a332",
+        "objects_index": 6,
+        "rationale": "Full accepted identity payload/caveat and own mention basis read. Preserve exact old mention basis: literal spelling/abbreviation correction or own day reservation does not change whom this older bounded mention identifies. Reciprocal references and accepted family context remain; no automatic rebind required.",
+        "exact_edits": []
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Accepterad samma person-bindning på egen rad består; exakt namnabbreviation/literal korrigeras i M2 utan att ändra vem raden gäller. Övriga starkare personbaser och identitetsstatus bevaras.",
+      "basis_retained": "M-C0425-Maria-Christina@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "O-P-0095-household1895@1",
+        "basis_revision_id": "M-C0425-Maria-Christina@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id",
+        "object_id": "O-P-0095-household1895",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "640fdab7b5e03efc9a58c1f06f170bc480405a5cfb5cfe8d3a18a4070aaf8dca",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-selected27-observation-decisions-v2.json",
+        "sha256": "7aa02a2480c80170fe840949f2312908de1ebac40d916a9b8a0967d5f2125aee",
+        "objects_index": 2,
+        "rationale": "Whole own observation, structured fields, caveat and basis list read against full source row. Changed exact glyph/coverage only; no identity/relation/outcome promotion, own birth record substitution, physical continuity or ownership inference.",
+        "exact_edits": [
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1840-10-17\",\"conscription\":\"Tomt\",\"death\":\"1903-08-26\",\"hearing\":\"Bleka förhörsår genom03, småtal reserverade.\",\"knowledge\":\"Kunskapstecken och N; ingen betygsskala.\",\"marriage_year\":\"61\",\"move_fields\":\"Tomma\",\"reputation\":\"Tomt\"}",
+            "new": "{\"birth\":\"1840-10-17\",\"conscription\":\"Tomt\",\"death\":\"1903-08-26\",\"hearing\":\"faint97[?],98[?],99[?],00[?];01,02,03; own source marks, not attendance or continuous residence\",\"knowledge\":\"Kunskapstecken och N; ingen betygsskala.\",\"marriage_year\":\"61\",\"move_fields\":\"Tomma\",\"reputation\":\"Tomt\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "Egna rad 2 och egna tidsgränser; sönernas uppgifter och senare barnfamiljer tillskrivs inte modern.",
+            "new": "Egna rad 2 och egna tidsgränser; sönernas uppgifter och senare barnfamiljer tillskrivs inte modern. T-0780 skiljer nu lästa årtal från de fortfarande reserverade bleka tecknen; äldre allmänt oläsbar-formulering gäller inte samtliga egna årsceller."
+          }
+        ]
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Denna exakta observation får redan avgjorda own literal/JSON/caveat-korrigeringar enligt bundet sourcebeslut. Samma mention-id betecknar samma egenrad; M1 behold som historisk strukturreferens, inte som säker äldre stavning. Skriv den beslutade O2 före M2.",
+      "basis_retained": "M-C0425-Maria-Christina@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "O-P-0096-wife@1",
+        "basis_revision_id": "M-C0425-Mathilda-Granberg@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id",
+        "object_id": "O-P-0096-wife",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "eeeaaebf14c479fdf380f0dcefc081541a2aea1ff2902d29a7abf5326e5eed7b",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0425-selected27-observation-decisions-v2.json",
+        "sha256": "7aa02a2480c80170fe840949f2312908de1ebac40d916a9b8a0967d5f2125aee",
+        "objects_index": 11,
+        "rationale": "Whole own observation, structured fields, caveat and basis list read against full source row. Changed exact glyph/coverage only; no identity/relation/outcome promotion, own birth record substitution, physical continuity or ownership inference.",
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "Mathilda Granberg;1870 3/12;från844 år98;gift30/11 1898",
+            "new": "Mathilda Gr[ö/o/a?]nberg;1870 31/3;från841 år98;gift30/11 1898"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth_reported\":\"1870-12-03\",\"incoming\":\"folio844,1898\",\"marriage\":\"1898-11-30\",\"name\":\"Mathilda Granberg\",\"spouse\":\"Anders Petter Jakobsson\"}",
+            "new": "{\"birth_reported\":\"1870-03-31\",\"incoming\":\"folio841,1898\",\"marriage\":\"1898-11-30\",\"name\":\"Mathilda Gr[ö/o/a?]nberg\",\"spouse\":\"Anders Petter Jakobsson\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "Ingen P-identitet, föräldrakoppling eller fysisk flyttdag skapas. Ursprungssidan844 och egen vigselpost är olästa.",
+            "new": "Ingen P-identitet, föräldrakoppling eller fysisk flyttdag skapas. Ursprungssidan841 och egen vigselpost är olästa. T-0780 rättar äldre3/12/844 till egen31/3/841; efternamnets vokal förblir reserverad."
+          }
+        ]
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Denna exakta observation får redan avgjorda own literal/JSON/caveat-korrigeringar enligt bundet sourcebeslut. Samma mention-id betecknar samma egenrad; M1 behold som historisk strukturreferens, inte som säker äldre stavning. Skriv den beslutade O2 före M2.",
+      "basis_retained": "M-C0425-Mathilda-Granberg@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+        "basis_revision_id": "M-C0425-Mathilda-Granberg@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "507357cecc7d06936fc19dfb59da504dedd2f5b6ee654ee6f7cfdc64c1ec8268",
+      "reading_reuse": {
+        "fresh_full_native_read": {
+          "id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+          "object_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse",
+          "version": 1,
+          "operation_id": "T-0653/persons-02-v1",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Överför uttryckligt befintligt underlag med bevarad räckvidd och försiktighet.",
+          "caveat": "Namngiven hustru utan egen P-kärna.",
+          "previous_id": null,
+          "kind": "participation",
+          "data": {
+            "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+            "event_id": "E-marriage-P-0096-Mathilda-Granberg-1898",
+            "person_id": null,
+            "mention_id": "M-C0425-Mathilda-Granberg",
+            "role": "spouse"
+          },
+          "origins": [
+            {
+              "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+              "unit_id": "4fd8b93cd7930d0586f4d1af16a22279f1ca443e86867e0d835a082d264c7207",
+              "coverage": "partial",
+              "note": "Den angivna relationen/rollen återges med sin källgräns och utan infererad släktkant."
+            },
+            {
+              "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+              "unit_id": "98e7d0c09935ebb08a1ba80637a98ef17e9ce3ae9230711a2fd89ddb7183fe94",
+              "coverage": "partial",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+              "unit_id": "f6983cf941e5ee1a99ac8342aafaa6f090f033a05d17ad9c93184555368680df",
+              "coverage": "partial",
+              "note": "Hela sakuppgiften och dess uttryckliga förbehåll representeras."
+            }
+          ],
+          "evidence": [
+            {
+              "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+              "basis_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+              "basis_revision_id": "M-C0425-Mathilda-Granberg@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          ]
+        }
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Endast egen spouse/child-roll med oförändrad person/mention/eventkoppling. Hela payload/caveat har ingen egen felstavnings-, ort- eller dateringsutsaga; literalnamn/ortreservation behandlas i nya M/O/event. Gammal ID-sträng är inte ny sourceglyph eller ny P-kärna.",
+      "basis_retained": "M-C0425-Mathilda-Granberg@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "EP-E-birth-P-0097-P-0097-child@1",
+        "basis_revision_id": "E-birth-P-0097@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "EP-E-birth-P-0097-P-0097-child",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "ea38a5318ad664b586a815e182560d740a619c76d9de654074f259c8fe790a4f",
+      "reading_reuse": {
+        "fresh_full_native_read": {
+          "id": "EP-E-birth-P-0097-P-0097-child@1",
+          "object_id": "EP-E-birth-P-0097-P-0097-child",
+          "version": 1,
+          "operation_id": "T-0653/persons-02-v1",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Överför uttryckligt befintligt underlag med bevarad räckvidd och försiktighet.",
+          "caveat": "",
+          "previous_id": null,
+          "kind": "participation",
+          "data": {
+            "revision_id": "EP-E-birth-P-0097-P-0097-child@1",
+            "event_id": "E-birth-P-0097",
+            "person_id": "P-0097",
+            "mention_id": "M-C0069-Jacob-son",
+            "role": "child"
+          },
+          "origins": [
+            {
+              "revision_id": "EP-E-birth-P-0097-P-0097-child@1",
+              "unit_id": "d8c44bcbcc040769233cc5467db363b17c554d38734a919961275225658c6045",
+              "coverage": "partial",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "revision_id": "EP-E-birth-P-0097-P-0097-child@1",
+              "basis_revision_id": "E-birth-P-0097@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "revision_id": "EP-E-birth-P-0097-P-0097-child@1",
+              "basis_revision_id": "M-C0069-Jacob-son@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          ]
+        }
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Endast egen spouse/child-roll med oförändrad person/mention/eventkoppling. Hela payload/caveat har ingen egen felstavnings-, ort- eller dateringsutsaga; literalnamn/ortreservation behandlas i nya M/O/event. Gammal ID-sträng är inte ny sourceglyph eller ny P-kärna.",
+      "basis_retained": "E-birth-P-0097@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "EP-E-birth-P-0099-P-0099-child@1",
+        "basis_revision_id": "E-birth-P-0099@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "EP-E-birth-P-0099-P-0099-child",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "37c88f998732b2b7e1180e43bf527b542c313a1c8e4139e7e31f859790076aea",
+      "reading_reuse": {
+        "fresh_full_native_read": {
+          "id": "EP-E-birth-P-0099-P-0099-child@1",
+          "object_id": "EP-E-birth-P-0099-P-0099-child",
+          "version": 1,
+          "operation_id": "T-0653/persons-02-v1",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Överför uttryckligt befintligt underlag med bevarad räckvidd och försiktighet.",
+          "caveat": "",
+          "previous_id": null,
+          "kind": "participation",
+          "data": {
+            "revision_id": "EP-E-birth-P-0099-P-0099-child@1",
+            "event_id": "E-birth-P-0099",
+            "person_id": "P-0099",
+            "mention_id": "M-C0425-Nils-Leonard-r6",
+            "role": "child"
+          },
+          "origins": [
+            {
+              "revision_id": "EP-E-birth-P-0099-P-0099-child@1",
+              "unit_id": "e8a377b669f11d1ace23acc360543918c0bbb8b380ee0555e0e646209726a514",
+              "coverage": "partial",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "revision_id": "EP-E-birth-P-0099-P-0099-child@1",
+              "basis_revision_id": "E-birth-P-0099@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "revision_id": "EP-E-birth-P-0099-P-0099-child@1",
+              "basis_revision_id": "M-C0425-Nils-Leonard-r6@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          ]
+        }
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Endast egen spouse/child-roll med oförändrad person/mention/eventkoppling. Hela payload/caveat har ingen egen felstavnings-, ort- eller dateringsutsaga; literalnamn/ortreservation behandlas i nya M/O/event. Gammal ID-sträng är inte ny sourceglyph eller ny P-kärna.",
+      "basis_retained": "E-birth-P-0099@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    },
+    {
+      "edge": {
+        "revision_id": "EP-E-birth-P-0100-P-0100-child@1",
+        "basis_revision_id": "E-birth-P-0100@1",
+        "role": "supports",
+        "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst.",
+        "object_id": "EP-E-birth-P-0100-P-0100-child",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_sha256": "6db537a5ac4a171844598ff7237ca3014ee480d1188aa4acb20841775cf12039",
+      "reading_reuse": {
+        "fresh_full_native_read": {
+          "id": "EP-E-birth-P-0100-P-0100-child@1",
+          "object_id": "EP-E-birth-P-0100-P-0100-child",
+          "version": 1,
+          "operation_id": "T-0653/persons-02-v1",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Överför uttryckligt befintligt underlag med bevarad räckvidd och försiktighet.",
+          "caveat": "",
+          "previous_id": null,
+          "kind": "participation",
+          "data": {
+            "revision_id": "EP-E-birth-P-0100-P-0100-child@1",
+            "event_id": "E-birth-P-0100",
+            "person_id": "P-0100",
+            "mention_id": "M-C0425-Christina-Louisa-r7",
+            "role": "child"
+          },
+          "origins": [
+            {
+              "revision_id": "EP-E-birth-P-0100-P-0100-child@1",
+              "unit_id": "2d006e2ce28b6ce6efe9373885a25bd53e20cee691c1e1ff7c7d71cb1f0c8e98",
+              "coverage": "partial",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "revision_id": "EP-E-birth-P-0100-P-0100-child@1",
+              "basis_revision_id": "E-birth-P-0100@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "revision_id": "EP-E-birth-P-0100-P-0100-child@1",
+              "basis_revision_id": "M-C0425-Christina-Louisa-r7@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          ]
+        }
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Endast egen spouse/child-roll med oförändrad person/mention/eventkoppling. Hela payload/caveat har ingen egen felstavnings-, ort- eller dateringsutsaga; literalnamn/ortreservation behandlas i nya M/O/event. Gammal ID-sträng är inte ny sourceglyph eller ny P-kärna.",
+      "basis_retained": "E-birth-P-0100@1",
+      "sequence": "Already approved new consumer retaining old basis must precede that basis revision; no additional writes or automatic rebind.",
+      "final_request_limit": "No final request resolved; exact final-stage version/payload binding remains."
+    }
+  ],
+  "counts": {
+    "edges": 34,
+    "whole_objects": 29,
+    "new_revisions": 0,
+    "rebinds": 0
+  },
+  "not_global_source_approval": true
+}

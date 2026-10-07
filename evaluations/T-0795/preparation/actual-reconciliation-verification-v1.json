@@ -1,0 +1,55 @@
+{
+  "PASS": true,
+  "operations": [
+    {
+      "sequence": 455,
+      "operation": "T0790-existing-material-life-six-v1",
+      "journal_request_equal": true,
+      "request_hash_equal": true,
+      "journal": [
+        {
+          "path": "genealogy2/journal/000000455-9e6bc4073cf77d31e6ad48268c25cc0aff4f434dba76bfbf58bcaa6650aea3b8.json",
+          "sha256": "0768a75bb3fe72199ee3f3183baabc623f8e77bd065731922205a26e1c8830a7"
+        }
+      ]
+    },
+    {
+      "sequence": 456,
+      "operation": "T0790-nine-individual-dependency-resolutions-v1",
+      "journal_request_equal": true,
+      "request_hash_equal": true,
+      "journal": [
+        {
+          "path": "genealogy2/journal/000000456-88d7289b3f3f1d56453c8bbb80e62ead1d8b0e4a194cb213c031becd9f20a984.json",
+          "sha256": "7b04f7b6da82213dd2468918787a0fd66f25f5cc403775e9d2eaceba88a8da45"
+        }
+      ]
+    },
+    {
+      "sequence": 457,
+      "operation": "T0790-final-three-semantic-consequence-amendments-v1",
+      "journal_request_equal": true,
+      "request_hash_equal": true,
+      "journal": [
+        {
+          "path": "genealogy2/journal/000000457-3ae32a12aa0aa1be3141efb7878c816382e66e5d44dd291f895bf8efea6d05c6.json",
+          "sha256": "28ad2827214d997872c814d8a301f81e010f013806572d940f5716041efd3f43"
+        }
+      ]
+    }
+  ],
+  "prep_failures": [
+    {
+      "attempt": "read nonexistent prepare_current_inputs_v1.py",
+      "repair": "used existing capture_v1.py"
+    },
+    {
+      "attempt": "zsh nonexistent root manifest glob",
+      "repair": "queried actual canonical receipts directly"
+    }
+  ],
+  "source_calls": 0,
+  "canonical_mutations": 0,
+  "usage": "collect actual new-turn session usage after final response; not available within worker tools",
+  "completion_utc": "2026-10-06T14:08:43.101088+00:00"
+}

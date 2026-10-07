@@ -1,0 +1,88 @@
+{
+  "task": "T-0780",
+  "objects": [
+    {
+      "current": {
+        "id": "S-0093@1",
+        "object_id": "S-0093",
+        "version": 1,
+        "operation_id": "T-0645/registry-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Den fullständiga äldre källbeskrivningen och dess metadata bevaras ordagrant. Separata normaliserade arkivfält och källklass tilldelas inte genom gissning.",
+        "caveat": "",
+        "previous_id": null,
+        "kind": "source",
+        "data": {
+          "revision_id": "S-0093@1",
+          "title": "S-0093: Bygdeå kyrkoarkiv C/4, födelse-, vigsel- och dödbok 1829–1864",
+          "archive_reference": null,
+          "source_class": null,
+          "description": "# S-0093: Bygdeå kyrkoarkiv C/4, födelse-, vigsel- och dödbok 1829–1864\n\n## Källbeskrivning\n\n- Institution: Riksarkivet i Härnösand\n- Arkivbildare: Bygdeå kyrkoarkiv\n- Referenskod: `SE/HLA/1010025/C/4`\n- Serie/volym: `C/4`; katalogposten ligger under födelse- och dopböcker men\n  anger även lysnings- och vigselbok samt död- och begravningsbok\n- Tidsomfång: födda 1829–1860; vigda och döda till 1864\n- Bildbatcher: `A0004528` och `C0034040` (parallella mikrofilmsskanningar)\n- IIIF-manifest: <https://lbiiif.riksarkivet.se/arkis!A0004528/manifest>\n- Läst: 2026-08-20, 2026-08-23 och 2026-08-24\n\n## Källkritik\n\nSamtida originalbok med flera kyrkoboksavdelningar i samma fysiska volym.\nFödelsenotisen ger barnets båda föräldrar direkt.\nFormuläret skiljer föräldrarna, som står under barnets namn, från dopvittnena\ni den breda högra kolumnen. Den skillnaden är avgörande på det aktuella\nuppslaget: bonden Peter Pehrsson är dopvittne, inte barnets far.\n\nVigselavdelningen har separata kolumner för kontrahenter, födelseår,\ngiftoman/medgivanden och förrättare. Katalogens övergripande etikett\n\"Födelse- och dopböcker\" får därför inte användas som skäl att förbise de\ninbundna vigsel- och dödserierna.\n\nFödelseföljden kring 1830-02-24 är kronologiskt avgränsad av Greta Cajsa,\nfödd 23 februari och döpt 27 februari, samt Petter Anton, född 26 februari\noch döpt 27 februari. Frånvaron av en post den 24 februari är därför ett\nsidbundet nollresultat, inte ett påstående om hela volymen eller om Barbros\nidentitet.\n\nDen autentiserade omläsningen 2026-08-24 omfattade dessutom de fullupplösta\nbilderna `C0034040_00018` och `_00020` kring två konkurrerande födelsedatum\nför Jakob Andersson, 16 april respektive 16 juli 1830. Ingen post på de\nkontrollerade datumen förenar namnet Jakob med föräldrarna Anders Olofsson\noch Maria Jacobsdotter. Det är ett datumavgränsat källnoll; det utesluter\ninte en felregistrerad dag eller en notis på annan plats i årgången.\n\nVolymens hela vigselår 1861 finns på bilderna `C0034040_00336`–`_00337` och\nomfattar 23 numrerade poster. Jakob Andersson och Maria Christina Hansdotter\nsaknas. Tillsammans med den tidigare fullständiga kontrollen av 1862 gör det\nde senare anteckningarna `61` respektive `G 62` till en synlig konflikt, inte\ntill bevis för vigsel i en annan namngiven församling.\n\n## Tillägg 2026-09-07 — årsindex och en rättad bildvalsfråga\n\nVolymens IIIF-manifest bär ett `structures`-index. Födelseavsnittet fördelar\nsig så:\n\n`1829:9 · 1830:14 · 1831:23`\n\nÅrgången 1830 löper alltså över **bilderna 14–22**, nio uppslag.\n\n**Detta rättar en bildvalsfråga i den tidigare kontrollen.** Omläsningen\n2026-08-24 (C-0424) valde bilderna `_00018` och `_00020` som \"kring 16 april\"\nrespektive \"kring 16 juli\". Bild 18 bär mycket riktigt aprilposter — men\n**postföljden är inte strikt kronologisk över uppslagen**: bild 18:s\nvänstersida har april 13–29 medan **aprilposten 16|17 står på bild 17**.\n\nDen 16 april 1830 föddes `Jacob`, son till `Bond: Anders Olofson och dess\nHustru Maria Jacobsd:r 31` i **Häggnäs**, döpt den 17 april — bild\n`C0034040_00017`, se [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md).\n\nSlutsats för framtida kontroller i denna volym: **läs hela årgången ur\nmanifestets index; välj inte uppslag efter en gissad datumposition.**\n\n## Årsindex ur IIIF-manifestet 2026-09-07\n\nManifestets `structures` ger avsnittet `Födelse och dop` med startbilderna\n1829:9, 1830:14, 1831:23, 1832:28, 1833:35. De tre årgångar som lästs i\nT-0090 avgränsas därav så här:\n\n| Årgång | Bilder | Anmärkning |\n|---|---|---|\n| 1829 | 9–14 | **Ofullständig årgång.** Volymens första post är daterad 23 maj 1829; januari–maj ligger i `C/3`. |\n| 1830 | 14–22 | Läst i [C-1036](../citations/C-1036-bygdea-C4-1830-argangsnoll-barbro.md). |\n| 1831 | 23–28 | Årsrubriken `1831` står på bild 23:s vänstersida; rubriken `1832` följer på bild 28:s högersida. |\n\nPostföljden är **inte strikt kronologisk över uppslagen**: en septemberpost\nkan stå efter en oktoberpost, och enstaka poster förs in i efterhand med\navvikande datum. Ett datumbundet sidnoll i denna volym är därför särskilt\nsvagt — det var just den felkällan som gjorde att Jakob Anderssons\nfödelsenotis missades i C-0424 (se [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md)).\nSe vidare [C-1040](../citations/C-1040-bygdea-C4-1829-1831-grannaren-barbro.md).\n"
+        },
+        "origins": [
+          {
+            "revision_id": "S-0093@1",
+            "unit_id": "53740c29994472b55948495b042cf2f4b00407d00aa8f086249d8a7c97669d6b",
+            "coverage": "complete",
+            "note": "Återanvändning av äldre forskningsunderlag; inte ett nytt oberoende belägg."
+          }
+        ],
+        "evidence": []
+      },
+      "disposition": "revise_exact_fields",
+      "edits": [
+        {
+          "field": "caveat",
+          "old": "",
+          "new": "Historisk källbeskrivning bevarad ordagrant. Aktuell kvalificeringT-0780: den äldre vigselparagrafens23poster1861 och61/G62 som säker årskonflikt är överspelade av den redan accepterade fulla RESEARCH-P0094-bedömningen: redovisat omfång28/22/38poster för1861/1862/1863 utan målparet, medan öppnad1860passage är ofullständig. Detta är återbruk av tidigare prövning, ingen ny årsgenomgång i T-0780. C0069full13 ger61[?] med svaga eftertecken; C0425 har61. ÄldreG62 är alltså inte en likvärdig säker avläsning, ingen exakt vigseldag eller annan vigselförsamling följer. Beroende original/SCB/reproduktioner räknas inte som oberoende röster. Beskrivningens egen sena1830bildvalsrättelse och positiva16aprilpost gäller redan; den äldre sidbundna negativa kontrollen återupplivas inte. Fortsatta fullutvinnings-/proveniensgrindar och olästa passager behålls."
+        }
+      ],
+      "rationale": "Hela sourcebeskrivningen/meta/origins och hela nuvarande RESEARCH94/KEY95 lästa. Sourcebeskrivningens historik kvar, endast aktuell caveat kvalificerar redan accepterad counts/reservation. Ingen ny C994bild eller årsläsning.",
+      "evidence_addition": {
+        "basis_revision_id": "RESEARCH-P-0094-9d76f0343410@1",
+        "role": "supports",
+        "note": "Exakt återbruk av tidigare fulla aktuella vigselomfångsbedömningen28/22/38 och fortsatt ofullständigt1860."
+      },
+      "additional_required_support": {
+        "basis_revision_id": "TR-T0780-C0069-fullpost@1",
+        "role": "supports",
+        "note": "Aktuellt reserverat61-fält i samma äldre hushållskälla, inte egen vigselpost."
+      }
+    }
+  ],
+  "stronger_full_support": {
+    "id": "RESEARCH-P-0094-9d76f0343410@1",
+    "object_id": "RESEARCH-P-0094-9d76f0343410",
+    "version": 1,
+    "operation_id": "T-0653/persons-02-v1",
+    "disposition": "recorded",
+    "evidence_status": null,
+    "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+    "caveat": "Hela akten och hela profilen inklusive historik och T-0181:s följdrättelse är lästa. Den uttryckligen accepterade födelseidentiteten 1830-04-16 skiljs från fortsatt underkänd PK-nivå på fullutvinning/proveniens. Julipojken är annan person; en förväxling som orsak är obevisad. G 62 är äldre osäker läsning, numera 61[?] med följdmarkering; C-0425 har 61 men ingen egen vigselpost. Korrekt vigselomfång är 28/22/38 poster 1861/62/63, med ofullständigt 1860 och beroende original/SCB/reproduktioner. Sju barn 1880 är ett daterat hushåll, inte totalt födelseantal. Senare C-0425 rättar Nils Leonards dag till 26/9 och Christina Lovisas dag till 26/4 samt överföring till 2/12 1905; P-0094:s äldre reservation om dottern återges därför inte som aktuell källtvetydighet. Titlar/marginalbråk belägger inte social uppgång, areal eller förvärv. Ultervattnet i dödposten är hemvist, inte säker fysisk dödsplats.",
+    "previous_id": null,
+    "kind": "assessment",
+    "data": {
+      "revision_id": "RESEARCH-P-0094-9d76f0343410@1",
+      "subject_id": "P-0094",
+      "criteria": "legacy_profile_section/Identitetsbedömning",
+      "outcome": "recorded",
+      "body": "## Identitetsbedömning\n\nJakob är identifierad som mannen i Ultervattnets återkommande hushåll med Maria Christina Hansdotter och deras barn. C-1035:s egen födelsenotis anger Jacob född 1830-04-16, döpt 17 april, med båda föräldrarna Anders Olofsson och Maria Jacobsdotter och hemvist Häggnäs. Namnet, datumet, föräldraparet och socknen knyter födelseposten till den vuxne mannen. Detta ersätter det gamla påståendet att ingen egen födelsepost fanns och att föräldrarna endast var en hushållsinferens. [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md), [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0427](../citations/C-0427-bygdea-F1-jakob-andersson-dod-1905.md).\n\nDen äldre juliuppgiften i A I/14b är en avvikande källuppgift, inte ett likvärdigt aktuellt födelsedatum. Den Jacob som C-1035 identifierar i juli har andra föräldrar och hålls separat. Den äldre avskriftens 29 juli är inte säkrad i omläsningen av C-0424:s bild 20; den sista dagssiffran är reserverad. Hypotesen att just denne pojke orsakade det senare skrivfelet är obevisad. Häggnäs och Ultervattnet är två belagda miljöer med en oprövad mellanliggande kedja; ortskillnaden förklaras inte bort som en dokumenterad flytt.\n\nÄktenskapet stöds av hushåll och hustruns egen dödpost, men exakt vigselpost saknas. C-0069:s äldre G 62-läsning är vid ny bildprövning osäker; 61 med svårläst följdmarkering är möjlig. C-0425 anger 61. Det är alltså inte två säkert avlästa motstridiga vigselår. Bygdeås 1861 omfattar 28 poster, inte 23;1862 omfattar 22 och 1863 omfattar 38. Alla tre har redovisats utan paret, men 1860 års öppnade passage är ofullständig. Inget av detta bevisar en annan vigselförsamling. Original och SCB-utdrag är beroende av kyrkans registrering; parallella reproduktioner är samma bok. [C-0994](../citations/C-0994-bygdea-C4-vigslar-1861-komplettering-och-1863.md), [C-0122](../citations/C-0122-bygdea-vigslar-1862-negativ-kontroll.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md).\n\nPK-01 är nu STYRKT. Identitetsnivån förblir UNDERKÄND på den konkreta öppnade vigselpassagens fullutvinning och proveniensbristerna, inte på den redan lösta födelseidentiteten.\n\n"
+    },
+    "origins": [
+      {
+        "revision_id": "RESEARCH-P-0094-9d76f0343410@1",
+        "unit_id": "8e05658c4a83d76f0e5daeb86ae9906410a77a46c35495ca99aa2221f1345c5e",
+        "coverage": "complete",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      }
+    ],
+    "evidence": []
+  },
+  "counts": {
+    "objects": 1,
+    "revisions": 1,
+    "retains": 0
+  },
+  "implementation": "Source description/data/assets oförändrade. Explicit historisk RESEARCH94@1 basis: denna sourceoperation måste föregå RESEARCH94@2 men följa nya fullTR. S0093@2 ska följa alla skrivningar som behöver gamla S0093@1; om ordning ej möjlig återför källfrågan, ingen automaticrebind. Individuell incomingfanout returneras."
+}

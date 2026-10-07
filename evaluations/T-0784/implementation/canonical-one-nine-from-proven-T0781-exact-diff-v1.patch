@@ -1,0 +1,246 @@
+--- evaluations/T-0781/implementation/apply_root_authorized_exact17_canonical_v1.py
++++ evaluations/T-0784/implementation/apply_root_authorized_exact_one_nine_canonical_v1.py
+@@ -1,4 +1,4 @@
+-"""UNRUN: root-authorized exact17 controlled MAIN CLI apply; no retry/DB replacement.
++"""UNRUN: root-authorized exact-nine controlled MAIN CLI apply; no retry/DB replacement.
+ 
+ Authorization must pin this helper, both FINAL source/consequence gates and a
+ fresh all50 baseline check. Preparation or a stage approval cannot authorize it.
+@@ -12,16 +12,14 @@
+ from pathlib import Path
+ 
+ ROOT = Path(__file__).resolve().parents[3]
+-TASK = ROOT / 'evaluations/T-0781'
++TASK = ROOT / 'evaluations/T-0784'
+ MAIN = ROOT / 'genealogy2/data/research.sqlite'
+ JOURNAL = ROOT / 'genealogy2/journal'
+-READ_HELPER = TASK / 'implementation/stage_exact_two_settled_package_v2.py'
++READ_HELPER = ROOT / 'evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py'
+ READ_HELPER_SHA = 'ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2'
+-PROPOSAL_SHA = '763da360b1cc81aa3f2b9c34908807fa63761a2ffc6cabacef9c211c0a543fda'
+-MEMBERSHIP_SHA = '90e1f58a084bb0fee0dd5e1c6332e72e733e0ad0b11e71547085b33ba47cf547'
+-STAGE_SHA = '0710f91a6c039ce32354eb1261c4d11b0ff8ad50c35fb24b9003101160a85399'
+-STEP_SHA = 'af50aaa6e776f19098408c22f600c7b49c4edcb4908ce5bc3fc09626ab73422f'
+-BASELINE_MAIN_SHA = 'efea4dfa8feec3f2f5bff8167792b01513ebb5689d9d2ec5278983a23ca208b3'
++PROPOSAL_SHA = 'fd438f10ba90901ab1171868c00e8acebb86de19979bcc1c64b3d0ac393b3ee9'
++MEMBERSHIP_SHA = '33afa563644ee34c07147006cae92e4e7a54dfd92871611dac84dad94ff8c176'
++BASELINE_MAIN_SHA = '42321e363573c243597aded458e6a10d2d6cd8e4be47da02a227b149bbaed45f'
+ 
+ 
+ def main():
+@@ -41,16 +39,16 @@
+     assert auth_path.is_relative_to(TASK)
+     assert h.sha(auth_path) == args.authorization_sha256
+     auth = json.loads(auth_path.read_text())
+-    assert auth['task'] == 'T-0781'
+-    assert auth['authorization'] == 'CONTROLLED_MAIN_EXACT17_CLI_APPLY_ONCE'
++    assert auth['task'] == 'T-0784'
++    assert auth['authorization'] == 'CONTROLLED_MAIN_EXACT_ONE_NINE_CLI_APPLY_ONCE'
+     assert auth['root_authorized'] is True and auth['canonical_apply_authorized'] is True
+     assert auth['retry_authorized'] is False and auth['database_replacement_authorized'] is False
+     assert auth['helper_pin'] == h.pin(Path(__file__).resolve())
+     assert auth['readonly_helper_pin'] == h.pin(READ_HELPER)
+     assert auth['main_pin'] == {'path': 'genealogy2/data/research.sqlite', 'sha256': BASELINE_MAIN_SHA}
+     assert auth['journal_path'] == 'genealogy2/journal'
+-    assert auth['baseline_state'] == {'journal_head': 425, 'pending': 0}
+-    assert auth['final_state'] == {'journal_head': 442, 'pending': 0}
++    assert auth['baseline_state'] == {'journal_head': 442, 'pending': 0}
++    assert auth['final_state'] == {'journal_head': 443, 'pending': 0}
+     out = (ROOT / auth['output_path']).resolve()
+     assert out.is_relative_to(TASK) and not out.exists()
+     out.mkdir()
+@@ -71,9 +69,8 @@
+                       auth['proposal_pin'], auth['membership_pin'],
+                       auth['actual_step_state_index_pin'], auth['reviewed_final_stage_DB_pin'],
+                       auth['baseline_DB_pin'], auth['fresh_baseline_receipt_pin'],
+-                      auth['protected42_pin'], auth['native398_pin'], auth['native174_pin'],
+-                      auth['pending17_before_resolution_pin'], auth['primary17_decisions_pin'],
+-                      auth['independent17_instruction_gate_pin'], auth['root_all50_comparator_pin'],
++                      auth['protected42_pin'], auth['actual_native_context_pin'], auth['actual_native9_pin'],
++                      auth['actual_request_pin'], auth['stage_handoff_pin'], auth['baseline_person_context_pin'], auth['root_all50_comparator_pin'],
+                       *auth['media_pins'], *auth['review_pins'], *auth['code_pins'],
+                       auth['primary_final_gate']['pin'], auth['independent_final_gate']['pin']]
+ 
+@@ -101,8 +98,6 @@
+         recheck()
+         assert auth['proposal_pin']['sha256'] == PROPOSAL_SHA
+         assert auth['membership_pin']['sha256'] == MEMBERSHIP_SHA
+-        assert auth['reviewed_final_stage_DB_pin']['sha256'] == STAGE_SHA
+-        assert auth['actual_step_state_index_pin']['sha256'] == STEP_SHA
+         assert auth['primary_final_gate']['pin']['path'] != auth['independent_final_gate']['pin']['path']
+         gatecheck('primary_final_gate')
+         gatecheck('independent_final_gate')
+@@ -111,11 +106,11 @@
+         proposal, membership = loaded(auth['proposal_pin']), loaded(auth['membership_pin'])
+         members = membership['operations']
+         assert proposal['operations'] == members and proposal['membership_pin'] == auth['membership_pin']
+-        assert len(members) == 17 and sum(m['changes'] for m in members) == 174
++        assert len(members) == 1 and sum(m['changes'] for m in members) == 9
+         steps = loaded(auth['actual_step_state_index_pin'])
+-        assert steps['final17_membership_pin'] == auth['membership_pin']
++        assert steps['membership_pin'] == auth['membership_pin']
+         assert steps['actual_final_state'] == auth['final_state'] and steps['no_state_counts_inferred'] is True
+-        assert len(steps['steps']) == 17
++        assert len(steps['steps']) == 1
+         operations = []
+         for m, s in zip(members, steps['steps']):
+             assert m['operation_id'] == s['operation_id']
+@@ -130,31 +125,26 @@
+         for left, right in zip(operations, operations[1:]):
+             assert left['expected_after'] == right['expected_before']
+         ops = [loaded(m) for m in members]
+-        assert len({op['id'] for op in ops}) == 17
++        assert len({op['id'] for op in ops}) == 1
+         for i, (m, op) in enumerate(zip(members, ops)):
+             assert op['id'] == m['operation_id'] and op['dependencyReviewVersion'] == 2
+             assert len(op['changes']) == m['changes']
+-            if i < 16:
+-                assert not set(op).intersection({'resolve', 'media', 'spans', 'mappings', 'unitDecisions'})
+-            else:
+-                assert op['changes'] == [] and len(op['resolve']) == 17
+-                assert set(op) == {'id', 'actor', 'reason', 'dependencyReviewVersion', 'changes', 'resolve'}
+-        primary_rows = loaded(auth['primary17_decisions_pin'])['rows']
+-        own_rows = loaded(auth['independent17_instruction_gate_pin'])['rows']
+-        assert [r['resolution_instruction'] for r in primary_rows] == ops[-1]['resolve']
+-        assert [r['approved_resolution_instruction'] for r in own_rows] == ops[-1]['resolve']
+-        assert [r['retained_current_revision_id'] for r in primary_rows] == [r['retained_current_revision_id'] for r in own_rows]
+-        pending17 = loaded(auth['pending17_before_resolution_pin'])
+-        assert [r['id'] for r in pending17] == [r['request'] for r in ops[-1]['resolve']]
+-        assert len({r['id'] for r in pending17}) == 17
++            assert not set(op).intersection({'resolve', 'media', 'spans', 'mappings', 'unitDecisions'})
++        actual_requests = loaded(auth['actual_request_pin'])
++        assert actual_requests['actual_pending_count'] == 0 and actual_requests['requests'] == []
++        stage_handoff = loaded(auth['stage_handoff_pin'])
++        assert stage_handoff['actual_state'] == auth['final_state']
++        assert stage_handoff['stage_DB_pin'] == auth['reviewed_final_stage_DB_pin']
++        assert stage_handoff['proposal_pin'] == auth['proposal_pin'] and stage_handoff['membership_pin'] == auth['membership_pin']
++        # Unexpected pending requires explicit separate source/independent disposition and a new runner review.
+         # Pin actual CLI implementation, not a modified preparation wrapper.
+         code_paths = {p['path'] for p in auth['code_pins']}
+         assert {'genealogy2/cli.mjs', 'genealogy2/lib/recovery.mjs',
+                 'genealogy2/lib/domain.mjs', 'genealogy2/lib/store.mjs'} <= code_paths
+         assert h.sha(MAIN) == BASELINE_MAIN_SHA
+         journal_prefix = [h.pin(p) for p in sorted(JOURNAL.glob('*.json'))]
+-        assert len(journal_prefix) == 425
+-        save('original425-canonical-journal-file-prefix-pins-v1.json', journal_prefix)
++        assert len(journal_prefix) == 442
++        save('original442-canonical-journal-file-prefix-pins-v1.json', journal_prefix)
+         baseline_path = checked(auth['baseline_DB_pin'])
+         stage_path = checked(auth['reviewed_final_stage_DB_pin'])
+         assert baseline_path.is_relative_to(TASK) and stage_path.is_relative_to(TASK)
+@@ -180,8 +170,8 @@
+                     for e in x['evidence']:
+                         assert heads.get(e['object']) == e['version'], (x['id'], e)
+                     heads[x['id']] = (x['expectedVersion'] or 0) + 1
+-            assert len(ids) == 174
+-            save('fresh-live425-all50-and-protected42-before-v1.json',
++            assert len(ids) == 9
++            save('fresh-live442-all50-and-protected42-before-v1.json',
+                  {'authorization_pin': h.pin(auth_path), 'fresh_root_receipt_pin': auth['fresh_baseline_receipt_pin'],
+                   'baseline_DB_pin': auth['baseline_DB_pin'], 'MAIN_pin': h.pin(MAIN), 'all50': before,
+                   'protected42': True, 'actual_state': h.state(live), 'CLI_invocations': 0})
+@@ -201,13 +191,8 @@
+                 assert actual_before == m['expected_before']
+                 assert c.execute('select count(*) from operation where id=?', (op['id'],)).fetchone()[0] == 0
+                 protected_check(c, protected)
+-                if i == 17:
+-                    actual_pending = [dict(r) for r in c.execute('select * from pending_review order by id')]
+-                    assert actual_pending == pending17
+-                    save('before-resolution-exact17-actual-pending-and-dual-instructions-v1.json',
+-                         {'actual_pending': actual_pending, 'primary_instruction_list': [r['resolution_instruction'] for r in primary_rows],
+-                          'independent_instruction_list': [r['approved_resolution_instruction'] for r in own_rows],
+-                          'submitted_resolve': op['resolve'], 'exact': True})
++                actual_pending = [dict(r) for r in c.execute('select * from pending_review order by id')]
++                assert actual_pending == []
+             finally:
+                 c.close()
+             receipt = {'index': i, 'authorization_pin': h.pin(auth_path), 'operation_pin': h.pin(ROOT / m['path']),
+@@ -257,15 +242,15 @@
+             finally:
+                 c.close()
+             completed.append(receipt)
+-            print(json.dumps({'completed': i, 'of': 17, 'actual_state': receipt['after']}), flush=True)
++            print(json.dumps({'completed': i, 'of': 1, 'actual_state': receipt['after']}), flush=True)
+         recheck()
+         for p in journal_prefix:
+             checked(p)
+         # Root's separate comparator has NO derived-search exemption. Its only
+-        # allowed difference is recorded_at on these exact17 new operations.
++        # allowed difference is recorded_at on these exact-nine new operations.
+         comparator = checked(auth['root_all50_comparator_pin'])
+-        assert comparator == (TASK / 'root_compare_actual_stage_v1.py').resolve()
+-        comp_command = ['python', str(comparator), '--stage', str(stage_path), '--gate', str(auth_path),
++        assert comparator == (TASK / 'implementation/compare_actual_stage_exact_nine_v1.py').resolve()
++        comp_command = ['python3', str(comparator), '--stage', str(stage_path), '--gate', str(auth_path),
+                         '--output', str(out / 'root-all50-reviewed-stage-versus-actual-MAIN-v1.json')]
+         process = subprocess.run(comp_command, cwd=ROOT, capture_output=True, text=True)
+         (out / 'root-all50-comparison.stdout.txt').write_text(process.stdout)
+@@ -290,20 +275,19 @@
+                     old = h.rows(base, name, True)
+                     assert (h.rows(c, name, True, limit) if limit is not None else []) == old
+                 preserved[name] = {'old_full_rows_and_native_order_exact': True}
+-            for pin_name, count in [('native398_pin', 398), ('native174_pin', 174)]:
++            for pin_name, count in [('actual_native_context_pin', None), ('actual_native9_pin', 9)]:
+                 full = loaded(auth[pin_name])['objects']
+-                assert len(full) == count
++                assert count is None or len(full) == count
+                 for rid, n in full.items():
+                     assert h.native(c, rid) == n
+             protected_check(c, protected)
+-            stored = [dict(r) for r in c.execute('select rowid as native_rowid,* from review_resolution where operation_id=? order by rowid', (ops[-1]['id'],))]
+-            assert [(r['request_id'], r['rationale']) for r in stored] == [(r['request'], r['rationale']) for r in ops[-1]['resolve']]
+-            save('exact-old-native-history-row-order-protected42-and174-398-context-proof-v1.json',
+-                 {'old_tables': preserved, 'all174_and398_full_native_equal_reviewed_stage': True,
+-                  'protected42_current_and_full_native_exact': True, 'all17_literal_stored_resolution_rows': stored,
++            assert h.rows(c, 'review_resolution', True) == h.rows(base, 'review_resolution', True)
++            save('exact-old-native-history-row-order-protected42-and-nine-context-proof-v1.json',
++                 {'old_tables': preserved, 'all9_and_context_full_native_equal_reviewed_stage': True,
++                  'protected42_current_and_full_native_exact': True, 'review_resolution_baseline_exact': True,
+                   'asset_and_native_asset_baseline_exact': after['tables']['asset'] == before['tables']['asset'] and after['tables']['native_asset'] == before['tables']['native_asset']})
+             assert after['tables']['asset'] == before['tables']['asset'] and after['tables']['native_asset'] == before['tables']['native_asset']
+-            save('actual-canonical442-all50-post-state-v1.json', after)
++            save('actual-canonical443-all50-post-state-v1.json', after)
+         finally:
+             base.close()
+             c.close()
+@@ -316,21 +300,35 @@
+             if name.startswith('verify'):
+                 assert result['ok'] is True
+             validators.append(h.pin(output))
++        for label, command in [('pedigree-verified-P0270', ['pedigree','P-0270']),
++                               ('pedigree-typed-P0269', ['pedigree','P-0269','--mode','typed']),
++                               ('pedigree-typed-P0270', ['pedigree','P-0270','--mode','typed']),
++                               *[(person+'-whole-person',['person',person,'--full','--format','json']) for person in ['P-0211','P-0003','P-0007']]]:
++            output = out / (label+'.json')
++            h.run_cli(command, output)
++            validators.append(h.pin(output))
++        c = h.conn(MAIN)
++        try:
++            axis_rows = [dict(r) for r in c.execute("select a.*,r.object_id,r.version from assessment a join current_revision r on r.id=a.revision_id where a.subject_id in ('P-0211','P-0003','P-0007') and a.criteria in ('identity_review/1','tree_effect/1') order by a.subject_id,a.criteria")]
++            assert len(axis_rows)==6
++            save('three-current-native-identity-tree-axes-coremetrics-NO-PROMOTION-v1.json', {'axes':axis_rows,'source_grade_inferred':False,'Wotan_priority_or_status_changed':False,'before_input_pin':auth['baseline_person_context_pin']})
++        finally:
++            c.close()
+         recheck()
+         c = h.conn(MAIN)
+         try:
+             assert h.state(c) == auth['final_state'] and h.all50(c) == after
+         finally:
+             c.close()
+-        final_pin = save('complete-exact17-controlled-canonical-actual442-zero-pending-handoff-v1.json',
+-                         {'task': 'T-0781', 'authorization_pin': h.pin(auth_path), 'MAIN_pin': h.pin(MAIN),
++        final_pin = save('complete-exact-nine-controlled-canonical-actual443-zero-pending-handoff-v1.json',
++                         {'task': 'T-0784', 'authorization_pin': h.pin(auth_path), 'MAIN_pin': h.pin(MAIN),
+                           'actual_state': auth['final_state'], 'reviewed_final_stage_DB_pin': auth['reviewed_final_stage_DB_pin'],
+                           'proposal_pin': auth['proposal_pin'], 'membership_pin': auth['membership_pin'],
+                           'completed_operations': completed, 'actual_CLI_invocations': attempted,
+                           'root_all50_comparison_pin': h.pin(out / 'root-all50-reviewed-stage-versus-actual-MAIN-v1.json'),
+-                          'native_protected_history_proof_pin': h.pin(out / 'exact-old-native-history-row-order-protected42-and174-398-context-proof-v1.json'),
+-                          'validator_pins': validators, 'actual_two_source_acceptance': False,
+-                          'six_owner_administration_applied': False,
++                          'native_protected_history_proof_pin': h.pin(out / 'exact-old-native-history-row-order-protected42-and-nine-context-proof-v1.json'),
++                          'validator_pins': validators, 'actual_three_person_identity_acceptance': False,
++                          'five_owner_administration_applied': False,
+                           'actual_worker_usage': 'Root collects after worker final; unknown here, not zero.'})
+         print(json.dumps({'final_handoff_pin': final_pin}), flush=True)
+     except BaseException as error:

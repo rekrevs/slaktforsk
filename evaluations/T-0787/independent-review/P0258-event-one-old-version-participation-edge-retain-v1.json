@@ -1,0 +1,24 @@
+{
+  "task": "T-0787",
+  "input": {
+    "path": "evaluations/T-0787/preparation/P0258-event-exact-caveat-support-and-all-history-incoming-guard-NOT-OPERATION-v1.json",
+    "sha256": "f52c840483330bc1e55b4f567738eb62b3194fe76a0c916887d229dc29200ef7"
+  },
+  "exact_edge": {
+    "native_rowid": 16808,
+    "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+    "basis_revision_id": "E-birth-P-0258@1",
+    "role": "derived_from",
+    "note": "Versionsbunden strukturreferens: event_id",
+    "basis_is_current": false,
+    "caller_current_revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+    "caller_is_current": true
+  },
+  "whole_native_current_caller_read": "EP-E-birth-P-0258-P-0258-principal@1",
+  "exact_previous_full_current_payload_equal": true,
+  "independent_disposition": "RETAIN_CURRENT_EXACT_OLD_BASIS",
+  "reason": "The edge refers to historical E-birth-P0258@1, not changed current@2. Participation states only same principal person/event and no selected date field. Whole caveat already distinguishes repeated administrative report from unread own birth. Current event amendment adds non-exhaustive report qualification without changing person/event identity or choosing DOB; no participation revision or automatic rebind warranted.",
+  "actual_runtime_request_disposition_pending_actual_stage": true,
+  "source_comparison_pending": true,
+  "global_or_stage_approval": false
+}

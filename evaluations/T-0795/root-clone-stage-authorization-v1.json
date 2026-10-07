@@ -1,0 +1,31 @@
+{
+  "task": "T-0795",
+  "clone_stage_authorized": true,
+  "stage_helper_sha256": "39d53fc94619351a19e969c27ac83860c1217d32ac1f51a94c929582f698ca44",
+  "package": {
+    "draft": "0107f182747a0416abf7cace9b09e24b712f7d848e13ee81364608861f06731e",
+    "media": "486102da3cc2fbfce5e98deb59e3f8b0cf2481dc7af7ed95e252c2818f6a2d34",
+    "table": "667882aac820fd0264101b2d1cfd80c4e14de9062adef6a7e75432660e568112"
+  },
+  "primary_gate": {
+    "path": "evaluations/T-0795/source-review/primary-literal-draft-stage-gate-v2.json",
+    "sha256": "66d26b43e1bcbc887f01d15250b02a8681c5cfdbd3de7610441470aa49b805c0",
+    "pass_pointer": "/PASS",
+    "package_bindings": {
+      "draft": "/pins/0/sha256",
+      "media": "/pins/1/sha256",
+      "table": "/pins/2/sha256"
+    }
+  },
+  "independent_gate": {
+    "path": "evaluations/T-0795/independent-review/literal-draft-stage-gate-v1.json",
+    "sha256": "b5c0b740bf7ec3162dcf9d0857e32a983130c51a8cb4093c286e994bcde6985d",
+    "pass_pointer": "/PASS",
+    "package_bindings": {
+      "draft": "/hashes/0/sha256",
+      "media": "/hashes/1/sha256",
+      "table": "/hashes/2/sha256"
+    }
+  },
+  "scope": "Exact35changes/48fielddispositions and six rawmetadata media only; no main write or extra calls; stop for actual individual pending review."
+}

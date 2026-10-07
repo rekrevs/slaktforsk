@@ -1,0 +1,2829 @@
+{
+  "command": "node genealogy2/cli.mjs impact C-0018",
+  "exit": 0,
+  "payload": {
+    "format": "genealogy2-impact/1",
+    "input": "C-0018",
+    "query": null,
+    "database_state": {
+      "operations": 222,
+      "revisions": 47614,
+      "last_operation": {
+        "sequence": 221,
+        "operation_id": "T-0677/C0010-person-v1"
+      }
+    },
+    "seeds": [
+      {
+        "object_id": "R-cc81e090349075ac6db238bc",
+        "revision_id": "R-cc81e090349075ac6db238bc@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "routes": [
+          {
+            "type": "citation_representation",
+            "via_object": "R-cc81e090349075ac6db238bc"
+          },
+          {
+            "type": "citation_representation",
+            "via_object": "READ-f9f150461bb8e9ba7adf9c69"
+          }
+        ]
+      }
+    ],
+    "routing_limit": "C-id maps to bounded records through import representations; this routing is provenance, not source support. No record mapping means no inferred dependency graph.",
+    "dependencies": {
+      "current": [
+        {
+          "object_id": "ASSESS-P-0014-birth-year",
+          "revision_id": "ASSESS-P-0014-birth-year@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": "CONFLICT",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 2,
+          "path": [
+            {
+              "revision_id": "O-P-0014-C0018-years@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            },
+            {
+              "revision_id": "ASSESS-P-0014-birth-year@1",
+              "basis_revision_id": "O-P-0014-C0018-years@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "ASSESS-P-0014-birth-year@1",
+              "basis_revision_id": "O-P-0014-C0018-years@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0010-C0018-death-lead",
+          "revision_id": "O-P-0010-C0018-death-lead@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0010-C0018-death-lead@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0010-C0018-death-lead@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0010-C0018-marriage-lead",
+          "revision_id": "O-P-0010-C0018-marriage-lead@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0010-C0018-marriage-lead@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0010-C0018-marriage-lead@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0010-C0018-name",
+          "revision_id": "O-P-0010-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0010-C0018-name@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0010-C0018-name@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0011-C0018-name",
+          "revision_id": "O-P-0011-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0011-C0018-name@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0011-C0018-name@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0011-C0018-years",
+          "revision_id": "O-P-0011-C0018-years@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0011-C0018-years@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0011-C0018-years@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0012-C0018-name",
+          "revision_id": "O-P-0012-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0012-C0018-name@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0012-C0018-name@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0012-C0018-years",
+          "revision_id": "O-P-0012-C0018-years@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0012-C0018-years@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0012-C0018-years@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0013-C0018-private-child",
+          "revision_id": "O-P-0013-C0018-private-child@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0013-C0018-private-child@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0013-C0018-private-child@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0014-C0018-name",
+          "revision_id": "O-P-0014-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0014-C0018-name@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0014-C0018-name@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0014-C0018-years",
+          "revision_id": "O-P-0014-C0018-years@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0014-C0018-years@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0014-C0018-years@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "P-0013",
+          "revision_id": "P-0013@2",
+          "version": 2,
+          "kind": "person",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "P-0013@2",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "P-0013@2",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "READ-f9f150461bb8e9ba7adf9c69",
+          "revision_id": "READ-f9f150461bb8e9ba7adf9c69@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "READ-f9f150461bb8e9ba7adf9c69@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "READ-f9f150461bb8e9ba7adf9c69@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "REL-parent-P-0011-P-0012",
+          "revision_id": "REL-parent-P-0011-P-0012@1",
+          "version": 1,
+          "kind": "relation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "REL-parent-P-0011-P-0012@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "REL-parent-P-0011-P-0012@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "REL-parent-P-0011-P-0013",
+          "revision_id": "REL-parent-P-0011-P-0013@1",
+          "version": 1,
+          "kind": "relation",
+          "disposition": "candidate",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "REL-parent-P-0011-P-0013@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "REL-parent-P-0011-P-0013@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "REL-parent-P-0011-P-0014",
+          "revision_id": "REL-parent-P-0011-P-0014@1",
+          "version": 1,
+          "kind": "relation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "REL-parent-P-0011-P-0014@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "REL-parent-P-0011-P-0014@1",
+              "basis_revision_id": "R-cc81e090349075ac6db238bc@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        }
+      ],
+      "historical": []
+    },
+    "provenance": {
+      "classification": "import_provenance_not_evidence",
+      "origins": [
+        {
+          "revision_id": "R-cc81e090349075ac6db238bc@1",
+          "unit_id": "2c927c27af7fa2ed20e9b8d00a1a4c03a87dd840f2e47db849d39464f1b3b95a",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-cc81e090349075ac6db238bc",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0018-myheritage-bernhard-natanael-eliaesson.md",
+          "start_line": 1,
+          "end_line": 31,
+          "historical": 0,
+          "sha256": "03a973c7881ce13e7c7a0443da6e661da9f5cccf21be6cd31250affc9e6cb6b4"
+        },
+        {
+          "revision_id": "R-cc81e090349075ac6db238bc@1",
+          "unit_id": "9b9c8c6a791acc4b2c3e7f06ed7565c6ef3def16c944a880c8d437b49c3dfded",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-cc81e090349075ac6db238bc",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0018-myheritage-bernhard-natanael-eliaesson.md",
+          "start_line": 9,
+          "end_line": 25,
+          "historical": 0,
+          "sha256": "03a973c7881ce13e7c7a0443da6e661da9f5cccf21be6cd31250affc9e6cb6b4"
+        },
+        {
+          "revision_id": "READ-f9f150461bb8e9ba7adf9c69@1",
+          "unit_id": "2c927c27af7fa2ed20e9b8d00a1a4c03a87dd840f2e47db849d39464f1b3b95a",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-f9f150461bb8e9ba7adf9c69",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0018-myheritage-bernhard-natanael-eliaesson.md",
+          "start_line": 1,
+          "end_line": 31,
+          "historical": 0,
+          "sha256": "03a973c7881ce13e7c7a0443da6e661da9f5cccf21be6cd31250affc9e6cb6b4"
+        },
+        {
+          "revision_id": "READ-f9f150461bb8e9ba7adf9c69@1",
+          "unit_id": "9b9c8c6a791acc4b2c3e7f06ed7565c6ef3def16c944a880c8d437b49c3dfded",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-f9f150461bb8e9ba7adf9c69",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0018-myheritage-bernhard-natanael-eliaesson.md",
+          "start_line": 9,
+          "end_line": 25,
+          "historical": 0,
+          "sha256": "03a973c7881ce13e7c7a0443da6e661da9f5cccf21be6cd31250affc9e6cb6b4"
+        }
+      ],
+      "targets": []
+    },
+    "search": {
+      "matching": "Case-sensitive literal phrase; identifiers require boundaries. No stemming, date normalization or semantic matching.",
+      "terms": [
+        {
+          "value": "C-0018",
+          "source": "identifier",
+          "boundary": true
+        },
+        {
+          "value": "R-cc81e090349075ac6db238bc",
+          "source": "identifier",
+          "boundary": true
+        }
+      ]
+    },
+    "text_candidates": {
+      "current": [
+        {
+          "object_id": "ASSESSMENT-P-0011",
+          "revision_id": "ASSESSMENT-P-0011@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 467,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "lsson-lysning-vigsel-oskarshamn-1923.md), [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0264](../citations/C-0264-portrattbilder-",
+              "excerpt_start": 357
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0012",
+          "revision_id": "ASSESSMENT-P-0012@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 456,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "bernhard-familj-folkrakning-1930.md), [C-0819](../citations/C-0819-agarens-bekraftelse-bernards-dottrar.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0263](../citations/C-0263-jan-christer-om",
+              "excerpt_start": 346
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0013",
+          "revision_id": "ASSESSMENT-P-0013@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 407,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "RKÄND`\n- Granskningsdatum: 2026-09-08\n- Granskningsbelägg: T-0147, [dev-log](../../wotan/dev-log/T-0147.md); [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0261](../citations/C-0261-korsberga-lars-",
+              "excerpt_start": 297
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0014",
+          "revision_id": "ASSESSMENT-P-0014@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 310,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "dverkan: `EJ BÄRANDE`\n- Kontraktsgranskning: `UNDERKÄND`\n- Granskningsdatum: 2026-09-08\n- Granskningsbelägg: [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0027](../citations/C-0027-bernhard-familj",
+              "excerpt_start": 200
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "CONTRACT-P-0011-PK-09",
+          "revision_id": "CONTRACT-P-0011-PK-09@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 243,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "äknas inte som oberoende röster, och gravnollets räckvidd begränsas uttryckligen till de sökta namnformerna. [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0960](../citations/C-0960-bernhard-eliass",
+              "excerpt_start": 133
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "CONTRACT-P-0012-PK-09",
+          "revision_id": "CONTRACT-P-0012-PK-09@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 336,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "ternamn görs inte till ett äktenskap. [C-0819](../citations/C-0819-agarens-bekraftelse-bernards-dottrar.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0263](../citations/C-0263-jan-christer-om",
+              "excerpt_start": 226
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "CONTRACT-P-0013-PK-01",
+          "revision_id": "CONTRACT-P-0013-PK-01@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 200,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "föräldrapar och namnform, plus ägarens fastställda fadersled. Ingen konkurrerande kandidat finns att skilja. [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0263](../citations/C-0263-jan-christer-om",
+              "excerpt_start": 90
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0010-4c27daacf078",
+          "revision_id": "KEY-P-0010-4c27daacf078@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 109,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| Död 1978-09-08, Malmö S:t Petri enligt sekundärträd; hustrun 1977 | Gravregister, dödbok, bouppteckning | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) | LEAD. Gravregistret prövat med noll; namnfo",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0011-4c16a3c6b2f0",
+          "revision_id": "KEY-P-0011-4c16a3c6b2f0@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 352,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "27-bernhard-familj-folkrakning-1930.md), [C-0264](../citations/C-0264-portrattbilder-bernhard-1913-1964.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) | Eliæson/Eliaesson är gift namnbruk utan bel",
+              "excerpt_start": 242
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0011-6c43c18588af",
+          "revision_id": "KEY-P-0011-6c43c18588af@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 70,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| Dödsår 1977 | Senare folkbokföring, dödsbok, grav och dödsannons | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0960](../citations/C-0960-bernhard-eliass",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0012-518198eb0ca5",
+          "revision_id": "KEY-P-0012-518198eb0ca5@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 246,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "27-bernhard-familj-folkrakning-1930.md), [C-0264](../citations/C-0264-portrattbilder-bernhard-1913-1964.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) | Efternamnet är sekundärt; inget eget namnbr",
+              "excerpt_start": 136
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0012-914ffcba48fd",
+          "revision_id": "KEY-P-0012-914ffcba48fd@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 74,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| Dödsår 2014 | Senare folkbokföring, dödsuppgift, grav och dödsannons | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0263](../citations/C-0263-jan-christer-om",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0013-c711de199f93",
+          "revision_id": "KEY-P-0013-c711de199f93@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 147,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "aesson och Katy Leonie Nilsson | Familjekonstellation som binder henne till syskonskaran och till antavlan | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0264](../citations/C-0264-portrattbilder-",
+              "excerpt_start": 37
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0013-eea3bcb7532f",
+          "revision_id": "KEY-P-0013-eea3bcb7532f@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 148,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "icknamn | Barndomen; ingång till 1930- och 1940-talets Malmömaterial om integritetsläget någon gång ändras | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0264](../citations/C-0264-portrattbilder-",
+              "excerpt_start": 38
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0014-1a95a4fe480f",
+          "revision_id": "KEY-P-0014-1a95a4fe480f@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 235,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "hard-familj-folkrakning-1930.md), [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) | Efternamnen sekundära; inget belagt namnbyt",
+              "excerpt_start": 125
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0014-5666e19ccc31",
+          "revision_id": "KEY-P-0014-5666e19ccc31@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 70,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| Dödsår 2007, Karlsson | Senare egen folkbokföring/död/begravning | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0263](../citations/C-0263-jan-christer-om",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0010-C0018-death-lead",
+          "revision_id": "O-P-0010-C0018-death-lead@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-cc81e090349075ac6db238bc",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-cc81e090349075ac6db238bc",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0010-C0018-marriage-lead",
+          "revision_id": "O-P-0010-C0018-marriage-lead@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-cc81e090349075ac6db238bc",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-cc81e090349075ac6db238bc",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0010-C0018-name",
+          "revision_id": "O-P-0010-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-cc81e090349075ac6db238bc",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-cc81e090349075ac6db238bc",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0011-C0018-name",
+          "revision_id": "O-P-0011-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-cc81e090349075ac6db238bc",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-cc81e090349075ac6db238bc",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0011-C0018-years",
+          "revision_id": "O-P-0011-C0018-years@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-cc81e090349075ac6db238bc",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-cc81e090349075ac6db238bc",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0012-C0018-name",
+          "revision_id": "O-P-0012-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-cc81e090349075ac6db238bc",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-cc81e090349075ac6db238bc",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0012-C0018-years",
+          "revision_id": "O-P-0012-C0018-years@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-cc81e090349075ac6db238bc",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-cc81e090349075ac6db238bc",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0013-C0018-private-child",
+          "revision_id": "O-P-0013-C0018-private-child@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-cc81e090349075ac6db238bc",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-cc81e090349075ac6db238bc",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0014-C0018-name",
+          "revision_id": "O-P-0014-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-cc81e090349075ac6db238bc",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-cc81e090349075ac6db238bc",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0014-C0018-years",
+          "revision_id": "O-P-0014-C0018-years@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-cc81e090349075ac6db238bc",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-cc81e090349075ac6db238bc",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0010/Q-02",
+          "revision_id": "P-0010/Q-02@3",
+          "version": 3,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 256,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "g, yrkesväg till kassör.\n- Känt underlag: [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md).\n- Alternativ och motprövning: vigsel registr",
+              "excerpt_start": 146
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0010/Q-03",
+          "revision_id": "P-0010/Q-03@2",
+          "version": 2,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 385,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "27-bernhard-familj-folkrakning-1930.md), [C-0264](../citations/C-0264-portrattbilder-bernhard-1913-1964.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0915](../citations/C-0915-eliasson-oskars",
+              "excerpt_start": 275
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0011/Q-02",
+          "revision_id": "P-0011/Q-02@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 302,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "och i bildtexten 1944. Modersrelationen påverkar hur hennes livslinje efter 1930 ska läsas.\n- Känt underlag: [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) listar den privatmarkerade dottern under pare",
+              "excerpt_start": 192
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0011/Q-03",
+          "revision_id": "P-0011/Q-03@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 360,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "264](../citations/C-0264-portrattbilder-bernhard-1913-1964.md) placerar henne i en bildtext från julen 1944; [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) anger 1977; [C-0960](../citations/C-0960-bern",
+              "excerpt_start": 250
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0012/Q-01",
+          "revision_id": "P-0012/Q-01@2",
+          "version": 2,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 379,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "ne.\n- Känt underlag: [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) ger 1924 och `förs.`; [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) och [C-0263](../citations/C-0263-jan-christer",
+              "excerpt_start": 269
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0012/Q-02",
+          "revision_id": "P-0012/Q-02@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 325,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "ra. Ett eget vuxenankare avgör om hon gifte sig, bytte namn och var hon slutade sina dagar.\n- Känt underlag: [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) och [C-0263](../citations/C-0263-jan-christer",
+              "excerpt_start": 215
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0014/Q-01",
+          "revision_id": "P-0014/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 367,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "1927 och församlingen; [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) säger 1925, [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) 1927. [C-0819](../citations/C-0819-agarens-be",
+              "excerpt_start": 257
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0014/Q-02",
+          "revision_id": "P-0014/Q-02@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 197,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "råga och betydelse: förena sekundärnamnet Karlsson och dödsåret 2007 med den säkra dottern.\n- Känt underlag: [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0263](../citations/C-0263-jan-christer-om",
+              "excerpt_start": 87
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "PATH-P-0012-KP-02",
+          "revision_id": "PATH-P-0012-KP-02@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 553,
+              "line": 7,
+              "occurrences": 2,
+              "excerpt": "65 och 136 Siljan 10 ([C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md)), trädets efternamn ([C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md)) och familjeuppgiftens dödsår ([C-0263](../ci",
+              "excerpt_start": 443
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "PATH-P-0013-KP-02",
+          "revision_id": "PATH-P-0013-KP-02@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 464,
+              "line": 7,
+              "occurrences": 2,
+              "excerpt": "m, föräldrar, syskon, make, kusiner, bostadsort och en samtida bild från barndomen.\n- Ingång och söknycklar: [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0263](../citations/C-0263-jan-christer-om",
+              "excerpt_start": 354
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "PATH-P-0014-KP-02",
+          "revision_id": "PATH-P-0014-KP-02@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 487,
+              "line": 7,
+              "occurrences": 2,
+              "excerpt": "sion.\n- Ingång och söknycklar: [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) folio 3365, [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md):s Karlsson och [C-0263](../citations/C-0263-j",
+              "excerpt_start": 377
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "R-18df18d44d81e11a21a93743",
+          "revision_id": "R-18df18d44d81e11a21a93743@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "dependence_note",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 54,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "SCB-utdrag och register är samma underlag; MyHeritage C-0018:s källa är inte här visat oberoende.",
+              "excerpt_start": 0
+            },
+            {
+              "field": "rationale",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 83,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Källpost avgränsad i C-0027. SCB-utdrag och register är samma underlag; MyHeritage C-0018:s källa är inte här visat oberoende.",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "R-cc81e090349075ac6db238bc",
+          "revision_id": "R-cc81e090349075ac6db238bc@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": true,
+          "hits": [
+            {
+              "field": "rationale",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 21,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Källpost avgränsad i C-0018. Sekundärt släktträd; dess bakomliggande uppgiftskedja är inte dokumenterad här.",
+              "excerpt_start": 0
+            },
+            {
+              "field": "caveat",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 133,
+              "line": 2,
+              "occurrences": 1,
+              "excerpt": "är återgivna stavningar; privatmarkerat barn saknar öppen identitet. Ingen Arne-relation står i detta utdrag.\nC-0018: Faderskap till Arne kommer i projektet från andra utsagor, inte denna MyHeritage-lista. Fältlistan är en sam",
+              "excerpt_start": 23
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "READ-a993aa761f4ae1fee0822a96",
+          "revision_id": "READ-a993aa761f4ae1fee0822a96@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 233,
+              "line": 2,
+              "occurrences": 1,
+              "excerpt": "rivatmarkerat barn från släktträdet syns inte i posten.\nSCB-utdrag och register är samma underlag; MyHeritage C-0018:s källa är inte här visat oberoende.",
+              "excerpt_start": 123
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "READ-f9f150461bb8e9ba7adf9c69",
+          "revision_id": "READ-f9f150461bb8e9ba7adf9c69@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "subject_id",
+              "term": "R-cc81e090349075ac6db238bc",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-cc81e090349075ac6db238bc",
+              "excerpt_start": 0
+            },
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "C-0018: Faderskap till Arne kommer i projektet från andra utsagor, inte denna MyHeritage-lista. Fältlistan är en sam",
+              "excerpt_start": 0
+            },
+            {
+              "field": "rationale",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 43,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Dokumenterad avgränsning och läshistorik i C-0018; ingen ny oberoende evidensröst.",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0011-9d76f0343410",
+          "revision_id": "RESEARCH-P-0011-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 1459,
+              "line": 23,
+              "occurrences": 2,
+              "excerpt": "ch uppväxt saknas. Det är en upptäcktslucka i\nlivsbilden, inte en osäkerhet i personankaret. Sekundärträdets\n[C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) och\nfamiljeuppgifternas [C-0263](../citations",
+              "excerpt_start": 1349
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0012-9d76f0343410",
+          "revision_id": "RESEARCH-P-0012-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 1547,
+              "line": 22,
+              "occurrences": 2,
+              "excerpt": "rete finns ingen födelseårskonflikt: både\n[C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md),\n[C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) och\n[C-0263](../citations/C-0263-jan-christer",
+              "excerpt_start": 1437
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0013-9d76f0343410",
+          "revision_id": "RESEARCH-P-0013-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 711,
+              "line": 15,
+              "occurrences": 2,
+              "excerpt": "trerar ett tredje barn till Bernhard och Katy med\nefternamnsformerna Jonasson, född Eliaesson, utan förnamn\n([C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md)).\nFamiljearkivets bildtext till fotografiet f",
+              "excerpt_start": 601
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0014-9d76f0343410",
+          "revision_id": "RESEARCH-P-0014-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 994,
+              "line": 13,
+              "occurrences": 2,
+              "excerpt": "m födelseåret inom den förankrade personen, inte\nett motbelägg mot ägarens fadersbekräftelse. Sekundärträdet [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) kan ha\nsamma informationsursprung som familje",
+              "excerpt_start": 884
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0011-HAL",
+          "revision_id": "THEME-P-0011-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 192,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "ningsdagen. Dödsåret 1977 är sekundärt, och gravregistrets noll är avgränsat till två Eliasson-namnformer. | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0960](../citations/C-0960-bernhard-eliass",
+              "excerpt_start": 82
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0013-ID",
+          "revision_id": "THEME-P-0013-ID@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 267,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "rande identitet finns. Kvarstående brist är oberoendet i födelsedatumets informantkedja, inte identiteten. | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0263](../citations/C-0263-jan-christer-om",
+              "excerpt_start": 157
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0014-MIL",
+          "revision_id": "THEME-P-0014-MIL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 156,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "knytning i befintliga personuppgifter; vuxenmiljö är ännu okänd och inget säkert irrelevansbeslut möjligt. | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0263](../citations/C-0263-jan-christer-om",
+              "excerpt_start": 46
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0014-REL",
+          "revision_id": "THEME-P-0014-REL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 126,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "Två systrar och föräldrar belagda. Karlsson identifierar ingen make; egna barn och vuxennätverk är okända. | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0027](../citations/C-0027-bernhard-familj",
+              "excerpt_start": 16
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        }
+      ],
+      "historical": [
+        {
+          "object_id": "P-0010/Q-02",
+          "revision_id": "P-0010/Q-02@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 256,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "g, yrkesväg till kassör.\n- Känt underlag: [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md).\n- Alternativ och motprövning: vigsel i Oskar",
+              "excerpt_start": 146
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "P-0010/Q-02",
+          "revision_id": "P-0010/Q-02@2",
+          "version": 2,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 256,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "g, yrkesväg till kassör.\n- Känt underlag: [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md).\n- Alternativ och motprövning: vigsel registr",
+              "excerpt_start": 146
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "P-0010/Q-03",
+          "revision_id": "P-0010/Q-03@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 327,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "27-bernhard-familj-folkrakning-1930.md), [C-0264](../citations/C-0264-portrattbilder-bernhard-1913-1964.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0915](../citations/C-0915-eliasson-oskars",
+              "excerpt_start": 217
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "P-0012/Q-01",
+          "revision_id": "P-0012/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 379,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "ne.\n- Känt underlag: [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) ger 1924 och `förs.`; [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) och [C-0263](../citations/C-0263-jan-christer",
+              "excerpt_start": 269
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0011-9d76f0343410",
+          "revision_id": "RESEARCH-P-0011-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 1423,
+              "line": 23,
+              "occurrences": 2,
+              "excerpt": "ch uppväxt saknas. Det är en upptäcktslucka i\nlivsbilden, inte en osäkerhet i personankaret. Sekundärträdets\n[C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) och\nfamiljeuppgifternas [C-0263](../citations",
+              "excerpt_start": 1313
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0012-9d76f0343410",
+          "revision_id": "RESEARCH-P-0012-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0018",
+              "term_source": "identifier",
+              "offset": 1354,
+              "line": 23,
+              "occurrences": 2,
+              "excerpt": "rete finns ingen födelseårskonflikt: både\n[C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md),\n[C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) och\n[C-0263](../citations/C-0263-jan-christer",
+              "excerpt_start": 1244
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        }
+      ]
+    },
+    "review": {
+      "items": [
+        {
+          "object_id": "ASSESS-P-0014-birth-year",
+          "revision_id": "ASSESS-P-0014-birth-year@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": "CONFLICT",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0011",
+          "revision_id": "ASSESSMENT-P-0011@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0012",
+          "revision_id": "ASSESSMENT-P-0012@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0013",
+          "revision_id": "ASSESSMENT-P-0013@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0014",
+          "revision_id": "ASSESSMENT-P-0014@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "CONTRACT-P-0011-PK-09",
+          "revision_id": "CONTRACT-P-0011-PK-09@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "CONTRACT-P-0012-PK-09",
+          "revision_id": "CONTRACT-P-0012-PK-09@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "CONTRACT-P-0013-PK-01",
+          "revision_id": "CONTRACT-P-0013-PK-01@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0010-4c27daacf078",
+          "revision_id": "KEY-P-0010-4c27daacf078@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0011-4c16a3c6b2f0",
+          "revision_id": "KEY-P-0011-4c16a3c6b2f0@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0011-6c43c18588af",
+          "revision_id": "KEY-P-0011-6c43c18588af@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0012-518198eb0ca5",
+          "revision_id": "KEY-P-0012-518198eb0ca5@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0012-914ffcba48fd",
+          "revision_id": "KEY-P-0012-914ffcba48fd@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0013-c711de199f93",
+          "revision_id": "KEY-P-0013-c711de199f93@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0013-eea3bcb7532f",
+          "revision_id": "KEY-P-0013-eea3bcb7532f@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0014-1a95a4fe480f",
+          "revision_id": "KEY-P-0014-1a95a4fe480f@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0014-5666e19ccc31",
+          "revision_id": "KEY-P-0014-5666e19ccc31@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0010-C0018-death-lead",
+          "revision_id": "O-P-0010-C0018-death-lead@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0010-C0018-marriage-lead",
+          "revision_id": "O-P-0010-C0018-marriage-lead@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0010-C0018-name",
+          "revision_id": "O-P-0010-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0011-C0018-name",
+          "revision_id": "O-P-0011-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0011-C0018-years",
+          "revision_id": "O-P-0011-C0018-years@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0012-C0018-name",
+          "revision_id": "O-P-0012-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0012-C0018-years",
+          "revision_id": "O-P-0012-C0018-years@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0013-C0018-private-child",
+          "revision_id": "O-P-0013-C0018-private-child@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0014-C0018-name",
+          "revision_id": "O-P-0014-C0018-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0014-C0018-years",
+          "revision_id": "O-P-0014-C0018-years@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0010/Q-02",
+          "revision_id": "P-0010/Q-02@3",
+          "version": 3,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0010/Q-03",
+          "revision_id": "P-0010/Q-03@2",
+          "version": 2,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0011/Q-02",
+          "revision_id": "P-0011/Q-02@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0011/Q-03",
+          "revision_id": "P-0011/Q-03@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0012/Q-01",
+          "revision_id": "P-0012/Q-01@2",
+          "version": 2,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0012/Q-02",
+          "revision_id": "P-0012/Q-02@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0013",
+          "revision_id": "P-0013@2",
+          "version": 2,
+          "kind": "person",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0014/Q-01",
+          "revision_id": "P-0014/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0014/Q-02",
+          "revision_id": "P-0014/Q-02@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "PATH-P-0012-KP-02",
+          "revision_id": "PATH-P-0012-KP-02@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "PATH-P-0013-KP-02",
+          "revision_id": "PATH-P-0013-KP-02@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "PATH-P-0014-KP-02",
+          "revision_id": "PATH-P-0014-KP-02@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "R-18df18d44d81e11a21a93743",
+          "revision_id": "R-18df18d44d81e11a21a93743@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "R-cc81e090349075ac6db238bc",
+          "revision_id": "R-cc81e090349075ac6db238bc@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "READ-a993aa761f4ae1fee0822a96",
+          "revision_id": "READ-a993aa761f4ae1fee0822a96@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "READ-f9f150461bb8e9ba7adf9c69",
+          "revision_id": "READ-f9f150461bb8e9ba7adf9c69@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "import_origin_not_evidence",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "REL-parent-P-0011-P-0012",
+          "revision_id": "REL-parent-P-0011-P-0012@1",
+          "version": 1,
+          "kind": "relation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "REL-parent-P-0011-P-0013",
+          "revision_id": "REL-parent-P-0011-P-0013@1",
+          "version": 1,
+          "kind": "relation",
+          "disposition": "candidate",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "REL-parent-P-0011-P-0014",
+          "revision_id": "REL-parent-P-0011-P-0014@1",
+          "version": 1,
+          "kind": "relation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0011-9d76f0343410",
+          "revision_id": "RESEARCH-P-0011-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0012-9d76f0343410",
+          "revision_id": "RESEARCH-P-0012-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0013-9d76f0343410",
+          "revision_id": "RESEARCH-P-0013-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0014-9d76f0343410",
+          "revision_id": "RESEARCH-P-0014-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0011-HAL",
+          "revision_id": "THEME-P-0011-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0013-ID",
+          "revision_id": "THEME-P-0013-ID@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0014-MIL",
+          "revision_id": "THEME-P-0014-MIL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0014-REL",
+          "revision_id": "THEME-P-0014-REL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        }
+      ],
+      "instructions": "Read inspect for each current object and its evidence. Record a reasoned decision in the active Wotan task / authorized operation. Revise through apply only when warranted; resolve only the exact existing pending request after individual review. Text/provenance candidates do not create requests. Null decisions are unreviewed, never approvals."
+    },
+    "limitations": [
+      "Read-only snapshot, not an execution queue. Re-run after revisions.",
+      "Text matches cannot establish copied facts, identity, error, relevance or support. Current text may contain historical retractions.",
+      "Unlinked paraphrases or different date/name spellings may be missed; supply relevant --query variants and inspect affected person profiles.",
+      "No query mutates data, adds evidence, opens/closes reviews or certifies complete semantic coverage."
+    ]
+  }
+}

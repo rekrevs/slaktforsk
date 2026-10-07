@@ -1,0 +1,1946 @@
+{
+  "task": "T-0780",
+  "input": "evaluations/T-0780/implementation/C0561-second-settled-queue-v1/full-current-history-individual-fanout-input-v1.json",
+  "input_sha256": "d717f93c238324e83469282ff30185ba9cf828177c4e3e84a8f591ee15496c3d",
+  "scope": "69actual current/history incoming edges56current wholepayloads:52exactpriorfullread reuse,4 siblingrelations freshly fullread. All peredge sourcejudgments explicit; no row scope inferred from routing.",
+  "decisions": [
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "TR-57840897dc701dc8ddd77fcd@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: record_id"
+      },
+      "whole_native_sha256": "c1c226cb9ecd6b0fed0db687d566b73df5570826288040b0ef7c01adacbdfd04",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-three-record-reading-wrapper-decisions-v1.json",
+        "sha256": "a0c44757bf78d5973232a8ba830957aa37d86561e1865336ef9a9ecc2d9afb48",
+        "objects_index": 2,
+        "exact_edits": [
+          {
+            "field": "data.reading_note",
+            "old": "Ett familjeuppslag. Wilhelminas 649/1876-01-14 är bokförd intern hänvisning, inte säkert fysisk resa eller redan läst mottagarhushåll. Carl Reinholds flytt till 668 år 1877 har reserverad dag; Johan Oscars flytt hämtas från C-0547. Kullarnas källrubriker hålls separata.\nCajsa Wilhelmina är denna radens rättade namn mot äldre harmoniserad Christina; Maria Elina flyttår 1875, inte 1877. Anders Wilhelm har tydlig marsmånad här; överskrivning hör till AI8b, inte denna sida.",
+            "new": "T-0780: Hela C-0561-familjegruppen med14 egna rader, tryckta rubriker, ortditton, tomma fält, kunskaps-/fräjdmarkeringar och årsceller1875–1884 är nu prövad i TR-T0780-C0561-fullpost. Egen Cajsa Wilhelmina-rad anger649/1876 14/1; Carl Reinhold668/1877 23[?]/11. Maria Elinas egen cell angerDegerfors1875 4[?]/10 och separatattest15. Johan Oskars egen C-0561-cell angerDegerfors1880 7/10 och separatattest28; C-0547 är därför inte längre ensam källattribution för denna uppgift. Anders Wilhelm har24/3, utan månadöverskrivning på denna sida. Jonas Eugen1876 10/2 och Olof Konrad1878 20/9 har egna fullt prövade rader, inte bara en sammanslagen tabell. Dagbråk/årsgrafik behåller exakt reservation; ingen fysisk resdag, fastighetskontinuitet eller skolnivå normaliseras. Kullrubrikerna hålls separata; sju första-kullsbarn är inte fullständig barnlista, och Nanny Olivia saknas på just denna sida utan att senare egna belägg upphävs.\n\nDen gamla texttabellen bevaras ordagrant som förstläsningshistorik; dess Christina,1877,28/10,24/[5?] och sammanslagna barnrad är inte aktuella råutfall. Tidigare kvalificering:\nEtt familjeuppslag. Wilhelminas 649/1876-01-14 är bokförd intern hänvisning, inte säkert fysisk resa eller redan läst mottagarhushåll. Carl Reinholds flytt till 668 år 1877 har reserverad dag; Johan Oscars flytt hämtas från C-0547. Kullarnas källrubriker hålls separata.\nCajsa Wilhelmina är denna radens rättade namn mot äldre harmoniserad Christina; Maria Elina flyttår 1875, inte 1877. Anders Wilhelm har tydlig marsmånad här; överskrivning hör till AI8b, inte denna sida."
+          }
+        ],
+        "rationale": "Full currentbody/caveat och äldre råtext lästa. Äldre text och dess ursprung bevaras; nya fullTR bär exakt aktuellt läsomfång. Historiskt record@1-stöd behålls för READ/TR, ingen tyst rebind."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den äldre fulla avskriften/läsningshistoriken bevaras med separat beslutad additiv egen fullutvinning och rättad Johan-avgångsattribution. ÄldreR1 är samma källa, inte ny oberoende evidens; nyconsumer föreR2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "READ-afbeccf80cb49306b2adfa95@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "derived_from",
+        "note": "Avser denna version av den återbrukade källposten."
+      },
+      "whole_native_sha256": "a021e97a7a540f144597f6984d7720e48a2a5fec83be7ca09a8522d04abb8a92",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-three-record-reading-wrapper-decisions-v1.json",
+        "sha256": "a0c44757bf78d5973232a8ba830957aa37d86561e1865336ef9a9ecc2d9afb48",
+        "objects_index": 1,
+        "exact_edits": [
+          {
+            "field": "data.body",
+            "old": "C-0561: Ett familjeuppslag. Wilhelminas 649/1876-01-14 är bokförd intern hänvisning, inte säkert fysisk resa eller redan läst mottagarhushåll. Carl Reinholds flytt till 668 år 1877 har reserverad dag; Johan Oscars flytt hämtas från C-0547. Kullarnas källrubriker hålls separata.\nGl bok 603 och senare C-0552 G.B.672 binder böckerna. Förstakullens sju synliga barn är inte fullständig barnlista; fem yngre har egna rader trots kollapsad tabellrad.",
+            "new": "T-0780: Hela C-0561-familjegruppen med14 egna rader, tryckta rubriker, ortditton, tomma fält, kunskaps-/fräjdmarkeringar och årsceller1875–1884 är nu prövad i TR-T0780-C0561-fullpost. Egen Cajsa Wilhelmina-rad anger649/1876 14/1; Carl Reinhold668/1877 23[?]/11. Maria Elinas egen cell angerDegerfors1875 4[?]/10 och separatattest15. Johan Oskars egen C-0561-cell angerDegerfors1880 7/10 och separatattest28; C-0547 är därför inte längre ensam källattribution för denna uppgift. Anders Wilhelm har24/3, utan månadöverskrivning på denna sida. Jonas Eugen1876 10/2 och Olof Konrad1878 20/9 har egna fullt prövade rader, inte bara en sammanslagen tabell. Dagbråk/årsgrafik behåller exakt reservation; ingen fysisk resdag, fastighetskontinuitet eller skolnivå normaliseras. Kullrubrikerna hålls separata; sju första-kullsbarn är inte fullständig barnlista, och Nanny Olivia saknas på just denna sida utan att senare egna belägg upphävs.\n\nTidigare läshistorik (C0547-ensamattribution och kollapsad tabell ersatta ovan):\nC-0561: Ett familjeuppslag. Wilhelminas 649/1876-01-14 är bokförd intern hänvisning, inte säkert fysisk resa eller redan läst mottagarhushåll. Carl Reinholds flytt till 668 år 1877 har reserverad dag; Johan Oscars flytt hämtas från C-0547. Kullarnas källrubriker hålls separata.\nGl bok 603 och senare C-0552 G.B.672 binder böckerna. Förstakullens sju synliga barn är inte fullständig barnlista; fem yngre har egna rader trots kollapsad tabellrad."
+          }
+        ],
+        "rationale": "Full currentbody/caveat och äldre råtext lästa. Äldre text och dess ursprung bevaras; nya fullTR bär exakt aktuellt läsomfång. Historiskt record@1-stöd behålls för READ/TR, ingen tyst rebind."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den äldre fulla avskriften/läsningshistoriken bevaras med separat beslutad additiv egen fullutvinning och rättad Johan-avgångsattribution. ÄldreR1 är samma källa, inte ny oberoende evidens; nyconsumer föreR2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0440@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "2c53ee6c09fe4e573442565ebfa537a39f4069ea4c0d2d54fabf609b6c545428",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-eleven-sibling-relation-decisions-v1.json",
+        "sha256": "974b7bb6b55fcb0a3606f921bd314c595de6b13398ef771ab900e4b8d61b4041",
+        "objects_index": 10,
+        "exact_edits": [
+          {
+            "field": "caveat",
+            "old": "Akten anger helsyskon. Motpartens källrapporterade sammanhang: 1851 i Botsmark. Detta är ingen separat ny födelse-/dödshändelse för motparten.",
+            "new": "Akten anger helsyskon. Motpartens källrapporterade sammanhang: 1851 i Botsmark. Detta är ingen separat ny födelse-/dödshändelse för motparten. C-0561 visar Johan Oskar och familjekontexten, men motparten har ingen egen rad där. Motpartens egen post och övrigt tidigare stöd bär relationen; C-0561 ensam är inte direkt belägg för hela syskonrelationen."
+          }
+        ],
+        "rationale": "Hela currentrelation/baser/caveat lästa. Accepterad siblingnature och status behålls; C0561 används endast i faktiskt personomfång. Starkare egna twinposter behåller olika dagar, inte normaliserad gemensamdag."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0440 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Redan beslutad källkvalificering avgränsar C561 till äldre familjekontext där egenrad saknas; R1 är inte direkt egen födelse-/dödsuppgift för den frånvarande personen.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0435@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "bbcfb1e9844e8b9fd0d0087306737fcf66a354f8a3a569f3d0155341412135da",
+      "reading_reuse": {
+        "fresh_full_native_read": {
+          "id": "REL-sibling-P-0028-P-0435@1",
+          "object_id": "REL-sibling-P-0028-P-0435",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+          "caveat": "Akten anger helsyskon. Motpartens källrapporterade sammanhang: 1853-01-21 i Botsmark. Detta är ingen separat ny födelse-/dödshändelse för motparten.",
+          "previous_id": null,
+          "kind": "relation",
+          "current": true,
+          "data": {
+            "revision_id": "REL-sibling-P-0028-P-0435@1",
+            "from_person": "P-0028",
+            "to_person": "P-0435",
+            "relation_type": "sibling",
+            "nature": "recorded_full_sibling",
+            "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+          },
+          "origins": [
+            {
+              "revision_id": "REL-sibling-P-0028-P-0435@1",
+              "unit_id": "9713ea41b52858dc2a0f0ce80833b1a9dd9b8f31f3f6fffe242aa2dd684563fd",
+              "coverage": "partial",
+              "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0435@1",
+              "unit_id": "9dc37fc15ab85d91f02d7e4ce6804973fb71cafba08cf372d5a62f4d669eeafd",
+              "coverage": "partial",
+              "note": "Den uttryckliga relationen och dess gränser bevaras."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0435@1",
+              "unit_id": "ca249f69349b794f869cd1f51ccfb3710f147493afec99fd2e6455d30b383254",
+              "coverage": "partial",
+              "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0435@1",
+              "unit_id": "e9752edfc1ae9df3c8152d6ded0e98fe86190734a1bcc8baef99c29be40099cc",
+              "coverage": "partial",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "revision_id": "REL-sibling-P-0028-P-0435@1",
+              "basis_revision_id": "R-7bbcb357110bab629a0a1c4e@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0435@1",
+              "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+            }
+          ]
+        }
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0435 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Egenradens grupp och identifierade person består trots literal-/års-/flyttfältens preciserade utvinning; separat barnets födelsestöd upphävs inte.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0436@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "353c173fa315588793582e2fdfd0e2b95e06707e85716464ce8f4591a0ccc05e",
+      "reading_reuse": {
+        "fresh_full_native_read": {
+          "id": "REL-sibling-P-0028-P-0436@1",
+          "object_id": "REL-sibling-P-0028-P-0436",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+          "caveat": "Akten anger helsyskon. Motpartens källrapporterade sammanhang: 1854-09-27 i Botsmark; Christina Wilhelmina i födelseboken, Cajsa Wilhelmina i hushållsraden. Detta är ingen separat ny födelse-/dödshändelse för motparten.",
+          "previous_id": null,
+          "kind": "relation",
+          "current": true,
+          "data": {
+            "revision_id": "REL-sibling-P-0028-P-0436@1",
+            "from_person": "P-0028",
+            "to_person": "P-0436",
+            "relation_type": "sibling",
+            "nature": "recorded_full_sibling",
+            "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+          },
+          "origins": [
+            {
+              "revision_id": "REL-sibling-P-0028-P-0436@1",
+              "unit_id": "67b7b4fb4893aeb7170222e45800dffdb437d64dea7e1ddd2677c3dd40faba92",
+              "coverage": "partial",
+              "note": "Den uttryckliga relationen och dess gränser bevaras."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0436@1",
+              "unit_id": "6807f3e6693caef3fea5164a0445d3c477e1b464abbd21d0ebf2444ec0d2cb23",
+              "coverage": "partial",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0436@1",
+              "unit_id": "9713ea41b52858dc2a0f0ce80833b1a9dd9b8f31f3f6fffe242aa2dd684563fd",
+              "coverage": "partial",
+              "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0436@1",
+              "unit_id": "ca249f69349b794f869cd1f51ccfb3710f147493afec99fd2e6455d30b383254",
+              "coverage": "partial",
+              "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+            }
+          ],
+          "evidence": [
+            {
+              "revision_id": "REL-sibling-P-0028-P-0436@1",
+              "basis_revision_id": "R-614a854ff44498bd24da3b16@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0436@1",
+              "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+            }
+          ]
+        }
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0436 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Cajsa i denna egnaC561rad och Christina i egenfödelsen är fortfarande korrekta källformer; tillkommandeLovisa iC685 gör inte den avgränsade tvåkällsformuleringen till ett identitetsfel.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0437@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "88a6d36b44111e3fa6abd774c340a6693c39c2c27d8b4ace11eb91e5e5120e04",
+      "reading_reuse": {
+        "fresh_full_native_read": {
+          "id": "REL-sibling-P-0028-P-0437@1",
+          "object_id": "REL-sibling-P-0028-P-0437",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+          "caveat": "Akten anger helsyskon. Motpartens källrapporterade sammanhang: 1856-07-29 i Botsmark; redan i egen Lindbergfamilj på Ekträsk s. 171 när brodern kom 1880. Detta är ingen separat ny födelse-/dödshändelse för motparten.",
+          "previous_id": null,
+          "kind": "relation",
+          "current": true,
+          "data": {
+            "revision_id": "REL-sibling-P-0028-P-0437@1",
+            "from_person": "P-0028",
+            "to_person": "P-0437",
+            "relation_type": "sibling",
+            "nature": "recorded_full_sibling",
+            "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+          },
+          "origins": [
+            {
+              "revision_id": "REL-sibling-P-0028-P-0437@1",
+              "unit_id": "098b7a014fd4617ab3238f7245f743846a0983b5dae82263d249f1d7f4c70a65",
+              "coverage": "partial",
+              "note": "Den uttryckliga relationen och dess gränser bevaras."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0437@1",
+              "unit_id": "3278f74b65a84b19ff330e6d2d8ab404c6a586519df20968cef94aa30bfe6ecd",
+              "coverage": "partial",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0437@1",
+              "unit_id": "609d46d244dd92b25935064404d63939c3cd28dfd324f8996653a3f362f221ca",
+              "coverage": "partial",
+              "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0437@1",
+              "unit_id": "9713ea41b52858dc2a0f0ce80833b1a9dd9b8f31f3f6fffe242aa2dd684563fd",
+              "coverage": "partial",
+              "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0437@1",
+              "unit_id": "ca249f69349b794f869cd1f51ccfb3710f147493afec99fd2e6455d30b383254",
+              "coverage": "partial",
+              "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+            }
+          ],
+          "evidence": [
+            {
+              "revision_id": "REL-sibling-P-0028-P-0437@1",
+              "basis_revision_id": "R-2e99c9b8f3ad620f482c69d4@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0437@1",
+              "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+            }
+          ]
+        }
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0437 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Starkare egen29July och senareLindbergfamilj kvar; C561s korrigerade avgångsdag/attest tillför inte ny syskonidentitet.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0426@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "450399fce39e8ff128d769a397c5a0ebf5ced68ca7118b4aecaab5bf352956e3",
+      "reading_reuse": {
+        "fresh_full_native_read": {
+          "id": "REL-sibling-P-0028-P-0426@1",
+          "object_id": "REL-sibling-P-0028-P-0426",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+          "caveat": "Akten anger helsyskon. Motpartens källrapporterade sammanhang: 1858-10-26 i Botsmark. Detta är ingen separat ny födelse-/dödshändelse för motparten.",
+          "previous_id": null,
+          "kind": "relation",
+          "current": true,
+          "data": {
+            "revision_id": "REL-sibling-P-0028-P-0426@1",
+            "from_person": "P-0028",
+            "to_person": "P-0426",
+            "relation_type": "sibling",
+            "nature": "recorded_full_sibling",
+            "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+          },
+          "origins": [
+            {
+              "revision_id": "REL-sibling-P-0028-P-0426@1",
+              "unit_id": "6cf00bb59e36e34d87e6ec770b8b09a0fcfe74f0b7934a2d87dfc8ed4beaf5e0",
+              "coverage": "partial",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0426@1",
+              "unit_id": "acb193e69afd1acfb3607fe08f7276c051081fee82de72e47fcb3a56e7c34567",
+              "coverage": "partial",
+              "note": "Den uttryckliga relationen och dess gränser bevaras."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0426@1",
+              "unit_id": "ca249f69349b794f869cd1f51ccfb3710f147493afec99fd2e6455d30b383254",
+              "coverage": "partial",
+              "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+            }
+          ],
+          "evidence": [
+            {
+              "revision_id": "REL-sibling-P-0028-P-0426@1",
+              "basis_revision_id": "R-c60147cfa60576257f3a04fa@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+            },
+            {
+              "revision_id": "REL-sibling-P-0028-P-0426@1",
+              "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+            }
+          ]
+        }
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0426 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Egenradens grupp och identifierade person består trots literal-/års-/flyttfältens preciserade utvinning; separat barnets födelsestöd upphävs inte.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0439@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "eb459db2cfd2f045200984f99acc3626fd1db349fa9fa707d33597757c1d4d72",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-eleven-sibling-relation-decisions-v1.json",
+        "sha256": "974b7bb6b55fcb0a3606f921bd314c595de6b13398ef771ab900e4b8d61b4041",
+        "objects_index": 9,
+        "exact_edits": [
+          {
+            "field": "caveat",
+            "old": "Akten anger helsyskon. Motpartens källrapporterade sammanhang: tvillingfödd 1864-03-24 i Botsmark. Detta är ingen separat ny födelse-/dödshändelse för motparten.",
+            "new": "Akten anger helsyskon. Motpartens källrapporterade sammanhang: tvillingfödd 1864-03-23 i Botsmark. Detta är ingen separat ny födelse-/dödshändelse för motparten. C-0561 visar Johan Oskar och familjekontexten, men motparten har ingen egen rad där. Motpartens egen post och övrigt tidigare stöd bär relationen; C-0561 ensam är inte direkt belägg för hela syskonrelationen."
+          }
+        ],
+        "rationale": "Hela currentrelation/baser/caveat lästa. Accepterad siblingnature och status behålls; C0561 används endast i faktiskt personomfång. Starkare egna twinposter behåller olika dagar, inte normaliserad gemensamdag."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0439 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Redan beslutad källkvalificering avgränsar C561 till äldre familjekontext där egenrad saknas; R1 är inte direkt egen födelse-/dödsuppgift för den frånvarande personen.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0427@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "5211eaa04b4a097462141b090e532c62561959636dd7aa295a463044289561bf",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-eleven-sibling-relation-decisions-v1.json",
+        "sha256": "974b7bb6b55fcb0a3606f921bd314c595de6b13398ef771ab900e4b8d61b4041",
+        "objects_index": 0,
+        "exact_edits": [],
+        "rationale": "Hela currentrelation/baser/caveat lästa. Accepterad siblingnature och status behålls; C0561 används endast i faktiskt personomfång. Starkare egna twinposter behåller olika dagar, inte normaliserad gemensamdag."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0427 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Egenradens grupp och identifierade person består trots literal-/års-/flyttfältens preciserade utvinning; separat barnets födelsestöd upphävs inte.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0438@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "8abd9887293ccfef295428a87807d44c71dd8c8741306f964d81eb343dce8b57",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-eleven-sibling-relation-decisions-v1.json",
+        "sha256": "974b7bb6b55fcb0a3606f921bd314c595de6b13398ef771ab900e4b8d61b4041",
+        "objects_index": 8,
+        "exact_edits": [
+          {
+            "field": "caveat",
+            "old": "Akten anger helsyskon. Motpartens källrapporterade sammanhang: tvillingfödd 1868-02-13 i Botsmark. Detta är ingen separat ny födelse-/dödshändelse för motparten.",
+            "new": "Akten anger helsyskon. Motpartens källrapporterade sammanhang: tvillingfödd 1868-02-12 i Botsmark. Detta är ingen separat ny födelse-/dödshändelse för motparten. C-0561 visar Johan Oskar och familjekontexten, men motparten har ingen egen rad där. Motpartens egen post och övrigt tidigare stöd bär relationen; C-0561 ensam är inte direkt belägg för hela syskonrelationen."
+          }
+        ],
+        "rationale": "Hela currentrelation/baser/caveat lästa. Accepterad siblingnature och status behålls; C0561 används endast i faktiskt personomfång. Starkare egna twinposter behåller olika dagar, inte normaliserad gemensamdag."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0438 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Redan beslutad källkvalificering avgränsar C561 till äldre familjekontext där egenrad saknas; R1 är inte direkt egen födelse-/dödsuppgift för den frånvarande personen.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0428@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "905260fd1d73b9f49b85eeb98c66e2de7b082d047f6e9058184142f8b1c1cf2c",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-eleven-sibling-relation-decisions-v1.json",
+        "sha256": "974b7bb6b55fcb0a3606f921bd314c595de6b13398ef771ab900e4b8d61b4041",
+        "objects_index": 1,
+        "exact_edits": [],
+        "rationale": "Hela currentrelation/baser/caveat lästa. Accepterad siblingnature och status behålls; C0561 används endast i faktiskt personomfång. Starkare egna twinposter behåller olika dagar, inte normaliserad gemensamdag."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0428 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Egenradens grupp och identifierade person består trots literal-/års-/flyttfältens preciserade utvinning; separat barnets födelsestöd upphävs inte.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0429@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "45bcff7e3049d998711b4369b8e56b63f7f44240157e8009ee089cbdbcb237dd",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-eleven-sibling-relation-decisions-v1.json",
+        "sha256": "974b7bb6b55fcb0a3606f921bd314c595de6b13398ef771ab900e4b8d61b4041",
+        "objects_index": 2,
+        "exact_edits": [],
+        "rationale": "Hela currentrelation/baser/caveat lästa. Accepterad siblingnature och status behålls; C0561 används endast i faktiskt personomfång. Starkare egna twinposter behåller olika dagar, inte normaliserad gemensamdag."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0429 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Egenradens grupp och identifierade person består trots literal-/års-/flyttfältens preciserade utvinning; separat barnets födelsestöd upphävs inte.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0430@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "433a0f023be3e90ed8ac1381e9fbe9f9802a00fa44ae114fd045d825a3bf95ad",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-eleven-sibling-relation-decisions-v1.json",
+        "sha256": "974b7bb6b55fcb0a3606f921bd314c595de6b13398ef771ab900e4b8d61b4041",
+        "objects_index": 3,
+        "exact_edits": [],
+        "rationale": "Hela currentrelation/baser/caveat lästa. Accepterad siblingnature och status behålls; C0561 används endast i faktiskt personomfång. Starkare egna twinposter behåller olika dagar, inte normaliserad gemensamdag."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0430 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Egenradens grupp och identifierade person består trots literal-/års-/flyttfältens preciserade utvinning; separat barnets födelsestöd upphävs inte.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0431@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "8daa112f1fa7628ea64511be5f0c11d761dab92143f7feda6ad6303d48416e72",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-eleven-sibling-relation-decisions-v1.json",
+        "sha256": "974b7bb6b55fcb0a3606f921bd314c595de6b13398ef771ab900e4b8d61b4041",
+        "objects_index": 4,
+        "exact_edits": [],
+        "rationale": "Hela currentrelation/baser/caveat lästa. Accepterad siblingnature och status behålls; C0561 används endast i faktiskt personomfång. Starkare egna twinposter behåller olika dagar, inte normaliserad gemensamdag."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0431 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Egenradens grupp och identifierade person består trots literal-/års-/flyttfältens preciserade utvinning; separat barnets födelsestöd upphävs inte.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0432@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "87cb3623bfc1d16d2ccd0f0a8120352ac7238eee496eb22fc4ba271f1dc47d85",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-eleven-sibling-relation-decisions-v1.json",
+        "sha256": "974b7bb6b55fcb0a3606f921bd314c595de6b13398ef771ab900e4b8d61b4041",
+        "objects_index": 5,
+        "exact_edits": [],
+        "rationale": "Hela currentrelation/baser/caveat lästa. Accepterad siblingnature och status behålls; C0561 används endast i faktiskt personomfång. Starkare egna twinposter behåller olika dagar, inte normaliserad gemensamdag."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0432 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Egenradens grupp och identifierade person består trots literal-/års-/flyttfältens preciserade utvinning; separat barnets födelsestöd upphävs inte.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0433@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "82f3c8a39708d5d0bdf4a2a061bd3a59ff276a6619ff0e80e5f6cef488ab797b",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-eleven-sibling-relation-decisions-v1.json",
+        "sha256": "974b7bb6b55fcb0a3606f921bd314c595de6b13398ef771ab900e4b8d61b4041",
+        "objects_index": 6,
+        "exact_edits": [],
+        "rationale": "Hela currentrelation/baser/caveat lästa. Accepterad siblingnature och status behålls; C0561 används endast i faktiskt personomfång. Starkare egna twinposter behåller olika dagar, inte normaliserad gemensamdag."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0433 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Egenradens grupp och identifierade person består trots literal-/års-/flyttfältens preciserade utvinning; separat barnets födelsestöd upphävs inte.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "REL-sibling-P-0028-P-0434@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "whole_native_sha256": "2f0007d26d4e04e2a6db69f1c969be53d0f77c523ad55c62bca6dfcacae44792",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-eleven-sibling-relation-decisions-v1.json",
+        "sha256": "974b7bb6b55fcb0a3606f921bd314c595de6b13398ef771ab900e4b8d61b4041",
+        "objects_index": 7,
+        "exact_edits": [
+          {
+            "field": "caveat",
+            "old": "Akten anger halvsyskon ur faderns andra gifte. Motpartens källrapporterade sammanhang: 1887-06-16 i Botsmark. Detta är ingen separat ny födelse-/dödshändelse för motparten.",
+            "new": "Akten anger halvsyskon ur faderns andra gifte. Motpartens källrapporterade sammanhang: 1887-06-16 i Botsmark. Detta är ingen separat ny födelse-/dödshändelse för motparten. C-0561 visar Johan Oskar och familjekontexten, men motparten har ingen egen rad där. Motpartens egen post och övrigt tidigare stöd bär relationen; C-0561 ensam är inte direkt belägg för hela syskonrelationen."
+          }
+        ],
+        "rationale": "Hela currentrelation/baser/caveat lästa. Accepterad siblingnature och status behålls; C0561 används endast i faktiskt personomfång. Starkare egna twinposter behåller olika dagar, inte normaliserad gemensamdag."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget syskonled till P-0434 och nature/status bevaras på redan avgjord familjekedja och separata starkare egna stöd. Redan beslutad källkvalificering avgränsar C561 till äldre familjekontext där egenrad saknas; R1 är inte direkt egen födelse-/dödsuppgift för den frånvarande personen.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0422-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "8f02e3008ce57a16f6bf1a348026e30aa16a102ec15a2b5f935e04abd26ef349",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 0,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0422-C0561-own avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0422-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "c365e668d14b331652f56e59db193ef945a9c75856b6642ec8187858feb59375",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 13,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0422-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0425-C0561-wife@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "89ed75d02cf49648771389c9df3f4305d8a0bf13804d5b63ef9c0b0c50020f84",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 1,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0425-C0561-wife avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0425-C0561-wife@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "a30be6953245e4f0972ecc4f04dc932fd85fb65be57274d684c5b26d11bfdc5a",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 14,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"birth\":\"1842 26/9\",\"birthplace\":\"Umeå landsförsamling\",\"smallpox\":\"v\",\"own_blank_fields\":[\"fräjd\",\"beväringsmöte\",\"bortflyttning\"],\"reading_communion\":\"markeringar, exakta egna datum ej avskrivna\",\"own_marriage_cell\":\"ej separat råavskriven\",\"couple_marriage_context\":\"1870-07-02 enligt mannens rad och vigselpost, inte infyllt som egen råcell\",\"household_from\":\"Gl.bok603\"}",
+            "new": "{\"birth\":\"1842 26/9\",\"birthplace\":\"Umeå landsförsamling\",\"smallpox\":\"v\",\"own_blank_fields\":[\"fräjd\",\"beväringsmöte\",\"bortflyttning\"],\"reading_communion\":[{\"year\":1875,\"F\":\"N\",\"N\":\"5/9\"},{\"year\":1876,\"F\":\"N\",\"N\":\"3/9\"},{\"year\":1877,\"F\":\"N\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"N\",\"N\":\"7/4\"},{\"year\":1879,\"F\":\"N\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"N\",\"N\":\"17/5\"},{\"year\":1881,\"F\":\"N\",\"N\":\"4/12\"},{\"year\":1882,\"F\":\"w-like\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"w-like\",\"N\":\"4/3\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"own_marriage_cell\":\"tom, direkt prövad egen cell\",\"couple_marriage_context\":\"1870-07-02 enligt mannens rad och vigselpost, inte infyllt som egen råcell\",\"household_from\":\"Gl.bok603\",\"own_reading_grades\":\"Innantill hook; other readinggrade fields blank\",\"own_forstar\":\"cross/1-like\"}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1842 26/9\",\"birthplace\":\"Umeå landsförsamling\",\"couple_marriage_context\":\"1870-07-02 enligt mannens rad och vigselpost, inte infyllt som egen råcell\",\"household_from\":\"Gl.bok603\",\"own_blank_fields\":[\"fräjd\",\"beväringsmöte\",\"bortflyttning\"],\"own_marriage_cell\":\"ej separat råavskriven\",\"reading_communion\":\"markeringar, exakta egna datum ej avskrivna\",\"smallpox\":\"v\"}",
+            "new": "{\"birth\":\"1842 26/9\",\"birthplace\":\"Umeå landsförsamling\",\"couple_marriage_context\":\"1870-07-02 enligt mannens rad och vigselpost, inte infyllt som egen råcell\",\"household_from\":\"Gl.bok603\",\"own_blank_fields\":[\"fräjd\",\"beväringsmöte\",\"bortflyttning\"],\"own_marriage_cell\":\"tom, direkt prövad egen cell\",\"reading_communion\":[{\"year\":1875,\"F\":\"N\",\"N\":\"5/9\"},{\"year\":1876,\"F\":\"N\",\"N\":\"3/9\"},{\"year\":1877,\"F\":\"N\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"N\",\"N\":\"7/4\"},{\"year\":1879,\"F\":\"N\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"N\",\"N\":\"17/5\"},{\"year\":1881,\"F\":\"N\",\"N\":\"4/12\"},{\"year\":1882,\"F\":\"w-like\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"w-like\",\"N\":\"4/3\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"smallpox\":\"v\",\"own_reading_grades\":\"Innantill hook; other readinggrade fields blank\",\"own_forstar\":\"cross/1-like\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "",
+            "new": "T-0780 prövar egna C0561 vigsel-, kunskaps- och årsceller 1875–1884. Mannens vigseldag och Gl.bok603 är hushållskontext, inte ifyllnad i hennes tomma råceller. Grafiska tecken och småbråk normaliseras inte till verkliga kalenderhändelser."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0425-C0561-wife inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0426-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "1ce61b77710c3d51a961853d9cf9c9c1864bbfe0a9fcabcc2ebec1c4c7c49b97",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 2,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0426-C0561-own avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0426-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "8c02ce89097a70e6cc65653e20a5f0a996aef3299239ac02bced46b0b74d5c8c",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 15,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0426-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0427-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "e55a42797a2b3c4940bc471667bfa797624e546a712b190dcb1287efa210fe37",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 3,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0427-C0561-own avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0427-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "719a125ae0cf3e4371099bba47edc3d263e62dd2acf13c44d824372ab05624f4",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 16,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0427-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0428-C0561-child@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "3c1812d6356d5c629071fd721948aee04ef8e44c481a6034343f9831f4a2fa91",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 4,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0428-C0561-child avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0428-C0561-child@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "71ec5949657c196dca65586f2fa28fc64e9910fb0f4f19365bb3ee2d43a3513d",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 17,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"birth\":\"1868 13/2\",\"smallpox\":\"v\",\"death_blank\":true,\"move_blank\":true,\"knowledge_communion\":\"prövade tecken och datum, individuella årsbindingar osäkra\"}",
+            "new": "{\"birth\":\"1868 13/2\",\"smallpox\":\"v\",\"death_blank\":true,\"move_blank\":true,\"knowledge_communion\":[{\"year\":1875,\"F\":\"dash plus dot\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"hook with3dots\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"dash\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"hook4/\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"faint hook12/\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"hook17/6?\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"dash\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"w-like\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"absol?17/?; denominator unresolved\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"own_reading_grades\":\"Innantill hook; rightmost5\",\"own_forstar\":\"cross/1-like\"}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1868 13/2\",\"death_blank\":true,\"knowledge_communion\":\"prövade tecken och datum, individuella årsbindingar osäkra\",\"move_blank\":true,\"smallpox\":\"v\"}",
+            "new": "{\"birth\":\"1868 13/2\",\"death_blank\":true,\"knowledge_communion\":[{\"year\":1875,\"F\":\"dash plus dot\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"hook with3dots\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"dash\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"hook4/\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"faint hook12/\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"hook17/6?\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"dash\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"w-like\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"absol?17/?; denominator unresolved\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"move_blank\":true,\"smallpox\":\"v\",\"own_reading_grades\":\"Innantill hook; rightmost5\",\"own_forstar\":\"cross/1-like\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "",
+            "new": "T-0780 binder nu tecknen till egna tryckta årskolumner 1875–1884; små tal och 1883 års absol?-not med olöst nämnare behåller reservation. Ingen säker sakramentsdag eller kontinuerlig närvaro infereras."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0428-C0561-child inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0429-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "109f450650b0aae86feb521a182d9b2cb52942860209718088d2a06856fd89ce",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 5,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0429-C0561-own avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0429-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "ed6b551fa936112353f75c8d1cd6f8bc86b0e869da9799b37cb88e03fcb1e887",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 18,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"birth\":\"1871 2/1\",\"place\":\"d:o\",\"group\":\"begges barn\",\"vaccination\":\"v\",\"departure\":\"ingen egen not\",\"death\":\"ingen egen not\",\"conduct\":\"tomt\",\"year_fields\":\"markeringar från omkring1879; inte säkra dagtal\"}",
+            "new": "{\"birth\":\"1871 2/1\",\"place\":\"d:o\",\"group\":\"begges barn\",\"vaccination\":\"v\",\"departure\":\"ingen egen not\",\"death\":\"ingen egen not\",\"conduct\":\"tomt\",\"year_fields\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"dotted hook\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"faint hook5/\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"hook14/\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"hook18/4?5 overwritten\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"w-like\",\"N\":\"faint17/4? plus hook\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}]}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1871 2/1\",\"conduct\":\"tomt\",\"death\":\"ingen egen not\",\"departure\":\"ingen egen not\",\"group\":\"begges barn\",\"place\":\"d:o\",\"vaccination\":\"v\",\"year_fields\":\"markeringar från omkring1879; inte säkra dagtal\"}",
+            "new": "{\"birth\":\"1871 2/1\",\"conduct\":\"tomt\",\"death\":\"ingen egen not\",\"departure\":\"ingen egen not\",\"group\":\"begges barn\",\"place\":\"d:o\",\"vaccination\":\"v\",\"year_fields\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"dotted hook\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"faint hook5/\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"hook14/\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"hook18/4?5 overwritten\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"w-like\",\"N\":\"faint17/4? plus hook\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}]}"
+          },
+          {
+            "field": "caveat",
+            "old": "Tomma celler bevisar inte oavbruten fysisk närvaro.",
+            "new": "Tomma celler bevisar inte oavbruten fysisk närvaro. T-0780 prövar hela egna årsmatrisen 1875–1884; ett grafiskt tecken finns redan 1878, täta bråk/överskrivning hålls reserverade och är inte säkra kalenderhändelser."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0429-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0430-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "68314b3f0091709ca7bc68ccb5e11c1480681a7be5a23ed4da65d308782fc31f",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 6,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0430-C0561-own avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0430-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "03a0ce9b8d3dddd154081507060fce93b700dbb9b3217230353c41bb95950957",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 19,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0430-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0431-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "f8d85d55e46dbad8da211db236d169d801e71f36c3ef0cba2c9e8d2875521352",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 7,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0431-C0561-own avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0431-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "7d9b49b51b0520bf6ea394116fed064f59236815dca8a92adcc3d63c531c8f94",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 20,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0431-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0432-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "cf6ee6483b79db0d4b2f3e7f1095199a7afb48fcf20d97104783b34651131f52",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 8,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0432-C0561-own avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0432-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "77b9d4d0994bf0a383cc530dcd14c025a58a531fbc0674cbe7cf60227015bf6b",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 21,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"group\":\"begges barn\",\"date_scope\":\"sammanslagen tabell anger1871–1878 för fem barn\",\"own_date_extracted\":false,\"own_other_fields_extracted\":false}",
+            "new": "{\"group\":\"begges barn\",\"date_scope\":\"Egen rad nu fullt kolumnprövad i T-0780; äldre sammanslagna tabell bevaras som läshistorik i ursprunget.\",\"own_date_extracted\":true,\"own_other_fields_extracted\":true,\"birth\":\"1876 10/2\",\"birthplace\":\"eget ditto till Säfvar\",\"own_full_row\":{\"row_index\":13,\"name_role\":\"Jonas Eugen\",\"group\":\"begges barn\",\"birth\":\"1876 10/2\",\"birthplace\":\"own ditto to Säfvar\",\"married\":\"blank\",\"widow\":\"blank\",\"koppor\":\"v-like own mark\",\"from\":\"blank\",\"from_date\":\"blank\",\"incoming_attest\":\"blank\",\"death\":\"blank\",\"reading_grades\":\"blank\",\"forstar\":\"blank\",\"annual\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"fräjd_notes\":\"blank\",\"to\":\"blank\",\"to_date\":\"blank\",\"outgoing_attest\":\"blank\"},\"own_full_fields_extracted\":true}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"date_scope\":\"sammanslagen tabell anger1871–1878 för fem barn\",\"group\":\"begges barn\",\"own_date_extracted\":false,\"own_other_fields_extracted\":false}",
+            "new": "{\"date_scope\":\"Egen rad nu fullt kolumnprövad i T-0780; äldre sammanslagna tabell bevaras som läshistorik i ursprunget.\",\"group\":\"begges barn\",\"own_date_extracted\":true,\"own_other_fields_extracted\":true,\"birth\":\"1876 10/2\",\"birthplace\":\"eget ditto till Säfvar\",\"own_full_row\":{\"row_index\":13,\"name_role\":\"Jonas Eugen\",\"group\":\"begges barn\",\"birth\":\"1876 10/2\",\"birthplace\":\"own ditto to Säfvar\",\"married\":\"blank\",\"widow\":\"blank\",\"koppor\":\"v-like own mark\",\"from\":\"blank\",\"from_date\":\"blank\",\"incoming_attest\":\"blank\",\"death\":\"blank\",\"reading_grades\":\"blank\",\"forstar\":\"blank\",\"annual\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"fräjd_notes\":\"blank\",\"to\":\"blank\",\"to_date\":\"blank\",\"outgoing_attest\":\"blank\"},\"own_full_fields_extracted\":true}"
+          },
+          {
+            "field": "caveat",
+            "old": "Senare T0161 anger propageringslucka, inte egen full kolumntranskription för Jonas.",
+            "new": "T-0780 har nu egen full C0561-rad inklusive kopportecken v, tryckta årsceller1875–1884 tomma, kunskaps- och flytt-/vigsel-/dödsfält prövade tomma. Detta är inte egen födelsenotis, bevis för obruten fysisk vistelse eller ny självständig informationsväg."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0432-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0433-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "4ed01e31ad0d5996519718e4c8ed80db9d5229ebd9669aeeb7f850944e679527",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 9,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0433-C0561-own avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0433-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "98dceed6037c22d273293a012eca2ee3e4b8f953fb62c0ab6223e02b02fdd2e6",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 22,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"group\":\"begges barn\",\"date_scope\":\"sammanslagen tabell1871–1878 för fem barn\",\"own_full_fields_extracted\":false}",
+            "new": "{\"group\":\"begges barn\",\"date_scope\":\"Egen rad nu fullt kolumnprövad i T-0780; äldre sammanslagna tabell bevaras som läshistorik i ursprunget.\",\"own_full_fields_extracted\":true,\"birth\":\"1878 20/9\",\"birthplace\":\"eget ditto till Säfvar\",\"own_full_row\":{\"row_index\":14,\"name_role\":\"Olof Konrad\",\"group\":\"begges barn\",\"birth\":\"1878 20/9\",\"birthplace\":\"own ditto to Säfvar\",\"married\":\"blank\",\"widow\":\"blank\",\"koppor\":\"v-like own mark\",\"from\":\"blank\",\"from_date\":\"blank\",\"incoming_attest\":\"blank\",\"death\":\"blank\",\"reading_grades\":\"blank\",\"forstar\":\"blank\",\"annual\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"fräjd_notes\":\"blank\",\"to\":\"blank\",\"to_date\":\"blank\",\"outgoing_attest\":\"blank\"}}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"date_scope\":\"sammanslagen tabell1871–1878 för fem barn\",\"group\":\"begges barn\",\"own_full_fields_extracted\":false}",
+            "new": "{\"date_scope\":\"Egen rad nu fullt kolumnprövad i T-0780; äldre sammanslagna tabell bevaras som läshistorik i ursprunget.\",\"group\":\"begges barn\",\"own_full_fields_extracted\":true,\"birth\":\"1878 20/9\",\"birthplace\":\"eget ditto till Säfvar\",\"own_full_row\":{\"row_index\":14,\"name_role\":\"Olof Konrad\",\"group\":\"begges barn\",\"birth\":\"1878 20/9\",\"birthplace\":\"own ditto to Säfvar\",\"married\":\"blank\",\"widow\":\"blank\",\"koppor\":\"v-like own mark\",\"from\":\"blank\",\"from_date\":\"blank\",\"incoming_attest\":\"blank\",\"death\":\"blank\",\"reading_grades\":\"blank\",\"forstar\":\"blank\",\"annual\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"fräjd_notes\":\"blank\",\"to\":\"blank\",\"to_date\":\"blank\",\"outgoing_attest\":\"blank\"}}"
+          },
+          {
+            "field": "caveat",
+            "old": "Egen förekomst redan bevarad men full individuell kolumnutvinning saknas.",
+            "new": "T-0780 har nu egen full C0561-rad inklusive kopportecken v, tryckta årsceller1875–1884 tomma, kunskaps- och flytt-/vigsel-/dödsfält prövade tomma. Detta är inte egen födelsenotis, bevis för obruten fysisk vistelse eller ny självständig informationsväg."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0433-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0435-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "b341da4658d1410cd8393cbb766131487dc778144879ed8552371ea393d17d3b",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 10,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0435-C0561-own avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0435-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "6d4714dbc86996b409349ee7273691513e6433f7b6e1904ab7cc5e1c2cb551e1",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 23,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"birth\":\"1853 21/1\",\"place\":\"Säfvar\",\"crossed\":true,\"destination\":\"668\",\"departure_year\":\"1877\",\"departure_day\":\"tätt dagtal reserverat\"}",
+            "new": "{\"birth\":\"1853 21/1\",\"place\":\"Säfvar\",\"crossed\":true,\"destination\":\"668\",\"departure_year\":\"1877\",\"departure_day\":\"23[?]/11\",\"understanding_mark\":\"4\"}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1853 21/1\",\"crossed\":true,\"departure_day\":\"tätt dagtal reserverat\",\"departure_year\":\"1877\",\"destination\":\"668\",\"place\":\"Säfvar\"}",
+            "new": "{\"birth\":\"1853 21/1\",\"crossed\":true,\"departure_day\":\"23[?]/11\",\"departure_year\":\"1877\",\"destination\":\"668\",\"place\":\"Säfvar\",\"understanding_mark\":\"4\"}"
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0435-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0436-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "a07a8dd28422a6631139a9f12334f49dd2106812fd0a721c6b799ddcd02cc500",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 11,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0436-C0561-own avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0436-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "df0cc3a68ab88ae1ea5e41138e71250880a58fc1f3b04b6c7b5b9437713fffb7",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 24,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0436-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "M-P-0437-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "2a19d9a9f644f2cd0cc4d47e8990c01aef05273ce881fb248bbd213bb9786706",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 12,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Eget omnämnande M-P-0437-C0561-own avser samma oförändrade bild/rad iR1. Separat avgjorda literal- och rollfält införs iM2 utan ny person eller oberoende källa; gammalRbasisbehålls.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0437-C0561-own@1",
+        "basis_revision_id": "R-cb1f11fb7e673fa673e7adec@1",
+        "role": "supports",
+        "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+      },
+      "whole_native_sha256": "ba59a928a41183a01e749635cd5b51b5a7e4672fc2d8d9e3b4394d2add5d3b31",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 25,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"birth\":\"1856 29/7\",\"place\":\"d:o\",\"crossed\":true,\"departure\":\"Degerfors1875 15/10\"}",
+            "new": "{\"birth\":\"1856 29/7\",\"place\":\"d:o\",\"crossed\":true,\"departure\":\"Degerfors1875 4[?]/10\",\"outgoing_attest\":\"15\"}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1856 29/7\",\"crossed\":true,\"departure\":\"Degerfors1875 15/10\",\"place\":\"d:o\"}",
+            "new": "{\"birth\":\"1856 29/7\",\"crossed\":true,\"departure\":\"Degerfors1875 4[?]/10\",\"place\":\"d:o\",\"outgoing_attest\":\"15\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "Senare fullpost rättar1877 till1875; ingen exakt fysisk resdag.",
+            "new": "T-0780 skiljer den reserverade egna datumtäljaren4[?] från den separata utflyttningsattesten15. Året1875 gäller framför äldre1877; exakt fysisk resdag följer inte av registreringen."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0437-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. R1 identifierar samma bild; nyfullTR/ownrowbeslut bär fälträttelserna, O2 före R2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0437-C0561-own@1",
+        "basis_revision_id": "M-P-0437-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "2670112b82a795c2cf275cfbfca90d9f84799793060d3864b1d67a80101e4a8a",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-seventeen-identity-core-key-decisions-v1.json",
+        "sha256": "1966d64098ec5def44ac60b2fdc9a1b3ed745fa91e07e9773dbabf54dad1c04f",
+        "objects_index": 12,
+        "exact_edits": [],
+        "rationale": "Full currentdata/metadata/caveat/baser lästa. Accepterade egna identiteter och explicit senare rättelsecaveats bevaras. Nanny och Sara Rebecka saknas på just C0561 utan att deras starkare egna C0552/C0564poster upphävs. Kopplad mentionrad och personidentitet oförändrade; inga nya yrken från grupproller."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0437-C0561-own avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0437-C0561-own@1",
+        "basis_revision_id": "M-P-0437-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "ba59a928a41183a01e749635cd5b51b5a7e4672fc2d8d9e3b4394d2add5d3b31",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 25,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"birth\":\"1856 29/7\",\"place\":\"d:o\",\"crossed\":true,\"departure\":\"Degerfors1875 15/10\"}",
+            "new": "{\"birth\":\"1856 29/7\",\"place\":\"d:o\",\"crossed\":true,\"departure\":\"Degerfors1875 4[?]/10\",\"outgoing_attest\":\"15\"}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1856 29/7\",\"crossed\":true,\"departure\":\"Degerfors1875 15/10\",\"place\":\"d:o\"}",
+            "new": "{\"birth\":\"1856 29/7\",\"crossed\":true,\"departure\":\"Degerfors1875 4[?]/10\",\"place\":\"d:o\",\"outgoing_attest\":\"15\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "Senare fullpost rättar1877 till1875; ingen exakt fysisk resdag.",
+            "new": "T-0780 skiljer den reserverade egna datumtäljaren4[?] från den separata utflyttningsattesten15. Året1875 gäller framför äldre1877; exakt fysisk resdag följer inte av registreringen."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0437-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0436-C0561-own@1",
+        "basis_revision_id": "M-P-0436-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "956b4ebea5e516f0ad39d70776b4374a3b68b15a2599b653fc5c530effa2d91a",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-seventeen-identity-core-key-decisions-v1.json",
+        "sha256": "1966d64098ec5def44ac60b2fdc9a1b3ed745fa91e07e9773dbabf54dad1c04f",
+        "objects_index": 11,
+        "exact_edits": [],
+        "rationale": "Full currentdata/metadata/caveat/baser lästa. Accepterade egna identiteter och explicit senare rättelsecaveats bevaras. Nanny och Sara Rebecka saknas på just C0561 utan att deras starkare egna C0552/C0564poster upphävs. Kopplad mentionrad och personidentitet oförändrade; inga nya yrken från grupproller."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0436-C0561-own avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0436-C0561-own@1",
+        "basis_revision_id": "M-P-0436-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "df0cc3a68ab88ae1ea5e41138e71250880a58fc1f3b04b6c7b5b9437713fffb7",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 24,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0436-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0435-C0561-own@1",
+        "basis_revision_id": "M-P-0435-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "269755af4cf544048da6b01636a6763248c5a1ad74facb5eb13bf3c911c398cd",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-seventeen-identity-core-key-decisions-v1.json",
+        "sha256": "1966d64098ec5def44ac60b2fdc9a1b3ed745fa91e07e9773dbabf54dad1c04f",
+        "objects_index": 10,
+        "exact_edits": [],
+        "rationale": "Full currentdata/metadata/caveat/baser lästa. Accepterade egna identiteter och explicit senare rättelsecaveats bevaras. Nanny och Sara Rebecka saknas på just C0561 utan att deras starkare egna C0552/C0564poster upphävs. Kopplad mentionrad och personidentitet oförändrade; inga nya yrken från grupproller."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0435-C0561-own avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0435-C0561-own@1",
+        "basis_revision_id": "M-P-0435-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "6d4714dbc86996b409349ee7273691513e6433f7b6e1904ab7cc5e1c2cb551e1",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 23,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"birth\":\"1853 21/1\",\"place\":\"Säfvar\",\"crossed\":true,\"destination\":\"668\",\"departure_year\":\"1877\",\"departure_day\":\"tätt dagtal reserverat\"}",
+            "new": "{\"birth\":\"1853 21/1\",\"place\":\"Säfvar\",\"crossed\":true,\"destination\":\"668\",\"departure_year\":\"1877\",\"departure_day\":\"23[?]/11\",\"understanding_mark\":\"4\"}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1853 21/1\",\"crossed\":true,\"departure_day\":\"tätt dagtal reserverat\",\"departure_year\":\"1877\",\"destination\":\"668\",\"place\":\"Säfvar\"}",
+            "new": "{\"birth\":\"1853 21/1\",\"crossed\":true,\"departure_day\":\"23[?]/11\",\"departure_year\":\"1877\",\"destination\":\"668\",\"place\":\"Säfvar\",\"understanding_mark\":\"4\"}"
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0435-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0433-C0561-own@1",
+        "basis_revision_id": "M-P-0433-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "149459b0f3ff285af66ef2bccb2aeb1906d2d27c6d2ef54b05a53c782bd6fe16",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-Jonas-core-question-and-two-identities-decisions-v1.json",
+        "sha256": "5e466f38ade56e5b025d7c0290287bbd886edeafe45f4516986d71d3b510ac3e",
+        "objects_index": 1,
+        "exact_edits": [
+          {
+            "field": "caveat",
+            "old": "Egen förekomst redan bevarad men full individuell kolumnutvinning saknas.",
+            "new": "T-0780 har nu prövat den fulla egna C-0561-raden, inklusive datum 1878 20/9, eget ortditto till Säfvar, grupp begges barn, v-tecken och tomma egna kunskaps-/årsceller. Tidigare brist på individuell utvinning är läshistorik. Samma accepterade identitet och exakt mention@1-bas behålls; detta är ingen egen födelsenotis eller oberoende registerkedja."
+          }
+        ],
+        "rationale": "Full current objekt läst. Avgränsad faktisk utvinning ersätter uttryckligt olästfält, inte identitet/reviewgate. Q02 avser senare C0552strykning, inte tidiga C0561blanks."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0433-C0561-own avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0433-C0561-own@1",
+        "basis_revision_id": "M-P-0433-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "98dceed6037c22d273293a012eca2ee3e4b8f953fb62c0ab6223e02b02fdd2e6",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 22,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"group\":\"begges barn\",\"date_scope\":\"sammanslagen tabell1871–1878 för fem barn\",\"own_full_fields_extracted\":false}",
+            "new": "{\"group\":\"begges barn\",\"date_scope\":\"Egen rad nu fullt kolumnprövad i T-0780; äldre sammanslagna tabell bevaras som läshistorik i ursprunget.\",\"own_full_fields_extracted\":true,\"birth\":\"1878 20/9\",\"birthplace\":\"eget ditto till Säfvar\",\"own_full_row\":{\"row_index\":14,\"name_role\":\"Olof Konrad\",\"group\":\"begges barn\",\"birth\":\"1878 20/9\",\"birthplace\":\"own ditto to Säfvar\",\"married\":\"blank\",\"widow\":\"blank\",\"koppor\":\"v-like own mark\",\"from\":\"blank\",\"from_date\":\"blank\",\"incoming_attest\":\"blank\",\"death\":\"blank\",\"reading_grades\":\"blank\",\"forstar\":\"blank\",\"annual\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"fräjd_notes\":\"blank\",\"to\":\"blank\",\"to_date\":\"blank\",\"outgoing_attest\":\"blank\"}}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"date_scope\":\"sammanslagen tabell1871–1878 för fem barn\",\"group\":\"begges barn\",\"own_full_fields_extracted\":false}",
+            "new": "{\"date_scope\":\"Egen rad nu fullt kolumnprövad i T-0780; äldre sammanslagna tabell bevaras som läshistorik i ursprunget.\",\"group\":\"begges barn\",\"own_full_fields_extracted\":true,\"birth\":\"1878 20/9\",\"birthplace\":\"eget ditto till Säfvar\",\"own_full_row\":{\"row_index\":14,\"name_role\":\"Olof Konrad\",\"group\":\"begges barn\",\"birth\":\"1878 20/9\",\"birthplace\":\"own ditto to Säfvar\",\"married\":\"blank\",\"widow\":\"blank\",\"koppor\":\"v-like own mark\",\"from\":\"blank\",\"from_date\":\"blank\",\"incoming_attest\":\"blank\",\"death\":\"blank\",\"reading_grades\":\"blank\",\"forstar\":\"blank\",\"annual\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"fräjd_notes\":\"blank\",\"to\":\"blank\",\"to_date\":\"blank\",\"outgoing_attest\":\"blank\"}}"
+          },
+          {
+            "field": "caveat",
+            "old": "Egen förekomst redan bevarad men full individuell kolumnutvinning saknas.",
+            "new": "T-0780 har nu egen full C0561-rad inklusive kopportecken v, tryckta årsceller1875–1884 tomma, kunskaps- och flytt-/vigsel-/dödsfält prövade tomma. Detta är inte egen födelsenotis, bevis för obruten fysisk vistelse eller ny självständig informationsväg."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0433-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0432-C0561-own@1",
+        "basis_revision_id": "M-P-0432-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "4d5aaa2bf0f634fc44939157eed5d62c0d3d4c2c71c874601971c1df024f77b2",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-Jonas-core-question-and-two-identities-decisions-v1.json",
+        "sha256": "5e466f38ade56e5b025d7c0290287bbd886edeafe45f4516986d71d3b510ac3e",
+        "objects_index": 0,
+        "exact_edits": [
+          {
+            "field": "caveat",
+            "old": "Senare T0161 anger propageringslucka, inte egen full kolumntranskription för Jonas.",
+            "new": "T-0780 har nu prövat den fulla egna C-0561-raden, inklusive datum 1876 10/2, eget ortditto till Säfvar, grupp begges barn, v-tecken och tomma egna kunskaps-/årsceller. Tidigare brist på individuell utvinning är läshistorik. Samma accepterade identitet och exakt mention@1-bas behålls; detta är ingen egen födelsenotis eller oberoende registerkedja."
+          }
+        ],
+        "rationale": "Full current objekt läst. Avgränsad faktisk utvinning ersätter uttryckligt olästfält, inte identitet/reviewgate. Q02 avser senare C0552strykning, inte tidiga C0561blanks."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0432-C0561-own avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0432-C0561-own@1",
+        "basis_revision_id": "M-P-0432-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "77b9d4d0994bf0a383cc530dcd14c025a58a531fbc0674cbe7cf60227015bf6b",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 21,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"group\":\"begges barn\",\"date_scope\":\"sammanslagen tabell anger1871–1878 för fem barn\",\"own_date_extracted\":false,\"own_other_fields_extracted\":false}",
+            "new": "{\"group\":\"begges barn\",\"date_scope\":\"Egen rad nu fullt kolumnprövad i T-0780; äldre sammanslagna tabell bevaras som läshistorik i ursprunget.\",\"own_date_extracted\":true,\"own_other_fields_extracted\":true,\"birth\":\"1876 10/2\",\"birthplace\":\"eget ditto till Säfvar\",\"own_full_row\":{\"row_index\":13,\"name_role\":\"Jonas Eugen\",\"group\":\"begges barn\",\"birth\":\"1876 10/2\",\"birthplace\":\"own ditto to Säfvar\",\"married\":\"blank\",\"widow\":\"blank\",\"koppor\":\"v-like own mark\",\"from\":\"blank\",\"from_date\":\"blank\",\"incoming_attest\":\"blank\",\"death\":\"blank\",\"reading_grades\":\"blank\",\"forstar\":\"blank\",\"annual\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"fräjd_notes\":\"blank\",\"to\":\"blank\",\"to_date\":\"blank\",\"outgoing_attest\":\"blank\"},\"own_full_fields_extracted\":true}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"date_scope\":\"sammanslagen tabell anger1871–1878 för fem barn\",\"group\":\"begges barn\",\"own_date_extracted\":false,\"own_other_fields_extracted\":false}",
+            "new": "{\"date_scope\":\"Egen rad nu fullt kolumnprövad i T-0780; äldre sammanslagna tabell bevaras som läshistorik i ursprunget.\",\"group\":\"begges barn\",\"own_date_extracted\":true,\"own_other_fields_extracted\":true,\"birth\":\"1876 10/2\",\"birthplace\":\"eget ditto till Säfvar\",\"own_full_row\":{\"row_index\":13,\"name_role\":\"Jonas Eugen\",\"group\":\"begges barn\",\"birth\":\"1876 10/2\",\"birthplace\":\"own ditto to Säfvar\",\"married\":\"blank\",\"widow\":\"blank\",\"koppor\":\"v-like own mark\",\"from\":\"blank\",\"from_date\":\"blank\",\"incoming_attest\":\"blank\",\"death\":\"blank\",\"reading_grades\":\"blank\",\"forstar\":\"blank\",\"annual\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"fräjd_notes\":\"blank\",\"to\":\"blank\",\"to_date\":\"blank\",\"outgoing_attest\":\"blank\"},\"own_full_fields_extracted\":true}"
+          },
+          {
+            "field": "caveat",
+            "old": "Senare T0161 anger propageringslucka, inte egen full kolumntranskription för Jonas.",
+            "new": "T-0780 har nu egen full C0561-rad inklusive kopportecken v, tryckta årsceller1875–1884 tomma, kunskaps- och flytt-/vigsel-/dödsfält prövade tomma. Detta är inte egen födelsenotis, bevis för obruten fysisk vistelse eller ny självständig informationsväg."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0432-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0431-C0561-own@1",
+        "basis_revision_id": "M-P-0431-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "3ab57363ff6752c8a8f22da1c38f1d1b694bf61e8b992fa36daa2caafc881b47",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-seventeen-identity-core-key-decisions-v1.json",
+        "sha256": "1966d64098ec5def44ac60b2fdc9a1b3ed745fa91e07e9773dbabf54dad1c04f",
+        "objects_index": 9,
+        "exact_edits": [],
+        "rationale": "Full currentdata/metadata/caveat/baser lästa. Accepterade egna identiteter och explicit senare rättelsecaveats bevaras. Nanny och Sara Rebecka saknas på just C0561 utan att deras starkare egna C0552/C0564poster upphävs. Kopplad mentionrad och personidentitet oförändrade; inga nya yrken från grupproller."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0431-C0561-own avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0431-C0561-own@1",
+        "basis_revision_id": "M-P-0431-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "7d9b49b51b0520bf6ea394116fed064f59236815dca8a92adcc3d63c531c8f94",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 20,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0431-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0430-C0561-own@1",
+        "basis_revision_id": "M-P-0430-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "3575650849e86b68295b2d57c3003da8e526f9ebbe5cf1621c5b2f48e164ff83",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-seventeen-identity-core-key-decisions-v1.json",
+        "sha256": "1966d64098ec5def44ac60b2fdc9a1b3ed745fa91e07e9773dbabf54dad1c04f",
+        "objects_index": 8,
+        "exact_edits": [],
+        "rationale": "Full currentdata/metadata/caveat/baser lästa. Accepterade egna identiteter och explicit senare rättelsecaveats bevaras. Nanny och Sara Rebecka saknas på just C0561 utan att deras starkare egna C0552/C0564poster upphävs. Kopplad mentionrad och personidentitet oförändrade; inga nya yrken från grupproller."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0430-C0561-own avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0430-C0561-own@1",
+        "basis_revision_id": "M-P-0430-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "03a0ce9b8d3dddd154081507060fce93b700dbb9b3217230353c41bb95950957",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 19,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0430-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0429-C0561-own@1",
+        "basis_revision_id": "M-P-0429-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "e711a575a934f5cbc7dfdbc5076f2a042a00f5b3772c2e07dd6be40eb3020926",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-seventeen-identity-core-key-decisions-v1.json",
+        "sha256": "1966d64098ec5def44ac60b2fdc9a1b3ed745fa91e07e9773dbabf54dad1c04f",
+        "objects_index": 7,
+        "exact_edits": [],
+        "rationale": "Full currentdata/metadata/caveat/baser lästa. Accepterade egna identiteter och explicit senare rättelsecaveats bevaras. Nanny och Sara Rebecka saknas på just C0561 utan att deras starkare egna C0552/C0564poster upphävs. Kopplad mentionrad och personidentitet oförändrade; inga nya yrken från grupproller."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0429-C0561-own avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0429-C0561-own@1",
+        "basis_revision_id": "M-P-0429-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "ed6b551fa936112353f75c8d1cd6f8bc86b0e869da9799b37cb88e03fcb1e887",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 18,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"birth\":\"1871 2/1\",\"place\":\"d:o\",\"group\":\"begges barn\",\"vaccination\":\"v\",\"departure\":\"ingen egen not\",\"death\":\"ingen egen not\",\"conduct\":\"tomt\",\"year_fields\":\"markeringar från omkring1879; inte säkra dagtal\"}",
+            "new": "{\"birth\":\"1871 2/1\",\"place\":\"d:o\",\"group\":\"begges barn\",\"vaccination\":\"v\",\"departure\":\"ingen egen not\",\"death\":\"ingen egen not\",\"conduct\":\"tomt\",\"year_fields\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"dotted hook\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"faint hook5/\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"hook14/\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"hook18/4?5 overwritten\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"w-like\",\"N\":\"faint17/4? plus hook\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}]}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1871 2/1\",\"conduct\":\"tomt\",\"death\":\"ingen egen not\",\"departure\":\"ingen egen not\",\"group\":\"begges barn\",\"place\":\"d:o\",\"vaccination\":\"v\",\"year_fields\":\"markeringar från omkring1879; inte säkra dagtal\"}",
+            "new": "{\"birth\":\"1871 2/1\",\"conduct\":\"tomt\",\"death\":\"ingen egen not\",\"departure\":\"ingen egen not\",\"group\":\"begges barn\",\"place\":\"d:o\",\"vaccination\":\"v\",\"year_fields\":[{\"year\":1875,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"dotted hook\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"faint hook5/\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"hook14/\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"hook18/4?5 overwritten\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"blank\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"w-like\",\"N\":\"faint17/4? plus hook\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}]}"
+          },
+          {
+            "field": "caveat",
+            "old": "Tomma celler bevisar inte oavbruten fysisk närvaro.",
+            "new": "Tomma celler bevisar inte oavbruten fysisk närvaro. T-0780 prövar hela egna årsmatrisen 1875–1884; ett grafiskt tecken finns redan 1878, täta bråk/överskrivning hålls reserverade och är inte säkra kalenderhändelser."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0429-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0428-C0561-child@1",
+        "basis_revision_id": "M-P-0428-C0561-child@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "2ee1469c9fdfdf052f9ab9f4421d1a03276eac1ebe3c5d70d2daeaa66e27909c",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-seventeen-identity-core-key-decisions-v1.json",
+        "sha256": "1966d64098ec5def44ac60b2fdc9a1b3ed745fa91e07e9773dbabf54dad1c04f",
+        "objects_index": 6,
+        "exact_edits": [],
+        "rationale": "Full currentdata/metadata/caveat/baser lästa. Accepterade egna identiteter och explicit senare rättelsecaveats bevaras. Nanny och Sara Rebecka saknas på just C0561 utan att deras starkare egna C0552/C0564poster upphävs. Kopplad mentionrad och personidentitet oförändrade; inga nya yrken från grupproller."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0428-C0561-child avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0428-C0561-child@1",
+        "basis_revision_id": "M-P-0428-C0561-child@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "71ec5949657c196dca65586f2fa28fc64e9910fb0f4f19365bb3ee2d43a3513d",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 17,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"birth\":\"1868 13/2\",\"smallpox\":\"v\",\"death_blank\":true,\"move_blank\":true,\"knowledge_communion\":\"prövade tecken och datum, individuella årsbindingar osäkra\"}",
+            "new": "{\"birth\":\"1868 13/2\",\"smallpox\":\"v\",\"death_blank\":true,\"move_blank\":true,\"knowledge_communion\":[{\"year\":1875,\"F\":\"dash plus dot\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"hook with3dots\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"dash\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"hook4/\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"faint hook12/\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"hook17/6?\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"dash\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"w-like\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"absol?17/?; denominator unresolved\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"own_reading_grades\":\"Innantill hook; rightmost5\",\"own_forstar\":\"cross/1-like\"}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1868 13/2\",\"death_blank\":true,\"knowledge_communion\":\"prövade tecken och datum, individuella årsbindingar osäkra\",\"move_blank\":true,\"smallpox\":\"v\"}",
+            "new": "{\"birth\":\"1868 13/2\",\"death_blank\":true,\"knowledge_communion\":[{\"year\":1875,\"F\":\"dash plus dot\",\"N\":\"blank\"},{\"year\":1876,\"F\":\"hook with3dots\",\"N\":\"blank\"},{\"year\":1877,\"F\":\"dash\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"hook4/\",\"N\":\"blank\"},{\"year\":1879,\"F\":\"faint hook12/\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"hook17/6?\",\"N\":\"blank\"},{\"year\":1881,\"F\":\"dash\",\"N\":\"blank\"},{\"year\":1882,\"F\":\"w-like\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"blank\",\"N\":\"absol?17/?; denominator unresolved\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"move_blank\":true,\"smallpox\":\"v\",\"own_reading_grades\":\"Innantill hook; rightmost5\",\"own_forstar\":\"cross/1-like\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "",
+            "new": "T-0780 binder nu tecknen till egna tryckta årskolumner 1875–1884; små tal och 1883 års absol?-not med olöst nämnare behåller reservation. Ingen säker sakramentsdag eller kontinuerlig närvaro infereras."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0428-C0561-child inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0427-C0561-own@1",
+        "basis_revision_id": "M-P-0427-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "27b670a399189e89010f2cabf37af2d144807de7f59aa0ccf23fd31102e7f994",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-seventeen-identity-core-key-decisions-v1.json",
+        "sha256": "1966d64098ec5def44ac60b2fdc9a1b3ed745fa91e07e9773dbabf54dad1c04f",
+        "objects_index": 5,
+        "exact_edits": [],
+        "rationale": "Full currentdata/metadata/caveat/baser lästa. Accepterade egna identiteter och explicit senare rättelsecaveats bevaras. Nanny och Sara Rebecka saknas på just C0561 utan att deras starkare egna C0552/C0564poster upphävs. Kopplad mentionrad och personidentitet oförändrade; inga nya yrken från grupproller."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0427-C0561-own avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0427-C0561-own@1",
+        "basis_revision_id": "M-P-0427-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "719a125ae0cf3e4371099bba47edc3d263e62dd2acf13c44d824372ab05624f4",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 16,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0427-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0426-C0561-own@1",
+        "basis_revision_id": "M-P-0426-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "2b16f7b3fec8d552d808cb6c2d5ce646825c732348c104ff4050ac299b54a46f",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-seventeen-identity-core-key-decisions-v1.json",
+        "sha256": "1966d64098ec5def44ac60b2fdc9a1b3ed745fa91e07e9773dbabf54dad1c04f",
+        "objects_index": 4,
+        "exact_edits": [],
+        "rationale": "Full currentdata/metadata/caveat/baser lästa. Accepterade egna identiteter och explicit senare rättelsecaveats bevaras. Nanny och Sara Rebecka saknas på just C0561 utan att deras starkare egna C0552/C0564poster upphävs. Kopplad mentionrad och personidentitet oförändrade; inga nya yrken från grupproller."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0426-C0561-own avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0426-C0561-own@1",
+        "basis_revision_id": "M-P-0426-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "8c02ce89097a70e6cc65653e20a5f0a996aef3299239ac02bced46b0b74d5c8c",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 15,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0426-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0425-C0561-wife@1",
+        "basis_revision_id": "M-P-0425-C0561-wife@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "568eabb16a52b31127f37bfb1af1a9b55b9e6d4f4ae3867c442f70aa09a65bd4",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-seventeen-identity-core-key-decisions-v1.json",
+        "sha256": "1966d64098ec5def44ac60b2fdc9a1b3ed745fa91e07e9773dbabf54dad1c04f",
+        "objects_index": 3,
+        "exact_edits": [],
+        "rationale": "Full currentdata/metadata/caveat/baser lästa. Accepterade egna identiteter och explicit senare rättelsecaveats bevaras. Nanny och Sara Rebecka saknas på just C0561 utan att deras starkare egna C0552/C0564poster upphävs. Kopplad mentionrad och personidentitet oförändrade; inga nya yrken från grupproller."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0425-C0561-wife avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0425-C0561-wife@1",
+        "basis_revision_id": "M-P-0425-C0561-wife@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "a30be6953245e4f0972ecc4f04dc932fd85fb65be57274d684c5b26d11bfdc5a",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 14,
+        "exact_edits": [
+          {
+            "field": "data.value_literal",
+            "old": "{\"birth\":\"1842 26/9\",\"birthplace\":\"Umeå landsförsamling\",\"smallpox\":\"v\",\"own_blank_fields\":[\"fräjd\",\"beväringsmöte\",\"bortflyttning\"],\"reading_communion\":\"markeringar, exakta egna datum ej avskrivna\",\"own_marriage_cell\":\"ej separat råavskriven\",\"couple_marriage_context\":\"1870-07-02 enligt mannens rad och vigselpost, inte infyllt som egen råcell\",\"household_from\":\"Gl.bok603\"}",
+            "new": "{\"birth\":\"1842 26/9\",\"birthplace\":\"Umeå landsförsamling\",\"smallpox\":\"v\",\"own_blank_fields\":[\"fräjd\",\"beväringsmöte\",\"bortflyttning\"],\"reading_communion\":[{\"year\":1875,\"F\":\"N\",\"N\":\"5/9\"},{\"year\":1876,\"F\":\"N\",\"N\":\"3/9\"},{\"year\":1877,\"F\":\"N\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"N\",\"N\":\"7/4\"},{\"year\":1879,\"F\":\"N\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"N\",\"N\":\"17/5\"},{\"year\":1881,\"F\":\"N\",\"N\":\"4/12\"},{\"year\":1882,\"F\":\"w-like\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"w-like\",\"N\":\"4/3\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"own_marriage_cell\":\"tom, direkt prövad egen cell\",\"couple_marriage_context\":\"1870-07-02 enligt mannens rad och vigselpost, inte infyllt som egen råcell\",\"household_from\":\"Gl.bok603\",\"own_reading_grades\":\"Innantill hook; other readinggrade fields blank\",\"own_forstar\":\"cross/1-like\"}"
+          },
+          {
+            "field": "data.value_json",
+            "old": "{\"birth\":\"1842 26/9\",\"birthplace\":\"Umeå landsförsamling\",\"couple_marriage_context\":\"1870-07-02 enligt mannens rad och vigselpost, inte infyllt som egen råcell\",\"household_from\":\"Gl.bok603\",\"own_blank_fields\":[\"fräjd\",\"beväringsmöte\",\"bortflyttning\"],\"own_marriage_cell\":\"ej separat råavskriven\",\"reading_communion\":\"markeringar, exakta egna datum ej avskrivna\",\"smallpox\":\"v\"}",
+            "new": "{\"birth\":\"1842 26/9\",\"birthplace\":\"Umeå landsförsamling\",\"couple_marriage_context\":\"1870-07-02 enligt mannens rad och vigselpost, inte infyllt som egen råcell\",\"household_from\":\"Gl.bok603\",\"own_blank_fields\":[\"fräjd\",\"beväringsmöte\",\"bortflyttning\"],\"own_marriage_cell\":\"tom, direkt prövad egen cell\",\"reading_communion\":[{\"year\":1875,\"F\":\"N\",\"N\":\"5/9\"},{\"year\":1876,\"F\":\"N\",\"N\":\"3/9\"},{\"year\":1877,\"F\":\"N\",\"N\":\"blank\"},{\"year\":1878,\"F\":\"N\",\"N\":\"7/4\"},{\"year\":1879,\"F\":\"N\",\"N\":\"blank\"},{\"year\":1880,\"F\":\"N\",\"N\":\"17/5\"},{\"year\":1881,\"F\":\"N\",\"N\":\"4/12\"},{\"year\":1882,\"F\":\"w-like\",\"N\":\"blank\"},{\"year\":1883,\"F\":\"w-like\",\"N\":\"4/3\"},{\"year\":1884,\"F\":\"blank\",\"N\":\"blank\"}],\"smallpox\":\"v\",\"own_reading_grades\":\"Innantill hook; other readinggrade fields blank\",\"own_forstar\":\"cross/1-like\"}"
+          },
+          {
+            "field": "caveat",
+            "old": "",
+            "new": "T-0780 prövar egna C0561 vigsel-, kunskaps- och årsceller 1875–1884. Mannens vigseldag och Gl.bok603 är hushållskontext, inte ifyllnad i hennes tomma råceller. Grafiska tecken och småbråk normaliseras inte till verkliga kalenderhändelser."
+          }
+        ],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0425-C0561-wife inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "ID-P-0422-C0561-own@1",
+        "basis_revision_id": "M-P-0422-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "273de8aa54650c3ab0e2da2ed0c33e3bc0b7019b5be0a5ba5d730b08e41a947f",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-seventeen-identity-core-key-decisions-v1.json",
+        "sha256": "1966d64098ec5def44ac60b2fdc9a1b3ed745fa91e07e9773dbabf54dad1c04f",
+        "objects_index": 2,
+        "exact_edits": [],
+        "rationale": "Full currentdata/metadata/caveat/baser lästa. Accepterade egna identiteter och explicit senare rättelsecaveats bevaras. Nanny och Sara Rebecka saknas på just C0561 utan att deras starkare egna C0552/C0564poster upphävs. Kopplad mentionrad och personidentitet oförändrade; inga nya yrken från grupproller."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Den accepterade eller uttryckligt begränsade identitetsbindningen i ID-P-0422-C0561-own avser samma egna källrad. Namn-/rollprecisering/fullutvinning iM2 byter inte person; alla personbaser/status och tidigare individuella caveatbeslut kvar.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    },
+    {
+      "trigger_target": "R-cb1f11fb7e673fa673e7adec",
+      "edge": {
+        "revision_id": "O-P-0422-C0561-own@1",
+        "basis_revision_id": "M-P-0422-C0561-own@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: mention_id"
+      },
+      "whole_native_sha256": "c365e668d14b331652f56e59db193ef945a9c75856b6642ec8187858feb59375",
+      "reading_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0561-selected26-mention-observation-decisions-v1.json",
+        "sha256": "6d3421ac8df600a73f9c603c37433b8a663da838af82ac84fd003986a47cf228",
+        "objects_index": 13,
+        "exact_edits": [],
+        "rationale": "Hela current data, metadata, caveat och baser lästa. Egen rawrad jämförd med låst fullutvinning; äldre starkare egna födelsedata/identiteter bevaras. Retained fields are already accurate within their declared source scope; full additional annual extraction remains in newTR, not inferred extra source."
+      },
+      "decision": "retain_exact_old_basis_no_additional_revision",
+      "reason": "Egen observation O-P-0422-C0561-own inför separat avgjorda fulla fält/råreservationer enligt pointer. M1 är versionsbunden referens till samma egenrad, inte godkännande av varje äldre literal; nya O-fält ska skrivas före M2.",
+      "sequence_condition": "All already sourceapproved new consumers preserving old basis precede that basis update; no generic native request resolution or rebind.",
+      "final_stage_limit": "Actual final request/currentversion/fullpayload must be source-bound separately."
+    }
+  ],
+  "new_revisions": 0,
+  "rebinds": 0,
+  "not_global_sequence_approval": true
+}

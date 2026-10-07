@@ -1,0 +1,74 @@
+{
+  "task": "T-0777",
+  "at_utc": "2026-10-02T11:25:32.496946+00:00",
+  "native_measurements": "final-native-measurements-v1.json",
+  "five_scopes": [
+    "C-0084",
+    "C-0402",
+    "C-0573",
+    "C-0896",
+    "C-0911"
+  ],
+  "actual_work_includes": [
+    "first preparation turn",
+    "complete current capture and stronger support routing",
+    "primary original interpretation and amendments",
+    "independent blind original reading and global semantic scan",
+    "all rejected candidates and safe clone failures",
+    "individual native provenance repairs",
+    "33 pending dependency adjudications",
+    "finalization and validators",
+    "worker final responses"
+  ],
+  "mechanical_findings": [
+    {
+      "finding": "C0084 adoption explicitly claimed older1910male support but missed own edge",
+      "status": "amended sourcecandidatev2",
+      "category": "implementation_provenance"
+    },
+    {
+      "finding": "C0896 new parish TR/audit/adoption needed actual S0026 in addition to archive controlsource",
+      "status": "sourcecandidatev2 then sourcecontextv3",
+      "category": "implementation_provenance"
+    },
+    {
+      "finding": "C0402 mention role correction retained stale R126@1 while currentR126@2",
+      "status": "safe native rejection; primaryapproved exactrebind; rolev2",
+      "category": "implementation_version_binding"
+    },
+    {
+      "finding": "C0911 P0046 adoption duplicate S0029 edge from two ownrecord scopes",
+      "status": "safe UNIQUE rejection; deduplicated exactedge sourcev3",
+      "category": "implementation_duplicate_edge"
+    },
+    {
+      "finding": "C0911 sameoperation F dependents needed three revisedO@3 supports",
+      "status": "prospective detection; primaryapproved rebinds and stabledependencyorder",
+      "category": "implementation_version_binding"
+    },
+    {
+      "finding": "intermediate consequence tables oldsupport list mutated by append",
+      "status": "preservedv1; explicitmetadata amendment and exactbaseline tablesv2/finalv3",
+      "category": "implementation_artifact_metadata"
+    }
+  ],
+  "final_results": {
+    "new_objects": 38,
+    "revised_objects": 90,
+    "adoptions": 19,
+    "individual_dependency_resolutions": 33,
+    "canonical_ready_operations": 14,
+    "full_payload_matches": 128,
+    "unchanged_current_revisions": 44046,
+    "validator_results": "verify / verify-assets / verify-source PASS",
+    "canonical_written_by_sol": false
+  },
+  "measurement_limits": {
+    "usage": "root invokes collect_usage.py only after allworkerfinal responses; actual agentpaths and floorbound configured",
+    "root_usage": "UNKNOWN",
+    "root_preparation_before_first_spawn": "UNKNOWN",
+    "budget_savings": "No causal claim",
+    "first_actual_worker_floor": "2026-10-02T10:26:41.885Z"
+  },
+  "review": "Exact independent hashapproval pending; technicalPASS alone insufficient"
+}

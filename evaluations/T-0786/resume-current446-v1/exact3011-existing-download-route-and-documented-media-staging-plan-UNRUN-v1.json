@@ -1,0 +1,154 @@
+{
+  "task": "T-0787",
+  "known_original_observation_pin": {
+    "path": "evaluations/T-0787/root-direct3011-known-manifest-and-actual-access-observation-v1.json",
+    "sha256": "392808d35d3519209b9b00c2d1e33c8333160d8a78a672eb4a7ac53970e2bad7"
+  },
+  "exact_existing_manifest_pin": {
+    "path": "genealogy/media/S-0731-riksarkivet-sundsvall-AIIa15-manifest.json",
+    "sha256": "0eededa21c479633feabc0657c956915d2038adcd6f1e80d7d2d38b9965d5ffd"
+  },
+  "whole_exact_canvas_metadata": {
+    "id": "https://lbiiif.riksarkivet.se/arkis!00205124_00259/canvas",
+    "type": "Canvas",
+    "label": {
+      "sv": [
+        "Bild 259 / Sida 3011"
+      ],
+      "en": [
+        "Image 259 / Page 3011"
+      ]
+    },
+    "width": 5722,
+    "height": 4062,
+    "metadata": [
+      {
+        "label": {
+          "sv": [
+            "Bildid"
+          ],
+          "en": [
+            "Image ID"
+          ]
+        },
+        "value": {
+          "none": [
+            "00205124_00259"
+          ]
+        }
+      },
+      {
+        "label": {
+          "sv": [
+            "Länk"
+          ],
+          "en": [
+            "Link"
+          ]
+        },
+        "value": {
+          "none": [
+            "https://sok.riksarkivet.se/bildvisning/00205124_00259"
+          ]
+        }
+      },
+      {
+        "label": {
+          "sv": [
+            "Källhänvisning"
+          ],
+          "en": [
+            "Source reference"
+          ]
+        },
+        "value": {
+          "sv": [
+            "Sundsvalls Gustav Adolfs kyrkoarkiv, Församlingsböcker, SE/HLA/1010190/A II a/15 (1912-1937), bildid: 00205124_00259, sida 3011"
+          ],
+          "en": [
+            "Sundsvalls Gustav Adolfs kyrkoarkiv, Församlingsböcker, SE/HLA/1010190/A II a/15 (1912-1937), Image ID: 00205124_00259, page 3011"
+          ]
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://lbiiif.riksarkivet.se/arkis!00205124_00259/annotationpage",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://lbiiif.riksarkivet.se/arkis!00205124_00259/annotation",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://lbiiif.riksarkivet.se/arkis!00205124_00259/full/max/0/default.jpg",
+              "type": "Image",
+              "width": 5722,
+              "height": 4062,
+              "format": "image/jpeg",
+              "service": [
+                {
+                  "id": "https://lbiiif.riksarkivet.se/v3/arkis!00205124_00259",
+                  "type": "ImageService3",
+                  "profile": "level1",
+                  "width": 0,
+                  "height": 0
+                },
+                {
+                  "@id": "https://lbiiif.riksarkivet.se/v2/arkis!00205124_00259",
+                  "@type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "width": 0,
+                  "height": 0
+                }
+              ]
+            },
+            "target": "https://lbiiif.riksarkivet.se/arkis!00205124_00259/canvas"
+          }
+        ]
+      }
+    ]
+  },
+  "exact_viewer_URL": "https://sok.riksarkivet.se/bildvisning/00205124_00259",
+  "exact_full_original_URL": "https://lbiiif.riksarkivet.se/arkis!00205124_00259/full/max/0/default.jpg",
+  "manifest_dimensions": [
+    5722,
+    4062
+  ],
+  "root_authenticated_browser_download_destination_proposal": "evaluations/T-0787/resumed-originals/C-0933-Sundsvall-AIIa15-fol3011-00205124_00259-full.jpg",
+  "destination_absent": true,
+  "actual_download_current_status": "ROOT_OWNS_BROWSER_AND_DOWNLOAD; NOT_EXECUTED_BY_SOL",
+  "prior_public_curl_state": "HTTP401, including exactownviewerReferer; logged-in Chrome observation does not itself prove a shell response",
+  "original_preservation_after_actual_download": [
+    "Preserve fullreturnedbytes at absentrawpath; actualhash/bytes/MIME/dimensions+URL/date/provenance receipt",
+    "Check actualimageJPEG format/dimensions and completeness before ownsource release; no manifestassumedimagehash",
+    "Pin original and expose samewholeoriginal independently to bothAstra roles before candidate/sourcegrades"
+  ],
+  "documented_stage_media_command_UNRUN": [
+    "node",
+    "genealogy2/cli.mjs",
+    "stage-media",
+    "evaluations/T-0787/resumed-originals/C-0933-Sundsvall-AIIa15-fol3011-00205124_00259-full.jpg",
+    "--provenance",
+    "T-0787: Sundsvalls Gustav Adolfs kyrkoarkiv SE/HLA/1010190/A II a/15, fol3011, bild00205124_00259; exakt root-auktoriserad originalhämtning efter ägarlogin; faktisk åtkomsttid/hash/läsomfång binds i separat originalkvitto."
+  ],
+  "CLI_form_pin": {
+    "path": "genealogy2/cli.mjs",
+    "sha256": "96c4882903f436ae0564227d26eda4f01a4e998294ce025692e8534be8d45b89"
+  },
+  "media_implementation_pin": {
+    "path": "genealogy2/lib/recovery.mjs",
+    "sha256": "1215607ef6ebd21e9d70831e05f2ab883b80727489139dc01bb09613087054e5"
+  },
+  "documentation_pin": {
+    "path": "genealogy2/docs/working.md",
+    "sha256": "ee5b606f88e53d91a259de1de7bc16903c69b982dc548eb30c3a4fd724b47081"
+  },
+  "actual_stage_media_behavior": "stage-media writes content-addressed bytes to <source>/genealogy2/media/objects/<actualSHA>, returns id/storagePath/sha256/bytes/originalName/provenance; no DB open, no media-row/review/sourcegrade write. --db does not isolate media; --source selects media root.",
+  "isolated_stage_media_variant_option_UNRUN": [
+    "--source",
+    "evaluations/T-0787/future-controlled-stage-source-root"
+  ],
+  "media_registration_later": "Only root-approved exact media API+record link operation after settled Astra extraction/grades; no operations built now",
+  "all_download_stage_media_or_apply_commands_executed": false
+}

@@ -1,0 +1,47 @@
+{
+  "task": "T-0784",
+  "at_utc": "2026-10-05T18:02:16.332219+00:00",
+  "preserved_failed_attempt": "Generic recursive finalpin assertion treated an explicitly historical whole_existing_log_pin as current file SHA and stopped before any finalstatus write. Expected append-only file evolution, not source or canonical mismatch.",
+  "initial_error_task": "T-0214",
+  "actual_source_or_native_change": false,
+  "T0784_still_ONGOING_before_retry": true,
+  "mechanical_amendment": "Verify explicitly historical five original log hashes on recorded byteprefix; current whole_after pins and exact appended bytes separately. Do not silently skip old evidence.",
+  "all5_explicit_prefix_checks": [
+    {
+      "task": "T-0214",
+      "whole_original_prefix_sha256": "daf823dd5ca7ed39f56c12be3a7066e3e9dc169d708e959e09d0340e4b2704e2",
+      "current_after_sha256": "5f9b2a5d708080d471c6cead5c7fe60fadcd5e871a5ab2bd631ca59daf7b42de",
+      "exact_append_once": true,
+      "full_entry_preserved": true
+    },
+    {
+      "task": "T-0227",
+      "whole_original_prefix_sha256": "d17427fd94062dbbd453bdb9da032fec4edd78116b3da25fd00a3cc68e454ac9",
+      "current_after_sha256": "9eec219c7d1a0ee81c6f6afcf8f953cbe2dde348920e28e191af3ec32655eb15",
+      "exact_append_once": true,
+      "full_entry_preserved": true
+    },
+    {
+      "task": "T-0379",
+      "whole_original_prefix_sha256": "a4c465c2cebcedbe9f69f5b9b1f95c47c1fe5ce5bf35767c6840ed2136c46154",
+      "current_after_sha256": "17a0ef9b8f6d49532da4d065c487dbe4003f7fd3e96920479f3dff6580a0787f",
+      "exact_append_once": true,
+      "full_entry_preserved": true
+    },
+    {
+      "task": "T-0237",
+      "whole_original_prefix_sha256": "206294dab06c52425e37f9dda1c3820b994a364c2c7939ca76c0ff15ee84de48",
+      "current_after_sha256": "56f436175d714d6d4adc23f50588523010b7cca9d78c4e5983e11692b401d013",
+      "exact_append_once": true,
+      "full_entry_preserved": true
+    },
+    {
+      "task": "T-0377",
+      "whole_original_prefix_sha256": "b3e4c43e68553bf91c589a199295ff463b4760d789b6ac5e5c71106dfa3c7a4a",
+      "current_after_sha256": "41d471fdba52d799e99cf3132cedd18eee32571dec3511f2b0f3bad08c6f4093",
+      "exact_append_once": true,
+      "full_entry_preserved": true
+    }
+  ],
+  "main_sha256": "4dffaf975b66fc7fb70c0ebda39be93a52fd64d7add03100e54e6c47a4220fd0"
+}

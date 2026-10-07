@@ -1,0 +1,33 @@
+{
+  "task": "T-0787",
+  "target": "O-P-0241-C0244-own",
+  "spec_pin": {
+    "path": "evaluations/T-0787/source-review/finite-necessary-current-copy-exact-fields-spec-v3.json",
+    "sha256": "b8de718f1d474d486124897cb2483cefc977a5b6e5aed9be238af899b26ffe53"
+  },
+  "field": {
+    "field": "data.value_json",
+    "old": "{\"baptism\":\"1901-04-24\",\"birth\":\"1901-01-31\",\"father\":\"Arbetaren Erik Jonas Henriksson\",\"father_birth\":\"1860-02-28\",\"home\":\"Storbränna\",\"mother\":\"h. h. Gertrud Kristina Jönsson\",\"mother_birth\":\"1874-02-23\",\"witnesses\":\"Barnets föräldrar\"}",
+    "new": "{\"baptism\":\"1901-04-24\",\"birth\":\"1901-01-31\",\"father\":\"Arbetaren Erik Jonas Henriksson\",\"father_birth\":\"1860-01-28\",\"home\":\"Storbränna\",\"mother\":\"h. h. Gertrud Kristina Jönsson\",\"mother_birth\":\"1874-02-23\",\"witnesses\":\"Barnets föräldrar m.fl.\",\"father_birth_raw\":\"60 28/1\",\"baptizer_initials\":\"J. A. H.[?]\",\"folio\":\"388\"}"
+  },
+  "whole_old_native_exact_to_frozen446_before_guard": true,
+  "native_raw_value_json": "{\"baptism\":\"1901-04-24\",\"birth\":\"1901-01-31\",\"father\":\"Arbetaren Erik Jonas Henriksson\",\"father_birth\":\"1860-02-28\",\"home\":\"Storbränna\",\"mother\":\"h. h. Gertrud Kristina Jönsson\",\"mother_birth\":\"1874-02-23\",\"witnesses\":\"Barnets föräldrar\"}",
+  "API_decoded_value_json": {
+    "baptism": "1901-04-24",
+    "birth": "1901-01-31",
+    "father": "Arbetaren Erik Jonas Henriksson",
+    "father_birth": "1860-02-28",
+    "home": "Storbränna",
+    "mother": "h. h. Gertrud Kristina Jönsson",
+    "mother_birth": "1874-02-23",
+    "witnesses": "Barnets föräldrar"
+  },
+  "spec_old_type": "str",
+  "native_type": "str",
+  "API_type": "dict",
+  "raw_literal_equal": true,
+  "parsed_spec_old_equals_API": true,
+  "required_disposition": "Explicit source native-vs-API field-address/value-format amendment or projection authority; no silent old/new conversion, no121operation constructed",
+  "preserved_first_guard_failure_path": "evaluations/T-0787/preparation/combined121-postlogin-guard-STOP-preserved-v1.json",
+  "secondary_diagnostic_attempt": "Diagnostic searched O-target in core15 rather than copy106 and raised StopIteration before output; corrected file only, no source/runtime mutation"
+}

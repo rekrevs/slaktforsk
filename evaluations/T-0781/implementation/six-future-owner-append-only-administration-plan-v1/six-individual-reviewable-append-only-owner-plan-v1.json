@@ -1,0 +1,271 @@
+{
+  "task": "T-0781",
+  "source_ledger_pin": {
+    "path": "evaluations/T-0781/source-review/two-source-finite-six-existing-future-owner-dispositions-v1.json",
+    "sha256": "b34de98aac1e4d76121c301d03142843aab2e8ad56080b6c8b53479478bf5bf0"
+  },
+  "current_backlog_pin": {
+    "path": "wotan/backlog.json",
+    "sha256": "b15f4198ed95c6b2b2b175618ed7d33bb52f42ebf66e9002ea61c67bb75e6dd1"
+  },
+  "rows": [
+    {
+      "owner_task_id": "T-0205",
+      "current_backlog_entry": {
+        "id": "T-0205",
+        "status": "READY",
+        "size": "M",
+        "after": [],
+        "summary": "Jomark: full utvinning av befintliga målposter",
+        "note": "Avgränsad forskningsföljd avT-0117; efter det prioriterade konsolideringsprogrammet."
+      },
+      "current_status": "READY",
+      "current_after": [],
+      "source_ledger_pin": {
+        "path": "evaluations/T-0781/source-review/two-source-finite-six-existing-future-owner-dispositions-v1.json",
+        "sha256": "b34de98aac1e4d76121c301d03142843aab2e8ad56080b6c8b53479478bf5bf0"
+      },
+      "source_disposition_pointer": "/rows/0",
+      "existing_log_pin": {
+        "path": "wotan/dev-log/T-0205.md",
+        "sha256": "76f4c52fa5bfa1f86e800b7781e81de3cd98265cfc7b8d6eee4fec75ec2be390"
+      },
+      "existing_prefix_bytes": 4046,
+      "append_pin": {
+        "path": "evaluations/T-0781/implementation/six-future-owner-append-only-administration-plan-v1/T-0205-exact-proposed-append-v1.md",
+        "sha256": "4c66ad584dd6b4f833f93f6ea268ecf2f07236f06d7619ee53ce4f452fb34bbd"
+      },
+      "append_text": "\n\n### Återupptagning — T-0781: avgränsat återbruk efter faktisk acceptans\n\nC0049:s sex familjerader är fullprövade i T0781, inklusive egna årsfält, blanka fält, mantal/marginalreservationer; C0044:s fullpost återbrukas från accepterade T0780. Ingen rutinmässig omläsning av dessa för oförändrade frågor.\n\nUppgiftens faktiskt olästa C1045/C1044 och avgränsade 855-/fortsättningsfrågor kvarstår enligt tidigare scope. T0167:s åldersfråga och starkare födelsestöd hålls åtskilda. Full källäsning innebär inte att T0205 eller hela personkontraktet är klart.\n\nTidigare uppgiftsomfång, avgränsningar, status och beroenden bevaras. Denna anteckning ändrar ingen acceptanskriterie och innebär inte att uppgiften eller personkontraktet är klart.\n",
+      "expected_after_full_log_sha256": "3ea1aec22c7ec4b10a5c998c43ee851251f922d5b5d51b6ec568f184429375e6",
+      "old_prefix_exact": true,
+      "all_existing_AC_status_and_after_preserved": true,
+      "apply_prerequisites": [
+        "actual exacttwo accepted canonical receipts",
+        "primary/independent exact administrative texts approval",
+        "root exact append-only authorization",
+        "fresh each prefix/status/after guards"
+      ]
+    },
+    {
+      "owner_task_id": "T-0206",
+      "current_backlog_entry": {
+        "id": "T-0206",
+        "status": "BLOCKED",
+        "size": "M",
+        "after": [
+          "T-0205"
+        ],
+        "summary": "Jomarksystrarna: egna födelseposter och första fortsättningsankare",
+        "note": "Avgränsad forskningsföljd avT-0117; efter det prioriterade konsolideringsprogrammet.",
+        "blocker": "Inväntar T-0205:s målposthänvisningar."
+      },
+      "current_status": "BLOCKED",
+      "current_after": [
+        "T-0205"
+      ],
+      "source_ledger_pin": {
+        "path": "evaluations/T-0781/source-review/two-source-finite-six-existing-future-owner-dispositions-v1.json",
+        "sha256": "b34de98aac1e4d76121c301d03142843aab2e8ad56080b6c8b53479478bf5bf0"
+      },
+      "source_disposition_pointer": "/rows/1",
+      "existing_log_pin": {
+        "path": "wotan/dev-log/T-0206.md",
+        "sha256": "1e8381bd86d2e65240e78d4c18fd8eb678438125cc08fac4a82d1cdbda7abbf9"
+      },
+      "existing_prefix_bytes": 2304,
+      "append_pin": {
+        "path": "evaluations/T-0781/implementation/six-future-owner-append-only-administration-plan-v1/T-0206-exact-proposed-append-v1.md",
+        "sha256": "8df03edf2e42dfa94f67f683ab15935e02e6bb41b064722136a29a4a29bb5e2a"
+      },
+      "append_text": "\n\n### Återupptagning — T-0781: avgränsat återbruk efter faktisk acceptans\n\nEldsta dotterns nya söknyckel är Magdalena Euphrosyne, 1863-05-29 enligt egen C0049-rad; äldre Margareta/24 maj är historisk felläsning. Catharina Johanna1865-05-11 och Anna Albertina1871-09-28 består. För52 födelseförsamlingBygdeå återbrukas uttryckligt C0046;53 saknar nu styrkt normaliserad födelseförsamling efter underkänd dittohärledning.\n\nBefintliga tre egna födelsemånader/hela positiva poster och högst tidigare beslutade första fortsättning behålls; ingen ny utvidgning. Eldsta dottern har ingen säker egen utgående hänvisning i C0049: utlovad direkt överföringsnyckel måste ersättas av faktisk olöst routing. AnnaAlbertinasfolio852/1905 och Catharinaspositiva1910familj2 bevaras; C0414noll följs inte om rutinmässigt.\n\nTidigare uppgiftsomfång, avgränsningar, status och beroenden bevaras. Denna anteckning ändrar ingen acceptanskriterie och innebär inte att uppgiften eller personkontraktet är klart.\n",
+      "expected_after_full_log_sha256": "c4ffef31dbdf56ee19ac5badd84f476f8994a59ad87b28fe3871a5cd34b712ee",
+      "old_prefix_exact": true,
+      "all_existing_AC_status_and_after_preserved": true,
+      "apply_prerequisites": [
+        "actual exacttwo accepted canonical receipts",
+        "primary/independent exact administrative texts approval",
+        "root exact append-only authorization",
+        "fresh each prefix/status/after guards"
+      ]
+    },
+    {
+      "owner_task_id": "T-0208",
+      "current_backlog_entry": {
+        "id": "T-0208",
+        "status": "BLOCKED",
+        "size": "M",
+        "after": [
+          "T-0205"
+        ],
+        "summary": "Anders Alfred: hushållsbryggan1874–1894",
+        "note": "Avgränsad forskningsföljd avT-0117; efter det prioriterade konsolideringsprogrammet.",
+        "blocker": "Inväntar T-0205:s målposthänvisningar."
+      },
+      "current_status": "BLOCKED",
+      "current_after": [
+        "T-0205"
+      ],
+      "source_ledger_pin": {
+        "path": "evaluations/T-0781/source-review/two-source-finite-six-existing-future-owner-dispositions-v1.json",
+        "sha256": "b34de98aac1e4d76121c301d03142843aab2e8ad56080b6c8b53479478bf5bf0"
+      },
+      "source_disposition_pointer": "/rows/2",
+      "existing_log_pin": {
+        "path": "wotan/dev-log/T-0208.md",
+        "sha256": "a865ac64b53ab016939c28385fda2808f50ec039c7d1c0cd0116edae886e3ab2"
+      },
+      "existing_prefix_bytes": 2101,
+      "append_pin": {
+        "path": "evaluations/T-0781/implementation/six-future-owner-append-only-administration-plan-v1/T-0208-exact-proposed-append-v1.md",
+        "sha256": "c6f1c18ad3bc971a72aabc994e3d1ac56ae7ffe3b022be71b8f847353ddc7129"
+      },
+      "append_text": "\n\n### Återupptagning — T-0781: avgränsat återbruk efter faktisk acceptans\n\nC0049:s sons egna årsfält är blanka; föräldrarnas daterade1873markeringar får inte göras till sonens fysiska närvaro. C0048egenfödelse och C0044fullpost är tillräckligt tidigare lästa.\n\nDen befintliga luckan1874–1894 och redan avgränsade mellanvolymer/fortsättningar kvarstår; ingen ny bok beställd och inga föräldraår tillgodoräknas som luckslut.\n\nTidigare uppgiftsomfång, avgränsningar, status och beroenden bevaras. Denna anteckning ändrar ingen acceptanskriterie och innebär inte att uppgiften eller personkontraktet är klart.\n",
+      "expected_after_full_log_sha256": "0473484d5024fd3b83f9ed465f2262fa47c44443c1baf72a1b57d1a4cf6210f8",
+      "old_prefix_exact": true,
+      "all_existing_AC_status_and_after_preserved": true,
+      "apply_prerequisites": [
+        "actual exacttwo accepted canonical receipts",
+        "primary/independent exact administrative texts approval",
+        "root exact append-only authorization",
+        "fresh each prefix/status/after guards"
+      ]
+    },
+    {
+      "owner_task_id": "T-0564",
+      "current_backlog_entry": {
+        "id": "T-0564",
+        "status": "READY",
+        "size": "M",
+        "after": [
+          "T-0181",
+          "T-0115"
+        ],
+        "summary": "Bygdeå C/5 årgångarna 1865, 1869 och 1877: tre egna födelsenotiser i Ultervattnet",
+        "note": "Avgränsad följd från T-0181; exakt källomfång i dev-log."
+      },
+      "current_status": "READY",
+      "current_after": [
+        "T-0181",
+        "T-0115"
+      ],
+      "source_ledger_pin": {
+        "path": "evaluations/T-0781/source-review/two-source-finite-six-existing-future-owner-dispositions-v1.json",
+        "sha256": "b34de98aac1e4d76121c301d03142843aab2e8ad56080b6c8b53479478bf5bf0"
+      },
+      "source_disposition_pointer": "/rows/3",
+      "existing_log_pin": {
+        "path": "wotan/dev-log/T-0564.md",
+        "sha256": "1196374dfc36f3085c37269e94fbe3b425cc08ecf72a173f668e89021e6f1c3f"
+      },
+      "existing_prefix_bytes": 4022,
+      "append_pin": {
+        "path": "evaluations/T-0781/implementation/six-future-owner-append-only-administration-plan-v1/T-0564-exact-proposed-append-v1.md",
+        "sha256": "c20052e41c6cd7f0d20802270609a3b011409e26edf6cbbba6c8547ee15fe090"
+      },
+      "append_text": "\n\n### Återupptagning — T-0781: avgränsat återbruk efter faktisk acceptans\n\nC0067 är redan fullt läst T0131 och återbrukas; det belägger endast åtkomsten till den egna1872posten. Inga nya oberoende läsningar i T0181/T0182 och ingen rutinupprepning.\n\nP97/98/100 respektive1865dec/1869mars/1877april är fortfarande egna oprövade poster. Söknycklar6dec/14mars/26apr består, men patronymikon, vittnen, åtkomst, beroende och senare liv kan inte utlovas från1872posten. Befintligt scope/exclusions består.\n\nTidigare uppgiftsomfång, avgränsningar, status och beroenden bevaras. Denna anteckning ändrar ingen acceptanskriterie och innebär inte att uppgiften eller personkontraktet är klart.\n",
+      "expected_after_full_log_sha256": "99a4a331171bc99241edc9e1a8b7812ab851e9fef6f278f32e0079bb50838e85",
+      "old_prefix_exact": true,
+      "all_existing_AC_status_and_after_preserved": true,
+      "apply_prerequisites": [
+        "actual exacttwo accepted canonical receipts",
+        "primary/independent exact administrative texts approval",
+        "root exact append-only authorization",
+        "fresh each prefix/status/after guards"
+      ]
+    },
+    {
+      "owner_task_id": "T-0569",
+      "current_backlog_entry": {
+        "id": "T-0569",
+        "status": "READY",
+        "size": "M",
+        "after": [
+          "T-0181",
+          "T-0115"
+        ],
+        "summary": "Ultervattnets övriga hushåll omkring 1872 och Anders Olofssons familj före 1863",
+        "note": "Avgränsad följd från T-0181; exakt källomfång i dev-log."
+      },
+      "current_status": "READY",
+      "current_after": [
+        "T-0181",
+        "T-0115"
+      ],
+      "source_ledger_pin": {
+        "path": "evaluations/T-0781/source-review/two-source-finite-six-existing-future-owner-dispositions-v1.json",
+        "sha256": "b34de98aac1e4d76121c301d03142843aab2e8ad56080b6c8b53479478bf5bf0"
+      },
+      "source_disposition_pointer": "/rows/4",
+      "existing_log_pin": {
+        "path": "wotan/dev-log/T-0569.md",
+        "sha256": "3c0d560d96c48895d1e03ab615e74163be771e0a02ee9a2384bc9fbd7c87e82a"
+      },
+      "existing_prefix_bytes": 8251,
+      "append_pin": {
+        "path": "evaluations/T-0781/implementation/six-future-owner-append-only-administration-plan-v1/T-0569-exact-proposed-append-v1.md",
+        "sha256": "83bd77ba2e6eb527c8c37e7c68a6a8957ed3c5529d5ac1618ef0e6675f4fb64a"
+      },
+      "append_text": "\n\n### Återupptagning — T-0781: avgränsat återbruk efter faktisk acceptans\n\nFull C0069-läsning och äldre folkräkningsstöd återbrukas; C0067 ger A.Andersson+namnlös hustru+C.Jacobsd:r iUltervattnet, inga åldrar eller relationer till barnet. Pigan kan vara en dotter; initialexpansionChristina/Kristina är hypotes, inte krav.\n\nBefintlig avgränsad hushållsprövning förP104/105/106 kvarstår med koordinationT0267. Nycklarna garanterar inte match, åtkomst, ettuppslag-tresvar, billigaste/enda källväg eller att ettlokaltnoll avför identiteten. P107 kvar separatT0578; ingen bredare ortsrunda.\n\nTidigare uppgiftsomfång, avgränsningar, status och beroenden bevaras. Denna anteckning ändrar ingen acceptanskriterie och innebär inte att uppgiften eller personkontraktet är klart.\n",
+      "expected_after_full_log_sha256": "5a6af92a1b5d6cfab39edaf65db2ec056c583d0d3673264b255370953fd9cf1e",
+      "old_prefix_exact": true,
+      "all_existing_AC_status_and_after_preserved": true,
+      "apply_prerequisites": [
+        "actual exacttwo accepted canonical receipts",
+        "primary/independent exact administrative texts approval",
+        "root exact append-only authorization",
+        "fresh each prefix/status/after guards"
+      ]
+    },
+    {
+      "owner_task_id": "T-0578",
+      "current_backlog_entry": {
+        "id": "T-0578",
+        "status": "READY",
+        "size": "M",
+        "after": [
+          "T-0182",
+          "T-0115"
+        ],
+        "summary": "Ortnamnet Ytteråträsk mot en annan skriftbärare: P-0107",
+        "note": "Avgränsad följd från T-0182; exakt källomfång i dev-log."
+      },
+      "current_status": "READY",
+      "current_after": [
+        "T-0182",
+        "T-0115"
+      ],
+      "source_ledger_pin": {
+        "path": "evaluations/T-0781/source-review/two-source-finite-six-existing-future-owner-dispositions-v1.json",
+        "sha256": "b34de98aac1e4d76121c301d03142843aab2e8ad56080b6c8b53479478bf5bf0"
+      },
+      "source_disposition_pointer": "/rows/5",
+      "existing_log_pin": {
+        "path": "wotan/dev-log/T-0578.md",
+        "sha256": "2e44a5ba10abcb8717445f63ed038d532b4b343e28122d8beca2242aab14029d"
+      },
+      "existing_prefix_bytes": 4224,
+      "append_pin": {
+        "path": "evaluations/T-0781/implementation/six-future-owner-append-only-administration-plan-v1/T-0578-exact-proposed-append-v1.md",
+        "sha256": "e8d925dbbf3a4feed82d4efc226ee560c90b7a55db4ff1d63688ce7b4ed4a943"
+      },
+      "append_text": "\n\n### Återupptagning — T-0781: avgränsat återbruk efter faktisk acceptans\n\nAnnaNilsd:r[?]/Ytteråträsk[?] och avsaknad av egenstånd är bevarade råreservationer; tillräcklig T0131fullpostläsning återbrukas, ytterligare förstoring är ingen ny källa.\n\nDen befintliga stegvisa prövningen via annan skrivbärare och möjlig1872hushållsrouting kvarstår utan garanterat resultat/kostnadsrangordning/exklusivväg. Ettavgränsatnoll bevisar inte ensamt felläsning eller personfrånvaro. Ingen automatisk namnexpansion/släktskap.\n\nTidigare uppgiftsomfång, avgränsningar, status och beroenden bevaras. Denna anteckning ändrar ingen acceptanskriterie och innebär inte att uppgiften eller personkontraktet är klart.\n",
+      "expected_after_full_log_sha256": "5ccf09d743f1b4315dac237858b1c2ef7c8386fea7e5374386e0798748879908",
+      "old_prefix_exact": true,
+      "all_existing_AC_status_and_after_preserved": true,
+      "apply_prerequisites": [
+        "actual exacttwo accepted canonical receipts",
+        "primary/independent exact administrative texts approval",
+        "root exact append-only authorization",
+        "fresh each prefix/status/after guards"
+      ]
+    }
+  ],
+  "count": 6,
+  "new_tasks": 0,
+  "status_changes": 0,
+  "task_AC_changes": 0,
+  "Wotan_writes": 0,
+  "execution": "UNRUN",
+  "current_actual_two_acceptance": false,
+  "source_or_independent_approval_not_inferred": true
+}

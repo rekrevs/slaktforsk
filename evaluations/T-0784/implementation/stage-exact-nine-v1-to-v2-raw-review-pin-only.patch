@@ -1,0 +1,36 @@
+--- evaluations/T-0784/implementation/stage_root_authorized_exact_nine_v1.py
++++ evaluations/T-0784/implementation/stage_root_authorized_exact_nine_v2.py
+@@ -30,9 +30,14 @@
+     return h.hexdigest()
+ 
+ 
+-def readpin(pin):
++def checked_pin_path(pin):
+     p = (ROOT / pin['path']).resolve()
+     assert p.is_relative_to(ROOT) and sha(p) == pin['sha256'], pin
++    return p
++
++
++def readpin(pin):
++    p = checked_pin_path(pin)
+     return p, json.loads(p.read_text())
+ 
+ 
+@@ -195,7 +200,7 @@
+     assert authorization['main_pin']['path'] == 'genealogy2/data/research.sqlite'
+     assert sha(MAIN) == authorization['main_pin']['sha256']
+     for p in authorization['review_pins']:
+-        readpin(p)
++        checked_pin_path(p)
+     for p in authorization['media_pins']:
+         assert sha(ROOT / p['path']) == p['sha256']
+     ops = []
+@@ -385,7 +390,7 @@
+         for p in authorization['media_pins']:
+             assert sha(ROOT / p['path']) == p['sha256']
+         for p in authorization['review_pins']:
+-            readpin(p)
++            checked_pin_path(p)
+         c = conn(db)
+         assert state(c) == final_state
+         c.close()

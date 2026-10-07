@@ -1,0 +1,35 @@
+{
+  "authorization_pin": {
+    "path": "evaluations/T-0781/root-one-exact17-same-stage-resolution-authorization-v1.json",
+    "sha256": "adcf363aca2c7b7d3bcb650443aac3b7efae913980359ae665461108162ba6b7"
+  },
+  "operation_pin": {
+    "path": "evaluations/T-0781/implementation/exact17-resolution-and-final17-member-draft-v1/one-exact17-individual-resolution-only-draft-operation-v1.json",
+    "sha256": "a5a3d132c168999e2a9949c0339d059c3be93ae30c6317593516d9ec2c8c4d12"
+  },
+  "argv": [
+    "node",
+    "genealogy2/cli.mjs",
+    "apply",
+    "evaluations/T-0781/implementation/exact17-resolution-and-final17-member-draft-v1/one-exact17-individual-resolution-only-draft-operation-v1.json",
+    "--db",
+    "evaluations/T-0781/exact16-fresh-stage-v1/stage.sqlite",
+    "--journal",
+    "evaluations/T-0781/exact16-fresh-stage-v1/journal"
+  ],
+  "before": {
+    "journal_head": 441,
+    "pending": 17
+  },
+  "CLI_invocations": 1,
+  "started_at_utc": "2026-10-04T16:05:16.856513+00:00",
+  "exit_code": 0,
+  "after": {
+    "journal_head": 442,
+    "pending": 0
+  },
+  "actual_DB_pin_after": {
+    "path": "evaluations/T-0781/exact16-fresh-stage-v1/stage.sqlite",
+    "sha256": "0710f91a6c039ce32354eb1261c4d11b0ff8ad50c35fb24b9003101160a85399"
+  }
+}

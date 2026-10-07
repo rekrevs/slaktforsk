@@ -1,0 +1,163 @@
+{
+  "object": "O-P-0001-C0002-household-reference",
+  "kind": "observation",
+  "currentVersion": 2,
+  "current": {
+    "revision_id": "O-P-0001-C0002-household-reference@2",
+    "record_id": "R-510e9de3e16243afcce92e2e",
+    "mention_id": null,
+    "property": "source_reference",
+    "value_literal": "93.3",
+    "value_json": "{\"householdHypothesis\":3,\"householdInterpretationVerified\":false,\"literal\":\"93.3\",\"page\":93,\"rejectedReading\":\"263.3\",\"targetRead\":false,\"volumeHypothesis\":\"A I/11c\",\"volumeVerified\":false}",
+    "object_id": "O-P-0001-C0002-household-reference",
+    "version": 2,
+    "kind": "observation",
+    "disposition": "recorded",
+    "evidence_status": "TRANSCRIBED",
+    "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.\nT-0677: Q03 anger A I/11c som huvudalternativ. Nuvarande objekt anger volymen utan motsvarande kvalifikation; targetRead=false eller oläst sida reserverar inte i sig volymidentifieringen. Endast volymhypotesen markeras uttryckligen, rå93.3 och olästgräns oförändrade.",
+    "caveat": "C-0003:s negativa kontroll gäller sida 103, inte hänvisad sida 93. A I/11c är huvudalternativ enligt P-0001/Q-03, inte verifierad volymtillhörighet för hänvisningen 93.3; annan volym eller numrering är möjlig. Hänvisad hushållspost är oläst. Rubriken anger en sidhänvisning men fastställer inte att .3 betyder hushåll 3. Den äldre hushållstolkningen är en obestyrkt hypotes; råvärdet 93.3 bevaras och hänvisad post är oläst.",
+    "origins": [
+      {
+        "revision_id": "O-P-0001-C0002-household-reference@2",
+        "unit_id": "bf96f83e0db4d047d7d71348da1979a1f9844cef2e4fe4e3f608f5b769f6f998",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+        "start_line": 61,
+        "end_line": 61
+      }
+    ],
+    "evidence": [
+      {
+        "revision_id": "O-P-0001-C0002-household-reference@2",
+        "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      {
+        "revision_id": "O-P-0001-C0002-household-reference@2",
+        "basis_revision_id": "TR-T0677-C0002-consolidated-control@1",
+        "role": "supports",
+        "note": "C-0002:s nya versionsbundna transkription och reservationer; ingen extra oberoende röst."
+      }
+    ],
+    "pending_reviews": []
+  },
+  "conversionOrigins": [
+    {
+      "id": "UD-bf96f83e0db4d047d7d71348da1979a1f9844cef2e4fe4e3f608f5b769f6f998@1",
+      "state": "mapped_complete",
+      "rationale": "Hela den aktuella uppgiften representeras med uttryckliga förbehåll.",
+      "question": "",
+      "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+      "start_line": 61,
+      "end_line": 61
+    }
+  ],
+  "revisions": [
+    {
+      "id": "O-P-0001-C0002-household-reference@1",
+      "object_id": "O-P-0001-C0002-household-reference",
+      "version": 1,
+      "operation_id": "T-0652/persons-01-v1",
+      "disposition": "recorded",
+      "evidence_status": "TRANSCRIBED",
+      "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+      "caveat": "C-0003:s negativa kontroll gäller sida 103, inte hänvisad sida 93.",
+      "previous_id": null,
+      "data": {
+        "revision_id": "O-P-0001-C0002-household-reference@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": null,
+        "property": "source_reference",
+        "value_literal": "93.3",
+        "value_json": "{\"household\":3,\"page\":93,\"rejectedReading\":\"263.3\",\"targetRead\":false,\"volume\":\"A I/11c\"}"
+      },
+      "origins": [
+        {
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+          "id": "bf96f83e0db4d047d7d71348da1979a1f9844cef2e4fe4e3f608f5b769f6f998",
+          "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+          "kind": "assertion",
+          "legacy_id": "A-0019",
+          "owner_id": "P-0001",
+          "section": "Påståenden",
+          "start_byte": 9212,
+          "end_byte": 9808,
+          "start_line": 61,
+          "end_line": 61,
+          "raw": "| A-0019 | Födelsenotisens hänvisningskolumn lyder `93.3`, det vill säga sida 93, hushåll 3, i församlingens husförhörslängd. Den tidigare läsningen 263.3 är upphävd. | TRANSCRIBED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Omläst i full upplösning 2026-09-08 i T-0149. Grannraderna i samma kolumn lyder 91.2, 179.2, 100.2, 96.2, 91.2, 261.2 och 267.3, vilket bekräftar formen sida.hushåll och att talet är tvåsiffrigt. Sida 93 i `A I/11c` är inte läst; [C-0003](../citations/C-0003-rosinedal-sida-103-negativ-kontroll.md) gäller enbart sida 103. |\n",
+          "parsed_json": "{\"cells\":[\"A-0019\",\"Födelsenotisens hänvisningskolumn lyder `93.3`, det vill säga sida 93, hushåll 3, i församlingens husförhörslängd. Den tidigare läsningen 263.3 är upphävd.\",\"TRANSCRIBED\",\"hög\",\"[C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md)\",\"Omläst i full upplösning 2026-09-08 i T-0149. Grannraderna i samma kolumn lyder 91.2, 179.2, 100.2, 96.2, 91.2, 261.2 och 267.3, vilket bekräftar formen sida.hushåll och att talet är tvåsiffrigt. Sida 93 i `A I/11c` är inte läst; [C-0003](../citations/C-0003-rosinedal-sida-103-negativ-kontroll.md) gäller enbart sida 103.\"]}",
+          "historical": 0,
+          "sha256": "db40a724527ce8cd0fee3c8c39322c21ff1ef4dc18beb65df657b68162291b78"
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "O-P-0001-C0002-household-reference@1",
+          "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "assets": [],
+      "nativeAssets": []
+    },
+    {
+      "id": "O-P-0001-C0002-household-reference@2",
+      "object_id": "O-P-0001-C0002-household-reference",
+      "version": 2,
+      "operation_id": "T-0677/C0002-source-copy-witness-v1",
+      "disposition": "recorded",
+      "evidence_status": "TRANSCRIBED",
+      "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.\nT-0677: Q03 anger A I/11c som huvudalternativ. Nuvarande objekt anger volymen utan motsvarande kvalifikation; targetRead=false eller oläst sida reserverar inte i sig volymidentifieringen. Endast volymhypotesen markeras uttryckligen, rå93.3 och olästgräns oförändrade.",
+      "caveat": "C-0003:s negativa kontroll gäller sida 103, inte hänvisad sida 93. A I/11c är huvudalternativ enligt P-0001/Q-03, inte verifierad volymtillhörighet för hänvisningen 93.3; annan volym eller numrering är möjlig. Hänvisad hushållspost är oläst. Rubriken anger en sidhänvisning men fastställer inte att .3 betyder hushåll 3. Den äldre hushållstolkningen är en obestyrkt hypotes; råvärdet 93.3 bevaras och hänvisad post är oläst.",
+      "previous_id": "O-P-0001-C0002-household-reference@1",
+      "data": {
+        "revision_id": "O-P-0001-C0002-household-reference@2",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": null,
+        "property": "source_reference",
+        "value_literal": "93.3",
+        "value_json": "{\"householdHypothesis\":3,\"householdInterpretationVerified\":false,\"literal\":\"93.3\",\"page\":93,\"rejectedReading\":\"263.3\",\"targetRead\":false,\"volumeHypothesis\":\"A I/11c\",\"volumeVerified\":false}"
+      },
+      "origins": [
+        {
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+          "id": "bf96f83e0db4d047d7d71348da1979a1f9844cef2e4fe4e3f608f5b769f6f998",
+          "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+          "kind": "assertion",
+          "legacy_id": "A-0019",
+          "owner_id": "P-0001",
+          "section": "Påståenden",
+          "start_byte": 9212,
+          "end_byte": 9808,
+          "start_line": 61,
+          "end_line": 61,
+          "raw": "| A-0019 | Födelsenotisens hänvisningskolumn lyder `93.3`, det vill säga sida 93, hushåll 3, i församlingens husförhörslängd. Den tidigare läsningen 263.3 är upphävd. | TRANSCRIBED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Omläst i full upplösning 2026-09-08 i T-0149. Grannraderna i samma kolumn lyder 91.2, 179.2, 100.2, 96.2, 91.2, 261.2 och 267.3, vilket bekräftar formen sida.hushåll och att talet är tvåsiffrigt. Sida 93 i `A I/11c` är inte läst; [C-0003](../citations/C-0003-rosinedal-sida-103-negativ-kontroll.md) gäller enbart sida 103. |\n",
+          "parsed_json": "{\"cells\":[\"A-0019\",\"Födelsenotisens hänvisningskolumn lyder `93.3`, det vill säga sida 93, hushåll 3, i församlingens husförhörslängd. Den tidigare läsningen 263.3 är upphävd.\",\"TRANSCRIBED\",\"hög\",\"[C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md)\",\"Omläst i full upplösning 2026-09-08 i T-0149. Grannraderna i samma kolumn lyder 91.2, 179.2, 100.2, 96.2, 91.2, 261.2 och 267.3, vilket bekräftar formen sida.hushåll och att talet är tvåsiffrigt. Sida 93 i `A I/11c` är inte läst; [C-0003](../citations/C-0003-rosinedal-sida-103-negativ-kontroll.md) gäller enbart sida 103.\"]}",
+          "historical": 0,
+          "sha256": "db40a724527ce8cd0fee3c8c39322c21ff1ef4dc18beb65df657b68162291b78"
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "O-P-0001-C0002-household-reference@2",
+          "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "O-P-0001-C0002-household-reference@2",
+          "basis_revision_id": "TR-T0677-C0002-consolidated-control@1",
+          "role": "supports",
+          "note": "C-0002:s nya versionsbundna transkription och reservationer; ingen extra oberoende röst."
+        }
+      ],
+      "assets": [],
+      "nativeAssets": []
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "task": "T-0780",
+  "candidate": {
+    "path": "evaluations/T-0780/implementation/resumed-five-TR-caveat-typo-queue-v1/five-TR-caveat-typo-operation-v1.json",
+    "sha256": "c5243af9747c08fca4cfcd1ec33e994faed984fa3a9b09c5d16a3644dfda0b19"
+  },
+  "source_decisions": {
+    "path": "evaluations/T-0780/source-review/resumed-five-TR-caveat-typo-decisions-v1.json",
+    "sha256": "f8fc7af5126b25ca7f32670a3194d3dbe650ec0a69f5e744983c487662905e25"
+  },
+  "own_prior_receipt": {
+    "path": "evaluations/T-0780/fresh-independent-review/resumed-C0563-twentyeight-transcription-dispositions-with-five-caveat-questions-v1.json",
+    "sha256": "93b130a33c95ded14bf087aa8ed8712b0ffd574416fe83b313774d4f26ff64fb"
+  },
+  "objects": [
+    {
+      "object_id": "TR-baaa8600f886cf76403ac679",
+      "actual_pointer": "/changes/0",
+      "expected_version": 2,
+      "whole_actual_API_equals_independent_reconstruction": true,
+      "full_current_semantics_exact_own_prior_receipt": "resumed-C0563-twentyeight-transcription-dispositions-with-five-caveat-questions-v1.json",
+      "disposition": "PASS_exact_caveat_correction_only",
+      "incoming_disposition": "zero current/all-history incoming; no dependency rebind"
+    },
+    {
+      "object_id": "TR-ae613125a724f4492e857e93",
+      "actual_pointer": "/changes/1",
+      "expected_version": 2,
+      "whole_actual_API_equals_independent_reconstruction": true,
+      "full_current_semantics_exact_own_prior_receipt": "resumed-C0563-twentyeight-transcription-dispositions-with-five-caveat-questions-v1.json",
+      "disposition": "PASS_exact_caveat_correction_only",
+      "incoming_disposition": "zero current/all-history incoming; no dependency rebind"
+    },
+    {
+      "object_id": "TR-8cbd9fa358ce39a51da2d217",
+      "actual_pointer": "/changes/2",
+      "expected_version": 2,
+      "whole_actual_API_equals_independent_reconstruction": true,
+      "full_current_semantics_exact_own_prior_receipt": "resumed-C0563-twentyeight-transcription-dispositions-with-five-caveat-questions-v1.json",
+      "disposition": "PASS_exact_caveat_correction_only",
+      "incoming_disposition": "zero current/all-history incoming; no dependency rebind"
+    },
+    {
+      "object_id": "TR-bf959f7acb45424339703d06",
+      "actual_pointer": "/changes/3",
+      "expected_version": 2,
+      "whole_actual_API_equals_independent_reconstruction": true,
+      "full_current_semantics_exact_own_prior_receipt": "resumed-C0563-twentyeight-transcription-dispositions-with-five-caveat-questions-v1.json",
+      "disposition": "PASS_exact_caveat_correction_only",
+      "incoming_disposition": "zero current/all-history incoming; no dependency rebind"
+    },
+    {
+      "object_id": "TR-0814fb9576e735ecb8218e7a",
+      "actual_pointer": "/changes/4",
+      "expected_version": 2,
+      "whole_actual_API_equals_independent_reconstruction": true,
+      "full_current_semantics_exact_own_prior_receipt": "resumed-C0563-twentyeight-transcription-dispositions-with-five-caveat-questions-v1.json",
+      "disposition": "PASS_exact_caveat_correction_only",
+      "incoming_disposition": "zero current/all-history incoming; no dependency rebind"
+    }
+  ],
+  "method": "All five actual ordered APIs independently reconstructed from exact current native fields and one literal caveat replacement. Current full semantics already read in own prior receipt; all metadata and corrected caveats read now.",
+  "findings_closed": 5,
+  "global_approval": false,
+  "prior_receipt": {
+    "path": "evaluations/T-0780/fresh-independent-review/resumed-five-TR-caveat-actual-independent-renewal-v1.json",
+    "sha256": "32cfeeb2a5d3e256ac6944a460b2047259efd29b7591fb8e52e51af6957c3c19"
+  },
+  "incoming_actual_input_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-five-TR-caveat-full-inputs-v1/five-entire-current-TR-caveat-and-candidate-and-all-incoming-native-inputs-v1.json",
+    "sha256": "6c4ae5ba41036a791616377b97b1f0b70619d56656282f3a3f4487b2a522b41d"
+  },
+  "actual_incoming_checked": [
+    {
+      "object_id": "TR-baaa8600f886cf76403ac679",
+      "current": 0,
+      "all_history": 0,
+      "exact_edges": []
+    },
+    {
+      "object_id": "TR-ae613125a724f4492e857e93",
+      "current": 0,
+      "all_history": 0,
+      "exact_edges": []
+    },
+    {
+      "object_id": "TR-8cbd9fa358ce39a51da2d217",
+      "current": 0,
+      "all_history": 0,
+      "exact_edges": []
+    },
+    {
+      "object_id": "TR-bf959f7acb45424339703d06",
+      "current": 0,
+      "all_history": 0,
+      "exact_edges": []
+    },
+    {
+      "object_id": "TR-0814fb9576e735ecb8218e7a",
+      "current": 0,
+      "all_history": 0,
+      "exact_edges": []
+    }
+  ],
+  "stronger_support_whole_native_read": [
+    "R-00c313b35d4036a4ee138da6@2",
+    "R-cfbcce8d6496f2c5ba0cf12d@2"
+  ],
+  "production_notes": [
+    "Verbose first audit body print truncated, no audit approval from that print; both TR support native records were printed fully before truncation."
+  ]
+}

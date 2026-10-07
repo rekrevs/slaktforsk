@@ -1,0 +1,11 @@
+--- evaluations/T-0788/implementation/stage_root_authorized_exact36_firstphase_v1.py
++++ evaluations/T-0788/implementation/stage_root_authorized_exact36_firstphase_v2.py
+@@ -76,7 +76,7 @@
+     assert [r['full_new_API'] for r in consequence['rows']] == op['changes']
+     assert consequence['media_registration_API'] == op['media'][0]
+     _, source_union = h.readpin(proposal['source_union_pin'])
+-    assert source_union['ready_for_draft'] is True and source_union['source_questions_open'] is False
++    assert source_union['ready_for_draft'] is True and source_union['source_questions_open'] == []
+     source_pins = [r['source_spec_pin'] for r in source_union['rows']] + [r['pin'] for r in source_union['individual_incoming_dispositions']]
+     source_pins += [source_union[k] for k in ['source_pin', 'criteria_pin', 'finite_source_relevance_retains_pin', 'queue_owner_scope_pin', 'guard_pin']]
+     assert [r['object_id'] for r in source_union['rows']] == ids

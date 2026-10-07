@@ -1,0 +1,75 @@
+{
+  "task": "T-0776",
+  "state": "COMPLETE_END_METER_PENDING",
+  "recorded_at_utc": "2026-10-02T08:01:49.568540+00:00",
+  "started_at_utc": "2026-10-02T06:41:10.017070+00:00",
+  "elapsed_seconds_through_report": 4628.635577,
+  "baseline_percent": 39,
+  "baseline_quality": "Provisional latest owner reading before continuation chat, not exact fresh task-only baseline. Preparation counts.",
+  "end_percent": null,
+  "root_model_and_usage": "UNKNOWN; not zero",
+  "usage_snapshot": "usage-final-v1.json",
+  "usage_agents": [
+    {
+      "agent": "/root/hybrid_sol_lead",
+      "model": "gpt-6.1-sol",
+      "response_records": 162,
+      "usage": {
+        "input_tokens": 17603603,
+        "cached_input_tokens": 16948096,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 55469,
+        "reasoning_output_tokens": 4550,
+        "total_tokens": 17659072,
+        "uncached_input_tokens_derived": 655507
+      }
+    },
+    {
+      "agent": "/root/hybrid_astra_sources",
+      "model": "gpt-6-astra",
+      "response_records": 75,
+      "usage": {
+        "input_tokens": 10416942,
+        "cached_input_tokens": 10124544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 32853,
+        "reasoning_output_tokens": 1822,
+        "total_tokens": 10449795,
+        "uncached_input_tokens_derived": 292398
+      }
+    },
+    {
+      "agent": "/root/hybrid_astra_final",
+      "model": "gpt-6-astra",
+      "response_records": 98,
+      "usage": {
+        "input_tokens": 13234924,
+        "cached_input_tokens": 12653312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 33841,
+        "reasoning_output_tokens": 2893,
+        "total_tokens": 13268765,
+        "uncached_input_tokens_derived": 581612
+      }
+    }
+  ],
+  "production_scope": "All preparation, primary Astra source decisions, Sol implementation and failed technical apply, independent final Astra findings/rebind/final review and closure count production.",
+  "phase_timing": {
+    "task_start": "2026-10-02T06:41:10.017070+00:00",
+    "source_start_approx": "2026-10-02T06:55:00+00:00",
+    "source_handoff_complete": "2026-10-02T07:36:03.043647+00:00",
+    "independent_final_receipt": "2026-10-02T07:49:55.993687+00:00",
+    "root_apply_gate": "2026-10-02T07:51:27.102833+00:00",
+    "root_actual_confirmation": "2026-10-02T07:54:52.723000+00:00",
+    "report": "2026-10-02T07:58:18.652647+00:00"
+  },
+  "limits": [
+    "Phases overlap; their elapsed times must not be summed.",
+    "Only exact new T776 turns/response usage, no old T775 cumulative totals.",
+    "Cached input separated; reasoning is output subset, not double counted.",
+    "Root unknown means logged agent sums are not whole-pilot total.",
+    "No matched all-Astra baseline; grouped post sizes differ from T775; no causal halving or quality superiority conclusion.",
+    "Completed agent responses collected; root closure/final reply model and tokens unknown."
+  ],
+  "elapsed_seconds_through_final_usage_capture": 4839.551
+}

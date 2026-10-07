@@ -1,0 +1,948 @@
+{
+  "task": "T-0781",
+  "scope": "Fourteen exact small C0049 source-field consequences, not new person/contract approval.",
+  "source_decision_pin": {
+    "path": "evaluations/T-0781/source-review/C0049-primary-settled-source-extraction-v3.json",
+    "sha256": "239e80e48f8a40d73d252b4309d40cb8f5d9d32e46d02ab01ce0c8008903790e"
+  },
+  "input_pin": {
+    "path": "evaluations/T-0781/mechanical-current425-preparation-v1/full-finite-current-history-and-complete-upstream-support-native-dictionary-v1.json",
+    "sha256": "d8178aab2060f15787b800def52585faec449af9703d06a5e5cb586acb12b7a2"
+  },
+  "objects": [
+    {
+      "object_id": "M-P-0052-C0049",
+      "current": {
+        "id": "M-P-0052-C0049@1",
+        "object_id": "M-P-0052-C0049",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Namnet återges från just denna källpost. Ingen separat källroll har utvunnits till detta fält.",
+        "previous_id": null,
+        "kind": "mention",
+        "data": {
+          "revision_id": "M-P-0052-C0049@1",
+          "record_id": "R-d9840df54c7f19f2454c4d2d",
+          "name_literal": "Catharina Johanna",
+          "role_literal": ""
+        },
+        "origins": [
+          {
+            "revision_id": "M-P-0052-C0049@1",
+            "unit_id": "d6242c3f67115804042d9ede98fedc8f9f93e9cfee91fa77401505550d72a59d",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "M-P-0052-C0049@1",
+            "unit_id": "1ebd5fe6d94df4eb7b3a98eb4f0bf6d929395e2af5e503b13312e3c3d537ec4c",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0052-C0049@1",
+            "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ]
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.role_literal",
+          "old": "",
+          "new": "D:r"
+        },
+        {
+          "field": "caveat",
+          "old": "Namnet återges från just denna källpost. Ingen separat källroll har utvunnits till detta fält.",
+          "new": "Namn och den uttryckliga rollen D:r återges från den egna C0049raden. Patronymikon och kön härleds inte som utskrivna källfält."
+        }
+      ],
+      "evidence_rebinds": [],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Egen dotterroll är faktiskt läst; Befintlig egen namnform bevaras. Gamla R49@1 kvar som historiskt stöd.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "O-P-0052-C0049",
+      "current": {
+        "id": "O-P-0052-C0049@1",
+        "object_id": "O-P-0052-C0049",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Bygdeå är citationens normalisering av ditto, inte en här kontrollerad födelsenotis. Volymperioden är inte belagd boendetid.",
+        "previous_id": null,
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0052-C0049@1",
+          "record_id": "R-d9840df54c7f19f2454c4d2d",
+          "mention_id": "M-P-0052-C0049",
+          "property": "household_row",
+          "value_literal": "Catharina Johanna; 1865-05-11; [Bygdeå]",
+          "value_json": "{\"folio\":\"591\",\"household\":\"Anders Andersson och Barbru Catharina Olofsd:r\",\"place\":\"Jomark\",\"reported_birth\":\"1865-05-11\",\"reported_birth_place\":\"Bygdeå, normaliserat ditto\",\"role\":\"dotter\"}"
+        },
+        "origins": [
+          {
+            "revision_id": "O-P-0052-C0049@1",
+            "unit_id": "d6242c3f67115804042d9ede98fedc8f9f93e9cfee91fa77401505550d72a59d",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "O-P-0052-C0049@1",
+            "unit_id": "1ebd5fe6d94df4eb7b3a98eb4f0bf6d929395e2af5e503b13312e3c3d537ec4c",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0052-C0049@1",
+            "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "revision_id": "O-P-0052-C0049@1",
+            "basis_revision_id": "M-P-0052-C0049@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          }
+        ]
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.value_literal",
+          "old": "Catharina Johanna; 1865-05-11; [Bygdeå]",
+          "new": "Catharina Johanna; 1865-05-11; [egen födelseortscell blank]"
+        },
+        {
+          "field": "data.value_json",
+          "old": "{\"folio\":\"591\",\"household\":\"Anders Andersson och Barbru Catharina Olofsd:r\",\"place\":\"Jomark\",\"reported_birth\":\"1865-05-11\",\"reported_birth_place\":\"Bygdeå, normaliserat ditto\",\"role\":\"dotter\"}",
+          "new": "{\"folio\":\"591\",\"household\":\"Anders Andersson och Barbru Catharina Olofsd:r\",\"place\":\"Jomark\",\"reported_birth\":\"1865-05-11\",\"reported_birth_place\":null,\"role\":\"dotter\"}"
+        },
+        {
+          "field": "caveat",
+          "old": "Bygdeå är citationens normalisering av ditto, inte en här kontrollerad födelsenotis. Volymperioden är inte belagd boendetid.",
+          "new": "Egen C0049födelseortscell är blank utan belagt eget ditto; äldre Bygdeånormalisering från ditto dras tillbaka för just denna rad. Egen födelsenotis är ännu inte läst. Volymperioden är inte belagd sammanhängande boendetid."
+        }
+      ],
+      "evidence_rebinds": [
+        {
+          "old": {
+            "revision_id": "O-P-0052-C0049@1",
+            "basis_revision_id": "M-P-0052-C0049@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          "new_basis_revision_id": "M-P-0052-C0049@2",
+          "preserve_role_note_and_position": true,
+          "source_reason": "Same source/person/role; exact newly corrected own-row fields or birth date, no new independent identity or upgraded status."
+        }
+      ],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Explicit egenradsavskrift och rättad ortsgrund. Familj, folio, hushållsort och dotterrelation bevaras; ingen ny födelsenotis.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "M-P-0053-C0049",
+      "current": {
+        "id": "M-P-0053-C0049@1",
+        "object_id": "M-P-0053-C0049",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Namnet återges från just denna källpost. Ingen separat källroll har utvunnits till detta fält.",
+        "previous_id": null,
+        "kind": "mention",
+        "data": {
+          "revision_id": "M-P-0053-C0049@1",
+          "record_id": "R-d9840df54c7f19f2454c4d2d",
+          "name_literal": "Anna Albertina",
+          "role_literal": ""
+        },
+        "origins": [
+          {
+            "revision_id": "M-P-0053-C0049@1",
+            "unit_id": "dba06f14e9f33de5388c0ad54c561738ba6b61a151d3aee2c21f433863243e47",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "M-P-0053-C0049@1",
+            "unit_id": "c533d0df0fa66b32f7175f8ba885fc14bc4579af20a382446c1880578ac905b9",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0053-C0049@1",
+            "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ]
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.role_literal",
+          "old": "",
+          "new": "D:r"
+        },
+        {
+          "field": "caveat",
+          "old": "Namnet återges från just denna källpost. Ingen separat källroll har utvunnits till detta fält.",
+          "new": "Namn och den uttryckliga rollen D:r återges från den egna C0049raden. Patronymikon och kön härleds inte som utskrivna källfält."
+        }
+      ],
+      "evidence_rebinds": [],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Egen dotterroll är faktiskt läst; Befintlig egen namnform bevaras. Gamla R49@1 kvar som historiskt stöd.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "O-P-0053-C0049",
+      "current": {
+        "id": "O-P-0053-C0049@1",
+        "object_id": "O-P-0053-C0049",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Bygdeå är citationens normalisering av ditto, inte en här kontrollerad födelsenotis. Volymperioden är inte belagd boendetid.",
+        "previous_id": null,
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0053-C0049@1",
+          "record_id": "R-d9840df54c7f19f2454c4d2d",
+          "mention_id": "M-P-0053-C0049",
+          "property": "household_row",
+          "value_literal": "Anna Albertina; 1871-09-28; [Bygdeå]",
+          "value_json": "{\"folio\":\"591\",\"household\":\"Anders Andersson och Barbru Catharina Olofsd:r\",\"place\":\"Jomark\",\"reported_birth\":\"1871-09-28\",\"reported_birth_place\":\"Bygdeå, normaliserat ditto\",\"role\":\"dotter\"}"
+        },
+        "origins": [
+          {
+            "revision_id": "O-P-0053-C0049@1",
+            "unit_id": "dba06f14e9f33de5388c0ad54c561738ba6b61a151d3aee2c21f433863243e47",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "O-P-0053-C0049@1",
+            "unit_id": "c533d0df0fa66b32f7175f8ba885fc14bc4579af20a382446c1880578ac905b9",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0053-C0049@1",
+            "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "revision_id": "O-P-0053-C0049@1",
+            "basis_revision_id": "M-P-0053-C0049@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          }
+        ]
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.value_literal",
+          "old": "Anna Albertina; 1871-09-28; [Bygdeå]",
+          "new": "Anna Albertina; 1871-09-28; [egen födelseortscell blank]"
+        },
+        {
+          "field": "data.value_json",
+          "old": "{\"folio\":\"591\",\"household\":\"Anders Andersson och Barbru Catharina Olofsd:r\",\"place\":\"Jomark\",\"reported_birth\":\"1871-09-28\",\"reported_birth_place\":\"Bygdeå, normaliserat ditto\",\"role\":\"dotter\"}",
+          "new": "{\"folio\":\"591\",\"household\":\"Anders Andersson och Barbru Catharina Olofsd:r\",\"place\":\"Jomark\",\"reported_birth\":\"1871-09-28\",\"reported_birth_place\":null,\"role\":\"dotter\"}"
+        },
+        {
+          "field": "caveat",
+          "old": "Bygdeå är citationens normalisering av ditto, inte en här kontrollerad födelsenotis. Volymperioden är inte belagd boendetid.",
+          "new": "Egen C0049födelseortscell är blank utan belagt eget ditto; äldre Bygdeånormalisering från ditto dras tillbaka för just denna rad. Egen födelsenotis är ännu inte läst. Volymperioden är inte belagd sammanhängande boendetid."
+        }
+      ],
+      "evidence_rebinds": [
+        {
+          "old": {
+            "revision_id": "O-P-0053-C0049@1",
+            "basis_revision_id": "M-P-0053-C0049@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          "new_basis_revision_id": "M-P-0053-C0049@2",
+          "preserve_role_note_and_position": true,
+          "source_reason": "Same source/person/role; exact newly corrected own-row fields or birth date, no new independent identity or upgraded status."
+        }
+      ],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Explicit egenradsavskrift och rättad ortsgrund. Familj, folio, hushållsort och dotterrelation bevaras; ingen ny födelsenotis.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "M-P-0057-C0049",
+      "current": {
+        "id": "M-P-0057-C0049@1",
+        "object_id": "M-P-0057-C0049",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Namnet återges från just denna källpost. Ingen separat källroll har utvunnits till detta fält.",
+        "previous_id": null,
+        "kind": "mention",
+        "data": {
+          "revision_id": "M-P-0057-C0049@1",
+          "record_id": "R-d9840df54c7f19f2454c4d2d",
+          "name_literal": "Margareta Euphrosyne",
+          "role_literal": ""
+        },
+        "origins": [
+          {
+            "revision_id": "M-P-0057-C0049@1",
+            "unit_id": "c8264ec51c69dd317d35f348d31b012d599e8e94e79cb9d7c93bb67d722e3159",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "M-P-0057-C0049@1",
+            "unit_id": "6bf81a2c97857a8f6ef51bb59b9c933b9b2e164a03d52a6da9b6c7fa18bef9b1",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "M-P-0057-C0049@1",
+            "unit_id": "52fe23445b76cd9bd8cf595a82b2c71102e6f6a10957a4518d58bd4b027ee9e4",
+            "coverage": "partial",
+            "note": "Dotter och hushåll avgränsade till barndomslängden."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0057-C0049@1",
+            "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ]
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.role_literal",
+          "old": "",
+          "new": "D:r"
+        },
+        {
+          "field": "caveat",
+          "old": "Namnet återges från just denna källpost. Ingen separat källroll har utvunnits till detta fält.",
+          "new": "Namn och den uttryckliga rollen D:r återges från den egna C0049raden. Patronymikon och kön härleds inte som utskrivna källfält."
+        },
+        {
+          "field": "data.name_literal",
+          "old": "Margareta Euphrosyne",
+          "new": "Magdalena Euphrosyne"
+        }
+      ],
+      "evidence_rebinds": [],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Egen dotterroll är faktiskt läst; Magdalena ersätter äldre feltolkning Margareta på samma rad. Gamla R49@1 kvar som historiskt stöd.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "O-P-0057-C0049",
+      "current": {
+        "id": "O-P-0057-C0049@1",
+        "object_id": "O-P-0057-C0049",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Bygdeå är citationens normalisering av ditto, inte en här kontrollerad födelsenotis. Volymperioden är inte belagd boendetid.",
+        "previous_id": null,
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0057-C0049@1",
+          "record_id": "R-d9840df54c7f19f2454c4d2d",
+          "mention_id": "M-P-0057-C0049",
+          "property": "household_row",
+          "value_literal": "Margareta Euphrosyne; 1863-05-24; [Bygdeå]",
+          "value_json": "{\"folio\":\"591\",\"household\":\"Anders Andersson och Barbru Catharina Olofsd:r\",\"place\":\"Jomark\",\"reported_birth\":\"1863-05-24\",\"reported_birth_place\":\"Bygdeå, normaliserat ditto\",\"role\":\"dotter\"}"
+        },
+        "origins": [
+          {
+            "revision_id": "O-P-0057-C0049@1",
+            "unit_id": "c8264ec51c69dd317d35f348d31b012d599e8e94e79cb9d7c93bb67d722e3159",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "O-P-0057-C0049@1",
+            "unit_id": "6bf81a2c97857a8f6ef51bb59b9c933b9b2e164a03d52a6da9b6c7fa18bef9b1",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "O-P-0057-C0049@1",
+            "unit_id": "52fe23445b76cd9bd8cf595a82b2c71102e6f6a10957a4518d58bd4b027ee9e4",
+            "coverage": "partial",
+            "note": "Dotter och hushåll avgränsade till barndomslängden."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0057-C0049@1",
+            "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "revision_id": "O-P-0057-C0049@1",
+            "basis_revision_id": "M-P-0057-C0049@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          }
+        ]
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.value_literal",
+          "old": "Margareta Euphrosyne; 1863-05-24; [Bygdeå]",
+          "new": "Magdalena Euphrosyne; 1863-05-29; B:å"
+        },
+        {
+          "field": "data.value_json",
+          "old": "{\"folio\":\"591\",\"household\":\"Anders Andersson och Barbru Catharina Olofsd:r\",\"place\":\"Jomark\",\"reported_birth\":\"1863-05-24\",\"reported_birth_place\":\"Bygdeå, normaliserat ditto\",\"role\":\"dotter\"}",
+          "new": "{\"folio\":\"591\",\"household\":\"Anders Andersson och Barbru Catharina Olofsd:r\",\"place\":\"Jomark\",\"reported_birth\":\"1863-05-29\",\"reported_birth_place\":\"Bygdeå, normaliserat från egen B:å-förkortning\",\"role\":\"dotter\"}"
+        },
+        {
+          "field": "caveat",
+          "old": "Bygdeå är citationens normalisering av ditto, inte en här kontrollerad födelsenotis. Volymperioden är inte belagd boendetid.",
+          "new": "Egen C0049rad läses Magdalena Euphrosyne,1863 29/5 och B:å; äldre Margareta24/5 och påstått ditto var avläsningsfel. Egen födelsenotis är ännu inte läst. Volymperioden är inte belagd sammanhängande boendetid."
+        }
+      ],
+      "evidence_rebinds": [
+        {
+          "old": {
+            "revision_id": "O-P-0057-C0049@1",
+            "basis_revision_id": "M-P-0057-C0049@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          "new_basis_revision_id": "M-P-0057-C0049@2",
+          "preserve_role_note_and_position": true,
+          "source_reason": "Same source/person/role; exact newly corrected own-row fields or birth date, no new independent identity or upgraded status."
+        }
+      ],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Explicit egenradsavskrift och rättad ortsgrund. Familj, folio, hushållsort och dotterrelation bevaras; ingen ny födelsenotis.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "O-P-0048-A-0248-child_family",
+      "current": {
+        "id": "O-P-0048-A-0248-child_family@1",
+        "object_id": "O-P-0048-A-0248-child_family",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "recorded",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Återger uttrycklig befintlig personkunskap med dess gränser, utan ny forskning eller statusuppgradering.",
+        "caveat": "Hushållssidan är den direkta hänvisningen från födelsenotisen.",
+        "previous_id": null,
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0048-A-0248-child_family@1",
+          "record_id": "R-d9840df54c7f19f2454c4d2d",
+          "mention_id": null,
+          "property": "child_family",
+          "value_literal": "Som barn bodde han i Jomark med föräldrarna och systrarna Margareta Euphrosyne, Catharina Johanna och Anna Albertina.",
+          "value_json": null
+        },
+        "origins": [
+          {
+            "revision_id": "O-P-0048-A-0248-child_family@1",
+            "unit_id": "483238e229a1dfce15b1e86e2344ba38306e38263f579693f0516904137bd91d",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0048-A-0248-child_family@1",
+            "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+            "role": "supports",
+            "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+          }
+        ]
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.value_literal",
+          "old": "Som barn bodde han i Jomark med föräldrarna och systrarna Margareta Euphrosyne, Catharina Johanna och Anna Albertina.",
+          "new": "Som barn bodde han i Jomark med föräldrarna och systrarna Magdalena Euphrosyne, Catharina Johanna och Anna Albertina."
+        }
+      ],
+      "evidence_rebinds": [],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Samma syster i samma familjerad, endast förnamnsavläsningen rättas; gamla R49@1 behålls historiskt.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "F-P-0048-relation_context-64",
+      "current": {
+        "id": "F-P-0048-relation_context-64@1",
+        "object_id": "F-P-0048-relation_context-64",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återger uttrycklig befintlig personkunskap med dess gränser, utan ny forskning eller statusuppgradering.",
+        "caveat": "",
+        "previous_id": null,
+        "kind": "fact",
+        "data": {
+          "revision_id": "F-P-0048-relation_context-64@1",
+          "subject_id": "P-0048",
+          "property": "relation_context",
+          "value_type": "text",
+          "value_json": "\"| [P-0057 Margareta Euphrosyne Andersdotter](P-0057-margareta-euphrosyne-andersdotter.md) | syster | barndomshushållet, Jomark | CORROBORATED | C-0049 |\""
+        },
+        "origins": [
+          {
+            "revision_id": "F-P-0048-relation_context-64@1",
+            "unit_id": "a7cc2111662a9aa2a3c30331351835b1c1eda4b28558090fc00a8e0687fb3b67",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.value_json",
+          "old": "\"| [P-0057 Margareta Euphrosyne Andersdotter](P-0057-margareta-euphrosyne-andersdotter.md) | syster | barndomshushållet, Jomark | CORROBORATED | C-0049 |\"",
+          "new": "\"| [P-0057 Magdalena Euphrosyne Andersdotter](P-0057-margareta-euphrosyne-andersdotter.md) | syster | barndomshushållet, Jomark | CORROBORATED | C-0049 |\""
+        }
+      ],
+      "evidence_rebinds": [],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Endast synlig namnform korrigeras; arkivlänkens gamla filnamn, systerrelation och tidigare relationstabellstatus bevaras. Detta uppgraderar inte P0057:s aktuella TRANSCRIBED-identitet.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "F-P-0057-name_form-given",
+      "current": {
+        "id": "F-P-0057-name_form-given@1",
+        "object_id": "F-P-0057-name_form-given",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "",
+        "previous_id": null,
+        "kind": "fact",
+        "data": {
+          "revision_id": "F-P-0057-name_form-given@1",
+          "subject_id": "P-0057",
+          "property": "name_form",
+          "value_type": "structured",
+          "value_json": "{\"context\":\"barndomshushållet, C-0049\",\"literal\":\"Margareta Euphrosyne\"}"
+        },
+        "origins": [
+          {
+            "revision_id": "F-P-0057-name_form-given@1",
+            "unit_id": "c8264ec51c69dd317d35f348d31b012d599e8e94e79cb9d7c93bb67d722e3159",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0057-name_form-given@1",
+            "unit_id": "6d6c018ca8e054454b0a4042cd43abc62a2abed089da10c1059480f3dedcaa15",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.value_json",
+          "old": "{\"context\":\"barndomshushållet, C-0049\",\"literal\":\"Margareta Euphrosyne\"}",
+          "new": "{\"context\":\"barndomshushållet, C-0049\",\"literal\":\"Magdalena Euphrosyne\"}"
+        }
+      ],
+      "evidence_rebinds": [],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Egen förnamnsform i samma avgränsade hushåll, TRANSCRIBED består.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "P-0057",
+      "current": {
+        "id": "P-0057@3",
+        "object_id": "P-0057",
+        "version": 3,
+        "operation_id": "T-0663/reviewed-corrections-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Beslutet avser personkärnan P-0057, dess avgränsade identitet och inget generellt omdöme om alla sakuppgifter. C0049 namnger Margareta Euphrosyne i den avgränsade föräldrafamiljen. C0044 binder hennes föräldrar och syskon vidare, men har ingen egen Margareta-rad. Familjekontinuiteten räcker för att förstå hennes rad och bevara relationerna; den är inget andra eget personbelägg. Varken kärnan eller den direkta M→P-länken har en ytterligare individuell identifikation som motiverar importens CORROBORATED. TRANSCRIBED föreslås för båda.",
+        "caveat": "Personen i Jomarkshushållet är identifierad, även om PK-05 och senare liv inte är godkända. Kön härleds inte ur namn eller dotterroll.",
+        "previous_id": "P-0057@2",
+        "kind": "person",
+        "data": {
+          "revision_id": "P-0057@3",
+          "display_name": "Margareta Euphrosyne Andersdotter",
+          "sex": null,
+          "legacy_state": "active"
+        },
+        "origins": [
+          {
+            "revision_id": "P-0057@3",
+            "unit_id": "7fdf68bf4ca0973a114feca22a27cd6ee982f93dc5e6d8c2cb25fdf523975a78",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.display_name",
+          "old": "Margareta Euphrosyne Andersdotter",
+          "new": "Magdalena Euphrosyne Andersdotter"
+        },
+        {
+          "field": "rationale",
+          "old": "Beslutet avser personkärnan P-0057, dess avgränsade identitet och inget generellt omdöme om alla sakuppgifter. C0049 namnger Margareta Euphrosyne i den avgränsade föräldrafamiljen. C0044 binder hennes föräldrar och syskon vidare, men har ingen egen Margareta-rad. Familjekontinuiteten räcker för att förstå hennes rad och bevara relationerna; den är inget andra eget personbelägg. Varken kärnan eller den direkta M→P-länken har en ytterligare individuell identifikation som motiverar importens CORROBORATED. TRANSCRIBED föreslås för båda.",
+          "new": "Beslutet avser personkärnan P-0057, dess avgränsade identitet och inget generellt omdöme om alla sakuppgifter. C0049 namnger Magdalena Euphrosyne i den avgränsade föräldrafamiljen. C0044 binder hennes föräldrar och syskon vidare, men har ingen egen Magdalena-rad. Familjekontinuiteten räcker för att förstå hennes rad och bevara relationerna; den är inget andra eget personbelägg. Varken kärnan eller den direkta M→P-länken har en ytterligare individuell identifikation som motiverar importens CORROBORATED. TRANSCRIBED föreslås för båda."
+        }
+      ],
+      "evidence_rebinds": [],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Visningsnamn och motsvarande sakpremiss rättas. Samma person-ID, familjerad, accepted/TRANSCRIBED, sex=null och avgränsade identitetsbedömning; inget andra individuellt personbelägg.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "ID-P-0057-C0049",
+      "current": {
+        "id": "ID-P-0057-C0049@2",
+        "object_id": "ID-P-0057-C0049",
+        "version": 2,
+        "operation_id": "T-0663/reviewed-corrections-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Beslutet avser länken M-P-0057-C0049 → P-0057, med decision=accepted oförändrat. C0049 namnger Margareta Euphrosyne i den avgränsade föräldrafamiljen. C0044 binder hennes föräldrar och syskon vidare, men har ingen egen Margareta-rad. Familjekontinuiteten räcker för att förstå hennes rad och bevara relationerna; den är inget andra eget personbelägg. Varken kärnan eller den direkta M→P-länken har en ytterligare individuell identifikation som motiverar importens CORROBORATED. TRANSCRIBED föreslås för båda.",
+        "caveat": "Avgränsad identitet i den bevarade källposten.",
+        "previous_id": "ID-P-0057-C0049@1",
+        "kind": "identity",
+        "data": {
+          "revision_id": "ID-P-0057-C0049@2",
+          "mention_id": "M-P-0057-C0049",
+          "person_id": "P-0057",
+          "decision": "accepted"
+        },
+        "origins": [
+          {
+            "revision_id": "ID-P-0057-C0049@2",
+            "unit_id": "52fe23445b76cd9bd8cf595a82b2c71102e6f6a10957a4518d58bd4b027ee9e4",
+            "coverage": "partial",
+            "note": "Dotter och hushåll avgränsade till barndomslängden."
+          },
+          {
+            "revision_id": "ID-P-0057-C0049@2",
+            "unit_id": "6bf81a2c97857a8f6ef51bb59b9c933b9b2e164a03d52a6da9b6c7fa18bef9b1",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "ID-P-0057-C0049@2",
+            "unit_id": "c8264ec51c69dd317d35f348d31b012d599e8e94e79cb9d7c93bb67d722e3159",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "ID-P-0057-C0049@2",
+            "basis_revision_id": "M-P-0057-C0049@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          }
+        ]
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "rationale",
+          "old": "Beslutet avser länken M-P-0057-C0049 → P-0057, med decision=accepted oförändrat. C0049 namnger Margareta Euphrosyne i den avgränsade föräldrafamiljen. C0044 binder hennes föräldrar och syskon vidare, men har ingen egen Margareta-rad. Familjekontinuiteten räcker för att förstå hennes rad och bevara relationerna; den är inget andra eget personbelägg. Varken kärnan eller den direkta M→P-länken har en ytterligare individuell identifikation som motiverar importens CORROBORATED. TRANSCRIBED föreslås för båda.",
+          "new": "Beslutet avser länken M-P-0057-C0049 → P-0057, med decision=accepted oförändrat. C0049 namnger Magdalena Euphrosyne i den avgränsade föräldrafamiljen. C0044 binder hennes föräldrar och syskon vidare, men har ingen egen Magdalena-rad. Familjekontinuiteten räcker för att förstå hennes rad och bevara relationerna; den är inget andra eget personbelägg. Varken kärnan eller den direkta M→P-länken har en ytterligare individuell identifikation som motiverar importens CORROBORATED. TRANSCRIBED föreslås för båda."
+        }
+      ],
+      "evidence_rebinds": [
+        {
+          "old": {
+            "revision_id": "ID-P-0057-C0049@2",
+            "basis_revision_id": "M-P-0057-C0049@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          "new_basis_revision_id": "M-P-0057-C0049@2",
+          "preserve_role_note_and_position": true,
+          "source_reason": "Same source/person/role; exact newly corrected own-row fields or birth date, no new independent identity or upgraded status."
+        }
+      ],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Samma direkta M→P-länk; rättat namn ändrar inte accepted/TRANSCRIBED eller avgränsad identitet. Explicit M@2-bindning till samma egenrad.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "E-birth-P-0057",
+      "current": {
+        "id": "E-birth-P-0057@1",
+        "object_id": "E-birth-P-0057",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst.",
+        "previous_id": null,
+        "kind": "event",
+        "data": {
+          "revision_id": "E-birth-P-0057@1",
+          "event_type": "birth",
+          "date_json": "{\"literal\":\"1863-05-24\",\"precision\":\"exact\",\"value\":\"1863-05-24\"}",
+          "place_id": "PL-Bygdea",
+          "place_role": "place_of_event"
+        },
+        "origins": [
+          {
+            "revision_id": "E-birth-P-0057@1",
+            "unit_id": "6bf81a2c97857a8f6ef51bb59b9c933b9b2e164a03d52a6da9b6c7fa18bef9b1",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.date_json",
+          "old": "{\"literal\":\"1863-05-24\",\"precision\":\"exact\",\"value\":\"1863-05-24\"}",
+          "new": "{\"literal\":\"1863-05-29\",\"precision\":\"exact\",\"value\":\"1863-05-29\"}"
+        }
+      ],
+      "evidence_rebinds": [],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Datum rättas från senare hushållsuppgift; samma Bygdeå från egenB:å, accepted/TRANSCRIBED och caveat egen födelsenotis oläst består.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "EP-E-birth-P-0057-P-0057-principal",
+      "current": {
+        "id": "EP-E-birth-P-0057-P-0057-principal@1",
+        "object_id": "EP-E-birth-P-0057-P-0057-principal",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst.",
+        "previous_id": null,
+        "kind": "participation",
+        "data": {
+          "revision_id": "EP-E-birth-P-0057-P-0057-principal@1",
+          "event_id": "E-birth-P-0057",
+          "person_id": "P-0057",
+          "mention_id": null,
+          "role": "principal"
+        },
+        "origins": [
+          {
+            "revision_id": "EP-E-birth-P-0057-P-0057-principal@1",
+            "unit_id": "6bf81a2c97857a8f6ef51bb59b9c933b9b2e164a03d52a6da9b6c7fa18bef9b1",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "EP-E-birth-P-0057-P-0057-principal@1",
+            "basis_revision_id": "E-birth-P-0057@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          }
+        ]
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [],
+      "evidence_rebinds": [
+        {
+          "old": {
+            "revision_id": "EP-E-birth-P-0057-P-0057-principal@1",
+            "basis_revision_id": "E-birth-P-0057@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          },
+          "new_basis_revision_id": "E-birth-P-0057@2",
+          "preserve_role_note_and_position": true,
+          "source_reason": "Same source/person/role; exact newly corrected own-row fields or birth date, no new independent identity or upgraded status."
+        }
+      ],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Uttrycklig följd av E@2:s datumrättelse; P0057, principal och hela övriga metadata kvar.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    },
+    {
+      "object_id": "F-P-0050-relation_context-P-0057",
+      "current": {
+        "id": "F-P-0050-relation_context-P-0057@1",
+        "object_id": "F-P-0050-relation_context-P-0057",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återger uttrycklig befintlig personkunskap med dess gränser, utan ny forskning eller statusuppgradering.",
+        "caveat": "Tid och plats återger källkontext; motpartens födelse blir inte en separat accepterad födelsehändelse. Brita Marias överstrykning har inte tolkats som död.",
+        "previous_id": null,
+        "kind": "fact",
+        "data": {
+          "revision_id": "F-P-0050-relation_context-P-0057@1",
+          "subject_id": "P-0050",
+          "property": "relation_context",
+          "value_type": "structured",
+          "value_json": "{\"relation\":\"dotter\",\"reported_context\":\"Jomark; uppges född 1863-05-24\"}"
+        },
+        "origins": [
+          {
+            "revision_id": "F-P-0050-relation_context-P-0057@1",
+            "unit_id": "06382e756dd2d23423f2475c6aa82f7c2c7a0d843b029d011bdba4e7c3efc605",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "decision": "exact_bounded_source_field_revision",
+      "edits": [
+        {
+          "field": "data.value_json",
+          "old": "{\"relation\":\"dotter\",\"reported_context\":\"Jomark; uppges född 1863-05-24\"}",
+          "new": "{\"relation\":\"dotter\",\"reported_context\":\"Jomark; uppges född 1863-05-29\"}"
+        }
+      ],
+      "evidence_rebinds": [],
+      "evidence_addition": {
+        "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+        "role": "supports",
+        "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+      },
+      "reason": "Relationkontextens hushållsuppgivna dotterdatum rättas; ingen ny separat födelsekälla eller ändrad relation.",
+      "preserve": "All other complete native/API fields, disposition/evidence_status, ordered origins and evidence retained. Only explicitly listed edge replacements, in their original positions; append the specified support after retained/rebound prefix.",
+      "incoming_requirement": "Full current and all-history incoming must be individually disposed before dependent build; no automatic rebind."
+    }
+  ],
+  "execution_order": "R49@2 then fullTR49@1; M52/53/57@2 and E57@2 before their new O/ID/EP consumers; all other rows after fullTR.",
+  "extra_exact_input_pin": {
+    "path": "evaluations/T-0781/bounded-consequence-inputs-v1/four-source-wrappers-P0057-birth-EP-relation-exact-current-and-allhistory-incoming-v1.json",
+    "sha256": "6a11f2ab6789454c14b6ad30c78d31e025a62a02e2fc49ec9f7a4d343006d091"
+  },
+  "initial_preparation_failure": "Original finite dictionary does not contain E57 wrapper; initial guard failed before output. Corrected by explicitly reading already frozen extra exact current input, no inferred payload. Initial script preserved.",
+  "runtime_authorized": false
+}

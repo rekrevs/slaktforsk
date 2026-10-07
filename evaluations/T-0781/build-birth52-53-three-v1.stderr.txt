@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/sverker/repos/slaktforsk/evaluations/T-0781/build_birth52_53_settled_three_drafts_v1.py", line 18, in <module>
+    old,new=revise({**x,'evidence_addition':None},n)
+            ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "evaluations/T-0781/build_settled_core_and_PATH98_drafts_v2.py", line 25, in revise
+    indices=[i for i,x in enumerate(n['evidence']) if x==binding['old']];assert len(indices)==1 and binding['preserve_role_note_and_position'] is True
+                                                         ~~~~~~~^^^^^^^
+KeyError: 'old'

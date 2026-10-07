@@ -1,0 +1,21 @@
+{
+  "task": "T-0780",
+  "prior_production_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-C0044-two-gap-copy-queue-v1/bounded-two-copy-production-receipt-v1.json",
+    "sha256": "9ccfcb645c0f63f07353759f678e21591be5f570a1e80833d89a4d6c1dfe3ca5"
+  },
+  "failed_attempts": [
+    {
+      "file": "evaluations/T-0780/implementation/build_resumed_C0044_two_gaps_v1.py",
+      "phase": "priorpin guard",
+      "result": "FileNotFoundError: global current126→127 string replacement accidentally modified required priorproposal filename. Guard stopped before module-directory/candidatewrite. Failedscript preserved; additivev2 changes exactPRIOR line only."
+    }
+  ],
+  "corrected_script_pin": {
+    "path": "evaluations/T-0780/implementation/build_resumed_C0044_two_gaps_v2.py",
+    "sha256": "7004122de950c347aa4b026798c92433dd4d598ae9c205d7d4db6aaa37418a57"
+  },
+  "source_and_candidate_payloads_unchanged_by_failure": true,
+  "elapsed_initialprep_unknown_not_zero": true,
+  "saved_at": "2026-10-04T09:03:30.016909+00:00"
+}

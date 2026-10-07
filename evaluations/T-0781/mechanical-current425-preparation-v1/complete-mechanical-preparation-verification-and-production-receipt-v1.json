@@ -1,0 +1,72 @@
+{
+  "task": "T-0781",
+  "at_utc": "2026-10-04T14:31:18.189152+00:00",
+  "preparation_complete_pin": {
+    "path": "evaluations/T-0781/mechanical-current425-preparation-v1/complete-bounded-two-current-preparation-index-v1.json",
+    "sha256": "639532cbc0eee8d34cdfccd3d5a6f39541baa5887134eb6e3b933bfc68979322"
+  },
+  "root_source_release_pin": {
+    "path": "evaluations/T-0781/root-AC1-exact-two-current425-source-release-v1.json",
+    "sha256": "92c82073c530343713c06adad581e52cddb9dd80f745bff34f081a40ebdc2109"
+  },
+  "status": "COMPLETE_MECHANICAL_PREPARATION_ROOT_RELEASE_SUPERSEDES_INITIAL_AWAIT_RELEASE_LABEL",
+  "v1_failed_attempt": {
+    "helper_pin": {
+      "path": "evaluations/T-0781/prepare_exact_two_current_inputs_v1.py",
+      "sha256": "9c2c6621469aa83bc39eaeb011d94ae1908cb7bd03af65f4a81e30c856f12a2f"
+    },
+    "stdout_pin": {
+      "path": "evaluations/T-0781/prepare-exact-two-current-v1.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr_pin": {
+      "path": "evaluations/T-0781/prepare-exact-two-current-v1.stderr.txt",
+      "sha256": "c9bc89bbd58ba74dbae4aeb421d890668ba9790043472680272d70d89d096e33"
+    },
+    "exit_code": 1,
+    "failure": "Prior snapshot omits assets/media on8record objects; fullnative comparison incorrectly tried iterating missing arrays. No source/native mismatch."
+  },
+  "v2_completed_attempt": {
+    "helper_pin": {
+      "path": "evaluations/T-0781/prepare_exact_two_current_inputs_v2.py",
+      "sha256": "4b3a80b0bb0f8e761d8d83b870d1300d5b13731ccfd6ba7c1d39638d658f0d52"
+    },
+    "stdout_pin": {
+      "path": "evaluations/T-0781/prepare-exact-two-current-v2.stdout.txt",
+      "sha256": "8d6c3d53e8ce2c78c4d19e89c1cc9d1a1e2fcfe569e514887f674a380372e76b"
+    },
+    "stderr_pin": {
+      "path": "evaluations/T-0781/prepare-exact-two-current-v2.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "exit_code": 0,
+    "mechanical_diff_pin": {
+      "path": "evaluations/T-0781/mechanical-current425-preparation-v1/immutable-helper-v1-v2-mechanical-resumption.diff",
+      "sha256": "627a3accefbcadc1daa99dd07c97623a5bd19255f48a25b23def3e1d458d6a15"
+    },
+    "completed_prior_CLI_views_and_clone_reused_without_rerun": true
+  },
+  "prior250_shared_fields_exact": 250,
+  "prior250_missing_assets_media_wrappers": 8,
+  "no_full_payload_equality_claim_for8": true,
+  "counts": {
+    "routed_persons": 13,
+    "selected_current_object_routes": 1242,
+    "complete_native_current_history_support_revisions": 1816,
+    "lexical_field_routed_current_objects": 1242,
+    "prior_current_snapshot_objects": 250
+  },
+  "canonical_all50_unchanged": true,
+  "actual_state": {
+    "journal_head": 425,
+    "pending": 0
+  },
+  "source_relevance_or_reading_credit_from_routing": false,
+  "canonical_writes": 0,
+  "Wotan_writes": 0,
+  "original_opens": 0,
+  "operations_constructed": 0,
+  "next_step": "Astra interprets released exact2; Sol awaits explicit settled decisions. No further discovery or canonical operation authorized.",
+  "actual_model_usage": null,
+  "usage_observability": "Root collects new-turn usage after worker final."
+}

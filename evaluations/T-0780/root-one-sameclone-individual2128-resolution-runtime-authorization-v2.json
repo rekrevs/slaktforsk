@@ -1,0 +1,36 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T12:48:59.741962+00:00",
+  "authorization": "ONE_FIRST_EXACT_SAMECLONE_RESOLUTION_CLI_APPLY_AFTER_PRECLI_PATH_REPAIR",
+  "original_runtime_authorization_pin": {
+    "path": "evaluations/T-0780/root-one-sameclone-individual2128-resolution-runtime-authorization-v1.json",
+    "sha256": "eeb4b2294a64b06df69f4caf44ebffed8813eb4dda2859447e42966d1ce43c39"
+  },
+  "helper_v2_pin": {
+    "path": "evaluations/T-0780/implementation/apply_one_authorized_sameclone_2128_resolution_v2.py",
+    "sha256": "db311cd5bc5b413d4c4158ececa003212bd93db92b0dfc022152a64046c96016"
+  },
+  "failed_preCLI_receipt_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/individual2128-resolution-apply-initial-pre-CLI-stop-v1/failed-pre-CLI-path-comparison-actual-unchanged-state-proof-v1.json",
+    "sha256": "7cd2b30e370075240594277e54ad61bcdfa8b98b0d3fd3686b4457df47f4ffc9"
+  },
+  "original_snapshot_reuse_only": true,
+  "snapshot_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/pre-resolution-stage-original-ae906-v1.sqlite",
+    "sha256": "ae906e23de24bbded3cf392980c9749fe75d8ba6161fec7a92a1fbfdd17fe5ac"
+  },
+  "root_full_v1_and_exact_v2_diff_AST_review": true,
+  "unchanged_original_guards_and_apply_scope": true,
+  "operation_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-all2128-one-resolution-draft-v1/001-individual-source-approved-resolution-operation-v1.json",
+    "sha256": "31479f6a523088a64df8c7ee218ef91416ae726e2724aae3b0e20e1009389aee"
+  },
+  "expected_before": {
+    "journal_head": 424,
+    "pending": 2128
+  },
+  "expected_pending_after": 0,
+  "prior_CLI_apply_calls": 0,
+  "permission": "Run exact v2 helper once. Reuse only proven unchanged snapshot, no copy/overwrite. One FIRST CLI call on same stage DB/journal. Stop on mismatch; bind this renewal pin in supplementary production receipt. Validators/current47tables/protected42/ordered supports/liveall50 required.",
+  "canonical_apply_authorized": false
+}

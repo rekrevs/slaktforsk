@@ -1,0 +1,4100 @@
+{
+  "format": "genealogy2-impact/1",
+  "input": "C-0060",
+  "query": null,
+  "database_state": {
+    "operations": 282,
+    "revisions": 48093,
+    "last_operation": {
+      "sequence": 281,
+      "operation_id": "T-0778/C1047-individual-resolutions-v1"
+    }
+  },
+  "seeds": [
+    {
+      "object_id": "R-5d0926f24b56225ed8f2ad9b",
+      "revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+      "version": 1,
+      "kind": "record",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "current": true,
+      "routes": [
+        {
+          "type": "citation_representation",
+          "via_object": "R-5d0926f24b56225ed8f2ad9b"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "READ-ae89b2ef8a4d0d872340713e"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "TR-a533dee282d21a2456d81eb6"
+        }
+      ]
+    },
+    {
+      "object_id": "R-80d5e6f523c2f4d74621621c",
+      "revision_id": "R-80d5e6f523c2f4d74621621c@1",
+      "version": 1,
+      "kind": "record",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "current": true,
+      "routes": [
+        {
+          "type": "citation_representation",
+          "via_object": "M-P-0065-census1890"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "R-80d5e6f523c2f4d74621621c"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "READ-5ceb6cc8484ff136c50082d9"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "TR-cd70b74e452a6023b48321de"
+        }
+      ]
+    }
+  ],
+  "routing_limit": "C-id maps to bounded records through import representations; this routing is provenance, not source support. No record mapping means no inferred dependency graph.",
+  "dependencies": {
+    "current": [
+      {
+        "object_id": "F-P-0065-occupation-source-series",
+        "revision_id": "F-P-0065-occupation-source-series@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "F-P-0065-occupation-source-series@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0065-occupation-source-series@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0066-household_membership-Buberget1867-1898",
+        "revision_id": "F-P-0066-household_membership-Buberget1867-1898@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "F-P-0066-household_membership-Buberget1867-1898@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0066-household_membership-Buberget1867-1898@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0066-source_dependence-census1890-1900",
+        "revision_id": "F-P-0066-source_dependence-census1890-1900@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "F-P-0066-source_dependence-census1890-1900@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0066-source_dependence-census1890-1900@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "ID-M-P-0065-census1890",
+        "revision_id": "ID-M-P-0065-census1890@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "M-P-0065-census1890@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "revision_id": "ID-M-P-0065-census1890@1",
+            "basis_revision_id": "M-P-0065-census1890@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "ID-M-P-0065-census1890@1",
+            "basis_revision_id": "M-P-0065-census1890@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "M-P-0065-census1890",
+        "revision_id": "M-P-0065-census1890@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "M-P-0065-census1890@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "M-P-0065-census1890@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "O-P-0028-1890_header",
+        "revision_id": "O-P-0028-1890_header@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "O-P-0028-1890_header@1",
+            "basis_revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "O-P-0028-1890_header@1",
+            "basis_revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "O-P-0029-family1890",
+        "revision_id": "O-P-0029-family1890@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "O-P-0029-family1890@1",
+            "basis_revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "O-P-0029-family1890@1",
+            "basis_revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "O-P-0030-family1890",
+        "revision_id": "O-P-0030-family1890@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "O-P-0030-family1890@1",
+            "basis_revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "O-P-0030-family1890@1",
+            "basis_revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "O-P-0065-census1890-fields",
+        "revision_id": "O-P-0065-census1890-fields@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "O-P-0065-census1890-fields@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "O-P-0065-census1890-fields@1",
+            "basis_revision_id": "M-P-0065-census1890@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0065-census1890-fields@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "O-P-0066-census1890",
+        "revision_id": "O-P-0066-census1890@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "O-P-0066-census1890@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "O-P-0066-census1890@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "READ-5ceb6cc8484ff136c50082d9",
+        "revision_id": "READ-5ceb6cc8484ff136c50082d9@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "READ-5ceb6cc8484ff136c50082d9@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "READ-5ceb6cc8484ff136c50082d9@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "READ-ae89b2ef8a4d0d872340713e",
+        "revision_id": "READ-ae89b2ef8a4d0d872340713e@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "READ-ae89b2ef8a4d0d872340713e@1",
+            "basis_revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "READ-ae89b2ef8a4d0d872340713e@1",
+            "basis_revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "TR-a533dee282d21a2456d81eb6",
+        "revision_id": "TR-a533dee282d21a2456d81eb6@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "TR-a533dee282d21a2456d81eb6@1",
+            "basis_revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "TR-a533dee282d21a2456d81eb6@1",
+            "basis_revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "TR-cd70b74e452a6023b48321de",
+        "revision_id": "TR-cd70b74e452a6023b48321de@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "TR-cd70b74e452a6023b48321de@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "TR-cd70b74e452a6023b48321de@1",
+            "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      }
+    ],
+    "historical": []
+  },
+  "provenance": {
+    "classification": "import_provenance_not_evidence",
+    "origins": [
+      {
+        "revision_id": "ID-M-P-0065-census1890@1",
+        "unit_id": "69021565ae50698698800d55ceccb84dc20c22834db68cbcf4977736d1bb9847",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ID-M-P-0065-census1890",
+        "version": 1,
+        "kind": "identity",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 26,
+        "end_line": 28,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "M-P-0065-census1890@1",
+        "unit_id": "69021565ae50698698800d55ceccb84dc20c22834db68cbcf4977736d1bb9847",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "M-P-0065-census1890",
+        "version": 1,
+        "kind": "mention",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 26,
+        "end_line": 28,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+        "unit_id": "36a6d038db411c1004c4195e1ef1d3fb9bb068910f23755da4b64369017860c1",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-5d0926f24b56225ed8f2ad9b",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 63,
+        "end_line": 100,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+        "unit_id": "70a605d4b533a410a443e7791fbc423aae8c7cc57b1a441ebe15d1dd8d3d25c0",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-5d0926f24b56225ed8f2ad9b",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 9,
+        "end_line": 24,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+        "unit_id": "a0baa6dec79d0cbaa6d326939fd42b5e94f91e0da36651dd696606f1fe8ab8fc",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-5d0926f24b56225ed8f2ad9b",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 1,
+        "end_line": 100,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+        "unit_id": "c978cb9ab51d778b0ef6176d85107277f0742f8e739d1fafccdba7f24249c8c9",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-5d0926f24b56225ed8f2ad9b",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 46,
+        "end_line": 48,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "R-80d5e6f523c2f4d74621621c@1",
+        "unit_id": "36a6d038db411c1004c4195e1ef1d3fb9bb068910f23755da4b64369017860c1",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-80d5e6f523c2f4d74621621c",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 63,
+        "end_line": 100,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "R-80d5e6f523c2f4d74621621c@1",
+        "unit_id": "a0baa6dec79d0cbaa6d326939fd42b5e94f91e0da36651dd696606f1fe8ab8fc",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-80d5e6f523c2f4d74621621c",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 1,
+        "end_line": 100,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "R-80d5e6f523c2f4d74621621c@1",
+        "unit_id": "a5392799482f52ce723e4e43189990823cb0208315fcc89d45deae0921d09749",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-80d5e6f523c2f4d74621621c",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 26,
+        "end_line": 48,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "READ-5ceb6cc8484ff136c50082d9@1",
+        "unit_id": "36a6d038db411c1004c4195e1ef1d3fb9bb068910f23755da4b64369017860c1",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-5ceb6cc8484ff136c50082d9",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 63,
+        "end_line": 100,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "READ-5ceb6cc8484ff136c50082d9@1",
+        "unit_id": "a0baa6dec79d0cbaa6d326939fd42b5e94f91e0da36651dd696606f1fe8ab8fc",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-5ceb6cc8484ff136c50082d9",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 1,
+        "end_line": 100,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "READ-5ceb6cc8484ff136c50082d9@1",
+        "unit_id": "a5392799482f52ce723e4e43189990823cb0208315fcc89d45deae0921d09749",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-5ceb6cc8484ff136c50082d9",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 26,
+        "end_line": 48,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "READ-ae89b2ef8a4d0d872340713e@1",
+        "unit_id": "36a6d038db411c1004c4195e1ef1d3fb9bb068910f23755da4b64369017860c1",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-ae89b2ef8a4d0d872340713e",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 63,
+        "end_line": 100,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "READ-ae89b2ef8a4d0d872340713e@1",
+        "unit_id": "70a605d4b533a410a443e7791fbc423aae8c7cc57b1a441ebe15d1dd8d3d25c0",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-ae89b2ef8a4d0d872340713e",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 9,
+        "end_line": 24,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "READ-ae89b2ef8a4d0d872340713e@1",
+        "unit_id": "a0baa6dec79d0cbaa6d326939fd42b5e94f91e0da36651dd696606f1fe8ab8fc",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-ae89b2ef8a4d0d872340713e",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 1,
+        "end_line": 100,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "READ-ae89b2ef8a4d0d872340713e@1",
+        "unit_id": "c978cb9ab51d778b0ef6176d85107277f0742f8e739d1fafccdba7f24249c8c9",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-ae89b2ef8a4d0d872340713e",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 46,
+        "end_line": 48,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "TR-a533dee282d21a2456d81eb6@1",
+        "unit_id": "562633b199a62a45d14ef7bda917418a99a56cf17fe6f077ce682ab28baddc2c",
+        "coverage": "complete",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "TR-a533dee282d21a2456d81eb6",
+        "version": 1,
+        "kind": "transcription",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 18,
+        "end_line": 24,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "TR-a533dee282d21a2456d81eb6@1",
+        "unit_id": "a0baa6dec79d0cbaa6d326939fd42b5e94f91e0da36651dd696606f1fe8ab8fc",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "TR-a533dee282d21a2456d81eb6",
+        "version": 1,
+        "kind": "transcription",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 1,
+        "end_line": 100,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "TR-cd70b74e452a6023b48321de@1",
+        "unit_id": "2b83190ab52f3a7d677bdefd3db091262c09db487f704a0a0d0f7700bff60e8d",
+        "coverage": "complete",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "TR-cd70b74e452a6023b48321de",
+        "version": 1,
+        "kind": "transcription",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 28,
+        "end_line": 44,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      },
+      {
+        "revision_id": "TR-cd70b74e452a6023b48321de@1",
+        "unit_id": "a0baa6dec79d0cbaa6d326939fd42b5e94f91e0da36651dd696606f1fe8ab8fc",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "TR-cd70b74e452a6023b48321de",
+        "version": 1,
+        "kind": "transcription",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 1,
+        "end_line": 100,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c"
+      }
+    ],
+    "targets": [
+      {
+        "unit_id": "69021565ae50698698800d55ceccb84dc20c22834db68cbcf4977736d1bb9847",
+        "decision_id": "UD-69021565ae50698698800d55ceccb84dc20c22834db68cbcf4977736d1bb9847@1",
+        "target_id": "ID-M-P-0065-census1890",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 26,
+        "end_line": 28,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c",
+        "object_id": "ID-M-P-0065-census1890",
+        "revision_id": "ID-M-P-0065-census1890@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true
+      },
+      {
+        "unit_id": "69021565ae50698698800d55ceccb84dc20c22834db68cbcf4977736d1bb9847",
+        "decision_id": "UD-69021565ae50698698800d55ceccb84dc20c22834db68cbcf4977736d1bb9847@1",
+        "target_id": "M-P-0065-census1890",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 26,
+        "end_line": 28,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c",
+        "object_id": "M-P-0065-census1890",
+        "revision_id": "M-P-0065-census1890@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "562633b199a62a45d14ef7bda917418a99a56cf17fe6f077ce682ab28baddc2c",
+        "decision_id": "UD-562633b199a62a45d14ef7bda917418a99a56cf17fe6f077ce682ab28baddc2c@1",
+        "target_id": "TR-a533dee282d21a2456d81eb6",
+        "state": "mapped_complete",
+        "rationale": "C-0060: Hela enheten återges ordagrant i avskriften; inte ett godkännande av uppgifterna. Historisk motsägelse bevaras: r52–54 anger lokal originalbild och hash; r91–100 säger att originalbild saknas. Bytekontroll 2026-09-16 visar att den uttryckligt länkade filen finns och SHA-256 exakt matchar bb8a2206f147fbaea4795773e2f13773b1c3eb09eb8bc8243dc3db3b7d2c9c8b. Ingen bild har öppnats eller lästs i denna kontroll.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 18,
+        "end_line": 24,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c",
+        "object_id": "TR-a533dee282d21a2456d81eb6",
+        "revision_id": "TR-a533dee282d21a2456d81eb6@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true
+      },
+      {
+        "unit_id": "2b83190ab52f3a7d677bdefd3db091262c09db487f704a0a0d0f7700bff60e8d",
+        "decision_id": "UD-2b83190ab52f3a7d677bdefd3db091262c09db487f704a0a0d0f7700bff60e8d@1",
+        "target_id": "TR-cd70b74e452a6023b48321de",
+        "state": "mapped_complete",
+        "rationale": "C-0060: Hela enheten återges ordagrant i avskriften; inte ett godkännande av uppgifterna. Historisk motsägelse bevaras: r52–54 anger lokal originalbild och hash; r91–100 säger att originalbild saknas. Bytekontroll 2026-09-16 visar att den uttryckligt länkade filen finns och SHA-256 exakt matchar bb8a2206f147fbaea4795773e2f13773b1c3eb09eb8bc8243dc3db3b7d2c9c8b. Ingen bild har öppnats eller lästs i denna kontroll.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md",
+        "start_line": 28,
+        "end_line": 44,
+        "historical": 0,
+        "sha256": "4da65ed1c327c0146e357c954674a56d8f4eabe0fb27c4aa96911a3081e8333c",
+        "object_id": "TR-cd70b74e452a6023b48321de",
+        "revision_id": "TR-cd70b74e452a6023b48321de@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true
+      }
+    ]
+  },
+  "search": {
+    "matching": "Case-sensitive literal phrase; identifiers require boundaries. No stemming, date normalization or semantic matching.",
+    "terms": [
+      {
+        "value": "C-0060",
+        "source": "identifier",
+        "boundary": true
+      },
+      {
+        "value": "R-5d0926f24b56225ed8f2ad9b",
+        "source": "identifier",
+        "boundary": true
+      },
+      {
+        "value": "R-80d5e6f523c2f4d74621621c",
+        "source": "identifier",
+        "boundary": true
+      }
+    ]
+  },
+  "text_candidates": {
+    "current": [
+      {
+        "object_id": "ASSESS-P-0072-A0314-month-rejected",
+        "revision_id": "ASSESS-P-0072-A0314-month-rejected@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "rejected",
+        "evidence_status": "REJECTED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 94,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Båda volymerna läses 1882 ⁶/₈. Det äldre novemberdatumet vilade på läsningen av C-0404 ensam; C-0060:s databaspost gav bara året och var därtill beroende av längdserien. Historiken bevaras utan att november ges",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0028",
+        "revision_id": "ASSESSMENT-P-0028@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 770,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "ors-AI10c-buberget-207-zingmark-mag.md), [C-0061](../citations/C-0061-johan-oskar-ida-sofia-vigsel-1888.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0002](../citations/C-0002-oskar-alfred-fod",
+            "excerpt_start": 660
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0029",
+        "revision_id": "ASSESSMENT-P-0029@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 642,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "s/C-0066-ida-sofia-folkrakning-1870.md), [C-0061](../citations/C-0061-johan-oskar-ida-sofia-vigsel-1888.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0485](../citations/C-0485-degerfors-AIIa37",
+            "excerpt_start": 532
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0030",
+        "revision_id": "ASSESSMENT-P-0030@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 394,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "-08\n- Granskningsbelägg: T-0149; [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall",
+            "excerpt_start": 284
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0031",
+        "revision_id": "ASSESSMENT-P-0031@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 674,
+            "line": 14,
+            "occurrences": 2,
+            "excerpt": "egerfors-1910-1920.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall",
+            "excerpt_start": 564
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0066",
+        "revision_id": "ASSESSMENT-P-0066@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 1103,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "-ida-sofia-folkrakning-1870.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0404](../citations/C-0404-degerfors-AI11c-",
+            "excerpt_start": 993
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0067",
+        "revision_id": "ASSESSMENT-P-0067@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 715,
+            "line": 14,
+            "occurrences": 2,
+            "excerpt": "a-barndom-buberget-sida-83.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0066](../citations/C-0066-ida-sofia-folkra",
+            "excerpt_start": 605
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0068",
+        "revision_id": "ASSESSMENT-P-0068@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 712,
+            "line": 14,
+            "occurrences": 2,
+            "excerpt": "-barndom-buberget-sida-83.md), [C-0402](../citations/C-0402-folkrakning-1900-degerfors-buberget-jonsson.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0485](../citations/C-0485-degerfors-AIIa37",
+            "excerpt_start": 602
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0069",
+        "revision_id": "ASSESSMENT-P-0069@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 717,
+            "line": 14,
+            "occurrences": 2,
+            "excerpt": "-barndom-buberget-sida-83.md), [C-0402](../citations/C-0402-folkrakning-1900-degerfors-buberget-jonsson.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0485](../citations/C-0485-degerfors-AIIa37",
+            "excerpt_start": 607
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0070",
+        "revision_id": "ASSESSMENT-P-0070@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 650,
+            "line": 14,
+            "occurrences": 2,
+            "excerpt": "buberget-207-zingmark-mag.md), [C-0402](../citations/C-0402-folkrakning-1900-degerfors-buberget-jonsson.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0485](../citations/C-0485-degerfors-AIIa37",
+            "excerpt_start": 540
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0071",
+        "revision_id": "ASSESSMENT-P-0071@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 642,
+            "line": 14,
+            "occurrences": 2,
+            "excerpt": "s-AI11c-buberget-sida-241.md), [C-0402](../citations/C-0402-folkrakning-1900-degerfors-buberget-jonsson.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0485](../citations/C-0485-degerfors-AIIa37",
+            "excerpt_start": 532
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0072",
+        "revision_id": "ASSESSMENT-P-0072@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 648,
+            "line": 14,
+            "occurrences": 2,
+            "excerpt": "buberget-207-zingmark-mag.md), [C-0402](../citations/C-0402-folkrakning-1900-degerfors-buberget-jonsson.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0485](../citations/C-0485-degerfors-AIIa37",
+            "excerpt_start": 538
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0073",
+        "revision_id": "ASSESSMENT-P-0073@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 643,
+            "line": 14,
+            "occurrences": 2,
+            "excerpt": "buberget-207-zingmark-mag.md), [C-0402](../citations/C-0402-folkrakning-1900-degerfors-buberget-jonsson.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0485](../citations/C-0485-degerfors-AIIa37",
+            "excerpt_start": 533
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "BIO-P-0029",
+        "revision_id": "BIO-P-0029@4",
+        "version": 4,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 919,
+            "line": 16,
+            "occurrences": 2,
+            "excerpt": "n tio, bland dem Oskar Alfred\nfödd 1897 ([C-0061](../citations/C-0061-johan-oskar-ida-sofia-vigsel-1888.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md),\n[C-0574](../citations/C-0574-degerfors-AIIa3-",
+            "excerpt_start": 809
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "BIO-P-0030",
+        "revision_id": "BIO-P-0030@4",
+        "version": 4,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 406,
+            "line": 8,
+            "occurrences": 2,
+            "excerpt": " inskriven som måg och snickare.\n[C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md)\n\nMed flytten till Rosinedahl följer henne en o",
+            "excerpt_start": 296
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "BIO-P-0071",
+        "revision_id": "BIO-P-0071@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 1005,
+            "line": 19,
+            "occurrences": 1,
+            "excerpt": "ten fanns i läsningen, inte mellan böckerna.\n\nT-0157:s **andra** iakttagelse står däremot kvar och är viktig: C-0060 bär\ndokumenthuvudet `Utdrag ur Husförhörslängden för Degerfors` och är en\navskrift ur samma längdserie som C-",
+            "excerpt_start": 895
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-03",
+        "revision_id": "CONTRACT-P-0030-PK-03@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 282,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "undäråret 1977 är endast ett hypotetiskt tidsintervall. Ingen obruten vistelse påstås ur enstaka räkningsår. [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0574](../citations/C-0574-degerfors-AIIa3-",
+            "excerpt_start": 172
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-04",
+        "revision_id": "CONTRACT-P-0030-PK-04@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 319,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": " som uppgift på hennes egen rad. [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0890](../citations/C-0890-zingmark-rosined",
+            "excerpt_start": 209
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-05",
+        "revision_id": "CONTRACT-P-0030-PK-05@3",
+        "version": 3,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 623,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "inedahl-degerfors-1910-1920.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall",
+            "excerpt_start": 513
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-11",
+        "revision_id": "CONTRACT-P-0030-PK-11@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 439,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "10c-buberget-207-zingmark-mag.md), [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md) |\n",
+            "excerpt_start": 329
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "F-P-0066-source_dependence-census1890-1900",
+        "revision_id": "F-P-0066-source_dependence-census1890-1900@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "caveat",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 116,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "äsningen 1900 redovisas i akten, inte som ett nytt självständigt original. Senare motsägande filnärvarotext i C-0060 påverkar inte postens beroende.",
+            "excerpt_start": 6
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "KEY-P-0031-509d7b1b79f0",
+        "revision_id": "KEY-P-0031-509d7b1b79f0@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 79,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "| ~~Folkräkningsbladen 1890 och 1900 som självständiga röster~~ | Degerfors | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "KEY-P-0067-7a8a906fe364",
+        "revision_id": "KEY-P-0067-7a8a906fe364@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 72,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "| ~~Folkräkningarna 1890 och 1900 som oberoende röster~~ | Degerfors | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0402](../citations/C-0402-folkrakning-1900",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "KEY-P-0068-39d5b0cf143e",
+        "revision_id": "KEY-P-0068-39d5b0cf143e@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 72,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "| ~~Folkräkningarna 1890 och 1900 som oberoende röster~~ | Degerfors | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0402](../citations/C-0402-folkrakning-1900",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "KEY-P-0070-c801aee0fc99",
+        "revision_id": "KEY-P-0070-c801aee0fc99@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 72,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "| ~~Folkräkningarna 1890 och 1900 som oberoende röster~~ | Degerfors | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0402](../citations/C-0402-folkrakning-1900",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "KEY-P-0071-186d7c19e9c0",
+        "revision_id": "KEY-P-0071-186d7c19e9c0@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 72,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "| ~~Folkräkningarna 1890 och 1900 som oberoende röster~~ | Degerfors | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0402](../citations/C-0402-folkrakning-1900",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "KEY-P-0072-23563b276469",
+        "revision_id": "KEY-P-0072-23563b276469@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 72,
+            "line": 1,
+            "occurrences": 3,
+            "excerpt": "| ~~Folkräkningarna 1890 och 1900 som oberoende röster~~ | Degerfors | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0402](../citations/C-0402-folkrakning-1900",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "KEY-P-0073-2535365b07be",
+        "revision_id": "KEY-P-0073-2535365b07be@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 72,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "| ~~Folkräkningarna 1890 och 1900 som oberoende röster~~ | Degerfors | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0402](../citations/C-0402-folkrakning-1900",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "M-P-0065-census1890",
+        "revision_id": "M-P-0065-census1890@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-80d5e6f523c2f4d74621621c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-80d5e6f523c2f4d74621621c",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "O-P-0028-1890_header",
+        "revision_id": "O-P-0028-1890_header@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-5d0926f24b56225ed8f2ad9b",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-5d0926f24b56225ed8f2ad9b",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "O-P-0029-family1890",
+        "revision_id": "O-P-0029-family1890@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-5d0926f24b56225ed8f2ad9b",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-5d0926f24b56225ed8f2ad9b",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "O-P-0030-family1890",
+        "revision_id": "O-P-0030-family1890@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-5d0926f24b56225ed8f2ad9b",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-5d0926f24b56225ed8f2ad9b",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "O-P-0065-census1890-fields",
+        "revision_id": "O-P-0065-census1890-fields@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-80d5e6f523c2f4d74621621c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-80d5e6f523c2f4d74621621c",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "O-P-0066-census1890",
+        "revision_id": "O-P-0066-census1890@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-80d5e6f523c2f4d74621621c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-80d5e6f523c2f4d74621621c",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "P-0067/Q-03",
+        "revision_id": "P-0067/Q-03@1",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 306,
+            "line": 6,
+            "occurrences": 1,
+            "excerpt": "g: `1869 ²⁵/₁₀` i A I/9c sida 85, A I/10c sida 207 och A I/11c\n  sida 241, prövat i tre helbilder 2026-09-09. C-0060 och C-0402 bär tryckta\n  `Utdrag ur …`-huvuden; C-0066 är en databaspost utan bevarad originalbild\n  som bara",
+            "excerpt_start": 196
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "P-0068/Q-03",
+        "revision_id": "P-0068/Q-03@1",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 302,
+            "line": 6,
+            "occurrences": 1,
+            "excerpt": "lag: `1871 ¹/₇` i A I/9c sida 85, A I/10c sida 207 och A I/11c\n  sida 241, prövat i tre helbilder 2026-09-09. C-0060 och C-0402 bär tryckta\n  `Utdrag ur …`-huvuden.\n- Alternativ och motprövning: **(a)** Degerfors födelsebok 18",
+            "excerpt_start": 192
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "P-0069/Q-03",
+        "revision_id": "P-0069/Q-03@1",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 416,
+            "line": 8,
+            "occurrences": 1,
+            "excerpt": "50–800 % med skrivarnas `3` i moderns `³⁰/₁₀` som\n  kontroll. C-0064:s avskrift `1876 24/3` är en felläsning. C-0060 och\n  C-0402 bär tryckta `Utdrag ur …`-huvuden.\n- Alternativ och motprövning: **(a)** Degerfors födelsebok 18",
+            "excerpt_start": 306
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "P-0070/Q-02",
+        "revision_id": "P-0070/Q-02@2",
+        "version": 2,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 366,
+            "line": 7,
+            "occurrences": 1,
+            "excerpt": "da\n  helbilderna 2026-09-09 vid 250–600 %. Hon saknar rad i A I/9c därför att\n  hon föddes efter dess period. C-0060 och C-0402 bär tryckta\n  `Utdrag ur …`-huvuden.\n- Alternativ och motprövning: **(a)** Degerfors födelsebok 18",
+            "excerpt_start": 256
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "P-0071/Q-03",
+        "revision_id": "P-0071/Q-03@1",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 351,
+            "line": 7,
+            "occurrences": 1,
+            "excerpt": "c sida 241, läst\n  vid 600 och 900 % 2026-09-09 med siffrans form som kontroll. A-5793:s\n  `27/7` är avvisad. C-0060 och C-0402 bär tryckta `Utdrag ur …`-huvuden.\n- Alternativ och motprövning: **(a)** Degerfors födelsebok 1880",
+            "excerpt_start": 241
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "P-0072/Q-02",
+        "revision_id": "P-0072/Q-02@1",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 467,
+            "line": 9,
+            "occurrences": 1,
+            "excerpt": " systerns `²⁵/₁₀`\n  på samma uppslag som jämförelse. Den felaktiga månaden vilade på C-0404\n  ensam, eftersom C-0060:s databaspost bara ger årtalet.\n- Alternativ och motprövning: **(a)** Degerfors födelsebok 1882 bekräftar\n  6",
+            "excerpt_start": 357
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "R-58cb76e43f33980519f6feee",
+        "revision_id": "R-58cb76e43f33980519f6feee@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "caveat",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 142,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "elsedag 1880-07-21 gör den gamla 27/7-konflikten REJECTED. Däremot består beroendet mellan folkräkningsutdrag C-0060 och bokserien C-0404, varför den äldre nedgraderingen till TRANSCRIBED/medel inte automatiskt upphävs. Anders",
+            "excerpt_start": 32
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "R-5ca54d7a95c1ca2c480ee7e0",
+        "revision_id": "R-5ca54d7a95c1ca2c480ee7e0@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "dependence_note",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 50,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Nedre familjen är en egen grupp på samma uppslag. C-0060 härleder uppgifter ur samma längdserie; bouppteckningsjämförelsen C-0485 är annan dokumenterad källa, inte ny",
+            "excerpt_start": 0
+          },
+          {
+            "field": "rationale",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 79,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Källpost avgränsad i C-0064. Nedre familjen är en egen grupp på samma uppslag. C-0060 härleder uppgifter ur samma längdserie; bouppteckningsjämförelsen C-0485 är annan dokumenterad källa, inte ny",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "R-5d0926f24b56225ed8f2ad9b",
+        "revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": true,
+        "hits": [
+          {
+            "field": "rationale",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 21,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Källpost avgränsad i C-0060. Dokumentet belägger utdrag ur husförhörslängden; beroende av samma kyrkoboksserie som C-0064/C-0549/C-0404.",
+            "excerpt_start": 0
+          },
+          {
+            "field": "caveat",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 138,
+            "line": 2,
+            "occurrences": 1,
+            "excerpt": "rgrupp; originalets motsvarande hushållsgräns har inte nyprövats. Namn/födelseår är inte exakta födelsedagar.\nC-0060: Historisk motsägelse bevaras: r52–54 anger lokal originalbild och hash; r91–100 säger att originalbild sakna",
+            "excerpt_start": 28
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "R-80d5e6f523c2f4d74621621c",
+        "revision_id": "R-80d5e6f523c2f4d74621621c@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": true,
+        "hits": [
+          {
+            "field": "rationale",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 21,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Källpost avgränsad i C-0060. Samma censusblad/indexvy och kyrkoboksbaserade informationsväg som grupp2; inget extra oberoende familjevitt",
+            "excerpt_start": 0
+          },
+          {
+            "field": "caveat",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 133,
+            "line": 2,
+            "occurrences": 1,
+            "excerpt": "ansson i C-0485 bevaras. Mågrollen stöder en tolkning men ensam utpekar den inte båda biologiska föräldrarna.\nC-0060: Historisk motsägelse bevaras: r52–54 anger lokal originalbild och hash; r91–100 säger att originalbild sakna",
+            "excerpt_start": 23
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "R-e9984591d76613952a3ca03b",
+        "revision_id": "R-e9984591d76613952a3ca03b@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "dependence_note",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "C-0060 och C-0402 är folkräkningsutdrag ur samma bokföringskedja; inte tre oberoende röster.",
+            "excerpt_start": 0
+          },
+          {
+            "field": "rationale",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 29,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Källpost avgränsad i C-0404. C-0060 och C-0402 är folkräkningsutdrag ur samma bokföringskedja; inte tre oberoende röster.",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "READ-5ceb6cc8484ff136c50082d9",
+        "revision_id": "READ-5ceb6cc8484ff136c50082d9@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "subject_id",
+            "term": "R-80d5e6f523c2f4d74621621c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-80d5e6f523c2f4d74621621c",
+            "excerpt_start": 0
+          },
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "C-0060: Historisk motsägelse bevaras: r52–54 anger lokal originalbild och hash; r91–100 säger att originalbild sakna",
+            "excerpt_start": 0
+          },
+          {
+            "field": "rationale",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 43,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Dokumenterad avgränsning och läshistorik i C-0060; ingen ny oberoende evidensröst.",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "READ-a045a9d336bb5db235c2bf45",
+        "revision_id": "READ-a045a9d336bb5db235c2bf45@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 193,
+            "line": 2,
+            "occurrences": 1,
+            "excerpt": "a Augustas flytt 1898-06-28 och attest 39 är positiv. Talet 305 ¹⁷³/₁₈₉₅ är avläst men ledindelningen saknas.\nC-0060 och C-0402 är folkräkningsutdrag ur samma bokföringskedja; inte tre oberoende röster.",
+            "excerpt_start": 83
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "READ-ab3fb979d830abb65f0819ea",
+        "revision_id": "READ-ab3fb979d830abb65f0819ea@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 482,
+            "line": 2,
+            "occurrences": 1,
+            "excerpt": "6/4 bevaras på sina respektive rader; de harmoniseras inte.\nNedre familjen är en egen grupp på samma uppslag. C-0060 härleder uppgifter ur samma längdserie; bouppteckningsjämförelsen C-0485 är annan dokumenterad källa, inte ny",
+            "excerpt_start": 372
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "READ-ae89b2ef8a4d0d872340713e",
+        "revision_id": "READ-ae89b2ef8a4d0d872340713e@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "subject_id",
+            "term": "R-5d0926f24b56225ed8f2ad9b",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-5d0926f24b56225ed8f2ad9b",
+            "excerpt_start": 0
+          },
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "C-0060: Historisk motsägelse bevaras: r52–54 anger lokal originalbild och hash; r91–100 säger att originalbild sakna",
+            "excerpt_start": 0
+          },
+          {
+            "field": "rationale",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 43,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Dokumenterad avgränsning och läshistorik i C-0060; ingen ny oberoende evidensröst.",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "READ-f65741a08d7f439329157522",
+        "revision_id": "READ-f65741a08d7f439329157522@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "caveat",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 142,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "elsedag 1880-07-21 gör den gamla 27/7-konflikten REJECTED. Däremot består beroendet mellan folkräkningsutdrag C-0060 och bokserien C-0404, varför den äldre nedgraderingen till TRANSCRIBED/medel inte automatiskt upphävs. Anders",
+            "excerpt_start": 32
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "RESEARCH-P-0029-9d76f0343410",
+        "revision_id": "RESEARCH-P-0029-9d76f0343410@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 623,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "n-oskar-ida-sofia-vigsel-1888.md)), står 1890\nmed make och två döttrar i samma by, där maken skrivs **måg**\n([C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md)), och\n1900–1909 i Rosinedahl med exakt födelse",
+            "excerpt_start": 513
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "RESEARCH-P-0030-9d76f0343410",
+        "revision_id": "RESEARCH-P-0030-9d76f0343410@4",
+        "version": 4,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 1028,
+            "line": 11,
+            "occurrences": 2,
+            "excerpt": " destination. Ankaret är prövat.\n[C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md),\n[C-0004](../citations/C-0004-zingmark-hushall",
+            "excerpt_start": 918
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "RESEARCH-P-0067-9d76f0343410",
+        "revision_id": "RESEARCH-P-0067-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 455,
+            "line": 9,
+            "occurrences": 1,
+            "excerpt": "tdrag ur just den kedjan: folkräkningen\n1890 bär dokumenthuvudet `Utdrag ur Husförhörslängden för Degerfors`\n(C-0060) och folkräkningen 1900 `Utdrag ur Församlingsboken` (C-0402).\nA-0304:s och A-0305:s `CORROBORATED`/`hög` vil",
+            "excerpt_start": 345
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "RESEARCH-P-0068-9d76f0343410",
+        "revision_id": "RESEARCH-P-0068-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 425,
+            "line": 8,
+            "occurrences": 1,
+            "excerpt": "tens belägg är utdrag ur just den serien: folkräkningen 1890 bär\n`Utdrag ur Husförhörslängden för Degerfors` (C-0060) och folkräkningen 1900\n`Utdrag ur Församlingsboken för Degerfors` (C-0402). A-0306, A-0307 och\nA-2100 vilar ",
+            "excerpt_start": 315
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "RESEARCH-P-0069-9d76f0343410",
+        "revision_id": "RESEARCH-P-0069-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 1805,
+            "line": 32,
+            "occurrences": 1,
+            "excerpt": "\ndärtill den ende av de sex syskonen med två kunskapsbokstäver, `b` och\n`c`.\n\n**Oberoendet var överskattat.** C-0060 bär `Utdrag ur Husförhörslängden för\nDegerfors` och C-0402 `Utdrag ur Församlingsboken för Degerfors`; båda ä",
+            "excerpt_start": 1695
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "RESEARCH-P-0070-9d76f0343410",
+        "revision_id": "RESEARCH-P-0070-9d76f0343410@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 577,
+            "line": 11,
+            "occurrences": 2,
+            "excerpt": "**Hon föddes efter A I/9c:s period** och saknar därför rad i den äldsta\nvolymen; A-0310:s belägg är i stället C-0060 och C-0404 — men C-0060 bär\n`Utdrag ur Husförhörslängden för Degerfors` och är en avskrift ur samma\nserie som",
+            "excerpt_start": 467
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "RESEARCH-P-0071-9d76f0343410",
+        "revision_id": "RESEARCH-P-0071-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 873,
+            "line": 15,
+            "occurrences": 1,
+            "excerpt": "mellan böckerna. A-5793 är avvisad; A-7751 bär prövningen.\n\n**T-0157:s andra iakttagelse står däremot kvar.** C-0060 bär\n`Utdrag ur Husförhörslängden för Degerfors` och är en avskrift ur samma serie\nsom C-0404, så nedgradering",
+            "excerpt_start": 763
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "RESEARCH-P-0072-9d76f0343410",
+        "revision_id": "RESEARCH-P-0072-9d76f0343410@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 548,
+            "line": 11,
+            "occurrences": 2,
+            "excerpt": ". 1882-08-06. A-7752.\n\n**Granskningen förklarade också varför felet kunde stå.** A-0314 anger två\nbelägg, men C-0060:s databaspost ger bara årtalet — den exakta dagen kom\nalltså från C-0404 ensam. Ett enda avskriftsled bar hel",
+            "excerpt_start": 438
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "RESEARCH-P-0073-9d76f0343410",
+        "revision_id": "RESEARCH-P-0073-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 315,
+            "line": 7,
+            "occurrences": 1,
+            "excerpt": "00 %. Volymerna är led i **en**\navskriftskedja, och de två folkräkningarna bär tryckta `Utdrag ur …`-huvuden:\nC-0060 ur husförhörslängden, C-0402 ur församlingsboken. A-0316, A-0317 och\nA-2105 vilar därför på en informationsvä",
+            "excerpt_start": 205
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "THEME-P-0030-BO",
+        "revision_id": "THEME-P-0030-BO@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 148,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "Rosinedahl 1900–1916 är belagda med en odaterad flytt emellan; efter Malå 1916-08-08 finns inget boställe. | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0574](../citations/C-0574-degerfors-AIIa3-",
+            "excerpt_start": 38
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "TR-376b7055ebcee875d81cf2f4",
+        "revision_id": "TR-376b7055ebcee875d81cf2f4@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "reading_note",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 502,
+            "line": 2,
+            "occurrences": 1,
+            "excerpt": "elsedag 1880-07-21 gör den gamla 27/7-konflikten REJECTED. Däremot består beroendet mellan folkräkningsutdrag C-0060 och bokserien C-0404, varför den äldre nedgraderingen till TRANSCRIBED/medel inte automatiskt upphävs. Anders",
+            "excerpt_start": 392
+          },
+          {
+            "field": "caveat",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 142,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "elsedag 1880-07-21 gör den gamla 27/7-konflikten REJECTED. Däremot består beroendet mellan folkräkningsutdrag C-0060 och bokserien C-0404, varför den äldre nedgraderingen till TRANSCRIBED/medel inte automatiskt upphävs. Anders",
+            "excerpt_start": 32
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "TR-a533dee282d21a2456d81eb6",
+        "revision_id": "TR-a533dee282d21a2456d81eb6@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-5d0926f24b56225ed8f2ad9b",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-5d0926f24b56225ed8f2ad9b",
+            "excerpt_start": 0
+          },
+          {
+            "field": "rationale",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 51,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0060; ingen ny originalavläsning.",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "TR-cd70b74e452a6023b48321de",
+        "revision_id": "TR-cd70b74e452a6023b48321de@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-80d5e6f523c2f4d74621621c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-80d5e6f523c2f4d74621621c",
+            "excerpt_start": 0
+          },
+          {
+            "field": "rationale",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 51,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0060; ingen ny originalavläsning.",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      }
+    ],
+    "historical": [
+      {
+        "object_id": "ASSESSMENT-P-0029",
+        "revision_id": "ASSESSMENT-P-0029@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 642,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "s/C-0066-ida-sofia-folkrakning-1870.md), [C-0061](../citations/C-0061-johan-oskar-ida-sofia-vigsel-1888.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0485](../citations/C-0485-degerfors-AIIa37",
+            "excerpt_start": 532
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0030",
+        "revision_id": "ASSESSMENT-P-0030@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 394,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "-08\n- Granskningsbelägg: T-0149; [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall",
+            "excerpt_start": 284
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "BIO-P-0029",
+        "revision_id": "BIO-P-0029@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 919,
+            "line": 16,
+            "occurrences": 2,
+            "excerpt": "n tio, bland dem Oskar Alfred\nfödd 1897 ([C-0061](../citations/C-0061-johan-oskar-ida-sofia-vigsel-1888.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md),\n[C-0574](../citations/C-0574-degerfors-AIIa3-",
+            "excerpt_start": 809
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "BIO-P-0029",
+        "revision_id": "BIO-P-0029@2",
+        "version": 2,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 919,
+            "line": 16,
+            "occurrences": 2,
+            "excerpt": "n tio, bland dem Oskar Alfred\nfödd 1897 ([C-0061](../citations/C-0061-johan-oskar-ida-sofia-vigsel-1888.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md),\n[C-0574](../citations/C-0574-degerfors-AIIa3-",
+            "excerpt_start": 809
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "BIO-P-0029",
+        "revision_id": "BIO-P-0029@3",
+        "version": 3,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 919,
+            "line": 16,
+            "occurrences": 2,
+            "excerpt": "n tio, bland dem Oskar Alfred\nfödd 1897 ([C-0061](../citations/C-0061-johan-oskar-ida-sofia-vigsel-1888.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md),\n[C-0574](../citations/C-0574-degerfors-AIIa3-",
+            "excerpt_start": 809
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "BIO-P-0030",
+        "revision_id": "BIO-P-0030@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 406,
+            "line": 8,
+            "occurrences": 2,
+            "excerpt": " inskriven som måg och snickare.\n[C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md)\n\nMed flytten till Rosinedahl följer henne en o",
+            "excerpt_start": 296
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "BIO-P-0030",
+        "revision_id": "BIO-P-0030@2",
+        "version": 2,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 406,
+            "line": 8,
+            "occurrences": 2,
+            "excerpt": " inskriven som måg och snickare.\n[C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md)\n\nMed flytten till Rosinedahl följer henne en o",
+            "excerpt_start": 296
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "BIO-P-0030",
+        "revision_id": "BIO-P-0030@3",
+        "version": 3,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 406,
+            "line": 8,
+            "occurrences": 2,
+            "excerpt": " inskriven som måg och snickare.\n[C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md)\n\nMed flytten till Rosinedahl följer henne en o",
+            "excerpt_start": 296
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-03",
+        "revision_id": "CONTRACT-P-0030-PK-03@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 210,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "erget–Rosinedahl och den 61 år långa luckan efter Malå. Ingen obruten vistelse påstås ur enstaka räkningsår. [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0574](../citations/C-0574-degerfors-AIIa3-",
+            "excerpt_start": 100
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-04",
+        "revision_id": "CONTRACT-P-0030-PK-04@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 319,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": " som uppgift på hennes egen rad. [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0890](../citations/C-0890-zingmark-rosined",
+            "excerpt_start": 209
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-05",
+        "revision_id": "CONTRACT-P-0030-PK-05@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 560,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "inedahl-degerfors-1910-1920.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall",
+            "excerpt_start": 450
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-05",
+        "revision_id": "CONTRACT-P-0030-PK-05@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 623,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "inedahl-degerfors-1910-1920.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall",
+            "excerpt_start": 513
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-11",
+        "revision_id": "CONTRACT-P-0030-PK-11@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 439,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "10c-buberget-207-zingmark-mag.md), [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md) |\n",
+            "excerpt_start": 329
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "P-0070/Q-02",
+        "revision_id": "P-0070/Q-02@1",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 366,
+            "line": 7,
+            "occurrences": 1,
+            "excerpt": "da\n  helbilderna 2026-09-09 vid 250–600 %. Hon saknar rad i A I/9c därför att\n  hon föddes efter dess period. C-0060 och C-0402 bär tryckta\n  `Utdrag ur …`-huvuden.\n- Alternativ och motprövning: **(a)** Degerfors födelsebok 18",
+            "excerpt_start": 256
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "RESEARCH-P-0029-9d76f0343410",
+        "revision_id": "RESEARCH-P-0029-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 623,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "n-oskar-ida-sofia-vigsel-1888.md)), står 1890\nmed make och två döttrar i samma by, där maken skrivs **måg**\n([C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md)), och\n1900–1909 i Rosinedahl med exakt födelse",
+            "excerpt_start": 513
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "RESEARCH-P-0030-9d76f0343410",
+        "revision_id": "RESEARCH-P-0030-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 542,
+            "line": 10,
+            "occurrences": 2,
+            "excerpt": " destination. Ankaret är prövat.\n[C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md),\n[C-0004](../citations/C-0004-zingmark-hushall",
+            "excerpt_start": 432
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "RESEARCH-P-0030-9d76f0343410",
+        "revision_id": "RESEARCH-P-0030-9d76f0343410@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 542,
+            "line": 10,
+            "occurrences": 2,
+            "excerpt": " destination. Ankaret är prövat.\n[C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md),\n[C-0004](../citations/C-0004-zingmark-hushall",
+            "excerpt_start": 432
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "RESEARCH-P-0030-9d76f0343410",
+        "revision_id": "RESEARCH-P-0030-9d76f0343410@3",
+        "version": 3,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 542,
+            "line": 10,
+            "occurrences": 2,
+            "excerpt": " destination. Ankaret är prövat.\n[C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md),\n[C-0004](../citations/C-0004-zingmark-hushall",
+            "excerpt_start": 432
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "RESEARCH-P-0070-9d76f0343410",
+        "revision_id": "RESEARCH-P-0070-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 577,
+            "line": 11,
+            "occurrences": 2,
+            "excerpt": "**Hon föddes efter A I/9c:s period** och saknar därför rad i den äldsta\nvolymen; A-0310:s belägg är i stället C-0060 och C-0404 — men C-0060 bär\n`Utdrag ur Husförhörslängden för Degerfors` och är en avskrift ur samma\nserie som",
+            "excerpt_start": 467
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "RESEARCH-P-0072-9d76f0343410",
+        "revision_id": "RESEARCH-P-0072-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 548,
+            "line": 11,
+            "occurrences": 2,
+            "excerpt": ". 1882-08-06. A-7752.\n\n**Granskningen förklarade också varför felet kunde stå.** A-0314 anger två\nbelägg, men C-0060:s databaspost ger bara årtalet — den exakta dagen kom\nalltså från C-0404 ensam. Ett enda avskriftsled bar hel",
+            "excerpt_start": 438
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      },
+      {
+        "object_id": "THEME-P-0030-BO",
+        "revision_id": "THEME-P-0030-BO@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": false,
+        "classification": "historical_text_only",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0060",
+            "term_source": "identifier",
+            "offset": 148,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "Rosinedahl 1900–1916 är belagda med en odaterad flytt emellan; efter Malå 1916-08-08 finns inget boställe. | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0574](../citations/C-0574-degerfors-AIIa3-",
+            "excerpt_start": 38
+          }
+        ],
+        "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+      }
+    ]
+  },
+  "review": {
+    "items": [
+      {
+        "object_id": "ASSESS-P-0072-A0314-month-rejected",
+        "revision_id": "ASSESS-P-0072-A0314-month-rejected@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "rejected",
+        "evidence_status": "REJECTED",
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0028",
+        "revision_id": "ASSESSMENT-P-0028@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0029",
+        "revision_id": "ASSESSMENT-P-0029@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0030",
+        "revision_id": "ASSESSMENT-P-0030@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0031",
+        "revision_id": "ASSESSMENT-P-0031@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0066",
+        "revision_id": "ASSESSMENT-P-0066@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0067",
+        "revision_id": "ASSESSMENT-P-0067@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0068",
+        "revision_id": "ASSESSMENT-P-0068@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0069",
+        "revision_id": "ASSESSMENT-P-0069@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0070",
+        "revision_id": "ASSESSMENT-P-0070@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0071",
+        "revision_id": "ASSESSMENT-P-0071@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0072",
+        "revision_id": "ASSESSMENT-P-0072@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0073",
+        "revision_id": "ASSESSMENT-P-0073@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "BIO-P-0029",
+        "revision_id": "BIO-P-0029@4",
+        "version": 4,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "BIO-P-0030",
+        "revision_id": "BIO-P-0030@4",
+        "version": 4,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "BIO-P-0071",
+        "revision_id": "BIO-P-0071@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-03",
+        "revision_id": "CONTRACT-P-0030-PK-03@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-04",
+        "revision_id": "CONTRACT-P-0030-PK-04@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-05",
+        "revision_id": "CONTRACT-P-0030-PK-05@3",
+        "version": 3,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "CONTRACT-P-0030-PK-11",
+        "revision_id": "CONTRACT-P-0030-PK-11@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0065-occupation-source-series",
+        "revision_id": "F-P-0065-occupation-source-series@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0066-household_membership-Buberget1867-1898",
+        "revision_id": "F-P-0066-household_membership-Buberget1867-1898@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0066-source_dependence-census1890-1900",
+        "revision_id": "F-P-0066-source_dependence-census1890-1900@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ID-M-P-0065-census1890",
+        "revision_id": "ID-M-P-0065-census1890@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "KEY-P-0031-509d7b1b79f0",
+        "revision_id": "KEY-P-0031-509d7b1b79f0@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "KEY-P-0067-7a8a906fe364",
+        "revision_id": "KEY-P-0067-7a8a906fe364@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "KEY-P-0068-39d5b0cf143e",
+        "revision_id": "KEY-P-0068-39d5b0cf143e@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "KEY-P-0070-c801aee0fc99",
+        "revision_id": "KEY-P-0070-c801aee0fc99@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "KEY-P-0071-186d7c19e9c0",
+        "revision_id": "KEY-P-0071-186d7c19e9c0@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "KEY-P-0072-23563b276469",
+        "revision_id": "KEY-P-0072-23563b276469@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "KEY-P-0073-2535365b07be",
+        "revision_id": "KEY-P-0073-2535365b07be@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "M-P-0065-census1890",
+        "revision_id": "M-P-0065-census1890@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "O-P-0028-1890_header",
+        "revision_id": "O-P-0028-1890_header@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "O-P-0029-family1890",
+        "revision_id": "O-P-0029-family1890@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "O-P-0030-family1890",
+        "revision_id": "O-P-0030-family1890@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "O-P-0065-census1890-fields",
+        "revision_id": "O-P-0065-census1890-fields@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "O-P-0066-census1890",
+        "revision_id": "O-P-0066-census1890@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "P-0067/Q-03",
+        "revision_id": "P-0067/Q-03@1",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "P-0068/Q-03",
+        "revision_id": "P-0068/Q-03@1",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "P-0069/Q-03",
+        "revision_id": "P-0069/Q-03@1",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "P-0070/Q-02",
+        "revision_id": "P-0070/Q-02@2",
+        "version": 2,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "P-0071/Q-03",
+        "revision_id": "P-0071/Q-03@1",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "P-0072/Q-02",
+        "revision_id": "P-0072/Q-02@1",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "R-58cb76e43f33980519f6feee",
+        "revision_id": "R-58cb76e43f33980519f6feee@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "R-5ca54d7a95c1ca2c480ee7e0",
+        "revision_id": "R-5ca54d7a95c1ca2c480ee7e0@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "R-5d0926f24b56225ed8f2ad9b",
+        "revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "import_origin_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "R-80d5e6f523c2f4d74621621c",
+        "revision_id": "R-80d5e6f523c2f4d74621621c@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "import_origin_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "R-e9984591d76613952a3ca03b",
+        "revision_id": "R-e9984591d76613952a3ca03b@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "READ-5ceb6cc8484ff136c50082d9",
+        "revision_id": "READ-5ceb6cc8484ff136c50082d9@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "READ-a045a9d336bb5db235c2bf45",
+        "revision_id": "READ-a045a9d336bb5db235c2bf45@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "READ-ab3fb979d830abb65f0819ea",
+        "revision_id": "READ-ab3fb979d830abb65f0819ea@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "READ-ae89b2ef8a4d0d872340713e",
+        "revision_id": "READ-ae89b2ef8a4d0d872340713e@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "READ-f65741a08d7f439329157522",
+        "revision_id": "READ-f65741a08d7f439329157522@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "RESEARCH-P-0029-9d76f0343410",
+        "revision_id": "RESEARCH-P-0029-9d76f0343410@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "RESEARCH-P-0030-9d76f0343410",
+        "revision_id": "RESEARCH-P-0030-9d76f0343410@4",
+        "version": 4,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "RESEARCH-P-0067-9d76f0343410",
+        "revision_id": "RESEARCH-P-0067-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "RESEARCH-P-0068-9d76f0343410",
+        "revision_id": "RESEARCH-P-0068-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "RESEARCH-P-0069-9d76f0343410",
+        "revision_id": "RESEARCH-P-0069-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "RESEARCH-P-0070-9d76f0343410",
+        "revision_id": "RESEARCH-P-0070-9d76f0343410@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "RESEARCH-P-0071-9d76f0343410",
+        "revision_id": "RESEARCH-P-0071-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "RESEARCH-P-0072-9d76f0343410",
+        "revision_id": "RESEARCH-P-0072-9d76f0343410@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "RESEARCH-P-0073-9d76f0343410",
+        "revision_id": "RESEARCH-P-0073-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "THEME-P-0030-BO",
+        "revision_id": "THEME-P-0030-BO@2",
+        "version": 2,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "TR-376b7055ebcee875d81cf2f4",
+        "revision_id": "TR-376b7055ebcee875d81cf2f4@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "TR-a533dee282d21a2456d81eb6",
+        "revision_id": "TR-a533dee282d21a2456d81eb6@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "TR-cd70b74e452a6023b48321de",
+        "revision_id": "TR-cd70b74e452a6023b48321de@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      }
+    ],
+    "instructions": "Read inspect for each current object and its evidence. Record a reasoned decision in the active Wotan task / authorized operation. Revise through apply only when warranted; resolve only the exact existing pending request after individual review. Text/provenance candidates do not create requests. Null decisions are unreviewed, never approvals."
+  },
+  "limitations": [
+    "Read-only snapshot, not an execution queue. Re-run after revisions.",
+    "Text matches cannot establish copied facts, identity, error, relevance or support. Current text may contain historical retractions.",
+    "Unlinked paraphrases or different date/name spellings may be missed; supply relevant --query variants and inspect affected person profiles.",
+    "No query mutates data, adds evidence, opens/closes reviews or certifies complete semantic coverage."
+  ]
+}

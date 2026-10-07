@@ -1,0 +1,136 @@
+--- evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py
++++ evaluations/T-0784/implementation/stage_root_authorized_exact_nine_v1.py
+@@ -15,7 +15,7 @@
+ from pathlib import Path
+ 
+ ROOT = Path(__file__).resolve().parents[3]
+-TASK = ROOT / 'evaluations/T-0781'
++TASK = ROOT / 'evaluations/T-0784'
+ MAIN = ROOT / 'genealogy2/data/research.sqlite'
+ ORDER_TABLES = ('origin', 'dependency', 'record_asset', 'record_media')
+ DERIVED = {'object_search', 'object_search_config', 'object_search_content',
+@@ -172,7 +172,7 @@
+     ap = args.authorization.resolve()
+     assert sha(ap) == args.authorization_sha256
+     authorization = json.loads(ap.read_text())
+-    assert authorization['authorization'] == 'ONE_FRESH_EXACT16_SEQUENTIAL_CLONE_STAGE_ONLY'
++    assert authorization['authorization'] == 'ONE_FRESH_EXACT9_ORDERED_CLONE_STAGE_ONLY'
+     assert authorization['root_authorized'] is True and authorization['canonical_apply_authorized'] is False
+     assert authorization['resolution_apply_authorized'] is False
+     assert authorization['helper_pin'] == pin(Path(__file__).resolve())
+@@ -181,7 +181,11 @@
+     assert proposal['membership_pin'] == authorization['membership_pin']
+     assert proposal['operations'] == membership['operations']
+     members = membership['operations']
+-    assert len(members) == 16 and sum(m['changes'] for m in members) == 174
++    assert membership['target_count'] == proposal['target_count'] == 9
++    assert proposal['operation_count'] == 1
++    readpin(proposal['source_spec_pin'])
++    readpin(proposal['mechanical_guard_pin'])
++    assert len(members) == 1 and sum(m['changes'] for m in members) == 9
+     for role in ['primary_gate', 'independent_prestage_gate']:
+         gatecheck(authorization[role], sha(pp), sha(mp))
+     assert authorization['primary_gate']['pin']['path'] != authorization['independent_prestage_gate']['pin']['path']
+@@ -198,7 +202,7 @@
+     ids = set()
+     base = conn(baseline_path)
+     live = conn(MAIN)
+-    assert state(base) == state(live) == {'journal_head': 425, 'pending': 0}
++    assert state(base) == state(live) == {'journal_head': 442, 'pending': 0}
+     before = all50(base)
+     assert all50(live) == before
+     heads = dict(base.execute('select object_id,max(version) from revision group by object_id'))
+@@ -215,7 +219,7 @@
+                 assert heads.get(e['object']) == e['version'], ('Source/version disposition required before stage', x['id'], e)
+             heads[x['id']] = (x['expectedVersion'] or 0) + 1
+         ops.append((path, op))
+-    assert len(ids) == 174
++    assert len(ids) == 9
+     _, protected_input = readpin(authorization['protected42_pin'])
+     protected = protected_input['objects']
+     assert len(protected) == 42
+@@ -242,7 +246,7 @@
+             assert sha(path) == members[i - 1]['sha256']
+             c = conn(db)
+             prior = state(c)
+-            assert prior['journal_head'] == 424 + i
++            assert prior['journal_head'] == 441 + i
+             if steps:
+                 assert prior == steps[-1]['after']
+             c.close()
+@@ -266,15 +270,18 @@
+             steps.append(receipt)
+         c = conn(db)
+         final_state = state(c)
+-        assert final_state['journal_head'] == 441
++        assert final_state['journal_head'] == 443
+         after = all50(c)
+         write(stage / 'stage-all50-state.json', after)
+         assert after['schema'] == before['schema']
+         preserved = {}
++        allowed_append = {'operation','operation_payload','object','revision','origin','dependency','review_request','assessment','narrative'}
+         for name in before['tables']:
+             if name in DERIVED:
+                 continue
+-            # All existing physical knowledge/review rows remain exact; new rows append.
++            if name not in allowed_append:
++                assert after['tables'][name] == before['tables'][name], ('Unauthorized table append/change', name)
++            # All existing physical knowledge/review rows remain exact; authorized new rows append.
+             schema_sql = base.execute('select sql from sqlite_master where name=?', (name,)).fetchone()[0]
+             if 'WITHOUT ROWID' in schema_sql.upper():
+                 assert after['tables'][name] == before['tables'][name], ('Frozen no-rowid table changed', name)
+@@ -299,7 +306,7 @@
+             assert got == [{'object_id': oid, 'kind': n['kind'], 'text': expected}]
+             search_rows.append({'object_id': oid, 'exact_current_domain_index_text': True})
+         write(stage / 'existing-native-history-order-and-narrow-derived-search-proof.json', {'tables': preserved, 'derived_only': sorted(DERIVED), 'untouched_search_rows_exact': True, 'touched_current_search_rows': search_rows})
+-        pool, origins = {}, {}
++        pool, origins, documents, media_metadata = {}, {}, {}, {}
+         def add(rid):
+             if rid in pool:
+                 return rid
+@@ -309,6 +316,14 @@
+                 u = c.execute('select * from unit where id=?', (edge['unit_id'],)).fetchone()
+                 assert u is not None
+                 origins[edge['unit_id']] = dict(u)
++                d = dict(c.execute('select * from document where path=?', (u['document_path'],)).fetchone())
++                documents[d['path']] = d
++            for edge in n.get('assets', []):
++                a = dict(c.execute('select * from asset where path=?',(edge['asset_path'],)).fetchone())
++                media_metadata['asset:'+a['path']] = a
++            for edge in n.get('media', []):
++                a = dict(c.execute('select * from native_asset where id=?',(edge['asset_id'],)).fetchone())
++                media_metadata['native:'+a['id']] = a
+             for edge in n['evidence']:
+                 add(edge['basis_revision_id'])
+             return rid
+@@ -347,8 +362,8 @@
+             if base.execute('select id from revision where id=?', (rid,)).fetchone():
+                 assert n == native(base, rid)
+                 old_payloads[rid] = n
+-        nativepin = write(stage / 'complete-actual-target-request-history-upstream-native-payloads.json', {'objects': pool, 'origin_units': origins, 'order': 'All native evidence/origins/assets/media ORDER BY rowid; JSON source arrays unchanged'})
+-        targetpin = write(stage / 'all174-actual-full-native-targets-and-exact-API-bindings.json', {'objects': targets, 'target_proofs': targetproof, 'all174_complete': len(targets) == 174})
++        nativepin = write(stage / 'complete-actual-target-request-history-upstream-native-payloads.json', {'objects': pool, 'origin_units': origins, 'documents': documents, 'media_metadata': media_metadata, 'order': 'All native evidence/origins/assets/media ORDER BY rowid; JSON source arrays unchanged'})
++        targetpin = write(stage / 'all9-actual-full-native-targets-and-exact-API-bindings.json', {'objects': targets, 'target_proofs': targetproof, 'all9_complete': len(targets) == 9})
+         requestpin = write(stage / 'all-actual-individual-request-and-complete-dependency-context-routing.json', {'native_pin': nativepin, 'requests': requests, 'actual_pending_count': len(pending), 'full_dependency_subgraph': {rid: n['evidence'] for rid, n in pool.items()}, 'no_source_grade': True})
+         baselinepin = write(stage / 'all-existing-actual-context-payloads-exact-baseline-equality.json', {'objects': old_payloads, 'all_full_native_fields_and_rowid_array_order_equal_baseline': True})
+         write(stage / 'all-operation-payloads.json', [dict(r) for r in c.execute('select * from operation_payload order by sequence')])
+@@ -362,6 +377,10 @@
+         output = stage / 'pedigree-verified-P0269.json'
+         run_cli(['pedigree', 'P-0269', '--db', str(db)], output)
+         validators.append(pin(output))
++        for person in ['P-0211','P-0003','P-0007']:
++            output = stage / (person + '-full-person-current-review.json')
++            run_cli(['person', person, '--full', '--format', 'json', '--db', str(db)], output)
++            validators.append(pin(output))
+         assert all50(live) == before and sha(MAIN) == authorization['main_pin']['sha256']
+         for p in authorization['media_pins']:
+             assert sha(ROOT / p['path']) == p['sha256']
+@@ -370,7 +389,7 @@
+         c = conn(db)
+         assert state(c) == final_state
+         c.close()
+-        write(stage / 'complete-stage-result-and-Astra-handoff.json', {'task': 'T-0781', 'authorization_pin': pin(ap), 'proposal_pin': pin(pp), 'membership_pin': pin(mp), 'actual_state': final_state, 'operation_count': 16, 'actual_target_count': 174, 'actual_request_context_native_pin': nativepin, 'all174_native_API_binding_pin': targetpin, 'actual_individual_request_pin': requestpin, 'old_context_baseline_equality_pin': baselinepin, 'stage_DB_pin': pin(db), 'validators': validators, 'protected42_exact': True, 'live_all50_exact_and_main_SHA_unchanged': True, 'individual_request_source_and_independent_grades_required': True, 'resolutions_applied': 0, 'canonical_apply': False, 'actual_program_acceptance': False})
++        write(stage / 'complete-stage-result-and-Astra-handoff.json', {'task': 'T-0784', 'authorization_pin': pin(ap), 'proposal_pin': pin(pp), 'membership_pin': pin(mp), 'actual_state': final_state, 'operation_count': 1, 'actual_target_count': 9, 'actual_request_context_native_pin': nativepin, 'all9_native_API_binding_pin': targetpin, 'actual_individual_request_pin': requestpin, 'old_context_baseline_equality_pin': baselinepin, 'stage_DB_pin': pin(db), 'validators': validators, 'protected42_exact': True, 'live_all50_exact_and_main_SHA_unchanged': True, 'individual_request_source_and_independent_grades_required': True, 'resolutions_applied': 0, 'canonical_apply': False, 'actual_program_acceptance': False})
+     except BaseException as error:
+         c = conn(db)
+         actual = state(c)

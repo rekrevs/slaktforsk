@@ -1,0 +1,44 @@
+{
+  "task": "T-0780",
+  "prior_actual_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-C0561-ten-bounded-context-queue-v1/ten-C0561-bounded-context-operation-v1.json",
+    "sha256": "bae72011987a6d1e037ed951ed72e5979d61f134aaf0d2761c4df4fb06768766"
+  },
+  "actual_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-C0561-two-registration-wording-amendment-queue-v1/ten-C0561-bounded-context-registration-amended-operation-v1.json",
+    "sha256": "3a5ff4db7533081ab241f3483e062eb92f2ca94b85a4837a6a2fc4339f63d084"
+  },
+  "source_amendment_pin": {
+    "path": "evaluations/T-0780/source-review/resumed-C0561-two-registration-wording-amendment-v1.json",
+    "sha256": "66629b17117c3a11d8b893f057422440cf476c531a4bf332160c8d39cd2f52e2"
+  },
+  "prior_full_read_receipt_pin": {
+    "path": "evaluations/T-0780/fresh-independent-review/resumed-C0561-ten-actual-with-two-registration-followups-v1.json",
+    "sha256": "e98962a95eccf7df16e9def8741115ffe533cf9753b0905ac2ec3a509fab7742"
+  },
+  "independently_reconstructed_entire_ordered_API_changes_equal": true,
+  "operation_id_and_reason_amended_explicitly_reviewed": {
+    "id": "T-0780/resumed-C0561-ten-bounded-context-registration-amendment-v1",
+    "reason": "T-0780 AC3 exact source/current copy corrections c241038e27f23aa00501ce0b5f20fbaeadab8a5091df3560611968d3e9ef4272; no new original or review-grade change. Same-version bounded registration clauses amendment 66629b17117c3a11d8b893f057422440cf476c531a4bf332160c8d39cd2f52e2"
+  },
+  "all_eight_other_APIs_and_all_other_fields_and_ordered_arrays_unchanged": true,
+  "objects": [
+    {
+      "object_id": "RESEARCH-P-0433-9d76f0343410",
+      "expectedVersion": 1,
+      "field": "data.body",
+      "exact_full_old_new_source_equality": true,
+      "disposition": "bounded_pass_registration_not_physical_migration"
+    },
+    {
+      "object_id": "P-0430/Q-01",
+      "expectedVersion": 1,
+      "field": "data.body",
+      "exact_full_old_new_source_equality": true,
+      "disposition": "bounded_pass_registration_not_physical_migration"
+    }
+  ],
+  "two_findings_closed": true,
+  "production_failed_whole_envelope_comparison": "Initial equality assertion failed on intentional reviewed operation id/reason, not API payload. Preserved tool failure, repaired scoped comparison.",
+  "global_source_approval": false
+}

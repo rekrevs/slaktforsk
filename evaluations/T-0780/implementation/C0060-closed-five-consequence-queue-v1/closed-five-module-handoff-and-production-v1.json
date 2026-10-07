@@ -1,0 +1,58 @@
+{
+  "source_pins": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0060-eleven-structured-housing-minority-decisions-v1.json",
+      "sha256": "7d4b38db994e3232f28a3882eb8e6ea876ccc83b3d441761fb7e107402ab0d01"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0060-P0031-twelve-current-consequence-decisions-v1.json",
+      "sha256": "a20db04c2dcfee4aa396fc92d1bd5012e9993f831f5fad58aad9b7eb2bccbbda"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0060-seven-probate-age-decisions-v1.json",
+      "sha256": "183eba70f734be9f3693895f9c0d5bd08e819117bb9e2463d50ca46fbe2f8c79"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0060-P0030-selected-six-research-decisions-v2.json",
+      "sha256": "46e5790a91a75860a89e6db75b501cae4f193641b93f07c2b27068b8fd5e34f3"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0060-C0106-four-principal-biography-decisions-v2.json",
+      "sha256": "21cd59cd6aac6f39441c5d1c262b6fab55639f7175dde30f9fe3e46868ce5f53"
+    }
+  ],
+  "input_pin": {
+    "path": "evaluations/T-0780/implementation/C0060-closed-five-consequence-queue-v1/all-history-incoming-full-native-and-basis-input-v1.json",
+    "sha256": "03dc8412eab176e48b420558b9c4280997411baff17b075979aa89d69eca0503"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0780/implementation/C0060-closed-five-consequence-queue-v1/current94-explicit-replacement-membership-inventory-v1.json",
+    "sha256": "02a3fd21fafcf20fddd4932230528b366e8ee8af63d767f5d76b01f5e0c76d35"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0780/implementation/C0060-closed-five-consequence-queue-v1/concrete-current94-partial-sequence-and-constraint-proposal-v1.json",
+    "sha256": "c588ff058fbaf2bbb3bc0fcf102ecc6ffa063c1a6e4d5d098edb005d819e577b"
+  },
+  "new_targets": 20,
+  "amended_prior_BIO66_target": 1,
+  "other_four_prior_payloads_identical": true,
+  "full_field_entries": 317,
+  "all_history_incoming_edges": 34,
+  "full_incoming_objects": 34,
+  "current_incoming_edges": 33,
+  "no_stage_probe_apply_request_resolution": true,
+  "failed_attempts": [
+    {
+      "script": "finalize_C0060_closed_five_phase_v1.py",
+      "reason": "Seven explicit source-retained R@1 bases already have native baseline heads @2. No ordering repair is possible; returned to Astra. No candidate data or evidence changed."
+    }
+  ],
+  "observed_seconds_since_first_candidate": 173.808584690094,
+  "prebuild_reads_excluded": true,
+  "model_usage_root_collect_after_final": true,
+  "closed_five_module_cap_complete": true,
+  "queued_next_unperformed": [
+    "KEY9 24c83...",
+    "six-military-question-source f4908abe..."
+  ]
+}

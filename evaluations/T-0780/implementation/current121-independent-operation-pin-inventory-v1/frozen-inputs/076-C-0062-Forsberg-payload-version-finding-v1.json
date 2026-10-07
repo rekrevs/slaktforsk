@@ -1,0 +1,27 @@
+{
+  "status": "Unresolved actualpayload currentversion defect; prior boundedreadingreceipt is failed/incomplete attempt in thisrespect",
+  "operation_sha256": "7f7ba7a75a8bf7834668a229d3ee6adc5c9e99d13eba78fa5a27ed718206866b",
+  "current_locked_core": {
+    "object_id": "P-0089",
+    "revision_id": "P-0089@2",
+    "kind": "person",
+    "disposition": "accepted",
+    "evidence_status": "TRANSCRIBED",
+    "rationale": "Personposten avser den uttryckligt belagda individen; detta är ingen kontraktsgranskning eller utvidgad identifikation.",
+    "caveat": "Avser endast det belagda dopvittnet med efternamnet Forsberg. Full identitet och varje anknytning till andra poster är olösta; inget kontraktsgodkännande eller kön följer.",
+    "data": {
+      "revision_id": "P-0089@2",
+      "display_name": "Forsberg, dopvittne 1867",
+      "sex": null,
+      "legacy_state": "active"
+    },
+    "evidence": []
+  },
+  "affected": [
+    "AUDIT-T0780-C0062-reuse data.body.person_core_retained saysP0089@1",
+    "ADOPT-T0780-C0062-P-0089 evidence supportsP0089version1, note currentpersoncore remainsunresolved"
+  ],
+  "finding": "Currentlockedperson revision is@2, accepted asboundedrealwitness, fullidentityoutsidepostunresolved, sexnull. Audit cannot call@1 currentretainedcore. Adoption basis@1 requires explicitsource/consequence decision ratherthan silentrebind; likelycurrent@2 correctbasis.",
+  "prior_receipt": "C-0062-Forsberg-payload-reading-v1.json SHAa8e2e2715194d840e8c59b3f3af56fe13d65b9c425eca75acffa200a21143454 preserved unchanged; its boundedacceptance superseded for these two fields pendingrepair",
+  "required": "Primaryindividualdecision, correctedexactpayloadhash, freshcomparison andstage. No currentperson mutation needed."
+}

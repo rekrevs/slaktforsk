@@ -1,0 +1,434 @@
+{
+  "source_pin": {
+    "path": "evaluations/T-0780/source-review/C-0060-eleven-structured-housing-minority-decisions-v2.json",
+    "sha256": "ad6592b3f94d3e612a743b358460096883acf64ebe51b658edf237d4e684bd46"
+  },
+  "old_candidate_pin": {
+    "path": "evaluations/T-0780/implementation/C0060-closed-five-consequence-queue-v1/eleven-structured-housing-minority-operation-v1.json",
+    "sha256": "81c439b81619621e516c8fa361c50315d5677c945fd8169dec626b6946e30a3e"
+  },
+  "new_candidate_pin": {
+    "path": "evaluations/T-0780/implementation/C0060-seven-explicit-basis-amendment-v2/eleven-structured-seven-explicit-bases-operation-v2.json",
+    "sha256": "63a3e8f018ca885904aaf253ee9b40d848bd6f2ca833d13109aec95835944b0d",
+    "index": 91,
+    "operation_id": "T-0780/C0060-eleven-structured-seven-explicit-bases-v2",
+    "targets": [
+      {
+        "id": "F-P-0030-residence-documented",
+        "expectedVersion": 1,
+        "payload_sha256": "71c2730d5c49f404b4baa29c3b2e71238c859936eedfe39afd2ca5c8f54823c9"
+      },
+      {
+        "id": "F-P-0068-household_membership-Buberget1871-1900",
+        "expectedVersion": 1,
+        "payload_sha256": "38bb4fcb2816e3e04b57a883e3c09050d6f63a1bd3cf67a91c7951d0c3407161"
+      },
+      {
+        "id": "F-P-0069-household_membership-Buberget1876-1900",
+        "expectedVersion": 1,
+        "payload_sha256": "414c2d7114e48217acf9ee34a30b70f4487d97b9d2da74d951eb145a699450a1"
+      },
+      {
+        "id": "F-P-0070-household_membership-Buberget1878-1900",
+        "expectedVersion": 1,
+        "payload_sha256": "b77e4759374b0f7e91b88129ab4a1762a0e913d77baf2aa4c1ffedb6b7a7bde8"
+      },
+      {
+        "id": "F-P-0071-household_membership-Buberget1880-1900",
+        "expectedVersion": 1,
+        "payload_sha256": "8a96b507a2663fdba061e70e9f1a23e05e0c9b7d0bade47628bb48bc8a8cab8b"
+      },
+      {
+        "id": "F-P-0072-household_membership-Buberget1882-1900",
+        "expectedVersion": 1,
+        "payload_sha256": "52dbc64138364f3356606579bdedf9be8bd081cf601cd9d0f39f40a045790044"
+      },
+      {
+        "id": "F-P-0073-household_membership-Buberget1885-1900",
+        "expectedVersion": 1,
+        "payload_sha256": "590e67df6c1e25afcd0f46ad0b20edf33bcba797ca8a758dce0ade40adc7d60f"
+      }
+    ]
+  },
+  "individual_table": [
+    {
+      "target": "F-P-0030-residence-documented",
+      "expectedVersion": 1,
+      "field": "evidence[0]",
+      "old": {
+        "object": "R-67f44133b117de7897502fa2",
+        "version": 1,
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "new": {
+        "object": "R-67f44133b117de7897502fa2",
+        "version": 2,
+        "role": "supports",
+        "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+      },
+      "source_rationale": "Rosinedahl fol1064 egna Livia-rad och registrerade1900–1916-ankare kvarstår i T0675@2. Uppdaterade yrkes-, vigsel-, flytt- och andra syskonglyphreservationer upphäver inte denna avgränsade hushållskedja; ingen fysisk kontinuitet eller Malåmottagarpost påstås.",
+      "native_version_growth": 0
+    },
+    {
+      "target": "F-P-0067-household_membership-Buberget1869-1898",
+      "disposition": "retain_whole_object",
+      "source_rationale": "Hela strukturen/caveat/stöd lästa. Befintlig uttrycklig registreringsgräns eller dödsdagsålder bevaras; C0060 ger inte nytt negativt besked om senare eget liv."
+    },
+    {
+      "target": "F-P-0067-family_context-Oskar-Rudolf-later-household",
+      "disposition": "retain_whole_object",
+      "source_rationale": "Hela strukturen/caveat/stöd lästa. Befintlig uttrycklig registreringsgräns eller dödsdagsålder bevaras; C0060 ger inte nytt negativt besked om senare eget liv."
+    },
+    {
+      "target": "F-P-0068-household_membership-Buberget1871-1900",
+      "expectedVersion": 1,
+      "field": "evidence[0]",
+      "old": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 1,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "new": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 2,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "source_rationale": "Jonas1871 ingår fortsatt i sexbarnsutdraget1900. T0673 korrigerar systerns källnamn, inte hans egenrad eller hushållsankaret.",
+      "native_version_growth": 0
+    },
+    {
+      "target": "F-P-0069-household_membership-Buberget1876-1900",
+      "expectedVersion": 1,
+      "field": "evidence[0]",
+      "old": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 1,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "new": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 2,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "source_rationale": "Anders1876 ingår fortsatt i1900utdraget; hans starkare exakta födelsedag är annan källa. T0673namnrättelsen upphäver inte egna registreringen.",
+      "native_version_growth": 0
+    },
+    {
+      "target": "F-P-0070-household_membership-Buberget1878-1900",
+      "expectedVersion": 1,
+      "field": "evidence[0]",
+      "old": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 1,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "new": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 2,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "source_rationale": "Hildur1878 är samma korrelerade hushållsrad men T0673@2 bevarar uttryckligen originalets Elisabetta mot andra böckers Charlotta. Faktens data påstår inget källnamn och behåller registrerat hushåll, utan harmonisering.",
+      "native_version_growth": 0
+    },
+    {
+      "target": "F-P-0071-household_membership-Buberget1880-1900",
+      "expectedVersion": 1,
+      "field": "evidence[0]",
+      "old": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 1,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "new": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 2,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "source_rationale": "Karl1880 ingår fortsatt i1900utdragets egenrad; exakt21juli från starkare bok ändras inte. Systerns namnvariant ändrar inte hushållsankaret.",
+      "native_version_growth": 0
+    },
+    {
+      "target": "F-P-0072-family_context-minor-at-mother-death",
+      "disposition": "retain_whole_object",
+      "source_rationale": "Hela strukturen/caveat/stöd lästa. Befintlig uttrycklig registreringsgräns eller dödsdagsålder bevaras; C0060 ger inte nytt negativt besked om senare eget liv."
+    },
+    {
+      "target": "F-P-0072-household_membership-Buberget1882-1900",
+      "expectedVersion": 1,
+      "field": "evidence[0]",
+      "old": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 1,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "new": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 2,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "source_rationale": "Hanna1882 skiljs uttryckligen från Hildur1878 i T0673@2. Hushållsregistreringen bevaras, exakt6augusti kommer från annan bok.",
+      "native_version_growth": 0
+    },
+    {
+      "target": "F-P-0073-family_context-minor-at-mother-death",
+      "disposition": "retain_whole_object",
+      "source_rationale": "Hela strukturen/caveat/stöd lästa. Befintlig uttrycklig registreringsgräns eller dödsdagsålder bevaras; C0060 ger inte nytt negativt besked om senare eget liv."
+    },
+    {
+      "target": "F-P-0073-household_membership-Buberget1885-1900",
+      "expectedVersion": 1,
+      "field": "evidence[0]",
+      "old": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 1,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "new": {
+        "object": "R-126171c8899cd464e47c503b",
+        "version": 2,
+        "role": "supports",
+        "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+      },
+      "source_rationale": "Oskar1885 egen1900rad kvarstår; T0673@2 anger år och hushåll, inte exakt dag eller kopieringsorsak. Faktens avgränsade period bevaras.",
+      "native_version_growth": 0
+    }
+  ],
+  "full_old_current_record_bases": {
+    "R-67f44133b117de7897502fa2@1": {
+      "id": "R-67f44133b117de7897502fa2@1",
+      "object_id": "R-67f44133b117de7897502fa2",
+      "version": 1,
+      "operation_id": "T-0650/evidence-05-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Källpost avgränsad i C-0890. Fortsättning från C-0574 till C-0907; kopierade familjeuppgifter är inte flera oberoende röster. Systrarnas datumskillnader och vigseldag 7/7 kontra 1/7 kvarstår med respektive bevisvärde.",
+      "caveat": "Äldre avskrift bevaras med sena rättelser: Hällsten på rad 13; Johan Magnus född 29/10, inte 22/10; Frik. 1917 hör till rad 6, inte Anders Waldemar. Skolorten Luleå avvisas, Lunds endast hypotes. Värnpliktens mellanled 20/70 reserveras.\nC-0890: Rad 4 skriver inlämnat och två strukna destinationsrader, med Örebro-konflikt mot mottagarboken. Rad 5:s Jordarb. är odaterad blå blyerts av okänd hand. Betygsbokstävernas skala är inte utskriven. Familjeklammern upphäver inte Livias och Astrids egna flyttnoter.",
+      "previous_id": null,
+      "kind": "record",
+      "data": {
+        "revision_id": "R-67f44133b117de7897502fa2@1",
+        "source_id": "S-0702",
+        "record_type": "household",
+        "locator": "Degerfors A II a/6, Rosinedahl fol. 1064 rader 1–13, Johan Oskar Zingmarks hushåll, 00206819_00317",
+        "dependence_note": "Fortsättning från C-0574 till C-0907; kopierade familjeuppgifter är inte flera oberoende röster. Systrarnas datumskillnader och vigseldag 7/7 kontra 1/7 kvarstår med respektive bevisvärde."
+      },
+      "origins": [
+        {
+          "revision_id": "R-67f44133b117de7897502fa2@1",
+          "unit_id": "1e9fad67255f5a36f67379085e0670ddec39678ac8a688d2ef81812dd996f94d",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-67f44133b117de7897502fa2@1",
+          "unit_id": "583b9e721e66d6bf880e1ae256bc6012195106af8526e4cf2a3efe90a94e122d",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-67f44133b117de7897502fa2@1",
+          "unit_id": "a2820706440da729eeb0cbccd01423d312cf7dd21c51683d2eccd63c15df6367",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-67f44133b117de7897502fa2@1",
+          "basis_revision_id": "S-0702@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ],
+      "assets": [
+        {
+          "revision_id": "R-67f44133b117de7897502fa2@1",
+          "asset_path": "genealogy/media/C-0890-riksarkivet-00206819_00317.jpg",
+          "region": "Familjeblockets rader 1–13; sena rättelser anger exakt radägare"
+        }
+      ],
+      "media": []
+    },
+    "R-67f44133b117de7897502fa2@2": {
+      "id": "R-67f44133b117de7897502fa2@2",
+      "object_id": "R-67f44133b117de7897502fa2",
+      "version": 2,
+      "operation_id": "T-0675/degerfors1064-full-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "T-0675 AK1–4 post21: fullbild och alla18kolumner r1–13 genom två låsta läsningar, riktad teckenprövning och individuell modellföljd.",
+      "caveat": "R1gift88 1/7 föredras framför äldre7/7. R3yrke [Lasrig./Lösrig.? sköt./arb.?], inte säker lasarettssköterska. R4struketÖrebroNorra förs.Örebro l. föredras, egen notinlämnatUmeå8/11 17 skiljs från säker flyttdag. R6dag29/10; skolaLunds[?] priv.elem.skola; militär737 30/1914[?] struket, Frik.1914[?] mot äldre1917, ingen säker frikallelsetid. R9rå31/3[5/3?] konflikt mot äldre5/3; inget persondatum ändras. Kol13år13,14 hör r8,16r10 och16r11; r9tom. Utflyttningsklammer r5–12 med ort/datum pår8. R13faderns namn Karl [Gottfrid?/Edvard?/äldreGotthard] H[oläst efternamn; äldreHällsten], ej ny säker identitet. Egna blankceller är inte saknegationer. Historiska avskrifter och origins bevaras; inga grindändringar.",
+      "previous_id": "R-67f44133b117de7897502fa2@1",
+      "kind": "record",
+      "data": {
+        "revision_id": "R-67f44133b117de7897502fa2@2",
+        "source_id": "S-0702",
+        "record_type": "household",
+        "locator": "Degerfors A II a/6, Rosinedahl fol. 1064 rader 1–13, Johan Oskar Zingmarks hushåll, 00206819_00317",
+        "dependence_note": "Fortsättning från C0574 till C0907, samma administrativa kopiekedja. T0675r1rågift88 1/7; äldre7/7avskrift bevarad historiskt. Tyra12/7 ochGerda17/9 stöds här; tidigare syskonkonflikter avgörs källvis, inte genom harmonisering. R9Ludvig31/3[5/3?] reserverat."
+      },
+      "origins": [
+        {
+          "revision_id": "R-67f44133b117de7897502fa2@2",
+          "unit_id": "1e9fad67255f5a36f67379085e0670ddec39678ac8a688d2ef81812dd996f94d",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-67f44133b117de7897502fa2@2",
+          "unit_id": "583b9e721e66d6bf880e1ae256bc6012195106af8526e4cf2a3efe90a94e122d",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-67f44133b117de7897502fa2@2",
+          "unit_id": "a2820706440da729eeb0cbccd01423d312cf7dd21c51683d2eccd63c15df6367",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-67f44133b117de7897502fa2@2",
+          "basis_revision_id": "S-0702@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ],
+      "assets": [
+        {
+          "revision_id": "R-67f44133b117de7897502fa2@2",
+          "asset_path": "genealogy/media/C-0890-riksarkivet-00206819_00317.jpg",
+          "region": "Familjeblockets rader 1–13; sena rättelser anger exakt radägare"
+        }
+      ],
+      "media": []
+    },
+    "R-126171c8899cd464e47c503b@1": {
+      "id": "R-126171c8899cd464e47c503b@1",
+      "object_id": "R-126171c8899cd464e47c503b",
+      "version": 1,
+      "operation_id": "T-0647/evidence-02-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Källpost avgränsad i C-0402. Utdrag ur församlingsboken i samma successiva serie som C-0404; inte andra oberoende röst. Bilden visar senare hushållssammansättning men oberoendet faller.",
+      "caveat": "Sex barn i listan; senare femhemmavarande hänförs tillfem påståenden men ger ingen uttrycklig korrigering avlistan. Hildur Charlotta 1878 och Hanna Matilda 1882 är två systrar, Matilda/Mathilda skrivarvariant. Lågupplöst 800 px begränsar kolumnläsning.\nC-0402: Ett änklingshushåll med sex namngivna barn. Senare två tillägg rättar källoberoendet utan att ändra sakinnehållet eller införa dödsdatum från änklingsstatus.",
+      "previous_id": null,
+      "kind": "record",
+      "data": {
+        "revision_id": "R-126171c8899cd464e47c503b@1",
+        "source_id": "S-0005",
+        "record_type": "census_household_extract",
+        "locator": "Folkräkning 1900 Degerfors, Buberget s 145 rad 26 familj 1, Folk_024008-145; Anders Jonsson, index Folk_111887653",
+        "dependence_note": "Utdrag ur församlingsboken i samma successiva serie som C-0404; inte andra oberoende röst. Bilden visar senare hushållssammansättning men oberoendet faller."
+      },
+      "origins": [
+        {
+          "revision_id": "R-126171c8899cd464e47c503b@1",
+          "unit_id": "4481750eec94174d7a9e4920b3af05cbf418c61b5e08e6ed2c25fe6bfba4b7fe",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-126171c8899cd464e47c503b@1",
+          "unit_id": "b52ff6864ff67b2a9e332c264834c4ef596cb0a024d6ab8b3f584e16bea67ad3",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-126171c8899cd464e47c503b@1",
+          "unit_id": "edeab228a6b136d512cf8a6376217e864988bf41b883743c438c6e106500ac89",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-126171c8899cd464e47c503b@1",
+          "basis_revision_id": "S-0005@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ],
+      "assets": [
+        {
+          "revision_id": "R-126171c8899cd464e47c503b@1",
+          "asset_path": "genealogy/media/C-0402-riksarkivet-folkrakning-1900-degerfors-buberget-jonsson.jpg",
+          "region": "Folkräkning 1900 Degerfors, Buberget s 145 rad 26 familj 1, Folk_024008-145; Anders Jonsson, index Folk_111887653"
+        }
+      ],
+      "media": []
+    },
+    "R-126171c8899cd464e47c503b@2": {
+      "id": "R-126171c8899cd464e47c503b@2",
+      "object_id": "R-126171c8899cd464e47c503b",
+      "version": 2,
+      "operation_id": "T-0673/root-pilot-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "T-0673 AC3: pilot P06, två separata bildläsningar skiljer utdragets Hildur Elisabetta från tidigare avskrift Hildur Charlotta; ingen automatisk ändring av personidentiteten.",
+      "caveat": "T-0673 P06: Folkräkningsutdraget1900 skriver Hildur Elisabetta, råår78. Tidigare återgivning Hildur Charlotta i just C-0402 är rättad. Personens namn Hildur Charlotta i andra husförhörsuppgifter står kvar som annan källuppgift, inte harmoniserad originaltext. Hushåll, år och systern Hanna Matilda82 skiljer raderna; namnvariant/skrivfel är inte avgjort genom detta utdrag. Bildens maxformat är800×1405; sex barn och far, ingen hustru. Inget exakt födelsedatum.",
+      "previous_id": "R-126171c8899cd464e47c503b@1",
+      "kind": "record",
+      "data": {
+        "revision_id": "R-126171c8899cd464e47c503b@2",
+        "source_id": "S-0005",
+        "record_type": "census_household_extract",
+        "locator": "Folkräkning 1900 Degerfors, Buberget s 145 rad 26 familj 1, Folk_024008-145; Anders Jonsson, index Folk_111887653",
+        "dependence_note": "Utdrag ur församlingsboken i samma successiva serie som C-0404; inte andra oberoende röst. Bilden visar senare hushållssammansättning men oberoendet faller."
+      },
+      "origins": [
+        {
+          "revision_id": "R-126171c8899cd464e47c503b@2",
+          "unit_id": "4481750eec94174d7a9e4920b3af05cbf418c61b5e08e6ed2c25fe6bfba4b7fe",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-126171c8899cd464e47c503b@2",
+          "unit_id": "b52ff6864ff67b2a9e332c264834c4ef596cb0a024d6ab8b3f584e16bea67ad3",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-126171c8899cd464e47c503b@2",
+          "unit_id": "edeab228a6b136d512cf8a6376217e864988bf41b883743c438c6e106500ac89",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-126171c8899cd464e47c503b@2",
+          "basis_revision_id": "S-0005@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ],
+      "assets": [
+        {
+          "revision_id": "R-126171c8899cd464e47c503b@2",
+          "asset_path": "genealogy/media/C-0402-riksarkivet-folkrakning-1900-degerfors-buberget-jonsson.jpg",
+          "region": "Folkräkning 1900 Degerfors, Buberget s 145 rad 26 familj 1, Folk_024008-145; Anders Jonsson, index Folk_111887653"
+        }
+      ],
+      "media": []
+    }
+  },
+  "all_history_incoming_changed_targets": [],
+  "full_native_referencers": {},
+  "all_non_evidence_fields_and_other_array_slots_exact_unchanged": true,
+  "no_generic_rebind": true
+}

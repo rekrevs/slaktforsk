@@ -1,0 +1,145 @@
+{
+  "task": "T-0790",
+  "role": "independent Astra SOURCE/consequence final gate",
+  "ready_for_canonical": true,
+  "source_outcome": "PASS",
+  "actual_state": {
+    "journal_head": 457,
+    "pending": 0
+  },
+  "reviewed_stage_DB_pin": {
+    "path": "evaluations/T-0790/preparation/reviewed-stage-v1/stage.sqlite",
+    "sha256": "5354c6db5e4eb399e148f86afec88871ed7c8b7f68fc3bf3255935beb94190d2"
+  },
+  "ordered_operations": [
+    {
+      "path": "evaluations/T-0790/preparation/materialized-source-v3-literal-v1/operation-literal.json",
+      "sha256": "211f0922680418c50f70f2443ef08d601ab06c0f242ffeb70ce4091538b019d5"
+    },
+    {
+      "path": "evaluations/T-0790/preparation/exact-nine-request-only-resolution-draft-v1/resolve-literal.json",
+      "sha256": "d46bc7e31475893b36a619ce556b7ac40a350c82a6e3c6e72ed6b6a196fc6e59"
+    },
+    {
+      "path": "evaluations/T-0790/preparation/final-three-literal-draft-v1/operation-final-three-literal.json",
+      "sha256": "7a4566e9a7d5b07d0161c7816f88fd6b0b5832dfd84fa07d32305a7867df47b6"
+    }
+  ],
+  "consequence_table_pin": {
+    "path": "evaluations/T-0790/preparation/materialized-source-v3-literal-v1/individual-consequence-table.json",
+    "sha256": "3ec724d31e694f454e4c7dbc2dd8792fe17dfade30a45db4c6720439f12336bb"
+  },
+  "resolution_consequence_table_pin": {
+    "path": "evaluations/T-0790/preparation/exact-nine-request-only-resolution-draft-v1/nine-individual-resolution-table.json",
+    "sha256": "bb056c48915a9f916fee47900fdb1a92114019a729f3bd8ab64bfbd67e863165"
+  },
+  "final_three_consequence_table_pin": {
+    "path": "evaluations/T-0790/preparation/final-three-literal-draft-v1/final-three-and-two-retains-consequence-table.json",
+    "sha256": "752840e34b6cef2238d51c007e027675dc8936fe517d2d6888ed6bdbb8fe78b1"
+  },
+  "final_package_manifest_pin": {
+    "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/final457-package-manifest-v1.json",
+    "sha256": "8f606716ac8e19e7e18ed45d3b64ff76049c7889e23247adbd25f862eb73397f"
+  },
+  "manifest_file_pins_verified": 27,
+  "source_basis": [
+    {
+      "path": "evaluations/T-0790/independent-review/own-freeze-v1.json",
+      "sha256": "28b8ba05462250841c1b30ea9153322181da046c1c3971df319852859d332674"
+    },
+    {
+      "path": "evaluations/T-0790/independent-review/semantic-findings-v1.md",
+      "sha256": "785abecce3ab92c0de34ef4a3fc6022b530ac8bfb22f4eef8003bceda9ac5b8c"
+    },
+    {
+      "path": "evaluations/T-0790/independent-review/source-v3-field-approval-v1.json",
+      "sha256": "54b42691d15206539e38d1cdd9381841d1a52b78ce6909fdd49b9b1629816625"
+    },
+    {
+      "path": "evaluations/T-0790/independent-review/prestage-source-gate-v1.json",
+      "sha256": "a91b350bd637790c673e10b87541c4f0e2ead0837948c3a20bea57fa5bebb295"
+    },
+    {
+      "path": "evaluations/T-0790/independent-review/actual-nine-own-freeze-v1.json",
+      "sha256": "7b9655e3ccf7814ae0c7fd7dc14b1328f4973b97ffcb58b0a0b167fe4137ff77"
+    },
+    {
+      "path": "evaluations/T-0790/independent-review/actual-nine-comparison-v1.json",
+      "sha256": "b157fb53525c18a9aefcbe7e5d6a821c354896cfd0c12f8743e66f12eedfe31b"
+    },
+    {
+      "path": "evaluations/T-0790/independent-review/exact-nine-same-stage-resolution-gate-v1.json",
+      "sha256": "c2039ee42e4ed339855974f0922a46675f4c0265eb5bd9c089a86a2298fcdc4c"
+    },
+    {
+      "path": "evaluations/T-0790/independent-review/stage456-final-review-held-v1.json",
+      "sha256": "c39ec529ba6edc7cf4312f55dc8d20093674e56af06f131f99021919a03b6ecb"
+    },
+    {
+      "path": "evaluations/T-0790/independent-review/final-three-field-source-approval-v1.json",
+      "sha256": "b0443fba296380290e271b0ca8272d993a8ddd0744454e6abd1ec8dcc34bba0a"
+    },
+    {
+      "path": "evaluations/T-0790/independent-review/final-three-exact-same-stage-gate-v1.json",
+      "sha256": "6f92b3882b6de51bee457960ae7dc9829559b94b2f228fabdeee4a65c77832b7"
+    },
+    {
+      "path": "evaluations/T-0790/independent-review/final-stage457-semantic-candidates-v1.json",
+      "sha256": "87232f4c8e753672e821a9b7d94ef96843de029b5a6f2aca7148c5195d324496"
+    },
+    {
+      "path": "evaluations/T-0790/independent-review/final457-direct-source-verification-v1.json",
+      "sha256": "72054a7323a0234ea4dbec3ce306bd079d08975140752f69d0f9bab4dac4d1a6"
+    }
+  ],
+  "substantive_decision": {
+    "coverage": "All 60 individual themes and 30 life PK dispositions reuse the independent frozen full-current review and exact comparison; 43 current full APIs independently equal the approved literal changes. Nine actual dependency dispositions remain individually justified and native unchanged. Actual third operation has zero requests.",
+    "final_three": "All three independent semantic-copy findings are corrected: P0304 no longer exports its maternal limitation to P0005; P0303 has an explicit current P0005 qualifier while historical body and own identity remain; P0006 PK05 states raw-number function unresolved. Neither sibling acquires a maternal or identity upgrade.",
+    "two_retains": "O-P0006-f1006-daughter@1 and O-P0006-f275-daughter@1 retain historical editorial omission wording; no private number or positive number-function conclusion is asserted. Accepted field audits and current KEY explicitly constrain interpretation.",
+    "semantic_search": "Independent current semantic search extends beyond the mechanical target list to six-person and necessary consequence scope, including bodies, caveats, statuses and structured values. Remaining historical prompts/older quoted text are qualified by whole current bodies and stronger support, not silently promoted to current ignorance or rewritten as source facts.",
+    "life_outcomes": [
+      {
+        "subject_id": "P-0004",
+        "criteria": "life_picture_review/1",
+        "outcome": "failed",
+        "evidence_status": null
+      },
+      {
+        "subject_id": "P-0210",
+        "criteria": "life_picture_review/1",
+        "outcome": "failed",
+        "evidence_status": null
+      },
+      {
+        "subject_id": "P-0005",
+        "criteria": "life_picture_review/1",
+        "outcome": "failed",
+        "evidence_status": null
+      },
+      {
+        "subject_id": "P-0006",
+        "criteria": "life_picture_review/1",
+        "outcome": "failed",
+        "evidence_status": null
+      },
+      {
+        "subject_id": "P-0211",
+        "criteria": "life_picture_review/1",
+        "outcome": "passed",
+        "evidence_status": null
+      },
+      {
+        "subject_id": "P-0212",
+        "criteria": "life_picture_review/1",
+        "outcome": "failed",
+        "evidence_status": null
+      }
+    ],
+    "privacy": "PCD-2026-09-09-029 remains a substantive limitation for the four named living subjects in this batch. Gunnar also fails material life criteria. Evy passes the bounded minimal life level on accepted existing support. Privacy and old KLAR never force PASS. PK06 individual assessment is distinct from closed future source routes.",
+    "protected": "OWNER-confirmed knowledge, native identity/tree levels, relations, accepted source observations, origins and old ordered evidence remain protected. Legacy full-contract scope remains distinct from native life review. No source access or source/media mutation.",
+    "remaining_work": "T0795 remains planning only: six metadata units, at most two candidates each and twelve total, U6 two total across three organizations. Other named deferred owners/scopes remain unchanged; this approval does not execute them."
+  },
+  "technical_basis_is_separate": "Fresh verify/inventory/pedigrees and justified source/assets check reuse were inspected; their PASS is supporting validation, not the reason for SOURCE PASS. Full old-native/order preservation uses pinned actual all50 proof; direct content verification independently checks all43 current APIs.",
+  "limits": "Existing accepted research reused. No originals, images, catalogue, web, downloads or new source reading. 479 scoped current heads/114 pattern hits are search counts, not 479 full-record reads or source credit. This gate binds only the listed whole corrected stage and exact ordered operations; canonical execution belongs to root.",
+  "canonical_action_performed": false
+}

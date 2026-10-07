@@ -1,0 +1,123 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T12:59:21.877204+00:00",
+  "root_readonly_finalization_authorization_pin": {
+    "path": "evaluations/T-0780/root-already-applied425-readonly-finalization-authorization-v1.json",
+    "sha256": "58fedf68cf4d957789cda7888068a876a9f8798c3c12a67b3db3d8d68203a3c9"
+  },
+  "exact_readonly_helper_pin": {
+    "path": "evaluations/T-0780/implementation/finalize_already_applied_sameclone_resolution_READONLY_v1.py",
+    "sha256": "17b3e8ac2fad21ba591e7d320b75d160985dd26a03dc0a09db92f12f8ba35c8c"
+  },
+  "readonly_final_handoff_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/post-resolution-readonly-finalization-v1/actual425-zero-pending-readonly-final-stage-handoff-index-v1.json",
+    "sha256": "9d424b16eba89d498112a69405b20f9541499aae1f8c9aa35c41a2fe3420fdea"
+  },
+  "root_actual_first_apply_renewal_pin": {
+    "path": "evaluations/T-0780/root-one-sameclone-individual2128-resolution-runtime-authorization-v2.json",
+    "sha256": "248bf551c5638b0dc8300cc65efd43ef66bc294ba54ccefca2671be41ccf4535"
+  },
+  "root_original_apply_authorization_pin": {
+    "path": "evaluations/T-0780/root-one-sameclone-individual2128-resolution-runtime-authorization-v1.json",
+    "sha256": "eeb4b2294a64b06df69f4caf44ebffed8813eb4dda2859447e42966d1ce43c39"
+  },
+  "actual_stage_DB_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/stage.sqlite",
+    "sha256": "f834633262e88405afd7fb0bc454202e1476c824d88c40618df4d949d772b7bd"
+  },
+  "original_byte_snapshot_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/pre-resolution-stage-original-ae906-v1.sqlite",
+    "sha256": "ae906e23de24bbded3cf392980c9749fe75d8ba6161fec7a92a1fbfdd17fe5ac"
+  },
+  "actual_stage_state": {
+    "journal_head": 425,
+    "pending": 0
+  },
+  "actual_main_state": {
+    "journal_head": 281,
+    "pending": 0
+  },
+  "validator_result_pins": [
+    {
+      "name": "verify",
+      "result_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/post-resolution-readonly-finalization-v1/verify.json",
+        "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+      },
+      "stderr_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/post-resolution-readonly-finalization-v1/verify.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "exit_code": 0
+    },
+    {
+      "name": "verify-assets",
+      "result_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/post-resolution-readonly-finalization-v1/verify-assets.json",
+        "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+      },
+      "stderr_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/post-resolution-readonly-finalization-v1/verify-assets.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "exit_code": 0
+    },
+    {
+      "name": "verify-source",
+      "result_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/post-resolution-readonly-finalization-v1/verify-source.json",
+        "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+      },
+      "stderr_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/post-resolution-readonly-finalization-v1/verify-source.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "exit_code": 0
+    },
+    {
+      "name": "inventory",
+      "result_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/post-resolution-readonly-finalization-v1/inventory.json",
+        "sha256": "847e7585d9c99edf2a4a1c4902edfe9bebd131d5f9c43403affb4e8bf62936bb"
+      },
+      "stderr_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/post-resolution-readonly-finalization-v1/inventory.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "exit_code": 0
+    },
+    {
+      "name": "pedigree-verified-P0269",
+      "result_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/post-resolution-readonly-finalization-v1/pedigree-verified-P0269.json",
+        "sha256": "20a8a1312da1fc92f0fd4e1c96e5cbe91404e56d26cf4f8c7c5618e1fca6e4a6"
+      },
+      "stderr_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/post-resolution-readonly-finalization-v1/pedigree-verified-P0269.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "exit_code": 0
+    }
+  ],
+  "original_submitted_resolution_operation_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-all2128-one-resolution-draft-v1/001-individual-source-approved-resolution-operation-v1.json",
+    "sha256": "31479f6a523088a64df8c7ee218ef91416ae726e2724aae3b0e20e1009389aee"
+  },
+  "mechanically_complete": true,
+  "read_only_finalization_invocations": 1,
+  "actual_successful_resolution_CLI_apply_invocations": 1,
+  "initial_preCLI_stop_preserved": true,
+  "postCLI_raw_equality_stop_preserved_and_both_Astra_representation_amendments_bound": true,
+  "new_source_or_evidence_judgments_by_Sol": 0,
+  "acceptance_marker_or_program_credit": false,
+  "canonical_apply": false,
+  "all50_live_and47knowledge_andprotected42_andorderedmetadata_verified": true,
+  "all_initial_attempts_repairs_and_finalization_count_as_production": true,
+  "actual_usage": {
+    "input_tokens": null,
+    "cached_input_tokens": null,
+    "output_tokens": null,
+    "reasoning_tokens": null,
+    "observability": "Unavailable within child; parent collects actual new-turn modelusage after workerfinal. Unknown, not zero."
+  }
+}

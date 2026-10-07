@@ -1,0 +1,88 @@
+{
+  "task": "T-0781",
+  "at_utc": "2026-10-04T14:22:00.807027+00:00",
+  "exact_selected_citation_scopes": [
+    "C-0049",
+    "C-0067"
+  ],
+  "precedessor_done": {
+    "path": "evaluations/T-0780/root-actual-T0780-DONE-completion-manifest-v1.json",
+    "sha256": "e885c17b8bc1011ee7d88e1e0a3b2dd7f615ec373222c85b1629f47f9adae4b9"
+  },
+  "actual_remaining": {
+    "path": "evaluations/T-0780/actual-ten-accepted-remaining21-reconciliation-v1.json",
+    "sha256": "2d4a5477c0c1f7d5df3d16b2e2d76633d4d45d3d670d1d934b3d5de13efc634a"
+  },
+  "selection_recommendation": {
+    "path": "evaluations/T-0781/primary-two-metadata-current-reuse-recommendation-v1.json",
+    "sha256": "d75a794163d555cd4b743a70002c4f3df1b4195c1923606ff24bcd8265d0528e"
+  },
+  "actual_state": {
+    "journal_head": 425,
+    "pending": 0
+  },
+  "units": [
+    {
+      "citation": "C-0049",
+      "record_scope": "Bygdeå A I/14b 1863–1873, Jomark sida 591, bild 235, C0034028_00235: den redan utpekade familjeposten, hela dess egna rader och relevanta rubriker, kolumnfält, ditton och marginaler.",
+      "mode": "BOUNDED_ORIGINAL_COMPLETION_AFTER_ROOT_LOCK",
+      "reason": "Nuvarande R/READ anger uttryckligen att övriga bleka kolumner inte transkriberats. Tre befintliga identitetsanspråk pekar hit; fullposten kan därför klarlägga exakt vad stödet innehåller utan att grafens antal bevisar oberoende eller ensam bärighet.",
+      "image_pin": {
+        "path": "genealogy/media/C-0049-riksarkivet-SE-HLA-1010025-AI14b-bild-235-sida-591.jpg",
+        "sha256": "2732d869d869b6c1c10b6cf0881b473f856812e32755e9b7b80f30e635c6ace8"
+      },
+      "existing_settled_boundaries": [
+        "Vigseldatum 60 5/7 har redan rättats till 1860-07-05; 7 maj är historisk felläsning. Återbruka egen vigsel C0184, R-d952f4ce2a1f22401b9b5fc1@1.",
+        "Anders Alfreds egen födelsepost C0048, R-5bff8de790faa07588de3620@2 och AUDIT-T0110-C-0048@1, är starkare egen födelsekälla; ingen ny rutinläsning.",
+        "C0044:s accepterade fullpost stödjer sin egen föräldra/syskonkontext; den ersätter inte Margareta Euphrosynes egen rad i C0049.",
+        "Tidigare Bygdeå-normalisering ur ditto skiljs från utskrivet ord på varje barnrad. Barbru Catharina/Barbro Christina är bevarad namnvariation, inte automatiskt en ny person.",
+        "Barnens olästa egna födelseposter, moderns föräldraidentitet/Bodanfråga och kontinuerlig fysisk hemvist avslutas inte av denna hushållspost. Accepterad begränsad T0766-läsning välfr. återbrukas."
+      ],
+      "exclusions": [
+        "Ingen årgångs- eller personjakt utanför den utpekade familjeposten.",
+        "Grannrader endast som nödvändig läskontext, inte extra slutförda poster.",
+        "Ingen generell tomhetsbedömning innan den egna relevanta kolumnen faktiskt prövats."
+      ]
+    },
+    {
+      "citation": "C-0067",
+      "record_scope": "Bygdeå C/5, 1872 nr 15, sida 88, bild 94, A0027066_00094: Anna Fredrikas egen födelse-/doppost inklusive fyra vittnesled, egna sidokolumner och relevanta rubriker/marginaler.",
+      "mode": "SUFFICIENT_PRIOR_FULL_POST_REUSE_AND_CURRENT_CONSEQUENCE_AUDIT",
+      "reason": "T0131 dokumenterar fullständig postprövning 2026-09-08. T0182-tillägget och nuvarande RESEARCH P0104–P0107 bekräftar att svaga namn/ortstecken är prövade läsgränser. En rutinmässig tredje läsning skulle inte vara nytt arbete; exakt tidigare scope återbrukas med individuell aktuell konsekvensbedömning.",
+      "image_pin": {
+        "path": "genealogy/media/C-0067-riksarkivet-SE-HLA-1010025-C5-bild-94-sida-88-anna-fredrika-1872.jpg",
+        "sha256": "674ada206f85566b8526dca3b123c80ec8bccc9ec58fb4b11d58efc235448008"
+      },
+      "existing_settled_boundaries": [
+        "Nuvarande R/READ/TR bär redan födelse 8 februari och dop 11 februari 1872, föräldrar Jacob Andersson/Maria C. Hansdr och Ultervattnet/folio567; detta är tidigare uppgift, inte ny originaltolkning här.",
+        "A. Andersson och C. Jacobsd:r har initialer; hustrun saknar namn; Anna Nilsd:r[?]/Ytteråträsk[?] är prövade reservationer. Ingen relation till barnet anges för något vittne.",
+        "Ålder 41/31, E, (4) och förrättarens råform bevaras inom sin tidigare uttryckliga fälttolkning. Inga vittnesåldrar eller säkra släktskapsidentiteter härleds.",
+        "Fyra ID-P-0049-C0067-witness-…@1 länkar historiska M@1, medan de fyra M-P-0049-witness-… har current@2. Inget automatiskt evidensversionsbyte.",
+        "P0094:s egen födelse1830-04-16 och P0095:s1840-10-17 är tidigare starkare egna födelsestöd i current RESEARCH; äldre juli-/27-varianter återinförs inte.",
+        "Accepterad C0069/C0425-kunskap och aktuella vittnesakters caveats återbrukas; äldre farbrors-/åldershypoteser får inte återuppstå som fakta."
+      ],
+      "exclusions": [
+        "Ingen ny blind originalförstaläsning tillskrivs någon roll.",
+        "Ingen rutinmässig omläsning av redan tillräckligt prövade celler.",
+        "Ingen annan skriftbärare, identifiering av vittnen eller årgångssökning ingår.",
+        "Ingen automatisk person-, livsbilds- eller identitetskontraktsfullbordan."
+      ]
+    }
+  ],
+  "source_release_authorized": false,
+  "remaining_pre_release_requirement": "Sol full person/current research/support/presentation/protected/freshbaseline inputs, root exacthash/current-source release. No original interpretation until release.",
+  "quality_contract": [
+    "Whole own relevant rows/header/dittos/blanks/margins and exactly bounded unread reservations.",
+    "C0067 sufficient prior wholeT0131post reused; no routine reread/newblindclaim.",
+    "Primary source/evidence and separate finalAstra; independent ownC0049originalfirst frozen before newclaims, existing historicalexposure acknowledged.",
+    "All actual semantic copies and stronger prior support individually dispositioned includingretains, versionrebinds/unresolved returnedAstra.",
+    "Sol exactsettledfullmetadata/evidence/origins/arrayorder controlledCLI stage; allactualrequests individually judged, finalexacthash source/consequence approval thenroot canonicalapply/comparison.",
+    "ProtectedOWNER_CONFIRMED/identity/tree/life retained; native adoption/reuse scoped, no person/group autoDONE.",
+    "Two actualdurablereceipts/finiteowners/production/cache-output usage; root unknown, stop exactly2."
+  ],
+  "exclusions": [
+    "RemainingG002/G003/newgeneration",
+    "Other original/witnessidentity/continuation research",
+    "Dashboard/archive/PDF/order/contact/commit/push/publication"
+  ]
+}

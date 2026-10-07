@@ -1,0 +1,25 @@
+--- evaluations/T-0789/preparation/build_root_authorized_exact21_guard_projection_draft_v1.py
++++ evaluations/T-0789/preparation/build_root_authorized_exact21_guard_projection_draft_v2.py
+@@ -61,8 +61,21 @@
+         binding = auth[key]
+         gate = read(binding['pin'])
+         assert h.pointer(gate, binding['ready_pointer']) is True
+-        assert h.pointer(gate, binding['source_union_pin_pointer']) == auth['final_source_union_pin']
+         assert h.pointer(gate, binding['guard_pin_pointer']) == GUARD
++        if key == 'primary_final_input_gate':
++            # The finalized primary entrypoint is itself the new source union.
++            assert binding['pin'] == auth['final_source_union_pin']
++        else:
++            # Own gate freezes the explicitly historical conditional union plus
++            # exact actual RESEARCH amendment; do not rewrite that own receipt.
++            historical = auth['historical_conditional_source_union_pin']
++            assert h.pointer(gate, binding['source_union_pin_pointer']) == historical
++            assert source['previous_conditional_union_pin'] == historical
++            assert source['independent_complete_source_readiness_pin'] == binding['pin']
++            assert source['actual_RESEARCH4_amendment_pin'] == h.pointer(gate, binding['RESEARCH_amendment_pin_pointer'])
++            research = read(source['actual_RESEARCH4_amendment_pin'])
++            assert research['full_new_API'] == g['rows'][17]['source_new_API_projection_NOT_OPERATION']
++            assert research['whole_old_native'] == g['rows'][17]['full_actual_old_native']
+     # Root supplies reviewed source locators; all changed current clauses remain
+     # literal guarded projections. Renewed source placeholder metadata is not API.
+     bindings = auth['individual_source_bindings']

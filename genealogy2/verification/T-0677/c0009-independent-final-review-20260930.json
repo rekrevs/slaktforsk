@@ -1,0 +1,483 @@
+{
+  "task": "T-0677",
+  "citation": "C-0009",
+  "reviewer": "Astra /root/g001_continue/c0016_independent",
+  "created_at": "2026-09-30T19:00:35.755354+00:00",
+  "outcome": "precisions_required",
+  "inputs": [
+    {
+      "path": "genealogy2/verification/T-0677/c0009-draft-implementation-spec-20260930.json",
+      "sha256": "b27d2deddafd7da38a5066cdb2ffb587c8bb4342b672037d9a6961087561acf1"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0009-impact-individual-dispositions-draft-20260930.json",
+      "sha256": "4416a9b86c05da419ea171b717c32fabc589996240b44acbcff7741e6ddc4e34"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0009-source-comparison-acceptance-20260930.json",
+      "sha256": "9b149adb62f02848d08cb9c3da4f99a26e45213fb62a3534e05bebaff8f1590b"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0009-independent-gaps-locked-20260930.json",
+      "sha256": "1d50c34cf3155220a7f03ff889efa478edc66a6a8a47a69f0fc53c2549d7ef50"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0009-independent-comparison-followup-20260930.json",
+      "sha256": "6e590f567f7bd2eafba7574ef56d91c433271e4749ca72d03c769e922232c2db"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0009-impact-current-j215-20260930.json",
+      "sha256": "156d934d5e4e1469307ef2cd5671799170486e2dbad097c309a77718560f400c"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0009-prestart-person-P-0008-j215-20260930.json",
+      "sha256": "7ac2071b58ce6c8393021fc5060bce1a1ec3a2c771db86d63671b36ef49cf5a3"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0009-scoped-personnel-count-scan-j217-20260930.json",
+      "sha256": "b93de30a1d86dee7e371d041b0e1a406eebc2fe800fd95d5527ecdf064a66c6c"
+    }
+  ],
+  "scope": "Fulla nya TR/O/AUDIT-texter, exakt metadata- och kroppsdiff, 65 individuella dispositioner, tre adoptioner och versions-/beroendegränser. Ingen ny bild, externkälla, canonicalimplementation eller tredje post.",
+  "checks": {
+    "input_hash_matches_assignment": true,
+    "spec_input_hashes_match": true,
+    "all_54_old_snippets_match_once": true,
+    "all_expected_versions_match_snapshots": true,
+    "unique_person_revision_ids": 39,
+    "metadata_caveat_updates": 39,
+    "total_planned_objects": 48,
+    "individual_dispositions": 65,
+    "revise": 40,
+    "retain": 25,
+    "new_raw_observations": 1,
+    "new_historical_sources": 0
+  },
+  "accepted_findings": [
+    "182 personalceller omfattas: fem hela återbruk och 177 nya kontroller. Sju nya summeceller och tre återbruk ger 184 nya jämförda fält och åtta hela återbruk; kontrollfamiljens tidigare nivå ligger separat.",
+    "Tolv kvinnor och en man samt tre pigor stöds av båda läsningarna. Äldre fyra pigor är rollantalets fel; tolv kvinnor behöver inte ändras till tretton.",
+    "S01/S03/S07 råorter, S09/S11/S13 namnosäkerheter, små yrkeskoder, tvåbågiga nattvardsmärken och S05/S06 gränsrest är bevarade enligt källjämförelsen. Ingen säker kodexpansion eller ny namnidentitet.",
+    "Två TR har rätt separata record_id. Ny staff-O ligger i sidkontexten, inte Ottilias personrad. Gamla workplace_staff_report-O bevaras historiskt; nya audit anger tydligt den senare kontrollens utfall.",
+    "Headerord i health-O rättas till sinnessvag/döfstum. Tomhet, value:null och hälsobegränsning består; befintliga evidenskanter och origins måste behållas när TR-stöd appendas.",
+    "BIO/RESEARCH/Q02/ARB/BO/EKO skiljer födelseorter från rekrytering, yrke från löneform och bokföringshemvist från bostadsval. Gotlandsgränsen avser separat arbetshemskontext; den blir ingen ny asylrekrytering.",
+    "Nattvardsmarkering förblir uppslagsbunden utan ny exakt dag. Q03 lovar inte längre att ett yrkesnummer avgör utbildning.",
+    "Tre begränsade adoptioner behåller P0008/P0009 som olika verkliga personer och Ottilia–Arne som avvisad relation. OWNER_CONFIRMED Bernhard och befintliga grindutfall står kvar.",
+    "39 aktuella metadatareservationer får samma snäva räkneuppdatering utan disposition/outcome/statusändring. Detta är en löst frågas propagation, inte 39 nya unika faktafel.",
+    "Versionskedjan är acyklisk: targetTR före health@2, contextTR före staffO/contextAUDIT, sedan targetAUDIT och personändringar. Source evidence_add är uttryckligt additiv."
+  ],
+  "required_precisions": [
+    {
+      "id": "C0009-R1",
+      "target_object": "RESEARCH-P-0008-9d76f0343410",
+      "expectedVersion": 1,
+      "field": "body",
+      "layer": "data",
+      "mode": "replace_once",
+      "old": "Uppslagets egen\nsummering, `40 personer` i `8` hushåll med `Ogift k. 20`, bekräftar att sidan\när läst i sin helhet.",
+      "new": "Uppslagets egen summering, `40 personer` i `8` hushåll med `Ogift k. 20`, gäller hela sidan. Den ger en sidkontroll men bekräftar inte att varje personfält på hela sidan är avläst.",
+      "reason": "Aktuell kropp innehåller fortfarande det äldre överdrivna helsidespåståendet, trots att audit och källmask uttryckligen lämnar andra hushålls sakfält utanför. Ingen ny kontroll eller objekt krävs."
+    },
+    {
+      "id": "C0009-R2",
+      "target_spec_path": "source_new_objects[id=TR-T0677-C0009-page-context-control].data.text",
+      "mode": "replace_once",
+      "old": "Asylens avgränsade personalgrupp, efter arbetshemmet och före Karl Gottfrid-hushållet.",
+      "new": "Avlästa separata rubriker: `Arbetshemmet f. sinnesslöa II[?]` och `asylen för sinnesslöa`; arbetshemmets sluttillägg är osäkert. Asylens avgränsade personalgrupp ligger efter arbetshemmet och före Karl Gottfrid-hushållet.",
+      "reason": "Båda avlästa rubrikerna och det reserverade sluttillägget behöver finnas i den nya fulla relevanta kontextavskriften; indirekta hänvisningar bevarar inte råformen."
+    }
+  ],
+  "individual_dispositions": [
+    {
+      "object_id": "ASSESSMENT-P-0008",
+      "revision_id": "ASSESSMENT-P-0008@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-01",
+      "revision_id": "CONTRACT-P-0008-PK-01@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-02",
+      "revision_id": "CONTRACT-P-0008-PK-02@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-05",
+      "revision_id": "CONTRACT-P-0008-PK-05@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-06",
+      "revision_id": "CONTRACT-P-0008-PK-06@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-07",
+      "revision_id": "CONTRACT-P-0008-PK-07@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-09",
+      "revision_id": "CONTRACT-P-0008-PK-09@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-10",
+      "revision_id": "CONTRACT-P-0008-PK-10@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-11",
+      "revision_id": "CONTRACT-P-0008-PK-11@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-12",
+      "revision_id": "CONTRACT-P-0008-PK-12@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "E-birth-P-0008",
+      "revision_id": "E-birth-P-0008@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "EP-E-birth-P-0008-P-0008-principal",
+      "revision_id": "EP-E-birth-P-0008-P-0008-principal@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "F-P-0008-name_form-census1910",
+      "revision_id": "F-P-0008-name_form-census1910@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "F-P-0008-occupation-1910",
+      "revision_id": "F-P-0008-occupation-1910@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "F-P-0008-religious_practice-communion-by1910",
+      "revision_id": "F-P-0008-religious_practice-communion-by1910@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "F-P-0008-residence-1910",
+      "revision_id": "F-P-0008-residence-1910@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "ID-P-0008-census1910",
+      "revision_id": "ID-P-0008-census1910@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "KEY-P-0008-09b172f8d8ab",
+      "revision_id": "KEY-P-0008-09b172f8d8ab@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "KEY-P-0008-74601ef878e3",
+      "revision_id": "KEY-P-0008-74601ef878e3@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "KEY-P-0008-83b0cd6ba176",
+      "revision_id": "KEY-P-0008-83b0cd6ba176@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "KEY-P-0008-aee2a093ab15",
+      "revision_id": "KEY-P-0008-aee2a093ab15@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "KEY-P-0008-bed1ea006297",
+      "revision_id": "KEY-P-0008-bed1ea006297@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "KEY-P-0008-c0fd98abd561",
+      "revision_id": "KEY-P-0008-c0fd98abd561@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "KEY-P-0008-ec3fc215944a",
+      "revision_id": "KEY-P-0008-ec3fc215944a@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "M-P-0008-census1910",
+      "revision_id": "M-P-0008-census1910@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "O-P-0008-birth-parish",
+      "revision_id": "O-P-0008-birth-parish@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "O-P-0008-birth-year",
+      "revision_id": "O-P-0008-birth-year@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "O-P-0008-civil-sex",
+      "revision_id": "O-P-0008-civil-sex@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "O-P-0008-communion-controls",
+      "revision_id": "O-P-0008-communion-controls@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "O-P-0008-communion-raw",
+      "revision_id": "O-P-0008-communion-raw@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "O-P-0008-document-provenance",
+      "revision_id": "O-P-0008-document-provenance@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "O-P-0008-health-empty",
+      "revision_id": "O-P-0008-health-empty@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "O-P-0008-occupation-number",
+      "revision_id": "O-P-0008-occupation-number@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "O-P-0008-religion-empty",
+      "revision_id": "O-P-0008-religion-empty@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "O-P-0008-staff-context",
+      "revision_id": "O-P-0008-staff-context@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "R-0c3dc0eae6e6f4f7a3ccf691",
+      "revision_id": "R-0c3dc0eae6e6f4f7a3ccf691@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "R-9fcd6c77fb3fbdc8a110e24b",
+      "revision_id": "R-9fcd6c77fb3fbdc8a110e24b@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "R-C0009-Strangnas1910-page13-context",
+      "revision_id": "R-C0009-Strangnas1910-page13-context@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "READ-d83a5457964a8889994b02ac",
+      "revision_id": "READ-d83a5457964a8889994b02ac@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "READ-ed46803e67de086538b6a116",
+      "revision_id": "READ-ed46803e67de086538b6a116@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "THEME-P-0008-ARB",
+      "revision_id": "THEME-P-0008-ARB@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "THEME-P-0008-BO",
+      "revision_id": "THEME-P-0008-BO@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "THEME-P-0008-EKO",
+      "revision_id": "THEME-P-0008-EKO@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "THEME-P-0008-HAL",
+      "revision_id": "THEME-P-0008-HAL@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "THEME-P-0008-ID",
+      "revision_id": "THEME-P-0008-ID@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "THEME-P-0008-MIL",
+      "revision_id": "THEME-P-0008-MIL@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "THEME-P-0008-PER",
+      "revision_id": "THEME-P-0008-PER@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "THEME-P-0008-SAM",
+      "revision_id": "THEME-P-0008-SAM@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-03",
+      "revision_id": "CONTRACT-P-0008-PK-03@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-04",
+      "revision_id": "CONTRACT-P-0008-PK-04@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "CONTRACT-P-0008-PK-08",
+      "revision_id": "CONTRACT-P-0008-PK-08@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "IMPORT-P-0008",
+      "revision_id": "IMPORT-P-0008@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "KEY-P-0008-2d0dcc5dc61f",
+      "revision_id": "KEY-P-0008-2d0dcc5dc61f@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "P-0008/Q-01",
+      "revision_id": "P-0008/Q-01@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "P-0008/Q-02",
+      "revision_id": "P-0008/Q-02@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "P-0008/Q-03",
+      "revision_id": "P-0008/Q-03@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "PATH-P-0008-KP-01",
+      "revision_id": "PATH-P-0008-KP-01@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "PATH-P-0008-KP-02",
+      "revision_id": "PATH-P-0008-KP-02@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "PATH-P-0008-KP-03",
+      "revision_id": "PATH-P-0008-KP-03@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "RESEARCH-P-0008-9d76f0343410",
+      "revision_id": "RESEARCH-P-0008-9d76f0343410@1",
+      "review_decision": "revise_accepted",
+      "reservation": "C0009-R1 tillkommer i samma redan planerade personrevision."
+    },
+    {
+      "object_id": "THEME-P-0008-REL",
+      "revision_id": "THEME-P-0008-REL@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "THEME-P-0008-SYN",
+      "revision_id": "THEME-P-0008-SYN@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "BIO-P-0008",
+      "revision_id": "BIO-P-0008@1",
+      "review_decision": "revise_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "REL-parent-P-0008-P-0003",
+      "revision_id": "REL-parent-P-0008-P-0003@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    },
+    {
+      "object_id": "IDRES-P-0008-P-0009",
+      "revision_id": "IDRES-P-0008-P-0009@1",
+      "review_decision": "retain_accepted",
+      "reservation": null
+    }
+  ],
+  "remaining": "De två preciseringarna ändrar inget objektantal eller sakomfång. Bevara draftbytes och verifiera preciserad slutlig spec innan tempimplementation. Temp/validatorer och canonicalslutkvitto återstår hos huvudagent.",
+  "canonical_mutation": false
+}

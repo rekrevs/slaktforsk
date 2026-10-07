@@ -79,6 +79,11 @@ Aktuella frågor, teman, söknycklar och
 källvägar finns i genealogy2:s versionerade forskningsobjekt; äldre front,
 täckning och loggar kan läsas med `context` som historiskt underlag.
 
+Hård kärnträdsprioritet gäller enligt PCD-2026-10-05-001. Före uppgiftsval körs
+`node scripts/wotan-priority.mjs`; `--deferred` visar samma kö med uppskjutet
+arbete. Ingen automatisk körning av den lägre kön följer när kärnkön är tom.
+Se [Wotans prioriteringsregler](wotan/README.md#prioriteringsfält-och-bevarad-lägre-kö).
+
 [PROJECT-CONTROL.md](PROJECT-CONTROL.md) bevarar ägarbeslut och styrbedömningar.
 [Riksarkivets åtkomstordning](docs/research/riksarkivet-access.md) gäller fortsatt.
 Öppna idéer finns i [IDEAS.md](IDEAS.md) och bedömt externt underlag i

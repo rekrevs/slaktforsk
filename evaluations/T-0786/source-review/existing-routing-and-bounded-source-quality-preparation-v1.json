@@ -1,0 +1,67 @@
+{
+  "task": "T-0786",
+  "phase": "pre-release existing-routing and source-quality boundary only",
+  "created_utc": "2026-10-06T06:12:19.253599+00:00",
+  "pins": [
+    {
+      "path": "wotan/dev-log/T-0786.md",
+      "sha256": "53a701dccd752aa68c185afffd31324c68b0347753977d31e31332c27131c6d6"
+    },
+    {
+      "path": "genealogy/sources/S-0689-sodertalje-kyrkoarkiv-register-1936-1955-katalog.md",
+      "sha256": "911babe51697ca28b4607a1633230f349f7a560364d6c804aff647b8ec612b90"
+    },
+    {
+      "path": "genealogy/media/S-0689-records-1572.json",
+      "sha256": "f6fb2d060a99c3c64454d9c705b783bfd5745ecb820f3a08222f25ea90219343"
+    },
+    {
+      "path": "evaluations/T-0786/preparation/C-0882-complete-existing-inspect.json",
+      "sha256": "36dca4907867bca3f7986c45a62d8b6a1066611bd040b088962ad106d94f204e"
+    },
+    {
+      "path": "evaluations/T-0784/source-review/exact-nine-actual-stage-final-primary-source-consequence-gate-v1.json",
+      "sha256": "7ceb8864873ad95dea810ccb1acedc9915893d5ecc0390a4b835e48221a12a52"
+    }
+  ],
+  "new_external_checks": 0,
+  "new_original_readings": 0,
+  "accepted_reuse": {
+    "C0882": "R-18122baf2db2f6c17eda5082@2, READ-5db43a8d7f7d7bded795648f@2. Arnes egen nr132, 1943-11-24, uppslag15. Ingen namngiven hustru eller barn i denna post; summering2+2/blyerts38,40 fyller inte egna namn.",
+    "Arne": "T0784 identity failed enbart PK05 för egen redan använda C0882-kedjans direkta uppslag15; övriga sju krav återbrukas till exakt accepterad gräns.",
+    "Maj": "Samma uppslag15 en gång, personkoppling via övrig egen familjekedja. Egna1945–46 och Flen744 kvarstår separat hos T0789 respektive T0788, inte del av T0786."
+  },
+  "old_metadata_only": {
+    "archive": "SE/SSA/1572",
+    "fond_uri": "http://data.riksarkivet.se/archive/LDyIJTTbRoREVzXLyVRk22",
+    "series_uri": "http://data.riksarkivet.se/archive/zA0MyLTP29EgwUdsmSjKh3",
+    "historical_volume_labels": [
+      "AIIa/90 Hå–Jans",
+      "AIIa/91 Jant–Joh"
+    ],
+    "exact90_91_items_in_saved200": 0,
+    "scope_limit": "Detta är exakt sökning i sparade200poster, inte katalog-/volymnoll. Tidigare breda utskrifter var trunkerade och ger ingen full200läsningskredit.",
+    "hypothesis": "Jansson kan alfabetiskt routas mot90; faktisk korrekt volym/uppslag måste prövas. Gammal analoguppgift är daterad, inte aktuellt fullprövad åtkomst."
+  },
+  "quality_and_stop": {
+    "maximum_catalog_units": 2,
+    "maximum_allowed_provider_checks": 2,
+    "full_catalog_fields": [
+      "arkiv/serie/volym/tidsomfång/ordning",
+      "full anmärkning och enhetsbeskrivning",
+      "Reproducerad på, Innehåller även och hänvisningar",
+      "relevant fortsättnings-/förvaringskoppling"
+    ],
+    "required_source_if_opened": "Hela relevanta uppslaget/egna hushållsrader, huvud/kolumner/dittos/blanks/margins inklusive högst en direkt relevant fortsättning. Bevara original/hash och första egenläsningen; jämför först efter separat frysningsrelease.",
+    "access_disposition": "Saknad bildlänk,401/403 eller gammal analogmetadata räcker inte till aldrig digitaliserad/personnoll/källuttömning. Redovisa exakt provade enheter/leverantörer och återstående åtkomstgräns.",
+    "exclusions": [
+      "ArkivDigital",
+      "beställning/kontakt",
+      "fristående nya personer/nya generationer",
+      "nya1951källor",
+      "hela livsbilden",
+      "native/canonical/Wotanwrites från primärrollen"
+    ]
+  },
+  "next_step": "Binda färska443current/reusepins och rootrelease; därefter endast frigiven exakt katalog-/providerprövning. Inget sakligt slututfall avgjort."
+}

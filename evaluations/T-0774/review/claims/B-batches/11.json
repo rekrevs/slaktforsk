@@ -1,0 +1,191 @@
+{
+  "case": "B",
+  "logical_unit": "Current raw column ownership and explicit remaining review boundaries",
+  "claims": [
+    {
+      "id": "B-R061",
+      "object": "O-P-0003-C0007-education-income@1",
+      "field": "value_json",
+      "start": null,
+      "end": null,
+      "quote": {
+        "education": [
+          "småskola",
+          "folkskola"
+        ],
+        "incomeLiteral": "9 –",
+        "incomeUnit": "hundratal kronor",
+        "normalizedIncome": 900
+      },
+      "old_support": [
+        {
+          "object": "READ-7728a1128b4850e7edafb555@1",
+          "supports": "old900 interpretation, no distinct preciseincome-year",
+          "old_record_context": "legacy_record_boundary"
+        },
+        {
+          "object": "THEME-P-0003-EKO@1",
+          "supports": "old testedunit remains",
+          "old_record_context": "legacy_theme/EKO"
+        }
+      ],
+      "source_observation": "Arne own income9, wealthdash in distinct printedcolumns.",
+      "judgment": "qualified",
+      "decision": "qualify",
+      "grounds": "Amount900 and its old testedunit survive, but current raw literal9– conflates income9 with adjacent wealthdash. Preserve old observation version and qualify present structured column ownership rather than reinterpret dash as part of amount.",
+      "affected_copies": [
+        "O-P-0003-C0007-education-income@1.value_literal",
+        "TR-b23b958d4f0feb587d7a6a48@1.reading_note"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes.",
+      "before_after": {
+        "target_object": "O-P-0003-C0007-education-income",
+        "before": {
+          "education": [
+            "småskola",
+            "folkskola"
+          ],
+          "incomeLiteral": "9 –",
+          "incomeUnit": "hundratal kronor",
+          "normalizedIncome": 900
+        },
+        "after": {
+          "education": [
+            "småskola",
+            "folkskola"
+          ],
+          "incomeLiteral": "9",
+          "incomeUnit": "hundratal kronor",
+          "normalizedIncome": 900,
+          "wealthLiteral": "–"
+        }
+      },
+      "semantic_focus": "incomeLiteral column ownership only; normalizedIncome preserved900"
+    },
+    {
+      "id": "B-R062",
+      "object": "O-P-0003-C0007-education-income@1",
+      "field": "value_literal",
+      "start": 0,
+      "end": 27,
+      "quote": "småskola och folkskola; 9 –",
+      "old_support": [
+        {
+          "object": "R-8c6b91c855d10a9152cbbbdf@2",
+          "supports": "Avgränsat befintligt underlag; ingen ny källläsning.",
+          "old_record_context": "Folkräkning 1930 Flen, Björkhem n:o 1, SCB s.43, församlingsbok s.563, B0001059_00329; Folk_129814120",
+          "dependence": "Återbrukar samma postnyckel som C-0021. Index, utdrag och församlingsbok är en överföringskedja, inte tre oberoende belägg.\nSamma postnyckel som C-0007; register, utdrag och församlingsbok är kopplade representationer, inte oberoende vittnen.",
+          "old_caveat": "Här dominerar registeravskrift; C-0021 återger samma identifierade hushållsbild. Indexets familj 2 och d.s. är råuppgifter.\nC-0007: Familjeroll dotterson får inte förvandlas till son. Inkomstuppgiften 900 återges på dokumentets nivå; egen enhetsprövning saknas här. Registersidans lokalisering 43/39 (C-0007 rad 13) bevaras som indexmetadata; rad 39 är inte en separat originalpost.\nBaptist står på Charlottas rad, inte Karl Fredriks. Tomma ekonomifält är inte noll; anteckning 23[?] och barnfältets råserie är inte tolkade.\nC-0021: Senare personbundna fält tillhör Karl Fredrik och får inte fördelas till Arne eller andra hushållsmedlemmar. Äldre text och senare yrkesformen Maskinarb. bevaras."
+        }
+      ],
+      "source_observation": "School3 not newly decoded, income9andwealthdash are separate.",
+      "judgment": "qualified",
+      "decision": "qualify",
+      "grounds": "Retain historical index school expansion and normalized900 as older knowledge while expressing freshraw school3/income9/wealthdash separately in this current copy.",
+      "affected_copies": [
+        "O-P-0003-C0007-education-income@1.value_json",
+        "THEME-P-0003-EKO@1.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes.",
+      "before_after": {
+        "target_object": "O-P-0003-C0007-education-income",
+        "before": "småskola och folkskola; 9 –",
+        "after": "Äldre indexexpansion: småskola och folkskola. SCB-råfält: skolbildning 3, inkomst 9, förmögenhet –. Belopp 900 kronor återbrukas från den äldre enhetsprövningen i C-0896."
+      }
+    },
+    {
+      "id": "B-R063",
+      "object": "CONTRACT-P-0003-PK-05@4",
+      "field": "body",
+      "start": 643,
+      "end": 675,
+      "quote": "C-1047:s fulla målpost kvarstår.",
+      "old_support": [
+        {
+          "object": "AUDIT-T0677-C0008@1",
+          "supports": "C-0008 nr 10: 23 enheter, nio helt återbrukade, elva hela luckenheter och tre partiella kontroller.",
+          "old_record_context": "original_revision/1"
+        },
+        {
+          "object": "TR-T0675-SF-47@1",
+          "supports": "Full egen post med explicita råreservationer och två låsta läsningar.",
+          "old_record_context": null
+        },
+        {
+          "object": "TR-T0677-C0034-consolidated-control@1",
+          "supports": "C-0034:s aktuella råfältsprövning och uttryckliga läsbarhetsgränser; samma källpost, inte oberoende belägg.",
+          "old_record_context": null
+        }
+      ],
+      "source_observation": "B SCBfolio563 target not C1047Eriksro638.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "A different ownparish Eriksro source remains a fullpost debt. Completing sourceB snapshot does not replace its original field extraction or this individual gate.",
+      "affected_copies": [
+        "RESEARCH-P-0003-9d76f0343410@1.body",
+        "ASSESSMENT-P-0003@1.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    },
+    {
+      "id": "B-R064",
+      "object": "CONTRACT-P-0042-PK-05@2",
+      "field": "body",
+      "start": 22,
+      "end": 139,
+      "quote": "Konkreta egna kunskaps-/förhörs-/anteckningsfält i C-1056/C-1057/C-1059/C-1062/C-1065/C-1070 saknar full redovisning.",
+      "old_support": [],
+      "source_observation": "SCB1930raw completebounded3-person group.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Those named older sources are not sourceB. Keep concrete remaining debt without converting SCB reservedcodes into further unpaid extraction or fullcontractpass.",
+      "affected_copies": [
+        "PATH-P-0042-KP-01@2.body",
+        "RESEARCH-P-0042-9d76f0343410@3.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    },
+    {
+      "id": "B-R065",
+      "object": "CONTRACT-P-0043-PK-11@1",
+      "field": "body",
+      "start": 303,
+      "end": 353,
+      "quote": "Exakta referenser ersätter inte originalprovenans.",
+      "old_support": [],
+      "source_observation": "Bfull original supplied, not eleven listed olderimages.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Fresh Bimage/hash does not supply missing older ownhousehold images. Keep separate person-specific provenance gate; no status lift for copying thisoneimage.",
+      "affected_copies": [
+        "RESEARCH-P-0043-9d76f0343410@1.body",
+        "ASSESSMENT-P-0043@1.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    },
+    {
+      "id": "B-R066",
+      "object": "KEY-P-0003-4baf15c1b4b6@1",
+      "field": "body",
+      "start": 463,
+      "end": 528,
+      "quote": "Varia som arbetsgivare är familjeuppgift; brandår familjeuppgift.",
+      "old_support": [],
+      "source_observation": "BPolerare noemployer.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Existing explicit attributed employer/fireyear boundary remains adequate; SCB occupationonly adds no company or fire evidence. No employerresearch initiated.",
+      "affected_copies": [
+        "O-P-0003-C0266-apprentice@1.value_json",
+        "BIO-P-0003@2.markdown"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    }
+  ]
+}

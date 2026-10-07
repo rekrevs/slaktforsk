@@ -1,0 +1,55 @@
+{
+  "task": "T-0777",
+  "status": "OPEN_PENDING_PRIMARY_DISPOSITION",
+  "type": "candidate_evidence_binding",
+  "candidate_path": "evaluations/T-0777/C-0084-source-candidate-operation-v1.json",
+  "candidate_sha256": "b7687573c78f57b63941f0590331e0c565b063d3e4be94d843774874a048525d",
+  "object": "ADOPT-T0777-C0084-P-0118",
+  "proposed_version": 1,
+  "field": "data.body / caveat / evidence",
+  "quote": "Könman kvarstår genom äldre explicit1910 Ogiftm, inte denna källas räknecell",
+  "original_support": "O-P-0118-census1910@1 current own-row value_literal s. Erik Axel | 02 | Flen | Ogift m | —; accepted older source reading, no additional original opened",
+  "finding": "The adoption expressly makes the older1910 support claim while its evidence only includes1902 R/S/TR/AUDIT. Add exact1910 observation edge to make the stated support version-bound. Canonical person consequence already proposes this same evidence edge; no sex or identity change requested.",
+  "candidate_change": {
+    "id": "ADOPT-T0777-C0084-P-0118",
+    "kind": "assessment",
+    "expectedVersion": null,
+    "data": {
+      "subject_id": "P-0118",
+      "criteria": "bounded_source_adoption/1",
+      "outcome": "reviewed_with_limits",
+      "body": "{\n  \"person\": \"P-0118\",\n  \"own_source_fields\": \"Erik Axel;1902 Juni22; nr34; faderokänd; Juli6 dop; ingen säker räkne1; ingen explicit legitimitetsklass.\",\n  \"scope\": \"Flen1902nr34\",\n  \"limitation\": \"Könman kvarstår genom äldre explicit1910 Ogiftm, inte denna källas räknecell; föräldra-/identitetsgrindar ändras inte.\"\n}"
+    },
+    "origins": [],
+    "evidence": [
+      {
+        "object": "R-84ff945992bb67c98161922b",
+        "version": 1,
+        "role": "supports",
+        "note": "Födelsebok1902nr34 med fulla rubriker, egna celler och marginaler."
+      },
+      {
+        "object": "S-0008",
+        "version": 1,
+        "role": "supports",
+        "note": "Versionsbunden volymmetadata."
+      },
+      {
+        "object": "TR-T0777-C0084-fullfields",
+        "version": 1,
+        "role": "supports",
+        "note": "Egen post/rad med kontext."
+      },
+      {
+        "object": "AUDIT-T0777-C0084",
+        "version": 1,
+        "role": "supports",
+        "note": "Avgjord källräckvidd och kandidatgränser."
+      }
+    ],
+    "disposition": "recorded",
+    "evidenceStatus": null,
+    "rationale": "T-0777 AC2–4: avgjord fullfältstabell och source-bound adoption; tidigare läsningar bevaras som historik.",
+    "caveat": "Samma originalpost och bokföringskedja; inget nytt oberoende historiskt vittne. Svagt räknespår är inte certifierad1/manlig cell; moderns civilståndsceller tomma, ingen explicit oäkta kategori. Ingen fysisk födelseort/attestankomst, biologisk far eller säker fadderidentitet följer. Könman kvarstår genom äldre explicit1910 Ogiftm, inte denna källas räknecell; föräldra-/identitetsgrindar ändras inte."
+  }
+}

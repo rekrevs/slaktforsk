@@ -1,0 +1,52 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T10:27:08.439076+00:00",
+  "prior139_proposal_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-nine-completed-TR-audit-metadata-amendments-queue-v1/concrete-current139-partial-sequence-and-constraint-proposal-v1.json",
+    "sha256": "e831005fb78aaca32b4c76082905665966daf48d960fd9434c50e76900291560"
+  },
+  "current140_proposal_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-P0431-PER-source-route-qualification-queue-v1/concrete-current140-partial-sequence-and-constraint-proposal-v1.json",
+    "sha256": "70f1a4704ee5427250e1a640c7b956a287908ccf44cfc55accb3de772a302994"
+  },
+  "exact_prior139_ordered_members_unchanged": true,
+  "prior139_whole_API_payloads_exact_unchanged": true,
+  "new_singleton_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-P0431-PER-source-route-qualification-queue-v1/P0431-PER-source-route-qualification-operation-v1.json",
+    "sha256": "f6d3302229dde5edb5a9d77e99ce94e54d3b8eb3c9aedbe83a76e4c20aaaca70",
+    "index": 140,
+    "operation_id": "T-0780/resumed-P0431-PER-source-route-qualification-v1",
+    "targets": [
+      {
+        "id": "THEME-P-0431-PER",
+        "expectedVersion": 1,
+        "payload_sha256": "254b3a0fd0e47dd74605921f985d8f96682691c7df7403937d3d5f5ae47108e1"
+      }
+    ],
+    "changes": 1
+  },
+  "production_attempts_addendum": [
+    {
+      "scope": "C68512",
+      "failed_attempt": "Source v1 field-address body/value_json expected API data.body/data.value_json; source-only v2 amendment received before dependent build",
+      "source_v1_preserved": true,
+      "source_v2_preserved": true
+    },
+    {
+      "scope": "C68512",
+      "failed_attempt": "Builder expected native basis_revision_id evidence shape; supplied exact API-form evidence tuple was valid. Builderv5 supports both explicit shapes; exact array restored proof PASS",
+      "no_source_rebind": true
+    },
+    {
+      "scope": "own five-scope locator",
+      "failed_attempt": "Union dictionary fullnative equality assertion stopped at exact same data/caveat with differing evidence order. Kept frozen dictionary version; compared semantic fields and every ordered array separately. V3 attempt preserved."
+    },
+    {
+      "scope": "own five-scope locator",
+      "failed_attempt": "Own input pointer contained literal slash in revision ID. Exact unique objects[revision_id] fallback verified and normalized JSONpointer escaping. V4 attempt preserved."
+    }
+  ],
+  "all_failed_attempts_count_as_production": true,
+  "actual_model_usage": "Unobservable here; root collects actual worker usage after final",
+  "stage_canonical_probe": "UNRUN"
+}

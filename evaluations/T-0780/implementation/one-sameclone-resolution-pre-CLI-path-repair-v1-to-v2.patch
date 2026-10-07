@@ -1,0 +1,18 @@
+--- evaluations/T-0780/implementation/apply_one_authorized_sameclone_2128_resolution_v1.py
++++ evaluations/T-0780/implementation/apply_one_authorized_sameclone_2128_resolution_v2.py
+@@ -27,7 +27,14 @@
+  return out
+ ordersbefore=ordered_hashes(pre);currentbefore=[dict(r) for r in pre.execute('select * from current_revision order by object_id')]
+ pending={r['id']:dict(r) for r in pre.execute('select * from pending_review')};assert set(pending)=={x['request'] for x in payload['resolve']};pre.close()
+-snapshot=Path(a['preserve_original_byte_snapshot_path']);assert not snapshot.exists();shutil.copyfile(dbp,snapshot);assert pin(snapshot)['sha256']==a['pre_stage_DB_pin']['sha256'];assert pin(dbp)==a['pre_stage_DB_pin']
++snapshot=Path(a['preserve_original_byte_snapshot_path'])
++# The stopped first attempt created this exact authorized immutable snapshot before any CLI call.
++preservationp=S/'individual2128-resolution-apply-initial-pre-CLI-stop-v1/failed-pre-CLI-path-comparison-actual-unchanged-state-proof-v1.json'
++assert pin(preservationp)['sha256']=='7cd2b30e370075240594277e54ad61bcdfa8b98b0d3fd3686b4457df47f4ffc9'
++preservation=load(preservationp);assert preservation['CLI_apply_invocations']==0 and preservation['stage_and_snapshot_original_SHA_exact'] is True
++assert snapshot.resolve()==Path(preservation['snapshot_pin']['path']).resolve() and pin(snapshot)==preservation['snapshot_pin']
++assert pin(snapshot)['sha256']==a['pre_stage_DB_pin']['sha256']
++assert dbp==Path(a['pre_stage_DB_pin']['path']).resolve() and pin(dbp)['sha256']==a['pre_stage_DB_pin']['sha256']
+ W.mkdir();save('authorization-and-original-byte-snapshot-proof-v1.json',{'authorization_pin':pin(authp),'snapshot_pin':pin(snapshot),'actual_original_stage_DB_pin':pin(dbp),'original_byte_equality':True,'actual_before':before});save('all50-stage-table-state-before-v1.json',allbefore);save('ordered-evidence-origins-assets-media-rowid-before-v1.json',ordersbefore);save('protected42-before-v1.json',protected);save('live-all50-table-state-before-v1.json',live_before)
+ state={'operation_pin':pin(op),'before':before,'actual_state_read_from_DB':True,'CLI_invocations':0};save('actual-state-before-one-apply-v1.json',state)
+ started=datetime.datetime.now(datetime.timezone.utc).isoformat()

@@ -1,0 +1,42 @@
+{
+  "task": "T-0780/G002first10",
+  "input": "evaluations/T-0780/preparation/C0060-additive-presentations-v1/P-0071-full-v1.json",
+  "sha256": "deac359523a5993266eac6edd154e7bf37549ca7abfc4f7590096d83012f8af7",
+  "full_read_sections": [
+    "person",
+    "observations",
+    "mentions",
+    "identities",
+    "identityResolutions",
+    "narratives",
+    "facts",
+    "events"
+  ],
+  "scope": "All fields and full bodies/caveats/status/structuredJSON/evidence/origins, nested event participations; no truncation. Research/relations/remaining metadata pending.",
+  "protected": [
+    "P0071@2 acceptedCORROBORATED male; separate person from Carl1873/P0087.",
+    "Own full birth1880-07-21 from two dependent volumes retained;27July explicitly rejected reading, not live conflict. C0060 year-only cannot re-establish27July.",
+    "Carl/Karl source spellings retained; unproven own patronymic not added.",
+    "Struck knowledge mark and ab not education improvement/decline. Read blank frejd does not establish no later military service.",
+    "1901 military-age key remains inferred, enrolment_observed false.",
+    "Probate named heir not attendance/actualreceivedshare/guardian."
+  ],
+  "candidate_findings": [
+    {
+      "object": "BIO-P-0071@1",
+      "field": "markdown",
+      "issue": "Physical birth in Buberget is stronger than current event birth_parish_reported; qualify attribution unless stronger own birth-place support."
+    },
+    {
+      "object": "BIO-P-0071@1",
+      "field": "markdown",
+      "issue": "Categorical age explanation of empty frejd must stay inference from period/age, not observed reason; caveat already rejects actual military inference."
+    },
+    {
+      "object": "F-P-0071-household_membership-Buberget1880-1900@1",
+      "field": "value_json",
+      "issue": "Period must remain registered household context, not continuous physical residence."
+    }
+  ],
+  "status": "partial reading, no package approval"
+}

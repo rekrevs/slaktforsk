@@ -1,0 +1,42 @@
+{
+  "task": "T-0780",
+  "input_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-S0050-rejected-identity-full-incoming-v1/complete-S0050-current-history-incoming-and-current-candidates-v1.json",
+    "sha256": "3a8dc4e469fa381432724dbadd8d3ff23936a18879eb6c1b83dae3c3cf495bff"
+  },
+  "objects": [
+    {
+      "edge": {
+        "revision_id": "R-b179a3e6573cc425584d2dfd@1",
+        "basis_revision_id": "S-0050@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: source_id",
+        "object_id": "R-b179a3e6573cc425584d2dfd",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_input_pointer": "/whole_incoming_native/R-b179a3e6573cc425584d2dfd@1",
+      "whole_native_read": true,
+      "disposition": "retain_exact_current_no_rebind",
+      "rationale": "The1888 record already explicitly rejects JohanAugust identity and preserves28May as correction. Source metadata correction agrees with record caveat; volume provenance and historical source@1 binding remain valid, no changed record premise.",
+      "dependent_revision_required": false
+    },
+    {
+      "edge": {
+        "revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+        "basis_revision_id": "S-0050@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: source_id",
+        "object_id": "R-3a1e056cc4652ec4b1a2b719",
+        "version": 1,
+        "is_current": 1
+      },
+      "whole_native_input_pointer": "/whole_incoming_native/R-3a1e056cc4652ec4b1a2b719@1",
+      "whole_native_read": true,
+      "disposition": "retain_exact_current_no_rebind",
+      "rationale": "Distinct1867 record concerns Anders/Lotta and giftomanAndersOlofsson. Source1888 identity prose correction does not alter1867 roles/dates/locator or evidence. Full native unchanged; source@1 is historical volume provenance, no need to rebind.",
+      "dependent_revision_required": false
+    }
+  ],
+  "scope": "All2current/allhistory consumers whole native read and individually graded; no consumer candidate. Preserve all native arrays/metadata/bases, no automatic rebind. Build settled source1→2 after recording these grades. No stage/apply."
+}

@@ -1,0 +1,226 @@
+{
+  "object": "F-P-0020-source_conflict-census1900-1910-birth-years",
+  "kind": "fact",
+  "currentVersion": 1,
+  "current": {
+    "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+    "subject_id": "P-0020",
+    "property": "source_conflict",
+    "value_type": "structured",
+    "value_json": "{\"accepted_birth_date_revised\":false,\"father\":{\"census1900\":{\"raw\":\"58\",\"year\":1858},\"census1910\":{\"raw\":\"50\",\"year\":1850}},\"independent_votes\":false,\"mother\":{\"census1900\":{\"raw\":\"67\",\"year\":1867},\"census1910\":{\"raw\":\"63\",\"year\":1863}},\"same_parish_book_extract_chain\":true,\"systematic_transfer_error\":\"possible hypothesis; not established\"}",
+    "object_id": "F-P-0020-source_conflict-census1900-1910-birth-years",
+    "version": 1,
+    "kind": "fact",
+    "disposition": "accepted",
+    "evidence_status": "CONFLICT",
+    "rationale": "1900-bladets egen födelseårscell är58;50 står på1910-bladet. Båda avvikande bladläsningarna bevaras utan att1910-värdet tillskrivs1900-posten.",
+    "caveat": "Båda föräldrarnas parallella avvikelse bevaras. Samma administrativa kedja avgör inte felorsaken. P0020:s belagda1850-03-18 omprövas inte här.",
+    "origins": [
+      {
+        "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+        "unit_id": "c6ea3de11c57d69fdc8fda2c5ed25bcda9a672d294480bbda0cb6a87a76516c1",
+        "coverage": "partial",
+        "note": "Hela C-0025 inklusive senare tillägg är läst; detta ursprung bevarar befintlig text, ingen ny bildläsning.",
+        "document_path": "genealogy/citations/C-0025-bernhard-folkrakning-1900.md",
+        "start_line": 1,
+        "end_line": 100
+      },
+      {
+        "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+        "unit_id": "ce31fc1e6aea633aa2509e2e8086846c286990ebfd78bf5172a07ed0ea4888c7",
+        "coverage": "partial",
+        "note": "Hela C-0026 inklusive senare tillägg är läst; detta ursprung bevarar befintlig text, ingen ny bildläsning.",
+        "document_path": "genealogy/citations/C-0026-bernhard-folkrakning-1910.md",
+        "start_line": 1,
+        "end_line": 117
+      },
+      {
+        "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+        "unit_id": "d1e78907875cc332f4675de0c03bc1357a36926ce36f775c620e8ae72b0d92c5",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "document_path": "genealogy/people/P-0020-per-wilhelm-eliasson.md",
+        "start_line": 33,
+        "end_line": 33
+      },
+      {
+        "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+        "unit_id": "1a0e3edc4c8be730d2813f303e71e04d3914a02103be858dbb452d215ccd0f35",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "document_path": "genealogy/people/P-0020-per-wilhelm-eliasson.md",
+        "start_line": 266,
+        "end_line": 284
+      }
+    ],
+    "evidence": [
+      {
+        "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+        "basis_revision_id": "O-P-0020-C0025-birth1858@2",
+        "role": "supports",
+        "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+      },
+      {
+        "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+        "basis_revision_id": "O-P-0020-C0026-birth1850@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+      },
+      {
+        "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+        "basis_revision_id": "R-12cfa4b0cfebd9409730fcb8@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+      },
+      {
+        "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+        "basis_revision_id": "R-9fcd6c77fb3fbdc8a110e24b@1",
+        "role": "supports",
+        "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+      }
+    ],
+    "pending_reviews": []
+  },
+  "conversionOrigins": [
+    {
+      "id": "UD-d1e78907875cc332f4675de0c03bc1357a36926ce36f775c620e8ae72b0d92c5@2",
+      "state": "mapped_complete",
+      "rationale": "Hela den aktuella raden inklusive förbehåll representeras av målen. Samverkande mål: E-birth-P-0020, EP-E-birth-P-0020-P-0020-principal, O-P-0020-C0025-birth1858.\nT-0663: råposterna avgränsas; samtliga äldre mål bevaras och jämförelse-/återbruksmål tillförs så hela sakinnebörden fortfarande kan nås.",
+      "question": "",
+      "document_path": "genealogy/people/P-0020-per-wilhelm-eliasson.md",
+      "start_line": 33,
+      "end_line": 33
+    },
+    {
+      "id": "UD-1a0e3edc4c8be730d2813f303e71e04d3914a02103be858dbb452d215ccd0f35@2",
+      "state": "preserved_text",
+      "rationale": "Textenheten finns kvar i det frysta underlaget; typade deluppgifter har egna ursprung och beslut.\nT-0663: råposterna avgränsas; samtliga äldre mål bevaras och jämförelse-/återbruksmål tillförs så hela sakinnebörden fortfarande kan nås.",
+      "question": "",
+      "document_path": "genealogy/people/P-0020-per-wilhelm-eliasson.md",
+      "start_line": 266,
+      "end_line": 284
+    }
+  ],
+  "revisions": [
+    {
+      "id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+      "object_id": "F-P-0020-source_conflict-census1900-1910-birth-years",
+      "version": 1,
+      "operation_id": "T-0663/reviewed-corrections-v1",
+      "disposition": "accepted",
+      "evidence_status": "CONFLICT",
+      "rationale": "1900-bladets egen födelseårscell är58;50 står på1910-bladet. Båda avvikande bladläsningarna bevaras utan att1910-värdet tillskrivs1900-posten.",
+      "caveat": "Båda föräldrarnas parallella avvikelse bevaras. Samma administrativa kedja avgör inte felorsaken. P0020:s belagda1850-03-18 omprövas inte här.",
+      "previous_id": null,
+      "data": {
+        "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+        "subject_id": "P-0020",
+        "property": "source_conflict",
+        "value_type": "structured",
+        "value_json": "{\"accepted_birth_date_revised\":false,\"father\":{\"census1900\":{\"raw\":\"58\",\"year\":1858},\"census1910\":{\"raw\":\"50\",\"year\":1850}},\"independent_votes\":false,\"mother\":{\"census1900\":{\"raw\":\"67\",\"year\":1867},\"census1910\":{\"raw\":\"63\",\"year\":1863}},\"same_parish_book_extract_chain\":true,\"systematic_transfer_error\":\"possible hypothesis; not established\"}"
+      },
+      "origins": [
+        {
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+          "id": "1a0e3edc4c8be730d2813f303e71e04d3914a02103be858dbb452d215ccd0f35",
+          "document_path": "genealogy/people/P-0020-per-wilhelm-eliasson.md",
+          "kind": "curated_span",
+          "legacy_id": null,
+          "owner_id": "P-0020",
+          "section": "Personkonvertering 266–284",
+          "start_byte": 33649,
+          "end_byte": 34892,
+          "start_line": 266,
+          "end_line": 284,
+          "raw": "**Ditt födelseår avviker mellan de två folkräkningsbladen, och avvikelsen\nstår i bilden.** C-0025 skrev tidigare att `Registerpostens fadersår 1858\navviker från 1850 i C-0024 och C-0026`, alltså att avvikelsen låg i den\nhärledda databasposten. Vid omläsning står talet `58` i din egen\nfödelseårscell på bladet 1900, mot `50` på bladet 1910. Det är därmed\nen avvikelse mellan två blad, inte mellan ett blad och ett register.\n\n**Två förbehåll som ändrar hur avvikelsen ska vägas.** Båda bladen bär tryckta\ndokumenthuvuden — `Utdrag ur Församlingsboken för Wesås annex` 1900 och\n`Utdrag ur Församlingsboken för Värsås` 1910 — och är alltså utdrag ur\nsamma församlingsbok. De är kompletterande, inte självständiga, och\nröstetalet mellan dem är inte två mot ett. Och din hustrus årtal avviker\nmellan samma två blad på samma sätt, `67` mot `63`\n([P-0021](P-0021-augusta-viktoria-johansson.md)). Att båda föräldrarnas årtal\nförskjuts i samma par av blad är en prövbar hypotes om ett systematiskt\növerföringsfel, inte två separata konflikter.\n\nDitt belagda datum 1850-03-18 ur originalet (T-0127) berörs inte. Anmälan är\nriktad till T-0224 och T-0223, som äger dina öppnade målposter.\n",
+          "parsed_json": "{\"extractor\":\"curation-span/1\",\"operation\":\"T-0652/persons-01-v1\"}",
+          "historical": 0,
+          "sha256": "4ad512a61569bf5b478c776ed51d31075fcc23a8d65d7349489dcb98503f1037"
+        },
+        {
+          "coverage": "partial",
+          "note": "Hela C-0025 inklusive senare tillägg är läst; detta ursprung bevarar befintlig text, ingen ny bildläsning.",
+          "id": "c6ea3de11c57d69fdc8fda2c5ed25bcda9a672d294480bbda0cb6a87a76516c1",
+          "document_path": "genealogy/citations/C-0025-bernhard-folkrakning-1900.md",
+          "kind": "curated_span",
+          "legacy_id": null,
+          "owner_id": "C-0025",
+          "section": "Källpost/avskrift 1–100",
+          "start_byte": 0,
+          "end_byte": 5000,
+          "start_line": 1,
+          "end_line": 100,
+          "raw": "# C-0025: Bernhard Natanaels hushåll 1900\n\n## Källa\n\n[S-0021](../sources/S-0021-folkrakning-1900-varsas.md)\n\n## Exakt lokalisering\n\n- Hemort: Djursätra Västergården, Värsås annex\n- Sida/rad: 24/6\n- Databaspost: `Folk_110792709`\n- Bild-id: `Folk_016057-024`\n- Bildvisare: <https://sok.riksarkivet.se/bildvisning/Folk_016057-024>\n- Läst: 2026-08-19\n\n## Lokal källbild\n\n- Fil: [C-0025-riksarkivet-folkrakning-1900-varsas-bild-24.jpg](../media/C-0025-riksarkivet-folkrakning-1900-varsas-bild-24.jpg)\n- Dimensioner: 800 × 1370 px\n- SHA-256: `0819912aa3975403b12c793454a3b6c14c7403bc2ee72ce4c2a698ea99283cd4`\n\n## Hushåll\n\nPer Wilhelm Eliasson och Augusta Victoria Johansson med barnen Bernhard\nNatanael (1886), Agnes Maria (1889), Johan Martin Gabriel (1891), Ragnar\nWilhelm (1893) och Ruth Ingegerd Margareta (1895). Alla barn anges födda i\nVärsås. Registerpostens fadersår 1858 avviker från 1850 i C-0024 och C-0026.\n\n## Stödda påståenden\n\nA-0119 och A-0126–A-0144.\n\n## Agnes egen folkräkningsrad, T-0127 2026-09-07\n\nDen bevarade fullbildens Agnes Maria-rad har kontrollerats tillsammans med\nföräldraklammer och kolumnrubriker. Eget födelseår1889, dotterrelation och\nogift kvinna-markering är positiva; egna yrkes- och lytesfält är tomma.\nFödelseorten anges genom egen dito-/församlingsmarkering som Värsås.\nDet är en överförd folkräkningsuppgift, inte hennes egen födelsepost.\nDet egna trossamfundsfältet är tomt; ingen särskild trosbekännelse eller\nnationalitet är inskriven.\nTomma fält är avgränsade observationer på denna sida, inte livslånga noll.\n\n## Tillägg T-0176, 2026-09-09: dokumenthuvudet, kolumnredovisning och faderns födelseår\n\nDen lokalt sparade helbilden\n`C-0025-riksarkivet-folkrakning-1900-varsas-bild-24.jpg` (800 × 1370 px) har\nlästs om inom T-0176 vid 250–350 %. Ingen ny arkivpassage har öppnats och\navskriften ovan ändras inte.\n\n**Bladet är ett utdrag ur församlingsboken.** Det tryckta dokumenthuvudet\nlyder `Utdrag ur Församlingsboken för Wesås annex … d. ³¹/₁₂ 1900`. Bladet är\nalltså **härlett ur** Värsås församlingsbok och får inte räknas som en av den\noberoende bekräftelse. Uppgiften saknas i raden `Exakt lokalisering` ovan och\när den fjärde gången i personaktsprogrammet som en folkräkningscitation visar\nsig vara ett utdrag ur den bok den använts för att bekräfta; se även C-0257,\nC-0353 och C-0899.\n\n**Detta gäller särskilt mot C-0026.** Det bladet bär samma slags huvud för\n**samma** församling. De två folkräkningsbladen 1900 och 1910 är därför\n**kompletterande, inte självständiga**, och formuleringar som `två\nhushållskällor` eller `två källor överensstämmer` överskattar oberoendet.\n\n**Den tryckta dateringen `d. ³¹/₁₂ 1900` är en positiv uppgift.** Den\nförklarar varför Sven Assar Elias (P-0026, född 1901) och Alma Viktoria\n(P-0027, född 1904) saknas på bladet: de var inte födda. Frånvaron är\n**förklarad och förväntad**, inte en lucka i deras identiteter, och den är\nförd som P-0026:s A-7700.\n\n**Kolumnredovisning för hushållets rader.** Följande tryckta kolumner är\nutvunna vid omläsningen:\n\n| Tryckt kolumn | Status |\n|---|---|\n| Namn och familjeställning | **avskriven** |\n| Yrke | **avskriven** — tom för samtliga barn, förd som läst tomhet i A-7695 och A-7699 |\n| Födelseår | **avskriven** — se faderns och moderns tal nedan |\n| Födelseort | **avskriven** — `Värsås` för samtliga barn, delvis genom dittotecken |\n| `Ogift m.` / `Ogift k.` | **avskriven** — positivt belägg för kön och civilstånd oberoende av förnamnen |\n| Lyte | **läst och tom** för samtliga barn |\n| Trosbekännelse (främmande) | **läst och tom** för samtliga barn; se T-0127:s tillägg |\n| `Inom Sv. kyrkan begått nattv.` | **finns inte på detta formulär** — bladets tomhet i detta avseende är en formulärskillnad mot 1910 och ingen uppgift om personerna |\n\n**Faderns födelseår i bilden är `58`, inte `1858` ur registerposten.**\nAvsnittet `Hushåll` ovan skriver att `Registerpostens fadersår 1858 avviker\nfrån 1850 i C-0024 och C-0026`. Vid 250–350 % står talet **`58`** i faderns\negen födelseårscell **på bilden**, alltså inte bara i den härledda\ndatabasposten. Avvikelsen mot C-0026:s `50` är därmed en avvikelse mellan\n**två blad**, inte mellan ett blad och ett register. Moderns cell bär\nmotsvarande `67`, mot `63` i C-0026.\n\n**Båda avvikelserna bevaras som konflikter** och normaliseras inte. De hör\ntill [P-0020](../people/P-0020-per-wilhelm-eliasson.md) och\n[P-0021](../people/P-0021-augusta-viktoria-johansson.md), vars akter är\nkonsoliderade i T-0127; observationen är rapporterad dit och till T-0223.\nAtt båda föräldrarnas årtal avviker mellan **samma** två blad är en prövbar\nhypotes om ett systematiskt överföringsfel, inte två separata konflikter.\nVärsås ministerialböcker avgör frågan.\n\nBerörda påståenden: A-0119, A-0126–A-0144 samt A-7695, A-7699 och A-7700.\n",
+          "parsed_json": "{\"extractor\":\"curation-span/1\",\"operation\":\"T-0646/evidence-01-v1\"}",
+          "historical": 0,
+          "sha256": "943ed25885d3f0375b3514ba67de82120cc244c78537ff87e2e3a9bbfab10196"
+        },
+        {
+          "coverage": "partial",
+          "note": "Hela C-0026 inklusive senare tillägg är läst; detta ursprung bevarar befintlig text, ingen ny bildläsning.",
+          "id": "ce31fc1e6aea633aa2509e2e8086846c286990ebfd78bf5172a07ed0ea4888c7",
+          "document_path": "genealogy/citations/C-0026-bernhard-folkrakning-1910.md",
+          "kind": "curated_span",
+          "legacy_id": null,
+          "owner_id": "C-0026",
+          "section": "Källpost/avskrift 1–117",
+          "start_byte": 0,
+          "end_byte": 6188,
+          "start_line": 1,
+          "end_line": 117,
+          "raw": "# C-0026: Bernhard Natanaels hushåll 1910\n\n## Källa\n\n[S-0022](../sources/S-0022-folkrakning-1910-varsas.md)\n\n## Exakt lokalisering\n\n- Hemort: Djursätra Västergården, Värsås\n- Sida/rad: 11/32\n- Databaspost: `Folk_124014299`\n- Bild-id: `Folk_116058-011`\n- Bildvisare: <https://sok.riksarkivet.se/bildvisning/Folk_116058-011>\n- Läst: 2026-08-19\n\n## Lokal källbild\n\n- Fil: [C-0026-riksarkivet-folkrakning-1910-varsas-bild-11.jpg](../media/C-0026-riksarkivet-folkrakning-1910-varsas-bild-11.jpg)\n- Dimensioner: 799 × 1239 px\n- SHA-256: `0aa43e0c7f2ea630e39664d9c10927e8b12ddb16ad585750d1c5ea6aa9dc0e7c`\n\n## Hushåll\n\nPer Vilhelm Eliasson, hemmansägare, och Augusta Viktoria Johansson med sju\nbarn: Bernhard Natanael, Agnes Maria, Johan Martin Gabriel, Ragnar Vilhelm,\nRut Ingegärd Margareta, Sven Assar Elias och Alma Viktoria. Bernhard, Johan och\nRagnar anges som jordbruksarbetare.\n\n## Stödda påståenden\n\nA-0118–A-0119 och A-0126–A-0148.\n\n## Agnes egen folkräkningsrad, T-0127 2026-09-07\n\nDen bevarade fullbildens Agnes Maria-rad har kontrollerats tillsammans med\nföräldraklammer och kolumnrubriker. Eget födelseår1889, dotterrelation och\nogift kvinna-markering är positiva; egna yrkes- och lytesfält är tomma.\nFödelseorten anges genom egen dito-/församlingsmarkering som Värsås.\nDet är en överförd folkräkningsuppgift, inte hennes egen födelsepost.\nI sista trosbekännelsekolumnen står motsvarande lilla `l`-markering som\npå föräldrarnas rader. Den redovisas som råmarkering, inte personens egen\nutsaga om tro.\nTomma fält är avgränsade observationer på denna sida, inte livslånga noll.\n\n## Tillägg T-0176, 2026-09-09: dokumenthuvudet, nattvardskolumnen, ett dittotecken och moderns födelseår\n\nDen lokalt sparade helbilden\n`C-0026-riksarkivet-folkrakning-1910-varsas-bild-11.jpg` (799 × 1239 px) har\nlästs om inom T-0176 vid 250–350 %. Ingen ny arkivpassage har öppnats och\navskriften ovan ändras inte.\n\n**Bladet är ett utdrag ur församlingsboken.** Det tryckta dokumenthuvudet\nlyder `Utdrag ur Församlingsboken för Värsås … d. ³¹/₁₂ 1910`. Bladet är\nalltså härlett ur Värsås församlingsbok. Eftersom\n[C-0025](C-0025-bernhard-folkrakning-1900.md) bär samma slags huvud för\n**samma** församling är de två bladen **kompletterande, inte\nsjälvständiga**, och får inte användas som två röster om samma uppgift.\n\n**Bladet har en tryckt kolumn `Inom Sv. kyrkan begått nattv.` som C-0025\nsaknar, och markeringen i den har en intern ålderskontroll.** Markeringen\nstår på **samtliga** hushållsmedlemmar från Rut Ingegärd Margareta, född\n1895 och alltså femton år, och uppåt — föräldrarna, Bernhard 1886, Agnes\n1889, Johan Martin Gabriel 1891, Ragnar Vilhelm 1893 och Rut 1895, samt pigan\noch drängen — men **saknas på de två yngsta**, Sven Assar Elias 1901 och Alma\nViktoria 1904, då nio och sex år.\n\nFördelningen är förenlig med att kolumnen anger genomgången nattvard och med\ningen annan prövad läsning; slutsatsen om **innebörden** förs därför som\n`SANNOLIKT`, eftersom förkortningen inte skrivs ut i bladets eget formulär.\nMarkeringens form är låg i upplösning och normaliseras **inte** till ett\ndatum. Rut är kontrollens undre gräns, och femton år är den gängse åldern för\nförsta nattvardsgången.\n\n**Kontrollen är bladbunden och överförs inte.** Att kolumnen är besvarad så\nhär på detta blad säger ingenting om hur andra församlingars skrivare fyllde\nsamma kolumn. Jämför C-0009, där samma tryckta kolumn i Strängnäs\nlandsförsamling besvaras med antingen `u` eller ett streck `—` och där tre\nrader märkta `icke döpt` alla bär strecket; där skrivs frånvaron som ett\nuttryckligt nej, här som blankt.\n\n**Ragnar Vilhelms yrkesuppgift är ett dittotecken.** Avsnittet `Hushåll` ovan\nskriver att `Bernhard, Johan och Ragnar anges som jordbruksarbetare`. Vid\n350 % är Bernhards och Johan Martin Gabriels celler **utskrivna**\n`Jordbruksarbetare`, medan **Ragnars cell bär ett dittotecken** under\nbroderns. Ett dittotecken är en uppgift om skrivaren och inte en självständig\nanteckning om personen; [P-0024](../people/P-0024-ragnar-vilhelm-eliasson.md)\nA-0142 är därför nedgraderad från `hög` till `medel` och förd med sin grund i\nA-7697.\n\n**Kolumnredovisning för hushållets rader.**\n\n| Tryckt kolumn | Status |\n|---|---|\n| Namn och familjeställning | **avskriven** |\n| `Yrke och nummer å yrkesuppgift` | **avskriven** — utskriven för Bernhard och Johan, **dittotecken** för Ragnar, **läst och tom** för Agnes och Rut, ett **oidentifierat litet tecken** för Sven Assar; **inget yrkesnummer** står på Johans rad, till skillnad från flera andra rader på uppslaget |\n| Födelseår | **avskriven** — se moderns och faderns tal nedan |\n| Födelseort | **avskriven** — `Värsås`, delvis genom dittotecken |\n| `Ogift m.` / `Ogift k.` | **avskriven** — positivt belägg för kön och civilstånd |\n| Lyte | **läst och tom** för samtliga barn |\n| Trosbekännelse (främmande) | **avskriven** — en liten `l`-markering på Agnes rad som på föräldrarnas, redovisad som råmarkering enligt T-0127:s tillägg |\n| `Inom Sv. kyrkan begått nattv.` | **avskriven** — med ålderskontrollen ovan; var outvunnen före 2026-09-09 |\n\n**Föräldrarnas födelseår avviker mot C-0025.** Fadern bär `50` här mot `58`\ndär, modern `63` här mot `67` där, i båda fallen lästa i bilden och inte\nbara i databasposten. **Båda avvikelserna bevaras som konflikter** och\nnormaliseras inte. De hör till\n[P-0020](../people/P-0020-per-wilhelm-eliasson.md) och\n[P-0021](../people/P-0021-augusta-viktoria-johansson.md), vars akter är\nkonsoliderade i T-0127; observationen är rapporterad dit och till T-0223. Att\n**båda** föräldrarnas årtal avviker mellan samma två blad är en prövbar\nhypotes om ett systematiskt överföringsfel, inte två separata konflikter.\nVärsås ministerialböcker avgör frågan; volymserien är **inte identifierad i\nprojektet** och är en katalogfråga som öppnar fyra av syskonens\nfödelseårgångar.\n\nBerörda påståenden: A-0118–A-0119, A-0126–A-0148 samt A-7694, A-7696–A-7699\noch A-7701.\n",
+          "parsed_json": "{\"extractor\":\"curation-span/1\",\"operation\":\"T-0646/evidence-01-v1\"}",
+          "historical": 0,
+          "sha256": "9bacf909763d7762dec5011a5577669e2f661b2b687f998551f924ea5e1d0e98"
+        },
+        {
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+          "id": "d1e78907875cc332f4675de0c03bc1357a36926ce36f775c620e8ae72b0d92c5",
+          "document_path": "genealogy/people/P-0020-per-wilhelm-eliasson.md",
+          "kind": "assertion",
+          "legacy_id": "A-0127",
+          "owner_id": "P-0020",
+          "section": "Påståenden",
+          "start_byte": 2229,
+          "end_byte": 2542,
+          "start_line": 33,
+          "end_line": 33,
+          "raw": "| A-0127 | Han var född 1850 i Värsås. | CORROBORATED | medel | [C-0024](../citations/C-0024-bernhard-folkrakning-1890.md), [C-0026](../citations/C-0026-bernhard-folkrakning-1910.md), [C-0025](../citations/C-0025-bernhard-folkrakning-1900.md) | 1900-registret avviker med 1858 och är markerat som konflikt. |\n",
+          "parsed_json": "{\"cells\":[\"A-0127\",\"Han var född 1850 i Värsås.\",\"CORROBORATED\",\"medel\",\"[C-0024](../citations/C-0024-bernhard-folkrakning-1890.md), [C-0026](../citations/C-0026-bernhard-folkrakning-1910.md), [C-0025](../citations/C-0025-bernhard-folkrakning-1900.md)\",\"1900-registret avviker med 1858 och är markerat som konflikt.\"]}",
+          "historical": 0,
+          "sha256": "4ad512a61569bf5b478c776ed51d31075fcc23a8d65d7349489dcb98503f1037"
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+          "basis_revision_id": "O-P-0020-C0025-birth1858@2",
+          "role": "supports",
+          "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+        },
+        {
+          "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+          "basis_revision_id": "O-P-0020-C0026-birth1850@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+        },
+        {
+          "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+          "basis_revision_id": "R-12cfa4b0cfebd9409730fcb8@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+        },
+        {
+          "revision_id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+          "basis_revision_id": "R-9fcd6c77fb3fbdc8a110e24b@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+        }
+      ],
+      "assets": [],
+      "nativeAssets": []
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "scope": "Exactly three critical rawfields, originalimages+owncrops+frozenmatrix+releasedreference; no newresearch",
+  "findings": [
+    {
+      "case": "B",
+      "field": "födelseort",
+      "frozen_matrix_path": "candidate/reconciled/B.json",
+      "frozen_row_index": 2,
+      "frozen_field": {
+        "raw": "dito",
+        "state": "läst",
+        "qualifier": "",
+        "anchor": "hushåll563 rad3, kolumn födelseort"
+      },
+      "classification": "MATERIAL_RAW_ERROR",
+      "firsthand_observation": "Lerbo; countyditto toSöd.l.",
+      "grounds": "Original fullpage and own middle crop show an actual word Lerbo with tall initialL and successive erbo forms. The small double quotation to its right carries county from precedingKarl Söd.l.; it is not parishdito. This is direct ink-ground, not oldname normalization. Own prior allegedLillaMellösa variante arose from wrongreading.",
+      "image_sha256": "e7baf34af9d1da67dff25a5a5c65c1a672396e0bf1cda01c6e0117e0576e6a71",
+      "views_used": [
+        "source-input/B.jpg",
+        "review/source/B/middle.png"
+      ],
+      "accepted_reference": {
+        "B": "AcceptedB settledspec motherownLerbo/countyditto",
+        "D": "AcceptedD settledspec father1850",
+        "E": "AcceptedE documentaryreuse67; does not make newreadingcertain"
+      },
+      "propagation": "Wrong newsource layer creates unjustified own-source variant/conflict against strongeroldfact; accepted typed dates/parishes remain unchanged. This does not repair raw error."
+    },
+    {
+      "case": "D",
+      "field": "birth_year",
+      "frozen_matrix_path": "candidate/reconciled/D.json",
+      "frozen_row_index": 0,
+      "frozen_field": {
+        "raw": "1830",
+        "state": "läst",
+        "qualifier": "Efter reviewer nyglyphjämförelse med1831 i samma original föredras ursprunglig3-läsning. Detta är källrapporterat år, inte säkerpersonfödelse.",
+        "anchor": null
+      },
+      "classification": "MATERIAL_RAW_ERROR",
+      "firsthand_observation": "1850",
+      "grounds": "Originalfullpage and newly saved samepage yearstrip show middle5 with topentry/roundedlowerbody, comparable samepage1858/1850; adjacent1831 digit3 has distinct two-bowl form. Own frozen1830 and its claimed1831 comparison are wrong. Accepted1850 strongerdate need not be overridden or recast as newly discovered census conflict.",
+      "image_sha256": "9ba7fc0e4572cd0e9b9a51234e082a51161f4363cd4002be77f53167628162a2",
+      "views_used": [
+        "source-input/D.jpg",
+        "comparison/D-year-forms.png"
+      ],
+      "accepted_reference": {
+        "B": "AcceptedB settledspec motherownLerbo/countyditto",
+        "D": "AcceptedD settledspec father1850",
+        "E": "AcceptedE documentaryreuse67; does not make newreadingcertain"
+      },
+      "affected_existing_copies": [
+        {
+          "object": "BIO-P-0020@2",
+          "field": "markdown",
+          "start": 447,
+          "end": 692,
+          "quote": "den vuxne Per Wilhelm. Egen födelsepost är ännu oläst. 1830 i det nu lästa 1890-utdraget och den äldre uttryckliga rå58/1858 i 1900-bilden är avvikande källuppgifter; C-0917:s äldre 1850-08-18 är ett avskriftsfel, rättat till 1850-03-18 i T-0127"
+        },
+        {
+          "object": "RESEARCH-P-0020-9d76f0343410@2",
+          "field": "body",
+          "start": 738,
+          "end": 983,
+          "quote": "iga Värsåsböcker är avvisat. 1890-utdragets nu lästa rå1830 och 1900-bildens äldre uttryckliga rå58/1858 kvarstår som avvikande källuppgifter; den svagare nya 38/58-läsningen hålls separat. C-0917:s 1850-08-18 var avskriftsfel; originalet har 18"
+        },
+        {
+          "object": "KEY-P-0020-513ff4035cb1@2",
+          "field": "body",
+          "start": 145,
+          "end": 348,
+          "quote": " huvuduppgift, inte egen födelsepost. 1890-utdragets rå1830 och 1900-bildens äldre rå58/1858 kvarstår som avvikande källnycklar; ny svag38/58-läsning hålls separat. 1850-08-18 är upphävt avskriftsfel. |\n"
+        },
+        {
+          "object": "CONTRACT-P-0020-PK-01@2",
+          "field": "body",
+          "start": 61,
+          "end": 306,
+          "quote": "/syster och senare familjekedja motiverar en person; Rå1830 i1890-utdraget, äldre rå58/1858 i1900-bilden och augustivarianten hålls öppet vägda mot den starkare1850-03-18-kombinationen; nytt svagt38/58-försök ersätter inte äldre58. C-0820/C-0262"
+        }
+      ],
+      "propagation": "Wrongreading seeded four existing conflict/key/contract copies, plus rawT and newDfatheradoption. This is new erroneous conflict consolidation despite stronger accepteddate retained."
+    },
+    {
+      "case": "E",
+      "field": "birth_year",
+      "frozen_matrix_path": "candidate/reconciled/E.json",
+      "frozen_row_index": 1,
+      "frozen_field": {
+        "raw": "63",
+        "state": "läst",
+        "qualifier": "Tvåsiffrigt år; inget sekel utskrivet i cellen.",
+        "anchor": null
+      },
+      "classification": "MATERIAL_RAW_OVERCONFIDENCE_ERROR",
+      "firsthand_observation": "67 preferred; at minimum63 not definite",
+      "grounds": "Originalfullpage/own detail crop show secondglyph overlapping adjacentplace ascender, with long slanted/topped form compatible7. Distinct3 elsewhere has fuller pairedbowls. The image does not warrant definite63; older explicit67 and acceptedreference are stronger, while lowresolution/overlap warrants remaining diplomatic reservation rather than claiming certain independent67 from reader agreement.",
+      "image_sha256": "0819912aa3975403b12c793454a3b6c14c7403bc2ee72ce4c2a698ea99283cd4",
+      "views_used": [
+        "source-input/E.jpg",
+        "review/source/E/detail.png"
+      ],
+      "accepted_reference": {
+        "B": "AcceptedB settledspec motherownLerbo/countyditto",
+        "D": "AcceptedD settledspec father1850",
+        "E": "AcceptedE documentaryreuse67; does not make newreadingcertain"
+      },
+      "propagation": "Wrong newsource layer creates unjustified own-source variant/conflict against strongeroldfact; accepted typed dates/parishes remain unchanged. This does not repair raw error."
+    }
+  ],
+  "first_sol_frozen_checks": [
+    {
+      "case": "B",
+      "operation_sha256": "9a5e858c52c911900a7afde72ab977e72eea4b5fb08d1704cf26b2d8aeb04916",
+      "matches_pre_reference_manifest": true,
+      "frozen_field": {
+        "raw": "Lerbo; 〃",
+        "state": "read",
+        "qualifier": "B-phaseB-birthplaces.png has own Lerbo word; ditto is county from Södl. on precedingrow, not placeMellösa."
+      },
+      "stage_note": "Actual scored frozenpayload verified; no postreference correction credited."
+    },
+    {
+      "case": "D",
+      "operation_sha256": "97bea1e37004844ef30109a8c6c9ba159ba33b7a7dc0e84f70256ea0d8cb7f5b",
+      "matches_pre_reference_manifest": true,
+      "frozen_field": {
+        "raw": "1850",
+        "state": "read",
+        "qualifier": "Both firstblindreaders1830 were wrong. Independent D-phaseB-detail.png viewed; flat top thenroundedlowerdigit supports5, compare1831 onprecedingrow."
+      },
+      "stage_note": "Actual scored frozenpayload verified; no postreference correction credited."
+    },
+    {
+      "case": "E",
+      "operation_sha256": "b29a7bc546d64dbf0b1d4b70a06b49c6cff5cc5be1b10a12d2d4e5208c0ca0b0",
+      "matches_pre_reference_manifest": true,
+      "frozen_field": {
+        "raw": "67[?]",
+        "state": "uncertain",
+        "qualifier": "Own63 is not assured; re-viewed glyph may67. Older1867representation retained asold claim, not newtwo-readerexactverification."
+      },
+      "stage_note": "Actual scored frozenpayload verified; no postreference correction credited."
+    }
+  ],
+  "A_C_edge_notes": "Not reopened in this bounded threefieldunit; prior concrete edge findings handled primary sourcecomparison. No large reread or unverified addition.",
+  "reference_rule": "Referencefallibility preserved; firsthandglyph/anchorgrounds drive findings, no vote.",
+  "coverage": "PARTIAL/AC3fail unchanged. Newly corroborated rawerrors add failures, no candidatefixes.",
+  "frozen_artifacts_edited": false
+}

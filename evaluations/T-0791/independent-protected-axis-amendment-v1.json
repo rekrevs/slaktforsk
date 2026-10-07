@@ -1,0 +1,109 @@
+{
+  "task": "T-0791",
+  "diagnosticsSha256": "9a65bce1ece06094f93cd4bb17360430fd549a608226828ac72f153bf9794729",
+  "acceptedPreservation": true,
+  "amends": "The prior six-retain gate condition assumed latest native T0789 was selected as usable failed/waiting. Baseline already has aggregate assessment_conflict; no date precedence exists. Acceptance is exact preservation of baseline gate, not repair or promotion.",
+  "axes": [
+    {
+      "person": "P-0003",
+      "axis": "identity_review",
+      "outcome": "failed",
+      "usable": true,
+      "issues": [],
+      "assessmentRecordsExact": true,
+      "otherChangedKeys": []
+    },
+    {
+      "person": "P-0003",
+      "axis": "tree_effect",
+      "outcome": "waiting",
+      "usable": true,
+      "issues": [],
+      "assessmentRecordsExact": true,
+      "otherChangedKeys": []
+    },
+    {
+      "person": "P-0007",
+      "axis": "identity_review",
+      "outcome": null,
+      "usable": false,
+      "issues": [
+        {
+          "code": "assessment_conflict",
+          "axis": "identity_review",
+          "revision_ids": [
+            "ASSESSMENT-T0784-P0007-identity@1",
+            "IDENTITY-REVIEW-T0788-P0007@1",
+            "IDENTITY-REVIEW-T0789-P0007@1"
+          ],
+          "message": "Flera aktuella bedömningar konkurrerar om Identitetsgranskning; datum eller objekt-id avgör inte företrädet."
+        }
+      ],
+      "assessmentRecordsExact": true,
+      "otherChangedKeys": [
+        "ignored_assessments"
+      ]
+    },
+    {
+      "person": "P-0007",
+      "axis": "tree_effect",
+      "outcome": null,
+      "usable": false,
+      "issues": [
+        {
+          "code": "assessment_conflict",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "ASSESSMENT-T0784-P0007-tree@1",
+            "TREE-EFFECT-T0788-P0007@1",
+            "TREE-EFFECT-T0789-P0007@1"
+          ],
+          "message": "Flera aktuella bedömningar konkurrerar om Trädverkan; datum eller objekt-id avgör inte företrädet."
+        }
+      ],
+      "assessmentRecordsExact": true,
+      "otherChangedKeys": [
+        "ignored_assessments"
+      ]
+    },
+    {
+      "person": "P-0001",
+      "axis": "identity_review",
+      "outcome": "passed",
+      "usable": true,
+      "issues": [],
+      "assessmentRecordsExact": true,
+      "otherChangedKeys": []
+    },
+    {
+      "person": "P-0001",
+      "axis": "tree_effect",
+      "outcome": "supporting",
+      "usable": true,
+      "issues": [],
+      "assessmentRecordsExact": true,
+      "otherChangedKeys": []
+    },
+    {
+      "person": "P-0002",
+      "axis": "identity_review",
+      "outcome": "passed",
+      "usable": true,
+      "issues": [],
+      "assessmentRecordsExact": true,
+      "otherChangedKeys": []
+    },
+    {
+      "person": "P-0002",
+      "axis": "tree_effect",
+      "outcome": "supporting",
+      "usable": true,
+      "issues": [],
+      "assessmentRecordsExact": true,
+      "otherChangedKeys": []
+    }
+  ],
+  "meaning": "P0007 six competing current native review objects retain all exact metadata and outcomes; T0789 substantive own15 failed/waiting remains recorded. Aggregate null/unusable/conflict remains. Only ignored legacy ASSESSMENT-P0007 moves @2 to @3 with approved life-only correction. No new identity uncertainty or OWNER demotion follows.",
+  "followup": "Separate bounded CORE_IDENTITY consolidation proposal T0800 requires exact scope approval and root allocation; not execution in this two-task run.",
+  "canonicalApproval": false
+}

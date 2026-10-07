@@ -1,0 +1,69 @@
+{
+  "task": "T-0677",
+  "citation": "C-0009",
+  "state": "primary_mask_locked_before_raw_result",
+  "created_at": "2026-09-30T18:46:13.368936+00:00",
+  "image_sha256": "a9db69f790db6e58d1c3eaa866b2b8c805e2302e97258c586622006c81e5e659",
+  "scope": "Ottilias positiva personrad samt explicit separat sidkontext: hela avgränsade personalgruppen under asylrubriken; de tidigare namngivna fem familjekontrollradernas namn/icke-döpt/nattvard och KlaraAugustas religionskontroll; nedre sidtotalsummor. Andra hushåll är endast gräns/kontrollkontext, inte nya personutredningar.",
+  "staff_boundary": "Asylrubriken efter arbetshemmets sista kvinna; till och med drängraden före KarlGottfridGustafssons hushåll. Exakt antal och rollfördelning låses vid oberoende detaljkontroll, inte från A7704:s motstridiga totalsats.",
+  "columns_file": "c0009-primary-header-refined-20260930.json",
+  "ottilia_reuse": {
+    "1": {
+      "status": "whole",
+      "basis": "M-P-0008-census1910@1; fyra namnled"
+    },
+    "2": {
+      "status": "partial",
+      "basis": "F-P-0008-occupation-1910@1; O-P-0008-occupation-number@1; O-P-0008-health-empty@1",
+      "remaining": "stam-/lyte-/yrkesfältets fulla egen cell och råteckensavgränsning"
+    },
+    "3": {
+      "status": "whole",
+      "basis": "O-P-0008-birth-year@1"
+    },
+    "4": {
+      "status": "whole",
+      "basis": "O-P-0008-birth-parish@1"
+    },
+    "6": {
+      "status": "whole",
+      "basis": "O-P-0008-civil-sex@1"
+    },
+    "13": {
+      "status": "whole",
+      "basis": "O-P-0008-communion-raw@1 med uttryckligt uppslagsbundet u"
+    },
+    "14": {
+      "status": "partial",
+      "basis": "O-P-0008-religion-empty@1",
+      "remaining": "gemensam cell nationalitet/frånvarande har inte explicit helcellsnoll i tidigare O"
+    }
+  },
+  "ottilia_gaps": [
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "other_staff": "Äldre rollaggregat, ursprungsregioner och två namngivna födelseår är partialkunskap, inte kompletta personceller. Full relevanta personalrader kontrolleras med reserverade småtecken; inga personkärnor eller relationer skapas.",
+  "context_reuse": {
+    "five_control_rows": "O-P-0008-communion-controls@1 återger tre icke döpt-rader och föräldraparets u; tillräckligt för tidigare jämförelse på dessa uttryckliga fält, inte fulla övriga personceller.",
+    "page_header": "O-P-0008-document-provenance@1 ger datum/sida/källklass/indexradreservation. Ny egen rubrik används bara för fältmask och kontroll av slutgräns.",
+    "totals": "O-P-0008-staff-context@1 ger 8hushåll/40personer/20ogiftakvinnor. Övriga tryckta slutsummeceller är ej utvunna."
+  },
+  "count_status": {
+    "staff_person_columns": 182,
+    "whole_reuse": 5,
+    "new_whole_or_partial": 177,
+    "totals_fields": 10,
+    "totals_whole_reuse": 3,
+    "totals_new": 7
+  },
+  "locked_at": "2026-09-30T18:47:46.500955+00:00",
+  "boundary_count": 13,
+  "header_acceptance": "B1–B14 logical fields accepted; independent stage1 gives printed Lyte example sinnessvag. Civil printed interval reserved, no invented separate numbers.",
+  "transparency": "Fullbild orienterades före mask; första detaljcrop öppnades efter att proposed mask skrivits. Föreliggande lås fixerar samma omfång och inga tidigare råvärden har ersatts för att få en lättare mask."
+}

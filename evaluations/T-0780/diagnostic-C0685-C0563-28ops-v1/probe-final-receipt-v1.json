@@ -1,0 +1,41 @@
+{
+  "task": "T-0780",
+  "diagnostic_only": true,
+  "baseline_journal": 281,
+  "steps_completed": 28,
+  "failed_steps": [],
+  "capture_failures_preserved": 2,
+  "capture_failure": "Initial wrong request column names and missing baseline historical request IDs; exact clone step1 retained and recaptured read-only without repeat apply",
+  "checks": [
+    {
+      "command": "verify",
+      "exit_code": 0,
+      "output_path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/verify-stdout.json"
+    },
+    {
+      "command": "verify-assets",
+      "exit_code": 0,
+      "output_path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/verify-assets-stdout.json"
+    },
+    {
+      "command": "verify-source",
+      "exit_code": 0,
+      "output_path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/verify-source-stdout.json"
+    },
+    {
+      "command": "inventory",
+      "exit_code": 0,
+      "output_path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/inventory-stdout.json"
+    }
+  ],
+  "pending_count": 328,
+  "protected_unchanged": true,
+  "live_all50_tables_unchanged": true,
+  "stage_or_canonical_acceptance": false,
+  "canonical_applies": 0,
+  "generic_resolves": 0,
+  "elapsed_seconds": 203.7990689277649,
+  "source_gate_sha256": "259f322e1a12be7b837d6b6b142cc366250e6219ede326316b981cdc8d0cfe59",
+  "primary_individual_request_dispositions_required": true,
+  "final_fresh_whole10_reviewed_stage_required": true
+}

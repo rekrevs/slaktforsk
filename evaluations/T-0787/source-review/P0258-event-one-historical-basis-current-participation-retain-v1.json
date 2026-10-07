@@ -1,0 +1,27 @@
+{
+  "task": "T-0787",
+  "input_pin": {
+    "path": "evaluations/T-0787/preparation/P0258-event-exact-caveat-support-and-all-history-incoming-guard-NOT-OPERATION-v1.json",
+    "sha256": "f52c840483330bc1e55b4f567738eb62b3194fe76a0c916887d229dc29200ef7"
+  },
+  "rows": [
+    {
+      "exact_edge": {
+        "native_rowid": 16808,
+        "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+        "basis_revision_id": "E-birth-P-0258@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: event_id",
+        "basis_is_current": false,
+        "caller_current_revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+        "caller_is_current": true
+      },
+      "whole_current_payload_pointer": "/full_exact_and_current_incoming_callers/EP-E-birth-P-0258-P-0258-principal@1",
+      "source_disposition": "retain_current_participation_and_exact_historical_event_basis",
+      "individual_reason": "Hela aktuella deltagarobjektet har lästs: personP0258, rollenprincipal, administrativa beroenden och uttryckligt oläst egen födelsepost. Denna kant till historisk födelsehändelse@1 avser personens roll, inte godkännande av ett uttömmande eller valt datum. Ny event@3 ändrar enbart aktuell källreservation och explicita stöd; inget i deltagarens egen roll/data/caveat blir fel. Äldre event@1 och denna exakta kant bevaras utan ombindning.",
+      "new_revision_or_rebind": false
+    }
+  ],
+  "count": 1,
+  "canonical_authorized": false
+}

@@ -1,0 +1,51 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T14:19:15.044973+00:00",
+  "administrative_completion_receipt_pin": {
+    "path": "evaluations/T-0780/implementation/postactual-ten-owner-administration-v1/actual22-appends-and-Carl782-allocation-administrative-completion-receipt-v1.json",
+    "sha256": "84c5947677fd1b7f9ffdc9bf724e1008e4a2242d0d48e6d7e6e5ddf37da0fba2"
+  },
+  "administration_helper_pin": {
+    "path": "evaluations/T-0780/implementation/perform_root_authorized_actualten_owner_administration_v1.py",
+    "sha256": "1e7553c95c444265ca053d2e15234ba2cb58b81524e2f59d9b5eaf77849d8387"
+  },
+  "final_structure_validator": {
+    "command": [
+      "node",
+      "scripts/validate-genealogy.mjs"
+    ],
+    "exit_code": 0,
+    "stdout_pin": {
+      "path": "evaluations/T-0780/implementation/postactual-ten-owner-administration-v1/final-structure-validator.stdout.txt",
+      "sha256": "04853dc294cc1647d65c7745a249e0bb8b3dbb3467468128188ead19ead82b3d"
+    },
+    "stderr_pin": {
+      "path": "evaluations/T-0780/implementation/postactual-ten-owner-administration-v1/final-structure-validator.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "status": "PASS",
+    "assertions": 5130,
+    "markdown_records": 3035,
+    "media_files": 5065,
+    "Wotan_JSON_valid": true
+  },
+  "fresh_post_validation_exact22_after_pins": true,
+  "fresh_post_validation_prior781_entries_exact": true,
+  "fresh_post_validation_next_id": 783,
+  "Carl782_log_pin": {
+    "path": "wotan/dev-log/T-0782.md",
+    "sha256": "b8d25cfd5959b517e6575b6cae85f30192016bebac2caf339f7efc386fdce0c0"
+  },
+  "backlog_pin": {
+    "path": "wotan/backlog.json",
+    "sha256": "e41cff54bb6243710b7ba39ddf00db60243638557d13c5d57d2ce959cb36c1d2"
+  },
+  "canonical_DB_pin_unchanged": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "efea4dfa8feec3f2f5bff8167792b01513ebb5689d9d2ec5278983a23ca208b3"
+  },
+  "research_execution": false,
+  "root_task_status_edits": false,
+  "actual_model_usage": null,
+  "usage_observability": "Root collects actual new-turn usage after worker final; unavailable here"
+}

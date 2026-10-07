@@ -1,0 +1,29 @@
+"""Amend only two exact source-renewed append candidates; preserve original review plan and tasklogs."""
+import json,hashlib,datetime
+from pathlib import Path
+B=Path('evaluations/T-0780');W=B/'implementation/resumed-future-owner-Wotan-append-only-plan-v2'
+def load(p):return json.loads(Path(p).read_text())
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def pin(p):return {'path':str(p),'sha256':sha(p)}
+P=B/'implementation/resumed-future-owner-Wotan-append-only-plan-v1/finite-individual-Wotan-append-only-administrative-review-plan-v1.json';assert sha(P)=='eced2ec9d5bcf5d04b2323e99c3fea2700daf9f659ab80b89d4053ab529f38ea'
+L=B/'source-review/resumed-all10-finite-future-owner-ledger-v4.json';assert sha(L)=='bf9959d03ca412aaf925cd995176ce4e34cab247877788977768f955c8eb7c56';ledger=load(L);owners={x['owner']:x for x in ledger['existing_owners']};prior=load(P);oldledger=load(prior['source_ledger_pin']['path'])
+changes=[]
+for old,new in zip(oldledger['existing_owners'],ledger['existing_owners']):
+ keys=[k for k in set(old)|set(new) if old.get(k)!=new.get(k)]
+ if keys:assert new['owner'] in ['T-0453','T-0493'] and set(keys)<=set(['source_bound_owner_judgment','duplicate_or_exclusion_judgment','existing_1858_reuse_support','existing_1825_reuse_support']);changes.append({'owner':new['owner'],'changed_source_fields':keys})
+assert {x['owner'] for x in changes}=={'T-0453','T-0493'}
+texts={
+'T-0453':'Det äldre mandatet namnger fyra egna födelseposter1858/1871/1872/1874. Pehr Augusts egen1858-post i C-0562, bild C0034442_00191, är redan fullt utvunnen i separat befintlig forskning: födelse26oktober, dop29oktober, modersålder29 och fyra vittnespar. Återbruka den tillräckliga egna läsningen; C-0563/C-0561:s hushållsrader ersätter den inte. Vittnesortens reservation [Byr/Bur…fors?] af Burträsk S:n bevaras utan rutinomläsning. En ny egen-post-kontroll kräver ett konkret olöst fält och skäl. De senare tre posterna stäms av mot faktisk aktuell tillräcklighet och rätt volym inom befintlig stoppgräns.\n\nT-0616 överlappar de egna1871/1872/1874-posterna: en gemensam avgränsad läsning och återbruk i båda uppgifterna.1858-posten tillgodoräknas som befintlig forskning, inte en ny planerad passage. Ingen extra volym eller originalpassage auktoriseras; root stämmer av den historiska formuleringen om en katalog och en volym före körning.',
+'T-0493':'De sju namngivna födelsefönstren1814–1825, Holmströmhushållen och den befintliga vigselvägen1810–1814 behåller sina stoppgränser. Johan Petters egen1825-02-01-post i C-0681 är redan fullt läst i separat befintlig forskning, med dop15februari och sex vittnen; den ska tillgodoräknas utan rutinomläsning. Rå32 förblir en kvalificerad modersåldertolkning eftersom rubriken saknas, och Sehman[?]/Pehrsd:r[?] förblir reserverade. En eventuell redan beslutad helårssökning efter ytterligare barn är en separat avgränsad täckningsfråga, inte en oläst egen1825-post. Upprepade modersåldrar är inte sju oberoende ursprungsröster; vittnesnamn fastställer inte släktskap.\n\nEn ny kontroll av den redan lästa egna posten kräver ett konkret olöst fält och skäl. En separat beslutad bredare årssökning duplicerar inte posten och gör inte dess uppgifter oberoende. T-0492:s far582/födelse1785/död1870 och T-0495:s Anna Johanna ligger fortsatt utanför; ingen automatisk personsammanslagning.'}
+assert not W.exists();W.mkdir();(W/'append-texts').mkdir();(W/'full-proposed-tasklogs').mkdir();rows=[];unchanged=[]
+for row in prior['selected_individual_append_candidates']:
+ row=dict(row);owner=row['owner'];x=owners[owner];oldappend=Path(row['append_text_pin']['path']).read_text();append=oldappend
+ if owner in texts:
+  start=oldappend.index('\n\n',oldappend.index('Förberett2026-10-04.'))+2;end=oldappend.index('\n\nDe återstående passagerna i uppgiften');append=oldappend[:start]+texts[owner]+oldappend[end:]
+ else:unchanged.append(owner)
+ ap=W/'append-texts'/(owner+'-append-v2.md');ap.write_text(append);old=Path(row['actual_tasklog_pin']['path']);assert sha(old)==row['actual_tasklog_pin']['sha256'];new=W/'full-proposed-tasklogs'/(owner+'.md');new.write_bytes(old.read_bytes()+append.encode());assert new.read_bytes()[:old.stat().st_size]==old.read_bytes()
+ if owner not in texts:assert ap.read_bytes()==Path(row['append_text_pin']['path']).read_bytes() and new.read_bytes()==Path(row['complete_proposed_tasklog_pin']['path']).read_bytes()
+ row['prior_append_text_pin']=row['append_text_pin'];row['prior_complete_proposed_tasklog_pin']=row['complete_proposed_tasklog_pin'];row['source_ledger_pin']=pin(L);row['literal_settled_source_disposition']=x['disposition'];row['literal_source_bound_judgment']=x['source_bound_owner_judgment'];row['literal_duplicate_or_exclusion_judgment']=x['duplicate_or_exclusion_judgment'];row['exact_latest_prior_read_support']={k:v for k,v in x.items() if k in ['existing_1858_reuse_support','existing_1825_reuse_support']};row['append_text_pin']=pin(ap);row['complete_proposed_tasklog_pin']=pin(new);row['exact_prior_append_and_full_proposed_log_unchanged']=owner not in texts;rows.append(row)
+assert len(rows)==22 and len(unchanged)==20
+backlog=Path('wotan/backlog.json');assert sha(backlog)==prior['current_backlog_pin']['sha256']
+out=dict(prior);out.update(at_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),source_ledger_pin=pin(L),prior_admin_plan_pin=pin(P),selected_individual_append_candidates=rows,changed_append_owners=sorted(texts),exact_unchanged20_append_and_full_proposed_tasklog_owners=unchanged,source_ledger_individual_field_changes=changes,new_Carl_owner_proposal_deferred_no_ID_reserved=ledger['new_bounded_owner_proposals']);p=W/'finite-individual-Wotan-append-only-administrative-review-plan-v2.json';p.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'result_pin':pin(p),'changed2':sorted(texts),'unchanged20_exact':True,'Wotan_writes':0},indent=2))

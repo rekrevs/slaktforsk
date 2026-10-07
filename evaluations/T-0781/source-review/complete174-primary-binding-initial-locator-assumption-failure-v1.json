@@ -1,0 +1,11 @@
+{
+  "task": "T-0781",
+  "failed_helper_pin": {
+    "path": "evaluations/T-0781/source-review/complete174-primary-binding-initial-locator-assumption-v1.py",
+    "sha256": "302f6b1fe12f253b7dd425a61516cc450e8d75a97c1c7033e753d83a6013e692"
+  },
+  "failure": "WholeAPI reconstruction stopped on AUDIT-T0781-C0049-fullpost: generic consumer assumed source_metadata_amendment table field populated. Both final audit rows keep that field null while actual APIs have explicit approved2f236875 metadata amendment.",
+  "effect": "Read-only validation stopped before any proof output or native write. Original source/table/package/API bytes unchanged.",
+  "correction": "Bind own explicit two-audit metadata amendment by exactobjectid/old/new and separately pin it; do not infer amendment or modify actual API.",
+  "new_source_judgment": false
+}

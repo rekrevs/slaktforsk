@@ -1,0 +1,867 @@
+{
+  "task": "T-0777",
+  "at_utc": "2026-10-02T11:29:53.427922+00:00",
+  "package_hash": "e4d390324a01a1e35cf9014cade41a13ddcfd4ec6d6c3e91ead0328d41cce47d",
+  "frozen_pin_checks": [
+    {
+      "path": "evaluations/T-0777/root-pre-source-lock-v1.json",
+      "expected_sha256": "65bcc6217af0fc095ecdbb71136f87e823a44f67b342058b404f2af27ce89225",
+      "actual_sha256": "65bcc6217af0fc095ecdbb71136f87e823a44f67b342058b404f2af27ce89225",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/final-full-stage-check-v2.json",
+      "expected_sha256": "14a947d523171b1c6d4653ccb7ee16f4ffa353fd907b9842c680c262c332a959",
+      "actual_sha256": "14a947d523171b1c6d4653ccb7ee16f4ffa353fd907b9842c680c262c332a959",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/final-protected-invariants-v1.json",
+      "expected_sha256": "12d910c4116319f0876e1aa9f665aaf0693648696e1c00d10456eaec5ec254b8",
+      "actual_sha256": "12d910c4116319f0876e1aa9f665aaf0693648696e1c00d10456eaec5ec254b8",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/final-native-measurements-v1.json",
+      "expected_sha256": "879b2ea67e7ce9f3a92ab1d0273e9dd89e3dc43471b450f51571e1aaf10b3cef",
+      "actual_sha256": "879b2ea67e7ce9f3a92ab1d0273e9dd89e3dc43471b450f51571e1aaf10b3cef",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/final-pending-disposition-input-v1.json",
+      "expected_sha256": "5efccdc04c2e13bb5afea8e5a5feaa69eaa44fcd383865dd50b49df10a69dd7e",
+      "actual_sha256": "5efccdc04c2e13bb5afea8e5a5feaa69eaa44fcd383865dd50b49df10a69dd7e",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/final-pending-dispositions-v1.json",
+      "expected_sha256": "30b92600c2218d13119bbf7632c462b0b457c2b1d5397cf6337eee34e1112c32",
+      "actual_sha256": "30b92600c2218d13119bbf7632c462b0b457c2b1d5397cf6337eee34e1112c32",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/clone/final-candidate-v3.sqlite",
+      "expected_sha256": "a5e15a24958b3fe7db44f9e0a52fdb0b420cb1582958c3995c231365a23e77a7",
+      "actual_sha256": "a5e15a24958b3fe7db44f9e0a52fdb0b420cb1582958c3995c231365a23e77a7",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0896-final-consequence-table-v3.json",
+      "expected_sha256": "6a1d7ccaeb40726337c584a1cf96eb0fca2c6d874a5ee9044ab4ea16a803cf78",
+      "actual_sha256": "6a1d7ccaeb40726337c584a1cf96eb0fca2c6d874a5ee9044ab4ea16a803cf78",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0402-final-consequence-table-v3.json",
+      "expected_sha256": "6f5ac735993c9bbb70c80829795b15de876a8b3e48d5a03e69bf91d9ce4ae07e",
+      "actual_sha256": "6f5ac735993c9bbb70c80829795b15de876a8b3e48d5a03e69bf91d9ce4ae07e",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0573-final-consequence-table-v3.json",
+      "expected_sha256": "baac3d7848968fcfaefa0f17f8b9d1256b71ab57478f49cde9f652e483fb29bb",
+      "actual_sha256": "baac3d7848968fcfaefa0f17f8b9d1256b71ab57478f49cde9f652e483fb29bb",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-final-consequence-table-v3.json",
+      "expected_sha256": "f3268b2c4b5dd889613198942bf9b10570e15472d5287f2bf1732e17f1aa0b45",
+      "actual_sha256": "f3268b2c4b5dd889613198942bf9b10570e15472d5287f2bf1732e17f1aa0b45",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0084-final-consequence-table-v3.json",
+      "expected_sha256": "9f63169aed93646ea6dfafaf8736da3b4770cedef334d8db91d081e91766bafe",
+      "actual_sha256": "9f63169aed93646ea6dfafaf8736da3b4770cedef334d8db91d081e91766bafe",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0573-current-decisions-v1.json",
+      "expected_sha256": "da703576ed986227bb4a2a89b4bbaf26cfee5948480fba6038e510dfc0427071",
+      "actual_sha256": "da703576ed986227bb4a2a89b4bbaf26cfee5948480fba6038e510dfc0427071",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0896-direct-source-dispositions-v1.json",
+      "expected_sha256": "d3fcce0c7f8f184c9bb9aa61fad8daa465b0af5d8c0305d4d609a520eee4c761",
+      "actual_sha256": "d3fcce0c7f8f184c9bb9aa61fad8daa465b0af5d8c0305d4d609a520eee4c761",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-source-v1.md",
+      "expected_sha256": "4fec82a7f1ea39fa1421209835416be1376341b5221236c5f296913e271de213",
+      "actual_sha256": "4fec82a7f1ea39fa1421209835416be1376341b5221236c5f296913e271de213",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/metadata-dependency-amendment-v2.json",
+      "expected_sha256": "7abf1fd39fd603152bceb2b59f460e944dcb3176e977ad255fed802782e082ee",
+      "actual_sha256": "7abf1fd39fd603152bceb2b59f460e944dcb3176e977ad255fed802782e082ee",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0402-source-amendment-v2.json",
+      "expected_sha256": "d69b2022273ce7e1985620ba3e8b6c1809c0b1328186e78ea7afbf92f794ff5b",
+      "actual_sha256": "d69b2022273ce7e1985620ba3e8b6c1809c0b1328186e78ea7afbf92f794ff5b",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0573-direct-source-dispositions-v1.json",
+      "expected_sha256": "b4339f79d203f0a8d8436f137f2cc0fd97a045e4c8a0855ec9695238a11320fa",
+      "actual_sha256": "b4339f79d203f0a8d8436f137f2cc0fd97a045e4c8a0855ec9695238a11320fa",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-source-amendment-v3.json",
+      "expected_sha256": "8c9846de30c81c7e2954fc7bfbd6d89c1423f52b401503bdefbcb644e813f721",
+      "actual_sha256": "8c9846de30c81c7e2954fc7bfbd6d89c1423f52b401503bdefbcb644e813f721",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-source-amendment-v2.json",
+      "expected_sha256": "79126b8c01ab8fc424139cd9c8adacdcb4e491dafba550062a96ba3e2b76ca84",
+      "actual_sha256": "79126b8c01ab8fc424139cd9c8adacdcb4e491dafba550062a96ba3e2b76ca84",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0896-current-decisions-v1.json",
+      "expected_sha256": "e879dfbd791d47571a236db339760a5f77b50568e802bd9017b54dac98f2ea7f",
+      "actual_sha256": "e879dfbd791d47571a236db339760a5f77b50568e802bd9017b54dac98f2ea7f",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/metadata-dependency-amendment-v3.json",
+      "expected_sha256": "2dec2bf14e6224c5fa67f22b4b9fa1f6325742a0dd7eb34ebcc00596a606061b",
+      "actual_sha256": "2dec2bf14e6224c5fa67f22b4b9fa1f6325742a0dd7eb34ebcc00596a606061b",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0896-scb-rows-right.jpg",
+      "expected_sha256": "b43a282d869981111d9a92b592a2833c863a475d05ed11a1163d1c10aebe34d0",
+      "actual_sha256": "b43a282d869981111d9a92b592a2833c863a475d05ed11a1163d1c10aebe34d0",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/primary-handoff-index-v1.json",
+      "expected_sha256": "71be5476648ef71af8e33c21b4e9d8d04699a7796f3e46ebb9f17d20aff20fb0",
+      "actual_sha256": "71be5476648ef71af8e33c21b4e9d8d04699a7796f3e46ebb9f17d20aff20fb0",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0402-metadata-amendment-v3.json",
+      "expected_sha256": "929a3d6b53a5426abbd70ae842c20a1914356f1d269bb7f6dfdb8d85fc29a6dd",
+      "actual_sha256": "929a3d6b53a5426abbd70ae842c20a1914356f1d269bb7f6dfdb8d85fc29a6dd",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0896-current-outcome-amendment-v2.json",
+      "expected_sha256": "e05ae427338d333bf2a5c09cde10fe73aabfcb113e31c6b9ccf019efb8e0ebe3",
+      "actual_sha256": "e05ae427338d333bf2a5c09cde10fe73aabfcb113e31c6b9ccf019efb8e0ebe3",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0402-source-v1.md",
+      "expected_sha256": "62b2f791ec4ae952e3c5dba83b12164dc5f723c00d142bf1afc2aa3659abf74e",
+      "actual_sha256": "62b2f791ec4ae952e3c5dba83b12164dc5f723c00d142bf1afc2aa3659abf74e",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0911-left-header-rows.jpg",
+      "expected_sha256": "d64074a31739fb99bb9e14bba7f89979d98af4878b701bcf3bb9029be75f4e59",
+      "actual_sha256": "d64074a31739fb99bb9e14bba7f89979d98af4878b701bcf3bb9029be75f4e59",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0084-counts.jpg",
+      "expected_sha256": "c3868ac1e39ea6acf98254a51ec1fd6fcf042f8571c2460db0c546b7ef343a24",
+      "actual_sha256": "c3868ac1e39ea6acf98254a51ec1fd6fcf042f8571c2460db0c546b7ef343a24",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0896-scb-header-right.jpg",
+      "expected_sha256": "51804721898d91ee5d8b38066e441e4384be87cd8fa94379172674576863f9dd",
+      "actual_sha256": "51804721898d91ee5d8b38066e441e4384be87cd8fa94379172674576863f9dd",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0896-563-right-header.jpg",
+      "expected_sha256": "ae53afd30fc0e6577991b7da6f4f08715390345d469d947fb49c4ffa6642436d",
+      "actual_sha256": "ae53afd30fc0e6577991b7da6f4f08715390345d469d947fb49c4ffa6642436d",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-Q02-chronology-amendment-v6.json",
+      "expected_sha256": "d4696c220748a909edd9e0db7a0f912671e89af10efac932fa79987a97645bf9",
+      "actual_sha256": "d4696c220748a909edd9e0db7a0f912671e89af10efac932fa79987a97645bf9",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0402-header-household.jpg",
+      "expected_sha256": "f83181d52f013f7584fa2d4131a4df6236030fc662b492e1a6c9d276bcb82486",
+      "actual_sha256": "f83181d52f013f7584fa2d4131a4df6236030fc662b492e1a6c9d276bcb82486",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-HAL-age-copy-amendment-v5.json",
+      "expected_sha256": "b576a40ecf1e46dc72073212d3f2e09db6d1d014012cdc8f529746cea5a2beee",
+      "actual_sha256": "b576a40ecf1e46dc72073212d3f2e09db6d1d014012cdc8f529746cea5a2beee",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0573-source-v1.md",
+      "expected_sha256": "ac250d8c74457cdbff82c55083e61ab5d8cdb80b604c38c268650c45308cc37b",
+      "actual_sha256": "ac250d8c74457cdbff82c55083e61ab5d8cdb80b604c38c268650c45308cc37b",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0402-header-household-2x.jpg",
+      "expected_sha256": "c75241e79c1badc3a285f1c815a65d085a553394212340265af96d93c1da32b6",
+      "actual_sha256": "c75241e79c1badc3a285f1c815a65d085a553394212340265af96d93c1da32b6",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-role-metadata-amendment-v3.json",
+      "expected_sha256": "166992eb5835cfec7f21e006d5855e2e167db7761bee63f7f4fab63d931e7df5",
+      "actual_sha256": "166992eb5835cfec7f21e006d5855e2e167db7761bee63f7f4fab63d931e7df5",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-source-amendment-v4.json",
+      "expected_sha256": "5ce5c8be4dc4c221f75c2c53014fac70a2732b92395d13c7a52876de8c89ce55",
+      "actual_sha256": "5ce5c8be4dc4c221f75c2c53014fac70a2732b92395d13c7a52876de8c89ce55",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0084-marital.jpg",
+      "expected_sha256": "ad2f8df008157634eaa13f33a9dc3056c45621e08d783ec65aab32f62a641af9",
+      "actual_sha256": "ad2f8df008157634eaa13f33a9dc3056c45621e08d783ec65aab32f62a641af9",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0911-right-header-rows.jpg",
+      "expected_sha256": "9c77be15c4a7125167a3e8705edb2bfb746f69f8f0e66f90b295d2539abe914e",
+      "actual_sha256": "9c77be15c4a7125167a3e8705edb2bfb746f69f8f0e66f90b295d2539abe914e",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0911-emma-death-native.jpg",
+      "expected_sha256": "47241e68c32209f7ac331291737f4cb1c9807953cea97203e92f5546ba53c7eb",
+      "actual_sha256": "47241e68c32209f7ac331291737f4cb1c9807953cea97203e92f5546ba53c7eb",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-direct-source-dispositions-v1.json",
+      "expected_sha256": "da9c4ebc8efcfc35950c25f2cfd436b7b9ada37ed7a077ee10d589fb9abac070",
+      "actual_sha256": "da9c4ebc8efcfc35950c25f2cfd436b7b9ada37ed7a077ee10d589fb9abac070",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-older-name-support-decision-v4.json",
+      "expected_sha256": "23c38caa40664f34b9509bb78c2d0f2a22206cc31017fdcf0eafb87cea8d58fc",
+      "actual_sha256": "23c38caa40664f34b9509bb78c2d0f2a22206cc31017fdcf0eafb87cea8d58fc",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0896-563-left-header.jpg",
+      "expected_sha256": "19f3e44956f33d264749f4b57da7baccb74b6de9121f639ae04c6e6a246c5218",
+      "actual_sha256": "19f3e44956f33d264749f4b57da7baccb74b6de9121f639ae04c6e6a246c5218",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0896-source-v1.md",
+      "expected_sha256": "375922203f77398004c127cba5f4dcc6f1ef0ef177d27c5a44b5c9392bf0bc30",
+      "actual_sha256": "375922203f77398004c127cba5f4dcc6f1ef0ef177d27c5a44b5c9392bf0bc30",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0084-right-header-row.jpg",
+      "expected_sha256": "41a0f22d04c4d0d3a11140b10ba6d2b93a903640bdae93edfa9978cd23bfa0b5",
+      "actual_sha256": "41a0f22d04c4d0d3a11140b10ba6d2b93a903640bdae93edfa9978cd23bfa0b5",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0084-source-v1.md",
+      "expected_sha256": "00330a6b3447a8fc82869f2e5dee4039c5f54bd374fd43a570a1804c96846e17",
+      "actual_sha256": "00330a6b3447a8fc82869f2e5dee4039c5f54bd374fd43a570a1804c96846e17",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0402-current-decisions-v1.json",
+      "expected_sha256": "1a6c424efd1dd692850865e838a49778cf2c050f0621f320b8fd7318bb51b0b1",
+      "actual_sha256": "1a6c424efd1dd692850865e838a49778cf2c050f0621f320b8fd7318bb51b0b1",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0084-direct-source-dispositions-v1.json",
+      "expected_sha256": "d6842c5562765ad685a3818ccc5494168487a04a088f3eb223543a4e825b4463",
+      "actual_sha256": "d6842c5562765ad685a3818ccc5494168487a04a088f3eb223543a4e825b4463",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0896-scb-target-rows.jpg",
+      "expected_sha256": "c7c48cccdfea0dcf09cd279ce55ab9cd37d2f2866110923e91689cf50f636164",
+      "actual_sha256": "c7c48cccdfea0dcf09cd279ce55ab9cd37d2f2866110923e91689cf50f636164",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0896-adoption-amendment-v2.json",
+      "expected_sha256": "898a25f4dd6057e26463284a9499e4b785f82b297b945e2880617110985f2d08",
+      "actual_sha256": "898a25f4dd6057e26463284a9499e4b785f82b297b945e2880617110985f2d08",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0896-scb-rows-left.jpg",
+      "expected_sha256": "8654c6afb31b96b2c193a1b5541afeb12f733567bc1054649faf51d925823b5e",
+      "actual_sha256": "8654c6afb31b96b2c193a1b5541afeb12f733567bc1054649faf51d925823b5e",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0911-torvald-date-native.jpg",
+      "expected_sha256": "f0ef3e692bbbeee8f8cc57d34a12242f4b0dd11166ead976ac010cc8fef9a103",
+      "actual_sha256": "f0ef3e692bbbeee8f8cc57d34a12242f4b0dd11166ead976ac010cc8fef9a103",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0402-direct-source-dispositions-v1.json",
+      "expected_sha256": "6f57e6987c0b226d1f45964efbc0dd7d73c6c0e739ecb716f7aa56b15e17141a",
+      "actual_sha256": "6f57e6987c0b226d1f45964efbc0dd7d73c6c0e739ecb716f7aa56b15e17141a",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0573-precision-decision-v1.json",
+      "expected_sha256": "2089cad515f1d586425ad3cbb4ffdb4679c422a1bdcbc9e00f33275543811bbc",
+      "actual_sha256": "2089cad515f1d586425ad3cbb4ffdb4679c422a1bdcbc9e00f33275543811bbc",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0896-source-amendment-v3.json",
+      "expected_sha256": "7fc1ea90d5e4e99eca9edc5874c07c537b3ec2b157f6d82d05c8c9dccb1e7812",
+      "actual_sha256": "7fc1ea90d5e4e99eca9edc5874c07c537b3ec2b157f6d82d05c8c9dccb1e7812",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/primary-handoff-index-v2.json",
+      "expected_sha256": "d9233a970e98bec1bc0210d50823e09287697cf22915e8514b96738072007c79",
+      "actual_sha256": "d9233a970e98bec1bc0210d50823e09287697cf22915e8514b96738072007c79",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0084-consequence-decisions-v1.json",
+      "expected_sha256": "7bd524d384c400ee847ebe46c9be17f37d8d1b4a32bea9018d9d2d5b87faba79",
+      "actual_sha256": "7bd524d384c400ee847ebe46c9be17f37d8d1b4a32bea9018d9d2d5b87faba79",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/c0084-left-header-row.jpg",
+      "expected_sha256": "9b5ad9de13f5826267c04f386e953141c380415ae92dbaf7836a76e111d33b1d",
+      "actual_sha256": "9b5ad9de13f5826267c04f386e953141c380415ae92dbaf7836a76e111d33b1d",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-current-decisions-v1.json",
+      "expected_sha256": "6b098412c72c0e26eb26a1c9ada0fa77c584c5f5f5f6b1721da226209ec29275",
+      "actual_sha256": "6b098412c72c0e26eb26a1c9ada0fa77c584c5f5f5f6b1721da226209ec29275",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-relation-caveat-copies-amendment-v7.json",
+      "expected_sha256": "fd22bc7206a4fa37cce6090661e7a6086506c4cda9f3925ebc8a1ee430162c60",
+      "actual_sha256": "fd22bc7206a4fa37cce6090661e7a6086506c4cda9f3925ebc8a1ee430162c60",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-current-amendment-v2.json",
+      "expected_sha256": "cd457093872e614af55ab2c30470e7462122e32598f6865bdf0ab15a60a4da04",
+      "actual_sha256": "cd457093872e614af55ab2c30470e7462122e32598f6865bdf0ab15a60a4da04",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0084-HAL-decision-v2.json",
+      "expected_sha256": "c29f4967b8f6b3e06abd33550c6c22db314221add48d26bb9197f662dea1e6c6",
+      "actual_sha256": "c29f4967b8f6b3e06abd33550c6c22db314221add48d26bb9197f662dea1e6c6",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/metadata-dependency-dispositions-v1.json",
+      "expected_sha256": "aa20c5c0cc38d9193a542bf3e69d526ca3c82d41440f69f484d6345c9647acfb",
+      "actual_sha256": "aa20c5c0cc38d9193a542bf3e69d526ca3c82d41440f69f484d6345c9647acfb",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/coverage-metrics-v1.json",
+      "expected_sha256": "03abe9b012cd347b2d20a2a4c42b01aa6453a28ebcdc771107c67c63517abe08",
+      "actual_sha256": "03abe9b012cd347b2d20a2a4c42b01aa6453a28ebcdc771107c67c63517abe08",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/source-review/final-pending-dispositions-v1.json",
+      "expected_sha256": "30b92600c2218d13119bbf7632c462b0b457c2b1d5397cf6337eee34e1112c32",
+      "actual_sha256": "30b92600c2218d13119bbf7632c462b0b457c2b1d5397cf6337eee34e1112c32",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/final-verify-v1.txt",
+      "expected_sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+      "actual_sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/final-assets-v1.txt",
+      "expected_sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+      "actual_sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/final-source-v1.txt",
+      "expected_sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+      "actual_sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0084-source-candidate-operation-v2.json",
+      "expected_sha256": "dfd3bc59dd3ea235fbb3f551f729a121cc1513bdc8ca6d0582bb23aaf5b36251",
+      "actual_sha256": "dfd3bc59dd3ea235fbb3f551f729a121cc1513bdc8ca6d0582bb23aaf5b36251",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0084-consequence-candidate-operation-v2.json",
+      "expected_sha256": "616f80b1531f4a60e96ead043ef316836ab2c998ffbdde99bea82c6d3d7be804",
+      "actual_sha256": "616f80b1531f4a60e96ead043ef316836ab2c998ffbdde99bea82c6d3d7be804",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0402-source-candidate-operation-v2.json",
+      "expected_sha256": "3ac8e5ede73362159c1176f7a8583c5ede2d01b1f9263d80c6c7d728d110ac5a",
+      "actual_sha256": "3ac8e5ede73362159c1176f7a8583c5ede2d01b1f9263d80c6c7d728d110ac5a",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0402-role-metadata-candidate-operation-v2.json",
+      "expected_sha256": "e56a5146e28820db09ce38e6fa118fa3065fe1926970462a8b22e4413b737932",
+      "actual_sha256": "e56a5146e28820db09ce38e6fa118fa3065fe1926970462a8b22e4413b737932",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0573-source-candidate-operation-v1.json",
+      "expected_sha256": "c23cf93d62cc01f540593277b9934703107a73e0dbb74ef6b2469aaf3383299a",
+      "actual_sha256": "c23cf93d62cc01f540593277b9934703107a73e0dbb74ef6b2469aaf3383299a",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0573-consequence-candidate-operation-v1.json",
+      "expected_sha256": "762dea422c306e0b2ca435b8954440090ab536fa9d43c5edc44c4765ef1a41e8",
+      "actual_sha256": "762dea422c306e0b2ca435b8954440090ab536fa9d43c5edc44c4765ef1a41e8",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0896-source-candidate-operation-v3.json",
+      "expected_sha256": "84b73bb36bc336fa38c998d8970a9e949a520ccf3d01b681e9ba9361519b3963",
+      "actual_sha256": "84b73bb36bc336fa38c998d8970a9e949a520ccf3d01b681e9ba9361519b3963",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0896-consequence-candidate-operation-v2.json",
+      "expected_sha256": "5d0232b580bd0bc26c07c87245388cd38bcdfa191aa2df5a1e8674b6900fc803",
+      "actual_sha256": "5d0232b580bd0bc26c07c87245388cd38bcdfa191aa2df5a1e8674b6900fc803",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-record-metadata-candidate-operation-v1.json",
+      "expected_sha256": "2645001a667f8c34ec216c45a1d900cc3323752bed8f1aa0ff8ad46af8769579",
+      "actual_sha256": "2645001a667f8c34ec216c45a1d900cc3323752bed8f1aa0ff8ad46af8769579",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-source-candidate-operation-v3.json",
+      "expected_sha256": "654548e802cd39c86d6f385ffc5eb29ca78de2da76f4baf40c7568c334920206",
+      "actual_sha256": "654548e802cd39c86d6f385ffc5eb29ca78de2da76f4baf40c7568c334920206",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-role-metadata-candidate-operation-v1.json",
+      "expected_sha256": "147913fe1de36ae98c84a3e6c9df5d330c8c80cd2a097703fcb731a9917e920b",
+      "actual_sha256": "147913fe1de36ae98c84a3e6c9df5d330c8c80cd2a097703fcb731a9917e920b",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-consequence-candidate-operation-v2.json",
+      "expected_sha256": "87d587b20c4a41f62690ede815f53b6a958a7664b1b810b1e132ea811fa801e9",
+      "actual_sha256": "87d587b20c4a41f62690ede815f53b6a958a7664b1b810b1e132ea811fa801e9",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-caveat-copies-candidate-operation-v1.json",
+      "expected_sha256": "b268e6d7d904d0eeb5f4bc0e55d828302e1c5ad671f5fe8b1de0956ff9564256",
+      "actual_sha256": "b268e6d7d904d0eeb5f4bc0e55d828302e1c5ad671f5fe8b1de0956ff9564256",
+      "pass": true
+    },
+    {
+      "path": "evaluations/T-0777/final-individual-resolution-operation-v1.json",
+      "expected_sha256": "a70390d2f2c2fb74e8aa33ff6508225ebd97eec0793d839e061f16f9f4e74cea",
+      "actual_sha256": "a70390d2f2c2fb74e8aa33ff6508225ebd97eec0793d839e061f16f9f4e74cea",
+      "pass": true
+    }
+  ],
+  "retained_history_artifacts": [
+    {
+      "path": "evaluations/T-0777/C-0084-HAL-candidate-amendment-v2.json",
+      "sha256": "af2fd3c634a90985afed7100e6f90a1d418cb4cc24040019b1e6ccc35e538e2a"
+    },
+    {
+      "path": "evaluations/T-0777/C-0084-consequence-candidate-operation-v1.json",
+      "sha256": "b69f5b2580ec5d90134f4603fc50e6c55e8b9491f11e05ce15b138d14a6cecad"
+    },
+    {
+      "path": "evaluations/T-0777/C-0084-first-consequence-candidate-freeze-v1.json",
+      "sha256": "c4785862e1d04ece30a8bf225e2644242ebea35123ea72f1c0428af82de8b2f7"
+    },
+    {
+      "path": "evaluations/T-0777/C-0084-first-source-candidate-freeze-v1.json",
+      "sha256": "689de80798c59efddc0b826966258e9f63eac70460695a4c45a039018a2a6045"
+    },
+    {
+      "path": "evaluations/T-0777/C-0084-source-adoption-support-amendment-v2.json",
+      "sha256": "0a66d1670563eb32a762b6a14a8a4ed6a911ea823a50627b2964bbbd710d78bb"
+    },
+    {
+      "path": "evaluations/T-0777/C-0084-source-candidate-operation-v1.json",
+      "sha256": "b7687573c78f57b63941f0590331e0c565b063d3e4be94d843774874a048525d"
+    },
+    {
+      "path": "evaluations/T-0777/C-0084-table-support-metadata-amendment-v2.json",
+      "sha256": "7664c180305a6786dc5d529febe80222df9d408b0bb5c6bc2ac1148758fae4fd"
+    },
+    {
+      "path": "evaluations/T-0777/C-0402-first-role-metadata-freeze-v1.json",
+      "sha256": "6a542316835c410f8d1b4140ce81d64c5de33242e6b2e3cacbd602b69b210470"
+    },
+    {
+      "path": "evaluations/T-0777/C-0402-first-source-candidate-freeze-v1.json",
+      "sha256": "29c91d309e06b1b62350929eff4f32425c8ac6ab40c4e4f37cb1563b234a09f4"
+    },
+    {
+      "path": "evaluations/T-0777/C-0402-first-source-clone-apply-v1.json",
+      "sha256": "7a927b3b9cbc229c85f73070be2c21552f0ed6ad3d2eaf91bd3cfbb12a1f64c3"
+    },
+    {
+      "path": "evaluations/T-0777/C-0402-role-metadata-candidate-operation-v1.json",
+      "sha256": "61c00c912d882414e1cd7464cba5b96e9eea4797b8aa618188b8672f8467d075"
+    },
+    {
+      "path": "evaluations/T-0777/C-0402-role-support-rebind-amendment-v2.json",
+      "sha256": "dbd77ea660c496e1949186f4aa5d1129b791402ea05bfc1c7186a76a7bf0c729"
+    },
+    {
+      "path": "evaluations/T-0777/C-0402-source-candidate-amendment-v2.json",
+      "sha256": "721bbda9db985f8aa9b7d366f45436ce486e95e28713013190813056e6d72126"
+    },
+    {
+      "path": "evaluations/T-0777/C-0402-source-candidate-operation-v1.json",
+      "sha256": "ea2a3530d7e4d77911a9dae59681b17bb5b9977763550154b39aba37d94445d4"
+    },
+    {
+      "path": "evaluations/T-0777/C-0402-table-support-metadata-amendment-v2.json",
+      "sha256": "2204ce0c35613aa007113e2bd74860a589946a9747523906c02b2acb834fbb79"
+    },
+    {
+      "path": "evaluations/T-0777/C-0573-consequence-candidate-operation-v1.json",
+      "sha256": "762dea422c306e0b2ca435b8954440090ab536fa9d43c5edc44c4765ef1a41e8"
+    },
+    {
+      "path": "evaluations/T-0777/C-0573-first-consequence-freeze-v1.json",
+      "sha256": "fce4dc840a630864e86c9bffcb89b7284cba216731d879a6c9bc53b398cb67be"
+    },
+    {
+      "path": "evaluations/T-0777/C-0573-first-precision-freeze-v1.json",
+      "sha256": "b28dfd6ddbf9b4355e67c54bdf9a5cf6eefb5c8973f43201a49473bbf98e29a7"
+    },
+    {
+      "path": "evaluations/T-0777/C-0573-first-source-candidate-freeze-v1.json",
+      "sha256": "0e177adf3762014f0c29752d5487a42113bc128be286cad063c39c6a11313d94"
+    },
+    {
+      "path": "evaluations/T-0777/C-0573-first-source-clone-apply-v1.json",
+      "sha256": "594bf4997cae94c9059678f8e748b1a7b6972f867a3b32cb4b0037a90ce731a4"
+    },
+    {
+      "path": "evaluations/T-0777/C-0573-precision-candidate-operation-v1.json",
+      "sha256": "da9334945ea87b060fa59d21f20396d126432922c45abcf2a0f35ff456770f46"
+    },
+    {
+      "path": "evaluations/T-0777/C-0573-source-candidate-operation-v1.json",
+      "sha256": "c23cf93d62cc01f540593277b9934703107a73e0dbb74ef6b2469aaf3383299a"
+    },
+    {
+      "path": "evaluations/T-0777/C-0573-table-support-metadata-amendment-v2.json",
+      "sha256": "16e254215693efbd2b03ef6e36bb9ebdb39ad9da2d09ea0fc04d760cc678467a"
+    },
+    {
+      "path": "evaluations/T-0777/C-0896-consequence-candidate-operation-v1.json",
+      "sha256": "7f507630c55ee70c1c3a64930ef2196c815e923ab67816d43200655f5c6953ee"
+    },
+    {
+      "path": "evaluations/T-0777/C-0896-context-name-candidate-amendment-v3.json",
+      "sha256": "42f790a2c9989ca4e5ae08a554bde10a06a9441b632a0c3494cc4f4eeb71886f"
+    },
+    {
+      "path": "evaluations/T-0777/C-0896-first-consequence-freeze-v1.json",
+      "sha256": "368ea0b24d076e382d7bbebaea5716e81cba7d865a11cea0e1f939964bb36398"
+    },
+    {
+      "path": "evaluations/T-0777/C-0896-first-source-freeze-v1.json",
+      "sha256": "74d8888c38f299e884118d5858781e82fb5fde32896424e28ab0f3c4fd8696a2"
+    },
+    {
+      "path": "evaluations/T-0777/C-0896-outcome-candidate-amendment-v2.json",
+      "sha256": "928968f342d4870057936daa7a5fca707d41395c31db887b7d872854aac693f0"
+    },
+    {
+      "path": "evaluations/T-0777/C-0896-source-candidate-operation-v1.json",
+      "sha256": "1cf007b09b8358ad479d46817b7e2aa4f2616ffcc247082e17b8c7b3038c9735"
+    },
+    {
+      "path": "evaluations/T-0777/C-0896-source-metadata-amendment-v2.json",
+      "sha256": "7a302b0666d571af32106fd934a91969244ed840a9181a6d82a7cec57737667b"
+    },
+    {
+      "path": "evaluations/T-0777/C-0896-table-support-metadata-amendment-v2.json",
+      "sha256": "a435c8c5bb981326dae704dac31d16cbcc23c506ed1ff466a324c8c25e0e7e0d"
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-caveat-copies-candidate-operation-v1.json",
+      "sha256": "b268e6d7d904d0eeb5f4bc0e55d828302e1c5ad671f5fe8b1de0956ff9564256"
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-consequence-candidate-operation-v1.json",
+      "sha256": "2346368d21464702cf4beb033a01f7fa286bab4ca9648499201ee19f02d6b25e"
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-current-implementation-amendment-v2.json",
+      "sha256": "a73dcf5668a4ff8f903dfd179efb068106364654b114961e7c5a00b7147cfe96"
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-first-current-freeze-v1.json",
+      "sha256": "1642c54c81d5231b5c5ce5efa2771640abe307cb51a50e7cc820bbc6bc21cc77"
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-first-record-metadata-freeze-v1.json",
+      "sha256": "2ce71e7394cedae0972ef56eefcec1305e4e4d52429ac80d38fc34dddf482186"
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-first-source-freeze-v1.json",
+      "sha256": "9c3a826e8b020b33016c1bd90be3b59b5e94c4addc3d748ebd1e82ac9f0c7d49"
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-record-metadata-candidate-operation-v1.json",
+      "sha256": "2645001a667f8c34ec216c45a1d900cc3323752bed8f1aa0ff8ad46af8769579"
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-role-metadata-candidate-operation-v1.json",
+      "sha256": "147913fe1de36ae98c84a3e6c9df5d330c8c80cd2a097703fcb731a9917e920b"
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-source-candidate-amendment-v2.json",
+      "sha256": "2be2161442fe3f71430ec4a6857b2f946bf680b848d738020e9eca1bfb36f831"
+    },
+    {
+      "path": "evaluations/T-0777/C-0911-source-candidate-operation-v1.json",
+      "sha256": "f075c22952b12d123bcfa2af743f948cbb60b745719ec167fd41e8e30e5387a1"
+    },
+    {
+      "path": "evaluations/T-0777/baseline-protection-amendment-v1.json",
+      "sha256": "cd61e55e01cdb0a731a344fe7a30066d16c7ee464d604b901d1d926e4a425d75"
+    },
+    {
+      "path": "evaluations/T-0777/clone/first-source-candidates-v1.sqlite",
+      "sha256": "455e76e76e43c480c7e04c69a4f215d58014d4f5d70c23045664cdb41251dcea"
+    },
+    {
+      "path": "evaluations/T-0777/current/inspect-F-P-0042-civil_status-first-marriage.json",
+      "sha256": "8d698339c947c952cd5bb1270bfcacc93ea6148de1eabfbdb48c3016dba3fbc3"
+    },
+    {
+      "path": "evaluations/T-0777/current/inspect-O-P-0003-C0034-first-marriage.json",
+      "sha256": "4c85a54670daac0de614970bae3494486baae675ae5f06066d98cadbeb1ed2c9"
+    },
+    {
+      "path": "evaluations/T-0777/current/inspect-O-P-0065-probate1898-first-page.json",
+      "sha256": "19344809237b2990a944c5079cbf9c16bd2889f2e6ba39090f58163e40710fdc"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v1-progress.json",
+      "sha256": "efdd86f51d5d7f3d37fd545395467caa7a210556cc6d60d6ec9ca3f3a0740200"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v1-step-01.json",
+      "sha256": "cd08d30ae4c106eaa49fd0780c910d9674ebe51e147ce4069c8af48bf969fc64"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v1-step-02.json",
+      "sha256": "acd1eb6b8d12621c605b2bf9135d4dba831aa33724633ff3c3c4d16adec4352c"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v1-step-03.json",
+      "sha256": "12da7781845d04b2e770a2deca6fd3f1455633c6851e1ed0675497a735443371"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v1-step-04.json",
+      "sha256": "0f4954a456572c7fc135cbba0e2ba713e20824c662dffeab352e6a981791e17d"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v2-progress.json",
+      "sha256": "fb94b631642d1631adcf9b7e39e4cd801d57d948598538bc79b906aee123eb11"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v2-step-04.json",
+      "sha256": "6cdf0dd7c4c5a6874d0c1b3ffe2372374b1ab9335e504a71d1ff52be15057662"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v2-step-05.json",
+      "sha256": "fd382f03422bd6f8e5e3cea06cbc2ff0dd4f3bc8cd51affc0df90cb451591247"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v2-step-06.json",
+      "sha256": "e26cd2d4f4ff14803379efdfeeddcd9980fae10b0c666286a6dfc372fea7b342"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v2-step-07.json",
+      "sha256": "e9ec407d838b541b3472eb77245e18536376a1f0b596f5f433d02cb97ce8b3cd"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v2-step-08.json",
+      "sha256": "2025e4d6e6693a73818e1d0a23d2871d51377e83f615cc19824741c54d83a26e"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v2-step-09.json",
+      "sha256": "a3c7e931ae690b49f9629115fce6bb8391517f0b092a0a65641b7ebd42a2180c"
+    },
+    {
+      "path": "evaluations/T-0777/final-sequence-v2-step-10.json",
+      "sha256": "7ca24f6e34e259d93127612d5ef71a0e9b17e34b0cf3ef7a2e1434af56d52cfa"
+    },
+    {
+      "path": "evaluations/T-0777/first-source-clone-full-object-match-v1.json",
+      "sha256": "938bb2067841244dee218887ccca13913d79fc1a771f08567bb0d57fb90c9374"
+    },
+    {
+      "path": "evaluations/T-0777/first-source-clone-verify-assets-v1.json",
+      "sha256": "d1f581b6b439f1b9020a7108c0488d104018dfb319079da17c6d57f38619dfa8"
+    },
+    {
+      "path": "evaluations/T-0777/first-source-clone-verify-source-v1.json",
+      "sha256": "c67e6a8063bca22a607bffcc4ca205f4434eca3b0e2e3cd46ed0ff0fa00dc855"
+    },
+    {
+      "path": "evaluations/T-0777/first-source-clone-verify-v1.json",
+      "sha256": "d1f581b6b439f1b9020a7108c0488d104018dfb319079da17c6d57f38619dfa8"
+    },
+    {
+      "path": "evaluations/T-0777/independent-review/own-reading-amendment-v1.md",
+      "sha256": "36ab3d8c83c62243a1cc964fb848b771c2d18e2a1880c6e92fb6f86034014390"
+    },
+    {
+      "path": "evaluations/T-0777/independent-review/own-reading-amendment-v2.md",
+      "sha256": "946c01d523ef2b6679e0916d97435a2c47121ba6d8d8e5802f09ba32262ce2ba"
+    },
+    {
+      "path": "evaluations/T-0777/independent-review/own-reading-amendment-v3.md",
+      "sha256": "267ff4b440a3a4db1f507d1e6fb8386c1409e3fe8622d480b6729a9fd63a5f50"
+    },
+    {
+      "path": "evaluations/T-0777/independent-review/own-reading-amendment-v4.md",
+      "sha256": "3db39902298a8c5c79224fa0ea1214ef0ac8c3990ef68389215cb9aac1eb7818"
+    },
+    {
+      "path": "evaluations/T-0777/root-pre-apply-baseline-comparison-first-v1.json",
+      "sha256": "bb05f8713c92aeb5a98a793ba7579b70b65af41585ad6aa791336d9ace460135"
+    },
+    {
+      "path": "evaluations/T-0777/routing-amendment-v1.json",
+      "sha256": "e3a195829c303ea5a62529cda0ad51d0e03e625b48d3e0ad6c7a8b6777583a7a"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0402-metadata-amendment-v3.json",
+      "sha256": "929a3d6b53a5426abbd70ae842c20a1914356f1d269bb7f6dfdb8d85fc29a6dd"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0402-source-amendment-v2.json",
+      "sha256": "d69b2022273ce7e1985620ba3e8b6c1809c0b1328186e78ea7afbf92f794ff5b"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0896-adoption-amendment-v2.json",
+      "sha256": "898a25f4dd6057e26463284a9499e4b785f82b297b945e2880617110985f2d08"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0896-current-outcome-amendment-v2.json",
+      "sha256": "e05ae427338d333bf2a5c09cde10fe73aabfcb113e31c6b9ccf019efb8e0ebe3"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0896-source-amendment-v3.json",
+      "sha256": "7fc1ea90d5e4e99eca9edc5874c07c537b3ec2b157f6d82d05c8c9dccb1e7812"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-HAL-age-copy-amendment-v5.json",
+      "sha256": "b576a40ecf1e46dc72073212d3f2e09db6d1d014012cdc8f529746cea5a2beee"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-Q02-chronology-amendment-v6.json",
+      "sha256": "d4696c220748a909edd9e0db7a0f912671e89af10efac932fa79987a97645bf9"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-current-amendment-v2.json",
+      "sha256": "cd457093872e614af55ab2c30470e7462122e32598f6865bdf0ab15a60a4da04"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-relation-caveat-copies-amendment-v7.json",
+      "sha256": "fd22bc7206a4fa37cce6090661e7a6086506c4cda9f3925ebc8a1ee430162c60"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-role-metadata-amendment-v3.json",
+      "sha256": "166992eb5835cfec7f21e006d5855e2e167db7761bee63f7f4fab63d931e7df5"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-source-amendment-v2.json",
+      "sha256": "79126b8c01ab8fc424139cd9c8adacdcb4e491dafba550062a96ba3e2b76ca84"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-source-amendment-v3.json",
+      "sha256": "8c9846de30c81c7e2954fc7bfbd6d89c1423f52b401503bdefbcb644e813f721"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/C-0911-source-amendment-v4.json",
+      "sha256": "5ce5c8be4dc4c221f75c2c53014fac70a2732b92395d13c7a52876de8c89ce55"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/metadata-dependency-amendment-v2.json",
+      "sha256": "7abf1fd39fd603152bceb2b59f460e944dcb3176e977ad255fed802782e082ee"
+    },
+    {
+      "path": "evaluations/T-0777/source-review/metadata-dependency-amendment-v3.json",
+      "sha256": "2dec2bf14e6224c5fa67f22b4b9fa1f6325742a0dd7eb34ebcc00596a606061b"
+    }
+  ],
+  "stage_final_state": {
+    "journal_head": 269,
+    "pending": 0
+  },
+  "canonical_application_status": "ROOT_RECEIPT_REQUIRED",
+  "wotan_status": "ROOT_CHECKPOINT_REQUIRED",
+  "usage_status": "ROOT_COLLECT_AFTER_ALL_WORKER_FINAL_RESPONSES",
+  "measurements": {
+    "scoped_rows": 28,
+    "coverage_comparability": "heterogeneous rows; not comparable unit cost",
+    "prior_C0021_cells_reused": 81,
+    "prior_gaplabel_controls": 5,
+    "native_objects": 128,
+    "new": 38,
+    "revised": 90,
+    "adoptions": 19,
+    "individual_resolutions": 33,
+    "operations": 14
+  },
+  "limitations": [
+    "Fresh budget start/end unknown.",
+    "Root preparation before firstworker and root tokenusage unknown.",
+    "Usage sum of loggedworkerturns is not totalprojectproduction."
+  ]
+}

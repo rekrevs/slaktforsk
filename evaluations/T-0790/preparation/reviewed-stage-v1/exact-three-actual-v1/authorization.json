@@ -1,0 +1,39 @@
+{
+  "task": "T-0790",
+  "mode": "ROOT_SAME_STAGE_EXACT3_ONCE",
+  "root_authorized": true,
+  "code_sha256": "0964ebcd4cde62c9efcbf370df3c597defe6b273836e3ee48eca55f1785771b1",
+  "stage_helper_sha256": "8959fc3f49dde85eabaf85a874be8abe092d261200fa0a239389418b650d039b",
+  "stage_DB_pin": {
+    "path": "evaluations/T-0790/preparation/reviewed-stage-v1/stage.sqlite",
+    "sha256": "d4bea5eaaaa4698d8c1ac824021378979f88c3a166f3bd5834aa23785c7ab0ad"
+  },
+  "operation_pin": {
+    "path": "evaluations/T-0790/preparation/final-three-literal-draft-v1/operation-final-three-literal.json",
+    "sha256": "7a4566e9a7d5b07d0161c7816f88fd6b0b5832dfd84fa07d32305a7867df47b6"
+  },
+  "consequence_table_pin": {
+    "path": "evaluations/T-0790/preparation/final-three-literal-draft-v1/final-three-and-two-retains-consequence-table.json",
+    "sha256": "752840e34b6cef2238d51c007e027675dc8936fe517d2d6888ed6bdbb8fe78b1"
+  },
+  "source_gate": {
+    "pin": {
+      "path": "evaluations/T-0790/source-review/final-three-exact-api-prestage-gate-v1.json",
+      "sha256": "ffb975956d319bd24d9bc1e470d83b806c21d795f69ccae69f1cd02d5e73cedb"
+    },
+    "ready_pointer": "/ready_for_same_stage_amendment",
+    "operation_sha_pointer": "/operation_sha256",
+    "consequence_sha_pointer": "/consequence_sha256"
+  },
+  "independent_gate": {
+    "pin": {
+      "path": "evaluations/T-0790/independent-review/final-three-exact-same-stage-gate-v1.json",
+      "sha256": "6f92b3882b6de51bee457960ae7dc9829559b94b2f228fabdeee4a65c77832b7"
+    },
+    "ready_pointer": "/ready_for_same_stage_amendment",
+    "operation_sha_pointer": "/amendment_operation_sha256",
+    "consequence_sha_pointer": "/amendment_consequence_sha256"
+  },
+  "output_path": "evaluations/T-0790/preparation/reviewed-stage-v1/exact-three-actual-v1",
+  "root_review": "All helper instructions fully read, exact3 APIs/fullold bodies/support consequences and2retains reviewed; both exact source gates read. Single same-stage CLIapply only; no canonical."
+}

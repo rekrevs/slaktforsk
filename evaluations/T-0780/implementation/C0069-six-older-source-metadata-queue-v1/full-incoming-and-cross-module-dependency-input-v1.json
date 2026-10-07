@@ -1,0 +1,567 @@
+{
+  "fanouts": [
+    {
+      "scope": "six-older-source-metadata",
+      "source_revision": "S-0095@1",
+      "incoming_edges": [
+        {
+          "revision_id": "R-f5e92a8dfe87cc8d7d17be07@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        },
+        {
+          "revision_id": "R-4ac1a6f528656082a3fe29b0@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        },
+        {
+          "revision_id": "R-0f2b533d503e2b5dff1ce887@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        },
+        {
+          "revision_id": "R-6e257681fabbd369d1d11279@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        },
+        {
+          "revision_id": "R-967edc72b5e1c02cc57ba10c@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        },
+        {
+          "revision_id": "R-1e10604b209eb3c817a460b2@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        },
+        {
+          "revision_id": "R-a085f6b142af3a57728b6469@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        },
+        {
+          "revision_id": "R-56874e1dd936b90cbdf9e6b7@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        },
+        {
+          "revision_id": "R-f5e92a8dfe87cc8d7d17be07@2",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        },
+        {
+          "revision_id": "F-P-0159-reported_search_limit-Bygdea1794@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "supports",
+          "note": "Tidigare avgränsat underlag; inga dubbla oberoende informationsvägar."
+        }
+      ],
+      "Astra_disposition": null
+    }
+  ],
+  "objects": {
+    "S-0095@1": {
+      "id": "S-0095@1",
+      "object_id": "S-0095",
+      "version": 1,
+      "operation_id": "T-0645/registry-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Den fullständiga äldre källbeskrivningen och dess metadata bevaras ordagrant. Separata normaliserade arkivfält och källklass tilldelas inte genom gissning.",
+      "caveat": "",
+      "previous_id": null,
+      "kind": "source",
+      "data": {
+        "revision_id": "S-0095@1",
+        "title": "S-0095: Bygdeå kyrkoarkiv C/3, födelse-, dop- och vigselbok 1781–1829",
+        "archive_reference": null,
+        "source_class": null,
+        "description": "# S-0095: Bygdeå kyrkoarkiv C/3, födelse-, dop- och vigselbok 1781–1829\n\n## Källbeskrivning\n\n- Institution: Riksarkivet i Härnösand\n- Arkivbildare: Bygdeå kyrkoarkiv\n- Referenskod: `SE/HLA/1010025/C/3`\n- Serie/volym: Födelse- och dopböcker `C/3`\n- Tidsomfång: 1781–1829\n- Bildbatch: `C0034039`\n- Bildvisare: <https://sok.riksarkivet.se/bildvisning/C0034039_00001>\n- Läst: 2026-08-20\n\n## Källkritik\n\nSamtida originalbok. Volymen innehåller födelse- och dopnotiser samt lysnings-\noch vigselnotiser. Maria Jacobsdotters födelsenotis anger föräldrarna direkt.\nVigselnotisen identifierar samma Maria i Ultervattnet och Anders/Andreas\nOlofsson i Häggnäs.\n\nBild `C0034039_00147` har dessutom Carl Erics födelse- och dopnotis 1806\nmed föräldrar och ort. Den läsningen redovisas separat i\n[C-0707](../citations/C-0707-bygdea-lundberg-lugnet-overklinten.md).\n\n## Åtkomstnotering\n\nDen vanliga inloggade bildvisaren var läsbar 2026-08-20, medan ett direkt\nIIIF-anrop utan rätt anropskontext då gav HTTP 403. Vid omprov 2026-08-31\nfungerade både manifest och fulloriginal utan sessionskaka när\nRiksarkivets bildvisarsida angavs som `Referer`. Det tidigare felet var\nalltså ett bild-API-/referensproblem, inte bristande digitalisering.\n\nDet fullständiga IIIF-manifestet är lokalt bevarat som\n[metadataoriginal](../media/S-0095-riksarkivet-bygdea-C3-IIIF-manifest.json),\nSHA-256\n`712bdf87802479c6c2d7b8335b9880c2f5f2e148dbc7f513bffa6eaaf24864b7`.\n\n\n## Konsolideringsprövning 2026-09-08 — T-0139\n\nC-0129:s hela Hansrad har återlästs från redan bevarad aliasfil under\nC-0776, bild C0034039_00109. C-0130:s egen vigselpost är läsbar i den\nsparade skärmbilden; samtliga egna textrader tillgodoräknade. Faddrars roller,\nrånamn och prövad marginalnotation finns i C-0129:s tillägg. Ingen ny\nhämtning eller utvidgad årgångsgenomgång. Det ursprungliga 403-svaret är åtkomsthistorik,\ninte ett aktuellt bortfall av dessa egna läsbara poster.\n"
+      },
+      "origins": [
+        {
+          "revision_id": "S-0095@1",
+          "unit_id": "8acf54a17dc86aad09a296425328dd2315fb9678b728102957b324762bda081a",
+          "coverage": "complete",
+          "note": "Återanvändning av äldre forskningsunderlag; inte ett nytt oberoende belägg."
+        }
+      ],
+      "evidence": []
+    },
+    "R-f5e92a8dfe87cc8d7d17be07@1": {
+      "id": "R-f5e92a8dfe87cc8d7d17be07@1",
+      "object_id": "R-f5e92a8dfe87cc8d7d17be07",
+      "version": 1,
+      "operation_id": "T-0646/evidence-01-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Källpost avgränsad i C-0123. Ortsregister nämns som stöd men har här ingen separat avgränsad post; identitetskedjan till senare hushåll måste bedömas separat.",
+      "caveat": "Titelord delvis svårlästa. Lokalt underlag är skärmbild/läsvy, inte fullbild. Privat sekundärträds 12 oktober avvisas mot läst dag 8.\nC-0123: Registreringen anger 8 oktober enligt textens läsning; orterna är parternas hemvister.",
+      "previous_id": null,
+      "kind": "record",
+      "data": {
+        "revision_id": "R-f5e92a8dfe87cc8d7d17be07@1",
+        "source_id": "S-0095",
+        "record_type": "marriage_entry",
+        "locator": "Bygdeå C:3, vigsel oktober 1826, s. 532/bild 299, C0034039_00299, Anders Olofsson–Maria Jacobsdotter",
+        "dependence_note": "Ortsregister nämns som stöd men har här ingen separat avgränsad post; identitetskedjan till senare hushåll måste bedömas separat."
+      },
+      "origins": [
+        {
+          "revision_id": "R-f5e92a8dfe87cc8d7d17be07@1",
+          "unit_id": "51471b441dc80d37a4e0a1f34151f837a4192a0a37a3d7001ac60400bc9dc307",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-f5e92a8dfe87cc8d7d17be07@1",
+          "unit_id": "8da26ae85d20fb10fe7bc05befd8bafc4ec69f9ff766a9e7860db60c1ffb8626",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-f5e92a8dfe87cc8d7d17be07@1",
+          "unit_id": "c576b6ebc3bec0a455d226753a34091c530bde90bb108e41cfa3b8cf7caf23f6",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-f5e92a8dfe87cc8d7d17be07@1",
+          "unit_id": "fc3c054cafe760a067d6e013b9ad6ea70491cfab7723b1070e47288ba4f69a3f",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-f5e92a8dfe87cc8d7d17be07@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ]
+    },
+    "R-4ac1a6f528656082a3fe29b0@1": {
+      "id": "R-4ac1a6f528656082a3fe29b0@1",
+      "object_id": "R-4ac1a6f528656082a3fe29b0",
+      "version": 1,
+      "operation_id": "T-0646/evidence-01-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Källpost avgränsad i C-0124. Lokal läsvy är skärmbild. Samma patronymikon hos vittnen och föräldrar ger sökhypoteser, inte styrkta syskonrelationer.",
+      "caveat": "Två vittnesparter innebär fyra personer. T-0169:s två-vittnesräkning och negativa slutsats om moderns patronymikon är uttryckligen felaktiga.\nC-0124: Senaste tillägget rättar räkningsfelet: Catharina Andrsdr bär moderns patronymikon. De äldre påståendena bevaras som revisionshistorik.",
+      "previous_id": null,
+      "kind": "record",
+      "data": {
+        "revision_id": "R-4ac1a6f528656082a3fe29b0@1",
+        "source_id": "S-0095",
+        "record_type": "birth_baptism",
+        "locator": "Bygdeå C:3, januari 1799, Maria 7/13 januari, s. 178/bild 98, C0034039_00098",
+        "dependence_note": "Lokal läsvy är skärmbild. Samma patronymikon hos vittnen och föräldrar ger sökhypoteser, inte styrkta syskonrelationer."
+      },
+      "origins": [
+        {
+          "revision_id": "R-4ac1a6f528656082a3fe29b0@1",
+          "unit_id": "16119337ecbc9c5c0d1b3b4d52cf8cbac3e7de6f62f3bbfa48d110af82bc3c20",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-4ac1a6f528656082a3fe29b0@1",
+          "unit_id": "422ed7d335a4acd06e32b86cb4f9299c8862de3a1d1304cb980f5b5f33a7f29e",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-4ac1a6f528656082a3fe29b0@1",
+          "unit_id": "7a3fd1e8c0bf48bfd7d9bc74ebb38d8052e40f6b6c2e2dd89c76b9051de85981",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-4ac1a6f528656082a3fe29b0@1",
+          "unit_id": "7a68a172edc1908be0e258ba62ae652152380b8103ec37759b83a64eac4b6fd0",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-4ac1a6f528656082a3fe29b0@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ]
+    },
+    "R-0f2b533d503e2b5dff1ce887@1": {
+      "id": "R-0f2b533d503e2b5dff1ce887@1",
+      "object_id": "R-0f2b533d503e2b5dff1ce887",
+      "version": 1,
+      "operation_id": "T-0646/evidence-01-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Källpost avgränsad i C-0129. C-0776:s fullbild och äldre skärmbild avser samma originalpost. Kopplingen till vuxne Hans bygger delvis på privat ansedel och får inte bli två oberoende fullständiga livskedjor.",
+      "caveat": "Klockar:[?] reserverat; Anna Johansdr läses hustrun utan namngiven make; Abram/Abramsdr är råformer. Liten marginalnot olöst. Fadderlistan i C-0133 är motsägande och separat.\nC-0129: Rickleå står uttryckligen hos Anna och lånas av de två följande vittnena. Sluttilläggets formulering om tre som lånar och två ortled stämmer inte med dess egen angivna radfördelning och lämnas som textkonflikt.",
+      "previous_id": null,
+      "kind": "record",
+      "data": {
+        "revision_id": "R-0f2b533d503e2b5dff1ce887@1",
+        "source_id": "S-0095",
+        "record_type": "birth_baptism",
+        "locator": "Bygdeå C:3, september 1800, Hans 23/28 september, s. 196/bild 109, C0034039_00109",
+        "dependence_note": "C-0776:s fullbild och äldre skärmbild avser samma originalpost. Kopplingen till vuxne Hans bygger delvis på privat ansedel och får inte bli två oberoende fullständiga livskedjor."
+      },
+      "origins": [
+        {
+          "revision_id": "R-0f2b533d503e2b5dff1ce887@1",
+          "unit_id": "7cfed09e79cfbedc40cc0fe477c1da31990dc4233eaf96f72f6c66b28551bd3b",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-0f2b533d503e2b5dff1ce887@1",
+          "unit_id": "a4d31686093e5232f123e4583b558fdb6e1488f64c500569ead1d81dbb8c26d2",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-0f2b533d503e2b5dff1ce887@1",
+          "unit_id": "dfef03a12a452e165dfdfa74d1e6516f6002c59ad095e2a234429cc544d05748",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-0f2b533d503e2b5dff1ce887@1",
+          "unit_id": "e671fb3b2b1da6ac4ddc97057b6c2a551e2378334d333ba9d62a4707d8bd5f08",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-0f2b533d503e2b5dff1ce887@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ]
+    },
+    "R-6e257681fabbd369d1d11279@1": {
+      "id": "R-6e257681fabbd369d1d11279@1",
+      "object_id": "R-6e257681fabbd369d1d11279",
+      "version": 1,
+      "operation_id": "T-0646/evidence-01-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Källpost avgränsad i C-0130. Läsbar egen post finns i skärmbild; C-0133/C-0134:s upprepade vigsel kan vara härledd ur denna källa.",
+      "caveat": "Ifrån Degerfors är ursprung/hemvist, inte födelsesocken. Separat lysningsdag, ålder, föräldrar, giftoman och vittnen saknas i själva postens struktur.\nC-0130: Senare kontroll anger att inga egna relevanta fält utelämnats; 29 oktober är vigseldagen.",
+      "previous_id": null,
+      "kind": "record",
+      "data": {
+        "revision_id": "R-6e257681fabbd369d1d11279@1",
+        "source_id": "S-0095",
+        "record_type": "marriage_entry",
+        "locator": "Bygdeå C:3, vigsel oktober 1820, s. 526/bild 295, C0034039_00295, Hans Nilsson–Anna Stina Jonsdotter",
+        "dependence_note": "Läsbar egen post finns i skärmbild; C-0133/C-0134:s upprepade vigsel kan vara härledd ur denna källa."
+      },
+      "origins": [
+        {
+          "revision_id": "R-6e257681fabbd369d1d11279@1",
+          "unit_id": "02312d801faa43e9f3aadadc74b0c0714e58fae6202d2b018726f52b8d301762",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-6e257681fabbd369d1d11279@1",
+          "unit_id": "c6126a9a8e9903f17b98eaeffcbae8d2ef6783998ad1d3af723a7f5d3c4a3ee9",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-6e257681fabbd369d1d11279@1",
+          "unit_id": "cc2ac4a05ccfb1f4355d045ba0fa8098b751d3cbb84865252150720452220ce8",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-6e257681fabbd369d1d11279@1",
+          "unit_id": "f4efc8d7408ff3a7684fba0612448dab45c761b30f9fb16bba11a5655f0e7a11",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-6e257681fabbd369d1d11279@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ]
+    },
+    "R-967edc72b5e1c02cc57ba10c@1": {
+      "id": "R-967edc72b5e1c02cc57ba10c@1",
+      "object_id": "R-967edc72b5e1c02cc57ba10c",
+      "version": 1,
+      "operation_id": "T-0649/evidence-04-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Källpost avgränsad i C-0707. Självständig födelsepost inom kedjan, inte belägg för Barbros föräldraskap.",
+      "caveat": "Moderns ålder 41 år avviker från hushållsår 1760; barnets 14 oktober avviker från senare 13 oktober.\nC-0707: Fem verkliga poster avgränsas. Identifikationen mellan Carl Eric och Carl E. Lundberg är projektresonemang med två explicita olösta datum-/åldersskillnader. Giftomanssammanhanget får inte konverteras till ny biologisk relation.",
+      "previous_id": null,
+      "kind": "record",
+      "data": {
+        "revision_id": "R-967edc72b5e1c02cc57ba10c@1",
+        "source_id": "S-0095",
+        "record_type": "birth_baptism",
+        "locator": "Bygdeå C/3, s. 256–257, Carl Eric född 14 och döpt 18 oktober 1806 i Överklinten, C0034039_00147",
+        "dependence_note": "Självständig födelsepost inom kedjan, inte belägg för Barbros föräldraskap."
+      },
+      "origins": [
+        {
+          "revision_id": "R-967edc72b5e1c02cc57ba10c@1",
+          "unit_id": "4a2b7cb626698f6a132fe3117d6af6c5c8a352422e9de8401b38127140a9c3ff",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-967edc72b5e1c02cc57ba10c@1",
+          "unit_id": "e9be9ada79700730cc65e2cd2ea5c6af073bc553d4656a1c0bba483c54430c10",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-967edc72b5e1c02cc57ba10c@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ]
+    },
+    "R-1e10604b209eb3c817a460b2@1": {
+      "id": "R-1e10604b209eb3c817a460b2@1",
+      "object_id": "R-1e10604b209eb3c817a460b2",
+      "version": 1,
+      "operation_id": "T-0649/evidence-04-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Källpost avgränsad i C-0716. Födelseposten är skild från de senare hushållsböckerna; ingen Barbrorelation följer.",
+      "caveat": "Föräldranamn återges som egen födelseuppgift; kedjeidentiteten med hushållsrader är dokumentets resonemang.\nC-0716: Marginalens säkra ortord och den osäkra föregående förkortningen hålls isär. Förkortningen kompletteras inte för att passa en flytthypotes.",
+      "previous_id": null,
+      "kind": "record",
+      "data": {
+        "revision_id": "R-1e10604b209eb3c817a460b2@1",
+        "source_id": "S-0095",
+        "record_type": "birth_baptism",
+        "locator": "Bygdeå C/3, s. 30, Olaus född 7 och döpt 16 februari 1784 i Överklinten, C0034039_00023",
+        "dependence_note": "Födelseposten är skild från de senare hushållsböckerna; ingen Barbrorelation följer."
+      },
+      "origins": [
+        {
+          "revision_id": "R-1e10604b209eb3c817a460b2@1",
+          "unit_id": "2dc163df5f76c46d6e9537a3c6a0b39eca776688436a367b40fc2e7dff8661be",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-1e10604b209eb3c817a460b2@1",
+          "unit_id": "f15f5ddb8fdd9a1eecf3f55775ead402001ec5395f2e530a5a797d39d9380578",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-1e10604b209eb3c817a460b2@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ]
+    },
+    "R-a085f6b142af3a57728b6469@1": {
+      "id": "R-a085f6b142af3a57728b6469@1",
+      "object_id": "R-a085f6b142af3a57728b6469",
+      "version": 1,
+      "operation_id": "T-0649/evidence-04-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Källpost avgränsad i C-0772. Stark kandidat mot Olaus 1784 i Överklintenhushållet, men fortsatt hushållsbrygga saknas. Inget faderskap för Barbro.",
+      "caveat": "Drängen Olof Pehrsson Överklinten och änkan Maja Stina Pehrsdotter Brattliden. Dag 14 är ditto från föregående utskriven dag, nästa 26. Ingen ålder eller exakt födelsetid.\nC-0772: Två vigselposter samt återbrukat Överklintenhushåll. Brattliden A I/7a s 159 och A I/8 s 19, inte 147, saknade säkert par med nästa ort som gräns; exakta ortssnitt utan uppgift om vidare flytt.",
+      "previous_id": null,
+      "kind": "record",
+      "data": {
+        "revision_id": "R-a085f6b142af3a57728b6469@1",
+        "source_id": "S-0095",
+        "record_type": "marriage",
+        "locator": "Bygdeå C/3, vigsel 14 november 1810 Olof Pehrsson och Maja Stina Pehrsdotter, C0034039_00290",
+        "dependence_note": "Stark kandidat mot Olaus 1784 i Överklintenhushållet, men fortsatt hushållsbrygga saknas. Inget faderskap för Barbro."
+      },
+      "origins": [
+        {
+          "revision_id": "R-a085f6b142af3a57728b6469@1",
+          "unit_id": "57f5f268979c33eb16bab3de245487529411cb0d697b34da915052a104cc43b0",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-a085f6b142af3a57728b6469@1",
+          "unit_id": "7986c08a8dfb161a7e6cd47527e5ab22f2651752eabfe490c20d7f8f4c0da9d6",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-a085f6b142af3a57728b6469@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ]
+    },
+    "R-56874e1dd936b90cbdf9e6b7@1": {
+      "id": "R-56874e1dd936b90cbdf9e6b7@1",
+      "object_id": "R-56874e1dd936b90cbdf9e6b7",
+      "version": 1,
+      "operation_id": "T-0649/evidence-04-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Källpost avgränsad i C-0772. Namn-/ortlik kvinna kan förklara 1810-änkestatus men ingen kedja visar samma person; C-0776:s kandidathushåll är också osäkert.",
+      "caveat": "Drängen Nils Jonsson från Umeå och bondedottern Maja Stina Pehrsdotter Överklinten.\nC-0772: Två vigselposter samt återbrukat Överklintenhushåll. Brattliden A I/7a s 159 och A I/8 s 19, inte 147, saknade säkert par med nästa ort som gräns; exakta ortssnitt utan uppgift om vidare flytt.",
+      "previous_id": null,
+      "kind": "record",
+      "data": {
+        "revision_id": "R-56874e1dd936b90cbdf9e6b7@1",
+        "source_id": "S-0095",
+        "record_type": "marriage",
+        "locator": "Bygdeå C/3, vigsel 29 september 1799 Nils Jonsson och Maja Stina Pehrsdotter, C0034039_00286",
+        "dependence_note": "Namn-/ortlik kvinna kan förklara 1810-änkestatus men ingen kedja visar samma person; C-0776:s kandidathushåll är också osäkert."
+      },
+      "origins": [
+        {
+          "revision_id": "R-56874e1dd936b90cbdf9e6b7@1",
+          "unit_id": "57f5f268979c33eb16bab3de245487529411cb0d697b34da915052a104cc43b0",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-56874e1dd936b90cbdf9e6b7@1",
+          "unit_id": "60ece7c467bc41393991dc2cee5e2f3b2c0b6222ff6913f06423e8ca4c30879b",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-56874e1dd936b90cbdf9e6b7@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ]
+    },
+    "R-f5e92a8dfe87cc8d7d17be07@2": {
+      "id": "R-f5e92a8dfe87cc8d7d17be07@2",
+      "object_id": "R-f5e92a8dfe87cc8d7d17be07",
+      "version": 2,
+      "operation_id": "T-0654/persons-03-v1",
+      "disposition": "recorded",
+      "evidence_status": "TRANSCRIBED",
+      "rationale": "Rättar posttyp och lokalisering enligt redan gjord T0165-prövning, utan ny källäsning.",
+      "caveat": "Senare dokumenterad kolumnprövning upphäver vigseldagen8oktober; själva källraden är densamma. Skärmbild, inte fulloriginal.",
+      "previous_id": "R-f5e92a8dfe87cc8d7d17be07@1",
+      "kind": "record",
+      "data": {
+        "revision_id": "R-f5e92a8dfe87cc8d7d17be07@2",
+        "source_id": "S-0095",
+        "record_type": "banns_entry",
+        "locator": "Bygdeå C:3, lysning 24 september samt 1 och 8 oktober1826, s.532/bild299, C0034039_00299, Anders Olofsson–Maria Jacobsdotter",
+        "dependence_note": "Ortsregister nämns som stöd men har här ingen separat avgränsad post; identitetskedjan till senare hushåll måste bedömas separat. De tre daterade lysningarna är inte en läst vigseldag."
+      },
+      "origins": [
+        {
+          "revision_id": "R-f5e92a8dfe87cc8d7d17be07@2",
+          "unit_id": "2578537ba4df330fba457e39e4a04a926dd5181d69c7f1b85f56593e19ad2e28",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-f5e92a8dfe87cc8d7d17be07@2",
+          "unit_id": "4bf70465e1fc5c7dc777583d70699bcdb8cf45c8afcc64d87aab2940e140aba1",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "R-f5e92a8dfe87cc8d7d17be07@2",
+          "unit_id": "b41cbaa57748624898effae0aed873350a3540ac65c4a4a1023abecbefdad2ff",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "R-f5e92a8dfe87cc8d7d17be07@2",
+          "basis_revision_id": "S-0095@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ]
+    },
+    "F-P-0159-reported_search_limit-Bygdea1794@1": {
+      "id": "F-P-0159-reported_search_limit-Bygdea1794@1",
+      "object_id": "F-P-0159-reported_search_limit-Bygdea1794",
+      "version": 1,
+      "operation_id": "T-0655/persons-04-v1",
+      "disposition": "accepted",
+      "evidence_status": "NEGATIVE",
+      "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+      "caveat": "Tidigare kontroll uppges i akten/profilen men exakt bild/postgräns är inte angiven i detta bevarade underlag. Inte ett nytt fullständigt avgränsat sökobjekt.",
+      "previous_id": null,
+      "kind": "fact",
+      "data": {
+        "revision_id": "F-P-0159-reported_search_limit-Bygdea1794@1",
+        "subject_id": "P-0159",
+        "property": "reported_search_limit",
+        "value_type": "structured",
+        "value_json": "{\"image_or_post_bounds\":null,\"reported_outcome\":\"lokalt noll kring dagen\",\"source\":\"S-0095\",\"target_date\":\"1794-12-26\",\"volume\":\"Bygdeå C/3\"}"
+      },
+      "origins": [
+        {
+          "revision_id": "F-P-0159-reported_search_limit-Bygdea1794@1",
+          "unit_id": "18822b55fbf43152a09d893556f954e18a28bba7d46d8fd1a852286672085269",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0159-reported_search_limit-Bygdea1794@1",
+          "unit_id": "df280875efc7b0f66aa92725279707cdadf7cc4a560e7c1f899679e0933ced89",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "F-P-0159-reported_search_limit-Bygdea1794@1",
+          "basis_revision_id": "S-0095@1",
+          "role": "supports",
+          "note": "Tidigare avgränsat underlag; inga dubbla oberoende informationsvägar."
+        }
+      ]
+    }
+  },
+  "cross_module_basis_questions": [],
+  "no_automatic_rebind": true
+}

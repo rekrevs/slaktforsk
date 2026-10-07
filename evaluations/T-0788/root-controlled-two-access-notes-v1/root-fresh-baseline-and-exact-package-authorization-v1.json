@@ -1,0 +1,27 @@
+{
+  "tasks": [
+    "T-0788",
+    "T-0789"
+  ],
+  "owner_mandate": "ok då kör vi på med 1-4",
+  "at_utc": "2026-10-06T07:03:55.812654+00:00",
+  "initial_guard_error": "Mistakenly asserted operation row count equals journal head444; baseline has445 operation rows. All final gate pins including physical live baseline fe736 verified before that assertion. Orchestration incorrectly continued to already owner-authorized and exact source-approved first CLI apply despite guard assertion. This receipt preserves the failure; it is not represented as prior written authorization. First apply actual445/pending0. No repeat/rollback of append-only approved note. Remaining exact second apply now explicitly authorized after corrected actual journal/pending/current checks. Final all50 runtime comparison mandatory.",
+  "final_gate_pins": [
+    {
+      "path": "evaluations/T-0788/source-review/two-exact-access-notes-actual-stage-final-primary-source-consequence-gate-v1.json",
+      "sha256": "14fddd24ef17541a01a97ee3c71ae0014b7c44573a3c636dfdf0baf9cc0247f6"
+    },
+    {
+      "path": "evaluations/T-0788/independent-review/two-access-notes-actual446-final-independent-source-consequence-gate-v1.json",
+      "sha256": "fbcb0f08a3786c35a39964667ef1d4dc89db6954b1a96a157d181e16ae5e436a"
+    }
+  ],
+  "all_immutable_gate_pins_verified": 21,
+  "current": {
+    "journal_head": 445,
+    "pending": 0,
+    "operation_rows": 446
+  },
+  "root_authorizes_exact_remaining_operation": "T-0789/dated-bounded-access-search-note-v1",
+  "tasks_remain": "BLOCKED; T0787 HOLD"
+}

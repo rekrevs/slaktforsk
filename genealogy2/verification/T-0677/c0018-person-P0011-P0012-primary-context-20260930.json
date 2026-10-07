@@ -1,0 +1,566 @@
+{
+  "task": "T-0677",
+  "citation": "C-0018",
+  "reader": "primary Astra",
+  "read_at": "2026-09-30T20:36:21.705626+00:00",
+  "inputs": {
+    "c0018-prestart-person-P-0011-j221-20260930.json": "4d45217d6c1aa3dab6828ab8c1d027bc78a23a15ae779a980e5cb123d760c2a4",
+    "c0018-prestart-person-P-0012-j221-20260930.json": "d7f97055144630687729f8f67b03f06fa9f5ec5224a520760492704c3ab33cfd"
+  },
+  "scope": "P11 alla38research/P12 alla37research, full person,O/F/REL/E/BIO,M/ID och interpretationQuestions. Origins återbrukas som provenans, ingen nyoriginalkontroll.",
+  "conclusions": [
+    "P11 egen vuxenidentitet bärs avvigsel/SCBrad;född1898-10-17har egenvigselgrund, Oskarshamn egenSCB. SekundärNilssoon och1977 har råO/LEAD, inga dödsevents.",
+    "P12 egen1924Limhamn årsgrund och OWNER_CONFIRMEDfar bevaras;efternamn/död2014sekundära. Ingen make vuxenidentitet eller säkerlivsslut skapas.",
+    "ModerskapP11→P12/14 har egna1930rader och familjestöd; P13endastcandidate med indirektfoto/träd och ingenägarbekräftadmoder. Bernhardsbarnlista iC0018fastställer inte explicitmor.",
+    "C0018anger ingenfysiskvigselort. Nuvarande egenE-marriage@2 och RESEARCHP12@2 har redan gränsen; kvarvarandeBIOkopiapreciseras.",
+    "TemahälsaP12s bevisadeberoende ersätts avokäntberoende/inga två röster; inget behovnya källor."
+  ],
+  "proposed_exact_edits": [
+    {
+      "id": "P-0011/Q-02",
+      "expectedVersion": 1,
+      "layer": "data",
+      "field": "body",
+      "mode": "replace_once",
+      "old": "listar den privatmarkerade dottern under paret",
+      "new": "listar ett privatmarkerat barn i Bernhards familjegrupp; den bevarade sammanfattningen anger inte uttryckligen barnets mor",
+      "reason": "Barnlistan på Bernhardprofilen anger inte explicit båda föräldrarna. Kandidatmoderskap har separat indirekt bild/familjestöd och bevaras."
+    },
+    {
+      "id": "P-0011/Q-03",
+      "expectedVersion": 1,
+      "layer": "data",
+      "field": "body",
+      "mode": "replace_once",
+      "old": "nästan halva hennes liv ligger efter den sista belagda hushållsposten.",
+      "new": "perioden efter den sista belagda hushållsposten 1930 är ofullständigt känd; det sekundära dödsåret 1977 fastställer inte hur stor del av hennes liv som återstod.",
+      "reason": "Sekundärt1977 får inte användas för säker livslängdsandel."
+    },
+    {
+      "id": "PATH-P-0011-KP-03",
+      "expectedVersion": 1,
+      "layer": "data",
+      "field": "body",
+      "mode": "replace_once",
+      "old": "Livet efter 1930, döden 1977 och personliga spår",
+      "new": "Livet efter 1930, det uppgivna dödsåret 1977 och personliga spår",
+      "reason": "Sökvägens rubrik kvalificerar samma osäkra1977 som dess brödtext; ingen säker dödshändelse."
+    },
+    {
+      "id": "CONTRACT-P-0012-PK-03",
+      "expectedVersion": 1,
+      "layer": "data",
+      "field": "body",
+      "mode": "replace_once",
+      "old": "med den sjuttioåriga vuxenluckan utskriven",
+      "new": "med den öppna vuxenperioden efter bildtexten 1944 utskriven; det sekundära året 2014 fastställer inte luckans slut eller hennes livslängd",
+      "reason": "Ett sekundärt slutår gör inte exakt sjuttioårig levd period."
+    },
+    {
+      "id": "P-0012/Q-03",
+      "expectedVersion": 1,
+      "layer": "data",
+      "field": "body",
+      "mode": "replace_once",
+      "old": "allt mellan sexårsdagen 1930 och det uppgivna dödsåret 2014 saknas, inklusive skolgång, försörjning, boställen och egna personliga källor.",
+      "new": "livet efter barndomsraden 1930 är endast punktvis känt genom bildtexten 1944. Skolgång, försörjning, vuxna boställen och egna personliga källor saknas; det sekundära dödsåret 2014 är en sökledtråd och inte ett fast slut på hennes livsperiod.",
+      "reason": "Bevarad1944bildtext motsäger ett fullständigt källnoll1930–2014;2014fastställer inte slutet."
+    },
+    {
+      "id": "P-0012/Q-03",
+      "expectedVersion": 1,
+      "layer": "data",
+      "field": "body",
+      "mode": "replace_once",
+      "old": "den aktuella berättelsen är källkritisk men materialet lämnar en sjuttioårig lucka.",
+      "new": "den aktuella berättelsen skiljer bildtexten 1944 från den därefter öppna vuxenperioden. Intervallet till uppgivna 2014 är inte en säker sjuttioårig livsperiod.",
+      "reason": "Samma osäkra slutår får inte bli bestämd livslängd i argumentet."
+    },
+    {
+      "id": "THEME-P-0012-HAL",
+      "expectedVersion": 1,
+      "layer": "data",
+      "field": "body",
+      "mode": "replace_once",
+      "old": "Dödsåret 2014 är uppgivet i två beroende källor",
+      "new": "Dödsåret 2014 är uppgivet i två källor vars inbördes beroende är okänt och som därför inte räknas som två oberoende röster",
+      "reason": "Okänt uppgiftsursprung ska inte bli påvisat beroende; samstämmighet räcker inte för två vittnen."
+    },
+    {
+      "id": "BIO-P-0012",
+      "expectedVersion": 1,
+      "layer": "data",
+      "field": "markdown",
+      "mode": "replace_once",
+      "old": "Bernhard Natanael Eliasson och Katy Leonie Nilsson vigts i Oskarshamn och\nflyttat till Limhamn.",
+      "new": "Bernhard Natanael Eliasson och Katy Leonie Nilssons vigsel registrerats i\nOskarshamn och deras inflyttning till Limhamn uppgivits. Vigselns fysiska ort\när inte fastställd; faderns exakta utflyttningsdag överförs inte till modern.",
+      "reason": "C0018vigseluppgiften anger ingen plats; aktuell egenE@2 reserverar fysiskvigselort. Äldre sammanblandning kvar i dennaBIOkopia trots tidigare rättad identitetstext."
+    }
+  ],
+  "research_and_narrative_dispositions": [
+    {
+      "object_id": "ASSESSMENT-P-0011",
+      "revision_id": "ASSESSMENT-P-0011@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-01",
+      "revision_id": "CONTRACT-P-0011-PK-01@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-02",
+      "revision_id": "CONTRACT-P-0011-PK-02@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-03",
+      "revision_id": "CONTRACT-P-0011-PK-03@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-04",
+      "revision_id": "CONTRACT-P-0011-PK-04@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-05",
+      "revision_id": "CONTRACT-P-0011-PK-05@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-06",
+      "revision_id": "CONTRACT-P-0011-PK-06@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-07",
+      "revision_id": "CONTRACT-P-0011-PK-07@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-08",
+      "revision_id": "CONTRACT-P-0011-PK-08@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-09",
+      "revision_id": "CONTRACT-P-0011-PK-09@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-10",
+      "revision_id": "CONTRACT-P-0011-PK-10@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-11",
+      "revision_id": "CONTRACT-P-0011-PK-11@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0011-PK-12",
+      "revision_id": "CONTRACT-P-0011-PK-12@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0011-03478195b7d6",
+      "revision_id": "KEY-P-0011-03478195b7d6@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0011-12a33ade19e0",
+      "revision_id": "KEY-P-0011-12a33ade19e0@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0011-34ca762bcf3a",
+      "revision_id": "KEY-P-0011-34ca762bcf3a@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0011-4c16a3c6b2f0",
+      "revision_id": "KEY-P-0011-4c16a3c6b2f0@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0011-5a3111f7ed7b",
+      "revision_id": "KEY-P-0011-5a3111f7ed7b@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0011-6c43c18588af",
+      "revision_id": "KEY-P-0011-6c43c18588af@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0011-8813cdd0291d",
+      "revision_id": "KEY-P-0011-8813cdd0291d@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0011-9d5f665b39a7",
+      "revision_id": "KEY-P-0011-9d5f665b39a7@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "P-0011/Q-01",
+      "revision_id": "P-0011/Q-01@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "P-0011/Q-02",
+      "revision_id": "P-0011/Q-02@1",
+      "decision": "revise",
+      "reason": "Barnlistan på Bernhardprofilen anger inte explicit båda föräldrarna. Kandidatmoderskap har separat indirekt bild/familjestöd och bevaras."
+    },
+    {
+      "object_id": "P-0011/Q-03",
+      "revision_id": "P-0011/Q-03@1",
+      "decision": "revise",
+      "reason": "Sekundärt1977 får inte användas för säker livslängdsandel."
+    },
+    {
+      "object_id": "PATH-P-0011-KP-01",
+      "revision_id": "PATH-P-0011-KP-01@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "PATH-P-0011-KP-02",
+      "revision_id": "PATH-P-0011-KP-02@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "PATH-P-0011-KP-03",
+      "revision_id": "PATH-P-0011-KP-03@1",
+      "decision": "revise",
+      "reason": "Sökvägens rubrik kvalificerar samma osäkra1977 som dess brödtext; ingen säker dödshändelse."
+    },
+    {
+      "object_id": "RESEARCH-P-0011-9d76f0343410",
+      "revision_id": "RESEARCH-P-0011-9d76f0343410@2",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0011-ARB",
+      "revision_id": "THEME-P-0011-ARB@2",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0011-BO",
+      "revision_id": "THEME-P-0011-BO@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0011-EKO",
+      "revision_id": "THEME-P-0011-EKO@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0011-HAL",
+      "revision_id": "THEME-P-0011-HAL@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0011-ID",
+      "revision_id": "THEME-P-0011-ID@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0011-MIL",
+      "revision_id": "THEME-P-0011-MIL@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0011-PER",
+      "revision_id": "THEME-P-0011-PER@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0011-REL",
+      "revision_id": "THEME-P-0011-REL@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0011-SAM",
+      "revision_id": "THEME-P-0011-SAM@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0011-SYN",
+      "revision_id": "THEME-P-0011-SYN@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "BIO-P-0011",
+      "revision_id": "BIO-P-0011@2",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "ASSESSMENT-P-0012",
+      "revision_id": "ASSESSMENT-P-0012@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-01",
+      "revision_id": "CONTRACT-P-0012-PK-01@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-02",
+      "revision_id": "CONTRACT-P-0012-PK-02@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-03",
+      "revision_id": "CONTRACT-P-0012-PK-03@1",
+      "decision": "revise",
+      "reason": "Ett sekundärt slutår gör inte exakt sjuttioårig levd period."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-04",
+      "revision_id": "CONTRACT-P-0012-PK-04@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-05",
+      "revision_id": "CONTRACT-P-0012-PK-05@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-06",
+      "revision_id": "CONTRACT-P-0012-PK-06@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-07",
+      "revision_id": "CONTRACT-P-0012-PK-07@2",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-08",
+      "revision_id": "CONTRACT-P-0012-PK-08@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-09",
+      "revision_id": "CONTRACT-P-0012-PK-09@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-10",
+      "revision_id": "CONTRACT-P-0012-PK-10@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-11",
+      "revision_id": "CONTRACT-P-0012-PK-11@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "CONTRACT-P-0012-PK-12",
+      "revision_id": "CONTRACT-P-0012-PK-12@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0012-3e97d639e519",
+      "revision_id": "KEY-P-0012-3e97d639e519@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0012-518198eb0ca5",
+      "revision_id": "KEY-P-0012-518198eb0ca5@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0012-6d045acb4f5c",
+      "revision_id": "KEY-P-0012-6d045acb4f5c@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0012-914ffcba48fd",
+      "revision_id": "KEY-P-0012-914ffcba48fd@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0012-9810b9bf96e6",
+      "revision_id": "KEY-P-0012-9810b9bf96e6@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0012-99e9b9b479d5",
+      "revision_id": "KEY-P-0012-99e9b9b479d5@2",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "KEY-P-0012-a029e74a5e29",
+      "revision_id": "KEY-P-0012-a029e74a5e29@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "P-0012/Q-01",
+      "revision_id": "P-0012/Q-01@2",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "P-0012/Q-02",
+      "revision_id": "P-0012/Q-02@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "P-0012/Q-03",
+      "revision_id": "P-0012/Q-03@1",
+      "decision": "revise",
+      "reason": "Samma osäkra slutår får inte bli bestämd livslängd i argumentet."
+    },
+    {
+      "object_id": "PATH-P-0012-KP-01",
+      "revision_id": "PATH-P-0012-KP-01@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "PATH-P-0012-KP-02",
+      "revision_id": "PATH-P-0012-KP-02@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "PATH-P-0012-KP-03",
+      "revision_id": "PATH-P-0012-KP-03@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "RESEARCH-P-0012-9d76f0343410",
+      "revision_id": "RESEARCH-P-0012-9d76f0343410@2",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0012-ARB",
+      "revision_id": "THEME-P-0012-ARB@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0012-BO",
+      "revision_id": "THEME-P-0012-BO@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0012-EKO",
+      "revision_id": "THEME-P-0012-EKO@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0012-HAL",
+      "revision_id": "THEME-P-0012-HAL@1",
+      "decision": "revise",
+      "reason": "Okänt uppgiftsursprung ska inte bli påvisat beroende; samstämmighet räcker inte för två vittnen."
+    },
+    {
+      "object_id": "THEME-P-0012-ID",
+      "revision_id": "THEME-P-0012-ID@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0012-MIL",
+      "revision_id": "THEME-P-0012-MIL@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0012-PER",
+      "revision_id": "THEME-P-0012-PER@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0012-REL",
+      "revision_id": "THEME-P-0012-REL@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0012-SAM",
+      "revision_id": "THEME-P-0012-SAM@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "THEME-P-0012-SYN",
+      "revision_id": "THEME-P-0012-SYN@1",
+      "decision": "retain",
+      "reason": "Full aktuell researchsubstans och begränsningar genomlästa; ingen annan C0018följd för befintlig källbunden uppgift/status. Andra källpassager eller historiska åtkomstbedömningar omprövas inte generellt."
+    },
+    {
+      "object_id": "BIO-P-0012",
+      "revision_id": "BIO-P-0012@1",
+      "decision": "revise",
+      "reason": "C0018vigseluppgiften anger ingen plats; aktuell egenE@2 reserverar fysiskvigselort. Äldre sammanblandning kvar i dennaBIOkopia trots tidigare rättad identitetstext."
+    }
+  ],
+  "structural_decision": "Samtliga befintliga aktuella typedO/F/REL/E/M/ID bevaras individuellt enligt källgränserna ovan; fulla relevanta dispositioner samlas i slutlig impactregistry.",
+  "limits": "Varken C0027original eller C0264bild eller externa dödsregister har öppnats. Person-/PK-/trädstatus oförändrad. Tredje av fyra poster, ingen femte."
+}

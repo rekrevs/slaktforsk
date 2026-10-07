@@ -1,0 +1,98 @@
+{
+  "task": "T-0795",
+  "limit_per_unit": 2,
+  "limit_total": 12,
+  "entries": [
+    {
+      "id": "U1-1",
+      "unit": "U1",
+      "tool": "mcp__riksarkivet__search_metadata",
+      "args": {
+        "keyword": "Stockholms inskrivningsområde",
+        "offset": 0,
+        "limit": 10,
+        "only_digitised": false,
+        "dedup": false,
+        "max_response_tokens": 6000,
+        "research_context": "T-0795 bounded generic archival metadata routing for inscription authority around 1953; no personal record or name search"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.294Z",
+      "status": "reserved"
+    },
+    {
+      "id": "U2-1",
+      "unit": "U2",
+      "tool": "web__run",
+      "args": {
+        "search_query": [
+          {
+            "q": "site:falkoping.se kommunarkiv skolarkiv Flobyskolan Fredriksbergskolan"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.296Z",
+      "status": "reserved"
+    },
+    {
+      "id": "U3-1",
+      "unit": "U3",
+      "tool": "web__run",
+      "args": {
+        "search_query": [
+          {
+            "q": "site:libris.kb.se \"Sveriges lärare\" matrikel 1960"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.296Z",
+      "status": "reserved"
+    },
+    {
+      "id": "U4-1",
+      "unit": "U4",
+      "tool": "web__run",
+      "args": {
+        "search_query": [
+          {
+            "q": "site:lantmateriet.se historiska lagfarter fastighetsbeteckning 1960"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.296Z",
+      "status": "reserved"
+    },
+    {
+      "id": "U5-1",
+      "unit": "U5",
+      "tool": "web__run",
+      "args": {
+        "search_query": [
+          {
+            "q": "site:skatteverket.se beställ kopia bouppteckning 2001 personnummer"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.296Z",
+      "status": "reserved"
+    },
+    {
+      "id": "U6-1",
+      "unit": "U6",
+      "tool": "web__run",
+      "args": {
+        "search_query": [
+          {
+            "q": "site:vgregion.se regionarkivet kulturnämnden arkivförteckning protokoll"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.296Z",
+      "status": "reserved"
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "task": "T-0781",
+  "at_utc": "2026-10-04T14:25:09.691017+00:00",
+  "live_DB_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "efea4dfa8feec3f2f5bff8167792b01513ebb5689d9d2ec5278983a23ca208b3"
+  },
+  "clone_pin": {
+    "path": "evaluations/T-0781/mechanical-current425-preparation-v1/baseline-j425.sqlite",
+    "sha256": "ca59629e83c5f7d70dff7c342aca9e6e282bc60f4a03a4147ebc32bf7a118917"
+  },
+  "state": {
+    "journal_head": 425,
+    "pending": 0
+  },
+  "all50_clone_tables_exact": true,
+  "table_state": {
+    "assessment": {
+      "schema": "CREATE TABLE assessment (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  criteria TEXT NOT NULL, outcome TEXT NOT NULL, body TEXT NOT NULL\n) STRICT",
+      "rows": 23406,
+      "sha256": "ac9c5297db709b534da630883792212355f34df122ea4a8a84801e1ecba9c6c0"
+    },
+    "asset": {
+      "schema": "CREATE TABLE asset (\n  path TEXT PRIMARY KEY, batch_id TEXT NOT NULL REFERENCES import_batch(id),\n  sha256 TEXT NOT NULL, bytes INTEGER NOT NULL, frozen INTEGER NOT NULL CHECK(frozen IN (0,1))\n) STRICT",
+      "rows": 5067,
+      "sha256": "a2e2d3612213d2e43faac9d8241f6df066f9de1d08fbe6b9aa242b692b5b6edf"
+    },
+    "dependency": {
+      "schema": "CREATE TABLE dependency (\n  revision_id TEXT NOT NULL REFERENCES revision(id), basis_revision_id TEXT NOT NULL REFERENCES revision(id),\n  role TEXT NOT NULL CHECK(role IN ('supports','contradicts','context','derived_from')),\n  note TEXT NOT NULL, PRIMARY KEY(revision_id,basis_revision_id,role),\n  CHECK(revision_id!=basis_revision_id)\n) STRICT",
+      "rows": 38830,
+      "sha256": "d68c15a77813d9f24eaa57bc7f0e4e8ec9f8666731c75cec4b65253120a56bad"
+    },
+    "document": {
+      "schema": "CREATE TABLE document (\n  path TEXT PRIMARY KEY, batch_id TEXT NOT NULL REFERENCES import_batch(id),\n  sha256 TEXT NOT NULL, bytes INTEGER NOT NULL, text TEXT NOT NULL,\n  frozen INTEGER NOT NULL CHECK(frozen IN (0,1))\n) STRICT",
+      "rows": 3717,
+      "sha256": "b75d148da3cf79c972c70744cf648939063181168ffc027b105a3a1589c924b7"
+    },
+    "document_search": {
+      "schema": "CREATE VIRTUAL TABLE document_search USING fts5(path UNINDEXED,text, tokenize='unicode61 remove_diacritics 2')",
+      "rows": 3717,
+      "sha256": "1f7e3c645aed3a54ac11b91a0b447047c0c1931c1b3a87f6d8fa9e5690c390a6"
+    },
+    "document_search_config": {
+      "schema": "CREATE TABLE 'document_search_config'(k PRIMARY KEY, v) WITHOUT ROWID",
+      "rows": 1,
+      "sha256": "7d6af8d5f3a5b7959afb40dd2dcc5bb8a3f5737f06e0e5f0b9b4fda81e65f1f5"
+    },
+    "document_search_content": {
+      "schema": "CREATE TABLE 'document_search_content'(id INTEGER PRIMARY KEY, c0, c1)",
+      "rows": 3717,
+      "sha256": "07557b1faa11539567e6828d3280ce5df244126b9eabec074f1eff3719410068"
+    },
+    "document_search_data": {
+      "schema": "CREATE TABLE 'document_search_data'(id INTEGER PRIMARY KEY, block BLOB)",
+      "rows": 4239,
+      "sha256": "3ccc46382d0944441ff2bd622a0cf097130811dac8fd2f5b3f5d10a6a21bc413"
+    },
+    "document_search_docsize": {
+      "schema": "CREATE TABLE 'document_search_docsize'(id INTEGER PRIMARY KEY, sz BLOB)",
+      "rows": 3717,
+      "sha256": "3c183f66d0efd26c37072caf5d3a65449d55b7a3143231d44a1f02d19edc68f5"
+    },
+    "document_search_idx": {
+      "schema": "CREATE TABLE 'document_search_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID",
+      "rows": 4446,
+      "sha256": "63aef4e52b2147cdbdefd7dbbd41e3c2a423a6193e2a81945a2a25af4816fe94"
+    },
+    "event": {
+      "schema": "CREATE TABLE event (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), event_type TEXT NOT NULL,\n  date_json TEXT NOT NULL CHECK(json_valid(date_json)), place_id TEXT REFERENCES object(id),\n  place_role TEXT NOT NULL\n) STRICT",
+      "rows": 1533,
+      "sha256": "2a676c0c960dcb066f95f817e27a7cc709776854ae0b5536cab2e490524df19f"
+    },
+    "fact": {
+      "schema": "CREATE TABLE fact (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  property TEXT NOT NULL, value_type TEXT NOT NULL CHECK(value_type IN ('text','number','date','entity','boolean','structured')),\n  value_json TEXT NOT NULL CHECK(json_valid(value_json))\n) STRICT",
+      "rows": 3708,
+      "sha256": "3be986fb04fc05bbb7e2394062c5697f239594c12162a07e3f6b8af6b543eb4f"
+    },
+    "identity": {
+      "schema": "CREATE TABLE identity (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), mention_id TEXT NOT NULL REFERENCES object(id),\n  person_id TEXT NOT NULL REFERENCES object(id), decision TEXT NOT NULL CHECK(decision IN ('accepted','candidate','rejected'))\n) STRICT",
+      "rows": 1861,
+      "sha256": "4bd954adf70ea37ecc923d39fe7cb28a5a2a8243972924cede013b0803facbc2"
+    },
+    "identity_resolution": {
+      "schema": "CREATE TABLE identity_resolution (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), person_a TEXT NOT NULL REFERENCES object(id),\n  person_b TEXT NOT NULL REFERENCES object(id), decision TEXT NOT NULL CHECK(decision IN ('same_person','different_people','unresolved')),\n  CHECK(person_a!=person_b)\n) STRICT",
+      "rows": 11,
+      "sha256": "ec2df1450fb57882ca73f22c9b711eadd06115c39b4d087ffa849b1e9451dd9f"
+    },
+    "import_batch": {
+      "schema": "CREATE TABLE import_batch (\n  id TEXT PRIMARY KEY, manifest_json TEXT NOT NULL CHECK(json_valid(manifest_json)),\n  extractor TEXT NOT NULL\n) STRICT",
+      "rows": 1,
+      "sha256": "18f899daf061895bce0aaef3a9258f46b6a77df09cae0f9ef4962b5698c745bb"
+    },
+    "legacy_assertion": {
+      "schema": "CREATE TABLE legacy_assertion (\n  id TEXT PRIMARY KEY, unit_id TEXT NOT NULL UNIQUE REFERENCES unit(id),\n  owner_id TEXT NOT NULL, status_raw TEXT, reliability_raw TEXT\n) STRICT",
+      "rows": 5130,
+      "sha256": "3c7bb9f6d864cf337e8cab341720ad1419aa043fb71d429ebb54ddc83c2c717a"
+    },
+    "legacy_entity": {
+      "schema": "CREATE TABLE legacy_entity (\n  id TEXT NOT NULL, kind TEXT NOT NULL CHECK(kind IN ('person','source','citation','profile')),\n  document_path TEXT NOT NULL UNIQUE REFERENCES document(path), title TEXT NOT NULL,\n  PRIMARY KEY(kind,id)\n) STRICT",
+      "rows": 2992,
+      "sha256": "80d6979662ab3e44a6c68e6df627859d8b3486aec486955782759fbaff29990b"
+    },
+    "legacy_mapping": {
+      "schema": "CREATE TABLE legacy_mapping (\n  id TEXT PRIMARY KEY, legacy_kind TEXT NOT NULL, legacy_id TEXT NOT NULL,\n  target_id TEXT NOT NULL REFERENCES object(id), operation_id TEXT NOT NULL REFERENCES operation(id),\n  mapping_type TEXT NOT NULL CHECK(mapping_type IN ('same_identity','rejected_identity','archival_reference')),\n  origin_unit_id TEXT NOT NULL REFERENCES unit(id), rationale TEXT NOT NULL,\n  FOREIGN KEY(legacy_kind,legacy_id) REFERENCES legacy_entity(kind,id),\n  UNIQUE(legacy_kind,legacy_id,target_id,mapping_type)\n) STRICT",
+      "rows": 539,
+      "sha256": "a2ac3d9a65e1104b79a9a332a148d4e2c90d92d93305f93fb4c6d13be19610e2"
+    },
+    "mention": {
+      "schema": "CREATE TABLE mention (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), record_id TEXT NOT NULL REFERENCES object(id),\n  name_literal TEXT NOT NULL, role_literal TEXT NOT NULL\n) STRICT",
+      "rows": 2585,
+      "sha256": "251115dc50a7a180d0ad0e4c377e962783f1fe997e72dfe5c8882d6699460bdb"
+    },
+    "meta": {
+      "schema": "CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL) STRICT",
+      "rows": 1,
+      "sha256": "aba4fd9e74a26d8889dd8f6018a4c71a833632374c54183310ae0b2b47a73ebc"
+    },
+    "narrative": {
+      "schema": "CREATE TABLE narrative (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  title TEXT NOT NULL, markdown TEXT NOT NULL\n) STRICT",
+      "rows": 760,
+      "sha256": "1c612f4ea985c445994539044e1f6072b5a77a813097b86d6d47e45e77f710b3"
+    },
+    "native_asset": {
+      "schema": "CREATE TABLE native_asset (\n  id TEXT PRIMARY KEY, storage_path TEXT NOT NULL, sha256 TEXT NOT NULL,\n  bytes INTEGER NOT NULL CHECK(bytes>=0), original_name TEXT NOT NULL,\n  provenance TEXT NOT NULL, operation_id TEXT NOT NULL REFERENCES operation(id)\n) STRICT",
+      "rows": 52,
+      "sha256": "3d627c9e349e0f97773f034e2392ba6aff5cedfabeb09d72510e9860e66c676a"
+    },
+    "object": {
+      "schema": "CREATE TABLE object (\n  id TEXT PRIMARY KEY,\n  kind TEXT NOT NULL CHECK(kind IN ('person','source','record','transcription','mention','observation','identity','identity_resolution','place','event','participation','relation','fact','question','search','assessment','narrative'))\n) STRICT",
+      "rows": 44309,
+      "sha256": "80b4b00ba28c1b4ff5dfe3ee3a1a3405bbd480915629cf93dc79638bfb16fb4c"
+    },
+    "object_search": {
+      "schema": "CREATE VIRTUAL TABLE object_search USING fts5(object_id UNINDEXED,kind UNINDEXED,text)",
+      "rows": 44309,
+      "sha256": "508ec43bca0ff4984608daeef9feaa091506a72222f546fe7d50f8d1be8d8f12"
+    },
+    "object_search_config": {
+      "schema": "CREATE TABLE 'object_search_config'(k PRIMARY KEY, v) WITHOUT ROWID",
+      "rows": 1,
+      "sha256": "7d6af8d5f3a5b7959afb40dd2dcc5bb8a3f5737f06e0e5f0b9b4fda81e65f1f5"
+    },
+    "object_search_content": {
+      "schema": "CREATE TABLE 'object_search_content'(id INTEGER PRIMARY KEY, c0, c1, c2)",
+      "rows": 44309,
+      "sha256": "6a459f25e99f004a39d99c3ccc11937fb5d24df4d4a9103c9cec8ae5c41d1794"
+    },
+    "object_search_data": {
+      "schema": "CREATE TABLE 'object_search_data'(id INTEGER PRIMARY KEY, block BLOB)",
+      "rows": 7317,
+      "sha256": "559bd3e695b4f02c6673143ddf9388a08055b469770b6d3c43cf6799ae5558e6"
+    },
+    "object_search_docsize": {
+      "schema": "CREATE TABLE 'object_search_docsize'(id INTEGER PRIMARY KEY, sz BLOB)",
+      "rows": 44309,
+      "sha256": "354c6ef5dccb630fe2add4f5bc4743dc29874aa30cc1da3079fa619c9c0a7c8a"
+    },
+    "object_search_idx": {
+      "schema": "CREATE TABLE 'object_search_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID",
+      "rows": 5479,
+      "sha256": "4b6d4af472d8751796aebe65c3c78b401067a15b573ad32f2e289677717a0be0"
+    },
+    "observation": {
+      "schema": "CREATE TABLE observation (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), record_id TEXT NOT NULL REFERENCES object(id),\n  mention_id TEXT REFERENCES object(id), property TEXT NOT NULL, value_literal TEXT NOT NULL,\n  value_json TEXT CHECK(value_json IS NULL OR json_valid(value_json))\n) STRICT",
+      "rows": 3554,
+      "sha256": "2ef94957ac646b0d35a270cd10d105d4407a31aa69ae5500f471a080f3af3924"
+    },
+    "operation": {
+      "schema": "CREATE TABLE operation (\n  id TEXT PRIMARY KEY, request_hash TEXT NOT NULL, actor TEXT NOT NULL,\n  recorded_at TEXT NOT NULL, reason TEXT NOT NULL\n) STRICT",
+      "rows": 426,
+      "sha256": "6422a4425e7710236c9ca88bd995cf13c34b39c32b55acfa16136d8174141cdf"
+    },
+    "operation_payload": {
+      "schema": "CREATE TABLE operation_payload (\n  sequence INTEGER PRIMARY KEY, operation_id TEXT NOT NULL UNIQUE REFERENCES operation(id),\n  policy TEXT NOT NULL CHECK(policy IN ('legacy/1','native/2')),\n  request_json TEXT NOT NULL CHECK(json_valid(request_json))\n) STRICT",
+      "rows": 425,
+      "sha256": "297b2e99b00969e97b8889b728af3bf6f6aedb89852d5ba4c9e0c7cac767a2b8"
+    },
+    "origin": {
+      "schema": "CREATE TABLE origin (\n  revision_id TEXT NOT NULL REFERENCES revision(id), unit_id TEXT NOT NULL REFERENCES unit(id),\n  coverage TEXT NOT NULL CHECK(coverage IN ('partial','complete','context')),\n  note TEXT NOT NULL, PRIMARY KEY(revision_id,unit_id)\n) STRICT",
+      "rows": 99649,
+      "sha256": "889ef2b60604348c9aafea0235f57093f271f16c3b7b897c4a381ce878e0dd31"
+    },
+    "participation": {
+      "schema": "CREATE TABLE participation (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), event_id TEXT NOT NULL REFERENCES object(id),\n  person_id TEXT REFERENCES object(id), mention_id TEXT REFERENCES object(id), role TEXT NOT NULL,\n  CHECK(person_id IS NOT NULL OR mention_id IS NOT NULL)\n) STRICT",
+      "rows": 2566,
+      "sha256": "59cc9dcb6e478ae5c4a9ffe0b9d6d3b37091d9a16541091b1ea33302c1ef1cfe"
+    },
+    "person": {
+      "schema": "CREATE TABLE person (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), display_name TEXT NOT NULL,\n  sex TEXT CHECK(sex IN ('female','male','unknown') OR sex IS NULL),\n  legacy_state TEXT CHECK(legacy_state IN ('active','retired') OR legacy_state IS NULL)\n) STRICT",
+      "rows": 1107,
+      "sha256": "9a35522b6e1a35a1ff876a71d93876d32cfbe0b9ae19d2355e4e5e390a81ddd0"
+    },
+    "place": {
+      "schema": "CREATE TABLE place (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), name TEXT NOT NULL,\n  jurisdiction TEXT NOT NULL, parent_id TEXT REFERENCES object(id)\n) STRICT",
+      "rows": 21,
+      "sha256": "d5fb8d8697e5f0cde8e5da229ee1f57608cbb7088205de329f84a45ea16e1259"
+    },
+    "question": {
+      "schema": "CREATE TABLE question (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  title TEXT NOT NULL, outcome TEXT NOT NULL, body TEXT NOT NULL\n) STRICT",
+      "rows": 1549,
+      "sha256": "a1e6b4889dfa4332024792dc45962e377d71125edef40a243d099713912836b9"
+    },
+    "record": {
+      "schema": "CREATE TABLE record (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), source_id TEXT NOT NULL REFERENCES object(id),\n  record_type TEXT NOT NULL, locator TEXT NOT NULL, dependence_note TEXT NOT NULL\n) STRICT",
+      "rows": 2112,
+      "sha256": "d2cf16ae2b689b4ed2232a7e673a119f1cbdf6fe02940c2df56b4b6a057d1db8"
+    },
+    "record_asset": {
+      "schema": "CREATE TABLE record_asset (\n  revision_id TEXT NOT NULL REFERENCES record(revision_id), asset_path TEXT NOT NULL REFERENCES asset(path),\n  region TEXT NOT NULL, PRIMARY KEY(revision_id,asset_path)\n) STRICT",
+      "rows": 1526,
+      "sha256": "427a347a75dfe820a1314cd628dab442e0d6764ce831b6fe000c58b4b75350f0"
+    },
+    "record_media": {
+      "schema": "CREATE TABLE record_media (\n  revision_id TEXT NOT NULL REFERENCES record(revision_id),\n  asset_id TEXT NOT NULL REFERENCES native_asset(id), region TEXT NOT NULL,\n  PRIMARY KEY(revision_id,asset_id)\n) STRICT",
+      "rows": 57,
+      "sha256": "0f509479a4e26bebfa65618295f112c8aaeb24e46cf18c3919ec2861f5ffa34a"
+    },
+    "relation": {
+      "schema": "CREATE TABLE relation (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), from_person TEXT NOT NULL REFERENCES object(id),\n  to_person TEXT NOT NULL REFERENCES object(id), relation_type TEXT NOT NULL,\n  nature TEXT NOT NULL, date_json TEXT NOT NULL CHECK(json_valid(date_json)),\n  CHECK(from_person!=to_person)\n) STRICT",
+      "rows": 1700,
+      "sha256": "d84108f220e4682a5c80fc4dcd5e6f132d6a26b1c7d1a18e6501fdd7ec16a7af"
+    },
+    "review_request": {
+      "schema": "CREATE TABLE review_request (\n  id TEXT PRIMARY KEY, operation_id TEXT NOT NULL REFERENCES operation(id),\n  affected_revision_id TEXT NOT NULL REFERENCES revision(id),\n  changed_revision_id TEXT NOT NULL REFERENCES revision(id), reason TEXT NOT NULL\n) STRICT",
+      "rows": 6683,
+      "sha256": "36a40dc9df83d571ce5860b594f7aea4387cfe6bdaf10a6368834a19231d998f"
+    },
+    "review_resolution": {
+      "schema": "CREATE TABLE review_resolution (\n  request_id TEXT PRIMARY KEY REFERENCES review_request(id),\n  operation_id TEXT NOT NULL REFERENCES operation(id), rationale TEXT NOT NULL\n) STRICT",
+      "rows": 6683,
+      "sha256": "db7be356cf30b9d181f91d447363560e645e2c8fd1b0786172ffe4a6ba120ce4"
+    },
+    "revision": {
+      "schema": "CREATE TABLE revision (\n  id TEXT PRIMARY KEY, object_id TEXT NOT NULL REFERENCES object(id),\n  version INTEGER NOT NULL CHECK(version>0), operation_id TEXT NOT NULL REFERENCES operation(id),\n  disposition TEXT NOT NULL CHECK(disposition IN ('recorded','accepted','candidate','rejected','retired')),\n  evidence_status TEXT, rationale TEXT NOT NULL, caveat TEXT NOT NULL,\n  previous_id TEXT REFERENCES revision(id), UNIQUE(object_id,version)\n) STRICT",
+      "rows": 48986,
+      "sha256": "616756381fda8e1d57baa4f1de825a44432d9bf298247e93bf1abffb0b09bdb8"
+    },
+    "search": {
+      "schema": "CREATE TABLE search (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), question_id TEXT REFERENCES object(id),\n  source_id TEXT NOT NULL REFERENCES object(id), scope_json TEXT NOT NULL CHECK(json_valid(scope_json)),\n  outcome TEXT NOT NULL CHECK(outcome IN ('negative','positive','access_problem','inconclusive')),\n  body TEXT NOT NULL\n) STRICT",
+      "rows": 453,
+      "sha256": "e9ded39464504918b4dd3cf368d3806d0bb53365771e73e0233614050b21305b"
+    },
+    "source": {
+      "schema": "CREATE TABLE source (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), title TEXT NOT NULL,\n  archive_reference TEXT, source_class TEXT, description TEXT NOT NULL\n) STRICT",
+      "rows": 852,
+      "sha256": "13466622f4d789c760260f165a12ffaf4c33261720bf0a07e4f5c617b3444526"
+    },
+    "transcription": {
+      "schema": "CREATE TABLE transcription (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), record_id TEXT NOT NULL REFERENCES object(id),\n  text TEXT NOT NULL, reading_note TEXT NOT NULL\n) STRICT",
+      "rows": 1208,
+      "sha256": "dabf2bcb4e5f048d444d9cb6f8de33878778ce0d277a1aca65c0c46c64130cb8"
+    },
+    "unit": {
+      "schema": "CREATE TABLE unit (\n  id TEXT PRIMARY KEY, document_path TEXT NOT NULL REFERENCES document(path),\n  kind TEXT NOT NULL, legacy_id TEXT, owner_id TEXT, section TEXT NOT NULL,\n  start_byte INTEGER NOT NULL, end_byte INTEGER NOT NULL,\n  start_line INTEGER NOT NULL, end_line INTEGER NOT NULL,\n  raw TEXT NOT NULL, parsed_json TEXT NOT NULL CHECK(json_valid(parsed_json)),\n  historical INTEGER NOT NULL CHECK(historical IN (0,1)),\n  CHECK(start_byte >= 0 AND end_byte > start_byte)\n) STRICT",
+      "rows": 97854,
+      "sha256": "f63644a948a16c6c0901f8e48aeff1c24fb6c4ed98892c7be4c7208558c8053e"
+    },
+    "unit_decision": {
+      "schema": "CREATE TABLE unit_decision (\n  id TEXT PRIMARY KEY, unit_id TEXT NOT NULL REFERENCES unit(id),\n  version INTEGER NOT NULL CHECK(version>0), operation_id TEXT NOT NULL REFERENCES operation(id),\n  state TEXT NOT NULL CHECK(state IN ('mapped_complete','preserved_text','pending_interpretation','preserved_history')),\n  target_id TEXT REFERENCES object(id), rationale TEXT NOT NULL, question TEXT NOT NULL,\n  previous_id TEXT REFERENCES unit_decision(id), UNIQUE(unit_id,version),\n  CHECK(state!='mapped_complete' OR target_id IS NOT NULL),\n  CHECK(state!='pending_interpretation' OR length(trim(question))>0)\n) STRICT",
+      "rows": 97905,
+      "sha256": "858e07f3bed4bff05660bec59c0cfa97ff4cf9104e7e7e23bf5856ef07ef9ace"
+    },
+    "unit_decision_target": {
+      "schema": "CREATE TABLE unit_decision_target (\n  decision_id TEXT NOT NULL REFERENCES unit_decision(id),\n  target_id TEXT NOT NULL REFERENCES object(id),\n  PRIMARY KEY(decision_id,target_id)\n) STRICT",
+      "rows": 81238,
+      "sha256": "72d69dbd4705404cdd8d6466da8801541a7249d33f749e5ad038f42831818424"
+    }
+  },
+  "recommendation_pin": {
+    "path": "evaluations/T-0781/primary-two-metadata-current-reuse-recommendation-v1.json",
+    "sha256": "d75a794163d555cd4b743a70002c4f3df1b4195c1923606ff24bcd8265d0528e"
+  },
+  "prior_current250_pin": {
+    "path": "evaluations/T-0781/proposed-two-current425-metadata-and-prior-reuse-inputs-v1.json",
+    "sha256": "085a7fd8742af2ea88761ea59e1dd7f45367ed8d22d0bc574ba5f92033a48965"
+  },
+  "actual_acceptance_pin": {
+    "path": "evaluations/T-0780/root-actual-canonical-ten-program-acceptance-v1.json",
+    "sha256": "a934a2c9dd5e6d7a3c60716d5bab7eabad7bb2b396ab6d8276568152a3ee8e7e"
+  },
+  "remaining_reconciliation_pin": {
+    "path": "evaluations/T-0780/actual-ten-accepted-remaining21-reconciliation-v1.json",
+    "sha256": "2d4a5477c0c1f7d5df3d16b2e2d76633d4d45d3d670d1d934b3d5de13efc634a"
+  },
+  "accepted10_receipts": [
+    {
+      "citation": "C-0043",
+      "receipt_pin": {
+        "path": "genealogy2/verification/T-0678/c0043-astra-completion-20261004.json",
+        "sha256": "5a15122aa6345625adc18e60149a1a6423a5359776f4c1179ba5ffae6e568e44"
+      },
+      "literal_decision": "COMPLETE_WITH_RESERVATIONS_AFTER_FRESH_INDEPENDENT_FINAL_PASS",
+      "journal": 425,
+      "pending": 0
+    },
+    {
+      "citation": "C-0044",
+      "receipt_pin": {
+        "path": "genealogy2/verification/T-0678/c0044-astra-completion-20261004.json",
+        "sha256": "8a959df35c4c6651c5b470e28ef397c1a8ea06c89ebe79f3783f1638c563272b"
+      },
+      "literal_decision": "COMPLETE_WITH_RESERVATIONS_AFTER_FRESH_INDEPENDENT_FINAL_PASS",
+      "journal": 425,
+      "pending": 0
+    },
+    {
+      "citation": "C-0563",
+      "receipt_pin": {
+        "path": "genealogy2/verification/T-0678/c0563-astra-completion-20261004.json",
+        "sha256": "bd0726dd5be99a507e2a1ff2c9c104ee44972d8a10e2cbdf8c24c8a1660f7d4f"
+      },
+      "literal_decision": "COMPLETE_WITH_RESERVATIONS_AFTER_FRESH_INDEPENDENT_FINAL_PASS",
+      "journal": 425,
+      "pending": 0
+    },
+    {
+      "citation": "C-0561",
+      "receipt_pin": {
+        "path": "genealogy2/verification/T-0678/c0561-astra-completion-20261004.json",
+        "sha256": "b4834c7da1c58d98acb561d6f1180d0bbc6d955411dca5cafb976e74e5ac5d9a"
+      },
+      "literal_decision": "COMPLETE_WITH_RESERVATIONS_AFTER_FRESH_INDEPENDENT_FINAL_PASS",
+      "journal": 425,
+      "pending": 0
+    },
+    {
+      "citation": "C-0685",
+      "receipt_pin": {
+        "path": "genealogy2/verification/T-0678/c0685-astra-completion-20261004.json",
+        "sha256": "3fb553048e96695b140389072affabdb07361d1bddb21da468ea6a2498aead86"
+      },
+      "literal_decision": "COMPLETE_WITH_RESERVATIONS_AFTER_FRESH_INDEPENDENT_FINAL_PASS",
+      "journal": 425,
+      "pending": 0
+    },
+    {
+      "citation": "C-0069",
+      "receipt_pin": {
+        "path": "genealogy2/verification/T-0678/c0069-astra-completion-20261004.json",
+        "sha256": "1400f6a359bcfed538bae3d8d0b145efa13f41c32fe92713933a86a8b255c988"
+      },
+      "literal_decision": "COMPLETE_WITH_RESERVATIONS_AFTER_FRESH_INDEPENDENT_FINAL_PASS",
+      "journal": 425,
+      "pending": 0
+    },
+    {
+      "citation": "C-0425",
+      "receipt_pin": {
+        "path": "genealogy2/verification/T-0678/c0425-astra-completion-20261004.json",
+        "sha256": "a7131361e35b43a9e7a31c00a14b452fd7c2099eb30634cbd66975aa8e813429"
+      },
+      "literal_decision": "COMPLETE_WITH_RESERVATIONS_AFTER_FRESH_INDEPENDENT_FINAL_PASS",
+      "journal": 425,
+      "pending": 0
+    },
+    {
+      "citation": "C-0062",
+      "receipt_pin": {
+        "path": "genealogy2/verification/T-0678/c0062-astra-completion-20261004.json",
+        "sha256": "bf41c497fda8db6f9c2f2fa997ce08167dcccb1188b243695c035206a0112462"
+      },
+      "literal_decision": "COMPLETE_WITH_RESERVATIONS_AFTER_FRESH_INDEPENDENT_FINAL_PASS",
+      "journal": 425,
+      "pending": 0
+    },
+    {
+      "citation": "C-0106",
+      "receipt_pin": {
+        "path": "genealogy2/verification/T-0678/c0106-astra-completion-20261004.json",
+        "sha256": "60ddc1b2cb02d3555a5726715311e2a3e008ba596995686b40ac146781555149"
+      },
+      "literal_decision": "COMPLETE_WITH_RESERVATIONS_AFTER_FRESH_INDEPENDENT_FINAL_PASS",
+      "journal": 425,
+      "pending": 0
+    },
+    {
+      "citation": "C-0060",
+      "receipt_pin": {
+        "path": "genealogy2/verification/T-0678/c0060-astra-completion-20261004.json",
+        "sha256": "f52e3ae78aba5310232b9408a6c4cf86d6c7f432636eebc923d81ea84a1f2af9"
+      },
+      "literal_decision": "COMPLETE_WITH_RESERVATIONS_AFTER_FRESH_INDEPENDENT_FINAL_PASS",
+      "journal": 425,
+      "pending": 0
+    }
+  ],
+  "remaining21": [
+    "C-0039",
+    "C-0040",
+    "C-0041",
+    "C-0042",
+    "C-0046",
+    "C-0048",
+    "C-0049",
+    "C-0050",
+    "C-0051",
+    "C-0053",
+    "C-0054",
+    "C-0055",
+    "C-0057",
+    "C-0058",
+    "C-0059",
+    "C-0061",
+    "C-0067",
+    "C-0073",
+    "C-0208",
+    "C-0218",
+    "C-0913"
+  ],
+  "locked_media_actual_pins": [
+    {
+      "path": "genealogy/media/C-0049-riksarkivet-SE-HLA-1010025-AI14b-bild-235-sida-591.jpg",
+      "sha256": "2732d869d869b6c1c10b6cf0881b473f856812e32755e9b7b80f30e635c6ace8",
+      "citation": "C-0049",
+      "actual_hash_matches": true,
+      "opened": false
+    },
+    {
+      "path": "genealogy/media/C-0067-riksarkivet-SE-HLA-1010025-C5-bild-94-sida-88-anna-fredrika-1872.jpg",
+      "sha256": "674ada206f85566b8526dca3b123c80ec8bccc9ec58fb4b11d58efc235448008",
+      "citation": "C-0067",
+      "actual_hash_matches": true,
+      "opened": false
+    }
+  ],
+  "new_original_reads": 0,
+  "source_scope_approval": false
+}

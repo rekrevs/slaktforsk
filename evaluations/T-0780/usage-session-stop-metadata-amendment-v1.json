@@ -1,0 +1,88 @@
+{
+  "task": "T-0780",
+  "state": "SESSION_STOP_NOT_TASK_FINAL",
+  "snapshot": {
+    "path": "evaluations/T-0780/usage-all-workers-final-snapshot-v1.json",
+    "sha256": "a2ba91a13c8ef24de872ec3b47bef890d106714c7c143d3e71b52188a43a173f",
+    "bytes": 1927889
+  },
+  "amends_limitation": "All worker final responses received before snapshot. Old in-progress limitation superseded for stopped workers only; root finalization and later resume unknown/unincluded.",
+  "workers": [
+    {
+      "agent_path": "/root/g002_review",
+      "models": [
+        "gpt-6-astra"
+      ],
+      "usage_records": 1635,
+      "actual_usage_sum": {
+        "input_tokens": 233863781,
+        "cached_input_tokens": 227722880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 619610,
+        "reasoning_output_tokens": 47794,
+        "total_tokens": 234483391
+      },
+      "uncached_input_tokens": 6140901
+    },
+    {
+      "agent_path": "/root/g002_prepare",
+      "models": [
+        "gpt-6.1-sol"
+      ],
+      "usage_records": 796,
+      "actual_usage_sum": {
+        "input_tokens": 102538013,
+        "cached_input_tokens": 101070464,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 401411,
+        "reasoning_output_tokens": 65744,
+        "total_tokens": 102939424
+      },
+      "uncached_input_tokens": 1467549
+    },
+    {
+      "agent_path": "/root/g002_consequences_two",
+      "models": [
+        "gpt-6-astra"
+      ],
+      "usage_records": 90,
+      "actual_usage_sum": {
+        "input_tokens": 10378792,
+        "cached_input_tokens": 9962752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 38077,
+        "reasoning_output_tokens": 5466,
+        "total_tokens": 10416869
+      },
+      "uncached_input_tokens": 416040
+    },
+    {
+      "agent_path": "/root/g002_source",
+      "models": [
+        "gpt-6-astra"
+      ],
+      "usage_records": 1333,
+      "actual_usage_sum": {
+        "input_tokens": 205293008,
+        "cached_input_tokens": 200542208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 604959,
+        "reasoning_output_tokens": 44811,
+        "total_tokens": 205897967
+      },
+      "uncached_input_tokens": 4750800
+    }
+  ],
+  "logged_worker_sums_only": {
+    "input_tokens": 552073594,
+    "cached_input_tokens": 539298304,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1664057,
+    "reasoning_output_tokens": 163815,
+    "total_tokens": 553737651,
+    "uncached_input_tokens": 12775290
+  },
+  "root_usage": "UNKNOWN_NOT_ZERO",
+  "budget": "UNKNOWN; no fresh readings; no savings inference",
+  "production": "Preparation, both Astra roles, extra Astra, failed attempts, repairs and finalization all production. Reasoning subset of output, not added twice. Cached input included in input and separately reported. Repeated cached contexts not unique project tokens. Concurrent workers overlap in wall time; no shared-budget allocation or causal savings claim."
+}

@@ -1,0 +1,390 @@
+{
+  "id": "T-0780/C0685-consequences-v2-explicit-old-record-bases-v1",
+  "actor": "Codex Sol mechanical implementation of settled Astra handoff v6",
+  "reason": "T-0780 C0685 bounded consequences; source approval 2a537c682e635cb71af270118b3780759bbe3b2c88ba5c3ce3443166be33e579; independent approval and total package gate pending. Payload-preserving nine-operation split approval 1b7dd9a086474e14d317da94f6901606a743e260ba4c6fb606ecc5322ad19301; concrete sequence still requires primary hash binding.",
+  "dependencyReviewVersion": 2,
+  "changes": [
+    {
+      "id": "TR-f16d3da88a776dd465c24b49",
+      "kind": "transcription",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-de3335bd77494c1e87651fe8",
+        "text": "| Rad | Namn | Född | Övrigt |\n|---|---|---|---|\n| 1 | `Johan Pet. Zingmark` | `1825 1/2` | gift 1850 |\n| 2 | `Hustru Sara Sophia Pehrsdotter` | `1829 21/5` | vigseldag `24/11` |\n| 3 | `Sophia Beata` | `1851 1/8` | |\n| 4 | `Carl Reinhold` | `1853 21/1` | |\n| 5 | `Sophia Wilhelmina` | `1854 27/9` | |\n| 6 | `Maria Elina` | `1856 29/7` | |\n| 7 | `Pehr August` | `1858 26/10` | |\n| 8 | `Johan Oscar` | `1861 28/5` | |\n| 9–10 | `Axel`, `Anders Wilhelm` | `1864 23/3`, `1864 24/3` | tvillingklammer |\n",
+        "reading_note": "Tillägget rättar Lycksele till Degerfors och återfinner Hvarifrån 455. Den gamla tabellen och de tomma årsfälten bevaras; grafiska kunskapsgrader översätts inte till modern utbildning.\nSara Sophias födelseort läses i Degerfors; familjens hänvisning 455 rättar den äldre uppgiften att äldre sidnyckel saknas. Åtta barn; tvillingradernas olika datum och Sophia/Christina-namnvariation bevaras. Blanka dödsfält belägger inget dödsdatum."
+      },
+      "origins": [
+        {
+          "unit": "25175074efc4fce51418fef3e4220bc829364e592d69f7b00b502e241a8fd7f2",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "84202621615e7d4a0b926e314c968f02a63d18e8d7a344c256bdc06bb7b22bf8",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id",
+          "object": "R-de3335bd77494c1e87651fe8",
+          "version": 1
+        },
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0685; ingen ny originalavläsning.",
+      "caveat": "T-0780: Den äldre tabellen är historisk avskrift. Full aktuell originaltolkning i TR-T0780-C0685-FULL@1 rättar rad 5 till Lovisa Wilhelmina, Joh. Pet., Hustrun Sara Sophia Pehrsd. och Anders Wilh.; bevarar Nya bok60[3/7?] samt den egna blanka kunskapscellen på rad 5. Identiteterna ändras inte.\n\nHistoriskt förbehåll: Sara Sophias födelseort läses i Degerfors; familjens hänvisning 455 rättar den äldre uppgiften att äldre sidnyckel saknas. Åtta barn; tvillingradernas olika datum och Sophia/Christina-namnvariation bevaras. Blanka dödsfält belägger inget dödsdatum."
+    },
+    {
+      "id": "READ-0d48ba25ff2a0508249dd628",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "R-614a854ff44498bd24da3b16",
+        "criteria": "legacy_record_boundary",
+        "outcome": "record_located",
+        "body": "C-0562: Fyra avgränsade födelseposter. Äldre överordnande av födelsenamn Christina får inte upphäva senare verkliga hushållsformer Cajsa/Lovisa. Vittnesrättelser avser samma respektive poster; full barnräkning följer inte av fyra fynd.\nNamnvariation mellan originalposter bevaras; vittnet Joh.Zingmark är ingen bevisad släkting genom efternamnet."
+      },
+      "origins": [
+        {
+          "unit": "494248f0d99026a49b2e81e62932ed5477c39a49a0e4e63175aaf01ef6ab9b9f",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "77bce26f380c03bc47c7671a7db8d4e6c79888c3c70ff4ef01631881db083dd0",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "9b1a5a1ba8c7e14e6d7695ec9819766586afdf20ab175844e54fb216df367f28",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "b373bab1e31b91b62dbe2d66872e56d10b521063e8ff3f63516d7d338a8a0b47",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "role": "derived_from",
+          "note": "Avser denna version av den återbrukade källposten.",
+          "object": "R-614a854ff44498bd24da3b16",
+          "version": 1
+        },
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Dokumenterad avgränsning och läshistorik i C-0562; ingen ny oberoende evidensröst.",
+      "caveat": "Faderns äldre Peter normalisering rättad till Joh.P.[?]; moderns strukna led olöst. Födelseradens Christina ersätter inte faktiskt Cajsa i rättade hushållslistor C-0561/C-0563."
+    },
+    {
+      "id": "TR-09d1fae897df6257f4db9cef",
+      "kind": "transcription",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-614a854ff44498bd24da3b16",
+        "text": "> Nyb.[?] Joh. Zingmark och H. i [ort reserverad]; B:n Ol.[?]\n> [efternamn reserverat] och H. i [G…] af Bygdeå[?];\n> Dr. Ol. Andersson och pig. Anna Lotta Lindgren i Botsmark.\n",
+        "reading_note": "Fyra avgränsade födelseposter. Äldre överordnande av födelsenamn Christina får inte upphäva senare verkliga hushållsformer Cajsa/Lovisa. Vittnesrättelser avser samma respektive poster; full barnräkning följer inte av fyra fynd.\nFaderns äldre Peter normalisering rättad till Joh.P.[?]; moderns strukna led olöst. Födelseradens Christina ersätter inte faktiskt Cajsa i rättade hushållslistor C-0561/C-0563."
+      },
+      "origins": [
+        {
+          "unit": "5d40fd602287077cd44389ae788f7460c5a4477e215e3297c924995058dfa190",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "77bce26f380c03bc47c7671a7db8d4e6c79888c3c70ff4ef01631881db083dd0",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id",
+          "object": "R-614a854ff44498bd24da3b16",
+          "version": 1
+        },
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0562; ingen ny originalavläsning.",
+      "caveat": "Faderns äldre Peter normalisering rättad till Joh.P.[?]; moderns strukna led olöst. Födelseradens Christina ersätter inte faktiskt Cajsa i rättade hushållslistor C-0561/C-0563."
+    },
+    {
+      "id": "TR-233ccfb2336fb3ec93f20d45",
+      "kind": "transcription",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-614a854ff44498bd24da3b16",
+        "text": "| `C0034442_00146` | `1854 27/9` | `29/9` | `Christina Wilhelmina` | `Sold. Peter Zingmark` och hustrun `Sara Sophia Pehrs d:r` |\n",
+        "reading_note": "Fyra avgränsade födelseposter. Äldre överordnande av födelsenamn Christina får inte upphäva senare verkliga hushållsformer Cajsa/Lovisa. Vittnesrättelser avser samma respektive poster; full barnräkning följer inte av fyra fynd.\nFaderns äldre Peter normalisering rättad till Joh.P.[?]; moderns strukna led olöst. Födelseradens Christina ersätter inte faktiskt Cajsa i rättade hushållslistor C-0561/C-0563."
+      },
+      "origins": [
+        {
+          "unit": "77bce26f380c03bc47c7671a7db8d4e6c79888c3c70ff4ef01631881db083dd0",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "b36b5eea7a5b892687a288d51c8060891902f7901675d6657ff6999f8f843ddc",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id",
+          "object": "R-614a854ff44498bd24da3b16",
+          "version": 1
+        },
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0562; ingen ny originalavläsning.",
+      "caveat": "Faderns äldre Peter normalisering rättad till Joh.P.[?]; moderns strukna led olöst. Födelseradens Christina ersätter inte faktiskt Cajsa i rättade hushållslistor C-0561/C-0563."
+    },
+    {
+      "id": "TR-52564fa265cfe5ce289501d6",
+      "kind": "transcription",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-c60147cfa60576257f3a04fa",
+        "text": "| `C0034442_00191` | `1858 26/10` | `29/10` | `Pehr August` | `Sold. Petter Zingmark` och hustrun `Sara Sophia Pehrs d:r`; moderns ålder `29` |\n",
+        "reading_note": "Fyra avgränsade födelseposter. Äldre överordnande av födelsenamn Christina får inte upphäva senare verkliga hushållsformer Cajsa/Lovisa. Vittnesrättelser avser samma respektive poster; full barnräkning följer inte av fyra fynd.\nModersålder 29; vittnet August Hansson rättat August Olofsson. C.L.Zingmarks ort senare [Byr/Bur…fors?] af Burträsk S:n, fortfarande reserverad."
+      },
+      "origins": [
+        {
+          "unit": "77bce26f380c03bc47c7671a7db8d4e6c79888c3c70ff4ef01631881db083dd0",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "e70b084a4ddc808ae66986b43a2922cd4a9136df706a98ffaf4d987ff22c753c",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id",
+          "object": "R-c60147cfa60576257f3a04fa",
+          "version": 1
+        },
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0562; ingen ny originalavläsning.",
+      "caveat": "Modersålder 29; vittnet August Hansson rättat August Olofsson. C.L.Zingmarks ort senare [Byr/Bur…fors?] af Burträsk S:n, fortfarande reserverad."
+    },
+    {
+      "id": "READ-87c6bc810eb1731345d13fc8",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "R-7bbcb357110bab629a0a1c4e",
+        "criteria": "legacy_record_boundary",
+        "outcome": "record_located",
+        "body": "C-0562: Fyra avgränsade födelseposter. Äldre överordnande av födelsenamn Christina får inte upphäva senare verkliga hushållsformer Cajsa/Lovisa. Vittnesrättelser avser samma respektive poster; full barnräkning följer inte av fyra fynd.\nEn egen födelsepost; familjeidentifiering jämförs med C-0561 men blir ingen ny personslutsats genom införsel."
+      },
+      "origins": [
+        {
+          "unit": "1c43871ad2f3c75805979d21d04351c8f90e58059ba4beed104e5c8bcb276ef3",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "494248f0d99026a49b2e81e62932ed5477c39a49a0e4e63175aaf01ef6ab9b9f",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "77bce26f380c03bc47c7671a7db8d4e6c79888c3c70ff4ef01631881db083dd0",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "b373bab1e31b91b62dbe2d66872e56d10b521063e8ff3f63516d7d338a8a0b47",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "role": "derived_from",
+          "note": "Avser denna version av den återbrukade källposten.",
+          "object": "R-7bbcb357110bab629a0a1c4e",
+          "version": 1
+        },
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Dokumenterad avgränsning och läshistorik i C-0562; ingen ny oberoende evidensröst.",
+      "caveat": "Vittnesnamn och ortled reserverade; inga egna modersålders-/kyrktagnings-/biträdeskolumner i uppställningen. Tidigare namnmässigt oanvändbart vittnesfält ersatt av försiktig delavskrift."
+    },
+    {
+      "id": "TR-0fc302f27fe5d7ba867cf428",
+      "kind": "transcription",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-7bbcb357110bab629a0a1c4e",
+        "text": "| `C0034442_00135` | `1853 21/1` | `2/2` | `Carl Reinhold` | `Sold. Joh. P. Zingmark` och hustrun `Sara Sophia Pehrs d:r` |\n",
+        "reading_note": "Fyra avgränsade födelseposter. Äldre överordnande av födelsenamn Christina får inte upphäva senare verkliga hushållsformer Cajsa/Lovisa. Vittnesrättelser avser samma respektive poster; full barnräkning följer inte av fyra fynd.\nVittnesnamn och ortled reserverade; inga egna modersålders-/kyrktagnings-/biträdeskolumner i uppställningen. Tidigare namnmässigt oanvändbart vittnesfält ersatt av försiktig delavskrift."
+      },
+      "origins": [
+        {
+          "unit": "72724058ea3c730b57ff6c81ef39c994dd4b1401a3598ebfeee62c73037bb662",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "77bce26f380c03bc47c7671a7db8d4e6c79888c3c70ff4ef01631881db083dd0",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id",
+          "object": "R-7bbcb357110bab629a0a1c4e",
+          "version": 1
+        },
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0562; ingen ny originalavläsning.",
+      "caveat": "Vittnesnamn och ortled reserverade; inga egna modersålders-/kyrktagnings-/biträdeskolumner i uppställningen. Tidigare namnmässigt oanvändbart vittnesfält ersatt av försiktig delavskrift."
+    },
+    {
+      "id": "TR-8b7bc0b032ea5a64c881d0e6",
+      "kind": "transcription",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-2e99c9b8f3ad620f482c69d4",
+        "text": "| `C0034442_00164` | `1856 29/7` | `5/8` | `Maria Elina` | `Joh. P. Zingmark` och hustrun `Sara Sofia Pehrs d:r`; den militära förkortningen före namnet är svårläst |\n",
+        "reading_note": "Fyra avgränsade födelseposter. Äldre överordnande av födelsenamn Christina får inte upphäva senare verkliga hushållsformer Cajsa/Lovisa. Vittnesrättelser avser samma respektive poster; full barnräkning följer inte av fyra fynd.\nModern 27 år. Faderns förkortning B:d[?] liknar bondebeteckning; äldre militärklassning osäker. Backliden rättar Backheden[?]; Degerfors o Ånäset[?] kvar."
+      },
+      "origins": [
+        {
+          "unit": "77bce26f380c03bc47c7671a7db8d4e6c79888c3c70ff4ef01631881db083dd0",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "84e7bf8a0a6bf1f643421ef9d435f678829cf62476719d90ad9f2f403e061fd2",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id",
+          "object": "R-2e99c9b8f3ad620f482c69d4",
+          "version": 1
+        },
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0562; ingen ny originalavläsning.",
+      "caveat": "Modern 27 år. Faderns förkortning B:d[?] liknar bondebeteckning; äldre militärklassning osäker. Backliden rättar Backheden[?]; Degerfors o Ånäset[?] kvar."
+    },
+    {
+      "id": "TR-60b646eb98541aff6d353240",
+      "kind": "transcription",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-7bbcb357110bab629a0a1c4e",
+        "text": "> B:n Joh. Lindgren[?] och H. [ort/dito reserverat]; B:n Joh. Olofsson[?]\n> och H. i [Å…] af Degerfors; B:son Ol. Andersson[?] och pig. Sara\n> Brita Sophia[?] i Botsmark.\n",
+        "reading_note": "Fyra avgränsade födelseposter. Äldre överordnande av födelsenamn Christina får inte upphäva senare verkliga hushållsformer Cajsa/Lovisa. Vittnesrättelser avser samma respektive poster; full barnräkning följer inte av fyra fynd.\nVittnesnamn och ortled reserverade; inga egna modersålders-/kyrktagnings-/biträdeskolumner i uppställningen. Tidigare namnmässigt oanvändbart vittnesfält ersatt av försiktig delavskrift."
+      },
+      "origins": [
+        {
+          "unit": "77bce26f380c03bc47c7671a7db8d4e6c79888c3c70ff4ef01631881db083dd0",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "7ba8c9aa260c9428958772933db4b47607cc7499e96e6dd132dfa584b9371ca3",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id",
+          "object": "R-7bbcb357110bab629a0a1c4e",
+          "version": 1
+        },
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0562; ingen ny originalavläsning.",
+      "caveat": "Vittnesnamn och ortled reserverade; inga egna modersålders-/kyrktagnings-/biträdeskolumner i uppställningen. Tidigare namnmässigt oanvändbart vittnesfält ersatt av försiktig delavskrift."
+    }
+  ]
+}

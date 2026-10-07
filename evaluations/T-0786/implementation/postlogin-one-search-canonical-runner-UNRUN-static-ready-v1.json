@@ -1,0 +1,34 @@
+{
+  "helper_pin": {
+    "path": "evaluations/T-0786/implementation/root_controlled_postlogin_one_search_v1.py",
+    "sha256": "ffba77dc843f5e5cc1c06a18ea518cfe33fd7fbe5ca693175e759bcc7c30e80c"
+  },
+  "authorization_template_pin": {
+    "path": "evaluations/T-0786/implementation/postlogin-one-search-root-authorization-template-NOT-AUTHORIZED-v1.json",
+    "sha256": "c610c2c5887c234cfb5442dad0707c3bdb238dd5c0ecb5cbb0095d904531646b"
+  },
+  "AST_parse": true,
+  "runner_EXECUTED": false,
+  "canonicalapply_UNRUN": true,
+  "phase_contract": "apply-and-verify requires separate root-authorized immutable auth; verify-only cannot invoke apply and requires its own readonly auth",
+  "apply_authorization_literal": "CONTROLLED_MAIN_POSTLOGIN_ONE_SEARCH_APPLY_ONCE",
+  "readonly_authorization_literal": "READONLY_POSTLOGIN_MAIN447_VERIFICATION",
+  "fresh_root_receipt_required_field": "fresh_baseline_verified true",
+  "guards": "Both final source gates exactpins; exact1newsearch/whole spec/API/current evidence heads/absence/oldprefix/current446 rawall50/protected42; journalpayload/envelope exact; onlynewclock exemption from reviewedstage447; six relevant CLI checks; failure preserves actualstate and attempts; no retry/replace/admin",
+  "read_only_comparator_pin": {
+    "path": "evaluations/T-0786/implementation/compare_root_applied_one_search_to_reviewed_stage_v1.py",
+    "sha256": "b6e9d29eac54a5a8943b776737e409116f5fb6862af931d7a787a0a87651920a"
+  },
+  "command_template": [
+    "python",
+    "evaluations/T-0786/implementation/root_controlled_postlogin_one_search_v1.py",
+    "--authorization",
+    "ROOT_WRITTEN_AUTHORIZATION_JSON",
+    "--authorization-sha256",
+    "ROOT_AUTHORIZATION_SHA256",
+    "--phase",
+    "apply-and-verify"
+  ],
+  "old_proven_all50_comparator_unchanged": true,
+  "usage": "UNKNOWN pending root collector"
+}

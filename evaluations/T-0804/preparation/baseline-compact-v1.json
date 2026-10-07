@@ -1,0 +1,130 @@
+{
+  "baseline": 464,
+  "pending": 0,
+  "fourAxes": [
+    {
+      "person": "P-0003",
+      "gate": false,
+      "identity": {
+        "outcome": "failed",
+        "usable": true,
+        "issues": [],
+        "currentAssessments": [
+          "ASSESSMENT-T0784-P0003-identity@1"
+        ]
+      },
+      "tree": {
+        "outcome": "waiting",
+        "usable": true,
+        "issues": [],
+        "currentAssessments": [
+          "ASSESSMENT-T0784-P0003-tree@1"
+        ]
+      },
+      "life": {
+        "outcome": "failed",
+        "usable": true
+      }
+    },
+    {
+      "person": "P-0007",
+      "gate": false,
+      "identity": {
+        "outcome": null,
+        "usable": false,
+        "issues": [
+          {
+            "code": "assessment_conflict",
+            "axis": "identity_review",
+            "revision_ids": [
+              "ASSESSMENT-T0784-P0007-identity@1",
+              "IDENTITY-REVIEW-T0788-P0007@1",
+              "IDENTITY-REVIEW-T0789-P0007@1"
+            ],
+            "message": "Flera aktuella bedömningar konkurrerar om Identitetsgranskning; datum eller objekt-id avgör inte företrädet."
+          }
+        ],
+        "currentAssessments": [
+          "ASSESSMENT-T0784-P0007-identity@1",
+          "IDENTITY-REVIEW-T0788-P0007@1",
+          "IDENTITY-REVIEW-T0789-P0007@1"
+        ]
+      },
+      "tree": {
+        "outcome": null,
+        "usable": false,
+        "issues": [
+          {
+            "code": "assessment_conflict",
+            "axis": "tree_effect",
+            "revision_ids": [
+              "ASSESSMENT-T0784-P0007-tree@1",
+              "TREE-EFFECT-T0788-P0007@1",
+              "TREE-EFFECT-T0789-P0007@1"
+            ],
+            "message": "Flera aktuella bedömningar konkurrerar om Trädverkan; datum eller objekt-id avgör inte företrädet."
+          }
+        ],
+        "currentAssessments": [
+          "ASSESSMENT-T0784-P0007-tree@1",
+          "TREE-EFFECT-T0788-P0007@1",
+          "TREE-EFFECT-T0789-P0007@1"
+        ]
+      },
+      "life": {
+        "outcome": "failed",
+        "usable": true
+      }
+    },
+    {
+      "person": "P-0004",
+      "gate": true,
+      "identity": {
+        "outcome": "passed",
+        "usable": true,
+        "issues": [],
+        "currentAssessments": [
+          "ASSESSMENT-P-0004@2"
+        ]
+      },
+      "tree": {
+        "outcome": "supporting",
+        "usable": true,
+        "issues": [],
+        "currentAssessments": [
+          "ASSESSMENT-P-0004@2"
+        ]
+      },
+      "life": {
+        "outcome": "failed",
+        "usable": true
+      }
+    },
+    {
+      "person": "P-0005",
+      "gate": true,
+      "identity": {
+        "outcome": "passed",
+        "usable": true,
+        "issues": [],
+        "currentAssessments": [
+          "ASSESSMENT-P-0005@2"
+        ]
+      },
+      "tree": {
+        "outcome": "supporting",
+        "usable": true,
+        "issues": [],
+        "currentAssessments": [
+          "ASSESSMENT-P-0005@2"
+        ]
+      },
+      "life": {
+        "outcome": "failed",
+        "usable": true
+      }
+    }
+  ],
+  "focalFull": "evaluations/T-0804/preparation/full-native-focal-and-direct-support-v1.json",
+  "referenceOnly": "335 focal fullobjects,251directbasis versions reference-only, no recursive historical closure requirement;42existingOWNER rows preservation control only, not newglobalreview."
+}

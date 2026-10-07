@@ -1,0 +1,31 @@
+{
+  "task": "T-0780",
+  "status": "EXPLICIT_STORED_POLICY_REPRESENTATION_ACCEPTED_NO_SOURCE_OR_CONSEQUENCE_CHANGE",
+  "submitted_operation_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-all2128-one-resolution-draft-v1/001-individual-source-approved-resolution-operation-v1.json",
+    "sha256": "31479f6a523088a64df8c7ee218ef91416ae726e2724aae3b0e20e1009389aee"
+  },
+  "actual_post_stage_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/stage.sqlite",
+    "sha256": "f834633262e88405afd7fb0bc454202e1476c824d88c40618df4d949d772b7bd"
+  },
+  "native_writepath_pin": {
+    "path": "genealogy2/lib/recovery.mjs",
+    "sha256": "1215607ef6ebd21e9d70831e05f2ab883b80727489139dc01bb09613087054e5"
+  },
+  "dependency_policy_implementation_pin": {
+    "path": "genealogy2/lib/domain.mjs",
+    "sha256": "b4f104f30bda6277c797fc57a538a9c32cf4db5eb0d24423c6d0cb9c64fec25e"
+  },
+  "actual_stored_request_json_utf8_sha256": "84e0ae35ba847f356b3dbe15977abaa6417805b549d4e174f1a232899da46632",
+  "only_added_field": {
+    "dependencyReviewVersion": 2
+  },
+  "all_submitted_fields_exact": true,
+  "all2128_actual_resolution_rows_exact_ordered": true,
+  "source_consequence_judgment": "Accept explicitly: recovery.mjs75–84 supplies dependencyReviewVersion2 for a first native write lacking the field. domain.mjs175 reads the policy only in the per-changed-revision fanout; this approved operation has changes[] and therefore creates no new requests or native revisions under either policy. Every approved literal resolution is unchanged. This is not identical whole request JSON and no equality shortcut is asserted; final journal binding must compare stored JSON to approved submitted operation plus precisely this one system-supplied control field. Original submitted bytes and failed exact-file assertion remain preserved.",
+  "required_followup": "Only read-only validators and final whole-table/protected/full-package comparison, under root authority; no second CLI apply or operation rewrite.",
+  "global_canonical_PASS": false,
+  "no_runtime_authorized": true,
+  "no_canonical_apply_authorized": true
+}

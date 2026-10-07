@@ -1,0 +1,11 @@
+{
+  "task": "T-0778",
+  "canonical_not_written": true,
+  "attempts": [
+    {"type": "read_only_lookup", "result": "Incorrect guessed C-1060 file prefix caused FileNotFoundError; actual C1060 filename found. No artifact or DB mutation."},
+    {"type": "metadata_builder", "result": "First v1 builder queried nonexistent record_revision_id; stopped before output or DB write. Immutable v1 and failure receipt retained; v2 uses actual revision_id and legacy asset_path."},
+    {"type": "initial49_coverage_assertion", "result": "First read-only merge omitted historical TR retain supplied separately in source decisions. Assertion exposed missing disposition; no output written. Corrected merge explicitly includes that approved TR retain, yielding 49/49:15 revise,34 retain."},
+    {"type": "source_wording_amendment", "result": "Primary/fresh reviewer clarified ambiguous adoption spouse shorthand. Source-operation-v1 and preliminary clone preserved; exact approved wording in source-operation-v2 replayed from fresh baseline. No source finding changed."}
+  ],
+  "production_accounting": "All lookups, failed preparation attempts, repairs, preliminary clone and corrected fresh replay belong to production; none excluded from final new-turn usage."
+}

@@ -1,0 +1,36 @@
+{
+  "task": "T-0780",
+  "citation": "C-0069",
+  "status": "Bounded eight actual administrative adoptions and eight core-retain review; no global source or stage PASS",
+  "inputs": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0069-eight-family-adoption-decisions-v1.json",
+      "sha256": "27cba577321ae97042d02440e51dcd6c95f59ed72314db9fe86d9c6b8d855039"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0069-eight-adoption-retain-queue-v1/eight-family-adoption-operation-v1.json",
+      "sha256": "d164b5c7dbfdc150228976a04c5ae3bc8f8c757c7da165659375029e52bc6518"
+    }
+  ],
+  "coverage": "All eight entire current cores including status/rationale/caveat/evidence/origins and individual disposition read. Eight full new adoption contents read by exact own-row equality to fully read full13TR, exact rationale equality to individually read retains, identical common context-limit fields; every unique subject/core/metadata/evidence edge read. Whole eight API changes reconstructed exactly.",
+  "core_retains": [
+    "P-0103@2",
+    "P-0102@2",
+    "P-0094@2",
+    "P-0095@2",
+    "P-0096@2",
+    "P-0097@2",
+    "P-0098@2",
+    "P-0049@2"
+  ],
+  "judgments": [
+    "All eight established accepted CORROBORATED cores@2 retained. Existing sex values femaleP102/P95,maleP94 and nullP103/P96/P97/P98/P49 unchanged; role/name does not infer sex.",
+    "P103 accepted bounded person does not resolve PK05 Burträsk–Bygdeå/AVVAKTAR tree gate; unread birth-row lowerpart specifically C0125, not newly full C69.",
+    "P94 own16April1830 stronger than C69July variant; P95 own17Oct1840and ownBygdeå preserved; blank child/grandparent places not copied.",
+    "P97 family identity retained, no patronymic or Burman witness linkage inferred; P98 later absence not death/move. P49 grandfather prebirthdeath preserved.",
+    "Five lower context rows fully available inTR but no new administrative people/kinship edges inferred.",
+    "Each new assessment keeps bounded_research_adoption/1 and BOUNDED_ADOPTION, expectednull/new1, ordered exact person@2 then fullTR@1, origins empty and recorded/null status."
+  ],
+  "production": "First dedup check mistakenly expected data.rationale instead of actual assessment body; KeyError before read credit, inspected actual keys and repaired equality/dedup. No source or candidate modified.",
+  "pending": "Other current semantic dependencies, final full10 package ordering/binding and fresh stage/protected-state checks remain."
+}

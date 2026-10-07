@@ -1,0 +1,45 @@
+{
+  "task": "T-0778",
+  "at_utc": "2026-10-02T17:01:44.668944+00:00",
+  "all_review_and_payload_tables_match": true,
+  "checks": [
+    {
+      "table": "review_request",
+      "rows": 4555,
+      "pass": true
+    },
+    {
+      "table": "review_resolution",
+      "rows": 4555,
+      "pass": true
+    },
+    {
+      "table": "operation_payload",
+      "rows": 281,
+      "pass": true
+    }
+  ],
+  "all4new_durable_journal_requests_match": true,
+  "journals": [
+    {
+      "path": "genealogy2/journal/000000278-b85b408bfda7c3d9ce00a8adb09edd02e0f8311ddf19d47d42bdf7399a3e8b5a.json",
+      "sha256": "991c7dc45dc88273baaf856c8d94980ccfe9070fdf77bd4b55d9623432d6eb88",
+      "request_exact": true
+    },
+    {
+      "path": "genealogy2/journal/000000279-3d1af821622ad62ee8932f6b8955be4fd44e6473bca242d08dd413371a0ce657.json",
+      "sha256": "2374b666e7cd3f126893c78b4b38ec37420ca80f0dae0fd3b1b678311136c821",
+      "request_exact": true
+    },
+    {
+      "path": "genealogy2/journal/000000280-36d3263d1123f0a1ee42bec38bcffeaf6e4ef8b01e1c50c29bbd09e27105fbd6.json",
+      "sha256": "e9346b2ffdfc6d356476f1946985392acad1eae6030efb0074aa87f0a0a201f2",
+      "request_exact": true
+    },
+    {
+      "path": "genealogy2/journal/000000281-08fb3afaf2ff51cda7833a342444b19e9f2920e29d3d9375327776dd07d09c30.json",
+      "sha256": "6304d4882b742dd210368f00de85190d99bd6971905d0391d1025c1f6dadde05",
+      "request_exact": true
+    }
+  ]
+}

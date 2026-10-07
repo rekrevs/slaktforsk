@@ -1,0 +1,32 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T12:43:49.413395+00:00",
+  "authorization": "ONE_EXACT_SAMECLONE_RESOLUTION_CLI_APPLY_ONLY",
+  "pre_stage_DB_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/stage.sqlite",
+    "sha256": "ae906e23de24bbded3cf392980c9749fe75d8ba6161fec7a92a1fbfdd17fe5ac"
+  },
+  "preserve_original_byte_snapshot_path": "evaluations/T-0780/full10-stage-final143-v1/pre-resolution-stage-original-ae906-v1.sqlite",
+  "operation_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-all2128-one-resolution-draft-v1/001-individual-source-approved-resolution-operation-v1.json",
+    "sha256": "31479f6a523088a64df8c7ee218ef91416ae726e2724aae3b0e20e1009389aee"
+  },
+  "independent_exact_constructed_bytes_review_pin": {
+    "path": "evaluations/T-0780/fresh-independent-review/actual143-built-all2128-resolution-operation-independent-byte-review-v1.json",
+    "sha256": "b58ec154ac8d0782283012d58997e0feaf859663dc87de76fa496a3f5a9bf1f2"
+  },
+  "expected_before": {
+    "journal_head": 424,
+    "pending": 2128
+  },
+  "expected_resolutions": 2128,
+  "expected_pending_after": 0,
+  "native_changes": 0,
+  "journal_path": "evaluations/T-0780/full10-stage-final143-v1/journal",
+  "live_baseline_state": {
+    "journal_head": 281,
+    "pending": 0
+  },
+  "instructions": "Copy original stage DB bytes once to absent snapshot, verify exact ae906 SHA; then one controlled CLI apply to SAME stage.sqlite and journal. Preserve stdout/stderr/actualbeforeafter/hash; stop on any mismatch. Capture all50 tables before/after, only operation,operation_payload,review_resolution may change. Run verify/assets/source/inventory/verifiedP0269; confirm protected42/currentfullknowledge/ordered evidence and livebaseline unchanged. No retry, new clone, main apply or acceptance credit.",
+  "canonical_apply_authorized": false
+}

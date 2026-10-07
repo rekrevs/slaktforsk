@@ -1,0 +1,159 @@
+{
+  "citation": "C-0083",
+  "status": "settled_amendment_after_first_candidate",
+  "timing": "Initial source/decisions frozen and untouched. Additional primary copy findings and independently flagged E-other/IF3 are correction burden after first candidate, not new raw-source facts.",
+  "native_changes": [
+    {
+      "id": "E-other-P-0015-folio1851904",
+      "expectedVersion": 1,
+      "field": "caveat",
+      "action": "replace_exact_span",
+      "before": "Segerslund är identifierat, men hans egen rad där är oläst",
+      "after": "Segerslunds egna familjerader 5–8 är redan lästa, med registrerad utflyttning till Hyltinge 1905-06-02",
+      "expected_match_count": 1,
+      "older_support": [
+        {
+          "revision_id": "E-other-P-0015-folio1851904@1",
+          "basis_revision_id": "R-4e11f53f82cc0ed798cb8c43@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "approved_support": [
+        "R-46358c5928bed96b67fa1828@1",
+        "E-registered_departure-P-0015-Segerslund1905@1"
+      ],
+      "reason": "Independent final extra current-copy finding: stronger current own-row support supersedes the unread claim; preserve original event date, kind and remaining caveat."
+    },
+    {
+      "id": "RESEARCH-P-0119-9d76f0343410",
+      "expectedVersion": 1,
+      "field": "body",
+      "action": "replace_exact_span",
+      "before": "Frånvaron är alltså en läst negation, och den bekräftar dopnotisen\noberoende av den.",
+      "after": "Frånvaron är en läst, källbunden frånvaro av markering. Den är förenlig med dopnotisen 1904, men utdragets uppgiftskedja ger inte ett visat oberoende belägg för dopet.",
+      "expected_match_count": 1,
+      "older_support": [],
+      "approved_support": [
+        "R-16bfa07eb8cd8deb39777a3e@1",
+        "R-cf90cba18f9b453c438c94b4@1"
+      ],
+      "reason": "Primary additional current-copy finding after first-candidate freeze: separate book series do not establish independent information chains."
+    },
+    {
+      "id": "F-P-0119-reading_assessment-census1910",
+      "expectedVersion": 1,
+      "field": "value_json",
+      "action": "replace_exact_span",
+      "before": "baptism_independently_recorded",
+      "after": "baptism_recorded_in_C0083",
+      "expected_match_count": 1,
+      "older_support": [
+        {
+          "revision_id": "F-P-0119-reading_assessment-census1910@1",
+          "basis_revision_id": "R-16bfa07eb8cd8deb39777a3e@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0119-reading_assessment-census1910@1",
+          "basis_revision_id": "R-cf90cba18f9b453c438c94b4@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "approved_support": [
+        "R-16bfa07eb8cd8deb39777a3e@1",
+        "R-cf90cba18f9b453c438c94b4@1"
+      ],
+      "reason": "Use an explicit source-bound key; retain the date and all census raw/qualified fields."
+    },
+    {
+      "id": "F-P-0119-reading_assessment-census1910",
+      "expectedVersion": 1,
+      "field": "caveat",
+      "action": "replace_exact_span",
+      "before": "ingen religion eller nationalitet tillskrivs.",
+      "after": "ingen religion eller nationalitet tillskrivs. Dopdagen kommer från C-0083; den tomma kategorin icke döpt i det senare församlingsboksutdraget är inte ett visat oberoende dopbelägg.",
+      "expected_match_count": 1,
+      "older_support": [
+        {
+          "revision_id": "F-P-0119-reading_assessment-census1910@1",
+          "basis_revision_id": "R-16bfa07eb8cd8deb39777a3e@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0119-reading_assessment-census1910@1",
+          "basis_revision_id": "R-cf90cba18f9b453c438c94b4@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "approved_support": [
+        "R-16bfa07eb8cd8deb39777a3e@1",
+        "R-cf90cba18f9b453c438c94b4@1"
+      ],
+      "reason": "Explicit dependence qualification for structured-key correction."
+    },
+    {
+      "id": "BIO-P-0119",
+      "expectedVersion": 1,
+      "field": "markdown",
+      "action": "replace_exact_span",
+      "before": "andre son till",
+      "after": "son till",
+      "expected_match_count": 1,
+      "older_support": [],
+      "approved_support": [
+        "R-16bfa07eb8cd8deb39777a3e@1"
+      ],
+      "reason": "C-0083 identifies these parents but does not establish Axel as father of the older Erik Axel or this paternal birth order."
+    },
+    {
+      "id": "BIO-P-0119",
+      "expectedVersion": 1,
+      "field": "markdown",
+      "action": "replace_exact_span",
+      "before": "Faderns\nefternamn var reserverat",
+      "after": "Fadderns\nefternamn var reserverat",
+      "expected_match_count": 1,
+      "older_support": [],
+      "approved_support": [
+        "R-16bfa07eb8cd8deb39777a3e@1"
+      ],
+      "reason": "Nilsson is the godparent surname, not the father Eriksson. Same-source stronger prior reading retained."
+    },
+    {
+      "id": "BIO-P-0119",
+      "expectedVersion": 1,
+      "field": "markdown",
+      "action": "replace_exact_span",
+      "before": "och kolumnen om frånvarande är läst och tom, så han var\n**närvarande** vid räkningstillfället.",
+      "after": "och kolumnen om frånvarande är läst och tom: han är inte registrerad frånvarande i utdraget. Det bevisar inte separat fysisk närvaro vid räkningstillfället.",
+      "expected_match_count": 1,
+      "older_support": [],
+      "approved_support": [
+        "R-16bfa07eb8cd8deb39777a3e@1",
+        "R-cf90cba18f9b453c438c94b4@1"
+      ],
+      "reason": "Apply already-current F reading qualification to an unqualified narrative copy; retain the separate later-1918 caveat."
+    },
+    {
+      "id": "PATH-P-0015-KP-06",
+      "expectedVersion": 2,
+      "field": "outcome",
+      "action": "replace_exact_span",
+      "before": "EJ UNDERSÖKT. Ingen av de fyra delarna är öppnad. Folio 185 kräver ingen ny arkivåtkomst alls, bara en läsning av en redan speglad helbild. Att Helgesta pekas ut av två skilda uppgifter är en indikation, inte ett resultat.",
+      "after": "DELVIS UNDERSÖKT. Segerslund folio 185, egna familjerader 5–8, är redan lästa. Övriga avgränsade källvägar kvarstår enligt den uppdaterade kroppen.",
+      "expected_match_count": 1,
+      "older_support": [],
+      "approved_support": [
+        "R-46358c5928bed96b67fa1828@1",
+        "E-registered_departure-P-0015-Segerslund1905@1"
+      ],
+      "reason": "Independent final IF3: initial primary list omitted separate outcome field while revising body. Repair contradictory current outcome, not a life/identity approval.",
+      "baselineVersion": 1
+    }
+  ]
+}

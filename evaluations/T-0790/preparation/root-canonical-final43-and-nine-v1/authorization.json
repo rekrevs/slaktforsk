@@ -1,0 +1,209 @@
+{
+  "task": "T-0790",
+  "mode": "ROOT_CANONICAL_EXACT_ONCE",
+  "root_authorized": true,
+  "code_sha256": "222e089704c1e0c88a6f79d010c24b697391bc5b1c03a250d8e54f3bed2eb63a",
+  "stage_helper_sha256": "8959fc3f49dde85eabaf85a874be8abe092d261200fa0a239389418b650d039b",
+  "baseline_state_pin": {
+    "path": "evaluations/T-0790/preparation/baseline-state.json",
+    "sha256": "bed245a82f35b5eb940a4ba663b63d7541fdb13d6e72e8ec22daccae7d8ff8f1"
+  },
+  "reviewed_stage_DB_pin": {
+    "path": "evaluations/T-0790/preparation/reviewed-stage-v1/stage.sqlite",
+    "sha256": "5354c6db5e4eb399e148f86afec88871ed7c8b7f68fc3bf3255935beb94190d2"
+  },
+  "ordered_operations": [
+    {
+      "path": "evaluations/T-0790/preparation/materialized-source-v3-literal-v1/operation-literal.json",
+      "sha256": "211f0922680418c50f70f2443ef08d601ab06c0f242ffeb70ce4091538b019d5"
+    },
+    {
+      "path": "evaluations/T-0790/preparation/exact-nine-request-only-resolution-draft-v1/resolve-literal.json",
+      "sha256": "d46bc7e31475893b36a619ce556b7ac40a350c82a6e3c6e72ed6b6a196fc6e59"
+    },
+    {
+      "path": "evaluations/T-0790/preparation/final-three-literal-draft-v1/operation-final-three-literal.json",
+      "sha256": "7a4566e9a7d5b07d0161c7816f88fd6b0b5832dfd84fa07d32305a7867df47b6"
+    }
+  ],
+  "consequence_table_pin": {
+    "path": "evaluations/T-0790/preparation/materialized-source-v3-literal-v1/individual-consequence-table.json",
+    "sha256": "3ec724d31e694f454e4c7dbc2dd8792fe17dfade30a45db4c6720439f12336bb"
+  },
+  "resolution_table_pin": {
+    "path": "evaluations/T-0790/preparation/exact-nine-request-only-resolution-draft-v1/nine-individual-resolution-table.json",
+    "sha256": "bb056c48915a9f916fee47900fdb1a92114019a729f3bd8ab64bfbd67e863165"
+  },
+  "final_three_consequence_table_pin": {
+    "path": "evaluations/T-0790/preparation/final-three-literal-draft-v1/final-three-and-two-retains-consequence-table.json",
+    "sha256": "752840e34b6cef2238d51c007e027675dc8936fe517d2d6888ed6bdbb8fe78b1"
+  },
+  "final_stage_package_manifest_pin": {
+    "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/final457-package-manifest-v1.json",
+    "sha256": "8f606716ac8e19e7e18ed45d3b64ff76049c7889e23247adbd25f862eb73397f"
+  },
+  "final_state": {
+    "journal_head": 457,
+    "pending": 0
+  },
+  "output_path": "evaluations/T-0790/preparation/root-canonical-final43-and-nine-v1",
+  "six_person_views": {
+    "P-0004": {
+      "baseline": {
+        "path": "evaluations/T-0790/preparation/P-0004-person.json",
+        "sha256": "fb3d1cf8e7172f9d8af563b1660422a669c04f79f0aa9570197e14bc3d3c0d5e"
+      },
+      "stage": {
+        "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/P-0004-person.json",
+        "sha256": "8e788dd36a915be64777868e5648e170750a90d271e8202c9109e7696e63e2fd"
+      }
+    },
+    "P-0210": {
+      "baseline": {
+        "path": "evaluations/T-0790/preparation/P-0210-person.json",
+        "sha256": "2e8693539d6f0b32ac866117ba5f5da700dedd66e998b2c42f99dfc822edb5e7"
+      },
+      "stage": {
+        "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/P-0210-person.json",
+        "sha256": "48fc9d0a87c637a4147379a75b2993972c4d94e686b0b89ec0856a4c106b9e3f"
+      }
+    },
+    "P-0005": {
+      "baseline": {
+        "path": "evaluations/T-0790/preparation/P-0005-person.json",
+        "sha256": "ce9f0716258edc89558f3e3564fe67e722b5dd8a97e21d60a19e616244cca3e1"
+      },
+      "stage": {
+        "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/P-0005-person.json",
+        "sha256": "de9761750a3d7147f5ce702de785064ad85ff97ec1b8da73fcdd27ec5a30f918"
+      }
+    },
+    "P-0006": {
+      "baseline": {
+        "path": "evaluations/T-0790/preparation/P-0006-person.json",
+        "sha256": "4afe752bde3704fe9eed944970a916419b43764924fc30a6f0537a0947b1388e"
+      },
+      "stage": {
+        "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/P-0006-person.json",
+        "sha256": "2dce91f18c1b56ccd34aedd192b4b52bf4d233bfaecf54d7246401e060bba262"
+      }
+    },
+    "P-0211": {
+      "baseline": {
+        "path": "evaluations/T-0790/preparation/P-0211-person.json",
+        "sha256": "3d97e65f65a1ee3f2329e2d5910fadd5eefbafee38e331cb48741e6c60f42d58"
+      },
+      "stage": {
+        "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/P-0211-person.json",
+        "sha256": "373e3a467eb04dd5e4dd1bfe0f1962991a4957e54d60aa9501658017feadc01a"
+      }
+    },
+    "P-0212": {
+      "baseline": {
+        "path": "evaluations/T-0790/preparation/P-0212-person.json",
+        "sha256": "335641bfd2a893303fdb230b14be304609ce3f6bae7e2b299451903a45281dd2"
+      },
+      "stage": {
+        "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/P-0212-person.json",
+        "sha256": "d199f762b0fb8b895df248d07b2a6ceb817f00e39408e1f1edd1360ac1bf2c12"
+      }
+    }
+  },
+  "final_derived_pins": {
+    "verify": {
+      "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/verify.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    "verify-assets": {
+      "path": "evaluations/T-0790/preparation/reviewed-stage-v1/verify-assets.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    "verify-source": {
+      "path": "evaluations/T-0790/preparation/reviewed-stage-v1/verify-source.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    },
+    "inventory": {
+      "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/inventory.json",
+      "sha256": "8fa877231bae90c506b6d74333e85c484e7a90d94a87e650c35ab5c630978249"
+    },
+    "Adam-verified": {
+      "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/Adam-verified.json",
+      "sha256": "307636ec8aacc0bdd98119a534dba8ff15cfbbfdaac2edf27c79049c9210a425"
+    },
+    "Axel-verified": {
+      "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/Axel-verified.json",
+      "sha256": "10481c6f70df787a68c1ab0e7d1cfd908d7dd30282e123d32d843fa7aba70a95"
+    }
+  },
+  "source_final_gate": {
+    "pin": {
+      "path": "evaluations/T-0790/source-review/final-whole-stage457-source-gate-v1.json",
+      "sha256": "f8117096f031b6867185d000a97e8bff8de8ca0823595f39e739fb9457836aca"
+    },
+    "ready_pointer": "/ready_for_canonical",
+    "exact_bindings": [
+      {
+        "pointer": "/resolution_consequence_table_pin",
+        "expected_value": {
+          "path": "evaluations/T-0790/preparation/exact-nine-request-only-resolution-draft-v1/nine-individual-resolution-table.json",
+          "sha256": "bb056c48915a9f916fee47900fdb1a92114019a729f3bd8ab64bfbd67e863165"
+        }
+      },
+      {
+        "pointer": "/final_three_consequence_table_pin",
+        "expected_value": {
+          "path": "evaluations/T-0790/preparation/final-three-literal-draft-v1/final-three-and-two-retains-consequence-table.json",
+          "sha256": "752840e34b6cef2238d51c007e027675dc8936fe517d2d6888ed6bdbb8fe78b1"
+        }
+      },
+      {
+        "pointer": "/final_package_manifest_pin",
+        "expected_value": {
+          "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/final457-package-manifest-v1.json",
+          "sha256": "8f606716ac8e19e7e18ed45d3b64ff76049c7889e23247adbd25f862eb73397f"
+        }
+      }
+    ],
+    "bound_inputs": {
+      "reviewed_stage_DB_pin": "/reviewed_stage_DB_pin",
+      "ordered_operations": "/ordered_operations",
+      "consequence_table_pin": "/consequence_table_pin"
+    }
+  },
+  "independent_final_gate": {
+    "pin": {
+      "path": "evaluations/T-0790/independent-review/final-whole-stage457-independent-source-gate-v1.json",
+      "sha256": "c69552d3d923b84adfb93b7797dd3da33d5b551a37a15da7035a71a02d56da6b"
+    },
+    "ready_pointer": "/ready_for_canonical",
+    "exact_bindings": [
+      {
+        "pointer": "/resolution_consequence_table_pin",
+        "expected_value": {
+          "path": "evaluations/T-0790/preparation/exact-nine-request-only-resolution-draft-v1/nine-individual-resolution-table.json",
+          "sha256": "bb056c48915a9f916fee47900fdb1a92114019a729f3bd8ab64bfbd67e863165"
+        }
+      },
+      {
+        "pointer": "/final_three_consequence_table_pin",
+        "expected_value": {
+          "path": "evaluations/T-0790/preparation/final-three-literal-draft-v1/final-three-and-two-retains-consequence-table.json",
+          "sha256": "752840e34b6cef2238d51c007e027675dc8936fe517d2d6888ed6bdbb8fe78b1"
+        }
+      },
+      {
+        "pointer": "/final_package_manifest_pin",
+        "expected_value": {
+          "path": "evaluations/T-0790/preparation/final-stage457-readonly-capture-v1/final457-package-manifest-v1.json",
+          "sha256": "8f606716ac8e19e7e18ed45d3b64ff76049c7889e23247adbd25f862eb73397f"
+        }
+      }
+    ],
+    "bound_inputs": {
+      "reviewed_stage_DB_pin": "/reviewed_stage_DB_pin",
+      "ordered_operations": "/ordered_operations",
+      "consequence_table_pin": "/consequence_table_pin"
+    }
+  },
+  "root_review": "Full canonical helper audited; both whole SOURCE gates and final exact3ops/3tables/manifest/6views/6checks read and compared. Live454 immutable baseline required. Exact once nativeCLI apply, no DB replacement/retry, actual raw50/order and6views/validators must match."
+}

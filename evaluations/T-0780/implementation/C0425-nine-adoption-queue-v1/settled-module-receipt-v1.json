@@ -1,0 +1,35 @@
+{
+  "task": "T-0780",
+  "source_pins": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0425-nine-person-adoption-decisions-v1.json",
+      "sha256": "438d377b03e837b57e7a7a773fb8c4bfa40dcca9b8fa16f3d7bfe6535c0e86f4"
+    }
+  ],
+  "candidate_modules": [
+    {
+      "path": "evaluations/T-0780/implementation/C0425-nine-adoption-queue-v1/nine-person-adoption-operation-v1.json",
+      "sha256": "e830953ee380e4dda763c9dabac090904d47de25ff4583767ba20c25725ba6db",
+      "changes": 9
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0425-nine-adoption-queue-v1/individual-full-field-table-v1.json",
+      "sha256": "aef92cf0eda17dfe3a5508c5cf2f5bb13563bb9598baa1ae7d881c9735846aae"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0425-nine-adoption-queue-v1/full-incoming-and-cross-module-dependency-input-v1.json",
+      "sha256": "9036302e4b62469d5760864de21c3b981a0dea69cfac0db28007c0e321c1e3de"
+    }
+  ],
+  "expected_unique_targets": 9,
+  "revised_objects": 0,
+  "new_objects": 9,
+  "all_exact_full_current_old_matches": "PASS",
+  "full_field_count": 63,
+  "incoming_edges": 0,
+  "cross_module_basis_questions": 0,
+  "stage_or_canonical_applies": 0,
+  "failed_attempts": 0,
+  "elapsed_seconds": 0.010411977767944336,
+  "status": "Settled field candidates built; incoming basis dispositions and exact sequence pending Astra, not stage-ready"
+}

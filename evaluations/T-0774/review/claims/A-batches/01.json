@@ -1,0 +1,136 @@
+{
+  "case": "A",
+  "logical_unit": "A-review-01",
+  "claims": [
+    {
+      "id": "A-R001",
+      "object": "E-birth-P-0007@1",
+      "field": "date_json",
+      "start": null,
+      "end": null,
+      "quote": {
+        "literal": "1920-05-11",
+        "precision": "exact",
+        "value": "1920-05-11"
+      },
+      "old_support": [
+        {
+          "object": "TR-0ace51d2cd42345b92d0ffac@1",
+          "supports": "Original C0028 nr15 explicitly names child/parents and their raw dates; baptism has a separate field. No new independent historical witness."
+        }
+      ],
+      "source_observation": "A nr15 maj[ditto]11; no visible year.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Keep the previously supported exact birth event. Visible A day/month agrees; absence of year in this crop does not erase the original and locators.",
+      "affected_copies": [],
+      "precision_boundary": "A reads maj ditto and day 11; 1920 is inherited locator context, not visible year. SCB and original are administratively dependent.",
+      "remaining_question": null
+    },
+    {
+      "id": "A-R002",
+      "object": "E-birth-P-0007@1",
+      "field": "place_role",
+      "start": 0,
+      "end": 70,
+      "quote": "Hyltinge, födelseförsamling; fysisk förlossningsplats inte preciserad.",
+      "old_support": [
+        {
+          "object": "TR-0ace51d2cd42345b92d0ffac@1",
+          "supports": "Original C0028 nr15 explicitly names child/parents and their raw dates; baptism has a separate field. No new independent historical witness."
+        }
+      ],
+      "source_observation": "A parent address uncertain; no explicit physical delivery place.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Hyltinge remains the registering/birth parish with no building-level delivery assertion. The father address does not locate delivery.",
+      "affected_copies": [],
+      "precision_boundary": "A reads maj ditto and day 11; 1920 is inherited locator context, not visible year. SCB and original are administratively dependent.",
+      "remaining_question": null
+    },
+    {
+      "id": "A-R003",
+      "object": "EP-E-birth-P-0007-P-0007-principal@1",
+      "field": "role",
+      "start": 0,
+      "end": 9,
+      "quote": "principal",
+      "old_support": [
+        {
+          "object": "E-birth-P-0007@1",
+          "supports": "Existing exact event participation."
+        }
+      ],
+      "source_observation": "A child name Maj Amalia.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Principal remains Maj Amalia: A has that child in its own post15; no competing child identity arises.",
+      "affected_copies": [],
+      "precision_boundary": "A reads maj ditto and day 11; 1920 is inherited locator context, not visible year. SCB and original are administratively dependent.",
+      "remaining_question": null
+    },
+    {
+      "id": "A-R004",
+      "object": "F-P-0007-name_form-birth@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 10,
+      "quote": "Maj Amalia",
+      "old_support": [
+        {
+          "object": "TR-0ace51d2cd42345b92d0ffac@1",
+          "supports": "Original C0028 nr15 explicitly names child/parents and their raw dates; baptism has a separate field. No new independent historical witness."
+        }
+      ],
+      "source_observation": "A Maj Amalia, no child surname.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Own source gives only the two forenames; preserve this birth-name form rather than invent Ekholm in its cell.",
+      "affected_copies": [],
+      "precision_boundary": "A reads maj ditto and day 11; 1920 is inherited locator context, not visible year. SCB and original are administratively dependent.",
+      "remaining_question": null
+    },
+    {
+      "id": "A-R005",
+      "object": "P-0007@2",
+      "field": "sex",
+      "start": 0,
+      "end": 6,
+      "quote": "female",
+      "old_support": [
+        {
+          "object": "O-T0677-C0028-statistical-fields@1",
+          "supports": "Column5 liveborn kv1 geometrically checked; ambiguous stroke is separate."
+        }
+      ],
+      "source_observation": "A liveborn k column 1.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Keep explicit female support from original statistical column; A independently maps k1 to female column. This is quality control of the dependent record, not inference from name.",
+      "affected_copies": [],
+      "precision_boundary": "A reads maj ditto and day 11; 1920 is inherited locator context, not visible year. SCB and original are administratively dependent.",
+      "remaining_question": null
+    },
+    {
+      "id": "A-R006",
+      "object": "O-P-0007-birth-status@1",
+      "field": "value_literal",
+      "start": 0,
+      "end": 4,
+      "quote": "u.ä.",
+      "old_support": [
+        {
+          "object": "TR-0ace51d2cd42345b92d0ffac@1",
+          "supports": "Original C0028 nr15 explicitly names child/parents and their raw dates; baptism has a separate field. No new independent historical witness."
+        }
+      ],
+      "source_observation": "A u.ä.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Explicit u.ä. in both source forms supports born outside marriage; named father does not cancel that raw status.",
+      "affected_copies": [],
+      "precision_boundary": "A reads maj ditto and day 11; 1920 is inherited locator context, not visible year. SCB and original are administratively dependent.",
+      "remaining_question": null
+    }
+  ]
+}

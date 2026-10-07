@@ -1,0 +1,200 @@
+{
+  "case": "B",
+  "logical_unit": "Person ownership, tested income unit, care chronology and residence precision",
+  "claims": [
+    {
+      "id": "B-R013",
+      "object": "O-P-0003-C0007-education-income@1",
+      "field": "value_json",
+      "start": null,
+      "end": null,
+      "quote": {
+        "education": [
+          "småskola",
+          "folkskola"
+        ],
+        "incomeLiteral": "9 –",
+        "incomeUnit": "hundratal kronor",
+        "normalizedIncome": 900
+      },
+      "old_support": [
+        {
+          "object": "R-8c6b91c855d10a9152cbbbdf@2",
+          "supports": "Avgränsat befintligt underlag; ingen ny källläsning.",
+          "old_record_context": "Folkräkning 1930 Flen, Björkhem n:o 1, SCB s.43, församlingsbok s.563, B0001059_00329; Folk_129814120",
+          "dependence": "Återbrukar samma postnyckel som C-0021. Index, utdrag och församlingsbok är en överföringskedja, inte tre oberoende belägg.\nSamma postnyckel som C-0007; register, utdrag och församlingsbok är kopplade representationer, inte oberoende vittnen.",
+          "old_caveat": "Här dominerar registeravskrift; C-0021 återger samma identifierade hushållsbild. Indexets familj 2 och d.s. är råuppgifter.\nC-0007: Familjeroll dotterson får inte förvandlas till son. Inkomstuppgiften 900 återges på dokumentets nivå; egen enhetsprövning saknas här. Registersidans lokalisering 43/39 (C-0007 rad 13) bevaras som indexmetadata; rad 39 är inte en separat originalpost.\nBaptist står på Charlottas rad, inte Karl Fredriks. Tomma ekonomifält är inte noll; anteckning 23[?] och barnfältets råserie är inte tolkade.\nC-0021: Senare personbundna fält tillhör Karl Fredrik och får inte fördelas till Arne eller andra hushållsmedlemmar. Äldre text och senare yrkesformen Maskinarb. bevaras."
+        }
+      ],
+      "source_observation": "Own income9, wealth dash; fresh image alone is not being used to derive amount or a tax-year.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Keep 900 kronor: older C0896 column-unit examination supports hundreds of kronor. Fresh B raw income9 does not invalidate that independently established unit. Raw 9 and wealth dash must now be separately owned by their printed columns.",
+      "affected_copies": [
+        "THEME-P-0003-EKO@1.body",
+        "READ-7728a1128b4850e7edafb555@1.body"
+      ],
+      "remaining_question": "No separate exact income year or salary/employer is established.",
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes.",
+      "semantic_focus": "incomeUnit and normalizedIncome as one arithmetic amount claim"
+    },
+    {
+      "id": "B-R014",
+      "object": "THEME-P-0003-EKO@1",
+      "field": "body",
+      "start": 16,
+      "end": 66,
+      "quote": "Inkomsten 1930 är 900kr enligt prövad kolumnenhet.",
+      "old_support": [
+        {
+          "object": "READ-7728a1128b4850e7edafb555@1",
+          "supports": "C0896 explicit prior unit interpretation, not a new unit guess",
+          "old_record_context": "legacy_record_boundary"
+        }
+      ],
+      "source_observation": "9 in own income column, not Karl or Charlotta.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Keep document-context1930 amount; explicit unit support already tested. Do not transform it into earned salary during a precisely proven calendar year.",
+      "affected_copies": [
+        "O-P-0003-C0007-education-income@1.value_json"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    },
+    {
+      "id": "B-R015",
+      "object": "F-P-0042-source_report-knowledge-health-economy@1",
+      "field": "value_json",
+      "start": null,
+      "end": null,
+      "quote": {
+        "census1930_education_code": "3",
+        "census1930_income_wealth": "egna fält tomma",
+        "knowledge_marks": "C/N eller C/n; Bef.[?] 1930",
+        "religion1930": "eget fält tomt; Baptist på hustruns rad",
+        "vaccination_marks": "v, odaterade"
+      },
+      "old_support": [],
+      "source_observation": "Karl own income/wealth blank; own religions field blank.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "His empty economic cells mean no entry, never zero wealth/income; neither Arne income nor wife religion transfers to him.",
+      "affected_copies": [
+        "THEME-P-0042-EKO@2.body",
+        "THEME-P-0042-SAM@2.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes.",
+      "semantic_focus": "census1930_income_wealth only"
+    },
+    {
+      "id": "B-R016",
+      "object": "F-P-0042-source_report-knowledge-health-economy@1",
+      "field": "value_json",
+      "start": null,
+      "end": null,
+      "quote": {
+        "census1930_education_code": "3",
+        "census1930_income_wealth": "egna fält tomma",
+        "knowledge_marks": "C/N eller C/n; Bef.[?] 1930",
+        "religion1930": "eget fält tomt; Baptist på hustruns rad",
+        "vaccination_marks": "v, odaterade"
+      },
+      "old_support": [],
+      "source_observation": "Baptist is on Charlotta row;23 and marks lack decoded meaning.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Keep wife Baptist and his blank religion as distinct person fields. No household-wide confession or affiliation date is implied.",
+      "affected_copies": [
+        "THEME-P-0042-SAM@2.body",
+        "THEME-P-0043-SAM@3.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes.",
+      "semantic_focus": "religion1930 only"
+    },
+    {
+      "id": "B-R017",
+      "object": "F-P-0003-family_account-early-care@1",
+      "field": "value_json",
+      "start": null,
+      "end": null,
+      "quote": {
+        "account": "Ada lämnade tidigt Arne hos sina föräldrar Fredrik och Vilhelmina, där han växte upp",
+        "firstCareDate": null,
+        "narrator": "Jan-Christer",
+        "registeredArrival": "1918-10-28"
+      },
+      "old_support": [
+        {
+          "object": "R-01d7f3c0b9efbd24ee39cf7c@1",
+          "supports": "Avgränsat befintligt underlag; ingen ny källläsning.",
+          "old_record_context": "Flen A II a/6 b, Björkhem n:o 1 Berggatan 21, s.563, rader 8–10, bild 163, 00153999_00163",
+          "dependence": "Kyrkoboksuppslag bakom kopplade folkräknings- och fortsättningsuppgifter; upprepade persondata räknas inte automatiskt oberoende.",
+          "old_caveat": "Hänvisning 638/30 gäller samma bok enligt senare avstämning. Kunskapsfältens tecken är inte modern skolnivå eller eget trosliv.\nC-0030: Citationens senare tillägg omfattar även Astrid Charlotta med barn på rader 12–14; hela bildens antal familjeposter bestäms inte här. De namngivna huvudraderna avgränsas säkert."
+        },
+        {
+          "object": "R-8c6b91c855d10a9152cbbbdf@2",
+          "supports": "Avgränsat befintligt underlag; ingen ny källläsning.",
+          "old_record_context": "Folkräkning 1930 Flen, Björkhem n:o 1, SCB s.43, församlingsbok s.563, B0001059_00329; Folk_129814120",
+          "dependence": "Återbrukar samma postnyckel som C-0021. Index, utdrag och församlingsbok är en överföringskedja, inte tre oberoende belägg.\nSamma postnyckel som C-0007; register, utdrag och församlingsbok är kopplade representationer, inte oberoende vittnen.",
+          "old_caveat": "Här dominerar registeravskrift; C-0021 återger samma identifierade hushållsbild. Indexets familj 2 och d.s. är råuppgifter.\nC-0007: Familjeroll dotterson får inte förvandlas till son. Inkomstuppgiften 900 återges på dokumentets nivå; egen enhetsprövning saknas här. Registersidans lokalisering 43/39 (C-0007 rad 13) bevaras som indexmetadata; rad 39 är inte en separat originalpost.\nBaptist står på Charlottas rad, inte Karl Fredriks. Tomma ekonomifält är inte noll; anteckning 23[?] och barnfältets råserie är inte tolkade.\nC-0021: Senare personbundna fält tillhör Karl Fredrik och får inte fördelas till Arne eller andra hushållsmedlemmar. Äldre text och senare yrkesformen Maskinarb. bevaras."
+        },
+        {
+          "object": "R-e67bb6868b81121b2d3f0732@1",
+          "supports": "Avgränsat befintligt underlag; ingen ny källläsning.",
+          "old_record_context": "Flen A II a/4c, Ljungbacka Turegatan 8 uppslag 914 rader 1–8, Karl Fredriks hushåll, 00153994_00100",
+          "dependence": "C-0909 ger formell flyttkedja; familjeminne C-0263 och senare C-0007/C-0030 har egna referenstider. Omsorgens början och mellanåren är inte därmed lästa.",
+          "old_caveat": "Karl Fredrik rättas 27/9→24/9. Arnes fb. och moderns namn är bokförda; ingen far namnges. Norgeutflyttning är registrering, inte säker resdag. Knutnamnets frånvaro daterar inget äktenskap.\nC-0910: Sen fullare avgränsning återtar äldre felaktigt avförda barnrader och inkluderar tre separata egna familjer. Råa militär- och kunskapsfält hålls personbundna."
+        }
+      ],
+      "source_observation": "Foster/ditto role ink is reserved; one1930 group does not date early care.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Keep source-attributed early family care and null firstCareDate. SCB household registration1930 cannot prove when actual care started; own1918 arrival remains bookkeeping.",
+      "affected_copies": [
+        "BIO-P-0003@2.markdown",
+        "BIO-P-0042@4.markdown",
+        "BIO-P-0043@4.markdown",
+        "P-0003/Q-03@1.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes.",
+      "semantic_focus": "firstCareDate null and distinction from registeredArrival1918"
+    },
+    {
+      "id": "B-R018",
+      "object": "F-P-0003-residence-Bjorkhem1930@1",
+      "field": "value_json",
+      "start": null,
+      "end": null,
+      "quote": {
+        "address": "Berggatan 21",
+        "folio": "563",
+        "place": "Björkhem n:o 1, Flen",
+        "year": "1930"
+      },
+      "old_support": [
+        {
+          "object": "R-01d7f3c0b9efbd24ee39cf7c@1",
+          "supports": "own parish page563 Björkhem1 Berggatan21",
+          "old_record_context": "Flen A II a/6 b, Björkhem n:o 1 Berggatan 21, s.563, rader 8–10, bild 163, 00153999_00163",
+          "dependence": "Kyrkoboksuppslag bakom kopplade folkräknings- och fortsättningsuppgifter; upprepade persondata räknas inte automatiskt oberoende.",
+          "old_caveat": "Hänvisning 638/30 gäller samma bok enligt senare avstämning. Kunskapsfältens tecken är inte modern skolnivå eller eget trosliv.\nC-0030: Citationens senare tillägg omfattar även Astrid Charlotta med barn på rader 12–14; hela bildens antal familjeposter bestäms inte här. De namngivna huvudraderna avgränsas säkert."
+        }
+      ],
+      "source_observation": "Björkhem[n/h]:1 above563, municipalityFlen; street21 not read in B.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Own parish household R01d7 explicitly supplies Berggatan21. B supplies place/folio only, so retain street on older evidence rather than present it as B ink.",
+      "affected_copies": [
+        "BIO-P-0003@2.markdown",
+        "THEME-P-0003-BO@1.body",
+        "KEY-P-0042-6e03f5b10587@2.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    }
+  ]
+}

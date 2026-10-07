@@ -1,0 +1,11 @@
+# C-0685 independent original-first reading v1
+
+Locked image genealogy/media/C-0685-riksarkivet-savar-AI5b-bild221-sida470-zingmark.jpg SHA2563ecca122814cac4f59cd683950a318624cbbacd2f2bfddde61a03bb9e437cca7. Whole spread and fulllefttarget enlarged, dates crop. No prior/current/candidateclaims. Page470 Botsmark. Top struck former holder string `... P. Ol. ...` unresolved, boundary context not tenfamilymembers. Holding3/16; Johanhead role not expand beyond exactname.
+
+Printed: No; StåndochNamn; Födelseårochdag; Koppor; Läserochförstår; Giftoår; Hvarifrån; Hvarthän; Dödsår; Anmärkningar för seder m.m. Right annuals1855,1856,1857,1858,1859,1860,1861,1862,1863,1864 eachFörhör/Nattv.gång: all20annualcells for alltenfamilyrows visuallyblank; no claiming attendance/residence from them.
+
+Tenfamilyrows: Joh.Pet.Zingmark1825 [dayuncertain]/2(v-likecpmark), wifeSaraSophia Johans[dotterabbr]1829 20/3(cp v); JohannaBeata1851 [7?]/4(cp v); CarlReinhold1853 21/1(cp v); LovisaWilhelmina1854 27/9(cp v); MariaStina1856 29/7(cp v); PehrAugust1858 26/10(cp v); JohanOscar1861 28/5(cp v); Axel1864 23/3(cpblank); AndersWilh.1864 24/3(cpblank). MarginalTvillingarbracejoinslasttwo despite differing writtendaydigits23/24; preserve raw, not silentlyunify. ChildrenheadingBarn; wifeheadingHustru.
+
+Parentsreadinggrades square/dashsymbols; childrenknowledgecellsblank. Marriage1850? yearlastdigituncertain,24/11 underwife with brace; do not enforce1850fromplausibility. Hvarifrån455 written centrally nearLovisa row withlongbrace extendingwholefamily, sourcepagegroupreference notassertnewdatemove. Hvarthän Nyabok607 at head. Deathcolumnallblank. Noteshead `född i Löf...` localityuncertain;wife`...Degerfors` firstworduncertain;MariaStinaownrow`född i Löf...` same-lookinglocality andlongbracetootherchildren butnotproofallbirthplaces. No separatebirthplacecolumn. No dateofmove besidespage455 andnewbook607. Childrenmarriagecellsblank (braceisgroupingnottenmarriages). Othernotesblankasidefromnamedlocality/brace.
+
+Bottomdräng/piga rows physicallyseparatebyblankrow: inspected asboundaryonly, notpartoften. Originaluncertainties exactfatherbirthdate, Johannaday, marriageyear, fullbirthplacewords; rawremainingfields preservedabove. These are handwritinguncertainties, no canonical conclusions and no ten-personreviewapproval.

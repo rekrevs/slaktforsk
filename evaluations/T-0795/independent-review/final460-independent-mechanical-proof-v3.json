@@ -1,0 +1,289 @@
+{
+  "checks": {
+    "manifest_all_pins": true,
+    "operation_exact_proposal": true,
+    "table_exact_proposal": true,
+    "life_actual_exact": true,
+    "Adam_paths_edges_root_exact": true,
+    "Adam_identity_tree_exact": true,
+    "Adam_all_life_states_equal": true,
+    "Adam_P0212_life_usable_failed": true,
+    "Axel_paths_edges_root_exact": true,
+    "Axel_identity_tree_exact": true,
+    "Axel_all_life_states_equal": true,
+    "Axel_P0212_life_usable_failed": true,
+    "pending_zero": true,
+    "verify": true,
+    "verify-assets": true,
+    "verify-source": true,
+    "protected_person_fact_relation_tables_exact": true,
+    "seven_resolution_rows_preserved": true,
+    "original35_exact_request_with_only_approved_binding_projection": true,
+    "all_main_canonical_historical_rows_preserved": true
+  },
+  "exact_main_vs_stage_tables": [
+    "meta",
+    "import_batch",
+    "document",
+    "asset",
+    "legacy_entity",
+    "unit",
+    "legacy_assertion",
+    "document_search",
+    "document_search_data",
+    "document_search_idx",
+    "document_search_content",
+    "document_search_docsize",
+    "document_search_config",
+    "person",
+    "record_asset",
+    "transcription",
+    "mention",
+    "observation",
+    "identity",
+    "identity_resolution",
+    "place",
+    "event",
+    "participation",
+    "relation",
+    "fact",
+    "legacy_mapping",
+    "object_search_config",
+    "unit_decision",
+    "unit_decision_target"
+  ],
+  "manifest_pin": {
+    "path": "evaluations/T-0795/preparation/life-amendment-v1/actual460/final-stage-manifest.json",
+    "sha256": "82ea3281a5b3432b67f45a951e51fc2eb8e94cbc3f7232d4e2b8dc5d3ffa155a"
+  },
+  "proof_pin": {
+    "path": "evaluations/T-0795/preparation/life-amendment-v1/actual460/all50-and36-full-native-proof.json",
+    "sha256": "5d015b2bb4e71e0f9f2123872023c0bf4d69e1d8d61ee78e4fa18cf0de5cd5ed"
+  },
+  "supersedes_check_interpretations_only": "evaluations/T-0795/independent-review/final460-independent-mechanical-proof-v2.json",
+  "qualification": "v1 overly broad equality compared actual_API with a descriptive projection string and treated current FTS search-index rows as immutable history. Actual differences in row-preservation scan were only object_search and its derived data/index/content/docsize tables. All canonical historical rows were preserved. Exact original35 verification here removes only request-only bindings and checks persisted source_id plus exact versioned supports edge. v2 also exposed the record API default assets:[] where no assets were requested. v3 explicitly normalizes only this empty default, alongside the six request-only bindings; media data and evidence otherwise remain exact.",
+  "original35_projection_rows": [
+    {
+      "object": "S-T0795-U1",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "R-T0795-U1-metadata",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": {
+        "S-T0795-U1": 1
+      },
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "SEARCH-T0795-U1",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "PATH-P-0212-T0795-U1",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "S-T0795-U2",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "R-T0795-U2-metadata",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": {
+        "S-T0795-U2": 1
+      },
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "SEARCH-T0795-U2",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "PATH-P-0212-T0795-U2",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "S-T0795-U3",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "R-T0795-U3-metadata",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": {
+        "S-T0795-U3": 1
+      },
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "SEARCH-T0795-U3",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "PATH-P-0212-T0795-U3",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "S-T0795-U4",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "R-T0795-U4-metadata",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": {
+        "S-T0795-U4": 1
+      },
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "SEARCH-T0795-U4",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "PATH-P-0212-T0795-U4",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "S-T0795-U5",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "R-T0795-U5-metadata",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": {
+        "S-T0795-U5": 1
+      },
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "SEARCH-T0795-U5",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "PATH-P-0212-T0795-U5",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "S-T0795-U6",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "R-T0795-U6-metadata",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": {
+        "S-T0795-U6": 1
+      },
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "SEARCH-T0795-U6",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "PATH-P-0212-T0795-U6",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "PATH-P-0212-KP-05",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "P-0212/Q-02",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "THEME-P-0212-ARB",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "THEME-P-0212-EKO",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "THEME-P-0212-MIL",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "THEME-P-0212-SAM",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "BIO-P-0212",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "KEY-P-0212-0767ee81003f",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "CONTRACT-P-0212-PK-06",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "CONTRACT-P-0212-PK-08",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    },
+    {
+      "object": "CONTRACT-P-0212-PK-12",
+      "exact_under_explicit_projection": true,
+      "omitted_request_only_bindings": null,
+      "persisted_source_and_version_edge_match": true
+    }
+  ]
+}

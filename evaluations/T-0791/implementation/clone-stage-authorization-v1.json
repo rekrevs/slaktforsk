@@ -1,0 +1,69 @@
+{
+  "task": "T-0791",
+  "mode": "one-stage-only-no-resolve-no-canonical",
+  "code_sha256": "75d0971720bc32886712f37abd6cacc675ac55491f2bca9686df44a8e9d0d855",
+  "baseline_state_pin": {
+    "path": "evaluations/T-0791/implementation/baseline-state-v1.json",
+    "sha256": "5a8388f93f827536c99a9340a83f27756d4f7625043807c14e9131c8cf735a57"
+  },
+  "operation_pin": {
+    "path": "evaluations/T-0791/implementation/candidate-operation-v2.json",
+    "sha256": "87b33d5e0a12b93f3d5dd2c8a57df075be8a1989c926d697eec57b4046a49e13"
+  },
+  "consequence_table_pin": {
+    "path": "evaluations/T-0791/implementation/individual-consequence-table-v2.json",
+    "sha256": "fa9fbc22f1224993edc7d7ca9c09ca9baf3454868aef5c4485ba69738ac70cbc"
+  },
+  "operation_id": "T-0791/current-four-life-and-exact-semantic-corrections-v1",
+  "authorized_change_ids": [
+    "BIO-P-0007",
+    "CONTRACT-P-0007-PK-03",
+    "THEME-P-0007-BO",
+    "THEME-P-0007-ID",
+    "THEME-P-0007-SYN",
+    "CONTRACT-P-0003-PK-04",
+    "THEME-P-0001-ARB",
+    "THEME-P-0001-EKO",
+    "THEME-P-0001-SAM",
+    "THEME-P-0001-MIL",
+    "PATH-P-0001-KP-04",
+    "THEME-P-0007-MIL",
+    "THEME-P-0002-MIL",
+    "CONTRACT-P-0001-PK-06",
+    "CONTRACT-P-0002-PK-06",
+    "CONTRACT-P-0007-PK-06",
+    "CONTRACT-P-0002-PK-03",
+    "THEME-P-0002-BO",
+    "THEME-P-0002-SYN",
+    "CONTRACT-P-0001-PK-08",
+    "CONTRACT-P-0002-PK-08",
+    "THEME-P-0001-HAL",
+    "ASSESSMENT-P-0007",
+    "CONTRACT-P-0001-PK-03",
+    "THEME-P-0001-BO",
+    "LIFE-T0791-P0003",
+    "LIFE-T0791-P0007",
+    "LIFE-T0791-P0001",
+    "LIFE-T0791-P0002"
+  ],
+  "stage_path": "evaluations/T-0791/implementation/stage461-v1",
+  "source_gate": {
+    "pin": {
+      "path": "evaluations/T-0791/primary/candidate-clone-stage-gate-v3.json",
+      "sha256": "282be28c4ca0a71faceae79468da3628f94c8504c2a6368fe09c814e334b25dc"
+    },
+    "ready_pointer": "/ready_for_clone_stage",
+    "operation_sha_pointer": "/operationSha256",
+    "consequence_sha_pointer": "/consequenceSha256"
+  },
+  "independent_gate": {
+    "pin": {
+      "path": "evaluations/T-0791/independent-clone-stage-gate-v1.json",
+      "sha256": "f072f2e29fec09907f70e4707e06e5757b8ff554ffe4771003562bd89e2b2853"
+    },
+    "ready_pointer": "/ready_for_clone_stage",
+    "operation_sha_pointer": "/operationSha256",
+    "consequence_sha_pointer": "/consequenceSha256"
+  },
+  "canonicalApproval": false
+}

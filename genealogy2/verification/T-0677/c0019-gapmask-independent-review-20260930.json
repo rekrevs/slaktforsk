@@ -1,0 +1,36 @@
+{
+  "task": "T-0677",
+  "citation": "C-0019",
+  "reader": "independent Astra",
+  "at_utc": "2026-09-30T20:54:33.933653+00:00",
+  "input": {
+    "path": "genealogy2/verification/T-0677/c0019-documentary-gapmask-proposed-20260930.json",
+    "sha256": "1aa4805b31ad9c7080f7cb49b4c30d32c9a29b2b6cd4be3c8a1b8dbd25c9e0c5"
+  },
+  "outcome": "PRECISION_REQUIRED",
+  "review": "All135 fields accounted for. Explicit historical year semantics and widow/widower marks can be reused without inventing raw shapes. Main requirement below concerns incomplete whole-cell coverage, not an order to reread already sufficient text.",
+  "precision": {
+    "person": "P-0016",
+    "field": "B20",
+    "old_action": "whole_field_reuse",
+    "new_action": "read_gap_or_partial_completion",
+    "reuse": "Helgesta Södl. from C0019 T0125",
+    "new_scope": "Any extra upper statistical code/ink in the same arrival-place cell; neutral orientation showed additional ink, not decoded here.",
+    "basis": "T0125 explicitly quotes place text but does not extract upper code; whole-field classification would discard this part."
+  },
+  "expected_counts_after_precision": {
+    "all": 135,
+    "whole_field_reuse": 16,
+    "new_or_partial_completion": 119
+  },
+  "other_reuse": "16 whole fields accepted on explicit historical citation/current support. P16 B04 uses T0125 complete named occupation/code; any additional ink encountered must still be preserved as unexpected gap rather than silently excluded.",
+  "prior_citation_read": "genealogy/citations/C-0019-maj-amalia-folkrakning-1930.md full preserved text, including T0125/T0143/T0153; no primary new matrix read.",
+  "raw_matrix_started": false,
+  "canonical_mutation": false,
+  "final_acceptance": {
+    "outcome": "PASS",
+    "locked_input": "genealogy2/verification/T-0677/c0019-documentary-gapmask-locked-20260930.json",
+    "sha256": "874cf75127592d70bdb02b1c4fd3a9433b32a09ba922aaf3f430c23a9049e624",
+    "reason": "P16 B20 is now partial, old place text preserved;16whole119new correctly counted."
+  }
+}

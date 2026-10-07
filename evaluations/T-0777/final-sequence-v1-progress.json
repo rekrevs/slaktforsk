@@ -1,0 +1,75 @@
+{
+  "task": "T-0777",
+  "db": "evaluations/T-0777/clone/final-candidate-v1.sqlite",
+  "steps": [
+    {
+      "index": 1,
+      "at_utc": "2026-10-02T11:11:34.050062+00:00",
+      "path": "evaluations/T-0777/C-0084-source-candidate-operation-v2.json",
+      "sha256": "dfd3bc59dd3ea235fbb3f551f729a121cc1513bdc8ca6d0582bb23aaf5b36251",
+      "expected_before": {
+        "journal_head": 255,
+        "pending": 0
+      },
+      "actual_after": {
+        "journal_head": 256,
+        "pending": 0
+      },
+      "exit_code": 0,
+      "stdout": "{\n  \"unchanged\": false,\n  \"operation\": \"T-0777/C0084-source-candidate-v2\",\n  \"changes\": 6,\n  \"pendingReviews\": 0,\n  \"journal\": {\n    \"written\": 256\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 2,
+      "at_utc": "2026-10-02T11:11:39.950324+00:00",
+      "path": "evaluations/T-0777/C-0084-consequence-candidate-operation-v2.json",
+      "sha256": "616f80b1531f4a60e96ead043ef316836ab2c998ffbdde99bea82c6d3d7be804",
+      "expected_before": {
+        "journal_head": 256,
+        "pending": 0
+      },
+      "actual_after": {
+        "journal_head": 257,
+        "pending": 0
+      },
+      "exit_code": 0,
+      "stdout": "{\n  \"unchanged\": false,\n  \"operation\": \"T-0777/C0084-consequence-candidate-v2\",\n  \"changes\": 6,\n  \"pendingReviews\": 0,\n  \"journal\": {\n    \"written\": 1\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 3,
+      "at_utc": "2026-10-02T11:11:44.625221+00:00",
+      "path": "evaluations/T-0777/C-0402-source-candidate-operation-v2.json",
+      "sha256": "3ac8e5ede73362159c1176f7a8583c5ede2d01b1f9263d80c6c7d728d110ac5a",
+      "expected_before": {
+        "journal_head": 257,
+        "pending": 0
+      },
+      "actual_after": {
+        "journal_head": 258,
+        "pending": 0
+      },
+      "exit_code": 0,
+      "stdout": "{\n  \"unchanged\": false,\n  \"operation\": \"T-0777/C0402-source-candidate-v2\",\n  \"changes\": 9,\n  \"pendingReviews\": 0,\n  \"journal\": {\n    \"written\": 1\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 4,
+      "at_utc": "2026-10-02T11:11:49.139627+00:00",
+      "path": "evaluations/T-0777/C-0402-role-metadata-candidate-operation-v1.json",
+      "sha256": "61c00c912d882414e1cd7464cba5b96e9eea4797b8aa618188b8672f8467d075",
+      "expected_before": {
+        "journal_head": 258,
+        "pending": 0
+      },
+      "actual_after": {
+        "journal_head": 258,
+        "pending": 0
+      },
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Beläggsversion saknas eller är inaktuell: R-126171c8899cd464e47c503b@1\n"
+    }
+  ],
+  "complete_all_12": false
+}

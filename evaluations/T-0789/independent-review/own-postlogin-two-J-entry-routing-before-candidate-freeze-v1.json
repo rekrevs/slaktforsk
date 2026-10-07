@@ -1,0 +1,77 @@
+{
+  "task": "T-0789",
+  "created_utc": "2026-10-06T07:30:26.308412+00:00",
+  "method": {
+    "own_images_read": true,
+    "new_primary_J_reading_or_candidate_seen": false,
+    "scope": "Both full J-entry images screened by actual printed name order/date/place fields, headings/margins; not whole register or Arne repeatreading. Prior accepted Maj and grave/current scope reused."
+  },
+  "inputs": [
+    {
+      "path": "evaluations/T-0789/postlogin-originals/00023815_00098.jpg",
+      "sha256": "a62a9213b806c5d20e17426b847cdb5c4cb1e0c32a0e73a2164b4b358b3c56fa"
+    },
+    {
+      "path": "evaluations/T-0789/postlogin-originals/00023816_00106.jpg",
+      "sha256": "58fb3ee960b8dd34fd105bc03434a9568035f4981bc4565bfa22f9c3e0b526f3"
+    },
+    {
+      "path": "evaluations/T-0789/postlogin-originals/00023815_00098-root-download-provenance-v1.json",
+      "sha256": "6dc28b251afe4d73ae36856ac2e46de815af68ee46375020f67cc7421f290ee7"
+    },
+    {
+      "path": "evaluations/T-0789/postlogin-originals/00023816_00106-root-download-provenance-v1.json",
+      "sha256": "5b6f962b0a59c2d263591e5d5c124a844ebfbc89b98254f9e38eef3f8a4ccc62"
+    }
+  ],
+  "own_observations": [
+    {
+      "year": 1945,
+      "image": "00023815_00098",
+      "printed_page": "95",
+      "heading": "J.",
+      "visible_range": "Jakobsson/Jacobsson Aina Augusta through Åke Sixten; Jansson Agnes through Anna Margit",
+      "Maj_May_Amalia_1920_05_11_found": false,
+      "limit": "Jansson entries stop within Anna, before alphabetic Maj/May. No negative across remaining Jansson register. Left side reversed showthrough is not a second independently readable page."
+    },
+    {
+      "year": 1946,
+      "image": "00023816_00106",
+      "printed_page": "103",
+      "heading": "J.",
+      "visible_range": "Jakobsson/Jacobsson Aina Augusta through Sture Valdemar, Jaanberg, then Jansson Agnes through Alma Emilia Augusta",
+      "Maj_May_Amalia_1920_05_11_found": false,
+      "other_Maj": "Jakobsson Maj Barbro,17 12/4,V326Jennyhill: explicit different surname/name/date, excluded from MajAmalia search.",
+      "limit": "Jansson stops within Alma. No negative across later Jansson; AndersGunnar/Gondolen2 at top is a separate person and no Maj hit."
+    }
+  ],
+  "bounded_next_locator": {
+    "basis": "Visible ascending Jansson given-name range ends before Maj/May; saved manifest explicitly provides subsequent canvases.",
+    "candidates": [
+      {
+        "manifest": {
+          "path": "genealogy/media/S-0689-manifest-00023815.json",
+          "sha256": "50fffb8326fd4eea5b29b5efc66da7c6c162ba44f45d6a4763f7615336816b6f"
+        },
+        "canvases": []
+      },
+      {
+        "manifest": {
+          "path": "genealogy/media/S-0689-manifest-00023816.json",
+          "sha256": "3070114cb38a985bdb4a5f01c3ececd2deb760b00cd82a0c83e88f00e85f1114"
+        },
+        "canvases": []
+      }
+    ],
+    "decision": "Next99/107 may be inspected for this NEW Maj row scope under root authorization; old accepted Arne rows are not evidence that Maj is present. If range still precedes Maj, require actual page-bound nextlocator rather than sweep.",
+    "new_fetches": 0
+  },
+  "source_consequences": [
+    "Neither startpage supplies a Maj personhit or her address. Mejseln3/Gondolen2 remain search discriminators rather than observed Maj fields here.",
+    "No negative person/whole-year result, name-change event, death/residence conclusion or identity/PK pass.",
+    "Accepted grave evidence remains unchanged and not reread as an original."
+  ],
+  "stage_ready": false,
+  "final_ready_for_canonical": false,
+  "observable_token_usage": "UNKNOWN"
+}

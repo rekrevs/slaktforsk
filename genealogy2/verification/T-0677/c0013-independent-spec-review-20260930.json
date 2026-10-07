@@ -1,0 +1,85 @@
+{
+  "task": "T-0677",
+  "citation": "C-0013",
+  "reviewer": {
+    "agent": "/root/g001_continue/c0016_independent",
+    "role": "Separat Astra-sakgranskning efter egen blind rålock"
+  },
+  "date": "2026-09-30",
+  "outcome": "PASS",
+  "inputs": [
+    {
+      "path": "genealogy2/verification/T-0677/c0013-implementation-spec-before-review-precisions-20260930.json",
+      "sha256": "8df265f8b4f0ad0e424c9b928af61a1a46e805ba3c3534c3876f85b1ea2af582"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0013-source-comparison-acceptance-20260930.json",
+      "sha256": "199283cd5c5b6156bf2ff48bf1505e338e685ceee9f7f31287afb48766770b7e"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0013-independent-gaps-20260930.json",
+      "sha256": "bfe9c14af43745fa403b7a4840980615cfbde13330ef63103c2be9255a779c1b"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0013-independent-consequence-scope-review-20260930.json",
+      "sha256": "099b99b1eee6d2b5d19dd1b7c9dfe2c48367f5d20990914ca829c111f8af79f4"
+    }
+  ],
+  "coverage": {
+    "person_cells": 78,
+    "whole_reuse": 6,
+    "new_partial_or_whole_checks": 72,
+    "source_objects": 4,
+    "person_objects": 10,
+    "matrix": "PASS: sex gånger tretton fält; återbrukade år, namn, församlingssemantik och dräng är uttryckliga."
+  },
+  "findings": [
+    {
+      "id": "C0013-R1",
+      "required": true,
+      "locations": [
+        "existing_edits[0..2].text",
+        "new_person_facts[0].body",
+        "adoptions.P-0044"
+      ],
+      "quoted_text": "Eget efternamn och vuxenlivet är fortsatt oprövade.",
+      "problem": "För brett: befintlig RESEARCH-P-0044-9d76f0343410@1 anger uttryckligen att A-0193:s efternamnskontroll av sex lästa barndomsböcker har utförts med negativt utfall (A-5710). Ny text får inte återställa utförd prövning till oprövad. Det senare egna namnet och vuxenlivet är däremot oprövade.",
+      "requested_precision": "Eget efternamn är inte belagt i de hittills lästa barndomsposterna; hans egna namnformer och vuxenliv efter 1900 är fortsatt oprövade.",
+      "resolution": "Verified in final specification; required precision applied."
+    },
+    {
+      "id": "C0013-R2",
+      "required": true,
+      "location": "source_new_objects[0].data.text: cells.Charlotta.occupation.note",
+      "quoted_text": "ingen överföring av faderns yrke",
+      "problem": "Cellerna gäller Charlotta, Karls hustru; ordet faderns beskriver fel relation. Råstrecket är korrekt hänfört till Karls drängord.",
+      "requested_precision": "ingen överföring av Karls yrke",
+      "resolution": "Verified in final specification; required precision applied."
+    }
+  ],
+  "accepted": [
+    "Rårollen o.ä. S. binds till Svens egen utdragsrad och flyttas inte till C-1056:s grundbok.",
+    "Fyra kolumn 4-tecken är uttryckligen olösta; ingen vaccination, diagnos, religion, nationalitet eller frånvaro härleds.",
+    "Föräldrarnas inträngande årtalstreck och Charlottas dräng-nedstreck bevaras som gränsgrafik.",
+    "Sex civilståndsstreck och 42 tomma civilståndsceller är täckta. Egna ortsformer och N.l. bevaras utan import av 1900-/1910-form.",
+    "F-basis använder oförändrade observationer O3952 och O3966 för tidigare födelsestatus respektive maternal roll, inte den RESEARCH-version som revideras. Den tidigare gruppen om fyra poster betecknas som historisk redovisning, inte en ny oberoende räkning.",
+    "Tre append är avgränsade till den nya beroende utdragsposten och dess följder. AS3951:s underkända tolkning, öppen biologisk faderskapsfråga samt grundbokens egen ink lämnas intakta.",
+    "Sex personadoptioner behåller berörda relationer, datumkonflikter och trädgränser. Ingen ny PK- eller livsbildsgrind höjs."
+  ],
+  "scope_limit": "Specifikationsgranskning PASS. Slutlig implementeringsdiff och validering återstår hos huvudagenten. Huvudagenten uppger att den kompletterade textsökningens 70 dispositioner inte kräver ytterligare ändringsföljd; dessa dispositioner är inte separat omprövade i denna specgranskning.",
+  "canonical_changes": false,
+  "final_spec": {
+    "path": "genealogy2/verification/T-0677/c0013-settled-implementation-spec-20260930.json",
+    "sha256": "00370d1c995db06bd2f4657f4ce33e0c069d050a1d44915d955d46b53c900a53"
+  },
+  "final_verification": {
+    "date": "2026-09-30",
+    "old_spec_hash_verified": true,
+    "final_spec_hash_verified": true,
+    "surname_precision_verified_locations": 5,
+    "charlotta_occupation_precision_verified": true,
+    "semantic_diff": "Only the two requested precisions plus matching review_precisions metadata; embedded transcription JSON formatting normalized for comparison.",
+    "remaining_required_precisions": [],
+    "implementation_scope": "Source 4 + person 10 remains unchanged; canonical mutation not performed by reviewer."
+  }
+}

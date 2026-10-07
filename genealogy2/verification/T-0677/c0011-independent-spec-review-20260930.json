@@ -1,0 +1,71 @@
+{
+  "task": "T-0677",
+  "citation": "C-0011",
+  "reviewer": "Astra /root/g001_continue/c0016_independent",
+  "reviewed_at_utc": "2026-09-30T17:29:38.789293+00:00",
+  "scope": "Substantive review of locked source/person specification against own independent image reading and source comparison; no canonical mutation.",
+  "inputs": [
+    {
+      "path": "genealogy2/verification/T-0677/c0011-independent-gaps-20260930.json",
+      "sha256": "645eea97bd8b000d9c0e615724d322a152b2ad58c948c5011388938d2cbf9e2f"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0011-source-comparison-acceptance-20260930.json",
+      "sha256": "ec444469a73da4820cd4aef02819246a200424db96ade3ae36319a8a4f207934"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0011-implementation-spec-before-review-precision-20260930.json",
+      "sha256": "240108c91790e049ba560e5f5fd5e9cd32caf281db561b689989f294c6a5e6d9",
+      "role": "original_reviewed_spec_before_precision"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0011-settled-implementation-spec-20260930.json",
+      "sha256": "e6fa6b717ca5d1d990a277a3cf6f1a73f50298ca43cbe24b6e83357116413787",
+      "role": "final_spec_after_review_precision"
+    }
+  ],
+  "decision": "pass",
+  "matrix_check": {
+    "rows": 6,
+    "cells": 84,
+    "whole_documentary_reuse": 7
+  },
+  "passed_checks": [
+    "All84person-columncells represented,14perperson;7whole documentary reuses explicit. Partial names/parishes/occupation/status are marked as documentary reuse, not new diplomatic transcription.",
+    "Own Torvald Snickeriarbetare[?] retains independent word reservation. New1910reading only possible earlier attestation, no definite earliest occupationdate, employer, start or continuity to1914.",
+    "Five n[?]/v[?] glyphs and Astrid dash retained under printed column13; no dated/first communion event or confident belief/nationality inference.",
+    "Astrid column14 small arc/dot/possible smudge retained as unresolved graphic; Torvald/Ture border tails remain column13continuations, no new independent notes.",
+    "Occupation codes and vertical strokes do not silently transfer employment to Charlotta/Ture/Astrid. Ada small trace retains no secure job meaning.",
+    "County ditto unexpanded outside read antecedent. Names/dates and earlier parish corrections reused; no new exact personal birthdate or surname inference.",
+    "Parish-register extract dependence and low799×1228resolution explicit. Fullscope claim qualified by retained uncertainties. No identity,life-picture or pedigreegate upgrade."
+  ],
+  "necessary_precision": [
+    {
+      "id": "R1",
+      "target": "new_person_facts F-T0677-C0011-P0045-occupation-comparison.basis",
+      "problem": "Body repeats1918verkmästare and earlier assessment of1914/1918 as distinct titles, but listed bases only cover new1910reading and O-P-0045-A-4308-first_marriage_household@1 (1914).",
+      "required": "Add relevant version-bound1918support, e.g.TR-T0676-FLEN914-49@1 (row9,column2: snickeriarb.,ändrat tillverkmästare), or corresponding established1918object. Preserve current reservations and no-promotion conclusion.",
+      "verified_context": "THEME-P-0045-ARB@2 explicitly records1914snickeriarbetare/1918verkmästare and already binds TR-T0676-FLEN914-49@1. O-P-0045-A-4308-first_marriage_household@1 gives snickeriarbetare with1914-10-30household context and does not itself support1918title."
+    }
+  ],
+  "advisory": [
+    {
+      "target": "TR headers5–8",
+      "note": "Printed source has Ogift./Gift.; spec uses Ogifte/Gifte. This is minor normalized label wording, not an evidence-level or coverage defect. Prefer source form if headers are presented as diplomatic labels."
+    }
+  ],
+  "not_reviewed": [
+    "Final operation payloads",
+    "Temporary apply and pending reviews",
+    "Full impact disposition",
+    "Canonical apply outcome"
+  ],
+  "canonical_changes": false,
+  "artifact_policy": "Reviewed input hashes preserved; no locked input file overwritten.",
+  "resolution": {
+    "checked_at_utc": "2026-09-30T17:30:24.692884+00:00",
+    "R1": "Resolved: TR-T0676-FLEN914-49@1 added to occupation-comparison fact basis. Old input bytes/hash preserved separately.",
+    "hash_capture_note": "First review-file creation happened concurrently with parent precision: its calculated spec hash already belonged to final bytes while the finding described earlier read content. This final review explicitly records and checks both preserved files/hashes.",
+    "limits": "Pass applies to reviewed specification, not uninspected final operations or apply outcome."
+  }
+}

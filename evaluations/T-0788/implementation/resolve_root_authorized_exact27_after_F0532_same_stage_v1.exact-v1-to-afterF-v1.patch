@@ -1,0 +1,87 @@
+--- evaluations/T-0788/implementation/resolve_root_authorized_exact27_same_stage_v1.py
++++ evaluations/T-0788/implementation/resolve_root_authorized_exact27_after_F0532_same_stage_v1.py
+@@ -33,8 +33,8 @@
+     pp, package = h.readpin(auth['package_pin'])
+     mp, membership = h.readpin(auth['membership_pin'])
+     assert package['membership_pin'] == auth['membership_pin']
+-    assert package['operations'] == membership['operations'] and len(membership['operations']) == 2
+-    member = membership['operations'][1]
++    assert package['operations'] == membership['operations'] and len(membership['operations']) == 3
++    member = membership['operations'][2]
+     op_path, op = h.readpin(auth['resolution_operation_pin'])
+     assert member['operation_pin'] == auth['resolution_operation_pin'] and member['operation_id'] == op['id']
+     assert op['changes'] == [] and op['dependencyReviewVersion'] == 2 and len(op['resolve']) == 27
+@@ -58,7 +58,7 @@
+             auth['resolution_operation_pin'], package['primary_actual_instruction_gate_pin'],
+             package['independent_actual_instruction_gate_pin'], package['native_format_authority_pin'],
+             package['individual_resolution_consequence_table_pin'], package['resolution_guard_pin'],
+-            package['native_prefix_package_pin'], membership['operations'][0]['operation_pin'],
++            package['native_prefix_package_pin'], *[m['operation_pin'] for m in membership['operations'][:2]],
+             auth['pre_resolution_stage_DB_pin'], auth['pre_resolution_handoff_pin'], auth['protected42_pin'],
+             *auth['review_pins'], *auth['media_pins']]
+     def recheck(stage_before=False):
+@@ -86,9 +86,9 @@
+     assert output.is_relative_to(db.parent) and not output.exists()
+     _, before_handoff = h.readpin(auth['pre_resolution_handoff_pin'])
+     assert before_handoff['stage_DB_pin'] == auth['pre_resolution_stage_DB_pin']
+-    assert before_handoff['actual_state'] == {'journal_head': 450, 'pending': 27}
++    assert before_handoff['actual_state'] == {'journal_head': 451, 'pending': 27}
+     c, live = h.conn(db), h.conn(M)
+-    assert h.state(c) == {'journal_head': 450, 'pending': 27}
++    assert h.state(c) == {'journal_head': 451, 'pending': 27}
+     assert h.state(live) == {'journal_head': 449, 'pending': 0}
+     main_before = h.all50(live)
+     before = h.all50(c)
+@@ -102,7 +102,7 @@
+         assert h.current(c, n['object_id']) == rid and h.native(c, rid) == n
+     c.close()
+     output.mkdir()
+-    step = {'operation_pin': auth['resolution_operation_pin'], 'before': {'journal_head': 450, 'pending': 27}}
++    step = {'operation_pin': auth['resolution_operation_pin'], 'before': {'journal_head': 451, 'pending': 27}}
+     try:
+         shutil.copyfile(db, snapshot)
+         assert h.sha(snapshot) == auth['pre_resolution_stage_DB_pin']['sha256']
+@@ -121,7 +121,7 @@
+             h.write(output / 'one-resolution-actual-before-after-v1.json', step)
+         c = h.conn(db)
+         final = h.state(c)
+-        assert final == {'journal_head': 451, 'pending': 0}
++        assert final == {'journal_head': 452, 'pending': 0}
+         stored = dict(c.execute('select * from operation_payload where operation_id=?', (op['id'],)).fetchone())
+         assert json.loads(stored['request_json']) == op, 'Unexpected native operation representation; stop, no rewrite'
+         literal_rows = [dict(r) for r in c.execute('select rowid as native_rowid,* from review_resolution where operation_id=? order by rowid', (op['id'],))]
+@@ -151,7 +151,7 @@
+             assert h.sha(journal / name) == digest
+         for rid, n in protected.items():
+             assert h.current(c, n['object_id']) == rid and h.native(c, rid) == n
+-        actual_targets = h.readpin(before_handoff['all36_API_pin'])[1]['objects']
++        actual_targets = h.readpin(before_handoff['all37_API_pin'])[1]['objects']
+         for rid, n in actual_targets.items():
+             assert h.current(c, n['object_id']) == rid and h.native(c, rid) == n
+         literal_pin = h.write(output / 'entire-stored-operation-and-all27-literal-rowid-resolutions-v1.json',
+@@ -160,7 +160,7 @@
+         compare_pin = h.write(output / 'all50-exact47-knowledge-order-and-three-append-tables-proof-v1.json',
+                               {'before': before, 'after': after, 'only_allowed_append_tables': allowed,
+                                'all_old_rows_order_exact': ordered_proofs, 'protected42_whole_current_exact': True,
+-                               'all36_actual_native_targets_unchanged': True, 'no_source_or_metadata_array_normalization': True})
++                               'all37_actual_native_targets_unchanged': True, 'no_source_or_metadata_array_normalization': True})
+         c.close()
+         validators = []
+         for cmd in ['verify', 'verify-assets', 'verify-source', 'inventory']:
+@@ -178,13 +178,13 @@
+         c = h.conn(db)
+         assert h.state(c) == final
+         c.close()
+-        handoff = h.write(output / 'complete-two-op36-plus27-resolution-actual451-final-stage-handoff-v1.json',
++        handoff = h.write(output / 'complete-three-op37-plus27-resolution-actual452-final-stage-handoff-v1.json',
+                           {'task': 'T-0788', 'authorization_pin': h.pin(ap), 'package_pin': auth['package_pin'],
+                            'membership_pin': auth['membership_pin'], 'resolution_operation_pin': auth['resolution_operation_pin'],
+-                           'native_prefix_stage_handoff_pin': auth['pre_resolution_handoff_pin'], 'preservation_snapshot_pin': h.pin(snapshot),
++                           'native_prefix_stage_handoff_pin': auth['pre_resolution_handoff_pin'], 'initial36_stage_handoff_pin': before_handoff['initial36_stage_handoff_pin'], 'preservation_snapshot_pin': h.pin(snapshot),
+                            'literal27_stored_resolution_pin': literal_pin, 'only_three_append_table_diff_pin': compare_pin,
+                            'actual_state': final, 'stage_DB_pin': h.pin(db), 'validators': validators,
+-                           'protected42_current_metadata_history_order_exact': True, 'all36_native_payloads_unchanged': True,
++                           'protected42_current_metadata_history_order_exact': True, 'all37_native_payloads_unchanged': True,
+                            'MAIN_physical_and_all50_unchanged': True, 'canonical_applied': False,
+                            'final_source_and_independent_canonical_byte_gates_required': True, 'program_acceptance': False,
+                            'usage': 'UNKNOWN pending root collector'})

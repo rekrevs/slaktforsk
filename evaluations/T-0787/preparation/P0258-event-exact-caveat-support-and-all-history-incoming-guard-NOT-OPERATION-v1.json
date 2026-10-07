@@ -1,0 +1,319 @@
+{
+  "task": "T-0787",
+  "source_spec_pin": {
+    "path": "evaluations/T-0787/source-review/P0258-event-nonexhaustive-older-alternatives-exact-caveat-source-spec-v1.json",
+    "sha256": "5962d02a57ffd85efa7735e1d6df3f34979b52f75600baf22173102156a26681"
+  },
+  "baseline_proof_pin": {
+    "path": "evaluations/T-0787/preparation/fresh447-physical-backup-full50-logical-equality-and-protected42-proof-v1.json",
+    "sha256": "b26805071faa41f0d5abf982b87c80202831a058a378890c7425b540e095161c"
+  },
+  "actual_baseline_state": {
+    "journal_head": 447,
+    "pending": 0
+  },
+  "full_old_native": {
+    "id": "E-birth-P-0258@2",
+    "object_id": "E-birth-P-0258",
+    "version": 2,
+    "operation_id": "T-0110/root-date-corrections-v1",
+    "disposition": "accepted",
+    "evidence_status": "CONFLICT",
+    "rationale": "T-0110 AC2: Egen födelse är oläst; ny visuellt belagd hushållsvariant19januari kräver öppet alternativ till tidigare17januari.",
+    "caveat": "Egen födelsepost behövs för avgörande; olika administrativa avskrifter är inte självständiga födelsevittnen.",
+    "previous_id": "E-birth-P-0258@1",
+    "kind": "event",
+    "data": {
+      "revision_id": "E-birth-P-0258@2",
+      "event_type": "birth",
+      "date_json": "{\"literal\":\"17 januari enligt äldre hushållsläsningar;19januari i omläst C0925\",\"precision\":\"alternatives\",\"values\":[\"1922-01-17\",\"1922-01-19\"]}",
+      "place_id": null,
+      "place_role": "place_of_event"
+    },
+    "origins": [
+      {
+        "revision_id": "E-birth-P-0258@2",
+        "unit_id": "18c24921b6b78362abd8c261615461864e7aa86cd199c3d33f20b78c1cd441b6",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "revision_id": "E-birth-P-0258@2",
+        "unit_id": "dd380927fb2d172ddd833f42c4f32dab9fe90a90fcf3bd0ba8316d0ec32fc490",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      }
+    ],
+    "evidence": [
+      {
+        "revision_id": "E-birth-P-0258@2",
+        "basis_revision_id": "O-P-0258-C0925-own@2",
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "revision_id": "E-birth-P-0258@2",
+        "basis_revision_id": "O-P-0258-C0930-own@1",
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "revision_id": "E-birth-P-0258@2",
+        "basis_revision_id": "O-P-0258-C0933-own@1",
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "revision_id": "E-birth-P-0258@2",
+        "basis_revision_id": "O-P-0258-C0935-child@1",
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "revision_id": "E-birth-P-0258@2",
+        "basis_revision_id": "R-fccd3a415ee3cbc285ac855c@2",
+        "role": "supports",
+        "note": "Visuellt omläst original i låst stickprov T-0110; exakt post och full utvinning i granskningsbedömningen."
+      }
+    ]
+  },
+  "full_old_API": {
+    "id": "E-birth-P-0258",
+    "kind": "event",
+    "expectedVersion": 2,
+    "data": {
+      "event_type": "birth",
+      "date_json": {
+        "literal": "17 januari enligt äldre hushållsläsningar;19januari i omläst C0925",
+        "precision": "alternatives",
+        "values": [
+          "1922-01-17",
+          "1922-01-19"
+        ]
+      },
+      "place_id": null,
+      "place_role": "place_of_event"
+    },
+    "origins": [
+      {
+        "unit": "18c24921b6b78362abd8c261615461864e7aa86cd199c3d33f20b78c1cd441b6",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "unit": "dd380927fb2d172ddd833f42c4f32dab9fe90a90fcf3bd0ba8316d0ec32fc490",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      }
+    ],
+    "evidence": [
+      {
+        "object": "O-P-0258-C0925-own",
+        "version": 2,
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "object": "O-P-0258-C0930-own",
+        "version": 1,
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "object": "O-P-0258-C0933-own",
+        "version": 1,
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "object": "O-P-0258-C0935-child",
+        "version": 1,
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "object": "R-fccd3a415ee3cbc285ac855c",
+        "version": 2,
+        "role": "supports",
+        "note": "Visuellt omläst original i låst stickprov T-0110; exakt post och full utvinning i granskningsbedömningen."
+      }
+    ],
+    "disposition": "accepted",
+    "evidenceStatus": "CONFLICT",
+    "rationale": "T-0110 AC2: Egen födelse är oläst; ny visuellt belagd hushållsvariant19januari kräver öppet alternativ till tidigare17januari.",
+    "caveat": "Egen födelsepost behövs för avgörande; olika administrativa avskrifter är inte självständiga födelsevittnen."
+  },
+  "exact_new_API_NOT_OPERATION": {
+    "id": "E-birth-P-0258",
+    "kind": "event",
+    "expectedVersion": 2,
+    "data": {
+      "event_type": "birth",
+      "date_json": {
+        "literal": "17 januari enligt äldre hushållsläsningar;19januari i omläst C0925",
+        "precision": "alternatives",
+        "values": [
+          "1922-01-17",
+          "1922-01-19"
+        ]
+      },
+      "place_id": null,
+      "place_role": "place_of_event"
+    },
+    "origins": [
+      {
+        "unit": "18c24921b6b78362abd8c261615461864e7aa86cd199c3d33f20b78c1cd441b6",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "unit": "dd380927fb2d172ddd833f42c4f32dab9fe90a90fcf3bd0ba8316d0ec32fc490",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      }
+    ],
+    "evidence": [
+      {
+        "object": "O-P-0258-C0925-own",
+        "version": 2,
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "object": "O-P-0258-C0930-own",
+        "version": 1,
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "object": "O-P-0258-C0933-own",
+        "version": 2,
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "object": "O-P-0258-C0935-child",
+        "version": 1,
+        "role": "supports",
+        "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+      },
+      {
+        "object": "R-fccd3a415ee3cbc285ac855c",
+        "version": 2,
+        "role": "supports",
+        "note": "Visuellt omläst original i låst stickprov T-0110; exakt post och full utvinning i granskningsbedömningen."
+      },
+      {
+        "object": "TR-30cc52cfdcfa165b6e35c31f",
+        "version": 2,
+        "role": "supports",
+        "note": "T-0787: C0933 egen råform27 19/1; ingen vald personfödelse eller oberoende födelsepost."
+      },
+      {
+        "object": "TR-68c6e60879784dec2253a77a",
+        "version": 2,
+        "role": "supports",
+        "note": "Återbrukad accepterad T-0675 full C0935-läsning: egen råform27 19/11, separat från C0933 och äldre1922alternativ."
+      }
+    ],
+    "disposition": "accepted",
+    "evidenceStatus": "CONFLICT",
+    "rationale": "T-0110 AC2: Egen födelse är oläst; ny visuellt belagd hushållsvariant19januari kräver öppet alternativ till tidigare17januari.",
+    "caveat": "Egen födelsepost behövs för avgörande; olika administrativa avskrifter är inte självständiga födelsevittnen. T-0787: date_json och den daterade T-0110-rationalen bevarar de då redovisade 1922-alternativen; de är inte en uttömmande förteckning över nu kända källuppgifter. Den fullständigt lästa C-0933-raden anger råformen 27 19/1, medan den tidigare accepterade fulla C-0935-läsningen anger 27 19/11. Dessa skilda administrativa uppgifter hålls isär från C-0930:s äldre 1922-01-17 och C-0925:s 1922-01-19; inget nytt födelsedatum väljs eller normaliseras här. Egen födelsepost kvarstår hos T-0768. Persondatum, OWNER och konfliktstatus ändras inte."
+  },
+  "only_caveat_and_explicit_ordered_support_edits": true,
+  "native_data_date_JSON_bytes_and_API_dates_retained": true,
+  "all_history": [
+    "E-birth-P-0258@1",
+    "E-birth-P-0258@2"
+  ],
+  "all_history_incoming": [
+    {
+      "native_rowid": 16808,
+      "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+      "basis_revision_id": "E-birth-P-0258@1",
+      "role": "derived_from",
+      "note": "Versionsbunden strukturreferens: event_id",
+      "basis_is_current": false,
+      "caller_current_revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+      "caller_is_current": true
+    }
+  ],
+  "full_exact_and_current_incoming_callers": {
+    "EP-E-birth-P-0258-P-0258-principal@1": {
+      "id": "EP-E-birth-P-0258-P-0258-principal@1",
+      "object_id": "EP-E-birth-P-0258-P-0258-principal",
+      "version": 1,
+      "operation_id": "T-0657/persons-06-v1",
+      "disposition": "accepted",
+      "evidence_status": "CORROBORATED",
+      "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+      "caveat": "Födelseuppgift upprepad i administrativa böcker; egen födelsepost oläst.",
+      "previous_id": null,
+      "kind": "participation",
+      "data": {
+        "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+        "event_id": "E-birth-P-0258",
+        "person_id": "P-0258",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "origins": [
+        {
+          "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+          "unit_id": "dd380927fb2d172ddd833f42c4f32dab9fe90a90fcf3bd0ba8316d0ec32fc490",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+          "unit_id": "18c24921b6b78362abd8c261615461864e7aa86cd199c3d33f20b78c1cd441b6",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+          "basis_revision_id": "O-P-0258-C0935-child@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+          "basis_revision_id": "O-P-0258-C0933-own@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+          "basis_revision_id": "O-P-0258-C0925-own@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+          "basis_revision_id": "O-P-0258-C0930-own@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+          "basis_revision_id": "E-birth-P-0258@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        }
+      ]
+    }
+  },
+  "support_head_issues": [],
+  "counts": {
+    "target": 1,
+    "incoming": 1,
+    "current_basis_incoming": 0,
+    "caller_native": 1
+  },
+  "incoming_source_dispositions_pending": true,
+  "no_operation_stage_canonical_or_Wotan_write": true,
+  "usage": "UNKNOWN pending root collector"
+}

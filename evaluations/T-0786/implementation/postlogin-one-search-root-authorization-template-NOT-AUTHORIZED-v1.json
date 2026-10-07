@@ -1,0 +1,89 @@
+{
+  "task": "T-0786",
+  "root_authorized": false,
+  "canonical_apply_authorized": false,
+  "authorization": "NOT_AUTHORIZED_TEMPLATE",
+  "phase": "apply-and-verify",
+  "retry_authorized": false,
+  "database_replacement_authorized": false,
+  "helper_pin": {
+    "path": "evaluations/T-0786/implementation/root_controlled_postlogin_one_search_v1.py",
+    "sha256": "ffba77dc843f5e5cc1c06a18ea518cfe33fd7fbe5ca693175e759bcc7c30e80c"
+  },
+  "readonly_helper_pin": {
+    "path": "evaluations/T-0784/implementation/stage_root_authorized_exact_nine_v2.py",
+    "sha256": "e36e60ec42a99e5b0dc428ad0666210e59ba76b4ead438f18d89ab42e2f788d6"
+  },
+  "handoff_pin": {
+    "path": "evaluations/T-0786/postlogin-one-search-stage-v1/complete-one-search-stage-result-and-Astra-handoff-v1.json",
+    "sha256": "5e4eecfe397bf37eb3fb7ee927a094b3c6939bc370320ed23c9754026715cb8b"
+  },
+  "primary_gate_pin": {
+    "path": "evaluations/T-0786/source-review/postlogin-one-search-actual447-final-primary-source-consequence-gate-v1.json",
+    "sha256": "614cc301f4d60bb0a272ad0f79b8cee3c3a1454acef0572714ac0af30f073f95"
+  },
+  "independent_gate_pin": {
+    "path": "evaluations/T-0786/independent-review/postlogin-one-access-actual447-final-independent-source-consequence-gate-v1.json",
+    "sha256": "6a6091c12849b3b7bd77097e88963776e56dc2625f5014643a431dcbd8900873"
+  },
+  "operation_pin": {
+    "path": "evaluations/T-0786/implementation/one-postlogin-access-search-operation-v1.json",
+    "sha256": "a527c23ab1ce3bd0bb7844a44dc3fe4b60f71de859286e0ef22720bc00221e5c"
+  },
+  "package_pin": {
+    "path": "evaluations/T-0786/implementation/one-postlogin-access-search-package-v1.json",
+    "sha256": "ee182ba52f68c41a8b073e93263713331d4c5abfc42beefb2929bfb64607445a"
+  },
+  "stage_DB_pin": {
+    "path": "evaluations/T-0786/postlogin-one-search-stage-v1/stage.sqlite",
+    "sha256": "bf560a98675d357debe577fb1e3db4747cff79c5e59c78d1b1a1203e06b3a356"
+  },
+  "baseline_DB_pin": {
+    "path": "evaluations/T-0786/resume-current446-v1/baseline-j446.sqlite",
+    "sha256": "1e8e6b4079df557d9dd904578178321381b6c2ef5d54ac15ff74eacdac942541"
+  },
+  "protected42_pin": {
+    "path": "evaluations/T-0781/mechanical-current425-preparation-v1/complete-current-OWNER-identity-tree-life-protected-native-payloads-v1.json",
+    "sha256": "34770e3082281dd6702bbf548c99f9a1ec9e4ca42cb1a292cdbcd7a55b013487"
+  },
+  "comparator_pin": {
+    "path": "evaluations/T-0786/implementation/compare_root_applied_one_search_to_reviewed_stage_v1.py",
+    "sha256": "b6e9d29eac54a5a8943b776737e409116f5fb6862af931d7a787a0a87651920a"
+  },
+  "fresh_root_baseline_receipt_pin": {
+    "path": "ROOT_MUST_WRITE_FRESH_RECEIPT.json",
+    "sha256": "ROOT_MUST_BIND_FRESH_RECEIPT_WITH_fresh_baseline_verified_true"
+  },
+  "baseline_state": {
+    "journal_head": 446,
+    "pending": 0
+  },
+  "final_state": {
+    "journal_head": 447,
+    "pending": 0
+  },
+  "operations": [
+    {
+      "operation_id": "T-0786/shared-Sodertalje-uppslag15-postlogin-access-note-v1"
+    }
+  ],
+  "output_path": "evaluations/T-0786/root-controlled-postlogin-one-search-v1",
+  "additional_immutable_pins": [
+    {
+      "path": "genealogy2/cli.mjs",
+      "sha256": "96c4882903f436ae0564227d26eda4f01a4e998294ce025692e8534be8d45b89"
+    },
+    {
+      "path": "genealogy2/lib/domain.mjs",
+      "sha256": "b4f104f30bda6277c797fc57a538a9c32cf4db5eb0d24423c6d0cb9c64fec25e"
+    },
+    {
+      "path": "genealogy2/lib/store.mjs",
+      "sha256": "a0a4b318c7c8b2ddb5a86b476a7a05dc43f375ff8f786b0b60fe596089c8c6b0"
+    },
+    {
+      "path": "genealogy2/lib/recovery.mjs",
+      "sha256": "1215607ef6ebd21e9d70831e05f2ab883b80727489139dc01bb09613087054e5"
+    }
+  ]
+}

@@ -1,0 +1,1486 @@
+{
+  "preimage": {
+    "path": "evaluations/T-0804/implementation/stage465-v1/stage.sqlite",
+    "sha256": "135bb5df89d6ad9ae60a12a7c144c015588a2e9170b444d69660428f30d5b798"
+  },
+  "source_gate": {
+    "path": "evaluations/T-0804/primary-six-resolution-clone-gate-v1.json",
+    "sha256": "7bc851c8f9d9944c1fc3cb5a97d5a417ae31a43ff77bd448fa194669ba9ddf72"
+  },
+  "independent_gate": {
+    "path": "evaluations/T-0804/independent-six-retains-clone-gate-v1.json",
+    "sha256": "55bcf2efb861c487bbb6d8170dd0409d166b4de19290a407325259c33ebcb3e7"
+  },
+  "operation": {
+    "path": "evaluations/T-0804/implementation/candidate-six-retains-operation-v1.json",
+    "sha256": "ed530f1670cc1aa8108186e26e41801bf6e54fa5a6813707c76195c0689936a2"
+  },
+  "before_all50": {
+    "schema": [
+      [
+        "index",
+        "dependency_basis",
+        "dependency",
+        "CREATE INDEX dependency_basis ON dependency(basis_revision_id)"
+      ],
+      [
+        "index",
+        "origin_unit",
+        "origin",
+        "CREATE INDEX origin_unit ON origin(unit_id)"
+      ],
+      [
+        "index",
+        "revision_object",
+        "revision",
+        "CREATE INDEX revision_object ON revision(object_id,version)"
+      ],
+      [
+        "index",
+        "unit_decision_unit",
+        "unit_decision",
+        "CREATE INDEX unit_decision_unit ON unit_decision(unit_id,version)"
+      ],
+      [
+        "index",
+        "unit_document",
+        "unit",
+        "CREATE INDEX unit_document ON unit(document_path)"
+      ],
+      [
+        "index",
+        "unit_legacy",
+        "unit",
+        "CREATE INDEX unit_legacy ON unit(legacy_id)"
+      ],
+      [
+        "index",
+        "unit_owner",
+        "unit",
+        "CREATE INDEX unit_owner ON unit(owner_id,kind)"
+      ],
+      [
+        "table",
+        "assessment",
+        "assessment",
+        "CREATE TABLE assessment (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  criteria TEXT NOT NULL, outcome TEXT NOT NULL, body TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "asset",
+        "asset",
+        "CREATE TABLE asset (\n  path TEXT PRIMARY KEY, batch_id TEXT NOT NULL REFERENCES import_batch(id),\n  sha256 TEXT NOT NULL, bytes INTEGER NOT NULL, frozen INTEGER NOT NULL CHECK(frozen IN (0,1))\n) STRICT"
+      ],
+      [
+        "table",
+        "dependency",
+        "dependency",
+        "CREATE TABLE dependency (\n  revision_id TEXT NOT NULL REFERENCES revision(id), basis_revision_id TEXT NOT NULL REFERENCES revision(id),\n  role TEXT NOT NULL CHECK(role IN ('supports','contradicts','context','derived_from')),\n  note TEXT NOT NULL, PRIMARY KEY(revision_id,basis_revision_id,role),\n  CHECK(revision_id!=basis_revision_id)\n) STRICT"
+      ],
+      [
+        "table",
+        "document",
+        "document",
+        "CREATE TABLE document (\n  path TEXT PRIMARY KEY, batch_id TEXT NOT NULL REFERENCES import_batch(id),\n  sha256 TEXT NOT NULL, bytes INTEGER NOT NULL, text TEXT NOT NULL,\n  frozen INTEGER NOT NULL CHECK(frozen IN (0,1))\n) STRICT"
+      ],
+      [
+        "table",
+        "document_search",
+        "document_search",
+        "CREATE VIRTUAL TABLE document_search USING fts5(path UNINDEXED,text, tokenize='unicode61 remove_diacritics 2')"
+      ],
+      [
+        "table",
+        "document_search_config",
+        "document_search_config",
+        "CREATE TABLE 'document_search_config'(k PRIMARY KEY, v) WITHOUT ROWID"
+      ],
+      [
+        "table",
+        "document_search_content",
+        "document_search_content",
+        "CREATE TABLE 'document_search_content'(id INTEGER PRIMARY KEY, c0, c1)"
+      ],
+      [
+        "table",
+        "document_search_data",
+        "document_search_data",
+        "CREATE TABLE 'document_search_data'(id INTEGER PRIMARY KEY, block BLOB)"
+      ],
+      [
+        "table",
+        "document_search_docsize",
+        "document_search_docsize",
+        "CREATE TABLE 'document_search_docsize'(id INTEGER PRIMARY KEY, sz BLOB)"
+      ],
+      [
+        "table",
+        "document_search_idx",
+        "document_search_idx",
+        "CREATE TABLE 'document_search_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID"
+      ],
+      [
+        "table",
+        "event",
+        "event",
+        "CREATE TABLE event (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), event_type TEXT NOT NULL,\n  date_json TEXT NOT NULL CHECK(json_valid(date_json)), place_id TEXT REFERENCES object(id),\n  place_role TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "fact",
+        "fact",
+        "CREATE TABLE fact (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  property TEXT NOT NULL, value_type TEXT NOT NULL CHECK(value_type IN ('text','number','date','entity','boolean','structured')),\n  value_json TEXT NOT NULL CHECK(json_valid(value_json))\n) STRICT"
+      ],
+      [
+        "table",
+        "identity",
+        "identity",
+        "CREATE TABLE identity (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), mention_id TEXT NOT NULL REFERENCES object(id),\n  person_id TEXT NOT NULL REFERENCES object(id), decision TEXT NOT NULL CHECK(decision IN ('accepted','candidate','rejected'))\n) STRICT"
+      ],
+      [
+        "table",
+        "identity_resolution",
+        "identity_resolution",
+        "CREATE TABLE identity_resolution (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), person_a TEXT NOT NULL REFERENCES object(id),\n  person_b TEXT NOT NULL REFERENCES object(id), decision TEXT NOT NULL CHECK(decision IN ('same_person','different_people','unresolved')),\n  CHECK(person_a!=person_b)\n) STRICT"
+      ],
+      [
+        "table",
+        "import_batch",
+        "import_batch",
+        "CREATE TABLE import_batch (\n  id TEXT PRIMARY KEY, manifest_json TEXT NOT NULL CHECK(json_valid(manifest_json)),\n  extractor TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "legacy_assertion",
+        "legacy_assertion",
+        "CREATE TABLE legacy_assertion (\n  id TEXT PRIMARY KEY, unit_id TEXT NOT NULL UNIQUE REFERENCES unit(id),\n  owner_id TEXT NOT NULL, status_raw TEXT, reliability_raw TEXT\n) STRICT"
+      ],
+      [
+        "table",
+        "legacy_entity",
+        "legacy_entity",
+        "CREATE TABLE legacy_entity (\n  id TEXT NOT NULL, kind TEXT NOT NULL CHECK(kind IN ('person','source','citation','profile')),\n  document_path TEXT NOT NULL UNIQUE REFERENCES document(path), title TEXT NOT NULL,\n  PRIMARY KEY(kind,id)\n) STRICT"
+      ],
+      [
+        "table",
+        "legacy_mapping",
+        "legacy_mapping",
+        "CREATE TABLE legacy_mapping (\n  id TEXT PRIMARY KEY, legacy_kind TEXT NOT NULL, legacy_id TEXT NOT NULL,\n  target_id TEXT NOT NULL REFERENCES object(id), operation_id TEXT NOT NULL REFERENCES operation(id),\n  mapping_type TEXT NOT NULL CHECK(mapping_type IN ('same_identity','rejected_identity','archival_reference')),\n  origin_unit_id TEXT NOT NULL REFERENCES unit(id), rationale TEXT NOT NULL,\n  FOREIGN KEY(legacy_kind,legacy_id) REFERENCES legacy_entity(kind,id),\n  UNIQUE(legacy_kind,legacy_id,target_id,mapping_type)\n) STRICT"
+      ],
+      [
+        "table",
+        "mention",
+        "mention",
+        "CREATE TABLE mention (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), record_id TEXT NOT NULL REFERENCES object(id),\n  name_literal TEXT NOT NULL, role_literal TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "meta",
+        "meta",
+        "CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL) STRICT"
+      ],
+      [
+        "table",
+        "narrative",
+        "narrative",
+        "CREATE TABLE narrative (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  title TEXT NOT NULL, markdown TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "native_asset",
+        "native_asset",
+        "CREATE TABLE native_asset (\n  id TEXT PRIMARY KEY, storage_path TEXT NOT NULL, sha256 TEXT NOT NULL,\n  bytes INTEGER NOT NULL CHECK(bytes>=0), original_name TEXT NOT NULL,\n  provenance TEXT NOT NULL, operation_id TEXT NOT NULL REFERENCES operation(id)\n) STRICT"
+      ],
+      [
+        "table",
+        "object",
+        "object",
+        "CREATE TABLE object (\n  id TEXT PRIMARY KEY,\n  kind TEXT NOT NULL CHECK(kind IN ('person','source','record','transcription','mention','observation','identity','identity_resolution','place','event','participation','relation','fact','question','search','assessment','narrative'))\n) STRICT"
+      ],
+      [
+        "table",
+        "object_search",
+        "object_search",
+        "CREATE VIRTUAL TABLE object_search USING fts5(object_id UNINDEXED,kind UNINDEXED,text)"
+      ],
+      [
+        "table",
+        "object_search_config",
+        "object_search_config",
+        "CREATE TABLE 'object_search_config'(k PRIMARY KEY, v) WITHOUT ROWID"
+      ],
+      [
+        "table",
+        "object_search_content",
+        "object_search_content",
+        "CREATE TABLE 'object_search_content'(id INTEGER PRIMARY KEY, c0, c1, c2)"
+      ],
+      [
+        "table",
+        "object_search_data",
+        "object_search_data",
+        "CREATE TABLE 'object_search_data'(id INTEGER PRIMARY KEY, block BLOB)"
+      ],
+      [
+        "table",
+        "object_search_docsize",
+        "object_search_docsize",
+        "CREATE TABLE 'object_search_docsize'(id INTEGER PRIMARY KEY, sz BLOB)"
+      ],
+      [
+        "table",
+        "object_search_idx",
+        "object_search_idx",
+        "CREATE TABLE 'object_search_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID"
+      ],
+      [
+        "table",
+        "observation",
+        "observation",
+        "CREATE TABLE observation (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), record_id TEXT NOT NULL REFERENCES object(id),\n  mention_id TEXT REFERENCES object(id), property TEXT NOT NULL, value_literal TEXT NOT NULL,\n  value_json TEXT CHECK(value_json IS NULL OR json_valid(value_json))\n) STRICT"
+      ],
+      [
+        "table",
+        "operation",
+        "operation",
+        "CREATE TABLE operation (\n  id TEXT PRIMARY KEY, request_hash TEXT NOT NULL, actor TEXT NOT NULL,\n  recorded_at TEXT NOT NULL, reason TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "operation_payload",
+        "operation_payload",
+        "CREATE TABLE operation_payload (\n  sequence INTEGER PRIMARY KEY, operation_id TEXT NOT NULL UNIQUE REFERENCES operation(id),\n  policy TEXT NOT NULL CHECK(policy IN ('legacy/1','native/2')),\n  request_json TEXT NOT NULL CHECK(json_valid(request_json))\n) STRICT"
+      ],
+      [
+        "table",
+        "origin",
+        "origin",
+        "CREATE TABLE origin (\n  revision_id TEXT NOT NULL REFERENCES revision(id), unit_id TEXT NOT NULL REFERENCES unit(id),\n  coverage TEXT NOT NULL CHECK(coverage IN ('partial','complete','context')),\n  note TEXT NOT NULL, PRIMARY KEY(revision_id,unit_id)\n) STRICT"
+      ],
+      [
+        "table",
+        "participation",
+        "participation",
+        "CREATE TABLE participation (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), event_id TEXT NOT NULL REFERENCES object(id),\n  person_id TEXT REFERENCES object(id), mention_id TEXT REFERENCES object(id), role TEXT NOT NULL,\n  CHECK(person_id IS NOT NULL OR mention_id IS NOT NULL)\n) STRICT"
+      ],
+      [
+        "table",
+        "person",
+        "person",
+        "CREATE TABLE person (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), display_name TEXT NOT NULL,\n  sex TEXT CHECK(sex IN ('female','male','unknown') OR sex IS NULL),\n  legacy_state TEXT CHECK(legacy_state IN ('active','retired') OR legacy_state IS NULL)\n) STRICT"
+      ],
+      [
+        "table",
+        "place",
+        "place",
+        "CREATE TABLE place (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), name TEXT NOT NULL,\n  jurisdiction TEXT NOT NULL, parent_id TEXT REFERENCES object(id)\n) STRICT"
+      ],
+      [
+        "table",
+        "question",
+        "question",
+        "CREATE TABLE question (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  title TEXT NOT NULL, outcome TEXT NOT NULL, body TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "record",
+        "record",
+        "CREATE TABLE record (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), source_id TEXT NOT NULL REFERENCES object(id),\n  record_type TEXT NOT NULL, locator TEXT NOT NULL, dependence_note TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "record_asset",
+        "record_asset",
+        "CREATE TABLE record_asset (\n  revision_id TEXT NOT NULL REFERENCES record(revision_id), asset_path TEXT NOT NULL REFERENCES asset(path),\n  region TEXT NOT NULL, PRIMARY KEY(revision_id,asset_path)\n) STRICT"
+      ],
+      [
+        "table",
+        "record_media",
+        "record_media",
+        "CREATE TABLE record_media (\n  revision_id TEXT NOT NULL REFERENCES record(revision_id),\n  asset_id TEXT NOT NULL REFERENCES native_asset(id), region TEXT NOT NULL,\n  PRIMARY KEY(revision_id,asset_id)\n) STRICT"
+      ],
+      [
+        "table",
+        "relation",
+        "relation",
+        "CREATE TABLE relation (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), from_person TEXT NOT NULL REFERENCES object(id),\n  to_person TEXT NOT NULL REFERENCES object(id), relation_type TEXT NOT NULL,\n  nature TEXT NOT NULL, date_json TEXT NOT NULL CHECK(json_valid(date_json)),\n  CHECK(from_person!=to_person)\n) STRICT"
+      ],
+      [
+        "table",
+        "review_request",
+        "review_request",
+        "CREATE TABLE review_request (\n  id TEXT PRIMARY KEY, operation_id TEXT NOT NULL REFERENCES operation(id),\n  affected_revision_id TEXT NOT NULL REFERENCES revision(id),\n  changed_revision_id TEXT NOT NULL REFERENCES revision(id), reason TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "review_resolution",
+        "review_resolution",
+        "CREATE TABLE review_resolution (\n  request_id TEXT PRIMARY KEY REFERENCES review_request(id),\n  operation_id TEXT NOT NULL REFERENCES operation(id), rationale TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "revision",
+        "revision",
+        "CREATE TABLE revision (\n  id TEXT PRIMARY KEY, object_id TEXT NOT NULL REFERENCES object(id),\n  version INTEGER NOT NULL CHECK(version>0), operation_id TEXT NOT NULL REFERENCES operation(id),\n  disposition TEXT NOT NULL CHECK(disposition IN ('recorded','accepted','candidate','rejected','retired')),\n  evidence_status TEXT, rationale TEXT NOT NULL, caveat TEXT NOT NULL,\n  previous_id TEXT REFERENCES revision(id), UNIQUE(object_id,version)\n) STRICT"
+      ],
+      [
+        "table",
+        "search",
+        "search",
+        "CREATE TABLE search (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), question_id TEXT REFERENCES object(id),\n  source_id TEXT NOT NULL REFERENCES object(id), scope_json TEXT NOT NULL CHECK(json_valid(scope_json)),\n  outcome TEXT NOT NULL CHECK(outcome IN ('negative','positive','access_problem','inconclusive')),\n  body TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "source",
+        "source",
+        "CREATE TABLE source (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), title TEXT NOT NULL,\n  archive_reference TEXT, source_class TEXT, description TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "transcription",
+        "transcription",
+        "CREATE TABLE transcription (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), record_id TEXT NOT NULL REFERENCES object(id),\n  text TEXT NOT NULL, reading_note TEXT NOT NULL\n) STRICT"
+      ],
+      [
+        "table",
+        "unit",
+        "unit",
+        "CREATE TABLE unit (\n  id TEXT PRIMARY KEY, document_path TEXT NOT NULL REFERENCES document(path),\n  kind TEXT NOT NULL, legacy_id TEXT, owner_id TEXT, section TEXT NOT NULL,\n  start_byte INTEGER NOT NULL, end_byte INTEGER NOT NULL,\n  start_line INTEGER NOT NULL, end_line INTEGER NOT NULL,\n  raw TEXT NOT NULL, parsed_json TEXT NOT NULL CHECK(json_valid(parsed_json)),\n  historical INTEGER NOT NULL CHECK(historical IN (0,1)),\n  CHECK(start_byte >= 0 AND end_byte > start_byte)\n) STRICT"
+      ],
+      [
+        "table",
+        "unit_decision",
+        "unit_decision",
+        "CREATE TABLE unit_decision (\n  id TEXT PRIMARY KEY, unit_id TEXT NOT NULL REFERENCES unit(id),\n  version INTEGER NOT NULL CHECK(version>0), operation_id TEXT NOT NULL REFERENCES operation(id),\n  state TEXT NOT NULL CHECK(state IN ('mapped_complete','preserved_text','pending_interpretation','preserved_history')),\n  target_id TEXT REFERENCES object(id), rationale TEXT NOT NULL, question TEXT NOT NULL,\n  previous_id TEXT REFERENCES unit_decision(id), UNIQUE(unit_id,version),\n  CHECK(state!='mapped_complete' OR target_id IS NOT NULL),\n  CHECK(state!='pending_interpretation' OR length(trim(question))>0)\n) STRICT"
+      ],
+      [
+        "table",
+        "unit_decision_target",
+        "unit_decision_target",
+        "CREATE TABLE unit_decision_target (\n  decision_id TEXT NOT NULL REFERENCES unit_decision(id),\n  target_id TEXT NOT NULL REFERENCES object(id),\n  PRIMARY KEY(decision_id,target_id)\n) STRICT"
+      ],
+      [
+        "trigger",
+        "protect_assessment_DELETE",
+        "assessment",
+        "CREATE TRIGGER protect_assessment_DELETE BEFORE DELETE ON assessment BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_assessment_UPDATE",
+        "assessment",
+        "CREATE TRIGGER protect_assessment_UPDATE BEFORE UPDATE ON assessment BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_asset_DELETE",
+        "asset",
+        "CREATE TRIGGER protect_asset_DELETE BEFORE DELETE ON asset BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_asset_UPDATE",
+        "asset",
+        "CREATE TRIGGER protect_asset_UPDATE BEFORE UPDATE ON asset BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_dependency_DELETE",
+        "dependency",
+        "CREATE TRIGGER protect_dependency_DELETE BEFORE DELETE ON dependency BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_dependency_UPDATE",
+        "dependency",
+        "CREATE TRIGGER protect_dependency_UPDATE BEFORE UPDATE ON dependency BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_document_DELETE",
+        "document",
+        "CREATE TRIGGER protect_document_DELETE BEFORE DELETE ON document BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_document_UPDATE",
+        "document",
+        "CREATE TRIGGER protect_document_UPDATE BEFORE UPDATE ON document BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_event_DELETE",
+        "event",
+        "CREATE TRIGGER protect_event_DELETE BEFORE DELETE ON event BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_event_UPDATE",
+        "event",
+        "CREATE TRIGGER protect_event_UPDATE BEFORE UPDATE ON event BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_fact_DELETE",
+        "fact",
+        "CREATE TRIGGER protect_fact_DELETE BEFORE DELETE ON fact BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_fact_UPDATE",
+        "fact",
+        "CREATE TRIGGER protect_fact_UPDATE BEFORE UPDATE ON fact BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_identity_DELETE",
+        "identity",
+        "CREATE TRIGGER protect_identity_DELETE BEFORE DELETE ON identity BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_identity_UPDATE",
+        "identity",
+        "CREATE TRIGGER protect_identity_UPDATE BEFORE UPDATE ON identity BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_identity_resolution_DELETE",
+        "identity_resolution",
+        "CREATE TRIGGER protect_identity_resolution_DELETE BEFORE DELETE ON identity_resolution BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_identity_resolution_UPDATE",
+        "identity_resolution",
+        "CREATE TRIGGER protect_identity_resolution_UPDATE BEFORE UPDATE ON identity_resolution BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_import_batch_DELETE",
+        "import_batch",
+        "CREATE TRIGGER protect_import_batch_DELETE BEFORE DELETE ON import_batch BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_import_batch_UPDATE",
+        "import_batch",
+        "CREATE TRIGGER protect_import_batch_UPDATE BEFORE UPDATE ON import_batch BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_legacy_assertion_DELETE",
+        "legacy_assertion",
+        "CREATE TRIGGER protect_legacy_assertion_DELETE BEFORE DELETE ON legacy_assertion BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_legacy_assertion_UPDATE",
+        "legacy_assertion",
+        "CREATE TRIGGER protect_legacy_assertion_UPDATE BEFORE UPDATE ON legacy_assertion BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_legacy_entity_DELETE",
+        "legacy_entity",
+        "CREATE TRIGGER protect_legacy_entity_DELETE BEFORE DELETE ON legacy_entity BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_legacy_entity_UPDATE",
+        "legacy_entity",
+        "CREATE TRIGGER protect_legacy_entity_UPDATE BEFORE UPDATE ON legacy_entity BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_legacy_mapping_DELETE",
+        "legacy_mapping",
+        "CREATE TRIGGER protect_legacy_mapping_DELETE BEFORE DELETE ON legacy_mapping BEGIN SELECT RAISE(ABORT,'Importbeslut är oföränderliga'); END"
+      ],
+      [
+        "trigger",
+        "protect_legacy_mapping_UPDATE",
+        "legacy_mapping",
+        "CREATE TRIGGER protect_legacy_mapping_UPDATE BEFORE UPDATE ON legacy_mapping BEGIN SELECT RAISE(ABORT,'Importbeslut är oföränderliga'); END"
+      ],
+      [
+        "trigger",
+        "protect_mention_DELETE",
+        "mention",
+        "CREATE TRIGGER protect_mention_DELETE BEFORE DELETE ON mention BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_mention_UPDATE",
+        "mention",
+        "CREATE TRIGGER protect_mention_UPDATE BEFORE UPDATE ON mention BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_narrative_DELETE",
+        "narrative",
+        "CREATE TRIGGER protect_narrative_DELETE BEFORE DELETE ON narrative BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_narrative_UPDATE",
+        "narrative",
+        "CREATE TRIGGER protect_narrative_UPDATE BEFORE UPDATE ON narrative BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_native_asset_DELETE",
+        "native_asset",
+        "CREATE TRIGGER protect_native_asset_DELETE BEFORE DELETE ON native_asset BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_native_asset_UPDATE",
+        "native_asset",
+        "CREATE TRIGGER protect_native_asset_UPDATE BEFORE UPDATE ON native_asset BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_object_DELETE",
+        "object",
+        "CREATE TRIGGER protect_object_DELETE BEFORE DELETE ON object BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_object_UPDATE",
+        "object",
+        "CREATE TRIGGER protect_object_UPDATE BEFORE UPDATE ON object BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_observation_DELETE",
+        "observation",
+        "CREATE TRIGGER protect_observation_DELETE BEFORE DELETE ON observation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_observation_UPDATE",
+        "observation",
+        "CREATE TRIGGER protect_observation_UPDATE BEFORE UPDATE ON observation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_operation_DELETE",
+        "operation",
+        "CREATE TRIGGER protect_operation_DELETE BEFORE DELETE ON operation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_operation_UPDATE",
+        "operation",
+        "CREATE TRIGGER protect_operation_UPDATE BEFORE UPDATE ON operation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_operation_payload_DELETE",
+        "operation_payload",
+        "CREATE TRIGGER protect_operation_payload_DELETE BEFORE DELETE ON operation_payload BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_operation_payload_UPDATE",
+        "operation_payload",
+        "CREATE TRIGGER protect_operation_payload_UPDATE BEFORE UPDATE ON operation_payload BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_origin_DELETE",
+        "origin",
+        "CREATE TRIGGER protect_origin_DELETE BEFORE DELETE ON origin BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_origin_UPDATE",
+        "origin",
+        "CREATE TRIGGER protect_origin_UPDATE BEFORE UPDATE ON origin BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_participation_DELETE",
+        "participation",
+        "CREATE TRIGGER protect_participation_DELETE BEFORE DELETE ON participation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_participation_UPDATE",
+        "participation",
+        "CREATE TRIGGER protect_participation_UPDATE BEFORE UPDATE ON participation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_person_DELETE",
+        "person",
+        "CREATE TRIGGER protect_person_DELETE BEFORE DELETE ON person BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_person_UPDATE",
+        "person",
+        "CREATE TRIGGER protect_person_UPDATE BEFORE UPDATE ON person BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_place_DELETE",
+        "place",
+        "CREATE TRIGGER protect_place_DELETE BEFORE DELETE ON place BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_place_UPDATE",
+        "place",
+        "CREATE TRIGGER protect_place_UPDATE BEFORE UPDATE ON place BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_question_DELETE",
+        "question",
+        "CREATE TRIGGER protect_question_DELETE BEFORE DELETE ON question BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_question_UPDATE",
+        "question",
+        "CREATE TRIGGER protect_question_UPDATE BEFORE UPDATE ON question BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_record_DELETE",
+        "record",
+        "CREATE TRIGGER protect_record_DELETE BEFORE DELETE ON record BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_record_UPDATE",
+        "record",
+        "CREATE TRIGGER protect_record_UPDATE BEFORE UPDATE ON record BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_record_asset_DELETE",
+        "record_asset",
+        "CREATE TRIGGER protect_record_asset_DELETE BEFORE DELETE ON record_asset BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_record_asset_UPDATE",
+        "record_asset",
+        "CREATE TRIGGER protect_record_asset_UPDATE BEFORE UPDATE ON record_asset BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_record_media_DELETE",
+        "record_media",
+        "CREATE TRIGGER protect_record_media_DELETE BEFORE DELETE ON record_media BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_record_media_UPDATE",
+        "record_media",
+        "CREATE TRIGGER protect_record_media_UPDATE BEFORE UPDATE ON record_media BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_relation_DELETE",
+        "relation",
+        "CREATE TRIGGER protect_relation_DELETE BEFORE DELETE ON relation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_relation_UPDATE",
+        "relation",
+        "CREATE TRIGGER protect_relation_UPDATE BEFORE UPDATE ON relation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_review_request_DELETE",
+        "review_request",
+        "CREATE TRIGGER protect_review_request_DELETE BEFORE DELETE ON review_request BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_review_request_UPDATE",
+        "review_request",
+        "CREATE TRIGGER protect_review_request_UPDATE BEFORE UPDATE ON review_request BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_review_resolution_DELETE",
+        "review_resolution",
+        "CREATE TRIGGER protect_review_resolution_DELETE BEFORE DELETE ON review_resolution BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_review_resolution_UPDATE",
+        "review_resolution",
+        "CREATE TRIGGER protect_review_resolution_UPDATE BEFORE UPDATE ON review_resolution BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_revision_DELETE",
+        "revision",
+        "CREATE TRIGGER protect_revision_DELETE BEFORE DELETE ON revision BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_revision_UPDATE",
+        "revision",
+        "CREATE TRIGGER protect_revision_UPDATE BEFORE UPDATE ON revision BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_search_DELETE",
+        "search",
+        "CREATE TRIGGER protect_search_DELETE BEFORE DELETE ON search BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_search_UPDATE",
+        "search",
+        "CREATE TRIGGER protect_search_UPDATE BEFORE UPDATE ON search BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_source_DELETE",
+        "source",
+        "CREATE TRIGGER protect_source_DELETE BEFORE DELETE ON source BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_source_UPDATE",
+        "source",
+        "CREATE TRIGGER protect_source_UPDATE BEFORE UPDATE ON source BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_transcription_DELETE",
+        "transcription",
+        "CREATE TRIGGER protect_transcription_DELETE BEFORE DELETE ON transcription BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_transcription_UPDATE",
+        "transcription",
+        "CREATE TRIGGER protect_transcription_UPDATE BEFORE UPDATE ON transcription BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+      ],
+      [
+        "trigger",
+        "protect_unit_DELETE",
+        "unit",
+        "CREATE TRIGGER protect_unit_DELETE BEFORE DELETE ON unit BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_unit_UPDATE",
+        "unit",
+        "CREATE TRIGGER protect_unit_UPDATE BEFORE UPDATE ON unit BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+      ],
+      [
+        "trigger",
+        "protect_unit_decision_DELETE",
+        "unit_decision",
+        "CREATE TRIGGER protect_unit_decision_DELETE BEFORE DELETE ON unit_decision BEGIN SELECT RAISE(ABORT,'Konverteringsbeslut är oföränderliga'); END"
+      ],
+      [
+        "trigger",
+        "protect_unit_decision_UPDATE",
+        "unit_decision",
+        "CREATE TRIGGER protect_unit_decision_UPDATE BEFORE UPDATE ON unit_decision BEGIN SELECT RAISE(ABORT,'Konverteringsbeslut är oföränderliga'); END"
+      ],
+      [
+        "trigger",
+        "protect_unit_decision_target_DELETE",
+        "unit_decision_target",
+        "CREATE TRIGGER protect_unit_decision_target_DELETE BEFORE DELETE ON unit_decision_target BEGIN SELECT RAISE(ABORT,'Konverteringsmål är oföränderliga'); END"
+      ],
+      [
+        "trigger",
+        "protect_unit_decision_target_UPDATE",
+        "unit_decision_target",
+        "CREATE TRIGGER protect_unit_decision_target_UPDATE BEFORE UPDATE ON unit_decision_target BEGIN SELECT RAISE(ABORT,'Konverteringsmål är oföränderliga'); END"
+      ],
+      [
+        "view",
+        "current_participation",
+        "current_participation",
+        "CREATE VIEW current_participation AS\n  SELECT r.object_id,r.version,r.disposition,r.evidence_status,r.caveat,p.*\n  FROM current_revision r JOIN participation p ON p.revision_id=r.id"
+      ],
+      [
+        "view",
+        "current_relation",
+        "current_relation",
+        "CREATE VIEW current_relation AS\n  SELECT r.object_id,r.version,r.disposition,r.evidence_status,r.caveat,p.*\n  FROM current_revision r JOIN relation p ON p.revision_id=r.id"
+      ],
+      [
+        "view",
+        "current_revision",
+        "current_revision",
+        "CREATE VIEW current_revision AS\n  SELECT r.*,o.kind FROM revision r JOIN object o ON o.id=r.object_id\n  WHERE NOT EXISTS(SELECT 1 FROM revision newer WHERE newer.object_id=r.object_id AND newer.version>r.version)"
+      ],
+      [
+        "view",
+        "current_unit_decision",
+        "current_unit_decision",
+        "CREATE VIEW current_unit_decision AS SELECT d.* FROM unit_decision d\n  WHERE NOT EXISTS(SELECT 1 FROM unit_decision newer WHERE newer.unit_id=d.unit_id AND newer.version>d.version)"
+      ],
+      [
+        "view",
+        "current_unit_target",
+        "current_unit_target",
+        "CREATE VIEW current_unit_target AS\n  SELECT d.unit_id,d.id AS decision_id,d.target_id FROM current_unit_decision d WHERE d.target_id IS NOT NULL\n  UNION\n  SELECT d.unit_id,d.id AS decision_id,t.target_id FROM current_unit_decision d\n  JOIN unit_decision_target t ON t.decision_id=d.id"
+      ],
+      [
+        "view",
+        "pending_review",
+        "pending_review",
+        "CREATE VIEW pending_review AS\n  SELECT q.* FROM review_request q WHERE NOT EXISTS(SELECT 1 FROM review_resolution s WHERE s.request_id=q.id)"
+      ]
+    ],
+    "tables": {
+      "assessment": {
+        "rows": 23906,
+        "sha256": "f90c46c655c50de6d1a1d464e78b510c09b715dd68c374c43f7b4d5ab5f35b53"
+      },
+      "asset": {
+        "rows": 5067,
+        "sha256": "a2e2d3612213d2e43faac9d8241f6df066f9de1d08fbe6b9aa242b692b5b6edf"
+      },
+      "dependency": {
+        "rows": 40567,
+        "sha256": "c42214b633c4dc3d166e8dc64d8628c24d1e72cd0f2c5d1132aefbc3a48fd9a3"
+      },
+      "document": {
+        "rows": 3717,
+        "sha256": "b75d148da3cf79c972c70744cf648939063181168ffc027b105a3a1589c924b7"
+      },
+      "document_search": {
+        "rows": 3717,
+        "sha256": "1f7e3c645aed3a54ac11b91a0b447047c0c1931c1b3a87f6d8fa9e5690c390a6"
+      },
+      "document_search_config": {
+        "rows": 1,
+        "sha256": "7d6af8d5f3a5b7959afb40dd2dcc5bb8a3f5737f06e0e5f0b9b4fda81e65f1f5"
+      },
+      "document_search_content": {
+        "rows": 3717,
+        "sha256": "07557b1faa11539567e6828d3280ce5df244126b9eabec074f1eff3719410068"
+      },
+      "document_search_data": {
+        "rows": 4239,
+        "sha256": "c9c0d155be7449c2b0e9f91c68499d343d4cdc603ea1ba255bd01c071b325e03"
+      },
+      "document_search_docsize": {
+        "rows": 3717,
+        "sha256": "190dc4ddd52b6ff60ecffddd7acda1f06942bfc6783629c49bef0f679a517707"
+      },
+      "document_search_idx": {
+        "rows": 4446,
+        "sha256": "a80085bf0bd7d60511bfef0796448f196ec1b0c655b0da050bceb10ab12ada05"
+      },
+      "event": {
+        "rows": 1539,
+        "sha256": "f5426b57b835b9de5f0f2537e743a36c4af233542dbb7b53ea11e2982d4c701e"
+      },
+      "fact": {
+        "rows": 3717,
+        "sha256": "e934a6a5c49f4ecae26880c57166503b9424ff835fb008bf5c39c28a6dfd2d2b"
+      },
+      "identity": {
+        "rows": 1865,
+        "sha256": "28ac0a74a0fc5c45d577b134e9cfba9451af6162cd0cea9338644682dc1feb93"
+      },
+      "identity_resolution": {
+        "rows": 11,
+        "sha256": "ec2df1450fb57882ca73f22c9b711eadd06115c39b4d087ffa849b1e9451dd9f"
+      },
+      "import_batch": {
+        "rows": 1,
+        "sha256": "18f899daf061895bce0aaef3a9258f46b6a77df09cae0f9ef4962b5698c745bb"
+      },
+      "legacy_assertion": {
+        "rows": 5130,
+        "sha256": "3c7bb9f6d864cf337e8cab341720ad1419aa043fb71d429ebb54ddc83c2c717a"
+      },
+      "legacy_entity": {
+        "rows": 2992,
+        "sha256": "80d6979662ab3e44a6c68e6df627859d8b3486aec486955782759fbaff29990b"
+      },
+      "legacy_mapping": {
+        "rows": 539,
+        "sha256": "a2ac3d9a65e1104b79a9a332a148d4e2c90d92d93305f93fb4c6d13be19610e2"
+      },
+      "mention": {
+        "rows": 2593,
+        "sha256": "c204200366a676e3f1ed1df3144ffa366246a66aaabf8af61644908d10fd5def"
+      },
+      "meta": {
+        "rows": 1,
+        "sha256": "aba4fd9e74a26d8889dd8f6018a4c71a833632374c54183310ae0b2b47a73ebc"
+      },
+      "narrative": {
+        "rows": 786,
+        "sha256": "c5ab25e045f6bc8f2f3f558f00cb3fa16a371e9f0c7638223e9539009d831a8d"
+      },
+      "native_asset": {
+        "rows": 62,
+        "sha256": "f83feade01ea83e67346100fd78b78eb69932b4ad8030d194d038bacb84e5b06"
+      },
+      "object": {
+        "rows": 44401,
+        "sha256": "3e0a00adca39122ddf543c0a137720ffb011c4302e3481f96f3e122f6ceec1d5"
+      },
+      "object_search": {
+        "rows": 44401,
+        "sha256": "f02864f73d88d726c19fb91ea670dbe14060036de81bd3f8cf25d2f449193e6e"
+      },
+      "object_search_config": {
+        "rows": 1,
+        "sha256": "7d6af8d5f3a5b7959afb40dd2dcc5bb8a3f5737f06e0e5f0b9b4fda81e65f1f5"
+      },
+      "object_search_content": {
+        "rows": 44401,
+        "sha256": "28913492d814e981c92110549bcddf0e214e8cd4305352de38a31f594b95cce3"
+      },
+      "object_search_data": {
+        "rows": 7434,
+        "sha256": "32fd710ec097bc5170d50528da4eb23cd70b0bd10137f2af8c565a21c685f91f"
+      },
+      "object_search_docsize": {
+        "rows": 44401,
+        "sha256": "8151e5badfcca7f17a0534acfaac86e691b83d595b98fb81e6a650f3f7d3b453"
+      },
+      "object_search_idx": {
+        "rows": 5077,
+        "sha256": "6623e9837898bc56b939b610a3d89d4f33933f395fb7387946a9c0826ac25a85"
+      },
+      "observation": {
+        "rows": 3577,
+        "sha256": "74495becaab16bcc93b880db4396aef7d3a286d7d4e45d3c8dedd5fb4e9d30b7"
+      },
+      "operation": {
+        "rows": 466,
+        "sha256": "11c731e2dfd7e27cb832566937006bc8c6f0e6b0958917d1d761b1395aa2adec"
+      },
+      "operation_payload": {
+        "rows": 465,
+        "sha256": "64e2ebb412da5798876edad8504682478ece1d98569ae537c9b9835b9daab12e"
+      },
+      "origin": {
+        "rows": 100341,
+        "sha256": "2cdd841f8be8602a2f28045394014720aca273be4fc2e2d73960735c5788f056"
+      },
+      "participation": {
+        "rows": 2568,
+        "sha256": "44438711e26b32f7d5149f69955d0cef5c5a26652b6dbf122c38fafa2e7c6f60"
+      },
+      "person": {
+        "rows": 1108,
+        "sha256": "ca23a384244b20c9e77cbc40f143136752bb393a2e7d8406eba6f63636209add"
+      },
+      "place": {
+        "rows": 21,
+        "sha256": "d5fb8d8697e5f0cde8e5da229ee1f57608cbb7088205de329f84a45ea16e1259"
+      },
+      "question": {
+        "rows": 1580,
+        "sha256": "34ac3fbd56687853c409a78d88ff1c9ee7d2e0365891dae2ce90316e305f8e37"
+      },
+      "record": {
+        "rows": 2127,
+        "sha256": "231c95ea696a6da08f345be1b411a4307f0c889f2f90373ec4b94bd2568f812d"
+      },
+      "record_asset": {
+        "rows": 1530,
+        "sha256": "7976dd98b0689ca8f3d12d40e55b77d93d6feef23ec077046e62172c61290732"
+      },
+      "record_media": {
+        "rows": 67,
+        "sha256": "bbb9b0f85937c42f6e63e418ec5238742d53a659538d83baf11cc5d7b00e616b"
+      },
+      "relation": {
+        "rows": 1704,
+        "sha256": "b4bdc7debafcf2a2bd18e9d5c5d38af3795eb945b51f9e5fbb9f97a4c057a4e8"
+      },
+      "review_request": {
+        "rows": 6922,
+        "sha256": "be5b322736d33176e0dab50fc3934aff2ee0216a8f9ff2615b1b821a8348fa41"
+      },
+      "review_resolution": {
+        "rows": 6916,
+        "sha256": "adc021232385404d289ad4757e4c4050917499b9a1fae613fa299f43b162e7c8"
+      },
+      "revision": {
+        "rows": 49643,
+        "sha256": "98d3eb6f2754432487158ebd69823003f597a90a0fc1e7b77b99afc8c346c44d"
+      },
+      "search": {
+        "rows": 464,
+        "sha256": "95f195ea8851b43f550184ee523fa3d654337ac9648987d625a3c5f665e3cd04"
+      },
+      "source": {
+        "rows": 859,
+        "sha256": "15bd01d69ef3619325361efb76d87e1ac79dd5a57872f96ad146f8202d073994"
+      },
+      "transcription": {
+        "rows": 1218,
+        "sha256": "20019e1676e127425aee72fd8038e4655c23dd6b27c0b63626b2194f4ad80cf8"
+      },
+      "unit": {
+        "rows": 97854,
+        "sha256": "f63644a948a16c6c0901f8e48aeff1c24fb6c4ed98892c7be4c7208558c8053e"
+      },
+      "unit_decision": {
+        "rows": 97905,
+        "sha256": "858e07f3bed4bff05660bec59c0cfa97ff4cf9104e7e7e23bf5856ef07ef9ace"
+      },
+      "unit_decision_target": {
+        "rows": 81238,
+        "sha256": "72d69dbd4705404cdd8d6466da8801541a7249d33f749e5ad038f42831818424"
+      }
+    },
+    "ordered_native_arrays": {
+      "origin": "f3309eba43b0a86108b6e8b1f2b79bdb975e5f5c5d7bae794429e8a7b9a6b15e",
+      "dependency": "3e328a8f75ce81cd36ef043b70af3c7b6fc5f191f6a25dc81850853fe22ca55b",
+      "record_asset": "fcf1aae0b19f7347d213c37af05436dc23e5a2121acf123f973bd94edf546fcf",
+      "record_media": "1349a9c74a53c05d4d8016781c2a0cff8137d6936bbf972ecdd5df3348100189"
+    }
+  },
+  "affected_full_native": {
+    "ASSESSMENT-T0790-P0005-life@1": {
+      "id": "ASSESSMENT-T0790-P0005-life@1",
+      "object_id": "ASSESSMENT-T0790-P0005-life",
+      "version": 1,
+      "operation_id": "T0790-existing-material-life-six-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "T0790 AC1–4: egen individuell prövning av fem PK och tio teman med accepterat återbruk, aktuella källgränser och personbunden dataminimering.",
+      "caveat": "Ingen ny original-, katalog- eller nätläsning. Personbundna tids-/plats-/fältgränser, gemensamma uppgiftsled och prövade råreservationer består. Denna granskning gäller endast livsbildsnivån.",
+      "previous_id": null,
+      "kind": "assessment",
+      "data": {
+        "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+        "subject_id": "P-0005",
+        "criteria": "life_picture_review/1",
+        "outcome": "failed",
+        "body": "T-0790 individuell livsbildsgranskning 2026-10-06; endast accepterat befintligt underlag.\n\nARB — INTEGRITETSMINIMERAT. Egna minnen och2011krönika ger daterad skol-/yrkessekvens; institutionella primärkällor är inte lästa.\nBO — INTEGRITETSMINIMERAT. Flen/Södertälje1938–1947 återbrukas med42/40 och sigelreservationer.1948–1970 är oläst, inte noll; bokföring är inte obruten fysisk vistelse.\nEKO — INTEGRITETSMINIMERAT. Faderns oavgjorda blyertsord affär/delägare får inte tillskrivas sonen. Current@2 reservation är redan korrekt.\nHAL — INTEGRITETSMINIMERAT. Ingen egen hälsoinformation; faderns dödsorsaksbedömning gäller fadern. Privat minimering består.\nID — INTEGRITETSMINIMERAT. År/Flen och föräldra-/familjekedja återbrukas; exakta privata födelsedagen återförs inte. Råmånad2/7 i Tranbäret harmoniseras inte.\nMIL — INTEGRITETSMINIMERAT. Egna15månadersminnet vid I1/T4 bevaras som minne; inga exakta in-/utdatum eller yrkesmilitärstatus.\nPER — INTEGRITETSMINIMERAT. Krönika, brev och två barnbilder återbrukas; Flen1943bildens begränsade datering och gemensam informant består.\nREL — INTEGRITETSMINIMERAT. Rättar tre syskon och äldre systrar till två yngre systrar enligt krönika och native relationer; övriga bevarade anhöriga består. Rättar faktiskt felräknade och felåldersordnade syskon i aktuell tematext; två yngre systrar följer redan accepterat familjeunderlag. Starkare befintligt moderskapsstöd återbrukas.\nSAM — INTEGRITETSMINIMERAT. Konsoliderar redan accepterad dopnot1941-11-16; tidigare endast-hushåll/nation är för snävt. Ingen nutida tro sluts. Starkare redan accepterad dopnot saknas bakom temats felaktiga endast-formulering.\nSYN — INTEGRITETSMINIMERAT. BIO kompletteras med redan accepterat dopankare. Övrig daterad minnessekvens återbrukas utan kontinuerligt vuxenboende.\nPK-03 — STYRKT. Befintlig kronologi är tillräcklig inom minimeringen efter dopankarets konsolidering; PK08 separat underkänd. Kompletterar konsoliderad kronologi med redan accepterat dopankare; bevarar sakligt STYRKT inom dataminimerat livslinjeomfång, inte full livsbildspass.\nPK-04 — STYRKT. Tolv äldre relationsankare återbrukas, med två yngre systrar och korrekt hushållsroll; ingen ny person skapas. Aktuellt starkare moderskapsstöd konsolideras; gammal kropp sade två systrar, inte äldre.\nPK-06 — STYRKT. Tio personbundna bedömningar återbrukas med REL/SAM-korrigering; ingen fullnivå från antal.\nPK-08 — EJ STYRKT. Current@2 EJ STYRKT genom uttryckligtPCD029 är gällande; T0034:s äldre fem-undantag är inte norm.\nPK-10 — STYRKT. Källkritisk korrigerad BIO-P-0005@3 bär berättelsen; dopankare läggs till utan nya sakfakta,42/40 och råreservationer består.\n\nSlututfall: failed. PCD2026-09-09-029:s exakta obligatoriska K09-passage för denna person återstår hos T-0034; dataminimering gör den inte utförd. Återöppna berörda bedömningar vid relevant ny accepterad evidens, verifierad specifik åtkomstgräns eller uttrycklig ändring av personomfånget. Identitet, trädverkan, OWNER_CONFIRMED och accepterade relationer består. Legacy helkontraktsgranskning behåller historiskt omfång; task DONE är inte personpass."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "R-31ddf6090af32ffa30920ac9@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "R-2989c302482c679b7fa007d7@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "AUDIT-T0675-sodertalje-tranbaret@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "AUDIT-T0675-sodertalje-gondolen@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "TR-717e9c73524962d14b10314c@2",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "BIO-P-0005@3",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "CONTRACT-P-0005-PK-08@2",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "THEME-P-0005-ARB@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "THEME-P-0005-BO@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "THEME-P-0005-EKO@2",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "THEME-P-0005-HAL@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "THEME-P-0005-ID@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "THEME-P-0005-MIL@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "THEME-P-0005-PER@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "THEME-P-0005-REL@2",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "THEME-P-0005-SAM@2",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "THEME-P-0005-SYN@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "CONTRACT-P-0005-PK-03@2",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "CONTRACT-P-0005-PK-04@2",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "CONTRACT-P-0005-PK-06@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "CONTRACT-P-0005-PK-10@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "REL-sibling-P-0005-P-0303@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "REL-sibling-P-0005-P-0304@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "O-P-0005-sibling-P-0303@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "O-P-0005-sibling-P-0304@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "REL-parent-P-0007-P-0005@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "E-baptism-P-0005@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "TR-bd156a2627a87db06628621f@2",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        },
+        {
+          "revision_id": "ASSESSMENT-T0790-P0005-life@1",
+          "basis_revision_id": "F-P-0005-education-uppsala1960@1",
+          "role": "supports",
+          "note": "T0790 individuell livsbildsprövning; exakt aktuell accepterad eller i detta paket beslutad revision, ingen ny oberoende källröst."
+        }
+      ]
+    },
+    "RESEARCH-P-0304-9d76f0343410@2": {
+      "id": "RESEARCH-P-0304-9d76f0343410@2",
+      "object_id": "RESEARCH-P-0304-9d76f0343410",
+      "version": 2,
+      "operation_id": "T0790-final-three-semantic-consequence-amendments-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+      "caveat": "Hela akten och profilen samt C-0262/0266/0267/0876/0882/0884/0885/0895 är lästa. Egna registerrader hålls åtskilda från familjeminne, oläst mantalsoriginal och namn i aktens rubrik. Full födelsedag fylls inte ut. O’Donnell är ännu obelagt. DNA-berättelsens Ann-Christine Jansson kvarstår som kandidat och ger ingen genetisk släktkant. Profilens äldre parkering av T-0034 bevaras som historiskt forskningsläge; PCD-2026-09-09-029 öppnade nätvägen generellt, men denna migration genomför ingen sådan forskning.\n\nT-0790 slutlig semantisk följdrättelse: Avlägsnar felaktig generell syskonjämförelse med P0005; den egna relations-/identitetsbedömningen ändras inte. Övrig källreservation och historisk lydelse behålls; ingen ny källåtkomst, relation eller identitets-/trädgrind beslutas.",
+      "previous_id": "RESEARCH-P-0304-9d76f0343410@1",
+      "kind": "assessment",
+      "data": {
+        "revision_id": "RESEARCH-P-0304-9d76f0343410@2",
+        "subject_id": "P-0304",
+        "criteria": "legacy_profile_section/Identitetsbedömning",
+        "outcome": "recorded",
+        "body": "## Identitetsbedömning\n\nAnn-Christine är yngsta barnet i ett hushåll som projektet har läst i original\npå fyra fastigheter. Broderns släktkrönika namnger henne som född 1945 och\nkallad Tine ([C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md)),\noch hans minnesbrev preciserar månaden till oktober\n([C-0267](../citations/C-0267-jan-christer-minnen-flen-sodertalje.md)).\nSödertäljes kvartersregister 1943–1947 för henne på sin egen rad som\n`d. Ann-Christine`, född 1945 med födelseförsamlingen `Stadsf.`, på bladen för\nGondolen 2 och Tranbäret 1\n([C-0884](../citations/C-0884-jansson-kvartersregister-sodertalje-1943-1947.md)).\nRegistrets `d.` binder henne uttryckligen till hushållshuvudet Arne, medan\nmodern står som `h.f.`; denna persons moderskapsbedömning behåller sin befintliga hushållsbegränsning. Den begränsningen får inte överföras till brodern P-0005: hans aktuella relation REL-parent-P-0007-P-0005@1 är redan CORROBORATED med senare Flenunderlag enligt T-0150. H.f.-rollen ensam räcker fortfarande inte. Ingen motsvarande uppgradering av Ann-Christines egen relation görs här. Att hon saknas på det äldre Mejselnbladet är förenligt\nmed födelseåret men är i sig ingen självständig uppgift. Födelseförsamlingen\nsäger var födelsen är bokförd, inte att den skedde i huset — den preciseringen\ngjordes redan i citationens tillägg från T-0123.\n\nIngen konkurrerande identitet finns i projektet, och två källled — familjens\noch registrets — ger samma namn, år och hushåll.\n\nEn tidigare granskning har påpekat att DNA-avsnittet i\n[C-0262](../citations/C-0262-lars-mansson-till-eliaeson-janson-kedja.md)\nnamnger en `Ann-Christine Jansson` utan att denna akt är kopplad till källan.\nIdentifieringen har prövats här och redovisas i Q-01: den är stödd men inte\nbekräftad, och den är införd som `LEAD` i A-5164 utan att bära någon relation\neller något släktled.\n\nLiksom hos systern kvarstår ett fel som är aktens eget. Efternamnsformen\n**O'Donnell** förekommer i hela repositoriet endast i denna akts rubrik och\nfilnamn samt i hänvisningsraderna i P-0003, P-0005, P-0007 och P-0303 — aldrig\ni en citation, en källakt, en forskningslogg eller ett Project Control-beslut.\nFormen är alltså en oprovenienserad uppgift i personens egen identifierare, och\nvarken förälders eller makes namn bevisar personens eget namn. Detta är grunden\nför att PK-11 står `EJ STYRKT` och att identitetsnivån är `UNDERKÄND` trots att\npersonankaret är prövat. `Identitetsläge` är `PRÖVAT`, eftersom vem hon är\nfaktiskt är avgjort; `Trädverkan` står `AVVAKTAR` enligt kontraktets grindregel.\nSe Q-02.\n\n"
+      },
+      "origins": [
+        {
+          "revision_id": "RESEARCH-P-0304-9d76f0343410@2",
+          "unit_id": "31e9b3039bfe07e5bfd659750a2f89b0f39f83038e45a4a39d0b43632766fddd",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "RESEARCH-P-0304-9d76f0343410@2",
+          "basis_revision_id": "REL-parent-P-0007-P-0005@1",
+          "role": "supports",
+          "note": "T-0790: Avlägsnar felaktig generell syskonjämförelse med P0005; den egna relations-/identitetsbedömningen ändras inte."
+        }
+      ]
+    },
+    "RESEARCH-P-0303-9d76f0343410@3": {
+      "id": "RESEARCH-P-0303-9d76f0343410@3",
+      "object_id": "RESEARCH-P-0303-9d76f0343410",
+      "version": 3,
+      "operation_id": "T0790-final-three-semantic-consequence-amendments-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Den egna identitetsbedömningen behålls: ankomst132 namnger inte dottern. Blyerts38/40 har v-/pil-liknande osäkra sluttecken, inte säkerställda nedåtpilar. Ingen ny namnbindning, moderskapsart eller full födelsedag sluts.",
+      "caveat": "Den egna identitetsbedömningen behålls: ankomst132 namnger inte dottern. Blyerts38/40 har v-/pil-liknande osäkra sluttecken, inte säkerställda nedåtpilar. Ingen ny namnbindning, moderskapsart eller full födelsedag sluts.\n\nÄldre förbehåll, historisk lydelse; ovanstående precisering gäller aktuellt:\nHela akten och profilen samt C-0262/0266/0267/0876/0882/0884/0885/0895 är lästa. Egna registerrader hålls åtskilda från familjeminne, oläst mantalsoriginal och namn i aktens rubrik. Full födelsedag fylls inte ut. Bratt är ännu obelagt; dopnoteringen återbrukas. Profilens äldre parkering av T-0034 bevaras som historiskt forskningsläge; PCD-2026-09-09-029 öppnade nätvägen generellt, men denna migration genomför ingen sådan forskning.\n\nT-0790 slutlig semantisk följdrättelse: Preciserar historisk syskonjämförelse mot starkare nuvarande P0005-stöd utan att ompröva Anitas eget moderskap eller identitetsgrind. Övrig källreservation och historisk lydelse behålls; ingen ny källåtkomst, relation eller identitets-/trädgrind beslutas.",
+      "previous_id": "RESEARCH-P-0303-9d76f0343410@2",
+      "kind": "assessment",
+      "data": {
+        "revision_id": "RESEARCH-P-0303-9d76f0343410@3",
+        "subject_id": "P-0303",
+        "criteria": "legacy_profile_section/Identitetsbedömning",
+        "outcome": "recorded",
+        "body": "T-0675 aktuell precisering: Den egna identitetsbedömningen behålls: ankomst132 namnger inte dottern. Blyerts38/40 har v-/pil-liknande osäkra sluttecken, inte säkerställda nedåtpilar. Ingen ny namnbindning, moderskapsart eller full födelsedag sluts.\n\nT-0790 aktuell avgränsning av syskonjämförelsen: Brodern P-0005:s relation REL-parent-P-0007-P-0005@1 är redan CORROBORATED med senare Flenunderlag enligt T-0150. Den äldre jämförelsen nedan om samma moderskapsgräns för brodern beskriver därför inte hans aktuella relation. Anitas egen relation och identitetsbedömning får ingen ny status här; h.f. ensam är fortsatt inget uttryckligt moderskapsbelägg.\n\nÄldre text, bevarad som historiskt forskningsläge; berörda formuleringar ersätts ovan:\n## Identitetsbedömning\n\nAnita är säkert placerad som dotter i ett hushåll som projektet har läst i\noriginal på fyra fastigheter och i två församlingar. Broderns släktkrönika\nnamnger henne som född 1940\n([C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md)), och\ntre myndighetsposter för henne på sin egen rad: Flens församlingsbok\n1940–1943, uppslag 720, som `d. May Anita`, född 1940 i Flen\n([C-0895](../citations/C-0895-jansson-flen-johansborg-uppslag-720-utflyttning-1943.md)),\noch Södertäljes kvartersregister 1943–1947 med samma dotterrad på Mejseln 3,\nGondolen 2 och Tranbäret 1\n([C-0884](../citations/C-0884-jansson-kvartersregister-sodertalje-1943-1947.md)).\nRegistrens `d.` binder henne uttryckligen till hushållshuvudet Arne. Modern\nMaj Amalia står som `h.f.` och inte som barnets angivna mor, varför\nmoderskapet stannar vid hushållsslutsats — samma gräns som gäller för\nbrodern [P-0005](../people/P-0005-jan-christer-janson.md).\n\nSödertäljes inflyttningslängd namnger henne inte utan för hushållet som två\nmän och två kvinnor med blyertsnoteringen `38 ↓ 40 ↓`\n([C-0882](../citations/C-0882-arne-godvig-inflyttning-sodertalje-1943.md)).\nDen raden är förenlig med henne men är inget eget namnbelägg och används inte\nsom sådant. Ingen konkurrerande identitet finns i projektet: ingen annan\nperson född 1940 i Flen förekommer i detta eller något närliggande hushåll.\n\nEtt identitetsfel kvarstår ändå, och det är aktens eget. Efternamnsformen\n**Bratt** förekommer i hela repositoriet endast i denna akts rubrik och\nfilnamn samt i hänvisningsraderna i P-0003, P-0005, P-0007 och P-0304 —\naldrig i en citation, en källakt, en forskningslogg eller ett Project\nControl-beslut. Formen är alltså en oprovenienserad uppgift i personens egen\nidentifierare. Den är sannolikt ett senare buret namn som lämnats muntligt,\nmen det är en hypotes, och varken förälders eller makes namn bevisar\npersonens eget namn. Detta är grunden för att PK-11 står `EJ STYRKT` och att\nidentitetsnivån är `UNDERKÄND` trots att själva personankaret är prövat.\n`Identitetsläge` är `PRÖVAT`, eftersom vem hon är faktiskt är avgjort;\n`Trädverkan` står `AVVAKTAR` i enlighet med kontraktets grindregel. Se Q-01.\n\n"
+      },
+      "origins": [
+        {
+          "revision_id": "RESEARCH-P-0303-9d76f0343410@3",
+          "unit_id": "17cc776d2eb85df0edae0cff3403e78cc8032e86622414b26043a80d1d60f7fb",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "RESEARCH-P-0303-9d76f0343410@3",
+          "basis_revision_id": "TR-T0675-SF-4@1",
+          "role": "supports",
+          "note": "Full egen post med explicita råreservationer och två låsta läsningar."
+        },
+        {
+          "revision_id": "RESEARCH-P-0303-9d76f0343410@3",
+          "basis_revision_id": "REL-parent-P-0007-P-0005@1",
+          "role": "supports",
+          "note": "T-0790: Preciserar historisk syskonjämförelse mot starkare nuvarande P0005-stöd utan att ompröva Anitas eget moderskap eller identitetsgrind."
+        }
+      ]
+    },
+    "CONTRACT-P-0005-PK-04@2": {
+      "id": "CONTRACT-P-0005-PK-04@2",
+      "object_id": "CONTRACT-P-0005-PK-04",
+      "version": 2,
+      "operation_id": "T0790-existing-material-life-six-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+      "caveat": "Hela akten 1–317 och profilen 1–217 är lästa inklusive T0150 och PK08:s senare PCD2026-09-09-029. Den accepterade personen hålls skild från juli-minne, kvarvarande husnummerkonflikt och DNA-LEAD. Faderskapets senare CORROBORATED i A0024 styr gemensam kant; moderns h.f.-roll uppgraderar inte moderskapet. Två egna texter är inte två oberoende uppgiftslämnare. Bilddateringen Flen1943 är reserverad. Birthday-vägen är senare aktiverad trots äldre profiltext; ingen ny sökning görs.\n\nT-0790 2026-10-06: Aktuellt starkare moderskapsstöd konsolideras; gammal kropp sade två systrar, inte äldre. Endast accepterat återbruk; ingen ny original-, katalog- eller nätläsning. Äldre motsägande formulering inom exakt rättat fält är överspelad, men råreservationer och historiska granskningsomfång består.",
+      "previous_id": "CONTRACT-P-0005-PK-04@1",
+      "kind": "assessment",
+      "data": {
+        "revision_id": "CONTRACT-P-0005-PK-04@2",
+        "subject_id": "P-0005",
+        "criteria": "legacy_person_contract/PK-04",
+        "outcome": "STYRKT",
+        "body": "PK-04 STYRKT inom personbundet integritetsminimerat omfång. Tolv bevarade relationsankare med belägg, tid och P-id återbrukas. Fadern och modern har redan CORROBORATED relationer; moderns starkare Flenunderlag väger utöver Södertäljeregistrets h.f.-roll, som ensam inte fastställer moderskap. De två namngivna systrarna P-0303 (1940, Flen) och P-0304 (1945, Södertälje) är yngre än Jan-Christer (1938); krönikans tre barn inkluderar honom. Detta gör ingen ny helsyskoninferens eller uttömmande utsaga om alla möjliga syskon. Halvfaster- och farföräldraleden behåller sin tidigare källkontext. Inga nya relationskanter eller privata nätverk tillförs."
+      },
+      "origins": [
+        {
+          "revision_id": "CONTRACT-P-0005-PK-04@2",
+          "unit_id": "2ec6a9eaf7bb9ce26eba6f8afdbd4a0cb10d6967e8ddec47fc194b8e43c3fce7",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "CONTRACT-P-0005-PK-04@2",
+          "basis_revision_id": "O-P-0005-sibling-P-0303@1",
+          "role": "supports",
+          "note": "T-0790: Aktuellt starkare moderskapsstöd konsolideras; gammal kropp sade två systrar, inte äldre."
+        },
+        {
+          "revision_id": "CONTRACT-P-0005-PK-04@2",
+          "basis_revision_id": "O-P-0005-sibling-P-0304@1",
+          "role": "supports",
+          "note": "T-0790: Aktuellt starkare moderskapsstöd konsolideras; gammal kropp sade två systrar, inte äldre."
+        },
+        {
+          "revision_id": "CONTRACT-P-0005-PK-04@2",
+          "basis_revision_id": "REL-parent-P-0007-P-0005@1",
+          "role": "supports",
+          "note": "T-0790: Aktuellt starkare moderskapsstöd konsolideras; gammal kropp sade två systrar, inte äldre."
+        },
+        {
+          "revision_id": "CONTRACT-P-0005-PK-04@2",
+          "basis_revision_id": "R-31ddf6090af32ffa30920ac9@1",
+          "role": "supports",
+          "note": "T-0790: Aktuellt starkare moderskapsstöd konsolideras; gammal kropp sade två systrar, inte äldre."
+        }
+      ]
+    },
+    "THEME-P-0005-REL@2": {
+      "id": "THEME-P-0005-REL@2",
+      "object_id": "THEME-P-0005-REL",
+      "version": 2,
+      "operation_id": "T0790-existing-material-life-six-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+      "caveat": "Hela akten 1–317 och profilen 1–217 är lästa inklusive T0150 och PK08:s senare PCD2026-09-09-029. Den accepterade personen hålls skild från juli-minne, kvarvarande husnummerkonflikt och DNA-LEAD. Faderskapets senare CORROBORATED i A0024 styr gemensam kant; moderns h.f.-roll uppgraderar inte moderskapet. Två egna texter är inte två oberoende uppgiftslämnare. Bilddateringen Flen1943 är reserverad. Birthday-vägen är senare aktiverad trots äldre profiltext; ingen ny sökning görs.\n\nT-0790 2026-10-06: Rättar faktiskt felräknade och felåldersordnade syskon i aktuell tematext; två yngre systrar följer redan accepterat familjeunderlag. Starkare befintligt moderskapsstöd återbrukas. Endast accepterat återbruk; ingen ny original-, katalog- eller nätläsning. Äldre motsägande formulering inom exakt rättat fält är överspelad, men råreservationer och historiska granskningsomfång består.",
+      "previous_id": "THEME-P-0005-REL@1",
+      "kind": "assessment",
+      "data": {
+        "revision_id": "THEME-P-0005-REL@2",
+        "subject_id": "P-0005",
+        "criteria": "legacy_theme/REL",
+        "outcome": "INTEGRITETSMINIMERAT",
+        "body": "Föräldrarna, två yngre systrar (P-0303 och P-0304), farföräldrar, två fastrar, hustru och tre söner är bevarade med källkontext. C-0266 namnger familjens tre barn inklusive Jan-Christer; han har därmed två namngivna systrar, inte tre syskon. Moderns redan CORROBORATED relation stöds av senare accepterat Flenunderlag; h.f. ensam visar inte moderskap. Registerroller hålls skilda från relationernas biologiska/rättsliga art. Egna vänner, kolleger och nutida hushåll samlas inte inom den personbundna dataminimeringen. Ingen relationskant ändras."
+      },
+      "origins": [
+        {
+          "revision_id": "THEME-P-0005-REL@2",
+          "unit_id": "bbc435150ba52a409a2d086784b503b6587ed807d43404ef5a856698cc076909",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "THEME-P-0005-REL@2",
+          "basis_revision_id": "R-31ddf6090af32ffa30920ac9@1",
+          "role": "supports",
+          "note": "T-0790: Rättar faktiskt felräknade och felåldersordnade syskon i aktuell tematext; två yngre systrar följer redan accepterat familjeunderlag. Starkare befintligt moderskapsstöd återbrukas."
+        },
+        {
+          "revision_id": "THEME-P-0005-REL@2",
+          "basis_revision_id": "REL-sibling-P-0005-P-0303@1",
+          "role": "supports",
+          "note": "T-0790: Rättar faktiskt felräknade och felåldersordnade syskon i aktuell tematext; två yngre systrar följer redan accepterat familjeunderlag. Starkare befintligt moderskapsstöd återbrukas."
+        },
+        {
+          "revision_id": "THEME-P-0005-REL@2",
+          "basis_revision_id": "REL-sibling-P-0005-P-0304@1",
+          "role": "supports",
+          "note": "T-0790: Rättar faktiskt felräknade och felåldersordnade syskon i aktuell tematext; två yngre systrar följer redan accepterat familjeunderlag. Starkare befintligt moderskapsstöd återbrukas."
+        },
+        {
+          "revision_id": "THEME-P-0005-REL@2",
+          "basis_revision_id": "O-P-0005-sibling-P-0303@1",
+          "role": "supports",
+          "note": "T-0790: Rättar faktiskt felräknade och felåldersordnade syskon i aktuell tematext; två yngre systrar följer redan accepterat familjeunderlag. Starkare befintligt moderskapsstöd återbrukas."
+        },
+        {
+          "revision_id": "THEME-P-0005-REL@2",
+          "basis_revision_id": "O-P-0005-sibling-P-0304@1",
+          "role": "supports",
+          "note": "T-0790: Rättar faktiskt felräknade och felåldersordnade syskon i aktuell tematext; två yngre systrar följer redan accepterat familjeunderlag. Starkare befintligt moderskapsstöd återbrukas."
+        },
+        {
+          "revision_id": "THEME-P-0005-REL@2",
+          "basis_revision_id": "REL-parent-P-0007-P-0005@1",
+          "role": "supports",
+          "note": "T-0790: Rättar faktiskt felräknade och felåldersordnade syskon i aktuell tematext; två yngre systrar följer redan accepterat familjeunderlag. Starkare befintligt moderskapsstöd återbrukas."
+        }
+      ]
+    },
+    "RESEARCH-P-0005-9d76f0343410@3": {
+      "id": "RESEARCH-P-0005-9d76f0343410@3",
+      "object_id": "RESEARCH-P-0005-9d76f0343410",
+      "version": 3,
+      "operation_id": "T0790-existing-material-life-six-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet. T-0677 AC3: individuellt beslutade följdrättelser enligt låst C0001-specifikation; övrig evidens och utfall bevaras.",
+      "caveat": "Hela akten 1–317 och profilen 1–217 är lästa inklusive T0150 och PK08:s senare PCD2026-09-09-029. Den accepterade personen hålls skild från juli-minne, kvarvarande husnummerkonflikt och DNA-LEAD. Faderskapets senare CORROBORATED i A0024 styr gemensam kant; moderns h.f.-roll uppgraderar inte moderskapet. Två egna texter är inte två oberoende uppgiftslämnare. Bilddateringen Flen1943 är reserverad. Birthday-vägen är senare aktiverad trots äldre profiltext; ingen ny sökning görs.\n\nT-0790 2026-10-06: Starkare befintlig relation ersätter gammal statusetikett, h.f.-reservationen består. Endast accepterat återbruk; ingen ny original-, katalog- eller nätläsning. Äldre motsägande formulering inom exakt rättat fält är överspelad, men råreservationer och historiska granskningsomfång består.",
+      "previous_id": "RESEARCH-P-0005-9d76f0343410@2",
+      "kind": "assessment",
+      "data": {
+        "revision_id": "RESEARCH-P-0005-9d76f0343410@3",
+        "subject_id": "P-0005",
+        "criteria": "legacy_profile_section/Identitetsbedömning",
+        "outcome": "recorded",
+        "body": "## Identitetsbedömning\n\nJan-Christer Janson identifieras av sin son, projektägaren, i\n[C-0005](../citations/C-0005-anvandarens-foraldrauppgift.md) och av sig\nsjälv i släktkrönikan\n[C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md) och\nminnesbrevet [C-0267](../citations/C-0267-jan-christer-minnen-flen-sodertalje.md),\ndär han som förstahandskälla anger sina föräldrar\n[P-0003 Arne](../people/P-0003-arne-godvig-jansson.md) och\n[P-0007 Maj](../people/P-0007-may-amalia-ekholm.md), sin födelse i juli\n1938, sina syskon och sin egen familj. C-0005 anger projektägarens egna\nföräldrar och är inte en självständig uppgift om Jan-Christers far Arne.\nArnerelationen bärs av Jan-Christers egen namngivna familjeberättelse C-0266,\ni samklang med den separat återgivna, avbrutna ägaruppgiften om farfar Arne i [C-0001](../citations/C-0001-geni-utdrag.md) och\nmed Arnes och Majs arkivbelagda äktenskap 1938. Ägarmeningen är inte del av Geni-huvudprofilen, namnger inte Jan-Christer och kompletterar inte fragmentet 190 till ett födelseår; den bär inte ensam Arne–Jan-Christer-relationen.\n\nTill detta kom i T-0147 ett samtidigt arkivbelägg som redan låg i projektet\nmen aldrig hade förts in i hans akt: Södertäljes kvartersregister för honom\n1943–1947 som `s. Jan Christer`, född 1938 i Flen, i faderns hushåll på\nMejseln 3, Gondolen 2 och Tranbäret 1\n([C-0884](../citations/C-0884-jansson-kvartersregister-sodertalje-1943-1947.md)).\nRegistrets `s.` knyter honom uttryckligen till hushållshuvudet Arne Godvig\nJansson, varför A-0024 har höjts till `CORROBORATED`. Maj Amalias `h.f.` i Södertäljeregistret visar ensam inte moderskap. Den senare accepterade Flenkontrollen i T-0150 ger dock starkare stöd, och den aktuella relationen REL-parent-P-0007-P-0005@1 är redan CORROBORATED. Den äldre uppgiften att A-0238 fortfarande är TRANSCRIBED är därmed överspelad; ingen relation uppgraderas i T-0790. Ett samtida födelseoriginal har inte sökts:\ndet skulle avse en sannolikt levande person, och födelseåret och\nfödelseförsamlingen är nu ändå belagda.\n\nRelationen till halvfastern [P-0013](../people/P-0013-privat-dotter-eliaesson.md)\nbygger på Ulla Göthbergs utredning och är korroborerad genom Bernhards\nägarfastställda faderskap till Arne. DNA-ledtråden A-1636 avser en djupare\nKorsbergagren, är uttryckligen `LEAD` och propageras inte; den tillhör\nP-0010:s gren, inte denna persons identitet. Ingen konkurrerande identitet\nfinns.\n\n"
+      },
+      "origins": [
+        {
+          "revision_id": "RESEARCH-P-0005-9d76f0343410@3",
+          "unit_id": "7f0019d88662b7111a06eacb0522301faa4ef4d783d734dc7b399352beece5c5",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "RESEARCH-P-0005-9d76f0343410@3",
+          "basis_revision_id": "AUDIT-T0677-C0001@1",
+          "role": "supports",
+          "note": ""
+        },
+        {
+          "revision_id": "RESEARCH-P-0005-9d76f0343410@3",
+          "basis_revision_id": "REL-parent-P-0007-P-0005@1",
+          "role": "supports",
+          "note": "T-0790: Starkare befintlig relation ersätter gammal statusetikett, h.f.-reservationen består."
+        }
+      ]
+    }
+  },
+  "canonicalApproval": false
+}

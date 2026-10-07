@@ -1,0 +1,213 @@
+{
+  "task": "T-0789",
+  "review": "PRIMARY bounded input-only bindings/native representation disposition",
+  "verdict": "PASS for exact two representation omissions only",
+  "operation_pin": {
+    "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-one-controlled-operation-v1.json",
+    "sha256": "e34073264fda8de0f4c9ed054afa5f5dbd20e2465508c149e2276ba8b04323e2"
+  },
+  "package_pin": {
+    "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-one-operation-package-proposal-v1.json",
+    "sha256": "0723670081d4bcdf4fdde23a7dd8e25166d889550ed090cdb8bca2317847ef6d"
+  },
+  "stage_DB_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/stage.sqlite",
+    "sha256": "c14b718134c9973320440074ebde59ea3997b45699b135fbd2df6be20f567d71"
+  },
+  "actual_state": {
+    "journal_head": 453,
+    "pending": 16
+  },
+  "preserved_stop_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/STOP-failure-and-actual-state-preserved-v1.json",
+    "sha256": "d96a4c76173bfdae35fad366c0cdc4a1a6015565c4a21e66ae4314fa1bde06b8"
+  },
+  "code_pins": [
+    {
+      "path": "genealogy2/lib/domain.mjs",
+      "sha256": "b4f104f30bda6277c797fc57a538a9c32cf4db5eb0d24423c6d0cb9c64fec25e"
+    },
+    {
+      "path": "evaluations/T-0784/implementation/stage_root_authorized_exact_nine_v2.py",
+      "sha256": "e36e60ec42a99e5b0dc428ad0666210e59ba76b4ead438f18d89ab42e2f788d6"
+    }
+  ],
+  "method": "Own direct read-only SQL, whole21 native API reconstruction with rowid-ordered evidence/origins, exact stored request comparison. No new original/source interpretation. Prior exact21 source judgement reused.",
+  "binding_semantics": {
+    "identity_reference_types": "identity.person_id is validated as a person reference; boundReferences.identity contains mention_id only.",
+    "person_version_guard": "Explicit supplied P-0007@2 context evidence is checked against current head and persisted by domain.mjs evidence loop. Redundant bindings.P-0007 is not itself consulted for identity.person_id.",
+    "native_projection": "h.api reconstructs persistent fields and evidence, not input-only bindings. The exact supplied bindings remain preserved in operation_payload.request_json.",
+    "approved_projection_exception": "For these two exact identities only, omit bindings={P-0007:2} from expected native API projection after separately verifying exact stored input, actual person_id/decision, explicit ordered P-0007@2 context edge and current person version. No general permission to drop bindings or evidence."
+  },
+  "rows": [
+    {
+      "revision": "R-T0789-P0007-own-annual-1945@1",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "TR-T0789-P0007-own-annual-1945@1",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "M-T0789-P0007-own-annual-1945@1",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "O-T0789-P0007-own-annual-1945@1",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "ID-T0789-P0007-own-annual-1945@1",
+      "whole_persisted_API_equal_with_documented_defaults": true,
+      "input_only_bindings": {
+        "P-0007": 2
+      },
+      "actual_API": {
+        "id": "ID-T0789-P0007-own-annual-1945",
+        "kind": "identity",
+        "expectedVersion": null,
+        "data": {
+          "mention_id": "M-T0789-P0007-own-annual-1945",
+          "person_id": "P-0007",
+          "decision": "accepted"
+        },
+        "origins": [],
+        "evidence": [
+          {
+            "object": "M-T0789-P0007-own-annual-1945",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "object": "O-T0789-P0007-own-annual-1945",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen födelseprofil och fastighetsnyckel."
+          },
+          {
+            "object": "P-0007",
+            "version": 2,
+            "role": "context",
+            "note": "Befintlig accepterad person, ingen revision/merge."
+          }
+        ],
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Egen May Amalia/Jansson via ditto,20 11/5 ochGondolen2 korrelerar till redan etablerad MajP0007 och tidigare accepterad registreringskedja. Ingen sammanslagning av konkurrerande personer.",
+        "caveat": "Källnamnet May är inte ett beslut om exakt juridisk namnändringsdag. Samma administrativa födelseuppgift är inte oberoende födelsebevis; detta är omnämnandets personkoppling, inte ett nytt passed identitetsgrindsutfall."
+      }
+    },
+    {
+      "revision": "R-T0789-P0007-own-annual-1946@1",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "TR-T0789-P0007-own-annual-1946@1",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "M-T0789-P0007-own-annual-1946@1",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "O-T0789-P0007-own-annual-1946@1",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "ID-T0789-P0007-own-annual-1946@1",
+      "whole_persisted_API_equal_with_documented_defaults": true,
+      "input_only_bindings": {
+        "P-0007": 2
+      },
+      "actual_API": {
+        "id": "ID-T0789-P0007-own-annual-1946",
+        "kind": "identity",
+        "expectedVersion": null,
+        "data": {
+          "mention_id": "M-T0789-P0007-own-annual-1946",
+          "person_id": "P-0007",
+          "decision": "accepted"
+        },
+        "origins": [],
+        "evidence": [
+          {
+            "object": "M-T0789-P0007-own-annual-1946",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "object": "O-T0789-P0007-own-annual-1946",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen födelseprofil och fastighetsnyckel."
+          },
+          {
+            "object": "P-0007",
+            "version": 2,
+            "role": "context",
+            "note": "Befintlig accepterad person, ingen revision/merge."
+          }
+        ],
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Egen May Amalia/Jansson via ditto,20 11/5 ochGondolen2 korrelerar till redan etablerad MajP0007 och tidigare accepterad registreringskedja. Ingen sammanslagning av konkurrerande personer.",
+        "caveat": "Källnamnet May är inte ett beslut om exakt juridisk namnändringsdag. Samma administrativa födelseuppgift är inte oberoende födelsebevis; detta är omnämnandets personkoppling, inte ett nytt passed identitetsgrindsutfall."
+      }
+    },
+    {
+      "revision": "CONTRACT-P-0007-PK-05@4",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "CONTRACT-P-0007-PK-08@2",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "PATH-P-0007-KP-05@3",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "BIO-P-0007@8",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "KEY-P-0007-eef3355d1926@2",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "KEY-P-0007-5d5f2d0f7f26@2",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "THEME-P-0007-BO@3",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "RESEARCH-P-0007-9d76f0343410@5",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "O-P-0007-mantal1944@2",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "IDENTITY-REVIEW-T0789-P0007@1",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    },
+    {
+      "revision": "TREE-EFFECT-T0789-P0007@1",
+      "whole_persisted_API_equal_with_documented_defaults": true
+    }
+  ],
+  "actual_person_current_revision": "P-0007@2",
+  "source_consequence": "The accepted correlation of each own annual mention to existing P-0007 is unchanged. CORROBORATED mention-person decisions remain distinct from failed/waiting identity/tree review. No person revision, merge, evidence rebind, source change or new source vote is needed.",
+  "stored_request_entirely_exact": true,
+  "stage_bytes_unchanged_by_review": true,
+  "ready_for_readonly_continuation_capture": true,
+  "ready_for_resolution": false,
+  "ready_for_canonical": false,
+  "remaining": "Capture full actual stage and individually grade all16 actual requests; five prior incoming dispositions do not automatically resolve sixteen actual requests. Separate final preservation/validators and source gates remain necessary.",
+  "authority": "Source representation verdict only; root alone authorizes any helper execution/runtime. No retry, new clone, native edit or resolver performed."
+}

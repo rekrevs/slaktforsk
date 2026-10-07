@@ -1,0 +1,39 @@
+{
+  "task": "T-0786",
+  "at": "2026-10-06T06:26:14.894845+00:00",
+  "owner_mandate": "ok då kör vi på med 1-4",
+  "root_authorized": "one reviewed dated access note only; task remains BLOCKED; no CAPTCHA answer yet",
+  "pins": [
+    [
+      "evaluations/T-0786/independent-review/one-access-search-actual444-final-independent-source-consequence-gate-v1.json",
+      "92b64ac3309593cc3f840587dd23dd325312bda56b6a03b358e9376478079b6e"
+    ],
+    [
+      "evaluations/T-0786/source-review/exact-one-actual-stage-final-primary-source-consequence-gate-v1.json",
+      "63ea172add97429df19f997df3bf4e9e0f0d2563093c2ce62d146d46ccd8be06"
+    ],
+    [
+      "evaluations/T-0786/implementation/one-shared-access-search-operation-v1.json",
+      "02b1571ebe178be64602ee5b1ebd3f0572b3b4742ed851dfa73030d4841340c2"
+    ],
+    [
+      "evaluations/T-0786/implementation/one-shared-access-search-package-v1.json",
+      "90faf97c034578fb6e7efa7a83500bf730b2c5a1ca1744203e0f68fbc64b750c"
+    ],
+    [
+      "evaluations/T-0786/one-search-stage-v1/stage.sqlite",
+      "aa7d413cb946d743e0db3bd5c8cb1f32410f23aac55f0d797af988b16748a35a"
+    ]
+  ],
+  "main443_sha_unchanged": true,
+  "apply_argv": [
+    "node",
+    "genealogy2/cli.mjs",
+    "apply",
+    "evaluations/T-0786/implementation/one-shared-access-search-operation-v1.json",
+    "--db",
+    "genealogy2/data/research.sqlite",
+    "--journal",
+    "genealogy2/journal"
+  ]
+}

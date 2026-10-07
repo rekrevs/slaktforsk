@@ -1,0 +1,10 @@
+import pathlib,json,sqlite3,subprocess,hashlib,datetime
+B=pathlib.Path(__file__).resolve().parent;R=B.parents[2];db=B/'clone/c1047-final-v3.sqlite';assert not db.exists();s=sqlite3.connect('file:'+str(B/'clone/research-pre.sqlite')+'?mode=ro',uri=True);d=sqlite3.connect(db);s.backup(d);s.close();d.close();j=B/'clone/c1047-final-v3-journal';j.mkdir()
+def state():
+ c=sqlite3.connect(db);return {'journal_head':c.execute('select max(sequence) from operation_payload').fetchone()[0],'pending':c.execute('select count(*) from review_request q left join review_resolution r on q.id=r.request_id where r.request_id is null').fetchone()[0]}
+for i,n in enumerate(['C1047-metadata-operation-v1.json','C1047-native-source-operation-v2.json','C1047-current-consequences-operation-v2.json'],1):
+ p=B/n;before=state();r=subprocess.run(['node','genealogy2/cli.mjs','apply',str(p),'--db',str(db),'--journal',str(j)],cwd=R,capture_output=True,text=True);x={'task':'T-0778','index':i,'path':str(p.relative_to(R)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'expected_before':before,'actual_after':state(),'exit_code':r.returncode,'stdout':r.stdout,'stderr':r.stderr};(B/f'C1047-final-v3-sequence-step-{i:02d}.json').write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n');print(i,n,r.returncode,x['actual_after'],flush=True);assert r.returncode==0,x
+c=sqlite3.connect(db);c.row_factory=sqlite3.Row;out=[]
+for q in c.execute('select q.* from review_request q left join review_resolution r on q.id=r.request_id where r.request_id is null'):
+ q=dict(q);oid=q['affected_revision_id'].rsplit('@',1)[0];r=dict(c.execute('select * from current_revision where object_id=?',(oid,)).fetchone());out.append({'request':q,'current_revision':r,'full_current_data':dict(c.execute('select * from '+r['kind']+' where revision_id=?',(r['id'],)).fetchone()),'evidence':[dict(z) for z in c.execute('select * from dependency where revision_id=?',(r['id'],))]})
+(B/'C1047-final-v3-pending-disposition-input-v1.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print('pending',len(out),flush=True)

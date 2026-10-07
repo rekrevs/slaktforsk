@@ -1,0 +1,316 @@
+{
+  "task": "T-0786",
+  "at_utc": "2026-10-06T06:25:46.289582+00:00",
+  "decision": "PASS_FINAL_EXACT_ACCESS_NOTE_SOURCE_AND_CONSEQUENCE",
+  "finalreadyforcanonical": true,
+  "operation_pin": {
+    "path": "evaluations/T-0786/implementation/one-shared-access-search-operation-v1.json",
+    "sha256": "02b1571ebe178be64602ee5b1ebd3f0572b3b4742ed851dfa73030d4841340c2"
+  },
+  "package_pin": {
+    "path": "evaluations/T-0786/implementation/one-shared-access-search-package-v1.json",
+    "sha256": "90faf97c034578fb6e7efa7a83500bf730b2c5a1ca1744203e0f68fbc64b750c"
+  },
+  "stage_DB_pin": {
+    "path": "evaluations/T-0786/one-search-stage-v1/stage.sqlite",
+    "sha256": "aa7d413cb946d743e0db3bd5c8cb1f32410f23aac55f0d797af988b16748a35a"
+  },
+  "handoff_pin": {
+    "path": "evaluations/T-0786/one-search-stage-v1/complete-one-search-stage-result-and-Astra-handoff-v1.json",
+    "sha256": "9ae2999b140ca0dd8c61dba3fe231bc20ee1cf2929c2abbb8646bfd21dca7f94"
+  },
+  "own_before_primary_freeze": {
+    "path": "evaluations/T-0786/independent-review/own-bounded-access-classification-and-current-consequence-freeze-v1.json",
+    "sha256": "70db012cc0ebdc22577c69b16dfda080848c9ead4c334073c4e91409695eda71"
+  },
+  "own_exact_source_spec_review": {
+    "path": "evaluations/T-0786/independent-review/exact-one-shared-access-search-source-specification-review-v1.json",
+    "sha256": "123a93a5d39e9fb88f22eed319a9b7baba702dd2a7c5edc98635552a48671666"
+  },
+  "source_spec_pin": {
+    "path": "evaluations/T-0786/source-review/one-shared-access-search-exact-primary-specification-v2.json",
+    "sha256": "7e8b6bbec375e18f7ac0db7c2a54891039fcc80ee6edafbb0dc1254d1c3481a9"
+  },
+  "actual_state": {
+    "journal_head": 444,
+    "pending": 0
+  },
+  "actual_requests": [],
+  "complete_actual_API_equals_personally_reviewed_source_API": true,
+  "whole_stored_request_json_exact": true,
+  "direct_SQL_old_tables": [
+    {
+      "table": "assessment",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "asset",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "dependency",
+      "old_rows_order_exact": true,
+      "added": 2
+    },
+    {
+      "table": "document",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search_config",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search_content",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search_data",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search_docsize",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search_idx",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "event",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "fact",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "identity",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "identity_resolution",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "import_batch",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "legacy_assertion",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "legacy_entity",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "legacy_mapping",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "mention",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "meta",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "narrative",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "native_asset",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "object",
+      "old_rows_order_exact": true,
+      "added": 1
+    },
+    {
+      "table": "observation",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "operation",
+      "old_rows_order_exact": true,
+      "added": 1
+    },
+    {
+      "table": "operation_payload",
+      "old_rows_order_exact": true,
+      "added": 1
+    },
+    {
+      "table": "origin",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "participation",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "person",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "place",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "question",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "record",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "record_asset",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "record_media",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "relation",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "review_request",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "review_resolution",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "revision",
+      "old_rows_order_exact": true,
+      "added": 1
+    },
+    {
+      "table": "search",
+      "old_rows_order_exact": true,
+      "added": 1
+    },
+    {
+      "table": "source",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "transcription",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "unit",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "unit_decision",
+      "old_rows_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "unit_decision_target",
+      "old_rows_order_exact": true,
+      "added": 0
+    }
+  ],
+  "schema_exact": true,
+  "source_and_record_heads_exact": true,
+  "source_binding_and_two_ordered_evidence_edges_exact": true,
+  "old_person_relations_OWNER_PK_reviews_paths_metadata_history_unchanged": true,
+  "protected42_exact": true,
+  "all50_and_derived_search_proof": {
+    "path": "evaluations/T-0786/one-search-stage-v1/full-all50-old-row-order-protected42-and-exact-new-search-diff-v1.json",
+    "sha256": "216739f7313bec313bd30be9295b5f32003e90a277f32f323fdb7202af7a8f23"
+  },
+  "actual_target_support_pin": {
+    "path": "evaluations/T-0786/one-search-stage-v1/complete-one-actual-native-target-and-support-v1.json",
+    "sha256": "d07f3a9470fa8eff4d3c18ab5241506894923d56f9f2ca2f7c6a4ab31a575e93"
+  },
+  "validators": [
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/verify.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/verify-assets.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/verify-source.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    },
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/inventory.json",
+      "sha256": "719b3e7aa520f1ba499036c6d2f26e24eace026ee41aa4247885e3ddc4a0ddfd"
+    },
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/P-0269-verified-pedigree.json",
+      "sha256": "5786584426fb0d37b0e7d5397eb711dfd2594ad1c75e02640dd157a0c4fbe870"
+    },
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/P-0270-verified-pedigree.json",
+      "sha256": "bf6f665c74c5cfbec455d88030ae68e87d66e7740e81bbe1f021c8dd2ba73dc7"
+    }
+  ],
+  "both_verified_pedigrees_exact_443": true,
+  "inventory_comparison": "All four shared fields format/note/active/all exact; preparation --full also carries persondetails and historicalmapping arrays while default stage carries detailhint. No wholeinventoryequality claim.",
+  "preserved_helper_failure": "v1 strict full inventory equality rejected different full/default output shape after all SQL validations; repaired v2 compares explicit same semantic aggregatefields. Prior script preserved; no DB writes or source amendment.",
+  "live_MAIN_unchanged_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "4dffaf975b66fc7fb70c0ebda39be93a52fd64d7add03100e54e6c47a4220fd0"
+  },
+  "independent_source_consequence_judgment": "This exact one new search records dated limited access observations only, with unconfirmed candidateAIIa90, root-observed CAPTCHA/TLS403/robots and actual MCPquery scope. It adds no ownfamily/sourcecontent extraction and no person/sourceabsence, nondigitization or exhaustiveness finding. Exact prior source specification and own rawfreeze remain substantively correct; allcurrentgrades and strongerOWNER/sourceacceptedcredits retain. P0003failedPK05/waiting and P0007failedPK05/11/waiting remain. No individual runtime requests were generated, so no resolution needed.",
+  "outstanding_research": "Own Södertälje15 actualvolume/familyrow still unlocated/unread; T0786 promisedreading remains blockedpendingallowedaccess, not sourcecompleted by this approval. Maj1945–46 andFlen744 remainseparateT0789/T0788. No latestownerCAPTCHAanswer was supplied; anylateraccess requires additive reevaluation.",
+  "exposure_limits": "Ownaccessfreeze beforeprimary; newexternalHTTP/browserresults assessedfromrootpreservedobservations, not ownbrowser/imageinspection. PriorT0784wholecurrentreading reusedexactly; no repeated21PKreview or blanket858credit.",
+  "open_findings": [],
+  "canonical_apply_authorized_by_this_agent": false,
+  "actual_task_completion_approved": false,
+  "usage": "UNKNOWN pending rootactualnewturncollector"
+}

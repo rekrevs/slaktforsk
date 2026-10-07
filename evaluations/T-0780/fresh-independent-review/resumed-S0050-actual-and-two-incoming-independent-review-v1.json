@@ -1,0 +1,62 @@
+{
+  "task": "T-0780",
+  "actual_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-S0050-rejected-identity-copy-queue-v1/S0050-rejected-identity-copy-operation-v1.json",
+    "sha256": "ac8953bc2f15682253ae62f0137f48186b1f16baa50ef93085793d02d50dcc02"
+  },
+  "full_current_incoming_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-S0050-rejected-identity-copy-queue-v1/full-current-history-incoming-and-support-input-v1.json",
+    "sha256": "ec91f9b9a389848218c96ccd223c17788565d58ab2629589e44a2b5159ffe08e"
+  },
+  "source_spec_pin": {
+    "path": "evaluations/T-0780/source-review/resumed-S0050-rejected-identity-copy-decision-v1.json",
+    "sha256": "0eea957532c9fe51d3452ac67ed8bee6c1f0718d2c5a77a821f1390b57694f45"
+  },
+  "stronger_current_inputs_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-S0050-rejected-identity-full-incoming-v1/complete-S0050-current-history-incoming-and-current-candidates-v1.json",
+    "sha256": "3a8dc4e469fa381432724dbadd8d3ff23936a18879eb6c1b83dae3c3cf495bff"
+  },
+  "source_meaning_prior_fullread_pin": {
+    "path": "evaluations/T-0780/fresh-independent-review/resumed-C0561-ten-and-S0050-source-spec-with-two-followups-v1.json",
+    "sha256": "b53cb7808470eb2bbb66f71f86a44029840057b3c31c052a463620fc98949cf3"
+  },
+  "full_API_current_new_read": true,
+  "independent_whole_API_reconstruction_equal": true,
+  "stronger_whole_native_read": [
+    {
+      "revision_id": "BIO-P-0424@1",
+      "pointer": "/exact_named_current_stronger_identity_inputs/BIO-P-0424@1",
+      "disposition": "retain_accepted_separate_person_no_reopening_retired_research"
+    },
+    {
+      "revision_id": "RESEARCH-P-0424-9d76f0343410@1",
+      "pointer": "/exact_named_current_stronger_identity_inputs/RESEARCH-P-0424-9d76f0343410@1",
+      "disposition": "retain_accepted_separate_person_no_reopening_retired_research"
+    },
+    {
+      "revision_id": "IMPORT-P-0424@1",
+      "pointer": "/exact_named_current_stronger_identity_inputs/IMPORT-P-0424@1",
+      "disposition": "retain_accepted_separate_person_no_reopening_retired_research"
+    }
+  ],
+  "incoming": [
+    {
+      "revision_id": "R-b179a3e6573cc425584d2dfd@1",
+      "pointer": "/incoming_fullnative/R-b179a3e6573cc425584d2dfd@1",
+      "whole_native_read": true,
+      "disposition": "retain_exact_current_old_source_basis_no_rebind",
+      "rationale": "1888 caveat already rejects JohanAugust identity; volume provenance remains valid."
+    },
+    {
+      "revision_id": "R-3a1e056cc4652ec4b1a2b719@1",
+      "pointer": "/incoming_fullnative/R-3a1e056cc4652ec4b1a2b719@1",
+      "whole_native_read": true,
+      "disposition": "retain_exact_current_old_source_basis_no_rebind",
+      "rationale": "1867 Anders/Lotta record distinct from corrected1888 identity copy; whole roles/uncertain folio and father evidence caution preserved."
+    }
+  ],
+  "findings": [],
+  "status": "bounded_actual_source_consequence_pass",
+  "global_source_approval": false,
+  "later_stage_requirement": "Exact two retain-old-basis dependency resolutions must be checked against actual stage; no approval of unbuilt resolution bytes."
+}

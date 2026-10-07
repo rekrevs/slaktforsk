@@ -1,0 +1,156 @@
+{
+  "case": "B",
+  "logical_unit": 4,
+  "max_claims": 6,
+  "claims": [
+    {
+      "id": "B-019",
+      "object": "O-P-0003-C0007-education-income@1",
+      "field": "value_literal",
+      "start": 24,
+      "end": 27,
+      "quote": "9 –",
+      "old_support": [
+        "O-P-0003-C0007-education-income@1 caveat",
+        "candidate/reconciled/B.json row4 income+wealth"
+      ],
+      "source_observation": "candidate/reconciled/B.json target Karl/Charlotta/Arne rows2–4; originalSCBimage, not registercapture",
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "New wholecolumngeometry separates income9 from a dash in wealthcell. Preserve the earlier combinedraw as history, not as an income numeral9dash; no wealthzero or newyearinferred.",
+      "before": "9 –",
+      "after": "inkomst 9; förmögenhet —",
+      "affected_copies": [],
+      "remaining_question": "Name/role/code raw reservations remain explicit; three identitygates unchanged."
+    },
+    {
+      "id": "B-020",
+      "object": "O-P-0003-C0007-education-income@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 123,
+      "quote": "{\"education\": [\"småskola\", \"folkskola\"], \"incomeLiteral\": \"9 –\", \"incomeUnit\": \"hundratal kronor\", \"normalizedIncome\": 900}",
+      "quoted_value": {
+        "education": [
+          "småskola",
+          "folkskola"
+        ],
+        "incomeLiteral": "9 –",
+        "incomeUnit": "hundratal kronor",
+        "normalizedIncome": 900
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "incomeLiteral sourcecolumn separation only; education, incomeUnit andnormalizedIncome preserved",
+      "old_support": [
+        "O-P-0003-C0007-education-income@1 caveat, existingunitprövadiC0896"
+      ],
+      "source_observation": "OwnArne income9/wealthdash in distinctprintedcolumns",
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Correct rawcolumn attribution whileexplicitlypreserving the alreadyprövad hundred-kronorunit and900. The weakernewread doesnot erase sufficientoldunitresearch; literal9dash retainedaslegacycombinedrendering.",
+      "before": {
+        "education": [
+          "småskola",
+          "folkskola"
+        ],
+        "incomeLiteral": "9 –",
+        "incomeUnit": "hundratal kronor",
+        "normalizedIncome": 900
+      },
+      "after": {
+        "education": [
+          "småskola",
+          "folkskola"
+        ],
+        "incomeLiteral": "9",
+        "incomeUnit": "hundratal kronor",
+        "normalizedIncome": 900,
+        "legacyCombinedLiteral": "9 –",
+        "wealthLiteral": "—"
+      },
+      "affected_copies": [
+        "THEME-P-0003-EKO@1",
+        "ADOPT-T0677-C0007-P-0003@1"
+      ],
+      "remaining_question": "No exactseparateincomeyear inferred; wealthdashmeaning notzero."
+    },
+    {
+      "id": "B-021",
+      "object": "ADOPT-T0677-C0007-P-0003@1",
+      "field": "body",
+      "start": 237,
+      "end": 359,
+      "quote": "registerbeloppet 900 återges utan ny kodnyckel- eller originalkontroll; C0896:s senare råtal/enhetsprövning hålls separat.",
+      "old_support": [
+        "O-P-0003-C0007-education-income@1 value_json+revision.caveat"
+      ],
+      "source_observation": "candidate/reconciled/B.json target Karl/Charlotta/Arne rows2–4; originalSCBimage, not registercapture",
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Sourcefullreview nowhas actualfieldgeometry, whileunits alreadyprövad earlier. Do not leaveunclearwhethernewraw9 reverses900 or whetheruncheckedoldregisterexpansionisneworiginalproof.",
+      "before": "registerbeloppet 900 återges utan ny kodnyckel- eller originalkontroll; C0896:s senare råtal/enhetsprövning hålls separat.",
+      "after": "registerbeloppet 900 återges utan ny kodnyckel- eller originalkontroll i det äldre registerarbetet; C0896:s redan utförda enhetsprövning återbrukas uttryckligen. T-0774 läser egen inkomstcell 9 och separat förmögenhetsstreck, bevarar 900 på den äldre prövade hundratalsenheten och fastställer inget separat exakt inkomstår.",
+      "affected_copies": [],
+      "remaining_question": "Name/role/code raw reservations remain explicit; three identitygates unchanged."
+    },
+    {
+      "id": "B-022",
+      "object": "THEME-P-0003-EKO@1",
+      "field": "body",
+      "start": 16,
+      "end": 66,
+      "quote": "Inkomsten 1930 är 900kr enligt prövad kolumnenhet.",
+      "old_support": [
+        "O-P-0003-C0007-education-income@1 revision.caveat+value_json"
+      ],
+      "source_observation": "candidate/reconciled/B.json target Karl/Charlotta/Arne rows2–4; originalSCBimage, not registercapture",
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "The calendarlabel mustdescribe sourcecontext, not a separatelyproved earningyear. Retain900 exactlyon oldunitbasis and visiblycarry existingcaveat into prose.",
+      "before": "Inkomsten 1930 är 900kr enligt prövad kolumnenhet.",
+      "after": "I 1930-utdraget motsvarar den egna inkomstcellen 9 beloppet 900 kr enligt redan prövad hundratalsenhet; något separat exakt inkomstår fastställs inte.",
+      "affected_copies": [],
+      "remaining_question": "Name/role/code raw reservations remain explicit; three identitygates unchanged."
+    },
+    {
+      "id": "B-023",
+      "object": "THEME-P-0042-EKO@2",
+      "field": "body",
+      "start": 16,
+      "end": 74,
+      "quote": "Tomma egna inkomst-/förmögenhetsfält 1930 anger inte noll.",
+      "old_support": [
+        "R-8c6b91c855d10a9152cbbbdf@2 caveat",
+        "candidate/reconciled/B.json row2 moneycells"
+      ],
+      "source_observation": "candidate/reconciled/B.json target Karl/Charlotta/Arne rows2–4; originalSCBimage, not registercapture",
+      "judgment": "stärkt",
+      "decision": "behåll",
+      "grounds": "Karlrow2 ownmoneycells are blank. Arne’s income9 and wealthdash are row4, and neither may be shiftedup toKarl or treatedasparenthouseholdtotal.",
+      "before": "Tomma egna inkomst-/förmögenhetsfält 1930 anger inte noll.",
+      "after": "Tomma egna inkomst-/förmögenhetsfält 1930 anger inte noll.",
+      "affected_copies": [],
+      "remaining_question": "Name/role/code raw reservations remain explicit; three identitygates unchanged."
+    },
+    {
+      "id": "B-024",
+      "object": "THEME-P-0043-EKO@1",
+      "field": "body",
+      "start": 20,
+      "end": 55,
+      "quote": "Ingen egen ekonomisk uppgift finns.",
+      "old_support": [
+        "candidate/reconciled/B.json row3 moneycells",
+        "R-8c6b91c855d10a9152cbbbdf@2 caveat"
+      ],
+      "source_observation": "candidate/reconciled/B.json target Karl/Charlotta/Arne rows2–4; originalSCBimage, not registercapture",
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Currentbroad absence needsboundednowperformedfieldreview ratherthan all-lifetime denial. Charlotta’s ownmoneycells areblank; grandson’s moneydoesnot becomemotherincome. Other indirectfamilyeconomiccontext remainsunchanged.",
+      "before": "Ingen egen ekonomisk uppgift finns.",
+      "after": "Hennes egna inkomst- och förmögenhetsfält i SCB-utdraget 1930 är prövade tomma; detta är inte nollbelopp eller en livslång ekonomisk nolla. Ingen egen ekonomisk akt är läst.",
+      "affected_copies": [],
+      "remaining_question": "Name/role/code raw reservations remain explicit; three identitygates unchanged."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "amends": "C1060-exact-partial-final-review-v1.json",
+  "preserve_prior_hash_approval": true,
+  "field": "consequence_review.historical_error_distinction",
+  "clarification": "The phrase mechanical missingmedia/stale-support attempts must not imply a real C0035 media loss or failed apply due to media. Baseline R-C0035@2 had empty record_asset and record_media; explicit empty arrays clarified full-payload preservation only. The stale-support attempt was the actual safely rejected implementation attempt. Source/copy findings remain distinct. Frozen partial package and its approval unchanged.",
+  "basis": [
+    "Direct readonly baseline SQL from independent review",
+    "wotan/dev-log/T-0778.md Metadata-/förloppsprecisering",
+    "C0035-empty-media-preservation-correction-v3.json"
+  ]
+}

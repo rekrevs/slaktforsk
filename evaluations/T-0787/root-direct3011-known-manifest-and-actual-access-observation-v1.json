@@ -1,0 +1,138 @@
+{
+  "task": "T-0787",
+  "at_utc": "2026-10-06T06:30:11.385556+00:00",
+  "reason": "Independent ownvisual confirms explicit3011 on2995r16; one allowed directcontinuation",
+  "known_manifest": {
+    "path": "genealogy/media/S-0731-riksarkivet-sundsvall-AIIa15-manifest.json",
+    "sha256": "0eededa21c479633feabc0657c956915d2038adcd6f1e80d7d2d38b9965d5ffd"
+  },
+  "exact_canvas": {
+    "id": "https://lbiiif.riksarkivet.se/arkis!00205124_00259/canvas",
+    "type": "Canvas",
+    "label": {
+      "sv": [
+        "Bild 259 / Sida 3011"
+      ],
+      "en": [
+        "Image 259 / Page 3011"
+      ]
+    },
+    "width": 5722,
+    "height": 4062,
+    "metadata": [
+      {
+        "label": {
+          "sv": [
+            "Bildid"
+          ],
+          "en": [
+            "Image ID"
+          ]
+        },
+        "value": {
+          "none": [
+            "00205124_00259"
+          ]
+        }
+      },
+      {
+        "label": {
+          "sv": [
+            "Länk"
+          ],
+          "en": [
+            "Link"
+          ]
+        },
+        "value": {
+          "none": [
+            "https://sok.riksarkivet.se/bildvisning/00205124_00259"
+          ]
+        }
+      },
+      {
+        "label": {
+          "sv": [
+            "Källhänvisning"
+          ],
+          "en": [
+            "Source reference"
+          ]
+        },
+        "value": {
+          "sv": [
+            "Sundsvalls Gustav Adolfs kyrkoarkiv, Församlingsböcker, SE/HLA/1010190/A II a/15 (1912-1937), bildid: 00205124_00259, sida 3011"
+          ],
+          "en": [
+            "Sundsvalls Gustav Adolfs kyrkoarkiv, Församlingsböcker, SE/HLA/1010190/A II a/15 (1912-1937), Image ID: 00205124_00259, page 3011"
+          ]
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://lbiiif.riksarkivet.se/arkis!00205124_00259/annotationpage",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://lbiiif.riksarkivet.se/arkis!00205124_00259/annotation",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://lbiiif.riksarkivet.se/arkis!00205124_00259/full/max/0/default.jpg",
+              "type": "Image",
+              "width": 5722,
+              "height": 4062,
+              "format": "image/jpeg",
+              "service": [
+                {
+                  "id": "https://lbiiif.riksarkivet.se/v3/arkis!00205124_00259",
+                  "type": "ImageService3",
+                  "profile": "level1",
+                  "width": 0,
+                  "height": 0
+                },
+                {
+                  "@id": "https://lbiiif.riksarkivet.se/v2/arkis!00205124_00259",
+                  "@type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "width": 0,
+                  "height": 0
+                }
+              ]
+            },
+            "target": "https://lbiiif.riksarkivet.se/arkis!00205124_00259/canvas"
+          }
+        ]
+      }
+    ]
+  },
+  "root_observed_actual_probes": [
+    {
+      "method": "curl default sandbox exactfullmaxURL",
+      "exit": 6,
+      "result": "Could not resolve host: lbiiif.riksarkivet.se"
+    },
+    {
+      "method": "curl sameexactURL approvednetwork",
+      "exit": 56,
+      "http": 401
+    },
+    {
+      "method": "curl sameexactURL and ownviewersideReferer approvednetwork",
+      "exit": 56,
+      "http": 401
+    },
+    {
+      "method": "Chrome exactviewerURL browser1 tab1944360800",
+      "actual_url": "https://sok.riksarkivet.se/login?returnUrl=%2Fbildvisning%2F00205124_00259",
+      "actual_title": "Logga in - Riksarkivet - Sök i arkiven",
+      "visible": "Username/password fields empty; needlogin to material younger110years",
+      "source_image_read": false
+    }
+  ],
+  "saved_originals": 0,
+  "source_negative_or_terminal_claim": false,
+  "owner_login_question": "asynchronously pending; no credentials read/requested/saved; handoff marked",
+  "next_unperformed": "After ownerlogin, resumeexact3011 viewer and acquirefulloriginal+hash/provenance then source/consequence review; do not repeat3locals."
+}

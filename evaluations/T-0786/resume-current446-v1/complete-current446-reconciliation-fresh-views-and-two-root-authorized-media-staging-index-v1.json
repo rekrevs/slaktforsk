@@ -1,0 +1,72 @@
+{
+  "tasks": [
+    "T-0786",
+    "T-0787",
+    "T-0788",
+    "T-0789"
+  ],
+  "current446_existing_heads_and_views_reuse_proof_pin": {
+    "path": "evaluations/T-0786/resume-current446-v1/bounded-current446-existing-heads-fullnative-view-reuse-and-three-access-notes-reconciliation-v1.json",
+    "sha256": "e81b9c776e9c99ec1c502ebe73dc2af748bc0db0ee007ff1d34da5e93e60e385"
+  },
+  "fresh446_physical_baseline_all50_inventory_two_verified_proof_pin": {
+    "path": "evaluations/T-0786/resume-current446-v1/fresh446-physical-baseline-all50-inventory-and-both-default-verified-additive-proof-v1.json",
+    "sha256": "f16ac7a756540c61fb57c0b9088022cd474d7edc27eb98456cc0fe7d9bfb8530"
+  },
+  "fresh_baseline_pin": {
+    "path": "evaluations/T-0786/resume-current446-v1/baseline-j446.sqlite",
+    "sha256": "1e8e6b4079df557d9dd904578178321381b6c2ef5d54ac15ff74eacdac942541"
+  },
+  "current_main_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "bef3080f01c220630ae8567618599195de52b82ddc1a8ef9199f4c57cc5fb8e1"
+  },
+  "actual_state": {
+    "journal_head": 446,
+    "pending": 0
+  },
+  "actual_only_two_root_authorized_staged_media": [
+    {
+      "actual_API_pin": {
+        "path": "evaluations/T-0786/resume-current446-v1/actual-3011-stage-media-root-authorized-output-v1.json",
+        "sha256": "d1e5a6f9fc6b510b98c676226cc72e409b67170acf53d276b1b35f4b13de1ab9"
+      },
+      "process_pin": {
+        "path": "evaluations/T-0786/resume-current446-v1/actual-3011-stage-media-root-authorized-process-v1.json",
+        "sha256": "1fa5a2aceee8a727d32c732e9bcad2a4b586b02e7edc242e1e023b98c7cc1cea"
+      },
+      "staged_blob_pin": {
+        "path": "genealogy2/media/objects/bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96",
+        "sha256": "bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96"
+      },
+      "DB_media_row_absent_no_DB_apply": true
+    },
+    {
+      "actual_API_pin": {
+        "path": "evaluations/T-0786/resume-current446-v1/actual-744-stage-media-root-authorized-output-v1.json",
+        "sha256": "e54115dcd2a3a17e7098bc22e2941648732482b8a4881f98a69d0bc4561cf960"
+      },
+      "process_pin": {
+        "path": "evaluations/T-0786/resume-current446-v1/actual-744-stage-media-root-authorized-process-v1.json",
+        "sha256": "a374c4833cdcefdfd4ebd14923813d97b56dbed4c4172dddf8844a391a5d364e"
+      },
+      "staged_blob_pin": {
+        "path": "genealogy2/media/objects/464e9a5b04fecc67bb8bc7ad36c32b7c94c159b37d93bfd09e21ffea83cb9efd",
+        "sha256": "464e9a5b04fecc67bb8bc7ad36c32b7c94c159b37d93bfd09e21ffea83cb9efd"
+      },
+      "DB_media_row_absent_no_DB_apply": true
+    }
+  ],
+  "explicit_plan_status_amendment": {
+    "preserved_plan_pin": {
+      "path": "evaluations/T-0786/resume-current446-v1/actual3011-full-original-hash-and-exact-stage-media-plan-UNRUN-v2.json",
+      "sha256": "38287728f8a9901602c31d5cd86e2665b6a0541b16ba41fe7d9f2ffaafd7d416"
+    },
+    "reason": "Capturehelper was written under prepare-only authority. During its readonlyCLI capture, root separately explicitly authorized both media stagings, which were executed and verified by separate immutable process receipts before capturehelper wrote its frozen initial UNRUNplan. Its UNRUN/no-media-write status is historical prepared-plan wording and is superseded by these actualexecutionreceipts; no DBapply occurred. Original plan retained unchanged.",
+    "authoritative_actual_execution_state": "Stage-media executed once each3011/744 under explicitroot permission; no imageinterpretation/nativeknowledge operation or DBapply"
+  },
+  "T0786_new_postlogin_search_spec_received": "973737882881aaae0ad37a2d5a7cec258371b0d24b7742914b68bdb7d60e830a; no draftuntil independent exactmeaningPASS/rootpermission",
+  "T0787_pending121_ops": "UNBUILT; wait full3011Astra ownfreeze and newexplicit source amendments; do not repeat3old source readings",
+  "no_Wotan_updates_source_interpretation_or_canonical_apply": true,
+  "usage": "UNKNOWN pending root collector"
+}

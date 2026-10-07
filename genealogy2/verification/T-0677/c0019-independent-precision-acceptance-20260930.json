@@ -1,0 +1,41 @@
+{
+  "task": "T-0677",
+  "citation": "C-0019",
+  "reader": "independent Astra /root/g001_continue/c0016_independent",
+  "at_utc": "2026-09-30T21:15:53.042340+00:00",
+  "outcome": "PASS",
+  "scope": "Begränsad exakt diffacceptans efter fullständig tidigare sakreview; ingen ny käll-, bild- eller fullkontextläsning.",
+  "inputs": {
+    "c0019-draft-implementation-spec-20260930.json": "471f441e5abd2b260f4b55bade63ae6a7a49f3e88305f70744c7eb3b53e60d92",
+    "c0019-settled-implementation-spec-20260930.json": "dd069981dd4832056a6ca0a07ff069b4d17bea2478d29210e9651792f3c948be",
+    "c0019-independent-final-review-20260930.json": "fbbf493fc728cf1d67f352ed66dbf452be3f0686563eb2105aa0e3092de4a931",
+    "c0019-person-context-acceptance-20260930.json": "bd4331b1b9388ca97c3d8bb8573d8ed8e4f50ebb4b4f9f9e6a96b09aa401e012"
+  },
+  "accepted_precisions": [
+    "C0019-FINAL-R1",
+    "C0019-FINAL-R2-12",
+    "C0019-FINAL-R2-13",
+    "C0019-FINAL-R2-14",
+    "C0019-FINAL-R3"
+  ],
+  "checks": {
+    "settled_equals_draft_plus_exact_required_precisions_and_documentary_fields": true,
+    "unexpected_differences": [],
+    "documentary_changes": [
+      "state",
+      "settled_at",
+      "independent_review",
+      "review_precisions",
+      "inputs: person-context-acceptance hash"
+    ],
+    "person_edit_rows": 35,
+    "unique_person_revisions": 30,
+    "planned_objects": 42,
+    "new_objects": 11,
+    "revised_objects": 31,
+    "measurement_categories_unchanged": true,
+    "prior_full_review_reused": true
+  },
+  "canonical_mutation": false,
+  "next": "Settledspec är sakgodkänd för förälderns kontrollerade tempimplementation. Min del stannar här; ingen femte post."
+}

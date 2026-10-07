@@ -1,0 +1,61 @@
+{
+  "task": "T-0780",
+  "status": "FINITE_PARTIAL_OWNER_PROPOSAL_NOT_SCHEDULED_NOT_EXECUTED",
+  "gate": "Root may append approved administrative amendments only after actual complete10 acceptance; preserve historical text and READY status, no task closure or new research execution. This file is not Wotan execution state.",
+  "inputs": [
+    {
+      "path": "wotan/dev-log/T-0492.md",
+      "sha256": "332ed43d89882ff799d55b610b23b15380d1a7cd0d7ae22d0532edb341669ad7",
+      "read": "whole current log including latest resumption"
+    },
+    {
+      "path": "wotan/dev-log/T-0621.md",
+      "sha256": "fedff437422d0620f3cd616fb5ef0030c8e048b1fc72fff15e1dbcafdc3c48ac",
+      "read": "whole current log including latest resumption"
+    },
+    {
+      "path": "wotan/dev-log/T-0616.md",
+      "sha256": "87e659a835313a9d6ce88796cbc5c5bf503020514021fa8a0e2321a1e91cc793",
+      "read": "whole current log including latest resumption"
+    }
+  ],
+  "existing_owner_dispositions": [
+    {
+      "owner": "T-0492",
+      "disposition": "append_scope_correction_keep_READY_unperformed",
+      "old": "ett reserverat `s` i hans äktenskapskolumn antyder änklingsstånd.",
+      "new": "T-0780:s fulla C-0563-rad placerar det reserverade s-liknande tecknet i Koppor-kolumnen; egen änkekolumn är tom. Tecknet ger därför inget änklingsargument och inget dödsdatum för P-0471. Hänvisningen 582 och bokdagen 1869 8/11 är lästa på P-0470:s egen rad, men målfoliot 582 är fortfarande oläst. P-0471:s accepterade identitet som hustru/mor från tidigare egna poster består separat.",
+      "source_fields": "1785 4/11 och Bygdeå är egna hushållsfält, med dagen läst utan ny glyfreservation i T0780; detta är fortfarande sekundär födelseuppgift, inte egen födelsepost. Död1870 27/12 är hushållsnot, inte en nu läst dödbok.",
+      "next_unperformed": "Befintliga tre passager kvar: folio582, Bygdeå1785födda, Sävar1870död/1871begravning enligt ursprunglig stoppgräns. Att målfoliot ligger i samma bildbatch bevisar inte att dess original redan är lokalt hämtat; kontrollera åtkomstmetadata vid start.",
+      "no_extra_scope": "Ingen bakåtkedja utöver befintligt ägarmandat och ingen automatiskt ny generation/identitetsdemotion vid ett lokalt noll."
+    },
+    {
+      "owner": "T-0621",
+      "disposition": "append_scope_correction_keep_READY_unperformed",
+      "old": "den enda som kan säga vad som hände henne efter\nnitton års ålder.",
+      "new": "T-0780 läser Sophia Beatas egen fortsättningshänvisning 599 med bokdagen 1870 14[?]/1. Med den egna uppgiften 1851 1/8 var hon då arton, inte nitton år. Folio599 är fortfarande oläst och är en avgränsad söknyckel, inte en garanti för senare livsuppgifter eller den enda möjliga källvägen.",
+      "second_old": "Ingen dödsdag står\nnågonstans",
+      "second_new": "Ingen säker dödsdag är fastställd för dottern Sara Rebecka i hennes hittills lästa egna födelse-/doppost; hennes egen dödbok är fortfarande oprövad. Modern Sara Sophias egen C-0563-notering 1868 14/8 avser modern och får inte överföras till dottern.",
+      "next_unperformed": "Befintliga tre moment kvar: Sävar10–20 lokala ålderspar, dotterns egen dödboksprövning från1868-02-12 med exakt redovisad tidsgräns, och Sophiafolio599. Inget av momenten har utförts i T0780.",
+      "source_limit": "Nöddop/dogefter anger inte barnets dödsdag, fysisk dopplats, dopförrättare eller säker livslängd; ett inledande veckofönster får inte bli hela hennes möjliga livsomfång."
+    },
+    {
+      "owner": "T-0616",
+      "disposition": "retain_latest_READY_scope_no_new_comparison_task_inferred",
+      "reason": "Whole task read. It owns six second-marriage birth inquiries and other explicitly listed passages; it does NOT explicitly own a separate new five-struck-row comparison. Earlier conversational association of that comparison with this task cannot expand scope. Latest resumption already credits T0673 own twins baptism14April; preserve it.",
+      "next_unperformed": "Reconcile remaining fixed passages with accepted T0673/T0780 ownrow work at future task start; own births for second-marriage children remain distinct from the T0780 household extractions."
+    }
+  ],
+  "bounded_new_owner_proposals": [
+    {
+      "proposed_id": "root_assign_finite_successor_possible_T0781",
+      "person": "P-0435",
+      "question": "Vad står på den egna fortsättningssidan668 efter C0561-radens1877hänvisning?",
+      "scope": "Sävar A I/7b målfolio668: identifiera rätt fulloriginal, läs hela relevanta person/familjeraden med rubriker/dittos/marginaler och eventuella egna nästa nycklar; korrelera till Carl Reinhold1853-01-21 utan att strykning eller bokdag antas fysisk flytt.",
+      "source_key": "C0561egen668;1877 23[?]/11, dag reserverad.",
+      "stop": "Det identifierade målfoliot, ingen automatisk vidare kedja, inga andra syskons original. Positivt/exaktnegativt/olöst utfall med bevarat originalhash och hela relevanta följdobjekt.",
+      "existing_owner_search_status": "Root reports no exact existing668owner; final root backlog duplicate check required before creation, no ID reserved by this proposal."
+    }
+  ],
+  "remaining": "Full final owner ledger for all10 not complete: remaining existing-owner mapping for C425continuations/C60/C69 family and witness passages still to bind; do not treat these four items as exhaustive."
+}

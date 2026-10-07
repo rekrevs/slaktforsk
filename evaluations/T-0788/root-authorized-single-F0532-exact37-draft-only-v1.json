@@ -1,0 +1,38 @@
+{
+  "task": "T-0788",
+  "authorization": "GUARDED_SINGLE_F532_DRAFT_AND_EXACT37_PREFIX_PACKAGE_ONLY",
+  "root_authorized": true,
+  "created_utc": "2026-10-06T09:45:53.407578+00:00",
+  "source_spec_pin": {
+    "path": "evaluations/T-0788/source-review/one-F0532-dated-preservation-caveat-full-API-and-exact37-union-amendment-v1.json",
+    "sha256": "cfb446e27a862d9afc97a737dc1a7337e3af7f4d1e799554303f6d07e7a9c548"
+  },
+  "source_pointer": "/rows/0/full_new_API",
+  "primary_gate_pin": {
+    "path": "evaluations/T-0788/source-review/one-F0532-guard-bound-exact37-primary-draft-readiness-v1.json",
+    "sha256": "963a5a80e8bee0ecd4c6cf577aa37e800d98f7790b1faf4f1e522359cdcde736"
+  },
+  "independent_gate_pin": {
+    "path": "evaluations/T-0788/independent-review/one-F0532-zero-incoming-and-exact37-bounded-draft-readiness-gate-v1.json",
+    "sha256": "6fd552ba34107444e96d4b419f4050a4400c85ac86a4c54a5a3d7d493740783a"
+  },
+  "guard_pin": {
+    "path": "evaluations/T-0788/preparation/one-F0532-exact-old-API-main449-stage450-support-head-and-full-incoming-guard-v1.json",
+    "sha256": "328c7b6563504087da195c77a1721fed1a27de3d694e01f14199ee60ff698338"
+  },
+  "main_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "040e13c47dd6a01a3fa10f470b5685776f92de5c9214e1d5bdd399ba9ef414c7"
+  },
+  "stage_pin": {
+    "path": "evaluations/T-0788/exact36-stage-v1/stage.sqlite",
+    "sha256": "291bdfddd9e05884a430c16d44fa483f58ab94de88e7bcd4ab17124e0f74e60f"
+  },
+  "target": "F-P-0532-source_assessment-widow-chain",
+  "expectedVersion": 1,
+  "source_union": "Unchanged initial36 followed by exact sole F532@1→@2;32revision5new37unique, media1. Exact source-approved API, ordered6old support metadata/origins unchanged +R744@2context. No inferred rebind/caller/native word change.",
+  "runtime_authorized": false,
+  "canonical_authorized": false,
+  "resolver_build_authorized": false,
+  "review_required": "Both full-built byte/source gates before separate root sameclone runtime release."
+}

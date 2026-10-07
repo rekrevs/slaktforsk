@@ -1,0 +1,354 @@
+{
+  "id": "T-0780/C0425-expanded69-structured-v1",
+  "actor": "Codex Sol bounded implementation of settled Astra inputs",
+  "reason": "T-0780 expanded69-structured source approval b528f3e4126347dd5dd4d6fd11d8fd76000d620975d4d4f8d6a041fbefd0665a; exact dependency sequencing and independent package gate pending.",
+  "dependencyReviewVersion": 2,
+  "changes": [
+    {
+      "id": "E-birth-P-0096",
+      "kind": "event",
+      "expectedVersion": 1,
+      "data": {
+        "event_type": "birth",
+        "date_json": {
+          "literal": "1863-05-18",
+          "precision": "exact",
+          "value": "1863-05-18"
+        },
+        "place_id": null,
+        "place_role": "Bygdeå; Ultervattnet enligt personaktens hushållsgrund"
+      },
+      "origins": [
+        {
+          "unit": "4fa50b851ac332c2f1652e2e2f8d817477abc6c85a9609f6f97c8ab23a8b51eb",
+          "coverage": "partial",
+          "note": "Hela sakuppgiften och dess uttryckliga förbehåll representeras."
+        },
+        {
+          "unit": "f92b76a6deb8345435c82b885f84257afc7a2d2317695d4f43effb126043c07d",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "O-P-0096-adult-household",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "O-P-0096-child1863",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "O-P-0096-child1895",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "TR-T0780-C0425-Anders-family-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsad egen källrad, inga nya personfakta utöver den exakta kvalificeringen."
+        },
+        {
+          "object": "R-d1208f4d205fd7597ca682a8",
+          "version": 1,
+          "role": "supports",
+          "note": "Även äldre egen födelseortscell är blank; gammal basis kvar till C0069revision."
+        }
+      ],
+      "disposition": "accepted",
+      "evidenceStatus": "CORROBORATED",
+      "rationale": "Överför uttryckligt befintligt underlag med bevarad räckvidd och försiktighet.",
+      "caveat": "Accepterad bokuppgift om dagen bevaras. Egna födelseortsceller i C0069 och C0425 är tomma; Ultervattnet avser hushållets registrering och dessa rader ger ingen uttrycklig egen födelseförsamling. Befintlig ortetikett återges som äldre hushållsbaserad attribution, inte ny verifiering. Egen samtida födelsepost och fysisk födelselokal ej lästa; kyrkoböcker och räkneutdrag är beroende."
+    },
+    {
+      "id": "F-P-0094-family_context-child-P-0099",
+      "kind": "fact",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0094",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": {
+          "basis": "familjens bokuppgift",
+          "birth_reported": "1874-09-26",
+          "child": "P-0099",
+          "place": "Ultervattnets hushåll"
+        }
+      },
+      "origins": [
+        {
+          "unit": "1d60b06026ef7de44dc0f4f87ea19a20996e7dcdbbc15e48297ed124abdc2cfb",
+          "coverage": "partial",
+          "note": "Den angivna relationen/rollen återges med sin källgräns och utan infererad släktkant."
+        },
+        {
+          "unit": "5fe10a4874166749c5acb21c8242261cca55871c14b53120c7ad6612773d9641",
+          "coverage": "partial",
+          "note": "Den angivna relationen/rollen återges med sin källgräns och utan infererad släktkant."
+        },
+        {
+          "unit": "d01e47342fa616ace3a42a77ae3deb680a5a8e9d924d860e4769a19dd63ca7dc",
+          "coverage": "partial",
+          "note": "Den angivna relationen/rollen återges med sin källgräns och utan infererad släktkant."
+        },
+        {
+          "unit": "f4af2eb050a8035b600ad2af047a81a281b533cd5a910d52439b49ac6f8b793f",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "F-P-0094-household_membership-Ultervattnet",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "TR-T0780-C0425-Nils-family-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsad egen källrad, inga nya personfakta utöver den exakta kvalificeringen."
+        },
+        {
+          "object": "TR-T0780-C0425-upper-family-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "Övre reserverad födelsedag jämförs med nedre säkra26/9."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "Överför uttryckligt befintligt underlag med bevarad räckvidd och försiktighet.",
+      "caveat": "Kvalificerad relationsradskontext, inte extra födelsehändelse. Aktuellt1874-09-26 bärs av nedre egna rad17; övre barnrad6 har2[4/6?]/9 med24 föredragen. Ingen tyst normalisering av övre raden."
+    },
+    {
+      "id": "F-P-0099-household_membership-own-family",
+      "kind": "fact",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0099",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": {
+          "children": [
+            "Agnes Maria",
+            "Albin Mauritz",
+            "Nils William",
+            "Enis/Iris Kristina",
+            "Estrid Albertina"
+          ],
+          "continuation": "nb.1098",
+          "place": "Ultervattnet",
+          "since_book_marriage": "1899-04-16",
+          "wife": "Anna Albertina Öberg/Öbergh"
+        }
+      },
+      "origins": [
+        {
+          "unit": "0b36746688600572e04f248e5c10d11de1496794b9a8433c0bf83b4132d9bf85",
+          "coverage": "partial",
+          "note": "Den angivna relationen/rollen återges med sin källgräns och utan infererad släktkant."
+        },
+        {
+          "unit": "0deead80b5417db5a594e1e3441d96dec3547657e4c3b2dd872d8ba4ed0cf8cf",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "35a16ee1eabf151d821946ddb6290396922003947403d5d7c1c6761e79c4855d",
+          "coverage": "partial",
+          "note": "Den angivna relationen/rollen återges med sin källgräns och utan infererad släktkant."
+        },
+        {
+          "unit": "d01e47342fa616ace3a42a77ae3deb680a5a8e9d924d860e4769a19dd63ca7dc",
+          "coverage": "partial",
+          "note": "Den angivna relationen/rollen återges med sin källgräns och utan infererad släktkant."
+        },
+        {
+          "unit": "df647f54054bb23ac4f22fd5f47af1bfc33721a29f32e7733041e5b5025879ee",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "O-P-0099-census1900",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "O-P-0099-child-Agnes-Maria",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "O-P-0099-child-Albin-Mauritz",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "O-P-0099-child-Enis-Iris-Kristina",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "O-P-0099-child-Estrid-Albertina",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "O-P-0099-child-Nils-William",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "O-P-0099-own-r17",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "O-P-0099-wife-r18",
+          "version": 1,
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "TR-T0780-C0425-Nils-family-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsad egen källrad, inga nya personfakta utöver den exakta kvalificeringen."
+        }
+      ],
+      "disposition": "accepted",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "Överför uttryckligt befintligt underlag med bevarad räckvidd och försiktighet.",
+      "caveat": "Hustrun och barnen är källbundna familjemedlemmar utan egna personkärnor. Aktuell egen namnläsning Enis Kristina, äldre Iris bevaras som historik i den strukturerade listan. Boköverföring är inte fysisk flytt; mottagarvolymen är oläst."
+    },
+    {
+      "id": "F-P-0101-household_membership-Ultervattnet",
+      "kind": "fact",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0101",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": {
+          "census_dates": [
+            "1880-12-31",
+            "1890-12-31",
+            "1900-12-31"
+          ],
+          "marital_state_1900": "ogift",
+          "own_record": {
+            "book": "Bygdeå A II a/2b",
+            "book_period": "1895–1910",
+            "family_role": "s.",
+            "occupation": "Bonde",
+            "page": 824,
+            "row": 8
+          },
+          "parents": [
+            "P-0094",
+            "P-0095"
+          ],
+          "place": "Ultervattnet, Bygdeå"
+        }
+      },
+      "origins": [
+        {
+          "unit": "0947f985dfc45282d1d2ec50fa7789db4b03213b4d9879044192abfba476bd5f",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "1e50dc5f8b0222656d325975b381cd041bf837bb26ba16bf005fbec024098700",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "3508dbf89d1a95a3ea8461339cd2d89a00024b2e2c69124dfeaf4f75d2f0dad0",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "c44dcad9672fd1bf5ca5beb88543f4419aab9d2616f4d0b643c55eb8372d58c6",
+          "coverage": "partial",
+          "note": "Riktad släktkedja samt den återgivna tids-/hushållskontexten, med respektive objekts förbehåll."
+        },
+        {
+          "unit": "fda261488ebe2b42812b7c601baa754ed71ecff8f25e8540f8f77841ed5c2728",
+          "coverage": "partial",
+          "note": "Riktad släktkedja samt den återgivna tids-/hushållskontexten, med respektive objekts förbehåll."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-T0780-C0425-Carl-family-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsad egen källrad, inga nya personfakta utöver den exakta kvalificeringen."
+        }
+      ],
+      "disposition": "accepted",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+      "caveat": "Daterade registerögonblick, inte obruten fysisk bosättning1880–1910. Son/Bonde och placering under föräldrarnas grupp belägger inte ett faktiskt gårdsövertagande, viss fastighet, dag eller äganderätt. Farmodern är separat familj2 år1880."
+    },
+    {
+      "id": "F-P-0101-occupation-farmer",
+      "kind": "fact",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0101",
+        "property": "occupation",
+        "value_type": "structured",
+        "value_json": {
+          "literal": "Bonde",
+          "ownership_proven": false,
+          "place": "Ultervattnet",
+          "record_period": "1895–1910",
+          "takeover_date": null
+        }
+      },
+      "origins": [
+        {
+          "unit": "0947f985dfc45282d1d2ec50fa7789db4b03213b4d9879044192abfba476bd5f",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "65e401860524b6e01668e0b095e576afd653856af814d3f9560ed3db3f003052",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-T0780-C0425-Carl-family-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsad egen källrad, inga nya personfakta utöver den exakta kvalificeringen."
+        }
+      ],
+      "disposition": "accepted",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+      "caveat": "Källtiteln Bonde belagd; vilken bestämd gård han brukade och om ett övertagande alls skedde är inte fastställt. Ingen äganderätt eller andel härleds. Föräldrarnas marginalbråk tillskrivs inte honom."
+    }
+  ]
+}

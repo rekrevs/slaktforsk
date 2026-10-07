@@ -1,0 +1,61 @@
+{
+  "task": "T-0780",
+  "citation": "C-0069",
+  "status": "Bounded source/current and seven actual observation payload review, one explicit retain; not fullcitation/all10 or dependency/stage approval",
+  "inputs": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0069-eight-observation-decisions-v1.json",
+      "sha256": "6e7a2710c82a77cb0ba7e8f6f515a4ebe4f0d40085e49cf981d127229c758ac2"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0069-eight-observation-queue-v1/eight-observation-operation-v1.json",
+      "sha256": "cdc7c56542e2850195f9494bd06c2d4afb10c1255fdbae1e7fcad841779977a6"
+    }
+  ],
+  "coverage": "All eight whole current observations including structured fields, caveats, metadata, ordered evidence, full historical origin text and individual new edits read. Seven complete native changes reconstructed, parsed JSON arrays remain in declared order; no automatic R/M rebind.",
+  "dispositions": [
+    {
+      "id": "O-P-0049-A-5522-grandparents_household@2",
+      "decision": "revise_exact_fields"
+    },
+    {
+      "id": "O-P-0094-household1863@1",
+      "decision": "revise_exact_fields"
+    },
+    {
+      "id": "O-P-0095-household1863@1",
+      "decision": "revise_exact_fields"
+    },
+    {
+      "id": "O-P-0096-child1863@1",
+      "decision": "revise_exact_fields"
+    },
+    {
+      "id": "O-P-0097-household-child@1",
+      "decision": "revise_exact_fields"
+    },
+    {
+      "id": "O-P-0098-child-row@1",
+      "decision": "revise_exact_fields"
+    },
+    {
+      "id": "O-P-0102-household1863@1",
+      "decision": "revise_exact_fields"
+    },
+    {
+      "id": "O-P-0103-adult-household@1",
+      "decision": "retain_all_fields"
+    }
+  ],
+  "judgments": [
+    "O49 grandparents relation remains; own grandfather Död26April1868 prevents simultaneous cohabitation inference with1872Anna. Death not inferred from strikeout.",
+    "O94 ownJuly variant retains stronger actualApril birth; correction9/12→2/12 and1871 4/9, explicit tenyearF/N and unheaded6/7 boundaries match fullTR.",
+    "O95 corrected later annual placement1871 4/9,1872 7/7; unheaded6/7 notforced1873. Mother ownBygdeå retained.",
+    "O96 N-likeF marks1870/72 rather than two certainv; blankownbirthplace and allownN blank.",
+    "O97/O98 birth_parish null only source-observation qualification: ownbirthplaceblank, no motherditto; actual person/event origins not demoted by this operation.",
+    "O102 widowcolumn smallinkreserved rather than blank; marginalEnka preserved, annual dates registeranchorsnotphysicalcontinuity.",
+    "O103 exactretain: printedDöd26April1868, lastN2Jan1868, laterannualblank confirmeddirect; f.d.? alreadyreserved, caveatnoindependentdeathproof/physicaldeathplace."
+  ],
+  "production": "Initial first-four full print truncated across O94 edit/O95 metadata boundary; repaired by full targeted first-four current/meta/evidence/all edits output; origins outside truncation and remainingfour fullyread. No read credit for truncated boundary. Whole payload reconstruction passed.",
+  "pending": "Six incoming current referencers require individual source disposition; sequence must preserve approved historical O96@1 consumer before O96@2. WholeC69 broader semantic/stronger-support closure and all10 freshstage pending."
+}

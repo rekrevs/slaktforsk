@@ -1,0 +1,38 @@
+{
+  "task": "T-0677",
+  "citation": "C-0009",
+  "reviewer": "Astra /root/g001_continue/c0016_independent",
+  "created_at": "2026-09-30T19:02:08.374538+00:00",
+  "outcome": "PASS",
+  "scope": "Begränsad diff- och precisionsacceptans; ingen ny sak- eller bildläsning.",
+  "inputs": [
+    {
+      "path": "genealogy2/verification/T-0677/c0009-draft-implementation-spec-20260930.json",
+      "sha256": "b27d2deddafd7da38a5066cdb2ffb587c8bb4342b672037d9a6961087561acf1"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0009-settled-implementation-spec-20260930.json",
+      "sha256": "574a2a546248a852d650eaa7b1693bf02c080e3f004545f09fc3375b440e324d"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0009-independent-final-review-20260930.json",
+      "sha256": "4133f4e2fd68b08584e1f387cce1207ffb6bf0686193e87bad265cc349743462"
+    }
+  ],
+  "checks": {
+    "draft_bytes_preserved": true,
+    "settled_hash_matches_assigned": "574a2a546248a852d650eaa7b1693bf02c080e3f004545f09fc3375b440e324d",
+    "R1_exact_extra_edit": true,
+    "R2_exact_TR_replacement_only": true,
+    "review_precisions_exact": true,
+    "all_declared_input_hashes_verified": true,
+    "remaining_diff_only_state_documentary_inputs_and_third_method_precision": true,
+    "unchanged_measurement_and_object_count": true,
+    "planned_objects": 48,
+    "person_revision_ids": 39,
+    "person_field_edit_rows_after_precision": 55
+  },
+  "decision": "Den tidigare slutreviewens två krav är exakt införda. Slutlig spec godkänns för tempimplementation och huvudagentens återstående verifiering. Detta är inte ett canonicalslutkvitto.",
+  "mutation_scope": "Endast denna verificationartefakt; inga canonical-, arkiv-, Wotan- eller dashboardändringar.",
+  "stop": "Oberoende läsarens del är avslutad. Ingen tredje post förbereds."
+}

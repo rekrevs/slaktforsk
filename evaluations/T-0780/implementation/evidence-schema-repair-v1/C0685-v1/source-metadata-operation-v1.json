@@ -1,0 +1,38 @@
+{
+  "id": "T-0780/C0685-source-metadata-v1-evidence-schema-v1",
+  "actor": "Codex Sol mechanical implementation of settled Astra handoff v6",
+  "reason": "T-0780 C0685 bounded source-metadata; source approval 2a537c682e635cb71af270118b3780759bbe3b2c88ba5c3ce3443166be33e579; independent approval and total package gate pending. Mechanical evidence representation amendment only; same exact source-approved basis versions, role/note/order. Original invalid draft preserved.",
+  "dependencyReviewVersion": 2,
+  "changes": [
+    {
+      "id": "S-0044",
+      "kind": "source",
+      "expectedVersion": 1,
+      "data": {
+        "title": "S-0044: Sävars kyrkoarkiv A I/5b, husförhörslängd 1855–1864",
+        "archive_reference": null,
+        "source_class": null,
+        "description": "# S-0044: Sävars kyrkoarkiv A I/5b, husförhörslängd 1855–1864\n\n## Källbeskrivning\n\n- Institution: Riksarkivet i Härnösand\n- Arkivbildare: Sävars kyrkoarkiv\n- Referenskod: `SE/HLA/1010199/A I/5b`\n- Serie/volym: Husförhörslängder `A I/5b`\n- Tidsomfång: 1855–1864\n- Riksarkivet-id: `ZyKgYKyEfH5dtfwXdiEKv6`\n- Skanning: mikrofilmsbatch `C0034432`\n- IIIF-manifest: <https://lbiiif.riksarkivet.se/arkis!C0034432/manifest>\n- Läst: 2026-08-19 och 2026-08-30\n\n## Källkritik\n\nSamtida hushållskälla. Sida 354 placerar Johan August i föräldrahemmet och\nanger föräldrar och syskon. Hänvisningen `461` avser nästa volym; kontrollen\nav sida 461 i samma volym bevaras därför som ett transparent felslag.\n\nSida 470 placerar oberoende Johan Pet. Zingmark och Sara Sophia\nPehrsdotter i Botsmark med vigseldagen 1850-11-24 och barn från Sophia Beata\n1851 till tvillingarna 1864. `Nya bok 603` leder korrekt till A I/6b, men\nsidan saknar säker bakåthänvisning till A I/4. Den nya läsningen ersätter\ninte sida 354:s separata Lundström-resultat; se C-0685.\n\nRecords-API identifierade volymen men saknade bildlänk. Den redan kända\nreproduktionen `C0034432` gav 2026-08-30 ett publikt manifest med\nRiksarkivets bildvisare som HTTP-`Referer`; inga sessionsdata behövdes.\n\n## Lokalt material 2026-08-30\n\n- [IIIF-manifest](../media/S-0044-riksarkivet-savar-AI5b-IIIF-manifest.json),\n  SHA-256\n  `70cf6810aa3a72fdfdc0b03cfa306b1be8dd3c2442dd519c019c16d6a5b655ac`.\n- C-0685 bevarar fulloriginalet för s. 470.\n\n\n## Personbunden avstämning — T-0142, 2026-09-08\n\nLundströmfamiljens ort är Östanträsk, inte Yttertavle. Äldre dotter Johanna Charlotta och hennes 1857-dödsnot samt Jonas Peter/Emma Maria/Johan August-datum är källspecifikt rättade. Inga Zingmarkrader ändras av denna avstämning.\n\nSe [C-0051](../citations/C-0051-johan-august-barndom-sida-354.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.\n"
+      },
+      "origins": [
+        {
+          "unit": "2f57423269559dbe7f71669ce0cc5e2f203658e7c78cec136e6afbc08bcfbea6",
+          "coverage": "complete",
+          "note": "Återanvändning av äldre forskningsunderlag; inte ett nytt oberoende belägg."
+        }
+      ],
+      "evidence": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Den fullständiga äldre källbeskrivningen och dess metadata bevaras ordagrant. Separata normaliserade arkivfält och källklass tilldelas inte genom gissning.",
+      "caveat": "T-0780, enbart C-0685/sida470: Den äldre källbeskrivningen bevaras historiskt. Aktuell råhänvisning är Nya bok60[3/7?]; den senare reciproka familjekedjan når603 men bestämmer inte denna osäkra siffra. Familjens Hvarifrån455 är synlig; mottagar- eller föregående folio455 är fortfarande oläst. Sida470 är en post i samma registreringskedja, inte en ytterligare oberoende historisk röst. Rad5 läses Lovisa Wilhelmina efter direkt jämförelse. Beskrivningens Lundströmresultat på sida354 och övriga volymuppgifter omprövas inte."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "task": "T-0780",
+  "scope": "C0685/C0563 chain-associated existing semantic copy only, no new original",
+  "objects": [
+    {
+      "current": {
+        "id": "KEY-P-0439-3db8d7673867@1",
+        "object_id": "KEY-P-0439-3db8d7673867",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt/profil,C0565/C0566/C0563 och tvillingjämförelsen lästa. Axels egen vittneslista och rättad Strinnholm hålls separat. Dödsorsak tom, inte oläst. Åldersavvikelsen ändrar inte födelsedatum eller identitet.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "KEY-P-0439-3db8d7673867@1",
+          "subject_id": "P-0439",
+          "criteria": "legacy_search_key",
+          "outcome": "recorded",
+          "body": "| Hänvisningarna `455` och `603` | Sävar 1864–1865 | [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0566](../citations/C-0566-savar-EI1-axel-zingmark-dod-1865.md) | Binder födelse- och dödspost till samma hushåll. Skillnaden mellan numren beror på volymbyte, inte på flytt. |\n"
+        },
+        "origins": [
+          {
+            "revision_id": "KEY-P-0439-3db8d7673867@1",
+            "unit_id": "3db8d7673867e2430bb55e719fe444f418a5e16821c2f271f1ed701aebbc88f3",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "disposition": "revise_exact_fields",
+      "edits": [
+        {
+          "field": "data.body",
+          "old": "| Hänvisningarna `455` och `603` | Sävar 1864–1865 | [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0566](../citations/C-0566-savar-EI1-axel-zingmark-dod-1865.md) | Binder födelse- och dödspost till samma hushåll. Skillnaden mellan numren beror på volymbyte, inte på flytt. |\n",
+          "new": "| Hänvisningarna `455` och `603` | Sävar 1864–1865 | [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0566](../citations/C-0566-savar-EI1-axel-zingmark-dod-1865.md) | Binder födelse- och dödspost till samma hushåll. Numren är olika bokhänvisningar; deras skillnad belägger varken en fysisk flytt eller att ingen flytt skedde. Den accepterade familjeanknytningen bevaras på person- och källkedjan, inte på ett antaget fysiskt stillastående. |\n"
+        }
+      ],
+      "rationale": "Hela currentKEY och redan accepterad F-P0439-family_context-twins1864 lästa. Den senare avgränsar uttryckligen ingen säker omöjlighet för flytt. Folioskillnad ensam får inte bevisa fysisk kontinuitet. Inga identitetsutfall eller bokhänvisningar ändras.",
+      "evidence_addition": {
+        "basis_revision_id": "F-P-0439-family_context-twins1864@1",
+        "role": "supports",
+        "note": "Explicit befintlig begränsning: inga säkra flyttuteslutningar från bokhänvisningar eller ålder."
+      }
+    },
+    {
+      "current": {
+        "id": "F-P-0439-family_context-twins1864@1",
+        "object_id": "F-P-0439-family_context-twins1864",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "",
+        "previous_id": null,
+        "kind": "fact",
+        "data": {
+          "revision_id": "F-P-0439-family_context-twins1864@1",
+          "subject_id": "P-0439",
+          "property": "family_context",
+          "value_type": "structured",
+          "value_json": "{\"father_titles\":{\"1864\":\"f. Landb.\",\"1865\":\"Bond.\"},\"home\":\"Botsmark;455/603 olika bokhänvisningar, ingen egen flytt av numren\",\"limits\":\"Ingen säker omöjlighet för flytt,ekonomi,personligt material av åldern; faderstitlar inte barnyrke.\",\"mother_age\":34,\"name\":\"Axel enda egna förnamnet;Zingmark följer fadern.\",\"parents\":[\"P-0422\",\"P-0423\"],\"siblings\":{\"P0028\":\"1861-05-28\",\"P0428\":\"1868-02-13;gift1886\",\"P0435\":\"1853\",\"P0437\":\"1856\",\"P0438\":\"1868-02-12;död efter nöddop\",\"P0440\":\"1851\"},\"twin\":{\"birth\":\"1864-03-24\",\"death\":\"1892-04-20\",\"id\":\"P-0427\"}}"
+        },
+        "origins": [
+          {
+            "revision_id": "F-P-0439-family_context-twins1864@1",
+            "unit_id": "112bc7073258fcfdab717bc4f66e12b714297df282cd2472ced4675daf4f0027",
+            "coverage": "partial",
+            "note": "Individuellt granskad relation och dess uttryckliga avgränsning återfinns i målen."
+          },
+          {
+            "revision_id": "F-P-0439-family_context-twins1864@1",
+            "unit_id": "32b2f191dc704347371b4c465c2087071f765e8d7f2e5f69ffa76ee91e93b7e3",
+            "coverage": "partial",
+            "note": "Individuellt granskad relation och dess uttryckliga avgränsning återfinns i målen."
+          },
+          {
+            "revision_id": "F-P-0439-family_context-twins1864@1",
+            "unit_id": "510f2f4c2cfc3f77eea025c06cd37dda19c97dcd297ae09f400d814429d3b70b",
+            "coverage": "partial",
+            "note": "Individuellt granskad relation och dess uttryckliga avgränsning återfinns i målen."
+          },
+          {
+            "revision_id": "F-P-0439-family_context-twins1864@1",
+            "unit_id": "6779c2fda3ab25cc5b980c6ff3d39867619dc85a9197eef09eed4985121ede9d",
+            "coverage": "partial",
+            "note": "Avvikelse utan normaliserad tvillingdag eller överförd främmande lokalregel."
+          },
+          {
+            "revision_id": "F-P-0439-family_context-twins1864@1",
+            "unit_id": "7adac28f98cebfacb8fa6d36eaece066145a5d6f99e398003277356f40bd79d7",
+            "coverage": "partial",
+            "note": "Individuellt granskad relation och dess uttryckliga avgränsning återfinns i målen."
+          },
+          {
+            "revision_id": "F-P-0439-family_context-twins1864@1",
+            "unit_id": "87fa1d5f8372e50ac090827f2787bd10e0761dbc5a0a82ebee721f5cad1a15e1",
+            "coverage": "partial",
+            "note": "Individuellt granskad relation och dess uttryckliga avgränsning återfinns i målen."
+          },
+          {
+            "revision_id": "F-P-0439-family_context-twins1864@1",
+            "unit_id": "8f7d012ebac1327e001f7db0fc9a03836d240e58176d2eb6ebec2ed21b7dc6fb",
+            "coverage": "partial",
+            "note": "Individuellt granskad relation och dess uttryckliga avgränsning återfinns i målen."
+          },
+          {
+            "revision_id": "F-P-0439-family_context-twins1864@1",
+            "unit_id": "a7cee2bf9ae35a150b0407dd932c8975c99ac69cbf94be5506e679cf86bb79db",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "disposition": "retain_all_fields",
+      "edits": [],
+      "rationale": "Hela structured limits kvalificerar redan flyttfrågan; egna datum/titlar/släktuppgifter bevaras, ingen ny sourcevote."
+    }
+  ],
+  "counts": {
+    "objects": 2,
+    "revisions": 1,
+    "retains": 1
+  },
+  "implementation": "En ny KEY@1→2, gammal outcome/disposition/metadata bevarad. Returnera inkommande/oväntad overlap; ingen automatic basisbump."
+}

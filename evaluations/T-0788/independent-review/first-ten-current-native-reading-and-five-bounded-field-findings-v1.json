@@ -1,0 +1,124 @@
+{
+  "task": "T-0788",
+  "at_utc": "2026-10-06T07:42:42.432740+00:00",
+  "source_input": {
+    "path": "evaluations/T-0788/preparation/complete-bounded-current744-two-person-and-accepted-support-native-inputs-v1.json",
+    "sha256": "03e4ecb85c5437a66ffc28418421adeba4d5d2098772497154e191f1317ab14d"
+  },
+  "whole_native_objects_read": [
+    {
+      "revision": "E-marriage-P-0017-unknown-1942@1",
+      "pointer": "/objects/E-marriage-P-0017-unknown-1942@1",
+      "whole_data_caveat_rationale_ordered_evidence_origins_read": true
+    },
+    {
+      "revision": "F-P-0017-residence-f744@1",
+      "pointer": "/objects/F-P-0017-residence-f744@1",
+      "whole_data_caveat_rationale_ordered_evidence_origins_read": true
+    },
+    {
+      "revision": "F-P-0017-name_form-f744@1",
+      "pointer": "/objects/F-P-0017-name_form-f744@1",
+      "whole_data_caveat_rationale_ordered_evidence_origins_read": true
+    },
+    {
+      "revision": "O-P-0017-health-mark-f744@1",
+      "pointer": "/objects/O-P-0017-health-mark-f744@1",
+      "whole_data_caveat_rationale_ordered_evidence_origins_read": true
+    },
+    {
+      "revision": "O-P-0017-father-f744@1",
+      "pointer": "/objects/O-P-0017-father-f744@1",
+      "whole_data_caveat_rationale_ordered_evidence_origins_read": true
+    },
+    {
+      "revision": "O-P-0017-departure-raw@1",
+      "pointer": "/objects/O-P-0017-departure-raw@1",
+      "whole_data_caveat_rationale_ordered_evidence_origins_read": true
+    },
+    {
+      "revision": "O-P-0007-sister-parents@1",
+      "pointer": "/objects/O-P-0007-sister-parents@1",
+      "whole_data_caveat_rationale_ordered_evidence_origins_read": true
+    },
+    {
+      "revision": "R-ab847c1960d02f28801419b3@1",
+      "pointer": "/objects/R-ab847c1960d02f28801419b3@1",
+      "whole_data_caveat_rationale_ordered_evidence_origins_read": true
+    },
+    {
+      "revision": "TR-81ff8a207c9e0e37f1c1aeed@1",
+      "pointer": "/objects/TR-81ff8a207c9e0e37f1c1aeed@1",
+      "whole_data_caveat_rationale_ordered_evidence_origins_read": true
+    },
+    {
+      "revision": "READ-a16c9d0ed9c806f722f99928@1",
+      "pointer": "/objects/READ-a16c9d0ed9c806f722f99928@1",
+      "whole_data_caveat_rationale_ordered_evidence_origins_read": true
+    }
+  ],
+  "routing_only": {
+    "path": "evaluations/T-0788/independent-review/own-current744-semantic-routing-only-v1.json",
+    "sha256": "de9994d975ae09212e0ce61e244e56d4f1dd363d254a84e85e2c654d3e8559da"
+  },
+  "routing_limits": "85available-head objects/116fieldhits are mechanical locators, not85wholeobjectreads or grades. Earlier broadregex output truncated; no credit inferred.",
+  "findings": [
+    {
+      "id": "744-IF01",
+      "target": "E-marriage-P-0017-unknown-1942@1",
+      "field": "data.date_json",
+      "issue": "1942-02-02 exact event conflicts with own/sourceinitial7/2. Need exact source correction plusindividual incoming; no eventplace guess."
+    },
+    {
+      "id": "744-IF02",
+      "targets": [
+        "O-P-0017-father-f744@1",
+        "O-P-0007-sister-parents@1"
+      ],
+      "fields": [
+        "data.value_literal",
+        "data.value_json.residence where present"
+      ],
+      "issue": "Full Solliden,Hyltinge raw transcription is stronger than our newly reserved exact placeglyph. Keep normalized independently supported location distinct from source-local uncertain spelling; primarysettled glyph/support disposition required."
+    },
+    {
+      "id": "744-IF03",
+      "target": "O-P-0017-departure-raw@1",
+      "fields": [
+        "data.value_literal",
+        "data.value_json.destination_literal"
+      ],
+      "issue": "Jäl.2 literal unreserved while actualprefix contested; destination_identified=false correctly retained, exact literal qualification needed."
+    },
+    {
+      "id": "744-IF04",
+      "target": "F-P-0017-residence-f744@1",
+      "fields": [
+        "data.value_json.period",
+        "caveat"
+      ],
+      "issue": "1940–1942 period must be explicitly book-period/registry bound; daughter own13blank gives no1940annualmark and no physicalcontinuousresidence. Preserve stronger earlier own932 separately."
+    },
+    {
+      "id": "744-IF05",
+      "targets": [
+        "R-ab847c1960d02f28801419b3@1",
+        "TR-81ff8a207c9e0e37f1c1aeed@1",
+        "READ-a16c9d0ed9c806f722f99928@1"
+      ],
+      "issue": "Current unsuperseded caveats/reading_note/rationale/body still say own9–13unread/localimageabsent and2Feb; exactcurrentcompletion/sourcecorrections needed while preserving oldrawhistory and other3folios limits."
+    }
+  ],
+  "retains": [
+    {
+      "target": "F-P-0017-name_form-f744@1",
+      "reason": "Jansson f.Ekholm ownname; no relationship toArne fromsurname."
+    },
+    {
+      "target": "O-P-0017-health-mark-f744@1",
+      "reason": "v literal/owncolumn6 and limitedvaccination interpretation preserved, no illness/lifetime inference."
+    }
+  ],
+  "remaining": "Finite currentsemantic copy bodies/caveats and relevant incoming; exactprimaryspec then final actualpackage. No new originals or full-life review.",
+  "final_ready_for_canonical": false
+}

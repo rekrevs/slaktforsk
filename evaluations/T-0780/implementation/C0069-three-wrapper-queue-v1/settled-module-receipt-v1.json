@@ -1,0 +1,35 @@
+{
+  "task": "T-0780",
+  "source_pins": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0069-three-wrapper-decisions-v1.json",
+      "sha256": "49a9830d02b257107bc98ff85c7572dae181a36d7c8bb4ba874fe8a3ab9d21f1"
+    }
+  ],
+  "candidate_modules": [
+    {
+      "path": "evaluations/T-0780/implementation/C0069-three-wrapper-queue-v1/three-wrapper-operation-v1.json",
+      "sha256": "429a809b08f2b63da62dbf240f5052e14590b8034277038ecb7c6d275cd7ff29",
+      "changes": 3
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0069-three-wrapper-queue-v1/individual-full-field-table-v1.json",
+      "sha256": "e087eed487527aaf2c1723837e7e9d6a12fb74dcc7d5a06086611139ef4418f5"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0069-three-wrapper-queue-v1/full-incoming-and-cross-module-dependency-input-v1.json",
+      "sha256": "5272d812faed2a54bbef9a5bf7f2872a4c3e846c1d6d7b44814f1a56b2372848"
+    }
+  ],
+  "expected_unique_targets": 3,
+  "revised_objects": 3,
+  "new_objects": 0,
+  "all_exact_full_current_old_matches": "PASS",
+  "full_field_count": 23,
+  "incoming_edges": 55,
+  "cross_module_basis_questions": 2,
+  "stage_or_canonical_applies": 0,
+  "failed_attempts": 0,
+  "elapsed_seconds": 0.007035970687866211,
+  "status": "Settled field candidates built; incoming basis dispositions and exact sequence pending Astra, not stage-ready"
+}

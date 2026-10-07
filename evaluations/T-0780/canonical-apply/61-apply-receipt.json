@@ -1,0 +1,23 @@
+{
+  "started_at_utc": "2026-10-04T13:15:31.918810+00:00",
+  "finished_at_utc": "2026-10-04T13:15:37.010970+00:00",
+  "gate_path": "evaluations/T-0780/root-controlled-canonical-exact144-authorization-v1.json",
+  "gate_sha256": "69ee5e8353d1b3fbe66aef92ef201fdf4bf4f909c69e2aaa81f8df1a59ecd03b",
+  "operation_path": "evaluations/T-0780/implementation/C0561-second-settled-queue-v1/record-last-operation-v1.json",
+  "operation_sha256": "135167446e637cd5ec63c401c533a776d556c4a82600c6256756769104104df0",
+  "expected_before": {
+    "journal_head": 341,
+    "pending": 363
+  },
+  "expected_after": {
+    "journal_head": 342,
+    "pending": 488
+  },
+  "exit_code": 0,
+  "stdout": "{\n  \"unchanged\": false,\n  \"operation\": \"T-0780/C0561-three-record-reading-wrapper-v1-explicit-record-last-v1\",\n  \"changes\": 1,\n  \"pendingReviews\": 488,\n  \"journal\": {\n    \"written\": 1\n  }\n}\n",
+  "stderr": "",
+  "actual_after": {
+    "journal_head": 342,
+    "pending": 488
+  }
+}

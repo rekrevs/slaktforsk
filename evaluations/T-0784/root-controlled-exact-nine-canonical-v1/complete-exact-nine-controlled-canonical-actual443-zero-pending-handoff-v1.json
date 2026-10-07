@@ -1,0 +1,124 @@
+{
+  "task": "T-0784",
+  "authorization_pin": {
+    "path": "evaluations/T-0784/root-exact-one-nine-controlled-canonical-authorization-v1.json",
+    "sha256": "26fd6f297effff1e706ee037d17bb877650f9e0b4879f5b693cafbcf8b2553af"
+  },
+  "MAIN_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "4dffaf975b66fc7fb70c0ebda39be93a52fd64d7add03100e54e6c47a4220fd0"
+  },
+  "actual_state": {
+    "journal_head": 443,
+    "pending": 0
+  },
+  "reviewed_final_stage_DB_pin": {
+    "path": "evaluations/T-0784/root-authorized-exact-nine-stage-v1/stage.sqlite",
+    "sha256": "4ad18b6cf54d9001fa9272076ac7ceb7f1452ea1b52ac64be9531853846f5cfe"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0784/implementation/exact-nine-settled-draft-v1/exact-nine-stage-ready-proposal-v1.json",
+    "sha256": "fd438f10ba90901ab1171868c00e8acebb86de19979bcc1c64b3d0ac393b3ee9"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0784/implementation/exact-nine-settled-draft-v1/exact-nine-ordered-operation-membership-v1.json",
+    "sha256": "33afa563644ee34c07147006cae92e4e7a54dfd92871611dac84dad94ff8c176"
+  },
+  "completed_operations": [
+    {
+      "index": 1,
+      "authorization_pin": {
+        "path": "evaluations/T-0784/root-exact-one-nine-controlled-canonical-authorization-v1.json",
+        "sha256": "26fd6f297effff1e706ee037d17bb877650f9e0b4879f5b693cafbcf8b2553af"
+      },
+      "operation_pin": {
+        "path": "evaluations/T-0784/implementation/exact-nine-settled-draft-v1/01-exact-nine-source-settled-operation-v1.json",
+        "sha256": "00841fa152f65e6f195725f17b66be60be270441f478147985543d8a7d30baff"
+      },
+      "operation_id": "T-0784/three-native-identity-tree-and-Maj-current-copy-v1",
+      "before": {
+        "journal_head": 442,
+        "pending": 0
+      },
+      "reviewed_stage_step_pin": {
+        "path": "evaluations/T-0784/root-authorized-exact-nine-stage-v1/step-01-actual-before-after.json",
+        "sha256": "a257d4d31fbfe31893508eb6c6ea365ae2d77889170313f38dc36f2010ba50b4"
+      },
+      "started_at_utc": "2026-10-05T17:43:33.538702+00:00",
+      "argv": [
+        "node",
+        "genealogy2/cli.mjs",
+        "apply",
+        "evaluations/T-0784/implementation/exact-nine-settled-draft-v1/01-exact-nine-source-settled-operation-v1.json"
+      ],
+      "exit_code": 0,
+      "after": {
+        "journal_head": 443,
+        "pending": 0
+      },
+      "MAIN_pin_after": {
+        "path": "genealogy2/data/research.sqlite",
+        "sha256": "4dffaf975b66fc7fb70c0ebda39be93a52fd64d7add03100e54e6c47a4220fd0"
+      },
+      "finished_at_utc": "2026-10-05T17:43:39.190593+00:00"
+    }
+  ],
+  "actual_CLI_invocations": 1,
+  "root_all50_comparison_pin": {
+    "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/root-all50-reviewed-stage-versus-actual-MAIN-v1.json",
+    "sha256": "9b4e2dce0f88c71a2dff997e095533ca5f855885f07bd720f6b5e5d13eb11648"
+  },
+  "native_protected_history_proof_pin": {
+    "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/exact-old-native-history-row-order-protected42-and-nine-context-proof-v1.json",
+    "sha256": "16fefd229b60fefab206362b6708f2e2a2822a9565ba3c705d7a20f94c2fdc4a"
+  },
+  "validator_pins": [
+    {
+      "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/verify.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/verify-assets.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/verify-source.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    },
+    {
+      "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/inventory.json",
+      "sha256": "719b3e7aa520f1ba499036c6d2f26e24eace026ee41aa4247885e3ddc4a0ddfd"
+    },
+    {
+      "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/pedigree-verified-P0269.json",
+      "sha256": "5786584426fb0d37b0e7d5397eb711dfd2594ad1c75e02640dd157a0c4fbe870"
+    },
+    {
+      "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/pedigree-verified-P0270.json",
+      "sha256": "bf6f665c74c5cfbec455d88030ae68e87d66e7740e81bbe1f021c8dd2ba73dc7"
+    },
+    {
+      "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/pedigree-typed-P0269.json",
+      "sha256": "b77f94f151aac5038ef863996b9ae79fa390dfa99aaf0aa457cc4c83ba701f59"
+    },
+    {
+      "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/pedigree-typed-P0270.json",
+      "sha256": "a68300cf12fa64eec1e43479c01c4097a6ff2776ba6b05bd75974084558cbbca"
+    },
+    {
+      "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/P-0211-whole-person.json",
+      "sha256": "3d97e65f65a1ee3f2329e2d5910fadd5eefbafee38e331cb48741e6c60f42d58"
+    },
+    {
+      "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/P-0003-whole-person.json",
+      "sha256": "ae7d91b74981fb28039f6f5b00e6422b73033cb4157dc36852cfb5aa68475865"
+    },
+    {
+      "path": "evaluations/T-0784/root-controlled-exact-nine-canonical-v1/P-0007-whole-person.json",
+      "sha256": "b9825eb7873c375f0ff7fd4c17f946fa99d777bc9cc46c292f03353a4ae36a9e"
+    }
+  ],
+  "actual_three_person_identity_acceptance": false,
+  "five_owner_administration_applied": false,
+  "actual_worker_usage": "Root collects after worker final; unknown here, not zero."
+}

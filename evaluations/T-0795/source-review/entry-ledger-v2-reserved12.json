@@ -1,0 +1,195 @@
+{
+  "task": "T-0795",
+  "count": 12,
+  "limit_per_unit": 2,
+  "limit_total": 12,
+  "entries": [
+    {
+      "id": "U1-1",
+      "unit": "U1",
+      "tool": "mcp__riksarkivet__search_metadata",
+      "args": {
+        "keyword": "Stockholms inskrivningsområde",
+        "offset": 0,
+        "limit": 10,
+        "only_digitised": false,
+        "dedup": false,
+        "max_response_tokens": 6000,
+        "research_context": "T-0795 bounded generic archival metadata routing for inscription authority around 1953; no personal record or name search"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.294Z",
+      "status": "reserved"
+    },
+    {
+      "id": "U2-1",
+      "unit": "U2",
+      "tool": "web__run",
+      "args": {
+        "search_query": [
+          {
+            "q": "site:falkoping.se kommunarkiv skolarkiv Flobyskolan Fredriksbergskolan"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.296Z",
+      "status": "reserved"
+    },
+    {
+      "id": "U3-1",
+      "unit": "U3",
+      "tool": "web__run",
+      "args": {
+        "search_query": [
+          {
+            "q": "site:libris.kb.se \"Sveriges lärare\" matrikel 1960"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.296Z",
+      "status": "reserved"
+    },
+    {
+      "id": "U4-1",
+      "unit": "U4",
+      "tool": "web__run",
+      "args": {
+        "search_query": [
+          {
+            "q": "site:lantmateriet.se historiska lagfarter fastighetsbeteckning 1960"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.296Z",
+      "status": "reserved"
+    },
+    {
+      "id": "U5-1",
+      "unit": "U5",
+      "tool": "web__run",
+      "args": {
+        "search_query": [
+          {
+            "q": "site:skatteverket.se beställ kopia bouppteckning 2001 personnummer"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.296Z",
+      "status": "reserved"
+    },
+    {
+      "id": "U6-1",
+      "unit": "U6",
+      "tool": "web__run",
+      "args": {
+        "search_query": [
+          {
+            "q": "site:vgregion.se regionarkivet kulturnämnden arkivförteckning protokoll"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:11:36.296Z",
+      "status": "reserved"
+    },
+    {
+      "id": "U1-2",
+      "unit": "U1",
+      "tool": "web__run",
+      "args": {
+        "open": [
+          {
+            "ref_id": "https://sok.riksarkivet.se/arkiv/ScrWZ9F3yITCN9UHUGTIG4"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:14:08.673Z",
+      "status": "reserved",
+      "selection_note": "Full selected catalog/guide metadata; no personal original"
+    },
+    {
+      "id": "U2-2",
+      "unit": "U2",
+      "tool": "web__run",
+      "args": {
+        "open": [
+          {
+            "ref_id": "https://www.falkoping.se/kommun--politik/kommunen-forvaltningar-bolag/kommunens-arkiv"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:14:08.673Z",
+      "status": "reserved",
+      "selection_note": "Full selected catalog/guide metadata; no personal original"
+    },
+    {
+      "id": "U3-2",
+      "unit": "U3",
+      "tool": "web__run",
+      "args": {
+        "open": [
+          {
+            "ref_id": "https://libris.kb.se/xsearch?query=l%C3%A4rarmatrikel&format=json&n=50"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:14:08.673Z",
+      "status": "reserved",
+      "selection_note": "Known LIBRIS xsearch query structure reused from C0906 provider; generic unfiltered title word with full JSON response requested"
+    },
+    {
+      "id": "U4-2",
+      "unit": "U4",
+      "tool": "web__run",
+      "args": {
+        "open": [
+          {
+            "ref_id": "https://www2.lantmateriet.se/sv/om-lantmateriet/kontakta-oss/ta-del-av-allman-handling/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:14:08.673Z",
+      "status": "reserved",
+      "selection_note": "Full selected catalog/guide metadata; no personal original"
+    },
+    {
+      "id": "U5-2",
+      "unit": "U5",
+      "tool": "web__run",
+      "args": {
+        "open": [
+          {
+            "ref_id": "https://www.skatteverket.se/privat/folkbokforing/narenanhorigdor/bouppteckning/bestallkopiapabouppteckning.4.12815e4f14a62bc048f10849.html"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:14:08.673Z",
+      "status": "reserved",
+      "selection_note": "Full selected catalog/guide metadata; no personal original"
+    },
+    {
+      "id": "U6-2",
+      "unit": "U6",
+      "tool": "web__run",
+      "args": {
+        "open": [
+          {
+            "ref_id": "https://www.vgregion.se/ov/regionarkivet/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "reserved_utc": "2026-10-06T14:14:08.673Z",
+      "status": "reserved",
+      "selection_note": "Direct institution guide route, URL inferred from official VGR domain; no personal query"
+    }
+  ]
+}

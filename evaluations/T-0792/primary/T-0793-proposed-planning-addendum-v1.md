@@ -1,0 +1,13 @@
+# T-0793 föreslaget planeringstillägg från T-0792
+
+Denna bilaga överför endast exakt planeringsansvar, inget utförande i tvåuppgiftskörningen. T0793 är aktiv bounded generationscheckpoint; frågorna är EJ BESLUTAT UTFÖRANDE tills individuellt sakprövade, ändliga tasks allokerats med separat faktiskt mandat.
+
+Exakt återbruk/union: T0214 behåller C0925/C0926 och snäv3011betydelserest; T0787s egna tre original och fysiska3011noll återöppnas inte. T0215 behåller Agnes/Märta/Ture-passager. T0216 behåller endast egen392/-43första fortsättningsfolio och1963/1983dödsrouting; T0217 ekonomisk/militär routing med sina ursprungliga tak. T0628/T0768 behåller egna Hallin-/Villykonflikter. T0079 behåller Kalmar/Hudiksvall1931-1946, T0359 hela delade1718/1719, T0372 Ivars läkarmatrikel/legitimation/missionstjänst. Deras status/priority/after/hela äldreAC/checkpoints ändras inte. T0801–03 äger exakt de nya metadata-rutterna i sina fulla logs och inget mer. Ingen dubblerad routing eller accepterad originalutvinning.
+
+Planeringsrester med återstartvillkor:
+- P0241/P0246: eget arbete/arbetsgivare och senare hushåll efter T0216s första bokperiod, personlig press/brev/foto samt religiöst/socialt sammanhang. Återpröva efter faktiskt resultat från T0216/T0217 eller en ny konkret personbunden ort/händelse; inte ett villkor att göra hela äldre tasks innan alternativ får sakprövas.
+- P0246/P0240: rimlig militär/frivillig/maritim upptäcktsavgränsning för deras egna liv, inga belägg för tjänst påstås. T0793 ska välja högst en sakligt motiverad bounded metadatafråga eller dokumentera varför inget sådant spår nu väljs. Kön/blank cell är inte slutlig EJ RELEVANT. Makarnas militära frågor är skilda.
+- P0239/P0240: missionsbrev/foton, primära rese-/tjänste-/dödsomständigheter utöver T0372, indisk/konsulär död/grav1944, samt eget änkenätverk efter1944. Återpröva efter exakt bok-/intervju-/katalogutfall T0801 eller annan namngiven nyckel; originalpassage måste få separat ändlig ägare innan den beslutas utförd. Ingen källa antas oberoende enbart för att den är indisk.
+- P0240: ytterligare skolarkiv (Ersta/landstingsskolor) eller alternativa barndomsvägar om de två valda kandidaterna i T0803 inte räcker. Egen rådoppost1902/övriga syskonpassager och relationen till P0530 behåller redan existerande ägare där sådan finns; återpröva precis sakfråga och ägarskap innan ny passage. Inga nya syskonidentiteter av gravgemenskap/kodfält.
+
+T0793 får inte bli DONE med dessa nödvändiga frågors planeringsansvar förlorat: varje punkt får ett exakt beslut, bounded ägare eller explicit bibehållet senare planeringsägarskap och konkret trigger. Ingen automatisk DEFERRED-exekvering; inget brett allalivsmandat.

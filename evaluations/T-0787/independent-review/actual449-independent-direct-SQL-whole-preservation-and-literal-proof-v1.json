@@ -1,0 +1,387 @@
+{
+  "task": "T-0787",
+  "method": "Own direct read-only immutable SQLite comparisons; no runtime mutations",
+  "final_handoff": {
+    "path": "evaluations/T-0787/exact136-stage-v1/exact137-resolution-and-finalchecks-v1/complete-two-op136-plus137-resolution-actual449-final-stage-handoff-v1.json",
+    "sha256": "bf5090baf0dfd33a017f3da00ba5fe59e5eb76b24c0b28663261e624ff0bc3b9"
+  },
+  "final_stage": {
+    "path": "evaluations/T-0787/exact136-stage-v1/stage.sqlite",
+    "sha256": "99eec2f6f1020e5129e11f43f931d3697b8f9266e0b6fd2b67482ddfb8922adc"
+  },
+  "pre_resolution_snapshot": {
+    "path": "evaluations/T-0787/exact136-stage-v1/pre-resolution-original448-902a6ed9-v1.sqlite",
+    "sha256": "902a6ed9f0af9aea311e145d016ce4cae83c9a695d433f67bef7f9c5d3153dd5"
+  },
+  "schema_exact": true,
+  "tables": [
+    {
+      "table": "assessment",
+      "before": 23649,
+      "after": 23649,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "asset",
+      "before": 5067,
+      "after": 5067,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "dependency",
+      "before": 39339,
+      "after": 39339,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document",
+      "before": 3717,
+      "after": 3717,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search",
+      "before": 3717,
+      "after": 3717,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search_config",
+      "before": 1,
+      "after": 1,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search_content",
+      "before": 3717,
+      "after": 3717,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search_data",
+      "before": 4239,
+      "after": 4239,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search_docsize",
+      "before": 3717,
+      "after": 3717,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "document_search_idx",
+      "before": 4446,
+      "after": 4446,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "event",
+      "before": 1537,
+      "after": 1537,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "fact",
+      "before": 3713,
+      "after": 3713,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "identity",
+      "before": 1863,
+      "after": 1863,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "identity_resolution",
+      "before": 11,
+      "after": 11,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "import_batch",
+      "before": 1,
+      "after": 1,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "legacy_assertion",
+      "before": 5130,
+      "after": 5130,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "legacy_entity",
+      "before": 2992,
+      "after": 2992,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "legacy_mapping",
+      "before": 539,
+      "after": 539,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "mention",
+      "before": 2591,
+      "after": 2591,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "meta",
+      "before": 1,
+      "after": 1,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "narrative",
+      "before": 775,
+      "after": 775,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "native_asset",
+      "before": 53,
+      "after": 53,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "object",
+      "before": 44342,
+      "after": 44342,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "object_search",
+      "before": 44342,
+      "after": 44342,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "object_search_config",
+      "before": 1,
+      "after": 1,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "object_search_content",
+      "before": 44342,
+      "after": 44342,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "object_search_data",
+      "before": 7291,
+      "after": 7291,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "object_search_docsize",
+      "before": 44342,
+      "after": 44342,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "object_search_idx",
+      "before": 4934,
+      "after": 4934,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "observation",
+      "before": 3567,
+      "after": 3567,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "operation",
+      "before": 449,
+      "after": 450,
+      "whole_old_rows_and_order_exact": true,
+      "added": 1
+    },
+    {
+      "table": "operation_payload",
+      "before": 448,
+      "after": 449,
+      "whole_old_rows_and_order_exact": true,
+      "added": 1
+    },
+    {
+      "table": "origin",
+      "before": 100030,
+      "after": 100030,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "participation",
+      "before": 2568,
+      "after": 2568,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "person",
+      "before": 1108,
+      "after": 1108,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "place",
+      "before": 21,
+      "after": 21,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "question",
+      "before": 1564,
+      "after": 1564,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "record",
+      "before": 2117,
+      "after": 2117,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "record_asset",
+      "before": 1530,
+      "after": 1530,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "record_media",
+      "before": 58,
+      "after": 58,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "relation",
+      "before": 1700,
+      "after": 1700,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "review_request",
+      "before": 6837,
+      "after": 6837,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "review_resolution",
+      "before": 6700,
+      "after": 6837,
+      "whole_old_rows_and_order_exact": true,
+      "added": 137
+    },
+    {
+      "table": "revision",
+      "before": 49309,
+      "after": 49309,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "search",
+      "before": 458,
+      "after": 458,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "source",
+      "before": 852,
+      "after": 852,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "transcription",
+      "before": 1215,
+      "after": 1215,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "unit",
+      "before": 97854,
+      "after": 97854,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "unit_decision",
+      "before": 97905,
+      "after": 97905,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    },
+    {
+      "table": "unit_decision_target",
+      "before": 81238,
+      "after": 81238,
+      "whole_old_rows_and_order_exact": true,
+      "added": 0
+    }
+  ],
+  "entire_submitted_two_operation_requests_at_sequences448449_exact": true,
+  "all137_stored_literal_order_equal_own_individually_approved_instructions": true,
+  "actual_state": {
+    "journal_head": 449,
+    "pending": 0
+  },
+  "pedigrees": [
+    {
+      "root": "P-0269",
+      "persons": 23,
+      "contains_P0241_and_P0246": true
+    },
+    {
+      "root": "P-0270",
+      "persons": 23,
+      "contains_P0241_and_P0246": true
+    }
+  ]
+}

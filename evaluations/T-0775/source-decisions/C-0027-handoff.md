@@ -1,0 +1,1 @@
+Fyra målraders18fält kontrollerade. Materiellt: Lucy m-cell X− och Majs lodräta fortsättningsspår är inte råblankt.353/572 är oavkodade m-kolumnsråtal. Oskarshamn är Katys redan uppgivna födelseort, inte helt okänd; födelsepost fortsatt oläst.69—, kod5, barnkod och yrkestecken förblir reserverade. Inga grind-/OWNER-ändringar.

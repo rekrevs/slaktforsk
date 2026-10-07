@@ -1,0 +1,55 @@
+{
+  "task": "T-0677",
+  "citation": "C-0014",
+  "reviewer": "Astra /root/g001_continue/c0016_independent",
+  "reviewed_at_utc": "2026-09-30T17:07:47.851095+00:00",
+  "scope": "Separate substantive review of settled implementation specification versus locked independent raw reading and accepted source comparison; no implementation.",
+  "inputs": [
+    {
+      "path": "genealogy2/verification/T-0677/c0014-independent-gaps-20260930.json",
+      "sha256": "95039786a515bcd5722c7cdc5ef00ef563c130d6f8f95a96ee3068d3deb43235"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0014-source-comparison-acceptance-20260930.json",
+      "sha256": "ba126e0f524b3351ff169a889c3efb1bdbb03e6280c9fd7351d13a088a43353a"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0014-implementation-spec-before-review-precisions-20260930.json",
+      "sha256": "33135fd097dc28e684a05638ce86656c9766db0d37cc55822fd5f80b1df154d8"
+    }
+  ],
+  "decision": "pass_after_two_precisions",
+  "passed_checks": [
+    "SCB B21 upper25 explicitly canceled, lower19 reused. No accepted exact paternal age and no exact birth inference.",
+    "SCB cancellation and ex do not overwrite C0016 raw25 or resolve its uncertain ink; separate source objects and caveats enforce boundary.",
+    "B16 horizontal mark retained without nobility conclusion; B20 cancellationtail retained without unmarriedstatus; B23 printed rowgrouping retained without handwritten note.",
+    "B6(1) retains unresolved function; no birthorder. B15(1år) remains raw with no exact weddingyear/date inference.",
+    "23-column scope correctly split into3whole reuses and20partial/whole checks, with explicit source dependence and reservations.",
+    "Person comparisons preserve1861-09-24/1886-04-26; no new identity, parent relation or contract/pedigreegate upgrade."
+  ],
+  "necessary_precisions": [
+    {
+      "id": "R1",
+      "target": "TR-T0677-C0014-consolidated-control data.text headers column1",
+      "observed": "Inskrifningens löpande nummer",
+      "required": "Inskrifningens löpande års-nummer.",
+      "reason": "The printed heading explicitly contains års-. Verified in original crop175x400+160+270, rotated-90. Source comparison already says årsnummer. My own initial stage1 Inskrifningsortens is corrected here; old raw stage1 remains preserved."
+    },
+    {
+      "id": "R2",
+      "target": "O-T0677-C0014-duration-suffix property and caveat",
+      "observed": "property marriage_duration_literal; caveat cites own marriage1886-04-26 although only ownSCB/TR evidence bound",
+      "required": "Use neutral parental_year_suffix_literal or equivalent and retain only own-cell caveat (unlabelled parenthetical year suffix, function/counting unresolved). Keep comparison with original marriage-duration wording and exact own weddingdate in person source_comparison facts with their existing cross-source bindings.",
+      "reason": "SCB literally has only(1år) after reused maternal role; its wide parental header alone does not label it marriage duration. The correspondence with C0016gift[e?]1år is a cross-record conclusion and already has a proper home in new personfacts."
+    }
+  ],
+  "not_reviewed": [
+    "Final operation payloads",
+    "Temp apply/pending results",
+    "Canonical apply",
+    "Complete impact dispositions"
+  ],
+  "canonical_changes": false,
+  "artifact_policy": "Review records corrections without changing previous locked raw or specification bytes.",
+  "input_preservation_note": "Pre-precision spec bytes preserved at historical filename; settled spec now incorporates both requestedprecisions."
+}

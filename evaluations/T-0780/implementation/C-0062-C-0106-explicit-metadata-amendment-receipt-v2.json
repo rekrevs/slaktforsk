@@ -1,0 +1,49 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-03T06:42:59.517514+00:00",
+  "builder_elapsed_seconds": 0.005199909210205078,
+  "source_amendment_path": "evaluations/T-0780/source-review/C-0062-current-person-and-C-0106-dependency-metadata-amendment-v1.json",
+  "source_amendment_sha256": "b91f758e3b183b43553bb689da63fdc6f96f4a184469cfdce640cca031c8776a",
+  "current_P0089_exact2accepted_sexnull_retained": true,
+  "person_revision_changes": 0,
+  "prior_candidate_and_history_preserved": true,
+  "all46_exactcandidate_field_matches_PASS": true,
+  "unlisted_fields_arrays_metadata_origins_protectedstatus_unchanged": true,
+  "stage_or_canonical_applies": 0,
+  "new_original_reads": 0,
+  "outputs": [
+    {
+      "scope": "C-0062 Forsberg",
+      "source_candidate": "evaluations/T-0780/implementation/C-0062-Forsberg-candidate-operation-v1.json",
+      "source_candidate_sha256": "7f7ba7a75a8bf7834668a229d3ee6adc5c9e99d13eba78fa5a27ed718206866b",
+      "new_candidate": "evaluations/T-0780/implementation/C-0062-Forsberg-candidate-operation-v2.json",
+      "new_candidate_sha256": "7aa0faeab9d49b786b86b1240debf6c8014de0c6f3de96b1bf28b0794dbd1186",
+      "exact_field_edits": 45,
+      "change_count": 33,
+      "existing_revisions": 31,
+      "new_objects": 2,
+      "field_table": "evaluations/T-0780/implementation/C-0062-Forsberg-candidate-candidate-amendment-field-table-v2.json",
+      "field_table_sha256": "a4c0fd96c0bef878cf401136c436d1a06d86f4819216bf961cb3980735ec3cf7"
+    },
+    {
+      "scope": "C-0106",
+      "source_candidate": "evaluations/T-0780/implementation/C-0106-candidate-operation-v1.json",
+      "source_candidate_sha256": "448fbcefec2415419852ae26d8639b5b829ba562503083007cfd05ec848e6807",
+      "new_candidate": "evaluations/T-0780/implementation/C-0106-candidate-operation-v2.json",
+      "new_candidate_sha256": "3128bef1828a9868fa68167fbd665417150840c86f7b674cf95c05d014131835",
+      "exact_field_edits": 1,
+      "change_count": 8,
+      "existing_revisions": 3,
+      "new_objects": 5,
+      "field_table": "evaluations/T-0780/implementation/C-0106-candidate-candidate-amendment-field-table-v2.json",
+      "field_table_sha256": "686a70caf852e7083f17e8230bae56554b9284f17e19a5b84664ed4c25f7f88f"
+    }
+  ],
+  "failure_history": [
+    {
+      "event": "Initial C0062 new audit/adoption hardcoded retained person@1 instead of actual accepted current@2",
+      "impact": "Draft metadata/evidence only; no apply; exact source-authorized amendment preserves bounded person acceptance and unresolved external identification."
+    }
+  ],
+  "still_pending": "Expanded semantic and independent exactpackage approval; C0106 EPoperation stays separate after amended source operation."
+}

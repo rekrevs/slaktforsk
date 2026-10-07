@@ -1,0 +1,82 @@
+{
+  "task": "T-0786",
+  "package_pin": {
+    "path": "evaluations/T-0786/implementation/one-shared-access-search-package-v1.json",
+    "sha256": "90faf97c034578fb6e7efa7a83500bf730b2c5a1ca1744203e0f68fbc64b750c"
+  },
+  "operation_pin": {
+    "path": "evaluations/T-0786/implementation/one-shared-access-search-operation-v1.json",
+    "sha256": "02b1571ebe178be64602ee5b1ebd3f0572b3b4742ed851dfa73030d4841340c2"
+  },
+  "source_spec_pin": {
+    "path": "evaluations/T-0786/source-review/one-shared-access-search-exact-primary-specification-v2.json",
+    "sha256": "7e8b6bbec375e18f7ac0db7c2a54891039fcc80ee6edafbb0dc1254d1c3481a9"
+  },
+  "guard_consequence_pin": {
+    "path": "evaluations/T-0786/implementation/one-shared-access-search-guards-and-individual-consequence-v1.json",
+    "sha256": "a6942d66ad9dec4a8d6fa558774517b2030a2c72a4f47b040ae371066b6eb29a"
+  },
+  "actual_state": {
+    "journal_head": 444,
+    "pending": 0
+  },
+  "new_objects": 1,
+  "old_revisions": 0,
+  "native_target_and_support_pin": {
+    "path": "evaluations/T-0786/one-search-stage-v1/complete-one-actual-native-target-and-support-v1.json",
+    "sha256": "d07f3a9470fa8eff4d3c18ab5241506894923d56f9f2ca2f7c6a4ab31a575e93"
+  },
+  "actual_request_pin": {
+    "path": "evaluations/T-0786/one-search-stage-v1/actual-individual-requests-v1.json",
+    "sha256": "9b7ac723a47c18aba66e2ada7d8ec2da50e6d9572545cba67188ab334c9f5a8d"
+  },
+  "full_all50_diff_pin": {
+    "path": "evaluations/T-0786/one-search-stage-v1/full-all50-old-row-order-protected42-and-exact-new-search-diff-v1.json",
+    "sha256": "216739f7313bec313bd30be9295b5f32003e90a277f32f323fdb7202af7a8f23"
+  },
+  "stage_DB_pin": {
+    "path": "evaluations/T-0786/one-search-stage-v1/stage.sqlite",
+    "sha256": "aa7d413cb946d743e0db3bd5c8cb1f32410f23aac55f0d797af988b16748a35a"
+  },
+  "validators": [
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/verify.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/verify-assets.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/verify-source.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    },
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/inventory.json",
+      "sha256": "719b3e7aa520f1ba499036c6d2f26e24eace026ee41aa4247885e3ddc4a0ddfd"
+    },
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/P-0269-verified-pedigree.json",
+      "sha256": "5786584426fb0d37b0e7d5397eb711dfd2594ad1c75e02640dd157a0c4fbe870"
+    },
+    {
+      "path": "evaluations/T-0786/one-search-stage-v1/P-0270-verified-pedigree.json",
+      "sha256": "bf6f665c74c5cfbec455d88030ae68e87d66e7740e81bbe1f021c8dd2ba73dc7"
+    }
+  ],
+  "main_all50_and_physical_SHA_unchanged": true,
+  "protected42_exact": true,
+  "executable_canonical_command_requires_separate_root_authorization": [
+    "node",
+    "genealogy2/cli.mjs",
+    "apply",
+    "evaluations/T-0786/implementation/one-shared-access-search-operation-v1.json",
+    "--db",
+    "genealogy2/data/research.sqlite",
+    "--journal",
+    "genealogy2/journal"
+  ],
+  "canonical_applied": false,
+  "source_and_independent_final_byte_approval_pending": true,
+  "usage": "UNKNOWN pending root collector"
+}

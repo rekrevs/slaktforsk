@@ -1,0 +1,1616 @@
+{
+  "case": "C",
+  "status": "candidateindividualdecisions; not finalcoverageapproval",
+  "max_claims_per_logical_unit": 6,
+  "claims": [
+    {
+      "id": "C-001",
+      "object": "E-birth-P-0010@1",
+      "field": "date_json",
+      "start": 0,
+      "end": 70,
+      "quote": "{\"literal\": \"1886-04-19\", \"precision\": \"exact\", \"value\": \"1886-04-19\"}",
+      "quoted_value": {
+        "literal": "1886-04-19",
+        "precision": "exact",
+        "value": "1886-04-19"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "exact birthdate",
+      "old_support": [
+        "READ-883e306dd7f99fbc7a6a47d5@1 body0:267",
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+      ],
+      "source_observation": "Own19 and April/1886 dittos; numbered cell physically covered",
+      "judgment": "stärkt",
+      "decision": "behåll",
+      "grounds": "Own day19 plus month/year dittos anchored April/1886 confirm1886-04-19. Maskednumber14 is only locator context, not a newly read cell. Reject oldDecember transcription without rewriting historicalraw.",
+      "before": {
+        "literal": "1886-04-19",
+        "precision": "exact",
+        "value": "1886-04-19"
+      },
+      "after": {
+        "literal": "1886-04-19",
+        "precision": "exact",
+        "value": "1886-04-19"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-002",
+      "object": "E-baptism-P-0010@1",
+      "field": "date_json",
+      "start": 0,
+      "end": 70,
+      "quote": "{\"literal\": \"1886-05-01\", \"precision\": \"exact\", \"value\": \"1886-05-01\"}",
+      "quoted_value": {
+        "literal": "1886-05-01",
+        "precision": "exact",
+        "value": "1886-05-01"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "older exact baptismdate",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "E-baptism-P-0010@1 origins ff9f9f707a605249bbeedb481fc6b6599e42a06a3e1818b605fcd06ae6bc6e03"
+      ],
+      "source_observation": "No printed baptismdate column; no own1/5 remarks",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Keep the explicitly older recorded1886-05-01 date and old correction. Current SCB has no own baptismdate column and remarks no verbaldate, so it neither newly extracts nor contradicts that old date. Exact provenance beyond the old correction needs clarification; preserve it as reused older knowledge, not new firsthand SCBevidence.",
+      "before": {
+        "literal": "1886-05-01",
+        "precision": "exact",
+        "value": "1886-05-01"
+      },
+      "after": {
+        "literal": "1886-05-01",
+        "precision": "exact",
+        "value": "1886-05-01"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-003",
+      "object": "P-0010@2",
+      "field": "sex",
+      "start": 0,
+      "end": 4,
+      "quote": "null",
+      "quoted_value": null,
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "explicit sex field",
+      "old_support": [
+        "E-birth-P-0010@1 exactdate/parents context",
+        "P-0010@2 current evidence chain"
+      ],
+      "source_observation": "Own Kön m1; q blank; Äkta m1",
+      "judgment": "stärkt",
+      "decision": "revidera",
+      "grounds": "Assign male from own explicit Kön m count1, independently corroborated by Äkta m1. This is a printedsex-field attribution, not inference from Bernhard’s name or sonrole. Established identity and treeeffect stay unchanged.",
+      "before": null,
+      "after": "male",
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-004",
+      "object": "O-P-0010-C0023-mother-note@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 121,
+      "quote": "{\"annotation\": \"(1 år)\", \"annotationMeaning\": null, \"name\": \"Johansson Augusta Viktoria\", \"olderReading\": \"Johansdotter\"}",
+      "quoted_value": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "annotationMeaning:null",
+      "old_support": [
+        "O-P-0010-C0023-mother-note@1 revision.caveat",
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+      ],
+      "source_observation": "Own mother annotation(1år), meaning unresolved",
+      "judgment": "stärkt",
+      "decision": "behåll",
+      "grounds": "Own(1år) text confirms the annotation. The broad parentheader supplies no explicit duration rubric, and existing annotationMeaning:null is the correct semantic boundary. Do not create a wedding1885 date by subtracting a year or infer firstmarriage/firstchild from the note.",
+      "before": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "after": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-005",
+      "object": "O-P-0010-C0023-parent-ages@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 103,
+      "quote": "{\"father\": \"P-0020\", \"fatherAge\": 36, \"mother\": \"P-0021\", \"motherAge\": 22, \"rejectedFatherReading\": 30}",
+      "quoted_value": {
+        "father": "P-0020",
+        "fatherAge": 36,
+        "mother": "P-0021",
+        "motherAge": 22,
+        "rejectedFatherReading": 30
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "older numeric36/rejected30 correction",
+      "old_support": [
+        "O-P-0010-C0023-parent-ages@1 value_literal0:26 + revision.caveat",
+        "RESEARCH-P-0020-9d76f0343410@1 body0:1987 stronger reported1850-03-18"
+      ],
+      "source_observation": "Own mother22; struck upper36/30? in motherage column",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "The older explicit36/rejected30 correction remains stronger than the weaker new36/30? glyph reading. Keep those older numeric values rather than automatically demoting36. Own header is mother’s completedage and upper36 is struck on fatherline: semantic attribution is reserved separately; no new parentbirths inferred from it. Mother22 is independently read.",
+      "before": {
+        "father": "P-0020",
+        "fatherAge": 36,
+        "mother": "P-0021",
+        "motherAge": 22,
+        "rejectedFatherReading": 30
+      },
+      "after": {
+        "father": "P-0020",
+        "fatherAge": 36,
+        "mother": "P-0021",
+        "motherAge": 22,
+        "rejectedFatherReading": 30
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-006",
+      "object": "O-P-0010-C0023-mother-note@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 121,
+      "quote": "{\"annotation\": \"(1 år)\", \"annotationMeaning\": null, \"name\": \"Johansson Augusta Viktoria\", \"olderReading\": \"Johansdotter\"}",
+      "quoted_value": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "older corrected mother surname",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "RESEARCH-P-0021-9d76f0343410@1 body0:2132"
+      ],
+      "source_observation": "Own AugustaViktoria; surname middleglyph uncertain",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Retain the explicitly older corrected Johansson name, not the rejected Johansdotter. New compactglyph Johannesson/Johansson? is weaker and stays diplomatic in newT; the mother’s established ownmarriage/adultidentity separately supports Johansson. Do not silently normalize the newraw or create a second mother.",
+      "before": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "after": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-007",
+      "object": "E-baptism-P-0010@1",
+      "field": "place_role",
+      "start": 0,
+      "end": 22,
+      "quote": "Värsås dopregistrering",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "E-baptism-P-0010@1 exactdate_json/originff9f9f707a605249bbeedb481fc6b6599e42a06a3e1818b605fcd06ae6bc6e03"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "The current categorical registration attribution needs the actual source boundary. Retain older1May date, but currentSCBhas noownbaptismdatecolumn and noverbalremarks. Attach the exactold correction and flag unresolved underlyingprovenance rather than claiming anewSCBreading.",
+      "before": "Värsås dopregistrering",
+      "after": "Värsås enligt äldre dopuppgift; datumet är inte nyavläst ur denna SCB-rad",
+      "affected_copies": [
+        "BIO-P-0010@5",
+        "RESEARCH-P-0010-9d76f0343410@1",
+        "BIO-P-0020@1",
+        "KEY-P-0010-0c0ade41f877@1",
+        "THEME-P-0010-ID@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-008",
+      "object": "BIO-P-0010@5",
+      "field": "markdown",
+      "start": 82,
+      "end": 129,
+      "quote": "på Djursätra Västergården i\nVärsås som son till",
+      "old_support": [
+        "E-birth-P-0010@1 place_role0:63",
+        "R-6f16c980ae3f813987601133@1 dependence_note0:131",
+        "O-P-0010-C0023-parents@1 value_json retainedparentnames"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Own broad parentheader and nootherdelivery-place entry report parentalresidence, not proved physicaldeliverybuilding. Existing nativebirth explicitly says föräldrahemvist and reservedWesterg.; retain establishedVärsåsdate and laterknownfarm, but this current physicalbirth wording needs the same boundary.",
+      "before": "på Djursätra Västergården i\nVärsås som son till",
+      "after": "enligt Värsås födelseregistrering. Föräldrahemvisten anges som Djursätra Västergården; han var son till",
+      "affected_copies": [
+        "E-baptism-P-0010@1",
+        "RESEARCH-P-0010-9d76f0343410@1",
+        "BIO-P-0020@1",
+        "KEY-P-0010-0c0ade41f877@1",
+        "THEME-P-0010-ID@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-009",
+      "object": "RESEARCH-P-0010-9d76f0343410@1",
+      "field": "body",
+      "start": 139,
+      "end": 173,
+      "quote": "på Djursätra Västergården i Värsås",
+      "old_support": [
+        "E-birth-P-0010@1 place_role0:63",
+        "KEY-P-0010-2f7566f9cba1@1 body0:248"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "This separatecurrentidentitycopy repeats the physicalbirth/residence ambiguity. Reuse existing nativebirth’s explicit parentalresidence distinction; absence ofanotherdeliveryplace field is not a positive namedhouse-of-delivery observation.",
+      "before": "på Djursätra Västergården i Värsås",
+      "after": "med föräldrahemvist Djursätra Västergården i Värsås",
+      "affected_copies": [
+        "E-baptism-P-0010@1",
+        "BIO-P-0010@5",
+        "BIO-P-0020@1",
+        "KEY-P-0010-0c0ade41f877@1",
+        "THEME-P-0010-ID@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-010",
+      "object": "BIO-P-0010@5",
+      "field": "markdown",
+      "start": 218,
+      "end": 247,
+      "quote": "och döptes den 1 maj samma år",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "E-baptism-P-0010@1 date_json"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Retain exactolderbaptism correction without implying currentimagehas adatefield. This currentbiography must distinguish the knownolder1May from firsthandSCBbirthday19April. Underlying directbaptismprovenance remains a visiblequestion.",
+      "before": "och döptes den 1 maj samma år",
+      "after": "och uppges enligt den äldre rättelsen ha döpts den 1 maj samma år",
+      "affected_copies": [
+        "E-baptism-P-0010@1",
+        "RESEARCH-P-0010-9d76f0343410@1",
+        "BIO-P-0020@1",
+        "KEY-P-0010-0c0ade41f877@1",
+        "THEME-P-0010-ID@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-011",
+      "object": "RESEARCH-P-0010-9d76f0343410@1",
+      "field": "body",
+      "start": 178,
+      "end": 199,
+      "quote": "döptes 1 maj samma år",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "E-baptism-P-0010@1 date_json"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Thecurrentresearchcopy links C23 directly to bothvitals. Preserve old1May andacceptedidentity but make the currentheader boundaryexplicit, without inventing a newuncertain birthdate or erasing oldknowledge.",
+      "before": "döptes 1 maj samma år",
+      "after": "uppges i den äldre rättelsen ha döpts 1 maj samma år; datumet står inte i en egen dopkolumn i den nu prövade SCB-raden",
+      "affected_copies": [
+        "E-baptism-P-0010@1",
+        "BIO-P-0010@5",
+        "BIO-P-0020@1",
+        "KEY-P-0010-0c0ade41f877@1",
+        "THEME-P-0010-ID@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-012",
+      "object": "BIO-P-0020@1",
+      "field": "markdown",
+      "start": 1248,
+      "end": 1269,
+      "quote": "och döptes den 1 maj.",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "E-baptism-P-0010@1 date_json"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Father’s currentbiography is anothercopy of thesameolderbaptismdatum. Itssourceattribution needs identicalqualification, retaining the oldcorrection rather than treating repeatedprose asindependentbaptismproof.",
+      "before": "och döptes den 1 maj.",
+      "after": "och uppges i den äldre rättelsen ha döpts den 1 maj; någon egen dopdatumskolumn finns inte i den nu prövade SCB-raden.",
+      "affected_copies": [
+        "E-baptism-P-0010@1",
+        "BIO-P-0010@5",
+        "RESEARCH-P-0010-9d76f0343410@1",
+        "KEY-P-0010-0c0ade41f877@1",
+        "THEME-P-0010-ID@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-013",
+      "object": "KEY-P-0010-0c0ade41f877@1",
+      "field": "body",
+      "start": 290,
+      "end": 325,
+      "quote": "Säker; dopdagen tillkom 2026-09-08.",
+      "old_support": [
+        "E-birth-P-0010@1 date_json",
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "This current searchkey’s certaintycell must distinguish the confirmedSCBbirth from the older baptismcorrection, retaining exact1May but not falsely claiming a currentbaptismfield.",
+      "before": "Säker; dopdagen tillkom 2026-09-08.",
+      "after": "Födelsen stöds av egen dag och år/månadsankare. Dopdagen 1886-05-01 tillkom som äldre rättelse 2026-09-08 och är inte nyavläst i SCB-raden; direkt ursprungsbelägg behöver spåras utan att den äldre uppgiften raderas.",
+      "affected_copies": [
+        "E-baptism-P-0010@1",
+        "BIO-P-0010@5",
+        "BIO-P-0020@1",
+        "RESEARCH-P-0010-9d76f0343410@1",
+        "KEY-P-0010-0c0ade41f877@1",
+        "THEME-P-0010-ID@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-014",
+      "object": "THEME-P-0010-ID@1",
+      "field": "body",
+      "start": 21,
+      "end": 47,
+      "quote": "Egen födelse- och dopnotis",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "E-baptism-P-0010@1 date_json"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "This source-class formulation gives the currentSCB a baptismnotis which its actualheaders/remarks do not provide. Keep olderdop1May and reciprocalidentitychain, while separating observedbirth from reusedolderbaptismknowledge.",
+      "before": "Egen födelse- och dopnotis",
+      "after": "Egen SCB-födelsepost och separat återbrukad äldre dopuppgift",
+      "affected_copies": [
+        "E-baptism-P-0010@1",
+        "BIO-P-0010@5",
+        "BIO-P-0020@1",
+        "RESEARCH-P-0010-9d76f0343410@1",
+        "KEY-P-0010-0c0ade41f877@1",
+        "THEME-P-0010-ID@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-015",
+      "object": "BIO-P-0020@1",
+      "field": "markdown",
+      "start": 1270,
+      "end": 1370,
+      "quote": "Födelseposten anger Pers ålder till 36 och Augustas till 22, enligt den lokala omläsningen i C-0023.",
+      "old_support": [
+        "O-P-0010-C0023-parent-ages@1 value_json + value_literal0:26",
+        "E-birth-P-0020@1 date_json1850-03-18",
+        "E-birth-P-0021@1 date_json1863-06-24"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Preserve the old explicitly corrected36 and separate mother22, rather than promoting weaknew30. Currentprose needs the actually discoveredheader/striking boundary; source-specific ageattribution is not automatically a new parentbirth event. Older accepted1850date independently makes36consistent, but doesnot change the printedcolumnheader.",
+      "before": "Födelseposten anger Pers ålder till 36 och Augustas till 22, enligt den lokala omläsningen i C-0023.",
+      "after": "Den äldre lokala omläsningen i C-0023 återger Pers ålder som 36 och Augustas som 22. Den nya svagare bildläsningen av det strukna övre talet 36/30[?] upphäver inte den äldre uttryckliga 36-rättelsen. Talet står på faderdelraden under rubriken för moderns sist fyllda ålder; dess direkta tillskrivning är därför inte en ny säker fadersåldersavläsning. Moderns eget 22 är läst.",
+      "affected_copies": [],
+      "remaining_question": "Upper36numericoldercorrection kept; directsemantic attribution under motherageheader unresolved. No newparentbirthdate."
+    },
+    {
+      "id": "C-016",
+      "object": "BIO-P-0010@5",
+      "field": "markdown",
+      "start": 166,
+      "end": 174,
+      "quote": "då 36 år",
+      "old_support": [
+        "E-birth-P-0020@1 date_json1850-03-18",
+        "O-P-0010-C0023-parent-ages@1 value_jsonfatherAge36/rejected30"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "The old accepted1850-03-18 date yields completedage36 at1886-04-19, agreeing with the stronger explicit older36 correction. Weaknewupperglyph36/30? doesnot erase that oldage. Treat this biographyage as reusedolderdate/ageknowledge, not a newly unstruckfathercell under the motherageheader.",
+      "before": "då 36 år",
+      "after": "då 36 år",
+      "affected_copies": [],
+      "remaining_question": "Upper36numericoldercorrection kept; directsemantic attribution under motherageheader unresolved. No newparentbirthdate."
+    },
+    {
+      "id": "C-017",
+      "object": "O-P-0010-C0023-parent-ages@1",
+      "field": "value_literal",
+      "start": 0,
+      "end": 26,
+      "quote": "Fadern 36 år; modern 22 år",
+      "old_support": [
+        "O-P-0010-C0023-parent-ages@1 value_json + revision.caveat",
+        "E-birth-P-0020@1 date_json1850-03-18"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "olöst",
+      "decision": "lämna sakfrågan uttryckligen öppen",
+      "grounds": "Keep the historical explicit36/rejected30numeric correction. The new image leaves upperglyphweaker and shows itstruck under themotherageheader; exact semantic attribution of thatsourceupperentry remains open in boundedadoption. No automatic demotion ofolder36 and no literalparentbirth1830/1850derived from newuncertainty.",
+      "before": "Fadern 36 år; modern 22 år",
+      "after": "Fadern 36 år; modern 22 år",
+      "affected_copies": [],
+      "remaining_question": "Upper36numericoldercorrection kept; directsemantic attribution under motherageheader unresolved. No newparentbirthdate."
+    },
+    {
+      "id": "C-018",
+      "object": "F-P-0021-name_form-lifetime@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 82,
+      "quote": "[\"Augusta Viktoria Johansson\", \"Augusta Victoria Johansson\", \"Eliasson Johansson\"]",
+      "quoted_value": [
+        "Augusta Viktoria Johansson",
+        "Augusta Victoria Johansson",
+        "Eliasson Johansson"
+      ],
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "current lifetime nameforms",
+      "old_support": [
+        "F-P-0021-name_form-lifetime@1 evidence R-e8459194dbd3ccbf50531a03@1/R-d2dae342a01c14af474e5fbf@1",
+        "RESEARCH-P-0021-9d76f0343410@1 body0:2132"
+      ],
+      "source_observation": "NewJohannesson/Johansson? and AugustaViktoria",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Lifetime nameforms have ownmarriage/adultrecord support beyond the weakSCBsurname glyph. Preserve Johansson/Victoria/sourcevariants and oldcorrection fromJohansdotter; do not replace with newly uncertainJohannesson or infer a fatherfrom patronymic.",
+      "before": [
+        "Augusta Viktoria Johansson",
+        "Augusta Victoria Johansson",
+        "Eliasson Johansson"
+      ],
+      "after": [
+        "Augusta Viktoria Johansson",
+        "Augusta Victoria Johansson",
+        "Eliasson Johansson"
+      ],
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-019",
+      "object": "E-marriage-P-0020-P-0021-1885@1",
+      "field": "date_json",
+      "start": 0,
+      "end": 70,
+      "quote": "{\"literal\": \"1885-06-19\", \"precision\": \"exact\", \"value\": \"1885-06-19\"}",
+      "quoted_value": {
+        "literal": "1885-06-19",
+        "precision": "exact",
+        "value": "1885-06-19"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "stronger exact parental marriage",
+      "old_support": [
+        "E-marriage-P-0020-P-0021-1885@1 evidenceR-e8459194dbd3ccbf50531a03@1/R-9313e31df3ce7e6ec1ac7471@1",
+        "O-P-0010-C0023-mother-note@1 annotationMeaning:null"
+      ],
+      "source_observation": "Own mothergift1, Äkta m1,(1år) meaningopen",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Ownmarriage1885-06-19 is supported by Mofalla registration and corrected ownhousehold. SourceC mothergift1 and legitimate-m1 corroborate maritalclassification, but(1år) does not supply an exactweddingdate or correct it to7June/1885anniversary.",
+      "before": {
+        "literal": "1885-06-19",
+        "precision": "exact",
+        "value": "1885-06-19"
+      },
+      "after": {
+        "literal": "1885-06-19",
+        "precision": "exact",
+        "value": "1885-06-19"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-020",
+      "object": "E-birth-P-0020@1",
+      "field": "date_json",
+      "start": 0,
+      "end": 70,
+      "quote": "{\"literal\": \"1850-03-18\", \"precision\": \"exact\", \"value\": \"1850-03-18\"}",
+      "quoted_value": {
+        "literal": "1850-03-18",
+        "precision": "exact",
+        "value": "1850-03-18"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "accepted father birthdate",
+      "old_support": [
+        "E-birth-P-0020@1 evidence R-6b8cb74e3ca1e4ed8ad5f02f@1/R-e8459194dbd3ccbf50531a03@1/R-7c6da63d33b5ec3f4611de34@1",
+        "RESEARCH-P-0020-9d76f0343410@1 body0:1987"
+      ],
+      "source_observation": "Struckupper36/30? under motherageheader",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Retain accepted1850-03-18 with explicit ownbirthpostunread and1858sourceconflict. It follows older combined child/marriage/death identitygrounds, not a new parentalbirth inferred from the childSCBupper36/30? entry. The stronger old36 reading is consistent with1850, but doesnot close ownbirthsource debt.",
+      "before": {
+        "literal": "1850-03-18",
+        "precision": "exact",
+        "value": "1850-03-18"
+      },
+      "after": {
+        "literal": "1850-03-18",
+        "precision": "exact",
+        "value": "1850-03-18"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-021",
+      "object": "E-birth-P-0021@1",
+      "field": "date_json",
+      "start": 0,
+      "end": 70,
+      "quote": "{\"literal\": \"1863-06-24\", \"precision\": \"exact\", \"value\": \"1863-06-24\"}",
+      "quoted_value": {
+        "literal": "1863-06-24",
+        "precision": "exact",
+        "value": "1863-06-24"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "accepted mother birthdate",
+      "old_support": [
+        "E-birth-P-0021@1 evidenceR-7c1b3d2de347ad815a2b6900@1/R-8a83ee945b26cabe321fb1ab@1",
+        "RESEARCH-P-0021-9d76f0343410@1 body0:2132"
+      ],
+      "source_observation": "Own mothercompletedage22",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Ownidentified Mofalla birth1863-06-24 remains stronger than age22which gives only a possible1863/64year interval. Preserve actuallater1867/27June/Kyrkefallavariants and biologicalfatherconflict; do not manufacture a newexactmotherbirth from childage.",
+      "before": {
+        "literal": "1863-06-24",
+        "precision": "exact",
+        "value": "1863-06-24"
+      },
+      "after": {
+        "literal": "1863-06-24",
+        "precision": "exact",
+        "value": "1863-06-24"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-022",
+      "object": "F-P-0020-occupation-1885-1916@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 158,
+      "quote": "{\"anchors\": [\"1885\", \"1886\", \"1890\", \"1900\", \"1910\", \"1907–1917 års bok före utflyttningen 1916\"], \"place\": \"Djursätra Västergården\", \"title\": \"hemmansägare\"}",
+      "quoted_value": {
+        "anchors": [
+          "1885",
+          "1886",
+          "1890",
+          "1900",
+          "1910",
+          "1907–1917 års bok före utflyttningen 1916"
+        ],
+        "place": "Djursätra Västergården",
+        "title": "hemmansägare"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "old sufficient occupation anchors",
+      "old_support": [
+        "F-P-0020-occupation-1885-1916@1 revision.caveat + evidenceR-e8459194dbd3ccbf50531a03@1/R-9313e31df3ce7e6ec1ac7471@1"
+      ],
+      "source_observation": "Ownh.eg.[?], DjursätraWesterg.[?]",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Currenthemmansägarehas stronger own1885marriage and laterindividualhousehold/census anchors. New h.eg.[?] is compatible but is not independently expanded from uncertainglyph alone. Retain pointwise title, not acontinuousownership chain, purchase date or employer.",
+      "before": {
+        "anchors": [
+          "1885",
+          "1886",
+          "1890",
+          "1900",
+          "1910",
+          "1907–1917 års bok före utflyttningen 1916"
+        ],
+        "place": "Djursätra Västergården",
+        "title": "hemmansägare"
+      },
+      "after": {
+        "anchors": [
+          "1885",
+          "1886",
+          "1890",
+          "1900",
+          "1910",
+          "1907–1917 års bok före utflyttningen 1916"
+        ],
+        "place": "Djursätra Västergården",
+        "title": "hemmansägare"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-023",
+      "object": "O-P-0010-C0023-parents@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 148,
+      "quote": "{\"father\": \"Per Wilhelm Eliasson\", \"fatherOccupation\": \"hemmansägare\", \"mother\": \"Johansson Augusta Viktoria\", \"olderMotherReading\": \"Johansdotter\"}",
+      "quoted_value": {
+        "father": "Per Wilhelm Eliasson",
+        "fatherOccupation": "hemmansägare",
+        "mother": "Johansson Augusta Viktoria",
+        "olderMotherReading": "Johansdotter"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "older corrected parent fields",
+      "old_support": [
+        "F-P-0020-occupation-1885-1916@1",
+        "F-P-0021-name_form-lifetime@1",
+        "O-P-0010-C0023-parents@1 revision.caveat"
+      ],
+      "source_observation": "Ownparentnames/qualifiedh.eg./mothermiddleglyph",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "The older corrected parentnames and occupationinterpretation remain reusedobservations. New EliassonPerWilhelm/AugustaViktoriaagree; weak h.eg./Johannesson-Johansson glyphs are kept in newraw, not forced into canonicaloldforms. Exact olderoccupation/namegrounds are attached in adoption, no newmotheridentity or literalrawnormalization.",
+      "before": {
+        "father": "Per Wilhelm Eliasson",
+        "fatherOccupation": "hemmansägare",
+        "mother": "Johansson Augusta Viktoria",
+        "olderMotherReading": "Johansdotter"
+      },
+      "after": {
+        "father": "Per Wilhelm Eliasson",
+        "fatherOccupation": "hemmansägare",
+        "mother": "Johansson Augusta Viktoria",
+        "olderMotherReading": "Johansdotter"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-024",
+      "object": "O-P-0021-mother-age-1886@1",
+      "field": "value_literal",
+      "start": 0,
+      "end": 2,
+      "quote": "22",
+      "old_support": [
+        "E-birth-P-0021@1 date_json1863-06-24",
+        "O-P-0021-mother-age-1886@1 revision.caveat"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "stärkt",
+      "decision": "behåll",
+      "grounds": "Own lowerentry22 sits under the actualcompletedmotherageheader and agrees with the stronger ownJune1863birth atApril1886. Keep22as sourceage, without choosing a newexactbirthdate from it or overwriting acceptedownbirth.",
+      "before": "22",
+      "after": "22",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-025",
+      "object": "REL-parent-P-0020-P-0010@1",
+      "field": "nature",
+      "start": 0,
+      "end": 15,
+      "quote": "recorded_parent",
+      "old_support": [
+        "O-P-0010-C0023-parents@1 value_json",
+        "REL-parent-P-0020-P-0010@1 revision.caveat"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "stärkt",
+      "decision": "behåll",
+      "grounds": "OwnEliassonPerWilhelm parentline agrees with the established recordedfather edge and older household context. Newh.eg./residence abbreviation uncertainty is not a newfatheridentity or grounds to change relationshipnature to a separately proven biologicalcategory.",
+      "before": "recorded_parent",
+      "after": "recorded_parent",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-026",
+      "object": "REL-parent-P-0021-P-0010@1",
+      "field": "nature",
+      "start": 0,
+      "end": 15,
+      "quote": "recorded_parent",
+      "old_support": [
+        "O-P-0010-C0023-parents@1",
+        "F-P-0021-name_form-lifetime@1",
+        "REL-parent-P-0021-P-0010@1 revision.caveat"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "stärkt",
+      "decision": "behåll",
+      "grounds": "OwnAugustaViktoria parentline and stronger corrected surname/adultchain identify Bernhard’s recordedmother. WeaknewJohannesson/Johansson? doesnot erase the acceptededge or create anothermother. Sevennamedchildren remain not totalfertility.",
+      "before": "recorded_parent",
+      "after": "recorded_parent",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-027",
+      "object": "REL-spouse-P-0020-P-0021@1",
+      "field": "date_json",
+      "start": 0,
+      "end": 70,
+      "quote": "{\"literal\": \"1885-06-19\", \"precision\": \"exact\", \"value\": \"1885-06-19\"}",
+      "quoted_value": {
+        "literal": "1885-06-19",
+        "precision": "exact",
+        "value": "1885-06-19"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "marriage startdate",
+      "old_support": [
+        "E-marriage-P-0020-P-0021-1885@1 date_json+evidence",
+        "O-P-0010-C0023-mother-note@1 annotationMeaning:null"
+      ],
+      "source_observation": "Own mothergift1; childÄktam1; annotation(1år)",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Exact1885-06-19start follows ownMofalla marriage, not a subtraction fromSCB(1år). Gift1/legitimatechildclassification reinforce marriagecontext but do not introduce start/enddate or weddinglocation.",
+      "before": {
+        "literal": "1885-06-19",
+        "precision": "exact",
+        "value": "1885-06-19"
+      },
+      "after": {
+        "literal": "1885-06-19",
+        "precision": "exact",
+        "value": "1885-06-19"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-028",
+      "object": "REL-parent-P-0010-P-0003@1",
+      "field": "nature",
+      "start": 0,
+      "end": 15,
+      "quote": "recorded_parent",
+      "old_support": [
+        "REL-parent-P-0010-P-0003@1 revision.evidence_statusOWNER_CONFIRMED and caveat, already verified inB027",
+        "RESEARCH-P-0010-9d76f0343410@1 body ownerconfirmationparagraph"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Bernhard’s1886ownbirthparentage concerns hisparents, not Arne’s1915fatherfield. Reuse the already exactreadOWNER_CONFIRMEDedge unchanged; currentname/SCBparentraw reservation cannot reopen the ownerfather or demand a newarchivalproof.",
+      "before": "recorded_parent",
+      "after": "recorded_parent",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-029",
+      "object": "BIO-P-0010@5",
+      "field": "markdown",
+      "start": 329,
+      "end": 362,
+      "quote": "som äldst av sju syskon på gården",
+      "old_support": [
+        "REL-parent-P-0021-P-0010@1 revision.caveat",
+        "CONTRACT-P-0010-PK-04@1 body0:579",
+        "BIO-P-0020@1 markdown explicit not fullchildcount"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Preserve already known rank within namedfamily, but phrase the enumeration at its actualcoveragelevel. The newtiny1:a b.? is not securelyexpanded to provedfirstbirth and older native motheredge explicitly rejectsseven as totalfertility. No additionalchildidentity created.",
+      "before": "som äldst av sju syskon på gården",
+      "after": "som äldst bland de sju namngivna barnen i de lästa familjeraderna",
+      "affected_copies": [
+        "REL-parent-P-0021-P-0010@1",
+        "BIO-P-0020@1",
+        "BIO-P-0021@1",
+        "THEME-P-0010-REL@1",
+        "CONTRACT-P-0010-PK-04@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-030",
+      "object": "BIO-P-0021@1",
+      "field": "markdown",
+      "start": 827,
+      "end": 887,
+      "quote": "Namnet Johansson är belagt, men avgör inte faderskonflikten.",
+      "old_support": [
+        "F-P-0021-name_form-lifetime@1 revision.caveat",
+        "RESEARCH-P-0021-9d76f0343410@1 body0:2132"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "NewweakSCBsurname is not evidence selecting JohannesEriksson versus ErikRoth in herown1863parentage. Preserve ownadultJohanssonidentity and the two-man biologicalfatherconflict; the child1886parentline cannot resolve herfather by patronymic.",
+      "before": "Namnet Johansson är belagt, men avgör inte faderskonflikten.",
+      "after": "Namnet Johansson är belagt, men avgör inte faderskonflikten.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-031",
+      "object": "PATH-P-0020-KP-01@2",
+      "field": "body",
+      "start": 1673,
+      "end": 1760,
+      "quote": "parentesen (1 år) och hemvistsuffixet kräver fortfarande formulärbunden detaljprövning.",
+      "old_support": [
+        "O-P-0010-C0023-mother-note@1 annotationMeaning:null",
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "The current source-path debt must reflect the performed fullheader/rowattempt. Meaning remainsopen despite textread, and weakWestergsuffix is attempted rather than untouched. No claim broaderhousehold/sourcepath isexhausted.",
+      "before": "parentesen (1 år) och hemvistsuffixet kräver fortfarande formulärbunden detaljprövning.",
+      "after": "parentesen (1 år) och hemvistsuffixet har nu prövats mot hela det avgränsade SCB-formuläret i T-0774. (1 år) är läst men innebörden förblir öppen; Westerg.[?] är en reserverad råform. Detta är utförd detaljprövning med kvarstående reservationer, inte oprövade fält eller en ny vigselhändelse.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-032",
+      "object": "PATH-P-0020-KP-01@2",
+      "field": "body",
+      "start": 1627,
+      "end": 1671,
+      "quote": "dop 1886-05-01 har omprövats lokalt i T-0121",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "E-baptism-P-0010@1 date_json"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "This separatecurrentpathcopy needs thesameolder/currentbaptism boundary as event/BIO/KEY. Preserve the older correction anddatedpastprövning, but actualprintedheaders have noownbaptismdate andremarks no1Maytext.",
+      "before": "dop 1886-05-01 har omprövats lokalt i T-0121",
+      "after": "dop 1886-05-01 återbrukas som äldre lokal rättelse i T-0121; datumet är inte nyavläst i en egen dopkolumn i den nu prövade SCB-raden och det direkta ursprungsbelägget behöver spåras",
+      "affected_copies": [
+        "E-baptism-P-0010@1",
+        "BIO-P-0010@5",
+        "BIO-P-0020@1",
+        "RESEARCH-P-0010-9d76f0343410@1",
+        "KEY-P-0010-0c0ade41f877@1",
+        "THEME-P-0010-ID@1"
+      ],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-033",
+      "object": "ASSESSMENT-P-0010@2",
+      "field": "body",
+      "start": 223,
+      "end": 246,
+      "quote": "- Trädverkan: `BÄRANDE`",
+      "old_support": [
+        "CONTRACT-P-0010-PK-01@1 body0:555",
+        "RESEARCH-P-0010-9d76f0343410@1 body0:2982",
+        "REL-parent-P-0010-P-0003@1 OWNER_CONFIRMED"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Bernhard’s approvedidentity rests on fourreciprocalperson bridges with exactbirthday plusOWNERfather, not a claimthat every1850/1863parentquestion or baptismdate is independently newly read. Sourcebirthdate confirmed; weakerrawreservations and olderbaptismprovenance qualification do not identify a competitor or invalidate these sufficientidentitygrounds. Preserve separate life-pictureUNDERKÄND.",
+      "before": "- Trädverkan: `BÄRANDE`",
+      "after": "- Trädverkan: `BÄRANDE`",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-034",
+      "object": "ASSESSMENT-P-0020@1",
+      "field": "body",
+      "start": 219,
+      "end": 243,
+      "quote": "- Trädverkan: `AVVAKTAR`",
+      "old_support": [
+        "RESEARCH-P-0020-9d76f0343410@1 body0:1987",
+        "PATH-P-0020-KP-01@2 body0:2331"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "ChildSCB1886raw doesnot read Per’sownbirthpost, complete threebarndomschildrows/title or preserve missingC0870/C0873/C0990originals. Explicitoldacceptedidentity/birthmain1850can remain with actualPK05/11debt; newsourceattempt isnot automaticgateapproval.",
+      "before": "- Trädverkan: `AVVAKTAR`",
+      "after": "- Trädverkan: `AVVAKTAR`",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-035",
+      "object": "ASSESSMENT-P-0021@1",
+      "field": "body",
+      "start": 227,
+      "end": 251,
+      "quote": "- Trädverkan: `AVVAKTAR`",
+      "old_support": [
+        "RESEARCH-P-0021-9d76f0343410@1 body0:2132",
+        "P-0021@2 revision.caveat"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Ownchild1886mothername and22 do not decide her1863biologicalfatherconflict or complete missingownfields/fullcopies. Keep acceptedchild/adultidentity separate from the closedpedigreegate; supportedmotherP0536cannot carry descentthrough anobärandeperson.",
+      "before": "- Trädverkan: `AVVAKTAR`",
+      "after": "- Trädverkan: `AVVAKTAR`",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-036",
+      "object": "CONTRACT-P-0010-PK-02@1",
+      "field": "body",
+      "start": 95,
+      "end": 169,
+      "quote": "familjeuppgift, ägarbeslut, sekundärträd och original står som egna rader.",
+      "old_support": [
+        "REL-parent-P-0010-P-0003@1 OWNER_CONFIRMED, reusedB027/C028",
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "This explicitseparation of evidencelevels remains necessary: ownSCBdate/currentraw, older1Maycorrection andOWNERfather are differentgrounds, not interchangeablehistoricalvoices. Newsourcequalification respects this boundary; no auto-conversionoflife-pictureor ownerfacts intoarchivalreadings.",
+      "before": "familjeuppgift, ägarbeslut, sekundärträd och original står som egna rader.",
+      "after": "familjeuppgift, ägarbeslut, sekundärträd och original står som egna rader.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-037",
+      "object": "CONTRACT-P-0010-PK-05@4",
+      "field": "body",
+      "start": 19,
+      "end": 67,
+      "quote": "Samtliga sex egna målposter är nu kolumnutvunna.",
+      "old_support": [
+        "CONTRACT-P-0010-PK-05@4 body0:1809 currentlaterT0676closures",
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "This current completenesswrapper needs performed-source scope rather than a blanket field claim. Preserve prioridentityassessment and sufficientolderfullrowwork, but actuallynewwholeCmatrix includes coverednumber/unresolvedglyphs/edge marks and nobaptismcolumn. Reservedattemptedfields are not unattempteddebts.",
+      "before": "Samtliga sex egna målposter är nu kolumnutvunna.",
+      "after": "De sex egna målposternas tidigare fältutvinning tillgodoräknas inom respektive dokumenterat omfång. T-0774 kompletterar C-0023:s hela målpost med råstatus, skymt nummer, struket övre ålderstal och två anteckningskantstreck; det äldre dopdatumet är inte en ny SCB-cellavläsning.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-038",
+      "object": "CONTRACT-P-0010-PK-05@4",
+      "field": "body",
+      "start": 154,
+      "end": 215,
+      "quote": "dopdagen 1886-05-01 och föräldrarnas åldrar ur födelsenotisen",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "O-P-0010-C0023-parent-ages@1 value_json",
+        "E-baptism-P-0010@1 date_json"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "This is a separatedirect-source precisionclaim inside the samecurrentcontract. Preserve olderdate/36correction, while avoiding anewownbaptismdate read from a sourcewithout suchcolumn. Attach exactoldTR/event grounds and preserve numericage correction versus weakupperglyph.",
+      "before": "dopdagen 1886-05-01 och föräldrarnas åldrar ur födelsenotisen",
+      "after": "den äldre rättelsen dopdagen 1886-05-01 och de äldre lästa föräldraåldrarna (dopdatumet står inte i en egen dopkolumn i den nu prövade SCB-raden)",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-039",
+      "object": "PATH-P-0020-KP-01@2",
+      "field": "outcome",
+      "start": 328,
+      "end": 415,
+      "quote": "parentesen (1 år) och hemvistsuffixet kräver fortfarande formulärbunden detaljprövning.",
+      "old_support": [
+        "O-P-0010-C0023-mother-note@1 annotationMeaning:null",
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Outcome is a separatecurrentcopy of thebodydebt alreadycorrectedC031. Wholeheader/detailprövning nowperformed, but neitherannotationmeaning nor suffixexpansion forced; no genericfullsourcepathexhaustion claimed.",
+      "before": "parentesen (1 år) och hemvistsuffixet kräver fortfarande formulärbunden detaljprövning.",
+      "after": "parentesen (1 år) och hemvistsuffixet har nu prövats mot hela målpostens formulär i T-0774: texten (1 år) är läst med öppen innebörd och Westerg.[?] är prövad men reserverad råform.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-040",
+      "object": "PATH-P-0020-KP-01@2",
+      "field": "outcome",
+      "start": 282,
+      "end": 326,
+      "quote": "dop 1886-05-01 har omprövats lokalt i T-0121",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "E-baptism-P-0010@1 date_json"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Separateoutcome copy mustcarry the sameolderdate/actualheader distinction as thebody, event and narratives. Retainstrongolderdate without multiplying repeatedcopiestoevidence.",
+      "before": "dop 1886-05-01 har omprövats lokalt i T-0121",
+      "after": "dop 1886-05-01 återbrukas som äldre lokal rättelse i T-0121, inte som ny SCB-cellavläsning; direkt ursprungsbelägg behöver spåras",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-041",
+      "object": "P-0010/Q-04@2",
+      "field": "body",
+      "start": 697,
+      "end": 753,
+      "quote": "noteringen `(1 år)` efter moderns namn i födelsenotisen.",
+      "old_support": [
+        "O-P-0010-C0023-mother-note@1 value_json annotationMeaning:null",
+        "E-marriage-P-0020-P-0021-1885@1 exactdate"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "kvalificerat",
+      "decision": "kvalificera",
+      "grounds": "Currentopenquestion shoulddistinguish performedheaderattempt from unresolvedmeaning. Preserve allotherrawcode/military/date questions, whichsourceCdoesnotresolve, and no newevent fromannotation.",
+      "before": "noteringen `(1 år)` efter moderns namn i födelsenotisen.",
+      "after": "noteringen `(1 år)` efter moderns namn i födelsenotisen. Den har nu prövats mot hela SCB-postens rubriker i T-0774: texten är läst men innebörden är fortsatt öppen, utan säker äktenskapsvaraktighet eller ny vigselhändelse.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-042",
+      "object": "TR-99c2bd8aeee97f3168c8d680@1",
+      "field": "text",
+      "start": 152,
+      "end": 186,
+      "quote": "faderns ålder 30; moderns ålder 22",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "O-P-0010-C0023-parent-ages@1 value_jsonfatherAge36/rejected30"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "This is explicitlypreservedhistoricalraw, alreadyoverruled by the exactreading_note36/rejected30. Do not rewrite oldtranscription from weaknewraw36/30? or accidentally revive30as currentnormalization. NewTrecords currentmatrix separately.",
+      "before": "faderns ålder 30; moderns ålder 22",
+      "after": "faderns ålder 30; moderns ålder 22",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-043",
+      "object": "P-0020@2",
+      "field": "sex",
+      "start": 0,
+      "end": 4,
+      "quote": "null",
+      "quoted_value": null,
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "parentsex:null",
+      "old_support": [
+        "candidate/reconciled/C.json actualsex/mother/parentheaders",
+        "P-0020@2 currentacceptedperson identity/caveat"
+      ],
+      "source_observation": "No ownparentsexcell; childm1 belongsBernhard",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "This boundedSCBpost gives explicitsexcount only for thechild. Parentname/title/motherrole are not a separateownsexcell under the requiredsource rule, so do not fill thisnull from a name orrole. Otherfutureexplicitsexsources may be assessed separately.",
+      "before": null,
+      "after": null,
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-044",
+      "object": "P-0021@2",
+      "field": "sex",
+      "start": 0,
+      "end": 4,
+      "quote": "null",
+      "quoted_value": null,
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "parentsex:null",
+      "old_support": [
+        "candidate/reconciled/C.json actualsex/mother/parentheaders",
+        "P-0021@2 currentacceptedperson identity/caveat"
+      ],
+      "source_observation": "No ownparentsexcell; childm1 belongsBernhard",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "This boundedSCBpost gives explicitsexcount only for thechild. Parentname/title/motherrole are not a separateownsexcell under the requiredsource rule, so do not fill thisnull from a name orrole. Otherfutureexplicitsexsources may be assessed separately.",
+      "before": null,
+      "after": null,
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-045",
+      "object": "KEY-P-0010-2f7566f9cba1@1",
+      "field": "body",
+      "start": 185,
+      "end": 245,
+      "quote": "Säker; ordet efter Djursätra i födelsenotisen är reserverat.",
+      "old_support": [
+        "E-birth-P-0010@1 place_role0:63",
+        "F-P-0020-residence-adult-anchors@1 value_json"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "The knownlaterfamilyfarm key is sufficientlyestablished, while own1886suffixWesterg.[?] remainsglyphreserved. Preserve the exactolderkey’s alreadycorrect sourcequalification; no currentnormalizationfrom canonicalfarmname into the uncertainSCBcell.",
+      "before": "Säker; ordet efter Djursätra i födelsenotisen är reserverat.",
+      "after": "Säker; ordet efter Djursätra i födelsenotisen är reserverat.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-046",
+      "object": "R-6f16c980ae3f813987601133@1",
+      "field": "dependence_note",
+      "start": 0,
+      "end": 131,
+      "quote": "SCB-utdrag är härledd födelseinformation; senare hushållsjämförelse C-0024 kompletterar ortsläsning men står inte i originaltexten.",
+      "old_support": [
+        "READ-883e306dd7f99fbc7a6a47d5@1 body0:267",
+        "E-birth-P-0010@1 place_role0:63"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "NewCmatrix is anotherqualityreading of the sameSCBimage, not anotherhistoricalwitness. Later householdfarm context must not be imported as diplomaticallyread1886suffix orphysicaldeliveryplace. Keep explicitoriginal/derived/context boundary.",
+      "before": "SCB-utdrag är härledd födelseinformation; senare hushållsjämförelse C-0024 kompletterar ortsläsning men står inte i originaltexten.",
+      "after": "SCB-utdrag är härledd födelseinformation; senare hushållsjämförelse C-0024 kompletterar ortsläsning men står inte i originaltexten.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-047",
+      "object": "M-P-0010-C0023-child@1",
+      "field": "name_literal",
+      "start": 0,
+      "end": 17,
+      "quote": "Bernhard Natanael",
+      "old_support": [
+        "E-birth-P-0010@1 date_json",
+        "M-P-0010-C0023-child@1 role_literalbarn"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "stärkt",
+      "decision": "behåll",
+      "grounds": "Ownchildgivenname agrees with the existing literalmention and birthday/postcontext. SurnameEliasson is in fatherline, not part of childnamecell; no extrafullname appended to the rawmention from canonicaldisplay.",
+      "before": "Bernhard Natanael",
+      "after": "Bernhard Natanael",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-048",
+      "object": "P-0021/Q-01@1",
+      "field": "body",
+      "start": 415,
+      "end": 463,
+      "quote": "Johannes och Roth är bevisligen skilda personer.",
+      "old_support": [
+        "RESEARCH-P-0021-9d76f0343410@1 body0:2132",
+        "F-P-0021-name_form-lifetime@1 revision.caveat"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "The older own1863/1820/1825householdcomparison explicitlyseparates two men. Herlater1886Johansson/Johannesson? glyph or marriedstatus cannot combine them or choose a biologicalfather. Reuse sufficientoldresearch, no neworiginalrequested.",
+      "before": "Johannes och Roth är bevisligen skilda personer.",
+      "after": "Johannes och Roth är bevisligen skilda personer.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-049",
+      "object": "BIO-P-0020@1",
+      "field": "markdown",
+      "start": 1564,
+      "end": 1635,
+      "quote": "de är ingen fullständig barnräkning eller obruten fyrtioårig ägarkedja.",
+      "old_support": [
+        "F-P-0020-occupation-1885-1916@1 revision.caveat",
+        "REL-parent-P-0021-P-0010@1 revision.caveat"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "This currentqualification is already correct. NewchildSCBparenttitle/residence supports only its1886point; unresolved1:a b.? cannot prove allfertility and h.eg.? cannot prove continuouslandownership or a purchase.",
+      "before": "de är ingen fullständig barnräkning eller obruten fyrtioårig ägarkedja.",
+      "after": "de är ingen fullständig barnräkning eller obruten fyrtioårig ägarkedja.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-050",
+      "object": "BIO-P-0021@1",
+      "field": "markdown",
+      "start": 936,
+      "end": 994,
+      "quote": "omfattar sju namngivna barn i de bevarade folkräkningarna.",
+      "old_support": [
+        "CONTRACT-P-0010-PK-04@1 body0:579",
+        "REL-parent-P-0021-P-0010@1 revision.caveat"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Preserve namedchildren at actual olderrostercoverage, not totalbirths. Newtiny1:a b.? staysunexpanded and cannot supplyfirst/onlychild or contradict knownsixsiblings. No newneighborchildren brought into family.",
+      "before": "omfattar sju namngivna barn i de bevarade folkräkningarna.",
+      "after": "omfattar sju namngivna barn i de bevarade folkräkningarna.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-051",
+      "object": "BIO-P-0010@5",
+      "field": "markdown",
+      "start": 208,
+      "end": 216,
+      "quote": "då 22 år",
+      "old_support": [
+        "O-P-0021-mother-age-1886@1 value_literal22",
+        "E-birth-P-0021@1 date_json1863-06-24"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Mother22 is directlyread undercompletedageheader and consistentwith own1863-06-24beforeApril1886. Retain the positiveage while preserving later1867/27Junevariants elsewhere; do not use it as newexactbirth evidence.",
+      "before": "då 22 år",
+      "after": "då 22 år",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-052",
+      "object": "BIO-P-0010@5",
+      "field": "markdown",
+      "start": 130,
+      "end": 164,
+      "quote": "hemmansägaren Per Wilhelm Eliasson",
+      "old_support": [
+        "F-P-0020-occupation-1885-1916@1 value_json+revision.caveat"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "This older personoccupation is sufficientlysupported by own1885marriage and multiplepointwisetitles. Newuncertainh.eg.? is not a reason to erase the knownoccupation or a freshliteralexpansion. Preserve title with oldpointwiseownership boundary.",
+      "before": "hemmansägaren Per Wilhelm Eliasson",
+      "after": "hemmansägaren Per Wilhelm Eliasson",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-053",
+      "object": "RESEARCH-P-0010-9d76f0343410@1",
+      "field": "body",
+      "start": 112,
+      "end": 138,
+      "quote": "Augusta Viktoria Johansson",
+      "old_support": [
+        "F-P-0021-name_form-lifetime@1 value_json",
+        "O-P-0010-C0023-mother-note@1 value_json"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Stronger ownadult/marriage nameforms and older explicitJohansson correction identify recordedmother. NewJohannesson/Johansson? reservedglyph remainsnewraw, no silentcanonicalnormalization or competingmother.",
+      "before": "Augusta Viktoria Johansson",
+      "after": "Augusta Viktoria Johansson",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-054",
+      "object": "KEY-P-0021-0a492e0dd6a0@1",
+      "field": "body",
+      "start": 129,
+      "end": 156,
+      "quote": "namn ensamt avgör inte far.",
+      "old_support": [
+        "RESEARCH-P-0021-9d76f0343410@1 body0:2132",
+        "P-0021/Q-01@1 body0:1036"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "This explicit currentsearchkey boundary remains valid: new1886mothername/marriedstatus doesnot choose her1863biologicalfather or merge Johannes/Roth. Ownpost10 and knownmotherbridge remain sufficientpositiveidentitygrounds separate from fatherconflict.",
+      "before": "namn ensamt avgör inte far.",
+      "after": "namn ensamt avgör inte far.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-055",
+      "object": "ID-M-P-0010-C0023-child@1",
+      "field": "person_id",
+      "start": 0,
+      "end": 6,
+      "quote": "P-0010",
+      "old_support": [
+        "M-P-0010-C0023-child@1",
+        "E-birth-P-0010@1 date_json",
+        "RESEARCH-P-0010-9d76f0343410@1 fourreciprocalidentitybridges"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "stärkt",
+      "decision": "behåll",
+      "grounds": "OwnBernhardNatanael+19April1886 and namedparents align with the acceptedbirthday/personchain. Coverednumber14 is locatorcontext only, so matching relies on actualgivenname/date/parents and sufficientoldidentity, not falselyreadnumber orrolebarnalone.",
+      "before": "P-0010",
+      "after": "P-0010",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-056",
+      "object": "F-P-0010-name_form-main@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 26,
+      "quote": "Bernhard Natanael Eliasson",
+      "old_support": [
+        "M-P-0010-C0023-child@1 name_literal",
+        "P-0010@2 display_name+evidence",
+        "RESEARCH-P-0010-9d76f0343410@1 body0:2982"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Retain the establishedfullmainname from olderadult/personchain. OwnSCBchildcell gives onlyBernhardNatanael; Eliasson appears on fatherline and isnot appended as newly readliteralchildsurname. Mentionliteral remainsseparate.",
+      "before": "Bernhard Natanael Eliasson",
+      "after": "Bernhard Natanael Eliasson",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-057",
+      "object": "F-P-0020-name_form-lifetime@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 94,
+      "quote": "[\"Petter Wilhelm\", \"Eliason Pehr Vilhelm\", \"Per Wilhelm/Vilhelm\", \"Eliason/Eliaeson/Eliasson\"]",
+      "quoted_value": [
+        "Petter Wilhelm",
+        "Eliason Pehr Vilhelm",
+        "Per Wilhelm/Vilhelm",
+        "Eliason/Eliaeson/Eliasson"
+      ],
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "current lifetime fathername forms",
+      "old_support": [
+        "RESEARCH-P-0020-9d76f0343410@1 body0:1987",
+        "E-birth-P-0020@1 date_json+revision.caveat"
+      ],
+      "source_observation": "OwnEliassonPerWilhelm",
+      "judgment": "stärkt",
+      "decision": "behåll",
+      "grounds": "OwnPerWilhelmEliasson agrees with one establishedadultform. Petter/Pehr/Vilhelm andEliaeson remain sourcevariants of the supportedchildhood/adultbridge, not newformalnamechanges. No canonicalname is used to spell the newrawglyph.",
+      "before": [
+        "Petter Wilhelm",
+        "Eliason Pehr Vilhelm",
+        "Per Wilhelm/Vilhelm",
+        "Eliason/Eliaeson/Eliasson"
+      ],
+      "after": [
+        "Petter Wilhelm",
+        "Eliason Pehr Vilhelm",
+        "Per Wilhelm/Vilhelm",
+        "Eliason/Eliaeson/Eliasson"
+      ],
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-058",
+      "object": "KEY-P-0020-513ff4035cb1@1",
+      "field": "body",
+      "start": 136,
+      "end": 182,
+      "quote": "Motiverad huvuduppgift, inte egen födelsepost.",
+      "old_support": [
+        "E-birth-P-0020@1 date_json+revision.caveat",
+        "O-P-0010-C0023-parent-ages@1 value_json"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "SourceC1886upper36doesnot open the father’sown1850birthregister. Keep stronger combinedidentitymain1850-03-18 withownbirthunread and actual1858deviation, not turn childage into an independentdirectfatherbirthwitness.",
+      "before": "Motiverad huvuduppgift, inte egen födelsepost.",
+      "after": "Motiverad huvuduppgift, inte egen födelsepost.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-059",
+      "object": "CONTRACT-P-0020-PK-01@1",
+      "field": "body",
+      "start": 114,
+      "end": 151,
+      "quote": "1858/augustivarianten är öppet vägda.",
+      "old_support": [
+        "RESEARCH-P-0020-9d76f0343410@1 body0:1987",
+        "E-birth-P-0020@1 revision.caveat"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "The older1858censusvariant and correctedAugust transcription are differentcategories, explicitlyexplained in currentresearch. Newweakage36/30? cannot settle allvariantbirthdates or erase main1850identity. Preserve thislegacyidentityboundary, not a freshfullcontractpass.",
+      "before": "1858/augustivarianten är öppet vägda.",
+      "after": "1858/augustivarianten är öppet vägda.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-060",
+      "object": "KEY-P-0020-d811317d775c@1",
+      "field": "body",
+      "start": 102,
+      "end": 171,
+      "quote": "Ingen obruten ägarkedja; juridisk fastighetsidentitet behöver prövas.",
+      "old_support": [
+        "F-P-0020-occupation-1885-1916@1 revision.caveat",
+        "BIO-P-0020@1 markdown pointwise notcontinuousownership"
+      ],
+      "source_observation": "candidate/reconciled/C.json bounded own1886post; raw headers/marks and older knowledge kept distinct",
+      "semantic_focus": null,
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "New1886h.eg.?/Westerg.? is anotherpointwise title/residencecontext, not purchase date, legalparcelidentity or uninterruptedownership. Existing1929oneeighthmantal sourcekey remainsproperlybounded; no propertyactopened.",
+      "before": "Ingen obruten ägarkedja; juridisk fastighetsidentitet behöver prövas.",
+      "after": "Ingen obruten ägarkedja; juridisk fastighetsidentitet behöver prövas.",
+      "affected_copies": [],
+      "remaining_question": "Source raw name/upper-age/header/annotation uncertainties remain explicit; no new genealogy or gate promotion."
+    },
+    {
+      "id": "C-061",
+      "object": "CONTRACT-P-0010-PK-11@1",
+      "field": "body",
+      "start": 19,
+      "end": 104,
+      "quote": "Varje sakrad har exakt källställe med arkivbildare, volym, uppslag, rad och löpnummer",
+      "before": "Varje sakrad har exakt källställe med arkivbildare, volym, uppslag, rad och löpnummer",
+      "after": "De dokumenterade källställena och rättelserna bevaras; den äldre dopuppgiften 1886-05-01 återbrukas, men dess direkta underliggande källställe är ännu inte klarlagt och datumet är inte en egen kolumn i det nu lästa SCB-utdraget",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1",
+        "E-baptism-P-0010@1"
+      ],
+      "source_observation": "No baptism date column in sourceC; direct old correction provenance remains open.",
+      "judgment": "preciserat",
+      "decision": "revidera",
+      "grounds": "Qualify absolute current provenance claim. Preserve historic STYRKT, six preserved images and identity gate; older baptism date is not demoted.",
+      "affected_copies": [],
+      "remaining_question": null
+    }
+  ],
+  "source": "candidate/reconciled/C.json",
+  "planned_changed_objects": [
+    "P-0010",
+    "E-baptism-P-0010",
+    "BIO-P-0010",
+    "RESEARCH-P-0010-9d76f0343410",
+    "BIO-P-0020",
+    "KEY-P-0010-0c0ade41f877",
+    "THEME-P-0010-ID",
+    "PATH-P-0020-KP-01",
+    "CONTRACT-P-0010-PK-05",
+    "P-0010/Q-04"
+  ],
+  "remaining_source_questions": [
+    "Nummerfält täckt;14 endastlocator/sekvens.",
+    "ModernsJohannesson/Johansson mittsekvens olöst.",
+    "h.eg. ochWesterg. slut fortfarande preliminära.",
+    "Genomstruket övretal36/30? ny osäkerhet; äldre36-rättelse separat.",
+    "1:a b. litenförkortning osäker och utan säker expansion.",
+    "(1 år) textläst, innebörd olöst.",
+    "Kantstreckensinnebörd olöst."
+  ],
+  "stronger_old_facts_preserved": [
+    "Explicit36/rejected30correction",
+    "CorrectedolderJohansson",
+    "Exactbirthdates1886-04-19/1850-03-18/1863-06-24",
+    "Ownmarriage1885-06-19",
+    "Older1886-05-01baptismcorrection",
+    "OWNER_CONFIRMEDBernhardfather",
+    "P10BÄRANDE/P20P21AVVAKTAR"
+  ],
+  "coverage_gap": "Remaining routedcoverage gaps explicit in C-inventory; no completecoverage claim."
+}

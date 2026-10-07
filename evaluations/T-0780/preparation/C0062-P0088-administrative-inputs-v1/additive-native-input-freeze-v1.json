@@ -1,0 +1,36 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-03T06:59:35.201220+00:00",
+  "baseline_journal": 281,
+  "pins": [
+    {
+      "path": "evaluations/T-0780/preparation/C0062-P0088-administrative-inputs-v1/P-0088-full-v1.json",
+      "sha256": "b341cae67a065cf8b340c8425b5e4432f7f0d77fb76b3d93485d2a83aa35212b"
+    },
+    {
+      "path": "evaluations/T-0780/preparation/C0062-P0088-administrative-inputs-v1/P-0088-inspect-v1.json",
+      "sha256": "3256725ff907ac709ff630edb792b18de707954331a520d39b77b2dea68dde92"
+    },
+    {
+      "path": "evaluations/T-0780/preparation/C0062-P0088-administrative-inputs-v1/native-administrative-state-and-history-v1.json",
+      "sha256": "42e5b20e59a085e95e54e325316767cf3c6e5fa42fd3e9dcef09f99cc03726cc"
+    }
+  ],
+  "outside_prior_exact_revisions": [
+    "P-0082@1",
+    "P-0088@1"
+  ],
+  "source_interpretations": 0,
+  "stage_or_canonical_applies": 0,
+  "failed_attempts": [
+    {
+      "action": "person --help",
+      "result": "CLI treats --help as person id; no mutation"
+    },
+    {
+      "action": "person SQL query person_id column",
+      "result": "Column absent; corrected to revision_id, no mutation"
+    }
+  ],
+  "dictionary_build_seconds": 0.14723992347717285
+}

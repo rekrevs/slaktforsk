@@ -1,0 +1,76 @@
+{
+  "task": "T-0677",
+  "citation": "C-0012",
+  "reviewer": "Astra /root/g001_continue/c0016_independent",
+  "reviewed_at_utc": "2026-09-30T17:42:17.547166+00:00",
+  "inputs": [
+    {
+      "path": "genealogy2/verification/T-0677/c0012-independent-gaps-20260930.json",
+      "sha256": "2bd99cc92365de9a1bdf9e4c8c655d1772ecc6f2d42198627194b94c9fb58385"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0012-source-comparison-acceptance-20260930.json",
+      "sha256": "917f1f8d05eb88e638edfe23a11d121e269ad2fe49634f3910bfddfc8e8c6e6f"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0012-implementation-spec-before-review-precisions-20260930.json",
+      "sha256": "724d4c2e5cf52d563a7099fd498346b666eecd6b362afc565b25ecd781550fca",
+      "role": "original_reviewed_spec_before_precisions"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0012-independent-bo0044-review-20260930.json",
+      "sha256": "e4fcee32ac99c2b50d72c65412399e5040d342bf7236070edc4398ca1974801f"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0012-settled-implementation-spec-20260930.json",
+      "sha256": "54556288216b66117949ad14583513100c775a877341aaab1b6af1d7f6437ea7",
+      "role": "final_spec_after_review_precisions"
+    }
+  ],
+  "decision": "pass",
+  "counts": {
+    "rows": 7,
+    "logical_fields": 91,
+    "whole_documentary_reuse": 8,
+    "partial_and_gap_checks": 83,
+    "source_objects": 2,
+    "person_objects": 8
+  },
+  "passed_checks": [
+    "91fields across7persons,13perrow.8whole documentary reuses explicit; names/parishes/statdräng partialreuse separate from new rawmarks.",
+    "All seven civilstate marks and49blank statuscells match independent originalcheck. Six occupation gaps and seven final-notes fields are bounded blank; no life-wide negatives.",
+    "Tures isolated namecell trace and rawdot/commaditto retained without codeexpansion. Karlabbreviation reserved. No invented1910nightcommunion field.",
+    "BO sentence exactly corrects stale after1900-10-17nolaterreadclaim to existing C0012householdanchor1900-12-31, preserving no-new-move/no-biologicalfather limits. TR/AUDITbinding explicitly required.",
+    "Seven bounded adoptions preserve identities, unclear day/month conflicts and source debts. No gateupgrade or unsupported surname/biologicalfather inference.",
+    "Source2/person8 design proportionate: complete newrawmatrix inTR, audit and boundedadoptions sufficient; no need to overwrite preexisting Ada civilStatusnull or create redundant O/F."
+  ],
+  "necessary_precisions": [
+    {
+      "id": "R1",
+      "target": "TR consolidated-control headers occupation",
+      "observed": "Lyte (blindfödd,sinnessjuk,idiot,blind,döfstum).",
+      "required": "Replace blindfödd with fallandesot; alternatively reserve the smallprinted list as not fully read rather than give wrong exact text.",
+      "reason": "Fresh header-only crop121x88+286+47 enlarged10x clearly shows firstword fallandesot. My initialstage1 had intentionally left this fineprint unread; nothing authorizes blindfödd as settledprint."
+    },
+    {
+      "id": "R2",
+      "target": "adoptions.P-0047 opening common paragraph",
+      "observed": "Own-row adoption says små råditto hålls grafiskt och länsantecedent utanför hushållet är inte följd, although Astrids wholebirthplacecounty cell is documentaryreuse and has explicit county.",
+      "required": "Make opening specific to Astrid: År och namn återbrukas; hela födelseortsfältet med Skedevi, Östergötlands län återbrukas från uttrycklig T0157läsning. Remove own-row ditto/antecedent wording forP0047; keep existing reservations and lackofgateupgrade.",
+      "reason": "The sharedtemplate otherwise attributes other householdmembers untraced countyditto to Astrids alreadyexplicit countycell."
+    }
+  ],
+  "not_reviewed": [
+    "Final generated operations",
+    "Temp apply/pending reports",
+    "Canonical apply",
+    "Complete impactdisposition"
+  ],
+  "canonical_changes": false,
+  "resolution": {
+    "checked_at_utc": "2026-09-30T17:43:22.779430+00:00",
+    "R1": "Resolved: printed first Lyteexample now fallandesot; earlier headerbytes retained as readinghistory.",
+    "R2": "Resolved: P0047adoption now describes whole explicit birthplace/county reuse instead of borrowing others dittoreservation.",
+    "limits": "Pass is specification review; final operation payloads/temp apply/canonical outcome not inspected by this reader."
+  }
+}

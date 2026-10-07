@@ -1,0 +1,94 @@
+{
+  "task": "T-0787",
+  "status": "DOCUMENTED_SCHEMA_INTERFACE_ONLY_NO_SOURCE_GRADE_OR_API_CONSTRUCTION",
+  "frozen_baseline_pin": {
+    "path": "evaluations/T-0787/preparation/baseline-j447.sqlite",
+    "sha256": "0587019c23d764197dbf77d9227317710a35898827415323257b4245b563f6c4"
+  },
+  "documentation_pins": [
+    {
+      "path": "genealogy2/docs/working.md",
+      "sha256": "ee5b606f88e53d91a259de1de7bc16903c69b982dc548eb30c3a4fd724b47081"
+    },
+    {
+      "path": "genealogy2/lib/domain.mjs",
+      "sha256": "b4f104f30bda6277c797fc57a538a9c32cf4db5eb0d24423c6d0cb9c64fec25e"
+    },
+    {
+      "path": "genealogy2/lib/recovery.mjs",
+      "sha256": "1215607ef6ebd21e9d70831e05f2ab883b80727489139dc01bb09613087054e5"
+    }
+  ],
+  "actual3011_media_API_pin": {
+    "path": "evaluations/T-0786/resume-current446-v1/actual-3011-stage-media-root-authorized-output-v1.json",
+    "sha256": "d1e5a6f9fc6b510b98c676226cc72e409b67170acf53d276b1b35f4b13de1ab9"
+  },
+  "actual_media_registration_fields_exact": {
+    "id": "M-bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96",
+    "storagePath": "genealogy2/media/objects/bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96",
+    "sha256": "bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96",
+    "bytes": 1313110,
+    "originalName": "00205124_00259.jpg",
+    "provenance": "{\"task\":\"T-0787\",\"at_utc\":\"2026-10-06T07:21:50.994354+00:00\",\"url\":\"https://sok.riksarkivet.se/bildvisning/00205124_00259\",\"source\":\"SE/HLA/1010190/A II a/15 (1912-1937)\",\"canvas\":\"00205124_00259\",\"label\":\"Bild259 / Sida3011\",\"method\":\"Logged-in officialChromeviewer Ladda ner > Hela bilden5722x4062px(jpg); receivedbrowserdownload copiedunaltered. sipsverifieddimensions.\",\"path\":\"evaluations/T-0787/postlogin-originals/00205124_00259.jpg\",\"width\":5722,\"height\":4062,\"bytes\":1313110,\"sha256\":\"bded3192fc353a3be6114e0c12ff4de05e4feed99f669053e7dc69dd0659db96\",\"source_reading\":\"NOT_YET; bothAstraownreads required; 3oldlocals reused\"}"
+  },
+  "native_asset_registered_in_frozen447": false,
+  "search_SQL_schema": "CREATE TABLE search (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), question_id TEXT REFERENCES object(id),\n  source_id TEXT NOT NULL REFERENCES object(id), scope_json TEXT NOT NULL CHECK(json_valid(scope_json)),\n  outcome TEXT NOT NULL CHECK(outcome IN ('negative','positive','access_problem','inconclusive')),\n  body TEXT NOT NULL\n) STRICT",
+  "record_SQL_schema": "CREATE TABLE record (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), source_id TEXT NOT NULL REFERENCES object(id),\n  record_type TEXT NOT NULL, locator TEXT NOT NULL, dependence_note TEXT NOT NULL\n) STRICT",
+  "source_current_exact_revision": "S-0731@1",
+  "source_full_native": {
+    "id": "S-0731@1",
+    "object_id": "S-0731",
+    "version": 1,
+    "operation_id": "T-0645/registry-v1",
+    "disposition": "recorded",
+    "evidence_status": null,
+    "rationale": "Den fullständiga äldre källbeskrivningen och dess metadata bevaras ordagrant. Separata normaliserade arkivfält och källklass tilldelas inte genom gissning.",
+    "caveat": "",
+    "previous_id": null,
+    "kind": "source",
+    "data": {
+      "revision_id": "S-0731@1",
+      "title": "S-0731: Sundsvalls Gustav Adolfs kyrkoarkiv, församlingsbok A II a/15 och inflyttningslängd B I/5",
+      "archive_reference": null,
+      "source_class": null,
+      "description": "# S-0731: Sundsvalls Gustav Adolfs kyrkoarkiv, församlingsbok A II a/15 och inflyttningslängd B I/5\n\n- Arkivinstitution: Riksarkivet (Landsarkivet i Härnösand)\n- Arkivbildare: Sundsvalls Gustav Adolfs kyrkoarkiv, `SE/HLA/1010190`\n- Volymer:\n  - **`B I/5` Inflyttningslängder (1919–1929)**, reproduktion `00205178`\n    (original, 243 bilder; även mikrofilm `F0013988`, 255 bilder). Sida =\n    bild + 201 i den lästa delen (bild 201 = s. 402, bild 205 = s. 403).\n    1928 års poster: bild 201 = nr 376–425, 202 = 426–475, 203 = 476–525,\n    205 = 576–580. Kolumnen **`Uppslag i församlingsboken`** gör längden till\n    den snabbaste vägen från namn till folio.\n  - **`A II a/15` Församlingsböcker (1912–1937), Fol 2757–3100**,\n    reproduktion `00205124` (original, 350 bilder; även mikrofilm\n    `F0013977`). **Folio = bild + 2752** (bild 243 = folio 2995,\n    bild 245 = 2997, bild 246 = 2998).\n- Seriestruktur: `A II a/7`–`/19` (1912–1937) täcker folierna 1–4680 och har\n  samtliga digital bild; `/20`–`/25` (1935–1991) saknar. `B I/1`–`/14`\n  (1872–1990) har bild till och med `/14`.\n- Åtkomst 2026-09-06: inloggad session; läst i T-0072.\n\n## Bevarat underlag\n\n| Fil | SHA-256 |\n|---|---|\n| [Manifest 00205178](../media/S-0731-riksarkivet-sundsvall-BI5-manifest.json) | `090007accee40940a4d0509279041cb9b8b27cfccd3f8db82c7c329ca2260464` |\n| [Manifest 00205124](../media/S-0731-riksarkivet-sundsvall-AIIa15-manifest.json) | `0eededa21c479633feabc0657c956915d2038adcd6f1e80d7d2d38b9965d5ffd` |\n"
+    },
+    "origins": [
+      {
+        "revision_id": "S-0731@1",
+        "unit_id": "43950ad6ae2dedb30d2790739b2ac9f16fee00f775e755f4922e63e7ad9e3c68",
+        "coverage": "complete",
+        "note": "Återanvändning av äldre forskningsunderlag; inte ett nytt oberoende belägg."
+      }
+    ],
+    "evidence": []
+  },
+  "search_API_fields": {
+    "id": "SOURCE_MUST_SETTLE_EXACT_NEW_ID",
+    "kind": "search",
+    "expectedVersion": null,
+    "disposition": "SOURCE_DECIDES",
+    "evidenceStatus": "SOURCE_DECIDES_NULL_OR_LITERAL",
+    "rationale": "SOURCE_FULL_LITERAL_REQUIRED",
+    "caveat": "SOURCE_FULL_LITERAL_REQUIRED",
+    "data": {
+      "question_id": null,
+      "source_id": "SOURCE_EXACT_CURRENT_SOURCE_ID",
+      "scope_json": {
+        "description": "SOURCE_FULL_SCOPE",
+        "query": "SOURCE_EXACT_TEST",
+        "bounds": "REQUIRED_NONEMPTY_OBJECT_IF_outcome_negative"
+      },
+      "outcome": "SOURCE_DECIDES_EXACT_BOUNDED_OUTCOME",
+      "body": "SOURCE_FULL_RELEVANT_READING_AND_LIMITS"
+    },
+    "origins": "EXACT_ORDERED_SOURCE_ARRAY",
+    "evidence": "EXACT_ORDERED_CURRENT_BASIS_ARRAY"
+  },
+  "media_registration_interface": "Operation request.media accepts literal actualstage-media output object(s); requires id,storagePath,sha256,bytes,originalName,provenance. Blob registration alone does not attach it to a search or record. No new operation is prepared here.",
+  "correct_record_attachment_interface": "changes[].media is allowed ONLY for kind record, array{id: actualMediaID,region: explicitsource region}. An exact existing/new physical3011 record must be source-settled for attachment; do not substitute the2995 record. An attached record needs data{source_id,record_type,locator,dependence_note}, exact expectedVersion and current source binding/evidence. New media are registered before changes.",
+  "search_media_limitation": "Direct changes[].media on a search is rejected bydomain.mjs. scope_json is structured data but its asset IDs are not native record_media links. Source must settle minimum bounded physical record/search representation without unrelatedpeople or units.",
+  "source_quality_scope": "Full tested page/nonmatch meaning, bounds and transcription are Astra decisions; no personnegative/sourceexhaustion/owncontinuation claim inferred by Sol.",
+  "operation_policy": "Explicit dependencyReviewVersion numeric2; only sourceapproved producers before consumers; fullmetadata/origins/evidence/order retained",
+  "no_API_operation_stage_canonical_or_Wotan_mutation": true
+}

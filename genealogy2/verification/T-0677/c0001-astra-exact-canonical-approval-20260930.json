@@ -1,0 +1,33 @@
+{
+  "task": "T-0677",
+  "approved_at": "2026-09-30T18:24:26.742906+00:00",
+  "decision": "APPROVE_EXACT_THREE_CANONICAL_PACKAGES",
+  "base_journal": 212,
+  "ordered_operations": [
+    "T-0677/C0001-source-v1",
+    "T-0677/C0001-person-v1",
+    "T-0677/C0001-resolutions-v1"
+  ],
+  "inputs": {
+    "c0001-settled-implementation-spec-20260930.json": "93ca8159faaef9c81aed705a2c90298682819d8dbb33aa3f2046f6625ef2f8bf",
+    "c0001-source-proposed-operation-20260930.json": "0129bb62462d1cde8d1597039289a6fd15d493f5873fbe4becc1d83bf49f4324",
+    "c0001-person-proposed-operation-20260930.json": "99316a5ece6d2a51251a802d38cd6870c467825a2f42e0a1918120b34fb757f7",
+    "c0001-resolutions-proposed-operation-20260930.json": "4d18d2fbf0ec4270ba3cde743ddad87cc68c76af29473cc0cecdf3153e41040c",
+    "c0001-astra-temp-full-review-20260930.json": "cbd2ce09d113491c1b5f7c7bec54cdc894919e3b62186334a401da766a7c10f8",
+    "c0001-temp-resolutions-receipt-20260930.json": "b118c672a6bb41994f8f221a141e8bdbccca84ef31e1a9efef97089afb0b2700",
+    "c0001-impact-individual-dispositions-20260930.json": "54517c0b10ba92197db6a781c680ba8d8269e6ec6879708463e2ff04c8ca2304",
+    "c0001-independent-final-acceptance-20260930.json": "d9e5cf9d2009b55c64c80d5c7bed3563d004263e1263bcf784e387aa5d2c3629"
+  },
+  "checks": {
+    "full_objects_independently_reconstructed": 57,
+    "individual_retains": 8,
+    "full_resolution_rows_match": true,
+    "temp_pending_zero": true,
+    "three_validators_pass": true
+  },
+  "limits": [
+    "Exacthashpackagesonly. Stop on changedcanonicalbase or differentpendingrequestset.",
+    "No newpersonidentity/vitalfact/relationship orreviewoutcome. Existingownerconfirmed and reservationspreserved.",
+    "Documentarycitationaudit, no historicaloriginalcapturerestoration ornewvisualfield."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "task": "T-0789",
+  "operations": [
+    {
+      "operation_id": "T-0789/exact21-own-annual1945-1946-source-adoption-and-current-consequences-v1",
+      "operation_pin": {
+        "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-one-controlled-operation-v1.json",
+        "sha256": "e34073264fda8de0f4c9ed054afa5f5dbd20e2465508c149e2276ba8b04323e2"
+      },
+      "target_ids": [
+        "R-T0789-P0007-own-annual-1945",
+        "TR-T0789-P0007-own-annual-1945",
+        "M-T0789-P0007-own-annual-1945",
+        "O-T0789-P0007-own-annual-1945",
+        "ID-T0789-P0007-own-annual-1945",
+        "R-T0789-P0007-own-annual-1946",
+        "TR-T0789-P0007-own-annual-1946",
+        "M-T0789-P0007-own-annual-1946",
+        "O-T0789-P0007-own-annual-1946",
+        "ID-T0789-P0007-own-annual-1946",
+        "CONTRACT-P-0007-PK-05",
+        "CONTRACT-P-0007-PK-08",
+        "PATH-P-0007-KP-05",
+        "BIO-P-0007",
+        "KEY-P-0007-eef3355d1926",
+        "KEY-P-0007-5d5f2d0f7f26",
+        "THEME-P-0007-BO",
+        "RESEARCH-P-0007-9d76f0343410",
+        "O-P-0007-mantal1944",
+        "IDENTITY-REVIEW-T0789-P0007",
+        "TREE-EFFECT-T0789-P0007"
+      ]
+    }
+  ],
+  "membership_pin": {
+    "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-ordered-operation-membership-v1.json",
+    "sha256": "20d156fd54ff29c5fc227e90f0246454e9e56b9bb4c9bc6aad3332488b4b03bf"
+  },
+  "consequence_table_pin": {
+    "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-full-individual-consequence-and-retain-table-v1.json",
+    "sha256": "573ad5596e4ac52bd27c87353a72b7c3998f265a0bafc582c23098b35b44a605"
+  },
+  "guard_pin": {
+    "path": "evaluations/T-0789/preparation/exact21-actual-accepted452-input-guard-v1/exact21-actual-accepted452-whole-old-schema-support-head-and-full-incoming-guard-v1.json",
+    "sha256": "8def7d7ac334f5b8c63711b3f90800bb1de28947926faf26134fec05fffdad26"
+  },
+  "baseline_proof_pin": {
+    "path": "evaluations/T-0789/preparation/fresh452-preservation-backup-full50-protected42-and-exact21-current-proof-v1.json",
+    "sha256": "3aeae1f040d254dfe7842db74b4c9bdf12ceb0382c17e80168b1d8ed5055508d"
+  },
+  "baseline_pin": {
+    "path": "evaluations/T-0789/preparation/baseline-j452.sqlite",
+    "sha256": "c8a648f3ea9384cb9d5c539287b2e189373707dc561179935e73884a2957930b"
+  },
+  "root_draft_authorization_pin": {
+    "path": "evaluations/T-0789/root-authorized-exact21-guarded-draft-build-v1.json",
+    "sha256": "bcbf8b9d462919ea69376714c8cc4b78c7b6b1a62bd9fe81b67f6c3eba8d53f2"
+  },
+  "source_union_pin": {
+    "path": "evaluations/T-0789/source-review/complete-actual452-exact21-source-order-and-five-incoming-draft-readiness-v1.json",
+    "sha256": "deefce49d58a5658671b9c0ae150b7a38248ef568ad1e646ccaa3af9ff43ca81"
+  },
+  "primary_input_gate": {
+    "pin": {
+      "path": "evaluations/T-0789/source-review/complete-actual452-exact21-source-order-and-five-incoming-draft-readiness-v1.json",
+      "sha256": "deefce49d58a5658671b9c0ae150b7a38248ef568ad1e646ccaa3af9ff43ca81"
+    },
+    "ready_pointer": "/source_draft_ready",
+    "guard_pin_pointer": "/actual452_guard_pin"
+  },
+  "independent_input_gate": {
+    "pin": {
+      "path": "evaluations/T-0789/independent-review/complete-actual21-independent-source-consequence-draft-readiness-gate-v1.json",
+      "sha256": "9a810f4f27d0a75a887aed7c8c58a278bbb95fa6dc681b009b5bf7435a6bc75b"
+    },
+    "ready_pointer": "/ready_for_guarded_draft_build",
+    "guard_pin_pointer": "/actual_guard",
+    "source_union_pin_pointer": "/source_union",
+    "RESEARCH_amendment_pin_pointer": "/source_RESEARCH_actual_binding_amendment"
+  },
+  "operation_count": 1,
+  "target_count": 21,
+  "existing_revisions": 9,
+  "new_objects": 12,
+  "media_count": 2,
+  "built_byte_primary_approved": false,
+  "built_byte_independent_approved": false,
+  "stage_authorized": false,
+  "canonical_authorized": false,
+  "actual_requests_not_inferred": true,
+  "main_unchanged_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "eabdc5aff2eefdc35136f5823ccb140f155425f61505238b77f29c984baee248"
+  },
+  "usage": "UNKNOWN pending root collector"
+}

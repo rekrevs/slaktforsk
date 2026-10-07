@@ -1,0 +1,63 @@
+{
+  "task": "T-0786",
+  "date_utc": "2026-10-06T06:15:41.997472+00:00",
+  "scope": [
+    "P-0003",
+    "P-0007"
+  ],
+  "input_index": "evaluations/T-0786/preparation/complete-current443-two-person-route-preparation-index-v1.json",
+  "verified_input_pins": [
+    "evaluations/T-0786/preparation/fresh443-physical-baseline-logical-all50-and-live-unchanged-v1.json",
+    "evaluations/T-0786/preparation/P-0003-whole-current-person.json",
+    "evaluations/T-0786/preparation/P-0007-whole-current-person.json",
+    "evaluations/T-0786/preparation/C-0882-complete-existing-inspect.json",
+    "evaluations/T-0786/preparation/S-0689-complete-existing-inspect.json",
+    "evaluations/T-0786/preparation/inventory-current443.json",
+    "evaluations/T-0786/preparation/Adam-verified-current443.json",
+    "evaluations/T-0786/preparation/Axel-verified-current443.json",
+    "evaluations/T-0786/preparation/complete-two-current-history-upstream-OWNER-native-inputs-v1.json",
+    "evaluations/T-0786/preparation/finite-current-route-clause-and-structured-metadata-locator-v1.json",
+    "evaluations/T-0786/preparation/exact-current-PK-native-review-full-body-caveat-and-incoming-v1.json",
+    "evaluations/T-0786/preparation/existing-C0882-S0689-catalog-and-viewer-URL-routing-v1.json",
+    "evaluations/T-0786/preparation/accepted-T0784-exact-current-two-person-reuse-and-immutable-receipt-lock-v1.json",
+    "evaluations/T-0786/preparation/working-tree-before.txt"
+  ],
+  "reuse": "Bothwholecurrentviews equal acceptedT0784; sourcework confined to new routing/access/own15 if obtainable",
+  "observed_access": [
+    {
+      "layer": "MCP",
+      "query": "Södertälje kyrkoarkiv församlingsböcker",
+      "result": "zero; knownarchive quotedcode positivecontrol15 results; no personnegative"
+    },
+    {
+      "layer": "MCP",
+      "query": "\"SE/SSA/1572/A II a/90\"",
+      "result": "zero; exactvolumeunlocated; no absence inference",
+      "raw": "evaluations/T-0786/mcp-AIIa90-exact-code-query.json"
+    },
+    {
+      "layer": "JSONLD",
+      "url": "https://data.riksarkivet.se/archive/zA0MyLTP29EgwUdsmSjKh3.jsonld",
+      "result": "curl default exit35 TLS connection reset; escalationactualHTTP403 exit56; no fullcatalog returned"
+    },
+    {
+      "layer": "websearch",
+      "query": "\"SE/SSA/1572\" \"A II a/90\" domain:sok.riksarkivet.se",
+      "result": "webtool robots.txt blocked; not personnegative"
+    },
+    {
+      "layer": "Chrome",
+      "url": "https://sok.riksarkivet.se/arkiv/zA0MyLTP29EgwUdsmSjKh3",
+      "actual_url": "https://sok.riksarkivet.se/captcha?returnUrl=%2Fnad%2F%3Fpostid%3DArkis%2520e52d40f9-645d-4e22-aba7-a7db072d52b3",
+      "page_title": "Captcha - Riksarkivet - Sök i arkiven",
+      "visible_text": [
+        "Verifiera att du är människa",
+        "Vänligen kryssa för rutan nedan för att fortsätta.",
+        "Jag är inte en robot"
+      ],
+      "result": "captcha not solved; markHandoff set; ownerasyncrequest pending; catalogue/original unread",
+      "browser_tab": "1944360786"
+    }
+  ],
+  "root_release": "Current/reuse inputs released; separate Astra own reading of only raw accessfacts before candidate. No stage/canonical apply authorized."
+}

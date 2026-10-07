@@ -1,0 +1,77 @@
+{
+  "schema_pin": {
+    "path": "genealogy2/schema/002.sql",
+    "sha256": "eb8784b41723ed27eb12a3ce67d2b4304459909480b9adfcc5dba28fc1e10568"
+  },
+  "validation_code_pin": {
+    "path": "genealogy2/lib/domain.mjs",
+    "sha256": "b4f104f30bda6277c797fc57a538a9c32cf4db5eb0d24423c6d0cb9c64fec25e"
+  },
+  "schema_location": "genealogy2/schema/002.sql:104",
+  "validation_location": "genealogy2/lib/domain.mjs:59",
+  "required_data_columns": [
+    "source_id",
+    "scope_json",
+    "outcome",
+    "body"
+  ],
+  "nullable_data_column": "question_id",
+  "scope_json_API_type": "object; description and query required; negative requires nonempty bounds object",
+  "outcome_enum": [
+    "negative",
+    "positive",
+    "access_problem",
+    "inconclusive"
+  ],
+  "shared_subject_representation_limit": "No search subject_id column; explicit subjects can be stated in scope_json/body; exact semantics remain Astra-owned",
+  "absent_expectedVersion": null,
+  "new_operation_dependencyReviewVersion": 2,
+  "existing_actual_operation_id": "T-0652/persons-01-v1",
+  "existing_actual_change_pointer": "/changes/321",
+  "existing_full_submitted_API": {
+    "bindings": {
+      "S-0706": 1
+    },
+    "caveat": "",
+    "data": {
+      "body": "De kontrollerade sidetiketterna saknas i reproduktionerna; uppdelningen 5 a/5 b/5 c löser inte hoppet. Fysisk bladförlust, två oberoende skanningar eller frånvaro av varje tredje reproduktion är inte styrkta. Arnes relevanta sida 638 finns i 6 b.",
+      "outcome": "negative",
+      "question_id": null,
+      "scope_json": {
+        "bounds": {
+          "missingPageLabels": [
+            "638",
+            "639",
+            "643",
+            "646",
+            "647"
+          ],
+          "reproductions": [
+            "00153996",
+            "F0007028"
+          ],
+          "volume": "A II a/5 b"
+        },
+        "description": "Två i C-0896/C-1047 kontrollerade reproduktioner av Flen A II a/5 b",
+        "query": "Sidetiketter 638–639, 643, 646–647"
+      },
+      "source_id": "S-0706"
+    },
+    "disposition": "recorded",
+    "evidence": [],
+    "evidenceStatus": "NEGATIVE",
+    "expectedVersion": null,
+    "id": "SEARCH-P-0003-Flen5b-label-gaps",
+    "kind": "search",
+    "origins": [
+      {
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "unit": "7d022f0d060cec09834d667f0cc73fc144b6c318bdc573e4dae884c4c7a6bf9b"
+      }
+    ],
+    "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar."
+  },
+  "current_native_pointer": "complete-two-current-history-upstream-OWNER-native-inputs-v1.json#/objects/SEARCH-P-0003-Flen5b-label-gaps@1",
+  "no_candidate_constructed": true
+}

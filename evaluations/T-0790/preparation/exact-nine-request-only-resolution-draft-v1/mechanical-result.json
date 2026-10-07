@@ -1,0 +1,42 @@
+{
+  "resolver_operation_pin": {
+    "path": "evaluations/T-0790/preparation/exact-nine-request-only-resolution-draft-v1/resolve-literal.json",
+    "sha256": "d46bc7e31475893b36a619ce556b7ac40a350c82a6e3c6e72ed6b6a196fc6e59"
+  },
+  "resolution_table_pin": {
+    "path": "evaluations/T-0790/preparation/exact-nine-request-only-resolution-draft-v1/nine-individual-resolution-table.json",
+    "sha256": "bb056c48915a9f916fee47900fdb1a92114019a729f3bd8ab64bfbd67e863165"
+  },
+  "membership": {
+    "operations": [
+      {
+        "path": "evaluations/T-0790/preparation/materialized-source-v3-literal-v1/operation-literal.json",
+        "sha256": "211f0922680418c50f70f2443ef08d601ab06c0f242ffeb70ce4091538b019d5",
+        "operation_id": "T0790-existing-material-life-six-v1"
+      },
+      {
+        "path": "evaluations/T-0790/preparation/exact-nine-request-only-resolution-draft-v1/resolve-literal.json",
+        "sha256": "d46bc7e31475893b36a619ce556b7ac40a350c82a6e3c6e72ed6b6a196fc6e59",
+        "operation_id": "T0790-nine-individual-dependency-resolutions-v1"
+      }
+    ],
+    "first_stage_pin": {
+      "path": "evaluations/T-0790/preparation/reviewed-stage-v1/stage.sqlite",
+      "sha256": "29c63298378bddc0c75a994ff3ce5de90ba42c07a3d219f81d053cfed484fdac"
+    },
+    "first_stage_state": {
+      "journal_head": 455,
+      "pending": 9
+    },
+    "planned_final_state": {
+      "journal_head": 456,
+      "pending": 0
+    },
+    "same_stage_only": true
+  },
+  "actual9IDs_order_exact": true,
+  "literal_resolution_list_exact_two_Astra_inputgates": true,
+  "no_runtime_apply": true,
+  "final_literal_operation_table_two_Astra_gates_required": true,
+  "elapsed_monotonic_seconds": 0.948869082989404
+}

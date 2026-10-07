@@ -1,0 +1,27 @@
+{
+  "task": "T-0781",
+  "created_utc": "2026-10-04T14:50:15.299994+00:00",
+  "worker_phase_start_utc": {
+    "/root/source_resume": "2026-10-04T14:09:33.172Z",
+    "/root/implementation_resume": "2026-10-04T14:21:12.028Z",
+    "/root/independent_resume": "2026-10-04T14:20:00.000Z"
+  },
+  "observability": "Per-response token_usage_record matched exact worker thread. Newphase source includesmetadata/reuseprep from14:09:33, Sol excludesearlierT0780administrationturn and startsnewT0781turn14:21:12, independent startsafterT0780final; allfuturefinalization/repairs mustcount. RootUNKNOWN, sharedmeterNOTINFERRED.",
+  "worker_logs": [
+    {
+      "agent": "/root/source_resume",
+      "thread_id": "01a1059d-97bc-7243-959e-fe0ecb2842d4",
+      "source_log": "/Users/sverker/.codex/sessions/2026/10/04/rollout-2026-10-04T08-32-56-01a1059d-97bc-7243-959e-fe0ecb2842d4.jsonl"
+    },
+    {
+      "agent": "/root/independent_resume",
+      "thread_id": "01a1059d-cc36-7511-8636-c8595af9bf3d",
+      "source_log": "/Users/sverker/.codex/sessions/2026/10/04/rollout-2026-10-04T08-33-09-01a1059d-cc36-7511-8636-c8595af9bf3d.jsonl"
+    },
+    {
+      "agent": "/root/implementation_resume",
+      "thread_id": "01a1059e-012f-75a1-9ed8-6cb0cf5ca572",
+      "source_log": "/Users/sverker/.codex/sessions/2026/10/04/rollout-2026-10-04T08-33-23-01a1059e-012f-75a1-9ed8-6cb0cf5ca572.jsonl"
+    }
+  ]
+}

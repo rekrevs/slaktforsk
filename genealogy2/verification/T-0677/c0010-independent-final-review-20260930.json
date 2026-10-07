@@ -1,0 +1,73 @@
+{
+  "task": "T-0677",
+  "citation": "C-0010",
+  "reader": "independent Astra /root/g001_continue/c0016_independent",
+  "reviewed_at": "2026-09-30T20:18:57.845372+00:00",
+  "outcome": "PASS",
+  "canonical_anchor": 219,
+  "inputs": {
+    "c0010-draft-implementation-spec-20260930.json": "fa3de1d18673ea0ea154919eabb6d89c60abc9ac839e0b237761b14c3d190b8c",
+    "c0010-source-class-primary-20260930.json": "f4467227178b50c5c057601cf2aa6e44efc16f56451f4d2f5729bb5871618e3b",
+    "c0010-source-class-independent-20260930.json": "5994f3cfba31fa82ed9b9e8ed08190e4af0743cf7cd280e8e9770ba0578c1d03",
+    "c0010-source-class-current-j219-20260930.json": "166dad8139d42dd3ed72dc8856d3d98db80c779ec48f1bb9e8337f39888d3ec5",
+    "c0010-impact-current-j219-20260930.json": "71a94f430730c86fe5192595c285312c4b8ba8cee0a80defb66288afa5a1d0db",
+    "c0010-person-P0010-independent-context-20260930.json": "8653d9f83831c630597df96ae30651ccc2964aed1f73a13ae6d5e8f6464f5ad2",
+    "c0010-person-context-acceptance-20260930.json": "6285238109fcc5d34e9d886b0640c086ae0b8d417d57589dd648a7aa81098194",
+    "c0010-impact-individual-dispositions-draft-20260930.json": "cdd16f8d5fb4a55bfdeddd0fccf803d485097fc11d18e270bff6b8500dcc73fa",
+    "c0010-scoped-children-scan-j219-20260930.json": "f5c3020354e56dc93099b5684aa41fdfbc8b3a33015b6b97ba0f68f01011b9ff",
+    "c0010-scoped-1978-scan-j219-20260930.json": "874b7fb2ac80f57590a1a76551c2b0801e8f46bb241c47d6d46f5348f45a2f70"
+  },
+  "scope": "Slutlig sak- och specifikationsgranskning av den låsta C0010-draften och samtliga 45 aktuella relevanta dispositioner. Tidigare självständig källklassprövning och full P0010-läsning återbrukas; ingen ny helresearch, extern sida eller bild har öppnats.",
+  "checks": [
+    {
+      "check": "Dokumentär källklass och helomfång",
+      "result": "PASS",
+      "reason": "AUDIT avgränsar hela bevarade citationen och S0010 till reviewed_with_limits, inte ordagrann historisk webbcapture, aktuell extern profil eller originalverifiering. Alla sex synliga punktuppgifter och fem dokumentära delar omfattas; citationens fulla suffix är byte-/textkontrollerat mot den bevarade filen."
+    },
+    {
+      "check": "Anonymt barnantal och source-O",
+      "result": "PASS",
+      "reason": "O-P-0007-ancestry-children@1 revideras till count=3, profile_subject=P-0003, other_parent=null, child_identities=null. Detta tar bort den obelagda bindningen till två föräldrar utan att lägga till barnidentiteter. Rå literal, recordgrund, LEAD och övriga metadata består. Den historiska ID-strängen är inte ny personattribution."
+    },
+    {
+      "check": "Individuella registerrelationer och barnräkning",
+      "result": "PASS",
+      "reason": "F-P-0007-children_count-three och tre individuella relationer behålls på sina egna register-/familjestöd. Den riktade O-impacten saknar konsumenter; den gamla råobservationen är inte grund för en automatisk följdnedgradering."
+    },
+    {
+      "check": "P0010:s elva precisioner i nio objekt",
+      "result": "PASS",
+      "reason": "Samtliga expectedVersion, datafält, replace_once, old/new och skäl överensstämmer exakt med den oberoende låsta kontextgranskningen. 1978 blir sökledtråd i stället för säker livslängd eller kontinuerlig Malmöbosättning; bouppteckning villkoras. Inget nytt dödsbelägg eller fysisk ort sluts."
+    },
+    {
+      "check": "Fyra fulla adoptionstexter",
+      "result": "PASS",
+      "reason": "P0003, P0007, P0009 och P0010 får begränsad adoption. Gravstödda dödsdagar, Bernhards egen identitet/namn och separat OWNER_CONFIRMED-faderskap bevaras; Ada1961 och Bernhard1978 förblir LEAD. Varken dödsadress, anonymt antal eller råstavning höjs till ny personslutsats. C0018 avslutas inte här."
+    },
+    {
+      "check": "45 individuella följddispositioner",
+      "result": "PASS",
+      "reason": "Alla 45 aktuella relevanta objekts dispositioner är sakligt förenliga med källgränsen: 10 revisioner och 35 retain. Tre globala frasträffar gäller andra personer och hålls separat; fem supersederade träffar bevaras historiskt. Reviderade ID-mängden motsvarar exakt operationens befintliga objekt."
+    },
+    {
+      "check": "Data, metadata, versioner och stöd",
+      "result": "PASS",
+      "reason": "Ändringar riktas till angivna datafält/value_json. Tidigare evidens, origins, caveats och status bevaras, med specificerat rationale-tillägg och AUDIT-stöd för personrevisionerna. AUDIT stöds av R@1/READ@1/S@1, inte av nya personadoptioner; ingen ny cirkulär beviskedja införs i specifikationen."
+    },
+    {
+      "check": "Räkning och avgränsning",
+      "result": "PASS",
+      "reason": "15 objekt = fem nya (AUDIT + fyra adoptioner) och tio revisioner (source-O + nio personobjekt). Elva textedits är inte elva objekt. Inga nya råobservationer, personfacts eller TR. Tre kvalificerade inferensfel räknas efter sakfel, inte antal textkopior. Andra äldre åtkomst-/söknollformuleringar sakgodkänns inte genom denna audit."
+    },
+    {
+      "check": "Låsta inputhashar",
+      "result": "PASS",
+      "reason": "Draftens angivna SHA256 och samtliga nio deklarerade underlagshashar verifierade mot aktuella filbytes."
+    }
+  ],
+  "required_precisions": [],
+  "implementation_boundary": "PASS avser exakt granskad draft och medger att huvudagenten förbereder tempoperationer. Den ersätter inte fullobjektskontroll, validatorer, faktisk pending eller separat exakt canonicalgranskning enligt implementation_rules.",
+  "canonical_mutation": false,
+  "new_external_or_image_access": false,
+  "next_post_started": false
+}

@@ -1,0 +1,94 @@
+{
+  "kind": "fact",
+  "revision": {
+    "id": "F-P-0020-source_conflict-census1900-1910-birth-years@1",
+    "object_id": "F-P-0020-source_conflict-census1900-1910-birth-years",
+    "version": 1,
+    "operation_id": "T-0663/reviewed-corrections-v1",
+    "disposition": "accepted",
+    "evidence_status": "CONFLICT",
+    "rationale": "1900-bladets egen födelseårscell är58;50 står på1910-bladet. Båda avvikande bladläsningarna bevaras utan att1910-värdet tillskrivs1900-posten.",
+    "caveat": "Båda föräldrarnas parallella avvikelse bevaras. Samma administrativa kedja avgör inte felorsaken. P0020:s belagda1850-03-18 omprövas inte här.",
+    "previous_id": null
+  },
+  "data": {
+    "subject_id": "P-0020",
+    "property": "source_conflict",
+    "value_type": "structured",
+    "value_json": {
+      "accepted_birth_date_revised": false,
+      "father": {
+        "census1900": {
+          "raw": "58",
+          "year": 1858
+        },
+        "census1910": {
+          "raw": "50",
+          "year": 1850
+        }
+      },
+      "independent_votes": false,
+      "mother": {
+        "census1900": {
+          "raw": "67",
+          "year": 1867
+        },
+        "census1910": {
+          "raw": "63",
+          "year": 1863
+        }
+      },
+      "same_parish_book_extract_chain": true,
+      "systematic_transfer_error": "possible hypothesis; not established"
+    }
+  },
+  "origins": [
+    {
+      "unit": "1a0e3edc4c8be730d2813f303e71e04d3914a02103be858dbb452d215ccd0f35",
+      "coverage": "partial",
+      "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+    },
+    {
+      "unit": "c6ea3de11c57d69fdc8fda2c5ed25bcda9a672d294480bbda0cb6a87a76516c1",
+      "coverage": "partial",
+      "note": "Hela C-0025 inklusive senare tillägg är läst; detta ursprung bevarar befintlig text, ingen ny bildläsning."
+    },
+    {
+      "unit": "ce31fc1e6aea633aa2509e2e8086846c286990ebfd78bf5172a07ed0ea4888c7",
+      "coverage": "partial",
+      "note": "Hela C-0026 inklusive senare tillägg är läst; detta ursprung bevarar befintlig text, ingen ny bildläsning."
+    },
+    {
+      "unit": "d1e78907875cc332f4675de0c03bc1357a36926ce36f775c620e8ae72b0d92c5",
+      "coverage": "partial",
+      "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+    }
+  ],
+  "evidence": [
+    {
+      "object": "O-P-0020-C0025-birth1858",
+      "version": 2,
+      "role": "supports",
+      "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+    },
+    {
+      "object": "O-P-0020-C0026-birth1850",
+      "version": 1,
+      "role": "supports",
+      "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+    },
+    {
+      "object": "R-12cfa4b0cfebd9409730fcb8",
+      "version": 1,
+      "role": "supports",
+      "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+    },
+    {
+      "object": "R-9fcd6c77fb3fbdc8a110e24b",
+      "version": 1,
+      "role": "supports",
+      "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+    }
+  ],
+  "assets": []
+}

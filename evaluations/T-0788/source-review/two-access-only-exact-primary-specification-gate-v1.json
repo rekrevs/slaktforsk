@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    "T-0788",
+    "T-0789"
+  ],
+  "phase": "PRIMARY_TWO_ACCESS_ONLY_SOURCE_SPECIFICATIONS_AFTER_COMPARATIVE_RELEASE",
+  "at_utc": "2026-10-06T06:49:35.071441+00:00",
+  "source_specs": [
+    {
+      "path": "evaluations/T-0788/source-review/one-bounded-access-search-exact-primary-specification-v1.json",
+      "sha256": "f1f4ee6185dc7b52c906b32ccbe11e8a42ea2bd786bb5ba72b7177c06385c4c8"
+    },
+    {
+      "path": "evaluations/T-0789/source-review/one-bounded-access-search-exact-primary-specification-v1.json",
+      "sha256": "1f1e2c41d4afaf6bfb749a6c61c3675c360d7e7a96022391f040e36aaed31cfc"
+    }
+  ],
+  "own_freezes": [
+    {
+      "path": "evaluations/T-0788/source-review/primary-own-bounded-access-current-consequence-freeze-v1.json",
+      "sha256": "b0f0383c440d9e85400f8c7aa4fe0be04012fa746e755769b90fcd9a3bb0b7ee"
+    },
+    {
+      "path": "evaluations/T-0789/source-review/primary-own-bounded-access-current-consequence-freeze-v1.json",
+      "sha256": "9294e7ecff75a7515c4777f698d50f39e663deaf5ae44d25198d52613034ce79"
+    }
+  ],
+  "independent_freezes_read": [
+    {
+      "path": "evaluations/T-0788/independent-review/own-access-only-current-and-stronger-reuse-freeze-v1.json",
+      "sha256": "c5f9851f24c3a940566587ea74fcebec9d2cc079c055e25a1bfce7afaee6e78b"
+    },
+    {
+      "path": "evaluations/T-0789/independent-review/own-access-only-current-and-stronger-reuse-freeze-v1.json",
+      "sha256": "1211180d0568a862a5c93a3b93b638ce4f1fdc42c68ce7ebe191bf06a3df6e58"
+    }
+  ],
+  "comparison": "Both independently frozen access classifications agree: root-observed HTTP401/exactChromeLOGIN, originals0, metadata onlyroutes, exactcurrent/stronger/OWNER/gradesRETAIN. No sourcequestion requires changing either fullAPI.",
+  "expected_new_searches": 2,
+  "expected_old_revisions": 0,
+  "expected_native_content_changes": "Two append-only datedaccessnotes only, no oldsource/person/grade change",
+  "ready_for_mechanical_draft": true,
+  "ready_for_canonical": false,
+  "conditions": [
+    "Whole exactbuiltAPI must equal source spec; expectedVersionnull absent IDs, source/currentheads guarded.",
+    "Separateindependent exactbuiltpackage approval and actualfreshstage/native/protected/ordered evidence/request/validator proofs required.",
+    "Any materially new ownerlogin/sourceaccess beforefinal gate returns to source role, initialbytes preserved."
+  ]
+}

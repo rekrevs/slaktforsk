@@ -1,0 +1,91 @@
+{
+  "task": "T-0781",
+  "at_utc": "2026-10-04T15:39:45.252686+00:00",
+  "authorization": "ONE_FRESH_EXACT16_SEQUENTIAL_CLONE_STAGE_ONLY",
+  "root_authorized": true,
+  "canonical_apply_authorized": false,
+  "resolution_apply_authorized": false,
+  "helper_pin": {
+    "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py",
+    "sha256": "ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0781/implementation/complete-two-source-settled-draft-package-v3/complete-two-source-draft-package-proposal-v1.json",
+    "sha256": "ac29c6eac172cabecc2d403b85bb0833cc9391eda1f635975a2a972f85b9aa96"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0781/implementation/complete-two-source-settled-draft-package-v3/complete16-operation174-target-ordered-membership-v1.json",
+    "sha256": "1d6fe41f53c2ecec88251ffb7823eb074c52c70b0d531e801aac3f08b2bdaa0c"
+  },
+  "primary_gate": {
+    "pin": {
+      "path": "evaluations/T-0781/source-review/exact-two-source174-complete-primary-prestage-readiness-gate-v1.json",
+      "sha256": "8ab5f89d054150fc99b62df3d9d5ce9116bd6e1213b20e57b421ad5af12c3d4e"
+    },
+    "ready_pointer": "/source_ready",
+    "proposal_sha_pointer": "/proposal_pin/sha256",
+    "membership_sha_pointer": "/membership_pin/sha256"
+  },
+  "independent_prestage_gate": {
+    "pin": {
+      "path": "evaluations/T-0781/independent-review/two-source-complete-exact174-pre-stage-source-consequence-gate-v1.json",
+      "sha256": "f30a1b6b529a1600fbb5fc3c2f082751755af01359f639c2923d5fd0022c3dab"
+    },
+    "ready_pointer": "/complete_bounded_pre_stage_review",
+    "proposal_sha_pointer": "/proposal_pin/sha256",
+    "membership_sha_pointer": "/membership_pin/sha256"
+  },
+  "fresh_baseline_receipt_pin": {
+    "path": "evaluations/T-0781/root-fresh-prestage-all50-174-pins-and-protected42-check-v1.json",
+    "sha256": "5ea8924d396b68c19e1c3f3f77767e54c9106140910719204f0289e4d4946562"
+  },
+  "baseline_pin": {
+    "path": "evaluations/T-0781/mechanical-current425-preparation-v1/baseline-j425.sqlite",
+    "sha256": "ca59629e83c5f7d70dff7c342aca9e6e282bc60f4a03a4147ebc32bf7a118917"
+  },
+  "main_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "efea4dfa8feec3f2f5bff8167792b01513ebb5689d9d2ec5278983a23ca208b3"
+  },
+  "review_pins": [
+    {
+      "path": "evaluations/T-0781/source-review/exact-two-source174-complete-primary-prestage-readiness-gate-v1.json",
+      "sha256": "8ab5f89d054150fc99b62df3d9d5ce9116bd6e1213b20e57b421ad5af12c3d4e"
+    },
+    {
+      "path": "evaluations/T-0781/independent-review/two-source-complete-exact174-pre-stage-source-consequence-gate-v1.json",
+      "sha256": "f30a1b6b529a1600fbb5fc3c2f082751755af01359f639c2923d5fd0022c3dab"
+    },
+    {
+      "path": "evaluations/T-0781/source-review/complete174-primary-final-ten-edge-renewal-and-whole-API-binding-v1.json",
+      "sha256": "a55459df72198a1546974bb9a002401059dadc1168dfe8b9d71047c6a3da4b77"
+    },
+    {
+      "path": "evaluations/T-0781/implementation/complete-two-source-settled-draft-package-v3/complete174-individual-full-API-consequence-and-source-disposition-table-v1.json",
+      "sha256": "54221e388e852a03c67de7410ba04ea42dab70690ff994c4acdd7a01bfca986d"
+    }
+  ],
+  "media_pins": [
+    {
+      "path": "genealogy/media/C-0049-riksarkivet-SE-HLA-1010025-AI14b-bild-235-sida-591.jpg",
+      "sha256": "2732d869d869b6c1c10b6cf0881b473f856812e32755e9b7b80f30e635c6ace8"
+    },
+    {
+      "path": "genealogy/media/C-0067-riksarkivet-SE-HLA-1010025-C5-bild-94-sida-88-anna-fredrika-1872.jpg",
+      "sha256": "674ada206f85566b8526dca3b123c80ec8bccc9ec58fb4b11d58efc235448008"
+    }
+  ],
+  "protected42_pin": {
+    "path": "evaluations/T-0781/mechanical-current425-preparation-v1/complete-current-OWNER-identity-tree-life-protected-native-payloads-v1.json",
+    "sha256": "34770e3082281dd6702bbf548c99f9a1ec9e4ca42cb1a292cdbcd7a55b013487"
+  },
+  "stage_path": "evaluations/T-0781/exact16-fresh-stage-v1",
+  "expected_native_journal_head": 441,
+  "expected_pending": "UNKNOWN_UNTIL_ACTUAL_STAGE",
+  "scope": [
+    "C-0049",
+    "C-0067"
+  ],
+  "stop_policy": "Preserve failed actual stage and stop. No retry/new clone, resolutions or canonical changes without fresh exact root authorization.",
+  "source_authority": "Primary8ab5f89d and separate independentf30a1b6b exact complete prestage review. This is not canonical acceptance or final stage-result approval."
+}

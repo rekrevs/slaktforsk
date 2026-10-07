@@ -1,0 +1,86 @@
+{
+  "task": "T-0786",
+  "package_pin": {
+    "path": "evaluations/T-0786/implementation/one-postlogin-access-search-package-v1.json",
+    "sha256": "ee182ba52f68c41a8b073e93263713331d4c5abfc42beefb2929bfb64607445a"
+  },
+  "operation_pin": {
+    "path": "evaluations/T-0786/implementation/one-postlogin-access-search-operation-v1.json",
+    "sha256": "a527c23ab1ce3bd0bb7844a44dc3fe4b60f71de859286e0ef22720bc00221e5c"
+  },
+  "source_spec_pin": {
+    "path": "evaluations/T-0786/source-review/one-postlogin-shared-access-search-exact-primary-specification-v1.json",
+    "sha256": "973737882881aaae0ad37a2d5a7cec258371b0d24b7742914b68bdb7d60e830a"
+  },
+  "independent_meaning_pin": {
+    "path": "evaluations/T-0786/independent-review/postlogin-exact-one-access-source-specification-meaning-review-v1.json",
+    "sha256": "43314022e357210404143ff801f07c0297b21bd8fddf48c43246b12e05828793"
+  },
+  "guard_consequence_pin": {
+    "path": "evaluations/T-0786/implementation/one-postlogin-access-search-guards-and-individual-consequence-v1.json",
+    "sha256": "1e72a9a164542148ecf203a3ae148f870358c775a986d66c039979b6cea6658d"
+  },
+  "actual_state": {
+    "journal_head": 447,
+    "pending": 0
+  },
+  "new_objects": 1,
+  "old_revisions": 0,
+  "native_target_and_support_pin": {
+    "path": "evaluations/T-0786/postlogin-one-search-stage-v1/complete-one-actual-native-target-and-support-v1.json",
+    "sha256": "88903ae2ba84e32c46940284518278609accceec3680a1ecba1b928fb24c6658"
+  },
+  "actual_request_pin": {
+    "path": "evaluations/T-0786/postlogin-one-search-stage-v1/actual-individual-requests-v1.json",
+    "sha256": "fd166447b1baaf2091f7d3a089c0fd69d3fd6d3015059e023142d42a0626939c"
+  },
+  "full_all50_diff_pin": {
+    "path": "evaluations/T-0786/postlogin-one-search-stage-v1/full-all50-old-row-order-protected42-and-exact-new-search-diff-v1.json",
+    "sha256": "bffcb89b477d01a0676cf003e5dd726ac8f4c9bad45ac377b5d65c3f2a7e33b3"
+  },
+  "stage_DB_pin": {
+    "path": "evaluations/T-0786/postlogin-one-search-stage-v1/stage.sqlite",
+    "sha256": "bf560a98675d357debe577fb1e3db4747cff79c5e59c78d1b1a1203e06b3a356"
+  },
+  "validators": [
+    {
+      "path": "evaluations/T-0786/postlogin-one-search-stage-v1/verify.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0786/postlogin-one-search-stage-v1/verify-assets.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0786/postlogin-one-search-stage-v1/verify-source.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    },
+    {
+      "path": "evaluations/T-0786/postlogin-one-search-stage-v1/inventory.json",
+      "sha256": "719b3e7aa520f1ba499036c6d2f26e24eace026ee41aa4247885e3ddc4a0ddfd"
+    },
+    {
+      "path": "evaluations/T-0786/postlogin-one-search-stage-v1/P-0269-verified-pedigree.json",
+      "sha256": "5786584426fb0d37b0e7d5397eb711dfd2594ad1c75e02640dd157a0c4fbe870"
+    },
+    {
+      "path": "evaluations/T-0786/postlogin-one-search-stage-v1/P-0270-verified-pedigree.json",
+      "sha256": "bf6f665c74c5cfbec455d88030ae68e87d66e7740e81bbe1f021c8dd2ba73dc7"
+    }
+  ],
+  "main_all50_and_physical_SHA_unchanged": true,
+  "protected42_exact": true,
+  "executable_canonical_command_requires_separate_root_authorization": [
+    "node",
+    "genealogy2/cli.mjs",
+    "apply",
+    "evaluations/T-0786/implementation/one-postlogin-access-search-operation-v1.json",
+    "--db",
+    "genealogy2/data/research.sqlite",
+    "--journal",
+    "genealogy2/journal"
+  ],
+  "canonical_applied": false,
+  "source_and_independent_final_byte_approval_pending": true,
+  "usage": "UNKNOWN pending root collector"
+}

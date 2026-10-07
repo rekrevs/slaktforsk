@@ -1,0 +1,11 @@
+--- evaluations/T-0780/implementation/reconcile_actual_G002_ten_receipts_and_remaining21_TEMPLATE_v1.py
++++ evaluations/T-0780/implementation/reconcile_actual_G002_ten_receipts_and_remaining21_TEMPLATE_v2.py
+@@ -41,7 +41,7 @@
+  assert seen==set(m['exact_ten_citations'])
+  # Existing extra same-program receipts are an unexpected scope/count issue, not silently ignored.
+  folder=ROOT/'genealogy2/verification/T-0678'
+- declared={(ROOT[x['path']).resolve() for x in m['ten_actual_receipt_pins']}
++ declared={(ROOT/x['path']).resolve() for x in m['ten_actual_receipt_pins']}
+  for p in folder.glob('*.json'):
+   r=json.loads(p.read_text())
+   if r.get('program')=='G002' and r.get('decision') is not None:assert p.resolve() in declared,('unexpected additional G002 receipt',str(p))

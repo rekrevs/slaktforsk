@@ -1,0 +1,131 @@
+{
+  "receipt": {
+    "task": "T-0780",
+    "source_pins": [
+      {
+        "path": "evaluations/T-0780/source-review/C-0561-five-final-selected-research-decisions-v1.json",
+        "sha256": "4ff56a2d18bdca8e3893f7d8d6c6e8fa48f566720661e6aa7cbf89618adb77c2"
+      },
+      {
+        "path": "evaluations/T-0780/source-review/C-0561-two-expanded-biography-decisions-v1.json",
+        "sha256": "ae6ae9f1d5dc45a88b43432da797655a0f336f5e4da60536a0feb4529a06336b"
+      },
+      {
+        "path": "evaluations/T-0780/source-review/C-0561-eight-expanded-child-biography-decisions-v2.json",
+        "sha256": "74b5ae003d087cfbfa953dea5350fb97d184a2bb71aeec516c19da1efc789cc4"
+      }
+    ],
+    "candidate_modules": [
+      {
+        "path": "evaluations/T-0780/implementation/C0561-final-expanded-queue-v1/five-final-selected-research-operation-v1.json",
+        "sha256": "145d21c4d9703b57a5ec439520c502ccc7880bb5d982bdddb777e2e830eb6bcc",
+        "changes": 3,
+        "operation_id": "T-0780/C0561-five-final-selected-research-v1",
+        "targets": [
+          {
+            "id": "CONTRACT-P-0427-PK-03",
+            "expectedVersion": 1,
+            "payload_sha256": "a5c8267f553e7ef35b864748ff20a6b91304049a63183329c625d40cbef95d34"
+          },
+          {
+            "id": "P-0435/Q-02",
+            "expectedVersion": 1,
+            "payload_sha256": "89c2ff7bb8f3ecd703045c5729a4e343202fed9868bdc6c19659c0116640be8e"
+          },
+          {
+            "id": "RESEARCH-P-0435-9d76f0343410",
+            "expectedVersion": 1,
+            "payload_sha256": "d5b5ab9374547ecb1d8436e352a4dd409267ae8bef2efc59f0cb44b4665ee3b5"
+          }
+        ]
+      },
+      {
+        "path": "evaluations/T-0780/implementation/C0561-final-expanded-queue-v1/two-expanded-biography-operation-v1.json",
+        "sha256": "e7fa51bf51acc970fe8bf3e0378ec3fc01bab84005179b8d893125bc98b4633a",
+        "changes": 2,
+        "operation_id": "T-0780/C0561-two-expanded-biography-v1",
+        "targets": [
+          {
+            "id": "BIO-P-0432",
+            "expectedVersion": 1,
+            "payload_sha256": "b7f21d68c8d2af4f37f805e0dd4827ece6609c50411099c1bba6275fb1f23ae9"
+          },
+          {
+            "id": "BIO-P-0437",
+            "expectedVersion": 2,
+            "payload_sha256": "1752987060e9cf0129c3e8c1b22f2ec6b76d944678017a3a45032761539ea13c"
+          }
+        ]
+      },
+      {
+        "path": "evaluations/T-0780/implementation/C0561-final-expanded-queue-v1/eight-expanded-child-biography-operation-v1.json",
+        "sha256": "01e24a6b7b177ee4aee9e0df74bcee64a6a17485985dff65742111551c1b4847",
+        "changes": 6,
+        "operation_id": "T-0780/C0561-eight-expanded-child-biography-v1",
+        "targets": [
+          {
+            "id": "BIO-P-0428",
+            "expectedVersion": 1,
+            "payload_sha256": "6b38eb3c5c4129a2583de40d5a025818f38d904ea5611f50f607c2ab1acd3a8a"
+          },
+          {
+            "id": "BIO-P-0429",
+            "expectedVersion": 1,
+            "payload_sha256": "8a49071a04b5ae20653fe191584bea3a911dfeb86517d53775b066e977c78790"
+          },
+          {
+            "id": "BIO-P-0430",
+            "expectedVersion": 1,
+            "payload_sha256": "497ee376d0e48d8424562dfa55591b6a63eedc95b821cd8ac1e384d86332a62f"
+          },
+          {
+            "id": "BIO-P-0431",
+            "expectedVersion": 1,
+            "payload_sha256": "475408b1a29268bd4b25cf14d01864cef4146b52e8ed54e051f4e374db1755e1"
+          },
+          {
+            "id": "BIO-P-0433",
+            "expectedVersion": 1,
+            "payload_sha256": "8015d82bbf02a18e1fd4e49c400ad1806ebfefdbbd7cd2cdcd32c89dd1c0bde4"
+          },
+          {
+            "id": "BIO-P-0438",
+            "expectedVersion": 1,
+            "payload_sha256": "b75378cd096e9955d855bfd2e1a42312c28cf83ec0c904389f6903c73c6f04d0"
+          }
+        ]
+      },
+      {
+        "path": "evaluations/T-0780/implementation/C0561-final-expanded-queue-v1/individual-full-field-table-v1.json",
+        "sha256": "be76fe66cd6092ffdf393bc03b7595e3e90adf719abe80f3e1c31705a63ab5bf"
+      },
+      {
+        "path": "evaluations/T-0780/implementation/C0561-final-expanded-queue-v1/full-incoming-and-cross-module-dependency-input-v1.json",
+        "sha256": "c06caf3468574e0b539d4ed350508ca999188995731f3967ea8a158261b64473"
+      }
+    ],
+    "expected_unique_targets": 11,
+    "revised_objects": 11,
+    "new_objects": 0,
+    "all_exact_full_current_old_matches": "PASS",
+    "full_field_count": 110,
+    "incoming_edges": 0,
+    "cross_module_basis_questions": 0,
+    "stage_or_canonical_applies": 0,
+    "failed_attempts": 0,
+    "elapsed_seconds": 0.02122187614440918,
+    "status": "Settled field candidates built; incoming basis dispositions and exact sequence pending Astra, not stage-ready"
+  },
+  "proposal": {
+    "path": "evaluations/T-0780/implementation/C0561-final-expanded-queue-v1/all-history-fanout-and-concrete-sequence-proposal-v2.json",
+    "sha256": "dce74b46308e08f320b483d600904e3d08f8aa248b6e9848e3c20aa409e68ebf"
+  },
+  "overlap_return": {
+    "path": "evaluations/T-0780/implementation/C0561-final-expanded-overlap-return-v1.json",
+    "sha256": "0fc914a312e39448d6f0d1cb97a6e2a6341c832faf5fb1c4293fe874732cdad9"
+  },
+  "failed_attempts": 1,
+  "elapsed_finalization_seconds": 0.04006505012512207,
+  "total_elapsed_unknown_before_context_compaction": true,
+  "source_sequence_binding_pending": true
+}

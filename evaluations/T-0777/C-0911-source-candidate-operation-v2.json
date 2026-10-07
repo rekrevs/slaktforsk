@@ -1,0 +1,401 @@
+{
+  "id": "T-0777/C0911-source-candidate-v2",
+  "actor": "Codex Sol mechanical settled source implementation",
+  "reason": "T-0777 AC2–4: all12occupied own rows in three source records with corrected rawdates/name and ownblank/reserved fields; five existing-person bounded adoptions; canonical-ready after independent final review.",
+  "dependencyReviewVersion": 2,
+  "changes": [
+    {
+      "id": "TR-T0777-C0911-main-fullfields",
+      "kind": "transcription",
+      "expectedVersion": null,
+      "data": {
+        "record_id": "R-c2061a9ef8456576c3564fbf",
+        "text": "1 Torp, lägenhet, verk och inrättningar m.m.under ofvanstående fastighet. Personens för-och tillnamn samt familjeställning, äfvensom personens titel, om annan än den i kol.2 angifna.\n2 Yrke(tjänst,näringsfång). Stam(främmande). Lyte(fallandesot,sinnessjukdom,idioti,blindhet,döfstumhet).\n3–4 Född / år / dag och mån. 5 Födelseort(församling i län eller i stad).\n6 Vaccinerats el.haft koppor. 7 Gift år,dag och månad. 8 Änkling,änka,eller frånskild år,dag och månad.\n9–10 Inflyttad eller öfverförd / Från förs.i län eller i stad,eller sida i församlingsbok eller boken öfver obefintl. / År,dag och månad.\n11 Kristendomskunskap. 12 Inom sv.kyrkan begått H.H.Nattv.\n13 Bevistat husförhör år.\n14 Anteckningar om frejd; nattvardshinder; äktenskapshinder; utfärdad lysning; hinderslöshetsbetyg; skiljobref; barns legalisering; utträde ur svenska kyrkan; främmande trosbekännelse; främmande nationalitet; den församling i Sverige,som moder vid nedkomst utom riket tillhörde;m.m.\n15 Värnpliktsförhållanden.\n16–17 Utflyttad eller öfverförd / Till förs.i län eller i stad,eller sida i församlingsbok eller boken öfver obefintl. / År,dag och månad.\n18 Död år,dag och månad.\n\n`blank` means visually empty own cell, no inferred negative fact. Slash fractions below are raw day/month. Ditto applies only where physically present.\n\n|Row/name/role|col2|3–5 birth|6|7 gift|8 widow|9–10 from|11/12|13|14|15|16–17|18|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|1 Ägare Karl Fredrik Jaensson|arbetskarl|61 24/9 L:a Mellösa|v|86 26/4|blank|p.420;14 30/10|C/n|blank|blank|blank|blank|blank|\n|2 h.Charlotta Wilhelmina Larsson|blank|67 26/5 Lerbo|v|blank|blank|own ditto both =p420;14 30/10|a/n|blank|blank|blank|blank|blank|\n|3 s.Ture Alexius|målare|90 7/6 Vadsbro|v|blank|blank|own ditto both =p420;14 30/10|a/n|blank|hinderslöshetsbetyg för äktenskap med nedanstående Elin Augusta; exact abbreviated introductory words reserved|blank|blank|blank|\n|4 d.Astrid Charlotta|blank|97 [21/31]/3 Skedevi,Östergötl.l.|v|blank|blank|own ditto both =p420;14 30/10|a/n|blank|blank|blank|blank|blank|\n|6 fosterson Karl Harry|blank|06 **17/9** Nyköpings Östra|v|blank|blank|own ditto both =p420;14 30/10|blank/blank|blank|blank|blank|blank|blank|\n|7 fosterd.Karin Elisabet|blank|10 2/10 Kila|v|blank|blank|own ditto both =p420;14 30/10|blank/blank|blank|blank|blank|blank|blank|\n|9 Elin Augusta Larsson|sömmerska|82 27/9 Gåsinge|v|blank|blank|Engelbrekts förs.Stockholm;14 **16/10**|b/n|blank|blank|blank|blank|blank|\n\nThe forms n may be palaeographically n/u-like; preserve raw not a dated communion. v header is vaccination OR smallpox, not vaccination date/diagnosis. `Ägare` is a source role heading at KarlFredrik, not independently proven legal title or specific property deed.",
+        "reading_note": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-c2061a9ef8456576c3564fbf",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0777 AC2–4: full own-row extraction with exact source amendments and bounded existing-person adoption, no new identity judgments.",
+      "caveat": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+    },
+    {
+      "id": "AUDIT-T0777-C0911-main",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "R-c2061a9ef8456576c3564fbf",
+        "criteria": "original_revision/1",
+        "outcome": "reviewed_with_limits",
+        "body": "{\n  \"own_rows\": [\n    1,\n    2,\n    3,\n    4,\n    6,\n    7,\n    9\n  ],\n  \"settled_source_decisions\": \"1. KarlHarry1906-09-17 **corrects C0911 old7/9**. This now agrees with accepted C0910 own17/9; earlier recorded day conflict is a reading-history issue resolved for these two source rows, not a new identity merge. Keep no P identity and existing foster/care bounds.\\n2. Elin own registered arrival1914-10-16 **corrects old15/10**. Do not change marriage1914-12-31, birthplace/date, or physical-movement bounds. Own marriage cell on row17 is blank; marriage association still follows Ture's own date and her h.role/internal routing, not a nonexistent ditto in column7.\\n3. Emma own death1915-07-02 and Torvald own widow1915-07-02 **correct C0911 old3July**. Accepted C0910 reading2[?]/7 is a reserved later copied source; retain its source-specific uncertainty but revise the claimed3-vs2 disagreement. Source does not establish geographic death place/cause or identify a death act. Existing1888-04-27/Jäder stay source-bound; own surname Karlsson supersedes older Rhodin[?] reading history, no new P.\\n4. Maud row13 col6 blank, against previous source-summary v. C0910 Maud's own later v remains intact; different own source/time cell, no contradiction about actual vaccination.\\n5. KarlFredrik24Sept is own C0911 reading; don't restore old27. TureJune7 is this source form; preserve stronger original birthday/conflicts rather than counting repetitions. Torvald3Aug is own reading confirmed. House-group transfer1914-10-30 has individual ditto cells. All retained dates are registrations, not physical travel proof.\\n6. Existing explicit ancestry, identity and review status remain. No new P for KarlHarry/Karin/Elin/Emma/Maud; preserve their named mentions and source-bound observations and explicit adoption through existing relevant person contexts P0042,P0043,P0045,P0046,P0047. Their later profiles/identifications remain bounded unresolved knowledge, not a task queue.\\n7. New fullfield TR/reading per the three R; exact current copies of revised raw dates/derived conflicts and blank-cell claims must be revised. Preserve earlier historical transcriptions with explicit superseding new reading. Stronger previously accepted support and own-source confines control retains. Sol must present exact current field revisions for Astra before implementing semantic replacements.\\n\",\n  \"amendments\": [\n    {\n      \"source\": \"C-0911\",\n      \"supersedes\": \"source-review/C-0911-source-v1.md r12 surname only\",\n      \"old\": \"Emma Wilhelmina Rhodin[?]\",\n      \"new\": \"Emma Wilhelmina Karlsson\",\n      \"basis\": \"Renewed own visual reading of c0911-left-header-rows.jpg after independent reviewer flagged surname. Karlsson is legible. Prior Rhodin reservation was inadvertently retained from older native wording; not an original ambiguity. All other source-v1 fields retain; explicit date corrections remain.\"\n    },\n    {\n      \"source\": \"C-0911\",\n      \"field\": \"r4 birth day\",\n      \"supersedes\": \"source-v1 unreserved21/3\",\n      \"new_raw\": \"97 [21/31]/3 Skedevi, Östergötl.l.\",\n      \"decision\": \"Own glyph ambiguity retained after independent disagreement and own reread; do not normalize this row to exactday. Stronger accepted ownbirthoriginal1897-03-21 remains currentperson birth; no identity doubt generated.\",\n      \"additional_consequence\": {\n        \"object\": \"BIO-P-0045\",\n        \"version\": 4,\n        \"old\": \"blev änkling 1915,\\ntjugosju år gammal, med en tvåårig dotter.\",\n        \"new\": \"blev änkling den 2 juli 1915,\\ntjugosex år gammal, med en nästan tvåårig dotter.\",\n        \"basis\": \"Torvald1888-08-03 andMaud1913-08-04; widowevent precedes both birthdays.\"\n      }\n    }\n  ]\n}"
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-c2061a9ef8456576c3564fbf",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        },
+        {
+          "object": "TR-T0777-C0911-main-fullfields",
+          "version": 1,
+          "role": "supports",
+          "note": "Tryckta rubriker och samtliga egna celler."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0777 AC2–4: full own-row extraction with exact source amendments and bounded existing-person adoption, no new identity judgments.",
+      "caveat": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+    },
+    {
+      "id": "TR-T0777-C0911-Torvald-fullfields",
+      "kind": "transcription",
+      "expectedVersion": null,
+      "data": {
+        "record_id": "R-5fcb723c98597da6131ddbea",
+        "text": "1 Torp, lägenhet, verk och inrättningar m.m.under ofvanstående fastighet. Personens för-och tillnamn samt familjeställning, äfvensom personens titel, om annan än den i kol.2 angifna.\n2 Yrke(tjänst,näringsfång). Stam(främmande). Lyte(fallandesot,sinnessjukdom,idioti,blindhet,döfstumhet).\n3–4 Född / år / dag och mån. 5 Födelseort(församling i län eller i stad).\n6 Vaccinerats el.haft koppor. 7 Gift år,dag och månad. 8 Änkling,änka,eller frånskild år,dag och månad.\n9–10 Inflyttad eller öfverförd / Från förs.i län eller i stad,eller sida i församlingsbok eller boken öfver obefintl. / År,dag och månad.\n11 Kristendomskunskap. 12 Inom sv.kyrkan begått H.H.Nattv.\n13 Bevistat husförhör år.\n14 Anteckningar om frejd; nattvardshinder; äktenskapshinder; utfärdad lysning; hinderslöshetsbetyg; skiljobref; barns legalisering; utträde ur svenska kyrkan; främmande trosbekännelse; främmande nationalitet; den församling i Sverige,som moder vid nedkomst utom riket tillhörde;m.m.\n15 Värnpliktsförhållanden.\n16–17 Utflyttad eller öfverförd / Till förs.i län eller i stad,eller sida i församlingsbok eller boken öfver obefintl. / År,dag och månad.\n18 Död år,dag och månad.\n\n`blank` means visually empty own cell, no inferred negative fact. Slash fractions below are raw day/month. Ditto applies only where physically present.\n\n|Row/name/role|col2|3–5 birth|6|7 gift|8 widow|9–10 from|11/12|13|14|15|16–17|18|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|11 å samma [locality continuation] Torvald Stefanus Jaensson|snickeriarbetare|88 3/8 Vadsbro|v|12 23/6|15 **2/7**|p.352;14 30/10|b/n|blank|blank|N:o36 44/08|blank|blank|\n|12 h.Emma Wilhelmina Karlsson, name crossed|blank|88 27/4 Jäder|v|blank|blank|own ditto both =p352;14 30/10|a/n|blank|blank|blank|blank|15 **2/7**|\n|13 d.Maud Karola Wilhelmina|blank|13 4/8 Flen|**blank**|blank|blank|own ditto both =p352;14 30/10|blank/blank|blank|blank|blank|blank|blank|\n\nThe forms n may be palaeographically n/u-like; preserve raw not a dated communion. v header is vaccination OR smallpox, not vaccination date/diagnosis. `Ägare` is a source role heading at KarlFredrik, not independently proven legal title or specific property deed.",
+        "reading_note": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-5fcb723c98597da6131ddbea",
+          "version": 2,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0777 AC2–4: full own-row extraction with exact source amendments and bounded existing-person adoption, no new identity judgments.",
+      "caveat": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+    },
+    {
+      "id": "AUDIT-T0777-C0911-Torvald",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "R-5fcb723c98597da6131ddbea",
+        "criteria": "original_revision/1",
+        "outcome": "reviewed_with_limits",
+        "body": "{\n  \"own_rows\": [\n    11,\n    12,\n    13\n  ],\n  \"settled_source_decisions\": \"1. KarlHarry1906-09-17 **corrects C0911 old7/9**. This now agrees with accepted C0910 own17/9; earlier recorded day conflict is a reading-history issue resolved for these two source rows, not a new identity merge. Keep no P identity and existing foster/care bounds.\\n2. Elin own registered arrival1914-10-16 **corrects old15/10**. Do not change marriage1914-12-31, birthplace/date, or physical-movement bounds. Own marriage cell on row17 is blank; marriage association still follows Ture's own date and her h.role/internal routing, not a nonexistent ditto in column7.\\n3. Emma own death1915-07-02 and Torvald own widow1915-07-02 **correct C0911 old3July**. Accepted C0910 reading2[?]/7 is a reserved later copied source; retain its source-specific uncertainty but revise the claimed3-vs2 disagreement. Source does not establish geographic death place/cause or identify a death act. Existing1888-04-27/Jäder stay source-bound; own surname Karlsson supersedes older Rhodin[?] reading history, no new P.\\n4. Maud row13 col6 blank, against previous source-summary v. C0910 Maud's own later v remains intact; different own source/time cell, no contradiction about actual vaccination.\\n5. KarlFredrik24Sept is own C0911 reading; don't restore old27. TureJune7 is this source form; preserve stronger original birthday/conflicts rather than counting repetitions. Torvald3Aug is own reading confirmed. House-group transfer1914-10-30 has individual ditto cells. All retained dates are registrations, not physical travel proof.\\n6. Existing explicit ancestry, identity and review status remain. No new P for KarlHarry/Karin/Elin/Emma/Maud; preserve their named mentions and source-bound observations and explicit adoption through existing relevant person contexts P0042,P0043,P0045,P0046,P0047. Their later profiles/identifications remain bounded unresolved knowledge, not a task queue.\\n7. New fullfield TR/reading per the three R; exact current copies of revised raw dates/derived conflicts and blank-cell claims must be revised. Preserve earlier historical transcriptions with explicit superseding new reading. Stronger previously accepted support and own-source confines control retains. Sol must present exact current field revisions for Astra before implementing semantic replacements.\\n\",\n  \"amendments\": [\n    {\n      \"source\": \"C-0911\",\n      \"supersedes\": \"source-review/C-0911-source-v1.md r12 surname only\",\n      \"old\": \"Emma Wilhelmina Rhodin[?]\",\n      \"new\": \"Emma Wilhelmina Karlsson\",\n      \"basis\": \"Renewed own visual reading of c0911-left-header-rows.jpg after independent reviewer flagged surname. Karlsson is legible. Prior Rhodin reservation was inadvertently retained from older native wording; not an original ambiguity. All other source-v1 fields retain; explicit date corrections remain.\"\n    },\n    {\n      \"source\": \"C-0911\",\n      \"field\": \"r4 birth day\",\n      \"supersedes\": \"source-v1 unreserved21/3\",\n      \"new_raw\": \"97 [21/31]/3 Skedevi, Östergötl.l.\",\n      \"decision\": \"Own glyph ambiguity retained after independent disagreement and own reread; do not normalize this row to exactday. Stronger accepted ownbirthoriginal1897-03-21 remains currentperson birth; no identity doubt generated.\",\n      \"additional_consequence\": {\n        \"object\": \"BIO-P-0045\",\n        \"version\": 4,\n        \"old\": \"blev änkling 1915,\\ntjugosju år gammal, med en tvåårig dotter.\",\n        \"new\": \"blev änkling den 2 juli 1915,\\ntjugosex år gammal, med en nästan tvåårig dotter.\",\n        \"basis\": \"Torvald1888-08-03 andMaud1913-08-04; widowevent precedes both birthdays.\"\n      }\n    }\n  ]\n}"
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-5fcb723c98597da6131ddbea",
+          "version": 2,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        },
+        {
+          "object": "TR-T0777-C0911-Torvald-fullfields",
+          "version": 1,
+          "role": "supports",
+          "note": "Tryckta rubriker och samtliga egna celler."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0777 AC2–4: full own-row extraction with exact source amendments and bounded existing-person adoption, no new identity judgments.",
+      "caveat": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+    },
+    {
+      "id": "TR-T0777-C0911-Ture-fullfields",
+      "kind": "transcription",
+      "expectedVersion": null,
+      "data": {
+        "record_id": "R-836c129ec57720e26352a023",
+        "text": "1 Torp, lägenhet, verk och inrättningar m.m.under ofvanstående fastighet. Personens för-och tillnamn samt familjeställning, äfvensom personens titel, om annan än den i kol.2 angifna.\n2 Yrke(tjänst,näringsfång). Stam(främmande). Lyte(fallandesot,sinnessjukdom,idioti,blindhet,döfstumhet).\n3–4 Född / år / dag och mån. 5 Födelseort(församling i län eller i stad).\n6 Vaccinerats el.haft koppor. 7 Gift år,dag och månad. 8 Änkling,änka,eller frånskild år,dag och månad.\n9–10 Inflyttad eller öfverförd / Från förs.i län eller i stad,eller sida i församlingsbok eller boken öfver obefintl. / År,dag och månad.\n11 Kristendomskunskap. 12 Inom sv.kyrkan begått H.H.Nattv.\n13 Bevistat husförhör år.\n14 Anteckningar om frejd; nattvardshinder; äktenskapshinder; utfärdad lysning; hinderslöshetsbetyg; skiljobref; barns legalisering; utträde ur svenska kyrkan; främmande trosbekännelse; främmande nationalitet; den församling i Sverige,som moder vid nedkomst utom riket tillhörde;m.m.\n15 Värnpliktsförhållanden.\n16–17 Utflyttad eller öfverförd / Till förs.i län eller i stad,eller sida i församlingsbok eller boken öfver obefintl. / År,dag och månad.\n18 Död år,dag och månad.\n\n`blank` means visually empty own cell, no inferred negative fact. Slash fractions below are raw day/month. Ditto applies only where physically present.\n\n|Row/name/role|col2|3–5 birth|6|7 gift|8 widow|9–10 from|11/12|13|14|15|16–17|18|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|16 Ture Alexius Jaensson|målare|90 7/6 Vadsbro|v|14 31/12|blank|Se här ofvan;14 31/12|a/n|blank|blank|N:o33 44/11|blank|blank|\n|17 h.Elin Augusta Larsson|blank|82 27/9 Gåsinge|v|**blank**|blank|own ditto both =Se här ofvan;14 31/12|b/n|blank|blank|blank|blank|blank|\n\nThe forms n may be palaeographically n/u-like; preserve raw not a dated communion. v header is vaccination OR smallpox, not vaccination date/diagnosis. `Ägare` is a source role heading at KarlFredrik, not independently proven legal title or specific property deed.",
+        "reading_note": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-836c129ec57720e26352a023",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0777 AC2–4: full own-row extraction with exact source amendments and bounded existing-person adoption, no new identity judgments.",
+      "caveat": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+    },
+    {
+      "id": "AUDIT-T0777-C0911-Ture",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "R-836c129ec57720e26352a023",
+        "criteria": "original_revision/1",
+        "outcome": "reviewed_with_limits",
+        "body": "{\n  \"own_rows\": [\n    16,\n    17\n  ],\n  \"settled_source_decisions\": \"1. KarlHarry1906-09-17 **corrects C0911 old7/9**. This now agrees with accepted C0910 own17/9; earlier recorded day conflict is a reading-history issue resolved for these two source rows, not a new identity merge. Keep no P identity and existing foster/care bounds.\\n2. Elin own registered arrival1914-10-16 **corrects old15/10**. Do not change marriage1914-12-31, birthplace/date, or physical-movement bounds. Own marriage cell on row17 is blank; marriage association still follows Ture's own date and her h.role/internal routing, not a nonexistent ditto in column7.\\n3. Emma own death1915-07-02 and Torvald own widow1915-07-02 **correct C0911 old3July**. Accepted C0910 reading2[?]/7 is a reserved later copied source; retain its source-specific uncertainty but revise the claimed3-vs2 disagreement. Source does not establish geographic death place/cause or identify a death act. Existing1888-04-27/Jäder stay source-bound; own surname Karlsson supersedes older Rhodin[?] reading history, no new P.\\n4. Maud row13 col6 blank, against previous source-summary v. C0910 Maud's own later v remains intact; different own source/time cell, no contradiction about actual vaccination.\\n5. KarlFredrik24Sept is own C0911 reading; don't restore old27. TureJune7 is this source form; preserve stronger original birthday/conflicts rather than counting repetitions. Torvald3Aug is own reading confirmed. House-group transfer1914-10-30 has individual ditto cells. All retained dates are registrations, not physical travel proof.\\n6. Existing explicit ancestry, identity and review status remain. No new P for KarlHarry/Karin/Elin/Emma/Maud; preserve their named mentions and source-bound observations and explicit adoption through existing relevant person contexts P0042,P0043,P0045,P0046,P0047. Their later profiles/identifications remain bounded unresolved knowledge, not a task queue.\\n7. New fullfield TR/reading per the three R; exact current copies of revised raw dates/derived conflicts and blank-cell claims must be revised. Preserve earlier historical transcriptions with explicit superseding new reading. Stronger previously accepted support and own-source confines control retains. Sol must present exact current field revisions for Astra before implementing semantic replacements.\\n\",\n  \"amendments\": [\n    {\n      \"source\": \"C-0911\",\n      \"supersedes\": \"source-review/C-0911-source-v1.md r12 surname only\",\n      \"old\": \"Emma Wilhelmina Rhodin[?]\",\n      \"new\": \"Emma Wilhelmina Karlsson\",\n      \"basis\": \"Renewed own visual reading of c0911-left-header-rows.jpg after independent reviewer flagged surname. Karlsson is legible. Prior Rhodin reservation was inadvertently retained from older native wording; not an original ambiguity. All other source-v1 fields retain; explicit date corrections remain.\"\n    },\n    {\n      \"source\": \"C-0911\",\n      \"field\": \"r4 birth day\",\n      \"supersedes\": \"source-v1 unreserved21/3\",\n      \"new_raw\": \"97 [21/31]/3 Skedevi, Östergötl.l.\",\n      \"decision\": \"Own glyph ambiguity retained after independent disagreement and own reread; do not normalize this row to exactday. Stronger accepted ownbirthoriginal1897-03-21 remains currentperson birth; no identity doubt generated.\",\n      \"additional_consequence\": {\n        \"object\": \"BIO-P-0045\",\n        \"version\": 4,\n        \"old\": \"blev änkling 1915,\\ntjugosju år gammal, med en tvåårig dotter.\",\n        \"new\": \"blev änkling den 2 juli 1915,\\ntjugosex år gammal, med en nästan tvåårig dotter.\",\n        \"basis\": \"Torvald1888-08-03 andMaud1913-08-04; widowevent precedes both birthdays.\"\n      }\n    }\n  ]\n}"
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-836c129ec57720e26352a023",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        },
+        {
+          "object": "TR-T0777-C0911-Ture-fullfields",
+          "version": 1,
+          "role": "supports",
+          "note": "Tryckta rubriker och samtliga egna celler."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0777 AC2–4: full own-row extraction with exact source amendments and bounded existing-person adoption, no new identity judgments.",
+      "caveat": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+    },
+    {
+      "id": "ADOPT-T0777-C0911-P-0042",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "P-0042",
+        "criteria": "bounded_source_adoption/1",
+        "outcome": "reviewed_with_limits",
+        "body": "{\n  \"person\": \"P-0042\",\n  \"own_source_context_rows\": [\n    1\n  ],\n  \"source\": \"Ljungbacka402, tre avgränsade grupper\",\n  \"limits\": \"Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls.\",\n  \"individual_bound\": \"Inga sidopersoner sammanförs till nya P; make/hustruassociation från källroller och egen huvudpersons datum är inte egna blankcellers ditto.\"\n}"
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-c2061a9ef8456576c3564fbf",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        },
+        {
+          "object": "AUDIT-T0777-C0911-main",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgjord fullpostgranskning."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0777 AC2–4: full own-row extraction with exact source amendments and bounded existing-person adoption, no new identity judgments.",
+      "caveat": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+    },
+    {
+      "id": "ADOPT-T0777-C0911-P-0043",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "P-0043",
+        "criteria": "bounded_source_adoption/1",
+        "outcome": "reviewed_with_limits",
+        "body": "{\n  \"person\": \"P-0043\",\n  \"own_source_context_rows\": [\n    2\n  ],\n  \"source\": \"Ljungbacka402, tre avgränsade grupper\",\n  \"limits\": \"Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls.\",\n  \"individual_bound\": \"Inga sidopersoner sammanförs till nya P; make/hustruassociation från källroller och egen huvudpersons datum är inte egna blankcellers ditto.\"\n}"
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-c2061a9ef8456576c3564fbf",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        },
+        {
+          "object": "AUDIT-T0777-C0911-main",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgjord fullpostgranskning."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0777 AC2–4: full own-row extraction with exact source amendments and bounded existing-person adoption, no new identity judgments.",
+      "caveat": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+    },
+    {
+      "id": "ADOPT-T0777-C0911-P-0047",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "P-0047",
+        "criteria": "bounded_source_adoption/1",
+        "outcome": "reviewed_with_limits",
+        "body": "{\n  \"person\": \"P-0047\",\n  \"own_source_context_rows\": [\n    4\n  ],\n  \"source\": \"Ljungbacka402, tre avgränsade grupper\",\n  \"limits\": \"Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls.\",\n  \"individual_bound\": \"Inga sidopersoner sammanförs till nya P; make/hustruassociation från källroller och egen huvudpersons datum är inte egna blankcellers ditto.\"\n}"
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-c2061a9ef8456576c3564fbf",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        },
+        {
+          "object": "AUDIT-T0777-C0911-main",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgjord fullpostgranskning."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0777 AC2–4: full own-row extraction with exact source amendments and bounded existing-person adoption, no new identity judgments.",
+      "caveat": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+    },
+    {
+      "id": "ADOPT-T0777-C0911-P-0045",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "P-0045",
+        "criteria": "bounded_source_adoption/1",
+        "outcome": "reviewed_with_limits",
+        "body": "{\n  \"person\": \"P-0045\",\n  \"own_source_context_rows\": [\n    11,\n    12,\n    13\n  ],\n  \"source\": \"Ljungbacka402, tre avgränsade grupper\",\n  \"limits\": \"Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls.\",\n  \"individual_bound\": \"Inga sidopersoner sammanförs till nya P; make/hustruassociation från källroller och egen huvudpersons datum är inte egna blankcellers ditto.\"\n}"
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-5fcb723c98597da6131ddbea",
+          "version": 2,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        },
+        {
+          "object": "AUDIT-T0777-C0911-Torvald",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgjord fullpostgranskning."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0777 AC2–4: full own-row extraction with exact source amendments and bounded existing-person adoption, no new identity judgments.",
+      "caveat": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+    },
+    {
+      "id": "ADOPT-T0777-C0911-P-0046",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "P-0046",
+        "criteria": "bounded_source_adoption/1",
+        "outcome": "reviewed_with_limits",
+        "body": "{\n  \"person\": \"P-0046\",\n  \"own_source_context_rows\": [\n    3,\n    9,\n    16,\n    17\n  ],\n  \"source\": \"Ljungbacka402, tre avgränsade grupper\",\n  \"limits\": \"Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls.\",\n  \"individual_bound\": \"Inga sidopersoner sammanförs till nya P; make/hustruassociation från källroller och egen huvudpersons datum är inte egna blankcellers ditto.\"\n}"
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-c2061a9ef8456576c3564fbf",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        },
+        {
+          "object": "AUDIT-T0777-C0911-main",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgjord fullpostgranskning."
+        },
+        {
+          "object": "R-836c129ec57720e26352a023",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsade egna rader på Ljungbacka402."
+        },
+        {
+          "object": "S-0029",
+          "version": 1,
+          "role": "supports",
+          "note": "Versionsbunden faktisk source_id för den egna källposten."
+        },
+        {
+          "object": "AUDIT-T0777-C0911-Ture",
+          "version": 1,
+          "role": "supports",
+          "note": "Eget nya äktenskapshushållr16–17, hustruns egen giftcell tom."
+        }
+      ],
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0777 AC2–4: full own-row extraction with exact source amendments and bounded existing-person adoption, no new identity judgments.",
+      "caveat": "Samma församlingsboks-/attestkedja; daterade registreringar är inte resdag eller fysisk kontinuitet. Inget nytt identitets-/föräldrabeslut eller P för sidopersoner. Historiska TR-läsningar bevaras men nya egna datum och namn ersätter7/9,15/10,3juli och Rhodin[?] för denna post. C0910:s2[?]/7förblir egen reservation, utan bestämd dagkonflikt. Astrids egen dag[21/31] reserverad; starkare1897-03-21original behålls."
+    }
+  ]
+}

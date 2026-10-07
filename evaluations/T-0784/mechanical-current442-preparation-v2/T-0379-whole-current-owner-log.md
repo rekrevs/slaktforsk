@@ -1,0 +1,48 @@
+# T-0379: Följ Maj Amalias Södertäljeled och bevara gravposten
+
+## Context och mandat
+
+Avgränsad följd från T-0150 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+P-0007 ensam. Två uttryckliga hänvisningar har aldrig följts: Södertäljes församlingsbok uppslag 15 enligt C-0882 och hennes egna mantalsrader 1945–1946, där C-0883 uttryckligen säger att bara makens rader lästes. Bevara i samma pass SvenskaGravar-posten med post-URL och SHA-256; den är fritt åtkomlig och löser ensam PK-11, som i dag brister för att S-0711 inte sparar lokal kopia och C-0923 saknar post-URL och hash. Utanför: namnärendet i Post- och Inrikes Tidningar och dödsboroutingen 2006, som prövas separat.
+
+## Acceptance Criteria
+
+- Varje fast passage har positivt, exakt negativt eller olöst utfall; ett
+  åtkomsthinder eller oläslig uppgift blir inte ett negativt personfynd.
+- Hela relevanta öppnade poster bevaras med exakt lokalisering, kopia och
+  hash. Tidigare tillräckliga belägg tillgodoräknas och äldre observationer består.
+- Akter, profiler, tio teman och båda kontraktsnivåerna avstäms individuellt.
+  Anhörigföljder och återstående beslutade behov har avgränsade ägare.
+- En batchlogg per passage, oberoende sakprövning och relevanta format-,
+  validator-, inventerings-, test-, medie- och diffkontroller passerar.
+
+## Approach
+
+Läs aktuella profiler och källtillägg först. Följ projektets källstrategi
+samt Riksarkivets åtkomstordning. Inga nya generationer, ArkivDigital,
+beställningar, kontakter, dashboardändringar, PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-08.
+- Utfört: avgränsat följdarbete registrerat, inget arkivarbete utfört.
+- Nästa ej utförda steg: stäm av aktuella underlag och pröva första fasta passagen.
+- Hinder: T-0115.
+
+## Återupptagning 2026-09-18: föregångare avslutade
+
+T-0115 och övriga angivna beroenden är DONE. Uppgiften är READY, inte startad.
+Nästa steg är den tidigare angivna första sakpassagen inom uppgiftens omfång,
+med aktuella Genealogy2-objekt enligt wotan/README.md. Gamla filsökvägar och
+skrivkommandon i planen är historik; det frysta genealogy ska inte redigeras.
+Ingen tidigare källpassage ska repeteras utan ett konkret sakligt skäl.
+
+
+## Återupptagning — hård kärnprioritet 2026-10-05
+
+PCD-2026-10-05-001. Status, after, hela tidigare scope/AC och accepted-source/checkpoints består. Denna uppgift är DEFERRED i den gemensamma Wotankön i väntan på individuell kärntriage; detta är ingen saklig sidopersons- eller färdigbedömning. T-0784 äger separat endast den aktuella identitetsgrindomprövningen för P-0211/P-0003/P-0007 enligt dess exakta personbundna avgränsning. T-0379 behåller alla ursprungliga källpassager/bevarandefält och övriga personer/frågor som inte sakligt slutdispositioneras genom redan accepterat återbruk.
+
+Vid framtida aktivering: läs T0784:s faktiska resultat först om det finns; utför ingen överlappande omprövning eller accepterad fullpostläsning igen. Ett T0784utfall kan behålla UNDERKÄND/AVVAKTAR och identifiera en verklig nödvändig förutsättning här; främja då endast den explicit avgränsade relevanta delen med currentperson/source/time/field, inte hela blandade uppdraget. Ingen passage är utförd eller persongrind ändrad genom denna anteckning. Nästa ejutförda steg i ursprungsscope och alla konkreta äldre restfält bevaras ovan; ingen ny utvidgning.

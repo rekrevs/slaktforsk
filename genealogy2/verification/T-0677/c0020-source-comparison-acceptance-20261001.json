@@ -1,0 +1,101 @@
+{
+  "task": "T-0677",
+  "citation": "C-0020",
+  "state": "SOURCE_COMPARISON_ACCEPTED_WITH_LIMITS",
+  "at_utc": "2026-10-01T07:05:00.732379+00:00",
+  "inputs": {
+    "c0020-primary-header-20261001.json": "7616556a1f7674c514a9fcd6b2b0cf225c55e04eb404658510ac4f54da7a0409",
+    "c0020-independent-header-20261001.json": "b79f16de9ed0d9d0d465610c3d250c28c9c1631109eae8fd11eff0b83e4fb7d4",
+    "c0020-gapmask-acceptance-20261001.json": "4493924588e0c63d2f10dd5d9f9ddea7ba1a3684003c5ee5fd13cc091632631b",
+    "c0020-primary-raw-20261001.json": "52c1504c0a8aa179b939c400f92d4e87e013802e62cdbdbe4106b7192b1c5955",
+    "c0020-independent-raw-20261001.json": "ec056a4f088765877b009e94bbe5607561422e97dc4315b13a9531f3fd05eee4",
+    "c0020-independent-targeted-adjudication-20261001.json": "4ce8a0cb4d6900e56f1425a824a0a31d7ac3bfb57469f5e9fdb381e05e9c0ad2"
+  },
+  "fields": {
+    "1": {
+      "state": "reuse",
+      "raw": "15"
+    },
+    "2": {
+      "state": "read",
+      "raw": "ditto sign; maj from nr12 propagated through13/14; no ownyear",
+      "note": "1919lower belongs following nr16, not nr15. Year1920locator supplied outside own header."
+    },
+    "3": {
+      "state": "reuse",
+      "raw": "11"
+    },
+    "4": {
+      "state": "blank",
+      "raw": ""
+    },
+    "5": {
+      "state": "read_with_uninterpreted_mark",
+      "raw": "1; [oval/loop below]",
+      "note": "Loop at lower boundary reserved, no extra childcount or cancellation inferred."
+    },
+    "6": {
+      "state": "blank",
+      "raw": ""
+    },
+    "7": {
+      "state": "blank",
+      "raw": ""
+    },
+    "8": {
+      "state": "reuse",
+      "raw": "Maj Amalia / u.ä."
+    },
+    "9father": {
+      "state": "read",
+      "raw": "Eriksson Axel Edvard järnv.arb. banvakt[?]70",
+      "note": "Qualified letterreading before70. No new occupation/location normalized from uncertain string; existing Banvaktstugan70ground in C0028 preserved separately."
+    },
+    "9mother": {
+      "state": "read",
+      "raw": "Ekholm Hulda Amalia f Ålund änka",
+      "note": "Printedg. lacks own date. Short oblique verticalmark near right edge before birthdate; not deciphered fact. Word okänd below starts nr16father; no mothercontinuation."
+    },
+    "10father": {
+      "state": "read_with_marks",
+      "raw": "81 20/3",
+      "note": "Visible enclosing/diagonal/underline strokes, date remains20/3; no dated correction actor/time inferred."
+    },
+    "10mother": {
+      "state": "read_with_marks",
+      "raw": "77 25/9",
+      "note": "Underline/oblique stroke, no additional date."
+    },
+    "11": {
+      "state": "mark_only",
+      "raw": "[horizontal stroke from fatherdate crossing field]",
+      "note": "No separate Giftcount in motherband."
+    },
+    "12": {
+      "state": "read",
+      "raw": "1 enclosed in oval"
+    },
+    "13": {
+      "state": "mark_only",
+      "raw": "[edge of oval from12]",
+      "note": "No separate Trolofvadcount."
+    },
+    "14": {
+      "state": "read",
+      "raw": "small v-like check",
+      "note": "Administrative mark not converted into Ogiftstatus contradiction against explicitwidow/12count."
+    },
+    "21": {
+      "state": "read_with_limit",
+      "raw": "short vertical/bracketlike strokes at leftedge, otherwise no textual entry",
+      "note": "No extraneous nr16/17 noteadopted. Does not prove no attests or otherlife events."
+    }
+  },
+  "adjudication": "Bothlocks support81 20/3 and77 25/9. Post-unblinding targeted lettercomparison supports f Ålund änka; primary aware of priortranscription, independent earlier proposal withdrawn explicitly. banvakt[?]70 keeps letteruncertainty. Statistical lowerloop and crossing marks11/13 reserved rather than blank or extra quantity. Historicalstatustally meaning of v/loops not resolved.",
+  "counts": {
+    "logical_fields": 17,
+    "whole_reuse": 3,
+    "new_partial": 14
+  },
+  "limits": "One derivative source, two qualitycontrol readers, no new historicalwitness. OldC0028 reading not reused as ownSCBphysicalreading. No external source; no neighboringpersonadoption."
+}

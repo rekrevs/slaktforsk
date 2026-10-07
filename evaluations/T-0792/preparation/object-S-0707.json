@@ -1,0 +1,86 @@
+{
+  "object": "S-0707",
+  "kind": "source",
+  "currentVersion": 1,
+  "current": {
+    "revision_id": "S-0707@1",
+    "title": "S-0707: Riksarkivets söktjänst Folkräkningar (Sveriges befolkning) 1930, personindex",
+    "archive_reference": null,
+    "source_class": null,
+    "description": "# S-0707: Riksarkivets söktjänst Folkräkningar (Sveriges befolkning) 1930, personindex\n\n- Leverantör: Riksarkivet, `https://sok.riksarkivet.se/folkrakningar/`\n  (specialsök; indexet bygger på SCB:s församlingsbokutdrag 1930, jfr S-0700)\n- Åtkomst: sökformuläret är captcha-skyddat (ALTCHA). Ägaren löste captchan\n  själv 2026-09-05 och meddelade det i chatten; agenten använde därefter den\n  öppna sessionen i Claude-in-Chrome. Ingen captcha löstes av agenten.\n- Parametrar (GET): `Fornamn`, `Efternamn` (trunkering med `*`), `DatumFran`/\n  `DatumTill` (födelseår), `Fodelseforsamling`, `Hemforsamling`, `Hemort`,\n  `Lan`, `Folk1930=true` (övriga `FolkNNNN=false`), `AvanceradSok`.\n  Träfflistan visar namn, födelseår, län, år; postvisningen nås via\n  länken i namnet (`postid=Folk_NNNN`) och ger hemförsamling, hemort, sida\n  i församlingsboken, civilstånd/vigselår, familjeställning, yrke,\n  skolbildning, inkomst samt `Personer i hushållet`.\n- Personer utan efternamn i utdraget indexeras utan efternamn (t.ex.\n  `Anders Ivar`, 1903, Hudiksvall = P-0239), så efternamnssökning kan missa dem.\n- Bevarat: sökningarnas parametrar och utfall i C-0898; inga bilder.\n",
+    "object_id": "S-0707",
+    "version": 1,
+    "kind": "source",
+    "disposition": "recorded",
+    "evidence_status": null,
+    "rationale": "Den fullständiga äldre källbeskrivningen och dess metadata bevaras ordagrant. Separata normaliserade arkivfält och källklass tilldelas inte genom gissning.",
+    "caveat": "",
+    "origins": [
+      {
+        "revision_id": "S-0707@1",
+        "unit_id": "8beccc3788d38bc4b668e4db934e1c8211e9e8fe0d735f7ab3c72c4e546f64d0",
+        "coverage": "complete",
+        "note": "Återanvändning av äldre forskningsunderlag; inte ett nytt oberoende belägg.",
+        "document_path": "genealogy/sources/S-0707-riksarkivet-folkrakningsindex-1930-soktjanst.md",
+        "start_line": 1,
+        "end_line": 17
+      }
+    ],
+    "evidence": [],
+    "pending_reviews": []
+  },
+  "conversionOrigins": [
+    {
+      "id": "UD-8beccc3788d38bc4b668e4db934e1c8211e9e8fe0d735f7ab3c72c4e546f64d0@1",
+      "state": "mapped_complete",
+      "rationale": "Hela äldre källbeskrivningen inklusive metadata och senare tillägg finns ordagrant i source.description. Arkivfält och källklass är inte därmed normaliserade.",
+      "question": "",
+      "document_path": "genealogy/sources/S-0707-riksarkivet-folkrakningsindex-1930-soktjanst.md",
+      "start_line": 1,
+      "end_line": 17
+    }
+  ],
+  "revisions": [
+    {
+      "id": "S-0707@1",
+      "object_id": "S-0707",
+      "version": 1,
+      "operation_id": "T-0645/registry-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Den fullständiga äldre källbeskrivningen och dess metadata bevaras ordagrant. Separata normaliserade arkivfält och källklass tilldelas inte genom gissning.",
+      "caveat": "",
+      "previous_id": null,
+      "data": {
+        "revision_id": "S-0707@1",
+        "title": "S-0707: Riksarkivets söktjänst Folkräkningar (Sveriges befolkning) 1930, personindex",
+        "archive_reference": null,
+        "source_class": null,
+        "description": "# S-0707: Riksarkivets söktjänst Folkräkningar (Sveriges befolkning) 1930, personindex\n\n- Leverantör: Riksarkivet, `https://sok.riksarkivet.se/folkrakningar/`\n  (specialsök; indexet bygger på SCB:s församlingsbokutdrag 1930, jfr S-0700)\n- Åtkomst: sökformuläret är captcha-skyddat (ALTCHA). Ägaren löste captchan\n  själv 2026-09-05 och meddelade det i chatten; agenten använde därefter den\n  öppna sessionen i Claude-in-Chrome. Ingen captcha löstes av agenten.\n- Parametrar (GET): `Fornamn`, `Efternamn` (trunkering med `*`), `DatumFran`/\n  `DatumTill` (födelseår), `Fodelseforsamling`, `Hemforsamling`, `Hemort`,\n  `Lan`, `Folk1930=true` (övriga `FolkNNNN=false`), `AvanceradSok`.\n  Träfflistan visar namn, födelseår, län, år; postvisningen nås via\n  länken i namnet (`postid=Folk_NNNN`) och ger hemförsamling, hemort, sida\n  i församlingsboken, civilstånd/vigselår, familjeställning, yrke,\n  skolbildning, inkomst samt `Personer i hushållet`.\n- Personer utan efternamn i utdraget indexeras utan efternamn (t.ex.\n  `Anders Ivar`, 1903, Hudiksvall = P-0239), så efternamnssökning kan missa dem.\n- Bevarat: sökningarnas parametrar och utfall i C-0898; inga bilder.\n"
+      },
+      "origins": [
+        {
+          "coverage": "complete",
+          "note": "Återanvändning av äldre forskningsunderlag; inte ett nytt oberoende belägg.",
+          "id": "8beccc3788d38bc4b668e4db934e1c8211e9e8fe0d735f7ab3c72c4e546f64d0",
+          "document_path": "genealogy/sources/S-0707-riksarkivet-folkrakningsindex-1930-soktjanst.md",
+          "kind": "curated_span",
+          "legacy_id": null,
+          "owner_id": null,
+          "section": "Registerunderlag 1–18",
+          "start_byte": 0,
+          "end_byte": 1201,
+          "start_line": 1,
+          "end_line": 17,
+          "raw": "# S-0707: Riksarkivets söktjänst Folkräkningar (Sveriges befolkning) 1930, personindex\n\n- Leverantör: Riksarkivet, `https://sok.riksarkivet.se/folkrakningar/`\n  (specialsök; indexet bygger på SCB:s församlingsbokutdrag 1930, jfr S-0700)\n- Åtkomst: sökformuläret är captcha-skyddat (ALTCHA). Ägaren löste captchan\n  själv 2026-09-05 och meddelade det i chatten; agenten använde därefter den\n  öppna sessionen i Claude-in-Chrome. Ingen captcha löstes av agenten.\n- Parametrar (GET): `Fornamn`, `Efternamn` (trunkering med `*`), `DatumFran`/\n  `DatumTill` (födelseår), `Fodelseforsamling`, `Hemforsamling`, `Hemort`,\n  `Lan`, `Folk1930=true` (övriga `FolkNNNN=false`), `AvanceradSok`.\n  Träfflistan visar namn, födelseår, län, år; postvisningen nås via\n  länken i namnet (`postid=Folk_NNNN`) och ger hemförsamling, hemort, sida\n  i församlingsboken, civilstånd/vigselår, familjeställning, yrke,\n  skolbildning, inkomst samt `Personer i hushållet`.\n- Personer utan efternamn i utdraget indexeras utan efternamn (t.ex.\n  `Anders Ivar`, 1903, Hudiksvall = P-0239), så efternamnssökning kan missa dem.\n- Bevarat: sökningarnas parametrar och utfall i C-0898; inga bilder.\n",
+          "parsed_json": "{\"extractor\":\"curation-span/1\",\"operation\":\"T-0645/registry-v1\"}",
+          "historical": 0,
+          "sha256": "e52ccbcdc1d11be54ef251005161c3319f05668233da667b4f1853cbeb272e53"
+        }
+      ],
+      "evidence": [],
+      "assets": [],
+      "nativeAssets": []
+    }
+  ]
+}

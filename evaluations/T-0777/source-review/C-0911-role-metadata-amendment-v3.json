@@ -1,0 +1,61 @@
+{
+  "task": "T-0777",
+  "decisions": [
+    {
+      "object": "M-P-0043-related125",
+      "version": 1,
+      "disposition": "revise",
+      "fields": [
+        {
+          "field": "data.role_literal",
+          "old_full_field": "sonhustru",
+          "new_full_field": "sömmerska"
+        },
+        {
+          "field": "caveat",
+          "old_full_field": "Källans egen namn- och rollform; ingen könstilldelning.",
+          "new_full_field": "Egen C-0911-rad9 har yrket sömmerska, ingen uttrycklig sonhustruroll. Den senare sonhustrukopplingen genom rader16–17/Ture behålls som separat hushållssammanställning, inte råtext på rad9."
+        }
+      ],
+      "reason": "Source literal role separated from accepted contextual relation; no relation deletion."
+    },
+    {
+      "object": "M-P-0045-wife1",
+      "version": 1,
+      "disposition": "revise",
+      "fields": [
+        {
+          "field": "data.role_literal",
+          "old_full_field": "första hustru",
+          "new_full_field": "h."
+        },
+        {
+          "field": "caveat",
+          "old_full_field": "Källans egen namn- och rollform; ingen könstilldelning.",
+          "new_full_field": "Egen C-0911-rad12 har rårollen h.; första hustru är befintlig sammanställd ordning, inte ett skrivet ord på raden. Ingen ny person eller biologisk relation."
+        }
+      ],
+      "reason": "Source literal role separated from accepted contextual relation; no relation deletion."
+    },
+    {
+      "object": "M-P-0045-daughter1",
+      "version": 1,
+      "disposition": "revise",
+      "fields": [
+        {
+          "field": "data.role_literal",
+          "old_full_field": "dotter i första giftet",
+          "new_full_field": "d."
+        },
+        {
+          "field": "caveat",
+          "old_full_field": "Källans egen namn- och rollform; ingen könstilldelning.",
+          "new_full_field": "Egen C-0911-rad13 har rårollen d.; dotter i första giftet behålls som hushållskontext, inte råtext. Vaccinations-/koppfältet är tomt här; senare C0910 eget v behålls för den senare raden."
+        }
+      ],
+      "reason": "Source literal role separated from accepted contextual relation; no relation deletion."
+    }
+  ],
+  "evidence": "Ownnewaudit main forMrelated125; Torvald forwife/daughter. Preserve old supports and accepted contextrelations. Dependency enumeration required.",
+  "count_amendment": "C0911 has12 occupied relevant rows (7main+3Torvald+2Ture), not13; exactlistedrows unchanged."
+}

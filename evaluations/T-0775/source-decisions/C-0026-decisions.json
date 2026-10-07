@@ -1,0 +1,88 @@
+{
+  "citation": "C-0026",
+  "source_decision": "settled_with_reservations",
+  "native_changes": [
+    {
+      "id": "R-9fcd6c77fb3fbdc8a110e24b",
+      "expectedVersion": 1,
+      "action": "revise_caveat_and_bind_full_extraction",
+      "text": "T-0775: hela hushållsgränsen inklusive två tjänsterader och tryckta kolumner kontrollerad. Nattvardsråmärken finns i kol13; kol14 för främmande trosbekännelse/nationalitet/frånvaro är tom inom gruppen. Äldre religionsattribution av Agnes l är fel kolumn och ersätts. Parenttal50/63, Ragnars yrkesditto och Sven Assars obestämda yrkesspår består; inga datum eller nya identiteter följer."
+    },
+    {
+      "id": "READ-d83a5457964a8889994b02ac",
+      "expectedVersion": 1,
+      "action": "revise",
+      "text": "Återbrukad äldre avgränsning kompletterad med fullfältstabell. Den historiska citerade religionsläsningen rättas uttryckligen: märket ligger i nattvardskol13, inte i sista kol14. Övriga äldre årtal/yrkesreservationer kvarstår."
+    },
+    {
+      "id": "O-P-0022-census-1910-own-fields",
+      "expectedVersion": 1,
+      "action": "revise",
+      "value_literal": "u/l-lik råmarkering i nattvardskolumnen; egen yrkes-/stam-/lytescell samt sista trosbekännelse/nationalitet/frånvarokolumn utan saktext",
+      "value_json": {
+        "communionMarked": true,
+        "communionRaw": "u/l-lik markering; bokstav oavkodad",
+        "empty": [
+          "egen yrkes-/stam-/lytescell",
+          "trosbekännelse/nationalitet/frånvaro"
+        ],
+        "religionLiteral": null
+      },
+      "caveat": "Ingen egen trosuppgift finns i kol14. Råmärket i kol13 ger inget datum eller livslång kyrklig status. Övriga egna blankfält är lokala observationer."
+    },
+    {
+      "id": "THEME-P-0022-SAM",
+      "expectedVersion": 1,
+      "action": "revise_body",
+      "text": "Egna a/N i C0917 består. C0026 har ett u/l-likt märke i nattvardskol13; sista kol14 för främmande trosbekännelse/nationalitet/frånvaro är blank. Ingen egen trosutsaga eller nattvardsdag följer. SAM fortsatt ÖPPET."
+    }
+  ],
+  "retains": [
+    {
+      "id": "CONTRACT-P-0022-PK-05",
+      "version": 2,
+      "reason": "Aktuell C0024-gränsmärkesreservation gäller annat original och motsägs inte. Behåll tidigare utfall, komplettera vid individuell dependency-review med C0026-rättelsen utan grindlyft."
+    },
+    {
+      "id": "ADOPT-T0677-C0024-P-0022",
+      "version": 1,
+      "reason": "Gäller uttryckligen1890/C0024 kol4; ingen religionsattribution från1910. Behåll saktext."
+    },
+    {
+      "id": "AUDIT-T0677-C0025",
+      "version": 1,
+      "reason": "58/67 är aktuell uttryckligen återbrukad källäsning av annat original. C0026:s nykontrollerade50/63 bevarar avvikelsen; inget nytt tvåkällorsomläsningsanspråk."
+    },
+    {
+      "id": "BIO-P-0022",
+      "version": 1,
+      "reason": "Innehåller ingen felaktig religionsuppgift; ortkonflikt, födelsedag från grundbok och1913lysning är andra redan stödda uppgifter."
+    }
+  ],
+  "impact_people": [
+    "P-0010",
+    "P-0020",
+    "P-0021",
+    "P-0022",
+    "P-0023",
+    "P-0024",
+    "P-0025",
+    "P-0026",
+    "P-0027"
+  ],
+  "precise_copy_search": [
+    "religionLiteral",
+    "trosbekännelsekolumn",
+    "Agnes + l + 1910",
+    "C0026 / C-0026 + nattvard / trosbekännelse",
+    "kolumnens innebörd + tryckt rubrik"
+  ],
+  "followup_disposition": "Råmärkesformen och datumet förblir oavgjorda; tryckta rubrikens kolumntillhörighet är nu kontrollerad. Text som hävdar att nattvardskolumnens själva rubrik först måste prövas får preciseras: rubrik prövad, märkesform och tid oavgjord. Ingen ny arkivsökning beslutas här.",
+  "gates": "Ingen identitets-, tree_effect-, life_picture- eller OWNER_CONFIRMED-ändring. Alma/Alva som tidigare registervariant och kanonisk Alva består.",
+  "evidence_units": {
+    "legacy_full": "ce31fc1e6aea633aa2509e2e8086846c286990ebfd78bf5172a07ed0ea4888c7",
+    "legacy_wrong_religion": "6fa3a9762d72e3e42a082c9298edc1096d2ff7f1beac54bc990449e7b26dec10",
+    "legacy_column_and_conflict": "bd39504653e35ed6a92526c1c43bada363afeb9c7985ba509914824999140ec5"
+  },
+  "implementation_note": "Nya fullfält kan lagras i original_revision-assessment med versionsbunden record och samma media. Sol skall individuellt klassificera alla faktiska beroenden; fler semantiska träffar med oklar disposition återförs till Astra."
+}

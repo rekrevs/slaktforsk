@@ -1,0 +1,26 @@
+--- evaluations/T-0789/preparation/capture_root_authorized_same453_exact21_bindings_readonly_v1.py
++++ evaluations/T-0789/preparation/capture_root_authorized_same453_exact21_bindings_readonly_v2.py
+@@ -1,7 +1,9 @@
+ """UNRUN readonly capture after exact21 firstphase apply. No CLI/apply/clone.
+ 
+-Only two source-reviewed operational bindings are omitted from native API
++Only two source-reviewed redundant input bindings are omitted from native API
+ projection, while the entire submitted/stored request stays exact and preserved.
++The explicit context evidence P-0007@2 is the active current-head guard;
++bindings.P-0007 itself is redundant and is not asserted an active identity guard.
+ """
+ import argparse
+ import copy
+@@ -168,9 +170,11 @@
+                 projection_differences.append({'revision_id': rid, 'pointer': '/bindings',
+                     'submitted_present': True, 'submitted_literal': copy.deepcopy(operational_bindings),
+                     'native_API_present': False, 'native_current_person_revision_id': 'P-0007@2',
++                    'active_current_head_guard': 'explicit ordered evidence P-0007@2',
++                    'bindings_person_key_is_active_guard': False,
+                     'ordered_explicit_person_evidence': person_edges,
+                     'stored_request_retains_bindings_exact': True})
+-                del expected['bindings']  # Only two root/source-reviewed input-only controls.
++                del expected['bindings']  # Only two root/source-reviewed redundant request inputs; active guard is evidence.
+             else:
+                 assert operational_bindings is None
+             assert actual == expected, ('Full ordered API difference beyond explicit two input-only bindings; stop', rid)

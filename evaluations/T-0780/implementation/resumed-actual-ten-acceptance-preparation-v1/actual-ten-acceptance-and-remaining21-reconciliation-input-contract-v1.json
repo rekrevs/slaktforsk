@@ -1,0 +1,103 @@
+{
+  "task": "T-0780",
+  "status": "PREPARATION_ONLY_UNRUN",
+  "receipt_template_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-actual-ten-acceptance-preparation-v1/exact-ten-durable-acceptance-receipt-templates-v1.json",
+    "sha256": "ea1c5088bbbabbfb2450523dbdafe773bbbc605403e24b95c06e80688217dc95"
+  },
+  "reconciler_pin": {
+    "path": "evaluations/T-0780/implementation/reconcile_actual_G002_ten_receipts_and_remaining21_TEMPLATE_v2.py",
+    "sha256": "7e557ca615b287e30d3b21b6a5f28de84913fbfc6b7495b5f19a5a1a7eb064b1"
+  },
+  "failed_initial_static_attempt_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-actual-ten-acceptance-preparation-v1/initial-reconciler-static-failure-and-repair-v1.json",
+    "sha256": "d9af3e9d5f607d1302453efe476ee37ecd8e35481e2a6f04c8527513b99c6b41"
+  },
+  "fixed_cohort_pin": {
+    "path": "evaluations/T-0780/preparation/G002-fixed-cohort-v1.json",
+    "sha256": "e67dddebc93ff6525457380b1ed86e5a6f18987b56b28fe8cab4083a27e87c97"
+  },
+  "current_actual_accepted_G002": 0,
+  "expected_after_individually_approved_actual_ten": {
+    "accepted": 10,
+    "remaining": 21,
+    "total": 31
+  },
+  "not_an_accepted_union_or_source_priority": true,
+  "input_manifest_template": {
+    "task": "T-0780",
+    "status": "ROOT_APPROVED_ACTUAL_CANONICAL_TEN_ACCEPTANCE",
+    "actual_root_acceptance_receipt_pin": null,
+    "fixed_cohort_pin": {
+      "path": "evaluations/T-0780/preparation/G002-fixed-cohort-v1.json",
+      "sha256": "e67dddebc93ff6525457380b1ed86e5a6f18987b56b28fe8cab4083a27e87c97"
+    },
+    "exact_ten_citations": [
+      "C-0043",
+      "C-0044",
+      "C-0563",
+      "C-0561",
+      "C-0685",
+      "C-0069",
+      "C-0425",
+      "C-0062",
+      "C-0106",
+      "C-0060"
+    ],
+    "approved_receipt_decision": null,
+    "ten_actual_receipt_pins": null
+  },
+  "root_actual_acceptance_receipt_required_fields": {
+    "task": "T-0780",
+    "approved_for_program_acceptance": true,
+    "actual_canonical_state": {
+      "journal_head": "Actual observed final journal; not inferred424+ops",
+      "pending": 0
+    },
+    "actual_stage_comparison_pass": true,
+    "independent_exact_hash_final_pass": true,
+    "protected_knowledge_and_review_state_pass": true,
+    "accepted_citation_scopes": [
+      "C-0043",
+      "C-0044",
+      "C-0563",
+      "C-0561",
+      "C-0685",
+      "C-0069",
+      "C-0425",
+      "C-0062",
+      "C-0106",
+      "C-0060"
+    ],
+    "primary_final_review": null,
+    "independent_final_review": null,
+    "actual_validator_results": {
+      "verify": {
+        "pass": true,
+        "actual_result_pin": null
+      },
+      "verify-assets": {
+        "pass": true,
+        "actual_result_pin": null
+      },
+      "verify-source": {
+        "pass": true,
+        "actual_result_pin": null
+      },
+      "inventory": {
+        "pass": true,
+        "actual_result_pin": null
+      },
+      "verified-pedigree": {
+        "pass": true,
+        "actual_result_pin": null
+      }
+    }
+  },
+  "verification": {
+    "AST_parse_v2": "PASS",
+    "reconciler_execution": "UNRUN",
+    "receipts_created": 0,
+    "runtime_or_Wotan_writes": 0
+  }
+}

@@ -1,0 +1,42 @@
+# T-0800: Maj P-0007 – konsolidera konkurrerande identitets- och trädgranskningar
+
+**Status**: BLOCKED | **Size**: M
+
+## Mandat och exakt scope
+
+Följdägarskap från T-0791 AC3–4. CORE_IDENTITY: exakt P-0007 och modellens assessment_conflict i identity_review/1 samt tree_effect/1. Enbart befintligt accepterat material och aktuella versioner; ingen originalbild, mediefil, katalogsökning eller ny personforskning. Registrering auktoriserar inte utförande i T-0791/T-0792-körningen.
+
+Scope är de tre samtidiga identitetsobjekten ASSESSMENT-T0784-P0007-identity@1, IDENTITY-REVIEW-T0788-P0007@1 och IDENTITY-REVIEW-T0789-P0007@1 samt motsvarande ASSESSMENT-T0784-P0007-tree@1, TREE-EFFECT-T0788-P0007@1 och TREE-EFFECT-T0789-P0007@1. Versionerna är utgångsankare; stäm av aktuella versioner före utförande. Datum eller objekt-id ger inte företräde. T-0791:s baseline460 och stage462 visar samma konflikt; biografipreciseringen har inte skapat den.
+
+## Återbruk och exclusions
+
+Återbruk: accepterade T-0784/T-0788/T-0789-operationer och exakta kvitton, fullständiga egna Flen744- och års1945/1946-resultat med alla läsreservationer, current body/caveat/PK/stronger/OWNER samt T-0791:s sex individuella retainbeslut. Ingen omtolkning eller repetition av accepterade originals.
+
+T-0786 äger den egna olästa Södertäljeuppslag15-passagen och dess åtkomstgrind; den läses eller löses inte här. Etablerad personkärna, föräldrarelationer och OWNER_CONFIRMED bevaras. Kvarstående PK05-fråga får inte bli passed eller supporting genom administrativ konsolidering. Livsbildsgranskningen LIFE-T0791-P0007 och dess underlag ändras bara om en faktisk nödvändig följd först sakprövats; ingen fristående livsbilds- eller sidoforskning ingår.
+
+## Acceptance Criteria
+
+1. Reconcile aktuella sex granskningsobjekt, fulla versioner/evidence/origins, journals och faktisk identitetsgrind. Skilj äldre historiska skäl från fortfarande aktuell egen15-rest.
+2. Astra beslutar uttryckligt vilken bedömning som ska vara aktuell per kriterium och hur övriga bevaras som historik genom tillåten versionsväg. Ingen direkt SQL, borttagning av evidens/journal eller automatisk datumprioritet.
+3. Efter oberoende sakprövning finns en entydig aktuell identitetsgranskning och en entydig trädverkan utan assessment_conflict. Utfall och olöst egen15-PK05 får inte uppgraderas utan materiellt underlag; task-DONE betyder inte öppnad anlinje.
+4. Alla utlösta beroenden får individuell disposition. Append-only historik, fulla metadata/evidence/origin-arrayer och ordning, skyddade ägarfakta och relationer består. Kontrollerad CLI-provkörning på baselineclone, exakta slutgates och rootens apply följt av faktisk jämförelse.
+5. Default-verifierade antavlor och relevanta genealogy2/Wotan/medie/diffkontroller passerar enligt godkända förväntningar; återstående originalfråga och alla nödvändiga följder behåller exakt Wotanägare.
+
+## Återupptagning
+
+Registrerad från T-0791:s upptäckt av en redan befintlig aggregatkonflikt. Ingen ändring eller källa utförd här. Nästa ej utförda steg vid separat ägarbeställning: aktuell versions-/kvitto-/grindavstämning, därefter bounded Astra-disposition av sex granskningsobjekt. Återstartvillkor är faktiskt utförandemandat; originalåtkomst är inte förutsättning för denna administrativa sakgrundade konsolidering. Egen15-frågan ligger fortsatt hos T-0786.
+
+## Ägargrundad omfattningsändring 2026-10-07
+
+PCD-2026-10-07-001 och T-0804 omfattar exakt hela denna konsolideringsleverans. T-0804 är ensam utförandeägare; inget andra pass på samma sex Maj-objekt startas. Alla tidigare AC, underlag, exclusions och ovanstående ursprungliga checkpoint bevaras som historik.
+
+AC3:s äldre förbud gäller fortfarande ren administrativ uppgradering utan materiellt underlag. Det nya explicita ägarbeskedet är nu materiellt underlag för exakt den bekräftade identiteten och kedjan P-0007→P-0005→P-0004: en individuellt sakprövad passed/supporting får registreras enligt beslutet, utan att egen15 eller full PK05-utvinning kallas färdig. Övriga AC består. Avslut kräver faktiskt entydigt current native pair, bevarad historik, individuell beroendedisposition och verifierad canonical apply enligt T-0804; en omplanering i sig uppfyller dem inte.
+
+### Återupptagning – aktuellt efter ägarbeskedet
+
+- Uppdaterat: 2026-10-07.
+- Utfört: exakt konsolideringsscope lossless inkluderat i T-0804; äldre AC och checkpoint finns ovan.
+- Delvis utfört: ingen canonical konsolidering ännu.
+- Nästa ej utförda steg: T-0804:s godkända versionspaket, oberoende sakgranskning, kontrollerad apply och faktisk bevisad uppfyllelse av ovanstående AC.
+- Hinder: avvakta T-0804:s verifierade leverans; originalåtkomst är inte förutsättning.
+- Verifiering: återstår. Ingen DONE och ingen automatisk dubbelkörning.

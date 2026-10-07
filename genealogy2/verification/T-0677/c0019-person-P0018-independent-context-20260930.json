@@ -1,0 +1,182 @@
+{
+  "task": "T-0677",
+  "citation": "C-0019",
+  "person_id": "P-0018",
+  "reader": "independent Astra /root/g001_continue/c0016_independent",
+  "stage": "current_context_read_for_reuse_before_gap_matrix",
+  "timestamp_utc": "2026-09-30T20:52:30.438023+00:00",
+  "input": {
+    "path": "genealogy2/verification/T-0677/c0019-prestart-person-P-0018-j223-20260930.json",
+    "sha256": "d877e4f08945726f12a717826f29b8b5dcc9085e0cb67f1d90553ac1e4049c54"
+  },
+  "blind_header_precedes_this_read": "c0019-header-independent-20260930.json",
+  "coverage": {
+    "person_full_substantive_fields": [
+      "person",
+      "observations",
+      "mentions",
+      "identities",
+      "facts",
+      "relations including qualifications",
+      "events including participations",
+      "narratives"
+    ],
+    "person_inspect_current": true,
+    "research_inspects_all": 40,
+    "research_revisions": [
+      "ASSESSMENT-P-0018@1",
+      "ASSESSMENT-P-0018-Hulda-Amalia-neighbor@1",
+      "ASSESSMENT-P-0018-mother-open@1",
+      "CONTRACT-P-0018-PK-01@1",
+      "CONTRACT-P-0018-PK-02@1",
+      "CONTRACT-P-0018-PK-03@1",
+      "CONTRACT-P-0018-PK-04@1",
+      "CONTRACT-P-0018-PK-05@1",
+      "CONTRACT-P-0018-PK-06@1",
+      "CONTRACT-P-0018-PK-07@1",
+      "CONTRACT-P-0018-PK-08@1",
+      "CONTRACT-P-0018-PK-09@1",
+      "CONTRACT-P-0018-PK-10@1",
+      "CONTRACT-P-0018-PK-11@1",
+      "CONTRACT-P-0018-PK-12@1",
+      "KEY-P-0018-1762f46d1098@1",
+      "KEY-P-0018-1a249cc2d39e@1",
+      "KEY-P-0018-30f0658f2194@1",
+      "KEY-P-0018-3c80013ebd05@1",
+      "KEY-P-0018-3fd301170d3a@1",
+      "KEY-P-0018-45c4cd55bff5@1",
+      "KEY-P-0018-f1c6b346bf3a@1",
+      "P-0018/Q-01@1",
+      "P-0018/Q-02@1",
+      "PATH-P-0018-KP-01@1",
+      "PATH-P-0018-KP-02@1",
+      "PATH-P-0018-KP-03@1",
+      "PATH-P-0018-KP-04@1",
+      "PATH-P-0018-KP-05@1",
+      "RESEARCH-P-0018-9d76f0343410@1",
+      "THEME-P-0018-ARB@1",
+      "THEME-P-0018-BO@1",
+      "THEME-P-0018-EKO@1",
+      "THEME-P-0018-HAL@1",
+      "THEME-P-0018-ID@1",
+      "THEME-P-0018-MIL@1",
+      "THEME-P-0018-PER@1",
+      "THEME-P-0018-REL@1",
+      "THEME-P-0018-SAM@1",
+      "THEME-P-0018-SYN@1"
+    ],
+    "reading_note": "Initial broad output was truncated and not counted as complete. Full substantive structured/person bodies and all research objects were subsequently output in bounded chunks. Repeated origins were omitted; identical caveats deduplicated only within each chunk after one full rendering."
+  },
+  "existing_sufficient_reuse": {
+    "record": "R-4b47425bfe4a1bdc3e0449ab@1",
+    "name_and_role": "Birgit Cecilia, dotter; Eriksson follows household head, not own written surname",
+    "birth": "1914, Hyltinge semantic parish; exact1914-05-10 belongs to C0919 own row",
+    "civil": "explicit unmarried female; raw stroke geometry may still need checking",
+    "occupation": "raw code7, no written occupation; no established key",
+    "education": "raw3 only; older expansion for another person is not an individual qualification",
+    "communion": "n, unresolved expansion, no date/event",
+    "arrival": "1929 from Helgesta to residence municipality, ditto; registration not physical route/continuity",
+    "income": "own cell empty, not0; do not transfer father22—",
+    "geometry": "samefamily1 but separate ownrow and sister; separatefamily2 Hulda/Maj; P17 index is differentrecord"
+  },
+  "provisional_gap_mask_advice": {
+    "own_logical_scheme": "L01–L25 from independent header",
+    "whole_reuse_candidates": [
+      "L05 birthyear",
+      "L20 communion raw n with old reservation",
+      "L25 empty income/wealth"
+    ],
+    "partial_candidates": [
+      "L01 name/role semantic reuse; other annotations/codes check",
+      "L02 code7 and nooccupation reused; other raw traces check",
+      "L06 birthplace semantic reuse; dittos/abbreviation/statisticalcodes check",
+      "L09 unmarriedfemale semantic reuse; rawmark check",
+      "L18 arrivalplace semantic reuse; rawditto/code check",
+      "L19 arrivalyear1929 semantic reuse; rawditto check",
+      "L22 / common B24: raw3 reused, but entire broad education cell and additional marks are new checks"
+    ],
+    "other_fields": "Need individual recorded empty/transcribed/uncertain outcome, not inferred from PK05 whole-row label. Final shared mask may make more precise reuse based on citation/READ/TR already held by parent.",
+    "shared_scheme": "B01/B02 context; B03–B27 correspond to own L01–L25",
+    "birthyear_precision": "P18 O-P-0018-birth1930@1 literal1914,Hyltinge supports year; P19 current RESEARCH compares birthyear and E-birth has1914 but parent should use exact prior C0019 text for wholeB07 reuse, rather than infer raw original14 from C0919 birthday."
+  },
+  "preserved_person_conclusions": [
+    "accepted person identity and separate twin identities",
+    "accepted father P0015; open mother P0117 candidate only",
+    "paternal siblings, no new fullsibling or biologicalmother",
+    "twin conclusion remains INFERRED, no birthorder",
+    "GODKÄND identity review, EJ BÄRANDE tree, UNDERKÄND legacycontract unchanged",
+    "source administrative dependency and bounded blanks",
+    "1930lastanchor and later life open"
+  ],
+  "exact_edit_suggestions": [
+    {
+      "id": "CONTRACT-P-0018-PK-01",
+      "expected_version": 1,
+      "layer": "data",
+      "field": "body",
+      "old": "Två egna rader med samstämmigt namn, födelsedatum, födelseförsamling, fader och hushåll bär en person",
+      "new": "Två egna rader med samstämmigt namn, födelseår, födelseförsamling, fader och hushåll bär en person; den exakta födelsedagen kommer från C-0919",
+      "reason": "C0019 har födelseår, inte den exakta dagen i C0919.",
+      "conditional_on_completed_raw_gap_comparison": false
+    },
+    {
+      "id": "THEME-P-0018-ID",
+      "expected_version": 1,
+      "layer": "data",
+      "field": "body",
+      "old": "Namn, exakt födelsedag, födelseförsamling och fader är belagda på två egna rader",
+      "new": "Namn, födelseår, födelseförsamling och fader stöds av två egna rader; den exakta födelsedagen kommer från C-0919",
+      "reason": "Samma specifika källöverattribution i temakopia; ingen födelsehändelse ändras.",
+      "conditional_on_completed_raw_gap_comparison": false
+    },
+    {
+      "id": "THEME-P-0018-ARB",
+      "expected_version": 1,
+      "layer": "data",
+      "field": "body",
+      "old": "Eget arbete, arbetsgivare och utbildning efter folkskolan saknas helt",
+      "new": "Eget arbete, arbetsgivare och vidare utbildning är inte belagda; koden `3` fastställer inte här genomgången folkskola",
+      "reason": "Det äldre kodglosset är inte eget betyg eller belagd avslutad skolgång.",
+      "conditional_on_completed_raw_gap_comparison": false
+    },
+    {
+      "id": "RESEARCH-P-0018-9d76f0343410",
+      "expected_version": 1,
+      "layer": "data",
+      "field": "body",
+      "old": "en egen rad i faderns familjegrupp med ålder, civilstånd, skolbildning",
+      "new": "en egen rad i faderns familjegrupp med födelseår, civilstånd, skolbildningskod",
+      "reason": "Headern har år och kod, inte en utskriven ålder eller utvecklat utbildningsintyg.",
+      "conditional_on_completed_raw_gap_comparison": false
+    },
+    {
+      "id": "BIO-P-0018",
+      "expected_version": 1,
+      "layer": "data",
+      "field": "markdown",
+      "old": "År 1929 var hon tillbaka i Hyltinge, och på folkräkningsdagen den 31 december 1930 bodde hon med fadern och tvillingsystern på Skarvnäs ägor, Solliden.",
+      "new": "Folkräkningsutdraget anger genom ditto sista registrerade inflyttning från Helgesta till Hyltinge 1929. Den 31 december 1930 var hon bokförd med fadern och tvillingsystern på Skarvnäs ägor, Solliden.",
+      "reason": "Synkar biografin med redan versionsbunden E-registered_arrival: registrering och hållpunkt, inte styrkt fysisk resdag eller obruten vistelse.",
+      "conditional_on_completed_raw_gap_comparison": false
+    },
+    {
+      "id": "CONTRACT-P-0018-PK-05",
+      "expected_version": 1,
+      "layer": "data",
+      "field": "body",
+      "old": "och hela hennes rad 1930, inklusive ställningskod, civilstånd, sista inflyttning, kolumn 12, skolbildning och det tomma inkomstfältet. De outvunna fortsättningarna är nya volymer, inte olästa fält på de uppslagna sidorna:",
+      "new": "och de tidigare uttryckligt lästa fälten på hennes rad 1930, inklusive ställningskod, civilstånd, sista inflyttning, kolumn 12, skolbildning och det tomma inkomstfältet. T-0677 kompletterar C-0019 med en avgränsad matris för alla tryckta personfält; äldre tillräckliga fält återbrukas, nytillkomna råfält och osäkerheter bevaras i den nya avskriften. Detta innebär ingen ny fullfältgranskning av C-0919. Kvarvarande källvägar omfattar bland annat:",
+      "reason": "Full1930row label was not a field-by-field coverage proof. Final wording is conditional on completion and acceptance of the requested gap matrix; no claim to have already completed it.",
+      "conditional_on_completed_raw_gap_comparison": true
+    }
+  ],
+  "not_reopened": [
+    "C0919 original image/fullfieldclaim, vaccine rawv or birthorder prose",
+    "other family grave register coverage, later father residence chronology",
+    "historical access policy wording",
+    "external archive paths or new people"
+  ],
+  "followup_limit": "These are source-bound textual precisions for final spec, not canonical operations. Evaluate final gap findings before locking full consequences.",
+  "canonical_mutation": false,
+  "mask_precision_note": "After header comparison parent pointed out that school field includes a broad area beyond raw3; adjusted provisional reuse to partial before final mask. No image reread or rawmatrix performed."
+}

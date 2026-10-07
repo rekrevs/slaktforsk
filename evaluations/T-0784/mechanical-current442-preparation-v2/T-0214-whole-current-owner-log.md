@@ -1,0 +1,116 @@
+# T-0214: Storbrännafamiljens redan öppnade målposter och provenans
+
+**Status**: READY | **Size**: M
+**Phase**: -
+
+## Context och scope
+
+PCD-2026-09-07-026, fynd i T-0119. P-0241/P-0246 med deras historiska familjerader P-0211/P-0256–0262 och P-0247–0249/P-0253. C-0240:s enda Evyrad speglas som fulloriginal med SHA-256 om åtkomstordningen medger det; inga nutida uppgifter. C-0244/C-0246:s egna födelser läses i fulla målkolumner (dopförrättare, folio, föräldrarnas datum). C-0925 fol393 r1–9 och C-0926/C-0675 fol384 r1–7: fulla målkolumner och samma-bild-varianter, särskilt oktober15/25, Hallin/Hallén, Eugen/Egnar och datum. C-0933 fol2995 r16–22 och C-0935 fol388 r6–13: personbundna husförhörstal, noter och läsosäkerheter utvinns; redan känt efter1936 bevaras endast där det behövs för föräldrarnas kontinuitet. Ingen ny forskning om potentiellt levande barns senare liv. Högst en direkt hänvisad folio3011 för att förklara noteringen; nybok392–43 ligger i T-0216. Sättnas redanlästa1936post39 återanvänds, ingen ny årssökning. Därtill bevaras de två redan använda registerankarna C-0242/S-0192 (Folk_122002-026) och C-0243/S-0193 (Folk_022016-027) med full relevant originalprovenans och SHA-256; ingen ny folkräkningssökning. Stopp efter dessa nio målunderlag och en fortsättning, eller konkret åtkomstgräns.
+
+## Acceptance Criteria
+
+- [ ] Varje ovan angiven passage har ett dokumenterat utfall inom stoppgränsen; tidigare tillräcklig forskning återanvänds.
+- [ ] Hela faktiskt öppnade målposter utvunna, med fulloriginal, SHA-256 och källbundna läsosäkerheter; olästa delar eller hinder uttryckliga.
+- [ ] Berörda akter/profiler och anhörigberoenden avstämda utan övervida noll eller obestyrkt identitet; identitets- och livsbildsnivå omprövade där resultatet berör dem.
+- [ ] Följder utanför omfånget har egen avgränsad ägare; relevant verifiering godkänd och en batchlogg per passage.
+
+## Approach
+
+Läs aktuella personprofiler och citationsrättelser före första åtkomst.
+Följ source-strategy och method-riksarkivet; fullfölj möjliga oberoende
+passager om en volym är åtkomstbegränsad. Inget ägarmandat för beställning,
+publicering, PDF, dashboard eller nytt privatliv följer av denna task.
+
+## Verification och Outcome
+
+Ännu ej utfört.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsning från granskningsfynd; inga nya källpassager utförda här.
+- Nästa ej utförda steg: läs aktuella profiler och börja första olästa angivna passage efter programmet.
+- Hinder: inga konstaterade; faktisk åtkomst prövas per enhet.
+
+### Adoption av begränsad följdrättelse 2026-09-07, T-0124
+
+Begränsad följdrättelse från T-0124 i P-0241/P-0467/P-0468/P-0469 ska tillgodoräknas före fullpostutvinningen: C-0675/C-0926:s samma original ger Hallin, 1875-01-19 i Tuna, inflyttning från Timrå, Nils Egnar och Ivar Henning 1918-09-28. C-0930:s decemberdatum består som olöst skillnad mellan böckerna. Axelaktens aktuella C-0926-celler är rättade; C-0898:s uttryckliga indexform Hallén behålls. T-0119 öppnas inte på nytt; denna task äger den begränsade fullpostföljden. T-0201 äger full granskning och profilinförande för de tre sidopersonerna.
+
+## Inkommet från T-0201, 2026-09-10: vilka fält som fortfarande är utvinningsluckor
+
+**T-0201 fullgranskade [P-0467](../../genealogy/people/P-0467-nils-august-hallin.md),
+[P-0468](../../genealogy/people/P-0468-nils-eugen-hallin.md) och
+[P-0469](../../genealogy/people/P-0469-ivar-henning-hallin.md)** och
+**tillgodoräknade T-0119:s och T-0124:s begränsade rättelser.**
+
+**Denna uppgift äger fortfarande de återstående fälten på Sättna `A II a/4`
+sida 384.** **Tre akter markerar nu uttryckligen vad som saknas:**
+
+- **yrkeskolumnen är inte avskriven för någon av de tre**, vilket **förs som
+  en utvinningslucka och inte som en prövad tomhet**;
+- **lysningsanteckningarnas exakta innebörd** används enligt C-0675 **inte som
+  eget påstående**, och den avgränsningen står oförändrad;
+- **inflyttningsdatumet 1918-01-04 används i akterna enbart som punkt i en
+  kronologi**, inte som eget påstående.
+
+**Tre uppgifter ur uppslaget som T-0201 räknade och som denna uppgift bör
+känna till:**
+
+1. **Faderskapsanteckningens ord `i Timrå` är en ortsuppgift** — **den
+   placerar Nils August Hallin i Timrå vid undertecknandet, två år innan han
+   flyttade till Sättna.**
+2. **`änkling sedan 1914-08-31` är ett exakt datum**, alltså **ett kvitto på
+   en handling om en första hustru som inte är namngiven någonstans i
+   projektet.** **Den vägen ägs av T-0628.**
+3. **Ivar Hennings månad kan inte avgöras av kronologin** — **6 respektive 9
+   månader efter vigseln, och båda är förenliga med parets egen historia.**
+   **Endast en primärpost avgör.** **Den vägen ägs av T-0628.**
+
+**Ingen av dessa tre kräver denna uppgifts fältutvinning för att gå vidare.**
+
+## Inkommet från T-0674, 2026-09-18T16:38:06+02:00
+
+C-0240:s fulloriginal A0032883_00053 är nu återanskaffat och versionsbundet
+genom `T-0674/C0240-source-capture-v1` (R-1138987dabd5eebe69232f2c@2).
+SHA-256: `d94106481afe0db77a02e0e43ae600955b0ee5d2c7d2f4c65fa7f3e7085dfbd9`.
+Återhämta inte samma bild på nytt. T-0674 äger fortsatt originalrevision
+och följdprövning; första fullpostläsningen är preliminär med ny ortfråga
+och 19 väntande beroendeomprövningar. Se dess senaste Återupptagning.
+Detta slutför inte T-0214:s övriga målunderlag eller persongranskning.
+
+### C-0240-följdprövning 2026-09-18
+
+T-0674 har nu infört fullradens rättelser och individuell följdprövning genom
+`T-0674/C0240-corrections-v1` och `T-0674/C0240-dependency-review-v1`.
+Aktuell post R-1138987dabd5eebe69232f2c@3 och avskrift
+TR-614bc4a80513645992b9beda@2. Fulloriginalet behöver inte återanskaffas och
+raden ska inte börja om. Läsreservationer och ägarens reserverade
+hemortsförtydligande är bevarade. T-0214:s övriga målposter/hänvisningar
+består; inga persongrindar har automatiskt godkänts.
+
+## Återupptagning 2026-09-18: C-0242/C-0243 tillgodoräknas från T-0674
+
+T-0674 har hämtat och registrerat de två fulla originalbilderna, skilda från indexposterna, genom `T-0674/census-original-capture-v1` och `T-0674/census-sattna-adoption-v1`:
+- Sättna1900: R-T0674-original-Folk-022016-027, SHA-256 `c62e0e4cdd14a70be47926d93ddc0cf65e895b70880ff39124fedd123c2d540c`.
+- Sättna1910: R-T0674-original-Folk-122002-026, SHA-256 `f20dc3e0f7b8466842852492043508269bf80c45c3fd35b8a4bfb855d65a2f66`.
+
+Full relevant utvinning för21 berörda familjerader är bevarad i separata M/O-objekt samt låsta läsningar och jämförelse under `genealogy2/verification/T-0674/`. Namn-, ort- och småfältsreservationer står uttryckligen; original och index är samma registreringskedja. Ingen ny helgrind. Återanskaffa inte dessa fullbilder och börja inte om de lästa raderna. Eventuell riktad kontroll ska utgå från den exakta olösta cellen och T-0674:s slutliga omfångsavstämning.
+
+Denna uppgift förblir READY med sina övriga fasta målunderlag. Nästa ej utförda steg är första ännu olästa/obevarade passage i det tidigare omfånget, efter att de nu utförda delarna tillgodoräknats. Ingen ny forskning utförd utanför T-0674 här.
+
+## Återupptagning: T-0675 fol388 tillgodoräknas
+
+C0935 fol388 r6–13 är fullutvunnen genom journal138/141/143, med
+fullbild och låsta läsningar i genealogy2/verification/T-0675.
+Återupprepa inte dessa rader. Rånamn/datum/småtecken är prövade men delvis
+reserverade; detta är ingen oläst helrad. Fl19/42 tillhör Alvy-r8,
+inte modern; N.b.392/-43 hör fadern. C0933/3011 och övriga återstående
+målposter behåller sitt ändliga omfång. Villys konflikt1922mot1927
+får egen födelsepostsuppgift T-0768; hans persondatum ändras inte här.
+
+
+## Återupptagning — hård kärnprioritet 2026-10-05
+
+PCD-2026-10-05-001. Status, after, hela tidigare scope/AC och accepted-source/checkpoints består. Denna uppgift är DEFERRED i den gemensamma Wotankön i väntan på individuell kärntriage; detta är ingen saklig sidopersons- eller färdigbedömning. T-0784 äger separat endast den aktuella identitetsgrindomprövningen för P-0211/P-0003/P-0007 enligt dess exakta personbundna avgränsning. T-0214 behåller alla ursprungliga källpassager/bevarandefält och övriga personer/frågor som inte sakligt slutdispositioneras genom redan accepterat återbruk.
+
+Vid framtida aktivering: läs T0784:s faktiska resultat först om det finns; utför ingen överlappande omprövning eller accepterad fullpostläsning igen. Ett T0784utfall kan behålla UNDERKÄND/AVVAKTAR och identifiera en verklig nödvändig förutsättning här; främja då endast den explicit avgränsade relevanta delen med currentperson/source/time/field, inte hela blandade uppdraget. Ingen passage är utförd eller persongrind ändrad genom denna anteckning. Nästa ejutförda steg i ursprungsscope och alla konkreta äldre restfält bevaras ovan; ingen ny utvidgning.

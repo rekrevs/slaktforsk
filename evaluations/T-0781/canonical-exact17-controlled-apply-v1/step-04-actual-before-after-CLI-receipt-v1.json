@@ -1,0 +1,37 @@
+{
+  "index": 4,
+  "authorization_pin": {
+    "path": "evaluations/T-0781/root-controlled-canonical-exact17-authorization-v1.json",
+    "sha256": "78f616d3f569ec53572bd3e3ffe94f924ff65f58a5ccad70701ff004414551a7"
+  },
+  "operation_pin": {
+    "path": "evaluations/T-0781/implementation/ten-exact-current-record-support-version-supersessions-v1/01-same-version-exact-current-support-operation-v1.json",
+    "sha256": "c32aea3f71843f937361c531daa3007812ad8b7c17cd470d1a34505a4030da51"
+  },
+  "operation_id": "T-0781/C0049-READ-source-scope-v1",
+  "before": {
+    "journal_head": 428,
+    "pending": 14
+  },
+  "reviewed_stage_step_pin": {
+    "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-04-actual-before-after.json",
+    "sha256": "2eeae5e42c22dca9dcc22c879e539200b217dcf1cd69b550e7ea14dda1819353"
+  },
+  "started_at_utc": "2026-10-04T16:24:53.301600+00:00",
+  "argv": [
+    "node",
+    "genealogy2/cli.mjs",
+    "apply",
+    "evaluations/T-0781/implementation/ten-exact-current-record-support-version-supersessions-v1/01-same-version-exact-current-support-operation-v1.json"
+  ],
+  "exit_code": 0,
+  "after": {
+    "journal_head": 429,
+    "pending": 14
+  },
+  "MAIN_pin_after": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "c85048c09f1da1e054da6ce08003618096f06b35ecfc1df3838977bd26d947bc"
+  },
+  "finished_at_utc": "2026-10-04T16:24:59.003599+00:00"
+}

@@ -1,0 +1,93 @@
+{
+  "authorization_pin": {
+    "path": "evaluations/T-0781/root-six-exact-approved-owner-appends-authorization-v1.json",
+    "sha256": "048076302076481614def11e5736e5dcaef2f75b9eeef4c09efc16ba732c77b8"
+  },
+  "plan_pin": {
+    "path": "evaluations/T-0781/implementation/six-future-owner-append-only-administration-plan-v1/six-individual-reviewable-append-only-owner-plan-v1.json",
+    "sha256": "ef580868758bbd2a6ed524802310e70d247e12a8c701e947bd58ed5b933b9f9a"
+  },
+  "historical_plan_whole_backlog_pin": {
+    "path": "wotan/backlog.json",
+    "sha256": "b15f4198ed95c6b2b2b175618ed7d33bb52f42ebf66e9002ea61c67bb75e6dd1"
+  },
+  "actual_fresh_backlog_pin": {
+    "path": "wotan/backlog.json",
+    "sha256": "b15f4198ed95c6b2b2b175618ed7d33bb52f42ebf66e9002ea61c67bb75e6dd1"
+  },
+  "whole_backlog_pin_note": "Earlier full-backlog pin remains historical. Each exact six owner entry and every original log byte freshly verified unchanged.",
+  "fresh_exact_six_entries": [
+    {
+      "id": "T-0205",
+      "status": "READY",
+      "size": "M",
+      "after": [],
+      "summary": "Jomark: full utvinning av befintliga målposter",
+      "note": "Avgränsad forskningsföljd avT-0117; efter det prioriterade konsolideringsprogrammet."
+    },
+    {
+      "id": "T-0206",
+      "status": "BLOCKED",
+      "size": "M",
+      "after": [
+        "T-0205"
+      ],
+      "summary": "Jomarksystrarna: egna födelseposter och första fortsättningsankare",
+      "note": "Avgränsad forskningsföljd avT-0117; efter det prioriterade konsolideringsprogrammet.",
+      "blocker": "Inväntar T-0205:s målposthänvisningar."
+    },
+    {
+      "id": "T-0208",
+      "status": "BLOCKED",
+      "size": "M",
+      "after": [
+        "T-0205"
+      ],
+      "summary": "Anders Alfred: hushållsbryggan1874–1894",
+      "note": "Avgränsad forskningsföljd avT-0117; efter det prioriterade konsolideringsprogrammet.",
+      "blocker": "Inväntar T-0205:s målposthänvisningar."
+    },
+    {
+      "id": "T-0564",
+      "status": "READY",
+      "size": "M",
+      "after": [
+        "T-0181",
+        "T-0115"
+      ],
+      "summary": "Bygdeå C/5 årgångarna 1865, 1869 och 1877: tre egna födelsenotiser i Ultervattnet",
+      "note": "Avgränsad följd från T-0181; exakt källomfång i dev-log."
+    },
+    {
+      "id": "T-0569",
+      "status": "READY",
+      "size": "M",
+      "after": [
+        "T-0181",
+        "T-0115"
+      ],
+      "summary": "Ultervattnets övriga hushåll omkring 1872 och Anders Olofssons familj före 1863",
+      "note": "Avgränsad följd från T-0181; exakt källomfång i dev-log."
+    },
+    {
+      "id": "T-0578",
+      "status": "READY",
+      "size": "M",
+      "after": [
+        "T-0182",
+        "T-0115"
+      ],
+      "summary": "Ortnamnet Ytteråträsk mot en annan skriftbärare: P-0107",
+      "note": "Avgränsad följd från T-0182; exakt källomfång i dev-log."
+    }
+  ],
+  "main_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "42321e363573c243597aded458e6a10d2d6cd8e4be47da02a227b149bbaed45f"
+  },
+  "actual_state": {
+    "journal_head": 442,
+    "pending": 0
+  },
+  "all_six_preflight_guards_passed": true
+}

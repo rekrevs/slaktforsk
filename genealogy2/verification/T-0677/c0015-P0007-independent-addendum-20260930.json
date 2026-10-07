@@ -1,0 +1,90 @@
+{
+  "task": "T-0677",
+  "citation": "C-0015",
+  "reader": "independent Astra /root/g001_continue/c0016_independent",
+  "locked_at": "2026-09-30T20:28:22.274657+00:00",
+  "state": "bounded_P0007_addendum_locked",
+  "inputs": {
+    "genealogy2/verification/T-0677/c0015-prestart-person-P-0007-j221-20260930.json": "b908674c4f86248423ea43ee277f600141019a70d220a88d953db35a0ad55bab",
+    "genealogy2/verification/T-0677/c0015-prestart-person-P-0016-j221-20260930.json": "f6ca684cd6ef854c9709f4ae842e6cc3c51db411f595d053369fa2d9612a9147",
+    "genealogy/citations/C-0015-maj-amalia-kandidat-folkrakning-1930.md": "16d05888ff5e4c7fa6fba77875dda5d5d2caa4fa8a2c24d7dbc0673b4414f3fb",
+    "genealogy2/verification/T-0677/c0015-person-P0017-independent-context-20260930.json": "1d8b897cbcb88a4b38409ab401e5334b799bcd3489fc37105af5a76399480469"
+  },
+  "read_scope": "Endast BIO-P0007@4 andra stycke, F-P0007-education-1930@1, E-arrival1929-P0007@1/egen participation samt moderns E-registered_arrival-P0016-Hyltinge1929@1 och tidigare låst C0015/P0017underlag. Dessa aktuella objekt verifierade i j221capture; ingen ny helresearch eller originalbild.",
+  "proposed_exact_edits": [
+    {
+      "object_id": "BIO-P-0007",
+      "revision_id": "BIO-P-0007@4",
+      "expectedVersion": 4,
+      "field": "markdown",
+      "layer": "data",
+      "mode": "replace_once",
+      "old": "1929 flyttade mor och döttrar till Hyltinge, och folkräkningen 1930 visar dem på Skarvnäs ägor, Solliden — i en egen familjegrupp på samma boställe som fadern och två av hans döttrar från äktenskapet.",
+      "new": "Maj och modern har var sin registrerad inflyttningsuppgift från Helgesta till Hyltinge 1929. Någon egen inflyttningsuppgift för Hulda Margareta är inte bevarad i C-0015. Indexsammanfattningen 1930 placerar modern, Maj och Hulda Margareta i familj 2 på Skarvnäs ägor, Solliden; Hulda Margaretas rad är däremot inte synlig på den bevarade C-0019-sidan enligt den tidigare avgränsningen. Den tidigare källjämförelsen anger fadern och två av hans döttrar från äktenskapet i en separat familjegrupp på samma boställe.",
+      "reason": "Inflyttningsåret hålls personbundet till Maj/moderns befintliga registreringsuppgifter. Ingen transport av året till systern eller gemensamt fysiskt resförlopp. Skiljer indexets tre personer från den tidigare avgränsade bildgruppens två."
+    },
+    {
+      "object_id": "BIO-P-0007",
+      "revision_id": "BIO-P-0007@4",
+      "expectedVersion": 4,
+      "field": "markdown",
+      "layer": "data",
+      "mode": "replace_once",
+      "old": "Maj skrevs då Eriksson, var ogift och hade småskola och folkskola bakom sig.",
+      "new": "Maj skrevs då Eriksson, var ogift och noterades med skolbildningskoden `3`, i den bevarade indexsammanfattningen förklarad som `småskola, folkskola`; detta belägger inte avslutad skolgång eller examen.",
+      "reason": "Koden och dess bevarade expansion är registeruppgift; inte belägg för avslutad utbildning. Befintligt F education@1 har redan denna reservation."
+    }
+  ],
+  "retained_objects": [
+    {
+      "object": "F-P-0007-education-1930@1",
+      "decision": "retain",
+      "reason": "code3/meaning småskola och folkskola med uttrycklig caveat inte belagd avslutad examen; ingen egen ny kodexpansion prövas."
+    },
+    {
+      "object": "E-arrival1929-P-0007@1",
+      "decision": "retain",
+      "reason": "registered_arrival/år1929, Helgesta till Hyltinge, explicit bokföringsuppgift ej fysisk vistelse."
+    },
+    {
+      "object": "EP-E-arrival1929-P-0007-P-0007-principal@1",
+      "decision": "retain",
+      "reason": "Gäller endast Maj, ingen P0017participation följer."
+    },
+    {
+      "object": "E-registered_arrival-P-0016-Hyltinge1929@1",
+      "decision": "retain",
+      "reason": "Befintligt eget registrerat år med reservation om okänd exakt dag/mellanliggande hushåll; inget nytt bildbelägg."
+    }
+  ],
+  "dependency_phrases": [
+    {
+      "phrase": "folkräkningen 1930 visar dem",
+      "decision": "qualify_with_edit",
+      "reason": "Kan felaktigt läsas som att alla tre syns på bevarad originalbild. Ny text anger indexet och C0019s tidigare bildgräns separat."
+    },
+    {
+      "phrase": "Att två familjegrupper stod på samma boställe säger inget om ett gemensamt hushåll.",
+      "decision": "retain",
+      "reason": "Redan korrekt gräns; gemensam adress skapar inte gemensamt hushåll eller nytt släktskap."
+    },
+    {
+      "phrase": "Flens församlingsböcker ... Majs helsyster ... folio744 ... administrativt beroende ... egen födelsepost ... oläst",
+      "decision": "retain",
+      "reason": "Senare individuellt föräldra-/helsysterstöd hålls uttryckligt åtskilt från1930gruppplaceringen och från oberoende födelsevittnen."
+    },
+    {
+      "phrase": "Barndomen tillbringades i Helgesta",
+      "decision": "separate_unresolved_continuity_claim_not_accepted_here",
+      "reason": "C0015 visar tidigare församling vid registrerad ankomst1929, inte obruten uppväxt från1920. Faderns flytt och systerns födelse är inte i sig Majs vistelse. Denna fras sakgodkänns inte av de två föreslagna preciseringarna; håll dess behandling skild från skolbildning/1929gruppinferenstexten."
+    }
+  ],
+  "counts": {
+    "exact_edits": 2,
+    "unique_existing_objects": 1,
+    "new_facts": 0,
+    "status_changes": 0
+  },
+  "canonical_mutation": false,
+  "new_image_or_external_access": false
+}

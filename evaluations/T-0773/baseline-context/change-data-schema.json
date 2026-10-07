@@ -1,0 +1,132 @@
+{
+  "transcription": [
+    {
+      "name": "revision_id",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "record_id",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "text",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "reading_note",
+      "type": "TEXT",
+      "not_null": true
+    }
+  ],
+  "observation": [
+    {
+      "name": "revision_id",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "record_id",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "mention_id",
+      "type": "TEXT",
+      "not_null": false
+    },
+    {
+      "name": "property",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "value_literal",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "value_json",
+      "type": "TEXT",
+      "not_null": false
+    }
+  ],
+  "assessment": [
+    {
+      "name": "revision_id",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "subject_id",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "criteria",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "outcome",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "body",
+      "type": "TEXT",
+      "not_null": true
+    }
+  ],
+  "record": [
+    {
+      "name": "revision_id",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "source_id",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "record_type",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "locator",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "dependence_note",
+      "type": "TEXT",
+      "not_null": true
+    }
+  ],
+  "person": [
+    {
+      "name": "revision_id",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "display_name",
+      "type": "TEXT",
+      "not_null": true
+    },
+    {
+      "name": "sex",
+      "type": "TEXT",
+      "not_null": false
+    },
+    {
+      "name": "legacy_state",
+      "type": "TEXT",
+      "not_null": false
+    }
+  ]
+}

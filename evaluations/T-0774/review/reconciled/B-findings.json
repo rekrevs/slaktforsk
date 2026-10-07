@@ -1,0 +1,138 @@
+{
+  "case": "B",
+  "findings": [
+    {
+      "id": "B-F01",
+      "field": "scope",
+      "own_first": "Hela563:s sju rader",
+      "primary_first": "Trepersonsklammer",
+      "decision": "Revidera tillKarl/Charlotta/Arne som målgrupp; fyra övriga rader gränskontext",
+      "grounds": "Tryckt vänsterspalt skiljer församlingsbokens uppslag frånHushåll. Tre separata1 medegna klamrar inom563. Min hela563-hushållsmodell var fel."
+    },
+    {
+      "id": "B-F02",
+      "field": "Karl_name",
+      "own_first": "Karl Fredrik [Jon…?]",
+      "primary_first": "Karl Fredrik Jörmark/Jönmark[?]",
+      "decision": "Karl Fredrik; efternamnJörmark/Jönmark[?]",
+      "grounds": "Fredrik har klart namnformstöd; locatorGustaf tas inte över. Efternamnspåretsö/öga+mark-lik slut mer förenligt medprimärhypotes än minJon…; fortfarande osäkert."
+    },
+    {
+      "id": "B-F03",
+      "field": "Charlotta_name",
+      "own_first": "Charlotta Vilhelmina Larsson",
+      "primary_first": "Charlotta Wilhelmina f.Lorentz",
+      "decision": "Wilhelmina f.Lorentz[?]",
+      "grounds": "Synlig f-form, storL ochslutentz-lika tecken i ny crop. Inte skäl att ge säker normaliserad födelsenamnsidentitet."
+    },
+    {
+      "id": "B-F04",
+      "field": "Arne_name",
+      "own_first": "Arne Godvig Jonsson",
+      "primary_first": "Arne Godvig Örna[?]m",
+      "decision": "Arne Godvig; efternamnolöst,Örna[?]m hypotes",
+      "grounds": "Versalen harloop/båge somskiljer sig frånJ iJonsson på andra rader; minJonsson säkerhet återtas. ÄldreJansson är separat evidens."
+    },
+    {
+      "id": "B-F05",
+      "field": "Charlotta_year",
+      "own_first": "69",
+      "primary_first": "67",
+      "decision": "67",
+      "grounds": "Sista siffrans långa snedaform liknar7 i andraår67,inte9:s loop. Ingen sekelsiffra i cell."
+    },
+    {
+      "id": "B-F06",
+      "field": "Arne_relationship",
+      "own_first": "[f.d.s.?]överstruket,[d.s.?]ovan",
+      "primary_first": "fosts.[struket];d:s.[ovan]",
+      "decision": "fosts.[?]struket;d:s.[?]ovan",
+      "grounds": "Det ursprungliga längreordet harfost-lik text; ovanställdkortform d:s. möjlig. Strykning ochkortform måste bevaras.Äldreindexd.s. är inte nyttbildbevis."
+    },
+    {
+      "id": "B-F07",
+      "field": "Arne_occupation",
+      "own_first": "Olerard",
+      "primary_first": "Polerare",
+      "decision": "Polerare",
+      "grounds": "StorP-loop ochnamnjämförelse samt slut-are tydligare änminförstaform. Yrkes222-51 separat administrativ kod."
+    },
+    {
+      "id": "B-F08",
+      "field": "Arne_birthplace",
+      "own_first": "Järs.",
+      "primary_first": "Förs.",
+      "decision": "Förs.",
+      "grounds": "StorF-form matchar upprepadeFörs.-texter;minJärs överges. SidhuvudFlens förs stödjer kontext men fullort är inte diplomatiskt utskriven."
+    },
+    {
+      "id": "B-F09",
+      "field": "migration_code_Karl",
+      "own_first": "243",
+      "primary_first": "242",
+      "decision": "242 Skedevi",
+      "grounds": "Sista kodtecknet matchar2 i242 i grannrad; Skedevi text egenfält,Charlotta ditoankareKarl."
+    },
+    {
+      "id": "B-F10",
+      "field": "administrative_occupation_code",
+      "own_first": "4-623+00",
+      "primary_first": "1-623-00",
+      "decision": "[1/4]-623-[+]00 osäkert",
+      "grounds": "Blyertspålägg ochingångsform lämnar alternativ. Code måste separat råvärde,ej normaliserad yrkestitel."
+    },
+    {
+      "id": "B-F11",
+      "field": "communion",
+      "own_first": "n",
+      "primary_first": "m[?]",
+      "decision": "m[?],osäkert",
+      "grounds": "Kort tvåböjd form somandra samma-spalt-rader. Skilj läst spår frånbegått-nattvard-slutsats."
+    },
+    {
+      "id": "B-F12",
+      "field": "code_spalt",
+      "own_first": "ortkod",
+      "primary_first": "mother_delivery_register_code",
+      "decision": "Moderns kyrkobokföringsspalt; raw000/232/X-",
+      "grounds": "Tryckt header angerModerns kyrkobokföringsort. Min etikettortkod var förgenerisk; koppla inte tillbarnets födelseort ellerstats/region utanprövning."
+    },
+    {
+      "id": "B-F13",
+      "field": "right_child_code",
+      "own_first": "barn_levande_ejhemma04-0-1-0-00",
+      "primary_first": "children_living_here04-0-1-0-00",
+      "decision": "Kod finns i levande men ejboende kolumn; här-kategorisering fel",
+      "grounds": "Headerbarn levande men ejboende i föräldrahemmet; primaryfieldchildren_living_here motsäger rubrik. Behållråserie utan demografisk upplösning.292-5/fabr.arb. ärblyerts inomskolbildningsfältet,ejArnesdata."
+    }
+  ],
+  "batches_max": 6,
+  "scope": "Three targetrows;adjacent groups onlycontext",
+  "blocking_unqualified_errors": [
+    "Do not call563 a singlehousehold.",
+    "Do not call04-0-1-0-00 childrenlivinghere.",
+    "Do not retainmyJonsson/Larsson/69/Järs/Olerard assecure sourcevalues."
+  ],
+  "first_freeze_unchanged": true,
+  "primary_reconciled_compare": {
+    "scope": "Read currentscope+reconciliation+alluncertainties+selected correctedfields targetrows2–4;not entire7rowmatrix",
+    "resolved": [
+      "Targetthreepersonscope",
+      "Codecolumnmotherregistration",
+      "Charlotta67",
+      "ArnePolerare/Förs.",
+      "m[?]nattvard",
+      "barn_levande_ejhemma fieldlabelcorrected"
+    ],
+    "remaining_findings": [
+      {
+        "field": "uncertainties",
+        "issue": "Top-leveluncertainties still contain first ArneOlerard,Järs. as currenttentative readings,while currentfields Polerare/Förs. areläst. Rebuild currentuncertainties fromreconciledfields;preserveoldhypotheses onlyin history."
+      },
+      {
+        "field": "raw alternatives",
+        "issue": "RetiredLarsson/Jonsson remain alternatives inraw withqualifierwithdrawn. Prefercurrentrawhypotheses only;historycanretainretiredforms. Notforcedconsensus."
+      }
+    ]
+  }
+}

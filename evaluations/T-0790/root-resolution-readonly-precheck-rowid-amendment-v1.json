@@ -1,0 +1,13 @@
+{
+  "task": "T-0790",
+  "error": "sqlite3.OperationalError: no such column: rowid in readonly physical-row capture of WITHOUT ROWID table",
+  "stage_state_unchanged": {
+    "journal_head": 455,
+    "pending": 9
+  },
+  "stage_sha256_unchanged": "29c63298378bddc0c75a994ff3ce5de90ba42c07a3d219f81d053cfed484fdac",
+  "resolution_operation_absent": true,
+  "apply_not_called": true,
+  "initial_attempt_preserved": "preparation/reviewed-stage-v1/nine-resolution-actual/before.json",
+  "repair_authorized": "Respect sqlite_master WITHOUT ROWID for readonly comparison; keep full table exact. Only one actual approved same-stage CLI apply remains authorized. No new clone/regrade/operation or canonical."
+}

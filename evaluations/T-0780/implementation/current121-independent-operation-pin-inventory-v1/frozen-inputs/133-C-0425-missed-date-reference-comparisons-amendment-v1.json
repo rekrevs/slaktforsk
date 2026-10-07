@@ -1,0 +1,86 @@
+{
+  "citation": "C-0425",
+  "status": "ADDITIVE CORRECTION OF INDEPENDENT CONSEQUENCE MISSES; FIRST RAW UNCHANGED",
+  "prior_files": [
+    {
+      "path": "evaluations/T-0780/fresh-independent-review/C-0425-own-reading-v1.md",
+      "sha256": "efca12842c1be7cf758336bfd7d1aeee26634d0e67a0ad3b15fdb35c738e617e"
+    },
+    {
+      "path": "evaluations/T-0780/fresh-independent-review/C-0425-selected27-observation-reading-v1.json",
+      "sha256": "23b7264b854bc7ea66bbe30c6fe4cee19905d8c9e4e10ce2caf7a8bf74d571fd"
+    }
+  ],
+  "exposure": "Primary independently rechecked current/source and explicitly alerted reviewer to two missed comparisons; this is not a new blind reading.",
+  "own_frozen_line11": "Rb006... familyrows10–15plusinsertion:AndersPetterJakobsson,Bonde,1863 18/5,v,gift30/11 98,in`seofvan`,military46 175/1884,outnb1096;h.MathildaEronberg1870 31/3,v,gift98 30/11,in84198;d.RuthMariaMathilda1899 28/11,struck,death15/12 99;s.AndersHugo1901 20/2,v;JuliaMaria1903 16/2,v;JohanArtur1905 31/7,v;struckStigEmil1908 14/11,death3/12 08(probableday3). Ruth/Stigvaccblank. Childmarriages/movement/deathotherthanlistedblank.",
+  "current_full_objects": [
+    {
+      "object_id": "O-P-0096-child-Anders-Hugo",
+      "revision_id": "O-P-0096-child-Anders-Hugo@1",
+      "kind": "observation",
+      "disposition": "recorded",
+      "evidence_status": "TRANSCRIBED",
+      "rationale": "Överför uttryckligt befintligt underlag med bevarad räckvidd och försiktighet.",
+      "caveat": " Ingen ny personkärna, medicinsk orsak eller diagnos för föräldrarna.",
+      "data": {
+        "revision_id": "O-P-0096-child-Anders-Hugo@1",
+        "record_id": "R-b006cd90d7ace0e063db3559",
+        "mention_id": "M-C0425-Anders-Petter-child-Anders-Hugo",
+        "property": "child_entry",
+        "value_literal": "Anders Hugo;född1901-06-20",
+        "value_json": "{\"birth_reported\":\"1901-06-20\",\"death_reported\":null,\"name\":\"Anders Hugo\",\"parents\":[\"Anders Petter Jakobsson\",\"Mathilda Granberg\"]}"
+      },
+      "evidence": [
+        {
+          "revision_id": "O-P-0096-child-Anders-Hugo@1",
+          "basis_revision_id": "M-C0425-Anders-Petter-child-Anders-Hugo@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "O-P-0096-child-Anders-Hugo@1",
+          "basis_revision_id": "R-b006cd90d7ace0e063db3559@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "object_id": "O-P-0096-wife",
+      "revision_id": "O-P-0096-wife@1",
+      "kind": "observation",
+      "disposition": "recorded",
+      "evidence_status": "TRANSCRIBED",
+      "rationale": "Överför uttryckligt befintligt underlag med bevarad räckvidd och försiktighet.",
+      "caveat": "Ingen P-identitet, föräldrakoppling eller fysisk flyttdag skapas. Ursprungssidan844 och egen vigselpost är olästa.",
+      "data": {
+        "revision_id": "O-P-0096-wife@1",
+        "record_id": "R-b006cd90d7ace0e063db3559",
+        "mention_id": "M-C0425-Mathilda-Granberg",
+        "property": "spouse_entry",
+        "value_literal": "Mathilda Granberg;1870 3/12;från844 år98;gift30/11 1898",
+        "value_json": "{\"birth_reported\":\"1870-12-03\",\"incoming\":\"folio844,1898\",\"marriage\":\"1898-11-30\",\"name\":\"Mathilda Granberg\",\"spouse\":\"Anders Petter Jakobsson\"}"
+      },
+      "evidence": [
+        {
+          "revision_id": "O-P-0096-wife@1",
+          "basis_revision_id": "M-C0425-Mathilda-Granberg@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "O-P-0096-wife@1",
+          "basis_revision_id": "R-b006cd90d7ace0e063db3559@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    "O-P0096-child-Anders-Hugo@1 value_literal and JSON birth_reported1901-06-20 require source-bound1901-02-20 from frozen own20/2.",
+    "O-P0096-wife@1 value_literal and JSON birth_reported1870-12-03 require source-bound1870-03-31 from frozen own31/3; incomingfolio844 in literal/JSON/caveat requires841 year98, as own raw84198. Preserve surname reservation and separate marriage date; no new person or physical move conclusion."
+  ],
+  "production_failure": "Full current observations had been read and preserved; independent findings list incorrectly omitted these direct source/current date/reference disagreements. Source reading was already correct; consequence comparison failed first pass. Preserve initial receipt unchanged.",
+  "remaining": "Primary must settle exact edits and semantic copies/dependencies; final implemented full package review pending."
+}

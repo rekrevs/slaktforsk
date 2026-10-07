@@ -1,0 +1,279 @@
+{
+  "case": "A",
+  "peer_findings": "review/claims/A-review-findings.json",
+  "first_source_freezes_unchanged": true,
+  "reviewer_initial_freeze_unchanged": true,
+  "copy_responses": [
+    {
+      "finding": "A-RF01",
+      "disposition": "accepted with individual exactcopyrevision",
+      "claim": "A-079",
+      "object": "KEY-P-0007-bf37119ff18f@1",
+      "field": "body",
+      "start": 180,
+      "end": 217,
+      "before": "Säker; datumet upprepas i sju poster.",
+      "after": "Exakt födelse och dop återbrukas från C-0028. De sju korrelerade posterna återger inte alla fulla datum: C-0019 har bara år och SCB C-0020 ger här dag/månad med äldre locatorår; samma födelseregistrering är inte två oberoende röster.",
+      "grounds": "The current finalcell overstates exactdate repetition; sourceA no visibleyear and ownC0019 year-only are already explicit. Retain strongexactevent while narrowingprecisionclaim.",
+      "old_support": [
+        "R-C0028-15@1 locator + E-birth-P-0007@1 exact date",
+        "ADOPT-T0677-C0019-P-0007@1 body0:587 explicit year-only",
+        "TR-T0677-C0019-family2@1 reading_note"
+      ]
+    },
+    {
+      "finding": "A-RF02",
+      "disposition": "accepted with individual exactcopyrevision",
+      "claim": "A-080",
+      "object": "BIO-P-0007@6",
+      "field": "markdown",
+      "start": 1212,
+      "end": 1273,
+      "before": "Hennes egen bokföring mellan födelsen och 1929 är inte följd.",
+      "after": "Hennes initiala egenrad 16 i Hyltinge på uppslag 13 är redan lokaliserad och läst; den fortsatta bokföringskedjan fram till 1929 är inte fullständigt följd.",
+      "grounds": "Separate currentcopy omits the already sufficient initialownrow; initialrow and subsequentgap mustbothbevisible.",
+      "old_support": [
+        "O-P-0007-located-own-row@1 value_json",
+        "O-P-0016-widow-row13-variant@1 value_json",
+        "F-P-0016-civil_status-widow1913@1 caveat"
+      ]
+    },
+    {
+      "finding": "A-RF03",
+      "disposition": "accepted with individual exactcopyrevision",
+      "claim": "A-081",
+      "object": "BIO-P-0016@1",
+      "field": "markdown",
+      "start": 1000,
+      "end": 1049,
+      "before": "Maken dog av lungsot i Helgesta den 11 mars 1913.",
+      "after": "Maken uppges ha dött av lungsot i Helgesta den 11 mars 1913. Huvuddatumet kvarstår, men C-0919:s egen rad 13 har den bevarade råformen 13 ⁴/₃ (4 mars); läsosäkerhet eller verklig avvikelse är olöst.",
+      "grounds": "Exactwidowday conflict is already recorded andcannot be resolved by SCBnoownwidowday. Preserve maindeathcontext whilemakingconflict visibleinthiscopy.",
+      "old_support": [
+        "O-P-0007-located-own-row@1 value_json",
+        "O-P-0016-widow-row13-variant@1 value_json",
+        "F-P-0016-civil_status-widow1913@1 caveat"
+      ]
+    },
+    {
+      "finding": "A-RF04",
+      "disposition": "accepted with individual exactcopyrevision",
+      "claim": "A-082",
+      "object": "KEY-P-0007-5c939ee32973@2",
+      "field": "body",
+      "start": 32,
+      "end": 53,
+      "before": "änka sedan 1913-03-11",
+      "after": "änka sedan huvuddatumet 1913-03-11, med olöst C-0919-råvariant 13 ⁴/₃ (4 mars)",
+      "grounds": "The priorwholekeykeep A072 omitted exactdayqualification fromtext. Retain name/spouseidentity butqualify this precisionin the keyitself.",
+      "old_support": [
+        "O-P-0007-located-own-row@1 value_json",
+        "O-P-0016-widow-row13-variant@1 value_json",
+        "F-P-0016-civil_status-widow1913@1 caveat"
+      ]
+    },
+    {
+      "finding": "A-RF05",
+      "disposition": "accepted with individual exactcopyrevision",
+      "claim": "A-083",
+      "object": "KEY-P-0007-5c939ee32973@2",
+      "field": "body",
+      "start": 485,
+      "end": 535,
+      "before": "Säkra; moderns änkedatum binder henne till P-0532.",
+      "after": "Person- och makidentiteten är etablerade; huvudänkedatumet 11 mars har den bevarade, olösta C-0919-råvarianten 4 mars och omväljs inte av SCB-posten.",
+      "grounds": "This additional finalcell claimed unwarranteddaycertainty; the establishedspousebinding ispositiveoldknowledge andremains distinctfromdayconflict.",
+      "old_support": [
+        "O-P-0007-located-own-row@1 value_json",
+        "O-P-0016-widow-row13-variant@1 value_json",
+        "F-P-0016-civil_status-widow1913@1 caveat"
+      ]
+    },
+    {
+      "finding": "A-RF06",
+      "disposition": "accepted with individual exactcopyrevision",
+      "claim": "A-084",
+      "object": "RESEARCH-P-0015-9d76f0343410@2",
+      "field": "body",
+      "start": 4617,
+      "end": 4715,
+      "before": "Ingen sakuppgift är osäker och ingen\nkälla är oläst; det som fattas är två nedladdningar med hash.",
+      "after": "T-0774 återbrukar de etablerade identitetsuppgifterna men kvalificerar denna äldre absoluta formulering: SCB-posten har verkliga råreservationer, erkännandets egen handling och hustruns egen dödpost är olästa, och bevarandeskulder är skilda från dessa sak- och källgränser.",
+      "grounds": "Globalcertainty/unreadassertion contradicts already explicitsource/residuals. Do not downgrade acceptedidentity orstrongdates; remove absolutestatus while retaining historicalversion.",
+      "old_support": [
+        "THEME-P-0015-REL@1 body0:573",
+        "KEY-P-0015-5f8176073822@1 body0:363",
+        "candidate/reconciled/A.json uncertainties"
+      ]
+    },
+    {
+      "finding": "A-RF07",
+      "disposition": "accepted with individual exactcopyrevision",
+      "claim": "A-085",
+      "object": "RESEARCH-P-0015-9d76f0343410@2",
+      "field": "body",
+      "start": 4793,
+      "end": 4848,
+      "before": "och därför\nfaller spärren så snart filerna är bevarade.",
+      "after": "men bevarande leder inte automatiskt till godkänd identitetsgranskning eller BÄRANDE trädverkan; kvarvarande krav måste prövas uttryckligen och AVVAKTAR består här.",
+      "grounds": "Currentno-promotionprefix and preservationscope prohibit treating filepresence asautomaticgateapproval.",
+      "old_support": [
+        "ASSESSMENT-P-0015@1 body",
+        "RESEARCH-P-0015-9d76f0343410@2 currentprefix",
+        "KEY-P-0015-5f8176073822@1 body"
+      ]
+    },
+    {
+      "finding": "A-RF08",
+      "disposition": "accepted with individual exactcopyrevision",
+      "claim": "A-086",
+      "object": "P-0016/Q-04@1",
+      "field": "body",
+      "start": 243,
+      "end": 275,
+      "before": "C-0028 moderskap 1920 i Hyltinge",
+      "after": "C-0028 moderskap 1920 i Hyltinge och C-0919:s redan lästa eget hushåll på uppslag 13 raderna 13–16, med Maj på rad 16",
+      "grounds": "Reuse positiveownmotherhousehold asknownanchor inthisactual1913–1929question; fatherdeparture remainsnontransferable.",
+      "old_support": [
+        "O-P-0007-located-own-row@1 value_json",
+        "R-e15535f496176e63f9c9b415@1 caveat"
+      ]
+    },
+    {
+      "finding": "A-RF09",
+      "disposition": "accepted with individual exactcopyrevision",
+      "claim": "A-087",
+      "object": "PATH-P-0016-KP-01@1",
+      "field": "body",
+      "start": 918,
+      "end": 947,
+      "before": "C-0919 två fol 16 utan henne.",
+      "after": "C-0919:s två gamla fol16-prövningar är avgränsad sökhistorik; hänvisningen är redan rättad till rad 16 på uppslag 13, där hennes eget hushåll på raderna 13–16 och Majs rad är lästa.",
+      "grounds": "Bothfailedtests maystayhistory but cannot implyabsenceafterknownpositiveownhousehold. Continuationgap stillopen.",
+      "old_support": [
+        "O-P-0007-located-own-row@1 value_json",
+        "R-e15535f496176e63f9c9b415@1 caveat"
+      ]
+    },
+    {
+      "finding": "A-RF10",
+      "disposition": "accepted with individual exactcopyrevision",
+      "claim": "A-088",
+      "object": "KEY-P-0016-7188e33f657e@1",
+      "field": "body",
+      "start": 394,
+      "end": 485,
+      "before": "Egen hushållsbrygga 1913–1929 återstår; Axel Edvards utflyttning 1920 är inte hennes datum.",
+      "after": "Hennes eget hushåll 1920 på Hyltinges uppslag 13 raderna 13–16 är redan läst. Den sammanhängande bryggan 1913–1929 återstår; Axel Edvards utflyttning 1920 är inte hennes datum.",
+      "grounds": "Thiscopy mustcarry thesamepositive1920anchorwithoutclaimingclosed1913–1929chain or borrowingfathermigrationday.",
+      "old_support": [
+        "O-P-0007-located-own-row@1 value_json",
+        "R-e15535f496176e63f9c9b415@1 caveat"
+      ]
+    }
+  ],
+  "integration_responses": [
+    {
+      "finding": "A-RI01",
+      "disposition": "accepted",
+      "action": "A037 exactfullfirstsentence now preservesdate/parentage and putsSvartgjölstorp parentresidence in aseparategrammaticalsentence."
+    },
+    {
+      "finding": "A-RI02",
+      "disposition": "accepted",
+      "action": "Each newpersonadoption now has exactolderversionedbirth/occupation/household/widow/identitycontext evidence, in additionto fullSCBsource."
+    },
+    {
+      "finding": "A-RI03",
+      "disposition": "accepted",
+      "action": "WithdrawnA027 savedin A-history; replacedby A027a1920job/A027bcottage/A027ccontinuity; 1902/04/1910 clausesnot judgedasnewAclaims; A029/A030 movedto batch015, all15batches<=6actualclaims."
+    },
+    {
+      "finding": "A-RI04",
+      "disposition": "accepted",
+      "action": "All structureddataquotes now include quoted_value exactlyequaltoolddatafield; underlyingfactualvalues unchanged."
+    },
+    {
+      "finding": "A-RI05",
+      "disposition": "accepted",
+      "action": "A002 aftertext lacksduplicatedterminalperiod and explicitlypreservesweakmonth5alternative in fullrawmatrix; exactpersondate unchanged."
+    }
+  ],
+  "accepted_reciprocal_additions": [
+    {
+      "object": "KEY-P-0007-920781c16092@1",
+      "primary": "A-008",
+      "response": "Accepted revision: keywrongfol16no-throughroute contradicted by existingrad16ownhousehold. Initialscreenmissed key because oldquery omittedfol16 concepts; frozeninventory retained asinitial, not retroactively enlarged."
+    },
+    {
+      "object": "KEY-P-0007-885be7eb93c0@1",
+      "primary": "A-044",
+      "response": "Accepted qualification ofexclusivechildhoodentry; owninitialrow isknown. Exactwholebody reread fromj227 afterpeer."
+    },
+    {
+      "object": "ASSESSMENT-P-0007@2",
+      "primary": "A-018",
+      "response": "Accepted timelinecopycorrection. My initialgatekeep did notindividuallyreview its unlocalizedtimelinephrase, so this is a realinitialcoveragegap."
+    },
+    {
+      "object": "CONTRACT-P-0015-PK-10@1",
+      "primary": "A-078",
+      "response": "Accepted boundedqualification ofpreviousconsolidationstatement; preserveslegacySTYRKT anddoesnotmake newfullcontractpass. Exactwholebaselinebody reread."
+    },
+    {
+      "object": "CONTRACT-P-0007-PK-09@1",
+      "primary": "A-016",
+      "response": "Accepted individualkeep for parentnamingversusparishrecognition; othercontractthemes outsideA remainseparate."
+    },
+    {
+      "object": "CONTRACT-P-0015-PK-01@1",
+      "primary": "A-042",
+      "response": "Accepted bounded no-rivalkeep; strongerownbirthchain not displaced byweakerSCB date."
+    },
+    {
+      "object": "THEME-P-0015-REL@1",
+      "primary": "A-056",
+      "response": "Accepted positiveownmotherhousehold keep; its exactsamebody also confirmswifeown deathpost remainsunread, supportingA-RF06."
+    },
+    {
+      "object": "RESEARCH-P-0015-9d76f0343410@2",
+      "primary": "A-038",
+      "response": "Accepted currentadoptionrule qualification for originalparentalresidence versusphysicaldelivery; my initialBIOqualification should reach this additionaladoptedcopy."
+    }
+  ],
+  "status": "response complete for ten materialcopyfindings and fiveintegrationfindings; closurecheck/finalfreeze remains root-managed",
+  "no_apply": true,
+  "closure_response": {
+    "finding": "A-CLOSE01",
+    "decision": "accept and repair",
+    "changes": {
+      "BIO-P-0016": [
+        "O-P-0016-widow-row13-variant@1",
+        "F-P-0016-civil_status-widow1913@1"
+      ],
+      "KEY-P-0007-5c939ee32973": [
+        "O-P-0016-widow-row13-variant@1",
+        "F-P-0016-civil_status-widow1913@1"
+      ],
+      "P-0016/Q-04": [
+        "O-P-0007-located-own-row@1",
+        "R-e15535f496176e63f9c9b415@1"
+      ],
+      "PATH-P-0016-KP-01": [
+        "O-P-0007-located-own-row@1",
+        "R-e15535f496176e63f9c9b415@1"
+      ],
+      "KEY-P-0016-7188e33f657e": [
+        "O-P-0007-located-own-row@1",
+        "R-e15535f496176e63f9c9b415@1"
+      ],
+      "KEY-P-0007-bf37119ff18f": [
+        "R-C0028-15@1",
+        "ADOPT-T0677-C0019-P-0007@1",
+        "TR-T0677-C0019-family2@1"
+      ]
+    },
+    "grounds": "Existing corrected copies now have exact older support edges, without changing or blindly rebinding existing edges. A079 support and observation replaced with relevant C0028/C0019 precision grounds. First freezes remain unchanged.",
+    "status": "Native graph repair drafted; isolated apply and final reviewer verification pending."
+  }
+}

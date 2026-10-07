@@ -1,0 +1,1295 @@
+{
+  "command": "node genealogy2/cli.mjs impact C-0014",
+  "exit": 0,
+  "payload": {
+    "format": "genealogy2-impact/1",
+    "input": "C-0014",
+    "query": null,
+    "database_state": {
+      "operations": 205,
+      "revisions": 47439,
+      "last_operation": {
+        "sequence": 204,
+        "operation_id": "T-0677/C0016-person-v1"
+      }
+    },
+    "seeds": [
+      {
+        "object_id": "R-0d1c75412788b5465ccb5bd3",
+        "revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "routes": [
+          {
+            "type": "citation_representation",
+            "via_object": "R-0d1c75412788b5465ccb5bd3"
+          },
+          {
+            "type": "citation_representation",
+            "via_object": "READ-c7f7e50d72c4cbd749f9b169"
+          },
+          {
+            "type": "citation_representation",
+            "via_object": "TR-fce304d4596e04f99c65f3ce"
+          }
+        ]
+      }
+    ],
+    "routing_limit": "C-id maps to bounded records through import representations; this routing is provenance, not source support. No record mapping means no inferred dependency graph.",
+    "dependencies": {
+      "current": [
+        {
+          "object_id": "ADOPT-T0677-C0008-P-0009",
+          "revision_id": "ADOPT-T0677-C0008-P-0009@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 2,
+          "path": [
+            {
+              "revision_id": "F-P-0009-source_comparison-C0008-birth-reading@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+            },
+            {
+              "revision_id": "ADOPT-T0677-C0008-P-0009@1",
+              "basis_revision_id": "F-P-0009-source_comparison-C0008-birth-reading@1",
+              "role": "supports",
+              "note": "Befintlig källseparation mellan sonens rådatum och moderns egen födelse."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "ADOPT-T0677-C0008-P-0009@1",
+              "basis_revision_id": "F-P-0009-source_comparison-C0008-birth-reading@1",
+              "role": "supports",
+              "note": "Befintlig källseparation mellan sonens rådatum och moderns egen födelse."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "E-birth-P-0009",
+          "revision_id": "E-birth-P-0009@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "E-birth-P-0009@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "E-birth-P-0009@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "EP-E-birth-P-0009-P-0009-child",
+          "revision_id": "EP-E-birth-P-0009-P-0009-child@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 2,
+          "path": [
+            {
+              "revision_id": "E-birth-P-0009@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            },
+            {
+              "revision_id": "EP-E-birth-P-0009-P-0009-child@1",
+              "basis_revision_id": "E-birth-P-0009@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "EP-E-birth-P-0009-P-0009-child@1",
+              "basis_revision_id": "E-birth-P-0009@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0009-name_form-main",
+          "revision_id": "F-P-0009-name_form-main@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0009-name_form-main@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0009-name_form-main@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0009-source_comparison-C0008-birth-reading",
+          "revision_id": "F-P-0009-source_comparison-C0008-birth-reading@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0009-source_comparison-C0008-birth-reading@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0009-source_comparison-C0008-birth-reading@1",
+              "basis_revision_id": "E-birth-P-0009@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+            },
+            {
+              "revision_id": "F-P-0009-source_comparison-C0008-birth-reading@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; inget nytt oberoende vittnesmål."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "IDRES-P-0008-P-0009",
+          "revision_id": "IDRES-P-0008-P-0009@1",
+          "version": 1,
+          "kind": "identity_resolution",
+          "disposition": "accepted",
+          "evidence_status": "REJECTED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "IDRES-P-0008-P-0009@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "IDRES-P-0008-P-0009@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "READ-c7f7e50d72c4cbd749f9b169",
+          "revision_id": "READ-c7f7e50d72c4cbd749f9b169@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "READ-c7f7e50d72c4cbd749f9b169@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "READ-c7f7e50d72c4cbd749f9b169@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "REL-parent-P-0008-P-0003",
+          "revision_id": "REL-parent-P-0008-P-0003@1",
+          "version": 1,
+          "kind": "relation",
+          "disposition": "rejected",
+          "evidence_status": "REJECTED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "REL-parent-P-0008-P-0003@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "REL-parent-P-0008-P-0003@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "REL-parent-P-0009-P-0003",
+          "revision_id": "REL-parent-P-0009-P-0003@1",
+          "version": 1,
+          "kind": "relation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "REL-parent-P-0009-P-0003@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "REL-parent-P-0009-P-0003@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "TR-fce304d4596e04f99c65f3ce",
+          "revision_id": "TR-fce304d4596e04f99c65f3ce@1",
+          "version": 1,
+          "kind": "transcription",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "TR-fce304d4596e04f99c65f3ce@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "TR-fce304d4596e04f99c65f3ce@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        }
+      ],
+      "historical": [
+        {
+          "object_id": "O-P-0003-C0008-mother-birth-corrected",
+          "revision_id": "O-P-0003-C0008-mother-birth-corrected@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": false,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0003-C0008-mother-birth-corrected@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Moderns egen födelsepost bekräftar den rättade dagen."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0003-C0008-mother-birth-corrected@1",
+              "basis_revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+              "role": "supports",
+              "note": "Moderns egen födelsepost bekräftar den rättade dagen."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        }
+      ]
+    },
+    "provenance": {
+      "classification": "import_provenance_not_evidence",
+      "origins": [
+        {
+          "revision_id": "F-P-0009-source_comparison-C0008-birth-reading@1",
+          "unit_id": "851dc18c927941b202be3184d09e3b4ae06b118fb2e5e9d58e673c57b02f7f91",
+          "coverage": "partial",
+          "note": "Hela C-0014 inklusive senare tillägg är läst; detta ursprung bevarar befintlig text, ingen ny bildläsning.",
+          "object_id": "F-P-0009-source_comparison-C0008-birth-reading",
+          "version": 1,
+          "kind": "fact",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 1,
+          "end_line": 51,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2"
+        },
+        {
+          "revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+          "unit_id": "00b50400d1510182bc8325fb580499c5449e2319ef20ce75f22f1e438e7f3c7b",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-0d1c75412788b5465ccb5bd3",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 24,
+          "end_line": 28,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2"
+        },
+        {
+          "revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+          "unit_id": "851dc18c927941b202be3184d09e3b4ae06b118fb2e5e9d58e673c57b02f7f91",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-0d1c75412788b5465ccb5bd3",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 1,
+          "end_line": 51,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2"
+        },
+        {
+          "revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+          "unit_id": "9a48d1ea4e6243f38280d0ddaec31826f59235990865b8fa6cd0d04492ac7eb2",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-0d1c75412788b5465ccb5bd3",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 43,
+          "end_line": 51,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2"
+        },
+        {
+          "revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+          "unit_id": "a24fec9da98ef852553fb9e973a9859c1597f2f54f2ebf760d715fb815aa4d9c",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-0d1c75412788b5465ccb5bd3",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 9,
+          "end_line": 14,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2"
+        },
+        {
+          "revision_id": "READ-c7f7e50d72c4cbd749f9b169@1",
+          "unit_id": "00b50400d1510182bc8325fb580499c5449e2319ef20ce75f22f1e438e7f3c7b",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-c7f7e50d72c4cbd749f9b169",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 24,
+          "end_line": 28,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2"
+        },
+        {
+          "revision_id": "READ-c7f7e50d72c4cbd749f9b169@1",
+          "unit_id": "851dc18c927941b202be3184d09e3b4ae06b118fb2e5e9d58e673c57b02f7f91",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-c7f7e50d72c4cbd749f9b169",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 1,
+          "end_line": 51,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2"
+        },
+        {
+          "revision_id": "READ-c7f7e50d72c4cbd749f9b169@1",
+          "unit_id": "9a48d1ea4e6243f38280d0ddaec31826f59235990865b8fa6cd0d04492ac7eb2",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-c7f7e50d72c4cbd749f9b169",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 43,
+          "end_line": 51,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2"
+        },
+        {
+          "revision_id": "READ-c7f7e50d72c4cbd749f9b169@1",
+          "unit_id": "a24fec9da98ef852553fb9e973a9859c1597f2f54f2ebf760d715fb815aa4d9c",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-c7f7e50d72c4cbd749f9b169",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 9,
+          "end_line": 14,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2"
+        },
+        {
+          "revision_id": "TR-fce304d4596e04f99c65f3ce@1",
+          "unit_id": "6c6e784f117db6673234506dd4f31579cd4bbeb5a42b07955b9e2f39e69358c3",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "TR-fce304d4596e04f99c65f3ce",
+          "version": 1,
+          "kind": "transcription",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 24,
+          "end_line": 25,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2"
+        },
+        {
+          "revision_id": "TR-fce304d4596e04f99c65f3ce@1",
+          "unit_id": "851dc18c927941b202be3184d09e3b4ae06b118fb2e5e9d58e673c57b02f7f91",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "TR-fce304d4596e04f99c65f3ce",
+          "version": 1,
+          "kind": "transcription",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 1,
+          "end_line": 51,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2"
+        }
+      ],
+      "targets": [
+        {
+          "unit_id": "6c6e784f117db6673234506dd4f31579cd4bbeb5a42b07955b9e2f39e69358c3",
+          "decision_id": "UD-6c6e784f117db6673234506dd4f31579cd4bbeb5a42b07955b9e2f39e69358c3@1",
+          "target_id": "TR-fce304d4596e04f99c65f3ce",
+          "state": "mapped_complete",
+          "rationale": "C-0014: Hela enheten återges ordagrant i avskriften; inte ett godkännande av uppgifterna. Senare originalrättelse skrivs inte retroaktivt in i SCB-ordalydelsen. Markeringen (1) är inte säker uppgift om första barnet.",
+          "question": "",
+          "document_path": "genealogy/citations/C-0014-ada-wilhelmina-fodelse-1886.md",
+          "start_line": 24,
+          "end_line": 25,
+          "historical": 0,
+          "sha256": "b0455131ac4bf3244d13b368097df7603fc0b19fc00c392be0bafcaec973a5f2",
+          "object_id": "TR-fce304d4596e04f99c65f3ce",
+          "revision_id": "TR-fce304d4596e04f99c65f3ce@1",
+          "version": 1,
+          "kind": "transcription",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true
+        }
+      ]
+    },
+    "search": {
+      "matching": "Case-sensitive literal phrase; identifiers require boundaries. No stemming, date normalization or semantic matching.",
+      "terms": [
+        {
+          "value": "C-0014",
+          "source": "identifier",
+          "boundary": true
+        },
+        {
+          "value": "R-0d1c75412788b5465ccb5bd3",
+          "source": "identifier",
+          "boundary": true
+        }
+      ]
+    },
+    "text_candidates": {
+      "current": [
+        {
+          "object_id": "ASSESSMENT-P-0008",
+          "revision_id": "ASSESSMENT-P-0008@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "retired",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 798,
+              "line": 18,
+              "occurrences": 2,
+              "excerpt": "tions/C-0008-arne-godvig-fodelse-1915.md), [C-0011](../citations/C-0011-ada-wilhelmina-folkrakning-1910.md), [C-0014](../citations/C-0014-ada-wilhelmina-fodelse-1886.md)\n- Tidslinje: [aktens tre hållpunkter 1886–1910](../peopl",
+              "excerpt_start": 688
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0042",
+          "revision_id": "ASSESSMENT-P-0042@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 345,
+              "line": 12,
+              "occurrences": 1,
+              "excerpt": "VVAKTAR`\n- Kontraktsgranskning: `UNDERKÄND`\n- Granskningsdatum: 2026-09-08\n- Granskningsbelägg: C-0007/C-0011–C-0014/C-0016/C-0021, C-0030–C-0032/C-0035/C-0039/C-0099, C-0266/C-0267/C-0421/C-0535/C-0536/C-0823/C-0826/C-0834, C",
+              "excerpt_start": 235
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0043",
+          "revision_id": "ASSESSMENT-P-0043@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 986,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "-vigselkontroll-1883-1885-negativ.md), [C-0016](../citations/C-0016-ada-wilhelmina-originalfodelse-1886.md), [C-0014](../citations/C-0014-ada-wilhelmina-fodelse-1886.md), [C-1062](../citations/C-1062-lerbo-AI23-sida-243-spanga",
+              "excerpt_start": 876
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "F-P-0009-source_comparison-C0008-birth-reading",
+          "revision_id": "F-P-0009-source_comparison-C0008-birth-reading@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "value_json",
+              "term": "R-0d1c75412788b5465ccb5bd3",
+              "term_source": "identifier",
+              "offset": 153,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "\"SCB_independent_of_original\":false,\"child_birth_record\":\"R-70eeff109bc651dce649a0ee\",\"dependent_SCB_record\":\"R-0d1c75412788b5465ccb5bd3\",\"mother_birth_reading_in1915\":\"86 19/8[?]\",\"own_birth_date\":\"1886-08-19\",\"own_birth_event\":\"E-birth-P-0009\",",
+              "excerpt_start": 43
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0003-e24f76fd20a2",
+          "revision_id": "KEY-P-0003-e24f76fd20a2@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 252,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "ushåll 1915–1930; Flens A II a före s. 563. | [C-0007](../citations/C-0007-arne-godvig-folkrakning-1930.md), [C-0014](../citations/C-0014-ada-wilhelmina-fodelse-1886.md) | 1915–1918 och 1918–1923 års bokankare lästa i C-0909/C",
+              "excerpt_start": 142
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0009-5b356c0f542e",
+          "revision_id": "KEY-P-0009-5b356c0f542e@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 265,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "lfodelse-1886.md), [C-1062](../citations/C-1062-lerbo-AI23-sida-243-spanga-oakta-son.md) | Spånga är hemvist; C-0014:s Gånga är en rå SCB-avvikelse mot originalets Spånga. |\n",
+              "excerpt_start": 155
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0043-A-0190-name",
+          "revision_id": "O-P-0043-A-0190-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "caveat",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 28,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "`Larson` är en källvariant. C-0014 är SCB-utdraget ur C-0016:s originalbok och är enligt T-0125 en beroende återgivning, inte en andra observati",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "R-0d1c75412788b5465ccb5bd3",
+          "revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": true,
+          "hits": [
+            {
+              "field": "rationale",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 21,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Källpost avgränsad i C-0014. SCB-utdraget är härlett ur födelseboken C-0016 och ger inte en andra oberoende röst.",
+              "excerpt_start": 0
+            },
+            {
+              "field": "caveat",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 141,
+              "line": 2,
+              "occurrences": 1,
+              "excerpt": "ällvariant mot originalets senare lästa Spånga. Moderns 19 år och råmarkeringen (1) hålls isär från tolkning.\nC-0014: Senare originalrättelse skrivs inte retroaktivt in i SCB-ordalydelsen. Markeringen (1) är inte säker uppgift",
+              "excerpt_start": 31
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "R-dc7d8a2eba63d983a98e6aa5",
+          "revision_id": "R-dc7d8a2eba63d983a98e6aa5@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "dependence_note",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 40,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Original till det härledda SCB-utdraget C-0014. Fadderjämförelser med C-0074 är tolkning, inte egna poster här.",
+              "excerpt_start": 0
+            },
+            {
+              "field": "rationale",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 69,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Källpost avgränsad i C-0016. Original till det härledda SCB-utdraget C-0014. Fadderjämförelser med C-0074 är tolkning, inte egna poster här.",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "READ-65b0fa65ee89e85f185ad9d6",
+          "revision_id": "READ-65b0fa65ee89e85f185ad9d6@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 196,
+              "line": 2,
+              "occurrences": 1,
+              "excerpt": "arnet är avvisat; uppgift om äldre Sven kommer från andra citationer.\nOriginal till det härledda SCB-utdraget C-0014. Fadderjämförelser med C-0074 är tolkning, inte egna poster här.",
+              "excerpt_start": 86
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "READ-c7f7e50d72c4cbd749f9b169",
+          "revision_id": "READ-c7f7e50d72c4cbd749f9b169@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "subject_id",
+              "term": "R-0d1c75412788b5465ccb5bd3",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-0d1c75412788b5465ccb5bd3",
+              "excerpt_start": 0
+            },
+            {
+              "field": "body",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "C-0014: Senare originalrättelse skrivs inte retroaktivt in i SCB-ordalydelsen. Markeringen (1) är inte säker uppgift",
+              "excerpt_start": 0
+            },
+            {
+              "field": "rationale",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 43,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Dokumenterad avgränsning och läshistorik i C-0014; ingen ny oberoende evidensröst.",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0003-9d76f0343410",
+          "revision_id": "RESEARCH-P-0003-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 870,
+              "line": 16,
+              "occurrences": 2,
+              "excerpt": "4](../citations/C-0034-arne-maj-vigsel-1938.md)). Moderns identitet\nbärs av hennes egen födelse och hushåll\n([C-0014](../citations/C-0014-ada-wilhelmina-fodelse-1886.md),\n[C-0011](../citations/C-0011-ada-wilhelmina-folkrakning",
+              "excerpt_start": 760
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "TR-fce304d4596e04f99c65f3ce",
+          "revision_id": "TR-fce304d4596e04f99c65f3ce@1",
+          "version": 1,
+          "kind": "transcription",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-0d1c75412788b5465ccb5bd3",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-0d1c75412788b5465ccb5bd3",
+              "excerpt_start": 0
+            },
+            {
+              "field": "rationale",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 51,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0014; ingen ny originalavläsning.",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        }
+      ],
+      "historical": [
+        {
+          "object_id": "ASSESSMENT-P-0042",
+          "revision_id": "ASSESSMENT-P-0042@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0014",
+              "term_source": "identifier",
+              "offset": 345,
+              "line": 12,
+              "occurrences": 1,
+              "excerpt": "VVAKTAR`\n- Kontraktsgranskning: `UNDERKÄND`\n- Granskningsdatum: 2026-09-08\n- Granskningsbelägg: C-0007/C-0011–C-0014/C-0016/C-0021, C-0030–C-0032/C-0035/C-0039/C-0099, C-0266/C-0267/C-0421/C-0535/C-0536/C-0823/C-0826/C-0834, C",
+              "excerpt_start": 235
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        }
+      ]
+    },
+    "review": {
+      "items": [
+        {
+          "object_id": "ADOPT-T0677-C0008-P-0009",
+          "revision_id": "ADOPT-T0677-C0008-P-0009@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0008",
+          "revision_id": "ASSESSMENT-P-0008@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "retired",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0042",
+          "revision_id": "ASSESSMENT-P-0042@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0043",
+          "revision_id": "ASSESSMENT-P-0043@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "E-birth-P-0009",
+          "revision_id": "E-birth-P-0009@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "EP-E-birth-P-0009-P-0009-child",
+          "revision_id": "EP-E-birth-P-0009-P-0009-child@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0009-name_form-main",
+          "revision_id": "F-P-0009-name_form-main@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0009-source_comparison-C0008-birth-reading",
+          "revision_id": "F-P-0009-source_comparison-C0008-birth-reading@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "import_origin_not_evidence",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "IDRES-P-0008-P-0009",
+          "revision_id": "IDRES-P-0008-P-0009@1",
+          "version": 1,
+          "kind": "identity_resolution",
+          "disposition": "accepted",
+          "evidence_status": "REJECTED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0003-e24f76fd20a2",
+          "revision_id": "KEY-P-0003-e24f76fd20a2@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0009-5b356c0f542e",
+          "revision_id": "KEY-P-0009-5b356c0f542e@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0043-A-0190-name",
+          "revision_id": "O-P-0043-A-0190-name@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "R-0d1c75412788b5465ccb5bd3",
+          "revision_id": "R-0d1c75412788b5465ccb5bd3@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "R-dc7d8a2eba63d983a98e6aa5",
+          "revision_id": "R-dc7d8a2eba63d983a98e6aa5@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "READ-65b0fa65ee89e85f185ad9d6",
+          "revision_id": "READ-65b0fa65ee89e85f185ad9d6@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "READ-c7f7e50d72c4cbd749f9b169",
+          "revision_id": "READ-c7f7e50d72c4cbd749f9b169@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "import_origin_not_evidence",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "REL-parent-P-0008-P-0003",
+          "revision_id": "REL-parent-P-0008-P-0003@1",
+          "version": 1,
+          "kind": "relation",
+          "disposition": "rejected",
+          "evidence_status": "REJECTED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "REL-parent-P-0009-P-0003",
+          "revision_id": "REL-parent-P-0009-P-0003@1",
+          "version": 1,
+          "kind": "relation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0003-9d76f0343410",
+          "revision_id": "RESEARCH-P-0003-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "TR-fce304d4596e04f99c65f3ce",
+          "revision_id": "TR-fce304d4596e04f99c65f3ce@1",
+          "version": 1,
+          "kind": "transcription",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "import_origin_not_evidence",
+            "import_target_not_evidence",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        }
+      ],
+      "instructions": "Read inspect for each current object and its evidence. Record a reasoned decision in the active Wotan task / authorized operation. Revise through apply only when warranted; resolve only the exact existing pending request after individual review. Text/provenance candidates do not create requests. Null decisions are unreviewed, never approvals."
+    },
+    "limitations": [
+      "Read-only snapshot, not an execution queue. Re-run after revisions.",
+      "Text matches cannot establish copied facts, identity, error, relevance or support. Current text may contain historical retractions.",
+      "Unlinked paraphrases or different date/name spellings may be missed; supply relevant --query variants and inspect affected person profiles.",
+      "No query mutates data, adds evidence, opens/closes reviews or certifies complete semantic coverage."
+    ]
+  }
+}

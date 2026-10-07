@@ -1,0 +1,28 @@
+{
+  "task": "T-0778",
+  "search": "semantic_search_v1.py independent all current domainfields",
+  "findings": [
+    {
+      "object": "O-P-0047-A-5747-family_transfers",
+      "version": 1,
+      "field": "caveat",
+      "quote": "hennes egen rad på 638 är inte transkriberad",
+      "full_field": "Ny utvinning. Sida 638 i samma volym är `Eriksro n:o 2, Drottninggatan 3` och är läst för föräldrarnas rader; hennes egen rad på 638 är inte transkriberad. Föräldrarna och systersonen Arne flyttade samtidigt 638→563.",
+      "finding": "stale_current_C1047_reading_limit",
+      "basis": "C1047 own rows18–20, all18columns original9aa7cb9021fa8fb6e5faa4bcd55596512c148bdbb6381423f8a2a9321a2a81c3 now directly inspected; own incoming blank and mother outgoing563/30, children own outgoingblank",
+      "required_disposition": "explicit bounded supersession of638unread status; retain other still-unread335/949/Sundbyberg and own563outgoingdittos",
+      "state": "sent_primary_for_exact_disposition"
+    },
+    {
+      "object": "THEME-P-0047-BO",
+      "version": 2,
+      "field": "body",
+      "quote": "Hennes egna fortsättningsrader på335/638/949 och Sundbybergs mottagande är inte fullständigt lästa i denna källväg.",
+      "full_field": "| BO | ÖPPET | Sju bostadsled är daterade 1897–1932: Brenäs, Flens by, Mineberg, Ljungbacka, egen familjerad, Sundbyberg och Björkhem. SCB1930 ger senaste kommuninflyttning från Sundbyberg1926. Olästa mellanled kvarstår1919–1926 och1926–1930; detta visar inte obruten fysisk vistelse. Fortsättningen efter `fol.949`1932 återstår. Hennes egna fortsättningsrader på335/638/949 och Sundbybergs mottagande är inte fullständigt lästa i denna källväg. | Q-02, KP-04; [C-0035](../citations/C-0035-ada-mineberg-sida-420.md), [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md). |\n",
+      "finding": "stale_current_C1047_reading_limit",
+      "basis": "C1047 own rows18–20, all18columns original9aa7cb9021fa8fb6e5faa4bcd55596512c148bdbb6381423f8a2a9321a2a81c3 now directly inspected; own incoming blank and mother outgoing563/30, children own outgoingblank",
+      "required_disposition": "explicit bounded supersession of638unread status; retain other still-unread335/949/Sundbyberg and own563outgoingdittos",
+      "state": "sent_primary_for_exact_disposition"
+    }
+  ]
+}

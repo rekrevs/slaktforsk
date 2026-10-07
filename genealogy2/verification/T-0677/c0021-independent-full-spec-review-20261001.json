@@ -1,0 +1,67 @@
+{
+  "schema": "independent-full-spec-review/1",
+  "task": "T-0677",
+  "citation": "C-0021",
+  "date": "2026-10-01",
+  "reviewer": "independent Astra",
+  "decision": "PASS",
+  "exact_draft_sha256": "c81ca7258c4a9530f896f71603834d362a4ad6aced9c545736d6aa8caba8354e",
+  "inputs": {
+    "c0021-draft-implementation-spec-20261001.json": "c81ca7258c4a9530f896f71603834d362a4ad6aced9c545736d6aa8caba8354e",
+    "c0021-source-comparison-acceptance-20261001.json": "3d86d1e55b7071ebd46e5ba9bee776c15a9267e5e2865c65ac14f62a3a45e6ce",
+    "c0021-independent-raw-20261001.json": "ca945ada81a8830bd6928c347188aaead942e5a94ca8fee3f3af302205d1a4ff",
+    "c0021-independent-targeted-adjudication-20261001.json": "b2090fc64c7fc0cd00af4e159b9261ac706655aff0f1f2eb4f41f65cfe6b4ba1",
+    "c0021-source-class-current-j229-20260930.json": "c24b5b335e078e08a2590e75a8473534b58571a4afe8286771755aa84053400f",
+    "c0021-impact-individual-dispositions-20261001.json": "2bf182219772839f5c00d6ccbece1113b0344d34ecbd8e2898bcc27fdb0e8abd",
+    "c0021-prestart-person-P-0003-j229-20260930.json": "357a2d655f22f5448cace5d79505de7607848d1fbdbe3026c169804aa448324a",
+    "c0021-prestart-person-P-0042-j229-20260930.json": "047b8bb2f00880306b24ce0bc4fffacdffbbf87a1172b8d70ac6b3e4c00c4a2f",
+    "c0021-prestart-person-P-0043-j229-20260930.json": "6af9f2bf619fcf1927340ebf5d029ad73be28f693fa42429a45f324e7ffeda08"
+  },
+  "scope": "Three sourceobjects plus three boundedpersonadoptions, zero currentrevisions; local C0021 source only. No new glyphsearch during implementationreview.",
+  "reviewed": [
+    {
+      "area": "Fullfieldmatrix/header/rawadjudication",
+      "result": "PASS",
+      "reason": "81fields and physical boundaries match approved reading with8whole reuse/73newpartial.67 supported by documented samepage glyphcomparison; fost.s.[?]/fost.d.s.? and raised23 reserved. KarlB24extra and boundary5 retained with no codeexpansion."
+    },
+    {
+      "area": "Resolved reviewfinding",
+      "result": "PASS",
+      "reason": "Initial draft omitted CharlottaB04 verticalstroke. Current comparison, TR and O now include3 plus lodrätt streck under föregående kod, with no automatic occupationalditto. Orows equal acceptedmatrix exactly; TR contains correctedmark."
+    },
+    {
+      "area": "Recordbinding",
+      "result": "PASS",
+      "reason": "Supplied current sourcecapture confirms R-8c6b91c855d10a9152cbbbdf@2 and sameimagehash. All proposed source evidence uses version2; new TR/O/AUDIT internally bind newversion1."
+    },
+    {
+      "area": "Existing economicunitbasis",
+      "result": "PASS",
+      "reason": "READ-7728a1128b4850e7edafb555@1 and THEME-P-0003-EKO@1 preserve prior C0896 interpretation9–→900kr; new SCBraw neither creates nor revokes it. No blankcell becomes zero."
+    },
+    {
+      "area": "Existing Charlottabirthbasis",
+      "result": "PASS",
+      "reason": "Captured E-birth-P-0043@1 already1867-05-26 with separateR-7f2be53341d859bbc7cdef0f@1 support. Newly adjudicated own67 is consistent; no date/personrevision needed."
+    },
+    {
+      "area": "Threeadoptions/currentconsequences",
+      "result": "PASS",
+      "reason": "Ownsource appropriation preserved; indexrole/ownrole distinguished, registeredarrival separate from familycare; no biologicalrelation, employer, denominationchange date, PK/tree orOWNER_CONFIRMED change. Supplied32retain decisions separate24impactheads from extra scopedpersonfacts and scan noise."
+    }
+  ],
+  "required_corrections": [],
+  "resolved_findings": [
+    {
+      "field": "P-0043/B04",
+      "issue": "Missing verticalstroke in initial draft",
+      "resolution": "Added to comparison and materialized TR/O before this exacthash approval."
+    }
+  ],
+  "implementation_conditions": [
+    "Create exactly6objects with no existingrevisions or addedfacts.",
+    "Validate actualoperations/currentversions and postapplyresults separately; this is source/spec review, not an implementationtest.",
+    "Retain numeric/role/boundary ambiguities and all rawlocks."
+  ],
+  "limits": "Prior exact context is reused from suppliedcaptures; no duplicate broad CLIcapture or source-wide newaudit. PASS is bounded to C0021."
+}

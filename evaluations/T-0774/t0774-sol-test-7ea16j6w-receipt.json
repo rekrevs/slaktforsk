@@ -1,0 +1,27 @@
+{
+  "started_at_utc": "2026-10-01T17:28:51.920806+00:00",
+  "database": "/private/tmp/t0774-sol-test-7ea16j6w/research.sqlite",
+  "journal": "/private/tmp/t0774-sol-test-7ea16j6w/journal",
+  "operations": [
+    {
+      "path": "/Users/sverker/repos/slaktforsk/evaluations/T-0774/full-technical-trial-operation-v1.json",
+      "id": "T-0774/full-five-source-claim-consolidation-v1",
+      "sha256": "fb1c294f96d904384fe2f9455a61f9f60fb9e4c7e5e95f2dc3c03254046d861e"
+    }
+  ],
+  "commands": [
+    {
+      "args": [
+        "apply",
+        "/Users/sverker/repos/slaktforsk/evaluations/T-0774/full-technical-trial-operation-v1.json"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Beläggsversion saknas eller är inaktuell: O-P-0003-C0007-education-income@2\n"
+    }
+  ],
+  "full_object_mismatches": [],
+  "state": "FAILED",
+  "error": "Isolated apply failed; retain this attempt, decide before retry.",
+  "ended_at_utc": "2026-10-01T17:28:52.625398+00:00"
+}

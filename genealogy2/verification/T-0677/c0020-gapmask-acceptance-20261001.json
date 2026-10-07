@@ -1,0 +1,77 @@
+{
+  "task": "T-0677",
+  "citation": "C-0020",
+  "state": "APPROVED_FINITE_GAPMASK",
+  "at_utc": "2026-10-01T06:59:11.127996+00:00",
+  "inputs": {
+    "c0020-primary-header-20261001.json": "7616556a1f7674c514a9fcd6b2b0cf225c55e04eb404658510ac4f54da7a0409",
+    "c0020-independent-header-20261001.json": "b79f16de9ed0d9d0d465610c3d250c28c9c1631109eae8fd11eff0b83e4fb7d4",
+    "c0020-source-class-current-j227-20260930.json": "701284b3c82ca15b543c7f32b20fc25728de11b53cb40505382f6a14bedc07ab"
+  },
+  "header_comparison": "Agreement on columns1–14 and21, parent subrows, mother-only statuses, no own top date/parish. Independent precisely supplies årsnummer versus primary shortened nummer; accepted header is Inskrifningens löpande årsnummer.",
+  "own_scope": "Only nr15 and immediate ditto anchors in month column; adjacent persons not adopted. Mother continuation attribution read to next parent label only. No C0028newimage.",
+  "logical_fields": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9father",
+    "9mother",
+    "10father",
+    "10mother",
+    "11",
+    "12",
+    "13",
+    "14",
+    "21"
+  ],
+  "whole_field_reuse": {
+    "1": {
+      "value": "15",
+      "basis": "TR-ae7cd3c73bd5f249a12a0501@1 and fixed citation own raw"
+    },
+    "3": {
+      "value": "11",
+      "basis": "Same own raw; no conflict or missing detail"
+    },
+    "8": {
+      "value": "Maj Amalia / u.ä.",
+      "basis": "Same own raw covers entire name field"
+    }
+  },
+  "new_or_partial_fields": [
+    "2",
+    "4",
+    "5",
+    "6",
+    "7",
+    "9father",
+    "9mother",
+    "10father",
+    "10mother",
+    "11",
+    "12",
+    "13",
+    "14",
+    "21"
+  ],
+  "reasons": {
+    "2": "Raw ditto propagation/ownyear not captured, keep header provenance separate.",
+    "4–7": "Raw1known without explicit physical statistical allocation or blanks.",
+    "9father": "Name and railwayoccupation partly known; omitted location/number and full tail.",
+    "9mother": "Name/civilstatus partly known; full occupation/title and continuation missing.",
+    "10father": "Decisive date errorhistorical; own SCB raw not yet read with independent control. C0028read is separate source.",
+    "10mother": "Semantic dateknown but raw layout and any marks not documented; count partial not wholly newinformation.",
+    "11–14,21": "Cellstates/marks unrecorded; no blanks inferred."
+  },
+  "counts": {
+    "total_logical_fields": 17,
+    "whole_reuse": 3,
+    "new_or_partial": 14
+  },
+  "limits": "Separate locked raw matrices before compare. Sameimage means no independent historical witness. No new source/personprogramme or nextcitation."
+}

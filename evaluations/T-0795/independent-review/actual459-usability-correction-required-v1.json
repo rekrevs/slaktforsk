@@ -1,0 +1,28 @@
+{
+  "task": "T-0795",
+  "decision": "WITHHOLD_CANONICAL_SOURCE_APPROVAL",
+  "reviewed_stage_manifest_sha256": "4ce29a71c508fefc147df5417f96edebc7468cb12e76e45988a1edfb6c59a7f5",
+  "finding": "Seven individually justified retain resolutions preserve the dated failed judgement but do not preserve current life-review usability: seven supports/derived_from basis revisions are superseded. The earlier retain-only consequence judgement was incomplete for native assessment validity.",
+  "evidence": [
+    "evaluations/T-0795/root-stage459-pedigree-review-regression-v1.json",
+    "genealogy2/lib/review.mjs:validity"
+  ],
+  "required_consequence": {
+    "object": "ASSESSMENT-T0790-P0212-life",
+    "new_revision": 2,
+    "outcome": "failed",
+    "scope": "Explicit current metadata-impact reassessment only, reusing accepted T-0790 substantive reading. No new original interpretation, personal fact, identity/tree change, or grade upgrade.",
+    "exact_basis_updates": {
+      "BIO-P-0212@6": "BIO-P-0212@7",
+      "CONTRACT-P-0212-PK-06@2": "CONTRACT-P-0212-PK-06@3",
+      "CONTRACT-P-0212-PK-08@2": "CONTRACT-P-0212-PK-08@3",
+      "THEME-P-0212-ARB@2": "THEME-P-0212-ARB@3",
+      "THEME-P-0212-EKO@2": "THEME-P-0212-EKO@3",
+      "THEME-P-0212-MIL@2": "THEME-P-0212-MIL@3",
+      "THEME-P-0212-SAM@1": "THEME-P-0212-SAM@2"
+    },
+    "preserve": "All unchanged bases, evidence roles/order, origins, original @1 and all seven dated resolution records. Preserve unresolved life gaps and approved PK06/PK10 grades."
+  },
+  "next_gate": "Read exact proposed full amendment, then review restaged final native state and protected axis usability before exact-hash canonical approval.",
+  "canonical_ready": false
+}

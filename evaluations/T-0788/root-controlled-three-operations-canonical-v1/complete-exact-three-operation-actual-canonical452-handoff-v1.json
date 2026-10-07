@@ -1,0 +1,130 @@
+{
+  "task": "T-0788",
+  "authorization_pin": {
+    "path": "evaluations/T-0788/root-authorized-controlled-three-operation-canonical-apply-and-verify-v1.json",
+    "sha256": "326aaea7bdfbb021fe4e4320ad09e79da0393a9c978de5ae8ac80e291c056935"
+  },
+  "package_pin": {
+    "path": "evaluations/T-0788/implementation/exact37-plus27-three-operation-resolution-draft-v1/exact37-plus27-three-operation-package-proposal-v1.json",
+    "sha256": "ad84e75b8b36399ad66c6a735c3bec49798c37f81a0c525964c3151b13d69caa"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0788/implementation/exact37-plus27-three-operation-resolution-draft-v1/exact37-plus27-three-ordered-operation-membership-v1.json",
+    "sha256": "be672307aadcee8c7ce0463836c73a9d9196eefeb74505b6cde3016737303a49"
+  },
+  "operation_pins": [
+    {
+      "path": "evaluations/T-0788/implementation/exact36-draft-v1/exact36-one-controlled-operation-v1.json",
+      "sha256": "f6e2709c21542736c330288868e404b4b300a6c0a2013e9df83d564a4dc3d07a"
+    },
+    {
+      "path": "evaluations/T-0788/implementation/exact37-prefix-plus-single-F0532-draft-v1/single-F0532-exact-caveat-correction-operation-v1.json",
+      "sha256": "079e67ddf3c7837d1793847f0740a33c2d6514c3fe6861d002c2833118fb4b23"
+    },
+    {
+      "path": "evaluations/T-0788/implementation/exact37-plus27-three-operation-resolution-draft-v1/exact27-post-F2-resolution-only-operation-v1.json",
+      "sha256": "3a726f6e2ea12e9957ef41bf10cf688d9c205dc887b5fde95db2a5ac27a3a09d"
+    }
+  ],
+  "reviewed_final_stage_handoff_pin": {
+    "path": "evaluations/T-0788/exact36-stage-v1/exact27-resolution-and-finalchecks-v1/complete-three-op37-plus27-resolution-actual452-final-stage-handoff-v1.json",
+    "sha256": "d5c8ff100b9a7dcbdbea560e368a739a8c204e846404d761b2282509007f584e"
+  },
+  "actual_state": {
+    "journal_head": 452,
+    "pending": 0
+  },
+  "actual_step_states": [
+    {
+      "step": 1,
+      "operation_id": "T-0788/exact36-full744-source-consequences-and-bounded-adoption-v1",
+      "operation_pin": {
+        "path": "evaluations/T-0788/implementation/exact36-draft-v1/exact36-one-controlled-operation-v1.json",
+        "sha256": "f6e2709c21542736c330288868e404b4b300a6c0a2013e9df83d564a4dc3d07a"
+      },
+      "before": {
+        "journal_head": 449,
+        "pending": 0
+      },
+      "after": {
+        "journal_head": 450,
+        "pending": 27
+      }
+    },
+    {
+      "step": 2,
+      "operation_id": "T-0788/exact-F0532-dated744-preservation-caveat-v1",
+      "operation_pin": {
+        "path": "evaluations/T-0788/implementation/exact37-prefix-plus-single-F0532-draft-v1/single-F0532-exact-caveat-correction-operation-v1.json",
+        "sha256": "079e67ddf3c7837d1793847f0740a33c2d6514c3fe6861d002c2833118fb4b23"
+      },
+      "before": {
+        "journal_head": 450,
+        "pending": 27
+      },
+      "after": {
+        "journal_head": 451,
+        "pending": 27
+      }
+    },
+    {
+      "step": 3,
+      "operation_id": "T-0788/exact27-individual-post-F2-actual-source-resolutions-v1",
+      "operation_pin": {
+        "path": "evaluations/T-0788/implementation/exact37-plus27-three-operation-resolution-draft-v1/exact27-post-F2-resolution-only-operation-v1.json",
+        "sha256": "3a726f6e2ea12e9957ef41bf10cf688d9c205dc887b5fde95db2a5ac27a3a09d"
+      },
+      "before": {
+        "journal_head": 451,
+        "pending": 27
+      },
+      "after": {
+        "journal_head": 452,
+        "pending": 0
+      }
+    }
+  ],
+  "main_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "eabdc5aff2eefdc35136f5823ccb140f155425f61505238b77f29c984baee248"
+  },
+  "all50_raw_stage_comparison_pin": {
+    "path": "evaluations/T-0788/root-controlled-three-operations-canonical-v1/actual-MAIN-vs-reviewed-stage-all50-raw-values-and-order-v1.json",
+    "sha256": "fab7d068d610e87e213d6709ae380f421254a5849124b0a98c3d3543a481d3c5"
+  },
+  "actual27_literal_resolution_pin": {
+    "path": "evaluations/T-0788/root-controlled-three-operations-canonical-v1/actual27-entire-literal-resolution-rows-and-order-v1.json",
+    "sha256": "fcfd0e12186de68525a8ced268fb2a78aaf93bd3cf97791d7db28c70dd1a201e"
+  },
+  "all37_native_and_protected42_exact_reviewed_stage": true,
+  "validators": [
+    {
+      "path": "evaluations/T-0788/root-controlled-three-operations-canonical-v1/verify.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0788/root-controlled-three-operations-canonical-v1/verify-assets.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0788/root-controlled-three-operations-canonical-v1/verify-source.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    },
+    {
+      "path": "evaluations/T-0788/root-controlled-three-operations-canonical-v1/inventory.json",
+      "sha256": "e7052d6b6963076520d75fee2d18a0590c8dd44e65b475a35585c3cfa71b9f2c"
+    },
+    {
+      "path": "evaluations/T-0788/root-controlled-three-operations-canonical-v1/P-0269-default-verified-pedigree.json",
+      "sha256": "a4e2ddc0c94c8c09f78dcad5883b240e27e8a042ce566d054fc117117de2c365"
+    },
+    {
+      "path": "evaluations/T-0788/root-controlled-three-operations-canonical-v1/P-0270-default-verified-pedigree.json",
+      "sha256": "c2e8a0d14c98aa5a8b91cd23bc19189ca6cb64a5531af06f3792e385514adcbc"
+    }
+  ],
+  "all_six_results_equal_reviewed_final_stage": true,
+  "database_replacement": false,
+  "program_receipts_or_owner_administration_applied": false,
+  "usage": "UNKNOWN pending root collector"
+}

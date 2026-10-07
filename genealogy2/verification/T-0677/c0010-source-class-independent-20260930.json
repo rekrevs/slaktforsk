@@ -1,0 +1,130 @@
+{
+  "task": "T-0677",
+  "citation": "C-0010",
+  "reader": "Astra /root/g001_continue/c0016_independent",
+  "created_at": "2026-09-30T20:06:55.608105+00:00",
+  "state": "independent_documentary_source_class_scope_locked",
+  "current_scope": "Första posten i nytt ägarauktoriserat fyrpostspass. Enbart C0010, ingen annan post eller full implementation-spec förberedd.",
+  "inputs": [
+    {
+      "path": "genealogy/citations/C-0010-ancestry-arne-godvig-jansson.md",
+      "sha256": "e4e1e077ed8b24f143fc46466f6e73b350a5eca8e192381f1cf6b5f005932c3d",
+      "bytes": 966
+    },
+    {
+      "path": "genealogy/sources/S-0010-ancestry-arne-godvig-jansson.md",
+      "sha256": "58de81fb49701ca1029836a84ac67d320920aade47bbb6cc2698e8cdbb782238",
+      "bytes": 601
+    },
+    {
+      "path": "genealogy2/verification/T-0673/manifest.json",
+      "sha256": "2ee5610c1bf1290e6cac9a7c6a67fa9169021de6386da2a29bb02377d8cb34b7",
+      "bytes": 19282062
+    },
+    {
+      "path": "genealogy2/verification/T-0677/pre-start-scope-review-proposed-20260924.json",
+      "sha256": "81b3828a1dcfc9b47626a1d4477dbddcc80ed45c8dbb9dc2d6e0078b55f25a3c",
+      "bytes": 529929
+    }
+  ],
+  "prior_method_reused": "T0673:s redan lästa gräns mellan källklass, bevarat dokument, originalkontroll, exakt återbruk och individuell kunskapsföljd. C0001/C0007:s dokumentärprincip återbrukas som metod, inte som belägg om C0010.",
+  "class": {
+    "type": "Sekundär offentligt sammanställd Ancestry-profil/användarträd, bevarad i lokal citationssammanfattning.",
+    "publisher": "Ancestry",
+    "historical_read_date": "2026-08-19",
+    "url": "https://www.ancestry.com/genealogy/records/arne-godvig-jansson-24-wtsv63",
+    "url_status": "Dokumenterad direktadress i både C och S. Adressen har inte öppnats eller aktualitetsverifierats i detta pass.",
+    "profile_title_raw": "Arne Godvig Jansson (1915 - 1993)",
+    "document_count_raw": "Dokument 0",
+    "document_count_limit": "Den bevarade citationen uppger att den då visade profilen hade Dokument 0. Ingen slutsats om samtliga Ancestry-dokument, alla användarträd eller dagens sida.",
+    "capture_limit": "Manifestets C0010-entry saknar legacy_media_paths. Ingen rå webb-/skärmcapture är presenterad i de nu lästa, riktade underlagen; slutsatsen begränsas till den bevarade lokala texten. Ingen total sökning efter historisk råcapture har gjorts."
+  },
+  "documentary_parts": [
+    {
+      "id": "D1",
+      "content": "Profilrubrik, direktadress och historiskt läsdatum."
+    },
+    {
+      "id": "D2",
+      "content": "Samtliga sex punktuppgifter under Synliga uppgifter, bevarade som denna profils påståenden."
+    },
+    {
+      "id": "D3",
+      "content": "Dokument 0 och citationens källkritiska resonemang skiljs från personråuppgifterna."
+    },
+    {
+      "id": "D4",
+      "content": "Stödlistan A-0032, A-0066–A-0068 och A-0071–A-0075 är äldre länkar/anspråk, inte nya bevis eller oberoende röster."
+    },
+    {
+      "id": "D5",
+      "content": "S0010:s publicerings-/källklassbeskrivning och reservationsnivå."
+    }
+  ],
+  "raw_claims": [
+    {
+      "field": "birth",
+      "literal": "född 21 februari 1915 i Flen",
+      "limit": "En sekundär profils uppgift. Befintliga primärbelägg kan jämföras senare men profilegenskapen blir inte primär genom överensstämmelse."
+    },
+    {
+      "field": "death_and_location_string",
+      "literal": "avliden 31 juli 1993, Södertälje Järpstigen 27",
+      "limit": "Datum och sammansatt plats-/adresssträng bevaras. Strängen ensam fastställer inte fysisk dödsplats, registrerad hemort, sista bostad eller gravort; dessa måste hållas isär i currentföljden."
+    },
+    {
+      "field": "mother",
+      "literal": "Ada Vilhelmina Jansson, 1886–1961",
+      "limit": "Profilens namnform med V och årspann bevaras. Ingen egen namnändring eller oberoende moderns livsloppsverifiering."
+    },
+    {
+      "field": "father",
+      "literal": "Bernard Natanael Eliasson, 1886–1978",
+      "limit": "Bernard är Ancestry-formen. Faderskapet kan redan vara OWNER_CONFIRMED på annan grund; Ancestry varken ersätter, sänker eller ger den ägargrunden. Inga föräldraår fastställs enbart här."
+    },
+    {
+      "field": "spouse",
+      "literal": "May Amalia Ekholm, 1920–2006",
+      "limit": "May är denna profils form; ingen vigseldag eller nytt namnbyte härleds."
+    },
+    {
+      "field": "children_count",
+      "literal": "profilen anger tre barn",
+      "limit": "Barnen namnges inte i C0010. Antalet fastställer inga tre enskilda identiteter, föräldralänkar eller fullständig barnaskara oberoende av andra källor."
+    }
+  ],
+  "scope_decision": {
+    "recommended_outcome": "reviewed_with_limits",
+    "sufficient_for": "Dokumentär helcitationsaudit av hela bevarade C0010-texten och S0010-provenansen, med individuell följdprövning mot currentcapture.",
+    "not_sufficient_for": [
+      "Originalverifiering av historisk webbsida eller nuvarande Ancestry-sida.",
+      "Påhittad kolumn-/bildkontroll eller nya personobservationer utanför de sex uttryckliga uppgifterna.",
+      "Omklassning till primärkälla, flera oberoende röster eller automatiskt ändrade fakta-/personstatusar."
+    ],
+    "record_boundary": "En sammanhållen bevarad profil med inbäddade uppgifter om föräldrar/maka/barnantal. Inget tecken i C0010 på separat citerat ägarmeddelande eller annan separat källpost, till skillnad från annan blandad provenans.",
+    "mapping_from_documentary_manifest": {
+      "record_id": "R-60a1fe99c7fbb5b19e91c547",
+      "reading_id": "READ-69c73a1cf4324136be2128c3",
+      "reservation": "Manifestmapping, inte ny kontroll av currentversioner."
+    }
+  },
+  "current_context_needed": {
+    "first": "R/READ/TR/S och impactens fulla aktuella typed data; root fångar detta.",
+    "people_if_relevant": "Arne P0003 samt namngivna föräldrar/maka enligt exakta current-länkar. Inga barnpersoner väljs enbart från antalet tre.",
+    "checks": [
+      "OWNER_CONFIRMED-faderns separata stöd och befintlig avvisad Ottilia-koppling bevaras.",
+      "Dödsplats/adress/hemort, Ancestry-namnformer och barnantal granskas för eventuell överdriven propagation.",
+      "Återbruka redan tillräcklig individuell läsning; inga statusnedgraderingar enbart på grund av att profilen är sekundär."
+    ],
+    "no_full_spec_before_capture": true
+  },
+  "mutations": {
+    "canonical": false,
+    "archive": false,
+    "wotan": false,
+    "dashboard": false,
+    "external_access": false,
+    "images_opened": false
+  },
+  "next": "Invänta rootens aktuella capture och särskilt uppdrag om sakföljd/spec. Inga andra poster påbörjas."
+}

@@ -1,0 +1,41 @@
+{
+  "task": "T-0780",
+  "phase": "C0561 finite expanded implementation; actual328 mechanical reuse; six evidence-order input return",
+  "completed_utc": "2026-10-03T09:02:57.553046+00:00",
+  "pins": [
+    {
+      "path": "evaluations/T-0780/implementation/C0561-final-expanded-queue-v1/bounded-phase-handoff-v1.json",
+      "sha256": "15789e107afe0554354707c2ce4141e23d32f31124dc08b0a033d72c752c0d71"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/actual328-reuse-input-v1/mechanical-reuse-handoff-and-production-v3.json",
+      "sha256": "312a1bdc9e15195e3ff5f5f2616e9cba5e295e290d688e175a0e82c3b1dc7931"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0685-six-observation-evidence-order-return-v1.json",
+      "sha256": "1c1fd0b709ba37e9be6bb166d4058a2d0f97e61569f0ce83aa801bd1572837b8"
+    }
+  ],
+  "production_failures": [
+    {
+      "script": "final_queue_sequence_failed_v1.py",
+      "reason": "Static checker failed on explicitly approved same-operation P435 future core basis; initial proposal retained; corrected proposal v2 pending primary binding."
+    },
+    {
+      "script": "build_actual328_reuse_input_failed_v1.py",
+      "reason": "Source pointer index encountered enriched origin unit shape; failed attempt retained, partial/enriched snapshots pointer-only, no guessed full-content equivalence."
+    }
+  ],
+  "source_operations_added": 3,
+  "native_revision_candidates_added": 11,
+  "native_new_objects_added": 0,
+  "actual328_requests_returned": 328,
+  "whole_native_objects_compared": 343,
+  "additional_readonly_baseline_objects": 10,
+  "source_dispositions_required": true,
+  "stage_probe_apply_resolution_count": 0,
+  "diagnostic97_artifacts_changed": 0,
+  "elapsed_full_phase_seconds": "unknown; prior phase start not preserved across context boundary; script elapsed values are lower bounds only",
+  "model_usage": "unknown; root collects actual turn usage after final",
+  "future_queue": "C0425 source-settled modules await root reactivation"
+}

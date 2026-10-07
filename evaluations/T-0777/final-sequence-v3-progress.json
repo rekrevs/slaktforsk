@@ -1,0 +1,60 @@
+{
+  "task": "T-0777",
+  "db": "evaluations/T-0777/clone/final-candidate-v3.sqlite",
+  "steps": [
+    {
+      "index": 10,
+      "at_utc": "2026-10-02T11:18:02.364419+00:00",
+      "path": "evaluations/T-0777/C-0911-source-candidate-operation-v3.json",
+      "sha256": "654548e802cd39c86d6f385ffc5eb29ca78de2da76f4baf40c7568c334920206",
+      "expected_before": {
+        "journal_head": 264,
+        "pending": 28
+      },
+      "actual_after": {
+        "journal_head": 265,
+        "pending": 28
+      },
+      "exit_code": 0,
+      "stdout": "{\n  \"unchanged\": false,\n  \"operation\": \"T-0777/C0911-source-candidate-v2\",\n  \"changes\": 11,\n  \"pendingReviews\": 28,\n  \"journal\": {\n    \"written\": 265\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 11,
+      "at_utc": "2026-10-02T11:18:08.094756+00:00",
+      "path": "evaluations/T-0777/C-0911-role-metadata-candidate-operation-v1.json",
+      "sha256": "147913fe1de36ae98c84a3e6c9df5d330c8c80cd2a097703fcb731a9917e920b",
+      "expected_before": {
+        "journal_head": 265,
+        "pending": 28
+      },
+      "actual_after": {
+        "journal_head": 266,
+        "pending": 31
+      },
+      "exit_code": 0,
+      "stdout": "{\n  \"unchanged\": false,\n  \"operation\": \"T-0777/C0911-role-metadata-candidate-v1\",\n  \"changes\": 3,\n  \"pendingReviews\": 31,\n  \"journal\": {\n    \"written\": 1\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "index": 12,
+      "at_utc": "2026-10-02T11:18:13.683112+00:00",
+      "path": "evaluations/T-0777/C-0911-consequence-candidate-operation-v2.json",
+      "sha256": "87d587b20c4a41f62690ede815f53b6a958a7664b1b810b1e132ea811fa801e9",
+      "expected_before": {
+        "journal_head": 266,
+        "pending": 31
+      },
+      "actual_after": {
+        "journal_head": 267,
+        "pending": 33
+      },
+      "exit_code": 0,
+      "stdout": "{\n  \"unchanged\": false,\n  \"operation\": \"T-0777/C0911-consequence-candidate-v1\",\n  \"changes\": 55,\n  \"pendingReviews\": 33,\n  \"journal\": {\n    \"written\": 1\n  }\n}\n",
+      "stderr": ""
+    }
+  ],
+  "complete_all_12": true,
+  "pending": 33,
+  "source_approval_still_required": true
+}

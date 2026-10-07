@@ -1,0 +1,129 @@
+--- evaluations/T-0787/implementation/apply_root_authorized_exact_two_operations_canonical_v1.py
++++ evaluations/T-0788/implementation/apply_root_authorized_exact36_plus27_canonical_v1.py
+@@ -27,7 +27,7 @@
+     ap = args.authorization.resolve()
+     assert ap.is_relative_to(R) and h.sha(ap) == args.authorization_sha256
+     auth = json.loads(ap.read_text())
+-    assert auth['authorization'] == 'ONE_CONTROLLED_EXACT_TWO_OPERATION136_PLUS137_CANONICAL_SEQUENCE'
++    assert auth['authorization'] == 'ONE_CONTROLLED_EXACT_TWO_OPERATION36_PLUS27_CANONICAL_SEQUENCE'
+     assert auth['root_authorized'] is True and auth['database_replacement_authorized'] is False
+     assert auth['retry_authorized'] is False and auth['newclone_authorized'] is False
+     assert auth['helper_pin'] == h.pin(Path(__file__).resolve())
+@@ -36,28 +36,35 @@
+     _, membership = h.readpin(auth['membership_pin'])
+     assert package['membership_pin'] == auth['membership_pin']
+     assert package['operations'] == membership['operations'] and package['operation_count'] == 2
+-    assert membership['target_count'] == 136 and membership['resolution_count'] == 137
++    assert membership['target_count'] == 36 and membership['resolution_count'] == 27
+     members = membership['operations']
+     operations = [h.readpin(m['operation_pin']) for m in members]
+     assert operations[0][1]['id'] == members[0]['operation_id']
+-    assert len(operations[0][1]['changes']) == 136 and len(operations[0][1]['media']) == 1
++    assert len(operations[0][1]['changes']) == 36 and len(operations[0][1]['media']) == 1
+     assert operations[1][1]['id'] == members[1]['operation_id']
+-    assert operations[1][1]['changes'] == [] and len(operations[1][1]['resolve']) == 137
++    assert operations[1][1]['changes'] == [] and len(operations[1][1]['resolve']) == 27
+     assert all(op['dependencyReviewVersion'] == 2 for _, op in operations)
+     _, final_handoff = h.readpin(auth['reviewed_final_stage_handoff_pin'])
+     assert final_handoff['package_pin'] == auth['package_pin'] and final_handoff['membership_pin'] == auth['membership_pin']
+-    assert final_handoff['actual_state'] == {'journal_head': 449, 'pending': 0}
++    assert final_handoff['actual_state'] == {'journal_head': 451, 'pending': 0}
+     assert final_handoff['stage_DB_pin'] == auth['reviewed_final_stage_DB_pin']
+     _, first_handoff = h.readpin(final_handoff['native_prefix_stage_handoff_pin'])
+     _, second_state = h.readpin(auth['reviewed_resolution_step_state_pin'])
+     stage_states = [first_handoff['step_states'][0], second_state]
+-    assert stage_states[0]['before'] == {'journal_head': 447, 'pending': 0}
+-    assert stage_states[0]['after'] == stage_states[1]['before'] == {'journal_head': 448, 'pending': 137}
+-    assert stage_states[1]['after'] == {'journal_head': 449, 'pending': 0}
++    assert stage_states[0]['before'] == {'journal_head': 449, 'pending': 0}
++    assert stage_states[0]['after'] == stage_states[1]['before'] == {'journal_head': 450, 'pending': 27}
++    assert stage_states[1]['after'] == {'journal_head': 451, 'pending': 0}
+     _, primary_instructions = h.readpin(package['primary_actual_instruction_gate_pin'])
+     _, independent_instructions = h.readpin(package['independent_actual_instruction_gate_pin'])
+-    assert operations[1][1]['resolve'] == [r['resolution_instruction'] for r in primary_instructions['rows']]
+-    assert operations[1][1]['resolve'] == [r['approved_resolution_instruction'] for r in independent_instructions['individual_approvals']]
++    primary_rows = h.pointer(primary_instructions, auth['primary_instruction_rows_pointer'])
++    independent_rows = h.pointer(independent_instructions, auth['independent_instruction_rows_pointer'])
++    primary_literals = [h.pointer(row, auth['primary_resolution_instruction_pointer']) for row in primary_rows]
++    independent_literals = [h.pointer(row, auth['independent_resolution_instruction_pointer']) for row in independent_rows]
++    primary_requests = [h.pointer(row, auth['primary_actual_request_pointer']) for row in primary_rows]
++    independent_requests = [h.pointer(row, auth['independent_actual_request_pointer']) for row in independent_rows]
++    assert len(primary_rows) == len(independent_rows) == 27
++    assert operations[1][1]['resolve'] == primary_literals
++    assert operations[1][1]['resolve'] == independent_literals
+     pins = [auth['helper_pin'], auth['proven_utility_pin'], auth['package_pin'], auth['membership_pin'],
+             auth['baseline_DB_pin'], auth['fresh_root_baseline_receipt_pin'], auth['protected42_pin'],
+             auth['reviewed_final_stage_handoff_pin'], auth['reviewed_final_stage_DB_pin'],
+@@ -84,7 +91,7 @@
+     baseline_path = h.checked_pin_path(auth['baseline_DB_pin'])
+     base, live = h.conn(baseline_path), h.conn(M)
+     before = h.all50(base)
+-    assert h.all50(live) == before and h.state(base) == h.state(live) == {'journal_head': 447, 'pending': 0}
++    assert h.all50(live) == before and h.state(base) == h.state(live) == {'journal_head': 449, 'pending': 0}
+     protected = h.readpin(auth['protected42_pin'])[1]['objects']
+     assert len(protected) == 42
+     for rid, n in protected.items():
+@@ -98,7 +105,7 @@
+             assert heads.get(edge['object']) == edge['version']
+         heads[change['id']] = (change['expectedVersion'] or 0) + 1
+     output = (R / auth['output_path']).resolve()
+-    assert output.is_relative_to(R / 'evaluations/T-0787') and not output.exists()
++    assert output.is_relative_to(R / 'evaluations/T-0788') and not output.exists()
+     output.mkdir()
+     journal = R / 'genealogy2/journal'
+     prefix = {str(p.relative_to(journal)): h.sha(p) for p in journal.rglob('*') if p.is_file()}
+@@ -108,7 +115,7 @@
+     try:
+         h.write(output / 'root-authorization-fresh-main-all50-and-original-journal-prefix-v1.json',
+                 {'authorization_pin': h.pin(ap), 'main_before_pin': auth['main_before_pin'], 'baseline_all50': before,
+-                 'actual_before': {'journal_head': 447, 'pending': 0}, 'journal_prefix': prefix, 'protected42_exact': True})
++                 'actual_before': {'journal_head': 449, 'pending': 0}, 'journal_prefix': prefix, 'protected42_exact': True})
+         stage = h.conn(R / auth['reviewed_final_stage_DB_pin']['path'])
+         for index, (op_path, op) in enumerate(operations):
+             recheck(index == 0)
+@@ -119,8 +126,8 @@
+                 assert h.current(c, n['object_id']) == rid and h.native(c, rid) == n
+             if index == 1:
+                 pending = [dict(r) for r in c.execute('select q.* from review_request q left join review_resolution r on r.request_id=q.id where r.request_id is null order by q.id')]
+-                assert pending == [r['actual_request'] for r in primary_instructions['rows']]
+-                assert pending == [r['actual_request'] for r in independent_instructions['individual_approvals']]
++                assert pending == primary_requests
++                assert pending == independent_requests
+                 assert [r['id'] for r in pending] == [r['request'] for r in op['resolve']]
+             c.close()
+             for name, digest in prefix.items():
+@@ -163,14 +170,14 @@
+         c = h.conn(M)
+         resolutions = [dict(r) for r in c.execute('select rowid as native_rowid,* from review_resolution where operation_id=? order by rowid', (operations[1][1]['id'],))]
+         assert [{'request': v['request_id'], 'rationale': v['rationale']} for v in resolutions] == operations[1][1]['resolve']
+-        literal_pin = h.write(output / 'actual137-entire-literal-resolution-rows-and-order-v1.json', {'rows': resolutions, 'literal_and_order_equal': True})
+-        actual136 = h.readpin(first_handoff['all136_API_pin'])[1]['objects']
+-        for rid, n in actual136.items():
++        literal_pin = h.write(output / 'actual27-entire-literal-resolution-rows-and-order-v1.json', {'rows': resolutions, 'literal_and_order_equal': True})
++        actual36 = h.readpin(first_handoff['all36_API_pin'])[1]['objects']
++        for rid, n in actual36.items():
+             assert h.current(c, n['object_id']) == rid and h.native(c, rid) == n
+         for rid, n in protected.items():
+             assert h.current(c, n['object_id']) == rid and h.native(c, rid) == n
+         final = h.state(c)
+-        assert final == {'journal_head': 449, 'pending': 0}
++        assert final == {'journal_head': 451, 'pending': 0}
+         c.close()
+         validators = []
+         for cmd in ['verify', 'verify-assets', 'verify-source', 'inventory']:
+@@ -191,12 +198,12 @@
+         c = h.conn(M)
+         assert h.state(c) == final
+         c.close()
+-        handoff = h.write(output / 'complete-exact-two-operation-actual-canonical449-handoff-v1.json',
+-                          {'task': 'T-0787', 'authorization_pin': h.pin(ap), 'package_pin': auth['package_pin'],
++        handoff = h.write(output / 'complete-exact-two-operation-actual-canonical451-handoff-v1.json',
++                          {'task': 'T-0788', 'authorization_pin': h.pin(ap), 'package_pin': auth['package_pin'],
+                            'membership_pin': auth['membership_pin'], 'operation_pins': [m['operation_pin'] for m in members],
+                            'reviewed_final_stage_handoff_pin': auth['reviewed_final_stage_handoff_pin'], 'actual_state': final,
+                            'actual_step_states': steps, 'main_pin': h.pin(M), 'all50_raw_stage_comparison_pin': h.pin(compare_output),
+-                           'actual137_literal_resolution_pin': literal_pin, 'all136_native_and_protected42_exact_reviewed_stage': True,
++                           'actual27_literal_resolution_pin': literal_pin, 'all36_native_and_protected42_exact_reviewed_stage': True,
+                            'validators': validators, 'all_six_results_equal_reviewed_final_stage': True,
+                            'database_replacement': False, 'program_receipts_or_owner_administration_applied': False,
+                            'usage': 'UNKNOWN pending root collector'})

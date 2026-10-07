@@ -1,0 +1,21 @@
+{
+  "original_preserved": {
+    "path": "evaluations/T-0780/implementation/C0425-final-selected-research-wrapper-queue-v1/selected13-wrapper-operation-v1.json",
+    "sha256": "8f17fdf2c91de6b3279edd979212f4d5a771884f97755af7da145e6d293da323"
+  },
+  "split_operations": [
+    {
+      "path": "evaluations/T-0780/implementation/C0425-final-selected-research-wrapper-queue-v1/historical-READ-TR-before-records-operation-v1.json",
+      "sha256": "04e03c893e4712e6be7f024827716958cf11c6663f26e4d9ff653d91af45b868"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0425-final-selected-research-wrapper-queue-v1/five-records-last-operation-v1.json",
+      "sha256": "2c7100449b6cb8e6a4984aac34d27aab4390cebd9dd04eeccd69e4593ce38d9a"
+    }
+  ],
+  "all11_target_payloads_identical": true,
+  "source_explicit_sequence": "Create allfive fullTR on oldR@1 first; revise all READ and oldTR while oldR@1 current; revise fiveR last after every other intended oldR-basis consumer has been written. No implicit rebind; return complete current/historical fanout and concrete global order for individual Astra disposition. Source revision does not alter locator or source/media/asset arrays. No additional original scope.",
+  "new_native_count_growth": 0,
+  "all_original_array_orders_unchanged": true,
+  "primary_exact_concrete_hash_binding_pending": true
+}

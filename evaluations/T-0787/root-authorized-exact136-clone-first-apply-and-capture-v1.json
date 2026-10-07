@@ -1,0 +1,63 @@
+{
+  "task": "T-0787",
+  "at_utc": "2026-10-06T08:28:18.506308+00:00",
+  "root_authorized": true,
+  "phase": "clone-first-apply-and-capture-actual-requests",
+  "primary_gate_pin": {
+    "path": "evaluations/T-0787/source-review/exact-built136-primary-pre-stage-source-consequence-gate-v1.json",
+    "sha256": "a27c9a725e4b15c8994009f289ee414b5d7e4c9514cae8acda481e84c3544b14"
+  },
+  "independent_gate_pin": {
+    "path": "evaluations/T-0787/independent-review/exact-built136-independent-prestage-source-consequence-gate-v1.json",
+    "sha256": "0dc47456b71ba639adf683b173e506b6513ae15605f00860f9a97e09a0bf3dbc"
+  },
+  "package_pin": {
+    "path": "evaluations/T-0787/implementation/exact136-draft-v1/exact136-one-operation-package-proposal-v1.json",
+    "sha256": "b0ab311044a4039476659fd91be648541a39374b14c80c95ff4af03ba0c5aa99"
+  },
+  "operation_pin": {
+    "path": "evaluations/T-0787/implementation/exact136-draft-v1/exact136-one-controlled-operation-v1.json",
+    "sha256": "d5164d764b4f357ee1671fcea3b739247bb2b0c9192e132ba1e6bdeebd471a0d"
+  },
+  "main_baseline_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "1b551564c2067226be4083b52ee471c57268d719ad4aaa53b9d2dc2d43275e21"
+  },
+  "baseline_DB_pin": {
+    "path": "evaluations/T-0787/preparation/baseline-j447.sqlite",
+    "sha256": "0587019c23d764197dbf77d9227317710a35898827415323257b4245b563f6c4"
+  },
+  "baseline_state": {
+    "journal_head": 447,
+    "pending": 0
+  },
+  "target_count": 136,
+  "revision_count": 130,
+  "create_count": 6,
+  "media_count": 1,
+  "stage_output_root": "evaluations/T-0787/exact136-stage-v1",
+  "permitted": "Only preservation clone creation, exact one pinned CLI apply against clone with separate clone journal, whole native/current/order/protected42/all50 append diff and actual individual dependency-request capture. Read-only validators if meaningful; explicitly report pending expected. MAIN untouched.",
+  "runtime_resolution_authorized": false,
+  "canonical_authorized": false,
+  "database_replacement_authorized": false,
+  "retry_authorized": false,
+  "actual_request_count_not_inferred_from94_inputs": true,
+  "source_code_pins": [
+    {
+      "path": "genealogy2/cli.mjs",
+      "sha256": "96c4882903f436ae0564227d26eda4f01a4e998294ce025692e8534be8d45b89"
+    },
+    {
+      "path": "genealogy2/lib/domain.mjs",
+      "sha256": "b4f104f30bda6277c797fc57a538a9c32cf4db5eb0d24423c6d0cb9c64fec25e"
+    },
+    {
+      "path": "genealogy2/lib/store.mjs",
+      "sha256": "a0a4b318c7c8b2ddb5a86b476a7a05dc43f375ff8f786b0b60fe596089c8c6b0"
+    },
+    {
+      "path": "genealogy2/lib/recovery.mjs",
+      "sha256": "1215607ef6ebd21e9d70831e05f2ab883b80727489139dc01bb09613087054e5"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "task": "T-0773",
+  "started_at_utc": "2026-10-01T10:48:56.426828+00:00",
+  "owner_budget_baseline_percent": 33,
+  "parallel_najs": "Owner reports paused",
+  "allowed_models": [
+    "gpt-6.1-sol"
+  ],
+  "scope": [
+    "C-0020",
+    "C-0021",
+    "C-0023",
+    "C-0024",
+    "C-0025"
+  ],
+  "state": "COMPLETED_COMPARISON_OWNER_USAGE_RECORDED",
+  "reference": "genealogy2/verification/T-0677/work-measurement-five-posts-20261001.json",
+  "events": [
+    {
+      "at_utc": "2026-10-01T10:54:02.204119+00:00",
+      "phase": "preparation",
+      "result": "Fiveoriginals frozen; two fresh gpt-6.1-sol readers running; baselinej227 clone and exact historicalsemantic comparisons in progress.",
+      "agents": [
+        "/root/sol_primary",
+        "/root/sol_independent"
+      ]
+    },
+    {
+      "at_utc": "2026-10-01T11:01:31.972572+00:00",
+      "phase": "phase_a_lock_and_b_release",
+      "result": "Both five-original readings independently frozen and hashes verified. j227 exact baseline and three validators PASS. Older context released; latest Astra results still withheld.",
+      "locks": {
+        "sol-primary": {
+          "manifest_sha256": "77009f85d0b55fe21cf9102ea9b0daa62881b775a1ca33f42749ff192221f61f",
+          "file_count": 10,
+          "mismatches": []
+        },
+        "sol-independent": {
+          "manifest_sha256": "1af501b3e52a29727e1608f8adaf8d3cbfa57c822ab16d06fb1295ec073b23c4",
+          "file_count": 10,
+          "mismatches": []
+        }
+      }
+    },
+    {
+      "at_utc": "2026-10-01T11:19:10.729133+00:00",
+      "phase": "phase_b_progress",
+      "result": "All five reconciled v1 source matrices exist; independent prereview and full consequence coverage in progress. Mechanical isolated tester prepared, no candidate apply and no Astra reference released yet.",
+      "mechanical_runner_sha256": "4aee2064d2b952190bfe61b70bf8db66e9e7378a342886588eb78f274fbc0cee"
+    },
+    {
+      "at_utc": "2026-10-01T11:28:52.443714+00:00",
+      "phase": "phase_c_release",
+      "result": "Frozen Solcandidate and conditional independentprereview precede firstlatestAstrareference access. Freshisolated apply PASS67matches/pending0/3validators; gatesviews captured.",
+      "receipt": "evaluations/T-0773/t0773-sol-test-j134q7u0-receipt.json",
+      "candidate_counts": "evaluations/T-0773/candidate-v1-work-counts.json",
+      "reference": "evaluations/T-0773/phase-c-reference.private.json"
+    },
+    {
+      "at_utc": "2026-10-01T11:39:22.879266+00:00",
+      "phase": "complete_comparison",
+      "result": "Both Sol-only comparisons finished;15nativeprecision omissions, extra3sex proposals, Atraceomission/remainingreaduncertainty. Allfrozenartifacts and canonicalreference unchanged. Comparativeexperimentcomplete, not fullresearchacceptance ofcandidate."
+    },
+    {
+      "at_utc": "2026-10-01T12:16:40.000346+00:00",
+      "phase": "owner_budget_reading",
+      "result": "Owner corrected finalusage to34percent; start33, delta1percentagepoint for5repeatedscopes. Supersedes66percent."
+    }
+  ],
+  "ended_at_utc": "2026-10-01T11:39:22.879266+00:00",
+  "elapsed_seconds": 3026.452,
+  "elapsed_minutes": 50.44,
+  "repeated_source_scopes": 5,
+  "new_canonical_research_scopes": 0,
+  "candidate_change_entries": 67,
+  "candidate_new_objects": 57,
+  "candidate_revised_objects": 10,
+  "candidate_sex_precisions": 10,
+  "matching_astra_sex_precisions": 7,
+  "additional_sol_sex_precisions": 3,
+  "bounded_person_post_adoptions": 20,
+  "omitted_astra_existing_object_precisions": 15,
+  "actual_full_matches": 67,
+  "actual_pending": 0,
+  "validators": "PASS verify/verify-assets/verify-source",
+  "canonical_journal_sequence": 237,
+  "g001_completed": 27,
+  "g001_remaining": 13,
+  "protection": "PASS1840protectedfiles+5originals+baseline+frozenlocks",
+  "owner_budget_end_percent": 34,
+  "token_telemetry_available": false,
+  "cost_comparison_limitations": [
+    "Ownerendmeterpending;start33percent afterownerpausednajs.",
+    "OldAstrameter17to33possibleparallelconfounder.",
+    "Blindfullrereadingbeforeolderreusecontext differs informationorder.",
+    "Solcandidate incompletebroaderconsequenceconsolidation; not equalcompletedwork.",
+    "Structuralfield/rowobservation/decision denominators differ."
+  ],
+  "owner_reported_pass_budget_usage": {
+    "recorded_at_utc": "2026-10-01T12:16:40.000346+00:00",
+    "start_percent": 33,
+    "end_percent": 34,
+    "delta_percentage_points": 1,
+    "meter_delta_per_repeated_scope_percentage_points": 0.2,
+    "supersedes_unrecorded_end_percent": 66,
+    "attribution": "Owner corrected 66% to34%. Rounded shared subscription meter; not exact tokens. Owner reports najs paused. Earlier Astra16pointpass was parallel-confounded and had more complete consequencework."
+  }
+}

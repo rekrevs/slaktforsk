@@ -1,0 +1,94 @@
+{
+  "task": "T-0788",
+  "phase": "UNRUN_CODE_ONLY_ACTUAL451_PENDING27_BOUND",
+  "actual_corrective_handoff_pin": {
+    "path": "evaluations/T-0788/exact36-stage-v1/single-F0532-correction-and-request-capture-v1/complete-exact37-corrective-stage-actual-request-handoff-v1.json",
+    "sha256": "899c3eb077a9fdcc2919d0406ce72582c62566345ab4910b14a23dc120f37811"
+  },
+  "actual_stage_DB_pin": {
+    "path": "evaluations/T-0788/exact36-stage-v1/stage.sqlite",
+    "sha256": "714eabab2254a17b7cc3735997b3b8098e16ef0a7091159b452edbc15dde9ece"
+  },
+  "actual_requests_pin": {
+    "path": "evaluations/T-0788/exact36-stage-v1/single-F0532-correction-and-request-capture-v1/all-actual-individual-requests-after-F0532-with-current-context-v1.json",
+    "sha256": "e91d12bfa69bc948960f7e281498ad984501ef98fe440c85e658a5c42442fc8b"
+  },
+  "actual_state": {
+    "journal_head": 451,
+    "pending": 27
+  },
+  "old27_request_rows_exact": true,
+  "actual_new_requests": [],
+  "native_target_count": 37,
+  "native_revision_count": 32,
+  "native_create_count": 5,
+  "media_count": 1,
+  "helpers": [
+    {
+      "helper_pin": {
+        "path": "evaluations/T-0788/implementation/resolve_root_authorized_exact27_after_F0532_same_stage_v1.py",
+        "sha256": "dd597ef7e699b65d4e9c991c7fefd4e29da8032fe757cef2f37d7ef555c70bfb"
+      },
+      "AST_parse": "PASS"
+    },
+    {
+      "helper_pin": {
+        "path": "evaluations/T-0788/implementation/apply_root_authorized_exact37_plus27_three_operations_canonical_v1.py",
+        "sha256": "fd2ef1746abfe220dfa2194723d5da4951e8aa9874b391e796ffb502c7e3008d"
+      },
+      "AST_parse": "PASS"
+    }
+  ],
+  "same_stage_authorization_required": "ONE_EXACT27_SAME_STAGE_RESOLUTION_AND_READONLY_FINAL_SIX_CHECKS",
+  "canonical_authorization_required": "ONE_CONTROLLED_EXACT_THREE_OPERATION37_PLUS27_CANONICAL_SEQUENCE",
+  "expected_resolution_stage_transition": [
+    {
+      "journal_head": 451,
+      "pending": 27
+    },
+    {
+      "journal_head": 452,
+      "pending": 0
+    }
+  ],
+  "expected_canonical_sequence": [
+    {
+      "journal_head": 449,
+      "pending": 0
+    },
+    {
+      "journal_head": 450,
+      "pending": 27
+    },
+    {
+      "journal_head": 451,
+      "pending": 27
+    },
+    {
+      "journal_head": 452,
+      "pending": 0
+    }
+  ],
+  "conditional_instruction_pointer_fields": [
+    "primary_instruction_rows_pointer",
+    "independent_instruction_rows_pointer",
+    "primary_resolution_instruction_pointer",
+    "independent_resolution_instruction_pointer",
+    "primary_actual_request_pointer",
+    "independent_actual_request_pointer"
+  ],
+  "canonical_required_step_receipts": [
+    "initial36 step_states[0]",
+    "reviewed_correction_step_state_pin",
+    "reviewed_resolution_step_state_pin"
+  ],
+  "policy": "Only exact dual literal meanings/current/scopes bound to actual451; resolution changes[] and numeric2; sameclone preserves all37/native, protected42, fullraw47tables and old3reviewjournalrows; canonical executes3approvedCLI operations withoutDBreplacement and compares all50rawvalues/orderedrows to finalstage, only3newruntimeclock differences.",
+  "old_UNRUN27_beforeF_and_two_operation_canonical_helpers_preserved": true,
+  "old_and_new_helpers_not_executed_by_Sol": true,
+  "resolver_operation_constructed": false,
+  "final_three_operation_package_constructed": false,
+  "runtime_authorized": false,
+  "canonical_authorized": false,
+  "next": "Dual exactactual451 own/current/literal gates and separate rootDRAFTrelease before creating resolver; root reviews pinned helper/diff before runtime.",
+  "usage": "UNKNOWN pending root collector"
+}

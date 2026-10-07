@@ -1,0 +1,30 @@
+{
+  "task": "T-0780",
+  "helper_v1_pin": {
+    "path": "evaluations/T-0780/implementation/apply_one_authorized_sameclone_2128_resolution_v1.py",
+    "sha256": "0fe9468acb1342d2245a998ec9e9cc18446d97fb4c6f2e575be62d0bb1f1b52d"
+  },
+  "helper_v2_pin": {
+    "path": "evaluations/T-0780/implementation/apply_one_authorized_sameclone_2128_resolution_v2.py",
+    "sha256": "db311cd5bc5b413d4c4158ececa003212bd93db92b0dfc022152a64046c96016"
+  },
+  "exact_diff_pin": {
+    "path": "evaluations/T-0780/implementation/one-sameclone-resolution-pre-CLI-path-repair-v1-to-v2.patch",
+    "sha256": "1d6483dd2eaf6f654e220df7fa7809e60d4a5fd654e7740957f8860df4492826"
+  },
+  "failed_initial_attempt_proof_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/individual2128-resolution-apply-initial-pre-CLI-stop-v1/failed-pre-CLI-path-comparison-actual-unchanged-state-proof-v1.json",
+    "sha256": "7cd2b30e370075240594277e54ad61bcdfa8b98b0d3fd3686b4457df47f4ffc9"
+  },
+  "mechanical_changes": [
+    "Absolute/relative path presentation check replaced with resolved authorized path equality plus exact SHA",
+    "Reuse only snapshot proven created in first attempt at authorized exactpath/SHA; do not copy or overwrite"
+  ],
+  "all_other_guard_and_CLI_validator_semantics_unchanged": true,
+  "verification": {
+    "AST": "PASS",
+    "v2_execution": "UNRUN",
+    "CLI_apply_invocations": 0
+  },
+  "root_reauthorization_required": true
+}

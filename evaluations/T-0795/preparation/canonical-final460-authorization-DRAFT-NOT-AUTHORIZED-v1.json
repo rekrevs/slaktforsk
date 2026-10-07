@@ -1,0 +1,83 @@
+{
+  "task": "T-0795",
+  "mode": "ROOT_CANONICAL_EXACT_ONCE",
+  "root_authorized": false,
+  "code_sha256": "60d2972e2368a7e3983a98f26bb2dd898f51238d5d2171a83cc3e37b0f9cf71d",
+  "stage_helper_sha256": "39d53fc94619351a19e969c27ac83860c1217d32ac1f51a94c929582f698ca44",
+  "baseline_state_pin": {
+    "path": "evaluations/T-0795/preparation/baseline-state.json",
+    "sha256": "fe4f383966e96228347fbcfe3ad6081fbcf9366390ce15c558724c8432004ceb"
+  },
+  "reviewed_stage_DB_pin": {
+    "path": "evaluations/T-0795/preparation/reviewed-stage-v1/stage.sqlite",
+    "sha256": "6f412cab4833fd5e39a6839f5a7696456ddbacbbab750ca6e6bc633e60db5d43"
+  },
+  "ordered_operations": [
+    {
+      "path": "evaluations/T-0795/preparation/reviewed-stage-v1/operation-media-bound.json",
+      "sha256": "df696be18e30db8e45bb5aa7be9d3ec508cd92698ff3c34ae9b94e6c3ec7d28c"
+    },
+    {
+      "path": "evaluations/T-0795/preparation/continuation-v1/resolution-operation.json",
+      "sha256": "e4a8247bcea7121e509ae1302a053dbc40f67184c97e2a155ca68d95245dbd73"
+    },
+    {
+      "path": "evaluations/T-0795/preparation/life-amendment-v1/operation-life-literal.json",
+      "sha256": "7d616d4d8508ec638ec2ceaef10373b37a25a0cdd57024f7a9509cee712b13f3"
+    }
+  ],
+  "consequence_table_pin": {
+    "path": "evaluations/T-0795/preparation/reviewed-stage-v1/final-media-bound-consequence-table.json",
+    "sha256": "6334a7e020843121834644fd321427def0efa65b88b2eaf5ec49f34107b8bc73"
+  },
+  "life_consequence_table_pin": {
+    "path": "evaluations/T-0795/preparation/life-amendment-v1/single-life-seven-edges-consequence-table.json",
+    "sha256": "6ad19eaacfc99882e9b8e9cfab7fc19773fcde827692621a52a3afa144643681"
+  },
+  "person_views": {
+    "P-0212": {
+      "baseline": {
+        "path": "evaluations/T-0795/preparation/P-0212-person.json",
+        "sha256": "d199f762b0fb8b895df248d07b2a6ceb817f00e39408e1f1edd1360ac1bf2c12"
+      },
+      "stage": {
+        "path": "evaluations/T-0795/preparation/life-amendment-v1/actual460/P0212-person.json",
+        "sha256": "00671c0f788b7e856fa2505f3f19d8f007d4ca82c1e51a2176f1482cbdb366c6"
+      }
+    }
+  },
+  "final_derived_pins": {
+    "inventory": {
+      "path": "evaluations/T-0795/preparation/life-amendment-v1/actual460/inventory.json",
+      "sha256": "167f1ce22291db8823a8de74ee390560fc05a14881cfa39fde13424acaf8ee74"
+    },
+    "Adam-verified": {
+      "path": "evaluations/T-0795/preparation/life-amendment-v1/actual460/Adam-verified.json",
+      "sha256": "aa4ea909478ed6ea351d90b47769de04440bdbef0c8b50f5ca327d3fe7312d4a"
+    },
+    "Axel-verified": {
+      "path": "evaluations/T-0795/preparation/life-amendment-v1/actual460/Axel-verified.json",
+      "sha256": "c38ccf6a90cd94582f0cadf90e2006c3240790c441990097522ba3e37b77a804"
+    },
+    "verify": {
+      "path": "evaluations/T-0795/preparation/life-amendment-v1/actual460/verify.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    "verify-assets": {
+      "path": "evaluations/T-0795/preparation/life-amendment-v1/actual460/verify-assets.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    "verify-source": {
+      "path": "evaluations/T-0795/preparation/life-amendment-v1/actual460/verify-source.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    }
+  },
+  "final_state": {
+    "journal_head": 460,
+    "pending": 0
+  },
+  "source_final_gate": "PENDING exact SOURCE final460 gate including life table",
+  "independent_final_gate": "PENDING exact independent final460 gate including life table",
+  "life_table_gate_binding_requirement": "Add exact_bindings for life_consequence_table_pin at both SOURCE gates; canonical helper v2 binds ordered third operation via exact ordered_operations, first table via op0 SHA.",
+  "output_path": "evaluations/T-0795/preparation/canonical-actual-v1"
+}

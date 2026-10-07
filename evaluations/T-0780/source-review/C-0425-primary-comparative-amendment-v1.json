@@ -1,0 +1,54 @@
+{
+  "task": "T-0780",
+  "scope": "C0425 existing locked original only, comparative amendment after own full raw and independent freeze",
+  "preserved_first_raw": {
+    "path": "evaluations/T-0780/source-review/C-0425-primary-raw-v1.json",
+    "sha256": "2469c9d1a84dabedede869f3ed5c7349925e24a6226b738d0ba58aa8ebd79565"
+  },
+  "original": {
+    "path": "genealogy/media/C-0425-riksarkivet-bygdea-AIIa2b-bild-25-sida-824.jpg",
+    "sha256": "7ca13be2f96b952e6bd3db5c5e204f5e46fcd3edada5b5729030e5e5a6a767c8",
+    "dimensions": [
+      5457,
+      3968
+    ]
+  },
+  "method": "Direct fresh visual reinspection of previously generated own upper-left, Carl-inserts and middle-left crops. Existing current/reviewer exposure explicit; no new blind reading claimed. No new source or image hash.",
+  "changes": [
+    {
+      "row": "6",
+      "field": "birth_day_month",
+      "old_primary_raw": "26/9",
+      "current_source_reading": "2[4/6?]/9",
+      "reason": "Fresh comparison in own upper crop: second glyph has a straight rising/crossed stroke unlike Christina row7 curved6;24 now preferred, first26 no longer secure. Lower own row17 remains26/9; do not harmonize two entries from stronger actual birth."
+    },
+    {
+      "row": "11",
+      "field": "name_role",
+      "old_primary_raw": "h. Mathilda Granberg",
+      "current_source_reading": "h. Mathilda Gr[ö/o/a?]nberg",
+      "reason": "Middle crop shows small raised marks above rounded vowel after Gr; Grönberg preferred but preserve precise vowel uncertainty instead of former certain Granberg."
+    },
+    {
+      "row": "9insert-daughter",
+      "field": "name_role",
+      "old_primary_raw": "d. Märta Amalia",
+      "current_source_reading": "d. Märta A[d?]alia [middle name uncertain; earlier Amalia not certified]",
+      "reason": "Own Carl insert and middle crops show tall/descending medial stroke, not securely m. Partial Ad...alia preferred, no normalization to known name."
+    }
+  ],
+  "retains": [
+    {
+      "row": "9insert-son",
+      "field": "birth_day_month",
+      "reading": "[4/11?]/3; numerator dense",
+      "reason": "Two close strokes now favor11, but cramped cell overlaps Ingrid denominator above. Preserve bounded4/11 reservation rather than assert certain4 or new17/4."
+    },
+    {
+      "row": "14insert/15",
+      "reading": "Nils Emil;08 14/11",
+      "reason": "Own fresh middle crop confirms names and November denominator, not Stig Ernst or April."
+    }
+  ],
+  "consequences": "Exact source-bound variants must reach structured name/date copies and caveats. Actual stronger birth facts and accepted identities retained; source versions remain distinct. Other raw fields unchanged."
+}

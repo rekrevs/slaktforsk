@@ -1,0 +1,31 @@
+{
+  "task": "T-0781",
+  "attempts": [
+    {
+      "script": {
+        "path": "evaluations/T-0781/independent-review/final442-review-proof-scripts-v1/t0781_independent_final442.py",
+        "sha256": "8edb9431bf2b05633926820a1c219d1e959a47f35093d5226d1382c017b51e5e"
+      },
+      "result": "STOP_BEFORE_ARTIFACT_OR_RUNTIME_WRITES: four SQLite FTS WITHOUT ROWID tables require explicit declared primary-key comparison."
+    },
+    {
+      "script": {
+        "path": "evaluations/T-0781/independent-review/final442-review-proof-scripts-v1/t0781_independent_final442_v2.py",
+        "sha256": "6df5b826140351a28427648e63e9830791788b635dcae36a3d0aa9d7d4bed887"
+      },
+      "result": "PASS.46 physical rowid tables and4 declared-primary-key FTS tables all compared;47 unchanged,3 exactprefixappends. Direct actual174/API/398context/42protected/17literal approved source judgments bound."
+    }
+  ],
+  "artifact_pins": [
+    {
+      "path": "evaluations/T-0781/independent-review/final442-direct-readonly-native-protected-literal17-and-package-proof-v1.json",
+      "sha256": "087894a4d38371fb4071e81e9400f82e782ee06caa4459b98a334bed0df90e0b"
+    },
+    {
+      "path": "evaluations/T-0781/independent-review/two-source-complete-exact17-final-independent-source-consequence-global-gate-v1.json",
+      "sha256": "e5a624b8c8ed6b2c9bb5442431a33cc0d1696e6ac92b2b32e91ab633374dbd00"
+    }
+  ],
+  "databases_written": false,
+  "read_scope": "No new originals or new source decisions; exact prior individual source/consequence judgments reused. Counts/equality do not create whole-scope reading credit."
+}

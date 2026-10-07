@@ -1,0 +1,79 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T11:46:55.668816+00:00",
+  "stage_database_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/stage.sqlite",
+    "sha256": "ae906e23de24bbded3cf392980c9749fe75d8ba6161fec7a92a1fbfdd17fe5ac"
+  },
+  "stage_result_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/stage-result.json",
+    "sha256": "5268c24084cad05bab28f518d8daf94dbc7a362c5a2978ebcf47e282dd89b16f"
+  },
+  "stage_state_actual": {
+    "journal_head": 424,
+    "pending": 2128
+  },
+  "live_state_actual_readonly": {
+    "journal_head": 281,
+    "pending": 0
+  },
+  "stage_all_operation_payloads_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/all-operation-payloads.json",
+    "sha256": "b3824008d28dfd8bb0009d203411570930794471302e5e6fb5a6e51bed92e76f"
+  },
+  "stage_pending_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/pending-after.json",
+    "sha256": "1ee7a50e1c00a410917c78f879b31d8ee5dae51f74122dac4aca15bf6eb8c998"
+  },
+  "exact_helper_success_exit_code": 0,
+  "validator_results": {
+    "verify": {
+      "ok": true,
+      "errors": []
+    },
+    "verify-assets": {
+      "ok": true,
+      "errors": []
+    },
+    "verify-source": {
+      "ok": true,
+      "mediaVerified": true,
+      "problems": []
+    }
+  },
+  "inventory_active": {
+    "persons": 511,
+    "identityPassed": 196,
+    "treeSupporting": 51,
+    "identityGatePassed": 50,
+    "explicitNativeLifePassed": 0,
+    "legacyContractPassed": 0
+  },
+  "verified_pedigree": {
+    "mode": "verified",
+    "root_gate": {
+      "person_id": "P-0269",
+      "criteria": "identity_gate/1",
+      "passed": true,
+      "status": "passed",
+      "reasons": []
+    },
+    "paths": 18,
+    "edges": 17,
+    "excluded": 12,
+    "complete_pedigree_pin": {
+      "path": "evaluations/T-0780/full10-stage-final143-v1/pedigree-verified-P0269.json",
+      "sha256": "6e40eed9ad60e4d4519cd389afcbadeef1e051188eeeb75ebecac29d7b26da15"
+    }
+  },
+  "protected_unchanged": true,
+  "live_all50_tables_unchanged_verified_by_exact_helper": true,
+  "actual_request_grading_and_final_independent_review": "PENDING",
+  "canonical_apply_authorized": false,
+  "resolutions_applied": false,
+  "model_usage": "Unobservable; root collects after final. Unknown, not zero.",
+  "prior_full_summary_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/completed-stage-database-and-validator-summary-v1.json",
+    "sha256": "d1b7eaabd5adda43f4ddb357c54b2e3fa4a5aeb7e012d441f25338fdb5e81c4f"
+  }
+}

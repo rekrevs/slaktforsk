@@ -1,0 +1,2041 @@
+{
+  "task": "T-0781",
+  "status": "DIRECT_READONLY_FINAL442_ENTIRE_STATE_AND_APPROVED_PACKAGE_BINDING_PASS",
+  "final_stage_handoff_pin": {
+    "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/complete-final442-zero-pending-exact17-resolution-stage-handoff-v1.json",
+    "sha256": "b1d9969920310db12ea63ca53d5c8e09f2e9d467b832029e1304a77827de9bae"
+  },
+  "stage_DB_pin": {
+    "path": "evaluations/T-0781/exact16-fresh-stage-v1/stage.sqlite",
+    "sha256": "0710f91a6c039ce32354eb1261c4d11b0ff8ad50c35fb24b9003101160a85399"
+  },
+  "historical441_snapshot_pin": {
+    "path": "evaluations/T-0781/exact16-fresh-stage-v1/pre-resolution-stage-original-j441-p17-v1.sqlite",
+    "sha256": "f837a784048c7c65d77ed10e46076f7e5167b8194dcaddb0fdaeeae02689e670"
+  },
+  "actual_journal": 442,
+  "actual_pending": 0,
+  "main_pin_checked_unchanged": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "efea4dfa8feec3f2f5bff8167792b01513ebb5689d9d2ec5278983a23ca208b3"
+  },
+  "main_journal": 425,
+  "main_pending": 0,
+  "method": "Own sqlite3 connections to absolute file URIs with mode=ro. All50 tables compared:46 tables preserve physical rowid and row order; four WITHOUT ROWID FTS index/config tables compare every row in declared primary-key order, explicitly listed. Schema exact. No evidence/origin/asset/media sorting. All398 complete native objects with original source strings and ordered arrays; actual174 entire API reconstructed exactly against own individual approvals with zero omitted fields or implicit defaults. Mechanical equality carries prior sufficient source judgments and does not claim new whole398 semantic reading.",
+  "schema_exact": true,
+  "all47_entire_tables_including_rowids_exact": [
+    {
+      "table": "assessment",
+      "rows": 23541,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "asset",
+      "rows": 5067,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "dependency",
+      "rows": 39038,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "document",
+      "rows": 3717,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "document_search",
+      "rows": 3717,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "document_search_config",
+      "rows": 1,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": false,
+        "declared_primary_key_order": [
+          "k"
+        ]
+      }
+    },
+    {
+      "table": "document_search_content",
+      "rows": 3717,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "document_search_data",
+      "rows": 4239,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "document_search_docsize",
+      "rows": 3717,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "document_search_idx",
+      "rows": 4446,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": false,
+        "declared_primary_key_order": [
+          "segid",
+          "term"
+        ]
+      }
+    },
+    {
+      "table": "event",
+      "rows": 1536,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "fact",
+      "rows": 3711,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "identity",
+      "rows": 1862,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "identity_resolution",
+      "rows": 11,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "import_batch",
+      "rows": 1,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "legacy_assertion",
+      "rows": 5130,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "legacy_entity",
+      "rows": 2992,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "legacy_mapping",
+      "rows": 539,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "mention",
+      "rows": 2588,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "meta",
+      "rows": 1,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "narrative",
+      "rows": 768,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "native_asset",
+      "rows": 52,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "object",
+      "rows": 44326,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "object_search",
+      "rows": 44326,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "object_search_config",
+      "rows": 1,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": false,
+        "declared_primary_key_order": [
+          "k"
+        ]
+      }
+    },
+    {
+      "table": "object_search_content",
+      "rows": 44326,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "object_search_data",
+      "rows": 7251,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "object_search_docsize",
+      "rows": 44326,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "object_search_idx",
+      "rows": 6515,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": false,
+        "declared_primary_key_order": [
+          "segid",
+          "term"
+        ]
+      }
+    },
+    {
+      "table": "observation",
+      "rows": 3558,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "origin",
+      "rows": 99832,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "participation",
+      "rows": 2568,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "person",
+      "rows": 1108,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "place",
+      "rows": 21,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "question",
+      "rows": 1559,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "record",
+      "rows": 2113,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "record_asset",
+      "rows": 1527,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "record_media",
+      "rows": 57,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "relation",
+      "rows": 1700,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "review_request",
+      "rows": 6700,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "revision",
+      "rows": 49160,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "search",
+      "rows": 453,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "source",
+      "rows": 852,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "transcription",
+      "rows": 1211,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "unit",
+      "rows": 97854,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "unit_decision",
+      "rows": 97905,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    },
+    {
+      "table": "unit_decision_target",
+      "rows": 81238,
+      "entire_rows_and_declared_order_exact": true,
+      "ordering": {
+        "physical_rowid": true,
+        "order": "rowid"
+      }
+    }
+  ],
+  "only_three_exact_prefix_appends": [
+    {
+      "table": "operation",
+      "old_rows": 442,
+      "appended_rows": 1,
+      "entire_old_rows_including_rowids_prefix_exact": true
+    },
+    {
+      "table": "operation_payload",
+      "old_rows": 441,
+      "appended_rows": 1,
+      "entire_old_rows_including_rowids_prefix_exact": true
+    },
+    {
+      "table": "review_resolution",
+      "old_rows": 6683,
+      "appended_rows": 17,
+      "entire_old_rows_including_rowids_prefix_exact": true
+    }
+  ],
+  "all398_entire_native_payloads_equal_own_earlier_context": true,
+  "all174_individual_exact_API": [
+    {
+      "revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "own_source_API_pointer": "/individual_actual_approvals/0",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "TR-T0781-C0049-fullpost@1",
+      "own_source_API_pointer": "/individual_actual_approvals/1",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "AUDIT-T0781-C0049-fullpost@1",
+      "own_source_API_pointer": "/individual_actual_approvals/2",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "READ-afbfe3f933d234b8f0f60c3e@2",
+      "own_source_API_pointer": "/individual_actual_approvals/3",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "TR-bf8e09efe7e3e3c20156c785@2",
+      "own_source_API_pointer": "/individual_actual_approvals/4",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "TR-T0781-C0067-fullpost@1",
+      "own_source_API_pointer": "/individual_actual_approvals/5",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "AUDIT-T0781-C0067-fullpost@1",
+      "own_source_API_pointer": "/individual_actual_approvals/6",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "READ-4791805f82dfee11d335a425@2",
+      "own_source_API_pointer": "/individual_actual_approvals/7",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "M-P-0052-C0049@2",
+      "own_source_API_pointer": "/individual_actual_approvals/8",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "O-P-0052-C0049@2",
+      "own_source_API_pointer": "/individual_actual_approvals/9",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "M-P-0053-C0049@2",
+      "own_source_API_pointer": "/individual_actual_approvals/10",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "O-P-0053-C0049@2",
+      "own_source_API_pointer": "/individual_actual_approvals/11",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "M-P-0057-C0049@2",
+      "own_source_API_pointer": "/individual_actual_approvals/12",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "O-P-0057-C0049@2",
+      "own_source_API_pointer": "/individual_actual_approvals/13",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "O-P-0048-A-0248-child_family@2",
+      "own_source_API_pointer": "/individual_actual_approvals/14",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "F-P-0048-relation_context-64@2",
+      "own_source_API_pointer": "/individual_actual_approvals/15",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "F-P-0057-name_form-given@2",
+      "own_source_API_pointer": "/individual_actual_approvals/16",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "P-0057@4",
+      "own_source_API_pointer": "/individual_actual_approvals/17",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ID-P-0057-C0049@3",
+      "own_source_API_pointer": "/individual_actual_approvals/18",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "E-birth-P-0057@2",
+      "own_source_API_pointer": "/individual_actual_approvals/19",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "EP-E-birth-P-0057-P-0057-principal@2",
+      "own_source_API_pointer": "/individual_actual_approvals/20",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "F-P-0050-relation_context-P-0057@2",
+      "own_source_API_pointer": "/individual_actual_approvals/21",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ASSESSMENT-P-0052@2",
+      "own_source_API_pointer": "/individual_actual_approvals/22",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ASSESSMENT-P-0053@2",
+      "own_source_API_pointer": "/individual_actual_approvals/23",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ASSESSMENT-P-0057@2",
+      "own_source_API_pointer": "/individual_actual_approvals/24",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "BIO-P-0050@4",
+      "own_source_API_pointer": "/individual_actual_approvals/25",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "BIO-P-0051@4",
+      "own_source_API_pointer": "/individual_actual_approvals/26",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "BIO-P-0052@3",
+      "own_source_API_pointer": "/individual_actual_approvals/27",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "BIO-P-0053@3",
+      "own_source_API_pointer": "/individual_actual_approvals/28",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "BIO-P-0057@2",
+      "own_source_API_pointer": "/individual_actual_approvals/29",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0048-PK-05@2",
+      "own_source_API_pointer": "/individual_actual_approvals/30",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0050-PK-05@3",
+      "own_source_API_pointer": "/individual_actual_approvals/31",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0051-PK-05@4",
+      "own_source_API_pointer": "/individual_actual_approvals/32",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-01@2",
+      "own_source_API_pointer": "/individual_actual_approvals/33",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-02@2",
+      "own_source_API_pointer": "/individual_actual_approvals/34",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-03@2",
+      "own_source_API_pointer": "/individual_actual_approvals/35",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-04@2",
+      "own_source_API_pointer": "/individual_actual_approvals/36",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-05@2",
+      "own_source_API_pointer": "/individual_actual_approvals/37",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-06@2",
+      "own_source_API_pointer": "/individual_actual_approvals/38",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-07@2",
+      "own_source_API_pointer": "/individual_actual_approvals/39",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-08@2",
+      "own_source_API_pointer": "/individual_actual_approvals/40",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-09@2",
+      "own_source_API_pointer": "/individual_actual_approvals/41",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-10@2",
+      "own_source_API_pointer": "/individual_actual_approvals/42",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-11@2",
+      "own_source_API_pointer": "/individual_actual_approvals/43",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0052-PK-12@2",
+      "own_source_API_pointer": "/individual_actual_approvals/44",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-01@2",
+      "own_source_API_pointer": "/individual_actual_approvals/45",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-02@2",
+      "own_source_API_pointer": "/individual_actual_approvals/46",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-03@2",
+      "own_source_API_pointer": "/individual_actual_approvals/47",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-04@2",
+      "own_source_API_pointer": "/individual_actual_approvals/48",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-05@2",
+      "own_source_API_pointer": "/individual_actual_approvals/49",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-06@2",
+      "own_source_API_pointer": "/individual_actual_approvals/50",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-07@2",
+      "own_source_API_pointer": "/individual_actual_approvals/51",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-08@2",
+      "own_source_API_pointer": "/individual_actual_approvals/52",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-09@2",
+      "own_source_API_pointer": "/individual_actual_approvals/53",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-10@2",
+      "own_source_API_pointer": "/individual_actual_approvals/54",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-11@2",
+      "own_source_API_pointer": "/individual_actual_approvals/55",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0053-PK-12@2",
+      "own_source_API_pointer": "/individual_actual_approvals/56",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-01@2",
+      "own_source_API_pointer": "/individual_actual_approvals/57",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-02@2",
+      "own_source_API_pointer": "/individual_actual_approvals/58",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-03@2",
+      "own_source_API_pointer": "/individual_actual_approvals/59",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-04@2",
+      "own_source_API_pointer": "/individual_actual_approvals/60",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-05@2",
+      "own_source_API_pointer": "/individual_actual_approvals/61",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-06@2",
+      "own_source_API_pointer": "/individual_actual_approvals/62",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-07@2",
+      "own_source_API_pointer": "/individual_actual_approvals/63",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-08@2",
+      "own_source_API_pointer": "/individual_actual_approvals/64",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-09@2",
+      "own_source_API_pointer": "/individual_actual_approvals/65",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-10@2",
+      "own_source_API_pointer": "/individual_actual_approvals/66",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-11@2",
+      "own_source_API_pointer": "/individual_actual_approvals/67",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0057-PK-12@2",
+      "own_source_API_pointer": "/individual_actual_approvals/68",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0052-3c0e468b80ab@2",
+      "own_source_API_pointer": "/individual_actual_approvals/69",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0052-65b842a43e90@2",
+      "own_source_API_pointer": "/individual_actual_approvals/70",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0052-d0dbc36a8444@2",
+      "own_source_API_pointer": "/individual_actual_approvals/71",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0053-3b1f435e9084@2",
+      "own_source_API_pointer": "/individual_actual_approvals/72",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0053-adcfb42a8991@2",
+      "own_source_API_pointer": "/individual_actual_approvals/73",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0053-e52ec73e42af@2",
+      "own_source_API_pointer": "/individual_actual_approvals/74",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0057-3e14c3b1aa45@2",
+      "own_source_API_pointer": "/individual_actual_approvals/75",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0057-80421b7f027a@2",
+      "own_source_API_pointer": "/individual_actual_approvals/76",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0057-bbfd83de2ab4@2",
+      "own_source_API_pointer": "/individual_actual_approvals/77",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "P-0052/Q-01@2",
+      "own_source_API_pointer": "/individual_actual_approvals/78",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "P-0052/Q-02@2",
+      "own_source_API_pointer": "/individual_actual_approvals/79",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "P-0053/Q-01@2",
+      "own_source_API_pointer": "/individual_actual_approvals/80",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "P-0053/Q-02@2",
+      "own_source_API_pointer": "/individual_actual_approvals/81",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "P-0057/Q-01@2",
+      "own_source_API_pointer": "/individual_actual_approvals/82",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "P-0057/Q-02@2",
+      "own_source_API_pointer": "/individual_actual_approvals/83",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "PATH-P-0048-KP-04@4",
+      "own_source_API_pointer": "/individual_actual_approvals/84",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "PATH-P-0050-KP-01@4",
+      "own_source_API_pointer": "/individual_actual_approvals/85",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "PATH-P-0052-KP-01@3",
+      "own_source_API_pointer": "/individual_actual_approvals/86",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "PATH-P-0052-KP-02@2",
+      "own_source_API_pointer": "/individual_actual_approvals/87",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "PATH-P-0053-KP-01@3",
+      "own_source_API_pointer": "/individual_actual_approvals/88",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "PATH-P-0053-KP-02@2",
+      "own_source_API_pointer": "/individual_actual_approvals/89",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "PATH-P-0057-KP-01@2",
+      "own_source_API_pointer": "/individual_actual_approvals/90",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "PATH-P-0057-KP-02@2",
+      "own_source_API_pointer": "/individual_actual_approvals/91",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "RESEARCH-P-0048-9d76f0343410@3",
+      "own_source_API_pointer": "/individual_actual_approvals/92",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "RESEARCH-P-0052-9d76f0343410@2",
+      "own_source_API_pointer": "/individual_actual_approvals/93",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "RESEARCH-P-0053-9d76f0343410@2",
+      "own_source_API_pointer": "/individual_actual_approvals/94",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "RESEARCH-P-0057-9d76f0343410@2",
+      "own_source_API_pointer": "/individual_actual_approvals/95",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0052-ARB@2",
+      "own_source_API_pointer": "/individual_actual_approvals/96",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0052-BO@2",
+      "own_source_API_pointer": "/individual_actual_approvals/97",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0052-EKO@2",
+      "own_source_API_pointer": "/individual_actual_approvals/98",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0052-HAL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/99",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0052-ID@3",
+      "own_source_API_pointer": "/individual_actual_approvals/100",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0052-MIL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/101",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0052-PER@2",
+      "own_source_API_pointer": "/individual_actual_approvals/102",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0052-REL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/103",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0052-SAM@2",
+      "own_source_API_pointer": "/individual_actual_approvals/104",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0052-SYN@2",
+      "own_source_API_pointer": "/individual_actual_approvals/105",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0053-ARB@2",
+      "own_source_API_pointer": "/individual_actual_approvals/106",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0053-BO@2",
+      "own_source_API_pointer": "/individual_actual_approvals/107",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0053-EKO@2",
+      "own_source_API_pointer": "/individual_actual_approvals/108",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0053-HAL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/109",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0053-ID@3",
+      "own_source_API_pointer": "/individual_actual_approvals/110",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0053-MIL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/111",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0053-PER@2",
+      "own_source_API_pointer": "/individual_actual_approvals/112",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0053-REL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/113",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0053-SAM@2",
+      "own_source_API_pointer": "/individual_actual_approvals/114",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0053-SYN@2",
+      "own_source_API_pointer": "/individual_actual_approvals/115",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0057-ARB@2",
+      "own_source_API_pointer": "/individual_actual_approvals/116",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0057-BO@2",
+      "own_source_API_pointer": "/individual_actual_approvals/117",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0057-EKO@2",
+      "own_source_API_pointer": "/individual_actual_approvals/118",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0057-HAL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/119",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0057-ID@2",
+      "own_source_API_pointer": "/individual_actual_approvals/120",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0057-MIL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/121",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0057-PER@2",
+      "own_source_API_pointer": "/individual_actual_approvals/122",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0057-REL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/123",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0057-SAM@2",
+      "own_source_API_pointer": "/individual_actual_approvals/124",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0057-SYN@2",
+      "own_source_API_pointer": "/individual_actual_approvals/125",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "BIO-P-0049@5",
+      "own_source_API_pointer": "/individual_actual_approvals/126",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "BIO-P-0105@2",
+      "own_source_API_pointer": "/individual_actual_approvals/127",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "RESEARCH-P-0105-9d76f0343410@2",
+      "own_source_API_pointer": "/individual_actual_approvals/128",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "BIO-P-0104@3",
+      "own_source_API_pointer": "/individual_actual_approvals/129",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "PATH-P-0098-KP-03@2",
+      "own_source_API_pointer": "/individual_actual_approvals/130",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0105-PK-07@2",
+      "own_source_API_pointer": "/individual_actual_approvals/131",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0105-PK-08@2",
+      "own_source_API_pointer": "/individual_actual_approvals/132",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0105-PK-12@2",
+      "own_source_API_pointer": "/individual_actual_approvals/133",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0106-PK-08@2",
+      "own_source_API_pointer": "/individual_actual_approvals/134",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0106-PK-12@2",
+      "own_source_API_pointer": "/individual_actual_approvals/135",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0107-PK-08@2",
+      "own_source_API_pointer": "/individual_actual_approvals/136",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0107-PK-12@2",
+      "own_source_API_pointer": "/individual_actual_approvals/137",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0104-6930d6e1eaa3@2",
+      "own_source_API_pointer": "/individual_actual_approvals/138",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0104-b0e770c78792@2",
+      "own_source_API_pointer": "/individual_actual_approvals/139",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0105-dc8b6eac721f@2",
+      "own_source_API_pointer": "/individual_actual_approvals/140",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0106-2ee1271e1280@2",
+      "own_source_API_pointer": "/individual_actual_approvals/141",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0106-f8bc6b84707e@2",
+      "own_source_API_pointer": "/individual_actual_approvals/142",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "P-0104/Q-01@3",
+      "own_source_API_pointer": "/individual_actual_approvals/143",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "P-0105/Q-01@2",
+      "own_source_API_pointer": "/individual_actual_approvals/144",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "P-0107/Q-01@2",
+      "own_source_API_pointer": "/individual_actual_approvals/145",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "P-0107/Q-02@2",
+      "own_source_API_pointer": "/individual_actual_approvals/146",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "PATH-P-0104-KP-01@2",
+      "own_source_API_pointer": "/individual_actual_approvals/147",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "PATH-P-0107-KP-01@2",
+      "own_source_API_pointer": "/individual_actual_approvals/148",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0104-HAL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/149",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0106-ARB@2",
+      "own_source_API_pointer": "/individual_actual_approvals/150",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0107-BO@2",
+      "own_source_API_pointer": "/individual_actual_approvals/151",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0107-HAL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/152",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0106-PK-07@2",
+      "own_source_API_pointer": "/individual_actual_approvals/153",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "CONTRACT-P-0107-PK-09@2",
+      "own_source_API_pointer": "/individual_actual_approvals/154",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "KEY-P-0105-5af53240b0c2@2",
+      "own_source_API_pointer": "/individual_actual_approvals/155",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0051-REL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/156",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "THEME-P-0107-REL@2",
+      "own_source_API_pointer": "/individual_actual_approvals/157",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "E-birth-P-0052@2",
+      "own_source_API_pointer": "/individual_actual_approvals/158",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "E-birth-P-0053@2",
+      "own_source_API_pointer": "/individual_actual_approvals/159",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "EP-E-birth-P-0053-P-0053-principal@2",
+      "own_source_API_pointer": "/individual_actual_approvals/160",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0049-P-0048@1",
+      "own_source_API_pointer": "/individual_actual_approvals/161",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0049-P-0050@1",
+      "own_source_API_pointer": "/individual_actual_approvals/162",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0049-P-0051@1",
+      "own_source_API_pointer": "/individual_actual_approvals/163",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0049-P-0052@1",
+      "own_source_API_pointer": "/individual_actual_approvals/164",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0049-P-0053@1",
+      "own_source_API_pointer": "/individual_actual_approvals/165",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0049-P-0057@1",
+      "own_source_API_pointer": "/individual_actual_approvals/166",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0067-P-0049@1",
+      "own_source_API_pointer": "/individual_actual_approvals/167",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0067-P-0094@1",
+      "own_source_API_pointer": "/individual_actual_approvals/168",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0067-P-0095@1",
+      "own_source_API_pointer": "/individual_actual_approvals/169",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0067-P-0104@1",
+      "own_source_API_pointer": "/individual_actual_approvals/170",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0067-P-0105@1",
+      "own_source_API_pointer": "/individual_actual_approvals/171",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0067-P-0106@1",
+      "own_source_API_pointer": "/individual_actual_approvals/172",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    },
+    {
+      "revision_id": "ADOPT-T0781-C0067-P-0107@1",
+      "own_source_API_pointer": "/individual_actual_approvals/173",
+      "entire_actual_API_equal": true,
+      "current_version_equal": true
+    }
+  ],
+  "all42_protected_entire_native_current_equal": true,
+  "ordered17_exact_stored_operation_APIs": [
+    {
+      "index": 1,
+      "path": "evaluations/T-0781/implementation/C0049-core-and-C0067-P0098-drafts-v1/01-C0049-record-own-full-source-scope-draft-operation-v1.json",
+      "sha256": "7120effd00f064638a8a5546ddc101598eb1de45557bb2686d97790cc8cb0cbc",
+      "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+      "actual_sequence": 426,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-01-actual-before-after.json",
+        "sha256": "906a38a14aafaa6eb792e379e779afe21e0d6abb63881197d77e31a90a10e839"
+      }
+    },
+    {
+      "index": 2,
+      "path": "evaluations/T-0781/implementation/C0049-core-and-C0067-P0098-drafts-v1/02-C0049-fullTR-draft-operation-v1.json",
+      "sha256": "1dcdfc7b3652b6826226d7c997108cffa87285fb371a10fd1952f2c959323d53",
+      "operation_id": "T-0781/C0049-fullTR-v1",
+      "actual_sequence": 427,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-02-actual-before-after.json",
+        "sha256": "06909715aec344c97ced5d43c628ee5a159d844cab682582fbdeb312dfb54857"
+      }
+    },
+    {
+      "index": 3,
+      "path": "evaluations/T-0781/implementation/C0049-core-and-C0067-P0098-drafts-v1/03-C0049-full-audit-draft-operation-v2.json",
+      "sha256": "ff42608e80241f464e02b6262d8d1ee04f5609d7ba3cb488a0b6b8d347094bf0",
+      "operation_id": "T-0781/C0049-full-audit-v1",
+      "actual_sequence": 428,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-03-actual-before-after.json",
+        "sha256": "7b37bca3e43f41ac60da7d11c1fc64d2258a9d403dd958ee6ac733768f4431fd"
+      }
+    },
+    {
+      "index": 4,
+      "path": "evaluations/T-0781/implementation/ten-exact-current-record-support-version-supersessions-v1/01-same-version-exact-current-support-operation-v1.json",
+      "sha256": "c32aea3f71843f937361c531daa3007812ad8b7c17cd470d1a34505a4030da51",
+      "operation_id": "T-0781/C0049-READ-source-scope-v1",
+      "actual_sequence": 429,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-04-actual-before-after.json",
+        "sha256": "2eeae5e42c22dca9dcc22c879e539200b217dcf1cd69b550e7ea14dda1819353"
+      }
+    },
+    {
+      "index": 5,
+      "path": "evaluations/T-0781/implementation/ten-exact-current-record-support-version-supersessions-v1/02-same-version-exact-current-support-operation-v1.json",
+      "sha256": "f2c90a0c4d0eedcbc8da461b92db7746992cbcaa029e7f4a725a3bdc313aba19",
+      "operation_id": "T-0781/C0049-old-TR-source-scope-v1",
+      "actual_sequence": 430,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-05-actual-before-after.json",
+        "sha256": "47cfa27cbb5170d3ed789406eeac7b51d54300324b2f5f22cd51afcfb03e5d68"
+      }
+    },
+    {
+      "index": 6,
+      "path": "evaluations/T-0781/implementation/C0067-fullTR-audit-READ-draft-v1/01-C0067-new-TR-draft-operation-v1.json",
+      "sha256": "d4e4a6a6aab76ea63e6dba061b708d0d4545ea26322860115802c1b45e1d1038",
+      "operation_id": "T-0781/C0067-full-prior-reuse-TR-v1",
+      "actual_sequence": 431,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-06-actual-before-after.json",
+        "sha256": "d01b0ba3411bcbbf552e41c0ead5da70adbdd09b6548f26eed42a87122044e5e"
+      }
+    },
+    {
+      "index": 7,
+      "path": "evaluations/T-0781/implementation/C0067-fullTR-audit-READ-draft-v1/02-C0067-new-audit-draft-operation-v2.json",
+      "sha256": "d8e7b6eafaa40de53b2e90d3ef94144410e8c9bd9268e626d3c68ebaaa6c3df5",
+      "operation_id": "T-0781/C0067-full-prior-reuse-audit-v1",
+      "actual_sequence": 432,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-07-actual-before-after.json",
+        "sha256": "7948b3888dead3b9c692fd7023c25215ef09560703e1c238871f2cfa1d157c65"
+      }
+    },
+    {
+      "index": 8,
+      "path": "evaluations/T-0781/implementation/C0067-fullTR-audit-READ-draft-v1/03-C0067-READ-exact-prior-full-scope-draft-operation-v1.json",
+      "sha256": "eae8f9cb1d600e418ddf68b64b9752a2117d734d6086cb51b158c1b35454de31",
+      "operation_id": "T-0781/C0067-READ-prior-full-scope-amendment-v1",
+      "actual_sequence": 433,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-08-actual-before-after.json",
+        "sha256": "87814bbca6352ee879ea15fa81621dabdc3b442ddc5e68f5bdb1b5b43fbbe716"
+      }
+    },
+    {
+      "index": 9,
+      "path": "evaluations/T-0781/implementation/ten-exact-current-record-support-version-supersessions-v1/03-same-version-exact-current-support-operation-v1.json",
+      "sha256": "cce893158434d8716058a9fb33afce83be363f9d18c85eeae65ea8ae79325ed8",
+      "operation_id": "T-0781/C0049-small14-v1",
+      "actual_sequence": 434,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-09-actual-before-after.json",
+        "sha256": "d54c1ac9fb5efa25746af2ef0594b6a937ee0cb10523152e64d1c49b6153b347"
+      }
+    },
+    {
+      "index": 10,
+      "path": "evaluations/T-0781/implementation/C0049-small14-copy104-C0067-clause22-drafts-v1/02-C0049-current-copy104-draft-operation-v1.json",
+      "sha256": "5e790265331fef06c0b0e79028e0ce662191266159db3f4657efe48d149cc8c3",
+      "operation_id": "T-0781/C0049-current-copy104-v1",
+      "actual_sequence": 435,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-10-actual-before-after.json",
+        "sha256": "d81bf1c5b1b05621df422c4b7b2217a8cd7923f1f003abd89c8c37c1e4cb185d"
+      }
+    },
+    {
+      "index": 11,
+      "path": "evaluations/T-0781/implementation/ten-exact-current-record-support-version-supersessions-v1/04-same-version-exact-current-support-operation-v1.json",
+      "sha256": "32a702eeab2af51d6bca8d9239c2018912588b1135a90daf6b5c69adb244902b",
+      "operation_id": "T-0781/C0067-four-source-scope-clause-corrections-v1",
+      "actual_sequence": 436,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-11-actual-before-after.json",
+        "sha256": "b3ded4c1bee1531dcacfb8dcd92a9d2f4fb47216fd27bce79a37ead8ca3c2628"
+      }
+    },
+    {
+      "index": 12,
+      "path": "evaluations/T-0781/implementation/C0049-core-and-C0067-P0098-drafts-v1/06-C0067-P0098-other-year-source-route-draft-operation-v1.json",
+      "sha256": "50dd6622bea003da72a407b2f8ab4c98e6fc7514c4bb4bc20241d8ab285ebade",
+      "operation_id": "T-0781/C0067-P0098-other-year-source-route-v1",
+      "actual_sequence": 437,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-12-actual-before-after.json",
+        "sha256": "403cdd54bc3cb94fdaa44ee702899fa9577a3e32c340a8e6526e80d010ed1dbd"
+      }
+    },
+    {
+      "index": 13,
+      "path": "evaluations/T-0781/implementation/C0049-small14-copy104-C0067-clause22-drafts-v1/03-C0067-current-witness-clause22-draft-operation-v1.json",
+      "sha256": "767f621c89b1e0c11a7f1d22da6eeae3cdc46c6c37f024a3d5cffa7f14876a65",
+      "operation_id": "T-0781/C0067-current-witness-clause22-v1",
+      "actual_sequence": 438,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-13-actual-before-after.json",
+        "sha256": "89abe8a23bfef53bf72858a4fa9e730a2f8388feccde81b96fa1caea6c9bc73c"
+      }
+    },
+    {
+      "index": 14,
+      "path": "evaluations/T-0781/implementation/final-five-and-thirteen-adoption-drafts-v1/01-two-source-final-direct-copy5-draft-operation-v1.json",
+      "sha256": "96f49a70cfb2f68c63c82f82e785b4c4f1cd3d7f5af2677a29989074c7f97652",
+      "operation_id": "T-0781/two-source-final-direct-copy5-v1",
+      "actual_sequence": 439,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-14-actual-before-after.json",
+        "sha256": "7eae1d6faa016eca5ea94009a40180789f80ac714f267bc2e40a7a7933ab5119"
+      }
+    },
+    {
+      "index": 15,
+      "path": "evaluations/T-0781/implementation/birth52-53-settled-three-drafts-v1/01-P0052-P0053-structured-birth-place-three-revisions-draft-operation-v1.json",
+      "sha256": "90153d1d11c5ea2f171d8f03194b4ec572296464291b953f995e87f3b596d8c2",
+      "operation_id": "T-0781/P0052-P0053-structured-birth-place-three-revisions-v1",
+      "actual_sequence": 440,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-15-actual-before-after.json",
+        "sha256": "a1b8491e1486a245b72de92209938c8c98c93e0b0ed691c7a8741867f2033b94"
+      }
+    },
+    {
+      "index": 16,
+      "path": "evaluations/T-0781/implementation/final-five-and-thirteen-adoption-drafts-v1/02-two-source-thirteen-bounded-adoptions-draft-operation-v1.json",
+      "sha256": "60214c5ce489c0422fddf90d09a237bc0ddcae5058fa2310e7e5d68c5dd277d2",
+      "operation_id": "T-0781/two-source-thirteen-bounded-adoptions-v1",
+      "actual_sequence": 441,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/step-16-actual-before-after.json",
+        "sha256": "54cab622ac5e5a65bccc2b0e129c11a981d817d00fc847ba5e468d42d3711b6a"
+      }
+    },
+    {
+      "index": 17,
+      "path": "evaluations/T-0781/implementation/exact17-resolution-and-final17-member-draft-v1/one-exact17-individual-resolution-only-draft-operation-v1.json",
+      "sha256": "a5a3d132c168999e2a9949c0339d059c3be93ae30c6317593516d9ec2c8c4d12",
+      "operation_id": "T-0781/actual17-individual-source-approved-resolutions-v1",
+      "actual_sequence": 442,
+      "entire_stored_request_JSON_exact": true,
+      "actual_step_receipt_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/one-actual-before-after-CLI-apply-receipt-v1.json",
+        "sha256": "52f7f72b53e8b11a587cbff837b41d66503916ea427667440e0c61333af66349"
+      }
+    }
+  ],
+  "all17_individual_actual_resolutions": [
+    {
+      "request_id": "1fb157636071156180495a5c8ac87629976be8405f31b2b1379ba500ef9db0b7",
+      "retained_current_revision_id": "M-P-0053-C0049@2",
+      "native_rowid": 6684,
+      "approved_resolution_instruction": {
+        "request": "1fb157636071156180495a5c8ac87629976be8405f31b2b1379ba500ef9db0b7",
+        "rationale": "Begäran 1fb157636071156180495a5c8ac87629976be8405f31b2b1379ba500ef9db0b7 gäller M-P-0053-C0049@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Den berörda historiska revisionen har redan ersatts av faktiskt M-P-0053-C0049@2, vars hela API är lika med den källgodkända kandidaten. Anna Albertinas oförändrade namn och uttryckliga egenradsroll D:r är nu återgivna; patronymikon eller andra personfält påstås inte vara utskrivna. Nya omnämnandet stöds uttryckligen av R-d9840df54c7f19f2454c4d2d@2 och fullpostens TR@1. Den historiska beroendevägen är M-P-0053-C0049@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_source_scope": "Anna Albertinas namn/radperson består. M@2 har den egna uttryckliga D:r-rollen, korrigerad caveat och R49@2/fullTR-stöd. Begäran gäller historisk M@1 och är sakligt omprövad genom denna redan införda efterföljare; inga ytterligare ändringar behövs.",
+      "own_meaning_gate_pointer": "/rows/0",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "2bd2d7b817b8955e5c0a27333dd044deef0612f5534d54de057caaddda412294",
+      "retained_current_revision_id": "ID-P-0053-C0049@1",
+      "native_rowid": 6685,
+      "approved_resolution_instruction": {
+        "request": "2bd2d7b817b8955e5c0a27333dd044deef0612f5534d54de057caaddda412294",
+        "rationale": "Begäran 2bd2d7b817b8955e5c0a27333dd044deef0612f5534d54de057caaddda412294 gäller ID-P-0053-C0049@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Aktuellt ID-P-0053-C0049@1 behålls efter individuell prövning av denna ändringsväg. Den avgränsade länken från Anna Albertinas C0049-omnämnande till P-0053 är oförändrad. Rättad egen blank ortcell och uttrycklig D:r ändrar varken namnet eller denna personkoppling. Hela nuvarande accepted/CORROBORATED-beslutet och dess enda historiska M-P-0053-C0049@1-basis behålls; denna begränsade konsekvensprövning uppgraderar inte identiteten eller gör C0049 till egen födelsepost. Den historiska beroendevägen är ID-P-0053-C0049@1 → M-P-0053-C0049@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_source_scope": "ID53@1 binder samma namngivna Anna Albertina-rad till samma P53. Recordrättelsen ändrar egenortscellen, inte radkorrelationen. ID innehåller ingen egen födelseort; ursprunglig M53@1-grund, accepted/CORROBORATED och avgränsad identitet behålls. E53s separata ort-null och O53@2 återställer inte den gamla dittohärledningen.",
+      "own_meaning_gate_pointer": "/rows/1",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "38d67e0982440abaae505e35bb7098efae623030a131fc5ba85b4d2a980dcc4d",
+      "retained_current_revision_id": "M-P-0052-C0049@2",
+      "native_rowid": 6686,
+      "approved_resolution_instruction": {
+        "request": "38d67e0982440abaae505e35bb7098efae623030a131fc5ba85b4d2a980dcc4d",
+        "rationale": "Begäran 38d67e0982440abaae505e35bb7098efae623030a131fc5ba85b4d2a980dcc4d gäller M-P-0052-C0049@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Den berörda historiska revisionen har redan ersatts av faktiskt M-P-0052-C0049@2, vars hela API är lika med den källgodkända kandidaten. Catharina Johannas oförändrade namn och uttryckliga egenradsroll D:r är nu återgivna; patronymikon eller andra personfält påstås inte vara utskrivna. Nya omnämnandet stöds uttryckligen av R-d9840df54c7f19f2454c4d2d@2 och fullpostens TR@1. Den historiska beroendevägen är M-P-0052-C0049@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_source_scope": "Catharina Johannas namn/radperson består. M@2 redovisar D:r på egenrad och explicit R49@2/fullTR. Historisk M@1 är ersatt; ingen ny person eller egen födelseort härleds.",
+      "own_meaning_gate_pointer": "/rows/2",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "44de3b7f4e22d76245e67a5d4c55de92619b785aed113b329d201490eecfa999",
+      "retained_current_revision_id": "O-P-0052-C0049@2",
+      "native_rowid": 6687,
+      "approved_resolution_instruction": {
+        "request": "44de3b7f4e22d76245e67a5d4c55de92619b785aed113b329d201490eecfa999",
+        "rationale": "Begäran 44de3b7f4e22d76245e67a5d4c55de92619b785aed113b329d201490eecfa999 gäller O-P-0052-C0049@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Den berörda historiska revisionen har redan ersatts av faktiskt O-P-0052-C0049@2, vars hela API är lika med den källgodkända kandidaten. Catharina Johannas egen födelseortscell är blank utan belagt ditto. Denna C0049-observations reported_birth_place är därför null, medan datum 1865-05-11 och familjerollen består. E-birth-P-0052@2 behåller separat Bygdeå från tidigare tillräckligt C0046-stöd; ingen konflikt skapas mellan en blank källcell och den starkare slutsatsen. Egen födelsenotis är fortfarande oprövad. Den historiska beroendevägen är O-P-0052-C0049@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_source_scope": "O52@2 har redan ersatt falskt födelseortsditto med null/egenblankhet, kvar datum1865-05-11 och samma person. R49@2/M52@2/fullTR exakta stöd. E52s Bygdeå från separat C46 rapport gäller inte C49s tomma cell. Historisk O@1 återtas inte.",
+      "own_meaning_gate_pointer": "/rows/3",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "4d14ffe73e91618e2aae2a7944d4a4c9b396abacfbb8f2947ed6d343b191a47b",
+      "retained_current_revision_id": "ID-P-0053-C0049@1",
+      "native_rowid": 6688,
+      "approved_resolution_instruction": {
+        "request": "4d14ffe73e91618e2aae2a7944d4a4c9b396abacfbb8f2947ed6d343b191a47b",
+        "rationale": "Begäran 4d14ffe73e91618e2aae2a7944d4a4c9b396abacfbb8f2947ed6d343b191a47b gäller ID-P-0053-C0049@1 efter ändringen av M-P-0053-C0049@2. Aktuellt ID-P-0053-C0049@1 behålls efter individuell prövning av denna ändringsväg. Den avgränsade länken från Anna Albertinas C0049-omnämnande till P-0053 är oförändrad. Rättad egen blank ortcell och uttrycklig D:r ändrar varken namnet eller denna personkoppling. Hela nuvarande accepted/CORROBORATED-beslutet och dess enda historiska M-P-0053-C0049@1-basis behålls; denna begränsade konsekvensprövning uppgraderar inte identiteten eller gör C0049 till egen födelsepost. Den historiska beroendevägen är ID-P-0053-C0049@1 → M-P-0053-C0049@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_source_scope": "M53@2 tillför D:r och källgräns men ändrar inte Anna Albertinas namn eller mention/person-ID. Därför behålls hela ID53@1 och dess exakta gamla M53@1-stöd; inget nytt identitetsgodkännande eller automatisk rebind.",
+      "own_meaning_gate_pointer": "/rows/4",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "70595676d923bd6c41c18cfe53ba9d215468ae9e1ef8cfd91d55dfa1c21002d8",
+      "retained_current_revision_id": "ID-P-0052-C0049@1",
+      "native_rowid": 6689,
+      "approved_resolution_instruction": {
+        "request": "70595676d923bd6c41c18cfe53ba9d215468ae9e1ef8cfd91d55dfa1c21002d8",
+        "rationale": "Begäran 70595676d923bd6c41c18cfe53ba9d215468ae9e1ef8cfd91d55dfa1c21002d8 gäller ID-P-0052-C0049@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Aktuellt ID-P-0052-C0049@1 behålls efter individuell prövning av denna ändringsväg. Den avgränsade länken från Catharina Johannas C0049-omnämnande till P-0052 är oförändrad. Rättad egen blank ortcell och uttrycklig D:r ändrar varken namnet eller denna personkoppling. Hela nuvarande accepted/CORROBORATED-beslutet och dess enda historiska M-P-0052-C0049@1-basis behålls; denna begränsade konsekvensprövning uppgraderar inte identiteten eller gör C0049 till egen födelsepost. Den historiska beroendevägen är ID-P-0052-C0049@1 → M-P-0052-C0049@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_source_scope": "ID52@1 binder samma Catharina Johanna-rad/person. R49@2s falsktditto-korrigering påverkar inte denna avgränsade identitetslänk. ID saknar egen födelseortsutsaga; accepted/CORROBORATED och M52@1-stöd bevaras. Separata C46-stödet för rapporterad födelseförsamling hålls separat.",
+      "own_meaning_gate_pointer": "/rows/5",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "7d56a787c439291b41ea70c199020eb5437375fcc706f104a97fe2d2097a8443",
+      "retained_current_revision_id": "O-P-0048-A-0248-child_family@2",
+      "native_rowid": 6690,
+      "approved_resolution_instruction": {
+        "request": "7d56a787c439291b41ea70c199020eb5437375fcc706f104a97fe2d2097a8443",
+        "rationale": "Begäran 7d56a787c439291b41ea70c199020eb5437375fcc706f104a97fe2d2097a8443 gäller O-P-0048-A-0248-child_family@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Den berörda historiska revisionen har redan ersatts av faktiskt O-P-0048-A-0248-child_family@2, vars hela API är lika med den källgodkända kandidaten. Syskonet heter Magdalena Euphrosyne i den egna C0049-raden. Familjeobservationen har redan rättats från Margareta till Magdalena; samma syskonrelationer och övriga familjeuppgifter består. Rättelsen ger ingen ny oberoende identifikation och inget uttömmande livstida barnantal. Den historiska beroendevägen är O-P-0048-A-0248-child_family@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_source_scope": "O48@2 har rättat systernamnskopian till Magdalena Euphrosyne med R49@2/fullTR. Befintliga familjeband och äldre sonAnders1862 består; varken uttömt barnantal eller kontinuerlig fysisk hemvist påstås genom upplösningen. Historisk O@1 ersatt.",
+      "own_meaning_gate_pointer": "/rows/6",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "8b925ecb60e7bcb539ea26df45eecf90a5111cc5b39a1cb0051061be7b478d0e",
+      "retained_current_revision_id": "O-P-0050-A-0222-name_report@1",
+      "native_rowid": 6691,
+      "approved_resolution_instruction": {
+        "request": "8b925ecb60e7bcb539ea26df45eecf90a5111cc5b39a1cb0051061be7b478d0e",
+        "rationale": "Begäran 8b925ecb60e7bcb539ea26df45eecf90a5111cc5b39a1cb0051061be7b478d0e gäller O-P-0050-A-0222-name_report@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Aktuellt O-P-0050-A-0222-name_report@1 behålls efter individuell prövning av denna ändringsväg. Faderns namn Anders Andersson är oförändrat i den fulla C0049-läsningen. Hela denna snäva namnobservation, dess caveat om två hushållslängder över tid och dess historiska R-d9840df54c7f19f2454c4d2d@1-basis behålls. Att samma äldre uppgift finns i flera införda objekt ger inte nya oberoende röster. Den historiska beroendevägen är O-P-0050-A-0222-name_report@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_source_scope": "Faderns eget Anders Andersson är oförändrat i R49@2; dotternamn, ditto och årsfält ändrar inte O50s name_report. Hela currentO50@1 med R49@1-stöd och historisk två-längds-caveat behålls, ingen ny oberoende namnröst eller rebind.",
+      "own_meaning_gate_pointer": "/rows/7",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "8d3cd2d4cb7e87458a49853ee7aed1f8fcc772e9feda5f9309d3d26764f4c6c5",
+      "retained_current_revision_id": "ID-P-0057-C0049@3",
+      "native_rowid": 6692,
+      "approved_resolution_instruction": {
+        "request": "8d3cd2d4cb7e87458a49853ee7aed1f8fcc772e9feda5f9309d3d26764f4c6c5",
+        "rationale": "Begäran 8d3cd2d4cb7e87458a49853ee7aed1f8fcc772e9feda5f9309d3d26764f4c6c5 gäller ID-P-0057-C0049@2 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Den berörda historiska revisionen har redan ersatts av faktiskt ID-P-0057-C0049@3, vars hela API är lika med den källgodkända kandidaten. Samma avgränsade M-P-0057-C0049 → P-0057-länk är fortsatt accepted och TRANSCRIBED. Rationale namnger nu Magdalena Euphrosyne och stödet är M-P-0057-C0049@2 samt TR-T0781-C0049-fullpost@1. C0044 saknar hennes egen rad och familjekontinuitet räknas inte som ett andra eget personbelägg. Historiska ID@1 med CORROBORATED återställs inte; den redan avgjorda nivån i ID@2 bevaras. Den historiska beroendevägen är ID-P-0057-C0049@2 → M-P-0057-C0049@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_source_scope": "ID57@3 har redan rättat Magdalena-namnet och explicit M57@2/fullTR, samma P57/accepted/TRANSCRIBED. Äldre ID@1CORROBORATED är historisk och ska inte återadopteras; ID@2 ersatt. Familjekontinuitet ger inget andra eget personbelägg eller ny identitetsgrad.",
+      "own_meaning_gate_pointer": "/rows/8",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "8f26407227992bb9f64bccd7e11da460b97716cccca5ab6120c6126811916050",
+      "retained_current_revision_id": "READ-afbfe3f933d234b8f0f60c3e@2",
+      "native_rowid": 6693,
+      "approved_resolution_instruction": {
+        "request": "8f26407227992bb9f64bccd7e11da460b97716cccca5ab6120c6126811916050",
+        "rationale": "Begäran 8f26407227992bb9f64bccd7e11da460b97716cccca5ab6120c6126811916050 gäller READ-afbfe3f933d234b8f0f60c3e@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Den berörda historiska revisionen har redan ersatts av faktiskt READ-afbfe3f933d234b8f0f60c3e@2, vars hela API är lika med den källgodkända kandidaten. Läsobjektet beskriver nu hela den avgränsade övre sexradiga C0049-familjeposten med kolumner, årspar och marginaler. Rättade namn, datum och egna tomma ortfält samt uttryckliga råreservationer finns i body/caveat och stöds av R-d9840df54c7f19f2454c4d2d@2 och fullpostens TR@1. reviewed_with_reservations består; detta är inte egen födelsepost, kontinuerlig fysisk hemvist eller full personkontraktsprövning. Den historiska beroendevägen är READ-afbfe3f933d234b8f0f60c3e@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_source_scope": "READ@2 redovisar nu full avgränsad sexradsprövning och exakta läsreservationer med R49@2/fullTR. Historiska READ@1s olästa-kolumn/ditto-premiss har uttryckligen ersatts. Detta är källtäckning, inte personkontraktsgodkännande eller generell källuttömning.",
+      "own_meaning_gate_pointer": "/rows/9",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "9ebfba23c47d899a9b74fbb03653812f34f0be0e2b4ec5168926417b56242944",
+      "retained_current_revision_id": "TR-bf8e09efe7e3e3c20156c785@2",
+      "native_rowid": 6694,
+      "approved_resolution_instruction": {
+        "request": "9ebfba23c47d899a9b74fbb03653812f34f0be0e2b4ec5168926417b56242944",
+        "rationale": "Begäran 9ebfba23c47d899a9b74fbb03653812f34f0be0e2b4ec5168926417b56242944 gäller TR-bf8e09efe7e3e3c20156c785@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Den berörda historiska revisionen har redan ersatts av faktiskt TR-bf8e09efe7e3e3c20156c785@2, vars hela API är lika med den källgodkända kandidaten. Den äldre avgränsade avskriften är redan rättad till Magdalena Euphrosyne, 29/5, egen B:å och de tre yngre barnens blanka egna ortceller. Rationale anger uttryckligen den nya originalprövningen och den gamla revisionens historiska roll; texten utges inte längre för en oförändrad äldre avskrift. Starkare C0184:s 5 juli hålls skild från C0049:s råglyph 5[8?]/7. R49@2 och fullpostens TR@1 ger samma historiska källröst. Den historiska beroendevägen är TR-bf8e09efe7e3e3c20156c785@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_source_scope": "TR@2 har redan korrekt Magdalena29/5/B:å, yngre tre egna ortblankheter och tydligt nyoriginal-rationale; hela utvinningen hänvisas till fullTR. Record@2/fullTR-stöd är uttryckliga. Historisk feltext@1 behålls som historik, ingen tredje läsning behövs.",
+      "own_meaning_gate_pointer": "/rows/10",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "ae27f7c221f4b94cbefa8e382a0448f55056bc2ca220fea9d8ba207caca2a106",
+      "retained_current_revision_id": "F-P-0050-occupation-Jomark@1",
+      "native_rowid": 6695,
+      "approved_resolution_instruction": {
+        "request": "ae27f7c221f4b94cbefa8e382a0448f55056bc2ca220fea9d8ba207caca2a106",
+        "rationale": "Begäran ae27f7c221f4b94cbefa8e382a0448f55056bc2ca220fea9d8ba207caca2a106 gäller F-P-0050-occupation-Jomark@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Aktuellt F-P-0050-occupation-Jomark@1 behålls efter individuell prövning av denna ändringsväg. B:n i C0049 bevarar bondetolkningen. Förre hemmansägare i Jomark stöds separat av den redan tillräckligt lästa C0569-dödsposten för änkan 1913, R-709a6f58d922fa1df3bb75c1@1; det är inte en ny slutsats från C0049:s osäkra titelanknytning eller mantal. Hela faktumet och dess tre ordnade äldre stöd R49@1, C0044-record@1 och C0569-record@1 behålls. Ingen förvärvsdag, egendomsgräns eller uppgift att han levde 1913 härleds. Den historiska beroendevägen är F-P-0050-occupation-Jomark@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_source_scope": "F50s bonde/f.d. hemmansägare står kvar: B:n på egen C49rad är oförändrat och senare C44/C569 ger separat tidsbunden titel. Osäkra mantalsmarginalen ger ingen ny markäganderätt, förvärvsdag eller liv1913. Hela F@1 och tre ordnade gamla stöd R49@1/R44@1/R569@1 behålls utan automatisk rebind.",
+      "own_meaning_gate_pointer": "/rows/11",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "c0787c0c0ced63a991a15a6fd247864fdd71834e72962e8c5839d2b30288d0ea",
+      "retained_current_revision_id": "EP-E-birth-P-0052-P-0052-principal@1",
+      "native_rowid": 6696,
+      "approved_resolution_instruction": {
+        "request": "c0787c0c0ced63a991a15a6fd247864fdd71834e72962e8c5839d2b30288d0ea",
+        "rationale": "Begäran c0787c0c0ced63a991a15a6fd247864fdd71834e72962e8c5839d2b30288d0ea gäller EP-E-birth-P-0052-P-0052-principal@1 efter ändringen av E-birth-P-0052@2. Aktuellt EP-E-birth-P-0052-P-0052-principal@1 behålls efter individuell prövning av denna ändringsväg. Deltagandets enda sakpåstående är att P-0052 är principal i sitt födelseevent. E-birth-P-0052@2 bevarar datum 1865-05-11, person och PL-Bygdea; ändringen skiljer hushållens datum från det separata tidigare C0046-stödet för rapporterad födelsesocken. EP:s caveat om datum i senare hushållslängd och ännu oläst egen födelsenotis består. Hela EP@1 och dess historiska E-birth-P-0052@1-basis behålls utan versionbyte. Den historiska beroendevägen är EP-E-birth-P-0052-P-0052-principal@1 → E-birth-P-0052@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_source_scope": "EP52@1 är enbart samma persons principal-deltagande i samma födelsehändelse. E52@2 behåller datum/place/eventtyp/status; caveat klargör C49blankhet och rapporterad Bygdeå från C46. EPs egenföddpost-oläst-caveat är fortsatt riktig. Hela EP@1 och E52@1-grund kvar, ingen starkare födelse- eller identitetsgrad.",
+      "own_meaning_gate_pointer": "/rows/12",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "c21e0bf8a66d84c590c37e0d062e8f7ce673ebb7e0b875d4822acd62f3c33e16",
+      "retained_current_revision_id": "O-P-0053-C0049@2",
+      "native_rowid": 6697,
+      "approved_resolution_instruction": {
+        "request": "c21e0bf8a66d84c590c37e0d062e8f7ce673ebb7e0b875d4822acd62f3c33e16",
+        "rationale": "Begäran c21e0bf8a66d84c590c37e0d062e8f7ce673ebb7e0b875d4822acd62f3c33e16 gäller O-P-0053-C0049@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Den berörda historiska revisionen har redan ersatts av faktiskt O-P-0053-C0049@2, vars hela API är lika med den källgodkända kandidaten. Anna Albertinas egen födelseortscell är blank utan belagt ditto. Denna C0049-observations reported_birth_place är därför null; datum 1871-09-28 och familjerollen består. Även det strukturerade födelseeventets ort har redan avgränsats som öppen i den granskade E-birth-P-0053@2, utan att Bygdeå förnekas som möjlig ort. Egen födelsenotis är fortfarande oprövad. Den historiska beroendevägen är O-P-0053-C0049@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_source_scope": "O53@2 har redan tagit bort falsktditto-normalisering, null i eget reported_birth_place, samma Anna/date1871-09-28, R49@2/M53@2/fullTR. Separat E53place-null är inte geografiskt motbevis. Historisk O@1 är ersatt och återadopteras inte.",
+      "own_meaning_gate_pointer": "/rows/13",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "d14b6636acdb2dd44ff0323316c08fee38ff5e0c87f1101c3ad7a850dd60264d",
+      "retained_current_revision_id": "M-P-0057-C0049@2",
+      "native_rowid": 6698,
+      "approved_resolution_instruction": {
+        "request": "d14b6636acdb2dd44ff0323316c08fee38ff5e0c87f1101c3ad7a850dd60264d",
+        "rationale": "Begäran d14b6636acdb2dd44ff0323316c08fee38ff5e0c87f1101c3ad7a850dd60264d gäller M-P-0057-C0049@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Den berörda historiska revisionen har redan ersatts av faktiskt M-P-0057-C0049@2, vars hela API är lika med den källgodkända kandidaten. Det egna namnet är rättat till Magdalena Euphrosyne och rollen D:r är uttryckligen återgiven. Samma familjerad och person avses; ingen extra identitet eller utskrivet patronymikon införs. Stödet är R-d9840df54c7f19f2454c4d2d@2 och fullpostens TR@1. Den historiska beroendevägen är M-P-0057-C0049@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_source_scope": "M57@2 har redan rättat samma dotterrads namn till Magdalena Euphrosyne och D:r; R49@2/fullTR ger samma historiska post, inte ny självständig person. Historisk Margareta@1 ersatt, statusTRANSCRIBED oförändrad.",
+      "own_meaning_gate_pointer": "/rows/14",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "d6092c876d0e27cacd70940284a5f41f3b3ce38e0ca1ab8f7f1e0ae2171adb07",
+      "retained_current_revision_id": "ID-P-0052-C0049@1",
+      "native_rowid": 6699,
+      "approved_resolution_instruction": {
+        "request": "d6092c876d0e27cacd70940284a5f41f3b3ce38e0ca1ab8f7f1e0ae2171adb07",
+        "rationale": "Begäran d6092c876d0e27cacd70940284a5f41f3b3ce38e0ca1ab8f7f1e0ae2171adb07 gäller ID-P-0052-C0049@1 efter ändringen av M-P-0052-C0049@2. Aktuellt ID-P-0052-C0049@1 behålls efter individuell prövning av denna ändringsväg. Den avgränsade länken från Catharina Johannas C0049-omnämnande till P-0052 är oförändrad. Rättad egen blank ortcell och uttrycklig D:r ändrar varken namnet eller denna personkoppling. Hela nuvarande accepted/CORROBORATED-beslutet och dess enda historiska M-P-0052-C0049@1-basis behålls; denna begränsade konsekvensprövning uppgraderar inte identiteten eller gör C0049 till egen födelsepost. Den historiska beroendevägen är ID-P-0052-C0049@1 → M-P-0052-C0049@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_source_scope": "M52@2 tillför egen D:r och förtydligad caveat men Catharina Johannas namn/radperson är oförändrad. Därför behålls ID52@1 med M52@1-grund och samma accepted/CORROBORATED; ingen ny identitetsprövning eller blanketversionsuppdatering.",
+      "own_meaning_gate_pointer": "/rows/15",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    },
+    {
+      "request_id": "f34b5970c022c2169d5bc595bd424c34d876ae9e0304f2b581ab22701afe7dbf",
+      "retained_current_revision_id": "O-P-0057-C0049@2",
+      "native_rowid": 6700,
+      "approved_resolution_instruction": {
+        "request": "f34b5970c022c2169d5bc595bd424c34d876ae9e0304f2b581ab22701afe7dbf",
+        "rationale": "Begäran f34b5970c022c2169d5bc595bd424c34d876ae9e0304f2b581ab22701afe7dbf gäller O-P-0057-C0049@1 efter ändringen av R-d9840df54c7f19f2454c4d2d@2. Den berörda historiska revisionen har redan ersatts av faktiskt O-P-0057-C0049@2, vars hela API är lika med den källgodkända kandidaten. Den egna raden läses Magdalena Euphrosyne, 1863-05-29 och B:å. Både literal och strukturerade namn/datum/ortuppgifter är rättade; orten kommer från egen förkortning, inte ett antaget ditto. Egen födelsenotis är fortfarande oprövad och volymperioden bevisar inte sammanhängande fysisk hemvist. Den historiska beroendevägen är O-P-0057-C0049@1 → R-d9840df54c7f19f2454c4d2d@1. Ingen ytterligare nativeändring eller evidensombindning behövs för denna begäran."
+      },
+      "own_frozen_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_source_scope": "O57@2 har redan rättat namn och dag till Magdalena Euphrosyne1863-05-29 och egen B:å, sameperson/familj, uttryckliga R49@2/M57@2/fullTR. Egen födelsenotis är fortsatt oläst; äldre24maj/ditto@1 får inte återadopteras.",
+      "own_meaning_gate_pointer": "/rows/16",
+      "entire_literal_and_order_exact": true,
+      "actual_request_and_current_revision_exact": true
+    }
+  ],
+  "validators": [
+    {
+      "result_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/verify.json",
+        "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+      },
+      "process_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/verify.process.json",
+        "sha256": "6a4e1c336507742375919b2b02298d3deda437df6952ff6a83b2ff54e21861b4"
+      },
+      "returncode": 0,
+      "entire_result_equal_pre_resolution441": true
+    },
+    {
+      "result_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/verify-assets.json",
+        "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+      },
+      "process_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/verify-assets.process.json",
+        "sha256": "1550a47051b90736a62abb9c181e48a1cde1577a9f79f7bd177b6e97778b9706"
+      },
+      "returncode": 0,
+      "entire_result_equal_pre_resolution441": true
+    },
+    {
+      "result_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/verify-source.json",
+        "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+      },
+      "process_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/verify-source.process.json",
+        "sha256": "54c325dd472549be71cece34539422decdf89618d98adff471b50f1e2d49b051"
+      },
+      "returncode": 0,
+      "entire_result_equal_pre_resolution441": true
+    },
+    {
+      "result_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/inventory.json",
+        "sha256": "847e7585d9c99edf2a4a1c4902edfe9bebd131d5f9c43403affb4e8bf62936bb"
+      },
+      "process_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/inventory.process.json",
+        "sha256": "5766d284d338edccf88912786ad45960cf0f01afa8f57aa6c9874e3458d0531d"
+      },
+      "returncode": 0,
+      "entire_result_equal_pre_resolution441": true
+    },
+    {
+      "result_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/pedigree-verified-P0269.json",
+        "sha256": "cbf81cef1c77c5b388d33c6671887a4662d34216947837d2255695ed19d07c34"
+      },
+      "process_pin": {
+        "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/pedigree-verified-P0269.process.json",
+        "sha256": "4b287b6d46efcf68ea4a00373b51b35befb6485b7c692f7f2286335dcb8d7bfb"
+      },
+      "returncode": 0,
+      "entire_result_equal_pre_resolution441": true
+    }
+  ],
+  "control_representation": "Explicit dependencyReviewVersion numeric2 matches input and stored entire request JSON; no added defaults or altered resolution semantics.",
+  "own_SQL_open_failures": [],
+  "preserved_helper_attempt": "Initial v1 comparison stopped before writes on four WITHOUT ROWID FTS index/config tables; v2 explicitly compares those by declared primary keys and preserves physical rowids for46 other tables. No source/API or runtime change.",
+  "writes_to_databases": false
+}

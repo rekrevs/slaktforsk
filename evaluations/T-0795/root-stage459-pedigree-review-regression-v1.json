@@ -1,0 +1,79 @@
+{
+  "task": "T-0795",
+  "finding": "Protected life review usability regressed despite pending0 and unchanged failed grade; canonical release withheld",
+  "items": [
+    {
+      "proband": "Adam",
+      "baseline_sha256": "307636ec8aacc0bdd98119a534dba8ff15cfbbfdaac2edf27c79049c9210a425",
+      "stage459_sha256": "e83b2ebecacf77bacd2d856c417806c26e18e911fa833c215f197e98c8fdfe21",
+      "paths_exact": true,
+      "edges_exact": true,
+      "root_gate_exact": true,
+      "life_grade": {
+        "before": "failed",
+        "after": "failed"
+      },
+      "life_usability": {
+        "before": true,
+        "after": false
+      },
+      "life_issues": [
+        {
+          "code": "assessment_basis_revised",
+          "axis": "life_picture_review",
+          "revision_ids": [
+            "ASSESSMENT-T0790-P0212-life@1"
+          ],
+          "message": "Bedömningen åberopar ersatt underlag; en uttrycklig aktuell omprövning behövs.",
+          "basis_revision_ids": [
+            "BIO-P-0212@6",
+            "CONTRACT-P-0212-PK-06@2",
+            "CONTRACT-P-0212-PK-08@2",
+            "THEME-P-0212-ARB@2",
+            "THEME-P-0212-EKO@2",
+            "THEME-P-0212-MIL@2",
+            "THEME-P-0212-SAM@1"
+          ]
+        }
+      ]
+    },
+    {
+      "proband": "Axel",
+      "baseline_sha256": "10481c6f70df787a68c1ab0e7d1cfd908d7dd30282e123d32d843fa7aba70a95",
+      "stage459_sha256": "65fae897b4c4563c0dbd2cd9b20d127513a702dee2c721571a967c7cc4042e9f",
+      "paths_exact": true,
+      "edges_exact": true,
+      "root_gate_exact": true,
+      "life_grade": {
+        "before": "failed",
+        "after": "failed"
+      },
+      "life_usability": {
+        "before": true,
+        "after": false
+      },
+      "life_issues": [
+        {
+          "code": "assessment_basis_revised",
+          "axis": "life_picture_review",
+          "revision_ids": [
+            "ASSESSMENT-T0790-P0212-life@1"
+          ],
+          "message": "Bedömningen åberopar ersatt underlag; en uttrycklig aktuell omprövning behövs.",
+          "basis_revision_ids": [
+            "BIO-P-0212@6",
+            "CONTRACT-P-0212-PK-06@2",
+            "CONTRACT-P-0212-PK-08@2",
+            "THEME-P-0212-ARB@2",
+            "THEME-P-0212-EKO@2",
+            "THEME-P-0212-MIL@2",
+            "THEME-P-0212-SAM@1"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": "Explicit current metadata-impact life assessment with source-approved exact version rebinds; no personal source rereading, no grade upgrade; repeat current axis equivalence before final release.",
+  "main": "457 unchanged",
+  "root_output_error": "An initial broad JSON summary printed a truncated pedigree payload; not full-reading credit. Final finding uses exact bounded fields and complete in-memory comparison."
+}

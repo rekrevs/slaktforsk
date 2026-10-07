@@ -1,0 +1,13 @@
+{
+  "task": "T-0778",
+  "corrects_prior_description": "C0035-record-asset-preservation-amendment-v2.json",
+  "exact_baseline_revision": "R-f5f8416dc73115868c6b7c36@2",
+  "baseline_sql_inventory": {
+    "record_asset": [],
+    "record_media": []
+  },
+  "fact": "Both attached record arrays empty before operation. v1 omission caused no actualmedialoss; v2explicitassets/mediaempty preserves exactbaseline.",
+  "classification": "explicit payload-completeness/documentation repair; not restored nonemptylinks, not rejectedapply",
+  "independent_confirmation": "review_five readonlySQL confirmed identicalemptyarrays",
+  "earlier_attempt_and_description_preserved": true
+}

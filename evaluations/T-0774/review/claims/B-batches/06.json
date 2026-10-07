@@ -1,0 +1,232 @@
+{
+  "case": "B",
+  "logical_unit": "Exact migration ownership and concrete unchanged source gaps",
+  "claims": [
+    {
+      "id": "B-R031",
+      "object": "E-arrival-P-0003-Ljungbacka-1918@2",
+      "field": "date_json",
+      "start": null,
+      "end": null,
+      "quote": {
+        "literal": "1918-10-28",
+        "precision": "exact",
+        "value": "1918-10-28"
+      },
+      "old_support": [
+        {
+          "object": "AUDIT-T0676-FLODA608-15@1",
+          "supports": "Avgränsad källpostgranskning utan extra oberoende röst.",
+          "old_record_context": "source_record_review/1"
+        },
+        {
+          "object": "R-541325e245ca3c49ebe13c72@1",
+          "supports": "Floda608r15 ger Adas utflyttning ochr16 sonroll, men Arnes egna flyttceller är tomma. Hans daterade ankomst stöds av egenFlen914r7.",
+          "old_record_context": "Floda A II a/11, Ökna säteri uppslag 608 rader 15–16, Ada Wilhelmina och Arne Godvig, 00154078_00201",
+          "dependence": "Intern hänvisning från rad 9; mottagarpost C-0910. Bokföring fastställer inte faktisk daglig omsorg eller överlämningsdag.",
+          "old_caveat": "Hennes son och klammer är källans relation; ingen far namnges. Nummer 173 reserveras. Betyg 26 oktober skiljs från bokförd utflyttning 28 oktober 1918.\nC-0909: Familjeminnets tidiga vård i Flen och den formella kyrkobokskedjan är skilda uppgifter."
+        },
+        {
+          "object": "R-e67bb6868b81121b2d3f0732@1",
+          "supports": "Egen Flenregistrering ger ankomstankaret 1918-10-28; inte första faktiska omsorgsdag.",
+          "old_record_context": "Flen A II a/4c, Ljungbacka Turegatan 8 uppslag 914 rader 1–8, Karl Fredriks hushåll, 00153994_00100",
+          "dependence": "C-0909 ger formell flyttkedja; familjeminne C-0263 och senare C-0007/C-0030 har egna referenstider. Omsorgens början och mellanåren är inte därmed lästa.",
+          "old_caveat": "Karl Fredrik rättas 27/9→24/9. Arnes fb. och moderns namn är bokförda; ingen far namnges. Norgeutflyttning är registrering, inte säker resdag. Knutnamnets frånvaro daterar inget äktenskap.\nC-0910: Sen fullare avgränsning återtar äldre felaktigt avförda barnrader och inkluderar tre separata egna familjer. Råa militär- och kunskapsfält hålls personbundna."
+        },
+        {
+          "object": "TR-T0676-FLEN914-UPPER-45@1",
+          "supports": "Arnes egen Flen914-rad7 ger daterat ankomstankare 1918-10-28; samma bokkedja, inte ny oberoende källa.",
+          "old_record_context": null
+        },
+        {
+          "object": "TR-T0676-FLODA608-15@1",
+          "supports": "Floda608 ger kedjekontext och sonroll; Arnes egen ankomstdag står i Flen914.",
+          "old_record_context": null
+        }
+      ],
+      "source_observation": "Own Arne migration cells blank in B; parents242Skedevi00 must not transfer to Arne.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Arne own Flen914 row7 supports exact registered arrival, not mother borrowed departure and not first actual care. B migration blank is not a missing1918 event.",
+      "affected_copies": [
+        "F-P-0043-household_foster_registration-1914-1918@1.value_json",
+        "P-0003/Q-03@1.body",
+        "PATH-P-0003-KP-03@4.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    },
+    {
+      "id": "B-R032",
+      "object": "E-registered_departure-P-0042-departure1900@1",
+      "field": "date_json",
+      "start": null,
+      "end": null,
+      "quote": {
+        "literal": "1900-10-17",
+        "precision": "exact",
+        "value": "1900-10-17"
+      },
+      "old_support": [
+        {
+          "object": "R-95b35d37c2e50f97f8ae7fac@1",
+          "supports": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen.",
+          "old_record_context": "Skedevi A II a/3, Brenäs s. 569 rader 2–8, Karl Fredrik Janssons familj, F0004585_00026",
+          "dependence": "T-0125 avvisar åtta oberoende vigselbelägg och den felaktiga geografiska majoriteten. Flyttankare är kyrkobokföring; statdrängstiteln ger inga exakta arbetsvillkor.",
+          "old_caveat": "Tures 7/6 kvarstår som denna boks läsning. Sven S. är bokförd roll, inte nytt biologiskt faderskap. Adas blyertsnot vid 1900 är prövad men oläslig; egna kunskaps-/förhörsfält är inte fullutvunna.\nC-1070: Det positiva hushållet och en tydligt namngiven grannrad avgränsas. Flyttkedjans sena rättelse anger fem församlingar, inte fyra. Upprepade födelse-, vigsel- och nummeruppgifter är beroende kyrkobokföring. Den äldre fortsättningsplanen är textens dåvarande läsläge, inte ett permanent åtkomstbeslut."
+        }
+      ],
+      "source_observation": "Karl migration242Skedevi00; Charlotta ditto;Arne blank.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Own Brenäs household gives registered1900-10-17. SCB parents242Skedevi00 is later copied bookkeeping, no physical journey or new independent day.",
+      "affected_copies": [
+        "BIO-P-0042@4.markdown",
+        "BIO-P-0043@4.markdown",
+        "P-0043/Q-01@1.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    },
+    {
+      "id": "B-R033",
+      "object": "PATH-P-0003-KP-03@4",
+      "field": "body",
+      "start": 1892,
+      "end": 1986,
+      "quote": "Lokalisera 1923–1930 genom familjen, inte genom ett återinfört krav på den felvalda äldre 638.",
+      "old_support": [
+        {
+          "object": "O-T0677-C0030-row10-control@1",
+          "supports": "Avgränsad C-0030-precision: egen rad och råfältsgränser; samma källa, inte oberoende evidens.",
+          "old_record_context": "own_row_fields_and_residuals"
+        },
+        {
+          "object": "O-T0677-C0031-row24-control@1",
+          "supports": "Samma källa, inte oberoende belägg.",
+          "old_record_context": "bounded_row_full_field_control"
+        },
+        {
+          "object": "O-T0677-C0032-row18-control@1",
+          "supports": "Samma källpost; ingen ny oberoende evidensröst.",
+          "old_record_context": "bounded_row_full_field_control"
+        },
+        {
+          "object": "TR-T0677-C0030-consolidated-control@1",
+          "supports": "Avgränsad C-0030-precision: egen rad och råfältsgränser; samma källa, inte oberoende evidens.",
+          "old_record_context": null
+        },
+        {
+          "object": "TR-T0677-C0031-consolidated-control@1",
+          "supports": "Samma källa, inte oberoende belägg.",
+          "old_record_context": null
+        },
+        {
+          "object": "TR-T0677-C0032-consolidated-control@1",
+          "supports": "Samma källpost; ingen ny oberoende evidensröst.",
+          "old_record_context": null
+        }
+      ],
+      "source_observation": "B1930folio563 only.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "A1930 household snapshot does not supply intervening1923–1930 own passage; oldwrongvolume restriction already corrected. Keep concrete gap rather than restart completed1930 anchor.",
+      "affected_copies": [
+        "P-0003/Q-03@1.body",
+        "KEY-P-0003-e24f76fd20a2@1.body",
+        "ASSESSMENT-P-0003@1.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    },
+    {
+      "id": "B-R034",
+      "object": "CONTRACT-P-0042-PK-03@2",
+      "field": "body",
+      "start": 75,
+      "end": 130,
+      "quote": "egna livsled 1877–1886, 1900–1908 och 1923–1930 saknas.",
+      "old_support": [],
+      "source_observation": "No1877–86/1900–08/1923–30 longitudinal records in B.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "B supplies1930 only and a copied1900 migration-year; neither supplies missing own household passages. Preserve older specific gap assessment without fullcontract promotion.",
+      "affected_copies": [
+        "P-0042/Q-01@2.body",
+        "PATH-P-0042-KP-02@2.body",
+        "RESEARCH-P-0042-9d76f0343410@3.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    },
+    {
+      "id": "B-R035",
+      "object": "P-0043/Q-03@4",
+      "field": "body",
+      "start": 1096,
+      "end": 1246,
+      "quote": "C-1063:s\n  T-0137-avstämning säger uttryckligen att egna kunskaps-, frejd-, förhörs-,\n  flytt- och anmärkningskolumner **inte** kan kallas fullutvunna",
+      "old_support": [
+        {
+          "object": "O-T0677-C0030-row9-control@1",
+          "supports": "Avgränsad C-0030-precision: egen rad och råfältsgränser; samma källa, inte oberoende evidens.",
+          "old_record_context": "own_row_fields_and_residuals"
+        },
+        {
+          "object": "O-T0677-C0031-row23-control@1",
+          "supports": "Samma källa, inte oberoende belägg.",
+          "old_record_context": "bounded_row_full_field_control"
+        },
+        {
+          "object": "O-T0677-C0032-row17-control@1",
+          "supports": "Samma källpost; ingen ny oberoende evidensröst.",
+          "old_record_context": "bounded_row_full_field_control"
+        },
+        {
+          "object": "TR-T0677-C0030-consolidated-control@1",
+          "supports": "Avgränsad C-0030-precision: egen rad och råfältsgränser; samma källa, inte oberoende evidens.",
+          "old_record_context": null
+        },
+        {
+          "object": "TR-T0677-C0031-consolidated-control@1",
+          "supports": "Samma källa, inte oberoende belägg.",
+          "old_record_context": null
+        },
+        {
+          "object": "TR-T0677-C0032-consolidated-control@1",
+          "supports": "Samma källpost; ingen ny oberoende evidensröst.",
+          "old_record_context": null
+        }
+      ],
+      "source_observation": "B covers bounded1930 SCB3person group, not C1063 ownhousehold.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "These older own parish rows are distinct sources; full B SCB extraction does not discharge them. Keep explicit PK05 question, reserve undecoded B codes separately.",
+      "affected_copies": [
+        "RESEARCH-P-0043-9d76f0343410@1.body",
+        "ASSESSMENT-P-0043@1.body"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    },
+    {
+      "id": "B-R036",
+      "object": "PATH-P-0042-KP-03@2",
+      "field": "body",
+      "start": 1155,
+      "end": 1232,
+      "quote": "C-0021:s egna inkomst-/förmögenhetsfält är lokalt lästa som tomma, inte noll.",
+      "old_support": [],
+      "source_observation": "Karl income/wealth blank.",
+      "judgment": "unchanged",
+      "decision": "keep",
+      "grounds": "Own B blanks reconfirm the precise document state; no lifetime lack of assets, no estate finding and no900transfer.",
+      "affected_copies": [
+        "THEME-P-0042-EKO@2.body",
+        "F-P-0042-source_report-knowledge-health-economy@1.value_json"
+      ],
+      "remaining_question": null,
+      "precision_boundary": "SCB1930 own columns and three-person household are distinct from index family1/2, earlier own-record dates, and known biological relationships; shared information pathway is not independent votes."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Mechanical stage interface draft — UNRUN
+
+Root must audit and pin `stage_literal_authorized_v1.py` before runtime. No source candidate, operation or stage has been created by this preparation phase.
+
+Authorization JSON requires task `T-0790`, mode `one-stage-only-no-resolve-no-canonical`, code_sha256, baseline_state_pin, operation_pin, operation_id, ordered authorized_change_ids, consequence_table_pin, stage_path under this task's preparation, source_gate and independent_gate. Each gate requires pin, ready_pointer, operation_sha_pointer and consequence_sha_pointer. Gates must bind the exact literal operation and exact consequence table hashes; independent own reading/comparison is a prerequisite supplied by root/source roles, never inferred by the script.
+
+One controlled CLI operation only: clone exact backup454 and apply with a task-local journal. Expected final journal head455. Full actual pending requests/context preserved for individual Astra disposition. No assumed zero pending, no copied resolver or automatic resolution. Any actual pending needing resolutions requires a separately reviewed helper/authorization; this draft cannot do it. Root alone applies canonical.
+
+Consequence table: `operation_sha256`, ordered `changes` with complete `new_api`, exact `old_native` (null for creation), `source_disposition` and `rationale`; `retains` with revision_id, exact old_native, source_disposition `retain`, rationale. Source must supply literal APIs and dispositions. Individual fields/old-new/support/origin rationale must be explicit in that source table; script checks exact whole old/new payload equality. No regex edits, no grade inference, no mass theme rewrite. Zero/unexpected matches, stale expectedVersion or evidence stop and return to Astra.
+
+Six native life reviews required, one per scoped person. Additional changes must match ordered root whitelist. All current OWNER_CONFIRMED and native identity/tree reviews protected unchanged. Existing physical rows and rowid order checked across all50 tables, immutable historical rows preserved, resolutions unchanged. Derived search exemption limited to touched objects, exact current index checked. Actual ordered full target APIs compared against literal authorized APIs with documented domain defaults only.
+
+Six stage checks: verify, verify-assets, verify-source, inventory, default verified Adam and Axel pedigrees. Technical checks never source approval. Root/Astra must compare actual stage consequences and protected legacy gate/privacy states before approval, in addition to native protected objects.
+
+Production counts every attempt and repair. Capturev1 preparation is accepted separately. Earlier supplementv1's failed filename routing remains preserved; v2 maps27 receipts. This drafting phase also encountered two overlarge diagnostic outputs, causing truncation and unnecessary output; they are not reading credit and count as preparation work. No mutation runtime attempted.
+
+Actual usage collector reads only the three newly spawned T0790 worker logs from their own metadata creation timestamp and exact thread ids. It sums per-response token_usage_record, distinguishes cached input/cache writes/output/reasoning subset, rootUNKNOWN_NOT_ZERO, shared meterNOT_INFERRED. Run after worker finals for final totals; earlier capture must be labeled nonfinal. No old-worker or inherited cumulative token estimates.

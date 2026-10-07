@@ -1,0 +1,101 @@
+{
+  "task": "T-0787",
+  "phase": "FINAL_INDEPENDENT_SOURCE_AND_CONSEQUENCE_GLOBAL_PASS_FOR_EXACT_TWO_OPERATION_PACKAGE",
+  "proposal_pin": {
+    "path": "evaluations/T-0787/implementation/exact136-plus137-resolutions-draft-v1/full-two-operation136-plus137-package-proposal-v1.json",
+    "sha256": "9d6609ea2aef4e42f9418b55ab4abda8ea5ee4b2b886dd96362cefcdb6406523"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0787/implementation/exact136-plus137-resolutions-draft-v1/full-two-operation-136-target-137-resolution-membership-v1.json",
+    "sha256": "afe1b97952e9bf0aa78f35c9b4bd93733539a5cf8fe7ffc2190d1fa2438a8ae1"
+  },
+  "native136_operation_pin": {
+    "path": "evaluations/T-0787/implementation/exact136-draft-v1/exact136-one-controlled-operation-v1.json",
+    "sha256": "d5164d764b4f357ee1671fcea3b739247bb2b0c9192e132ba1e6bdeebd471a0d"
+  },
+  "resolution137_operation_pin": {
+    "path": "evaluations/T-0787/implementation/exact136-plus137-resolutions-draft-v1/exact137-resolution-only-operation-v1.json",
+    "sha256": "cc718dda8d5698557b81346e79a290171da30aa79fd591690cb96e16cc7de8a6"
+  },
+  "stage_DB_pin": {
+    "path": "evaluations/T-0787/exact136-stage-v1/stage.sqlite",
+    "sha256": "99eec2f6f1020e5129e11f43f931d3697b8f9266e0b6fd2b67482ddfb8922adc"
+  },
+  "actual_state": {
+    "journal_head": 449,
+    "pending": 0
+  },
+  "final_handoff_pin": {
+    "path": "evaluations/T-0787/exact136-stage-v1/exact137-resolution-and-finalchecks-v1/complete-two-op136-plus137-resolution-actual449-final-stage-handoff-v1.json",
+    "sha256": "bf5090baf0dfd33a017f3da00ba5fe59e5eb76b24c0b28663261e624ff0bc3b9"
+  },
+  "own_direct_SQL_proof": {
+    "path": "evaluations/T-0787/independent-review/actual449-independent-direct-SQL-whole-preservation-and-literal-proof-v1.json",
+    "sha256": "5902563cf9e1b44ea8751635a806d70628c241c5e5fe4596c5e6c0bdd71ec5d1"
+  },
+  "own_built_package_gate": {
+    "path": "evaluations/T-0787/independent-review/exact-built137-resolution-and-whole-two-operation-package-pre-resolution-gate-v1.json",
+    "sha256": "f510b716528ab19f4b6ca6be370325a7e0173d8f284fd766a8c3acc6217e429c"
+  },
+  "own136_source_consequence_gate": {
+    "path": "evaluations/T-0787/independent-review/exact-built136-independent-prestage-source-consequence-gate-v1.json",
+    "sha256": "0dc47456b71ba639adf683b173e506b6513ae15605f00860f9a97e09a0bf3dbc"
+  },
+  "own137_individual_instruction_gate": {
+    "path": "evaluations/T-0787/independent-review/actual137-complete-independent-comparative-instruction-source-gate-v1.json",
+    "sha256": "9bc0c098870d03007fe4b0a3e53a0dbf25d48899352f585dc028556d77bb3c61"
+  },
+  "primary_final_gate": {
+    "path": "evaluations/T-0787/source-review/complete-two-operation136-plus137-final-actual449-primary-source-consequence-gate-v1.json",
+    "sha256": "f944be4cabd866085c79f6816eea7df48b1d2b7f0d3923469bf047ada583f6a5"
+  },
+  "validators": [
+    {
+      "path": "evaluations/T-0787/exact136-stage-v1/exact137-resolution-and-finalchecks-v1/verify.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0787/exact136-stage-v1/exact137-resolution-and-finalchecks-v1/verify-assets.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0787/exact136-stage-v1/exact137-resolution-and-finalchecks-v1/verify-source.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    },
+    {
+      "path": "evaluations/T-0787/exact136-stage-v1/exact137-resolution-and-finalchecks-v1/inventory.json",
+      "sha256": "e7052d6b6963076520d75fee2d18a0590c8dd44e65b475a35585c3cfa71b9f2c"
+    },
+    {
+      "path": "evaluations/T-0787/exact136-stage-v1/exact137-resolution-and-finalchecks-v1/P-0269-default-verified-pedigree.json",
+      "sha256": "bb1c180bfb2875983b0467e4f0d3e27d895118d801a5379c8d9eb72c51ab59a8"
+    },
+    {
+      "path": "evaluations/T-0787/exact136-stage-v1/exact137-resolution-and-finalchecks-v1/P-0270-default-verified-pedigree.json",
+      "sha256": "deee1966d12b5de95cfd641cd85980d892c0abe158461b94b711551f20a6ee21"
+    }
+  ],
+  "historical_precondition": {
+    "snapshot": {
+      "path": "evaluations/T-0787/exact136-stage-v1/pre-resolution-original448-902a6ed9-v1.sqlite",
+      "sha256": "902a6ed9f0af9aea311e145d016ce4cae83c9a695d433f67bef7f9c5d3153dd5"
+    },
+    "meaning": "Earlier stage.sqlite SHA902a pins are historical448/137 preconditions preserved byte-exact in this snapshot, not claims about current stage.sqlite."
+  },
+  "source_consequence_judgment": {
+    "exact136": "All136 approved entire APIs and individual old/current source-copy consequences retain their own earlier substantive PASS; actual first-stage whole API binding plus all47 unchanged native/search/history tables now directly proves preservation through resolution. 130 revisions,6 new objects,1 media; no new source reading credit from equality.",
+    "individual137": "All137 actual requests independently frozen then compared and exact literal instructions approved; every stored text/order now independently SQL-equal. All70 current affected objects and their old support paths remain as individually retained; no implicit rebind or new evidence vote.",
+    "source_limits": "Own full C0244,C0246,C0933 relevant records and physical3011 test retained. Green3011 remains a column14 annotation of unresolved direction/book; tested page nonmatch is not archive/person absence or an invented unread direct continuation. All original amendments and raw reservations persist.",
+    "stronger_support": "Stronger accepted T0674/T0675 and OWNER/person correlations remain. Father source28January does not replace stronger23January. Villy source27 19/1 and C0935 27 19/11 coexist with older1922 alternatives without selected normalized DOB; E258 caveat and historical EP basis are explicitly limited. Separate BI5 address is not replaced by pale household glyph.",
+    "identity_and_life": "P0241/P0246 seven identity criteria passed and tree supporting by the four individually reviewed native APIs. No automatic child/side-person identity approval, legacy full-contract conversion or life-picture approval. Final verified views expose only accepted current passage, not source progress inferred from counts.",
+    "remaining_scopes": "T0214 annotation/precise wider continuation reservations and existing own-birth/life owners remain outside this fixed fulfilled batch; no new research mandate.",
+    "protection": "Initial136 operation exact reviewed source corrections only; final resolution changes solely operation/operation_payload/review_resolution append rows. Entire47 other tables, all old50 rows/order/schema, ordered evidence/origins/media, protected42 and actual136 payloads retained."
+  },
+  "method_limits": "Prior own original/current/stronger-support and individual judgments reused through exact approved-to-actual binding, not reread. No whole469 metadata availability credit. Earlier initial exposure limits remain. One verbose proof/schema print truncated; compact proof metadata and full direct SQL comparisons completed instead of claiming unseen prose read.",
+  "unresolved_findings": [],
+  "final_ready_for_canonical": true,
+  "canonical_apply_authorized_by_this_review": false,
+  "canonical_actual_acceptance": false,
+  "root_next": "Root alone checks fresh MAIN447 baseline and applies exact two members in order, then verifies actual canonical result against this reviewed stage.",
+  "usage": "UNKNOWN; root actual worker usage collector after final response"
+}

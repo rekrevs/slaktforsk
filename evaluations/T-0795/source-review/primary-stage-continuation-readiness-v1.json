@@ -1,0 +1,86 @@
+{
+  "task": "T-0795",
+  "utc": "2026-10-06T14:37:55.007259+00:00",
+  "role": "Primary Astra SOURCE",
+  "gate": "PASS",
+  "stage_continuation_ready": true,
+  "canonical_apply_ready": false,
+  "pins": [
+    {
+      "path": "evaluations/T-0795/source-review/primary-stage-projection-seven-retains-v1.json",
+      "sha256": "d228c57d942386930e7ad37b12de4641c9fe637792deaa1fc9cffc5455530be5"
+    },
+    {
+      "path": "evaluations/T-0795/preparation/reviewed-stage-v1/all35-readonly-full-API-diagnostic-v1.json",
+      "sha256": "7efb9739e68543694768fc3ef06a5686f0e78554da9b083ea8af086cd3856328"
+    },
+    {
+      "path": "evaluations/T-0795/preparation/reviewed-stage-v1/actual-seven-review-full-context-v1.json",
+      "sha256": "941012442c7c973e03a815adddde411c4256763f70aa89c4fc6e8e9784ca2748"
+    },
+    {
+      "path": "evaluations/T-0795/preparation/reviewed-stage-v1/operation-media-bound.json",
+      "sha256": "df696be18e30db8e45bb5aa7be9d3ec508cd92698ff3c34ae9b94e6c3ec7d28c"
+    },
+    {
+      "path": "evaluations/T-0795/preparation/literal-package-v1/individual-consequence-table.json",
+      "sha256": "667882aac820fd0264101b2d1cfd80c4e14de9062adef6a7e75432660e568112"
+    }
+  ],
+  "approved_projection": "bindings is an input-only version constraint consumed by apply; native payload has no bindings column. For precisely six R-T0795-U1–U6-metadata request projections only, omit request bindings from reconstructed-native equality AFTER checking actual record.source_id and exact source@1 dependency. Keep original request and journal unchanged. All35 other fields/metadata/origins/evidence order/media compare exactly after existing null/empty defaults; independently SQLchecked.",
+  "individual_resolution_count": 7,
+  "individual_resolutions": [
+    {
+      "request": "06836fa2a6f3b6fe6e585400d9d4a7169782deb56b95aad9541af58dd4e441f8",
+      "decision": "retain",
+      "rationale": "T-0795 individuell SOURCE-prövning: U2 verifies only institution-level school archive routing and U3 gives no relevant edition; neither supplies education/service dates or personnel records. Dated T0790 ARB open and life failed remain correct; new current ARB@3 carries actual2026-10-06metadata, while life review retains historical ARB@2 evidence.",
+      "affected_revision": "ASSESSMENT-T0790-P0212-life@1",
+      "changed_revision": "THEME-P-0212-ARB@3"
+    },
+    {
+      "request": "c8f963905886bd6c370924427e26f6e554fbc3f3931d899f11a4de33719f51ca",
+      "decision": "retain",
+      "rationale": "T-0795 individuell SOURCE-prövning: U4 supplies pre2008RA routing/property-key requirement and U5 custody after2001, not property, probate existence, wealth or income. Old EKO@2 open and failed review remain valid for its dated scope; new EKO@3 supplies current limitedmetadata and unselected map lead.",
+      "affected_revision": "ASSESSMENT-T0790-P0212-life@1",
+      "changed_revision": "THEME-P-0212-EKO@3"
+    },
+    {
+      "request": "88b592fb65f0a359460583403ea29b6975488ee70713e5e9a08676b94c329278",
+      "decision": "retain",
+      "rationale": "T-0795 individuell SOURCE-prövning: U1 candidate Stockholms area/captcha establishes no personal area, enrolment or service. Old MIL@2 open remains substantive correct, with actual access attempt in MIL@3; life review retains its older dated source binding.",
+      "affected_revision": "ASSESSMENT-T0790-P0212-life@1",
+      "changed_revision": "THEME-P-0212-MIL@3"
+    },
+    {
+      "request": "6fb58cbb1e6384214e6fca5f833a5b5163845f2904711b35860cd77da8d81847",
+      "decision": "retain",
+      "rationale": "T-0795 individuell SOURCE-prövning: U6 generic result and exact URL404 supply no mandate/localbranch/medal record; unselected2016/2003leads do not fill personalfields. Dated SAM@1 open and failed life remain correct; current SAM@2 adds only boundedmetadata.",
+      "affected_revision": "ASSESSMENT-T0790-P0212-life@1",
+      "changed_revision": "THEME-P-0212-SAM@2"
+    },
+    {
+      "request": "8d72b838e4b1c48ef3194d8a0f5146d161db75d71b70a1160c120056f49105f9",
+      "decision": "retain",
+      "rationale": "T-0795 individuell SOURCE-prövning: BIO@7 changes only final access synopsis, not biographical facts or missing1951–1962chain. Dated T0790 PK10-STYRKT based on BIO@6 and failed overall remain defensible; retain old binding as historicalreview rather than silently redate it.",
+      "affected_revision": "ASSESSMENT-T0790-P0212-life@1",
+      "changed_revision": "BIO-P-0212@7"
+    },
+    {
+      "request": "2c1ecdc95f0f10f940c031c0d93d3ddc5f8dc8d983a114fd65caa43dddd9016b",
+      "decision": "retain",
+      "rationale": "T-0795 individuell SOURCE-prövning: PK06@3 keeps STYRKT for individually assessedten themes; only updates T0795 ownership/probe result, not personalcoverage. Dated life review PK06 conclusion and oldPK06@2 binding retained.",
+      "affected_revision": "ASSESSMENT-T0790-P0212-life@1",
+      "changed_revision": "CONTRACT-P-0212-PK-06@3"
+    },
+    {
+      "request": "787e5d84eb14b82eeda29135514b0dd13fb9482ab4a4578bc128847ed2405a0d",
+      "decision": "retain",
+      "rationale": "T-0795 individuell SOURCE-prövning: PK08@3 keeps EJ STYRKT: precise metadata routing improved but personal/access keys and T0359/T0362 needs persist. Dated life failed from PK03/04/08 remains warranted, retaining oldPK08@2 binding. No original passage or reviewgradechange.",
+      "affected_revision": "ASSESSMENT-T0790-P0212-life@1",
+      "changed_revision": "CONTRACT-P-0212-PK-08@3"
+    }
+  ],
+  "full_context_reading": "All seven actual requests, changed native bodies/caveats and complete historical life review read. All35 full API rows match approved defaults after excluding only six request-only bindings; prior direct SQL proof independently verifies exact source@1 dependencies. No source interpretation changed.",
+  "authorized_scope": "SOURCE readiness for continuation checks on existing journal458 clone and separate seven-retain operation only, subject to independent concurrence and root release. Never reapply first operation; preserve approved request and journal. Final stage459 source gate remains required before any main write.",
+  "remaining_possibilities": "No concrete new execution decided. Final T0795 checkpoint may retain six exact EJ BESLUTAT UTFÖRANDE possibilities with owner/root subsequent bounded decision. T0359 twohushåll+maxoneregister, T0362 original1951–1967ownerquestions, T0767 originaltwoURLs unchanged; none expands to absorb remaininggenericroutes."
+}

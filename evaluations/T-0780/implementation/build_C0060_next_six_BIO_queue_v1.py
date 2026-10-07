@@ -1,0 +1,45 @@
+import json,sqlite3,pathlib,hashlib,copy,time
+start=time.time();b=pathlib.Path('evaluations/T-0780');w=b/'implementation/C0060-next-six-BIO-queue-v1';w.mkdir(exist_ok=True);c=sqlite3.connect('file:'+str(b/'preparation/baseline-j281.sqlite')+'?mode=ro',uri=True);c.row_factory=sqlite3.Row
+specs=[('next-three-biography','5f440b58240d84b5b719bd41908e251a0122b6735db9c165cd3f9d5fe6fdacb3'),('last-three-additive-biography','dc28cd31050510501ad0fbbfd0c78b9c6d9137bc1b7dad6d86932ad9d58ff0dc')];seen=set();table=[];fan=[];pins=[];native={};sourcepins=[]
+for name,sha in specs:
+ p=b/'source-review'/('C-0060-'+name+'-decisions-'+('v3' if name=='selected77-contract' else 'v1')+'.json');assert hashlib.sha256(p.read_bytes()).hexdigest()==sha;d=json.load(open(p));sourcepins.append({'path':str(p),'sha256':sha});changes=[]
+ for i in d['objects']:
+  o=i['current'];rid=o['id'];h=dict(c.execute('select r.*,ob.kind from revision r join object ob on ob.id=r.object_id where r.id=?',(rid,)).fetchone());assert all(h[k]==o[k] for k in h);assert not c.execute('select 1 from revision where object_id=? and version>?',(h['object_id'],h['version'])).fetchone();data=dict(c.execute('select * from '+h['kind']+' where revision_id=?',(rid,)).fetchone());assert data==o['data'];orig=[dict(z) for z in c.execute('select * from origin where revision_id=?',(rid,))];assert len(orig)==len(o['origins']) and all(all(z[k]==q[k] for k in z) for z,q in zip(orig,o['origins']));ev=[dict(z) for z in c.execute('select * from dependency where revision_id=?',(rid,))];assert sorted(ev,key=lambda z:json.dumps(z,sort_keys=True))==sorted(o['evidence'],key=lambda z:json.dumps(z,sort_keys=True));pro=copy.deepcopy(o);ed={e['field']:e for e in i['edits']};assert len(ed)==len(i['edits'])
+  for e in i['edits']:
+   obj=pro['data'] if e['field'].startswith('data.') else pro;k=e['field'].removeprefix('data.');assert obj[k]==e['old'],(name,rid,k);obj[k]=e['new']
+  for field,val in [('data.'+k,v) for k,v in data.items() if k!='revision_id']+[(k,h[k]) for k in ['disposition','evidence_status','rationale','caveat']]:
+   nv=pro['data'][field[5:]] if field.startswith('data.') else pro[field];table.append({'scope':name,'revision':rid,'field':field,'old':val,'new':nv,'disposition':i['disposition'],'rationale':i['rationale'],'source_sha256':sha})
+  if not ed:continue
+  assert h['object_id'] not in seen;seen.add(h['object_id']);ev=copy.deepcopy(o['evidence'])
+  if i.get('evidence_addition'):ev.append({'revision_id':rid,**i['evidence_addition']})
+  if i.get('additional_required_support'):ev.append({'revision_id':rid,**i['additional_required_support']})
+  for additional in i.get('additional_required_supports',[]):
+   assert set(additional)=={'basis_revision_id','role','note'};ev.append({'revision_id':rid,**additional})
+  ch={'id':h['object_id'],'kind':h['kind'],'expectedVersion':h['version'],'data':{k:v for k,v in pro['data'].items() if k!='revision_id'},'origins':[{'unit':z['unit_id'],'coverage':z['coverage'],'note':z['note']} for z in orig],'evidence':[{'object':z['basis_revision_id'].rsplit('@',1)[0],'version':int(z['basis_revision_id'].rsplit('@',1)[1]),'role':z['role'],'note':z['note']} for z in ev],'disposition':h['disposition'],'evidenceStatus':h['evidence_status'],'rationale':pro['rationale'],'caveat':pro['caveat']}
+  for k,v in ch['data'].items():
+   if k.endswith('_json') and isinstance(v,str):ch['data'][k]=json.loads(v)
+  if h['kind']=='record':ch['assets']=[{'path':z['asset_path'],'region':z['region']} for z in c.execute('select * from record_asset where revision_id=?',(rid,))];ch['media']=[{'id':z['asset_id'],'region':z['region']} for z in c.execute('select * from record_media where revision_id=?',(rid,))]
+  changes.append(ch);incoming=[dict(z) for z in c.execute('select * from dependency where basis_revision_id=?',(rid,))];fan.append({'scope':name,'source_revision':rid,'incoming_edges':incoming,'Astra_disposition':None});native[rid]=o
+ for n in d['new_objects']:
+  assert not c.execute('select 1 from object where id=?',(n['id'],)).fetchone();assert n['id'] not in seen;seen.add(n['id'])
+  if n['kind']=='transcription':data={'record_id':n['record_id'],'text':n['content'],'reading_note':n.get('reading_note',d['implementation'])}
+  else:data={'subject_id':n['subject_id'],'criteria':n['criteria'],'outcome':n['outcome'],'body':n['content']}
+  changes.append({'id':n['id'],'kind':n['kind'],'expectedVersion':None,'data':data,'origins':[],'evidence':[{'object':e['basis_revision_id'].rsplit('@',1)[0],'version':int(e['basis_revision_id'].rsplit('@',1)[1]),'role':e['role'],'note':e['note']} for e in n['evidence']],'disposition':'recorded','evidenceStatus':None,'rationale':'T-0780: explicit settled Astra source-bound '+name+' decision; no independent historical evidence or full-person closure.','caveat':n.get('reading_note',n['content'])})
+ if changes:
+  # Draft handoff modules retain exact primary bases. Sequence/rebind disposition is explicitly pending when other selected modules revise the same basis.
+  op={'id':'T-0780/C0060-'+name+'-v1','actor':'Codex Sol bounded implementation of settled Astra inputs','reason':'T-0780 '+name+' source approval '+sha+'; exact dependency sequencing and independent package gate pending.','dependencyReviewVersion':2,'changes':changes};f=w/(name+'-operation-v1.json');assert not f.exists();f.write_text(json.dumps(op,ensure_ascii=False,indent=2)+'\n');pins.append({'path':str(f),'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'changes':len(changes)})
+# All incoming full objects, deduplicated. No evidence-version decisions inferred.
+for item in fan:
+ for e in item['incoming_edges']:
+  rid=e['revision_id']
+  if rid in native:continue
+  z=dict(c.execute('select r.*,ob.kind from revision r join object ob on ob.id=r.object_id where r.id=?',(rid,)).fetchone());z['data']=dict(c.execute('select * from '+z['kind']+' where revision_id=?',(rid,)).fetchone());z['origins']=[dict(q) for q in c.execute('select * from origin where revision_id=?',(rid,))];z['evidence']=[dict(q) for q in c.execute('select * from dependency where revision_id=? order by basis_revision_id,role',(rid,))];native[rid]=z
+cross=[]
+for pin in pins:
+ z=json.load(open(pin['path']))
+ for ch in z['changes']:
+  for e in ch['evidence']:
+   if e['object'] in seen and e['version']==1:cross.append({'dependent_id':ch['id'],'basis':e,'module':pin['path'],'disposition':'Primary must settle exact ordering/rebind when basis is revised elsewhere; no substitution.'})
+for name,obj in [('individual-full-field-table-v1.json',{'entries':table}),('full-incoming-and-cross-module-dependency-input-v1.json',{'fanouts':fan,'objects':native,'cross_module_basis_questions':cross,'no_automatic_rebind':True})]:
+ f=w/name;f.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n');pins.append({'path':str(f),'sha256':hashlib.sha256(f.read_bytes()).hexdigest()})
+r={'task':'T-0780','source_pins':sourcepins,'candidate_modules':pins,'expected_unique_targets':len(seen),'revised_objects':6,'new_objects':0,'all_exact_full_current_old_matches':'PASS','full_field_count':len(table),'incoming_edges':sum(len(i['incoming_edges']) for i in fan),'cross_module_basis_questions':len(cross),'stage_or_canonical_applies':0,'failed_attempts':0,'elapsed_seconds':time.time()-start,'status':'Settled field candidates built; incoming basis dispositions and exact sequence pending Astra, not stage-ready'};(w/'settled-module-receipt-v1.json').write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:r[k] for k in ['expected_unique_targets','incoming_edges','cross_module_basis_questions','full_field_count','elapsed_seconds']}))

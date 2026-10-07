@@ -1,0 +1,78 @@
+{
+  "task": "T-0788",
+  "phase": "clone-first-apply-and-capture-actual-requests",
+  "root_authorized": true,
+  "runtime_resolution_authorized": false,
+  "canonical_authorized": false,
+  "database_replacement_authorized": false,
+  "retry_authorized": false,
+  "baseline_state": {
+    "journal_head": 449,
+    "pending": 0
+  },
+  "target_count": 36,
+  "revision_count": 31,
+  "create_count": 5,
+  "media_count": 1,
+  "actual_request_count_not_inferred_from28_inputs": true,
+  "package_pin": {
+    "path": "evaluations/T-0788/implementation/exact36-draft-v1/exact36-one-operation-package-proposal-v1.json",
+    "sha256": "bf66548538c7fdca2464150dd4ca2d1d886e8e1ee12e26f966ba6c533e20ae82"
+  },
+  "operation_pin": {
+    "path": "evaluations/T-0788/implementation/exact36-draft-v1/exact36-one-controlled-operation-v1.json",
+    "sha256": "f6e2709c21542736c330288868e404b4b300a6c0a2013e9df83d564a4dc3d07a"
+  },
+  "main_baseline_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "040e13c47dd6a01a3fa10f470b5685776f92de5c9214e1d5bdd399ba9ef414c7"
+  },
+  "baseline_DB_pin": {
+    "path": "evaluations/T-0788/preparation/baseline-j449.sqlite",
+    "sha256": "ea35b3d3bc782c7537da0dbf5fa89089945df8ae319543a0f7d5b061fe945b8e"
+  },
+  "primary_gate": {
+    "pin": {
+      "path": "evaluations/T-0788/source-review/exact-built36-primary-prestage-source-consequence-gate-v1.json",
+      "sha256": "61e4de7d5a9d6d7d2b502981a793bcda5f7b139bc713f775ed0723f5e054c6f4"
+    },
+    "ready_pointer": "/ready_for_root_stage_consideration",
+    "proposal_pin_pointer": "/proposal_pin",
+    "membership_pin_pointer": "/membership_pin",
+    "operation_pin_pointer": "/operation_pin"
+  },
+  "independent_gate": {
+    "pin": {
+      "path": "evaluations/T-0788/independent-review/exact-built36-independent-prestage-source-consequence-gate-v1.json",
+      "sha256": "19fa21e5ab47564ea620a0b1aabc6810f9ea24272b092e2e741e33630c476683"
+    },
+    "ready_pointer": "/ready_for_root_authorized_stage",
+    "proposal_pin_pointer": "/proposal_pin",
+    "membership_pin_pointer": "/membership_pin",
+    "operation_pin_pointer": "/operation_pin"
+  },
+  "source_code_pins": [
+    {
+      "path": "genealogy2/cli.mjs",
+      "sha256": "96c4882903f436ae0564227d26eda4f01a4e998294ce025692e8534be8d45b89"
+    },
+    {
+      "path": "genealogy2/lib/domain.mjs",
+      "sha256": "b4f104f30bda6277c797fc57a538a9c32cf4db5eb0d24423c6d0cb9c64fec25e"
+    },
+    {
+      "path": "genealogy2/lib/store.mjs",
+      "sha256": "a0a4b318c7c8b2ddb5a86b476a7a05dc43f375ff8f786b0b60fe596089c8c6b0"
+    },
+    {
+      "path": "genealogy2/lib/recovery.mjs",
+      "sha256": "1215607ef6ebd21e9d70831e05f2ab883b80727489139dc01bb09613087054e5"
+    }
+  ],
+  "stage_output_root": "evaluations/T-0788/exact36-stage-v1",
+  "helper_pin": {
+    "path": "evaluations/T-0788/implementation/stage_root_authorized_exact36_firstphase_v2.py",
+    "sha256": "e829b78592029e9cf2b1244370c7127d2ae47d6d82cd5767abb84a559d71022f"
+  },
+  "root_review": "Full runner v2 read; both complete built source gates/actual449 reconciliation and backup proofs read/bound; all package/spec/membership36/currentheads/supports/media pins verified. One exact clone apply/capture only, actual pending count not inferred from28inputs. No runtime resolutions or canonical authority."
+}

@@ -1,0 +1,46 @@
+{
+  "seven_basis_amendment_receipt_pin": {
+    "path": "evaluations/T-0780/implementation/C0060-seven-explicit-basis-amendment-v2/bounded-seven-basis-amendment-handoff-production-v2.json",
+    "sha256": "184609a4a607552d7a2b2b0bde21acac61b41112625378e6e1d2e8f228a47c07"
+  },
+  "source_pins": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0060-nine-key-question-context-decisions-v2.json",
+      "sha256": "eba55a13baa7c2e691d6bc88c8ac28e1c7de2a9bc9d49fb5e1b6c7f062a3237c"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0060-BIO0028-birthorder-semantic-decisions-v1.json",
+      "sha256": "40a04e201e612360256556827ac1e9ffb0bfbe9670b07b902deaae0b1133cc2d"
+    }
+  ],
+  "input_pin": {
+    "path": "evaluations/T-0780/implementation/C0060-Q68-BIO28-repair-queue-v1/Q68-BIO28-all-history-incoming-full-native-input-v1.json",
+    "sha256": "9b2adef01c1516347e76a4276d62c5030060442586b58dc128f991111f9def47"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0780/implementation/C0060-Q68-BIO28-repair-queue-v1/current100-repaired-candidate-membership-inventory-v1.json",
+    "sha256": "927f227569102de6e03bc95c5c1d3dca95684f03495bcc8196e0279949872729"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0780/implementation/C0060-Q68-BIO28-repair-queue-v1/concrete-current100-repaired-sequence-proposal-v1.json",
+    "sha256": "684405ec73b3580f43b46ff081165f9acf29ece2e2ad287ea01b5603ea83b4e7"
+  },
+  "native_target_growth": 1,
+  "same_version_candidate_amendments": 8,
+  "other_eight_key_payloads_exact_unchanged": true,
+  "full_field_entries": 79,
+  "incoming_edges": 0,
+  "full_native_referencers": 0,
+  "failed_mechanical_attempt_count": 2,
+  "failed_mechanical_attempts": [
+    {
+      "script": "finalize_C0060_three_repairs_phase_v1.py",
+      "reason": "Initial overbroad body-only proof rejected explicit source-approved TR evidence addition. Second failed proof used pre-existing evidence_addition instead of explicit additional_required_support; final proof verifies the latter exact ordered slot, all other fields unchanged."
+    }
+  ],
+  "elapsed_since_first_repair_candidate_seconds": 82.27770781517029,
+  "prebuild_reads_excluded": true,
+  "model_usage_root_collect_after_final": true,
+  "closed_three_repair_module_cap_complete": true,
+  "no_stage_probe_apply_actual328_modification": true
+}

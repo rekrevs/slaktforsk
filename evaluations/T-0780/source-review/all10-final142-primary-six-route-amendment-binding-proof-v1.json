@@ -1,0 +1,65 @@
+{
+  "task": "T-0780",
+  "scope": "Exactly six returned question/path bodies; no original reading",
+  "source_spec_pin": {
+    "path": "evaluations/T-0780/source-review/resumed-six-P0066-P0002-P0049-source-route-decisions-v1.json",
+    "sha256": "0d3edca1c9b6370f2a8313a97722e66c96373770aa33441da3e3bfc322539dfa"
+  },
+  "input_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-six-P0066-P0002-P0049-source-route-queue-v1/full-current-history-incoming-and-support-input-v1.json",
+    "sha256": "8a13911cda5193bdabfb9550df145aa149db4739e9ac4c2a866f8466732d7113"
+  },
+  "actual_operation_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-six-P0066-P0002-P0049-source-route-queue-v1/six-P0066-P0002-P0049-source-route-operation-v1.json",
+    "sha256": "87d263b8ffbb249ad51ab394a75c5253a5c75e5794904f0b722c02ee3d5c1b52"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-six-P0066-P0002-P0049-source-route-queue-v1/concrete-current142-partial-sequence-and-constraint-proposal-v1.json",
+    "sha256": "73804115b9cd81748915df6f12e9227cd074c5c725312b7363669e7776660508"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-six-P0066-P0002-P0049-source-route-queue-v1/current142-candidate-membership-inventory-v1.json",
+    "sha256": "8577efc31d0e9554e7268bfa2945b119ac17501362e78d0264c8a154242f97b2"
+  },
+  "prior141_source_gate": {
+    "path": "evaluations/T-0780/source-review/all10-global-primary-source-ready-gate-v4.json",
+    "sha256": "2ccacc52f125c16c16b129a655410a2b96f9d9a97884ec4ed480becc6f0b673c"
+  },
+  "entire_prior141_ordered_prefix_equal": true,
+  "all142operation_hashes_verified": true,
+  "checks": [
+    {
+      "object_id": "PATH-P-0066-KP-03",
+      "whole_current_API_reconstruction_equal": true,
+      "source_incoming_disposition": "No current/history incoming edges. Retain ordered outgoing support/origins exactly; no rebind."
+    },
+    {
+      "object_id": "P-0002/Q-01",
+      "whole_current_API_reconstruction_equal": true,
+      "source_incoming_disposition": "No current/history incoming edges. Retain ordered outgoing support/origins exactly; no rebind."
+    },
+    {
+      "object_id": "PATH-P-0002-KP-01",
+      "whole_current_API_reconstruction_equal": true,
+      "source_incoming_disposition": "No current/history incoming edges. Retain ordered outgoing support/origins exactly; no rebind."
+    },
+    {
+      "object_id": "PATH-P-0002-KP-02",
+      "whole_current_API_reconstruction_equal": true,
+      "source_incoming_disposition": "No current/history incoming edges. Retain ordered outgoing support/origins exactly; no rebind."
+    },
+    {
+      "object_id": "PATH-P-0002-KP-03",
+      "whole_current_API_reconstruction_equal": true,
+      "source_incoming_disposition": "No current/history incoming edges. Retain ordered outgoing support/origins exactly; no rebind."
+    },
+    {
+      "object_id": "PATH-P-0049-KP-03",
+      "whole_current_API_reconstruction_equal": true,
+      "source_incoming_disposition": "No current/history incoming edges. Retain ordered outgoing support/origins exactly; no rebind."
+    }
+  ],
+  "all136_audit_TR_adoption_APIs": "Unchanged exact141 whole-operation prefix, existing140 index remains exact; no reread credit.",
+  "independent_actual_review": "Await separate exact six receipt; no global approval.",
+  "canonical_stage": "UNRUN"
+}

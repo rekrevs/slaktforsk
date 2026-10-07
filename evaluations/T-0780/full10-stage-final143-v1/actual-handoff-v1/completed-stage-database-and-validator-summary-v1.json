@@ -1,0 +1,1262 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T11:46:55.668816+00:00",
+  "stage_database_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/stage.sqlite",
+    "sha256": "ae906e23de24bbded3cf392980c9749fe75d8ba6161fec7a92a1fbfdd17fe5ac"
+  },
+  "stage_result_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/stage-result.json",
+    "sha256": "5268c24084cad05bab28f518d8daf94dbc7a362c5a2978ebcf47e282dd89b16f"
+  },
+  "stage_state_actual": {
+    "journal_head": 424,
+    "pending": 2128
+  },
+  "live_state_actual_readonly": {
+    "journal_head": 281,
+    "pending": 0
+  },
+  "stage_all_operation_payloads_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/all-operation-payloads.json",
+    "sha256": "b3824008d28dfd8bb0009d203411570930794471302e5e6fb5a6e51bed92e76f"
+  },
+  "stage_pending_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/pending-after.json",
+    "sha256": "1ee7a50e1c00a410917c78f879b31d8ee5dae51f74122dac4aca15bf6eb8c998"
+  },
+  "exact_helper_success_exit_code": 0,
+  "validator_results": {
+    "verify": {
+      "ok": true,
+      "errors": []
+    },
+    "verify-assets": {
+      "ok": true,
+      "errors": []
+    },
+    "verify-source": {
+      "ok": true,
+      "mediaVerified": true,
+      "problems": []
+    }
+  },
+  "inventory_active": {
+    "persons": 511,
+    "identityPassed": 196,
+    "treeSupporting": 51,
+    "identityGatePassed": 50,
+    "explicitNativeLifePassed": 0,
+    "legacyContractPassed": 0
+  },
+  "verified_pedigree": {
+    "mode": "verified",
+    "root_gate": {
+      "person_id": "P-0269",
+      "criteria": "identity_gate/1",
+      "passed": true,
+      "status": "passed",
+      "reasons": [],
+      "explanation": "Godkänd identitetsgranskning och bärande trädverkan är uttryckligen registrerade. Livsbildens utfall är separat.",
+      "person": {
+        "revision_id": "P-0269@2",
+        "display_name": "Adam Jan Gunnar Janson",
+        "sex": null,
+        "legacy_state": "active",
+        "object_id": "P-0269",
+        "version": 2,
+        "kind": "person",
+        "disposition": "accepted",
+        "evidence_status": "OWNER_CONFIRMED",
+        "rationale": "Personens existens i det angivna sammanhanget bedöms separat från full livsidentitet och forskningskontrakt; ingen generell statusomvandling.",
+        "caveat": "Personen identifieras genom projektägarens uttryckliga förstahandsuppgifter, inte genom ett kontraktsbetyg. Kön lämnas null; inga uppgifter utöver det minimerade familjeomfånget läggs till.",
+        "origins": [
+          {
+            "revision_id": "P-0269@2",
+            "unit_id": "e37d46f745ff7d6057522b0981cf156b2352720f7ebcb2f790ac274f6a7df654",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/citations/C-0252-familjen-janson-namn-datum-och-relationer.md",
+            "start_line": 9,
+            "end_line": 24
+          },
+          {
+            "revision_id": "P-0269@2",
+            "unit_id": "ef2fa644ace07681539fbd91a4eeb6361bc095c2d853e8c816f4009f2501755e",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0269-adam-jan-gunnar.md",
+            "start_line": 35,
+            "end_line": 35
+          },
+          {
+            "revision_id": "P-0269@2",
+            "unit_id": "666e83b1eaecabbda98a594f1a6b7425aa902d051a99b54c26f0a360298a4ab1",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0269-adam-jan-gunnar.md",
+            "start_line": 36,
+            "end_line": 36
+          },
+          {
+            "revision_id": "P-0269@2",
+            "unit_id": "e6bf53388ae024d699fe5818503ddb5a82c1d3d20b40d788a5a8f221baa2a206",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0269-adam-jan-gunnar.md",
+            "start_line": 37,
+            "end_line": 37
+          }
+        ],
+        "evidence": [],
+        "pending_reviews": []
+      },
+      "identity_review": {
+        "source": "legacy_header",
+        "criteria": "identity_review/1",
+        "outcome": "passed",
+        "usable": true,
+        "assessments": [
+          {
+            "revision_id": "ASSESSMENT-P-0269@2",
+            "subject_id": "P-0269",
+            "criteria": "legacy_review_header",
+            "outcome": "`UNDERKÄND`",
+            "body": "# Forskningsprofil för P-0269: Adam Jan Gunnar Janson\n\n- Kontrakt: `person-research/v1`\n- Person: P-0269\n- Identitetsläge: `PRÖVAT`\n- Livsbildsläge: `INTEGRITETSMINIMERAD`\n- Källstrategiläge: `GENOMGÅNGEN`\n- Identitetsgranskning: `GODKÄND`\n- Trädverkan: `BÄRANDE`\n- Kontraktsgranskning: `UNDERKÄND`\n- Granskningsdatum: 2026-09-08\n- Granskningsbelägg: T-0145, [dev-log](../../wotan/dev-log/T-0145.md); [C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md), [S-0199](../sources/S-0199-anvandarens-uppgift-familjen-janson.md), [C-0140](../citations/C-0140-anvandarens-uppgift-kristina-evy-gunnar.md), [personakten](../people/P-0269-adam-jan-gunnar.md), tidigare [batch 292](../research-log/2026-09-05.md#batch-292--t-0063-personkontrakt-för-de-sexton-närmaste-akterna)\n- Tidslinje: [aktens enda hållpunkt, födelsedatumet](../people/P-0269-adam-jan-gunnar.md#tidslinje)\n- Livsberättelse: [aktens integritetsavgränsade sammanfattning](../people/P-0269-adam-jan-gunnar.md#biografisk-sammanfattning)\n\nInförd i T-0063 som en av projektets två rotpersoner och konsoliderad i\nT-0145. Akten är avsiktligt minimal: den existerar för att ge antavlan sin\nutgångspunkt, inte för att beskriva en levande persons liv.\n\n## Aktuell avgränsad helnivårättelse\n\nT-0115, statusavstämning 2026-09-18: PCD-2026-09-09-029 anger uttryckligen att PK-08 faller för samtliga sju namngivna levande personer tills T-0034 är utförd. För denna person är därför PK-08 EJ STYRKT och den äldre helkontraktsnivån UNDERKÄND. Detta är verkställighet av befintligt ägarbeslut, inte en ny saklig persongranskning eller en utförd nätundersökning. Identitetsgranskning, trädverkan, OWNER_CONFIRMED och övriga sakuppgifter består.\n\nGranskningsdatumet ovan daterar den äldre individuella granskningen. Denna statusrättelse är daterad 2026-09-18 och grundas på PROJECT-CONTROL.md#pcd-2026-09-09-029, Portfolio signal, samt CONTRACT-P-0269-PK-08@2. Den äldre GODKÄND-lydelsen bevaras i föregående version. Ingen ny native life_picture_review/1 skapas och äldre helkontraktsomfång byter inte betydelse.\n",
+            "object_id": "ASSESSMENT-P-0269",
+            "version": 2,
+            "kind": "assessment",
+            "disposition": "recorded",
+            "evidence_status": null,
+            "rationale": "T-0115: P-0269: rättar endast äldre Kontraktsgranskning från GODKÄND till UNDERKÄND som följd av PK-08; ursprungligt granskningsdatum och identitets-/trädhuvud behålls utan omprövning. Tidigare revision och ursprung bevaras; utkastet appliceras först efter granskning.",
+            "caveat": "T-0115, statusavstämning 2026-09-18: PCD-2026-09-09-029 anger uttryckligen att PK-08 faller för samtliga sju namngivna levande personer tills T-0034 är utförd. För denna person är därför PK-08 EJ STYRKT och den äldre helkontraktsnivån UNDERKÄND. Detta är verkställighet av befintligt ägarbeslut, inte en ny saklig persongranskning eller en utförd nätundersökning. Identitetsgranskning, trädverkan, OWNER_CONFIRMED och övriga sakuppgifter består. De tidigare kopierade migrationsanteckningarna i personens övriga researchobjekt beskriver överföringens då bevarade profiltext och är inte konkurrerande aktuella helnivåbeslut. Ingen ny identitets- eller livsbildsgranskning skapas.\n\nHistorisk migrationsanteckning från föregående revision (inte dagens helnivåutfall):\nHela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+            "origins": [
+              {
+                "revision_id": "ASSESSMENT-P-0269@2",
+                "unit_id": "31f992ab15d556279b8751035297d8c219338869e9b3ef114e04c8d7b488c95e",
+                "coverage": "partial",
+                "note": "Exakt ägarbeslut PCD-2026-09-09-029, PROJECT-CONTROL.md:4755–4788; Portfolio signal: PK-08 faller för alla sju och återprövas efter T-0034. Detta är styrningsproveniens, inte ett genealogiskt personbelägg.",
+                "document_path": "PROJECT-CONTROL.md",
+                "start_line": 4755,
+                "end_line": 4788
+              },
+              {
+                "revision_id": "ASSESSMENT-P-0269@2",
+                "unit_id": "7bdcceacd44f63756b007c067d2fa4658cca09ab277a14ac6533e102e9cececf",
+                "coverage": "complete",
+                "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+                "document_path": "genealogy/research-profiles/P-0269.md",
+                "start_line": 1,
+                "end_line": 19
+              }
+            ],
+            "evidence": [
+              {
+                "revision_id": "ASSESSMENT-P-0269@2",
+                "basis_revision_id": "CONTRACT-P-0269-PK-08@2",
+                "role": "context",
+                "note": "Exakt avgränsat PK-08-utfall för helkontraktsrättelsen. Kontextroll eftersom detta inte är ett nytt stöd för identitets-/trädaxlarna som samma äldre huvud också innehåller."
+              }
+            ],
+            "pending_reviews": []
+          }
+        ],
+        "ignored_assessments": [],
+        "fields": [
+          {
+            "line": 8,
+            "raw": "`GODKÄND`",
+            "value": "GODKÄND"
+          }
+        ],
+        "issues": [],
+        "header_fields": {
+          "Kontrakt": [
+            {
+              "line": 3,
+              "raw": "`person-research/v1`",
+              "value": "person-research/v1"
+            }
+          ],
+          "Person": [
+            {
+              "line": 4,
+              "raw": "P-0269",
+              "value": "P-0269"
+            }
+          ],
+          "Identitetsläge": [
+            {
+              "line": 5,
+              "raw": "`PRÖVAT`",
+              "value": "PRÖVAT"
+            }
+          ],
+          "Livsbildsläge": [
+            {
+              "line": 6,
+              "raw": "`INTEGRITETSMINIMERAD`",
+              "value": "INTEGRITETSMINIMERAD"
+            }
+          ],
+          "Identitetsgranskning": [
+            {
+              "line": 8,
+              "raw": "`GODKÄND`",
+              "value": "GODKÄND"
+            }
+          ],
+          "Trädverkan": [
+            {
+              "line": 9,
+              "raw": "`BÄRANDE`",
+              "value": "BÄRANDE"
+            }
+          ],
+          "Kontraktsgranskning": [
+            {
+              "line": 10,
+              "raw": "`UNDERKÄND`",
+              "value": "UNDERKÄND"
+            }
+          ]
+        }
+      },
+      "tree_effect": {
+        "source": "legacy_header",
+        "criteria": "tree_effect/1",
+        "outcome": "supporting",
+        "usable": true,
+        "assessments": [
+          {
+            "revision_id": "ASSESSMENT-P-0269@2",
+            "subject_id": "P-0269",
+            "criteria": "legacy_review_header",
+            "outcome": "`UNDERKÄND`",
+            "body": "# Forskningsprofil för P-0269: Adam Jan Gunnar Janson\n\n- Kontrakt: `person-research/v1`\n- Person: P-0269\n- Identitetsläge: `PRÖVAT`\n- Livsbildsläge: `INTEGRITETSMINIMERAD`\n- Källstrategiläge: `GENOMGÅNGEN`\n- Identitetsgranskning: `GODKÄND`\n- Trädverkan: `BÄRANDE`\n- Kontraktsgranskning: `UNDERKÄND`\n- Granskningsdatum: 2026-09-08\n- Granskningsbelägg: T-0145, [dev-log](../../wotan/dev-log/T-0145.md); [C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md), [S-0199](../sources/S-0199-anvandarens-uppgift-familjen-janson.md), [C-0140](../citations/C-0140-anvandarens-uppgift-kristina-evy-gunnar.md), [personakten](../people/P-0269-adam-jan-gunnar.md), tidigare [batch 292](../research-log/2026-09-05.md#batch-292--t-0063-personkontrakt-för-de-sexton-närmaste-akterna)\n- Tidslinje: [aktens enda hållpunkt, födelsedatumet](../people/P-0269-adam-jan-gunnar.md#tidslinje)\n- Livsberättelse: [aktens integritetsavgränsade sammanfattning](../people/P-0269-adam-jan-gunnar.md#biografisk-sammanfattning)\n\nInförd i T-0063 som en av projektets två rotpersoner och konsoliderad i\nT-0145. Akten är avsiktligt minimal: den existerar för att ge antavlan sin\nutgångspunkt, inte för att beskriva en levande persons liv.\n\n## Aktuell avgränsad helnivårättelse\n\nT-0115, statusavstämning 2026-09-18: PCD-2026-09-09-029 anger uttryckligen att PK-08 faller för samtliga sju namngivna levande personer tills T-0034 är utförd. För denna person är därför PK-08 EJ STYRKT och den äldre helkontraktsnivån UNDERKÄND. Detta är verkställighet av befintligt ägarbeslut, inte en ny saklig persongranskning eller en utförd nätundersökning. Identitetsgranskning, trädverkan, OWNER_CONFIRMED och övriga sakuppgifter består.\n\nGranskningsdatumet ovan daterar den äldre individuella granskningen. Denna statusrättelse är daterad 2026-09-18 och grundas på PROJECT-CONTROL.md#pcd-2026-09-09-029, Portfolio signal, samt CONTRACT-P-0269-PK-08@2. Den äldre GODKÄND-lydelsen bevaras i föregående version. Ingen ny native life_picture_review/1 skapas och äldre helkontraktsomfång byter inte betydelse.\n",
+            "object_id": "ASSESSMENT-P-0269",
+            "version": 2,
+            "kind": "assessment",
+            "disposition": "recorded",
+            "evidence_status": null,
+            "rationale": "T-0115: P-0269: rättar endast äldre Kontraktsgranskning från GODKÄND till UNDERKÄND som följd av PK-08; ursprungligt granskningsdatum och identitets-/trädhuvud behålls utan omprövning. Tidigare revision och ursprung bevaras; utkastet appliceras först efter granskning.",
+            "caveat": "T-0115, statusavstämning 2026-09-18: PCD-2026-09-09-029 anger uttryckligen att PK-08 faller för samtliga sju namngivna levande personer tills T-0034 är utförd. För denna person är därför PK-08 EJ STYRKT och den äldre helkontraktsnivån UNDERKÄND. Detta är verkställighet av befintligt ägarbeslut, inte en ny saklig persongranskning eller en utförd nätundersökning. Identitetsgranskning, trädverkan, OWNER_CONFIRMED och övriga sakuppgifter består. De tidigare kopierade migrationsanteckningarna i personens övriga researchobjekt beskriver överföringens då bevarade profiltext och är inte konkurrerande aktuella helnivåbeslut. Ingen ny identitets- eller livsbildsgranskning skapas.\n\nHistorisk migrationsanteckning från föregående revision (inte dagens helnivåutfall):\nHela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+            "origins": [
+              {
+                "revision_id": "ASSESSMENT-P-0269@2",
+                "unit_id": "31f992ab15d556279b8751035297d8c219338869e9b3ef114e04c8d7b488c95e",
+                "coverage": "partial",
+                "note": "Exakt ägarbeslut PCD-2026-09-09-029, PROJECT-CONTROL.md:4755–4788; Portfolio signal: PK-08 faller för alla sju och återprövas efter T-0034. Detta är styrningsproveniens, inte ett genealogiskt personbelägg.",
+                "document_path": "PROJECT-CONTROL.md",
+                "start_line": 4755,
+                "end_line": 4788
+              },
+              {
+                "revision_id": "ASSESSMENT-P-0269@2",
+                "unit_id": "7bdcceacd44f63756b007c067d2fa4658cca09ab277a14ac6533e102e9cececf",
+                "coverage": "complete",
+                "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+                "document_path": "genealogy/research-profiles/P-0269.md",
+                "start_line": 1,
+                "end_line": 19
+              }
+            ],
+            "evidence": [
+              {
+                "revision_id": "ASSESSMENT-P-0269@2",
+                "basis_revision_id": "CONTRACT-P-0269-PK-08@2",
+                "role": "context",
+                "note": "Exakt avgränsat PK-08-utfall för helkontraktsrättelsen. Kontextroll eftersom detta inte är ett nytt stöd för identitets-/trädaxlarna som samma äldre huvud också innehåller."
+              }
+            ],
+            "pending_reviews": []
+          }
+        ],
+        "ignored_assessments": [],
+        "fields": [
+          {
+            "line": 9,
+            "raw": "`BÄRANDE`",
+            "value": "BÄRANDE"
+          }
+        ],
+        "issues": [],
+        "header_fields": {
+          "Kontrakt": [
+            {
+              "line": 3,
+              "raw": "`person-research/v1`",
+              "value": "person-research/v1"
+            }
+          ],
+          "Person": [
+            {
+              "line": 4,
+              "raw": "P-0269",
+              "value": "P-0269"
+            }
+          ],
+          "Identitetsläge": [
+            {
+              "line": 5,
+              "raw": "`PRÖVAT`",
+              "value": "PRÖVAT"
+            }
+          ],
+          "Livsbildsläge": [
+            {
+              "line": 6,
+              "raw": "`INTEGRITETSMINIMERAD`",
+              "value": "INTEGRITETSMINIMERAD"
+            }
+          ],
+          "Identitetsgranskning": [
+            {
+              "line": 8,
+              "raw": "`GODKÄND`",
+              "value": "GODKÄND"
+            }
+          ],
+          "Trädverkan": [
+            {
+              "line": 9,
+              "raw": "`BÄRANDE`",
+              "value": "BÄRANDE"
+            }
+          ],
+          "Kontraktsgranskning": [
+            {
+              "line": 10,
+              "raw": "`UNDERKÄND`",
+              "value": "UNDERKÄND"
+            }
+          ]
+        }
+      },
+      "life_picture_review": {
+        "source": "legacy_header",
+        "criteria": "life_picture_review/1",
+        "outcome": "failed",
+        "usable": true,
+        "assessments": [
+          {
+            "revision_id": "ASSESSMENT-P-0269@2",
+            "subject_id": "P-0269",
+            "criteria": "legacy_review_header",
+            "outcome": "`UNDERKÄND`",
+            "body": "# Forskningsprofil för P-0269: Adam Jan Gunnar Janson\n\n- Kontrakt: `person-research/v1`\n- Person: P-0269\n- Identitetsläge: `PRÖVAT`\n- Livsbildsläge: `INTEGRITETSMINIMERAD`\n- Källstrategiläge: `GENOMGÅNGEN`\n- Identitetsgranskning: `GODKÄND`\n- Trädverkan: `BÄRANDE`\n- Kontraktsgranskning: `UNDERKÄND`\n- Granskningsdatum: 2026-09-08\n- Granskningsbelägg: T-0145, [dev-log](../../wotan/dev-log/T-0145.md); [C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md), [S-0199](../sources/S-0199-anvandarens-uppgift-familjen-janson.md), [C-0140](../citations/C-0140-anvandarens-uppgift-kristina-evy-gunnar.md), [personakten](../people/P-0269-adam-jan-gunnar.md), tidigare [batch 292](../research-log/2026-09-05.md#batch-292--t-0063-personkontrakt-för-de-sexton-närmaste-akterna)\n- Tidslinje: [aktens enda hållpunkt, födelsedatumet](../people/P-0269-adam-jan-gunnar.md#tidslinje)\n- Livsberättelse: [aktens integritetsavgränsade sammanfattning](../people/P-0269-adam-jan-gunnar.md#biografisk-sammanfattning)\n\nInförd i T-0063 som en av projektets två rotpersoner och konsoliderad i\nT-0145. Akten är avsiktligt minimal: den existerar för att ge antavlan sin\nutgångspunkt, inte för att beskriva en levande persons liv.\n\n## Aktuell avgränsad helnivårättelse\n\nT-0115, statusavstämning 2026-09-18: PCD-2026-09-09-029 anger uttryckligen att PK-08 faller för samtliga sju namngivna levande personer tills T-0034 är utförd. För denna person är därför PK-08 EJ STYRKT och den äldre helkontraktsnivån UNDERKÄND. Detta är verkställighet av befintligt ägarbeslut, inte en ny saklig persongranskning eller en utförd nätundersökning. Identitetsgranskning, trädverkan, OWNER_CONFIRMED och övriga sakuppgifter består.\n\nGranskningsdatumet ovan daterar den äldre individuella granskningen. Denna statusrättelse är daterad 2026-09-18 och grundas på PROJECT-CONTROL.md#pcd-2026-09-09-029, Portfolio signal, samt CONTRACT-P-0269-PK-08@2. Den äldre GODKÄND-lydelsen bevaras i föregående version. Ingen ny native life_picture_review/1 skapas och äldre helkontraktsomfång byter inte betydelse.\n",
+            "object_id": "ASSESSMENT-P-0269",
+            "version": 2,
+            "kind": "assessment",
+            "disposition": "recorded",
+            "evidence_status": null,
+            "rationale": "T-0115: P-0269: rättar endast äldre Kontraktsgranskning från GODKÄND till UNDERKÄND som följd av PK-08; ursprungligt granskningsdatum och identitets-/trädhuvud behålls utan omprövning. Tidigare revision och ursprung bevaras; utkastet appliceras först efter granskning.",
+            "caveat": "T-0115, statusavstämning 2026-09-18: PCD-2026-09-09-029 anger uttryckligen att PK-08 faller för samtliga sju namngivna levande personer tills T-0034 är utförd. För denna person är därför PK-08 EJ STYRKT och den äldre helkontraktsnivån UNDERKÄND. Detta är verkställighet av befintligt ägarbeslut, inte en ny saklig persongranskning eller en utförd nätundersökning. Identitetsgranskning, trädverkan, OWNER_CONFIRMED och övriga sakuppgifter består. De tidigare kopierade migrationsanteckningarna i personens övriga researchobjekt beskriver överföringens då bevarade profiltext och är inte konkurrerande aktuella helnivåbeslut. Ingen ny identitets- eller livsbildsgranskning skapas.\n\nHistorisk migrationsanteckning från föregående revision (inte dagens helnivåutfall):\nHela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+            "origins": [
+              {
+                "revision_id": "ASSESSMENT-P-0269@2",
+                "unit_id": "31f992ab15d556279b8751035297d8c219338869e9b3ef114e04c8d7b488c95e",
+                "coverage": "partial",
+                "note": "Exakt ägarbeslut PCD-2026-09-09-029, PROJECT-CONTROL.md:4755–4788; Portfolio signal: PK-08 faller för alla sju och återprövas efter T-0034. Detta är styrningsproveniens, inte ett genealogiskt personbelägg.",
+                "document_path": "PROJECT-CONTROL.md",
+                "start_line": 4755,
+                "end_line": 4788
+              },
+              {
+                "revision_id": "ASSESSMENT-P-0269@2",
+                "unit_id": "7bdcceacd44f63756b007c067d2fa4658cca09ab277a14ac6533e102e9cececf",
+                "coverage": "complete",
+                "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+                "document_path": "genealogy/research-profiles/P-0269.md",
+                "start_line": 1,
+                "end_line": 19
+              }
+            ],
+            "evidence": [
+              {
+                "revision_id": "ASSESSMENT-P-0269@2",
+                "basis_revision_id": "CONTRACT-P-0269-PK-08@2",
+                "role": "context",
+                "note": "Exakt avgränsat PK-08-utfall för helkontraktsrättelsen. Kontextroll eftersom detta inte är ett nytt stöd för identitets-/trädaxlarna som samma äldre huvud också innehåller."
+              }
+            ],
+            "pending_reviews": []
+          }
+        ],
+        "ignored_assessments": [],
+        "fields": [
+          {
+            "line": 10,
+            "raw": "`UNDERKÄND`",
+            "value": "UNDERKÄND"
+          }
+        ],
+        "issues": [],
+        "scope": "legacy_full_contract",
+        "header_fields": {
+          "Kontrakt": [
+            {
+              "line": 3,
+              "raw": "`person-research/v1`",
+              "value": "person-research/v1"
+            }
+          ],
+          "Person": [
+            {
+              "line": 4,
+              "raw": "P-0269",
+              "value": "P-0269"
+            }
+          ],
+          "Identitetsläge": [
+            {
+              "line": 5,
+              "raw": "`PRÖVAT`",
+              "value": "PRÖVAT"
+            }
+          ],
+          "Livsbildsläge": [
+            {
+              "line": 6,
+              "raw": "`INTEGRITETSMINIMERAD`",
+              "value": "INTEGRITETSMINIMERAD"
+            }
+          ],
+          "Identitetsgranskning": [
+            {
+              "line": 8,
+              "raw": "`GODKÄND`",
+              "value": "GODKÄND"
+            }
+          ],
+          "Trädverkan": [
+            {
+              "line": 9,
+              "raw": "`BÄRANDE`",
+              "value": "BÄRANDE"
+            }
+          ],
+          "Kontraktsgranskning": [
+            {
+              "line": 10,
+              "raw": "`UNDERKÄND`",
+              "value": "UNDERKÄND"
+            }
+          ]
+        }
+      },
+      "used_revisions": [
+        {
+          "object_id": "P-0269",
+          "revision_id": "P-0269@2",
+          "version": 2,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0269",
+          "revision_id": "ASSESSMENT-P-0269@2",
+          "version": 2,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ],
+      "other_assessments": [
+        {
+          "revision_id": "AS-P-0269-profile-PCD029-boundary@2",
+          "subject_id": "P-0269",
+          "criteria": "Befintlig sakbedömning med uttryckliga källgränser",
+          "outcome": "owner_decision_applied_to_current_review",
+          "body": "T-0115, statusavstämning 2026-09-18: PCD-2026-09-09-029 anger uttryckligen att PK-08 faller för samtliga sju namngivna levande personer tills T-0034 är utförd. För denna person är därför PK-08 EJ STYRKT och den äldre helkontraktsnivån UNDERKÄND. Detta är verkställighet av befintligt ägarbeslut, inte en ny saklig persongranskning eller en utförd nätundersökning. Identitetsgranskning, trädverkan, OWNER_CONFIRMED och övriga sakuppgifter består.\n\nFöregående version dokumenterade att den äldre råprofilen behöll PK-08 STYRKT trots PCD-029. T-0115 rättar nu det versionerade aktuella PK-08-utfallet och helkontraktsrubriken; råprofil och tidigare revisioner förblir historiskt oförändrade. PCD-2026-09-09-028:s familjeuppgifter påverkas inte. Exakt beslut: PROJECT-CONTROL.md#pcd-2026-09-09-029, Portfolio signal.\n",
+          "object_id": "AS-P-0269-profile-PCD029-boundary",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "T-0115: P-0269: den redan dokumenterade motsägelsen är nu rättad i det aktuella bedömningshuvudet och PK-08; gränstexten ska skilja rättat nuläge från bevarad råprofil. Tidigare revision och ursprung bevaras; utkastet appliceras först efter granskning.",
+          "caveat": "T-0115, statusavstämning 2026-09-18: PCD-2026-09-09-029 anger uttryckligen att PK-08 faller för samtliga sju namngivna levande personer tills T-0034 är utförd. För denna person är därför PK-08 EJ STYRKT och den äldre helkontraktsnivån UNDERKÄND. Detta är verkställighet av befintligt ägarbeslut, inte en ny saklig persongranskning eller en utförd nätundersökning. Identitetsgranskning, trädverkan, OWNER_CONFIRMED och övriga sakuppgifter består. De tidigare kopierade migrationsanteckningarna i personens övriga researchobjekt beskriver överföringens då bevarade profiltext och är inte konkurrerande aktuella helnivåbeslut. Ingen ny identitets- eller livsbildsgranskning skapas.\n\nHistorisk migrationsanteckning från föregående revision (inte dagens helnivåutfall):\nBevarad råprofil och senare ägarbeslut har olika innebörd; äldre bedömning får inte användas utan denna gräns.",
+          "origins": [
+            {
+              "revision_id": "AS-P-0269-profile-PCD029-boundary@2",
+              "unit_id": "31f992ab15d556279b8751035297d8c219338869e9b3ef114e04c8d7b488c95e",
+              "coverage": "partial",
+              "note": "Exakt ägarbeslut PCD-2026-09-09-029, PROJECT-CONTROL.md:4755–4788; Portfolio signal: PK-08 faller för alla sju och återprövas efter T-0034. Detta är styrningsproveniens, inte ett genealogiskt personbelägg.",
+              "document_path": "PROJECT-CONTROL.md",
+              "start_line": 4755,
+              "end_line": 4788
+            },
+            {
+              "revision_id": "AS-P-0269-profile-PCD029-boundary@2",
+              "unit_id": "3b0f92ddf71d3c5bb41ea3b3ec1759ae950308a5a58dbf0211319949ec711c63",
+              "coverage": "partial",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 127,
+              "end_line": 127
+            }
+          ],
+          "evidence": [
+            {
+              "revision_id": "AS-P-0269-profile-PCD029-boundary@2",
+              "basis_revision_id": "CONTRACT-P-0269-PK-08@2",
+              "role": "context",
+              "note": "Aktuellt PK-08-utfall; ingen familje- eller identitetsomprövning."
+            }
+          ],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-01@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-01",
+          "outcome": "STYRKT",
+          "body": "| PK-01 | STYRKT | En person, identifierad av sin far, med namn, datum och föräldrapar i samma uppgift; inga kandidater att skilja. [C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md), [S-0199](../sources/S-0199-anvandarens-uppgift-familjen-janson.md) |\n",
+          "object_id": "CONTRACT-P-0269-PK-01",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-01@1",
+              "unit_id": "5ca1ab1e0b394c7bafd8ef223d52332cf1c8d870125c178944d5ab58fc54dffd",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 120,
+              "end_line": 120
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-02@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-02",
+          "outcome": "STYRKT",
+          "body": "| PK-02 | STYRKT | Tre atomära påståenden A-1555–A-1557 med status, tillförlitlighet och belägg; källuppgift och tolkning är åtskilda i [personakten](../people/P-0269-adam-jan-gunnar.md#påståenden). |\n",
+          "object_id": "CONTRACT-P-0269-PK-02",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-02@1",
+              "unit_id": "15b3844cc0598da0855bbefc3e54398092731ad106be6a2e4f70bd5a61ab53a0",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 121,
+              "end_line": 121
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-03@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-03",
+          "outcome": "STYRKT",
+          "body": "| PK-03 | STYRKT | Livslinje förs medvetet inte; endast födelsedatumet enligt integritetsregeln, och avgränsningen är utskriven som avgränsning i [tidslinjen](../people/P-0269-adam-jan-gunnar.md#tidslinje) och [integritetsnoten](../people/P-0269-adam-jan-gunnar.md#integritetsnot). |\n",
+          "object_id": "CONTRACT-P-0269-PK-03",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-03@1",
+              "unit_id": "c903cc0625242c71858811f054a4d09eeffd92949b2217331865b41e535ec7a3",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 122,
+              "end_line": 122
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-04@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-04",
+          "outcome": "STYRKT",
+          "body": "| PK-04 | STYRKT | Föräldrar och bror är bevarade med belägg, tid och källa; inga fler relationer är relevanta för aktens syfte och inga hushållsroller har gjorts till släktskap. [C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md) |\n",
+          "object_id": "CONTRACT-P-0269-PK-04",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-04@1",
+              "unit_id": "1b0f9c99fadcb47302fc13fa0bbaefda5598e999147920d657e60f00b4013c07",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 123,
+              "end_line": 123
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-05@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-05",
+          "outcome": "STYRKT",
+          "body": "| PK-05 | STYRKT | Hela ägaruppgiften är utvunnen för denna person: förnamnen, den omedelbara efternamnsrättelsen, födelsedatumet, föräldraparet och broderns namn med datum. Ingen annan post finns att läsa. [S-0199](../sources/S-0199-anvandarens-uppgift-familjen-janson.md), [C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md) |\n",
+          "object_id": "CONTRACT-P-0269-PK-05",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-05@1",
+              "unit_id": "f4da1b50dbc7fc744c735beb6ad7a3e3b46344b67810ff2c31858dc3a535741a",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 124,
+              "end_line": 124
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-06@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-06",
+          "outcome": "STYRKT",
+          "body": "| PK-06 | STYRKT | Tio teman bedömda var för sig ovan, samtliga INTEGRITETSMINIMERAT med personbundet skäl. [Livsteman](#livsteman) |\n",
+          "object_id": "CONTRACT-P-0269-PK-06",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-06@1",
+              "unit_id": "8bfda131413f31f4b2b0b7ea14b2808745797c38522679768c0036c4f3ce1597",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 125,
+              "end_line": 125
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-07@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-07",
+          "outcome": "STYRKT",
+          "body": "| PK-07 | STYRKT | Två nycklar med provenans och uttrycklig begränsning mot extern användning; ingen ort- eller organisationsnyckel påstås. [Söknycklar](#söknycklar) |\n",
+          "object_id": "CONTRACT-P-0269-PK-07",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-07@1",
+              "unit_id": "e82d593a64c1cd4c7b26c37c66c4ec5932b32d137c4affb304eae5e094ead3aa",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 126,
+              "end_line": 126
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-08@2",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-08",
+          "outcome": "EJ STYRKT",
+          "body": "| PK-08 | EJ STYRKT | PCD-2026-09-09-029 gör öppen nätinformation till en tillgänglig materiell passage och anger uttryckligen denna person bland de sju vars PK-08 faller tills T-0034 utförts. Det äldre argumentet om saknat diskriminerande värde är inte ett undantag beslutat av ägaren. T-0034 äger den avgränsade undersökningen; den har inte utförts här. Dataminimering, säker identitetsmatchning och åtskillnad mellan observation och slutsats består. |\n\nT-0115, statusavstämning 2026-09-18: PCD-2026-09-09-029 anger uttryckligen att PK-08 faller för samtliga sju namngivna levande personer tills T-0034 är utförd. För denna person är därför PK-08 EJ STYRKT och den äldre helkontraktsnivån UNDERKÄND. Detta är verkställighet av befintligt ägarbeslut, inte en ny saklig persongranskning eller en utförd nätundersökning. Identitetsgranskning, trädverkan, OWNER_CONFIRMED och övriga sakuppgifter består.\n\nExakt beslut: PROJECT-CONTROL.md#pcd-2026-09-09-029, avsnitt Portfolio signal. Den äldre STYRKT-raden och dess motivering finns ordagrant kvar i föregående objektversion och i fryst profil; de är historik, inte aktuell status.\n",
+          "object_id": "CONTRACT-P-0269-PK-08",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0115: P-0269: det aktuella kriterieutfallet STYRKT motsäger ägarbeslutets uttryckliga utfall för alla sju; motiveringen om saknat diskriminerande värde är inte ett beslutat undantag. Tidigare revision och ursprung bevaras; utkastet appliceras först efter granskning.",
+          "caveat": "T-0115, statusavstämning 2026-09-18: PCD-2026-09-09-029 anger uttryckligen att PK-08 faller för samtliga sju namngivna levande personer tills T-0034 är utförd. För denna person är därför PK-08 EJ STYRKT och den äldre helkontraktsnivån UNDERKÄND. Detta är verkställighet av befintligt ägarbeslut, inte en ny saklig persongranskning eller en utförd nätundersökning. Identitetsgranskning, trädverkan, OWNER_CONFIRMED och övriga sakuppgifter består. De tidigare kopierade migrationsanteckningarna i personens övriga researchobjekt beskriver överföringens då bevarade profiltext och är inte konkurrerande aktuella helnivåbeslut. Ingen ny identitets- eller livsbildsgranskning skapas.\n\nHistorisk migrationsanteckning från föregående revision (inte dagens helnivåutfall):\nHela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-08@2",
+              "unit_id": "31f992ab15d556279b8751035297d8c219338869e9b3ef114e04c8d7b488c95e",
+              "coverage": "partial",
+              "note": "Exakt ägarbeslut PCD-2026-09-09-029, PROJECT-CONTROL.md:4755–4788; Portfolio signal: PK-08 faller för alla sju och återprövas efter T-0034. Detta är styrningsproveniens, inte ett genealogiskt personbelägg.",
+              "document_path": "PROJECT-CONTROL.md",
+              "start_line": 4755,
+              "end_line": 4788
+            },
+            {
+              "revision_id": "CONTRACT-P-0269-PK-08@2",
+              "unit_id": "65bd0cac084b3fe1932e5c1a6f83d39ed195e4551861f642f46f502c400b354c",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 127,
+              "end_line": 127
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-09@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-09",
+          "outcome": "STYRKT",
+          "body": "| PK-09 | STYRKT | Slutsatsen vilar på faderns förstahandsuppgift, den starkaste tillgängliga informationen om en levande sons namn och födelse; alternativ saknas och inga konflikter föreligger. Namnrättelsen redovisas som det som bär efternamnet. [S-0199](../sources/S-0199-anvandarens-uppgift-familjen-janson.md) |\n",
+          "object_id": "CONTRACT-P-0269-PK-09",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-09@1",
+              "unit_id": "5f3cbdc6b8bcf08187ac196cd9cc847a94cff1a131bbece1862200c0029488e6",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 128,
+              "end_line": 128
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-10@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-10",
+          "outcome": "STYRKT",
+          "body": "| PK-10 | STYRKT | Ingen berättelse förs enligt integritetsregeln; den korta sammanfattningen är källkritisk, skiljer källuppgift från avgränsning och tillskriver honom ingen kontext. [Aktens sammanfattning](../people/P-0269-adam-jan-gunnar.md#biografisk-sammanfattning) |\n",
+          "object_id": "CONTRACT-P-0269-PK-10",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-10@1",
+              "unit_id": "f119f6fd452f07456d7ff1f034f4537fa840506608e66e62de51537392d74448",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 129,
+              "end_line": 129
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-11@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-11",
+          "outcome": "STYRKT",
+          "body": "| PK-11 | STYRKT | Provenansen är ägarens daterade uppgift 2026-08-22 med ordagrann lydelse i källakten och citationen; rättelser och preciseringar är daterade i [aktens historik](../people/P-0269-adam-jan-gunnar.md#historik-och-rättelser). |\n",
+          "object_id": "CONTRACT-P-0269-PK-11",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-11@1",
+              "unit_id": "62b7958822f7f633fbea174786664bc1030bb34603baa84eb387e5e7b517be5f",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 130,
+              "end_line": 130
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "CONTRACT-P-0269-PK-12@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_person_contract/PK-12",
+          "outcome": "STYRKT",
+          "body": "| PK-12 | STYRKT | Daterad granskning 2026-09-08 i T-0145 av varje krav, med redovisade gränser och konkreta återaktiveringsvillkor nedan; utförande ligger i Wotan. [dev-log T-0145](../../wotan/dev-log/T-0145.md), tidigare [batch 292](../research-log/2026-09-05.md#batch-292--t-0063-personkontrakt-för-de-sexton-närmaste-akterna) |\n",
+          "object_id": "CONTRACT-P-0269-PK-12",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "CONTRACT-P-0269-PK-12@1",
+              "unit_id": "ac190ad8b2132fd6f77cfae5c6b92548e8592825a327a0db8a060869712c171e",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 131,
+              "end_line": 131
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "KEY-P-0269-9a1b3f686531@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_search_key",
+          "outcome": "recorded",
+          "body": "| Föräldraparet Sverker Adam Janson och Kristina Elisabeth Petronella Höök | Familjekonstellation som binder honom till antavlans djup 1. | [C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md), [C-0140](../citations/C-0140-anvandarens-uppgift-kristina-evy-gunnar.md) | Nyckeln används inom projektet; relationernas rättsliga/biologiska art är inte specificerad. |\n",
+          "object_id": "KEY-P-0269-9a1b3f686531",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "KEY-P-0269-9a1b3f686531@1",
+              "unit_id": "9a1b3f686531e7c0d6a1065482dc4f3cdebf4771b7512b0b71c63e0254e840cb",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 58,
+              "end_line": 58
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "KEY-P-0269-cbd294238233@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_search_key",
+          "outcome": "recorded",
+          "body": "| Adam Jan Gunnar Janson, född 1989-03-08 | Rotperson i den privata familjeutgåvan; används inte för extern sökning. | [C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md) | Ägaruppgift om en sannolikt levande person; skickas inte till externa tjänster utan ett konkret identifieringsbehov. |\n",
+          "object_id": "KEY-P-0269-cbd294238233",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "KEY-P-0269-cbd294238233@1",
+              "unit_id": "cbd294238233080a63cf5706e550c05e4fcc5efa251d491242f98ded857313ad",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 57,
+              "end_line": 57
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "RESEARCH-P-0269-8073a2e38d0e@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_profile_section/Forskningsfrågor",
+          "outcome": "recorded",
+          "body": "## Forskningsfrågor\n\nInga öppna forskningsfrågor och inga registrerade Q-id. Ägaruppgiften är\nfullständig för aktens syfte: namn, födelsedatum och båda föräldrarna är\nangivna av fadern själv, och ingen konkurrerande identitet, motstridig uppgift\neller olöst relation finns att pröva. Ingen fråga får ställas till externa\nkällor om en levande person utan ett konkret identifieringsbehov, och något\nsådant behov finns inte.\n\nOm ägaren senare ändrar en uppgift, eller om ett faktiskt motbelägg påträffas,\nöppnas en fråga här och lyfts till ägaren i stället för att skrivas in tyst.\n\n",
+          "object_id": "RESEARCH-P-0269-8073a2e38d0e",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "RESEARCH-P-0269-8073a2e38d0e@1",
+              "unit_id": "b13125dbca278b5963ed82754471db1a2b42dbea5ddb2b1ab61f8a5f195dd254",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 79,
+              "end_line": 90
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "RESEARCH-P-0269-9d76f0343410@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_profile_section/Identitetsbedömning",
+          "outcome": "recorded",
+          "body": "## Identitetsbedömning\n\nAdam Jan Gunnar Janson är projektägarens son enligt ägarens direkta uppgift\n[C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md)\nmed den ordagranna lydelsen i\n[S-0199](../sources/S-0199-anvandarens-uppgift-familjen-janson.md), som anger\nnamn, födelsedatum 1989-03-08 och båda föräldrarna. Personen är identifierad\nav den som själv är hans far. Ingen konkurrerande identitet finns, och ingen\narkivkontroll behövs eller görs för en sannolikt levande person. Efternamnet\nJanson vilar på uppgiftslämnarens omedelbara rättelse i samma samtal, inte på\nfaderns namn; ett föräldranamn bevisar inte i sig barnets namnform.\n\nRelationerna till [P-0004](../people/P-0004-sverker-adam-janson.md) och\n[P-0210](../people/P-0210-kristina-elisabeth-petronella-hook.md) är\nförstahandsuppgifter från fadern och bär antavlans djup 1 utan förbehåll.\nUppgiften anger inte relationernas rättsliga eller biologiska art, och\ningenting om detta härleds. Moderns namnform Höök står inte i C-0252 utan i\nden tidigare ägaruppgiften\n[C-0140](../citations/C-0140-anvandarens-uppgift-kristina-evy-gunnar.md);\naktens relationsrad hänvisar därför till båda. Inom projektets\nintegritetsgräns återstår ingenting att pröva för identiteten.\n\n### Identitetsnivåns utlåtande, senast prövat 2026-09-08\n\n**Identitetsnivån: `GODKÄND`. Trädverkan: `BÄRANDE`.**\n\nIdentitetsnivåns sju krav PK-01, 02, 05, 07, 09, 11 och 12 står samtliga\n`STYRKT` med beläggslänk i [kontraktsgranskningen](#kontraktsgranskning), och\n`Identitetsläge` är `PRÖVAT`. Personen är en av de två rotpersoner antavlan\nräknas från, och antavlan får passera positionen. Utlåtandet infördes i T-0103\nenligt PCD-2026-09-07-021 och prövades om i T-0145 mot samma underlag; inga\nnya källor har öppnats och inga påståenden har ändrats.\n\n",
+          "object_id": "RESEARCH-P-0269-9d76f0343410",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "RESEARCH-P-0269-9d76f0343410@1",
+              "unit_id": "2977587560f18482f69530464604a41ad0b4113e0710d55b3be5c4d46d7c3393",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 20,
+              "end_line": 52
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "RESEARCH-P-0269-dc9e05f77b98@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_profile_section/Källvägar",
+          "outcome": "recorded",
+          "body": "## Källvägar\n\nInga körbara källvägar planeras, och inget KP-id är registrerat. Personens\nenda källa hör till klass K-38 i [källstrategin](../source-strategy.md),\nmuntlig historia och familjematerial, och den är fullständigt utvunnen för\ndenna person. De arkivbundna klasserna K-01–K-08, K-10–K-37 och K-39–K-40\nförutsätter avlidna personer, historiska jurisdiktioner eller\negendoms-, tjänste- och rättshandlingar och är därför individuellt\nirrelevanta för en person född 1989 vars identitet redan bärs av faderns\nförstahandsuppgift.\n\nKvar står K-09, senare folkbokföring och personakter. Den är inte generellt\notillåten: ägaren har uttryckligen godkänt att sannolikt levande personers\ngenealogiskt relevanta grunduppgifter vid ett senare avgränsat tillfälle\nkorroboreras mot den öppet tillgängliga tjänsten birthday.se\n([PCD-2026-09-04-008](../../PROJECT-CONTROL.md#pcd-2026-09-04-008)). Den vägen\när parkerad som Wotan-uppgiften T-0034 i läget `IDEA` och ägs där, inte här.\nFör just denna person kan den bekräfta en namn- och födelsedatumuppgift som\nredan kommer från fadern i första hand, men den kan inte pröva föräldraskapet\noch skiljer inga kandidater, eftersom ingen konkurrerande identitet finns.\nVägen har därför inget diskriminerande värde för en öppen fråga, och\ndataminimeringen i [NORTH-STAR.md](../../NORTH-STAR.md) talar mot att öppna\nden utan behov. Bedömningen ändras om T-0034 aktiveras eller om ägaren begär\nmer innehåll om levande familjemedlemmar.\n\n",
+          "object_id": "RESEARCH-P-0269-dc9e05f77b98",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "RESEARCH-P-0269-dc9e05f77b98@1",
+              "unit_id": "acdf9860413e2e5f0908749c3a3351a76f6b957a7ab96b7939a9121531419c3c",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 91,
+              "end_line": 115
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "THEME-P-0269-ARB@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_theme/ARB",
+          "outcome": "INTEGRITETSMINIMERAT",
+          "body": "| ARB | INTEGRITETSMINIMERAT | Yrke, utbildning och samhällsställning samlas inte. Faderns yrkesuppgifter i C-0266 gäller fadern och tillskrivs inte sonen. | [Integritetsnoten](../people/P-0269-adam-jan-gunnar.md#integritetsnot) |\n",
+          "object_id": "THEME-P-0269-ARB",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "THEME-P-0269-ARB@1",
+              "unit_id": "9d709adbc6464c4dcab70fce438f93934df205a38576ad574e8aa3e2994cce1e",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 71,
+              "end_line": 71
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "THEME-P-0269-BO@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_theme/BO",
+          "outcome": "INTEGRITETSMINIMERAT",
+          "body": "| BO | INTEGRITETSMINIMERAT | Boställen, hushåll och flyttkedjor för en levande person samlas inte; källan innehåller inte heller någon sådan uppgift. | [Integritetsnoten](../people/P-0269-adam-jan-gunnar.md#integritetsnot) |\n",
+          "object_id": "THEME-P-0269-BO",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "THEME-P-0269-BO@1",
+              "unit_id": "02583fc1687f62f05eb4f97df640a771043c0615a19099830390b160baf3e8d3",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 70,
+              "end_line": 70
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "THEME-P-0269-EKO@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_theme/EKO",
+          "outcome": "INTEGRITETSMINIMERAT",
+          "body": "| EKO | INTEGRITETSMINIMERAT | Egendom, inkomst och ekonomiska förhållanden samlas inte för en levande person. | [Integritetsnoten](../people/P-0269-adam-jan-gunnar.md#integritetsnot) |\n",
+          "object_id": "THEME-P-0269-EKO",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "THEME-P-0269-EKO@1",
+              "unit_id": "30c6792913a93782906b9af489b97f7fd4cca0693d5daefcf2ee5e5b83dff37d",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 72,
+              "end_line": 72
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "THEME-P-0269-HAL@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_theme/HAL",
+          "outcome": "INTEGRITETSMINIMERAT",
+          "body": "| HAL | INTEGRITETSMINIMERAT | Hälsouppgifter samlas inte, och ingen dödspost konstrueras för en sannolikt levande person. | [Aktens avsnitt Hälsa och död](../people/P-0269-adam-jan-gunnar.md#hälsa-och-död) |\n",
+          "object_id": "THEME-P-0269-HAL",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "THEME-P-0269-HAL@1",
+              "unit_id": "74ab2c92bab561d8652798f0d6688325ca7456746f87dd2987c147872aeb15eb",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 75,
+              "end_line": 75
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "THEME-P-0269-ID@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_theme/ID",
+          "outcome": "INTEGRITETSMINIMERAT",
+          "body": "| ID | INTEGRITETSMINIMERAT | Ägaridentifierad rotperson; namn, namnrättelse och födelsedatum är det enda som förs, och det räcker för att binda personen entydigt. | [C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md), [S-0199](../sources/S-0199-anvandarens-uppgift-familjen-janson.md) |\n",
+          "object_id": "THEME-P-0269-ID",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "THEME-P-0269-ID@1",
+              "unit_id": "40f8473a3cc3869cb863fbbad76171380c4e64227f54a9f0041e5b713a0b6e7e",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 68,
+              "end_line": 68
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "THEME-P-0269-MIL@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_theme/MIL",
+          "outcome": "INTEGRITETSMINIMERAT",
+          "body": "| MIL | INTEGRITETSMINIMERAT | Värnplikt och sjöfart samlas inte; ingen sådan uppgift finns i underlaget och ingen efterfrågas. | [Integritetsnoten](../people/P-0269-adam-jan-gunnar.md#integritetsnot) |\n",
+          "object_id": "THEME-P-0269-MIL",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "THEME-P-0269-MIL@1",
+              "unit_id": "7bf32081fc6c0576def1d9b9b128fe5e7711f8b5d9bc87f7588a2a5d6eae659e",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 73,
+              "end_line": 73
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "THEME-P-0269-PER@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_theme/PER",
+          "outcome": "INTEGRITETSMINIMERAT",
+          "body": "| PER | INTEGRITETSMINIMERAT | Familjefoton, brev och personligt material om levande personer hålls utanför arkivet; inget sådant objekt är registrerat. | [Aktens medieavsnitt](../people/P-0269-adam-jan-gunnar.md#media-och-personliga-källor) |\n",
+          "object_id": "THEME-P-0269-PER",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "THEME-P-0269-PER@1",
+              "unit_id": "05621b584b01f2a015d4883f2c36a7c7940f377e16465862d8077213eec82499",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 76,
+              "end_line": 76
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "THEME-P-0269-REL@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_theme/REL",
+          "outcome": "INTEGRITETSMINIMERAT",
+          "body": "| REL | INTEGRITETSMINIMERAT | Föräldrar och bror är förstahandsuppgift från fadern; inga faddrar, vittnen, grannar eller senare egen familj samlas. | [C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md), [aktens relationstabell](../people/P-0269-adam-jan-gunnar.md#relationer) |\n",
+          "object_id": "THEME-P-0269-REL",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "THEME-P-0269-REL@1",
+              "unit_id": "826f03cdeb52c8eb23fcab381e12e01f91f37e4d028922fd1b31b04f81996491",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 69,
+              "end_line": 69
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "THEME-P-0269-SAM@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_theme/SAM",
+          "outcome": "INTEGRITETSMINIMERAT",
+          "body": "| SAM | INTEGRITETSMINIMERAT | Rättsliga, kyrkliga och sociala förhållanden samlas inte för en levande person. | [Integritetsnoten](../people/P-0269-adam-jan-gunnar.md#integritetsnot) |\n",
+          "object_id": "THEME-P-0269-SAM",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "THEME-P-0269-SAM@1",
+              "unit_id": "03c099225ec1511c720141b516b087e84c0a34ba11553bc8f0d05c609042cc92",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 74,
+              "end_line": 74
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        },
+        {
+          "revision_id": "THEME-P-0269-SYN@1",
+          "subject_id": "P-0269",
+          "criteria": "legacy_theme/SYN",
+          "outcome": "INTEGRITETSMINIMERAT",
+          "body": "| SYN | INTEGRITETSMINIMERAT | Akten är en identifierad utgångspunkt för antavlan, inte en livsbild; avgränsningen är avsiktlig och fullständig inom regeln, och skiljs i akttexten från okänd uppgift. | [Aktens sammanfattning](../people/P-0269-adam-jan-gunnar.md#biografisk-sammanfattning), [NORTH-STAR.md](../../NORTH-STAR.md) |\n",
+          "object_id": "THEME-P-0269-SYN",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "caveat": "Hela akten och profilen inklusive rättelser är lästa tillsammans med C0252/S0199, C0140 och relevanta redan bevarade delar av C0266. Namn, födelsedatum och föräldrar omfattas uttryckligen av PCD-2026-09-09-028. Äldre TR-texter upphäver inte detta. Efternamnet Janson bärs av faderns omedelbara förtydligande, inte av automatisk namnöverföring. Inget kön, födelseort eller biologisk art härleds. PCD-2026-09-09-029 motsäger profilens kvarstående PK08-godkännande; råbedömningen bevaras med separat precisering. Ingen ny extern kontroll eller utvidgning av privatliv ingår.",
+          "origins": [
+            {
+              "revision_id": "THEME-P-0269-SYN@1",
+              "unit_id": "2f795c66e9cd9293554c83432cd20aced2fca5ecb47ca7114c2b0d9a7630e82e",
+              "coverage": "complete",
+              "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+              "document_path": "genealogy/research-profiles/P-0269.md",
+              "start_line": 77,
+              "end_line": 77
+            }
+          ],
+          "evidence": [],
+          "pending_reviews": []
+        }
+      ]
+    },
+    "paths": 18,
+    "edges": 17,
+    "excluded": 12
+  },
+  "protected_unchanged": true,
+  "live_all50_tables_unchanged_verified_by_exact_helper": true,
+  "actual_request_grading_and_final_independent_review": "PENDING",
+  "canonical_apply_authorized": false,
+  "resolutions_applied": false,
+  "model_usage": "Unobservable; root collects after final. Unknown, not zero."
+}

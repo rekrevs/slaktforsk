@@ -1,0 +1,657 @@
+{
+  "task": "T-0778",
+  "state": "DONE_AFTER_SEPARATE_SUBSTANTIVE_G001_PASS",
+  "snapshot_utc": "2026-10-02T17:09:49.520993+00:00",
+  "observed_worker_start_utc": "2026-10-02T11:57:11.444Z",
+  "observed_wall_seconds_through_C1047_acceptance": 18625.459196,
+  "elapsed_limits": "Owner login waiting and concurrent workers are included in wall time; active-only duration not separately observable. Root pre-spawn preparation/time/tokens unknown; final closure follows acceptance. Do not interpret wall time as summed worker time or cost savings.",
+  "journal_before": 269,
+  "journal_after": 281,
+  "pending": 0,
+  "operations": [
+    {
+      "path": "evaluations/T-0778/C1060-metadata-operation-v1.json",
+      "sha256": "d24bcf353562357b9f33f9c7cf92f94c8bf51fb2269b77277dd85ef3c9bd2b95",
+      "expected_before": {
+        "journal_head": 269,
+        "pending": 0
+      },
+      "expected_after": {
+        "journal_head": 270,
+        "pending": 93
+      }
+    },
+    {
+      "path": "evaluations/T-0778/C-1060-source-candidate-operation-v2.json",
+      "sha256": "6b32a8e6ba1adedce490e54a91d4c11a68d59f22338bb71499945d1a691fbb25",
+      "expected_before": {
+        "journal_head": 270,
+        "pending": 93
+      },
+      "expected_after": {
+        "journal_head": 271,
+        "pending": 93
+      }
+    },
+    {
+      "path": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "sha256": "18732f8f4d47dda0dee2f544311e0c254f75afdc7374f1131b9f0cb5f526752c",
+      "expected_before": {
+        "journal_head": 271,
+        "pending": 93
+      },
+      "expected_after": {
+        "journal_head": 272,
+        "pending": 156
+      }
+    },
+    {
+      "path": "evaluations/T-0778/group-copy-v4-candidate-operation-v2.json",
+      "sha256": "3a2317c03fc5c0139bf188d366de12e7f33cd6820c7b7079b9023cdc6e92a96e",
+      "expected_before": {
+        "journal_head": 272,
+        "pending": 156
+      },
+      "expected_after": {
+        "journal_head": 273,
+        "pending": 168
+      }
+    },
+    {
+      "path": "evaluations/T-0778/group-copy-v6-operation-v1.json",
+      "sha256": "9cbe09e30c8b34cde2da63a988bc3ea6d739b15113b4626b85e3cf060c0b467d",
+      "expected_before": {
+        "journal_head": 273,
+        "pending": 168
+      },
+      "expected_after": {
+        "journal_head": 274,
+        "pending": 168
+      }
+    },
+    {
+      "path": "evaluations/T-0778/raw-place-v7-operation-v2.json",
+      "sha256": "88c3c3c67db70bd9809153fc5cf7d309c028637a7f153a2ed5e2285ab81b5021",
+      "expected_before": {
+        "journal_head": 274,
+        "pending": 168
+      },
+      "expected_after": {
+        "journal_head": 275,
+        "pending": 168
+      }
+    },
+    {
+      "path": "evaluations/T-0778/maternal-boundary-v8-operation-v1.json",
+      "sha256": "34c7f3b92c09861a3cca763c15f195a901b8429892c58bc436131bb37ce0a89d",
+      "expected_before": {
+        "journal_head": 275,
+        "pending": 168
+      },
+      "expected_after": {
+        "journal_head": 276,
+        "pending": 168
+      }
+    },
+    {
+      "path": "evaluations/T-0778/C1060-final-individual-resolution-operation-v1.json",
+      "sha256": "746c02d4ccf69ef4efb320187a113d1a0b8655f33acaba69be8a5a9499ce6748",
+      "expected_before": {
+        "journal_head": 276,
+        "pending": 168
+      },
+      "expected_after": {
+        "journal_head": 277,
+        "pending": 0
+      }
+    },
+    {
+      "sequence": 278,
+      "path": "evaluations/T-0778/C1047-preparation/C1047-metadata-operation-v1.json",
+      "sha256": "5976187c80a9c9cad340c2bb67433ff3e587fc8009ac61b5b39aee36e6891120",
+      "expected_before": {
+        "journal_head": 277,
+        "pending": 0
+      },
+      "expected_after": {
+        "journal_head": 278,
+        "pending": 8
+      }
+    },
+    {
+      "sequence": 279,
+      "path": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "sha256": "d638bdb9481d378a37ffe92689a83b951f0109c252564779a1e23b010ff4edc9",
+      "expected_before": {
+        "journal_head": 278,
+        "pending": 8
+      },
+      "expected_after": {
+        "journal_head": 279,
+        "pending": 8
+      }
+    },
+    {
+      "sequence": 280,
+      "path": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "sha256": "23ff2d5374d16f8540a5c8b49fdd27dcec4b7a0ef21d058558a0f8a85435fe50",
+      "expected_before": {
+        "journal_head": 279,
+        "pending": 8
+      },
+      "expected_after": {
+        "journal_head": 280,
+        "pending": 48
+      }
+    },
+    {
+      "sequence": 281,
+      "path": "evaluations/T-0778/C1047-preparation/C1047-individual-resolutions-operation-v1.json",
+      "sha256": "0eaebf823a27b374a937b142b9d067319fc6c1a8404fdafd2b5128eb70e5fc60",
+      "expected_before": {
+        "journal_head": 280,
+        "pending": 48
+      },
+      "expected_after": {
+        "journal_head": 281,
+        "pending": 0
+      }
+    }
+  ],
+  "operation_count": 12,
+  "version_events": 87,
+  "new_object_events": 20,
+  "existing_revision_events": 67,
+  "union_unique_objects": 80,
+  "union_new_objects": 20,
+  "union_existing_objects_revised": 60,
+  "cross_phase_object_overlap": [
+    "CONTRACT-P-0043-PK-11",
+    "PATH-P-0042-KP-01",
+    "PATH-P-0043-KP-05"
+  ],
+  "individual_resolutions": 216,
+  "new_bounded_adoptions": 6,
+  "new_unlinked_mentions": 5,
+  "coverage": {
+    "new_originals": 2,
+    "C1060_numbered_fields": 28,
+    "C1060_witness_lines": 4,
+    "C1047_rows": 7,
+    "C1047_column_units": 126,
+    "C1047_initial_preserved_units": 72,
+    "C1047_additional_units": 54,
+    "heterogeneous_units_not_quality_comparator": true,
+    "prior_accepted_scopes_reused": 38
+  },
+  "closure_surfaces": {
+    "citations": 40,
+    "assigned_records": 48,
+    "legacy_primary_assets": 33,
+    "crossmedia": 11,
+    "support_associations": 228,
+    "priority_claims": 59,
+    "native_extensions_separate": true
+  },
+  "verified_pedigree": {
+    "paths": 20,
+    "edges": 19,
+    "projection_unchanged": true,
+    "full_json_unchanged": false,
+    "only_changed_section": "other_assessments; informational approved research assessments"
+  },
+  "OWNER_CONFIRMED_count": 42,
+  "root_usage": null,
+  "fresh_budget": null,
+  "usage_collection": "Root runs collect_complete_t0778_usage_v2.py after final responses; all four workers, exact new turns, cache/output distinct.",
+  "savings_claim": "UNSUPPORTED_NO_MATCHED_COMPARATOR",
+  "events": [
+    {
+      "operation": "evaluations/T-0778/C1060-metadata-operation-v1.json",
+      "object": "S-0016",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-metadata-operation-v1.json",
+      "object": "R-beaee87a400dd929753d190d",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C-1060-source-candidate-operation-v2.json",
+      "object": "TR-T0778-C1060-fullfields",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C-1060-source-candidate-operation-v2.json",
+      "object": "AUDIT-T0778-C1060",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C-1060-source-candidate-operation-v2.json",
+      "object": "ADOPT-T0778-C1060-P-0044",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C-1060-source-candidate-operation-v2.json",
+      "object": "ADOPT-T0778-C1060-P-0043",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C-1060-source-candidate-operation-v2.json",
+      "object": "M-T0778-C1060-witness3",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C-1060-source-candidate-operation-v2.json",
+      "object": "M-T0778-C1060-witness4",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "READ-23a833861e44f358e44d8810",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "O-P-0044-A-3954-baptism_witnesses_assistance",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "O-P-0044-A-3953-unnamed_father",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "M-P-0044-witness92",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "M-P-0044-witness93",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "F-P-0044-relation_context-92",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "F-P-0044-relation_context-93",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "BIO-P-0044",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "BIO-P-0043",
+      "expectedVersion": 5
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "THEME-P-0043-SAM",
+      "expectedVersion": 3
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "THEME-P-0044-REL",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "THEME-P-0044-HAL",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "THEME-P-0044-SAM",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "RESEARCH-P-0044-9d76f0343410",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "CONTRACT-P-0042-PK-11",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "CONTRACT-P-0043-PK-11",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "CONTRACT-P-0044-PK-11",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "PATH-P-0042-KP-01",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "PATH-P-0043-KP-05",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "PATH-P-0044-KP-05",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "RESEARCH-P-0043-9d76f0343410",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "PATH-P-0044-KP-01",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "CONTRACT-P-0044-PK-05",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "CONTRACT-P-0044-PK-04",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1060-consequences-operation-v2.json",
+      "object": "R-f5f8416dc73115868c6b7c36",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v4-candidate-operation-v2.json",
+      "object": "AUDIT-T0775-C0035",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v4-candidate-operation-v2.json",
+      "object": "PATH-P-0043-KP-02",
+      "expectedVersion": 4
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v4-candidate-operation-v2.json",
+      "object": "AS-P-0044-A-3951",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v4-candidate-operation-v2.json",
+      "object": "KEY-P-0043-11de5469f2a3",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v4-candidate-operation-v2.json",
+      "object": "KEY-P-0044-744f6aca77bc",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v4-candidate-operation-v2.json",
+      "object": "KEY-P-0043-fd361cb404f9",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v4-candidate-operation-v2.json",
+      "object": "THEME-P-0043-ARB",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v6-operation-v1.json",
+      "object": "ADOPT-T0775-C0035-P-0009",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v6-operation-v1.json",
+      "object": "ADOPT-T0775-C0035-P-0042",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v6-operation-v1.json",
+      "object": "ADOPT-T0775-C0035-P-0043",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v6-operation-v1.json",
+      "object": "ADOPT-T0775-C0035-P-0045",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v6-operation-v1.json",
+      "object": "ADOPT-T0775-C0035-P-0046",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v6-operation-v1.json",
+      "object": "ADOPT-T0775-C0035-P-0047",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v6-operation-v1.json",
+      "object": "READ-8943cb15e71a654a7bbf66cd",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/group-copy-v6-operation-v1.json",
+      "object": "KEY-P-0044-744f6aca77bc",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/raw-place-v7-operation-v2.json",
+      "object": "BIO-P-0043",
+      "expectedVersion": 6
+    },
+    {
+      "operation": "evaluations/T-0778/raw-place-v7-operation-v2.json",
+      "object": "RESEARCH-P-0044-9d76f0343410",
+      "expectedVersion": 3
+    },
+    {
+      "operation": "evaluations/T-0778/maternal-boundary-v8-operation-v1.json",
+      "object": "BIO-P-0043",
+      "expectedVersion": 7
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-metadata-operation-v1.json",
+      "object": "R-33b612f0da2f3aa6fc2addc7",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-metadata-operation-v1.json",
+      "object": "R-c81e3c93931ef93d3beb7c4a",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "R-T0778-C1047-Astrid-family",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "TR-T0778-C1047-family-fullfields",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "AUDIT-T0778-C1047-family",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "TR-T0778-C1047-Sandberg-fullfields",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "AUDIT-T0778-C1047-Sandberg",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "TR-T0778-C1047-Astrid-fullfields",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "AUDIT-T0778-C1047-Astrid",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "ADOPT-T0778-C1047-P-0003",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "ADOPT-T0778-C1047-P-0042",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "ADOPT-T0778-C1047-P-0043",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "ADOPT-T0778-C1047-P-0047",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "M-T0778-C1047-Sandberg",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "M-T0778-C1047-Astrid-daughter",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-native-source-operation-v2.json",
+      "object": "M-T0778-C1047-Astrid-son",
+      "expectedVersion": null
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "READ-60cae76b5df58a0a53a72ca1",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "READ-96c6d6c5a5c464427e4caa5e",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "O-P-0003-C1047-reference",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "ADOPT-T0677-C0008-P-0003",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "CONTRACT-P-0047-PK-05",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "CONTRACT-P-0047-PK-08",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "CONTRACT-P-0047-PK-10",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "KEY-P-0047-043ef6fb3767",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "P-0047/Q-02",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "PATH-P-0047-KP-02",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "PATH-P-0047-KP-04",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "CONTRACT-P-0003-PK-05",
+      "expectedVersion": 4
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "CONTRACT-P-0003-PK-11",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "CONTRACT-P-0043-PK-11",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "PATH-P-0042-KP-01",
+      "expectedVersion": 3
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "PATH-P-0043-KP-05",
+      "expectedVersion": 2
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "PATH-P-0003-KP-03",
+      "expectedVersion": 4
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "PATH-P-0003-KP-07",
+      "expectedVersion": 5
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "O-P-0047-A-5747-family_transfers",
+      "expectedVersion": 1
+    },
+    {
+      "operation": "evaluations/T-0778/C1047-preparation/C1047-current-consequences-operation-v2.json",
+      "object": "THEME-P-0047-BO",
+      "expectedVersion": 2
+    }
+  ],
+  "finalized_at_utc": "2026-10-02T17:19:46.258263+00:00",
+  "observed_total_wall_seconds": 19354.814263,
+  "wall_time_note": "Includes ownerlogin waiting and concurrentwork. Active-only duration and root preworker time unknown. No summedagentwalltime/costsavings inference.",
+  "final_usage": {
+    "path": "evaluations/T-0778/usage-final-v3.json",
+    "sha256": "ee389b4c3f44257f1e22aa46898d59e0668fd1762c6e77ba8d9171fe83b1d09c"
+  },
+  "final_group_review": {
+    "path": "evaluations/T-0778/fresh-independent-review/G001-final-independent-PASS-v1.json",
+    "sha256": "81cbc79d44c3df9037e4ea4666b6b9776a24c3f2a0d72579214757df6321c13c"
+  },
+  "post_DONE_archive_validator": "PASS"
+}

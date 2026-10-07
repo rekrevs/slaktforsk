@@ -1,0 +1,587 @@
+{
+  "task": "T-0781",
+  "operation_pin": {
+    "path": "evaluations/T-0781/implementation/birth52-53-settled-three-drafts-v1/01-P0052-P0053-structured-birth-place-three-revisions-draft-operation-v1.json",
+    "sha256": "90153d1d11c5ea2f171d8f03194b4ec572296464291b953f995e87f3b596d8c2"
+  },
+  "source_spec_pin": {
+    "path": "evaluations/T-0781/source-review/P0052-P0053-structured-birth-place-three-revision-and-one-retain-decisions-v1.json",
+    "sha256": "dd4b20552b49851b3a55d040c34ef65ed6e76360888c0a8258bc0217e2f460ac"
+  },
+  "rows": [
+    {
+      "object_id": "E-birth-P-0052",
+      "complete_current": {
+        "id": "E-birth-P-0052@1",
+        "object_id": "E-birth-P-0052",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst.",
+        "previous_id": null,
+        "kind": "event",
+        "data": {
+          "revision_id": "E-birth-P-0052@1",
+          "event_type": "birth",
+          "date_json": "{\"literal\":\"1865-05-11\",\"precision\":\"exact\",\"value\":\"1865-05-11\"}",
+          "place_id": "PL-Bygdea",
+          "place_role": "place_of_event"
+        },
+        "origins": [
+          {
+            "revision_id": "E-birth-P-0052@1",
+            "unit_id": "1ebd5fe6d94df4eb7b3a98eb4f0bf6d929395e2af5e503b13312e3c3d537ec4c",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "E-birth-P-0052@1",
+            "unit_id": "049731f50372969472533373796d242c20b95ffa793dd1d1add5fa1b6c9aa7b9",
+            "coverage": "partial",
+            "note": "Syskonrelation inom det namngivna hushållet."
+          }
+        ],
+        "evidence": []
+      },
+      "old_API": {
+        "id": "E-birth-P-0052",
+        "kind": "event",
+        "expectedVersion": 1,
+        "data": {
+          "event_type": "birth",
+          "date_json": {
+            "literal": "1865-05-11",
+            "precision": "exact",
+            "value": "1865-05-11"
+          },
+          "place_id": "PL-Bygdea",
+          "place_role": "place_of_event"
+        },
+        "origins": [
+          {
+            "unit": "1ebd5fe6d94df4eb7b3a98eb4f0bf6d929395e2af5e503b13312e3c3d537ec4c",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "049731f50372969472533373796d242c20b95ffa793dd1d1add5fa1b6c9aa7b9",
+            "coverage": "partial",
+            "note": "Syskonrelation inom det namngivna hushållet."
+          }
+        ],
+        "evidence": [],
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst."
+      },
+      "new_API": {
+        "id": "E-birth-P-0052",
+        "kind": "event",
+        "expectedVersion": 1,
+        "data": {
+          "event_type": "birth",
+          "date_json": {
+            "literal": "1865-05-11",
+            "precision": "exact",
+            "value": "1865-05-11"
+          },
+          "place_id": "PL-Bygdea",
+          "place_role": "place_of_event"
+        },
+        "origins": [
+          {
+            "unit": "1ebd5fe6d94df4eb7b3a98eb4f0bf6d929395e2af5e503b13312e3c3d537ec4c",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "049731f50372969472533373796d242c20b95ffa793dd1d1add5fa1b6c9aa7b9",
+            "coverage": "partial",
+            "note": "Syskonrelation inom det namngivna hushållet."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-23a0a3adc573124b3fb1c938",
+            "version": 1,
+            "role": "supports",
+            "note": "Redan läst C0046 år1900: Catharina Johanna född1865 i Bygdeå. Stöd enbart för rapporterad födelseförsamling, inte dag/månad eller oberoende födelsepost."
+          },
+          {
+            "object": "TR-T0781-C0049-fullpost",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen födelseortscell blank; inget ditto. Samma källpost, ingen ny egen födelsenotis."
+          }
+        ],
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Datumet 1865-05-11 är uppgivet i senare hushållslängd. Hennes egna födelseortsceller i C-0049 och C-0044 är blanka och får inte fyllas med ditto. Bygdeå som normaliserad födelseförsamling behålls från det redan lästa C-0046: Catharina Johanna, född 1865 i Bygdeå, i Jomarks familj 1 år 1900. Detta är en senare rapporterad uppgift, inte en prövad egen födelsenotis eller garanterat oberoende registreringskedja. C-0072 ger ett separat senare hushållsankare men dess bevarade utdrag används inte som nytt födelseortsstöd. Egen födelsenotis är ännu inte läst."
+      },
+      "ordered_history_revision_ids": [
+        "E-birth-P-0052@1"
+      ],
+      "allhistory_incoming": [
+        {
+          "native_edge_rowid": 7799,
+          "revision_id": "EP-E-birth-P-0052-P-0052-principal@1",
+          "basis_revision_id": "E-birth-P-0052@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        }
+      ],
+      "source_explicit_incoming_dispositions": [
+        {
+          "input_pointer": "/rows/0/all_history_incoming/0",
+          "decision": "retain exact current EP52 and old E52@1 basis, as explicit retains row"
+        },
+        {
+          "input_pointer": "/rows/1/all_history_incoming/0",
+          "decision": "revise EP53 and exact ordered event edge to E53@2 as objects/2"
+        }
+      ],
+      "source_row_pointer": "/objects/0",
+      "exact_edits": [
+        {
+          "field": "caveat",
+          "old": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst.",
+          "new": "Datumet 1865-05-11 är uppgivet i senare hushållslängd. Hennes egna födelseortsceller i C-0049 och C-0044 är blanka och får inte fyllas med ditto. Bygdeå som normaliserad födelseförsamling behålls från det redan lästa C-0046: Catharina Johanna, född 1865 i Bygdeå, i Jomarks familj 1 år 1900. Detta är en senare rapporterad uppgift, inte en prövad egen födelsenotis eller garanterat oberoende registreringskedja. C-0072 ger ett separat senare hushållsankare men dess bevarade utdrag används inte som nytt födelseortsstöd. Egen födelsenotis är ännu inte läst."
+        }
+      ],
+      "explicit_ordered_rebinds": [],
+      "explicit_ordered_additions": [
+        {
+          "basis_revision_id": "R-23a0a3adc573124b3fb1c938@1",
+          "role": "supports",
+          "note": "Redan läst C0046 år1900: Catharina Johanna född1865 i Bygdeå. Stöd enbart för rapporterad födelseförsamling, inte dag/månad eller oberoende födelsepost."
+        },
+        {
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "Egen födelseortscell blank; inget ditto. Samma källpost, ingen ny egen födelsenotis."
+        }
+      ],
+      "retains": "All other full data fields, exact date_json, disposition accepted, evidence_status CORROBORATED, rationale, ordered origins and retained evidence are unchanged. No person/identity/review outcome revision. Null birthplace is not a negative geographical conclusion.",
+      "reason": "Datumet 1865-05-11 är uppgivet i senare hushållslängd. Hennes egna födelseortsceller i C-0049 och C-0044 är blanka och får inte fyllas med ditto. Bygdeå som normaliserad födelseförsamling behålls från det redan lästa C-0046: Catharina Johanna, född 1865 i Bygdeå, i Jomarks familj 1 år 1900. Detta är en senare rapporterad uppgift, inte en prövad egen födelsenotis eller garanterat oberoende registreringskedja. C-0072 ger ett separat senare hushållsankare men dess bevarade utdrag används inte som nytt födelseortsstöd. Egen födelsenotis är ännu inte läst.",
+      "oldfields_and_fullcurrent_exact": true,
+      "prior_draft_overlap": []
+    },
+    {
+      "object_id": "E-birth-P-0053",
+      "complete_current": {
+        "id": "E-birth-P-0053@1",
+        "object_id": "E-birth-P-0053",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst.",
+        "previous_id": null,
+        "kind": "event",
+        "data": {
+          "revision_id": "E-birth-P-0053@1",
+          "event_type": "birth",
+          "date_json": "{\"literal\":\"1871-09-28\",\"precision\":\"exact\",\"value\":\"1871-09-28\"}",
+          "place_id": "PL-Bygdea",
+          "place_role": "place_of_event"
+        },
+        "origins": [
+          {
+            "revision_id": "E-birth-P-0053@1",
+            "unit_id": "c533d0df0fa66b32f7175f8ba885fc14bc4579af20a382446c1880578ac905b9",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "E-birth-P-0053@1",
+            "unit_id": "c23ae0f38efe1a21112bc4a3578b7caf33d8473d061fd68da2d2feac57c00e98",
+            "coverage": "partial",
+            "note": "Mor → barn, återkommande hushålls- och födelsebelägg."
+          },
+          {
+            "revision_id": "E-birth-P-0053@1",
+            "unit_id": "f65b28ddadf1c597fb680299e842c863df01f6fb54aa7ac142e9357b8f4fe11e",
+            "coverage": "partial",
+            "note": "Syskonrelation inom det namngivna hushållet."
+          }
+        ],
+        "evidence": []
+      },
+      "old_API": {
+        "id": "E-birth-P-0053",
+        "kind": "event",
+        "expectedVersion": 1,
+        "data": {
+          "event_type": "birth",
+          "date_json": {
+            "literal": "1871-09-28",
+            "precision": "exact",
+            "value": "1871-09-28"
+          },
+          "place_id": "PL-Bygdea",
+          "place_role": "place_of_event"
+        },
+        "origins": [
+          {
+            "unit": "c533d0df0fa66b32f7175f8ba885fc14bc4579af20a382446c1880578ac905b9",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "c23ae0f38efe1a21112bc4a3578b7caf33d8473d061fd68da2d2feac57c00e98",
+            "coverage": "partial",
+            "note": "Mor → barn, återkommande hushålls- och födelsebelägg."
+          },
+          {
+            "unit": "f65b28ddadf1c597fb680299e842c863df01f6fb54aa7ac142e9357b8f4fe11e",
+            "coverage": "partial",
+            "note": "Syskonrelation inom det namngivna hushållet."
+          }
+        ],
+        "evidence": [],
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst."
+      },
+      "new_API": {
+        "id": "E-birth-P-0053",
+        "kind": "event",
+        "expectedVersion": 1,
+        "data": {
+          "event_type": "birth",
+          "date_json": {
+            "literal": "1871-09-28",
+            "precision": "exact",
+            "value": "1871-09-28"
+          },
+          "place_id": null,
+          "place_role": "place_of_event"
+        },
+        "origins": [
+          {
+            "unit": "c533d0df0fa66b32f7175f8ba885fc14bc4579af20a382446c1880578ac905b9",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "c23ae0f38efe1a21112bc4a3578b7caf33d8473d061fd68da2d2feac57c00e98",
+            "coverage": "partial",
+            "note": "Mor → barn, återkommande hushålls- och födelsebelägg."
+          },
+          {
+            "unit": "f65b28ddadf1c597fb680299e842c863df01f6fb54aa7ac142e9357b8f4fe11e",
+            "coverage": "partial",
+            "note": "Syskonrelation inom det namngivna hushållet."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "TR-T0781-C0049-fullpost",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen födelseortscell blank; inget ditto. Samma källpost, ingen ny egen födelsenotis."
+          }
+        ],
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Datumet 1871-09-28 är uppgivet i de senare hushållslängderna. Hennes egna födelseortsceller i C-0049 och C-0044 är blanka; den äldre normaliseringen till Bygdeå byggde uttryckligen på det nu underkända dittoantagandet. De andra befintliga ursprungsraderna ger familjeband och datum, inget separat födelseortsstöd. Födelseförsamlingen lämnas därför oavgjord (place_id null), inte motbevisad som Bygdeå. Detta ändrar inte födelsedatumet, personkopplingen eller de kvarvarande fältens tidigare bedömning. Egen födelsenotis är ännu inte läst; den avgränsade kontrollen ägs redan av T-0206."
+      },
+      "ordered_history_revision_ids": [
+        "E-birth-P-0053@1"
+      ],
+      "allhistory_incoming": [
+        {
+          "native_edge_rowid": 7804,
+          "revision_id": "EP-E-birth-P-0053-P-0053-principal@1",
+          "basis_revision_id": "E-birth-P-0053@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        }
+      ],
+      "source_explicit_incoming_dispositions": [
+        {
+          "input_pointer": "/rows/0/all_history_incoming/0",
+          "decision": "retain exact current EP52 and old E52@1 basis, as explicit retains row"
+        },
+        {
+          "input_pointer": "/rows/1/all_history_incoming/0",
+          "decision": "revise EP53 and exact ordered event edge to E53@2 as objects/2"
+        }
+      ],
+      "source_row_pointer": "/objects/1",
+      "exact_edits": [
+        {
+          "field": "data.place_id",
+          "old": "PL-Bygdea",
+          "new": null
+        },
+        {
+          "field": "caveat",
+          "old": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst.",
+          "new": "Datumet 1871-09-28 är uppgivet i de senare hushållslängderna. Hennes egna födelseortsceller i C-0049 och C-0044 är blanka; den äldre normaliseringen till Bygdeå byggde uttryckligen på det nu underkända dittoantagandet. De andra befintliga ursprungsraderna ger familjeband och datum, inget separat födelseortsstöd. Födelseförsamlingen lämnas därför oavgjord (place_id null), inte motbevisad som Bygdeå. Detta ändrar inte födelsedatumet, personkopplingen eller de kvarvarande fältens tidigare bedömning. Egen födelsenotis är ännu inte läst; den avgränsade kontrollen ägs redan av T-0206."
+        }
+      ],
+      "explicit_ordered_rebinds": [],
+      "explicit_ordered_additions": [
+        {
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "Egen födelseortscell blank; inget ditto. Samma källpost, ingen ny egen födelsenotis."
+        }
+      ],
+      "retains": "All other full data fields, exact date_json, disposition accepted, evidence_status CORROBORATED, rationale, ordered origins and retained evidence are unchanged. No person/identity/review outcome revision. Null birthplace is not a negative geographical conclusion.",
+      "reason": "Datumet 1871-09-28 är uppgivet i de senare hushållslängderna. Hennes egna födelseortsceller i C-0049 och C-0044 är blanka; den äldre normaliseringen till Bygdeå byggde uttryckligen på det nu underkända dittoantagandet. De andra befintliga ursprungsraderna ger familjeband och datum, inget separat födelseortsstöd. Födelseförsamlingen lämnas därför oavgjord (place_id null), inte motbevisad som Bygdeå. Detta ändrar inte födelsedatumet, personkopplingen eller de kvarvarande fältens tidigare bedömning. Egen födelsenotis är ännu inte läst; den avgränsade kontrollen ägs redan av T-0206.",
+      "oldfields_and_fullcurrent_exact": true,
+      "prior_draft_overlap": []
+    },
+    {
+      "object_id": "EP-E-birth-P-0053-P-0053-principal",
+      "complete_current": {
+        "id": "EP-E-birth-P-0053-P-0053-principal@1",
+        "object_id": "EP-E-birth-P-0053-P-0053-principal",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst.",
+        "previous_id": null,
+        "kind": "participation",
+        "data": {
+          "revision_id": "EP-E-birth-P-0053-P-0053-principal@1",
+          "event_id": "E-birth-P-0053",
+          "person_id": "P-0053",
+          "mention_id": null,
+          "role": "principal"
+        },
+        "origins": [
+          {
+            "revision_id": "EP-E-birth-P-0053-P-0053-principal@1",
+            "unit_id": "c533d0df0fa66b32f7175f8ba885fc14bc4579af20a382446c1880578ac905b9",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "EP-E-birth-P-0053-P-0053-principal@1",
+            "unit_id": "c23ae0f38efe1a21112bc4a3578b7caf33d8473d061fd68da2d2feac57c00e98",
+            "coverage": "partial",
+            "note": "Mor → barn, återkommande hushålls- och födelsebelägg."
+          },
+          {
+            "revision_id": "EP-E-birth-P-0053-P-0053-principal@1",
+            "unit_id": "f65b28ddadf1c597fb680299e842c863df01f6fb54aa7ac142e9357b8f4fe11e",
+            "coverage": "partial",
+            "note": "Syskonrelation inom det namngivna hushållet."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "EP-E-birth-P-0053-P-0053-principal@1",
+            "basis_revision_id": "E-birth-P-0053@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          }
+        ]
+      },
+      "old_API": {
+        "id": "EP-E-birth-P-0053-P-0053-principal",
+        "kind": "participation",
+        "expectedVersion": 1,
+        "data": {
+          "event_id": "E-birth-P-0053",
+          "person_id": "P-0053",
+          "mention_id": null,
+          "role": "principal"
+        },
+        "origins": [
+          {
+            "unit": "c533d0df0fa66b32f7175f8ba885fc14bc4579af20a382446c1880578ac905b9",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "c23ae0f38efe1a21112bc4a3578b7caf33d8473d061fd68da2d2feac57c00e98",
+            "coverage": "partial",
+            "note": "Mor → barn, återkommande hushålls- och födelsebelägg."
+          },
+          {
+            "unit": "f65b28ddadf1c597fb680299e842c863df01f6fb54aa7ac142e9357b8f4fe11e",
+            "coverage": "partial",
+            "note": "Syskonrelation inom det namngivna hushållet."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "E-birth-P-0053",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          }
+        ],
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst."
+      },
+      "new_API": {
+        "id": "EP-E-birth-P-0053-P-0053-principal",
+        "kind": "participation",
+        "expectedVersion": 1,
+        "data": {
+          "event_id": "E-birth-P-0053",
+          "person_id": "P-0053",
+          "mention_id": null,
+          "role": "principal"
+        },
+        "origins": [
+          {
+            "unit": "c533d0df0fa66b32f7175f8ba885fc14bc4579af20a382446c1880578ac905b9",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "c23ae0f38efe1a21112bc4a3578b7caf33d8473d061fd68da2d2feac57c00e98",
+            "coverage": "partial",
+            "note": "Mor → barn, återkommande hushålls- och födelsebelägg."
+          },
+          {
+            "unit": "f65b28ddadf1c597fb680299e842c863df01f6fb54aa7ac142e9357b8f4fe11e",
+            "coverage": "partial",
+            "note": "Syskonrelation inom det namngivna hushållet."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "E-birth-P-0053",
+            "version": 2,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          },
+          {
+            "object": "TR-T0781-C0049-fullpost",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen födelseortscell blank; inget ditto. Samma källpost, ingen ny egen födelsenotis."
+          }
+        ],
+        "disposition": "accepted",
+        "evidenceStatus": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Datumet 1871-09-28 är uppgivet i de senare hushållslängderna. Hennes egna födelseortsceller i C-0049 och C-0044 är blanka; den äldre normaliseringen till Bygdeå byggde uttryckligen på det nu underkända dittoantagandet. De andra befintliga ursprungsraderna ger familjeband och datum, inget separat födelseortsstöd. Födelseförsamlingen lämnas därför oavgjord (place_id null), inte motbevisad som Bygdeå. Detta ändrar inte födelsedatumet, personkopplingen eller de kvarvarande fältens tidigare bedömning. Egen födelsenotis är ännu inte läst; den avgränsade kontrollen ägs redan av T-0206."
+      },
+      "ordered_history_revision_ids": [
+        "EP-E-birth-P-0053-P-0053-principal@1"
+      ],
+      "allhistory_incoming": [],
+      "source_explicit_incoming_dispositions": [
+        {
+          "input_pointer": "/rows/0/all_history_incoming/0",
+          "decision": "retain exact current EP52 and old E52@1 basis, as explicit retains row"
+        },
+        {
+          "input_pointer": "/rows/1/all_history_incoming/0",
+          "decision": "revise EP53 and exact ordered event edge to E53@2 as objects/2"
+        }
+      ],
+      "source_row_pointer": "/objects/2",
+      "exact_edits": [
+        {
+          "field": "caveat",
+          "old": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst.",
+          "new": "Datumet 1871-09-28 är uppgivet i de senare hushållslängderna. Hennes egna födelseortsceller i C-0049 och C-0044 är blanka; den äldre normaliseringen till Bygdeå byggde uttryckligen på det nu underkända dittoantagandet. De andra befintliga ursprungsraderna ger familjeband och datum, inget separat födelseortsstöd. Födelseförsamlingen lämnas därför oavgjord (place_id null), inte motbevisad som Bygdeå. Detta ändrar inte födelsedatumet, personkopplingen eller de kvarvarande fältens tidigare bedömning. Egen födelsenotis är ännu inte läst; den avgränsade kontrollen ägs redan av T-0206."
+        }
+      ],
+      "explicit_ordered_rebinds": [
+        {
+          "old_basis_revision_id": "E-birth-P-0053@1",
+          "new_basis_revision_id": "E-birth-P-0053@2",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id",
+          "ordered_index": 0,
+          "reason": "Same accepted principal and date; explicitly point current participation at corrected current event with unresolved birthplace, not superseded false-dittobasis."
+        }
+      ],
+      "explicit_ordered_additions": [
+        {
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "Egen födelseortscell blank; inget ditto. Samma källpost, ingen ny egen födelsenotis."
+        }
+      ],
+      "retains": "All other full data fields, exact date_json, disposition accepted, evidence_status CORROBORATED, rationale, ordered origins and retained evidence are unchanged. No person/identity/review outcome revision. Null birthplace is not a negative geographical conclusion.",
+      "reason": "Datumet 1871-09-28 är uppgivet i de senare hushållslängderna. Hennes egna födelseortsceller i C-0049 och C-0044 är blanka; den äldre normaliseringen till Bygdeå byggde uttryckligen på det nu underkända dittoantagandet. De andra befintliga ursprungsraderna ger familjeband och datum, inget separat födelseortsstöd. Födelseförsamlingen lämnas därför oavgjord (place_id null), inte motbevisad som Bygdeå. Detta ändrar inte födelsedatumet, personkopplingen eller de kvarvarande fältens tidigare bedömning. Egen födelsenotis är ännu inte läst; den avgränsade kontrollen ägs redan av T-0206.",
+      "oldfields_and_fullcurrent_exact": true,
+      "prior_draft_overlap": []
+    }
+  ],
+  "retains": [
+    {
+      "full_current": {
+        "id": "EP-E-birth-P-0052-P-0052-principal@1",
+        "object_id": "EP-E-birth-P-0052-P-0052-principal",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Uppgivet i senare hushållslängd. Egen födelsenotis är ännu inte läst.",
+        "previous_id": null,
+        "kind": "participation",
+        "data": {
+          "revision_id": "EP-E-birth-P-0052-P-0052-principal@1",
+          "event_id": "E-birth-P-0052",
+          "person_id": "P-0052",
+          "mention_id": null,
+          "role": "principal"
+        },
+        "origins": [
+          {
+            "revision_id": "EP-E-birth-P-0052-P-0052-principal@1",
+            "unit_id": "1ebd5fe6d94df4eb7b3a98eb4f0bf6d929395e2af5e503b13312e3c3d537ec4c",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "EP-E-birth-P-0052-P-0052-principal@1",
+            "unit_id": "049731f50372969472533373796d242c20b95ffa793dd1d1add5fa1b6c9aa7b9",
+            "coverage": "partial",
+            "note": "Syskonrelation inom det namngivna hushållet."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "EP-E-birth-P-0052-P-0052-principal@1",
+            "basis_revision_id": "E-birth-P-0052@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          }
+        ]
+      },
+      "source_disposition": {
+        "current_revision_id": "EP-E-birth-P-0052-P-0052-principal@1",
+        "decision": "retain_entire_current_and_old_basis",
+        "basis_revision_id": "E-birth-P-0052@1",
+        "reason": "Principal/date/normalised birthplace unchanged. Its existing caveat is true of the date and keeps own birthpost unread. Source-attribution clarification of E52 adds no changed principal premise; old event basis may remain, no automatic rebind."
+      }
+    }
+  ],
+  "source_execution_order": [
+    "E-birth-P-0052@2",
+    "E-birth-P-0053@2",
+    "EP-E-birth-P-0053-P-0053-principal@2"
+  ],
+  "scope_grade_not_inferred": true,
+  "main425_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "efea4dfa8feec3f2f5bff8167792b01513ebb5689d9d2ec5278983a23ca208b3"
+  },
+  "stage": "UNRUN",
+  "canonical_apply": "UNRUN"
+}

@@ -1,0 +1,317 @@
+{
+  "schema": "task-work-measurement/1",
+  "task": "T-0677",
+  "owner_request": "Kör två poster till så ger jag dig en ny mätning.",
+  "started_at_utc": "2026-09-30T18:38:35Z",
+  "stop_after_completed_post_scopes": 2,
+  "baseline": {
+    "journal_sequence": 215,
+    "pending": 0,
+    "g001_completed": 16,
+    "previous_measurement": "genealogy2/verification/T-0677/work-measurement-20260930.json",
+    "previous_measurement_sha256": "3977497562126e79da787269cb56013bbf8b2cad04310d5a8d78e61d7cf8bdb2",
+    "prior_owner_reported_weekly_budget_percentage_points": 11,
+    "already_prepared": "C0007 documentary class review,19primary dispositions,draftspec,and fullperson/impact snapshots already prepared before this pass. Completion may use prior work but these readings are not counted as newly performed.",
+    "start_precision": "Clock checkpoint after brief instruction/resumption reads; owner budget reading may include this small setup interval."
+  },
+  "token_usage": {
+    "value": null,
+    "source": "Await owner budget observation; no measured token total."
+  },
+  "events": [
+    {
+      "at_utc": "2026-09-30T18:46:02.832524+00:00",
+      "category": "canonical_application",
+      "post": "C-0007",
+      "journal_sequences": [
+        216,
+        217
+      ],
+      "object_ids": [
+        "AUDIT-T0677-C0007",
+        "ADOPT-T0677-C0007-P-0003",
+        "ADOPT-T0677-C0007-P-0042",
+        "ADOPT-T0677-C0007-P-0043"
+      ],
+      "new_objects": 4,
+      "revisions": 0,
+      "pending": 0,
+      "validators": "verify/verify-assets/verify-source PASS",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0007-canonical-implementation-receipt-20260930.json",
+          "sha256": "a524cb5ef2fa6d64712991b6be0f12bc48a840913d293f9375a89be18e06d9e9"
+        }
+      ],
+      "rework": "First preflight stopped before mutation because approval used repository paths; executor now supports both approved path formats."
+    },
+    {
+      "at_utc": "2026-09-30T18:46:44.399360+00:00",
+      "category": "post_completion",
+      "post": "C-0007",
+      "elapsed_from_pass_start_seconds": 489,
+      "result": "Prior prepared documentary review now independently accepted, applied and verified;4newobjects,0revisions,newvisualfields0,newrawO0,priorerrors0.",
+      "prepass_primary_dispositions_finally_accepted": 19,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0007-astra-completion-20260930.json",
+          "sha256": "ffd664ab0bca0210ca78418f90577f19e5e0268e03bfe35318fc6b75ea98597a"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T18:48:03.939603+00:00",
+      "category": "preparation",
+      "post": "C-0009",
+      "planned_new_person_cells": 177,
+      "planned_new_total_cells": 7,
+      "whole_person_cell_reuse_candidates": 5,
+      "prior_total_cell_reuse_candidates": 3,
+      "result": "Fixed source context:13persons×14logicalcolumns,plus totals. No accepted field completion credited yet."
+    },
+    {
+      "at_utc": "2026-09-30T18:53:50Z",
+      "category": "source_comparison",
+      "post": "C-0009",
+      "newly_controlled_fields": 184,
+      "compared_new_fields": 184,
+      "documentary_reuse_fields": 8,
+      "breakdown": {
+        "new_person_cells": 177,
+        "new_total_cells": 7,
+        "whole_person_reuse": 5,
+        "total_reuse": 3
+      },
+      "prior_family_control_rows_reused_separately": 5,
+      "new_canonical_errors_from_draft_precisions": 0,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0009-source-comparison-acceptance-20260930.json",
+          "sha256": "9b149adb62f02848d08cb9c3da4f99a26e45213fb62a3534e05bebaff8f1590b"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T19:07:12.549385+00:00",
+      "category": "consequence_review",
+      "post": "C-0009",
+      "current_relevant_ids": [
+        "ASSESSMENT-P-0008",
+        "CONTRACT-P-0008-PK-01",
+        "CONTRACT-P-0008-PK-02",
+        "CONTRACT-P-0008-PK-05",
+        "CONTRACT-P-0008-PK-06",
+        "CONTRACT-P-0008-PK-07",
+        "CONTRACT-P-0008-PK-09",
+        "CONTRACT-P-0008-PK-10",
+        "CONTRACT-P-0008-PK-11",
+        "CONTRACT-P-0008-PK-12",
+        "E-birth-P-0008",
+        "EP-E-birth-P-0008-P-0008-principal",
+        "F-P-0008-name_form-census1910",
+        "F-P-0008-occupation-1910",
+        "F-P-0008-religious_practice-communion-by1910",
+        "F-P-0008-residence-1910",
+        "ID-P-0008-census1910",
+        "KEY-P-0008-09b172f8d8ab",
+        "KEY-P-0008-74601ef878e3",
+        "KEY-P-0008-83b0cd6ba176",
+        "KEY-P-0008-aee2a093ab15",
+        "KEY-P-0008-bed1ea006297",
+        "KEY-P-0008-c0fd98abd561",
+        "KEY-P-0008-ec3fc215944a",
+        "M-P-0008-census1910",
+        "O-P-0008-birth-parish",
+        "O-P-0008-birth-year",
+        "O-P-0008-civil-sex",
+        "O-P-0008-communion-controls",
+        "O-P-0008-communion-raw",
+        "O-P-0008-document-provenance",
+        "O-P-0008-health-empty",
+        "O-P-0008-occupation-number",
+        "O-P-0008-religion-empty",
+        "O-P-0008-staff-context",
+        "R-0c3dc0eae6e6f4f7a3ccf691",
+        "R-9fcd6c77fb3fbdc8a110e24b",
+        "R-C0009-Strangnas1910-page13-context",
+        "READ-d83a5457964a8889994b02ac",
+        "READ-ed46803e67de086538b6a116",
+        "THEME-P-0008-ARB",
+        "THEME-P-0008-BO",
+        "THEME-P-0008-EKO",
+        "THEME-P-0008-HAL",
+        "THEME-P-0008-ID",
+        "THEME-P-0008-MIL",
+        "THEME-P-0008-PER",
+        "THEME-P-0008-SAM",
+        "CONTRACT-P-0008-PK-03",
+        "CONTRACT-P-0008-PK-04",
+        "CONTRACT-P-0008-PK-08",
+        "IMPORT-P-0008",
+        "KEY-P-0008-2d0dcc5dc61f",
+        "P-0008/Q-01",
+        "P-0008/Q-02",
+        "P-0008/Q-03",
+        "PATH-P-0008-KP-01",
+        "PATH-P-0008-KP-02",
+        "PATH-P-0008-KP-03",
+        "RESEARCH-P-0008-9d76f0343410",
+        "THEME-P-0008-REL",
+        "THEME-P-0008-SYN",
+        "BIO-P-0008",
+        "REL-parent-P-0008-P-0003",
+        "IDRES-P-0008-P-0009"
+      ],
+      "current_relevant_objects": 65,
+      "partition": {
+        "revise": 40,
+        "retain": 25
+      },
+      "substantive_corrections": 6,
+      "substantive_correction_breakdown": {
+        "direct_previous_errors": 3,
+        "unsupported_conclusions_qualified": 3
+      },
+      "method_prose_precisions": 3,
+      "research_status_updates": 1,
+      "status_update_copies": 39,
+      "new_raw_observations": 1,
+      "canonical_applied": false,
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0009-impact-individual-dispositions-draft-20260930.json",
+          "sha256": "4416a9b86c05da419ea171b717c32fabc589996240b44acbcff7741e6ddc4e34"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T19:08:07.868098+00:00",
+      "category": "canonical_application",
+      "post": "C-0009",
+      "journal_sequences": [
+        218,
+        219
+      ],
+      "object_ids": [
+        "TR-T0677-C0009-Ottilia-control",
+        "TR-T0677-C0009-page-context-control",
+        "O-T0677-C0009-staff-count",
+        "O-P-0008-health-empty",
+        "AUDIT-T0677-C0009-context",
+        "AUDIT-T0677-C0009",
+        "ASSESSMENT-P-0008",
+        "CONTRACT-P-0008-PK-01",
+        "CONTRACT-P-0008-PK-02",
+        "CONTRACT-P-0008-PK-03",
+        "CONTRACT-P-0008-PK-04",
+        "CONTRACT-P-0008-PK-05",
+        "CONTRACT-P-0008-PK-06",
+        "CONTRACT-P-0008-PK-07",
+        "CONTRACT-P-0008-PK-08",
+        "CONTRACT-P-0008-PK-09",
+        "CONTRACT-P-0008-PK-10",
+        "CONTRACT-P-0008-PK-11",
+        "CONTRACT-P-0008-PK-12",
+        "KEY-P-0008-09b172f8d8ab",
+        "KEY-P-0008-2d0dcc5dc61f",
+        "KEY-P-0008-74601ef878e3",
+        "KEY-P-0008-83b0cd6ba176",
+        "KEY-P-0008-aee2a093ab15",
+        "KEY-P-0008-bed1ea006297",
+        "KEY-P-0008-c0fd98abd561",
+        "KEY-P-0008-ec3fc215944a",
+        "P-0008/Q-01",
+        "P-0008/Q-02",
+        "P-0008/Q-03",
+        "PATH-P-0008-KP-01",
+        "PATH-P-0008-KP-02",
+        "PATH-P-0008-KP-03",
+        "RESEARCH-P-0008-9d76f0343410",
+        "THEME-P-0008-ARB",
+        "THEME-P-0008-BO",
+        "THEME-P-0008-EKO",
+        "THEME-P-0008-HAL",
+        "THEME-P-0008-ID",
+        "THEME-P-0008-MIL",
+        "THEME-P-0008-PER",
+        "THEME-P-0008-REL",
+        "THEME-P-0008-SAM",
+        "THEME-P-0008-SYN",
+        "BIO-P-0008",
+        "ADOPT-T0677-C0009-P-0008",
+        "ADOPT-T0677-C0009-P-0003",
+        "ADOPT-T0677-C0009-P-0009"
+      ],
+      "new_objects": 8,
+      "revisions": 40,
+      "pending": 0,
+      "validators": "verify/verify-assets/verify-source PASS",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0009-canonical-implementation-receipt-20260930.json",
+          "sha256": "d3796b2394a968b7c1c9257af7ae3bf46a727346b1b43e2aff9ddf425064aaa4"
+        }
+      ]
+    },
+    {
+      "at_utc": "2026-09-30T19:09:02.711560+00:00",
+      "category": "post_completion",
+      "post": "C-0009",
+      "elapsed_from_pass_start_seconds": 1827,
+      "result": "Second and final scope accepted;48canonicalobjects verified,pending0,3validatorsPASS.",
+      "evidence": [
+        {
+          "path": "genealogy2/verification/T-0677/c0009-astra-completion-20260930.json",
+          "sha256": "53a6d0a5998e8cd9279ca84fe1c139901ae621b6dd714a1482b651d069a0a6e7"
+        }
+      ]
+    }
+  ],
+  "latest_totals": {
+    "completed_post_scopes": 2,
+    "newly_controlled_fields": 184,
+    "documentary_reuse_fields": 8,
+    "substantive_corrections": 6,
+    "canonical_objects_created_or_revised": 52,
+    "canonical_change_entries": 52,
+    "dependency_requests_resolved": 0,
+    "prepass_primary_dispositions_finally_accepted": 19,
+    "compared_new_fields": 184,
+    "consequence_objects_reviewed": 65,
+    "method_prose_precisions": 3,
+    "research_status_updates": 1,
+    "new_raw_observations": 1,
+    "new_canonical_objects": 12,
+    "revised_canonical_objects": 40
+  },
+  "limitations": [
+    "Source scopes vary in difficulty and earlier preparation; this two-post pass starts with a prepared first post.",
+    "Copies of one error count as one correction; object revisions are separate implementation output."
+  ],
+  "latest_checkpoint_utc": "2026-09-30T19:09:02.711560+00:00",
+  "ended_at_utc": "2026-09-30T19:09:02.711560+00:00",
+  "elapsed_wall_seconds": 1827,
+  "state": "COMPLETED_TWO_POST_CAP_STOPPED_AWAITING_OWNER_USAGE",
+  "journal_end": 219,
+  "g001_completed_end": 18,
+  "verification": {
+    "verify": "PASS",
+    "verify-assets": "PASS",
+    "verify-source": "PASS",
+    "git_diff_check": "PASS",
+    "pending_reviews": 0
+  },
+  "owner_reported_pass_budget_usage": {
+    "reported_at_utc": "2026-09-30T20:03:02.641386+00:00",
+    "weekly_budget_percent_before": 11,
+    "weekly_budget_percent_after": 14,
+    "delta_percentage_points": 3,
+    "source": "Owner report after completed two-post pass",
+    "average_percentage_points_per_completed_post": 1.5,
+    "limitations": [
+      "Displayed percentages may be rounded.",
+      "C0007 included substantial preparation from the earlier pass.",
+      "Weekly budget percentage is not an observed token count."
+    ]
+  }
+}

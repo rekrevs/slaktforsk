@@ -1,0 +1,353 @@
+{
+  "case": "A",
+  "state": "material_responses_required_before_candidate_lock",
+  "independent_first_freeze": "A-initial-SHA256SUMS",
+  "primary_claims_reviewed": [
+    "A-001",
+    "A-002",
+    "A-003",
+    "A-004",
+    "A-005",
+    "A-006",
+    "A-007",
+    "A-008",
+    "A-009",
+    "A-010",
+    "A-011",
+    "A-012",
+    "A-013",
+    "A-014",
+    "A-015",
+    "A-016",
+    "A-017",
+    "A-018",
+    "A-019",
+    "A-020",
+    "A-021",
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-025",
+    "A-026",
+    "A-027",
+    "A-028",
+    "A-029",
+    "A-030",
+    "A-031",
+    "A-032",
+    "A-033",
+    "A-034",
+    "A-035",
+    "A-036",
+    "A-037",
+    "A-038",
+    "A-039",
+    "A-040",
+    "A-041",
+    "A-042",
+    "A-043",
+    "A-044",
+    "A-045",
+    "A-046",
+    "A-047",
+    "A-048",
+    "A-049",
+    "A-050",
+    "A-051",
+    "A-052",
+    "A-053",
+    "A-054",
+    "A-055",
+    "A-056",
+    "A-057",
+    "A-058",
+    "A-059",
+    "A-060",
+    "A-061",
+    "A-062",
+    "A-063",
+    "A-064",
+    "A-065",
+    "A-066",
+    "A-067",
+    "A-068",
+    "A-069",
+    "A-070",
+    "A-071",
+    "A-072",
+    "A-073",
+    "A-074",
+    "A-075",
+    "A-076",
+    "A-077",
+    "A-078"
+  ],
+  "primary_batches_read": "001–013, eachcomplete anduntruncated; fullprimarychangeplan broad dumpwastruncated andnotcounted. All17changeobjects inspected separately: newsourceequalmatrix,3newadoptionscomplete,13existingdata-diffscomplete; exactmetadata preservationchecked separately.",
+  "primary_plan_sha256_at_review": "8a481cb07ff9037b645fa0c4b033b512f56a46e705cba3556a50c90e078a927e",
+  "logical_units": [
+    {
+      "unit": "A-audit-01",
+      "findings": [
+        {
+          "id": "A-RF01",
+          "object": "KEY-P-0007-bf37119ff18f@1",
+          "field": "body",
+          "start": 180,
+          "end": 217,
+          "quote": "Säker; datumet upprepas i sju poster.",
+          "severity": "material",
+          "primary_claims": [
+            "A-071",
+            "A-047"
+          ],
+          "independent_claim": "A-R035",
+          "issue": "A-071 reviews the first key cell but leaves its present precision assertion unreviewed/unchanged. C0019 explicitly has onlyyear; A nr15 no printedyear. Sevencorrelatedposts are not seven full-date reproductions.",
+          "recommendation": "Qualify the key finalcell: establishedexactevent retained; seven correlatedposts include year-onlyC0019 and dependentSCBday/month with locator1920.",
+          "state": "response_required_before_candidate_lock"
+        },
+        {
+          "id": "A-RF02",
+          "object": "BIO-P-0007@6",
+          "field": "markdown",
+          "start": 1212,
+          "end": 1273,
+          "quote": "Hennes egen bokföring mellan födelsen och 1929 är inte följd.",
+          "severity": "material",
+          "primary_claims": [
+            "A-007"
+          ],
+          "independent_claim": "A-R025",
+          "issue": "The planned firstparagraph correction does not change this separate secondparagraph currentcopy, leaving a whole-periodnot-followed assertion alongside already read initial1920ownrow.",
+          "recommendation": "Replace by initialown1920row alreadylocated; the subsequentchain to1929 remains incompletelyfollowed.",
+          "state": "response_required_before_candidate_lock"
+        },
+        {
+          "id": "A-RF03",
+          "object": "BIO-P-0016@1",
+          "field": "markdown",
+          "start": 1000,
+          "end": 1049,
+          "quote": "Maken dog av lungsot i Helgesta den 11 mars 1913.",
+          "severity": "material",
+          "primary_claims": [
+            "A-031"
+          ],
+          "independent_claim": "A-R041",
+          "issue": "PrimaryA-031 says preserve4/3conflict, but neither its affectedBIOcopy nor changeplan qualifies this exactday prose. Main11March maystay; currentwording shouldnot hide knownraw4March.",
+          "recommendation": "Preserve main11March and existingdeathcontext; append explicit unresolvedC0919raw13⁴/₃ reservation or exactlinked qualifiedfact.",
+          "state": "response_required_before_candidate_lock"
+        },
+        {
+          "id": "A-RF04",
+          "object": "KEY-P-0007-5c939ee32973@2",
+          "field": "body",
+          "start": 32,
+          "end": 53,
+          "quote": "änka sedan 1913-03-11",
+          "severity": "material",
+          "primary_claims": [
+            "A-072",
+            "A-031"
+          ],
+          "independent_claim": "A-R066",
+          "issue": "A-072 chooses unchanged and mentions conflictonlyin grounds. The currentcopiedexactday remainsunqualified. SourceA has no widowday to adjudicate it.",
+          "recommendation": "Qualify main11March with already preservedraw4March conflict in the keyitself, not onlythe reviewmemo.",
+          "state": "response_required_before_candidate_lock"
+        },
+        {
+          "id": "A-RF05",
+          "object": "KEY-P-0007-5c939ee32973@2",
+          "field": "body",
+          "start": 485,
+          "end": 535,
+          "quote": "Säkra; moderns änkedatum binder henne till P-0532.",
+          "severity": "material",
+          "primary_claims": [
+            "A-072"
+          ],
+          "independent_claim": "A-R067",
+          "issue": "This additional finalcell labels date-basedkey certain without its pre-existing dayreservation; A-072 excludes this quotedcell.",
+          "recommendation": "Keep acceptedwidow/spouseidentity but qualify exactwidowday and existingC0919rawvariant; do not reopen establishedspouseidentity.",
+          "state": "response_required_before_candidate_lock"
+        },
+        {
+          "id": "A-RF06",
+          "object": "RESEARCH-P-0015-9d76f0343410@2",
+          "field": "body",
+          "start": 4617,
+          "end": 4715,
+          "quote": "Ingen sakuppgift är osäker och ingen\nkälla är oläst; det som fattas är två nedladdningar med hash.",
+          "severity": "material",
+          "primary_claims": [
+            "A-038",
+            "A-035"
+          ],
+          "independent_claim": "A-R043",
+          "issue": "A-038 updates the historical adoptionrule for deliveryprecision only, while this explicitly adoptedglobalcertainty/unread assertion remains. CurrentQ01/REL says recognitionact and ownwife deathpost areunread; sourceA has realrawreservations.",
+          "recommendation": "Retain acceptedidentity; qualify currenthistoricaladoptionrule so globalclaim is superseded for actualunread/openitems and newSCB reservations. Do not pretend oldhistoricalfiles had been newlyread.",
+          "state": "response_required_before_candidate_lock"
+        }
+      ]
+    },
+    {
+      "unit": "A-audit-02",
+      "findings": [
+        {
+          "id": "A-RF07",
+          "object": "RESEARCH-P-0015-9d76f0343410@2",
+          "field": "body",
+          "start": 4793,
+          "end": 4848,
+          "quote": "och därför\nfaller spärren så snart filerna är bevarade.",
+          "severity": "material",
+          "primary_claims": [
+            "A-035",
+            "A-038"
+          ],
+          "independent_claim": "A-R044",
+          "issue": "This adoptedautomaticgate-lift clause conflicts with currentprefix noPKpromotion and remaining actualown-source/interpretation debts. A filepreservation outcome is not fullidentityapproval.",
+          "recommendation": "Currentadoptionrule must explicitly supersede automaticlifting; existingAVVAKTAR stays until explicitremainingPKreview.",
+          "state": "response_required_before_candidate_lock"
+        },
+        {
+          "id": "A-RF08",
+          "object": "P-0016/Q-04@1",
+          "field": "body",
+          "start": 243,
+          "end": 275,
+          "quote": "C-0028 moderskap 1920 i Hyltinge",
+          "severity": "material",
+          "primary_claims": [
+            "A-007",
+            "A-056",
+            "A-058"
+          ],
+          "independent_claim": "A-R045",
+          "issue": "Mothercurrentknownunderlag still lists only birthparent1920anchor. Existingownhousehold13r13–16 is materialolderknowledge for this exact1913–1929 householdquestion. PrimaryP15/P7consolidation doesnot propagateinto thiscopy.",
+          "recommendation": "Add knownC0919own1920householdanchor; keep continuityquestionopen and fatherdeparture distinct.",
+          "state": "response_required_before_candidate_lock"
+        },
+        {
+          "id": "A-RF09",
+          "object": "PATH-P-0016-KP-01@1",
+          "field": "body",
+          "start": 918,
+          "end": 947,
+          "quote": "C-0919 två fol 16 utan henne.",
+          "severity": "material",
+          "primary_claims": [
+            "A-007",
+            "A-059"
+          ],
+          "independent_claim": "A-R046",
+          "issue": "Actualtwo localnegativeprobes canstay but currentpath offers no positivealreadylocatedown1920household afterthem. This is an affectedcurrentcopy of the sameabsenceproblem, not a newlifetimeaudit.",
+          "recommendation": "Add explicitoldrad16correction/positive13r13–16 and retain tests onlyas boundedsearchhistory, with continuous1913–29bridgeunfinished.",
+          "state": "response_required_before_candidate_lock"
+        },
+        {
+          "id": "A-RF10",
+          "object": "KEY-P-0016-7188e33f657e@1",
+          "field": "body",
+          "start": 394,
+          "end": 485,
+          "quote": "Egen hushållsbrygga 1913–1929 återstår; Axel Edvards utflyttning 1920 är inte hennes datum.",
+          "severity": "material",
+          "primary_claims": [
+            "A-007",
+            "A-059"
+          ],
+          "independent_claim": "A-R047",
+          "issue": "This samehouseholdbridge searchkey omitsknown own1920anchor. Scope canremainopen but keyshouldreuse sufficientoldknowledge ratherthan leavefalseabsence impression.",
+          "recommendation": "Add own1920household13r13–16 asknownanchor; preserve existingfatherdate non-transferand subsequentbridgegap.",
+          "state": "response_required_before_candidate_lock"
+        }
+      ]
+    }
+  ],
+  "integration_findings": [
+    {
+      "id": "A-RI01",
+      "target": "BIO-P-0015 plannedfirstparagraph",
+      "issue": "SubstringreplacementA-037 leaves \"fysisk förlossningsplats, som tredje barnet till...\": parentageclause now attaches toplace. My initialfragmentproposal has the sameintegrationrisk.",
+      "recommendation": "Rewrite the complete firstsentence, retaining accepteddate/parish andparentage, then state Svartgjölstorp asparentalresidence in a separate sentence. Do not alter thirdchildclaim without its own grounds."
+    },
+    {
+      "id": "A-RI02",
+      "target": "new ADOPT-T0774-A-P-* evidence arrays",
+      "issue": "Allthree have onlynewSCBtranscription andC0028context, while bodies assert reuse of C0919ownhousehold/recognition, own1881/1877birthchains,1930occupation andwidowdayconflict. This makes materially reused exactoldergrounds invisible in theadoptionevidence graph.",
+      "recommendation": "Add exactexisting versions ascontext/support where used: O-P-0007-located-own-row@1 orR-88c4d51debd66f79529f0e5b@1 for ownrow/recognition; E-birth-P-0015@1/R-1373b148c368836c5dbb5db3@1, ownoccupationfacts for1918/1930; O-C0075-birth@1/F-P-0016-name_form-adult@1/F-P-0016-civil_status-widow1913@1/O-P-0016-widow-row13-variant@1 for mother. All are olderinformation, not newvoices."
+    },
+    {
+      "id": "A-RI03",
+      "target": "primarybatch005 A-027",
+      "issue": "One quote bundles five separatedatedoccupationclaims, addressinterpretation and continuityinference; combinedwith otherfive entries this is more than six actualindividuallyquotedclaims, despite six JSONitems.",
+      "recommendation": "Split the relevant1920occupation/address andcontinuityclaims intoatomicboundeditems, route unrelated1902/1904/1910occupations to existingcontext unless individuallyneeded; rebatch <=6 claims."
+    },
+    {
+      "id": "A-RI04",
+      "target": "primary structuredfield quotes A-019/020/021/031/041/061/062",
+      "issue": "Semantically correct JSONserialization but check-claim-quotes.py expects objectvalue orquoted_value; these seven failits exactstructuredcomparison.",
+      "recommendation": "Add quoted_value equaltoactualstructuredfield; do not change the acceptedfactualvalues."
+    },
+    {
+      "id": "A-RI05",
+      "target": "TR-ae7cd3c73bd5f249a12a0501 plannedreading_note",
+      "issue": "Actualsubstring integration ends1881-03-20.. with duplicatefullstop. Rawfatherdate summary favors3 butfullmatrix mustcontinuepreserving weakmonth5alternative.",
+      "recommendation": "Fix punctuation and retain explicitlink to fullrawmatrix/weakmonthalternative; no newdatecertainty."
+    }
+  ],
+  "accepted_primary_additions_and_own_initial_gaps": [
+    {
+      "object": "KEY-P-0007-920781c16092@1",
+      "primary": "A-008",
+      "response": "Accepted revision: keywrongfol16no-throughroute contradicted by existingrad16ownhousehold. Initialscreenmissed key because oldquery omittedfol16 concepts; frozeninventory retained asinitial, not retroactively enlarged."
+    },
+    {
+      "object": "KEY-P-0007-885be7eb93c0@1",
+      "primary": "A-044",
+      "response": "Accepted qualification ofexclusivechildhoodentry; owninitialrow isknown. Exactwholebody reread fromj227 afterpeer."
+    },
+    {
+      "object": "ASSESSMENT-P-0007@2",
+      "primary": "A-018",
+      "response": "Accepted timelinecopycorrection. My initialgatekeep did notindividuallyreview its unlocalizedtimelinephrase, so this is a realinitialcoveragegap."
+    },
+    {
+      "object": "CONTRACT-P-0015-PK-10@1",
+      "primary": "A-078",
+      "response": "Accepted boundedqualification ofpreviousconsolidationstatement; preserveslegacySTYRKT anddoesnotmake newfullcontractpass. Exactwholebaselinebody reread."
+    },
+    {
+      "object": "CONTRACT-P-0007-PK-09@1",
+      "primary": "A-016",
+      "response": "Accepted individualkeep for parentnamingversusparishrecognition; othercontractthemes outsideA remainseparate."
+    },
+    {
+      "object": "CONTRACT-P-0015-PK-01@1",
+      "primary": "A-042",
+      "response": "Accepted bounded no-rivalkeep; strongerownbirthchain not displaced byweakerSCB date."
+    },
+    {
+      "object": "THEME-P-0015-REL@1",
+      "primary": "A-056",
+      "response": "Accepted positiveownmotherhousehold keep; its exactsamebody also confirmswifeown deathpost remainsunread, supportingA-RF06."
+    },
+    {
+      "object": "RESEARCH-P-0015-9d76f0343410@2",
+      "primary": "A-038",
+      "response": "Accepted currentadoptionrule qualification for originalparentalresidence versusphysicaldelivery; my initialBIOqualification should reach this additionaladoptedcopy."
+    }
+  ],
+  "agreements": [
+    "Original-based exact1920-05-11/1881-03-20/1877-09-25 retained; newrawglyphuncertainty stayssource-specific.",
+    "Namedparent versusrecognition, adultno-marriage/sharedhousehold inference limits,1930occupationseparation, currentgatesunchanged.",
+    "HistoricalfalseSCBtranscription remainshistorical; newfullsourceadoptionpreservesfields/marks andderivation."
+  ],
+  "source_uncertainties": [
+    "Fatherraw20/30, month3withweak5 alternative; no newprecisebirthdate.",
+    "Addressword70 andmotherf?/Ålund?/Skund? remainunresolved withoutoverturningoldername/addressgrounds.",
+    "Kol12circled1 andkol14v, lowerovalownership andedgeinkmeaning stayopen."
+  ],
+  "verification": "Ownfirstfreezehashes unchanged; exactownquotes/supportversions PASS; primaryserializedstructuredfieldssemanticallymatch butrequirequoted_value forchecker; origins/evidence/assets retainedin all13plannedexistingchanges. Noapply/nativeDB/referenceanswers read.",
+  "implementation_status": "Draftonly, no fullobjectapply/validator performed; cannot call candidatecomplete untilmaterialresponses andconsolidation."
+}

@@ -1,0 +1,13 @@
+# T-0804 primary source underlay
+
+Astra primary has read PROJECT-CONTROL.md completely: 5728 lines, contiguous chunks1–700 through4901–5728, with explicit rereads of any output-truncated spans. Applicable decisions: PCD2026-08-20-001;09-03-003;09-07-021/023;09-09-028;09-24-001;10-05-001/002. This is project-decision reading, not archival original reading. New ID2026-10-07-001 was unused. Skills Project Control v0.1 and Wotan read. Root's three general OWNER additions in AGENTS, working.md and person-contract are source-appropriate.
+
+Own current reading: all eight P3/P7 native identity/tree bodies/caveats and current metadata; three chain parent relations and P3/P7 older parent relations; P3/P7 PK05 full body/caveat; P7 PK11, BIO9, RESEARCH5, PATHKP05@3; P3 RESEARCH1 and THEMEID; P4 RESEARCH identity. Stronger current R-ab847@2 read with older@1, preserving 744fullfield reservations. Preparation baseline464/pending0, not new sources.
+
+Decisions: owner certainty concerns existing exact Arne/Maj→Jan-Christer→Sverker chain. Preserve both grandparent-to-father CORROBORATED edges; append exact owner support. Father-to-Sverker TRANSCRIBED edge can now be OWNER_CONFIRMED from this exact decision. Dates/nature unchanged. No extra ancestor automatically established. Bernhard OWNER and Ada/Hulda/Axel archives retained.
+
+P3 T0784 current pair and Maj T0789 current pair may be individually revised passed/supporting because their only remaining identity blocker is the unread own15 requirement now expressly rejected by owner for this known chain; all other identity criteria already individually passed in those full current reviews. This is bounded evidence sufficiency under PCD, not assertion that full PK05 extraction is passed. Maj T0784/T0788 competing pairs retire, preserving entire original versions/history. Older full-contract and LIFE failed results remain. Native body must show exact outstanding fields and taskT0786 unchanged.
+
+Semantic effects: qualify P3 shared caveat and current THEMEID/RESEARCH, Maj current PK05/RESEARCH/path and all applicable active shared current gate wording, plus P4's general prohibition on marking direct owner information OWNER. Preserve already explicit historic source-audit no-upgrade claims as history, not new blockers. No global audit or unrelated person changes.
+
+Seven actual stale edges on to-be-retired Maj reviews require explicit current version dispositions, not silent mechanical changes; R18122@2 already current, preflightv1 was faulty historical map and is preserved. Source reading supports seven updates with explicit historical-vs-current role explanation; resulting versions after semantic amendments must be pinned separately before write.

@@ -1,0 +1,19 @@
+{
+  "initial_reconciler_pin": {
+    "path": "evaluations/T-0780/implementation/reconcile_actual_G002_ten_receipts_and_remaining21_TEMPLATE_v1.py",
+    "sha256": "5fa6a7e1af24d737bfee4700d2d49bf85fff92f02585876520978ca6f52d45a6"
+  },
+  "AST_parse": "FAIL",
+  "exact_error": "SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' at line44",
+  "execution": "UNRUN",
+  "repaired_v2_pin": {
+    "path": "evaluations/T-0780/implementation/reconcile_actual_G002_ten_receipts_and_remaining21_TEMPLATE_v2.py",
+    "sha256": "7e557ca615b287e30d3b21b6a5f28de84913fbfc6b7495b5f19a5a1a7eb064b1"
+  },
+  "repair_scope": "Only path expression ROOT[x -> ROOT/x",
+  "exact_diff_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-actual-ten-acceptance-preparation-v1/reconciler-initial-syntax-repair-exact-diff-v1.patch",
+    "sha256": "a38015ba87345ad5d21f313d3dbb32a2ef7decf00886b7cbaa65b77f92d6bfcd"
+  },
+  "runtime_writes": 0
+}

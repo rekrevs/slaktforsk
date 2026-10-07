@@ -1,0 +1,24 @@
+{
+  "task": "T-0780",
+  "source_pin": {
+    "path": "evaluations/T-0780/source-review/resumed-C0685-twelve-residual-field-decisions-v1.json",
+    "sha256": "8ed6cc0b7c3964baca2c31d70bbc2bb651fd03650cf3c853f506a3747f158eb9"
+  },
+  "failed_preparation_error": "KeyError value_json at root API field: exact source uses bare value_json; native fact serialized field is data.value_json. No fallback/substitute performed.",
+  "first_object_edits": [
+    {
+      "field": "value_json",
+      "old": "{\"arrival_later\":\"1869 8/11\",\"arrival_older\":\"1867 8/11[?]\",\"belongs_to_father_only\":true,\"birth_book\":\"1785 4/11 Bygdeå\",\"death_later\":\"1870 27/12\",\"death_older\":\"1870 22/12[?]\",\"father\":\"P-0470\",\"father_widower_symbol\":\"s[?]\",\"from_folio\":582}",
+      "new": "{\"arrival_later\":\"1869 8/11\",\"arrival_older\":\"1867 8/11[?]\",\"belongs_to_father_only\":true,\"birth_book\":\"1785 4/11 Bygdeå\",\"death_later\":\"1870 27/12\",\"death_older\":\"1870 22/12[?]\",\"father\":\"P-0470\",\"from_folio\":582,\"father_widower_symbol_older_reading\":\"s[?], tidigare felaktigt knutet till änkefältet\",\"father_koppor_symbol\":\"s-liknande tecken\",\"father_widow_column\":\"tom\",\"father_widower_status_established\":false}"
+    },
+    {
+      "field": "caveat",
+      "old": "Senare daterat tillägg överordnar gamla återgivningar; faderns egen födelsepost oläst och änklingsstatus inte säker.",
+      "new": "Senare daterat tillägg överordnar gamla återgivningar; faderns egen födelsepost oläst och änklingsstatus inte säker. T-0780: den tidigare etiketten father_widower_symbol är fel kolumnattribution. Det s-liknande tecknet står i Koppor; Enkling eller Enka är tom. Ingen änklingsstatus eller hustrudöd följer av tecknet."
+    }
+  ],
+  "source_format_amendment_required_before_build": true,
+  "candidate_or_canonical_writes": false,
+  "latest_package": "138/870, audit5v2",
+  "stage_canonical_probe": "UNRUN"
+}

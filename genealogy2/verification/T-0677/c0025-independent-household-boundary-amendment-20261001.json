@@ -1,0 +1,41 @@
+{
+  "task": "T-0677",
+  "citation": "C-0025",
+  "stage": "HEADER_GEOMETRY_ONLY",
+  "supersedes_scope_limit_of": "c0025-independent-header-20261001.json",
+  "reason": "Parent clarified seven named family members do not exclude relevant service rows inside same household brace. Original header already recorded brace continuation; its exclusion statement is superseded.",
+  "actual_household_rows": 10,
+  "named_family_rows": 7,
+  "additional_position_keys": [
+    {
+      "key": "S1",
+      "y_approx": [
+        373,
+        398
+      ]
+    },
+    {
+      "key": "S2",
+      "y_approx": [
+        398,
+        421
+      ]
+    },
+    {
+      "key": "S3",
+      "y_approx": [
+        421,
+        445
+      ]
+    }
+  ],
+  "household_bbox_approx": [
+    18,
+    206,
+    786,
+    445
+  ],
+  "boundary_assessment": "Single continuous left brace begins with Per Wilhelm and closes after S3; following row begins a different household and is excluded. Three extra rows belong to the same recorded household, not neighboring households. Raw interpretation/person adoption awaits approved gapmask.",
+  "no_new_read": "Uses already viewed whole page and boundary crop; no additional source or substantive cell transcription.",
+  "next_step": "Gapmask should explicitly cover10 physical household rows, using S1–S3 if no person IDs are required; existing exact reuse may substantially reduce new reading."
+}

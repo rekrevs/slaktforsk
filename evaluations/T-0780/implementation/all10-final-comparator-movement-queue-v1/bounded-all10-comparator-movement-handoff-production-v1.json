@@ -1,0 +1,39 @@
+{
+  "source_pins": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0069-final-comparator-decisions-v1.json",
+      "sha256": "32ecc11eb22337bd2246b61bb80ab183aa81c47c20ecf3f4162b6173dfa7153a"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0685-KEY0439-movement-limit-decisions-v1.json",
+      "sha256": "deef7358255ae3a326633b29837bffc76e776454b4e2a031e32bba00a2852ed2"
+    }
+  ],
+  "input_pin": {
+    "path": "evaluations/T-0780/implementation/all10-final-comparator-movement-queue-v1/full-comparator-movement-supports-and-fanout-input-v1.json",
+    "sha256": "6aee8e805c6345d33a3e91d5ea02f8a9d91c83fd94f39111394beab0f8ee3068"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0780/implementation/all10-final-comparator-movement-queue-v1/current113-candidate-membership-inventory-v1.json",
+    "sha256": "2aac552404926158d5b37d207ae624af6d6acf56bb9603d2355a782ca43457cf"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0780/implementation/all10-final-comparator-movement-queue-v1/concrete-current113-partial-sequence-and-constraint-proposal-v1.json",
+    "sha256": "9f2d1e43fcaa8252addf5d11440de146cd3da8a446b9dd5b0b01c8f000de24ed"
+  },
+  "revisions": 2,
+  "family_context_whole_retains": 1,
+  "full_field_entries": 24,
+  "all_history_incoming_edges": 0,
+  "failed_attempts": [
+    {
+      "script": "finalize_all10_comparator_movement_phase_v1.py",
+      "reason": "Initial late comparator placement followed R69@2 despite retained R69@1 support. Preserved first attempt; proposed same payload before R69update, no rebind."
+    }
+  ],
+  "elapsed_since_first_candidate_seconds": 53.88364362716675,
+  "initial_reads_excluded": true,
+  "model_usage_root_collect_after_final": true,
+  "all_outcomes_unchanged": true,
+  "no_stage_probe_apply_actual328_modification": true
+}

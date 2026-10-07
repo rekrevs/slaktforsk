@@ -1,0 +1,23 @@
+{
+  "task": "T-0776",
+  "changed_file": "evaluations/T-0776/completion-receipt-reconciliation.json",
+  "locked_sha256": "981052c66ca5261c6080b7156f4ba4148794e9caf2adc0750512d2ff3abc2810",
+  "recovered_locked_bytes": "evaluations/T-0776/completion-reconciliation-before-metadata-augmentation.json",
+  "recovered_locked_sha256": "981052c66ca5261c6080b7156f4ba4148794e9caf2adc0750512d2ff3abc2810",
+  "current_sha256": "d07988ee60070cc929c5dd362da3cf77c0d154c1df490c4ca2307e277335fe51",
+  "actual_file_mtime_utc": "2026-10-02T06:52:20.165268+00:00",
+  "added_fields": [
+    "accepted_receipts[*].actual_completion_field",
+    "accepted_receipts[*].actual_journal",
+    "accepted_receipts[*].actual_pending",
+    "accepted_in_adopted_order"
+  ],
+  "scope_selection_unchanged": true,
+  "completed_count_unchanged": 30,
+  "selected": [
+    "C-0037",
+    "C-0038",
+    "C-0083"
+  ],
+  "explanation": "Receipt-schema normalization metadata was appended during final prep at 06:52:20 after root freeze timestamp; no citation cards, source originals, R/S views, native captures, clone or rubric changed. Original exact locked bytes recovered without overwriting lock or current receipt."
+}

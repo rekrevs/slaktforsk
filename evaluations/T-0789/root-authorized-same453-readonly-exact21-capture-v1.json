@@ -1,0 +1,69 @@
+{
+  "task": "T-0789",
+  "action": "READONLY_SAME453_EXACT21_BINDINGS_CONTINUATION_CAPTURE",
+  "required_root_issued_action": "READONLY_SAME453_EXACT21_BINDINGS_CONTINUATION_CAPTURE",
+  "root_authorized": true,
+  "helper_pin": {
+    "path": "evaluations/T-0789/preparation/capture_root_authorized_same453_exact21_bindings_readonly_v2.py",
+    "sha256": "67ec71da9bd54a326039f34341017ac4958de5a32c474acd0dd2d46bd5c9f30a"
+  },
+  "CLI_apply_authorized": false,
+  "canonical_authorized": false,
+  "clone_or_retry_authorized": false,
+  "expected_actual_state": {
+    "journal_head": 453,
+    "pending": 16
+  },
+  "actual_stage_DB_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/stage.sqlite",
+    "sha256": "c14b718134c9973320440074ebde59ea3997b45699b135fbd2df6be20f567d71"
+  },
+  "preserved_STOP_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/STOP-failure-and-actual-state-preserved-v1.json",
+    "sha256": "d96a4c76173bfdae35fad366c0cdc4a1a6015565c4a21e66ae4314fa1bde06b8"
+  },
+  "original_stage_authorization_and_baseline_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/authorization-and-baseline-v1.json",
+    "sha256": "676563803ad289dd0b71269bba6b40f4f032ce217b3586a1390b3bf06e6e719b"
+  },
+  "step_before_after_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/step-01-actual-before-after-v1.json",
+    "sha256": "ef7381f6042625a4ba54c25db7d53b0483797907dbea9e3d0479069e806552c3"
+  },
+  "explicit_input_only_bindings": {
+    "ID-T0789-P0007-own-annual-1945": {
+      "P-0007": 2
+    },
+    "ID-T0789-P0007-own-annual-1946": {
+      "P-0007": 2
+    }
+  },
+  "representation_dispositions": {
+    "primary": {
+      "pin": {
+        "path": "evaluations/T-0789/source-review/exact-two-input-binding-native-projection-primary-disposition-v1.json",
+        "sha256": "ca2bad5c4a25ea9317eb00c54a61c6408c45bd63e2d6a189d3b1565684c70190"
+      },
+      "pointer": "/ready_for_readonly_continuation_capture",
+      "accepted_value": true
+    },
+    "independent": {
+      "pin": {
+        "path": "evaluations/T-0789/independent-review/actual453-two-identity-bindings-own-representation-source-freeze-v1.json",
+        "sha256": "faa62673131a777c8c1c0ad9c09f50ae890442a4ba921f4369ae7331df0798af"
+      },
+      "pointer": "/ready_for_readonly_capture_with_explicit_projection",
+      "accepted_value": true
+    }
+  },
+  "output_directory": "evaluations/T-0789/exact21-stage-v1/readonly-bindings-projection-continuation-v1",
+  "comparison_limit": "Exclude only redundant top-level bindings from native expected API for the two specified identity IDs. Preserve raw operation and entire stored request. Explicit evidence context P-0007@2 is current/persisted active guard; bindings person key is not an active boundReferences identity field.",
+  "command_UNRUN": "python evaluations/T-0789/preparation/capture_root_authorized_same453_exact21_bindings_readonly_v2.py --authorization <ROOT_READONLY_AUTH> --authorization-sha256 <EXACT_AUTH_SHA>",
+  "usage": "UNKNOWN pending root collector",
+  "template_pin": {
+    "path": "evaluations/T-0789/preparation/same453-exact21-bindings-readonly-continuation-root-authorization-shape-NOT-AUTHORIZED-v1.json",
+    "sha256": "d7c9cb1b8719787a43b7108d37bcbd2af12dd33bb0440293c0bc047b57474998"
+  },
+  "root_issued_utc": "2026-10-06T10:35:35.735559+00:00",
+  "root_review": "Both precise source dispositions read, ordered identity/body/stored request and sole bindings-only differences checked. Full parent623 diff and v2 wordingdiff read. Only evidenceP7@2 is active guard. No CLI/database mutation."
+}

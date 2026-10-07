@@ -1,0 +1,291 @@
+{
+  "task": "T-0788",
+  "input_pin": {
+    "path": "evaluations/T-0788/preparation/exact27-whole-old-source-field-API-order-and-all-history-incoming-readonly-guard-v1.json",
+    "sha256": "7c1e21db8c07f8c72bc4bef87a1b305676c497a6bb64e3fde6bed135bb38d579"
+  },
+  "source_pin": {
+    "path": "evaluations/T-0788/source-review/exact744-comparative-settled-source-fields-v1.json",
+    "sha256": "e2b85b170f8d65e43ab903e4ef2fedeb4531524a1dc9fb0202e295c849a182a2"
+  },
+  "rows": [
+    {
+      "object_id": "O-P-0015-father-Hulda-Margareta",
+      "expected_version": 1,
+      "whole_old_native": {
+        "id": "O-P-0015-father-Hulda-Margareta@1",
+        "object_id": "O-P-0015-father-Hulda-Margareta",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Egen födelsenotis är oläst. Bildens tidigare bevarandeskuld kvarstår i profilbedömningen.",
+        "previous_id": null,
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0015-father-Hulda-Margareta@1",
+          "record_id": "R-ab847c1960d02f28801419b3",
+          "mention_id": null,
+          "property": "paternity_note",
+          "value_literal": "Fader: Axel Edv. Eriksson, Solliden, Hyltinge",
+          "value_json": "{\"child\":\"P-0017\",\"father\":\"P-0015\",\"residence\":\"Solliden, Hyltinge\"}"
+        },
+        "origins": [
+          {
+            "revision_id": "O-P-0015-father-Hulda-Margareta@1",
+            "unit_id": "a970153c9e0dd14eb04cb1b2972cb2698a9e6635b5b5ffca5ac1c9aec09a5e65",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "O-P-0015-father-Hulda-Margareta@1",
+            "unit_id": "d27f9038ece8746faf32ad93313c3ec9f9139759ef794ba21978f4339416aadc",
+            "coverage": "partial",
+            "note": "Relation och angiven tids-/ortkontext hålls isär."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0015-father-Hulda-Margareta@1",
+            "basis_revision_id": "R-ab847c1960d02f28801419b3@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      },
+      "field_edits": [
+        {
+          "field": "data.value_literal",
+          "old": "Fader: Axel Edv. Eriksson, Solliden, Hyltinge",
+          "new": "Fader: Axel Edv. Eriksson [St…Hyltinge?]"
+        },
+        {
+          "field": "data.value_json",
+          "old": {
+            "child": "P-0017",
+            "father": "P-0015",
+            "residence": "Solliden, Hyltinge"
+          },
+          "new": {
+            "child": "P-0017",
+            "father": "P-0015",
+            "residence": "[St…Hyltinge?]"
+          }
+        },
+        {
+          "field": "caveat",
+          "old": "Egen födelsenotis är oläst. Bildens tidigare bevarandeskuld kvarstår i profilbedömningen.",
+          "new": "Systerns egen födelsenotis är oläst. T-0788 har bevarat full744bilden och läst relevanta fält; den tidigare bevarandeskulden för just744 är avslutad. Utskrivet fadersnamn och personkoppling består, men den lokala ortformen reserveras[St…Hyltinge?]. Starkare932 och andra föräldrabelägg ändras inte."
+        }
+      ],
+      "evidence_rebinds": [
+        {
+          "old": {
+            "object": "R-ab847c1960d02f28801419b3",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          "new": {
+            "object": "R-ab847c1960d02f28801419b3",
+            "version": 2,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          "source_reason": "Exakt korrigerad full744post; samma källröst och stödroll."
+        }
+      ],
+      "evidence_additions": [
+        {
+          "object": "TR-81ff8a207c9e0e37f1c1aeed",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0788: egna744ort-/överföringsreservationer och fullpostbevarande; ingen ny person-/föräldra-/reseslutsats."
+        }
+      ],
+      "individual_source_disposition": "Necessary literal/structured currentsource copies only; eventtype/date/personIDs/relation/OWNER/othermetadata retained.",
+      "incoming_disposition": "Exactcurrent/history incoming required; no automaticrebind."
+    },
+    {
+      "object_id": "O-P-0016-Hulda-Margareta-own-row",
+      "expected_version": 1,
+      "whole_old_native": {
+        "id": "O-P-0016-Hulda-Margareta-own-row@1",
+        "object_id": "O-P-0016-Hulda-Margareta-own-row",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Dotterns egen rad 10, inte moderns vigsel eller utflyttning. P17:s egen granskning bär eventuell precisering av råort.",
+        "previous_id": null,
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0016-Hulda-Margareta-own-row@1",
+          "record_id": "R-ab847c1960d02f28801419b3",
+          "mention_id": null,
+          "property": "adult_child_fields",
+          "value_literal": "Jansson, Hulda Margareta f. Ekholm; telefonist; gift 1942; Fader: Axel Edv. Eriksson, Solliden, Hyltinge",
+          "value_json": "{\"departure\":\"1942-02-12\",\"destination_reading\":\"läsosäker\",\"father\":\"P-0015\",\"father_home\":\"Solliden, Hyltinge\",\"marriage_year\":1942,\"occupation\":\"telefonist\",\"person\":\"P-0017\"}"
+        },
+        "origins": [
+          {
+            "revision_id": "O-P-0016-Hulda-Margareta-own-row@1",
+            "unit_id": "43c772fe655f2a138124f94e6d362604118db1c5931548c7a1f5ba7d6dcda3ca",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0016-Hulda-Margareta-own-row@1",
+            "basis_revision_id": "R-ab847c1960d02f28801419b3@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      },
+      "field_edits": [
+        {
+          "field": "data.value_literal",
+          "old": "Jansson, Hulda Margareta f. Ekholm; telefonist; gift 1942; Fader: Axel Edv. Eriksson, Solliden, Hyltinge",
+          "new": "Jansson, Hulda Margareta f. Ekholm; telefonist; vigseluppgift1942; Fader: Axel Edv. Eriksson [St…Hyltinge?]"
+        },
+        {
+          "field": "data.value_json",
+          "old": {
+            "departure": "1942-02-12",
+            "destination_reading": "läsosäker",
+            "father": "P-0015",
+            "father_home": "Solliden, Hyltinge",
+            "marriage_year": 1942,
+            "occupation": "telefonist",
+            "person": "P-0017"
+          },
+          "new": {
+            "departure": "1942-02-12",
+            "destination_reading": "läsosäker",
+            "father": "P-0015",
+            "father_home": "[St…Hyltinge?]",
+            "marriage_year": 1942,
+            "occupation": "telefonist",
+            "person": "P-0017"
+          }
+        },
+        {
+          "field": "caveat",
+          "old": "Dotterns egen rad 10, inte moderns vigsel eller utflyttning. P17:s egen granskning bär eventuell precisering av råort.",
+          "new": "Dotterns egenrad10, inte moderns vigsel eller överföring. T-0788: lokal fadersort[St…Hyltinge?], överföringsmål[fol./Jul.?]2; datum1942-02-12 kvar men avgör inte fysisk flytt eller utflyttning urförsamlingen. Vigselns egen datumrapport7/2 är utvunnen separat; denna strukturerade årssammanfattning ändrar inte personkoppling eller starkare932stöd."
+        }
+      ],
+      "evidence_rebinds": [
+        {
+          "old": {
+            "object": "R-ab847c1960d02f28801419b3",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          "new": {
+            "object": "R-ab847c1960d02f28801419b3",
+            "version": 2,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          "source_reason": "Exakt korrigerad full744post; samma källröst och stödroll."
+        }
+      ],
+      "evidence_additions": [
+        {
+          "object": "TR-81ff8a207c9e0e37f1c1aeed",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0788: egna744ort-/överföringsreservationer och fullpostbevarande; ingen ny person-/föräldra-/reseslutsats."
+        }
+      ],
+      "individual_source_disposition": "Necessary literal/structured currentsource copies only; eventtype/date/personIDs/relation/OWNER/othermetadata retained.",
+      "incoming_disposition": "Exactcurrent/history incoming required; no automaticrebind."
+    },
+    {
+      "object_id": "E-departure-P-0017-Flen-1942",
+      "expected_version": 1,
+      "whole_old_native": {
+        "id": "E-departure-P-0017-Flen-1942@1",
+        "object_id": "E-departure-P-0017-Flen-1942",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Överstruken rad gäller utflyttning, inte död. Mottagarorten normaliseras inte.",
+        "previous_id": null,
+        "kind": "event",
+        "data": {
+          "revision_id": "E-departure-P-0017-Flen-1942@1",
+          "event_type": "registered_departure",
+          "date_json": "{\"literal\":\"1942-02-12\",\"precision\":\"exact\",\"value\":\"1942-02-12\"}",
+          "place_id": null,
+          "place_role": "Från Flen; destinationens råform Jäl.2 är läsosäker"
+        },
+        "origins": [
+          {
+            "revision_id": "E-departure-P-0017-Flen-1942@1",
+            "unit_id": "29f0c51b79dea30b8a02a3d9564bfd3acbfa3d9f584920eead196bf329ba1626",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "E-departure-P-0017-Flen-1942@1",
+            "basis_revision_id": "R-ab847c1960d02f28801419b3@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ]
+      },
+      "field_edits": [
+        {
+          "field": "data.place_role",
+          "old": "Från Flen; destinationens råform Jäl.2 är läsosäker",
+          "new": "Bokförd överföring i Flen; målets råform[fol./Jul.?]2 är reserverad, intern eller extern destination inte fastställd"
+        },
+        {
+          "field": "caveat",
+          "old": "Överstruken rad gäller utflyttning, inte död. Mottagarorten normaliseras inte.",
+          "new": "Överstruken rad och daterad överföringsnot1942-02-12, inte död. Eventtypenregistered_departure är den bevarade registerhändelsen, inte en ny slutsats om fysisk resa eller att församlingen lämnades. Målets prefix[fol./Jul.?]2 avgör inte intern/extern destination."
+        }
+      ],
+      "evidence_rebinds": [
+        {
+          "old": {
+            "object": "R-ab847c1960d02f28801419b3",
+            "version": 1,
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          "new": {
+            "object": "R-ab847c1960d02f28801419b3",
+            "version": 2,
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          "source_reason": "Exakt korrigerad full744post; samma källröst och stödroll."
+        }
+      ],
+      "evidence_additions": [
+        {
+          "object": "TR-81ff8a207c9e0e37f1c1aeed",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0788: egna744ort-/överföringsreservationer och fullpostbevarande; ingen ny person-/föräldra-/reseslutsats."
+        }
+      ],
+      "individual_source_disposition": "Necessary literal/structured currentsource copies only; eventtype/date/personIDs/relation/OWNER/othermetadata retained.",
+      "incoming_disposition": "Exactcurrent/history incoming required; no automaticrebind."
+    }
+  ],
+  "count": 3,
+  "canonical_authorized": false
+}

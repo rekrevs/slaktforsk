@@ -1,0 +1,211 @@
+{
+  "task": "T-0780",
+  "input": {
+    "path": "evaluations/T-0780/implementation/C0060-final-two-key-source-queue-v1/all-history-incoming-and-full-basis-source-input-v1.json",
+    "sha256": "228c04e2ca42004d34aea4a4231e586865def9ec47748068eb84e9d21f844fde"
+  },
+  "decisions": [
+    {
+      "edge": {
+        "revision_id": "R-5d0926f24b56225ed8f2ad9b@1",
+        "basis_revision_id": "S-0049@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: source_id",
+        "object_id": "R-5d0926f24b56225ed8f2ad9b",
+        "version": 1,
+        "is_current": 1
+      },
+      "disposition": "retain_exact_S0049_1_basis",
+      "rationale": "Indexgrupp2 kvar som registrerad egenpost med oförändrade data/locator/media. SourceS0049nycaveat ändrar inte proveniensidentitet utan kvalificerar indexBuberget vs egenbild utan byrubrik och originalklammer1. Recordens avgjorda nya caveat/fullTR gör samma kvalificering. GamlaS1 kan behållas utan att återinföra felaktig tvåklammerläsning.",
+      "whole_current_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0060-six-current-wrapper-decisions-v1.json",
+        "sha256": "d9f1d86ec79f77c17b80c0f2bda81724c2a70623bcb40c0dd262b714dcabcfc4",
+        "objects_index": 1,
+        "native_fields_equal": true,
+        "ordered_persisted_origins_assets_media_equal": true,
+        "presentation_differences": "EarlierCLIasset carries joinedsha256/bytes; nativeattachment rows have only revision/path/region. SharedactualoriginalSHA remains locked, no media substitution."
+      },
+      "candidate_projection": [
+        {
+          "id": "R-5d0926f24b56225ed8f2ad9b",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0049",
+            "record_type": "census_index_family_group",
+            "locator": "Folkräkning 1890 Degerfors/Buberget, index sida/rad/familj 123/20/2, Folk_104768764; bildreferens Folk_924008-123",
+            "dependence_note": "Dokumentet belägger utdrag ur husförhörslängden; beroende av samma kyrkoboksserie som C-0064/C-0549/C-0404."
+          },
+          "origins": [
+            {
+              "unit": "36a6d038db411c1004c4195e1ef1d3fb9bb068910f23755da4b64369017860c1",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "70a605d4b533a410a443e7791fbc423aae8c7cc57b1a441ebe15d1dd8d3d25c0",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "a0baa6dec79d0cbaa6d326939fd42b5e94f91e0da36651dd696606f1fe8ab8fc",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "c978cb9ab51d778b0ef6176d85107277f0742f8e739d1fafccdba7f24249c8c9",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0049",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0060-index-group2-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Full egen avgränsad indexgrupp i samma13radersoriginal; prövad fysisk klammer och kolumnräckvidd, ingen extra oberoende röst."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0060. Dokumentet belägger utdrag ur husförhörslängden; beroende av samma kyrkoboksserie som C-0064/C-0549/C-0404.",
+          "caveat": "Historisk avgränsning före T-0780: Avgränsar uttrycklig registergrupp; originalets motsvarande hushållsgräns har inte nyprövats. Namn/födelseår är inte exakta födelsedagar.\nC-0060: Historisk motsägelse bevaras: r52–54 anger lokal originalbild och hash; r91–100 säger att originalbild saknas. Bytekontroll 2026-09-16 visar att den uttryckligt länkade filen finns och SHA-256 exakt matchar bb8a2206f147fbaea4795773e2f13773b1c3eb09eb8bc8243dc3db3b7d2c9c8b. Ingen bild har öppnats eller lästs i denna kontroll.\nAktuell avgränsning: T-0780 har nu läst hela den låsta originalbildens avgränsade13personrader, med rubriker, egna dittotecken, tomma celler, marginal och civilståndskolumner. Originalet visar en sammanhängande vänsterklammer över13rader med1; inget separat skrivet familjetal2 kan avläsas vid Johan Oskars rad. De två bevarade nativeposterna är indexgrupper och inte två nycertifierade originalhushåll. Buberget kommer från index/katalogkontext och är inte en egen byrubrik på den transporterade bildsidan. Årtalen är födelseår, inte exakta födelsedagar; ortditton och Förs./Säfvar behålls som egna källformer. Kolumn4:s v-lika tecken är inte koppsymboler eller säkra medicinska/religiösa/frånvarouppgifter. Bildens800×1373px är samma verifierade officiella helbild; liten rubrikfraktion, klippta namnändelser och länsförkortning är reserverade, inte allmän källuttömning. Äldre bytekontrollens ingetöppnat gäller dåvarande kontroll och inte denna nya läsning. Egen indexgrupp2 omfattar rader10–13 Johan Oskar, Ida Sofia, Livia[kompakt i reserverat] Sofia och Astrid Maria; originalklammern förenar dem med föregående nio rader. Mågrollen ensam bestämmer inte båda biologiska föräldrarna.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0060-riksarkivet-folkrakning-1890-degerfors-bild-123.jpg",
+              "region": "Hela bladet enligt citationens bildlänk; registergruppens exakta bildgräns är inte nyprövad."
+            }
+          ],
+          "media": []
+        },
+        {
+          "path": "evaluations/T-0780/implementation/C0060-first-settled-queue-v1/two-records-last-operation-v1.json",
+          "sha256": "76057a898bf71011d64495cdc2451682d2bda6642ae49e7afdd1a10ac68be628",
+          "index": 96,
+          "operation_id": "T-0780/C0060-six-current-wrapper-v1-explicit-two-records-last",
+          "targets": [
+            {
+              "id": "R-80d5e6f523c2f4d74621621c",
+              "expectedVersion": 1,
+              "payload_sha256": "95289c0b44b0e95b4ba8edb517b15d82daba76e2422dadddf689daf11b9ec120"
+            },
+            {
+              "id": "R-5d0926f24b56225ed8f2ad9b",
+              "expectedVersion": 1,
+              "payload_sha256": "13af3782b5397817657b56d205899ba7463bccc22a86fb94013b60f97ef463e3"
+            }
+          ]
+        }
+      ],
+      "implementation": "Record@2 behållerS0049@1 och skrivs föreS0049@2. Inga ytterligare rebinds/recordrevisioner. FinalactualrequestID/currentversion återbinds individuellt."
+    },
+    {
+      "edge": {
+        "revision_id": "R-80d5e6f523c2f4d74621621c@1",
+        "basis_revision_id": "S-0049@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: source_id",
+        "object_id": "R-80d5e6f523c2f4d74621621c",
+        "version": 1,
+        "is_current": 1
+      },
+      "disposition": "retain_exact_S0049_1_basis",
+      "rationale": "Indexgrupp1 kvar som registrerad egenpost med oförändrade data/locator/media. SourceS0049nycaveat ändrar inte proveniensidentitet utan kvalificerar indexBuberget vs egenbild utan byrubrik och originalklammer1. Recordens avgjorda nya caveat/fullTR gör samma kvalificering. GamlaS1 kan behållas utan att återinföra felaktig tvåklammerläsning.",
+      "whole_current_reuse": {
+        "path": "evaluations/T-0780/source-review/C-0060-six-current-wrapper-decisions-v1.json",
+        "sha256": "d9f1d86ec79f77c17b80c0f2bda81724c2a70623bcb40c0dd262b714dcabcfc4",
+        "objects_index": 0,
+        "native_fields_equal": true,
+        "ordered_persisted_origins_assets_media_equal": true,
+        "presentation_differences": "EarlierCLIasset carries joinedsha256/bytes; nativeattachment rows have only revision/path/region. SharedactualoriginalSHA remains locked, no media substitution."
+      },
+      "candidate_projection": [
+        {
+          "id": "R-80d5e6f523c2f4d74621621c",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0049",
+            "record_type": "census_index_family_group",
+            "locator": "Folkräkning 1890 Degerfors/Buberget, registervyns överordnade familj1, bildreferens Folk_924008-123",
+            "dependence_note": "Samma censusblad/indexvy och kyrkoboksbaserade informationsväg som grupp2; inget extra oberoende familjevittne."
+          },
+          "origins": [
+            {
+              "unit": "36a6d038db411c1004c4195e1ef1d3fb9bb068910f23755da4b64369017860c1",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "a0baa6dec79d0cbaa6d326939fd42b5e94f91e0da36651dd696606f1fe8ab8fc",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "a5392799482f52ce723e4e43189990823cb0208315fcc89d45deae0921d09749",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0049",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0060-index-group1-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Full egen avgränsad indexgrupp i samma13radersoriginal; prövad fysisk klammer och kolumnräckvidd, ingen extra oberoende röst."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0060. Samma censusblad/indexvy och kyrkoboksbaserade informationsväg som grupp2; inget extra oberoende familjevittne.",
+          "caveat": "Historisk avgränsning före T-0780: Anders Jonsson kontra Jansson i C-0485 bevaras. Mågrollen stöder en tolkning men ensam utpekar den inte båda biologiska föräldrarna.\nC-0060: Historisk motsägelse bevaras: r52–54 anger lokal originalbild och hash; r91–100 säger att originalbild saknas. Bytekontroll 2026-09-16 visar att den uttryckligt länkade filen finns och SHA-256 exakt matchar bb8a2206f147fbaea4795773e2f13773b1c3eb09eb8bc8243dc3db3b7d2c9c8b. Ingen bild har öppnats eller lästs i denna kontroll.\nAktuell avgränsning: T-0780 har nu läst hela den låsta originalbildens avgränsade13personrader, med rubriker, egna dittotecken, tomma celler, marginal och civilståndskolumner. Originalet visar en sammanhängande vänsterklammer över13rader med1; inget separat skrivet familjetal2 kan avläsas vid Johan Oskars rad. De två bevarade nativeposterna är indexgrupper och inte två nycertifierade originalhushåll. Buberget kommer från index/katalogkontext och är inte en egen byrubrik på den transporterade bildsidan. Årtalen är födelseår, inte exakta födelsedagar; ortditton och Förs./Säfvar behålls som egna källformer. Kolumn4:s v-lika tecken är inte koppsymboler eller säkra medicinska/religiösa/frånvarouppgifter. Bildens800×1373px är samma verifierade officiella helbild; liten rubrikfraktion, klippta namnändelser och länsförkortning är reserverade, inte allmän källuttömning. Äldre bytekontrollens ingetöppnat gäller dåvarande kontroll och inte denna nya läsning. Egen indexgrupp1 omfattar rader1–9 Anders Jonsson till Oskar Rudolf. Jonsson/Jansson i annan källa och Hildur Charlotta1890/Elisabetta1900 hålls källspecifika.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0060-riksarkivet-folkrakning-1890-degerfors-bild-123.jpg",
+              "region": "Hela bladet enligt citationens bildlänk; registergruppens exakta bildgräns är inte nyprövad."
+            }
+          ],
+          "media": []
+        },
+        {
+          "path": "evaluations/T-0780/implementation/C0060-first-settled-queue-v1/two-records-last-operation-v1.json",
+          "sha256": "76057a898bf71011d64495cdc2451682d2bda6642ae49e7afdd1a10ac68be628",
+          "index": 96,
+          "operation_id": "T-0780/C0060-six-current-wrapper-v1-explicit-two-records-last",
+          "targets": [
+            {
+              "id": "R-80d5e6f523c2f4d74621621c",
+              "expectedVersion": 1,
+              "payload_sha256": "95289c0b44b0e95b4ba8edb517b15d82daba76e2422dadddf689daf11b9ec120"
+            },
+            {
+              "id": "R-5d0926f24b56225ed8f2ad9b",
+              "expectedVersion": 1,
+              "payload_sha256": "13af3782b5397817657b56d205899ba7463bccc22a86fb94013b60f97ef463e3"
+            }
+          ]
+        }
+      ],
+      "implementation": "Record@2 behållerS0049@1 och skrivs föreS0049@2. Inga ytterligare rebinds/recordrevisioner. FinalactualrequestID/currentversion återbinds individuellt."
+    }
+  ],
+  "counts": {
+    "edges": 2,
+    "rebinds": 0,
+    "new_revisions": 0
+  },
+  "scope": "Exakt återbruk av fulla egna rekorddispositioner och bevisad nativepayload/orderedattachmentlikhet. Ingen blanketresolution/fullstageapproval.",
+  "production_failure": "First proof assertion failed before any outputfile because earlierCLIasset includes sha256/bytes joined metadata absent from nativeattachmentrows. Explicit inspection showed only those asset enrichments; repaired comparison of actual orderedpersistedfields. Firsttool attempt retained in production, no input/candidate mutation."
+}

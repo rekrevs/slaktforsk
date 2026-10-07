@@ -1,0 +1,50 @@
+{
+  "task": "T-0778",
+  "changes": [
+    {
+      "object": "CONTRACT-P-0044-PK-04",
+      "expectedVersion": 1,
+      "disposition": "revise",
+      "fields": [
+        {
+          "field": "body",
+          "before": "| PK-04 | STYRKT | Tio relationsrader: mor, mormor, morfar, moderns make, fyra syskon genom modern och två dopvittnen, alla med tid/plats och status. Samtliga personer i den lästa födelseposten och de lästa hushållsraderna är bevarade. Hushållsroll skiljs från släktskap, faderskapet propageras inte, och skillnaden mot P-0046:s term `halvbror på moderns sida` är uttryckligen redovisad. [Relationer](../people/P-0044-sven-edvin-severus-jansson.md#relationer) |\n",
+          "after": "| PK-04 | STYRKT | Mor, mormor, morfar, moderns make och fyra syskon genom modern är redovisade med tid/plats och status. T-0778 rättar den tidigare ofullständiga vittnesredovisningen: C-1060post33 innehåller fyra namngivna dopvittnen, vilka nu bevaras som källomnämnanden med råreservationer; ingen ny personidentitet eller släktskap skapas. Det tidigare påståendet att alla födelsepostens personer redan var bevarade var för starkt. Hushållsroll skiljs från släktskap och faderskapet propageras inte; den neutrala syskontermen genom modern består. Övriga redan lästa hushållsrelationer och kontraktsutfall ändras inte. |\n",
+          "expected_wholefield_match_count": 1
+        }
+      ],
+      "reason": "Own fourwitness entries complete preservednetwork; retain PK04STYRKT for scoped preservation, no broader review gate.",
+      "append_supports": [
+        {
+          "object": "AUDIT-T0778-C1060",
+          "version": 1,
+          "role": "supports"
+        }
+      ]
+    },
+    {
+      "object": "R-f5f8416dc73115868c6b7c36",
+      "expectedVersion": 2,
+      "disposition": "revise",
+      "fields": [
+        {
+          "field": "caveat",
+          "before": "Tures födelsemånad juni står mot maj i äldre böcker; överstruken tidigare avgång är oläslig. Oattesterad och ledig till äktenskap bevisar varken vistelse varje dag eller vigsel.\nC-0035: Senare Ture-, Ada- och Astridfält hålls personbundna. Ingen militärtjänst följer av inskrivningsnummer; senare uppgifter i P-0047 är inte nya original här. Fullkontroll C-0035 r1–6,8–12,18fält per rad; r7blank och r14+annat hushåll utanför. Bevara äldre attestprovenans. C-0035 har mellan Adas rad3 och Torvalds överstrukna rad4 en svag blyertsnot: ett dödfödt gossebarn[?], 09, 23[?]/5, Flen[?]. Läsning och attribution är reserverade. Placeringen motiverar en fråga om möjlig anknytning till Ada men fastställer varken mor, barnidentitet eller födelse-/dödhändelse. C-0035 r10–12 visar Torvald, hustrun Emma Vilhelmina Karlsson[?], uppgiven född1888-04-27Jäder, och d.Maud Karola Wilhelmina, född1913-08-04Flen. Karlsson[?] är en reserverad källform jämte senare Rhodin[?], inte ett beslutat namnbyte eller en ny kvinna. R10 har gift12 23/6, inflyttningshänvisning ofvan r.3 och12 23/4; datum/hänvisningsskillnaden korrigeras inte tyst. Familjens utflyttning tillp35213 12/9 bärs av r10 med dittomärken på11/12.",
+          "after": "Tures födelsemånad juni står mot maj i äldre böcker; överstruken tidigare avgång är oläslig. Oattesterad och ledig till äktenskap bevisar varken vistelse varje dag eller vigsel.\nC-0035: Senare Ture-, Ada- och Astridfält hålls personbundna. Ingen militärtjänst följer av inskrivningsnummer; senare uppgifter i P-0047 är inte nya original här. Fullkontroll C-0035 r1–6,8–12,18fält per rad; r7blank och r14+annat hushåll utanför. Bevara äldre attestprovenans. C-0035 har mellan Adas rad3 och Torvalds överstrukna rad4 en svag blyertsnot: ett dödfödt gossebarn[?], 09, 23[?]/5, Flen[?]. Läsning och attribution är reserverade. Placeringen motiverar en fråga om möjlig anknytning till Ada men fastställer varken mor, barnidentitet eller födelse-/dödhändelse. C-0035 r10–12 visar Torvald, hustrun Emma Vilhelmina Karlsson[?], uppgiven född1888-04-27Jäder, och d.Maud Karola Wilhelmina, född1913-08-04Flen. C-0035:s egen Karlsson[?] behåller sin råreservation. Den senare C-0911-läsningen Rhodin[?] är däremot ersatt av Karlsson genom T-0777:s accepterade originalgranskning; Rhodin är läshistorik, inte en kvarstående säker namnkonflikt. Inget namnbyte eller någon ny kvinna fastställs. R10 har gift12 23/6, inflyttningshänvisning ofvan r.3 och12 23/4; datum/hänvisningsskillnaden korrigeras inte tyst. Familjens utflyttning tillp35213 12/9 bärs av r10 med dittomärken på11/12.",
+          "expected_wholefield_match_count": 1
+        }
+      ],
+      "reason": "WholeG001 current comparison amendment using acceptedT0777C0911; retain C0035 ownKarlsson[?] raw, nooriginalrepeat.",
+      "append_supports": [
+        {
+          "object": "AUDIT-T0777-C0911-Torvald",
+          "version": 1,
+          "role": "context",
+          "note": "Accepted later C0911 name reading only; does not replace C0035 ownraw."
+        }
+      ]
+    }
+  ],
+  "retain_unspecified_fields_metadata_evidence_origins": true,
+  "unresolved_rebinds": "Return actual revisions before applying dependent changes."
+}

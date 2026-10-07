@@ -1,0 +1,221 @@
+{
+  "schema": "independent-header-geometry/1",
+  "task": "T-0677",
+  "scope": "G001 C-0020 nr 15 only",
+  "date": "2026-10-01",
+  "reviewer": "independent Astra source reviewer",
+  "stage": "HEADER_GEOMETRY_ONLY",
+  "independence": {
+    "prior_transcriptions_read": false,
+    "primary_results_read": false,
+    "substantive_cells_transcribed": false,
+    "note": "Whole page and header/row boundary crops viewed; no cell values assessed or transcribed. Scope label supplied by lead, not independently established from page heading."
+  },
+  "source": {
+    "path": "genealogy/media/C-0020-riksarkivet-SCB-hyltinge-fodda-1920-bild-233.jpg",
+    "sha256": "e782e26cd5a16cc2b65333c9c46e64ef7d1833da49c10e9cbb59b8c37be7851f",
+    "verified": true,
+    "width": 6303,
+    "height": 4125
+  },
+  "geometry": {
+    "coordinates": "Approximate original-image pixels, origin top-left. Skew means x bounds drift slightly down page.",
+    "header_bbox": [
+      350,
+      475,
+      5990,
+      865
+    ],
+    "target_row_bbox": [
+      330,
+      1680,
+      5970,
+      2010
+    ],
+    "row_boundary_note": "Nr 15 is the fourth numbered entry on the page, between 14 and 16. One child entry at left corresponds to two labelled parent lines Fader/Moder on right. Dotted horizontal baselines are writing guides, not complete solid record boxes. Vertical extent must encompass both parent lines and any note within their band; no continuation beyond this page established.",
+    "columns": [
+      {
+        "number": "1",
+        "header": "Inskrifningens löpande årsnummer.",
+        "x": [
+          350,
+          530
+        ]
+      },
+      {
+        "number": "2",
+        "group": "Född",
+        "header": "år och månad.",
+        "x": [
+          530,
+          750
+        ]
+      },
+      {
+        "number": "3",
+        "group": "Född",
+        "header": "dag.",
+        "x": [
+          750,
+          860
+        ]
+      },
+      {
+        "number": "4",
+        "group": "Räknad till församlingen. / Lefv. född.",
+        "header": "m.",
+        "x": [
+          860,
+          930
+        ]
+      },
+      {
+        "number": "5",
+        "group": "Räknad till församlingen. / Lefv. född.",
+        "header": "k.",
+        "x": [
+          930,
+          1000
+        ]
+      },
+      {
+        "number": "6",
+        "group": "Räknad till församlingen. / Död-född.",
+        "header": "m.",
+        "x": [
+          1000,
+          1070
+        ]
+      },
+      {
+        "number": "7",
+        "group": "Räknad till församlingen. / Död-född.",
+        "header": "k.",
+        "x": [
+          1070,
+          1150
+        ]
+      },
+      {
+        "number": "8",
+        "header": "Dopnamn (förnamn).",
+        "x": [
+          1150,
+          2400
+        ]
+      },
+      {
+        "number": "9",
+        "group": "Föräldrar.",
+        "header": "Namn, yrke, nationalitet och religionsbekännelse (om främmande), bostad samt tid för äktenskaps ingående.",
+        "subrows": [
+          "Fader:",
+          "Moder:"
+        ],
+        "printed_marriage_anchor": "g.",
+        "x": [
+          2400,
+          4300
+        ]
+      },
+      {
+        "number": "10",
+        "group": "Föräldrar.",
+        "header": "Födda år, dag och månad.",
+        "x": [
+          4300,
+          4515
+        ]
+      },
+      {
+        "number": "11",
+        "group": "Modren.",
+        "header": "Gift.",
+        "x": [
+          4515,
+          4615
+        ]
+      },
+      {
+        "number": "12",
+        "group": "Modren.",
+        "header": "Änka el. frånskild.",
+        "x": [
+          4615,
+          4695
+        ]
+      },
+      {
+        "number": "13",
+        "group": "Modren.",
+        "header": "Trolofvad.",
+        "x": [
+          4695,
+          4770
+        ]
+      },
+      {
+        "number": "14",
+        "group": "Modren.",
+        "header": "Ogift.",
+        "x": [
+          4770,
+          4890
+        ]
+      },
+      {
+        "number": "21",
+        "header": "Särskilda anteckningar, såsom om modrens nedkomstort (om annan än församlingen), kyrkotagning såsom fästekvinna, inkomna och afsända attester m. m.",
+        "x": [
+          4890,
+          5980
+        ],
+        "number_note": "Visible printed number reads 21, despite adjacency to 14; retain visible numbering and do not silently renumber 15."
+      }
+    ]
+  },
+  "source_specific_cautions": [
+    "The page has no visible place/year title in the displayed upper margin; metadata label Hyltinge 1920 comes from supplied scope.",
+    "Birth columns 2–3 and parent birth column 10 differ; column 10 explicitly orders year, day and month.",
+    "Columns 11–14 concern Modren, not an independent sex classification or modern inferred marital status.",
+    "No separately printed baptism-date, witness or midwife columns are visible on this page. Do not import a generic birth-register layout.",
+    "Column 9 combines several information kinds in one cell and has two parent subrows plus a marriage anchor; these require explicit assignments during authorized reading.",
+    "Geometry crop can include adjoining writing at upper/lower edge; boundary rather than rectangular crop alone defines record scope."
+  ],
+  "derivatives": [
+    {
+      "path": "genealogy2/verification/T-0677/c0020-independent-header-crop-20261001.png",
+      "sha256": "2dad64485b84c8d415c73c518baca0e530f6080285288914ffea6bfbe48b143d",
+      "crop_bbox": [
+        330,
+        465,
+        6010,
+        875
+      ],
+      "resized_width": 2840
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0020-independent-row15-boundary-20261001.png",
+      "sha256": "e2dbae782e76edd030557268c2fcf213f065112e1e287ff5fc784b1ad6122240",
+      "crop_bbox": [
+        330,
+        1670,
+        6010,
+        2050
+      ],
+      "resized_width": 2272
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0020-independent-header-right-20261001.png",
+      "sha256": "0bcecec6ffb686939ac8c75e5fb3edb4d83acea6a9173a17ba776dfde6fd31f0",
+      "crop_bbox": [
+        4490,
+        480,
+        6000,
+        840
+      ],
+      "resized_width": null
+    }
+  ],
+  "next_gate": "Await finite approved raw-reading gap mask before substantive cell reading."
+}

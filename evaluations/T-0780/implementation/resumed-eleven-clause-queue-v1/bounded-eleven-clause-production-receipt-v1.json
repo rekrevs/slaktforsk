@@ -1,0 +1,83 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T07:04:05.168616+00:00",
+  "source_pin": {
+    "path": "evaluations/T-0780/source-review/resumed-eleven-reviewer-clause-decisions-v1.json",
+    "sha256": "a7ed63ff0bab331568bdd30efc124f740343354c63c8a1aeef40a852772b5280"
+  },
+  "candidate_modules": [
+    {
+      "path": "evaluations/T-0780/implementation/resumed-eleven-clause-queue-v1/01-superseding-operation-v1.json",
+      "sha256": "a089081bfc7483dfb74ba4fc0ca210f42b2b5cc0c8e18f202cae76bcfdbcf203"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/resumed-eleven-clause-queue-v1/02-superseding-operation-v1.json",
+      "sha256": "b7f31a770e689c9b7b45dbb3f84b550828b9e3684fa175f884244f9293f4d877"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/resumed-eleven-clause-queue-v1/03-superseding-operation-v1.json",
+      "sha256": "a0baa485c859c21cd69b1678ca9abcb2e3d54362c9985628b823eb700015286a"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/resumed-eleven-clause-queue-v1/04-three-former-retain-path-revisions-operation-v1.json",
+      "sha256": "da3602623fce8e78dd0d9a2e6ad498736d7b812fbf1cdbc2f656448995b3210b",
+      "index": 125,
+      "operation_id": "T-0780/resumed-eleven-three-former-retain-path-revisions-v1",
+      "targets": [
+        {
+          "id": "PATH-P-0097-KP-01",
+          "expectedVersion": 1,
+          "payload_sha256": "e60143f4dca9ac3cc8fbdc0cefd6aaa621eab89e4aa3ec09cd2a3433eeb29c9e"
+        },
+        {
+          "id": "PATH-P-0101-KP-05",
+          "expectedVersion": 1,
+          "payload_sha256": "1016c2c3de220e55f48e4101cc31fd476345f18a48b838e564624c2743de794f"
+        },
+        {
+          "id": "PATH-P-0100-KP-02",
+          "expectedVersion": 1,
+          "payload_sha256": "62abb5dc4159e1c513d67fefd7e932270a0c198165e2a0aa445669ccef222733"
+        }
+      ],
+      "changes": 3
+    }
+  ],
+  "proof_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-eleven-clause-queue-v1/eleven-full-payload-reconstruction-proof-v1.json",
+    "sha256": "9d662751f24cabcc4f1cb7e051f84072bcb62fb5ace17ca852ec24de7aa0e7e7"
+  },
+  "field_table_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-eleven-clause-queue-v1/individual-full-field-consequence-table-v1.json",
+    "sha256": "dd608d85daebf5579f50199160f64a815b782c62f44b18dfeb2fb88ffba8b068"
+  },
+  "input_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-eleven-clause-queue-v1/full-current-history-incoming-and-support-input-v1.json",
+    "sha256": "7a63a4f14325856bc790c46a3b35f9174affdbf2b2e75dec1ff1d08ad4d5fdda"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-eleven-clause-queue-v1/current125-candidate-membership-inventory-v1.json",
+    "sha256": "95d2b4ef61a6cda79d3ad82af50f6a7bbd9b45fcd6a98f848c71881c83e4691e"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-eleven-clause-queue-v1/concrete-current125-partial-sequence-and-constraint-proposal-v1.json",
+    "sha256": "06cbad514f5b9d6d55a72acfcec028cdf6fc6f0a529f1140310599d59b0525b2"
+  },
+  "body_clauses_revised": 11,
+  "amended_existing_candidates": 8,
+  "former_retains_revised": 3,
+  "other_whole_candidate_payloads_retained_exact": 13,
+  "full_field_entries": 143,
+  "all_history_incoming_edges": 0,
+  "current_incoming_edges": 0,
+  "incoming_distinct_fullobjects": 0,
+  "support_fullobjects": 7,
+  "static_head_order_violations": [],
+  "protected_grade_outcome_fields_unchanged": true,
+  "arrays_evidence_origins_metadata_order_preserved": true,
+  "canonical_apply_stage_probe": "UNRUN",
+  "independent_actual_and_global_source_binding": "PENDING",
+  "elapsed_build_seconds": 0.5279300212860107,
+  "failed_attempts": [],
+  "actual_model_usage": "Root collects after final; not observable here."
+}

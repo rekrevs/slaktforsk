@@ -1,0 +1,127 @@
+{
+  "case": "B",
+  "review_mode": "Independent blind initial inventory and decisions frozen before primary claim reading; postfreeze exact-claim/native-copy audit and semantic missing-copy routing.",
+  "initial_freeze_sha256": "7c4e30d4ba57e37d50ff10beaaabd8b6b6d89c9fcc3069f8b2b3e5a922c32c59",
+  "initial_freeze_unchanged": true,
+  "status": "review complete; three material support/retain coverage findings await primary disposition; not candidate approval",
+  "scope": [
+    "P-0003",
+    "P-0042",
+    "P-0043"
+  ],
+  "checks": {
+    "primary_claims": 78,
+    "primary_batches": 13,
+    "existing_revisions": 15,
+    "new_objects": 4,
+    "exact_quotes": "PASS; see B-primary-technical-check.json",
+    "preserved_old_metadata": "PASS for all 15 revisions",
+    "source_matrix": "Exact equality to primary reconciled B; own raw reservations remain separately recorded",
+    "pending_routing": 21
+  },
+  "findings": [
+    {
+      "id": "B-RF01",
+      "severity": "material",
+      "primary_claim": "B061",
+      "objects": [
+        "F-P-0042-occupation-1930@1",
+        "BIO-P-0042@4",
+        "new P-0042 B adoption"
+      ],
+      "independent_claims": [
+        "B-R011",
+        "B-R057"
+      ],
+      "problem": "Own parish occupation f.d. maskinarbetare in 1930 is stronger separate evidence. Revised BIO retains the text but describes older register-/församlingsunderlag, with added exact grounds centered on old register adoption and research rather than the direct occupation fact. New adoption calls it an older register report.",
+      "old_ground": "F-P-0042-occupation-1930@1 value_json: place Flen, title f.d. maskinarbetare, year 1930; own parish evidence R01d7@1, Björkhem folio563 rows8–10. Exact fact and support read in independent phase.",
+      "source_observation": "SCB J. Maskinarb. is a distinct source report; prefix expansion and pension date remain unresolved.",
+      "action": "Add individually grounded keep disposition for this exact older occupation fact and direct version-bound F/R support to the revised BIO and new Karl adoption. Explicitly preserve own parish f.d. report beside SCB report; no pension-day inference.",
+      "status": "open"
+    },
+    {
+      "id": "B-RF02",
+      "severity": "material retain coverage",
+      "objects": [
+        "F-P-0003-residence-Bjorkhem1930@1"
+      ],
+      "independent_claims": [
+        "B-R018",
+        "B-PEER-05"
+      ],
+      "problem": "Primary routes this fact pending without individual disposition. Berggatan21 is older positive own-parish support, not supplied or contradicted by SCB.",
+      "old_ground": "value_json address Berggatan21, folio563, place Björkhem1 Flen, year1930; R01d7@1 own parish source.",
+      "source_observation": "B gives bounded place/folio, not street number21.",
+      "action": "Record exact keep and original own-parish ground. No native value change required; do not drop street because SCB omits it.",
+      "status": "open"
+    },
+    {
+      "id": "B-RF03",
+      "severity": "material support coverage",
+      "independent_claims": [
+        "B-R025",
+        "B-R026",
+        "B-R027",
+        "B-R029",
+        "B-R030"
+      ],
+      "objects": [
+        "P-0042 foster-parent to P-0003",
+        "P-0043 foster-parent to P-0003",
+        "P-0009 mother to P-0003",
+        "P-0042 parent to P-0009",
+        "P-0043 parent to P-0009"
+      ],
+      "problem": "Primary role conclusion and owner-father keep do not individually dispose the five exact supporting relationship edges or explicitly reuse their version-bound grounds in new adoptions. Established maternal chain must have concrete older supports rather than SCB role-glyph inference.",
+      "old_ground": "Five exact edge objects/versions/fields and support quotes are in immutable independent B batches (B-R025/026/027/029/030). Own Flen1918 R-e67bb and Ada1886 Rdc7d/R6afb/R723 chain, separate from uncertain SCB role marks.",
+      "source_observation": "SCB foster/dotterson-like marks remain reserved; no new biological relation from them.",
+      "action": "Add one <=6-claim grounded keep batch, or explicit version-bound reuse of these five exact nodes and their existing support in affected new adoptions. Preserve old relations without adding a source-derived biological conclusion.",
+      "status": "open"
+    }
+  ],
+  "postpeer_pending_routes": {
+    "count": 21,
+    "files": [
+      "B-postpeer-routing/01.json",
+      "B-postpeer-routing/02.json",
+      "B-postpeer-routing/03.json",
+      "B-postpeer-routing/04.json"
+    ],
+    "purpose": "Concrete keep/exclude dispositions for every primary pending item; exact windows and topic grounds, not full lifetime audit.",
+    "coverage_limit": "AUDIT-C0030 relevant keyword-routed window55000:59000 only; entire61028-character payload not claimed read."
+  },
+  "own_initial_material_misses_found_by_peer": [
+    {
+      "object": "KEY-P-0043-0d4108391fa3@1",
+      "disposition": "Primary exact birth-locality-copy correction independently checked against full current field and actual revised native copy; accepted."
+    },
+    {
+      "object": "PATH-P-0043-KP-05@1",
+      "disposition": "Primary correction of automatic identity-level uplift independently checked against old body and actual native revision; accepted."
+    }
+  ],
+  "accepted_primary_specifics": [
+    "Income9 and separate wealthdash preserved, old independently tested900 unit retained with exact old support.",
+    "THEME-P-0003-EKO source-year wording correctly avoids exact earnings-year overclaim.",
+    "Explicit civil-sex-column assignment for three persons retains old caveat as historical scope, and does not lift identity gates.",
+    "Mother own Lerbo remains stronger beside SCB ditto LillaMellösa variant; Anderslund parental residence is not physical delivery location.",
+    "Baptist belongs mother only; new adoption sufficiently records it without conversion-date inference from23.",
+    "Historical narrow extraction/index-adoption texts can remain historical when separate full bounded SCB adoption is explicit; own proposed broad rewrites are not mandatory."
+  ],
+  "unresolved_source_reservations": [
+    "Karl surname and J. prefix/code",
+    "Mother surname/code232 and V/bluecheck23 meaning",
+    "Arne surname/struck role glyphs and X code",
+    "No automatic child-count biological expansion or neighbor identification"
+  ],
+  "limits": [
+    "No canonical/native apply or reference answers used.",
+    "Technical quote/metadata PASS is not semantic acceptance.",
+    "Initial independent files untouched; all peer additions separate."
+  ],
+  "candidate_input_hashes": {
+    "B-inventory.json": "8c9eaf8311dccdc0713118583a675573f174da198b9cf4dc3f531d4a13b831e5",
+    "B-decisions.json": "5f6edf8002805f25483c81d99c32b0783df9b7bd2094e1addb4e50ab7f5ec3c3",
+    "B-change-plan.json": "19b306ffc6a4cd38bb996f77c78cd1dd9d4d107d25a109a01898441aa26aa018"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "started_at_utc": "2026-10-01T17:14:32.838419+00:00",
+  "database": "/private/tmp/t0774-sol-test-2pi0cyyf/research.sqlite",
+  "journal": "/private/tmp/t0774-sol-test-2pi0cyyf/journal",
+  "operations": [
+    {
+      "path": "/Users/sverker/repos/slaktforsk/evaluations/T-0774/candidate/B-reviewed-operation-trial-v1.json",
+      "id": "T-0774/B-claim-consolidation-draft-v1",
+      "sha256": "5e9cacf200defbb7a16a18c73f12db1c8f3213a53f9889ab6b89ea5add65936a"
+    }
+  ],
+  "commands": [
+    {
+      "args": [
+        "apply",
+        "/Users/sverker/repos/slaktforsk/evaluations/T-0774/candidate/B-reviewed-operation-trial-v1.json"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Beläggsversion saknas eller är inaktuell: R-70eeff109bc651dce649a0ee@1\n"
+    }
+  ],
+  "full_object_mismatches": [],
+  "state": "FAILED",
+  "error": "Isolated apply failed; retain this attempt, decide before retry.",
+  "ended_at_utc": "2026-10-01T17:14:32.993110+00:00"
+}

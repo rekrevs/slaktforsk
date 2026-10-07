@@ -1,0 +1,23 @@
+{
+  "task": "T-0791",
+  "amendment": "intra-operation-MIL-PATH-current-support-v1",
+  "date": "2026-10-06T18:00:45.458865+00:00",
+  "sourceSpec": "primary-decisions-v4.json",
+  "sourceSpecSha256": "c9ec931753552d23473bba8baa7cd3b1194eb1bac1bbf075e977c50f76d66035",
+  "decision": "Approved bounded rebind and order only; retain all60individual judgements and25literal correctedfields.",
+  "object": "THEME-P-0001-MIL",
+  "supportFrom": "PATH-P-0001-KP-04@2",
+  "supportTo": "PATH-P-0001-KP-04@3",
+  "sourceReason": "PATH@3 preserves exact C0924 historical catalogue-only result, explicitly limits it to livkompani vol2 and leaves alternative inskrivnings/stamkort paths untested. These are precisely the MIL amendment grounds already approved. OldPATH@2 wording described a wider completed boundary; newMIL must bind correctedPATH@3, not the superseded scope. No new source evidence or service claim.",
+  "ordering": [
+    "PATH-P-0001-KP-04@3 before THEME-P-0001-MIL@3",
+    "THEME-P-0001-MIL@3 before LIFE-T0791-P0001@1"
+  ],
+  "preserve": [
+    "stage461-v1 transactional rejection and failure-preserved.json",
+    "all existing evidence/origin order except explicit appended newPATHsupport version",
+    "no automatic extra rebinds"
+  ],
+  "canonicalApproval": false,
+  "next": "Sol materializes exact amended operation/consequencehash then primary+independent fresh clone gates; stageddependencyreview remains required."
+}

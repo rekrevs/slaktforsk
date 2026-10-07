@@ -1,0 +1,204 @@
+{
+  "case": "A",
+  "scope": "Closure of the ten material copy findings and five integration findings against revised 90 claims and actual 23-change native draft; no references/current DB/apply.",
+  "initial_freeze_unchanged": true,
+  "batches": {
+    "count": 15,
+    "claims": 90,
+    "all_batches_at_most_six": true,
+    "exact_quote_check": "PASS including all structured quoted_value fields"
+  },
+  "actual_draft": {
+    "existing_revisions": 19,
+    "new_source_and_adoptions": 4,
+    "all_existing_origins_evidence_assets_retained": true
+  },
+  "copy_closures": [
+    {
+      "finding": "A-RF01",
+      "claim": "A-079",
+      "object": "KEY-P-0007-bf37119ff18f@1",
+      "result": "semantic correction present in actual proposed data; accepted",
+      "grounds": "The current finalcell overstates exactdate repetition; sourceA no visibleyear and ownC0019 year-only are already explicit. Retain strongexactevent while narrowingprecisionclaim."
+    },
+    {
+      "finding": "A-RF02",
+      "claim": "A-080",
+      "object": "BIO-P-0007@6",
+      "result": "semantic correction present in actual proposed data; accepted",
+      "grounds": "Separate currentcopy omits the already sufficient initialownrow; initialrow and subsequentgap mustbothbevisible."
+    },
+    {
+      "finding": "A-RF03",
+      "claim": "A-081",
+      "object": "BIO-P-0016@1",
+      "result": "semantic correction present in actual proposed data; accepted",
+      "grounds": "Exactwidowday conflict is already recorded andcannot be resolved by SCBnoownwidowday. Preserve maindeathcontext whilemakingconflict visibleinthiscopy."
+    },
+    {
+      "finding": "A-RF04",
+      "claim": "A-082",
+      "object": "KEY-P-0007-5c939ee32973@2",
+      "result": "semantic correction present in actual proposed data; accepted",
+      "grounds": "The priorwholekeykeep A072 omitted exactdayqualification fromtext. Retain name/spouseidentity butqualify this precisionin the keyitself."
+    },
+    {
+      "finding": "A-RF05",
+      "claim": "A-083",
+      "object": "KEY-P-0007-5c939ee32973@2",
+      "result": "semantic correction present in actual proposed data; accepted",
+      "grounds": "This additional finalcell claimed unwarranteddaycertainty; the establishedspousebinding ispositiveoldknowledge andremains distinctfromdayconflict."
+    },
+    {
+      "finding": "A-RF06",
+      "claim": "A-084",
+      "object": "RESEARCH-P-0015-9d76f0343410@2",
+      "result": "semantic correction present in actual proposed data; accepted",
+      "grounds": "Globalcertainty/unreadassertion contradicts already explicitsource/residuals. Do not downgrade acceptedidentity orstrongdates; remove absolutestatus while retaining historicalversion."
+    },
+    {
+      "finding": "A-RF07",
+      "claim": "A-085",
+      "object": "RESEARCH-P-0015-9d76f0343410@2",
+      "result": "semantic correction present in actual proposed data; accepted",
+      "grounds": "Currentno-promotionprefix and preservationscope prohibit treating filepresence asautomaticgateapproval."
+    },
+    {
+      "finding": "A-RF08",
+      "claim": "A-086",
+      "object": "P-0016/Q-04@1",
+      "result": "semantic correction present in actual proposed data; accepted",
+      "grounds": "Reuse positiveownmotherhousehold asknownanchor inthisactual1913–1929question; fatherdeparture remainsnontransferable."
+    },
+    {
+      "finding": "A-RF09",
+      "claim": "A-087",
+      "object": "PATH-P-0016-KP-01@1",
+      "result": "semantic correction present in actual proposed data; accepted",
+      "grounds": "Bothfailedtests maystayhistory but cannot implyabsenceafterknownpositiveownhousehold. Continuationgap stillopen."
+    },
+    {
+      "finding": "A-RF10",
+      "claim": "A-088",
+      "object": "KEY-P-0016-7188e33f657e@1",
+      "result": "semantic correction present in actual proposed data; accepted",
+      "grounds": "Thiscopy mustcarry thesamepositive1920anchorwithoutclaimingclosed1913–1929chain or borrowingfathermigrationday."
+    }
+  ],
+  "integration_closures": [
+    {
+      "finding": "A-RI01",
+      "result": "closed",
+      "grounds": "Actual BIO full first sentence preserves date, parents and third-child order; separate residence boundary is grammatical."
+    },
+    {
+      "finding": "A-RI02",
+      "result": "closed",
+      "grounds": "All three proposed adoption objects now explicitly link old exact-version vital/name/occupation/household/widow support in addition to new source."
+    },
+    {
+      "finding": "A-RI03",
+      "result": "closed",
+      "grounds": "A027 replaced by individually quoted job/cottage/continuity claims; all15 batches have6 items."
+    },
+    {
+      "finding": "A-RI04",
+      "result": "closed",
+      "grounds": "All90 exact string offsets/structured quoted_value agree with immutable baseline."
+    },
+    {
+      "finding": "A-RI05",
+      "result": "closed",
+      "grounds": "Actual reading_note has correct punctuation and explicitly retains weak month5 in raw matrix; no exact event downgrade."
+    }
+  ],
+  "remaining_material_issues": [],
+  "claim_traceability_note": "A079 actual batch now links exact C0028/C0019 grounds and gives specific date-precision observation. A-review-responses copy RF01 old_support still shows its earlier template; actual reviewed batch/native edges govern closure, so this response-summary staleness is non-material.",
+  "status": "A closure accepted: all prior semantic/integration findings and actual native old-support edges repaired; raw source reservations and gates retained; no apply.",
+  "reviewed_input_sha256": {
+    "candidate/claims/A-review-responses.json": "66f66f07a3a5e00c652936ba12c649e4cc85ff7d39404b290d638dc502ec05b2",
+    "candidate/claims/A-change-plan.json": "bd0ab844569f4bb13b6efdf244746b010239962b045c772fdbb1be61cdeb29dd"
+  },
+  "native_support_followup": [
+    {
+      "object": "BIO-P-0016",
+      "required_exact_edges": [
+        "O-P-0016-widow-row13-variant@1",
+        "F-P-0016-civil_status-widow1913@1"
+      ],
+      "present": true,
+      "actual_edges": [
+        "F-P-0016-civil_status-widow1913@1",
+        "O-P-0016-widow-row13-variant@1",
+        "TR-T0774-A-full-source@1"
+      ]
+    },
+    {
+      "object": "KEY-P-0007-5c939ee32973",
+      "required_exact_edges": [
+        "O-P-0016-widow-row13-variant@1",
+        "F-P-0016-civil_status-widow1913@1"
+      ],
+      "present": true,
+      "actual_edges": [
+        "F-P-0016-civil_status-widow1913@1",
+        "O-P-0016-widow-row13-variant@1",
+        "O-T0677-C0033-row2-arrival-ditto@1",
+        "TR-T0677-C0033-row2-control@1",
+        "TR-T0774-A-full-source@1"
+      ]
+    },
+    {
+      "object": "P-0016/Q-04",
+      "required_exact_edges": [
+        "O-P-0007-located-own-row@1",
+        "R-e15535f496176e63f9c9b415@1"
+      ],
+      "present": true,
+      "actual_edges": [
+        "O-P-0007-located-own-row@1",
+        "R-e15535f496176e63f9c9b415@1",
+        "TR-T0774-A-full-source@1"
+      ]
+    },
+    {
+      "object": "PATH-P-0016-KP-01",
+      "required_exact_edges": [
+        "O-P-0007-located-own-row@1",
+        "R-e15535f496176e63f9c9b415@1"
+      ],
+      "present": true,
+      "actual_edges": [
+        "O-P-0007-located-own-row@1",
+        "R-e15535f496176e63f9c9b415@1",
+        "TR-T0774-A-full-source@1"
+      ]
+    },
+    {
+      "object": "KEY-P-0016-7188e33f657e",
+      "required_exact_edges": [
+        "O-P-0007-located-own-row@1",
+        "R-e15535f496176e63f9c9b415@1"
+      ],
+      "present": true,
+      "actual_edges": [
+        "O-P-0007-located-own-row@1",
+        "R-e15535f496176e63f9c9b415@1",
+        "TR-T0774-A-full-source@1"
+      ]
+    },
+    {
+      "object": "KEY-P-0007-bf37119ff18f",
+      "required_exact_edges": [
+        "R-C0028-15@1"
+      ],
+      "present": true,
+      "actual_edges": [
+        "ADOPT-T0677-C0019-P-0007@1",
+        "R-C0028-15@1",
+        "TR-T0677-C0019-family2@1",
+        "TR-T0774-A-full-source@1"
+      ]
+    }
+  ]
+}

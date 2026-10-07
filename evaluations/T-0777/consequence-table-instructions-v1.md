@@ -1,0 +1,11 @@
+# T-0777: consequence table requirements before source decisions
+
+The frozen T-0775 rubric remains the source/contract norm; this table implements T-0777 AC3. It is an instruction, not a source finding or completed disposition.
+
+Each decided source datum must map to every relevant current native copy. Each row records source datum/region, exact object ID and version, exact field path, full old claim quote and necessary paragraph context, exact bound older support/revision and its scope, new source support/revision and scope, disposition, reason, approved new field text if revised, implementation operation/change, and verification result. Retains need individual reasons grounded in the object's own claim and older support, not generic consistency or model agreement. Distinguish historical wording from current knowledge.
+
+Search current facts, observations, narratives, questions, search keys, assessments and source paths also without a C-id. Search for semantics of negation, exact absence, gaps, occupation, dated anchors, and source variants. Re-read full relevant fields after truncated routing. A raw ditto may repeat an individual cell despite an unwritten word; attribution is Astra's judgement. Newly dated source anchors must reach descriptions of gaps and future paths, without inferring continuous physical presence. 'Untried' must identify the exact remaining source/question rather than blanket ignorance.
+
+An approved replacement must have its exact expected match count against the captured actual current field. Zero matches, different wording, versions, supports or multiple ambiguous matches go back to Astra. Sol must not invent a synonym correction or automatically bump versions/supports. Older stronger evidence is assessed from full current native objects/histories; mechanical capture is not original rereading or evidence adjudication.
+
+Relevant discoveries may add routing in sidecars without altering a frozen selection. Full relevant opened records include related household/context rows; unrelated page occupants remain outside. Independent final Astra reads originals and older support and searches outside Sol's consequence list. No known discovered material error or undisposed relevant current copy may remain before final PASS. Model consensus never supplies historical evidence.

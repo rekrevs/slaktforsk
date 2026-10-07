@@ -1,0 +1,55 @@
+{
+  "authorization": "PREPARATION_NOT_ROOT_AUTHORIZATION",
+  "root_authorized": false,
+  "canonical_apply_authorized": false,
+  "resolution_apply_authorized": false,
+  "helper_pin": {
+    "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v3.py",
+    "sha256": "c6d8cf3885e55ffd180fa47dd1b791a4889e4ea36d5d5fd57d25b881039ac114"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0781/implementation/complete-two-source-settled-draft-package-v3/complete-two-source-draft-package-proposal-v1.json",
+    "sha256": "ac29c6eac172cabecc2d403b85bb0833cc9391eda1f635975a2a972f85b9aa96"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0781/implementation/complete-two-source-settled-draft-package-v3/complete16-operation174-target-ordered-membership-v1.json",
+    "sha256": "1d6fe41f53c2ecec88251ffb7823eb074c52c70b0d531e801aac3f08b2bdaa0c"
+  },
+  "primary_gate": {
+    "pin": {
+      "path": "evaluations/T-0781/source-review/exact-two-source174-complete-primary-prestage-readiness-gate-v1.json",
+      "sha256": "8ab5f89d054150fc99b62df3d9d5ce9116bd6e1213b20e57b421ad5af12c3d4e"
+    },
+    "ready_pointer": "/source_ready",
+    "proposal_sha_pointer": "/proposal_pin/sha256",
+    "membership_sha_pointer": "/membership_pin/sha256"
+  },
+  "independent_prestage_gate": {
+    "pin": {
+      "path": "ROOT_MUST_BIND_SEPARATE_FINAL_GATE",
+      "sha256": "ROOT_MUST_BIND_SHA256"
+    },
+    "ready_pointer": "ROOT_MUST_SELECT_LITERAL_TRUE_POINTER",
+    "proposal_sha_pointer": "/proposal_pin/sha256",
+    "membership_sha_pointer": "/membership_pin/sha256"
+  },
+  "fresh_baseline_receipt_pin": {
+    "path": "ROOT_MUST_BIND_FRESH_ALL50_BASELINE_RECEIPT",
+    "sha256": "ROOT_MUST_BIND_SHA256"
+  },
+  "baseline_pin": {
+    "path": "evaluations/T-0781/mechanical-current425-preparation-v1/baseline-j425.sqlite",
+    "sha256": "ca59629e83c5f7d70dff7c342aca9e6e282bc60f4a03a4147ebc32bf7a118917"
+  },
+  "main_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "efea4dfa8feec3f2f5bff8167792b01513ebb5689d9d2ec5278983a23ca208b3"
+  },
+  "protected42_pin": {
+    "path": "evaluations/T-0781/mechanical-current425-preparation-v1/complete-current-OWNER-identity-tree-life-protected-native-payloads-v1.json",
+    "sha256": "34770e3082281dd6702bbf548c99f9a1ec9e4ca42cb1a292cdbcd7a55b013487"
+  },
+  "stage_path": "evaluations/T-0781/exact-two-final16-stage-v1",
+  "review_pins": [],
+  "media_pins": []
+}

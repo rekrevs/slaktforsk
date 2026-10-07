@@ -1,0 +1,138 @@
+{
+  "task": "T-0789",
+  "status": "CODE_PREPARATION_ONLY_NO_OPERATION_OR_RUNTIME_AUTHORIZATION",
+  "actual_native_handoff_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/readonly-bindings-projection-continuation-v1/complete-exact21-stage-result-and-Astra-handoff-v1.json",
+    "sha256": "48a2e147acdd02b3a6d0f540773a0d2517f295ce0febf20bb300ac6c6062318a"
+  },
+  "actual_stage_DB_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/stage.sqlite",
+    "sha256": "c14b718134c9973320440074ebde59ea3997b45699b135fbd2df6be20f567d71"
+  },
+  "actual_state": {
+    "journal_head": 453,
+    "pending": 16
+  },
+  "native_package_pin": {
+    "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-one-operation-package-proposal-v1.json",
+    "sha256": "0723670081d4bcdf4fdde23a7dd8e25166d889550ed090cdb8bca2317847ef6d"
+  },
+  "native_membership_pin": {
+    "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-ordered-operation-membership-v1.json",
+    "sha256": "20d156fd54ff29c5fc227e90f0246454e9e56b9bb4c9bc6aad3332488b4b03bf"
+  },
+  "native_operation_pin": {
+    "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-one-controlled-operation-v1.json",
+    "sha256": "e34073264fda8de0f4c9ed054afa5f5dbd20e2465508c149e2276ba8b04323e2"
+  },
+  "input_binding_projection_proof_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/readonly-bindings-projection-continuation-v1/exact-two-operational-bindings-and-native-projection-proof-v1.json",
+    "sha256": "7a5d54c1a50c89c31eb9441dc519eaf8119edd65c1cb6b05f4a0b6fa164a200d"
+  },
+  "helpers": [
+    {
+      "path": "evaluations/T-0789/preparation/build_root_authorized_exact16_resolver_and_two_operation_draft_v1.py",
+      "sha256": "1314974c0b0f2c2cfae50849e60b453ef86055c6514c7974c42b7ee40257b9b5"
+    },
+    {
+      "path": "evaluations/T-0789/preparation/resolve_root_authorized_exact16_same_stage_v1.py",
+      "sha256": "acbd9b0bace17f74ac2a03c5e407caacf876ad64b0128cb26aff2abd61a5d033"
+    },
+    {
+      "path": "evaluations/T-0789/preparation/apply_root_authorized_exact21_plus16_canonical_v1.py",
+      "sha256": "0db87ae6386293d275a43b4dcb0f08bde1887c799ab774320d0a1f0d0a0b7648"
+    }
+  ],
+  "exact_parent_diffs": [
+    {
+      "path": "evaluations/T-0789/preparation/build_root_authorized_exact16_resolver_and_two_operation_draft_v1.exact-T0788-parent.patch",
+      "sha256": "43cd83c27988c298926a1ec4d8166968fb4670cae88d33f5d1713a0c7843a70c"
+    },
+    {
+      "path": "evaluations/T-0789/preparation/resolve_root_authorized_exact16_same_stage_v1.exact-T0788-parent.patch",
+      "sha256": "d3673bd74d19c6929a1b63dfd3ea530d98cda674175022cf329208a5fa9c6348"
+    },
+    {
+      "path": "evaluations/T-0789/preparation/apply_root_authorized_exact21_plus16_canonical_v1.exact-T0788-parent.patch",
+      "sha256": "ce2d984a221e1365e60eb23f3cf83b243a2763b17f987287f4b20cdc8a626425"
+    }
+  ],
+  "AST_parse": "PASS",
+  "expected_phases": [
+    {
+      "phase": "draft16literalresolver",
+      "authority": "Both primary/independent exact actual16 own/comparative instruction gates and separate immutable root draft authorization",
+      "operation_count": 2,
+      "native_targets": 21,
+      "native_operation_must_remain_pin": {
+        "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-one-controlled-operation-v1.json",
+        "sha256": "e34073264fda8de0f4c9ed054afa5f5dbd20e2465508c149e2276ba8b04323e2"
+      },
+      "resolver_shape": {
+        "changes": [],
+        "dependencyReviewVersion": 2,
+        "resolve": "EXACT16 ordered dual-approved literal {request,rationale}; not constructed"
+      },
+      "required_root_draft_auth_fields": [
+        "authorization=BUILD_EXACT16_LITERAL_RESOLVER_AND_TWO_OPERATION_DRAFT_ONLY",
+        "helper_pin",
+        "root_authorized=true",
+        "runtime_authorized=false",
+        "canonical_authorized=false",
+        "actual_native_handoff_pin",
+        "output_directory",
+        "resolution_operation_id",
+        "primary_actual_instruction_gate_pin",
+        "independent_actual_instruction_gate_pin",
+        "primary_ready_pointer",
+        "independent_ready_pointer",
+        "primary_instruction_rows_pointer",
+        "independent_instruction_rows_pointer",
+        "primary_resolution_instruction_pointer",
+        "independent_resolution_instruction_pointer",
+        "primary_actual_request_pointer",
+        "independent_actual_request_pointer",
+        "source_native_request_pointer",
+        "native_format_authority_pin",
+        "actual_request_pin",
+        "pre_resolution_stage_DB_pin",
+        "main_pin",
+        "native_prefix_package_pin",
+        "review_pins"
+      ]
+    },
+    {
+      "phase": "sameclone45316-to4540",
+      "authority": "Both whole built resolution/package bytegates and root separate runtime auth",
+      "requires_current_pending_exact_actual16": true,
+      "one_preservation_snapshot_only": "Absent snapshot of current same stage; no replacement/newclone",
+      "validators": [
+        "verify",
+        "verify-assets",
+        "verify-source",
+        "inventory",
+        "default verified P-0269",
+        "default verified P-0270"
+      ],
+      "only_append_tables": [
+        "operation",
+        "operation_payload",
+        "review_resolution"
+      ]
+    },
+    {
+      "phase": "canonical4520-to45316-to4540",
+      "authority": "Both FINAL actual454 source/consequence gates plus fresh root full50 current452/protected42/media baseline and root canonical auth",
+      "operations": "Exact unchanged21-native operation then exact16 resolver, sequential controlled CLI; no DB replacement",
+      "all50_final_comparator": "Root reviewed comparator only authorized2 runtime clocks, no derived exemption",
+      "step_states": "Must equal saved actualstage before/after; pending never inferred"
+    }
+  ],
+  "exact_two_binding_representation": "Raw submitted/stored operation keeps bindings.P7=2. Explicit persisted context evidence P7@2 is active version guard; only redundant two identity request fields excluded from native projection. All actual native21 payloads thereafter match saved reviewed stage whole.",
+  "source_and_independent_actual16_grades_pending": true,
+  "resolver_operation_constructed": false,
+  "helpers_executed": false,
+  "no_source_wording_or_API_changes": true,
+  "Wotan_mutation": false,
+  "usage": "UNKNOWN pending root collector"
+}

@@ -1,0 +1,39 @@
+{
+  "task": "T-0780",
+  "source_pins": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0069-eight-family-adoption-decisions-v1.json",
+      "sha256": "27cba577321ae97042d02440e51dcd6c95f59ed72314db9fe86d9c6b8d855039"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0069-fourteen-mention-identity-retain-decisions-v1.json",
+      "sha256": "e457b3d4525e11868a75f8e0acecb170095c5962a2ce607e167170284b544c46"
+    }
+  ],
+  "candidate_modules": [
+    {
+      "path": "evaluations/T-0780/implementation/C0069-eight-adoption-retain-queue-v1/eight-family-adoption-operation-v1.json",
+      "sha256": "d164b5c7dbfdc150228976a04c5ae3bc8f8c757c7da165659375029e52bc6518",
+      "changes": 8
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0069-eight-adoption-retain-queue-v1/individual-full-field-table-v1.json",
+      "sha256": "00a1db94304a0e402c670a716220c225679984088ec28dfa334b190ce8e89807"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0069-eight-adoption-retain-queue-v1/full-incoming-and-cross-module-dependency-input-v1.json",
+      "sha256": "9036302e4b62469d5760864de21c3b981a0dea69cfac0db28007c0e321c1e3de"
+    }
+  ],
+  "expected_unique_targets": 8,
+  "revised_objects": 0,
+  "new_objects": 8,
+  "all_exact_full_current_old_matches": "PASS",
+  "full_field_count": 154,
+  "incoming_edges": 0,
+  "cross_module_basis_questions": 0,
+  "stage_or_canonical_applies": 0,
+  "failed_attempts": 0,
+  "elapsed_seconds": 0.0047070980072021484,
+  "status": "Settled field candidates built; incoming basis dispositions and exact sequence pending Astra, not stage-ready"
+}

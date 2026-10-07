@@ -1,0 +1,9 @@
+# C-0106 independent original-first reading v1
+
+Whole spread and native-size target crop read before all prior/current claims. Source genealogy/media/C-0106-riksarkivet-SE-HLA-1010028-EI2-bild-27-vigsel-1867.jpg SHA256 fca0f73958627ca2af21d679836fd10f8e245885d7c98a24eb5cd688424711bd. Header Vigda1867 marks start after previous year's25/26. Scope nr1 only, both people, consent and complete right notes cells. Scan label warns insufficient contrast; not a record annotation.
+
+Printed columns: Lysningsnummer; Lysning månad/dag; Fästefolkens namn/stånd/embete/yrke/hemvist/nationalitet/trosbekännelse(omfrämmande); Födelseår; Hvilket gifte; Bevillning Rdr/öre; Lysnings-Charta Rdr/öre; Tillstånds Akt; Folio uti Husförhörsboken; Hinderslöshet/afvittring/giftomannasamtycke m.m.; Vigselns löpnummer,år,månad,dag; Särskilda anteckningar.
+
+Nr1: Jan6 banns. Hemmansegaren Anders Jonsson i Buberget; birth1839, written14/4 above; first marriage1. Nämndemansdottern Lotta Sophia Anders[dotter abbreviation] i [place uncertain]; birth1843,13/10; first marriage1. Groom folio215 (small overmark2 belongs field/context unresolved); bride folio14/4. Monetary, charta, tillstånd cells blank. Hinderslöshet field writes Nämndem[an] Anders Olofsson i [Ålå? uncertain place] Giftoman närvarande. No assertion here about bridefather beyond title giftoman; do not infer biological relation from role alone.
+
+Vigsel month Jan, day20 (last digit round0; initial whole image ambiguous20/22, enlarged image favors20). Year inferred from1867 section heading; own year cell blank. Vigselns löpnummer blank. Special notes blank, no marginal addition crossingtarget. Place in bride's row and giftoman row needs glyph verification; dates preserved separately from modern event normalization. No claim here that household sources or same registration chain are independent. No canonical identity inference.

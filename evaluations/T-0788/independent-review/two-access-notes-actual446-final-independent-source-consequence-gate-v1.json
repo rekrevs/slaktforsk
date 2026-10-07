@@ -1,0 +1,426 @@
+{
+  "tasks": [
+    "T-0788",
+    "T-0789"
+  ],
+  "at_utc": "2026-10-06T06:59:49.450291+00:00",
+  "decision": "PASS_FINAL_EXACT_TWO_ACCESS_NOTES_SOURCE_AND_CONSEQUENCE",
+  "finalreadyforcanonical": true,
+  "handoff_pin": {
+    "path": "evaluations/T-0788/two-access-notes-stage-v1/complete-two-access-search-stage-result-and-Astra-handoff-v1.json",
+    "sha256": "9e95c6518ef0ebcc72d23cc1a4a3eb5f810365e64433175e7ee72c1b059eaf72"
+  },
+  "ordered_package_pin": {
+    "path": "evaluations/T-0788/implementation/two-exact-access-search-ordered-package-v1.json",
+    "sha256": "32adeeda7acb673a434fa7fd960b0b2b264300c060286826f99888bac3f06839"
+  },
+  "operation_pins": [
+    {
+      "path": "evaluations/T-0788/implementation/operation-01-T-0788-access-search-v1.json",
+      "sha256": "96322334cf17ee931df57e9a16eb804c23b1b949a36da72e772484b27e72fc7b"
+    },
+    {
+      "path": "evaluations/T-0788/implementation/operation-02-T-0789-access-search-v1.json",
+      "sha256": "3b6684391097ea38c25a7cb61758dd5fd66c083838ade0961d257a9f778fb6e2"
+    }
+  ],
+  "stage_DB_pin": {
+    "path": "evaluations/T-0788/two-access-notes-stage-v1/stage.sqlite",
+    "sha256": "0e89a9ac483204c7bdf9b5916a58d93f87d257607648553aba7351685a2df12e"
+  },
+  "fresh_baseline_pin": {
+    "path": "evaluations/T-0788/implementation/fresh-baseline-j444.sqlite",
+    "sha256": "978670ec15c6c104ddb6a96aaeed760ff2d45793427efc763fc4bf5a40e84281"
+  },
+  "live_MAIN_unchanged_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "fe7369d016ec5150b14d075849caac96d71acfcd42d47357c4fe75afca761792"
+  },
+  "source_spec_pins": [
+    {
+      "path": "evaluations/T-0788/source-review/one-bounded-access-search-exact-primary-specification-v1.json",
+      "sha256": "f1f4ee6185dc7b52c906b32ccbe11e8a42ea2bd786bb5ba72b7177c06385c4c8"
+    },
+    {
+      "path": "evaluations/T-0789/source-review/one-bounded-access-search-exact-primary-specification-v1.json",
+      "sha256": "1f1e2c41d4afaf6bfb749a6c61c3675c360d7e7a96022391f040e36aaed31cfc"
+    }
+  ],
+  "own_exact_source_specification_review": {
+    "path": "evaluations/T-0788/independent-review/exact-two-access-source-specification-meaning-review-v1.json",
+    "sha256": "45498a4f65bcb0d006518d96a05a49135538435828368b44409cabc5a417360e"
+  },
+  "own_prior_freezes": [
+    {
+      "path": "evaluations/T-0788/independent-review/own-access-only-current-and-stronger-reuse-freeze-v1.json",
+      "sha256": "c5f9851f24c3a940566587ea74fcebec9d2cc079c055e25a1bfce7afaee6e78b"
+    },
+    {
+      "path": "evaluations/T-0789/independent-review/own-access-only-current-and-stronger-reuse-freeze-v1.json",
+      "sha256": "1211180d0568a862a5c93a3b93b638ce4f1fdc42c68ce7ebe191bf06a3df6e58"
+    }
+  ],
+  "actual_state": {
+    "journal_head": 446,
+    "pending": 0
+  },
+  "actual_sequential_steps": [
+    {
+      "operation_id": "T-0788/dated-bounded-access-search-note-v1",
+      "operation_pin": {
+        "path": "evaluations/T-0788/implementation/operation-01-T-0788-access-search-v1.json",
+        "sha256": "96322334cf17ee931df57e9a16eb804c23b1b949a36da72e772484b27e72fc7b"
+      },
+      "before": {
+        "journal_head": 444,
+        "pending": 0
+      },
+      "after": {
+        "journal_head": 445,
+        "pending": 0
+      }
+    },
+    {
+      "operation_id": "T-0789/dated-bounded-access-search-note-v1",
+      "operation_pin": {
+        "path": "evaluations/T-0788/implementation/operation-02-T-0789-access-search-v1.json",
+        "sha256": "3b6684391097ea38c25a7cb61758dd5fd66c083838ade0961d257a9f778fb6e2"
+      },
+      "before": {
+        "journal_head": 445,
+        "pending": 0
+      },
+      "after": {
+        "journal_head": 446,
+        "pending": 0
+      }
+    }
+  ],
+  "actual_requests": [],
+  "individual_actual_target_checks": [
+    {
+      "object": "SEARCH-T0788-Flen744-original-access@1",
+      "entire_stored_API_exact": true,
+      "entire_actual_data_and_metadata_ordered_edges_equals_own_reviewed_source_API": true,
+      "context_only_current_support_heads_exact": true,
+      "new_requests": []
+    },
+    {
+      "object": "SEARCH-T0789-Maj-1945-1946-own-register-access@1",
+      "entire_stored_API_exact": true,
+      "entire_actual_data_and_metadata_ordered_edges_equals_own_reviewed_source_API": true,
+      "context_only_current_support_heads_exact": true,
+      "new_requests": []
+    }
+  ],
+  "direct_readonly_SQL_old_table_checks": [
+    {
+      "table": "assessment",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "asset",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "dependency",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 3,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "document",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "document_search",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "document_search_config",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "document_search_content",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "document_search_data",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "document_search_docsize",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "document_search_idx",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "event",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "fact",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "identity",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "identity_resolution",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "import_batch",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "legacy_assertion",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "legacy_entity",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "legacy_mapping",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "mention",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "meta",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "narrative",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "native_asset",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "object",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 2,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "observation",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "operation",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 2,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "operation_payload",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 2,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "origin",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "participation",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "person",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "place",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "question",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "record",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "record_asset",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "record_media",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "relation",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "review_request",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "review_resolution",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "revision",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 2,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "search",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 2,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "source",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "transcription",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "unit",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "unit_decision",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    },
+    {
+      "table": "unit_decision_target",
+      "complete_old_rows_and_rowid_order_retained": true,
+      "new_rows": 0,
+      "live_baseline_exact": true
+    }
+  ],
+  "schema_and_live_baseline_exact": true,
+  "all50_derivedsearch_and_protected42_proof": {
+    "path": "evaluations/T-0788/two-access-notes-stage-v1/all50-old-ordered-rows-fullmetadata-protected42-and-exact-two-search-diff-v1.json",
+    "sha256": "ad33597d1898aa519b1a1152263a064f1921a45788147b9044ee6b607b41d040"
+  },
+  "actual_fullnative_support_proof": {
+    "path": "evaluations/T-0788/two-access-notes-stage-v1/two-actual-native-targets-full-API-order-and-current-support-equality-v1.json",
+    "sha256": "e457164107640b118ab7efb1c2e682dfe4e576d0e7ba2ed9c5d93e8f0aa0f038"
+  },
+  "validators": [
+    {
+      "path": "evaluations/T-0788/two-access-notes-stage-v1/verify.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0788/two-access-notes-stage-v1/verify-assets.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0788/two-access-notes-stage-v1/verify-source.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    },
+    {
+      "path": "evaluations/T-0788/two-access-notes-stage-v1/inventory.json",
+      "sha256": "719b3e7aa520f1ba499036c6d2f26e24eace026ee41aa4247885e3ddc4a0ddfd"
+    },
+    {
+      "path": "evaluations/T-0788/two-access-notes-stage-v1/P-0269-default-verified-pedigree.json",
+      "sha256": "5786584426fb0d37b0e7d5397eb711dfd2594ad1c75e02640dd157a0c4fbe870"
+    },
+    {
+      "path": "evaluations/T-0788/two-access-notes-stage-v1/P-0270-default-verified-pedigree.json",
+      "sha256": "bf6f665c74c5cfbec455d88030ae68e87d66e7740e81bbe1f021c8dd2ba73dc7"
+    }
+  ],
+  "both_default_verified_pedigrees_exact_accepted444": true,
+  "inventory_shared_aggregate_fields_unchanged": true,
+  "source_consequence_judgment": "Both actual full native search payloads exactly implement the personally reviewed source APIs. Root-observed dated publicfullmax401 and exactChromeLOGIN are limited access outcomes only. No originals or register content were received/read, no Maj/sister absence or source-exhaustion conclusion. Historical744hash and1945/46Jstarts remain routing; Arnepages remain notMajhits. Current strongest acceptedT0784 Maj/source/OWNER/relations and T0676grave credits remain unchanged; grave does not substitute for yearwiseownrows. Every existing native/person/PK/PATH/legacy/identity/tree/life/body/caveat and metadata/evidence/origin/history row is preserved. No requests generated, hence no individual resolution needed.",
+  "research_remaining": "T0788 exact744fullimage/ownr10cols9–13 and necessaryr9 unread; T0789 own1945/46registerlocating/personrows unread; both await actual permitted access and remain BLOCKED. No task DONE approval. T0787 required3011 hold remains, no partialthree-original package staged or approved by this gate.",
+  "method_limits": "Own freezes precede primary comparisons; observed external access is assessed from root logs, not claimed as independent browser/sourceimage inspection. Accepted prior wholecurrent/source work reused at exactdeclaredscope; no blanket468/79 wholehistory reading and no repeated21personreview. Direct SQL44 tables plus pinned all50 derivedsearch proof distinguished.",
+  "open_findings": [],
+  "canonical_apply_authorized_by_this_agent": false,
+  "actual_task_completion_approved": false,
+  "usage": "UNKNOWN pending root actualnewturn collector"
+}

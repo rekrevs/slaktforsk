@@ -1,0 +1,85 @@
+{
+  "case": "A",
+  "findings": [
+    {
+      "id": "A-F01",
+      "field": "father_birth",
+      "first_own": "81 20/5",
+      "first_primary": "81 30/3",
+      "reconciled_raw": "81 [20/30]/3",
+      "state": "osäkert",
+      "grounds": "Ny originalbeskärning visar månadens nedre tvåbågiga3 under överstrecket. Egen initial5 överges. Dagets första tecken kan fortfarande läsas2; närliggande nr14 dag20 ger relevant formjämförelse men överlagring förhindrar säker upplösning. Tvåsiffrigt81 behålls.",
+      "baseline_context": "TR-ae7cd3c73bd5f249a12a0501@1 säger äldre1881-05-30 feltolkning ochC-0028 rättelse1881-03-20; detta är äldre källkontext, inte stöd för att originalets överlagrade dag här säkert lästs.",
+      "action": "Behåll månad3 ochosäker dag20/30 i källobservation. Ingen automatisk ändring av redan starkare stödd personfödelse."
+    },
+    {
+      "id": "A-F02",
+      "field": "father_residence",
+      "first_own": "Kamm…70",
+      "first_primary": "hamnk[?]70",
+      "reconciled_raw": "hamnk[?]70",
+      "state": "osäkert",
+      "grounds": "Första bokstaven har en stigande h-form jämförbar med Hulda i moderraden. Kamm-läsningen är svagare efter ny beskärning. Efter hamn kvarstår osäkert bokstavs-/förkortningsspår;70 läsbart.",
+      "baseline_context": "Äldre transkription säger banvakt[…], men det är inte säker bildläsning eller ny titel här.",
+      "action": "Ändra min reviderade råreservation tillhamnk[?]70; utveckla varken adress eller yrke utifrån äldre text."
+    },
+    {
+      "id": "A-F03",
+      "field": "mother_following_qualification",
+      "first_own": "/ [Sk…?] änka",
+      "first_primary": "f[?] Skund[?] änka",
+      "reconciled_raw": "f[?] [Ålund?/Skund?] änka",
+      "state": "osäkert",
+      "grounds": "Det långa nedåtstrecket kan vara f-form snarare än separat slash. Följande första tecken har loop/övre ring; Å-form möjlig, men bokstavskedjan inte säker. Slutetänka tydligt.",
+      "baseline_context": "TR-ae7cd3c73bd5f249a12a0501@1 läser f.Ålund,änka. Detta motiverar ny glyphkontroll men bevisar inte råfältet.",
+      "action": "Bevara osäker prefix/namnform ochsäkertänka, utan att ändra etablerat namn från svagare omläsning eller kalla f.Ålund säkert nyutvunnet."
+    },
+    {
+      "id": "A-F04",
+      "field": "live_female_oval_boundary",
+      "first_own": "1; ovalt tecken behandlat som möjligt nr16-spår",
+      "first_primary": "1; ovalt tecken på underradnr15",
+      "reconciled_raw": "1; öppet oval-/0-liknande tecken nedanför",
+      "state": "osäkert",
+      "grounds": "Nya gränscrop visar att ovalen ligger mellan nr15:s huvudrad ochnr16:s egen juli23-rad, påhöjd mednr15:s moderdelrad/namntillägg. Egen första uteslutning tillnr16 var försnäv. Tecknets eventuella ursprungliga grupptillhörighet/administrativa innebörd kvarstår olöst.",
+      "action": "Inkludera ovalen i fullpostens marks/begränsningsreservation. Det säkra k-ett stöder kön;ovalens betydelse tillförs inte."
+    }
+  ],
+  "scope_findings": [
+    "BarnMaj Amalia,u.ä.,dag11,majditto,k-ett.",
+    "Ingen säkert synlig årankare;1919 hörnr16. Äldre locator1920 är separat provenance, inte synlig årsavläsning.",
+    "ModerEkholm Hulda Amalia,77 25/9.",
+    "Inringat1 ikol12 Änka el.frånskild ochv ikol14 Ogift samexisterar utan upplöst innebörd.",
+    "Särskilda anteckningar saknar verbal text menhar två korta lodräta/krokiga vänsterkantspår.",
+    "Nr14:svigseluppgift fårinte föras tillnr15."
+  ],
+  "remaining": "No unqualified source consensus; existing qualifiers preserve the residual alternatives. No consequence review performed.",
+  "primary_reconciled_compare": {
+    "read": "candidate/reconciled/A.json and A-decisions.json complete",
+    "result": "Qualified differences remain without need to force raw consensus",
+    "items": [
+      {
+        "field": "father_birth",
+        "primary": "81 20/3[?];5 possible",
+        "reviewer": "81 [20/30]/3",
+        "assessment": "Primary day20 preference supported by neighboring20/25; accept preference with overlagring. Reviewer retains day30 alternative, primary retains month5 alternative. Neither makes certain diplomatic date."
+      },
+      {
+        "field": "father_residence",
+        "primary": "banvkt[?]70",
+        "reviewer": "hamnk[?]70",
+        "assessment": "Different uncertain letter hypotheses. Primary must not let old banvakt interpretation make its new raw word certain; qualifier already distinguishes address and older evidence. Retain alternatives in reconciliation history."
+      },
+      {
+        "field": "mother_prefix",
+        "primary": "/Ålund[?]änka",
+        "reviewer": "f[?][Ålund?/Skund?]änka",
+        "assessment": "Initial f/slash not settled; qualifier must retain this ambiguity. Ålund possible, not secure new extraction."
+      },
+      {
+        "field": "oval_boundary",
+        "assessment": "Agree inclusion as recorded boundary context, uncertain posttillhörighet, not additional count."
+      }
+    ]
+  }
+}

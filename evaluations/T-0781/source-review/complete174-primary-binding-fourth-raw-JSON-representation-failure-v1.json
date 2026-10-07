@@ -1,0 +1,7 @@
+{
+  "task": "T-0781",
+  "failure": "Native *_json columns are exact JSON strings; API holds parsed JSON values. Primary formatter initially compared distinct representations without parsing and stopped at O52.",
+  "correction": "Parse only typed *_json columns and corresponding explicit old/new edits. Preserve arrays/order/stringcontent inside them, no semantic substitution.",
+  "prior_script": "evaluations/T-0781/source-review/complete174-primary-binding-fourth-raw-JSON-representation-v4.py",
+  "native_writes": 0
+}

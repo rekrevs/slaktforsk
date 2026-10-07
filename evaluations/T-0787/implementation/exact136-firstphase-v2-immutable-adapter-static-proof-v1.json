@@ -1,0 +1,40 @@
+{
+  "task": "T-0787",
+  "status": "FIRST_PHASE_ADAPTER_PREPARED_UNRUN",
+  "v1_pin": {
+    "path": "evaluations/T-0787/implementation/stage_root_authorized_exact136_v1.py",
+    "sha256": "e672c2a328cd8a250134808cdb4c7884a520d97ade5599425c3dbae153301685"
+  },
+  "v2_pin": {
+    "path": "evaluations/T-0787/implementation/stage_root_authorized_exact136_firstphase_v2.py",
+    "sha256": "b0b255df9e4e164b851f10a1f53bcec20640bdc985c7df7f3c066bf46900689a"
+  },
+  "exact_diff_pin": {
+    "path": "evaluations/T-0787/implementation/stage_root_authorized_exact136_firstphase_v2.exact-v1-v2.patch",
+    "sha256": "62643e4730ab9e5054eec6fa917a672967edfbecf7c7f0f2c093dc5c5d301783"
+  },
+  "AST_parse": "PASS",
+  "only_phase_interface_changes": [
+    "Exact raw rootfirstphase authorization fields mapped explicitly to original internal pin guards",
+    "Required helper-sha256 flag binds root separately reviewed code bytes",
+    "Primary proposal_pin vs independent package_pin exactgate pointers",
+    "Finalsix checks remain UNRUN until individual actual request source/independent grades and laterrootpermission"
+  ],
+  "source_API_operation_package_changes": false,
+  "CLI_stage_canonical_calls": 0,
+  "existing_stage_path_absent": true,
+  "authorization_pin": {
+    "path": "evaluations/T-0787/root-authorized-exact136-clone-first-apply-and-capture-v1.json",
+    "sha256": "a22ee3f2981ae3e8dd426eda87edffbef4de00d97bf514d907b51be948db7ee5"
+  },
+  "command": [
+    "python",
+    "evaluations/T-0787/implementation/stage_root_authorized_exact136_firstphase_v2.py",
+    "--authorization",
+    "evaluations/T-0787/root-authorized-exact136-clone-first-apply-and-capture-v1.json",
+    "--authorization-sha256",
+    "a22ee3f2981ae3e8dd426eda87edffbef4de00d97bf514d907b51be948db7ee5",
+    "--helper-sha256",
+    "b0b255df9e4e164b851f10a1f53bcec20640bdc985c7df7f3c066bf46900689a"
+  ]
+}

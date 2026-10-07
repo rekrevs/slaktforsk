@@ -1,0 +1,555 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-03T08:39:40.507749+00:00",
+  "status": "diagnostic_partial_clone_only_completed_individual328review_dispositions_pending",
+  "baseline": {
+    "journal": 281,
+    "pending": 0,
+    "all50_live_frozen_freshclone_rows_equal": true
+  },
+  "actual_probe": {
+    "journal": 309,
+    "pending": 328,
+    "operations": 28,
+    "native_changes": 151,
+    "full_native_objects": 343,
+    "record_assets_media_exact_order_checks": [
+      "R-de3335bd77494c1e87651fe8@2",
+      "R-614a854ff44498bd24da3b16@2",
+      "R-c60147cfa60576257f3a04fa@2",
+      "R-2e99c9b8f3ad620f482c69d4@2",
+      "R-7bbcb357110bab629a0a1c4e@2",
+      "R-521806d99b24fc04d967d271@2"
+    ],
+    "stored_operation_payloads_all28_exact_arrayorder_PASS": true,
+    "all328request_endpoints_full_native_captured": true
+  },
+  "technical_checks": [
+    {
+      "command": "verify",
+      "exit_code": 0,
+      "output_path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/verify-stdout.json"
+    },
+    {
+      "command": "verify-assets",
+      "exit_code": 0,
+      "output_path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/verify-assets-stdout.json"
+    },
+    {
+      "command": "verify-source",
+      "exit_code": 0,
+      "output_path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/verify-source-stdout.json"
+    },
+    {
+      "command": "inventory",
+      "exit_code": 0,
+      "output_path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/inventory-stdout.json"
+    }
+  ],
+  "protected_unchanged": true,
+  "live_all50_unchanged": true,
+  "no_finalsourcePASS": true,
+  "canonical_applies": 0,
+  "resolution_operations": 0,
+  "no_repeated_applies": true,
+  "one_clone_only": true,
+  "capture_failed_attempts": 2,
+  "capture_failures": [
+    "Incorrect review_request column names and baseline historical rows treated as new, after first successfulcloneapply; original failed attempt retained; first applied operation recaptured readonly",
+    "Resume generated indentation error before execution, preserved; same clone continued"
+  ],
+  "capacity_event": {
+    "reported_by_root": true,
+    "detail": "Root reported turn-capacity failure while probe final checks were in flight. The existing process was polled to completion without repeat execution. Tool-side capacity error not observed by this worker."
+  },
+  "observable_wall_seconds_from_initial_probe_script_persist": 466.76057028770447,
+  "elapsed_interval_limitation": "Includes initial failed capture, resume and waits; excludes earlier C0561 preparation/handoff reading",
+  "model_usage": "Root collects actual new worker-turn usage after final; no invented zero",
+  "pins": [
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/actual-pending-review-requests-v1.json",
+      "sha256": "ff002e80c9bb4bcf1716733fece80667632752ad1533510f4cd21373e54cc733",
+      "bytes": 127149
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/actual-review-request-full-native-dictionary-v1.json",
+      "sha256": "ec63329d4113fe9b3d1e3140e686394bc7f3635b73d7c8185b49deba4b3ee1c6",
+      "bytes": 975443
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/all-step-actual-review-requests-v1.json",
+      "sha256": "c276c9dd229c2438f0ff51894bec980929c944099b4ada5599aa5903d929adca",
+      "bytes": 152487
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/baseline-all50-table-equality-v1.json",
+      "sha256": "1ced0ab179fd11f12eed90463700f434381508fcaa40c1576bab66576b54d52a",
+      "bytes": 6642
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/inventory-stdout.json",
+      "sha256": "847e7585d9c99edf2a4a1c4902edfe9bebd131d5f9c43403affb4e8bf62936bb",
+      "bytes": 727
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/probe-final-receipt-v1.json",
+      "sha256": "0d4bf5bd7417951e6da6b390edb7a649e9667190ada745a9625382fb31d551fc",
+      "bytes": 1442
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/probe-gate-v1.json",
+      "sha256": "259f322e1a12be7b837d6b6b142cc366250e6219ede326316b981cdc8d0cfe59",
+      "bytes": 44477
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/progress-v1.json",
+      "sha256": "4a81a96863e96c05bff7205aee7ccc7a14e4bdb414c779f2b09afac1537c7a77",
+      "bytes": 40428
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/protected-after-v1.json",
+      "sha256": "dfea90b7a9a1fbcccf00abe19984752e02b3f013baeeda959d59f5ed0be235c8",
+      "bytes": 23027
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/protected-before-v1.json",
+      "sha256": "dfea90b7a9a1fbcccf00abe19984752e02b3f013baeeda959d59f5ed0be235c8",
+      "bytes": 23027
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/verify-assets-stdout.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+      "bytes": 33
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/verify-source-stdout.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+      "bytes": 60
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/verify-stdout.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+      "bytes": 33
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/01-actual-receipt.json",
+      "sha256": "8d80432d50012515d4817f96dd8e0b633a4a492e611a6fbf2f5441d11553e847",
+      "bytes": 352
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/01-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/01-stdout.json",
+      "sha256": "053c61b31db3b34e5e6fb71198bb733bbcdac3456edb5abf3c9afc7b3f83291b",
+      "bytes": 156
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/02-actual-receipt.json",
+      "sha256": "9bea1ffeef55ba4405047c13dc974cbbf1247478460245e9f0cf0e7b2e1fec94",
+      "bytes": 353
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/02-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/02-stdout.json",
+      "sha256": "d1818ec1194037a2ea70713b5359f37c621c522b900fee8572d8014f9a30776f",
+      "bytes": 158
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/03-actual-receipt.json",
+      "sha256": "56a59d5e856c12f758835c51a4d3319bae95ec715c5e80db8a7009c354a53a32",
+      "bytes": 344
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/03-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/03-stdout.json",
+      "sha256": "c46649d53c3543a49870b4643f84950429b5fecdea4b98bf6a02850fba162564",
+      "bytes": 148
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/04-actual-receipt.json",
+      "sha256": "86e38b3b459129c2e68d85c85cb33884602404751a99b48208acb60ca0d3d75e",
+      "bytes": 380
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/04-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/04-stdout.json",
+      "sha256": "8c844d9e725eb34e243f63bc32ebd36cdf076a0a1dcd14833f3bf4056bd8acc6",
+      "bytes": 185
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/05-actual-receipt.json",
+      "sha256": "6bf59b85bb2d5732187b7c8e3a37cb25f160bba031cf945f1f93a29c33606cbf",
+      "bytes": 384
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/05-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/05-stdout.json",
+      "sha256": "d8a86a8ce11762d6030a333552a936f32486f781fff9617d9be0e18a09be6a2d",
+      "bytes": 189
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/06-actual-receipt.json",
+      "sha256": "4e6a80b8685623153a8f886289c3d3905409f7ef532ea41e4147a1c48a2aabf2",
+      "bytes": 359
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/06-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/06-stdout.json",
+      "sha256": "361692df0669517572dba7b1267f3c295fa10416af249ded437c42d2ea9edf8d",
+      "bytes": 164
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/07-actual-receipt.json",
+      "sha256": "5992f79bb81c2212e0554b71aa346a0565e405bb09fd8e9e4d7c7c4660c0d232",
+      "bytes": 408
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/07-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/07-stdout.json",
+      "sha256": "9e97b7648047417ad425c4edf52e980fb00f0a67b4da6c5eac66b06b16fd8dd3",
+      "bytes": 213
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/08-actual-receipt.json",
+      "sha256": "8692d68325817d70b6bc1910805e492e53f6bd1c59a7945cc2901498c9d280cb",
+      "bytes": 410
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/08-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/08-stdout.json",
+      "sha256": "b3ed99f8c2155042980cac5bb11c758168833e573d008e6683c44ad67f623ba8",
+      "bytes": 215
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/09-actual-receipt.json",
+      "sha256": "692d37cbd1322cca5dd82f80d4c179d216eee4d0d258a2a59525b35dde5d2e1b",
+      "bytes": 3142
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/09-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/09-stdout.json",
+      "sha256": "93bc7b2a813ec838364daf104ad2be5df14ccabcc1c2e2dac88defb93f876b85",
+      "bytes": 220
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/10-actual-receipt.json",
+      "sha256": "9e7149ec7e1d075cc2ede8796da0cc4de2f60d2042aa07485db043611aa66a53",
+      "bytes": 356
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/10-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/10-stdout.json",
+      "sha256": "9870d13cb68a7d37186ed6767e24b74aba808331a561bc8f804fad8abf5cbbe2",
+      "bytes": 159
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/11-actual-receipt.json",
+      "sha256": "c3290caa468f04f5f61c48b64829adeaced9c3256c1c9823106ff10188ce87ae",
+      "bytes": 392
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/11-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/11-stdout.json",
+      "sha256": "a7ffa83d1f6c5d4a7ca5a3eb2713c42099568fa4f16074cad8818ad4ccf6756f",
+      "bytes": 196
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/12-actual-receipt.json",
+      "sha256": "9777bb488e65f3c8ed77df0cd8586d50c88c540d7608f005877e967ed775175f",
+      "bytes": 351
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/12-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/12-stdout.json",
+      "sha256": "974a48db8293f5722912151abd4c5658f7341ae5dab8b28b5e7dead409819bcf",
+      "bytes": 155
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/13-actual-receipt.json",
+      "sha256": "43d7b711bcb8c51714ed9e00e4402a64e57e4fa063112702747fedfd3f12fd21",
+      "bytes": 355
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/13-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/13-stdout.json",
+      "sha256": "60fc99c76f726316e966fe68322251bca3c5a75c7a224fb46ace92b970e5c835",
+      "bytes": 160
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/14-actual-receipt.json",
+      "sha256": "0f69236e4ae25d83079dbf5c738d174d2152a603f2bdbed57eba82b6a863581f",
+      "bytes": 362
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/14-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/14-stdout.json",
+      "sha256": "d6dee3c99bffb9cd2eeb321d2326c9ba2db3f2cbf10f948103fd513817a2b548",
+      "bytes": 166
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/15-actual-receipt.json",
+      "sha256": "b8124fd6921393674e45d90452bb0dbec572ef60c1a4db44fb0dcef74d9f9324",
+      "bytes": 358
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/15-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/15-stdout.json",
+      "sha256": "d05da60e11614d9a37830e788cd35ff35f346af3013e3b903710c576e9b00821",
+      "bytes": 162
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/16-actual-receipt.json",
+      "sha256": "422e8e0f586ca0d2c5105f5fdbf35c0597a38844b981493d0d46cf5a7bcf98ee",
+      "bytes": 345
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/16-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/16-stdout.json",
+      "sha256": "2aab8583fbc55f4dd8ee203f3ee6891b09777f8e4aaaa68cdbc9776ebc4f34c0",
+      "bytes": 149
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/17-actual-receipt.json",
+      "sha256": "fef01645538aafc65af853fbc704be8fe5e378368fe50a5a5985f23d0c37b230",
+      "bytes": 346
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/17-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/17-stdout.json",
+      "sha256": "cb87c22afede76db98e3f2234cac647cb4db9605a20941bdf78d25ecc59a1547",
+      "bytes": 149
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/18-actual-receipt.json",
+      "sha256": "03c338401636b6c9462aa04ce71679790ba256355917b3efb21cda92d0df118a",
+      "bytes": 356
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/18-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/18-stdout.json",
+      "sha256": "f019177f811582ea4984e4c36288d497771c7f597732bd1df684b7ecaacb5291",
+      "bytes": 160
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/19-actual-receipt.json",
+      "sha256": "223e0121f0509300323b750d695b3b42299dbbc9b4fd625e698e383b02f2cd9d",
+      "bytes": 355
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/19-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/19-stdout.json",
+      "sha256": "e2f9483d240b45982e971e2d3003535cd1ec4b952f86402c56e8f85eef34011a",
+      "bytes": 159
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/20-actual-receipt.json",
+      "sha256": "9787e4813a12e16c4bccc2f5a88281f016bd4317d81f04485d50676799b94e9d",
+      "bytes": 368
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/20-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/20-stdout.json",
+      "sha256": "4247e9e87b8212653e1675521ed6f6dad62df72eb538cdd05b7a822ed5e90693",
+      "bytes": 172
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/21-actual-receipt.json",
+      "sha256": "912485b0a73481676cd121fb49f802c534ff999b65d7777c668a87d4cbc0eac8",
+      "bytes": 373
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/21-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/21-stdout.json",
+      "sha256": "e33de79c8492023bf8e7836e8beccf7aa74f9946f7087abb3fe748e8ea9266b7",
+      "bytes": 177
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/22-actual-receipt.json",
+      "sha256": "65e8398cf35a058c3f0996090933cafacb1e3a3fd64c7002e2be2a12ffe15b1c",
+      "bytes": 26864
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/22-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/22-stdout.json",
+      "sha256": "deb7e5619bd4579edffc656839188fc0f689e3bea6a07ae6d7484b09efe981aa",
+      "bytes": 152
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/23-actual-receipt.json",
+      "sha256": "4a662d743313c92f2f7306165624b1c45d9dec464f69f96fa5b1630c51f8e791",
+      "bytes": 59222
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/23-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/23-stdout.json",
+      "sha256": "0dadad04e0ac14d861451c65306fd09193ab2345dbc301374682986f2796b542",
+      "bytes": 145
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/24-actual-receipt.json",
+      "sha256": "5c4497621546af743ed9fb8932c8c9be5914734cdb29a4ae422c73992908aaba",
+      "bytes": 4874
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/24-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/24-stdout.json",
+      "sha256": "7f0ea55f57bfdfa93df60183b5610c46df9d67a502b98784c2ba424cfe21f190",
+      "bytes": 146
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/25-actual-receipt.json",
+      "sha256": "e67b7ade50c85adb56bdf5d9483a6f42976579f34f8393edc03d5625791579db",
+      "bytes": 346
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/25-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/25-stdout.json",
+      "sha256": "7d6845d84d7adf08278ac68d4687fa93cea07f19477cf4fb06d2c4995a903fb4",
+      "bytes": 150
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/26-actual-receipt.json",
+      "sha256": "7bc15097751f9487a9e75422e9c99e11d5a90c6753f117f35be9e2cea0e86ef4",
+      "bytes": 767
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/26-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/26-stdout.json",
+      "sha256": "8edd22231429a753c80ae53284f354232cbe658e84e92ac4f8f6d9c770cbc966",
+      "bytes": 173
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/27-actual-receipt.json",
+      "sha256": "3a410772b438f0ae62ad4b4805bf3e7bf10f2bfe8218d2b59d79c1262b56a98e",
+      "bytes": 351
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/27-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/27-stdout.json",
+      "sha256": "71e7fbd8a72f3cdfea7fdb6aa77aa398ee350ea9a1a2415c6b2b0f7c76ae4797",
+      "bytes": 155
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/28-actual-receipt.json",
+      "sha256": "5c8dbeebfe8c8d04d3436564a98ba228279af878ba1a4386f1991b30111aad36",
+      "bytes": 39090
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/28-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/T-0780/diagnostic-C0685-C0563-28ops-v1/steps/28-stdout.json",
+      "sha256": "1c5bfe1156be14372189d0f26a07d073f31f9c2507f6136df626f9807b0dafc4",
+      "bytes": 199
+    }
+  ]
+}

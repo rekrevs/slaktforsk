@@ -1,0 +1,887 @@
+{
+  "tables": {
+    "assessment": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "ae7957e048075b8fec1414429af4e90629db9075b1b0671a3b8dc40c56c9562c"
+    },
+    "asset": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "39e9cefd9da8c35c5bb2e486f93dc114bc3a38d2cf3a7410453e803a2ccc938b"
+    },
+    "dependency": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "9550ea953ac078d3f1d49a6cace3a49238080b6297a87316811c32dfd968e793"
+    },
+    "document": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "63ca6301461d7d958058bbd1fa478684e059568c333a584b3d3efaa426219604"
+    },
+    "document_search": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "3b76d81777ec57764969095539eb495da3b8cc78a09b057220945615cb0ea27c"
+    },
+    "document_search_config": {
+      "all_existing_rows_exact": true,
+      "table_digest": "7d6af8d5f3a5b7959afb40dd2dcc5bb8a3f5737f06e0e5f0b9b4fda81e65f1f5"
+    },
+    "document_search_content": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "69077ca460d06f66c702e8fb1e5e569a937173689d4696be83385812dac01ca2"
+    },
+    "document_search_data": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "4e8a53846d5ec19286d5c5a43517e98b50415bc4b9fa7cd15d27796775027f95"
+    },
+    "document_search_docsize": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "033718fad319c6d477b23259c9ecd4f042ee6404e09c8bdf518c23cda5850fc7"
+    },
+    "document_search_idx": {
+      "all_existing_rows_exact": true,
+      "table_digest": "a80085bf0bd7d60511bfef0796448f196ec1b0c655b0da050bceb10ab12ada05"
+    },
+    "event": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "4741580e50b62975cbb54b94572e0fa7c0fbfb0246a7542020e17590c6c9e143"
+    },
+    "fact": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "ce1336eeb30649388c3301a010a84a9f2adedc90e507dded905b6ffe36a7da64"
+    },
+    "identity": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "fefbc40d0966345345c6614425ce398924c7c77b40a7d5f1b1337f094961cbd2"
+    },
+    "identity_resolution": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "3a4f14a4661dbf53de5c245e6ab0ce0093f10637cd803a20b8c36fa1cbe48191"
+    },
+    "import_batch": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "1dc5cf0d24f5c65fbc76b421c4e83db70d9f0f90c8695e78305873f2c65be3df"
+    },
+    "legacy_assertion": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "bd3b4bcf3f359fb13c2b725f26a9d57356a5d8c04e3ae8017e306357e7e93c16"
+    },
+    "legacy_entity": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "9f5fc8b50977d52b9b4975f121c97549c2df7ad21cbd3e46e80756a4556dd6f9"
+    },
+    "legacy_mapping": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "fef6cf5f9ea663511aa8ba502aa39dde17b326eb863d99d4f7b529f86a0f5b06"
+    },
+    "mention": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "05ad0aa2b274e2d5eacb7dc329bc2152325dae49f3342e6bda23e0770c7a9b72"
+    },
+    "meta": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "57f7e0e95f9e7e5dcee56e01cd2039f2aa9ee986270e6db8d6374643177b26ca"
+    },
+    "narrative": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "cac0029c50ed571aa0b6c1d871003d895af48e27522818b685066588db798150"
+    },
+    "native_asset": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "37bcc6711318d432becc99436d2160665601968a96b9637569aaec25b511f987"
+    },
+    "object": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "57181d3a0b6dc87a10601f50c317e618e533ae08e4ce2d3e696b8df3bfb35421"
+    },
+    "observation": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "eadc7d77f1c2d05cb5e699dd66aa9132c3c7671482ab1142a2e55aab519e5d64"
+    },
+    "operation": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "e4e4f307b7f408d4627f44025857a58bf9ead9514c5dbef8970e16f441e255b1"
+    },
+    "operation_payload": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "feb4fabefa4e96ae4d0f0d9ebaddceb1f32e11b40a2ee7065778360bea579cae"
+    },
+    "origin": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "1b9c0e60064a0c1103c4f5ac10bfccda793f2082aa8e392bb635f39bfb978a10"
+    },
+    "participation": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "1fab686c6d7217afa182d81ae3cfbcc46a0dc4877060fc9ba49c0c91b870a891"
+    },
+    "person": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "9bab26cb5961dde3d7fc9559a5d1622e02cbd2aa5955a903f965e2cedf5752ca"
+    },
+    "place": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "416c77890e7aa71888a60c84de908c241e85a5bc0b9ea99847ca056e1ec99239"
+    },
+    "question": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "09b971ec103607210299304f9445a601fd108f670fc5cad2daf7158fe0c67142"
+    },
+    "record": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "787b88710ad2a53581265b672d6304b480bcd8eab81ed379121daba0e80bdc67"
+    },
+    "record_asset": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "7c145f1d3995f8905fb7b3dc96c646d247e5efe8c1aaa3133de652918c53e1f0"
+    },
+    "record_media": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "f32c972934d8b263ff741ac2942a2690760fcf59141f66c169c6f65a71b36d2f"
+    },
+    "relation": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "1b2de70ebea3b0d21cbdc5b2005eb56c5e7959c297ae8568ed3f0f03ecb19b21"
+    },
+    "review_request": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "7534c46ba4a224c39416293c8086cb7a1e9ae6a030828bd2cfb7dc49f8151989"
+    },
+    "review_resolution": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "eca5b7278341792418705b0d0f24a4512a85e702463d5b2bb6f02e6cb2c93e57"
+    },
+    "revision": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "3c2b3af2bf3029b37a0e127ed3d4bc843ba9e1d84e8bc9713095a0000735a93f"
+    },
+    "search": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "33001bbf2d2a63f21b4713d28b147a8c57c71adea3b1121130439a7236a240a1"
+    },
+    "source": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "71b0a57d886f6b918e10344d8bb67b4c810547b6e5707958327c22dc669d72fb"
+    },
+    "transcription": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "c1b3a0b967d67918d007e290bf1cf1c5e4489a3f0baa432b52c1e0e848ab15e8"
+    },
+    "unit": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "859d6063d975fbd001fdfd0252fe8707aae8877cfb71267575c421b27a5d0cdc"
+    },
+    "unit_decision": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "7e6a12e795184ac5aa0338001cef927fed29aebe84c69f89e7824e03c901948b"
+    },
+    "unit_decision_target": {
+      "existing_rows_exact": true,
+      "existing_order_digest": "47e52a29ee840b770e052b0b074abc89ab8aae3d86baaabf41a80d27dab08bc2"
+    }
+  },
+  "derived_only": [
+    "object_search",
+    "object_search_config",
+    "object_search_content",
+    "object_search_data",
+    "object_search_docsize",
+    "object_search_idx"
+  ],
+  "untouched_search_rows_exact": true,
+  "touched_current_search_rows": [
+    {
+      "object_id": "KEY-P-0052-3c0e468b80ab",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "READ-4791805f82dfee11d335a425",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0104-HAL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-04",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "P-0107/Q-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "EP-E-birth-P-0057-P-0057-principal",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "PATH-P-0053-KP-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-10",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-09",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0057-REL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0106-PK-12",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0052-HAL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0107-PK-09",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-06",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0049-P-0053",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "E-birth-P-0052",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0051-PK-05",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "O-P-0048-A-0248-child_family",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0104-b0e770c78792",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0067-P-0104",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "EP-E-birth-P-0053-P-0053-principal",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-10",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "RESEARCH-P-0052-9d76f0343410",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0107-REL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "P-0053/Q-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0057-PER",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "PATH-P-0052-KP-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "O-P-0052-C0049",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0057-HAL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ASSESSMENT-P-0052",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0107-PK-08",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-12",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "AUDIT-T0781-C0067-fullpost",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0067-P-0094",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "BIO-P-0049",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "P-0052/Q-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0057-SAM",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "P-0107/Q-02",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0057-EKO",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0052-SYN",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0051-REL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0048-PK-05",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-12",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0057-ARB",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "BIO-P-0051",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-07",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0053-adcfb42a8991",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0057-MIL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "PATH-P-0053-KP-02",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0049-P-0050",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "BIO-P-0057",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0052-ARB",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-05",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "RESEARCH-P-0057-9d76f0343410",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0057-BO",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0053-HAL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "P-0105/Q-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0104-6930d6e1eaa3",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0049-P-0048",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0106-2ee1271e1280",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-06",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0067-P-0105",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0106-ARB",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "E-birth-P-0053",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "BIO-P-0050",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-04",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "RESEARCH-P-0048-9d76f0343410",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0052-REL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-03",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "AUDIT-T0781-C0049-fullpost",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0067-P-0049",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-05",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0053-e52ec73e42af",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0050-PK-05",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0067-P-0107",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-11",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0052-65b842a43e90",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "F-P-0048-relation_context-64",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "P-0057/Q-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0057-80421b7f027a",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "R-d9840df54c7f19f2454c4d2d",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "TR-T0781-C0067-fullpost",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0057-3e14c3b1aa45",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "RESEARCH-P-0105-9d76f0343410",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0105-PK-08",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0053-SAM",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "F-P-0050-relation_context-P-0057",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0052-MIL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "TR-T0781-C0049-fullpost",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-04",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0057-bbfd83de2ab4",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "BIO-P-0105",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "M-P-0053-C0049",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0052-EKO",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0107-PK-12",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "M-P-0052-C0049",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0052-SAM",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "READ-afbfe3f933d234b8f0f60c3e",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-08",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0053-BO",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0053-ID",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "O-P-0057-C0049",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "BIO-P-0052",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0105-dc8b6eac721f",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "P-0057/Q-02",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-07",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "O-P-0053-C0049",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "RESEARCH-P-0053-9d76f0343410",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-03",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0053-REL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "PATH-P-0107-KP-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "PATH-P-0052-KP-02",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0107-HAL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0053-ARB",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "P-0053/Q-02",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0106-f8bc6b84707e",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0053-3b1f435e9084",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0057-ID",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-08",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0105-5af53240b0c2",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-10",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0067-P-0095",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-03",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "PATH-P-0057-KP-02",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-02",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-06",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0067-P-0106",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0105-PK-07",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0052-BO",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-09",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-05",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0053-SYN",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0049-P-0052",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-12",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0053-EKO",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "P-0104/Q-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-09",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0107-BO",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0106-PK-07",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "F-P-0057-name_form-given",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ASSESSMENT-P-0057",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0052-PK-11",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0105-PK-12",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "P-0052/Q-02",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-11",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-02",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0057-SYN",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0057-PK-07",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0106-PK-08",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-08",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "PATH-P-0057-KP-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0049-P-0057",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "P-0057",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0052-ID",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "TR-bf8e09efe7e3e3c20156c785",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "PATH-P-0098-KP-03",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "M-P-0057-C0049",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "KEY-P-0052-d0dbc36a8444",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ASSESSMENT-P-0053",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0052-PER",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0053-PER",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "BIO-P-0104",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "PATH-P-0104-KP-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "E-birth-P-0057",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "CONTRACT-P-0053-PK-02",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "PATH-P-0048-KP-04",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ADOPT-T0781-C0049-P-0051",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "THEME-P-0053-MIL",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "PATH-P-0050-KP-01",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "BIO-P-0053",
+      "exact_current_domain_index_text": true
+    },
+    {
+      "object_id": "ID-P-0057-C0049",
+      "exact_current_domain_index_text": true
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "task": "T-0804",
+  "mode": "ROOT_ONLY_EXACT_APPROVED_CANONICAL_APPLIES",
+  "rootAuthorized": false,
+  "code_sha256": "afae3cb12fb18e50bec2a552d0cdd8dc63dfa5e79b1cb08d0ec4837ecb6f25b4",
+  "helper_pin": {
+    "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py",
+    "sha256": "ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2"
+  },
+  "final_manifest_pin": {
+    "path": "evaluations/T-0804/implementation/stage467-v1/final-package-manifest-v1.json",
+    "sha256": "64411ee9b6c75b68d9e4392290d89e27cdb31a60f7a99b580350cb2374663683"
+  },
+  "consequence_table_pin": {
+    "path": "evaluations/T-0804/implementation/individual-consequence-table-v2.json",
+    "sha256": "75cd7351986901ac214c29bccc2e305933ac1465a4cc83feaf8dac836a1dd959"
+  },
+  "baseline_state_pin": {
+    "path": "evaluations/T-0804/preparation/baseline-state-v1.json",
+    "sha256": "7cc371ebb159d8c16ea5080899625254d1d5c0aeb9e71a1b33fab60c7862562a"
+  },
+  "final_result_pin": {
+    "path": "evaluations/T-0804/implementation/stage467-v1/final-result-qualified-v1.json",
+    "sha256": "bae7632122e9fbcdd84781a8eed939959de14e62ae2983628ced14ee0e0756c4"
+  },
+  "baseline_state": {
+    "journal_head": 464,
+    "pending": 0
+  },
+  "final_state": {
+    "journal_head": 467,
+    "pending": 0
+  },
+  "operation_pins": [
+    {
+      "path": "evaluations/T-0804/implementation/candidate-operation-v2.json",
+      "sha256": "b9d3c43b88b75ace945935394f8ef29c80352920acea0178a1faaac66a6d4b10"
+    },
+    {
+      "path": "evaluations/T-0804/implementation/candidate-six-retains-operation-v1.json",
+      "sha256": "ed530f1670cc1aa8108186e26e41801bf6e54fa5a6813707c76195c0689936a2"
+    },
+    {
+      "path": "evaluations/T-0804/implementation/candidate-P0005-life-basis-repair-operation-v1.json",
+      "sha256": "3f8f3d7007169e2afb66b771d19da9ad57887b010de20824b88ed42215c4db1c"
+    }
+  ],
+  "operation_expectations": [
+    {
+      "id": "T-0804/owner-family-and-bounded-review-correction-v1",
+      "change_count": 87,
+      "resolve_count": 0,
+      "resulting_state": {
+        "journal_head": 465,
+        "pending": 6
+      }
+    },
+    {
+      "id": "T-0804/six-individual-owner-chain-consequence-retains-v1",
+      "change_count": 0,
+      "resolve_count": 6,
+      "resulting_state": {
+        "journal_head": 466,
+        "pending": 0
+      }
+    },
+    {
+      "id": "T-0804/P0005-life-current-mother-basis-repair-v1",
+      "change_count": 1,
+      "resolve_count": 0,
+      "resulting_state": {
+        "journal_head": 467,
+        "pending": 0
+      }
+    }
+  ],
+  "extra_allocation_pins": [],
+  "output_path": "evaluations/T-0804/implementation/root-actual-canonical-v1",
+  "reviewed_person_view_pins": [
+    {
+      "person_id": "P-0003",
+      "path": "evaluations/T-0804/implementation/stage467-v1/P-0003-full.json",
+      "sha256": "5b1a86be0cb3e5d49b698bd7075e718c03fe2c7344e4d4013f3cd9dbcb1a53e1"
+    },
+    {
+      "person_id": "P-0007",
+      "path": "evaluations/T-0804/implementation/stage467-v1/P-0007-full.json",
+      "sha256": "f4dc479a8f02081bc6e83a3851db47f0650a0bf5b2b27ac50cfc7cf013b3db22"
+    },
+    {
+      "person_id": "P-0004",
+      "path": "evaluations/T-0804/implementation/stage467-v1/P-0004-full.json",
+      "sha256": "b55d8983cbd0b52a8f42ea5b4c5a8e9de7de25a876e08b8e99429e4c7c624c5d"
+    },
+    {
+      "person_id": "P-0005",
+      "path": "evaluations/T-0804/implementation/stage467-v1/P-0005-full.json",
+      "sha256": "7ccf2cd3de61af917f3f45f0b92ea2beb0498becd8f2552c08afdb479d2b955a"
+    }
+  ],
+  "primary_final_gate": {
+    "pin": {
+      "path": "evaluations/T-0804/primary-final-source-gate-v1.json",
+      "sha256": "2656eebe390ac477445b7536d83d531f5b218053a5528c771e790e8e383365ad"
+    },
+    "ready_pointer": "/ready_for_root_canonical_apply",
+    "manifest_sha_pointer": "/finalManifestSha256",
+    "stage_db_sha_pointer": "/stageDbSha256",
+    "consequence_sha_pointer": "/consequenceSha256",
+    "operation_sha_pointers": [
+      "/operationSha256",
+      "/resolutionOperationSha256",
+      "/repairOperationSha256"
+    ]
+  },
+  "independent_final_gate": {
+    "pin": {
+      "path": "evaluations/T-0804/independent-final-source-gate-v1.json",
+      "sha256": "367042be03cee709fe72cb0c290be87902696b9b86f9eac4143b857b8ed2b4e8"
+    },
+    "ready_pointer": "/ready_for_root_canonical_apply",
+    "manifest_sha_pointer": "/finalManifestSha256",
+    "stage_db_sha_pointer": "/stageDbSha256",
+    "consequence_sha_pointer": "/consequenceSha256",
+    "operation_sha_pointers": [
+      "/operationSha256",
+      "/resolutionOperationSha256",
+      "/repairOperationSha256"
+    ]
+  }
+}

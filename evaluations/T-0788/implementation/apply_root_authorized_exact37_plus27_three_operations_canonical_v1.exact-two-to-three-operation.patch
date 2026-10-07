@@ -1,0 +1,137 @@
+--- evaluations/T-0788/implementation/apply_root_authorized_exact36_plus27_canonical_v1.py
++++ evaluations/T-0788/implementation/apply_root_authorized_exact37_plus27_three_operations_canonical_v1.py
+@@ -1,4 +1,4 @@
+-"""UNRUN. Exact root-authorized canonical two-op CLI sequence; never DB replacement.
++"""UNRUN. Exact root-authorized canonical three-op CLI sequence; never DB replacement.
+ 
+ Requires both final source/consequence byte gates and a fresh all50 root baseline.
+ Preserve partial state and stop; no retry, newclone, source change or Wotan write.
+@@ -27,7 +27,7 @@
+     ap = args.authorization.resolve()
+     assert ap.is_relative_to(R) and h.sha(ap) == args.authorization_sha256
+     auth = json.loads(ap.read_text())
+-    assert auth['authorization'] == 'ONE_CONTROLLED_EXACT_TWO_OPERATION36_PLUS27_CANONICAL_SEQUENCE'
++    assert auth['authorization'] == 'ONE_CONTROLLED_EXACT_THREE_OPERATION37_PLUS27_CANONICAL_SEQUENCE'
+     assert auth['root_authorized'] is True and auth['database_replacement_authorized'] is False
+     assert auth['retry_authorized'] is False and auth['newclone_authorized'] is False
+     assert auth['helper_pin'] == h.pin(Path(__file__).resolve())
+@@ -35,25 +35,31 @@
+     _, package = h.readpin(auth['package_pin'])
+     _, membership = h.readpin(auth['membership_pin'])
+     assert package['membership_pin'] == auth['membership_pin']
+-    assert package['operations'] == membership['operations'] and package['operation_count'] == 2
+-    assert membership['target_count'] == 36 and membership['resolution_count'] == 27
++    assert package['operations'] == membership['operations'] and package['operation_count'] == 3
++    assert membership['target_count'] == 37 and membership['resolution_count'] == 27
+     members = membership['operations']
+     operations = [h.readpin(m['operation_pin']) for m in members]
+     assert operations[0][1]['id'] == members[0]['operation_id']
+     assert len(operations[0][1]['changes']) == 36 and len(operations[0][1]['media']) == 1
+     assert operations[1][1]['id'] == members[1]['operation_id']
+-    assert operations[1][1]['changes'] == [] and len(operations[1][1]['resolve']) == 27
++    assert len(operations[1][1]['changes']) == 1 and operations[1][1].get('media', []) == []
++    assert operations[1][1]['changes'][0]['id'] == 'F-P-0532-source_assessment-widow-chain'
++    assert operations[2][1]['id'] == members[2]['operation_id']
++    assert operations[2][1]['changes'] == [] and len(operations[2][1]['resolve']) == 27
+     assert all(op['dependencyReviewVersion'] == 2 for _, op in operations)
+     _, final_handoff = h.readpin(auth['reviewed_final_stage_handoff_pin'])
+     assert final_handoff['package_pin'] == auth['package_pin'] and final_handoff['membership_pin'] == auth['membership_pin']
+-    assert final_handoff['actual_state'] == {'journal_head': 451, 'pending': 0}
++    assert final_handoff['actual_state'] == {'journal_head': 452, 'pending': 0}
+     assert final_handoff['stage_DB_pin'] == auth['reviewed_final_stage_DB_pin']
+-    _, first_handoff = h.readpin(final_handoff['native_prefix_stage_handoff_pin'])
+-    _, second_state = h.readpin(auth['reviewed_resolution_step_state_pin'])
+-    stage_states = [first_handoff['step_states'][0], second_state]
++    _, corrective_handoff = h.readpin(final_handoff['native_prefix_stage_handoff_pin'])
++    _, first_handoff = h.readpin(corrective_handoff['initial36_stage_handoff_pin'])
++    _, second_state = h.readpin(auth['reviewed_correction_step_state_pin'])
++    _, third_state = h.readpin(auth['reviewed_resolution_step_state_pin'])
++    stage_states = [first_handoff['step_states'][0], second_state, third_state]
+     assert stage_states[0]['before'] == {'journal_head': 449, 'pending': 0}
+     assert stage_states[0]['after'] == stage_states[1]['before'] == {'journal_head': 450, 'pending': 27}
+-    assert stage_states[1]['after'] == {'journal_head': 451, 'pending': 0}
++    assert stage_states[1]['after'] == stage_states[2]['before'] == {'journal_head': 451, 'pending': 27}
++    assert stage_states[2]['after'] == {'journal_head': 452, 'pending': 0}
+     _, primary_instructions = h.readpin(package['primary_actual_instruction_gate_pin'])
+     _, independent_instructions = h.readpin(package['independent_actual_instruction_gate_pin'])
+     primary_rows = h.pointer(primary_instructions, auth['primary_instruction_rows_pointer'])
+@@ -63,12 +69,12 @@
+     primary_requests = [h.pointer(row, auth['primary_actual_request_pointer']) for row in primary_rows]
+     independent_requests = [h.pointer(row, auth['independent_actual_request_pointer']) for row in independent_rows]
+     assert len(primary_rows) == len(independent_rows) == 27
+-    assert operations[1][1]['resolve'] == primary_literals
+-    assert operations[1][1]['resolve'] == independent_literals
++    assert operations[2][1]['resolve'] == primary_literals
++    assert operations[2][1]['resolve'] == independent_literals
+     pins = [auth['helper_pin'], auth['proven_utility_pin'], auth['package_pin'], auth['membership_pin'],
+             auth['baseline_DB_pin'], auth['fresh_root_baseline_receipt_pin'], auth['protected42_pin'],
+             auth['reviewed_final_stage_handoff_pin'], auth['reviewed_final_stage_DB_pin'],
+-            auth['reviewed_resolution_step_state_pin'], auth['raw_all50_comparator_pin'],
++            auth['reviewed_correction_step_state_pin'], auth['reviewed_resolution_step_state_pin'], auth['raw_all50_comparator_pin'],
+             package['primary_actual_instruction_gate_pin'], package['independent_actual_instruction_gate_pin'],
+             package['native_format_authority_pin'], package['native_prefix_package_pin'],
+             package['individual_resolution_consequence_table_pin'], package['resolution_guard_pin'],
+@@ -99,11 +105,12 @@
+     for _, op in operations:
+         assert not live.execute('select id from operation where id=?', (op['id'],)).fetchone()
+     heads = dict(live.execute('select object_id,max(version) from revision group by object_id'))
+-    for change in operations[0][1]['changes']:
+-        assert heads.get(change['id']) == change['expectedVersion']
+-        for edge in change['evidence']:
+-            assert heads.get(edge['object']) == edge['version']
+-        heads[change['id']] = (change['expectedVersion'] or 0) + 1
++    for _, native_op in operations[:2]:
++        for change in native_op['changes']:
++            assert heads.get(change['id']) == change['expectedVersion']
++            for edge in change['evidence']:
++                assert heads.get(edge['object']) == edge['version']
++            heads[change['id']] = (change['expectedVersion'] or 0) + 1
+     output = (R / auth['output_path']).resolve()
+     assert output.is_relative_to(R / 'evaluations/T-0788') and not output.exists()
+     output.mkdir()
+@@ -124,7 +131,7 @@
+             assert actual_before == stage_states[index]['before']
+             for rid, n in protected.items():
+                 assert h.current(c, n['object_id']) == rid and h.native(c, rid) == n
+-            if index == 1:
++            if index == 2:
+                 pending = [dict(r) for r in c.execute('select q.* from review_request q left join review_resolution r on r.request_id=q.id where r.request_id is null order by q.id')]
+                 assert pending == primary_requests
+                 assert pending == independent_requests
+@@ -168,16 +175,16 @@
+         compared = json.loads(compare_output.read_text())
+         assert compared['pass'] is True and compared['all50_schema_and_rows_compared'] is True
+         c = h.conn(M)
+-        resolutions = [dict(r) for r in c.execute('select rowid as native_rowid,* from review_resolution where operation_id=? order by rowid', (operations[1][1]['id'],))]
+-        assert [{'request': v['request_id'], 'rationale': v['rationale']} for v in resolutions] == operations[1][1]['resolve']
++        resolutions = [dict(r) for r in c.execute('select rowid as native_rowid,* from review_resolution where operation_id=? order by rowid', (operations[2][1]['id'],))]
++        assert [{'request': v['request_id'], 'rationale': v['rationale']} for v in resolutions] == operations[2][1]['resolve']
+         literal_pin = h.write(output / 'actual27-entire-literal-resolution-rows-and-order-v1.json', {'rows': resolutions, 'literal_and_order_equal': True})
+-        actual36 = h.readpin(first_handoff['all36_API_pin'])[1]['objects']
+-        for rid, n in actual36.items():
++        actual37 = h.readpin(corrective_handoff['all37_API_pin'])[1]['objects']
++        for rid, n in actual37.items():
+             assert h.current(c, n['object_id']) == rid and h.native(c, rid) == n
+         for rid, n in protected.items():
+             assert h.current(c, n['object_id']) == rid and h.native(c, rid) == n
+         final = h.state(c)
+-        assert final == {'journal_head': 451, 'pending': 0}
++        assert final == {'journal_head': 452, 'pending': 0}
+         c.close()
+         validators = []
+         for cmd in ['verify', 'verify-assets', 'verify-source', 'inventory']:
+@@ -198,12 +205,12 @@
+         c = h.conn(M)
+         assert h.state(c) == final
+         c.close()
+-        handoff = h.write(output / 'complete-exact-two-operation-actual-canonical451-handoff-v1.json',
++        handoff = h.write(output / 'complete-exact-three-operation-actual-canonical452-handoff-v1.json',
+                           {'task': 'T-0788', 'authorization_pin': h.pin(ap), 'package_pin': auth['package_pin'],
+                            'membership_pin': auth['membership_pin'], 'operation_pins': [m['operation_pin'] for m in members],
+                            'reviewed_final_stage_handoff_pin': auth['reviewed_final_stage_handoff_pin'], 'actual_state': final,
+                            'actual_step_states': steps, 'main_pin': h.pin(M), 'all50_raw_stage_comparison_pin': h.pin(compare_output),
+-                           'actual27_literal_resolution_pin': literal_pin, 'all36_native_and_protected42_exact_reviewed_stage': True,
++                           'actual27_literal_resolution_pin': literal_pin, 'all37_native_and_protected42_exact_reviewed_stage': True,
+                            'validators': validators, 'all_six_results_equal_reviewed_final_stage': True,
+                            'database_replacement': False, 'program_receipts_or_owner_administration_applied': False,
+                            'usage': 'UNKNOWN pending root collector'})

@@ -1,0 +1,1102 @@
+{
+  "task": "T-0780",
+  "scope": "Nine actual split C0685 operations84changes (76existing8new); excludes combinedBIO422 and four C0563 merges",
+  "handoff": {
+    "path": "evaluations/T-0780/source-review/consequences-two/C-0685-source-consequence-handoff-v6.json",
+    "sha256": "2a537c682e635cb71af270118b3780759bbe3b2c88ba5c3ce3443166be33e579"
+  },
+  "operations": [
+    {
+      "path": "evaluations/T-0780/implementation/C0685-C0563-split-proposal-v2/02-C0685-original-transcription-operation-v1.json",
+      "sha256": "d9d7c1f5fa638d7087cd0b22942329a75109a9af3d57f3ef877ce56e39e88741"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0685-C0563-split-proposal-v2/03-C0685-source-audit-operation-v1.json",
+      "sha256": "5f4437b9d5f53ef9c7af6966b3d82de09585985a79be0434efb0e47eadab381b"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0685-C0563-split-proposal-v2/21-C0685-old-record-basis-dependents-operation-v1.json",
+      "sha256": "4780ff689778e71abe6b3373d2a468f3446ff7e08a31b3460b41e3f74e1978ae"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0685-C0563-split-proposal-v2/22-C0685-source-metadata-operation-v1.json",
+      "sha256": "60e92b62569aa428c296f1afe937d6140c7885cb5504721bf4cd5c9ce0ca5817"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0685-C0563-split-proposal-v2/23-C0685-records-operation-v1.json",
+      "sha256": "bd60cc0500edd73de7cc912c084ee18d3ca9521fc75001981566157a7a8a4e36"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0685-C0563-split-proposal-v2/24-C0685-mentions-operation-v1.json",
+      "sha256": "5bb07d8a7666719924a6d666585b0c4268dc3ce8387839f07b5503c564e07593"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0685-C0563-split-proposal-v2/25-C0685-observations-operation-v1.json",
+      "sha256": "f34add82f45cb75c07c5719686a70f838cc846a6e253cc535aea666fe85d8bc3"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0685-C0563-split-proposal-v2/26-C0685-remaining-consequences-operation-v1.json",
+      "sha256": "d7eaf2c7463590dea1bc37de550e6628407d02dd434fc84c21206e29a4a9fc61"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0685-C0563-split-proposal-v2/27-C0685-bounded-adoptions-operation-v1.json",
+      "sha256": "c381198ef8178df97f5b17c6b84e334661a6331597e40ab6170eeb20a8a9a860"
+    }
+  ],
+  "individual_reviews": [
+    {
+      "id": "TR-T0780-C0685-FULL",
+      "expected_version": null,
+      "data": "exact_full_reviewed_spec",
+      "metadata_evidence": "read_whole_and_source_meaning_accepted_bounded_only"
+    },
+    {
+      "id": "AUDIT-T0780-C0685",
+      "expected_version": null,
+      "data": "exact_full_reviewed_spec",
+      "metadata_evidence": "read_whole_and_source_meaning_accepted_bounded_only"
+    },
+    {
+      "id": "TR-f16d3da88a776dd465c24b49",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "READ-0d48ba25ff2a0508249dd628",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "TR-09d1fae897df6257f4db9cef",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "TR-233ccfb2336fb3ec93f20d45",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "TR-52564fa265cfe5ce289501d6",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "READ-87c6bc810eb1731345d13fc8",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "TR-0fc302f27fe5d7ba867cf428",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "TR-8b7bc0b032ea5a64c881d0e6",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "TR-60b646eb98541aff6d353240",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "S-0044",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "R-de3335bd77494c1e87651fe8",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "R-614a854ff44498bd24da3b16",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "R-c60147cfa60576257f3a04fa",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "R-2e99c9b8f3ad620f482c69d4",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "R-7bbcb357110bab629a0a1c4e",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Correction only of C0685cross-source name annotation; no new C0562original interpretation.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "M-P-0422-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "M-P-0423-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "M-P-0426-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": []
+    },
+    {
+      "id": "M-P-0427-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "M-P-0436-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "M-P-0440-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": []
+    },
+    {
+      "id": "O-P-0422-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "O-P-0423-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "O-P-0426-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "O-P-0427-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "O-P-0436-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "O-P-0440-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "ASSESSMENT-P-0436",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-01",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-02",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-03",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-04",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-05",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-06",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-07",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-08",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-09",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-10",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-11",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0436-PK-12",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "ID-P-0422-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": []
+    },
+    {
+      "id": "ID-P-0423-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": []
+    },
+    {
+      "id": "ID-P-0426-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": []
+    },
+    {
+      "id": "ID-P-0427-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": []
+    },
+    {
+      "id": "ID-P-0436-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": []
+    },
+    {
+      "id": "ID-P-0440-C0685-own",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": []
+    },
+    {
+      "id": "KEY-P-0436-11e7f70e12fd",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "KEY-P-0436-5ceb0e98b7f7",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "KEY-P-0436-76bcae5e4a72",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "KEY-P-0436-b3e24d34bb99",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "KEY-P-0436-b749df9d42dd",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "P-0436",
+      "expected_version": 2,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "P-0436/Q-01",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "P-0436/Q-02",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0436-KP-01",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0436-KP-02",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0436-KP-03",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "READ-1af8f1a11d1bb97cd2266b85",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "READ-efc54a6deb04d47bcdf8309a",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": []
+    },
+    {
+      "id": "RESEARCH-P-0436-9d76f0343410",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0436-ARB",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0436-BO",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0436-EKO",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0436-HAL",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0436-ID",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0436-MIL",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0436-PER",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0436-REL",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0436-SAM",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0436-SYN",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "BIO-P-0427",
+      "expected_version": 2,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "BIO-P-0436",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "F-P-0436-name_form-source-variants",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "RESEARCH-P-0422-9d76f0343410",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "KEY-P-0422-a1e12b09e6c9",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "F-P-0422-residence-folio-chain",
+      "expected_version": 1,
+      "data_origins_metadata_assets": "exact_match_to_whole_reviewed_handoff_API_projection",
+      "evidence": "exact_ordered_old_or_individually_rebound_prefix_plus_reviewed_audit_addition",
+      "addition": [
+        {
+          "role": "supports",
+          "note": "Bounded current C0685 source-consequence correction; same source, not an independent historical voice.",
+          "object": "AUDIT-T0780-C0685",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "ADOPT-T0780-C0685-P-0422",
+      "expected_version": null,
+      "data": "exact_full_reviewed_spec",
+      "metadata_evidence": "read_whole_and_source_meaning_accepted_bounded_only"
+    },
+    {
+      "id": "ADOPT-T0780-C0685-P-0423",
+      "expected_version": null,
+      "data": "exact_full_reviewed_spec",
+      "metadata_evidence": "read_whole_and_source_meaning_accepted_bounded_only"
+    },
+    {
+      "id": "ADOPT-T0780-C0685-P-0426",
+      "expected_version": null,
+      "data": "exact_full_reviewed_spec",
+      "metadata_evidence": "read_whole_and_source_meaning_accepted_bounded_only"
+    },
+    {
+      "id": "ADOPT-T0780-C0685-P-0427",
+      "expected_version": null,
+      "data": "exact_full_reviewed_spec",
+      "metadata_evidence": "read_whole_and_source_meaning_accepted_bounded_only"
+    },
+    {
+      "id": "ADOPT-T0780-C0685-P-0436",
+      "expected_version": null,
+      "data": "exact_full_reviewed_spec",
+      "metadata_evidence": "read_whole_and_source_meaning_accepted_bounded_only"
+    },
+    {
+      "id": "ADOPT-T0780-C0685-P-0440",
+      "expected_version": null,
+      "data": "exact_full_reviewed_spec",
+      "metadata_evidence": "read_whole_and_source_meaning_accepted_bounded_only"
+    }
+  ],
+  "reading_method": "Whole177 current/prospective handoff read independently; actual76 full data and metadata/origins/assets mechanically equal after explicit API JSON parsing and unit_id→unit projection. Ordered evidence prefixes reconstructed from individually read source dispositions; all appended actual audit entries read. Full8new spec fields exactly match and remaining actual metadata/evidence read. No substring-only review.",
+  "findings": "No additional source-meaning or payload discrepancy in these84 changes. CoreP0436 accepted/status preserved; own-source Lovisa changes context only. FullTR oldR1→audit→newR2 acyclic. Six observation evidence order governed by explicit8b28e5 amendment; historical annotationTR old bases retained.",
+  "production": "Raw data comparison reported8_json differences due database strings/API objects; all parsed values/arrayorder exact. First origin assertion used id rather than APIunit and failed beforewrite; repaired with actualshape and all76 passed. These were reviewer check failures, not candidate source errors.",
+  "remaining": "CombinedBIO422, fourC0563 merges, wider semantic closure beyond handoff, actual review requests/resolutions, whole10 corrected package/newstage/protectedstate/exactfinalhash binding.",
+  "status": "Bounded84-change meaning/payload match only; NOT citation or all10 source/consequence PASS."
+}

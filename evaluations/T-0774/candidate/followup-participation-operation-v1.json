@@ -1,0 +1,45 @@
+{
+  "id": "T-0774/baptism-participation-review-v1",
+  "actor": "gpt-6.1-sol isolated T-0774",
+  "reason": "Resolve the one actual isolatedtrial dependency request after exact participation/event comparison; no newarchivaloriginal or referenceanswer.",
+  "dependencyReviewVersion": 2,
+  "changes": [
+    {
+      "id": "EP-E-baptism-P-0010-P-0010-baptized",
+      "expectedVersion": 1,
+      "kind": "participation",
+      "data": {
+        "event_id": "E-baptism-P-0010",
+        "person_id": "P-0010",
+        "mention_id": null,
+        "role": "baptized"
+      },
+      "disposition": "accepted",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "T-0774: actual pending participation review; same older event/person/role retained after exact event@1/@2 comparison, with current qualified support.",
+      "caveat": "Dopdeltagandet återbrukar den äldre uppgiften 1886-05-01. Datumet är inte nyavläst ur denna SCB-rad, som saknar egen dopdatumkolumn och egen 1majanteckning. Den direkta underliggande proveniensen är fortfarande olöst; registrerande församling är inte säker fysisk dopplats. Ingen ny personidentitet, deltagarroll, datumändring eller grindändring.",
+      "origins": [
+        {
+          "unit": "ff9f9f707a605249bbeedb481fc6b6599e42a06a3e1818b605fcd06ae6bc6e03",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "E-baptism-P-0010",
+          "version": 2,
+          "role": "supports",
+          "note": "Individually reviewed exact same older baptism report; inherit current no-own-SCB-date/directprovenance qualification."
+        }
+      ],
+      "assets": []
+    }
+  ],
+  "resolve": [
+    {
+      "request": "47c5828e646cb438e38ef627ed18b8ed0f89fd360449249fb22274a26a691ae7",
+      "rationale": "Exact EP data/status retained. Event@2 keeps older1886-05-01 report but qualifies no own SCBdatecolumn and unresolved directprovenance; participation now explicitly inherits that boundary and binds specifically reviewed currentevent@2. This resolves only the actual event-change dependent request, not substantive provenance question or widercoverage."
+    }
+  ]
+}

@@ -1,0 +1,2786 @@
+{
+  "task": "T-0780",
+  "rows": [
+    {
+      "actual_request": {
+        "id": "057b45a35b4743aae9d639527ab82539c879e6a920efc4ab089d0bd9d185ecae",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "E-death-P-0094@1",
+        "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/43",
+      "affected_revision_id": "E-death-P-0094@1",
+      "retained_current_revision_id": "E-death-P-0094@1",
+      "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+      "previous_changed_revision_id": "M-C0425-Jakob-Andersson@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/E-death-P-0094@1",
+        "current": "/objects/E-death-P-0094@1",
+        "changed": "/objects/M-C0425-Jakob-Andersson@2",
+        "changed_previous": "/objects/M-C0425-Jakob-Andersson@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Eget döddatum1905-10-03 kvarstår från den separata dödposten och hushållets samma kolumn. Namnförkortningen i husförhöret ändrar inte denna accepterade person eller dag; fysisk dödsplats förblir uttryckligen ej fastställd.",
+      "actual_current_data": {
+        "revision_id": "E-death-P-0094@1",
+        "event_type": "death",
+        "date_json": "{\"literal\":\"1905-10-03\",\"precision\":\"exact\",\"value\":\"1905-10-03\"}",
+        "place_id": null,
+        "place_role": "Bygdeå dödregistrering; Ultervattnet hemvist"
+      },
+      "actual_current_caveat": "Fysisk dödsplats inte särskilt angiven.",
+      "ordered_current_supports": [
+        {
+          "revision_id": "E-death-P-0094@1",
+          "basis_revision_id": "O-P-0094-death-record@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "E-death-P-0094@1",
+          "basis_revision_id": "O-P-0094-household1895@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/O-P-0094-death-record@1",
+        "/objects/O-P-0094-household1895@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/43",
+        "path": [
+          {
+            "from_revision_id": "E-death-P-0094@1",
+            "edge": {
+              "revision_id": "E-death-P-0094@1",
+              "basis_revision_id": "O-P-0094-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0094-household1895@1",
+            "edge": {
+              "revision_id": "O-P-0094-household1895@1",
+              "basis_revision_id": "M-C0425-Jakob-Andersson@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/14",
+        "judgment": "RawJacob replaces normalizedJakob in source literal only; same adultrecordidentity,Bonde,date/familybasis. No change to his death, occupation, strongerbirth16April or qualifiedmarriageyear."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "057b45a35b4743aae9d639527ab82539c879e6a920efc4ab089d0bd9d185ecae",
+        "rationale": "T-0780 faktisk begäran 057b45a35b4743aae9d639527ab82539c879e6a920efc4ab089d0bd9d185ecae: behåll E-death-P-0094@1 vid ändring M-C0425-Jakob-Andersson@2. Eget döddatum1905-10-03 kvarstår från den separata dödposten och hushållets samma kolumn. Namnförkortningen i husförhöret ändrar inte denna accepterade person eller dag; fysisk dödsplats förblir uttryckligen ej fastställd. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "0b4c0412695b989af959ed6c211e4ff7a52029a887ea621b96c5ecfbb10d3964",
+        "operation_id": "T-0780/C0425-selected27-observation-glyph-amended-v1",
+        "affected_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+        "changed_revision_id": "O-P-0096-adult-household@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/90",
+      "affected_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+      "retained_current_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+      "changed_revision_id": "O-P-0096-adult-household@2",
+      "previous_changed_revision_id": "O-P-0096-adult-household@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+        "current": "/objects/EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+        "changed": "/objects/O-P-0096-adult-household@2",
+        "changed_previous": "/objects/O-P-0096-adult-household@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "En enda hustrudeltagare, person_id null, kopplad till samma mention och vigselhändelse1898-11-30. Ändrad rånamnsreservation Gr[ö/o/a?]nberg/egna födelse- och inflyttfält ger varken ny P-identitet eller annan spouse-roll; gamla ID-strängen normaliserar inte den nya råformen.",
+      "actual_current_data": {
+        "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+        "event_id": "E-marriage-P-0096-Mathilda-Granberg-1898",
+        "person_id": null,
+        "mention_id": "M-C0425-Mathilda-Granberg",
+        "role": "spouse"
+      },
+      "actual_current_caveat": "Namngiven hustru utan egen P-kärna.",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+          "basis_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+          "basis_revision_id": "M-C0425-Mathilda-Granberg@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-marriage-P-0096-Mathilda-Granberg-1898@1",
+        "/objects/M-C0425-Mathilda-Granberg@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/90",
+        "path": [
+          {
+            "from_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+            "edge": {
+              "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+              "basis_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+            "edge": {
+              "revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "basis_revision_id": "O-P-0096-adult-household@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/31",
+        "judgment": "Ownannualhearingcells specified withreservations, notattendance/continuousresidence. Ownreportedbirth, military46 175/1884, undatedinternalreference and adultmarriage remain; dependentfacts/events use these separate unchangedfields."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "0b4c0412695b989af959ed6c211e4ff7a52029a887ea621b96c5ecfbb10d3964",
+        "rationale": "T-0780 faktisk begäran 0b4c0412695b989af959ed6c211e4ff7a52029a887ea621b96c5ecfbb10d3964: behåll EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1 vid ändring O-P-0096-adult-household@2. En enda hustrudeltagare, person_id null, kopplad till samma mention och vigselhändelse1898-11-30. Ändrad rånamnsreservation Gr[ö/o/a?]nberg/egna födelse- och inflyttfält ger varken ny P-identitet eller annan spouse-roll; gamla ID-strängen normaliserar inte den nya råformen. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "0d537bf26b7065d765e709d92cdc005cd933f7fb5de2aaa4852f7a20abf09504",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "ASSESS-P-0095-family-occupation@1",
+        "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/104",
+      "affected_revision_id": "ASSESS-P-0095-family-occupation@1",
+      "retained_current_revision_id": "ASSESS-P-0095-family-occupation@1",
+      "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+      "previous_changed_revision_id": "M-C0425-Jakob-Andersson@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/ASSESS-P-0095-family-occupation@1",
+        "current": "/objects/ASSESS-P-0095-family-occupation@1",
+        "changed": "/objects/M-C0425-Jakob-Andersson@2",
+        "changed_previous": "/objects/M-C0425-Jakob-Andersson@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Hela saktexten skiljer faderns och makens yrkestitlar från hennes familjeställning och lämnar egen lön/anställning/social uppgång obelagd. De positiva separata födelse-/dödstexterna och Jakobs titlefact består; namnförkortning eller nya annualer ger ingen ny yrkesslutsats om Maria.",
+      "actual_current_data": {
+        "revision_id": "ASSESS-P-0095-family-occupation@1",
+        "subject_id": "P-0095",
+        "criteria": "Familjeställning skild från eget yrke",
+        "outcome": "qualified_context",
+        "body": "Hans Nilsson är bonde i födelseposten och Jakob är bonde/hemmansägare i vuxenunderlag, f. B:n i hennes dödpost. Hennes titlar beskriver familjeställning; egen lön, anställning, skolgång och social uppgång är inte belagda."
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "ASSESS-P-0095-family-occupation@1",
+          "basis_revision_id": "F-P-0094-occupation-adult-life@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0095-family-occupation@1",
+          "basis_revision_id": "O-P-0095-birth-record@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0095-family-occupation@1",
+          "basis_revision_id": "O-P-0095-death-record@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/F-P-0094-occupation-adult-life@1",
+        "/objects/O-P-0095-birth-record@1",
+        "/objects/O-P-0095-death-record@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/104",
+        "path": [
+          {
+            "from_revision_id": "ASSESS-P-0095-family-occupation@1",
+            "edge": {
+              "revision_id": "ASSESS-P-0095-family-occupation@1",
+              "basis_revision_id": "F-P-0094-occupation-adult-life@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "F-P-0094-occupation-adult-life@1",
+            "edge": {
+              "revision_id": "F-P-0094-occupation-adult-life@1",
+              "basis_revision_id": "O-P-0094-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0094-household1895@1",
+            "edge": {
+              "revision_id": "O-P-0094-household1895@1",
+              "basis_revision_id": "M-C0425-Jakob-Andersson@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/14",
+        "judgment": "RawJacob replaces normalizedJakob in source literal only; same adultrecordidentity,Bonde,date/familybasis. No change to his death, occupation, strongerbirth16April or qualifiedmarriageyear."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "0d537bf26b7065d765e709d92cdc005cd933f7fb5de2aaa4852f7a20abf09504",
+        "rationale": "T-0780 faktisk begäran 0d537bf26b7065d765e709d92cdc005cd933f7fb5de2aaa4852f7a20abf09504: behåll ASSESS-P-0095-family-occupation@1 vid ändring M-C0425-Jakob-Andersson@2. Hela saktexten skiljer faderns och makens yrkestitlar från hennes familjeställning och lämnar egen lön/anställning/social uppgång obelagd. De positiva separata födelse-/dödstexterna och Jakobs titlefact består; namnförkortning eller nya annualer ger ingen ny yrkesslutsats om Maria. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "1709e35b8666bbbb4b941776f9dcce777d19d612150f1b57d351c430809a6bcb",
+        "operation_id": "T-0780/C0062-remaining56-attribution-v1-evidence-schema-v1-explicit-C0060-research29-amendment-v2",
+        "affected_revision_id": "O-P-0088-witness-title@1",
+        "changed_revision_id": "M-C0062-Jon-Andersson@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/181",
+      "affected_revision_id": "O-P-0088-witness-title@1",
+      "retained_current_revision_id": "O-P-0088-witness-title@1",
+      "changed_revision_id": "M-C0062-Jon-Andersson@2",
+      "previous_changed_revision_id": "M-C0062-Jon-Andersson@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/O-P-0088-witness-title@1",
+        "current": "/objects/O-P-0088-witness-title@1",
+        "changed": "/objects/M-C0062-Jon-Andersson@2",
+        "changed_previous": "/objects/M-C0062-Jon-Andersson@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Egen p.-förkortning lämnas oexpanderad, Jon Andersson och nämndeman är oförändrade. Nytt mentionförbehåll mot namn-/ortsövernormalisering motsägs inte: egen hemvist är fortsatt null/osäker; inget särskilt ting eller mål påstås.",
+      "actual_current_data": {
+        "revision_id": "O-P-0088-witness-title@1",
+        "record_id": "R-9a4e7b22ce37e515b3f9e559",
+        "mention_id": "M-C0062-Jon-Andersson",
+        "property": "witness_fields",
+        "value_literal": "p. Nämndemannen Jon Andersson",
+        "value_json": "{\"name\":\"Jon Andersson\",\"prefix\":\"p.\",\"prefix_expansion\":null,\"residence_reading\":null,\"title\":\"Nämndemannen\"}"
+      },
+      "actual_current_caveat": "Titeln belägger rollen, inte ett särskilt ting eller mål. Egen hemvist är inte säkert läst.",
+      "ordered_current_supports": [
+        {
+          "revision_id": "O-P-0088-witness-title@1",
+          "basis_revision_id": "M-C0062-Jon-Andersson@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "O-P-0088-witness-title@1",
+          "basis_revision_id": "R-9a4e7b22ce37e515b3f9e559@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/M-C0062-Jon-Andersson@1",
+        "/objects/R-9a4e7b22ce37e515b3f9e559@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/181",
+        "path": [
+          {
+            "from_revision_id": "O-P-0088-witness-title@1",
+            "edge": {
+              "revision_id": "O-P-0088-witness-title@1",
+              "basis_revision_id": "M-C0062-Jon-Andersson@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/9",
+        "judgment": "RawJonAndersson/p.Nämndemannen unchanged. BlottedwordbeforeForsberg and shortplaceafterhim cannot become Jonsownplace. Existing acceptedidentity/civicrole/witnessparticipation retained within their precise scope; adoption doesnot invent new place."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "1709e35b8666bbbb4b941776f9dcce777d19d612150f1b57d351c430809a6bcb",
+        "rationale": "T-0780 faktisk begäran 1709e35b8666bbbb4b941776f9dcce777d19d612150f1b57d351c430809a6bcb: behåll O-P-0088-witness-title@1 vid ändring M-C0062-Jon-Andersson@2. Egen p.-förkortning lämnas oexpanderad, Jon Andersson och nämndeman är oförändrade. Nytt mentionförbehåll mot namn-/ortsövernormalisering motsägs inte: egen hemvist är fortsatt null/osäker; inget särskilt ting eller mål påstås. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "1ce080c1726f67b9d285b3ace8abcc0fd57b1bb8654c286b2c7ffbc585847a23",
+        "operation_id": "T-0780/C0069-eight-observation-v1",
+        "affected_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+        "changed_revision_id": "O-P-0096-child1863@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/237",
+      "affected_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+      "retained_current_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+      "changed_revision_id": "O-P-0096-child1863@2",
+      "previous_changed_revision_id": "O-P-0096-child1863@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-birth-P-0096-P-0096-principal@1",
+        "current": "/objects/EP-E-birth-P-0096-P-0096-principal@1",
+        "changed": "/objects/O-P-0096-child1863@2",
+        "changed_previous": "/objects/O-P-0096-child1863@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Samma Anders Petter är principal i samma registrerade födelseuppgift1863-05-18, med egen Son-mention; deltagandet påstår ingen fysisk födelseort. Hushållsannualer och tomma ortfält ändrar inte person-/händelse-/rollkopplingen; event@2s nu kvalificerade ort bevaras separat.",
+      "actual_current_data": {
+        "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+        "event_id": "E-birth-P-0096",
+        "person_id": "P-0096",
+        "mention_id": "M-C0069-Anders-Petter",
+        "role": "principal"
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+          "basis_revision_id": "E-birth-P-0096@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+          "basis_revision_id": "M-C0069-Anders-Petter@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-birth-P-0096@1",
+        "/objects/M-C0069-Anders-Petter@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/237",
+        "path": [
+          {
+            "from_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+            "edge": {
+              "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+              "basis_revision_id": "E-birth-P-0096@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-birth-P-0096@1",
+            "edge": {
+              "revision_id": "E-birth-P-0096@1",
+              "basis_revision_id": "O-P-0096-child1863@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/32",
+        "judgment": "Two N-like F1870/72 signs and ownblankplace explicitlyreplacev/implicitplace. Reported18May1863/person preserved; alreadyqualifiedbirth event and principalparticipation do not infer physicalplace or education."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "1ce080c1726f67b9d285b3ace8abcc0fd57b1bb8654c286b2c7ffbc585847a23",
+        "rationale": "T-0780 faktisk begäran 1ce080c1726f67b9d285b3ace8abcc0fd57b1bb8654c286b2c7ffbc585847a23: behåll EP-E-birth-P-0096-P-0096-principal@1 vid ändring O-P-0096-child1863@2. Samma Anders Petter är principal i samma registrerade födelseuppgift1863-05-18, med egen Son-mention; deltagandet påstår ingen fysisk födelseort. Hushållsannualer och tomma ortfält ändrar inte person-/händelse-/rollkopplingen; event@2s nu kvalificerade ort bevaras separat. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "254ce480978a0580d47d071e3a3b1f9f90e8eb1172d5d56ccadfd897e4184a11",
+        "operation_id": "T-0780/C0425-selected27-observation-glyph-amended-v1",
+        "affected_revision_id": "ASSESS-P-0100-transfer-context@1",
+        "changed_revision_id": "O-P-0095-household1895@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/319",
+      "affected_revision_id": "ASSESS-P-0100-transfer-context@1",
+      "retained_current_revision_id": "ASSESS-P-0100-transfer-context@1",
+      "changed_revision_id": "O-P-0095-household1895@2",
+      "previous_changed_revision_id": "O-P-0095-household1895@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/ASSESS-P-0100-transfer-context@1",
+        "current": "/objects/ASSESS-P-0100-transfer-context@1",
+        "changed": "/objects/O-P-0095-household1895@2",
+        "changed_previous": "/objects/O-P-0095-household1895@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Hela texten skiljer folio820/2Dec1905 från dödskolumn18 och jämför föräldrarnas riktiga döddagar3Oct1905/26Aug1903. Ändrade namnförkortningar/annualer påverkar inte dessa fält. Överföring är ingen död, arvsslutsats eller säkert fysisk flytt; oläst fortsättning och ingen foliohärledd släktkant kvarstår.",
+      "actual_current_data": {
+        "revision_id": "ASSESS-P-0100-transfer-context@1",
+        "subject_id": "P-0100",
+        "criteria": "Kolumnläsning och senare händelsetolkning",
+        "outcome": "bounded_source_interpretation",
+        "body": "observed: Kolumner16/17 anger folio 820 och 2/12 05; kolumn18 är tom. Föräldrarnas samma kolumn har 3/10 05 och 26/8 03.\nprior_reasoning: Överföringen ligger cirka två månader efter faderns död. Akten avvisar möjlig felläsning som familjeolycka/död 2 oktober och säger att hon inte dog under bokperioden.\nlimit: Dagen hör inte till hennes dödskolumn. Ingen dödshändelse, arvsslutsats, fysisk flytt eller allmän olycksfrihet följer. Fortsättningen efter 1905 är oläst.\ncomparison: Syster Anna Fredrika fördes till 853 år 1904; svägerskan Anna Albertina Öberg kom från 820 år 1899. Folionärheten ger ingen ny släkt-/boendeslutsats."
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "E-death-P-0094@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "E-death-P-0095@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "R-704cab19e220a827cf2acf58@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "R-85c7e85b48634a6413e79c49@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-death-P-0094@1",
+        "/objects/E-death-P-0095@1",
+        "/objects/R-704cab19e220a827cf2acf58@1",
+        "/objects/R-85c7e85b48634a6413e79c49@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/319",
+        "path": [
+          {
+            "from_revision_id": "ASSESS-P-0100-transfer-context@1",
+            "edge": {
+              "revision_id": "ASSESS-P-0100-transfer-context@1",
+              "basis_revision_id": "E-death-P-0095@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-death-P-0095@1",
+            "edge": {
+              "revision_id": "E-death-P-0095@1",
+              "basis_revision_id": "O-P-0095-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/30",
+        "judgment": "Ownannualhearingcells specified instead of genericunreadflag; ownbirth/death/transferfieldsofMaria unchanged. Childtransfercontext and death/eventparticipation unaffected by annualraw reading."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "254ce480978a0580d47d071e3a3b1f9f90e8eb1172d5d56ccadfd897e4184a11",
+        "rationale": "T-0780 faktisk begäran 254ce480978a0580d47d071e3a3b1f9f90e8eb1172d5d56ccadfd897e4184a11: behåll ASSESS-P-0100-transfer-context@1 vid ändring O-P-0095-household1895@2. Hela texten skiljer folio820/2Dec1905 från dödskolumn18 och jämför föräldrarnas riktiga döddagar3Oct1905/26Aug1903. Ändrade namnförkortningar/annualer påverkar inte dessa fält. Överföring är ingen död, arvsslutsats eller säkert fysisk flytt; oläst fortsättning och ingen foliohärledd släktkant kvarstår. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "38f6ba822e8038f3327f651caab33edcc2e2615f581a4073b2b97645001e02a0",
+        "operation_id": "T-0780/C0425-selected27-observation-glyph-amended-v1",
+        "affected_revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+        "changed_revision_id": "O-P-0095-household1895@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/481",
+      "affected_revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+      "retained_current_revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+      "changed_revision_id": "O-P-0095-household1895@2",
+      "previous_changed_revision_id": "O-P-0095-household1895@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-death-P-0095-P-0095-principal@1",
+        "current": "/objects/EP-E-death-P-0095-P-0095-principal@1",
+        "changed": "/objects/O-P-0095-household1895@2",
+        "changed_previous": "/objects/O-P-0095-household1895@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Samma Maria Christina är ensam principal i egen död26Aug1903. Hennes separata dödpostmention@2 och acceptedperson består; hushållsnamnets kortform och annualer ändrar inte rollen eller personidentiteten.",
+      "actual_current_data": {
+        "revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+        "event_id": "E-death-P-0095",
+        "person_id": "P-0095",
+        "mention_id": "M-P-0049-relative-mother",
+        "role": "principal"
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+          "basis_revision_id": "E-death-P-0095@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+          "basis_revision_id": "M-P-0049-relative-mother@2",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-death-P-0095@1",
+        "/objects/M-P-0049-relative-mother@2"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/481",
+        "path": [
+          {
+            "from_revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+            "edge": {
+              "revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+              "basis_revision_id": "E-death-P-0095@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-death-P-0095@1",
+            "edge": {
+              "revision_id": "E-death-P-0095@1",
+              "basis_revision_id": "O-P-0095-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/30",
+        "judgment": "Ownannualhearingcells specified instead of genericunreadflag; ownbirth/death/transferfieldsofMaria unchanged. Childtransfercontext and death/eventparticipation unaffected by annualraw reading."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "38f6ba822e8038f3327f651caab33edcc2e2615f581a4073b2b97645001e02a0",
+        "rationale": "T-0780 faktisk begäran 38f6ba822e8038f3327f651caab33edcc2e2615f581a4073b2b97645001e02a0: behåll EP-E-death-P-0095-P-0095-principal@1 vid ändring O-P-0095-household1895@2. Samma Maria Christina är ensam principal i egen död26Aug1903. Hennes separata dödpostmention@2 och acceptedperson består; hushållsnamnets kortform och annualer ändrar inte rollen eller personidentiteten. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "3dbd223b5d0f57a718b67946da9efd34d6f442d9e8ee1955ab241a936106d904",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "ASSESS-P-0094-marriage-date@1",
+        "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/523",
+      "affected_revision_id": "ASSESS-P-0094-marriage-date@1",
+      "retained_current_revision_id": "ASSESS-P-0094-marriage-date@1",
+      "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+      "previous_changed_revision_id": "M-C0425-Jakob-Andersson@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/ASSESS-P-0094-marriage-date@1",
+        "current": "/objects/ASSESS-P-0094-marriage-date@1",
+        "changed": "/objects/M-C0425-Jakob-Andersson@2",
+        "changed_previous": "/objects/M-C0425-Jakob-Andersson@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Makar/medföräldrar hålls åtskilda från exakt olöst vigseldag och ort. Båda hushålls61-uppgifterna är inte en egenvigsel; den uttryckliga unresolved-bedömningen och begränsade årsnoll kvarstår. Namnets kortform ändrar inte detta.",
+      "actual_current_data": {
+        "revision_id": "ASSESS-P-0094-marriage-date@1",
+        "subject_id": "P-0094",
+        "criteria": "Äktenskap skilt från osäkert vigselfält",
+        "outcome": "unresolved",
+        "body": "Makar och medföräldrar är belagda. C-0069:s G 62 är rättad till osäkert 61[?] med diagonal och 7-liknande följdtecken; C-0425 har 61. Ingen egen vigselpost eller exakt dag/ort är fastställd. Noll 1861–63 bevisar inte annan församling; 1860 är ofullständigt."
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "ASSESS-P-0094-marriage-date@1",
+          "basis_revision_id": "O-P-0094-household1863@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0094-marriage-date@1",
+          "basis_revision_id": "O-P-0094-household1895@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/O-P-0094-household1863@1",
+        "/objects/O-P-0094-household1895@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/523",
+        "path": [
+          {
+            "from_revision_id": "ASSESS-P-0094-marriage-date@1",
+            "edge": {
+              "revision_id": "ASSESS-P-0094-marriage-date@1",
+              "basis_revision_id": "O-P-0094-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0094-household1895@1",
+            "edge": {
+              "revision_id": "O-P-0094-household1895@1",
+              "basis_revision_id": "M-C0425-Jakob-Andersson@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/14",
+        "judgment": "RawJacob replaces normalizedJakob in source literal only; same adultrecordidentity,Bonde,date/familybasis. No change to his death, occupation, strongerbirth16April or qualifiedmarriageyear."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "3dbd223b5d0f57a718b67946da9efd34d6f442d9e8ee1955ab241a936106d904",
+        "rationale": "T-0780 faktisk begäran 3dbd223b5d0f57a718b67946da9efd34d6f442d9e8ee1955ab241a936106d904: behåll ASSESS-P-0094-marriage-date@1 vid ändring M-C0425-Jakob-Andersson@2. Makar/medföräldrar hålls åtskilda från exakt olöst vigseldag och ort. Båda hushålls61-uppgifterna är inte en egenvigsel; den uttryckliga unresolved-bedömningen och begränsade årsnoll kvarstår. Namnets kortform ändrar inte detta. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "3e05ba4a382ac2f6ccca4474517cb3375a35a3907659bd488931e32b0dbd4074",
+        "operation_id": "T-0780/C0425-selected27-observation-glyph-amended-v1",
+        "affected_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "changed_revision_id": "O-P-0096-adult-household@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/526",
+      "affected_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+      "retained_current_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+      "changed_revision_id": "O-P-0096-adult-household@2",
+      "previous_changed_revision_id": "O-P-0096-adult-household@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "current": "/objects/EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "changed": "/objects/O-P-0096-adult-household@2",
+        "changed_previous": "/objects/O-P-0096-adult-household@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Anders Petter är samma spouse med egen person och egen bonderadsmention; datumstödet1898-11-30 består. Hustruns namn-, födelse- och hänvisningsrättelse samt annualer ändrar inte denna hans person-/händelsekoppling; egen vigselbok är fortfarande oläst.",
+      "actual_current_data": {
+        "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "event_id": "E-marriage-P-0096-Mathilda-Granberg-1898",
+        "person_id": "P-0096",
+        "mention_id": "M-C0425-Anders-Petter-r10",
+        "role": "spouse"
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+          "basis_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+          "basis_revision_id": "M-C0425-Anders-Petter-r10@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-marriage-P-0096-Mathilda-Granberg-1898@1",
+        "/objects/M-C0425-Anders-Petter-r10@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/526",
+        "path": [
+          {
+            "from_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+            "edge": {
+              "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+              "basis_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+            "edge": {
+              "revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "basis_revision_id": "O-P-0096-adult-household@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/31",
+        "judgment": "Ownannualhearingcells specified withreservations, notattendance/continuousresidence. Ownreportedbirth, military46 175/1884, undatedinternalreference and adultmarriage remain; dependentfacts/events use these separate unchangedfields."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "3e05ba4a382ac2f6ccca4474517cb3375a35a3907659bd488931e32b0dbd4074",
+        "rationale": "T-0780 faktisk begäran 3e05ba4a382ac2f6ccca4474517cb3375a35a3907659bd488931e32b0dbd4074: behåll EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1 vid ändring O-P-0096-adult-household@2. Anders Petter är samma spouse med egen person och egen bonderadsmention; datumstödet1898-11-30 består. Hustruns namn-, födelse- och hänvisningsrättelse samt annualer ändrar inte denna hans person-/händelsekoppling; egen vigselbok är fortfarande oläst. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "47dfb9d17be7a8807a96de81a1ff89467270d788cac420a142ad049d911d2406",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "ASSESS-P-0100-transfer-context@1",
+        "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/616",
+      "affected_revision_id": "ASSESS-P-0100-transfer-context@1",
+      "retained_current_revision_id": "ASSESS-P-0100-transfer-context@1",
+      "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+      "previous_changed_revision_id": "M-C0425-Jakob-Andersson@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/ASSESS-P-0100-transfer-context@1",
+        "current": "/objects/ASSESS-P-0100-transfer-context@1",
+        "changed": "/objects/M-C0425-Jakob-Andersson@2",
+        "changed_previous": "/objects/M-C0425-Jakob-Andersson@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Hela texten skiljer folio820/2Dec1905 från dödskolumn18 och jämför föräldrarnas riktiga döddagar3Oct1905/26Aug1903. Ändrade namnförkortningar/annualer påverkar inte dessa fält. Överföring är ingen död, arvsslutsats eller säkert fysisk flytt; oläst fortsättning och ingen foliohärledd släktkant kvarstår.",
+      "actual_current_data": {
+        "revision_id": "ASSESS-P-0100-transfer-context@1",
+        "subject_id": "P-0100",
+        "criteria": "Kolumnläsning och senare händelsetolkning",
+        "outcome": "bounded_source_interpretation",
+        "body": "observed: Kolumner16/17 anger folio 820 och 2/12 05; kolumn18 är tom. Föräldrarnas samma kolumn har 3/10 05 och 26/8 03.\nprior_reasoning: Överföringen ligger cirka två månader efter faderns död. Akten avvisar möjlig felläsning som familjeolycka/död 2 oktober och säger att hon inte dog under bokperioden.\nlimit: Dagen hör inte till hennes dödskolumn. Ingen dödshändelse, arvsslutsats, fysisk flytt eller allmän olycksfrihet följer. Fortsättningen efter 1905 är oläst.\ncomparison: Syster Anna Fredrika fördes till 853 år 1904; svägerskan Anna Albertina Öberg kom från 820 år 1899. Folionärheten ger ingen ny släkt-/boendeslutsats."
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "E-death-P-0094@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "E-death-P-0095@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "R-704cab19e220a827cf2acf58@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "R-85c7e85b48634a6413e79c49@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-death-P-0094@1",
+        "/objects/E-death-P-0095@1",
+        "/objects/R-704cab19e220a827cf2acf58@1",
+        "/objects/R-85c7e85b48634a6413e79c49@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/616",
+        "path": [
+          {
+            "from_revision_id": "ASSESS-P-0100-transfer-context@1",
+            "edge": {
+              "revision_id": "ASSESS-P-0100-transfer-context@1",
+              "basis_revision_id": "E-death-P-0094@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-death-P-0094@1",
+            "edge": {
+              "revision_id": "E-death-P-0094@1",
+              "basis_revision_id": "O-P-0094-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0094-household1895@1",
+            "edge": {
+              "revision_id": "O-P-0094-household1895@1",
+              "basis_revision_id": "M-C0425-Jakob-Andersson@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/14",
+        "judgment": "RawJacob replaces normalizedJakob in source literal only; same adultrecordidentity,Bonde,date/familybasis. No change to his death, occupation, strongerbirth16April or qualifiedmarriageyear."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "47dfb9d17be7a8807a96de81a1ff89467270d788cac420a142ad049d911d2406",
+        "rationale": "T-0780 faktisk begäran 47dfb9d17be7a8807a96de81a1ff89467270d788cac420a142ad049d911d2406: behåll ASSESS-P-0100-transfer-context@1 vid ändring M-C0425-Jakob-Andersson@2. Hela texten skiljer folio820/2Dec1905 från dödskolumn18 och jämför föräldrarnas riktiga döddagar3Oct1905/26Aug1903. Ändrade namnförkortningar/annualer påverkar inte dessa fält. Överföring är ingen död, arvsslutsats eller säkert fysisk flytt; oläst fortsättning och ingen foliohärledd släktkant kvarstår. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "4ec9cc1ec230b995a2ffa5082739cc3e9db85acf06635678c45241abdd7b1c9f",
+        "operation_id": "T-0780/C0062-remaining56-attribution-v1-evidence-schema-v1-explicit-C0060-research29-amendment-v2",
+        "affected_revision_id": "EP-E-baptism-P-0029-P-0082-witness@1",
+        "changed_revision_id": "M-C0062-Jon-Andersson@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/665",
+      "affected_revision_id": "EP-E-baptism-P-0029-P-0082-witness@1",
+      "retained_current_revision_id": "EP-E-baptism-P-0029-P-0082-witness@1",
+      "changed_revision_id": "M-C0062-Jon-Andersson@2",
+      "previous_changed_revision_id": "M-C0062-Jon-Andersson@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-baptism-P-0029-P-0082-witness@1",
+        "current": "/objects/EP-E-baptism-P-0029-P-0082-witness@1",
+        "changed": "/objects/M-C0062-Jon-Andersson@2",
+        "changed_previous": "/objects/M-C0062-Jon-Andersson@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "En enda Jon Andersson-deltagare knuten till accepteradP0082; P0088 bevaras som administrativt spår och blir inte andra vittnet. Mention@2s råförbehåll ändrar inte samma namn/titel/korrelation; kompletteradfullTR skapar ingen ytterligare oberoende dopröst.",
+      "actual_current_data": {
+        "revision_id": "EP-E-baptism-P-0029-P-0082-witness@1",
+        "event_id": "E-baptism-P-0029",
+        "person_id": "P-0082",
+        "mention_id": "M-C0062-Jon-Andersson",
+        "role": "witness"
+      },
+      "actual_current_caveat": "Ett enda deltagande för den man som också registrerats som P-0088; inte ett andra vittne.",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-baptism-P-0029-P-0082-witness@1",
+          "basis_revision_id": "E-baptism-P-0029@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-baptism-P-0029-P-0082-witness@1",
+          "basis_revision_id": "M-C0062-Jon-Andersson@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-baptism-P-0029@1",
+        "/objects/M-C0062-Jon-Andersson@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/665",
+        "path": [
+          {
+            "from_revision_id": "EP-E-baptism-P-0029-P-0082-witness@1",
+            "edge": {
+              "revision_id": "EP-E-baptism-P-0029-P-0082-witness@1",
+              "basis_revision_id": "M-C0062-Jon-Andersson@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/9",
+        "judgment": "RawJonAndersson/p.Nämndemannen unchanged. BlottedwordbeforeForsberg and shortplaceafterhim cannot become Jonsownplace. Existing acceptedidentity/civicrole/witnessparticipation retained within their precise scope; adoption doesnot invent new place."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "4ec9cc1ec230b995a2ffa5082739cc3e9db85acf06635678c45241abdd7b1c9f",
+        "rationale": "T-0780 faktisk begäran 4ec9cc1ec230b995a2ffa5082739cc3e9db85acf06635678c45241abdd7b1c9f: behåll EP-E-baptism-P-0029-P-0082-witness@1 vid ändring M-C0062-Jon-Andersson@2. En enda Jon Andersson-deltagare knuten till accepteradP0082; P0088 bevaras som administrativt spår och blir inte andra vittnet. Mention@2s råförbehåll ändrar inte samma namn/titel/korrelation; kompletteradfullTR skapar ingen ytterligare oberoende dopröst. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "704da89284e552cc9a2e719d472215823400014f35d3526bc9133eb466ace8eb",
+        "operation_id": "T-0780/C0425-selected27-observation-glyph-amended-v1",
+        "affected_revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+        "changed_revision_id": "O-P-0094-household1895@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/939",
+      "affected_revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+      "retained_current_revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+      "changed_revision_id": "O-P-0094-household1895@2",
+      "previous_changed_revision_id": "O-P-0094-household1895@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-death-P-0094-P-0094-principal@1",
+        "current": "/objects/EP-E-death-P-0094-P-0094-principal@1",
+        "changed": "/objects/O-P-0094-household1895@2",
+        "changed_previous": "/objects/O-P-0094-household1895@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Samma Jakob är principal i egen död3Oct1905, stödd av egen dödpostmention@2. Namnförkortning/annualer i hushållet ändrar inte person, datum eller roll; separat dödpoststöds gränser bevaras.",
+      "actual_current_data": {
+        "revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+        "event_id": "E-death-P-0094",
+        "person_id": "P-0094",
+        "mention_id": "M-P-0049-relative-father",
+        "role": "principal"
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+          "basis_revision_id": "E-death-P-0094@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+          "basis_revision_id": "M-P-0049-relative-father@2",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-death-P-0094@1",
+        "/objects/M-P-0049-relative-father@2"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/939",
+        "path": [
+          {
+            "from_revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+            "edge": {
+              "revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+              "basis_revision_id": "E-death-P-0094@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-death-P-0094@1",
+            "edge": {
+              "revision_id": "E-death-P-0094@1",
+              "basis_revision_id": "O-P-0094-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/29",
+        "judgment": "Ownannualhearingcells specified instead of genericunreadflag; no attendance/continuousresidence/estate inference. Stablebirth/death/title/marriageyearfields continue to support boundedrelatedfacts; strongerbirth retained."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "704da89284e552cc9a2e719d472215823400014f35d3526bc9133eb466ace8eb",
+        "rationale": "T-0780 faktisk begäran 704da89284e552cc9a2e719d472215823400014f35d3526bc9133eb466ace8eb: behåll EP-E-death-P-0094-P-0094-principal@1 vid ändring O-P-0094-household1895@2. Samma Jakob är principal i egen död3Oct1905, stödd av egen dödpostmention@2. Namnförkortning/annualer i hushållet ändrar inte person, datum eller roll; separat dödpoststöds gränser bevaras. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "7c48229a20d44bc169e6b76a3a20ecdd980f140303d7805f2bdedc41c0707f95",
+        "operation_id": "T-0780/C0425-selected27-observation-glyph-amended-v1",
+        "affected_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+        "changed_revision_id": "O-P-0096-wife@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1038",
+      "affected_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+      "retained_current_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+      "changed_revision_id": "O-P-0096-wife@2",
+      "previous_changed_revision_id": "O-P-0096-wife@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+        "current": "/objects/EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+        "changed": "/objects/O-P-0096-wife@2",
+        "changed_previous": "/objects/O-P-0096-wife@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "En enda hustrudeltagare, person_id null, kopplad till samma mention och vigselhändelse1898-11-30. Ändrad rånamnsreservation Gr[ö/o/a?]nberg/egna födelse- och inflyttfält ger varken ny P-identitet eller annan spouse-roll; gamla ID-strängen normaliserar inte den nya råformen.",
+      "actual_current_data": {
+        "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+        "event_id": "E-marriage-P-0096-Mathilda-Granberg-1898",
+        "person_id": null,
+        "mention_id": "M-C0425-Mathilda-Granberg",
+        "role": "spouse"
+      },
+      "actual_current_caveat": "Namngiven hustru utan egen P-kärna.",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+          "basis_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+          "basis_revision_id": "M-C0425-Mathilda-Granberg@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-marriage-P-0096-Mathilda-Granberg-1898@1",
+        "/objects/M-C0425-Mathilda-Granberg@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1038",
+        "path": [
+          {
+            "from_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+            "edge": {
+              "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1",
+              "basis_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+            "edge": {
+              "revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "basis_revision_id": "O-P-0096-wife@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/34",
+        "judgment": "Ownwife rawsurname and31March1870/from841 replaceDec3/844. Dependentmarriage30Nov1898/pairrole fields unchanged, exactsourcewife mention retained; no outside-recordidentity/physicaltravel."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "7c48229a20d44bc169e6b76a3a20ecdd980f140303d7805f2bdedc41c0707f95",
+        "rationale": "T-0780 faktisk begäran 7c48229a20d44bc169e6b76a3a20ecdd980f140303d7805f2bdedc41c0707f95: behåll EP-E-marriage-P-0096-Mathilda-Granberg-1898-M-C0425-Mathilda-Granberg-spouse@1 vid ändring O-P-0096-wife@2. En enda hustrudeltagare, person_id null, kopplad till samma mention och vigselhändelse1898-11-30. Ändrad rånamnsreservation Gr[ö/o/a?]nberg/egna födelse- och inflyttfält ger varken ny P-identitet eller annan spouse-roll; gamla ID-strängen normaliserar inte den nya råformen. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "81289cd5a15e0a41f0b43037d7b9799937ab30d810662f1715b31e2ed2ffdd37",
+        "operation_id": "T-0780/C0425-selected27-observation-glyph-amended-v1",
+        "affected_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+        "changed_revision_id": "O-P-0096-adult-household@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1067",
+      "affected_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+      "retained_current_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+      "changed_revision_id": "O-P-0096-adult-household@2",
+      "previous_changed_revision_id": "O-P-0096-adult-household@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-birth-P-0096-P-0096-principal@1",
+        "current": "/objects/EP-E-birth-P-0096-P-0096-principal@1",
+        "changed": "/objects/O-P-0096-adult-household@2",
+        "changed_previous": "/objects/O-P-0096-adult-household@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Samma Anders Petter är principal i samma registrerade födelseuppgift1863-05-18, med egen Son-mention; deltagandet påstår ingen fysisk födelseort. Hushållsannualer och tomma ortfält ändrar inte person-/händelse-/rollkopplingen; event@2s nu kvalificerade ort bevaras separat.",
+      "actual_current_data": {
+        "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+        "event_id": "E-birth-P-0096",
+        "person_id": "P-0096",
+        "mention_id": "M-C0069-Anders-Petter",
+        "role": "principal"
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+          "basis_revision_id": "E-birth-P-0096@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+          "basis_revision_id": "M-C0069-Anders-Petter@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-birth-P-0096@1",
+        "/objects/M-C0069-Anders-Petter@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1067",
+        "path": [
+          {
+            "from_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+            "edge": {
+              "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+              "basis_revision_id": "E-birth-P-0096@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-birth-P-0096@1",
+            "edge": {
+              "revision_id": "E-birth-P-0096@1",
+              "basis_revision_id": "O-P-0096-adult-household@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/31",
+        "judgment": "Ownannualhearingcells specified withreservations, notattendance/continuousresidence. Ownreportedbirth, military46 175/1884, undatedinternalreference and adultmarriage remain; dependentfacts/events use these separate unchangedfields."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "81289cd5a15e0a41f0b43037d7b9799937ab30d810662f1715b31e2ed2ffdd37",
+        "rationale": "T-0780 faktisk begäran 81289cd5a15e0a41f0b43037d7b9799937ab30d810662f1715b31e2ed2ffdd37: behåll EP-E-birth-P-0096-P-0096-principal@1 vid ändring O-P-0096-adult-household@2. Samma Anders Petter är principal i samma registrerade födelseuppgift1863-05-18, med egen Son-mention; deltagandet påstår ingen fysisk födelseort. Hushållsannualer och tomma ortfält ändrar inte person-/händelse-/rollkopplingen; event@2s nu kvalificerade ort bevaras separat. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "8b3c208913846cd5d112f5e5bd560b9b5ccc8749ff015e039c4e8552ef751692",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "changed_revision_id": "M-C0425-Mathilda-Granberg@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1150",
+      "affected_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+      "retained_current_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+      "changed_revision_id": "M-C0425-Mathilda-Granberg@2",
+      "previous_changed_revision_id": "M-C0425-Mathilda-Granberg@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "current": "/objects/EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "changed": "/objects/M-C0425-Mathilda-Granberg@2",
+        "changed_previous": "/objects/M-C0425-Mathilda-Granberg@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Anders Petter är samma spouse med egen person och egen bonderadsmention; datumstödet1898-11-30 består. Hustruns namn-, födelse- och hänvisningsrättelse samt annualer ändrar inte denna hans person-/händelsekoppling; egen vigselbok är fortfarande oläst.",
+      "actual_current_data": {
+        "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "event_id": "E-marriage-P-0096-Mathilda-Granberg-1898",
+        "person_id": "P-0096",
+        "mention_id": "M-C0425-Anders-Petter-r10",
+        "role": "spouse"
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+          "basis_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+          "basis_revision_id": "M-C0425-Anders-Petter-r10@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-marriage-P-0096-Mathilda-Granberg-1898@1",
+        "/objects/M-C0425-Anders-Petter-r10@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1150",
+        "path": [
+          {
+            "from_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+            "edge": {
+              "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+              "basis_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+            "edge": {
+              "revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "basis_revision_id": "O-P-0096-wife@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0096-wife@1",
+            "edge": {
+              "revision_id": "O-P-0096-wife@1",
+              "basis_revision_id": "M-C0425-Mathilda-Granberg@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/17",
+        "judgment": "Surnamevowel remains Gr[ö/o/a?]nberg; same sourcewife mentioned in unchangedmarriage30Nov1898. No outside-recordPidentity. Correctedownwifeobservation holds31March1870/from841; marriageevent/participations do not rely on oldDec3/844."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "8b3c208913846cd5d112f5e5bd560b9b5ccc8749ff015e039c4e8552ef751692",
+        "rationale": "T-0780 faktisk begäran 8b3c208913846cd5d112f5e5bd560b9b5ccc8749ff015e039c4e8552ef751692: behåll EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1 vid ändring M-C0425-Mathilda-Granberg@2. Anders Petter är samma spouse med egen person och egen bonderadsmention; datumstödet1898-11-30 består. Hustruns namn-, födelse- och hänvisningsrättelse samt annualer ändrar inte denna hans person-/händelsekoppling; egen vigselbok är fortfarande oläst. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "8c7db1309219d7a6e71f8cd1980d2dd08beffe241e791f74a2970bc0f7b981ab",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+        "changed_revision_id": "M-C0425-Maria-Christina@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1160",
+      "affected_revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+      "retained_current_revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+      "changed_revision_id": "M-C0425-Maria-Christina@2",
+      "previous_changed_revision_id": "M-C0425-Maria-Christina@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-death-P-0095-P-0095-principal@1",
+        "current": "/objects/EP-E-death-P-0095-P-0095-principal@1",
+        "changed": "/objects/M-C0425-Maria-Christina@2",
+        "changed_previous": "/objects/M-C0425-Maria-Christina@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Samma Maria Christina är ensam principal i egen död26Aug1903. Hennes separata dödpostmention@2 och acceptedperson består; hushållsnamnets kortform och annualer ändrar inte rollen eller personidentiteten.",
+      "actual_current_data": {
+        "revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+        "event_id": "E-death-P-0095",
+        "person_id": "P-0095",
+        "mention_id": "M-P-0049-relative-mother",
+        "role": "principal"
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+          "basis_revision_id": "E-death-P-0095@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+          "basis_revision_id": "M-P-0049-relative-mother@2",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-death-P-0095@1",
+        "/objects/M-P-0049-relative-mother@2"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1160",
+        "path": [
+          {
+            "from_revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+            "edge": {
+              "revision_id": "EP-E-death-P-0095-P-0095-principal@1",
+              "basis_revision_id": "E-death-P-0095@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-death-P-0095@1",
+            "edge": {
+              "revision_id": "E-death-P-0095@1",
+              "basis_revision_id": "O-P-0095-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0095-household1895@1",
+            "edge": {
+              "revision_id": "O-P-0095-household1895@1",
+              "basis_revision_id": "M-C0425-Maria-Christina@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/16",
+        "judgment": "Hansd:r sourceabbreviation replaces expandedHansdotter only; same wifeidentity/date/death/parentalcontext, no newperson or maritalclaim."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "8c7db1309219d7a6e71f8cd1980d2dd08beffe241e791f74a2970bc0f7b981ab",
+        "rationale": "T-0780 faktisk begäran 8c7db1309219d7a6e71f8cd1980d2dd08beffe241e791f74a2970bc0f7b981ab: behåll EP-E-death-P-0095-P-0095-principal@1 vid ändring M-C0425-Maria-Christina@2. Samma Maria Christina är ensam principal i egen död26Aug1903. Hennes separata dödpostmention@2 och acceptedperson består; hushållsnamnets kortform och annualer ändrar inte rollen eller personidentiteten. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "9ad6648361660051c53d122390284303dff967e25ff092f7e30cea9543a46587",
+        "operation_id": "T-0780/C0425-selected27-observation-glyph-amended-v1",
+        "affected_revision_id": "ASSESS-P-0095-family-occupation@1",
+        "changed_revision_id": "O-P-0094-household1895@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1288",
+      "affected_revision_id": "ASSESS-P-0095-family-occupation@1",
+      "retained_current_revision_id": "ASSESS-P-0095-family-occupation@1",
+      "changed_revision_id": "O-P-0094-household1895@2",
+      "previous_changed_revision_id": "O-P-0094-household1895@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/ASSESS-P-0095-family-occupation@1",
+        "current": "/objects/ASSESS-P-0095-family-occupation@1",
+        "changed": "/objects/O-P-0094-household1895@2",
+        "changed_previous": "/objects/O-P-0094-household1895@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Hela saktexten skiljer faderns och makens yrkestitlar från hennes familjeställning och lämnar egen lön/anställning/social uppgång obelagd. De positiva separata födelse-/dödstexterna och Jakobs titlefact består; namnförkortning eller nya annualer ger ingen ny yrkesslutsats om Maria.",
+      "actual_current_data": {
+        "revision_id": "ASSESS-P-0095-family-occupation@1",
+        "subject_id": "P-0095",
+        "criteria": "Familjeställning skild från eget yrke",
+        "outcome": "qualified_context",
+        "body": "Hans Nilsson är bonde i födelseposten och Jakob är bonde/hemmansägare i vuxenunderlag, f. B:n i hennes dödpost. Hennes titlar beskriver familjeställning; egen lön, anställning, skolgång och social uppgång är inte belagda."
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "ASSESS-P-0095-family-occupation@1",
+          "basis_revision_id": "F-P-0094-occupation-adult-life@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0095-family-occupation@1",
+          "basis_revision_id": "O-P-0095-birth-record@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0095-family-occupation@1",
+          "basis_revision_id": "O-P-0095-death-record@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/F-P-0094-occupation-adult-life@1",
+        "/objects/O-P-0095-birth-record@1",
+        "/objects/O-P-0095-death-record@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1288",
+        "path": [
+          {
+            "from_revision_id": "ASSESS-P-0095-family-occupation@1",
+            "edge": {
+              "revision_id": "ASSESS-P-0095-family-occupation@1",
+              "basis_revision_id": "F-P-0094-occupation-adult-life@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "F-P-0094-occupation-adult-life@1",
+            "edge": {
+              "revision_id": "F-P-0094-occupation-adult-life@1",
+              "basis_revision_id": "O-P-0094-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/29",
+        "judgment": "Ownannualhearingcells specified instead of genericunreadflag; no attendance/continuousresidence/estate inference. Stablebirth/death/title/marriageyearfields continue to support boundedrelatedfacts; strongerbirth retained."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "9ad6648361660051c53d122390284303dff967e25ff092f7e30cea9543a46587",
+        "rationale": "T-0780 faktisk begäran 9ad6648361660051c53d122390284303dff967e25ff092f7e30cea9543a46587: behåll ASSESS-P-0095-family-occupation@1 vid ändring O-P-0094-household1895@2. Hela saktexten skiljer faderns och makens yrkestitlar från hennes familjeställning och lämnar egen lön/anställning/social uppgång obelagd. De positiva separata födelse-/dödstexterna och Jakobs titlefact består; namnförkortning eller nya annualer ger ingen ny yrkesslutsats om Maria. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "bc17f8e7c1bf04989f9ad176cdae6fef6ca3070be481960a270819a5d5a99ed7",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "E-death-P-0095@1",
+        "changed_revision_id": "M-C0425-Maria-Christina@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1570",
+      "affected_revision_id": "E-death-P-0095@1",
+      "retained_current_revision_id": "E-death-P-0095@1",
+      "changed_revision_id": "M-C0425-Maria-Christina@2",
+      "previous_changed_revision_id": "M-C0425-Maria-Christina@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/E-death-P-0095@1",
+        "current": "/objects/E-death-P-0095@1",
+        "changed": "/objects/M-C0425-Maria-Christina@2",
+        "changed_previous": "/objects/M-C0425-Maria-Christina@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Eget döddatum1903-08-26 kvarstår från hennes separata dödpost och samma hushållskolumn. Kortare namnform på husförhörsraden ändrar inte den accepterade personen eller dagen; fysisk dödsplats förblir ej fastställd.",
+      "actual_current_data": {
+        "revision_id": "E-death-P-0095@1",
+        "event_type": "death",
+        "date_json": "{\"literal\":\"1903-08-26\",\"precision\":\"exact\",\"value\":\"1903-08-26\"}",
+        "place_id": null,
+        "place_role": "Bygdeå dödregistrering; Ultervattnet hemvist"
+      },
+      "actual_current_caveat": "Fysisk dödsplats inte fastställd.",
+      "ordered_current_supports": [
+        {
+          "revision_id": "E-death-P-0095@1",
+          "basis_revision_id": "O-P-0095-death-record@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "E-death-P-0095@1",
+          "basis_revision_id": "O-P-0095-household1895@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/O-P-0095-death-record@1",
+        "/objects/O-P-0095-household1895@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1570",
+        "path": [
+          {
+            "from_revision_id": "E-death-P-0095@1",
+            "edge": {
+              "revision_id": "E-death-P-0095@1",
+              "basis_revision_id": "O-P-0095-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0095-household1895@1",
+            "edge": {
+              "revision_id": "O-P-0095-household1895@1",
+              "basis_revision_id": "M-C0425-Maria-Christina@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/16",
+        "judgment": "Hansd:r sourceabbreviation replaces expandedHansdotter only; same wifeidentity/date/death/parentalcontext, no newperson or maritalclaim."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "bc17f8e7c1bf04989f9ad176cdae6fef6ca3070be481960a270819a5d5a99ed7",
+        "rationale": "T-0780 faktisk begäran bc17f8e7c1bf04989f9ad176cdae6fef6ca3070be481960a270819a5d5a99ed7: behåll E-death-P-0095@1 vid ändring M-C0425-Maria-Christina@2. Eget döddatum1903-08-26 kvarstår från hennes separata dödpost och samma hushållskolumn. Kortare namnform på husförhörsraden ändrar inte den accepterade personen eller dagen; fysisk dödsplats förblir ej fastställd. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "bde3254809b3e4a759355c2c1f3ad7e299d9b52ac4c04c523943aa0c9ce4c89a",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "F-P-0094-occupation-adult-life@1",
+        "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1589",
+      "affected_revision_id": "F-P-0094-occupation-adult-life@1",
+      "retained_current_revision_id": "F-P-0094-occupation-adult-life@1",
+      "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+      "previous_changed_revision_id": "M-C0425-Jakob-Andersson@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/F-P-0094-occupation-adult-life@1",
+        "current": "/objects/F-P-0094-occupation-adult-life@1",
+        "changed": "/objects/M-C0425-Jakob-Andersson@2",
+        "changed_previous": "/objects/M-C0425-Jakob-Andersson@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Egna tidsbundna Bonde/Hemmansägare/f.d.hemmansegare-titlar från1872,1880,1890,1900,hushåll och1905död står kvar. Hela caveat utesluter social uppgång/areal/förvärv/överlåtelsedag från dessa titlar; hushållsnamnförkortning påverkar inte titelankarna.",
+      "actual_current_data": {
+        "revision_id": "F-P-0094-occupation-adult-life@1",
+        "subject_id": "P-0094",
+        "property": "occupation",
+        "value_type": "structured",
+        "value_json": "[{\"title\":\"Bonde\",\"year\":1872},{\"title\":\"Bonde\",\"year\":1880},{\"title\":\"Hemmansägare\",\"year\":1890},{\"title\":\"Hemmansägare\",\"year\":1900},{\"period\":\"1895–1905, församlingsboken\",\"title\":\"Bonde\"},{\"title\":\"f.d. hemmansägare\",\"year\":1905}]"
+      },
+      "actual_current_caveat": "Källornas titlar visar inte i sig social uppgång, areal, ägoförvärv eller överlåtelsedag.",
+      "ordered_current_supports": [
+        {
+          "revision_id": "F-P-0094-occupation-adult-life@1",
+          "basis_revision_id": "O-P-0094-death-record@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0094-occupation-adult-life@1",
+          "basis_revision_id": "O-P-0094-household1895@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0094-occupation-adult-life@1",
+          "basis_revision_id": "R-3c32cdc8f5f5008f7c96c994@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0094-occupation-adult-life@1",
+          "basis_revision_id": "R-59279649d0a5ccf6537e098c@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0094-occupation-adult-life@1",
+          "basis_revision_id": "R-b3b704b150422cb37a0b52bc@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0094-occupation-adult-life@1",
+          "basis_revision_id": "R-c09147d982c0d73a26f87c03@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/O-P-0094-death-record@1",
+        "/objects/O-P-0094-household1895@1",
+        "/objects/R-3c32cdc8f5f5008f7c96c994@1",
+        "/objects/R-59279649d0a5ccf6537e098c@1",
+        "/objects/R-b3b704b150422cb37a0b52bc@1",
+        "/objects/R-c09147d982c0d73a26f87c03@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1589",
+        "path": [
+          {
+            "from_revision_id": "F-P-0094-occupation-adult-life@1",
+            "edge": {
+              "revision_id": "F-P-0094-occupation-adult-life@1",
+              "basis_revision_id": "O-P-0094-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0094-household1895@1",
+            "edge": {
+              "revision_id": "O-P-0094-household1895@1",
+              "basis_revision_id": "M-C0425-Jakob-Andersson@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/14",
+        "judgment": "RawJacob replaces normalizedJakob in source literal only; same adultrecordidentity,Bonde,date/familybasis. No change to his death, occupation, strongerbirth16April or qualifiedmarriageyear."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "bde3254809b3e4a759355c2c1f3ad7e299d9b52ac4c04c523943aa0c9ce4c89a",
+        "rationale": "T-0780 faktisk begäran bde3254809b3e4a759355c2c1f3ad7e299d9b52ac4c04c523943aa0c9ce4c89a: behåll F-P-0094-occupation-adult-life@1 vid ändring M-C0425-Jakob-Andersson@2. Egna tidsbundna Bonde/Hemmansägare/f.d.hemmansegare-titlar från1872,1880,1890,1900,hushåll och1905död står kvar. Hela caveat utesluter social uppgång/areal/förvärv/överlåtelsedag från dessa titlar; hushållsnamnförkortning påverkar inte titelankarna. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "c903d5813fddc8934e6b10e277c533869e0d9e3f35134c2825f188c9381e2455",
+        "operation_id": "T-0780/C0425-selected27-observation-glyph-amended-v1",
+        "affected_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "changed_revision_id": "O-P-0096-wife@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1665",
+      "affected_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+      "retained_current_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+      "changed_revision_id": "O-P-0096-wife@2",
+      "previous_changed_revision_id": "O-P-0096-wife@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "current": "/objects/EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "changed": "/objects/O-P-0096-wife@2",
+        "changed_previous": "/objects/O-P-0096-wife@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Anders Petter är samma spouse med egen person och egen bonderadsmention; datumstödet1898-11-30 består. Hustruns namn-, födelse- och hänvisningsrättelse samt annualer ändrar inte denna hans person-/händelsekoppling; egen vigselbok är fortfarande oläst.",
+      "actual_current_data": {
+        "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+        "event_id": "E-marriage-P-0096-Mathilda-Granberg-1898",
+        "person_id": "P-0096",
+        "mention_id": "M-C0425-Anders-Petter-r10",
+        "role": "spouse"
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+          "basis_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+          "basis_revision_id": "M-C0425-Anders-Petter-r10@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-marriage-P-0096-Mathilda-Granberg-1898@1",
+        "/objects/M-C0425-Anders-Petter-r10@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1665",
+        "path": [
+          {
+            "from_revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+            "edge": {
+              "revision_id": "EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1",
+              "basis_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+            "edge": {
+              "revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "basis_revision_id": "O-P-0096-wife@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/34",
+        "judgment": "Ownwife rawsurname and31March1870/from841 replaceDec3/844. Dependentmarriage30Nov1898/pairrole fields unchanged, exactsourcewife mention retained; no outside-recordidentity/physicaltravel."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "c903d5813fddc8934e6b10e277c533869e0d9e3f35134c2825f188c9381e2455",
+        "rationale": "T-0780 faktisk begäran c903d5813fddc8934e6b10e277c533869e0d9e3f35134c2825f188c9381e2455: behåll EP-E-marriage-P-0096-Mathilda-Granberg-1898-P-0096-spouse@1 vid ändring O-P-0096-wife@2. Anders Petter är samma spouse med egen person och egen bonderadsmention; datumstödet1898-11-30 består. Hustruns namn-, födelse- och hänvisningsrättelse samt annualer ändrar inte denna hans person-/händelsekoppling; egen vigselbok är fortfarande oläst. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "d87f654d19ecb9541ca82e5b2a1f81e3f59c514c30af86df00ba28a314a7fc04",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "ASSESS-P-0094-birth-conflict-resolved@1",
+        "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1778",
+      "affected_revision_id": "ASSESS-P-0094-birth-conflict-resolved@1",
+      "retained_current_revision_id": "ASSESS-P-0094-birth-conflict-resolved@1",
+      "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+      "previous_changed_revision_id": "M-C0425-Jakob-Andersson@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/ASSESS-P-0094-birth-conflict-resolved@1",
+        "current": "/objects/ASSESS-P-0094-birth-conflict-resolved@1",
+        "changed": "/objects/M-C0425-Jakob-Andersson@2",
+        "changed_previous": "/objects/M-C0425-Jakob-Andersson@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Egen födelse16Apr1830 och namngivna föräldrar består från den starkare födelseposten. Hushållets16July bevaras som bokvariant, inte likvärdig ny födelsehypotes. Namnförkortningen ändrar inte identiteten och löser inte livskedjan Häggnäs–Ultervattnet.",
+      "actual_current_data": {
+        "revision_id": "ASSESS-P-0094-birth-conflict-resolved@1",
+        "subject_id": "P-0094",
+        "criteria": "Senare bokvariant mot identifierad egenpost",
+        "outcome": "resolved",
+        "body": "Födelse1830-04-16 och föräldraparet är uttryckligen identifierade. Husförhör1830-07-16 kvarstår som avvikande bokuppgift, inte likvärdig aktuell födelsehypotes. Häggnäs–Ultervattnet är en separat oprövad livskedja."
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "ASSESS-P-0094-birth-conflict-resolved@1",
+          "basis_revision_id": "O-P-0094-birth-record@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0094-birth-conflict-resolved@1",
+          "basis_revision_id": "O-P-0094-household1863@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0094-birth-conflict-resolved@1",
+          "basis_revision_id": "O-P-0094-household1895@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/O-P-0094-birth-record@1",
+        "/objects/O-P-0094-household1863@1",
+        "/objects/O-P-0094-household1895@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1778",
+        "path": [
+          {
+            "from_revision_id": "ASSESS-P-0094-birth-conflict-resolved@1",
+            "edge": {
+              "revision_id": "ASSESS-P-0094-birth-conflict-resolved@1",
+              "basis_revision_id": "O-P-0094-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0094-household1895@1",
+            "edge": {
+              "revision_id": "O-P-0094-household1895@1",
+              "basis_revision_id": "M-C0425-Jakob-Andersson@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/14",
+        "judgment": "RawJacob replaces normalizedJakob in source literal only; same adultrecordidentity,Bonde,date/familybasis. No change to his death, occupation, strongerbirth16April or qualifiedmarriageyear."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "d87f654d19ecb9541ca82e5b2a1f81e3f59c514c30af86df00ba28a314a7fc04",
+        "rationale": "T-0780 faktisk begäran d87f654d19ecb9541ca82e5b2a1f81e3f59c514c30af86df00ba28a314a7fc04: behåll ASSESS-P-0094-birth-conflict-resolved@1 vid ändring M-C0425-Jakob-Andersson@2. Egen födelse16Apr1830 och namngivna föräldrar består från den starkare födelseposten. Hushållets16July bevaras som bokvariant, inte likvärdig ny födelsehypotes. Namnförkortningen ändrar inte identiteten och löser inte livskedjan Häggnäs–Ultervattnet. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "dce465bb460cf63c8f1b3ae4ba1da4dae2294daf6b5de6da6969fb4f27ac84aa",
+        "operation_id": "T-0780/C0062-remaining56-attribution-v1-evidence-schema-v1-explicit-C0060-research29-amendment-v2",
+        "affected_revision_id": "F-P-0088-civic_role-witness1867@1",
+        "changed_revision_id": "M-C0062-Jon-Andersson@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1821",
+      "affected_revision_id": "F-P-0088-civic_role-witness1867@1",
+      "retained_current_revision_id": "F-P-0088-civic_role-witness1867@1",
+      "changed_revision_id": "M-C0062-Jon-Andersson@2",
+      "previous_changed_revision_id": "M-C0062-Jon-Andersson@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/F-P-0088-civic_role-witness1867@1",
+        "current": "/objects/F-P-0088-civic_role-witness1867@1",
+        "changed": "/objects/M-C0062-Jon-Andersson@2",
+        "changed_previous": "/objects/M-C0062-Jon-Andersson@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Nämndeman vid Ida Sofias dop16Dec1867 kvarstår från eget observerat titelord. Förbehållet om inget identifierat ting/mål kvarstår; rå p. eller oläst hemvist expanderas inte. SubjectP0082 och äldre P0088-ID är redan avgjord sammanföring, inte nyidentitet.",
+      "actual_current_data": {
+        "revision_id": "F-P-0088-civic_role-witness1867@1",
+        "subject_id": "P-0082",
+        "property": "civic_role",
+        "value_type": "structured",
+        "value_json": "{\"context\":\"Ida Sofias dop i Degerfors\",\"date\":\"1867-12-16\",\"role\":\"nämndeman\"}"
+      },
+      "actual_current_caveat": "Titeln visar uppdraget, inte något enskilt ting eller mål.",
+      "ordered_current_supports": [
+        {
+          "revision_id": "F-P-0088-civic_role-witness1867@1",
+          "basis_revision_id": "O-P-0088-witness-title@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/O-P-0088-witness-title@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1821",
+        "path": [
+          {
+            "from_revision_id": "F-P-0088-civic_role-witness1867@1",
+            "edge": {
+              "revision_id": "F-P-0088-civic_role-witness1867@1",
+              "basis_revision_id": "O-P-0088-witness-title@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0088-witness-title@1",
+            "edge": {
+              "revision_id": "O-P-0088-witness-title@1",
+              "basis_revision_id": "M-C0062-Jon-Andersson@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/9",
+        "judgment": "RawJonAndersson/p.Nämndemannen unchanged. BlottedwordbeforeForsberg and shortplaceafterhim cannot become Jonsownplace. Existing acceptedidentity/civicrole/witnessparticipation retained within their precise scope; adoption doesnot invent new place."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "dce465bb460cf63c8f1b3ae4ba1da4dae2294daf6b5de6da6969fb4f27ac84aa",
+        "rationale": "T-0780 faktisk begäran dce465bb460cf63c8f1b3ae4ba1da4dae2294daf6b5de6da6969fb4f27ac84aa: behåll F-P-0088-civic_role-witness1867@1 vid ändring M-C0062-Jon-Andersson@2. Nämndeman vid Ida Sofias dop16Dec1867 kvarstår från eget observerat titelord. Förbehållet om inget identifierat ting/mål kvarstår; rå p. eller oläst hemvist expanderas inte. SubjectP0082 och äldre P0088-ID är redan avgjord sammanföring, inte nyidentitet. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "dd6e3a73c4a18894d1070b581670bdd7474d9a7f497a3e1559e31ce612c8c69a",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+        "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1826",
+      "affected_revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+      "retained_current_revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+      "changed_revision_id": "M-C0425-Jakob-Andersson@2",
+      "previous_changed_revision_id": "M-C0425-Jakob-Andersson@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-death-P-0094-P-0094-principal@1",
+        "current": "/objects/EP-E-death-P-0094-P-0094-principal@1",
+        "changed": "/objects/M-C0425-Jakob-Andersson@2",
+        "changed_previous": "/objects/M-C0425-Jakob-Andersson@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Samma Jakob är principal i egen död3Oct1905, stödd av egen dödpostmention@2. Namnförkortning/annualer i hushållet ändrar inte person, datum eller roll; separat dödpoststöds gränser bevaras.",
+      "actual_current_data": {
+        "revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+        "event_id": "E-death-P-0094",
+        "person_id": "P-0094",
+        "mention_id": "M-P-0049-relative-father",
+        "role": "principal"
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+          "basis_revision_id": "E-death-P-0094@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+          "basis_revision_id": "M-P-0049-relative-father@2",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-death-P-0094@1",
+        "/objects/M-P-0049-relative-father@2"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1826",
+        "path": [
+          {
+            "from_revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+            "edge": {
+              "revision_id": "EP-E-death-P-0094-P-0094-principal@1",
+              "basis_revision_id": "E-death-P-0094@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-death-P-0094@1",
+            "edge": {
+              "revision_id": "E-death-P-0094@1",
+              "basis_revision_id": "O-P-0094-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0094-household1895@1",
+            "edge": {
+              "revision_id": "O-P-0094-household1895@1",
+              "basis_revision_id": "M-C0425-Jakob-Andersson@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/14",
+        "judgment": "RawJacob replaces normalizedJakob in source literal only; same adultrecordidentity,Bonde,date/familybasis. No change to his death, occupation, strongerbirth16April or qualifiedmarriageyear."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "dd6e3a73c4a18894d1070b581670bdd7474d9a7f497a3e1559e31ce612c8c69a",
+        "rationale": "T-0780 faktisk begäran dd6e3a73c4a18894d1070b581670bdd7474d9a7f497a3e1559e31ce612c8c69a: behåll EP-E-death-P-0094-P-0094-principal@1 vid ändring M-C0425-Jakob-Andersson@2. Samma Jakob är principal i egen död3Oct1905, stödd av egen dödpostmention@2. Namnförkortning/annualer i hushållet ändrar inte person, datum eller roll; separat dödpoststöds gränser bevaras. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "e5f32a65d29e941d8005f443f28619cee0aab72a7ae78aae83fcbfa6e6563b7f",
+        "operation_id": "T-0780/C0062-remaining56-attribution-v1-evidence-schema-v1-explicit-C0060-research29-amendment-v2",
+        "affected_revision_id": "ID-M-C0062-Jon-Andersson@1",
+        "changed_revision_id": "M-C0062-Jon-Andersson@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1875",
+      "affected_revision_id": "ID-M-C0062-Jon-Andersson@1",
+      "retained_current_revision_id": "ID-M-C0062-Jon-Andersson@1",
+      "changed_revision_id": "M-C0062-Jon-Andersson@2",
+      "previous_changed_revision_id": "M-C0062-Jon-Andersson@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/ID-M-C0062-Jon-Andersson@1",
+        "current": "/objects/ID-M-C0062-Jon-Andersson@1",
+        "changed": "/objects/M-C0062-Jon-Andersson@2",
+        "changed_previous": "/objects/M-C0062-Jon-Andersson@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Samma avgränsade mention korreleras fortsatt tillP0082 genom tidigare namn/titel/tid/by/hushåll, med uttrycklig gräns att full nämndemansförteckning inte är läst. Nya mentionreservationen avfärdar inte denna avgjorda korrelation; P0088 administrativtspår består.",
+      "actual_current_data": {
+        "revision_id": "ID-M-C0062-Jon-Andersson@1",
+        "mention_id": "M-C0062-Jon-Andersson",
+        "person_id": "P-0082",
+        "decision": "accepted"
+      },
+      "actual_current_caveat": "Befintlig accepterad sammanföring genom namnform, titel, tid, by och hushåll; ingen uttömmande nämndemansförteckning är läst. P-0088 är kvar som administrativt revisionsspår.",
+      "ordered_current_supports": [
+        {
+          "revision_id": "ID-M-C0062-Jon-Andersson@1",
+          "basis_revision_id": "M-C0062-Jon-Andersson@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/M-C0062-Jon-Andersson@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1875",
+        "path": [
+          {
+            "from_revision_id": "ID-M-C0062-Jon-Andersson@1",
+            "edge": {
+              "revision_id": "ID-M-C0062-Jon-Andersson@1",
+              "basis_revision_id": "M-C0062-Jon-Andersson@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/9",
+        "judgment": "RawJonAndersson/p.Nämndemannen unchanged. BlottedwordbeforeForsberg and shortplaceafterhim cannot become Jonsownplace. Existing acceptedidentity/civicrole/witnessparticipation retained within their precise scope; adoption doesnot invent new place."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "e5f32a65d29e941d8005f443f28619cee0aab72a7ae78aae83fcbfa6e6563b7f",
+        "rationale": "T-0780 faktisk begäran e5f32a65d29e941d8005f443f28619cee0aab72a7ae78aae83fcbfa6e6563b7f: behåll ID-M-C0062-Jon-Andersson@1 vid ändring M-C0062-Jon-Andersson@2. Samma avgränsade mention korreleras fortsatt tillP0082 genom tidigare namn/titel/tid/by/hushåll, med uttrycklig gräns att full nämndemansförteckning inte är läst. Nya mentionreservationen avfärdar inte denna avgjorda korrelation; P0088 administrativtspår består. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "efa39acd777c45da2390e94401b214a48bb579d99530045678188299f4353ea2",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "ASSESS-P-0100-transfer-context@1",
+        "changed_revision_id": "M-C0425-Maria-Christina@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/1959",
+      "affected_revision_id": "ASSESS-P-0100-transfer-context@1",
+      "retained_current_revision_id": "ASSESS-P-0100-transfer-context@1",
+      "changed_revision_id": "M-C0425-Maria-Christina@2",
+      "previous_changed_revision_id": "M-C0425-Maria-Christina@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/ASSESS-P-0100-transfer-context@1",
+        "current": "/objects/ASSESS-P-0100-transfer-context@1",
+        "changed": "/objects/M-C0425-Maria-Christina@2",
+        "changed_previous": "/objects/M-C0425-Maria-Christina@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Hela texten skiljer folio820/2Dec1905 från dödskolumn18 och jämför föräldrarnas riktiga döddagar3Oct1905/26Aug1903. Ändrade namnförkortningar/annualer påverkar inte dessa fält. Överföring är ingen död, arvsslutsats eller säkert fysisk flytt; oläst fortsättning och ingen foliohärledd släktkant kvarstår.",
+      "actual_current_data": {
+        "revision_id": "ASSESS-P-0100-transfer-context@1",
+        "subject_id": "P-0100",
+        "criteria": "Kolumnläsning och senare händelsetolkning",
+        "outcome": "bounded_source_interpretation",
+        "body": "observed: Kolumner16/17 anger folio 820 och 2/12 05; kolumn18 är tom. Föräldrarnas samma kolumn har 3/10 05 och 26/8 03.\nprior_reasoning: Överföringen ligger cirka två månader efter faderns död. Akten avvisar möjlig felläsning som familjeolycka/död 2 oktober och säger att hon inte dog under bokperioden.\nlimit: Dagen hör inte till hennes dödskolumn. Ingen dödshändelse, arvsslutsats, fysisk flytt eller allmän olycksfrihet följer. Fortsättningen efter 1905 är oläst.\ncomparison: Syster Anna Fredrika fördes till 853 år 1904; svägerskan Anna Albertina Öberg kom från 820 år 1899. Folionärheten ger ingen ny släkt-/boendeslutsats."
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "E-death-P-0094@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "E-death-P-0095@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "R-704cab19e220a827cf2acf58@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "R-85c7e85b48634a6413e79c49@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-death-P-0094@1",
+        "/objects/E-death-P-0095@1",
+        "/objects/R-704cab19e220a827cf2acf58@1",
+        "/objects/R-85c7e85b48634a6413e79c49@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/1959",
+        "path": [
+          {
+            "from_revision_id": "ASSESS-P-0100-transfer-context@1",
+            "edge": {
+              "revision_id": "ASSESS-P-0100-transfer-context@1",
+              "basis_revision_id": "E-death-P-0095@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-death-P-0095@1",
+            "edge": {
+              "revision_id": "E-death-P-0095@1",
+              "basis_revision_id": "O-P-0095-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0095-household1895@1",
+            "edge": {
+              "revision_id": "O-P-0095-household1895@1",
+              "basis_revision_id": "M-C0425-Maria-Christina@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/16",
+        "judgment": "Hansd:r sourceabbreviation replaces expandedHansdotter only; same wifeidentity/date/death/parentalcontext, no newperson or maritalclaim."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "efa39acd777c45da2390e94401b214a48bb579d99530045678188299f4353ea2",
+        "rationale": "T-0780 faktisk begäran efa39acd777c45da2390e94401b214a48bb579d99530045678188299f4353ea2: behåll ASSESS-P-0100-transfer-context@1 vid ändring M-C0425-Maria-Christina@2. Hela texten skiljer folio820/2Dec1905 från dödskolumn18 och jämför föräldrarnas riktiga döddagar3Oct1905/26Aug1903. Ändrade namnförkortningar/annualer påverkar inte dessa fält. Överföring är ingen död, arvsslutsats eller säkert fysisk flytt; oläst fortsättning och ingen foliohärledd släktkant kvarstår. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "f786806691a102a7876a245c7f3ee0f6f8a109f34c2d5c28cc0e3095b50a70d4",
+        "operation_id": "T-0780/C0425-selected27-observation-glyph-amended-v1",
+        "affected_revision_id": "ASSESS-P-0100-transfer-context@1",
+        "changed_revision_id": "O-P-0094-household1895@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/2043",
+      "affected_revision_id": "ASSESS-P-0100-transfer-context@1",
+      "retained_current_revision_id": "ASSESS-P-0100-transfer-context@1",
+      "changed_revision_id": "O-P-0094-household1895@2",
+      "previous_changed_revision_id": "O-P-0094-household1895@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/ASSESS-P-0100-transfer-context@1",
+        "current": "/objects/ASSESS-P-0100-transfer-context@1",
+        "changed": "/objects/O-P-0094-household1895@2",
+        "changed_previous": "/objects/O-P-0094-household1895@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Hela texten skiljer folio820/2Dec1905 från dödskolumn18 och jämför föräldrarnas riktiga döddagar3Oct1905/26Aug1903. Ändrade namnförkortningar/annualer påverkar inte dessa fält. Överföring är ingen död, arvsslutsats eller säkert fysisk flytt; oläst fortsättning och ingen foliohärledd släktkant kvarstår.",
+      "actual_current_data": {
+        "revision_id": "ASSESS-P-0100-transfer-context@1",
+        "subject_id": "P-0100",
+        "criteria": "Kolumnläsning och senare händelsetolkning",
+        "outcome": "bounded_source_interpretation",
+        "body": "observed: Kolumner16/17 anger folio 820 och 2/12 05; kolumn18 är tom. Föräldrarnas samma kolumn har 3/10 05 och 26/8 03.\nprior_reasoning: Överföringen ligger cirka två månader efter faderns död. Akten avvisar möjlig felläsning som familjeolycka/död 2 oktober och säger att hon inte dog under bokperioden.\nlimit: Dagen hör inte till hennes dödskolumn. Ingen dödshändelse, arvsslutsats, fysisk flytt eller allmän olycksfrihet följer. Fortsättningen efter 1905 är oläst.\ncomparison: Syster Anna Fredrika fördes till 853 år 1904; svägerskan Anna Albertina Öberg kom från 820 år 1899. Folionärheten ger ingen ny släkt-/boendeslutsats."
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "E-death-P-0094@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "E-death-P-0095@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "R-704cab19e220a827cf2acf58@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "ASSESS-P-0100-transfer-context@1",
+          "basis_revision_id": "R-85c7e85b48634a6413e79c49@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-death-P-0094@1",
+        "/objects/E-death-P-0095@1",
+        "/objects/R-704cab19e220a827cf2acf58@1",
+        "/objects/R-85c7e85b48634a6413e79c49@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/2043",
+        "path": [
+          {
+            "from_revision_id": "ASSESS-P-0100-transfer-context@1",
+            "edge": {
+              "revision_id": "ASSESS-P-0100-transfer-context@1",
+              "basis_revision_id": "E-death-P-0094@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-death-P-0094@1",
+            "edge": {
+              "revision_id": "E-death-P-0094@1",
+              "basis_revision_id": "O-P-0094-household1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/29",
+        "judgment": "Ownannualhearingcells specified instead of genericunreadflag; no attendance/continuousresidence/estate inference. Stablebirth/death/title/marriageyearfields continue to support boundedrelatedfacts; strongerbirth retained."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "f786806691a102a7876a245c7f3ee0f6f8a109f34c2d5c28cc0e3095b50a70d4",
+        "rationale": "T-0780 faktisk begäran f786806691a102a7876a245c7f3ee0f6f8a109f34c2d5c28cc0e3095b50a70d4: behåll ASSESS-P-0100-transfer-context@1 vid ändring O-P-0094-household1895@2. Hela texten skiljer folio820/2Dec1905 från dödskolumn18 och jämför föräldrarnas riktiga döddagar3Oct1905/26Aug1903. Ändrade namnförkortningar/annualer påverkar inte dessa fält. Överföring är ingen död, arvsslutsats eller säkert fysisk flytt; oläst fortsättning och ingen foliohärledd släktkant kvarstår. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "f7bd823b4553ed6b21739aa82d6499dfa4561d59c9f7d405a8f5e1b469a2be1e",
+        "operation_id": "T-0780/C0425-selected27-observation-glyph-amended-v1",
+        "affected_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+        "changed_revision_id": "O-P-0096-child1895@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/2048",
+      "affected_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+      "retained_current_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+      "changed_revision_id": "O-P-0096-child1895@2",
+      "previous_changed_revision_id": "O-P-0096-child1895@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/EP-E-birth-P-0096-P-0096-principal@1",
+        "current": "/objects/EP-E-birth-P-0096-P-0096-principal@1",
+        "changed": "/objects/O-P-0096-child1895@2",
+        "changed_previous": "/objects/O-P-0096-child1895@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Samma Anders Petter är principal i samma registrerade födelseuppgift1863-05-18, med egen Son-mention; deltagandet påstår ingen fysisk födelseort. Hushållsannualer och tomma ortfält ändrar inte person-/händelse-/rollkopplingen; event@2s nu kvalificerade ort bevaras separat.",
+      "actual_current_data": {
+        "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+        "event_id": "E-birth-P-0096",
+        "person_id": "P-0096",
+        "mention_id": "M-C0069-Anders-Petter",
+        "role": "principal"
+      },
+      "actual_current_caveat": "",
+      "ordered_current_supports": [
+        {
+          "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+          "basis_revision_id": "E-birth-P-0096@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+          "basis_revision_id": "M-C0069-Anders-Petter@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/E-birth-P-0096@1",
+        "/objects/M-C0069-Anders-Petter@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/2048",
+        "path": [
+          {
+            "from_revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+            "edge": {
+              "revision_id": "EP-E-birth-P-0096-P-0096-principal@1",
+              "basis_revision_id": "E-birth-P-0096@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "E-birth-P-0096@1",
+            "edge": {
+              "revision_id": "E-birth-P-0096@1",
+              "basis_revision_id": "O-P-0096-child1895@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/33",
+        "judgment": "Ownannualhearingcells specified withreservations, notattendance/continuousresidence. Ownreportedbirth, military46 175/1884, undatedinternalreference and adultmarriage remain; dependentfacts/events use these separate unchangedfields."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "f7bd823b4553ed6b21739aa82d6499dfa4561d59c9f7d405a8f5e1b469a2be1e",
+        "rationale": "T-0780 faktisk begäran f7bd823b4553ed6b21739aa82d6499dfa4561d59c9f7d405a8f5e1b469a2be1e: behåll EP-E-birth-P-0096-P-0096-principal@1 vid ändring O-P-0096-child1895@2. Samma Anders Petter är principal i samma registrerade födelseuppgift1863-05-18, med egen Son-mention; deltagandet påstår ingen fysisk födelseort. Hushållsannualer och tomma ortfält ändrar inte person-/händelse-/rollkopplingen; event@2s nu kvalificerade ort bevaras separat. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    },
+    {
+      "actual_request": {
+        "id": "fff0535366853663746b8c168529583855d9207717f05c8e2111e571575eb812",
+        "operation_id": "T-0780/C0425-selected26-mention-v1",
+        "affected_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+        "changed_revision_id": "M-C0425-Mathilda-Granberg@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "request_index_pointer": "/requests/2125",
+      "affected_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+      "retained_current_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+      "changed_revision_id": "M-C0425-Mathilda-Granberg@2",
+      "previous_changed_revision_id": "M-C0425-Mathilda-Granberg@1",
+      "native_payload_pin": {
+        "path": "evaluations/T-0780/full10-stage-final143-v1/actual-handoff-v1/full-actual-request-current-and-direct-support-native-payloads-v1.json",
+        "sha256": "847026a3e1aa584d8b95a843bd942adf2c09a1326c52ad7037fc00637f21797e"
+      },
+      "full_payload_pointers": {
+        "affected": "/objects/E-marriage-P-0096-Mathilda-Granberg-1898@1",
+        "current": "/objects/E-marriage-P-0096-Mathilda-Granberg-1898@1",
+        "changed": "/objects/M-C0425-Mathilda-Granberg@2",
+        "changed_previous": "/objects/M-C0425-Mathilda-Granberg@1"
+      },
+      "reading_scope": "Entire current data/caveat/rationale/status and evidence read in this turn;29 unique direct support data/caveat read (deduplicated shared current objects). Original readings and metadata/provenance equality reused; no new original.",
+      "individual_source_reason": "Den registrerade vigseluppgiften1898-11-30 är oförändrad på båda makarnas egna hushållsfält. Hustruns rånamnsreservation påverkar inte datum eller samma spouse-koppling. Egen vigselbok och separat vigselort är fortfarande oprövade; historisk ID-sträng är ingen vald säker efternamnsform.",
+      "actual_current_data": {
+        "revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+        "event_type": "marriage",
+        "date_json": "{\"literal\":\"1898-11-30\",\"precision\":\"exact\",\"value\":\"1898-11-30\"}",
+        "place_id": null,
+        "place_role": "Bygdeå kyrkobokföring; vigselort inte separat verifierad"
+      },
+      "actual_current_caveat": "Uppgift i församlingsbokkolumn7; egen vigselbok inte kontrollerad.",
+      "ordered_current_supports": [
+        {
+          "revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+          "basis_revision_id": "O-P-0096-adult-household@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+          "basis_revision_id": "O-P-0096-wife@1",
+          "role": "supports",
+          "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "direct_support_pointers": [
+        "/objects/O-P-0096-adult-household@1",
+        "/objects/O-P-0096-wife@1"
+      ],
+      "exact_dependency_path": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-all2128-exact-dependency-path-routing-v1.json",
+          "sha256": "350307e19cf3e150b493262d0d2d8bdaca64c8e571a1097f20c1877ba3e6b202"
+        },
+        "pointer": "/rows/2125",
+        "path": [
+          {
+            "from_revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+            "edge": {
+              "revision_id": "E-marriage-P-0096-Mathilda-Granberg-1898@1",
+              "basis_revision_id": "O-P-0096-wife@1",
+              "role": "supports",
+              "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+            }
+          },
+          {
+            "from_revision_id": "O-P-0096-wife@1",
+            "edge": {
+              "revision_id": "O-P-0096-wife@1",
+              "basis_revision_id": "M-C0425-Mathilda-Granberg@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          }
+        ]
+      },
+      "changed_source_effect": {
+        "pin": {
+          "path": "evaluations/T-0780/source-review/actual143-sixtyeight-changed-source-field-effects-v1.json",
+          "sha256": "d8fa635165fd2dae2ae067ff865e3cb28bf362942667352a021590854b2633cf"
+        },
+        "pointer": "/rows/17",
+        "judgment": "Surnamevowel remains Gr[ö/o/a?]nberg; same sourcewife mentioned in unchangedmarriage30Nov1898. No outside-recordPidentity. Correctedownwifeobservation holds31March1870/from841; marriageevent/participations do not rely on oldDec3/844."
+      },
+      "disposition": "retain_exact_current_and_scoped_old_bases",
+      "resolution_instruction": {
+        "request": "fff0535366853663746b8c168529583855d9207717f05c8e2111e571575eb812",
+        "rationale": "T-0780 faktisk begäran fff0535366853663746b8c168529583855d9207717f05c8e2111e571575eb812: behåll E-marriage-P-0096-Mathilda-Granberg-1898@1 vid ändring M-C0425-Mathilda-Granberg@2. Den registrerade vigseluppgiften1898-11-30 är oförändrad på båda makarnas egna hushållsfält. Hustruns rånamnsreservation påverkar inte datum eller samma spouse-koppling. Egen vigselbok och separat vigselort är fortfarande oprövade; historisk ID-sträng är ingen vald säker efternamnsform. Exakta befintliga stödbaser på denna rad behålls med sina uttryckliga källgränser; ingen ny revision eller automatisk ombindning."
+      },
+      "new_native_changes": [],
+      "rebinds": [],
+      "runtime_applied": false
+    }
+  ],
+  "count": 28,
+  "source_ready_only_listed_requests": true,
+  "canonical_apply_authorized": false
+}

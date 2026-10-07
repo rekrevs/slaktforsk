@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "T-0788",
+    "T-0789"
+  ],
+  "UNRUN": true,
+  "original_proven_helper_pin": {
+    "path": "evaluations/T-0781/root_compare_actual_stage_v1.py",
+    "sha256": "cc7cb140aeb67d11dc05e5cb2c994d53027e9875f879ea79062d1d149d69ad9f"
+  },
+  "new_helper_pin": {
+    "path": "evaluations/T-0788/implementation/compare_root_applied_two_access_notes_to_reviewed_stage_v1.py",
+    "sha256": "ca8768a7abf21990905f89cb406d95632971409c60ad32967240ced559d1fe49"
+  },
+  "sole_diff": "Result tasklabel becomes tasks[T0788,T0789], no comparison policy change",
+  "AST_PASS": true,
+  "comparison_input_pin": {
+    "path": "evaluations/T-0788/implementation/root-postcanonical-two-access-notes-all50-comparison-input-v1.json",
+    "sha256": "c8e4ab4d6794d8c783226f3101a2d752115434ad5d09d6ca1f4e4454e20cad30"
+  },
+  "exact_ordered_package_pin": {
+    "path": "evaluations/T-0788/implementation/two-exact-access-search-ordered-package-v1.json",
+    "sha256": "32adeeda7acb673a434fa7fd960b0b2b264300c060286826f99888bac3f06839"
+  },
+  "command": [
+    "python3",
+    "evaluations/T-0788/implementation/compare_root_applied_two_access_notes_to_reviewed_stage_v1.py",
+    "--stage",
+    "evaluations/T-0788/two-access-notes-stage-v1/stage.sqlite",
+    "--gate",
+    "evaluations/T-0788/implementation/root-postcanonical-two-access-notes-all50-comparison-input-v1.json",
+    "--output",
+    "evaluations/T-0788/root-actual446-two-access-notes-all50-reviewed-stage-comparison-v1.json"
+  ],
+  "scope": "Every50rawtable/schema/BLOB/JSON/current/history+fiveorderednative tables exact; only2authorizedoperation clocks differ",
+  "root_execution_after_separately_authorized_canonical_apply_only": true
+}

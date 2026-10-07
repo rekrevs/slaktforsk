@@ -1,0 +1,68 @@
+{
+  "template_status": "UNRUN_NOT_ROOT_AUTHORIZATION",
+  "authorization": "ROOT_MUST_AUTHORIZE_ONE_EXACT_SAME_STAGE_RESOLUTION_APPLY",
+  "root_authorized": false,
+  "canonical_apply_authorized": false,
+  "stage_DB_pin_before": {
+    "path": "evaluations/T-0781/exact16-fresh-stage-v1/stage.sqlite",
+    "sha256": "f837a784048c7c65d77ed10e46076f7e5167b8194dcaddb0fdaeeae02689e670"
+  },
+  "expected_actual_before": {
+    "journal_head": 441,
+    "pending": 17
+  },
+  "resolution_operation_pin": {
+    "path": "evaluations/T-0781/implementation/exact17-resolution-and-final17-member-draft-v1/one-exact17-individual-resolution-only-draft-operation-v1.json",
+    "sha256": "a5a3d132c168999e2a9949c0339d059c3be93ae30c6317593516d9ec2c8c4d12"
+  },
+  "expected_resolutions": 17,
+  "expected_after": {
+    "journal_head": 442,
+    "pending": 0
+  },
+  "primary_individual17_gate_pin": {
+    "path": "evaluations/T-0781/source-review/actual17-complete-primary-pre-resolution-source-gate-v1.json",
+    "sha256": "47729b431c584b996b5920c1c094fa1d5b0bbec9947c305b2a8a4a222df82ecc"
+  },
+  "independent_meaning_instruction_gate_pin": {
+    "path": "evaluations/T-0781/independent-review/actual17-complete-independent-pre-resolution-meaning-and-instruction-gate-v1.json",
+    "sha256": "051fc9bb5fd56885f0b02efa0fb6f3b42abefb05e40a373684c196c896db9daf"
+  },
+  "dual17_literal_mechanical_equality_pin": {
+    "path": "evaluations/T-0781/implementation/exact17-resolution-and-final17-member-draft-v1/all17-dual-approved-literal-instruction-and-current-scope-mechanical-equality-v1.json",
+    "sha256": "2a4a096acf62eedddc9dd8b643f89ebc7e67d8c2dac205bdc78e8bf297153db2"
+  },
+  "independent_exact_constructed_operation_and_final17package_gate_pin": "UNSET_REQUIRED_BEFORE_RUNTIME",
+  "primary_exact_constructed_operation_and_final17package_gate_pin": "UNSET_REQUIRED_BEFORE_RUNTIME",
+  "final17_proposal_pin": {
+    "path": "evaluations/T-0781/implementation/exact17-resolution-and-final17-member-draft-v1/final17-operation-two-source174-plus-individual17-resolution-draft-proposal-v1.json",
+    "sha256": "763da360b1cc81aa3f2b9c34908807fa63761a2ffc6cabacef9c211c0a543fda"
+  },
+  "final17_membership_pin": {
+    "path": "evaluations/T-0781/implementation/exact17-resolution-and-final17-member-draft-v1/complete17-operation174-native17-individual-resolution-ordered-membership-v1.json",
+    "sha256": "90e1f58a084bb0fee0dd5e1c6332e72e733e0ad0b11e71547085b33ba47cf547"
+  },
+  "journal_path": "evaluations/T-0781/exact16-fresh-stage-v1/journal",
+  "immutable_original_stage_before_byte_snapshot_path": "evaluations/T-0781/exact16-fresh-stage-v1/pre-resolution-stage-original-j441-p17-v1.sqlite",
+  "snapshot_requirement": "Only root-authorized preservation copy; exact original f837 SHA, absent path, no overwrite or additional clone stage. Old stage441 review remains available aftersameDBapply.",
+  "CLI_command_template": [
+    "node",
+    "genealogy2/cli.mjs",
+    "apply",
+    "evaluations/T-0781/implementation/exact17-resolution-and-final17-member-draft-v1/one-exact17-individual-resolution-only-draft-operation-v1.json",
+    "--db",
+    "evaluations/T-0781/exact16-fresh-stage-v1/stage.sqlite",
+    "--journal",
+    "evaluations/T-0781/exact16-fresh-stage-v1/journal"
+  ],
+  "runtime_failure_policy": "Actualbefore/output/exit/after/SHA captured; stop anyerror, no secondapply/no newstage.",
+  "postchecks": [
+    "actualhead442/pending0, all17resolution rows literalrationale androwidorder equaloperationresolve",
+    "storedoperation request_json exactly equals submittedAPI numeric2, changes[]",
+    "onlyoperation/operation_payload/review_resolution changed amongall50; other47fulltables exact includingderivedsearch",
+    "42protected and everycurrent/nativehistory/evidenceoriginsasset/media rowid exact",
+    "allmain50+SHA425/0 and locked original/media pins unchanged",
+    "five readonlyvalidators or explicitroot reuse decision; no T0780fullsuite rerun"
+  ],
+  "operation_or_runtime_used_to_approve_source": false
+}

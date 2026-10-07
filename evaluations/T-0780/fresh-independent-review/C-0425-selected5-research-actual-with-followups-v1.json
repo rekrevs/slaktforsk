@@ -1,0 +1,191 @@
+{
+  "task": "T-0780",
+  "scope": "Five whole selected RESEARCH current objects and four whole actual candidates, with two remaining semantic clauses returned to primary.",
+  "source": {
+    "path": "evaluations/T-0780/source-review/C-0425-selected5-research-decisions-v1.json",
+    "sha256": "eca4ccfdcd237bc2c865baec5ecc7a9cb0e26a71c52eaba1ae45cff8ae448a7a"
+  },
+  "actual_operation": {
+    "path": "evaluations/T-0780/implementation/C0425-final-selected-research-wrapper-queue-v1/selected5-research-operation-v1.json",
+    "sha256": "634d25cf49388c03b9940f8bf87805de4bca98f2c46ade283580ffd5f0c5c614"
+  },
+  "prior_input": {
+    "path": "evaluations/T-0780/preparation/selected/C-0425-source-relevant-current-context-v1.json",
+    "sha256": "e72c127344eb3cd2ae49e5a4642d10f9314cecd72578c835e405308e7e44b80e"
+  },
+  "prior_read_index": {
+    "path": "evaluations/T-0780/fresh-independent-review/C-0425-all358-selected-reading-index-v1.json",
+    "sha256": "5359cafba72d311baaa74191c70d8bcdb9a9c69cfd7c8265273713f42945971d"
+  },
+  "objects": [
+    {
+      "object_id": "RESEARCH-P-0049-9d76f0343410",
+      "version": 2,
+      "source_disposition": "retain_all_fields",
+      "full_current_exact_prior": true,
+      "pending_independence_cost_clause": false
+    },
+    {
+      "object_id": "RESEARCH-P-0094-9d76f0343410",
+      "version": 1,
+      "source_disposition": "revise_exact_fields",
+      "full_current_exact_prior": true,
+      "pending_independence_cost_clause": false
+    },
+    {
+      "object_id": "RESEARCH-P-0095-9d76f0343410",
+      "version": 1,
+      "source_disposition": "revise_exact_fields",
+      "full_current_exact_prior": true,
+      "pending_independence_cost_clause": false
+    },
+    {
+      "object_id": "RESEARCH-P-0096-9d76f0343410",
+      "version": 1,
+      "source_disposition": "revise_exact_fields",
+      "full_current_exact_prior": true,
+      "pending_independence_cost_clause": true
+    },
+    {
+      "object_id": "RESEARCH-P-0101-9d76f0343410",
+      "version": 1,
+      "source_disposition": "revise_exact_fields",
+      "full_current_exact_prior": true,
+      "pending_independence_cost_clause": true
+    }
+  ],
+  "judgment": "P49 stronger T0675 and native@2 retained exact. P94 own1830April/parents vs July otherchild, no invented move or marriage; P95 own17Oct/parents/death and private LEAD preserved. Corrected shared caveats preserve stronger support. P101 new body properly removes farm takeover and physical continuity. Two unread-birth independence/cost claims remain unresolved, so no complete module approval.",
+  "findings": [
+    {
+      "object_id": "RESEARCH-P-0096-9d76f0343410",
+      "field": "data.body",
+      "clause": "den billigaste möjliga oberoende prövningen",
+      "problem": "Unread own birth/dop record C/5 is a directed source path; full current body+caveat do not establish its actual independence or minimum cost. Qualify as test with provenance/contents/access to examine, preserving positive identity and outcomes.",
+      "full_current": {
+        "id": "RESEARCH-P-0096-9d76f0343410@1",
+        "object_id": "RESEARCH-P-0096-9d76f0343410",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil inklusive T-0181:s följdrättelse och trädverkansrättelsen 2026-09-11 är lästa. Personidentiteten accepteras på bokens Se nedan/Se ofvan, samma datum och värnpliktsnummer; egen födelsenotis är oläst. Folkräkningsutdragen är beroende av kyrkoböckerna. Profilens sju syskon är ett räknefel mot sex namngivna syskon; ingen sjunde skapas. Trädverkan är sist rättad till EJ BÄRANDE utan ändrad identitetsbedömning. Yngsta barnets Stig Ernst/Nils Emil[?] och dödsdag 3/12[?] förblir osäkra. Bokens interna överföring och nb. 1096 blir inga fysiska flyttar eller belägg för ett senare dödsdatum.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "RESEARCH-P-0096-9d76f0343410@1",
+          "subject_id": "P-0096",
+          "criteria": "legacy_profile_section/Identitetsbedömning",
+          "outcome": "recorded",
+          "body": "## Identitetsbedömning\n\nAnders Petter är en och samma person i fem lästa poster. Barndomsraden i\nhusförhörslängden 1863–1873 (folio 567) ger födelsedagen 18 maj 1863 och\nföräldraparet. Församlingsboken 1895–1910 upprepar dagen på barnraden 3 och binder\nden själv till den vuxna hushållsraden 10 med `Se nedan` i utflyttningskolumnen och\n`Se ofvan` i inflyttningskolumnen. Samma värnpliktsnummer `46 175/1884` står på\nbåda raderna. Sammanföringen bärs alltså av bokens egen korshänvisning, inte av\nnamnlikhet. Folkräkningsutdraget 1900 visar därefter honom och hustrun Mathilda\nGranberg som eget hushåll i samma by, med hans oförändrade födelseår.\n[C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md),\n[C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md),\n[C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md)\n\nKällberoendet är däremot smalt. Folkräkningsutdragen 1880 och 1890 bär\ndokumenthuvudet `Utdrag ur Husförhörslängden` och utdraget 1900 `Utdrag ur\nFörsamlingsboken`. De är alltså administrativa avskrifter av Bygdeås egna\nkyrkoböcker och får inte räknas som oberoende bekräftelse av vare sig födelseår\neller föräldraskap. Hela identiteten vilar på en enda skrivarkedja i en enda\nförsamling. Egen födelse- och dopnotis i Bygdeå C/5 är inte uppslagen, och den är\nden billigaste möjliga oberoende prövningen (KP-01).\n\nKonkurrerande identitet har prövats inom det lästa materialet: ingen annan Anders\nPetter född 1863 förekommer i föräldrahushållet eller på sida 824, och Ultervattnet\när samma by i alla fem posterna. Kandidatprövning utanför Bygdeå är inte gjord och\nbehövs inte så länge sammanföringen bärs av bokens egen hänvisning. Han är en\nsidoperson: ingen anlinje går i dag genom honom, men hans identitet utgör inget\nhinder om en skulle göra det.\n\n"
+        },
+        "origins": [
+          {
+            "revision_id": "RESEARCH-P-0096-9d76f0343410@1",
+            "unit_id": "693d37ca66c5c9b2c094a162966f7a5fbaf280a611f9f6088129bf7852df6b4f",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "actual_payload": {
+        "id": "RESEARCH-P-0096-9d76f0343410",
+        "kind": "assessment",
+        "expectedVersion": 1,
+        "data": {
+          "subject_id": "P-0096",
+          "criteria": "legacy_profile_section/Identitetsbedömning",
+          "outcome": "recorded",
+          "body": "## Identitetsbedömning\n\nAnders Petter är en och samma person i fem lästa poster. Barndomsraden i\nhusförhörslängden 1863–1873 (folio 567) ger födelsedagen 18 maj 1863 och\nföräldraparet. Församlingsboken 1895–1910 upprepar dagen på barnraden 3 och binder\nden själv till den vuxna hushållsraden 10 med `Se nedan` i utflyttningskolumnen och\n`Se ofvan` i inflyttningskolumnen. Samma värnpliktsnummer `46 175/1884` står på\nbåda raderna. Sammanföringen bärs alltså av bokens egen korshänvisning, inte av\nnamnlikhet. Folkräkningsutdraget 1900 visar därefter honom och hustrun Mathilda\nGranberg som eget hushåll i samma by, med hans oförändrade födelseår.\n[C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md),\n[C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md),\n[C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md)\n\nKällberoendet är däremot smalt. Folkräkningsutdragen 1880 och 1890 bär\ndokumenthuvudet `Utdrag ur Husförhörslängden` och utdraget 1900 `Utdrag ur\nFörsamlingsboken`. De är alltså administrativa avskrifter av Bygdeås egna\nkyrkoböcker och får inte räknas som oberoende bekräftelse av vare sig födelseår\neller föräldraskap. Hela identiteten vilar på en enda skrivarkedja i en enda\nförsamling. Egen födelse- och dopnotis i Bygdeå C/5 är inte uppslagen, och den är\nden billigaste möjliga oberoende prövningen (KP-01).\n\nKonkurrerande identitet har prövats inom det lästa materialet: ingen annan Anders\nPetter född 1863 förekommer i föräldrahushållet eller på sida 824, och Ultervattnet\när samma by i alla fem posterna. Kandidatprövning utanför Bygdeå är inte gjord och\nbehövs inte så länge sammanföringen bärs av bokens egen hänvisning. Han är en\nsidoperson: ingen anlinje går i dag genom honom, men hans identitet utgör inget\nhinder om en skulle göra det.\n\n"
+        },
+        "origins": [
+          {
+            "unit": "693d37ca66c5c9b2c094a162966f7a5fbaf280a611f9f6088129bf7852df6b4f",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "TR-T0780-C0425-Anders-family-fullpost",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen full källrad och avgränsad söknyckel, ingen oberoende röst."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil inklusive T-0181:s följdrättelse och trädverkansrättelsen 2026-09-11 är lästa. Personidentiteten accepteras på bokens Se nedan/Se ofvan, samma datum och värnpliktsnummer; egen födelsenotis är oläst. Folkräkningsutdragen är beroende av kyrkoböckerna. Profilens sju syskon är ett räknefel mot sex namngivna syskon; ingen sjunde skapas. Trädverkan är sist rättad till EJ BÄRANDE utan ändrad identitetsbedömning. T-0780 läser yngsta barnet Nils Emil, född08 14/11; äldre Stig Ernst/April bevaras som rättad avskrift. Dödsdagen3/12[?] förblir osäker. Mathildas egen rad ger31/3 1870, Gr[ö/o/a?]nberg ochfolio841år98, inte äldre3/12/844; Anders Hugo har20/2 1901, inte20/6. Bokens interna överföring och nb. 1096 blir inga fysiska flyttar eller belägg för ett senare dödsdatum."
+      }
+    },
+    {
+      "object_id": "RESEARCH-P-0101-9d76f0343410",
+      "field": "data.body",
+      "clause": "den billigaste möjliga oberoende prövningen",
+      "problem": "Unread own birth/dop record C/5 is a directed source path; full current body+caveat do not establish its actual independence or minimum cost. Qualify as test with provenance/contents/access to examine, preserving positive identity and outcomes.",
+      "full_current": {
+        "id": "RESEARCH-P-0101-9d76f0343410@1",
+        "object_id": "RESEARCH-P-0101-9d76f0343410",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil lästa inklusive T0181:s syskonrättelser och senare EJ BÄRANDE. Samma son/bonde på rad8 är direkt identifierad, men kyrkoboksutdragen är inte oberoende födelsebelägg. Dag från senare bok, hushållsögonblick skilda från obrutet boende. Hustru och barn är källomnämnanden utan nya P-id; alla alternativa råläsningar består. Tomma fält ger inga allmänna negativa livsuppgifter.",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "RESEARCH-P-0101-9d76f0343410@1",
+          "subject_id": "P-0101",
+          "criteria": "legacy_profile_section/Identitetsbedömning",
+          "outcome": "recorded",
+          "body": "## Identitetsbedömning\n\nCarl Erik är en och samma person i fyra lästa poster: folkräkningsutdragen 1880,\n1890 och 1900 samt församlingsboken 1895–1910. Sammanföringen är ovanligt direkt.\nPå sida 824 skrivs han på en enda rad med familjeställningen `s.` — son i Jakob\nAnderssons hushåll — och samtidigt med yrket `Bonde`, med hustru och tre barn på\nraderna under. Han behövde alltså ingen `Se nedan`-hänvisning som brodern Anders\nPetter, eftersom han aldrig flyttade till en egen hushållsrad: han är den son som\ntog över gården. Födelseåret 1880 och byn är oförändrade i alla fyra posterna.\n[C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md),\n[C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md),\n[C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md)\n\nKällberoendet är däremot smalt och delvis skenbart brett. Alla tre\nfolkräkningsutdragen bär dokumenthuvudet `Utdrag ur Husförhörslängden` eller\n`Utdrag ur Församlingsboken` och är administrativa avskrifter av Bygdeås egna\nkyrkoböcker. Tre folkräkningar är alltså inte tre oberoende vittnen. Den exakta\ndagen 16 maj 1880 står dessutom bara på en enda rad i en enda bok, och egen\nfödelse- och dopnotis i Bygdeå C/5 är inte uppslagen. Det är den billigaste\nmöjliga oberoende prövningen (KP-01).\n\nKonkurrerande identitet: ingen annan Carl/Karl Erik född 1880 förekommer i\nföräldrahushållet eller på sida 824, och växlingen Carl/Karl och Erik/Eric är\nskrivarvariation inom samma bokföring, inte två personer. Han är en sidoperson:\ningen anlinje går i dag genom honom, men hans identitet utgör inget hinder om en\nskulle göra det.\n\n"
+        },
+        "origins": [
+          {
+            "revision_id": "RESEARCH-P-0101-9d76f0343410@1",
+            "unit_id": "16ac659f0630acb08fac2b7714e7c264891d81386e4116aa16dfba944ef68ebe",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": []
+      },
+      "actual_payload": {
+        "id": "RESEARCH-P-0101-9d76f0343410",
+        "kind": "assessment",
+        "expectedVersion": 1,
+        "data": {
+          "subject_id": "P-0101",
+          "criteria": "legacy_profile_section/Identitetsbedömning",
+          "outcome": "recorded",
+          "body": "## Identitetsbedömning\n\nCarl Erik är en och samma person i fyra lästa poster: folkräkningsutdragen 1880,\n1890 och 1900 samt församlingsboken 1895–1910. Sammanföringen är ovanligt direkt.\nPå sida 824 skrivs han på en enda rad med familjeställningen `s.` — son i Jakob\nAnderssons hushåll — och samtidigt med yrket `Bonde`, med hustru och tre barn på\nraderna under. Han har ingen motsvarande Se nedan-hänvisning på denna rad. Den direkta\nson-/bondebeteckningen och familjegruppen stöder sammanföringen, men\nbevisar inte gårdsövertagande, viss fastighet eller oavbruten fysisk vistelse. Födelseåret 1880 och byn är oförändrade i alla fyra posterna.\n[C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md),\n[C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md),\n[C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md)\n\nKällberoendet är däremot smalt och delvis skenbart brett. Alla tre\nfolkräkningsutdragen bär dokumenthuvudet `Utdrag ur Husförhörslängden` eller\n`Utdrag ur Församlingsboken` och är administrativa avskrifter av Bygdeås egna\nkyrkoböcker. Tre folkräkningar är alltså inte tre oberoende vittnen. Den exakta\ndagen 16 maj 1880 står dessutom bara på en enda rad i en enda bok, och egen\nfödelse- och dopnotis i Bygdeå C/5 är inte uppslagen. Det är den billigaste\nmöjliga oberoende prövningen (KP-01).\n\nKonkurrerande identitet: ingen annan Carl/Karl Erik född 1880 förekommer i\nföräldrahushållet eller på sida 824, och växlingen Carl/Karl och Erik/Eric är\nskrivarvariation inom samma bokföring, inte två personer. Han är en sidoperson:\ningen anlinje går i dag genom honom, men hans identitet utgör inget hinder om en\nskulle göra det.\n\n"
+        },
+        "origins": [
+          {
+            "unit": "16ac659f0630acb08fac2b7714e7c264891d81386e4116aa16dfba944ef68ebe",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "TR-T0780-C0425-Carl-family-fullpost",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen full källrad och avgränsad söknyckel, ingen oberoende röst."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil lästa inklusive T0181:s syskonrättelser och senare EJ BÄRANDE. Samma son/bonde på rad8 är direkt identifierad, men kyrkoboksutdragen är inte oberoende födelsebelägg. Dag från senare bok, hushållsögonblick skilda från obrutet boende. Hustru och barn är källomnämnanden utan nya P-id; alla alternativa råläsningar består. Tomma fält ger inga allmänna negativa livsuppgifter."
+      }
+    }
+  ],
+  "verification": "Four entire APIs independently reconstructed; only source-declared fields/additions changed, all ordered origins/evidence/status/outcomes/version metadata preserved.",
+  "limits": "No new original or whole10/dependency/stage approval.",
+  "production": "No failed assertions or truncated reads in this five-object module."
+}

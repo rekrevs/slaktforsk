@@ -1,0 +1,139 @@
+{
+  "source_pin": {
+    "path": "evaluations/T-0780/source-review/resumed-P0480-path-dependency-amendment-v1.json",
+    "sha256": "6d070d021c5226191b1b0382f24e976a4ed8bf2c4efec9c00c81fa3f57524b26"
+  },
+  "prior_member_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-C0561-two-marriage-path-date-copy-queue-v1/two-C0561-marriage-path-date-copy-operation-v1.json",
+    "sha256": "3f401668677647d19997292772037ff88946b12c66553f07f79792177e4ce659",
+    "index": 130,
+    "operation_id": "T-0780/resumed-C0561-two-marriage-path-date-copy-revisions-v1",
+    "targets": [
+      {
+        "id": "PATH-P-0437-KP-01",
+        "expectedVersion": 2,
+        "payload_sha256": "647b952c1c9ed26734ce05ee0311b892026125f99ed503af16e3705e8101b681"
+      },
+      {
+        "id": "PATH-P-0480-KP-01",
+        "expectedVersion": 2,
+        "payload_sha256": "385f839ddc72beb37608b0ebb25dd8409a42d5c2d0f845e572bc4ca6e34f49fa"
+      }
+    ],
+    "changes": 2
+  },
+  "actual_new_member_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-P0480-path-dependency-amendment-queue-v1/two-C0561-marriage-path-date-copy-P0480-amended-operation-v1.json",
+    "sha256": "4e6694f3a884887595227db4e24893b326dc996e9a2e21466fac35b9b23cc8b6",
+    "index": 130,
+    "operation_id": "T-0780/resumed-C0561-two-marriage-path-date-copy-revisions-P0480-dependency-amendment-v1",
+    "targets": [
+      {
+        "id": "PATH-P-0437-KP-01",
+        "expectedVersion": 2,
+        "payload_sha256": "647b952c1c9ed26734ce05ee0311b892026125f99ed503af16e3705e8101b681"
+      },
+      {
+        "id": "PATH-P-0480-KP-01",
+        "expectedVersion": 2,
+        "payload_sha256": "9efe892e4f476eb54cbde7a4a3a8b5fce6f10fe5e772602cf35c871cdd1ae10d"
+      }
+    ],
+    "changes": 2
+  },
+  "target": "PATH-P-0480-KP-01",
+  "old_entire_API": {
+    "id": "PATH-P-0480-KP-01",
+    "kind": "assessment",
+    "expectedVersion": 2,
+    "data": {
+      "subject_id": "P-0480",
+      "criteria": "legacy_source_path",
+      "outcome": "EJ UNDERSÖKT.",
+      "body": "### KP-01: Degerfors födelsebok 1856, vigselpost med nyckel 1879-11-21 och husförhörslängd\n\n- Frågor/teman: Q-01, Q-02, ID, REL, SAM.\n- Källklass: K-02, K-03, K-01.\n- Tid/plats och arkivbildare: Degerfors födelsebok 1856 för Erik August enligt tidigare mandat; vigselbok 1879 med dag 21 november som konkret ingång. C-0548:s Ekträsk s. 171 rad 6 och från 163/2 återbrukas dokumentärt.\n- Förväntad information: hans föräldrar och exakta födelsedag, vigseldag\n  och brudparets hemvist, och hemmanets namn och nummer.\n- Ingång och söknycklar: `Erik August Lindberg`, född **1856 i Degerfors**;\n  `Maria Elina Zingmark`, född 1856-07-29 i Sävar, C-0561:s utgående rad1875 4[?]/10 till Degerfors med separat attest15; mottagande inflyttningsdag är inte belagd här;\n  orten `Ekträsk`.\n- Beroenden: inga för födelseboken 1856 — socken och år är kända. Flera namnlika Erik August kan finnas; husförhörslängden måste då avgöra personkopplingen.\n  Vigselvägen: vigseldatum `79 21/11` finns redan i TR-047081876069d29686847217@1 och O-P-0028-Maria_Elina_Ektrask@1. Det är en husförhörsboksuppgift, inte läst vigselbok eller fastställd vigselort. Den exakta nyckeln skall prövas före bredare årgångssökning. Ingen allmän ny namnsökning efter redan lokaliserad hushållsrad behövs.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivets digitala bildvisning; Degerfors\n  kyrkoarkiv är bekräftat åtkomligt genom C-0571, C-0574, C-0584 och C-0585,\n  men dessa volymer är EJ KONTROLLERADE.\n- Undersökt omfång och utfall: egen vigselbok EJ UNDERSÖKT; C-0548:s uttryckliga datum och hushållshänvisning återbrukas från befintligt underlag.\n- Bedömning och återaktivering: vägen är kontrollen till A-7947 och\n  betjänar tio akter. Vigselposten är dessutom samma post för båda\n  makarna. Ägs av [T-0619](../../wotan/dev-log/T-0619.md).\n- Wotan: T-0619\n\n"
+    },
+    "origins": [
+      {
+        "unit": "f80824b91386b28e2808383669d34a656f0ac2059121ace441f9444ace15e80e",
+        "coverage": "complete",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      }
+    ],
+    "evidence": [
+      {
+        "object": "O-P-0028-Maria_Elina_Ektrask",
+        "version": 1,
+        "role": "supports",
+        "note": "Befintlig normalisering1879-11-21; samma underlag, ingen extra röst."
+      },
+      {
+        "object": "TR-047081876069d29686847217",
+        "version": 1,
+        "role": "supports",
+        "note": "C0548 egenrad6, uttrycklig äldre råavskrift gift79 21/11."
+      },
+      {
+        "object": "TR-T0780-C0561-fullpost",
+        "version": 1,
+        "role": "supports",
+        "note": "Maria egen utgående4[?]/10 och separat attest15, inte mottagande inflyttningsdag."
+      }
+    ],
+    "disposition": "recorded",
+    "evidenceStatus": null,
+    "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.\nT-0677 C-0751: Samordnar den redan bevarade C0548-vigselnyckeln; egen vigselpost och ort är fortsatt olästa, inga utfall ändras.",
+    "caveat": "Helaakt235/profil286samtC0751/C0945 fullästa medalla tillägg. En folkräkning ger1856Degerfors/bondeEkträsk1900: kärnaTRANSCRIBED trots äldreACORROBORATED. Födelserårtal, separatafamiljer/Sara/morfar, tid/ägande/försörjning/namn/serieinferenser tydligtavgränsade och befintliga0437kvalifikationeråterbrukade."
+  },
+  "new_entire_API": {
+    "id": "PATH-P-0480-KP-01",
+    "kind": "assessment",
+    "expectedVersion": 2,
+    "data": {
+      "subject_id": "P-0480",
+      "criteria": "legacy_source_path",
+      "outcome": "EJ UNDERSÖKT.",
+      "body": "### KP-01: Degerfors födelsebok 1856, vigselpost med nyckel 1879-11-21 och husförhörslängd\n\n- Frågor/teman: Q-01, Q-02, ID, REL, SAM.\n- Källklass: K-02, K-03, K-01.\n- Tid/plats och arkivbildare: Degerfors födelsebok 1856 för Erik August enligt tidigare mandat; vigselbok 1879 med dag 21 november som konkret ingång. C-0548:s Ekträsk s. 171 rad 6 och från 163/2 återbrukas dokumentärt.\n- Förväntad information: hans föräldrar och exakta födelsedag, vigseldag\n  och brudparets hemvist, och hemmanets namn och nummer.\n- Ingång och söknycklar: `Erik August Lindberg`, född **1856 i Degerfors**;\n  `Maria Elina Zingmark`, född 1856-07-29 i Sävar, C-0561:s utgående rad1875 4[?]/10 till Degerfors med separat attest15; mottagande inflyttningsdag är inte belagd här;\n  orten `Ekträsk`.\n- Beroenden: socken och år ger en personroute för födelseboken1856; exakt volym, faktisk åtkomst, postinnehåll och personkorrelation återstår att pröva. Flera namnlika Erik August kan finnas. Husförhörsmaterial kan behövas för korrelation men en säker personkoppling är inte utlovad.\n  Vigselvägen: vigseldatum `79 21/11` finns redan i TR-047081876069d29686847217@1 och O-P-0028-Maria_Elina_Ektrask@1. Det är en husförhörsboksuppgift, inte läst vigselbok eller fastställd vigselort. Den exakta nyckeln skall prövas före bredare årgångssökning. Ingen allmän ny namnsökning efter redan lokaliserad hushållsrad behövs.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivets digitala bildvisning; Degerfors\n  kyrkoarkiv är bekräftat åtkomligt genom C-0571, C-0574, C-0584 och C-0585,\n  men dessa volymer är EJ KONTROLLERADE.\n- Undersökt omfång och utfall: egen vigselbok EJ UNDERSÖKT; C-0548:s uttryckliga datum och hushållshänvisning återbrukas från befintligt underlag.\n- Bedömning och återaktivering: vägen är kontrollen till A-7947 och\n  betjänar tio akter. Vigselposten är dessutom samma post för båda\n  makarna. Ägs av [T-0619](../../wotan/dev-log/T-0619.md).\n- Wotan: T-0619\n\n"
+    },
+    "origins": [
+      {
+        "unit": "f80824b91386b28e2808383669d34a656f0ac2059121ace441f9444ace15e80e",
+        "coverage": "complete",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      }
+    ],
+    "evidence": [
+      {
+        "object": "O-P-0028-Maria_Elina_Ektrask",
+        "version": 1,
+        "role": "supports",
+        "note": "Befintlig normalisering1879-11-21; samma underlag, ingen extra röst."
+      },
+      {
+        "object": "TR-047081876069d29686847217",
+        "version": 1,
+        "role": "supports",
+        "note": "C0548 egenrad6, uttrycklig äldre råavskrift gift79 21/11."
+      },
+      {
+        "object": "TR-T0780-C0561-fullpost",
+        "version": 1,
+        "role": "supports",
+        "note": "Maria egen utgående4[?]/10 och separat attest15, inte mottagande inflyttningsdag."
+      }
+    ],
+    "disposition": "recorded",
+    "evidenceStatus": null,
+    "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.\nT-0677 C-0751: Samordnar den redan bevarade C0548-vigselnyckeln; egen vigselpost och ort är fortsatt olästa, inga utfall ändras.",
+    "caveat": "Helaakt235/profil286samtC0751/C0945 fullästa medalla tillägg. En folkräkning ger1856Degerfors/bondeEkträsk1900: kärnaTRANSCRIBED trots äldreACORROBORATED. Födelserårtal, separatafamiljer/Sara/morfar, tid/ägande/försörjning/namn/serieinferenser tydligtavgränsade och befintliga0437kvalifikationeråterbrukade."
+  },
+  "exact_field": "data.body",
+  "old": "### KP-01: Degerfors födelsebok 1856, vigselpost med nyckel 1879-11-21 och husförhörslängd\n\n- Frågor/teman: Q-01, Q-02, ID, REL, SAM.\n- Källklass: K-02, K-03, K-01.\n- Tid/plats och arkivbildare: Degerfors födelsebok 1856 för Erik August enligt tidigare mandat; vigselbok 1879 med dag 21 november som konkret ingång. C-0548:s Ekträsk s. 171 rad 6 och från 163/2 återbrukas dokumentärt.\n- Förväntad information: hans föräldrar och exakta födelsedag, vigseldag\n  och brudparets hemvist, och hemmanets namn och nummer.\n- Ingång och söknycklar: `Erik August Lindberg`, född **1856 i Degerfors**;\n  `Maria Elina Zingmark`, född 1856-07-29 i Sävar, C-0561:s utgående rad1875 4[?]/10 till Degerfors med separat attest15; mottagande inflyttningsdag är inte belagd här;\n  orten `Ekträsk`.\n- Beroenden: inga för födelseboken 1856 — socken och år är kända. Flera namnlika Erik August kan finnas; husförhörslängden måste då avgöra personkopplingen.\n  Vigselvägen: vigseldatum `79 21/11` finns redan i TR-047081876069d29686847217@1 och O-P-0028-Maria_Elina_Ektrask@1. Det är en husförhörsboksuppgift, inte läst vigselbok eller fastställd vigselort. Den exakta nyckeln skall prövas före bredare årgångssökning. Ingen allmän ny namnsökning efter redan lokaliserad hushållsrad behövs.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivets digitala bildvisning; Degerfors\n  kyrkoarkiv är bekräftat åtkomligt genom C-0571, C-0574, C-0584 och C-0585,\n  men dessa volymer är EJ KONTROLLERADE.\n- Undersökt omfång och utfall: egen vigselbok EJ UNDERSÖKT; C-0548:s uttryckliga datum och hushållshänvisning återbrukas från befintligt underlag.\n- Bedömning och återaktivering: vägen är kontrollen till A-7947 och\n  betjänar tio akter. Vigselposten är dessutom samma post för båda\n  makarna. Ägs av [T-0619](../../wotan/dev-log/T-0619.md).\n- Wotan: T-0619\n\n",
+  "new": "### KP-01: Degerfors födelsebok 1856, vigselpost med nyckel 1879-11-21 och husförhörslängd\n\n- Frågor/teman: Q-01, Q-02, ID, REL, SAM.\n- Källklass: K-02, K-03, K-01.\n- Tid/plats och arkivbildare: Degerfors födelsebok 1856 för Erik August enligt tidigare mandat; vigselbok 1879 med dag 21 november som konkret ingång. C-0548:s Ekträsk s. 171 rad 6 och från 163/2 återbrukas dokumentärt.\n- Förväntad information: hans föräldrar och exakta födelsedag, vigseldag\n  och brudparets hemvist, och hemmanets namn och nummer.\n- Ingång och söknycklar: `Erik August Lindberg`, född **1856 i Degerfors**;\n  `Maria Elina Zingmark`, född 1856-07-29 i Sävar, C-0561:s utgående rad1875 4[?]/10 till Degerfors med separat attest15; mottagande inflyttningsdag är inte belagd här;\n  orten `Ekträsk`.\n- Beroenden: socken och år ger en personroute för födelseboken1856; exakt volym, faktisk åtkomst, postinnehåll och personkorrelation återstår att pröva. Flera namnlika Erik August kan finnas. Husförhörsmaterial kan behövas för korrelation men en säker personkoppling är inte utlovad.\n  Vigselvägen: vigseldatum `79 21/11` finns redan i TR-047081876069d29686847217@1 och O-P-0028-Maria_Elina_Ektrask@1. Det är en husförhörsboksuppgift, inte läst vigselbok eller fastställd vigselort. Den exakta nyckeln skall prövas före bredare årgångssökning. Ingen allmän ny namnsökning efter redan lokaliserad hushållsrad behövs.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivets digitala bildvisning; Degerfors\n  kyrkoarkiv är bekräftat åtkomligt genom C-0571, C-0574, C-0584 och C-0585,\n  men dessa volymer är EJ KONTROLLERADE.\n- Undersökt omfång och utfall: egen vigselbok EJ UNDERSÖKT; C-0548:s uttryckliga datum och hushållshänvisning återbrukas från befintligt underlag.\n- Bedömning och återaktivering: vägen är kontrollen till A-7947 och\n  betjänar tio akter. Vigselposten är dessutom samma post för båda\n  makarna. Ägs av [T-0619](../../wotan/dev-log/T-0619.md).\n- Wotan: T-0619\n\n",
+  "rationale": "Independent fullbody residual: known parish/year is routing, not tested access or assured HFLidentitysolution. All other body/metadata/support and EJUNDERSÖKT retained.",
+  "candidate_version_preserved": 3,
+  "all_other_target_payloads_exact_unchanged": [
+    "PATH-P-0437-KP-01"
+  ],
+  "all_other_fields_and_ordered_arrays_exact": true,
+  "all_history_incoming_edges": []
+}

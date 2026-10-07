@@ -1,0 +1,3 @@
+# Amendment to independent raw reading, 2026-10-02
+
+After own raw files were frozen, primary first3 handoffs became available. A difference in my reserved/initial C0084 mother reading triggered exact native crop (C0084-mother-detail.png, x2080 y1700 w1150 h390). This original crop clearly reads **Charlotta Cecilia Elisabeth**, not my initial Ulrika, and **83 14/1**, not my initial19/1. Accept1883-01-14 from the actual14 geometry. Preserve initial file unchanged; this is my reading correction, not a detected implementation failure or extra historical corroboration. Primary v1's name/date on these two fields is supported by the original. Brosätter is a plausible more precise witness-place reading than my reserved Broställer; no new identity follows.

@@ -1,0 +1,43 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-03T07:01:03.349014+00:00",
+  "status": "ROOT_P0088_ADDITIVE_CURRENT_AND_HISTORY_INPUT_LOCK_RELEASED",
+  "freeze": {
+    "path": "evaluations/T-0780/preparation/C0062-P0088-administrative-inputs-v1/additive-native-input-freeze-v2.json",
+    "sha256": "f31492714bbbe0d56534319330ac5a4db8d4f0106743a6e0d88dcb7f76a2fca6"
+  },
+  "baseline": {
+    "path": "evaluations/T-0780/root-P0088-additive-input-baseline-check-v1.json",
+    "sha256": "fb2156eb7d15088fce1d8dcc08eff359f649c3884111d50c0f31416ed1f54544",
+    "all50table_equal": true,
+    "journal": 281,
+    "pending": 0
+  },
+  "pins": [
+    {
+      "path": "evaluations/T-0780/preparation/C0062-P0088-administrative-inputs-v1/P-0088-full-v1.json",
+      "sha256": "b341cae67a065cf8b340c8425b5e4432f7f0d77fb76b3d93485d2a83aa35212b"
+    },
+    {
+      "path": "evaluations/T-0780/preparation/C0062-P0088-administrative-inputs-v1/P-0088-inspect-v1.json",
+      "sha256": "3256725ff907ac709ff630edb792b18de707954331a520d39b77b2dea68dde92"
+    },
+    {
+      "path": "evaluations/T-0780/preparation/C0062-P0088-administrative-inputs-v1/native-administrative-state-and-history-v1.json",
+      "sha256": "42e5b20e59a085e95e54e325316767cf3c6e5fa42fd3e9dcef09f99cc03726cc"
+    },
+    {
+      "path": "evaluations/T-0780/preparation/C0062-P0088-administrative-inputs-v1/administrative-decision-full-payload-v1.json",
+      "sha256": "3299e39d35568241f15980b9f585986eaf231d6ac74585f7db17bc44b0509aa5"
+    }
+  ],
+  "outside_prior_exact_revisions": [
+    "P-0082@1",
+    "P-0088@1"
+  ],
+  "limits": [
+    "Mechanical hash/baseline release, not source/identity/adoption decision.",
+    "Astra must preserve current administrative identity caveat, exact canonicalperson mapping, sourcebound adoption target; no implicit coremerge/reactivation/demotion.",
+    "No new originalscope or canonicalapply."
+  ]
+}

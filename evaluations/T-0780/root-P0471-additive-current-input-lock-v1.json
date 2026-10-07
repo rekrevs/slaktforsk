@@ -1,0 +1,47 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-03T07:58:36.305864+00:00",
+  "status": "ROOT_P0471_CURRENT_PRESENTATION_AND_CORE_LOCK_RELEASED",
+  "capture": {
+    "path": "evaluations/T-0780/root-P0471-current-inputs-v1/capture-receipt-v1.json",
+    "sha256": "886d3afa2e78a1cda56048ffa60a1688355b3a7e7655f1b4d043d9f89393ed52"
+  },
+  "pins": [
+    {
+      "path": "evaluations/T-0780/root-P0471-current-inputs-v1/person-full.json",
+      "sha256": "906f09a4ed6f3c57ea849c018ab1361fb851f1e9e27074747794b9691b3451e5"
+    },
+    {
+      "path": "evaluations/T-0780/root-P0471-current-inputs-v1/inspect.json",
+      "sha256": "a34311e8a7cf41d33d318a353b85fa6454e34f3c0ff8066c713b158a9060953e"
+    }
+  ],
+  "full_current_revision_metadata": {
+    "id": "P-0471@2",
+    "object_id": "P-0471",
+    "version": 2,
+    "operation_id": "T-0661/persons-10-v1",
+    "disposition": "accepted",
+    "evidence_status": "CORROBORATED",
+    "rationale": "Individuellt prövad identitet i två personbundna original; ålderskolumnens tolkning och hennes ursprung är separata osäkra frågor.",
+    "caveat": "Identiskt eget namn, make, son och by i hushåll och samtida födelsepost; okända föräldrar/egenfödelsetid hålls öppna.",
+    "previous_id": "P-0471@1"
+  },
+  "all50_baseline_table_equal": true,
+  "baseline_check": {
+    "path": "evaluations/T-0780/root-P0471-additive-input-baseline-check-v1.json",
+    "sha256": "201f9892a36583fd5c77f777291d63fd7711c4205bc4ac28a7ada0ce6aae2c27"
+  },
+  "source_scope_unchanged": true,
+  "failed_attempts": [
+    {
+      "action": "First lock script hardcoded expected current P0471@1 without evidential basis",
+      "result": "assertion refused before lock write; current actual P0471@2 then independently read, exact accepted state preserved; no mutation"
+    }
+  ],
+  "limitations": [
+    "Rootread-onlycoordinatorcapture duringall4slots occupied, no Sol/nativeimplementation or sourcejudgment.",
+    "Astra mustread fullcore/status/identity/admincontext and stronger accepted support before bounded wifeconsequence adoption; no auto merge/demotion/revival.",
+    "No new originals/canonicalapply/sourceapproval."
+  ]
+}

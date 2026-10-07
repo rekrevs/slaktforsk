@@ -1,0 +1,80 @@
+{
+  "task": "T-0781",
+  "status": "UNRUN_PREPARATION_ONLY",
+  "helper_pin": {
+    "path": "evaluations/T-0781/implementation/apply_root_authorized_exact17_canonical_v1.py",
+    "sha256": "35efb419244060576643288d9ecbffaaeb3012134c769e3c0c56de52f4d75929"
+  },
+  "authorization_schema_pin": {
+    "path": "evaluations/T-0781/implementation/canonical17-controlled-runner-preparation-v1/root-canonical17-authorization-schema-NOT-AUTHORIZED-v1.json",
+    "sha256": "fad1c7f0441e7efc69c55b1de0f8f8d1f68dbfb502dc0a917b5c57caa10d26a3"
+  },
+  "reuse": {
+    "stage_readonly_helper_pin": {
+      "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py",
+      "sha256": "ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2"
+    },
+    "root_comparator_pin": {
+      "path": "evaluations/T-0781/root_compare_actual_stage_v1.py",
+      "sha256": "cc7cb140aeb67d11dc05e5cb2c994d53027e9875f879ea79062d1d149d69ad9f"
+    },
+    "final_stage_handoff_pin": {
+      "path": "evaluations/T-0781/exact16-fresh-stage-v1/actual17-resolution-apply-v1/complete-final442-zero-pending-exact17-resolution-stage-handoff-v1.json",
+      "sha256": "b1d9969920310db12ea63ca53d5c8e09f2e9d467b832029e1304a77827de9bae"
+    },
+    "root_canonical_reference_pin": {
+      "path": "evaluations/T-0780/apply_authorized_canonical.py",
+      "sha256": "428262764d75c203cc19d6d140313f1853f3e73f44c927e5e9642ead731862b5"
+    }
+  },
+  "checks": [
+    "Require literal root auth, helper/self hash, both separate final gate ready/proposal/membership/stage pins, freshrootall50 proof, actualMAIN425/0/SHA and all50 equal immutable baseline; no existing newoperation IDs.",
+    "Static all174 native oldversion/absence/current evidenceheads/producer order; explicitnumeric2; protected42 disjoint and fullpayload equal.",
+    "Rehash immutable artifacts/source/current/code/media/finalstage +auth before everystep; saved actual17 expected states exact. Original425journal file pins checked unchanged.",
+    "Exact pending17 fullrows +primary/independent literalinstruction lists beforeop17. EveryCLI one attempt, fullstdout/stderr/actualstate+DBSHA receipt; failure stop no retry.",
+    "Every stored request_json and durablejournal envelope equals exact submittedoperation including orderedarrays/numeric2.",
+    "Final unchanged root all50 comparator: raw schema/rows/BLOB/embeddedJSON/fullhistory and orderednative; only new17operation recorded_at differences allowed, no derivedtable exemption.",
+    "Oldnative baseline-prefix rows/order preserved; full174target/398current-history-upstream native equality; full42protected current/native; sourceimages+assets exact.",
+    "Five readonly validators verify/assets/source/inventory/defaultverifiedP0269; no T0780full133suite. Actualpost50 stable.",
+    "Acceptance/program12/sixownerappend administration explicitly separate; this runner gives no acceptance markers."
+  ],
+  "subprocess_whitelist": [
+    {
+      "argv": [
+        "node",
+        "genealogy2/cli.mjs",
+        "apply",
+        "EXACT_MEMBER_PATH"
+      ],
+      "count": 17,
+      "root_written_fresh_authorization_required": true
+    },
+    {
+      "argv": [
+        "python",
+        "evaluations/T-0781/root_compare_actual_stage_v1.py",
+        "--stage",
+        "PINNED_FINAL_STAGE",
+        "--gate",
+        "ROOT_AUTH_PATH",
+        "--output",
+        "NEW_REVIEW_OUTPUT"
+      ],
+      "count": 1
+    },
+    {
+      "argv": [
+        "node",
+        "genealogy2/cli.mjs",
+        "verify|verify-assets|verify-source|inventory|pedigree P-0269"
+      ],
+      "count": 5
+    }
+  ],
+  "unperformed": "Runner/runtime UNRUN. Independent final gate and rootfreshbaseline/written canonicalauthorization remain mandatory.",
+  "production": {
+    "newturn": true,
+    "construction_static_validation_and_any_repairs_count_as_production": true,
+    "actual_model_usage": "Root collects after final; worker unknown, not zero."
+  }
+}

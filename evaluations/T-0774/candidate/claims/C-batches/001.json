@@ -1,0 +1,217 @@
+{
+  "case": "C",
+  "logical_unit": 1,
+  "max_claims": 6,
+  "claims": [
+    {
+      "id": "C-001",
+      "object": "E-birth-P-0010@1",
+      "field": "date_json",
+      "start": 0,
+      "end": 70,
+      "quote": "{\"literal\": \"1886-04-19\", \"precision\": \"exact\", \"value\": \"1886-04-19\"}",
+      "quoted_value": {
+        "literal": "1886-04-19",
+        "precision": "exact",
+        "value": "1886-04-19"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "exact birthdate",
+      "old_support": [
+        "READ-883e306dd7f99fbc7a6a47d5@1 body0:267",
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+      ],
+      "source_observation": "Own19 and April/1886 dittos; numbered cell physically covered",
+      "judgment": "stärkt",
+      "decision": "behåll",
+      "grounds": "Own day19 plus month/year dittos anchored April/1886 confirm1886-04-19. Maskednumber14 is only locator context, not a newly read cell. Reject oldDecember transcription without rewriting historicalraw.",
+      "before": {
+        "literal": "1886-04-19",
+        "precision": "exact",
+        "value": "1886-04-19"
+      },
+      "after": {
+        "literal": "1886-04-19",
+        "precision": "exact",
+        "value": "1886-04-19"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-002",
+      "object": "E-baptism-P-0010@1",
+      "field": "date_json",
+      "start": 0,
+      "end": 70,
+      "quote": "{\"literal\": \"1886-05-01\", \"precision\": \"exact\", \"value\": \"1886-05-01\"}",
+      "quoted_value": {
+        "literal": "1886-05-01",
+        "precision": "exact",
+        "value": "1886-05-01"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "older exact baptismdate",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "E-baptism-P-0010@1 origins ff9f9f707a605249bbeedb481fc6b6599e42a06a3e1818b605fcd06ae6bc6e03"
+      ],
+      "source_observation": "No printed baptismdate column; no own1/5 remarks",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Keep the explicitly older recorded1886-05-01 date and old correction. Current SCB has no own baptismdate column and remarks no verbaldate, so it neither newly extracts nor contradicts that old date. Exact provenance beyond the old correction needs clarification; preserve it as reused older knowledge, not new firsthand SCBevidence.",
+      "before": {
+        "literal": "1886-05-01",
+        "precision": "exact",
+        "value": "1886-05-01"
+      },
+      "after": {
+        "literal": "1886-05-01",
+        "precision": "exact",
+        "value": "1886-05-01"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-003",
+      "object": "P-0010@2",
+      "field": "sex",
+      "start": 0,
+      "end": 4,
+      "quote": "null",
+      "quoted_value": null,
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "explicit sex field",
+      "old_support": [
+        "E-birth-P-0010@1 exactdate/parents context",
+        "P-0010@2 current evidence chain"
+      ],
+      "source_observation": "Own Kön m1; q blank; Äkta m1",
+      "judgment": "stärkt",
+      "decision": "revidera",
+      "grounds": "Assign male from own explicit Kön m count1, independently corroborated by Äkta m1. This is a printedsex-field attribution, not inference from Bernhard’s name or sonrole. Established identity and treeeffect stay unchanged.",
+      "before": null,
+      "after": "male",
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-004",
+      "object": "O-P-0010-C0023-mother-note@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 121,
+      "quote": "{\"annotation\": \"(1 år)\", \"annotationMeaning\": null, \"name\": \"Johansson Augusta Viktoria\", \"olderReading\": \"Johansdotter\"}",
+      "quoted_value": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "annotationMeaning:null",
+      "old_support": [
+        "O-P-0010-C0023-mother-note@1 revision.caveat",
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285"
+      ],
+      "source_observation": "Own mother annotation(1år), meaning unresolved",
+      "judgment": "stärkt",
+      "decision": "behåll",
+      "grounds": "Own(1år) text confirms the annotation. The broad parentheader supplies no explicit duration rubric, and existing annotationMeaning:null is the correct semantic boundary. Do not create a wedding1885 date by subtracting a year or infer firstmarriage/firstchild from the note.",
+      "before": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "after": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-005",
+      "object": "O-P-0010-C0023-parent-ages@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 103,
+      "quote": "{\"father\": \"P-0020\", \"fatherAge\": 36, \"mother\": \"P-0021\", \"motherAge\": 22, \"rejectedFatherReading\": 30}",
+      "quoted_value": {
+        "father": "P-0020",
+        "fatherAge": 36,
+        "mother": "P-0021",
+        "motherAge": 22,
+        "rejectedFatherReading": 30
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "older numeric36/rejected30 correction",
+      "old_support": [
+        "O-P-0010-C0023-parent-ages@1 value_literal0:26 + revision.caveat",
+        "RESEARCH-P-0020-9d76f0343410@1 body0:1987 stronger reported1850-03-18"
+      ],
+      "source_observation": "Own mother22; struck upper36/30? in motherage column",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "The older explicit36/rejected30 correction remains stronger than the weaker new36/30? glyph reading. Keep those older numeric values rather than automatically demoting36. Own header is mother’s completedage and upper36 is struck on fatherline: semantic attribution is reserved separately; no new parentbirths inferred from it. Mother22 is independently read.",
+      "before": {
+        "father": "P-0020",
+        "fatherAge": 36,
+        "mother": "P-0021",
+        "motherAge": 22,
+        "rejectedFatherReading": 30
+      },
+      "after": {
+        "father": "P-0020",
+        "fatherAge": 36,
+        "mother": "P-0021",
+        "motherAge": 22,
+        "rejectedFatherReading": 30
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    },
+    {
+      "id": "C-006",
+      "object": "O-P-0010-C0023-mother-note@1",
+      "field": "value_json",
+      "start": 0,
+      "end": 121,
+      "quote": "{\"annotation\": \"(1 år)\", \"annotationMeaning\": null, \"name\": \"Johansson Augusta Viktoria\", \"olderReading\": \"Johansdotter\"}",
+      "quoted_value": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "quote_encoding": "JSON data-field value, json.dumps ensure_ascii=False",
+      "semantic_focus": "older corrected mother surname",
+      "old_support": [
+        "TR-99c2bd8aeee97f3168c8d680@1 reading_note0:285",
+        "RESEARCH-P-0021-9d76f0343410@1 body0:2132"
+      ],
+      "source_observation": "Own AugustaViktoria; surname middleglyph uncertain",
+      "judgment": "oförändrat",
+      "decision": "behåll",
+      "grounds": "Retain the explicitly older corrected Johansson name, not the rejected Johansdotter. New compactglyph Johannesson/Johansson? is weaker and stays diplomatic in newT; the mother’s established ownmarriage/adultidentity separately supports Johansson. Do not silently normalize the newraw or create a second mother.",
+      "before": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "after": {
+        "annotation": "(1 år)",
+        "annotationMeaning": null,
+        "name": "Johansson Augusta Viktoria",
+        "olderReading": "Johansdotter"
+      },
+      "affected_copies": [],
+      "remaining_question": "No new weaker raw inference overrides stronger older facts."
+    }
+  ]
+}

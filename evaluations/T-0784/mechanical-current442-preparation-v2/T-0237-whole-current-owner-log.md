@@ -1,0 +1,120 @@
+# T-0237: Jansson och Ålund: fulla öppnade personfält och saknade källkopior
+
+**Status**: READY | **Size**: M
+
+## Context och mandat
+
+PCD-2026-09-07-026, individuell granskning T-0125. Efter T-0115.
+PK-05/11 och direkt materiell personfråga; ingen ny generation.
+
+## Scope och stoppgräns
+
+P-0009/P-0046/P-0016/P-0112 med direkt berörda hushåll.
+Exakt redan öppnade underlag: C-0016 markeringen(1) med motsvarande C-0014-SCB-fält; C-1056/C-1057/
+C-1059/C-1065/C-1068/C-1070 egna Ada-/Turerader, deras kvarstående
+kunskaps-/förhörs-/anteckningsfält och sex fullbilder; C-0958/C-0959
+exakta öppnade norska indexposter med lokal kopia; C-0075 moderns råa
+åldrar och kyrkotagningsfält; C-0019 Huldas skol-/yrkes-/ekonomikoder;
+C-0955:s sju redan öppnade rotemansposter; C-0973:s fyra bilder,
+C-0976:s tre och C-0979:s två; C-0091 Karl Alberts(-2-)-markering;
+C-0085 egen yrkeskod8; C-0430 fem saknade målbilder AIIa2
+00154493_00042–44 och AIIa3 00154494_00045/47. Högst en direkt
+formulär-/kodförklaring per källa. Inga nya årgångar eller allmänna svep.
+Prövade egna tomfält i C-0035/C-0039/C-0911, dopvittnen och C-0432:s
+23 redan sparade bilder tillgodoräknas. C-0923:s gravkopior ägs T-0227.
+Indexoriginalens ännu olästa norska sidor hör T-0238 till; ingen dubbel
+källskuld. Den oläsliga blyertsnoten C-1070 omprövas bara om bättre
+återgivning faktiskt tillkommer.
+
+## Acceptance Criteria
+
+- Varje namngiven passage har positivt, precist negativt eller olöst utfall
+  inom stoppgränsen. Villkor som saknar nyckel redovisas utan vidgad sökning.
+- Hela faktiskt öppnade relevanta poster utvunna och bevarade med kopia,
+  exakt referens och hash; beroende index och original hålls isär.
+- Berörda akter/profiler, teman, frågeutfall och två kontraktsnivåer
+  individuellt avstämda. Äldre tillräckligt arbete återanvänds.
+- Beslutad följdpåverkan utanför scope har uttrycklig avgränsad ägare.
+- Saklig efterläsning och relevanta validatorer, inventering, tester,
+  mediemanifest, personformat och diffkontroll godkända.
+
+## Approach
+
+Läs aktuella profiler och T-0125:s rättelser först. Följ Riksarkivets
+åtkomstordning; ArkivDigital förbjudet. Inga beställningar, kontakter,
+publicering, PDF-skapande, dashboarduppdateringar eller commit/push.
+Forskning loggas en gång med acceptanskriterium i forskningsloggen.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: positiv utgång och fast omfång registrerade i T-0125.
+- Nästa ej utförda steg: efter föregångarna, läs aktuell profil och
+  pröva första namngivna passage. Ingen ny passage är redan gjord här.
+- Hinder: T-0125/T-0115. Ingen åtkomstspärr antas utan personbundet prov.
+
+## Avgränsad komplettering från T-0129, 2026-09-08
+
+Samma sex redan namngivna hushållsbilder ska även omfatta Karl Fredriks
+egna fält; de ska inte hämtas två gånger för olika familjemedlemmar.
+Lägg till de redan lästa flyttoriginalen C-1060, F0003287_00057 och
+F0003287_00058, samt C-1061, F0003281_00034: exakt dessa saknade kopior,
+full relevant post och hash. Övriga flyttcitationers bevarandestatus
+avstäms mot deras exakta reproduktionsnycklar innan något hämtas.
+Barndomsbilderna C-1093–C-1099 finns redan och ska tillgodoräknas.
+T-0227 behåller C-1047:s separata befintliga kopieomfång.
+
+### Exakt ytterligare kopiemängd från T-0129
+
+Följande åtta redan lästa fullbilder saknas vid kontroll av både
+C-prefix och reproduktions-id i lokal media:
+
+- C-1058: C0008076_00025.
+- C-1062: C0006950_00205; även Karls egna kvarstående kolumner.
+- C-1064: C0008075_00019, C0008075_00025, C0008075_00026.
+- C-1066: C0008076_00030.
+- C-1067: A0009094_00012.
+- C-1069: F0004599_00042.
+
+Exakt dessa kopior och fulla relevanta familjefält ingår. Ingen ny
+årgång, fri ortsletning eller upprepning av positiv mållokalisering.
+C-1069:s Astriduppgifter avstäms mot T-0157:s fulladoption.
+
+## Inkommet från T-0157, 2026-09-08
+
+- **P-0046:s relationsterm är rättad.** Raden mot P-0044 skrev
+  `halvbror på moderns sida`, vilket förutsätter att fadern var en annan.
+  Ingen läst källa visar det: C-1060 och C-1062 lämnar faderskapet både
+  obelagt och icke uteslutet. Termen är ändrad till `syskon genom modern`,
+  densamma som P-0009 och P-0044 använder, med kvalificeringen i Tid/plats.
+  Vid full granskning här: kontrollera att inget påstående i P-0046 vilar på
+  den starkare termen.
+- **Fullbildsbristen gäller hela syskonskaran, inte bara P-0043.** Ingen av
+  C-1047 och C-1056–C-1070 har en lokal fullbild; P-0043:s profil talade om
+  sex, det faktiska antalet saknade är elva för P-0043 ensam. Räkna om
+  bevarandeomfånget för kohorten innan arbetet planeras.
+- **C-1059** hade en opropagerad rättelse i sitt eget avsnitt
+  `Vad detta stänger`; den är åtgärdad med ett tillägg. Rätt hitflyttning är
+  1887-11-09, attest 38.
+
+## Återupptagning 2026-09-18: föregångare avslutade
+
+T-0115 och övriga angivna beroenden är DONE. Uppgiften är READY, inte startad.
+Nästa steg är den tidigare angivna första sakpassagen inom uppgiftens omfång,
+med aktuella Genealogy2-objekt enligt wotan/README.md. Gamla filsökvägar och
+skrivkommandon i planen är historik; det frysta genealogy ska inte redigeras.
+Ingen tidigare källpassage ska repeteras utan ett konkret sakligt skäl.
+
+
+## Återupptagning 2026-10-02: faktisk källkreditering från T-0778
+
+C-1060:s eget fulloriginal `F0003287_00058`, Lerbo1884 födelse-/doppost33, är faktiskt accepterat genom [programkvittot](../../genealogy2/verification/T-0677/c1060-astra-completion-20261002.json) och [roots införandekvitto](../../evaluations/T-0778/canonical-apply/canonical-result-v1.json), journal270–277, pending0. SHA256 `06c1b2ac1a7f27cc9ce8de4ad98afc7b6548bd4bc364bd6df0293970e8a73d9b`;28 numrerade fält och fyra fadderlinjer fullprövade med reservationer. Bild57/poster26–32 har ett redan dokumenterat avgränsat nollutfall som återbrukas; dess fullbild `F0003287_00057` har inte bevarats genom T-0778 och kvarstår i kopieomfånget. Tom fadersuppgift utesluter inte Karl; `(1)` har inte fastställd funktion och ritualförkortningen saknar säkert datum. Den accepterade post58 ska inte ompassas som outvunnen eller obevard.
+
+C-1047:s separat ägda T-0227-kopieomfång är nu krediterat där, med T-0410-överlapp; ingen andra hämtning behövs här. Alla övriga exakt namngivna egna fält, norska indexkopior, rotemansposter och kopior/reproduktionsnycklar i denna logg kvarstår för avstämning mot aktuella accepterade belägg före aktivering. C-1061 `F0003281_00034` och C-1060 bild57 är inte lösta av post58. T-0238 behåller de norska indexoriginalsidorna; gravkopiorna ägs T-0227. Status READY och övriga personbundna PK-/kontraktskrav är oförändrade; ingen owner-DONE eller identitetsuppgradering.
+
+
+## Återupptagning — hård kärnprioritet 2026-10-05
+
+PCD-2026-10-05-001. Status, after, hela tidigare scope/AC och accepted-source/checkpoints består. Denna uppgift är DEFERRED i den gemensamma Wotankön i väntan på individuell kärntriage; detta är ingen saklig sidopersons- eller färdigbedömning. T-0784 äger separat endast den aktuella identitetsgrindomprövningen för P-0211/P-0003/P-0007 enligt dess exakta personbundna avgränsning. T-0237 behåller alla ursprungliga källpassager/bevarandefält och övriga personer/frågor som inte sakligt slutdispositioneras genom redan accepterat återbruk.
+
+Vid framtida aktivering: läs T0784:s faktiska resultat först om det finns; utför ingen överlappande omprövning eller accepterad fullpostläsning igen. Ett T0784utfall kan behålla UNDERKÄND/AVVAKTAR och identifiera en verklig nödvändig förutsättning här; främja då endast den explicit avgränsade relevanta delen med currentperson/source/time/field, inte hela blandade uppdraget. Ingen passage är utförd eller persongrind ändrad genom denna anteckning. Nästa ejutförda steg i ursprungsscope och alla konkreta äldre restfält bevaras ovan; ingen ny utvidgning.

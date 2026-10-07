@@ -1,0 +1,53 @@
+{
+  "schema": "independent-full-spec-review/1",
+  "task": "T-0677",
+  "citation": "C-0020",
+  "date": "2026-10-01",
+  "reviewer": "independent Astra",
+  "decision": "PASS",
+  "inputs": {
+    "c0020-draft-implementation-spec-20261001.json": "99e9fbfee3539294d4480b2fad541292a8b2717da5aaace4327acb5682c05398",
+    "c0020-impact-individual-dispositions-20261001.json": "9f82731811e3af00169190fcda24e19c4e7d4a117e91bbed1ce004523df8c8f1",
+    "c0020-source-comparison-acceptance-20261001.json": "77eef8f90cfe2599f25c7b4b85a6ddfa8afd2a250672e3790977801c93fe59e5",
+    "c0020-independent-targeted-adjudication-20261001.json": "4ce8a0cb4d6900e56f1425a824a0a31d7ac3bfb57469f5e9fdb381e05e9c0ad2",
+    "c0019-person-context-acceptance-20260930.json": "bd4331b1b9388ca97c3d8bb8573d8ed8e4f50ebb4b4f9f9e6a96b09aa401e012",
+    "c0020-prestart-person-P-0007-j227-20260930.json": "eaebbb55709b43d4a1a5fdccbf3cc9b1c7d5a7a401a1397f2be4fd64350b0657",
+    "c0020-prestart-person-P-0015-j227-20260930.json": "d30dd64ff83955c31d773197ef34f27bbd921195ad7499ab087faaf728a1c732",
+    "c0020-prestart-person-P-0016-j227-20260930.json": "bd88822c0e6ba793d8a6a6e58a8773eff6fa37aba1cee3c217ccb7063a526afd"
+  },
+  "scope": "Full supplied6-newobject/0-revision specification, accepted17field matrix,27individual retains and bounded3person adoptions. No canonical apply or repeated image work.",
+  "checks": [
+    {
+      "check": "Own-source appropriation",
+      "result": "PASS",
+      "reason": "Raw matrix and TR bind only C0020 record@1. Birth/baptism and SCB layouts remain distinct;1920/Hyltinge locator is not claimed as visible header. C0028 contextual comparison is labelled separate, its baptism/widow date not copied into SCB raw."
+    },
+    {
+      "check": "Uncertainty and marks",
+      "result": "PASS",
+      "reason": "banvakt[?]70 retained without secure occupation/location expansion; f Ålund änka identified as post-unblinding adjudication. Statistical loop and cross-column marks remain unexpanded. No synthetic marriage, extra child or broad negative inference."
+    },
+    {
+      "check": "Current27 disposition objects",
+      "result": "PASS",
+      "reason": "All27 current objects inspected directly through CLI; current versions equal all27 supplied versions. Explicit historic source/transcription/negative-search and rejected May30 reading retained; current birth events already March20 and September25. No newly false current fact identified in bounded scope."
+    },
+    {
+      "check": "Person context reuse",
+      "result": "PASS",
+      "reason": "Accepted C0019 context read;3reuse-source hashes verified.142exact research inspections reused (49+52+41);12new/different current research bodies read (4per person). Their C0019 limits/other debts are unaffected by C0020. No PK,identity,tree orOWNER_CONFIRMED upgrade."
+    },
+    {
+      "check": "Adoptions and measurement",
+      "result": "PASS",
+      "reason": "P0007/P0015/P0016 each receive bounded native adoption.6newobjects=3source+3adoptions;0revisions,0newgenealogicalcorrections,1existingcorrectionconfirmation.17logicalfields=3whole_reuse+14newpartial; two source readers do not become two historical witnesses."
+    }
+  ],
+  "required_corrections": [],
+  "implementation_conditions": [
+    "Materialize exactly the approved source3objects and3boundedadoptions; add no unreviewed source/person conclusions.",
+    "Implementation must verify boundcurrentversions, actualoperation/evidence shape and validators before acceptance. This spec review is not an apply/test result.",
+    "Keep historical rawlocks and current dispositions unchanged; no nextcitation preparation within this review."
+  ],
+  "limits": "PASS covers this finite source/specification only; no complete-person contract or broader research certification."
+}

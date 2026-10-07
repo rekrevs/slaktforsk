@@ -1,0 +1,934 @@
+{
+  "task": "T-0778",
+  "baseline": 277,
+  "state": "EXACT_FIELD_CHECKED_NOT_OPERATION_PACKAGE",
+  "fields": [
+    {
+      "object": "R-33b612f0da2f3aa6fc2addc7",
+      "version": 1,
+      "field": "caveat",
+      "old_full_native_payload": {
+        "id": "R-33b612f0da2f3aa6fc2addc7",
+        "kind": "record",
+        "expectedVersion": 1,
+        "data": {
+          "source_id": "S-0026",
+          "record_type": "household",
+          "locator": "Flen A II a/6b, Eriksro n:o 2 Drottninggatan 3 s. 638 rader 12, 13 och 15, Karl Fredriks familj, 00153999_00231",
+          "dependence_note": "Reciproka sidhänvisningar binder bokföringen inom samma volym, inte två oberoende identitetsvittnen."
+        },
+        "origins": [
+          {
+            "unit": "615d3ac14d6b065d236d8a19536a6ee812526a4d865db95d87aa7072f70e3475",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "7d272fbf66059fabf8d1518f67e865894f3ca4a1f6e469eff23ca8f18c84a87b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "ed091640e8855e5fd291ee0675a90908a1f4d7741e4de8de89984dc338fc748b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0026",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Källpost avgränsad i C-1047. Reciproka sidhänvisningar binder bokföringen inom samma volym, inte två oberoende identitetsvittnen.",
+        "caveat": "Gemensam överföring till s. 563 år 1930. Rad 14 är en senare, separat person; samma adress är inte ett enda hushåll över hela volymperioden. Fullbild/hash saknas enligt T-0123.\nC-1047: Positivt fynd i A II a/6b rättar den felvalda 5b638-routen. De två manifestens sidetikettglapp bevaras som metadataobservation; de bevisar inte fysisk bladförlust, skanningarnas oberoende eller frånvaro av varje annan reproduktion."
+      },
+      "exact_old": "Gemensam överföring till s. 563 år 1930. Rad 14 är en senare, separat person; samma adress är inte ett enda hushåll över hela volymperioden. Fullbild/hash saknas enligt T-0123.\nC-1047: Positivt fynd i A II a/6b rättar den felvalda 5b638-routen. De två manifestens sidetikettglapp bevaras som metadataobservation; de bevisar inte fysisk bladförlust, skanningarnas oberoende eller frånvaro av varje annan reproduktion.",
+      "exact_new": "Gemensam överföring till s. 563 år 1930. Rad 14 är en senare, separat person; samma adress är inte ett enda hushåll över hela volymperioden. T-0778: fullbild 00153999_00231 är bevarad med SHA-256 9aa7cb9021fa8fb6e5faa4bcd55596512c148bdbb6381423f8a2a9321a2a81c3. Egna rader12,13,15 är prövade över54 numrerade kolumnenheter inklusive egna dittotecken, blanka fält och marginaler; Bef. och kyrkliga koder bevaras utan bestämd expansion. Detta ersätter äldre bristflagga för just denna bild/post, inte andra original eller personens granskningsutfall.\nC-1047: Positivt fynd i A II a/6b rättar den felvalda 5b638-routen. De två manifestens sidetikettglapp bevaras som metadataobservation; de bevisar inte fysisk bladförlust, skanningarnas oberoende eller frånvaro av varje annan reproduktion.",
+      "source_decision": "C-1047-current-source-decisions-v1.json",
+      "source_hash": "c338db7fa49638505fb9364907f668944e2f23114fac174ca6bbdea1f1c911cd",
+      "disposition": "revise",
+      "support_instructions": [
+        "Two revised R retain S-0026@1; no source revision.",
+        "Each revised READ binds only its own revised R@2 instead of@1. Revised O-reference binds familyR@2 plus new familyaudit@1; new TR/audit use ownR@2.",
+        "ADOPT-C0008 caveat revision preserves all previous evidence and appends new C1047familyaudit@1 plus accepted C0034 audit if exact ID returned; no invented ID.",
+        "All unspecified data/status/evidence/origins preserved. Any unexpected edge returns Astra."
+      ]
+    },
+    {
+      "object": "READ-60cae76b5df58a0a53a72ca1",
+      "version": 1,
+      "field": "caveat",
+      "old_full_native_payload": {
+        "id": "READ-60cae76b5df58a0a53a72ca1",
+        "kind": "assessment",
+        "expectedVersion": 1,
+        "data": {
+          "subject_id": "R-33b612f0da2f3aa6fc2addc7",
+          "criteria": "legacy_record_boundary",
+          "outcome": "record_located",
+          "body": "C-1047: Positivt fynd i A II a/6b rättar den felvalda 5b638-routen. De två manifestens sidetikettglapp bevaras som metadataobservation; de bevisar inte fysisk bladförlust, skanningarnas oberoende eller frånvaro av varje annan reproduktion.\nReciproka sidhänvisningar binder bokföringen inom samma volym, inte två oberoende identitetsvittnen."
+        },
+        "origins": [
+          {
+            "unit": "615d3ac14d6b065d236d8a19536a6ee812526a4d865db95d87aa7072f70e3475",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "7d272fbf66059fabf8d1518f67e865894f3ca4a1f6e469eff23ca8f18c84a87b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "ed091640e8855e5fd291ee0675a90908a1f4d7741e4de8de89984dc338fc748b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-33b612f0da2f3aa6fc2addc7",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Dokumenterad avgränsning och läshistorik i C-1047; ingen ny oberoende evidensröst.",
+        "caveat": "Gemensam överföring till s. 563 år 1930. Rad 14 är en senare, separat person; samma adress är inte ett enda hushåll över hela volymperioden. Fullbild/hash saknas enligt T-0123."
+      },
+      "exact_old": "Gemensam överföring till s. 563 år 1930. Rad 14 är en senare, separat person; samma adress är inte ett enda hushåll över hela volymperioden. Fullbild/hash saknas enligt T-0123.",
+      "exact_new": "Gemensam överföring till s. 563 år 1930. Rad 14 är en senare, separat person; samma adress är inte ett enda hushåll över hela volymperioden. T-0778: fullbild 00153999_00231 är bevarad med SHA-256 9aa7cb9021fa8fb6e5faa4bcd55596512c148bdbb6381423f8a2a9321a2a81c3. Egna rader12,13,15 är prövade över54 numrerade kolumnenheter inklusive egna dittotecken, blanka fält och marginaler; Bef. och kyrkliga koder bevaras utan bestämd expansion. Detta ersätter äldre bristflagga för just denna bild/post, inte andra original eller personens granskningsutfall.",
+      "source_decision": "C-1047-current-source-decisions-v1.json",
+      "source_hash": "c338db7fa49638505fb9364907f668944e2f23114fac174ca6bbdea1f1c911cd",
+      "disposition": "revise",
+      "support_instructions": [
+        "Two revised R retain S-0026@1; no source revision.",
+        "Each revised READ binds only its own revised R@2 instead of@1. Revised O-reference binds familyR@2 plus new familyaudit@1; new TR/audit use ownR@2.",
+        "ADOPT-C0008 caveat revision preserves all previous evidence and appends new C1047familyaudit@1 plus accepted C0034 audit if exact ID returned; no invented ID.",
+        "All unspecified data/status/evidence/origins preserved. Any unexpected edge returns Astra."
+      ]
+    },
+    {
+      "object": "R-c81e3c93931ef93d3beb7c4a",
+      "version": 1,
+      "field": "caveat",
+      "old_full_native_payload": {
+        "id": "R-c81e3c93931ef93d3beb7c4a",
+        "kind": "record",
+        "expectedVersion": 1,
+        "data": {
+          "source_id": "S-0026",
+          "record_type": "parish_person_entry",
+          "locator": "Flen A II a/6b, Eriksro n:o 2 s. 638 rad 14, Sandberg Maria Hildur Viola, 00153999_00231",
+          "dependence_note": "Separat senare rad på en återanvänd adressida."
+        },
+        "origins": [
+          {
+            "unit": "27bc96243e7e72322fce73f172eccdc93e0350a0f544e04911107884f6b5d464",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "615d3ac14d6b065d236d8a19536a6ee812526a4d865db95d87aa7072f70e3475",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "799db72317b0edb6ca0475dd5672973403843371d466654250e69e9c24e0a2d1",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "8798b95ed322e948c27281ca5279b0c050a5a7eec5ffa2c2b797748393b86757",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0026",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Källpost avgränsad i C-1047. Separat senare rad på en återanvänd adressida.",
+        "caveat": "Hembiträdets 1938-inflyttning från Mellösa 112 och fortsättning 583 är skilda från familjens överföring 1930. Ingen hushålls- eller släktrelation antas.\nC-1047: Positivt fynd i A II a/6b rättar den felvalda 5b638-routen. De två manifestens sidetikettglapp bevaras som metadataobservation; de bevisar inte fysisk bladförlust, skanningarnas oberoende eller frånvaro av varje annan reproduktion."
+      },
+      "exact_old": "Hembiträdets 1938-inflyttning från Mellösa 112 och fortsättning 583 är skilda från familjens överföring 1930. Ingen hushålls- eller släktrelation antas.\nC-1047: Positivt fynd i A II a/6b rättar den felvalda 5b638-routen. De två manifestens sidetikettglapp bevaras som metadataobservation; de bevisar inte fysisk bladförlust, skanningarnas oberoende eller frånvaro av varje annan reproduktion.",
+      "exact_new": "Hembiträdets 1938-inflyttning från Mellösa 112 och egen utgående råhänvisning fol.588[?] (äldre583-läsning ersätts; mottagarfolion är inte öppnad) är skilda från familjens överföring 1930. Ingen hushålls- eller släktrelation antas.\nC-1047: Positivt fynd i A II a/6b rättar den felvalda 5b638-routen. De två manifestens sidetikettglapp bevaras som metadataobservation; de bevisar inte fysisk bladförlust, skanningarnas oberoende eller frånvaro av varje annan reproduktion. T-0778: hela egna rad14:s18kolumner och marginaler är prövade i bevarad fullbild SHA-256 9aa7cb9021fa8fb6e5faa4bcd55596512c148bdbb6381423f8a2a9321a2a81c3. Egna ankomstfält anger112 Mellösa och38 9/9; utgående datumfält är tomt. Ingen 1930familjerelation eller exakt senare flyttdag härleds.",
+      "source_decision": "C-1047-current-source-decisions-v1.json",
+      "source_hash": "c338db7fa49638505fb9364907f668944e2f23114fac174ca6bbdea1f1c911cd",
+      "disposition": "revise",
+      "support_instructions": [
+        "Two revised R retain S-0026@1; no source revision.",
+        "Each revised READ binds only its own revised R@2 instead of@1. Revised O-reference binds familyR@2 plus new familyaudit@1; new TR/audit use ownR@2.",
+        "ADOPT-C0008 caveat revision preserves all previous evidence and appends new C1047familyaudit@1 plus accepted C0034 audit if exact ID returned; no invented ID.",
+        "All unspecified data/status/evidence/origins preserved. Any unexpected edge returns Astra."
+      ]
+    },
+    {
+      "object": "READ-96c6d6c5a5c464427e4caa5e",
+      "version": 1,
+      "field": "caveat",
+      "old_full_native_payload": {
+        "id": "READ-96c6d6c5a5c464427e4caa5e",
+        "kind": "assessment",
+        "expectedVersion": 1,
+        "data": {
+          "subject_id": "R-c81e3c93931ef93d3beb7c4a",
+          "criteria": "legacy_record_boundary",
+          "outcome": "record_located",
+          "body": "C-1047: Positivt fynd i A II a/6b rättar den felvalda 5b638-routen. De två manifestens sidetikettglapp bevaras som metadataobservation; de bevisar inte fysisk bladförlust, skanningarnas oberoende eller frånvaro av varje annan reproduktion.\nSeparat senare rad på en återanvänd adressida."
+        },
+        "origins": [
+          {
+            "unit": "27bc96243e7e72322fce73f172eccdc93e0350a0f544e04911107884f6b5d464",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "615d3ac14d6b065d236d8a19536a6ee812526a4d865db95d87aa7072f70e3475",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "799db72317b0edb6ca0475dd5672973403843371d466654250e69e9c24e0a2d1",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "8798b95ed322e948c27281ca5279b0c050a5a7eec5ffa2c2b797748393b86757",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-c81e3c93931ef93d3beb7c4a",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Dokumenterad avgränsning och läshistorik i C-1047; ingen ny oberoende evidensröst.",
+        "caveat": "Hembiträdets 1938-inflyttning från Mellösa 112 och fortsättning 583 är skilda från familjens överföring 1930. Ingen hushålls- eller släktrelation antas."
+      },
+      "exact_old": "Hembiträdets 1938-inflyttning från Mellösa 112 och fortsättning 583 är skilda från familjens överföring 1930. Ingen hushålls- eller släktrelation antas.",
+      "exact_new": "Hembiträdets 1938-inflyttning från Mellösa 112 och egen utgående råhänvisning fol.588[?] (äldre583-läsning ersätts; mottagarfolion är inte öppnad) är skilda från familjens överföring 1930. Ingen hushålls- eller släktrelation antas. T-0778: hela egna rad14:s18kolumner och marginaler är prövade i bevarad fullbild SHA-256 9aa7cb9021fa8fb6e5faa4bcd55596512c148bdbb6381423f8a2a9321a2a81c3. Egna ankomstfält anger112 Mellösa och38 9/9; utgående datumfält är tomt. Ingen 1930familjerelation eller exakt senare flyttdag härleds.",
+      "source_decision": "C-1047-current-source-decisions-v1.json",
+      "source_hash": "c338db7fa49638505fb9364907f668944e2f23114fac174ca6bbdea1f1c911cd",
+      "disposition": "revise",
+      "support_instructions": [
+        "Two revised R retain S-0026@1; no source revision.",
+        "Each revised READ binds only its own revised R@2 instead of@1. Revised O-reference binds familyR@2 plus new familyaudit@1; new TR/audit use ownR@2.",
+        "ADOPT-C0008 caveat revision preserves all previous evidence and appends new C1047familyaudit@1 plus accepted C0034 audit if exact ID returned; no invented ID.",
+        "All unspecified data/status/evidence/origins preserved. Any unexpected edge returns Astra."
+      ]
+    },
+    {
+      "object": "O-P-0003-C1047-reference",
+      "version": 1,
+      "field": "value_literal",
+      "old_full_native_payload": {
+        "id": "O-P-0003-C1047-reference",
+        "kind": "observation",
+        "expectedVersion": 1,
+        "data": {
+          "record_id": "R-33b612f0da2f3aa6fc2addc7",
+          "mention_id": null,
+          "property": "source_reference",
+          "value_literal": "s. 638 30",
+          "value_json": {
+            "gap1923to1930Resolved": false,
+            "page": "638",
+            "rejectedVolume": "A II a/5 b",
+            "relation": "intern hänvisning till/från sida 563",
+            "volume": "Flen A II a/6 b",
+            "year": "1930"
+          }
+        },
+        "origins": [
+          {
+            "unit": "86c05fc0396c55da82bd570ce3afaa9981d43e45d2b1871ca109c52d5f469d00",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "8841c33a18a0676f30d66bc3d92f45237b47620deecb81f06acac21913c68ce6",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "c024f4cebceb604e9d4091b3674a118663482c8b6a7dfacb9ab271368fdfca9e",
+            "coverage": "partial",
+            "note": "Hela den aktuella uppgiften representeras med uttryckliga förbehåll."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-33b612f0da2f3aa6fc2addc7",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Rätt post är läst. Noll i den äldre volymen är fortfarande ett riktigt begränsat reproduktionsfynd."
+      },
+      "exact_old": "s. 638 30",
+      "exact_new": "s. 563 30 [rad12]; egna ditton på rader13 och15",
+      "source_decision": "C-1047-current-source-decisions-v1.json",
+      "source_hash": "c338db7fa49638505fb9364907f668944e2f23114fac174ca6bbdea1f1c911cd",
+      "disposition": "revise",
+      "support_instructions": [
+        "Two revised R retain S-0026@1; no source revision.",
+        "Each revised READ binds only its own revised R@2 instead of@1. Revised O-reference binds familyR@2 plus new familyaudit@1; new TR/audit use ownR@2.",
+        "ADOPT-C0008 caveat revision preserves all previous evidence and appends new C1047familyaudit@1 plus accepted C0034 audit if exact ID returned; no invented ID.",
+        "All unspecified data/status/evidence/origins preserved. Any unexpected edge returns Astra."
+      ]
+    },
+    {
+      "object": "O-P-0003-C1047-reference",
+      "version": 1,
+      "field": "value_json",
+      "old_full_native_payload": {
+        "id": "O-P-0003-C1047-reference",
+        "kind": "observation",
+        "expectedVersion": 1,
+        "data": {
+          "record_id": "R-33b612f0da2f3aa6fc2addc7",
+          "mention_id": null,
+          "property": "source_reference",
+          "value_literal": "s. 638 30",
+          "value_json": {
+            "gap1923to1930Resolved": false,
+            "page": "638",
+            "rejectedVolume": "A II a/5 b",
+            "relation": "intern hänvisning till/från sida 563",
+            "volume": "Flen A II a/6 b",
+            "year": "1930"
+          }
+        },
+        "origins": [
+          {
+            "unit": "86c05fc0396c55da82bd570ce3afaa9981d43e45d2b1871ca109c52d5f469d00",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "8841c33a18a0676f30d66bc3d92f45237b47620deecb81f06acac21913c68ce6",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "c024f4cebceb604e9d4091b3674a118663482c8b6a7dfacb9ab271368fdfca9e",
+            "coverage": "partial",
+            "note": "Hela den aktuella uppgiften representeras med uttryckliga förbehåll."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-33b612f0da2f3aa6fc2addc7",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Rätt post är läst. Noll i den äldre volymen är fortfarande ett riktigt begränsat reproduktionsfynd."
+      },
+      "exact_old": {
+        "gap1923to1930Resolved": false,
+        "page": "638",
+        "rejectedVolume": "A II a/5 b",
+        "relation": "intern hänvisning till/från sida 563",
+        "volume": "Flen A II a/6 b",
+        "year": "1930"
+      },
+      "exact_new": "{\"gap1923to1930Resolved\":false,\"page\":\"638\",\"rejectedVolume\":\"A II a/5 b\",\"relation\":\"egen utgående hänvisning till sida563; mottagarpostens638/30 återbrukas separat\",\"volume\":\"Flen A II a/6 b\",\"year\":\"1930\",\"ownOutgoingPage\":\"563\",\"ownOutgoingYear\":\"30\",\"reciprocalReceivingReference\":\"638/30 (annan post i samma bok)\"}",
+      "source_decision": "C-1047-current-source-decisions-v1.json",
+      "source_hash": "c338db7fa49638505fb9364907f668944e2f23114fac174ca6bbdea1f1c911cd",
+      "disposition": "revise",
+      "support_instructions": [
+        "Two revised R retain S-0026@1; no source revision.",
+        "Each revised READ binds only its own revised R@2 instead of@1. Revised O-reference binds familyR@2 plus new familyaudit@1; new TR/audit use ownR@2.",
+        "ADOPT-C0008 caveat revision preserves all previous evidence and appends new C1047familyaudit@1 plus accepted C0034 audit if exact ID returned; no invented ID.",
+        "All unspecified data/status/evidence/origins preserved. Any unexpected edge returns Astra."
+      ]
+    },
+    {
+      "object": "O-P-0003-C1047-reference",
+      "version": 1,
+      "field": "caveat",
+      "old_full_native_payload": {
+        "id": "O-P-0003-C1047-reference",
+        "kind": "observation",
+        "expectedVersion": 1,
+        "data": {
+          "record_id": "R-33b612f0da2f3aa6fc2addc7",
+          "mention_id": null,
+          "property": "source_reference",
+          "value_literal": "s. 638 30",
+          "value_json": {
+            "gap1923to1930Resolved": false,
+            "page": "638",
+            "rejectedVolume": "A II a/5 b",
+            "relation": "intern hänvisning till/från sida 563",
+            "volume": "Flen A II a/6 b",
+            "year": "1930"
+          }
+        },
+        "origins": [
+          {
+            "unit": "86c05fc0396c55da82bd570ce3afaa9981d43e45d2b1871ca109c52d5f469d00",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "8841c33a18a0676f30d66bc3d92f45237b47620deecb81f06acac21913c68ce6",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "c024f4cebceb604e9d4091b3674a118663482c8b6a7dfacb9ab271368fdfca9e",
+            "coverage": "partial",
+            "note": "Hela den aktuella uppgiften representeras med uttryckliga förbehåll."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-33b612f0da2f3aa6fc2addc7",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Rätt post är läst. Noll i den äldre volymen är fortfarande ett riktigt begränsat reproduktionsfynd."
+      },
+      "exact_old": "Rätt post är läst. Noll i den äldre volymen är fortfarande ett riktigt begränsat reproduktionsfynd.",
+      "exact_new": "Rätt post är läst. Noll i den äldre volymen är fortfarande ett riktigt begränsat reproduktionsfynd. T-0778 skiljer nu egen utgående563/30 och ditton från den andra postens inkommande638/30. Samma bokföringskedja, inte två oberoende identitetsbelägg.",
+      "source_decision": "C-1047-current-source-decisions-v1.json",
+      "source_hash": "c338db7fa49638505fb9364907f668944e2f23114fac174ca6bbdea1f1c911cd",
+      "disposition": "revise",
+      "support_instructions": [
+        "Two revised R retain S-0026@1; no source revision.",
+        "Each revised READ binds only its own revised R@2 instead of@1. Revised O-reference binds familyR@2 plus new familyaudit@1; new TR/audit use ownR@2.",
+        "ADOPT-C0008 caveat revision preserves all previous evidence and appends new C1047familyaudit@1 plus accepted C0034 audit if exact ID returned; no invented ID.",
+        "All unspecified data/status/evidence/origins preserved. Any unexpected edge returns Astra."
+      ]
+    },
+    {
+      "object": "ADOPT-T0677-C0008-P-0003",
+      "version": 1,
+      "field": "caveat",
+      "old_full_native_payload": {
+        "id": "ADOPT-T0677-C0008-P-0003",
+        "kind": "assessment",
+        "expectedVersion": 1,
+        "data": {
+          "subject_id": "P-0003",
+          "criteria": "bounded_source_adoption/1",
+          "outcome": "adopted_with_limits",
+          "body": "C-0008, Flen C/8 år 1915 nr 10, s. 181 bild 185, täcks nu genom nio helt återbrukade enheter, elva hela luckenheter och tre partiella kontroller, totalt 23 utvinningsenheter över 21 tryckta kolumner. Tio hela celler är tomma och kolumn 20 har ett reserverat litet spår, inte ett läst kyrktagningsdatum. Arnes födelse, dopdatum och nedkomst i Flen återbrukas. Fadderordet lägenhetsäg[?], Jaensson[?]/Jansson och Skarpdal[?] behåller reservationerna; inga vittnesidentiteter, egendomsrelationer eller fysisk dopplats fastställs. Det tomma fadersfältet ändrar inte OWNER_CONFIRMED-faderskapet. C-0008:s utvinningsskuld preciseras, men C-0034/C-1047 och övriga kontraktsbrister kvarstår. Ingen PK-, identitets- eller trädgrind höjs."
+        },
+        "origins": [],
+        "evidence": [
+          {
+            "object": "AUDIT-T0677-C0008",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsad kontroll med explicit återbruk och reservationer."
+          },
+          {
+            "object": "TR-T0677-C0008-consolidated-control",
+            "version": 1,
+            "role": "supports",
+            "note": "Barnets egen post och dess fadder-/ytterfält."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0677 C-0008: avgränsad källadoption; inga person-, identitets- eller trädgrindar uppgraderas.",
+        "caveat": ""
+      },
+      "exact_old": "",
+      "exact_new": "T-0778: kroppens hänvisning till C-0034/C-1047 som kvarstående skuld beskriver det dåtida C-0008-passet. C-0034 har därefter accepterats i T-0677 och C-1047:s egna familjerader12,13,15 är nu fullständigt prövade med bevarad bild och uttryckliga kodreservationer. Övriga kontraktskrav och granskningsutfall prövas inte genom denna källadoption.",
+      "source_decision": "C-1047-current-source-decisions-v1.json",
+      "source_hash": "c338db7fa49638505fb9364907f668944e2f23114fac174ca6bbdea1f1c911cd",
+      "disposition": "revise",
+      "support_instructions": [
+        "Two revised R retain S-0026@1; no source revision.",
+        "Each revised READ binds only its own revised R@2 instead of@1. Revised O-reference binds familyR@2 plus new familyaudit@1; new TR/audit use ownR@2.",
+        "ADOPT-C0008 caveat revision preserves all previous evidence and appends new C1047familyaudit@1 plus accepted C0034 audit if exact ID returned; no invented ID.",
+        "All unspecified data/status/evidence/origins preserved. Any unexpected edge returns Astra."
+      ]
+    },
+    {
+      "object": "CONTRACT-P-0047-PK-05",
+      "version": 1,
+      "field": "body",
+      "old_full_native_payload": {
+        "id": "CONTRACT-P-0047-PK-05",
+        "kind": "assessment",
+        "expectedVersion": 1,
+        "data": {
+          "subject_id": "P-0047",
+          "criteria": "legacy_person_contract/PK-05",
+          "outcome": "EJ STYRKT",
+          "body": "| PK-05 | EJ STYRKT | Fullpostutvinningen är genomförd på fyra tidigare outvunna egna rader i T-0157 och gav konfirmationen 1912, den interna överföringen 1918, yrket, skilsmässonoten och en tidigare okänd son (A-5741–A-5748). Namngiven outvunnen kolumn kvarstår: hennes egna kunskaps- och förhörsfält på Skedevi `A II a/3` sida 569, som [C-1070](../citations/C-1070-skedevi-AIIa3-sida-569-brenas-1895-1900.md) själv anger som ej fullutvunna, samt hennes egen rad på Flen `A II a/6 b` sida 638. Ingen av dem är oläslig; båda kräver visning. [KP-01](#kp-01-skedevis-kyrkoböcker-18951900) |\n"
+        },
+        "origins": [
+          {
+            "unit": "61b4f9bde00c83be79c115ee7b4794bcd585885d7b8b05ae5dd73086ffdaf303",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil inklusive historik lästa. Egen identitet accepterad separat från PK-05/11. Lundkvist är egen namnform utan säker namnbytesdag. Makens äldre Östra Vingåker ersätts av Öster ås…[Österåsen?], Jämtlands län[?]. Dotterns bättre namnform Gunvor Solveig Charlotta hålls skild från äldre Gunnvor Borg Elisabet[?], med samma personbedömning men utan ny P. Sonens ort och dotterns överstrukna Jansson förblir reserverade. Skilsmässodagen är kyrkobokens datering, inte läst dom. Ingen död, biologisk syskonrelation till fosterbarn eller negativ släktdom om faddrar införs. Källbundna observationer utan separat utvunnen namnform har mention_id=null; aktens visningsnamn förs inte in som en påhittad avskrift."
+      },
+      "exact_old": "| PK-05 | EJ STYRKT | Fullpostutvinningen är genomförd på fyra tidigare outvunna egna rader i T-0157 och gav konfirmationen 1912, den interna överföringen 1918, yrket, skilsmässonoten och en tidigare okänd son (A-5741–A-5748). Namngiven outvunnen kolumn kvarstår: hennes egna kunskaps- och förhörsfält på Skedevi `A II a/3` sida 569, som [C-1070](../citations/C-1070-skedevi-AIIa3-sida-569-brenas-1895-1900.md) själv anger som ej fullutvunna, samt hennes egen rad på Flen `A II a/6 b` sida 638. Ingen av dem är oläslig; båda kräver visning. [KP-01](#kp-01-skedevis-kyrkoböcker-18951900) |\n",
+      "exact_new": "| PK-05 | EJ STYRKT | Tidigare egna Flensrader och nu C-1047:s hela egna rad18 med barnens19–20 är prövade, inklusive blank inkommande uppgift, egna koder, yrke/civilstånd, skilsmässonot och utgående hänvisning. Namngiven utvinningsrest kvarstår i hennes egna kunskaps- och förhörsfält på Skedevi A II a/3 sida569 (C-1070). C-1047 är inte längre en outvunnen rad; läsreservationer bevaras. Ingen kontrakts- eller trädgrind uppgraderas. |\n",
+      "source_decision": "C-1047-Astrid-current-decisions-v1.json",
+      "source_hash": "ecec0a579e589b6370e00b779fddb3baa78c42209a562589398727d1effdee5d",
+      "disposition": "revise",
+      "support_instructions": [
+        "R-T0778-C1047-Astrid-family@1",
+        "AUDIT-T0778-C1047-Astrid@1"
+      ]
+    },
+    {
+      "object": "CONTRACT-P-0047-PK-08",
+      "version": 1,
+      "field": "body",
+      "old_full_native_payload": {
+        "id": "CONTRACT-P-0047-PK-08",
+        "kind": "assessment",
+        "expectedVersion": 1,
+        "data": {
+          "subject_id": "P-0047",
+          "criteria": "legacy_person_contract/PK-08",
+          "outcome": "EJ STYRKT",
+          "body": "| PK-08 | EJ STYRKT | Fyra öppna materiella passager utan känt hinder: vigselboken `E I/3` 1918, Flens sida 638, uppslag 949 och Sundbybergs mottagande 1919, samt skilsmässoakten 1925 när hemvisten är fastställd. Ingen av dem har prövats, och den enda tidigare angivna spärren — att vigselboken inte skulle vara digitaliserad — är uttryckligen upphävd. [KP-03](#kp-03-egen-vigselpost-1918-och-skilsmässan-1925), [KP-04](#kp-04-flyttkedjan-19191932-och-livets-slut) |\n"
+        },
+        "origins": [
+          {
+            "unit": "5b302efa39b55929ef8eeaf0edf292b76e0ed411bff4954d2387a83da359c5ef",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil inklusive historik lästa. Egen identitet accepterad separat från PK-05/11. Lundkvist är egen namnform utan säker namnbytesdag. Makens äldre Östra Vingåker ersätts av Öster ås…[Österåsen?], Jämtlands län[?]. Dotterns bättre namnform Gunvor Solveig Charlotta hålls skild från äldre Gunnvor Borg Elisabet[?], med samma personbedömning men utan ny P. Sonens ort och dotterns överstrukna Jansson förblir reserverade. Skilsmässodagen är kyrkobokens datering, inte läst dom. Ingen död, biologisk syskonrelation till fosterbarn eller negativ släktdom om faddrar införs. Källbundna observationer utan separat utvunnen namnform har mention_id=null; aktens visningsnamn förs inte in som en påhittad avskrift."
+      },
+      "exact_old": "| PK-08 | EJ STYRKT | Fyra öppna materiella passager utan känt hinder: vigselboken `E I/3` 1918, Flens sida 638, uppslag 949 och Sundbybergs mottagande 1919, samt skilsmässoakten 1925 när hemvisten är fastställd. Ingen av dem har prövats, och den enda tidigare angivna spärren — att vigselboken inte skulle vara digitaliserad — är uttryckligen upphävd. [KP-03](#kp-03-egen-vigselpost-1918-och-skilsmässan-1925), [KP-04](#kp-04-flyttkedjan-19191932-och-livets-slut) |\n",
+      "exact_new": "| PK-08 | EJ STYRKT | C-1047:s sida638 är nu prövad; egna inkommande celler är tomma och lämnar ingen ny exakt1926ankomst. Egen vigselpost i Flen E I/3 år1918, uppslag949 och Sundbybergs mottagande1919 samt skilsmässoakten1925 efter säkrad hemvist återstår. Äldre uppgift att vigselboken saknar digitalisering är upphävd. Ingen avslutad hel källväg eller livsbild följer av den enda prövade638posten. |\n",
+      "source_decision": "C-1047-Astrid-current-decisions-v1.json",
+      "source_hash": "ecec0a579e589b6370e00b779fddb3baa78c42209a562589398727d1effdee5d",
+      "disposition": "revise",
+      "support_instructions": [
+        "R-T0778-C1047-Astrid-family@1",
+        "AUDIT-T0778-C1047-Astrid@1"
+      ]
+    },
+    {
+      "object": "CONTRACT-P-0047-PK-10",
+      "version": 1,
+      "field": "body",
+      "old_full_native_payload": {
+        "id": "CONTRACT-P-0047-PK-10",
+        "kind": "assessment",
+        "expectedVersion": 1,
+        "data": {
+          "subject_id": "P-0047",
+          "criteria": "legacy_person_contract/PK-10",
+          "outcome": "STYRKT",
+          "body": "| PK-10 | STYRKT | Den biografiska sammanfattningen täcker 1897–1932, återger aktuell bedömning, skiljer källuppgift, reserverad läsning och kontext, och namnger den elvaåriga luckan och det okända livsslutet i stället för att runda dem. [Biografisk sammanfattning](../people/P-0047-astrid-charlotta-jansson.md#biografisk-sammanfattning) |\n"
+        },
+        "origins": [
+          {
+            "unit": "87a71a639e1110934ffb66f8e822b91066238e248dd812454d2a2199c000fb57",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil inklusive historik lästa. Egen identitet accepterad separat från PK-05/11. Lundkvist är egen namnform utan säker namnbytesdag. Makens äldre Östra Vingåker ersätts av Öster ås…[Österåsen?], Jämtlands län[?]. Dotterns bättre namnform Gunvor Solveig Charlotta hålls skild från äldre Gunnvor Borg Elisabet[?], med samma personbedömning men utan ny P. Sonens ort och dotterns överstrukna Jansson förblir reserverade. Skilsmässodagen är kyrkobokens datering, inte läst dom. Ingen död, biologisk syskonrelation till fosterbarn eller negativ släktdom om faddrar införs. Källbundna observationer utan separat utvunnen namnform har mention_id=null; aktens visningsnamn förs inte in som en påhittad avskrift."
+      },
+      "exact_old": "| PK-10 | STYRKT | Den biografiska sammanfattningen täcker 1897–1932, återger aktuell bedömning, skiljer källuppgift, reserverad läsning och kontext, och namnger den elvaåriga luckan och det okända livsslutet i stället för att runda dem. [Biografisk sammanfattning](../people/P-0047-astrid-charlotta-jansson.md#biografisk-sammanfattning) |\n",
+      "exact_new": "| PK-10 | STYRKT | Biografin täcker daterade hållpunkter1897–1932 och skiljer källuppgift, reserverad läsning och kontext. SCB1930:s senaste kommuninflyttning från Sundbyberg1926 bryter den äldre generella elvaåriga luckbeskrivningen: mellanleden1919–1926 och1926–1930 är ofullständigt utredda. C-1047:s egna inkommande celler är tomma och preciserar inte ankomstdagen. Livsslutet är fortsatt okänt i detta underlag. |\n",
+      "source_decision": "C-1047-Astrid-current-decisions-v1.json",
+      "source_hash": "ecec0a579e589b6370e00b779fddb3baa78c42209a562589398727d1effdee5d",
+      "disposition": "revise",
+      "support_instructions": [
+        "R-T0778-C1047-Astrid-family@1",
+        "AUDIT-T0778-C1047-Astrid@1"
+      ]
+    },
+    {
+      "object": "KEY-P-0047-043ef6fb3767",
+      "version": 2,
+      "field": "body",
+      "old_full_native_payload": {
+        "id": "KEY-P-0047-043ef6fb3767",
+        "kind": "assessment",
+        "expectedVersion": 2,
+        "data": {
+          "subject_id": "P-0047",
+          "criteria": "legacy_search_key",
+          "outcome": "recorded",
+          "body": "| Flen `A II a/4 c` uppslag 914; `A II a/6 b` sida 638 och 563 | Egen familjerad 1918–1919 respektive bokföringen 1930–1932; SCB1930 ger senaste kommuninflyttning från Sundbyberg1926. | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md), [C-1047](../citations/C-1047-flen-AIIa6b-uppslag-638-eriksro-funnet.md) | Säkra uppslagsnycklar. Hennes egen rad på sida 638 är inte transkriberad, och uppslag 949 är inte öppnat. |\n"
+        },
+        "origins": [
+          {
+            "unit": "043ef6fb376750d4e04bd459996a99d203253227175c1036a9febb229693f6e0",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0777-C0896-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0777 AC3: avgjord egen källräckvidd för C-0896; inga kontinuitets- eller identitetsinferenser."
+          },
+          {
+            "object": "AUDIT-T0777-C0896-parish",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna parishfält; occupation-order reservation bevarad."
+          },
+          {
+            "object": "R-T0777-C0896-Astrid-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna SCB1930fält och lastarrival1926ankare."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil inklusive historik lästa. Egen identitet accepterad separat från PK-05/11. Lundkvist är egen namnform utan säker namnbytesdag. Makens äldre Östra Vingåker ersätts av Öster ås…[Österåsen?], Jämtlands län[?]. Dotterns bättre namnform Gunvor Solveig Charlotta hålls skild från äldre Gunnvor Borg Elisabet[?], med samma personbedömning men utan ny P. Sonens ort och dotterns överstrukna Jansson förblir reserverade. Skilsmässodagen är kyrkobokens datering, inte läst dom. Ingen död, biologisk syskonrelation till fosterbarn eller negativ släktdom om faddrar införs. Källbundna observationer utan separat utvunnen namnform har mention_id=null; aktens visningsnamn förs inte in som en påhittad avskrift."
+      },
+      "exact_old": "| Flen `A II a/4 c` uppslag 914; `A II a/6 b` sida 638 och 563 | Egen familjerad 1918–1919 respektive bokföringen 1930–1932; SCB1930 ger senaste kommuninflyttning från Sundbyberg1926. | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md), [C-1047](../citations/C-1047-flen-AIIa6b-uppslag-638-eriksro-funnet.md) | Säkra uppslagsnycklar. Hennes egen rad på sida 638 är inte transkriberad, och uppslag 949 är inte öppnat. |\n",
+      "exact_new": "| Flen `A II a/4 c` uppslag 914; `A II a/6 b` sida 638 och 563 | Egen familjerad 1918–1919 respektive bokföringen 1930–1932; SCB1930 ger senaste kommuninflyttning från Sundbyberg1926. | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md), [C-1047](../citations/C-1047-flen-AIIa6b-uppslag-638-eriksro-funnet.md) | Säkra uppslagsnycklar. Hennes egen rad18 och barnens19–20 på sida638 är nu fullständigt prövade. Egna inkommande9–10 är tomma och ger ingen exakt1926ankomst; uppslag949 är fortfarande inte öppnat. |\n",
+      "source_decision": "C-1047-Astrid-current-decisions-v1.json",
+      "source_hash": "ecec0a579e589b6370e00b779fddb3baa78c42209a562589398727d1effdee5d",
+      "disposition": "revise",
+      "support_instructions": [
+        "R-T0778-C1047-Astrid-family@1",
+        "AUDIT-T0778-C1047-Astrid@1"
+      ]
+    },
+    {
+      "object": "P-0047/Q-02",
+      "version": 2,
+      "field": "body",
+      "old_full_native_payload": {
+        "id": "P-0047/Q-02",
+        "kind": "question",
+        "expectedVersion": 2,
+        "data": {
+          "subject_id": "P-0047",
+          "title": "Q-02: Vilka mellanled saknas 1919–1926–1930, och när dog hon?",
+          "outcome": "ÖPPEN",
+          "body": "### Q-02: Vilka mellanled saknas 1919–1926–1930, och när dog hon?\n\n- Fråga och betydelse: BO, ARB, EKO, HAL och SYN. Mellanleden är ofullständigt kartlagda efter utflyttningen till Sundbyberg1919-08-28: SCB1930 anger senaste inflyttning till bostadskommunen från Sundbyberg1926, medan sida563 ger intern överföring från sida638 år1930, och efter flytten till `fol. 949` 1932 är ingenting läst. Sonen Karl Yngve föddes 1921 någonstans i den luckan. Utan den är halva hennes vuxna liv okänt och hennes död odaterad.\n- Känt underlag: utflyttningen 1919-08-28 till Sundbyberg, Stockholms län; intern överföring till sida563 från sida638 år1930; eget SCB-ankare1926 enligt ovan; utflyttningen till `fol. 949` år 1932; sonens födelseuppgift `21 ¹¹/₂` med reserverad ort. [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md), [C-1047](../citations/C-1047-flen-AIIa6b-uppslag-638-eriksro-funnet.md).\n- Alternativ och motprövning: SCB-utdraget ger1926 som senaste kommuninflyttningsår; den exakta dagen och mellanliggande vistelse måste prövas i egna flytt- och församlingsboksposter. Sonens födelseort är överskriven i församlingsboken; SCB1930 rättar Bromma till Östermalm. Båda källformerna bevaras, ingen exakt födelseort avgörs utan starkare original. Ett noll i Flens inflyttningslängd skulle inte utesluta att hon förts in genom en intern hänvisning.\n- Källvägar: KP-04.\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: den billigaste ingången är hennes egen rad på sida 638 i samma redan öppnade volym, som bär hennes hitkomstuppgift. Först därefter behövs Sundbybergs böcker. Uppslag 949 fortsätter kedjan framåt mot ett dödsdatum, som i sin tur öppnar bouppteckning och dödbok.\n- Påverkade personer/påståenden: A-5747, A-5748, A-5751; barnen Gunvor Solveig Charlotta och Karl Yngve, som båda saknar egna akter.\n\n"
+        },
+        "origins": [
+          {
+            "unit": "53a3aa20f6932c2103896564fd3e89afaebcb76b33e2ddb0147563df6ac272ba",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0777-C0896-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0777 AC3: avgjord egen källräckvidd för C-0896; inga kontinuitets- eller identitetsinferenser."
+          },
+          {
+            "object": "AUDIT-T0777-C0896-parish",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna parishfält; occupation-order reservation bevarad."
+          },
+          {
+            "object": "R-T0777-C0896-Astrid-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna SCB1930fält och lastarrival1926ankare."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil inklusive historik lästa. Egen identitet accepterad separat från PK-05/11. Lundkvist är egen namnform utan säker namnbytesdag. Makens äldre Östra Vingåker ersätts av Öster ås…[Österåsen?], Jämtlands län[?]. Dotterns bättre namnform Gunvor Solveig Charlotta hålls skild från äldre Gunnvor Borg Elisabet[?], med samma personbedömning men utan ny P. Sonens ort och dotterns överstrukna Jansson förblir reserverade. Skilsmässodagen är kyrkobokens datering, inte läst dom. Ingen död, biologisk syskonrelation till fosterbarn eller negativ släktdom om faddrar införs. Källbundna observationer utan separat utvunnen namnform har mention_id=null; aktens visningsnamn förs inte in som en påhittad avskrift."
+      },
+      "exact_old": "### Q-02: Vilka mellanled saknas 1919–1926–1930, och när dog hon?\n\n- Fråga och betydelse: BO, ARB, EKO, HAL och SYN. Mellanleden är ofullständigt kartlagda efter utflyttningen till Sundbyberg1919-08-28: SCB1930 anger senaste inflyttning till bostadskommunen från Sundbyberg1926, medan sida563 ger intern överföring från sida638 år1930, och efter flytten till `fol. 949` 1932 är ingenting läst. Sonen Karl Yngve föddes 1921 någonstans i den luckan. Utan den är halva hennes vuxna liv okänt och hennes död odaterad.\n- Känt underlag: utflyttningen 1919-08-28 till Sundbyberg, Stockholms län; intern överföring till sida563 från sida638 år1930; eget SCB-ankare1926 enligt ovan; utflyttningen till `fol. 949` år 1932; sonens födelseuppgift `21 ¹¹/₂` med reserverad ort. [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md), [C-1047](../citations/C-1047-flen-AIIa6b-uppslag-638-eriksro-funnet.md).\n- Alternativ och motprövning: SCB-utdraget ger1926 som senaste kommuninflyttningsår; den exakta dagen och mellanliggande vistelse måste prövas i egna flytt- och församlingsboksposter. Sonens födelseort är överskriven i församlingsboken; SCB1930 rättar Bromma till Östermalm. Båda källformerna bevaras, ingen exakt födelseort avgörs utan starkare original. Ett noll i Flens inflyttningslängd skulle inte utesluta att hon förts in genom en intern hänvisning.\n- Källvägar: KP-04.\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: den billigaste ingången är hennes egen rad på sida 638 i samma redan öppnade volym, som bär hennes hitkomstuppgift. Först därefter behövs Sundbybergs böcker. Uppslag 949 fortsätter kedjan framåt mot ett dödsdatum, som i sin tur öppnar bouppteckning och dödbok.\n- Påverkade personer/påståenden: A-5747, A-5748, A-5751; barnen Gunvor Solveig Charlotta och Karl Yngve, som båda saknar egna akter.\n\n",
+      "exact_new": "### Q-02: Vilka mellanled saknas 1919–1926–1930, och när dog hon?\n\n- Fråga och betydelse: BO, ARB, EKO, HAL och SYN. Mellanleden är ofullständigt kartlagda efter utflyttningen till Sundbyberg1919-08-28: SCB1930 anger senaste inflyttning till bostadskommunen från Sundbyberg1926, medan sida563 ger intern överföring från sida638 år1930, och efter flytten till `fol. 949` 1932 är ingenting läst. Sonen Karl Yngve föddes 1921 någonstans i den luckan. Utan den är halva hennes vuxna liv okänt och hennes död odaterad.\n- Känt underlag: utflyttningen 1919-08-28 till Sundbyberg, Stockholms län; intern överföring till sida563 från sida638 år1930; eget SCB-ankare1926 enligt ovan; utflyttningen till `fol. 949` år 1932; sonens födelseuppgift `21 ¹¹/₂` med reserverad ort. [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md), [C-1047](../citations/C-1047-flen-AIIa6b-uppslag-638-eriksro-funnet.md).\n- Alternativ och motprövning: SCB-utdraget ger1926 som senaste kommuninflyttningsår; den exakta dagen och mellanliggande vistelse måste prövas i egna flytt- och församlingsboksposter. Sonens födelseort är överskriven i församlingsboken; SCB1930 rättar Bromma till Östermalm. Båda källformerna bevaras, ingen exakt födelseort avgörs utan starkare original. Ett noll i Flens inflyttningslängd skulle inte utesluta att hon förts in genom en intern hänvisning.\n- Källvägar: KP-04.\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: hennes egen rad18 på sida638 är nu prövad, men inkommande9–10 är tomma och bär ingen hitkomstuppgift. SCB1930:s Sundbyberg1926 kvarstår som eget bokföringsankare; mottagar- och mellanled behöver därför sökas via de redan avgränsade Flens-/Sundbybergsvägarna. Uppslag 949 fortsätter kedjan framåt mot ett dödsdatum, som i sin tur öppnar bouppteckning och dödbok.\n- Påverkade personer/påståenden: A-5747, A-5748, A-5751; barnen Gunvor Solveig Charlotta och Karl Yngve, som båda saknar egna akter.\n\n",
+      "source_decision": "C-1047-Astrid-current-decisions-v1.json",
+      "source_hash": "ecec0a579e589b6370e00b779fddb3baa78c42209a562589398727d1effdee5d",
+      "disposition": "revise",
+      "support_instructions": [
+        "R-T0778-C1047-Astrid-family@1",
+        "AUDIT-T0778-C1047-Astrid@1"
+      ]
+    },
+    {
+      "object": "PATH-P-0047-KP-02",
+      "version": 2,
+      "field": "body",
+      "old_full_native_payload": {
+        "id": "PATH-P-0047-KP-02",
+        "kind": "assessment",
+        "expectedVersion": 2,
+        "data": {
+          "subject_id": "P-0047",
+          "criteria": "legacy_source_path",
+          "outcome": "POSITIVT. Hennes egna rader på uppslagen 420, 402, 914 och 563 är utvunna i T-0157 ur de sparade fullbilderna och gav konfirmationen 1912, den interna överföringen 1918, yrket `polererska`, skilsmässonoten 1925 och sonen Karl Yngve. Kvar inom vägen: hennes egen rad på sida 638 och uppslagen 335 och 949, som inte är öppnade. 1930 års folkräkningsutdrag, sida 43, ger på Astrids egen rad senaste inflyttning till bostadskommunen från Sundbyberg år 1926. Detta är ett daterat bokföringsankare, inte belägg för oavbrutet fysiskt boende 1926–1930.",
+          "body": "### KP-02: Flens församlingsböcker 1900–1940\n\n- Frågor/teman: ID, REL, BO, ARB, HAL, SAM.\n- Källklass: K-01, K-07.\n- Tid/plats och arkivbildare: Flens kyrkoarkiv `SE/ULA/10257`, `A II a/3 b` uppslagen 420 och 402, `A II a/4 c` uppslag 914, `A II a/6 b` sidorna 638 och 563, samt folkbokföringsutdragen 1900 och 1910.\n- Förväntad information: bostadsled, hushållssammansättning, konfirmation, vigsel, civilstånd, yrke och de interna hänvisningar som bär kedjan vidare.\n- Ingång och söknycklar: Astrid Charlotta / Astrid Charlotta Lundkvist, `97 ²¹/₃`; ortregistret i `A II a/4 b` bild 4; uppslagen 420, 402, 914, 638, 563.\n- Beroenden: inga. Samtliga relevanta uppslag utom 335, 638 och 949 är redan speglade lokalt med hash.\n- Föregående källvägar: KP-01\n- Leverantörer och åtkomst: Riksarkivet; de fria delarna är hämtade, uppslag 914 lästes i inloggad session 2026-09-06.\n- Undersökt omfång och utfall: POSITIVT. Hennes egna rader på uppslagen 420, 402, 914 och 563 är utvunna i T-0157 ur de sparade fullbilderna och gav konfirmationen 1912, den interna överföringen 1918, yrket `polererska`, skilsmässonoten 1925 och sonen Karl Yngve. Kvar inom vägen: hennes egen rad på sida 638 och uppslagen 335 och 949, som inte är öppnade.\n- Bedömning och återaktivering: den lästa delen är utvunnen. Återaktivering sker genom sida 638, som ligger i samma redan öppnade volym och är den billigaste ingången till de olästa mellanleden1919–1926–1930.\n- Wotan: EJ BESLUTAT UTFÖRANDE — uppslagen 335, 638 och 949 kräver ny arkivåtkomst och ligger utanför T-0157. Se KP-04.\n\n\nT-0777 avgränsning: 1930 års folkräkningsutdrag, sida 43, ger på Astrids egen rad senaste inflyttning till bostadskommunen från Sundbyberg år 1926. Detta är ett daterat bokföringsankare, inte belägg för oavbrutet fysiskt boende 1926–1930. Astrids egen rad på638 och fortsättningen på949 återstår i denna personbundna källväg; tidigare läsning av samma sida för andra personer är inte hennes fulla radläsning.\n"
+        },
+        "origins": [
+          {
+            "unit": "2acde09ca9cf4c9a61ca271d832cdafd08cb9581b0be40123c4fc986f74c3974",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0777-C0896-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0777 AC3: avgjord egen källräckvidd för C-0896; inga kontinuitets- eller identitetsinferenser."
+          },
+          {
+            "object": "AUDIT-T0777-C0896-parish",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna parishfält; occupation-order reservation bevarad."
+          },
+          {
+            "object": "R-T0777-C0896-Astrid-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna SCB1930fält och lastarrival1926ankare."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil inklusive historik lästa. Egen identitet accepterad separat från PK-05/11. Lundkvist är egen namnform utan säker namnbytesdag. Makens äldre Östra Vingåker ersätts av Öster ås…[Österåsen?], Jämtlands län[?]. Dotterns bättre namnform Gunvor Solveig Charlotta hålls skild från äldre Gunnvor Borg Elisabet[?], med samma personbedömning men utan ny P. Sonens ort och dotterns överstrukna Jansson förblir reserverade. Skilsmässodagen är kyrkobokens datering, inte läst dom. Ingen död, biologisk syskonrelation till fosterbarn eller negativ släktdom om faddrar införs. Källbundna observationer utan separat utvunnen namnform har mention_id=null; aktens visningsnamn förs inte in som en påhittad avskrift."
+      },
+      "exact_old": "### KP-02: Flens församlingsböcker 1900–1940\n\n- Frågor/teman: ID, REL, BO, ARB, HAL, SAM.\n- Källklass: K-01, K-07.\n- Tid/plats och arkivbildare: Flens kyrkoarkiv `SE/ULA/10257`, `A II a/3 b` uppslagen 420 och 402, `A II a/4 c` uppslag 914, `A II a/6 b` sidorna 638 och 563, samt folkbokföringsutdragen 1900 och 1910.\n- Förväntad information: bostadsled, hushållssammansättning, konfirmation, vigsel, civilstånd, yrke och de interna hänvisningar som bär kedjan vidare.\n- Ingång och söknycklar: Astrid Charlotta / Astrid Charlotta Lundkvist, `97 ²¹/₃`; ortregistret i `A II a/4 b` bild 4; uppslagen 420, 402, 914, 638, 563.\n- Beroenden: inga. Samtliga relevanta uppslag utom 335, 638 och 949 är redan speglade lokalt med hash.\n- Föregående källvägar: KP-01\n- Leverantörer och åtkomst: Riksarkivet; de fria delarna är hämtade, uppslag 914 lästes i inloggad session 2026-09-06.\n- Undersökt omfång och utfall: POSITIVT. Hennes egna rader på uppslagen 420, 402, 914 och 563 är utvunna i T-0157 ur de sparade fullbilderna och gav konfirmationen 1912, den interna överföringen 1918, yrket `polererska`, skilsmässonoten 1925 och sonen Karl Yngve. Kvar inom vägen: hennes egen rad på sida 638 och uppslagen 335 och 949, som inte är öppnade.\n- Bedömning och återaktivering: den lästa delen är utvunnen. Återaktivering sker genom sida 638, som ligger i samma redan öppnade volym och är den billigaste ingången till de olästa mellanleden1919–1926–1930.\n- Wotan: EJ BESLUTAT UTFÖRANDE — uppslagen 335, 638 och 949 kräver ny arkivåtkomst och ligger utanför T-0157. Se KP-04.\n\n\nT-0777 avgränsning: 1930 års folkräkningsutdrag, sida 43, ger på Astrids egen rad senaste inflyttning till bostadskommunen från Sundbyberg år 1926. Detta är ett daterat bokföringsankare, inte belägg för oavbrutet fysiskt boende 1926–1930. Astrids egen rad på638 och fortsättningen på949 återstår i denna personbundna källväg; tidigare läsning av samma sida för andra personer är inte hennes fulla radläsning.\n",
+      "exact_new": "Aktuell avgränsning efter C-1047, T-0778:\nT-0778: C-1047:s sida638 rader18–20 är nu helt prövade över54 tryckta kolumnenheter i bevarad fullbild. Astrids och barnens egna inkommande9–10 är tomma; den förväntade hitkomstuppgiften finns inte i dessa celler. Astrids egen utgående563/30 är utskriven, medan barnens egna16–17 är tomma. Barnens anslutning till familjens1930överföring är därför kedjetolkning, inte egna dittotecken. SCB1930:s tidigare accepterade Sundbyberg1926 kvarstår utan ny exakt ankomstdag eller obrutet fysiskt boende. Fortsättningen på949 och andra mottagar-/mellanled återstår.\n\nÄldre källvägstext och T-0777-avgränsning bevaras nedan som historiskt forskningsläge; formuleringar om oprövad638 och förväntad hitkomst ersätts ovan. Övriga namngivna vägar och reservationer kvarstår:\n### KP-02: Flens församlingsböcker 1900–1940\n\n- Frågor/teman: ID, REL, BO, ARB, HAL, SAM.\n- Källklass: K-01, K-07.\n- Tid/plats och arkivbildare: Flens kyrkoarkiv `SE/ULA/10257`, `A II a/3 b` uppslagen 420 och 402, `A II a/4 c` uppslag 914, `A II a/6 b` sidorna 638 och 563, samt folkbokföringsutdragen 1900 och 1910.\n- Förväntad information: bostadsled, hushållssammansättning, konfirmation, vigsel, civilstånd, yrke och de interna hänvisningar som bär kedjan vidare.\n- Ingång och söknycklar: Astrid Charlotta / Astrid Charlotta Lundkvist, `97 ²¹/₃`; ortregistret i `A II a/4 b` bild 4; uppslagen 420, 402, 914, 638, 563.\n- Beroenden: inga. Samtliga relevanta uppslag utom 335, 638 och 949 är redan speglade lokalt med hash.\n- Föregående källvägar: KP-01\n- Leverantörer och åtkomst: Riksarkivet; de fria delarna är hämtade, uppslag 914 lästes i inloggad session 2026-09-06.\n- Undersökt omfång och utfall: POSITIVT. Hennes egna rader på uppslagen 420, 402, 914 och 563 är utvunna i T-0157 ur de sparade fullbilderna och gav konfirmationen 1912, den interna överföringen 1918, yrket `polererska`, skilsmässonoten 1925 och sonen Karl Yngve. Kvar inom vägen: hennes egen rad på sida 638 och uppslagen 335 och 949, som inte är öppnade.\n- Bedömning och återaktivering: den lästa delen är utvunnen. Återaktivering sker genom sida 638, som ligger i samma redan öppnade volym och är den billigaste ingången till de olästa mellanleden1919–1926–1930.\n- Wotan: EJ BESLUTAT UTFÖRANDE — uppslagen 335, 638 och 949 kräver ny arkivåtkomst och ligger utanför T-0157. Se KP-04.\n\n\nT-0777 avgränsning: 1930 års folkräkningsutdrag, sida 43, ger på Astrids egen rad senaste inflyttning till bostadskommunen från Sundbyberg år 1926. Detta är ett daterat bokföringsankare, inte belägg för oavbrutet fysiskt boende 1926–1930. Astrids egen rad på638 och fortsättningen på949 återstår i denna personbundna källväg; tidigare läsning av samma sida för andra personer är inte hennes fulla radläsning.\n",
+      "source_decision": "C-1047-Astrid-current-decisions-v1.json",
+      "source_hash": "ecec0a579e589b6370e00b779fddb3baa78c42209a562589398727d1effdee5d",
+      "disposition": "revise",
+      "support_instructions": [
+        "R-T0778-C1047-Astrid-family@1",
+        "AUDIT-T0778-C1047-Astrid@1"
+      ]
+    },
+    {
+      "object": "PATH-P-0047-KP-02",
+      "version": 2,
+      "field": "outcome",
+      "old_full_native_payload": {
+        "id": "PATH-P-0047-KP-02",
+        "kind": "assessment",
+        "expectedVersion": 2,
+        "data": {
+          "subject_id": "P-0047",
+          "criteria": "legacy_source_path",
+          "outcome": "POSITIVT. Hennes egna rader på uppslagen 420, 402, 914 och 563 är utvunna i T-0157 ur de sparade fullbilderna och gav konfirmationen 1912, den interna överföringen 1918, yrket `polererska`, skilsmässonoten 1925 och sonen Karl Yngve. Kvar inom vägen: hennes egen rad på sida 638 och uppslagen 335 och 949, som inte är öppnade. 1930 års folkräkningsutdrag, sida 43, ger på Astrids egen rad senaste inflyttning till bostadskommunen från Sundbyberg år 1926. Detta är ett daterat bokföringsankare, inte belägg för oavbrutet fysiskt boende 1926–1930.",
+          "body": "### KP-02: Flens församlingsböcker 1900–1940\n\n- Frågor/teman: ID, REL, BO, ARB, HAL, SAM.\n- Källklass: K-01, K-07.\n- Tid/plats och arkivbildare: Flens kyrkoarkiv `SE/ULA/10257`, `A II a/3 b` uppslagen 420 och 402, `A II a/4 c` uppslag 914, `A II a/6 b` sidorna 638 och 563, samt folkbokföringsutdragen 1900 och 1910.\n- Förväntad information: bostadsled, hushållssammansättning, konfirmation, vigsel, civilstånd, yrke och de interna hänvisningar som bär kedjan vidare.\n- Ingång och söknycklar: Astrid Charlotta / Astrid Charlotta Lundkvist, `97 ²¹/₃`; ortregistret i `A II a/4 b` bild 4; uppslagen 420, 402, 914, 638, 563.\n- Beroenden: inga. Samtliga relevanta uppslag utom 335, 638 och 949 är redan speglade lokalt med hash.\n- Föregående källvägar: KP-01\n- Leverantörer och åtkomst: Riksarkivet; de fria delarna är hämtade, uppslag 914 lästes i inloggad session 2026-09-06.\n- Undersökt omfång och utfall: POSITIVT. Hennes egna rader på uppslagen 420, 402, 914 och 563 är utvunna i T-0157 ur de sparade fullbilderna och gav konfirmationen 1912, den interna överföringen 1918, yrket `polererska`, skilsmässonoten 1925 och sonen Karl Yngve. Kvar inom vägen: hennes egen rad på sida 638 och uppslagen 335 och 949, som inte är öppnade.\n- Bedömning och återaktivering: den lästa delen är utvunnen. Återaktivering sker genom sida 638, som ligger i samma redan öppnade volym och är den billigaste ingången till de olästa mellanleden1919–1926–1930.\n- Wotan: EJ BESLUTAT UTFÖRANDE — uppslagen 335, 638 och 949 kräver ny arkivåtkomst och ligger utanför T-0157. Se KP-04.\n\n\nT-0777 avgränsning: 1930 års folkräkningsutdrag, sida 43, ger på Astrids egen rad senaste inflyttning till bostadskommunen från Sundbyberg år 1926. Detta är ett daterat bokföringsankare, inte belägg för oavbrutet fysiskt boende 1926–1930. Astrids egen rad på638 och fortsättningen på949 återstår i denna personbundna källväg; tidigare läsning av samma sida för andra personer är inte hennes fulla radläsning.\n"
+        },
+        "origins": [
+          {
+            "unit": "2acde09ca9cf4c9a61ca271d832cdafd08cb9581b0be40123c4fc986f74c3974",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0777-C0896-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0777 AC3: avgjord egen källräckvidd för C-0896; inga kontinuitets- eller identitetsinferenser."
+          },
+          {
+            "object": "AUDIT-T0777-C0896-parish",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna parishfält; occupation-order reservation bevarad."
+          },
+          {
+            "object": "R-T0777-C0896-Astrid-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna SCB1930fält och lastarrival1926ankare."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil inklusive historik lästa. Egen identitet accepterad separat från PK-05/11. Lundkvist är egen namnform utan säker namnbytesdag. Makens äldre Östra Vingåker ersätts av Öster ås…[Österåsen?], Jämtlands län[?]. Dotterns bättre namnform Gunvor Solveig Charlotta hålls skild från äldre Gunnvor Borg Elisabet[?], med samma personbedömning men utan ny P. Sonens ort och dotterns överstrukna Jansson förblir reserverade. Skilsmässodagen är kyrkobokens datering, inte läst dom. Ingen död, biologisk syskonrelation till fosterbarn eller negativ släktdom om faddrar införs. Källbundna observationer utan separat utvunnen namnform har mention_id=null; aktens visningsnamn förs inte in som en påhittad avskrift."
+      },
+      "exact_old": "POSITIVT. Hennes egna rader på uppslagen 420, 402, 914 och 563 är utvunna i T-0157 ur de sparade fullbilderna och gav konfirmationen 1912, den interna överföringen 1918, yrket `polererska`, skilsmässonoten 1925 och sonen Karl Yngve. Kvar inom vägen: hennes egen rad på sida 638 och uppslagen 335 och 949, som inte är öppnade. 1930 års folkräkningsutdrag, sida 43, ger på Astrids egen rad senaste inflyttning till bostadskommunen från Sundbyberg år 1926. Detta är ett daterat bokföringsankare, inte belägg för oavbrutet fysiskt boende 1926–1930.",
+      "exact_new": "DELVIS POSITIVT. Egen C-1047 sida638 rad18 och barnrader19–20 prövade; inkommande9–10 är tomma. Astrid utgående563/30; barnens egna utgående16–17 tomma. SCB1930 Sundbyberg1926 återbrukas utan ny dag eller fysisk kontinuitet. Uppslag335/949 och berörda mottagar-/mellanled återstår.",
+      "source_decision": "C-1047-Astrid-current-decisions-v1.json",
+      "source_hash": "ecec0a579e589b6370e00b779fddb3baa78c42209a562589398727d1effdee5d",
+      "disposition": "revise",
+      "support_instructions": [
+        "R-T0778-C1047-Astrid-family@1",
+        "AUDIT-T0778-C1047-Astrid@1"
+      ]
+    },
+    {
+      "object": "PATH-P-0047-KP-04",
+      "version": 2,
+      "field": "body",
+      "old_full_native_payload": {
+        "id": "PATH-P-0047-KP-04",
+        "kind": "assessment",
+        "expectedVersion": 2,
+        "data": {
+          "subject_id": "P-0047",
+          "criteria": "legacy_source_path",
+          "outcome": "DELVIS. SCB1930:s egen Astridrad anger senaste kommuninflyttning från Sundbyberg1926. Egna mottagar-, mellanleds- och fortsättningsposter1919–1926–1930 samt efter1932 är inte fullständigt lästa; ingen obruten fysisk vistelse sluts.",
+          "body": "### KP-04: Flyttkedjan 1919–1932 och livets slut\n\n- Frågor/teman: Q-02, BO, ARB, EKO, HAL, SYN.\n- Källklass: K-01, K-05, K-04.\n- Tid/plats och arkivbildare: Flens kyrkoarkiv, `A II a/6 b` sidorna 638 och 949 samt `A II a/3 b` uppslag 335; Flens utflyttningslängd `B/6 b` 1916–1940 för posten 1919-08-28; Sundbybergs församlings inflyttnings- och församlingsböcker från 1919; därefter dödbok och bouppteckningsregister när ett dödsdatum finns.\n- Förväntad information: hennes egen hitkomstuppgift på sida638 för kontroll och precisering av SCB1930:s senaste kommuninflyttningsår1926 från Sundbyberg; mottagaradressen i Sundbyberg 1919; fortsättningen efter 1932; och slutligen dödsdatum, dödsort och eventuell bouppteckning.\n- Ingång och söknycklar: Astrid Charlotta Lundkvist, `97 ²¹/₃`; utflyttningsdagen 1919-08-28; `fol. 949`, `1932`; barnen 1919-06-03 och 1921-02-11.\n- Beroenden: sida 638 har inga beroenden och ligger i en redan öppnad volym. Sundbybergsdelen beror på att destinationen `Sundbyberg(?)` bekräftas; T-0129:s omläsning ger `Sundbyberg, Stockholms län` men läsningen är inte oberoende verifierad. Dödboksdelen beror på att kedjan efter 1932 följs till en församling.\n- Föregående källvägar: KP-02\n- Leverantörer och åtkomst: Riksarkivet. `B/6 b` är läst i [S-0722](../sources/S-0722-flen-B6b-utflyttningslangd-1916-1940.md) men inte för hennes post; Sundbybergs serier är EJ KONTROLLERADE.\n- Undersökt omfång och utfall: DELVIS. 1930 års folkräkningsutdrag, sida 43, ger på Astrids egen rad senaste inflyttning till bostadskommunen från Sundbyberg år 1926. Detta är ett daterat bokföringsankare, inte belägg för oavbrutet fysiskt boende 1926–1930. Här angivna mottagar- och fortsättningsposter är ännu inte lästa för hennes egen rad.\n- Bedömning och återaktivering: börja med sida 638, som är billigast och kan precisera och kontrollera det nu belagda bokföringsåret1926. Ett noll i en enskild Sundbybergsvolym gäller exakt den volymen och det datumintervallet, aldrig hennes frånvaro i staden.\n- Wotan: EJ BESLUTAT UTFÖRANDE — ny arkivåtkomst ligger utanför T-0157:s omfång. Rapporterad till [T-0157](../../wotan/dev-log/T-0157.md):s ägare för en avgränsad efterföljare.\n\n"
+        },
+        "origins": [
+          {
+            "unit": "b518d6529e9a871e75d0172be2fe6d39fc45512af008a17a8815b9336b5380e3",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0777-C0896-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0777 AC3: avgjord egen källräckvidd för C-0896; inga kontinuitets- eller identitetsinferenser."
+          },
+          {
+            "object": "AUDIT-T0777-C0896-parish",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna parishfält; occupation-order reservation bevarad."
+          },
+          {
+            "object": "R-T0777-C0896-Astrid-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna SCB1930fält och lastarrival1926ankare."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil inklusive historik lästa. Egen identitet accepterad separat från PK-05/11. Lundkvist är egen namnform utan säker namnbytesdag. Makens äldre Östra Vingåker ersätts av Öster ås…[Österåsen?], Jämtlands län[?]. Dotterns bättre namnform Gunvor Solveig Charlotta hålls skild från äldre Gunnvor Borg Elisabet[?], med samma personbedömning men utan ny P. Sonens ort och dotterns överstrukna Jansson förblir reserverade. Skilsmässodagen är kyrkobokens datering, inte läst dom. Ingen död, biologisk syskonrelation till fosterbarn eller negativ släktdom om faddrar införs. Källbundna observationer utan separat utvunnen namnform har mention_id=null; aktens visningsnamn förs inte in som en påhittad avskrift."
+      },
+      "exact_old": "### KP-04: Flyttkedjan 1919–1932 och livets slut\n\n- Frågor/teman: Q-02, BO, ARB, EKO, HAL, SYN.\n- Källklass: K-01, K-05, K-04.\n- Tid/plats och arkivbildare: Flens kyrkoarkiv, `A II a/6 b` sidorna 638 och 949 samt `A II a/3 b` uppslag 335; Flens utflyttningslängd `B/6 b` 1916–1940 för posten 1919-08-28; Sundbybergs församlings inflyttnings- och församlingsböcker från 1919; därefter dödbok och bouppteckningsregister när ett dödsdatum finns.\n- Förväntad information: hennes egen hitkomstuppgift på sida638 för kontroll och precisering av SCB1930:s senaste kommuninflyttningsår1926 från Sundbyberg; mottagaradressen i Sundbyberg 1919; fortsättningen efter 1932; och slutligen dödsdatum, dödsort och eventuell bouppteckning.\n- Ingång och söknycklar: Astrid Charlotta Lundkvist, `97 ²¹/₃`; utflyttningsdagen 1919-08-28; `fol. 949`, `1932`; barnen 1919-06-03 och 1921-02-11.\n- Beroenden: sida 638 har inga beroenden och ligger i en redan öppnad volym. Sundbybergsdelen beror på att destinationen `Sundbyberg(?)` bekräftas; T-0129:s omläsning ger `Sundbyberg, Stockholms län` men läsningen är inte oberoende verifierad. Dödboksdelen beror på att kedjan efter 1932 följs till en församling.\n- Föregående källvägar: KP-02\n- Leverantörer och åtkomst: Riksarkivet. `B/6 b` är läst i [S-0722](../sources/S-0722-flen-B6b-utflyttningslangd-1916-1940.md) men inte för hennes post; Sundbybergs serier är EJ KONTROLLERADE.\n- Undersökt omfång och utfall: DELVIS. 1930 års folkräkningsutdrag, sida 43, ger på Astrids egen rad senaste inflyttning till bostadskommunen från Sundbyberg år 1926. Detta är ett daterat bokföringsankare, inte belägg för oavbrutet fysiskt boende 1926–1930. Här angivna mottagar- och fortsättningsposter är ännu inte lästa för hennes egen rad.\n- Bedömning och återaktivering: börja med sida 638, som är billigast och kan precisera och kontrollera det nu belagda bokföringsåret1926. Ett noll i en enskild Sundbybergsvolym gäller exakt den volymen och det datumintervallet, aldrig hennes frånvaro i staden.\n- Wotan: EJ BESLUTAT UTFÖRANDE — ny arkivåtkomst ligger utanför T-0157:s omfång. Rapporterad till [T-0157](../../wotan/dev-log/T-0157.md):s ägare för en avgränsad efterföljare.\n\n",
+      "exact_new": "Aktuell avgränsning efter C-1047, T-0778:\nT-0778: C-1047:s sida638 rader18–20 är nu helt prövade över54 tryckta kolumnenheter i bevarad fullbild. Astrids och barnens egna inkommande9–10 är tomma; den förväntade hitkomstuppgiften finns inte i dessa celler. Astrids egen utgående563/30 är utskriven, medan barnens egna16–17 är tomma. Barnens anslutning till familjens1930överföring är därför kedjetolkning, inte egna dittotecken. SCB1930:s tidigare accepterade Sundbyberg1926 kvarstår utan ny exakt ankomstdag eller obrutet fysiskt boende. Fortsättningen på949 och andra mottagar-/mellanled återstår.\n\nÄldre källvägstext och T-0777-avgränsning bevaras nedan som historiskt forskningsläge; formuleringar om oprövad638 och förväntad hitkomst ersätts ovan. Övriga namngivna vägar och reservationer kvarstår:\n### KP-04: Flyttkedjan 1919–1932 och livets slut\n\n- Frågor/teman: Q-02, BO, ARB, EKO, HAL, SYN.\n- Källklass: K-01, K-05, K-04.\n- Tid/plats och arkivbildare: Flens kyrkoarkiv, `A II a/6 b` sidorna 638 och 949 samt `A II a/3 b` uppslag 335; Flens utflyttningslängd `B/6 b` 1916–1940 för posten 1919-08-28; Sundbybergs församlings inflyttnings- och församlingsböcker från 1919; därefter dödbok och bouppteckningsregister när ett dödsdatum finns.\n- Förväntad information: hennes egen hitkomstuppgift på sida638 för kontroll och precisering av SCB1930:s senaste kommuninflyttningsår1926 från Sundbyberg; mottagaradressen i Sundbyberg 1919; fortsättningen efter 1932; och slutligen dödsdatum, dödsort och eventuell bouppteckning.\n- Ingång och söknycklar: Astrid Charlotta Lundkvist, `97 ²¹/₃`; utflyttningsdagen 1919-08-28; `fol. 949`, `1932`; barnen 1919-06-03 och 1921-02-11.\n- Beroenden: sida 638 har inga beroenden och ligger i en redan öppnad volym. Sundbybergsdelen beror på att destinationen `Sundbyberg(?)` bekräftas; T-0129:s omläsning ger `Sundbyberg, Stockholms län` men läsningen är inte oberoende verifierad. Dödboksdelen beror på att kedjan efter 1932 följs till en församling.\n- Föregående källvägar: KP-02\n- Leverantörer och åtkomst: Riksarkivet. `B/6 b` är läst i [S-0722](../sources/S-0722-flen-B6b-utflyttningslangd-1916-1940.md) men inte för hennes post; Sundbybergs serier är EJ KONTROLLERADE.\n- Undersökt omfång och utfall: DELVIS. 1930 års folkräkningsutdrag, sida 43, ger på Astrids egen rad senaste inflyttning till bostadskommunen från Sundbyberg år 1926. Detta är ett daterat bokföringsankare, inte belägg för oavbrutet fysiskt boende 1926–1930. Här angivna mottagar- och fortsättningsposter är ännu inte lästa för hennes egen rad.\n- Bedömning och återaktivering: börja med sida 638, som är billigast och kan precisera och kontrollera det nu belagda bokföringsåret1926. Ett noll i en enskild Sundbybergsvolym gäller exakt den volymen och det datumintervallet, aldrig hennes frånvaro i staden.\n- Wotan: EJ BESLUTAT UTFÖRANDE — ny arkivåtkomst ligger utanför T-0157:s omfång. Rapporterad till [T-0157](../../wotan/dev-log/T-0157.md):s ägare för en avgränsad efterföljare.\n\n",
+      "source_decision": "C-1047-Astrid-current-decisions-v1.json",
+      "source_hash": "ecec0a579e589b6370e00b779fddb3baa78c42209a562589398727d1effdee5d",
+      "disposition": "revise",
+      "support_instructions": [
+        "R-T0778-C1047-Astrid-family@1",
+        "AUDIT-T0778-C1047-Astrid@1"
+      ]
+    },
+    {
+      "object": "PATH-P-0047-KP-04",
+      "version": 2,
+      "field": "outcome",
+      "old_full_native_payload": {
+        "id": "PATH-P-0047-KP-04",
+        "kind": "assessment",
+        "expectedVersion": 2,
+        "data": {
+          "subject_id": "P-0047",
+          "criteria": "legacy_source_path",
+          "outcome": "DELVIS. SCB1930:s egen Astridrad anger senaste kommuninflyttning från Sundbyberg1926. Egna mottagar-, mellanleds- och fortsättningsposter1919–1926–1930 samt efter1932 är inte fullständigt lästa; ingen obruten fysisk vistelse sluts.",
+          "body": "### KP-04: Flyttkedjan 1919–1932 och livets slut\n\n- Frågor/teman: Q-02, BO, ARB, EKO, HAL, SYN.\n- Källklass: K-01, K-05, K-04.\n- Tid/plats och arkivbildare: Flens kyrkoarkiv, `A II a/6 b` sidorna 638 och 949 samt `A II a/3 b` uppslag 335; Flens utflyttningslängd `B/6 b` 1916–1940 för posten 1919-08-28; Sundbybergs församlings inflyttnings- och församlingsböcker från 1919; därefter dödbok och bouppteckningsregister när ett dödsdatum finns.\n- Förväntad information: hennes egen hitkomstuppgift på sida638 för kontroll och precisering av SCB1930:s senaste kommuninflyttningsår1926 från Sundbyberg; mottagaradressen i Sundbyberg 1919; fortsättningen efter 1932; och slutligen dödsdatum, dödsort och eventuell bouppteckning.\n- Ingång och söknycklar: Astrid Charlotta Lundkvist, `97 ²¹/₃`; utflyttningsdagen 1919-08-28; `fol. 949`, `1932`; barnen 1919-06-03 och 1921-02-11.\n- Beroenden: sida 638 har inga beroenden och ligger i en redan öppnad volym. Sundbybergsdelen beror på att destinationen `Sundbyberg(?)` bekräftas; T-0129:s omläsning ger `Sundbyberg, Stockholms län` men läsningen är inte oberoende verifierad. Dödboksdelen beror på att kedjan efter 1932 följs till en församling.\n- Föregående källvägar: KP-02\n- Leverantörer och åtkomst: Riksarkivet. `B/6 b` är läst i [S-0722](../sources/S-0722-flen-B6b-utflyttningslangd-1916-1940.md) men inte för hennes post; Sundbybergs serier är EJ KONTROLLERADE.\n- Undersökt omfång och utfall: DELVIS. 1930 års folkräkningsutdrag, sida 43, ger på Astrids egen rad senaste inflyttning till bostadskommunen från Sundbyberg år 1926. Detta är ett daterat bokföringsankare, inte belägg för oavbrutet fysiskt boende 1926–1930. Här angivna mottagar- och fortsättningsposter är ännu inte lästa för hennes egen rad.\n- Bedömning och återaktivering: börja med sida 638, som är billigast och kan precisera och kontrollera det nu belagda bokföringsåret1926. Ett noll i en enskild Sundbybergsvolym gäller exakt den volymen och det datumintervallet, aldrig hennes frånvaro i staden.\n- Wotan: EJ BESLUTAT UTFÖRANDE — ny arkivåtkomst ligger utanför T-0157:s omfång. Rapporterad till [T-0157](../../wotan/dev-log/T-0157.md):s ägare för en avgränsad efterföljare.\n\n"
+        },
+        "origins": [
+          {
+            "unit": "b518d6529e9a871e75d0172be2fe6d39fc45512af008a17a8815b9336b5380e3",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "AUDIT-T0777-C0896-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "T-0777 AC3: avgjord egen källräckvidd för C-0896; inga kontinuitets- eller identitetsinferenser."
+          },
+          {
+            "object": "AUDIT-T0777-C0896-parish",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna parishfält; occupation-order reservation bevarad."
+          },
+          {
+            "object": "R-T0777-C0896-Astrid-SCB1930",
+            "version": 1,
+            "role": "supports",
+            "note": "Egna SCB1930fält och lastarrival1926ankare."
+          }
+        ],
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akt och profil inklusive historik lästa. Egen identitet accepterad separat från PK-05/11. Lundkvist är egen namnform utan säker namnbytesdag. Makens äldre Östra Vingåker ersätts av Öster ås…[Österåsen?], Jämtlands län[?]. Dotterns bättre namnform Gunvor Solveig Charlotta hålls skild från äldre Gunnvor Borg Elisabet[?], med samma personbedömning men utan ny P. Sonens ort och dotterns överstrukna Jansson förblir reserverade. Skilsmässodagen är kyrkobokens datering, inte läst dom. Ingen död, biologisk syskonrelation till fosterbarn eller negativ släktdom om faddrar införs. Källbundna observationer utan separat utvunnen namnform har mention_id=null; aktens visningsnamn förs inte in som en påhittad avskrift."
+      },
+      "exact_old": "DELVIS. SCB1930:s egen Astridrad anger senaste kommuninflyttning från Sundbyberg1926. Egna mottagar-, mellanleds- och fortsättningsposter1919–1926–1930 samt efter1932 är inte fullständigt lästa; ingen obruten fysisk vistelse sluts.",
+      "exact_new": "DELVIS POSITIVT. Egen C-1047 sida638 rad18 och barnrader19–20 prövade; inkommande9–10 är tomma. Astrid utgående563/30; barnens egna utgående16–17 tomma. SCB1930 Sundbyberg1926 återbrukas utan ny dag eller fysisk kontinuitet. Uppslag335/949 och berörda mottagar-/mellanled återstår.",
+      "source_decision": "C-1047-Astrid-current-decisions-v1.json",
+      "source_hash": "ecec0a579e589b6370e00b779fddb3baa78c42209a562589398727d1effdee5d",
+      "disposition": "revise",
+      "support_instructions": [
+        "R-T0778-C1047-Astrid-family@1",
+        "AUDIT-T0778-C1047-Astrid@1"
+      ]
+    }
+  ],
+  "boundary": "Native record media and individually approved evidence rebinds require assembly with full union source package; canonical unchanged."
+}

@@ -1,0 +1,941 @@
+{
+  "task": "T-0780",
+  "status": "UNSETTLED_VERSION_BASIS_RETURN_BEFORE_PACKAGE_BINDING",
+  "failed_attempt_operation_pin": {
+    "path": "evaluations/T-0780/implementation/resumed-five-completed-full-source-audits-queue-v1/five-completed-full-source-audits-operation-v1.json",
+    "sha256": "6facdfae1e788afa4ba6d520c2379fe498126d4d8890b82e712456b5744cd8b0"
+  },
+  "new_audits": 5,
+  "source_sha256": "4530e394b3ecc8954d3e92ba958275f169850682e8dfd46c8365caa4059f0109",
+  "violations": [
+    {
+      "target": "AUDIT-T0780-C0563-fullpost",
+      "exact_new_edge": {
+        "object": "R-521806d99b24fc04d967d271",
+        "version": 1,
+        "role": "supports",
+        "note": "Exakt låst historisk post; samma registreringskedja som transkriptionen, ingen ytterligare oberoende röst."
+      },
+      "proposed_current_head": 2,
+      "basis_current_candidate": {
+        "candidate": {
+          "id": "R-521806d99b24fc04d967d271",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0045",
+            "record_type": "household",
+            "locator": "Sävar A I/6b, Botsmark s603, C0042580_00192; Johan Peter Zingmarks16familje-/faderrader samt Cajsa Gretas egen reciproka tjänsterad, totalt17rader",
+            "dependence_note": "Gl bok 603 i C-0561 avser detta uppslag. Carl Jonas raddata gäller honom, inte sonen eller Sara; hushållets föräldra-/födelsetolkningar är äldre bedömningar, ingen ny födelsepost."
+          },
+          "origins": [
+            {
+              "unit": "30a7d6c30a59107287145e3a5cd08083d161aa22f476b0f3ab6724125ce5c484",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "ba299be69d17992d595c8ba034fca3523cc27d1cb81f2b26d27fb88aeb63bb41",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "c231aad050150982810263e2f6f29093c78c0b76f885be38f3b4164194cafde9",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0045",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0563-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Fullt läst eget källomfång och explicit gräns för följdutsagan; samma original."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0563. Gl bok 603 i C-0561 avser detta uppslag. Carl Jonas raddata gäller honom, inte sonen eller Sara; hushållets föräldra-/födelsetolkningar är äldre bedömningar, ingen ny födelsepost.",
+          "caveat": "Sara Sophias födelseort Lycksele rättad Degerfors; egen födelsepost saknas. Död 14 aug 1868 kvar CONFLICT mot tvåvolymsnoll. Carl Jonas från 582 rättat 1869 8/11 och död 1870 27/12, inte 1867/22 dec. Hans s-liknande tecken står i Koppor, medan Enkling eller Enka är tom; ingen änklings- eller hustrudödsuppgift följer.\nC-0563: Ett familjeblock med omgifte och tidslager. Cajsa Wilhelmina här är verklig namnvariant mot födelsebokens Christina och C-0685:s Lovisa. Sophia Beatas hänvisning599/1870/14[?]/1 har reserverad dagtäljare; Sara Rebeckas frånvaro avvisar inte modersrelation. Övriga tjänsterader är utanför familjeutvinningen; samma Cajsa Gretas reciproka tjänsterad ingår uttryckligen: Umeå1869 10/11 attest14, Ofvan1870 9/7. Den radens fulla granskarprövning var jämförande, inte blind. T-0780:s full17raders TR bevarar samtliga egna års-/tomfält och marginalreservationer. Maria Elinas egen hushållsdag återges1856 2[1/9?]/7; starkare egen födelsepost29juli behålls. Äldre transkriptionstext är historik, inte en ersättning för denna avgränsade rättelse.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0563-riksarkivet-savar-AI6b-botsmark-sida-603-zingmark.jpg",
+              "region": "Sävar A I/6b, Botsmark s 603, C0042580_00192; Johan Peter Zingmarks familjeblock inklusive inskjuten fadersrad"
+            }
+          ],
+          "media": []
+        },
+        "pin": {
+          "index": 46,
+          "path": "evaluations/T-0780/implementation/C0685-C0563-split-proposal-v2/28-C0563-final-record-metadata-operation-v1.json",
+          "sha256": "254b2e7e4d0bb97af960683b9298c739aa252aa83ccf11b36dae96db50a6a05c",
+          "operation_id": "T-0780/C0563-selected44-path-theme-v1-explicit-C0563-final-record-metadata-v1",
+          "targets": [
+            {
+              "id": "R-521806d99b24fc04d967d271",
+              "expectedVersion": 1,
+              "payload_sha256": "06c643ffb6c858b7aaff53fabb5295b284f3c06cb9f66c9456c05a5f9ee5d6e3"
+            }
+          ],
+          "changes": 1
+        }
+      }
+    },
+    {
+      "target": "AUDIT-T0780-C0561-fullpost",
+      "exact_new_edge": {
+        "object": "R-cb1f11fb7e673fa673e7adec",
+        "version": 1,
+        "role": "supports",
+        "note": "Exakt låst historisk post; samma registreringskedja som transkriptionen, ingen ytterligare oberoende röst."
+      },
+      "proposed_current_head": 2,
+      "basis_current_candidate": {
+        "candidate": {
+          "id": "R-cb1f11fb7e673fa673e7adec",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0046",
+            "record_type": "household",
+            "locator": "Sävar A I/7b, Botsmark s 672, C0034437_00214; Johan Peter Zingmarks familjerader 1–14",
+            "dependence_note": "Gl bok 603 och senare C-0552 G.B.672 binder böckerna. Förstakullens sju synliga barn är inte fullständig barnlista; fem yngre har egna rader trots kollapsad tabellrad."
+          },
+          "origins": [
+            {
+              "unit": "1eba99316fdf9ea5536c9d8c9ce08ab666aba00c97c50f3d682a0cc3f6e67168",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "bb70389c75ae679c648f4fb50b1849dfcbf838efcecfd5c12a56386084099822",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "c5179b21457e3543487863df1b73e28c9cd4918664613daffa3d29ada7354e60",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0046",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0561-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Full14raders prövad källa och exakt attributionsgräns; samma original."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0561. Gl bok 603 och senare C-0552 G.B.672 binder böckerna. Förstakullens sju synliga barn är inte fullständig barnlista; fem yngre har egna rader trots kollapsad tabellrad.",
+          "caveat": "T-0780: Hela C-0561-familjegruppen med14 egna rader, tryckta rubriker, ortditton, tomma fält, kunskaps-/fräjdmarkeringar och årsceller1875–1884 är nu prövad i TR-T0780-C0561-fullpost. Egen Cajsa Wilhelmina-rad anger649/1876 14/1; Carl Reinhold668/1877 23[?]/11. Maria Elinas egen cell angerDegerfors1875 4[?]/10 och separatattest15. Johan Oskars egen C-0561-cell angerDegerfors1880 7/10 och separatattest28; C-0547 är därför inte längre ensam källattribution för denna uppgift. Anders Wilhelm har24/3, utan månadöverskrivning på denna sida. Jonas Eugen1876 10/2 och Olof Konrad1878 20/9 har egna fullt prövade rader, inte bara en sammanslagen tabell. Dagbråk/årsgrafik behåller exakt reservation; ingen fysisk resdag, fastighetskontinuitet eller skolnivå normaliseras. Kullrubrikerna hålls separata; sju första-kullsbarn är inte fullständig barnlista, och Nanny Olivia saknas på just denna sida utan att senare egna belägg upphävs.\n\nTidigare läs-/attributionshistorik, nu ersatt endast i ovan preciserade fält:\nCajsa Wilhelmina är denna radens rättade namn mot äldre harmoniserad Christina; Maria Elina flyttår 1875, inte 1877. Anders Wilhelm har tydlig marsmånad här; överskrivning hör till AI8b, inte denna sida.\nC-0561: Ett familjeuppslag. Wilhelminas 649/1876-01-14 är bokförd intern hänvisning, inte säkert fysisk resa eller redan läst mottagarhushåll. Carl Reinholds flytt till 668 år 1877 har reserverad dag; Johan Oscars flytt hämtas från C-0547. Kullarnas källrubriker hålls separata.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0561-riksarkivet-savar-AI7b-botsmark-sida-672-zingmark.jpg",
+              "region": "Sävar A I/7b, Botsmark s 672, C0034437_00214; Johan Peter Zingmarks familjerader 1–14"
+            }
+          ],
+          "media": []
+        },
+        "pin": {
+          "index": 61,
+          "path": "evaluations/T-0780/implementation/C0561-second-settled-queue-v1/record-last-operation-v1.json",
+          "sha256": "135167446e637cd5ec63c401c533a776d556c4a82600c6256756769104104df0",
+          "operation_id": "T-0780/C0561-three-record-reading-wrapper-v1-explicit-record-last-v1",
+          "targets": [
+            {
+              "id": "R-cb1f11fb7e673fa673e7adec",
+              "expectedVersion": 1,
+              "payload_sha256": "f1c4c81523542df11d7602b8b4525b5035c8d60917ff817e74e1c069eb0bc3f4"
+            }
+          ],
+          "changes": 1
+        }
+      }
+    },
+    {
+      "target": "AUDIT-T0780-C0425-all-five-posts",
+      "exact_new_edge": {
+        "object": "R-704cab19e220a827cf2acf58",
+        "version": 1,
+        "role": "supports",
+        "note": "Exakt låst historisk post; samma registreringskedja som transkriptionen, ingen ytterligare oberoende röst."
+      },
+      "proposed_current_head": 2,
+      "basis_current_candidate": {
+        "candidate": {
+          "id": "R-704cab19e220a827cf2acf58",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0037",
+            "record_type": "parish_household_entry",
+            "locator": "Bygdeå A II a/2b, Ultervattnet s.824, Jakob och Maria Christinas familj rader1–7, 00194409_00025",
+            "dependence_note": "Familjeboken återger samma registreringskedja som föregående/senare hushålls- och folkräkningsuppgifter; inte oberoende födelseundersökningar."
+          },
+          "origins": [
+            {
+              "unit": "48630aa2d77b0c8283093ffd09098e65e7e632ef06925661aef6118655532f2a",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "4a3fdcb0cd21eff6f9692f208ed2fdbfd19a8d9885bd64e3848bb48a085b9a54",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "52477ad878972f772cd347a1645621714a50a5d730aab2280d390ffc9e3a1e2e",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "ff9fd7ec84dce11b69b4f1eb5d0d8b37a0adc3e3ea4ff34c14260b6e1c4476eb",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0037",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0425-upper-family-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Full egen källutvinning T0780, samma registreringskedja."
+            },
+            {
+              "object": "TR-T0780-C0425-Nils-family-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Separata övre/nedre Nils-rader med olika säkerhetsgrad, ingen normalisering."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0425. Familjeboken återger samma registreringskedja som föregående/senare hushålls- och folkräkningsuppgifter; inte oberoende födelseundersökningar.",
+          "caveat": "Tidigare läsning, bevarad som historik: Nils Leonard rättad till 1874-09-26; Christina Louisa född 1877-04-26, överförd till folio 820 den 1905-12-02, inte död 2 oktober. Jacob/Barman[?]/Burman lämnas reserverat. Kolumn 15 är värnpliktsförhållanden; barnens noter tillhör inte föräldrarna.\nC-0425: Utökningen skiljer fyra familjegrupper och en tjänsterad. Födelsefrågan för Jakob är senare positivt löst i C-1035; exakt vigseldag och ort kvarstår. Tomma egna kolumner är lästa nollor, men bokperiod och faktisk fysisk vistelse måste skiljas.\n\nT-0780: Sju egna rader1–7 fullutvunna över samtliga18kolumner. Övre Nils-raden har2[4/6?]/9, med24 föredragen, medan nedre egenrad17 tydligt har26/9; äldre kategorisk rättelse av övre24 till26 återtas. Jacob Burman är aktuell namnläsning, äldre Barman bevaras som läshistorik. Christina Louisa26/4 och överföring820/2Dec1905 består. Egna födelseortsceller är tomma, inga dittotecken. Starkare Jakobs födelse16Apr1830 ändras inte av äldre bokvariant.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0425-riksarkivet-bygdea-AIIa2b-bild-25-sida-824.jpg",
+              "region": "Bygdeå A II a/2b, Ultervattnet s.824, Jakob och Maria Christinas familj rader1–7, 00194409_00025"
+            }
+          ],
+          "media": []
+        },
+        "pin": {
+          "index": 80,
+          "path": "evaluations/T-0780/implementation/C0425-glyph-amendment-queue-v1/five-records-last-operation-v1.json",
+          "sha256": "a20da0686701ad0430e2807e332d7c4a113d43e50c7ef6c7cd06a880b48ab64a",
+          "operation_id": "T-0780/C0425-selected13-wrapper-glyph-amended-v1-explicit-five-records-last",
+          "targets": [
+            {
+              "id": "R-704cab19e220a827cf2acf58",
+              "expectedVersion": 1,
+              "payload_sha256": "9a032f8f42aa5230371a66b4a261a9e1fa2978e9d8ec41112a62d15eead61e26"
+            },
+            {
+              "id": "R-85c7e85b48634a6413e79c49",
+              "expectedVersion": 1,
+              "payload_sha256": "a4f8a61a8b9a5d25c69f2271053badd2b55c854aa5d2f6b88e15754ce3a8d846"
+            },
+            {
+              "id": "R-9b2c34e78514d2cc00e15d54",
+              "expectedVersion": 1,
+              "payload_sha256": "77d1bada4e510fb4ae0f6c158d3492694432622c7ee3b0a007fd0020563cc0e0"
+            },
+            {
+              "id": "R-b006cd90d7ace0e063db3559",
+              "expectedVersion": 1,
+              "payload_sha256": "caffacaa2b4f81afb08728540cb8c4f0649b84d401f15ba895ab03f4d3c68dfc"
+            },
+            {
+              "id": "R-f329446910f633e044d36d7a",
+              "expectedVersion": 1,
+              "payload_sha256": "7b838c139fac6c686cda5f501d0f86903ca7bb9b0518679eb124647c7c8c94b9"
+            }
+          ],
+          "changes": 5
+        }
+      }
+    },
+    {
+      "target": "AUDIT-T0780-C0425-all-five-posts",
+      "exact_new_edge": {
+        "object": "R-f329446910f633e044d36d7a",
+        "version": 1,
+        "role": "supports",
+        "note": "Exakt låst historisk post; samma registreringskedja som transkriptionen, ingen ytterligare oberoende röst."
+      },
+      "proposed_current_head": 2,
+      "basis_current_candidate": {
+        "candidate": {
+          "id": "R-f329446910f633e044d36d7a",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0037",
+            "record_type": "parish_household_entry",
+            "locator": "Bygdeå A II a/2b, Ultervattnet s.824, Carl Eric Jakobssons familj från rad8, 00194409_00025",
+            "dependence_note": "Familjeboken återger samma registreringskedja som föregående/senare hushålls- och folkräkningsuppgifter; inte oberoende födelseundersökningar."
+          },
+          "origins": [
+            {
+              "unit": "4dde0bc53b7a4d0fa8f92f54d45a9e3da9900c9a1d49a1b7fc81133154e30f8d",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "52477ad878972f772cd347a1645621714a50a5d730aab2280d390ffc9e3a1e2e",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "a5eba87f060210e5c727ddbc74b5aef6ed3ce3b3aadd74a4ab1a4b2cb8d422c6",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0037",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0425-Carl-family-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Full egen källutvinning T0780, samma registreringskedja."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0425. Familjeboken återger samma registreringskedja som föregående/senare hushålls- och folkräkningsuppgifter; inte oberoende födelseundersökningar.",
+          "caveat": "Tidigare läsning, bevarad som historik: Katarina Annali[?], Märta Abgalia[?] och datumreservationer bevaras. Ingrid Viktoria respektive Ingrid Kristina[?] är konkurrerande läsningar; inga nya identiteter skapas.\nC-0425: Utökningen skiljer fyra familjegrupper och en tjänsterad. Födelsefrågan för Jakob är senare positivt löst i C-1035; exakt vigseldag och ort kvarstår. Tomma egna kolumner är lästa nollor, men bokperiod och faktisk fysisk vistelse måste skiljas.\n\nT-0780: Fem egna fysiska rader från8 fullutvunna över18kolumner. Katarina Amalia[?]Sandström,Ingrid Hiltina[?][2/3?]1/7 1907,Karl Birger[4/11?]/3 1909,Märta A[d?]alia11/5 1910 är aktuella reserverade former; äldre Annali/Viktoria/Kristina/Abgalia bevaras som läshistorik, inte nya identiteter. Katarinas överföring Nysätra1907Jun5 är läst. Födelseortsceller tomma utom Märtas datumspill, vilket inte anger ort. Son/Bonde belägger inte gårdsövertagande.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0425-riksarkivet-bygdea-AIIa2b-bild-25-sida-824.jpg",
+              "region": "Bygdeå A II a/2b, Ultervattnet s.824, Carl Eric Jakobssons familj från rad8, 00194409_00025"
+            }
+          ],
+          "media": []
+        },
+        "pin": {
+          "index": 80,
+          "path": "evaluations/T-0780/implementation/C0425-glyph-amendment-queue-v1/five-records-last-operation-v1.json",
+          "sha256": "a20da0686701ad0430e2807e332d7c4a113d43e50c7ef6c7cd06a880b48ab64a",
+          "operation_id": "T-0780/C0425-selected13-wrapper-glyph-amended-v1-explicit-five-records-last",
+          "targets": [
+            {
+              "id": "R-704cab19e220a827cf2acf58",
+              "expectedVersion": 1,
+              "payload_sha256": "9a032f8f42aa5230371a66b4a261a9e1fa2978e9d8ec41112a62d15eead61e26"
+            },
+            {
+              "id": "R-85c7e85b48634a6413e79c49",
+              "expectedVersion": 1,
+              "payload_sha256": "a4f8a61a8b9a5d25c69f2271053badd2b55c854aa5d2f6b88e15754ce3a8d846"
+            },
+            {
+              "id": "R-9b2c34e78514d2cc00e15d54",
+              "expectedVersion": 1,
+              "payload_sha256": "77d1bada4e510fb4ae0f6c158d3492694432622c7ee3b0a007fd0020563cc0e0"
+            },
+            {
+              "id": "R-b006cd90d7ace0e063db3559",
+              "expectedVersion": 1,
+              "payload_sha256": "caffacaa2b4f81afb08728540cb8c4f0649b84d401f15ba895ab03f4d3c68dfc"
+            },
+            {
+              "id": "R-f329446910f633e044d36d7a",
+              "expectedVersion": 1,
+              "payload_sha256": "7b838c139fac6c686cda5f501d0f86903ca7bb9b0518679eb124647c7c8c94b9"
+            }
+          ],
+          "changes": 5
+        }
+      }
+    },
+    {
+      "target": "AUDIT-T0780-C0425-all-five-posts",
+      "exact_new_edge": {
+        "object": "R-b006cd90d7ace0e063db3559",
+        "version": 1,
+        "role": "supports",
+        "note": "Exakt låst historisk post; samma registreringskedja som transkriptionen, ingen ytterligare oberoende röst."
+      },
+      "proposed_current_head": 2,
+      "basis_current_candidate": {
+        "candidate": {
+          "id": "R-b006cd90d7ace0e063db3559",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0037",
+            "record_type": "parish_household_entry",
+            "locator": "Bygdeå A II a/2b, Ultervattnet s.824, Anders Petters familj rader10–15, 00194409_00025",
+            "dependence_note": "Familjeboken återger samma registreringskedja som föregående/senare hushålls- och folkräkningsuppgifter; inte oberoende födelseundersökningar."
+          },
+          "origins": [
+            {
+              "unit": "4dde0bc53b7a4d0fa8f92f54d45a9e3da9900c9a1d49a1b7fc81133154e30f8d",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "52477ad878972f772cd347a1645621714a50a5d730aab2280d390ffc9e3a1e2e",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "8ddede8ccd8d23ef5b78a5474f1bdb5fd2d2683eb32c99d0a10182a294bcd03e",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0037",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0425-Anders-family-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Full egen källutvinning T0780, samma registreringskedja."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0425. Familjeboken återger samma registreringskedja som föregående/senare hushålls- och folkräkningsuppgifter; inte oberoende födelseundersökningar.",
+          "caveat": "Tidigare läsning, bevarad som historik: Sista barnets namn läses Stig Ernst respektive Nils Emil[?]; döddag 3/12[?]1908 reserverad. Moderns folio 844 är intern hänvisning.\nC-0425: Utökningen skiljer fyra familjegrupper och en tjänsterad. Födelsefrågan för Jakob är senare positivt löst i C-1035; exakt vigseldag och ort kvarstår. Tomma egna kolumner är lästa nollor, men bokperiod och faktisk fysisk vistelse måste skiljas.\n\nT-0780: Sju egna fysiska rader i gruppen10–15 inklusive insatta barn fullutvunna över18kolumner. Hustrun Mathilda Gr[ö/o/a?]nberg,1870Mar31,från841år98; äldre Dec3/844 rättas. Anders Hugo1901Feb20 rättar äldreJune20. Yngsta barnet Nils Emil1908Nov14 rättar äldreStigErnst/Apr14, egen dödsdag3/12[?] reserveras. Övriga barnrader och familjeidentiteter bevaras. Egna födelseortsceller är tomma.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0425-riksarkivet-bygdea-AIIa2b-bild-25-sida-824.jpg",
+              "region": "Bygdeå A II a/2b, Ultervattnet s.824, Anders Petters familj rader10–15, 00194409_00025"
+            }
+          ],
+          "media": []
+        },
+        "pin": {
+          "index": 80,
+          "path": "evaluations/T-0780/implementation/C0425-glyph-amendment-queue-v1/five-records-last-operation-v1.json",
+          "sha256": "a20da0686701ad0430e2807e332d7c4a113d43e50c7ef6c7cd06a880b48ab64a",
+          "operation_id": "T-0780/C0425-selected13-wrapper-glyph-amended-v1-explicit-five-records-last",
+          "targets": [
+            {
+              "id": "R-704cab19e220a827cf2acf58",
+              "expectedVersion": 1,
+              "payload_sha256": "9a032f8f42aa5230371a66b4a261a9e1fa2978e9d8ec41112a62d15eead61e26"
+            },
+            {
+              "id": "R-85c7e85b48634a6413e79c49",
+              "expectedVersion": 1,
+              "payload_sha256": "a4f8a61a8b9a5d25c69f2271053badd2b55c854aa5d2f6b88e15754ce3a8d846"
+            },
+            {
+              "id": "R-9b2c34e78514d2cc00e15d54",
+              "expectedVersion": 1,
+              "payload_sha256": "77d1bada4e510fb4ae0f6c158d3492694432622c7ee3b0a007fd0020563cc0e0"
+            },
+            {
+              "id": "R-b006cd90d7ace0e063db3559",
+              "expectedVersion": 1,
+              "payload_sha256": "caffacaa2b4f81afb08728540cb8c4f0649b84d401f15ba895ab03f4d3c68dfc"
+            },
+            {
+              "id": "R-f329446910f633e044d36d7a",
+              "expectedVersion": 1,
+              "payload_sha256": "7b838c139fac6c686cda5f501d0f86903ca7bb9b0518679eb124647c7c8c94b9"
+            }
+          ],
+          "changes": 5
+        }
+      }
+    },
+    {
+      "target": "AUDIT-T0780-C0425-all-five-posts",
+      "exact_new_edge": {
+        "object": "R-9b2c34e78514d2cc00e15d54",
+        "version": 1,
+        "role": "supports",
+        "note": "Exakt låst historisk post; samma registreringskedja som transkriptionen, ingen ytterligare oberoende röst."
+      },
+      "proposed_current_head": 2,
+      "basis_current_candidate": {
+        "candidate": {
+          "id": "R-9b2c34e78514d2cc00e15d54",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0037",
+            "record_type": "parish_service_entry",
+            "locator": "Bygdeå A II a/2b, Ultervattnet s.824, pigan Anna Teresia Bäckman rad16, 00194409_00025",
+            "dependence_note": "Familjeboken återger samma registreringskedja som föregående/senare hushålls- och folkräkningsuppgifter; inte oberoende födelseundersökningar."
+          },
+          "origins": [
+            {
+              "unit": "52477ad878972f772cd347a1645621714a50a5d730aab2280d390ffc9e3a1e2e",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "d283d0ed96a652cd6ad4011da654f8e0b075e045e020fe4f1ba84e102f10d826",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0037",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0425-servant-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Full egen källutvinning T0780, samma registreringskedja."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0425. Familjeboken återger samma registreringskedja som föregående/senare hushålls- och folkräkningsuppgifter; inte oberoende födelseundersökningar.",
+          "caveat": "Tidigare läsning, bevarad som historik: Tjänsterollen gör henne inte till dotter. Flyttår 1907[?] och 1908[?] behåller reservationer.\nC-0425: Utökningen skiljer fyra familjegrupper och en tjänsterad. Födelsefrågan för Jakob är senare positivt löst i C-1035; exakt vigseldag och ort kvarstår. Tomma egna kolumner är lästa nollor, men bokperiod och faktisk fysisk vistelse måste skiljas.\n\nT-0780: Hela egna rad16 över18kolumner är läst: Anna Teresia Bäckman1881Dec7,från Umeå1907Apr26,till Nysätra1908Apr13. Tjänsteraden står separat mellan familjegrupper; ingen bestämd arbetsgivare, hushållstillhörighet eller släktskap skapas enbart av placeringen. Registrerade datum är inte automatiskt faktiska resdagar. Egen födelseortscell är tom.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0425-riksarkivet-bygdea-AIIa2b-bild-25-sida-824.jpg",
+              "region": "Bygdeå A II a/2b, Ultervattnet s.824, pigan Anna Teresia Bäckman rad16, 00194409_00025"
+            }
+          ],
+          "media": []
+        },
+        "pin": {
+          "index": 80,
+          "path": "evaluations/T-0780/implementation/C0425-glyph-amendment-queue-v1/five-records-last-operation-v1.json",
+          "sha256": "a20da0686701ad0430e2807e332d7c4a113d43e50c7ef6c7cd06a880b48ab64a",
+          "operation_id": "T-0780/C0425-selected13-wrapper-glyph-amended-v1-explicit-five-records-last",
+          "targets": [
+            {
+              "id": "R-704cab19e220a827cf2acf58",
+              "expectedVersion": 1,
+              "payload_sha256": "9a032f8f42aa5230371a66b4a261a9e1fa2978e9d8ec41112a62d15eead61e26"
+            },
+            {
+              "id": "R-85c7e85b48634a6413e79c49",
+              "expectedVersion": 1,
+              "payload_sha256": "a4f8a61a8b9a5d25c69f2271053badd2b55c854aa5d2f6b88e15754ce3a8d846"
+            },
+            {
+              "id": "R-9b2c34e78514d2cc00e15d54",
+              "expectedVersion": 1,
+              "payload_sha256": "77d1bada4e510fb4ae0f6c158d3492694432622c7ee3b0a007fd0020563cc0e0"
+            },
+            {
+              "id": "R-b006cd90d7ace0e063db3559",
+              "expectedVersion": 1,
+              "payload_sha256": "caffacaa2b4f81afb08728540cb8c4f0649b84d401f15ba895ab03f4d3c68dfc"
+            },
+            {
+              "id": "R-f329446910f633e044d36d7a",
+              "expectedVersion": 1,
+              "payload_sha256": "7b838c139fac6c686cda5f501d0f86903ca7bb9b0518679eb124647c7c8c94b9"
+            }
+          ],
+          "changes": 5
+        }
+      }
+    },
+    {
+      "target": "AUDIT-T0780-C0425-all-five-posts",
+      "exact_new_edge": {
+        "object": "R-85c7e85b48634a6413e79c49",
+        "version": 1,
+        "role": "supports",
+        "note": "Exakt låst historisk post; samma registreringskedja som transkriptionen, ingen ytterligare oberoende röst."
+      },
+      "proposed_current_head": 2,
+      "basis_current_candidate": {
+        "candidate": {
+          "id": "R-85c7e85b48634a6413e79c49",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0037",
+            "record_type": "parish_household_entry",
+            "locator": "Bygdeå A II a/2b, Ultervattnet s.824, Nils Leonards familj rader17–23, 00194409_00025",
+            "dependence_note": "Familjeboken återger samma registreringskedja som föregående/senare hushålls- och folkräkningsuppgifter; inte oberoende födelseundersökningar. Hänvisning till C-0073 som oberoende i äldre tillägg upphäver inte folkräkningens beroende av bokföringen."
+          },
+          "origins": [
+            {
+              "unit": "52477ad878972f772cd347a1645621714a50a5d730aab2280d390ffc9e3a1e2e",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "57e5160cec3cf0fdd0bb6dd1486771e4701ca3f816bbdfa0aa5ce9df5681cf65",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "b5035c0dfb2ba9bb6eea72f41def2609bf012bbcf15e4fdc3621247df317b72d",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "dadf359aa2d856f5c44ff0adf54aa7558ca2b31781969135bbcfeedb570b118f",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0037",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0425-Nils-family-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Full egen källutvinning T0780, samma registreringskedja."
+            },
+            {
+              "object": "TR-T0780-C0425-upper-family-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Separata övre/nedre Nils-rader med olika säkerhetsgrad, ingen normalisering."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0425. Familjeboken återger samma registreringskedja som föregående/senare hushålls- och folkräkningsuppgifter; inte oberoende födelseundersökningar. Hänvisning till C-0073 som oberoende i äldre tillägg upphäver inte folkräkningens beroende av bokföringen.",
+          "caveat": "Tidigare läsning, bevarad som historik: Hustrun rättad från Lundgren[?] till Öberg/Öbergh. Barnet Enis Kristina respektive Iris Kristina är kvarstående namnformer. Förhörsseriens första 99 är blekt. Frik. är dubbelfört för samma Nils Leonard.\nC-0425: Utökningen skiljer fyra familjegrupper och en tjänsterad. Födelsefrågan för Jakob är senare positivt löst i C-1035; exakt vigseldag och ort kvarstår. Tomma egna kolumner är lästa nollor, men bokperiod och faktisk fysisk vistelse måste skiljas.\n\nT-0780: Sju egna rader17–23 fullutvunna över18kolumner. Nedre Nils26/9 skiljs från övre2[4/6?]/9. Anna Albertina Öberg[h?] och Enis Kristina är aktuella läsningar; äldre Lundgren/Iris är historik. Första förhörsgruppen[99/00?] reserveras; hustruns1910 gäller hennes egen rad, inte automatiskt hela familjens fysiska vistelse. Egna födelseortsceller är tomma.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0425-riksarkivet-bygdea-AIIa2b-bild-25-sida-824.jpg",
+              "region": "Bygdeå A II a/2b, Ultervattnet s.824, Nils Leonards familj rader17–23, 00194409_00025"
+            }
+          ],
+          "media": []
+        },
+        "pin": {
+          "index": 80,
+          "path": "evaluations/T-0780/implementation/C0425-glyph-amendment-queue-v1/five-records-last-operation-v1.json",
+          "sha256": "a20da0686701ad0430e2807e332d7c4a113d43e50c7ef6c7cd06a880b48ab64a",
+          "operation_id": "T-0780/C0425-selected13-wrapper-glyph-amended-v1-explicit-five-records-last",
+          "targets": [
+            {
+              "id": "R-704cab19e220a827cf2acf58",
+              "expectedVersion": 1,
+              "payload_sha256": "9a032f8f42aa5230371a66b4a261a9e1fa2978e9d8ec41112a62d15eead61e26"
+            },
+            {
+              "id": "R-85c7e85b48634a6413e79c49",
+              "expectedVersion": 1,
+              "payload_sha256": "a4f8a61a8b9a5d25c69f2271053badd2b55c854aa5d2f6b88e15754ce3a8d846"
+            },
+            {
+              "id": "R-9b2c34e78514d2cc00e15d54",
+              "expectedVersion": 1,
+              "payload_sha256": "77d1bada4e510fb4ae0f6c158d3492694432622c7ee3b0a007fd0020563cc0e0"
+            },
+            {
+              "id": "R-b006cd90d7ace0e063db3559",
+              "expectedVersion": 1,
+              "payload_sha256": "caffacaa2b4f81afb08728540cb8c4f0649b84d401f15ba895ab03f4d3c68dfc"
+            },
+            {
+              "id": "R-f329446910f633e044d36d7a",
+              "expectedVersion": 1,
+              "payload_sha256": "7b838c139fac6c686cda5f501d0f86903ca7bb9b0518679eb124647c7c8c94b9"
+            }
+          ],
+          "changes": 5
+        }
+      }
+    },
+    {
+      "target": "AUDIT-T0780-C0060-both-index-groups",
+      "exact_new_edge": {
+        "object": "R-80d5e6f523c2f4d74621621c",
+        "version": 1,
+        "role": "supports",
+        "note": "Exakt låst historisk post; samma registreringskedja som transkriptionen, ingen ytterligare oberoende röst."
+      },
+      "proposed_current_head": 2,
+      "basis_current_candidate": {
+        "candidate": {
+          "id": "R-80d5e6f523c2f4d74621621c",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0049",
+            "record_type": "census_index_family_group",
+            "locator": "Folkräkning 1890 Degerfors/Buberget, registervyns överordnade familj1, bildreferens Folk_924008-123",
+            "dependence_note": "Samma censusblad/indexvy och kyrkoboksbaserade informationsväg som grupp2; inget extra oberoende familjevittne."
+          },
+          "origins": [
+            {
+              "unit": "36a6d038db411c1004c4195e1ef1d3fb9bb068910f23755da4b64369017860c1",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "a0baa6dec79d0cbaa6d326939fd42b5e94f91e0da36651dd696606f1fe8ab8fc",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "a5392799482f52ce723e4e43189990823cb0208315fcc89d45deae0921d09749",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0049",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0060-index-group1-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Full egen avgränsad indexgrupp i samma13radersoriginal; prövad fysisk klammer och kolumnräckvidd, ingen extra oberoende röst."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0060. Samma censusblad/indexvy och kyrkoboksbaserade informationsväg som grupp2; inget extra oberoende familjevittne.",
+          "caveat": "Historisk avgränsning före T-0780: Anders Jonsson kontra Jansson i C-0485 bevaras. Mågrollen stöder en tolkning men ensam utpekar den inte båda biologiska föräldrarna.\nC-0060: Historisk motsägelse bevaras: r52–54 anger lokal originalbild och hash; r91–100 säger att originalbild saknas. Bytekontroll 2026-09-16 visar att den uttryckligt länkade filen finns och SHA-256 exakt matchar bb8a2206f147fbaea4795773e2f13773b1c3eb09eb8bc8243dc3db3b7d2c9c8b. Ingen bild har öppnats eller lästs i denna kontroll.\nAktuell avgränsning: T-0780 har nu läst hela den låsta originalbildens avgränsade13personrader, med rubriker, egna dittotecken, tomma celler, marginal och civilståndskolumner. Originalet visar en sammanhängande vänsterklammer över13rader med1; inget separat skrivet familjetal2 kan avläsas vid Johan Oskars rad. De två bevarade nativeposterna är indexgrupper och inte två nycertifierade originalhushåll. Buberget kommer från index/katalogkontext och är inte en egen byrubrik på den transporterade bildsidan. Årtalen är födelseår, inte exakta födelsedagar; ortditton och Förs./Säfvar behålls som egna källformer. Kolumn4:s v-lika tecken är inte koppsymboler eller säkra medicinska/religiösa/frånvarouppgifter. Bildens800×1373px är samma verifierade officiella helbild; liten rubrikfraktion, klippta namnändelser och länsförkortning är reserverade, inte allmän källuttömning. Äldre bytekontrollens ingetöppnat gäller dåvarande kontroll och inte denna nya läsning. Egen indexgrupp1 omfattar rader1–9 Anders Jonsson till Oskar Rudolf. Jonsson/Jansson i annan källa och Hildur Charlotta1890/Elisabetta1900 hålls källspecifika.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0060-riksarkivet-folkrakning-1890-degerfors-bild-123.jpg",
+              "region": "Hela bladet enligt citationens bildlänk; registergruppens exakta bildgräns är inte nyprövad."
+            }
+          ],
+          "media": []
+        },
+        "pin": {
+          "path": "evaluations/T-0780/implementation/C0060-first-settled-queue-v1/two-records-last-operation-v1.json",
+          "sha256": "76057a898bf71011d64495cdc2451682d2bda6642ae49e7afdd1a10ac68be628",
+          "index": 99,
+          "operation_id": "T-0780/C0060-six-current-wrapper-v1-explicit-two-records-last",
+          "targets": [
+            {
+              "id": "R-80d5e6f523c2f4d74621621c",
+              "expectedVersion": 1,
+              "payload_sha256": "95289c0b44b0e95b4ba8edb517b15d82daba76e2422dadddf689daf11b9ec120"
+            },
+            {
+              "id": "R-5d0926f24b56225ed8f2ad9b",
+              "expectedVersion": 1,
+              "payload_sha256": "13af3782b5397817657b56d205899ba7463bccc22a86fb94013b60f97ef463e3"
+            }
+          ],
+          "changes": 2
+        }
+      }
+    },
+    {
+      "target": "AUDIT-T0780-C0060-both-index-groups",
+      "exact_new_edge": {
+        "object": "R-5d0926f24b56225ed8f2ad9b",
+        "version": 1,
+        "role": "supports",
+        "note": "Exakt låst historisk post; samma registreringskedja som transkriptionen, ingen ytterligare oberoende röst."
+      },
+      "proposed_current_head": 2,
+      "basis_current_candidate": {
+        "candidate": {
+          "id": "R-5d0926f24b56225ed8f2ad9b",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0049",
+            "record_type": "census_index_family_group",
+            "locator": "Folkräkning 1890 Degerfors/Buberget, index sida/rad/familj 123/20/2, Folk_104768764; bildreferens Folk_924008-123",
+            "dependence_note": "Dokumentet belägger utdrag ur husförhörslängden; beroende av samma kyrkoboksserie som C-0064/C-0549/C-0404."
+          },
+          "origins": [
+            {
+              "unit": "36a6d038db411c1004c4195e1ef1d3fb9bb068910f23755da4b64369017860c1",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "70a605d4b533a410a443e7791fbc423aae8c7cc57b1a441ebe15d1dd8d3d25c0",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "a0baa6dec79d0cbaa6d326939fd42b5e94f91e0da36651dd696606f1fe8ab8fc",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "c978cb9ab51d778b0ef6176d85107277f0742f8e739d1fafccdba7f24249c8c9",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0049",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0060-index-group2-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Full egen avgränsad indexgrupp i samma13radersoriginal; prövad fysisk klammer och kolumnräckvidd, ingen extra oberoende röst."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0060. Dokumentet belägger utdrag ur husförhörslängden; beroende av samma kyrkoboksserie som C-0064/C-0549/C-0404.",
+          "caveat": "Historisk avgränsning före T-0780: Avgränsar uttrycklig registergrupp; originalets motsvarande hushållsgräns har inte nyprövats. Namn/födelseår är inte exakta födelsedagar.\nC-0060: Historisk motsägelse bevaras: r52–54 anger lokal originalbild och hash; r91–100 säger att originalbild saknas. Bytekontroll 2026-09-16 visar att den uttryckligt länkade filen finns och SHA-256 exakt matchar bb8a2206f147fbaea4795773e2f13773b1c3eb09eb8bc8243dc3db3b7d2c9c8b. Ingen bild har öppnats eller lästs i denna kontroll.\nAktuell avgränsning: T-0780 har nu läst hela den låsta originalbildens avgränsade13personrader, med rubriker, egna dittotecken, tomma celler, marginal och civilståndskolumner. Originalet visar en sammanhängande vänsterklammer över13rader med1; inget separat skrivet familjetal2 kan avläsas vid Johan Oskars rad. De två bevarade nativeposterna är indexgrupper och inte två nycertifierade originalhushåll. Buberget kommer från index/katalogkontext och är inte en egen byrubrik på den transporterade bildsidan. Årtalen är födelseår, inte exakta födelsedagar; ortditton och Förs./Säfvar behålls som egna källformer. Kolumn4:s v-lika tecken är inte koppsymboler eller säkra medicinska/religiösa/frånvarouppgifter. Bildens800×1373px är samma verifierade officiella helbild; liten rubrikfraktion, klippta namnändelser och länsförkortning är reserverade, inte allmän källuttömning. Äldre bytekontrollens ingetöppnat gäller dåvarande kontroll och inte denna nya läsning. Egen indexgrupp2 omfattar rader10–13 Johan Oskar, Ida Sofia, Livia[kompakt i reserverat] Sofia och Astrid Maria; originalklammern förenar dem med föregående nio rader. Mågrollen ensam bestämmer inte båda biologiska föräldrarna.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0060-riksarkivet-folkrakning-1890-degerfors-bild-123.jpg",
+              "region": "Hela bladet enligt citationens bildlänk; registergruppens exakta bildgräns är inte nyprövad."
+            }
+          ],
+          "media": []
+        },
+        "pin": {
+          "path": "evaluations/T-0780/implementation/C0060-first-settled-queue-v1/two-records-last-operation-v1.json",
+          "sha256": "76057a898bf71011d64495cdc2451682d2bda6642ae49e7afdd1a10ac68be628",
+          "index": 99,
+          "operation_id": "T-0780/C0060-six-current-wrapper-v1-explicit-two-records-last",
+          "targets": [
+            {
+              "id": "R-80d5e6f523c2f4d74621621c",
+              "expectedVersion": 1,
+              "payload_sha256": "95289c0b44b0e95b4ba8edb517b15d82daba76e2422dadddf689daf11b9ec120"
+            },
+            {
+              "id": "R-5d0926f24b56225ed8f2ad9b",
+              "expectedVersion": 1,
+              "payload_sha256": "13af3782b5397817657b56d205899ba7463bccc22a86fb94013b60f97ef463e3"
+            }
+          ],
+          "changes": 2
+        }
+      }
+    },
+    {
+      "target": "AUDIT-T0780-C0069-fullpost",
+      "exact_new_edge": {
+        "object": "R-d1208f4d205fd7597ca682a8",
+        "version": 1,
+        "role": "supports",
+        "note": "Exakt låst historisk post; samma registreringskedja som transkriptionen, ingen ytterligare oberoende röst."
+      },
+      "proposed_current_head": 2,
+      "basis_current_candidate": {
+        "candidate": {
+          "id": "R-d1208f4d205fd7597ca682a8",
+          "kind": "record",
+          "expectedVersion": 1,
+          "data": {
+            "source_id": "S-0042",
+            "record_type": "household_page",
+            "locator": "Bygdeå A I/14b, Ultervattnet s.567, bild211, C0034028_00211",
+            "dependence_note": "Alla läsningar av denna bild är samma källpost; hänvisningar C-1035/C-0425/C-0121 är jämförelser, inte ytterligare poster här."
+          },
+          "origins": [
+            {
+              "unit": "26ddcc59e3b723f3435035d933409fd2d514a9961561156cf228071fba374f7a",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "3a781563af00ad26d586b1095e6fdac63443159db4f58ac0eaa633bdd7d15b71",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "792d889b691ad3c70b703462e3233dcb7b79bd160aed1fe5a33e55fcdb87ecb0",
+              "coverage": "context",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            },
+            {
+              "unit": "94b44c91e5c608100906b9a685192ef03f35780084cafe2e30f811dca163e33b",
+              "coverage": "partial",
+              "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+            }
+          ],
+          "evidence": [
+            {
+              "object": "S-0042",
+              "version": 1,
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            },
+            {
+              "object": "TR-T0780-C0069-fullpost",
+              "version": 1,
+              "role": "supports",
+              "note": "Aktuell full relevant13raders utvinning med separat redovisad primär kompletteringslucka och kvarvarande glyphreservationer."
+            }
+          ],
+          "disposition": "recorded",
+          "evidenceStatus": null,
+          "rationale": "Källpost avgränsad i C-0069. Alla läsningar av denna bild är samma källpost; hänvisningar C-1035/C-0425/C-0121 är jämförelser, inte ytterligare poster här.",
+          "caveat": "Bevara senare rättelser av Jacobs dag 6/12, osäkert vigselfält 61[?] och Anders Olofssons död 2[6]/4 1868; sidpersonerna nedtill är inte automatiskt släkt.\nC-0069: Äldre avskrift och tre senare läsningar skiljs. 16/7 på Jacobs rad är bokvariant mot C-1035:s 16 april. Dödfältstomheten har uttryckligen rättats för Anders Olofsson.\n\nT-0780: full13raders utvinning i TR-T0780-C0069-fullpost@1 omfattar åtta familjerader och fem separata nedre kontextrader, alla relevanta tryckta kolumner, egna blankceller, marginaler och F/N-par1863–1872. Primärens första åttaradersscope hade en täckningslucka; femraderstillägget är uttryckligen icke-blint, fryst före jämförelsen med oberoende granskarens redan fulla original-first femrader. Tidigare raw och avskrift bevaras som historik. Nuvarande egenradsfält har Anders Olofssons26/4 1868 i Död., Jacobs1865 6/12 och faderns1830 16/7 som variant mot starkare egen16april. Vigselfält61[?] med svaga eftertecken ger ingen exakt vigseldag. Anders Petters två F-tecken1870/1872 är N-lika, inte säkra v; yngre barns blankceller får ingen säker orsak av åldern. Maria Jacobsdotters änkecell har liten bläckrest; ordet Enka är säkert men daterar inte änkeståndets början. Egna ortceller är blanka utom Maria Christinas Bygdeå; barns ort får inte fyllas via modern. Makarnas1871 4/9 och1872 7/7 hålls skilda från odaterat/unrubricerat6/7-spill. Fem kontextrader har nu fulla egna fält och reservationer i fullTR, utan automatisk familjetillhörighet/ny identitet. Övriga svaga datum/namn/roller/folios bibehålls exakt reserverade där. Dessa läsningar är samma källpost, inte flera oberoende röster; inga olästa uppföljningssidor eller hela livskedjor avslutas.",
+          "assets": [
+            {
+              "path": "genealogy/media/C-0069-riksarkivet-SE-HLA-1010025-AI14b-bild-211-sida-567-uttersjon.jpg",
+              "region": "Bygdeå A I/14b, Ultervattnet s.567, bild211, C0034028_00211"
+            }
+          ],
+          "media": []
+        },
+        "pin": {
+          "path": "evaluations/T-0780/implementation/C0069-final-key-research-queue-v1/record-last-split-proposal-v1.json",
+          "sha256": "b3513b9519a83ef7ac072eb4aa55ad1eb6b0bc51e6cf063f407507a98a8b4537",
+          "index": 112,
+          "operation_id": "T-0780/C0069-three-wrapper-v1-record-last-proposal",
+          "targets": [
+            {
+              "id": "R-d1208f4d205fd7597ca682a8",
+              "expectedVersion": 1,
+              "payload_sha256": "17cc813cf547354dd67bbdf41493a4fc03d506116ef6275fb8dc3ebfab6c30d1"
+            }
+          ],
+          "changes": 1
+        }
+      }
+    }
+  ],
+  "new_proposal_or_membership_not_written": true,
+  "stage_canonical_probe": "UNRUN"
+}

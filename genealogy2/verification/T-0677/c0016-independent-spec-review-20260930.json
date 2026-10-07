@@ -1,0 +1,91 @@
+{
+  "task": "T-0677",
+  "reviewer": "Astra /root/g001_continue/c0016_independent",
+  "reviewed_at_utc": "2026-09-30T16:53:02.860729+00:00",
+  "scope": "Independent substantive review of settled C0016 specification; no implementation or canonical mutation.",
+  "inputs": [
+    {
+      "path": "genealogy2/verification/T-0677/c0016-source-comparison-acceptance-20260930.json",
+      "sha256": "c23a8646dac8dceb25d89167d67062e40dbf04041c3f713404f31b83ada43482"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0016-implementation-spec-before-review-precisions-20260930.json",
+      "sha256": "6cff64b0868b78260cac7b98c6f6557f5f1bac1dfc9959b6fdb1e935b894d621"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0016-independent-gaps-20260930.json",
+      "sha256": "d0b04e16f5ef63c39d90cb423d4000297802f47c92dfdd440910028a6388cd90"
+    }
+  ],
+  "decision": "pass_after_two_wording_precisions",
+  "checks": [
+    {
+      "item": "B21 upper25",
+      "result": "pass",
+      "reason": "Raw geometry preserved; attribution unresolved. Conditional comparison with 24 years is correct given E-birth-P-0042@1=1861-09-24 and child date1886-08-19. No new exact age/birth fact for Karl."
+    },
+    {
+      "item": "B22",
+      "result": "pass",
+      "reason": "Both discrepant readings retained; no yes/no expansion, delivery practitioner identity or confident alphabetic transcription."
+    },
+    {
+      "item": "B15 marriage duration",
+      "result": "pass",
+      "reason": "gift[e?]1år retained as literal with uncertain counting; E-marriage-P-0042-P-0043-1886@1=1886-04-26 confirmed. Neither inferred1885 marriage nor overriding own marriage record."
+    },
+    {
+      "item": "B6 (1)",
+      "result": "pass",
+      "reason": "Present raw parenthesis, function unresolved; no birth-order inference or silent retraction of earlier son Sven."
+    },
+    {
+      "item": "D4",
+      "result": "pass",
+      "reason": "12/9 source cell matched independent reading;1886 explicitly inherited from header and ritual remains kyrktagning/absolution alternative. No second baptism date."
+    },
+    {
+      "item": "person and pedigree boundaries",
+      "result": "pass",
+      "reason": "No new identity, biological relation or review-gate upgrade. Witness identity candidate remains LEAD. Existing own dates retained; findings belong to bounded source/person-context review."
+    },
+    {
+      "item": "coverage counts",
+      "result": "pass",
+      "reason": "28 columns,6 full documentary reuses,22 new partial/whole gap checks and14 blank gap cells agree with independent scope. Audit expressly reviewed_with_reservations; scope completeness does not imply decipherment certainty."
+    },
+    {
+      "item": "reused maternal role",
+      "result": "verified_existing_semantics",
+      "reason": "O-P-0043-C0016-maternal-age19@1 carries role_literal hustru and age19. This supports explicitly reused role semantics, not a new certain diplomatic reading of the abbreviation."
+    }
+  ],
+  "necessary_wording_precisions": [
+    {
+      "id": "R1",
+      "target": "source_new_objects TR consolidated-control -> B15 raw, and any new raw field repeating same label",
+      "problem": "[hustru-förkortning, exakt form osäker] labels the uncertain raw abbreviation with an expansion not independently established. Note does correctly say role reused, but raw field should preserve this distinction itself.",
+      "requested": "Use [rollförkortning; läsförslag Hᵘ/h[?], exakt form/expansion osäker] or equivalent unexpanded form. Keep hustru as explicitly reused semantics in note. No change to earlier maternal-role observation requested."
+    },
+    {
+      "id": "R2",
+      "target": "adoptions.P-0009",
+      "problem": "Adas hela egen födelsepost är utvunnen stands alone without the B15/B22 decipherment caveat included elsewhere. An adoption assessment should carry its own bounded qualification.",
+      "requested": "Replace with hela posten kolumnprövad/återbrukad, med teckenreservationer i B15/B22 och olöst funktion för(1), while retaining counts and unchanged person/tree conclusions."
+    }
+  ],
+  "advisory": [
+    {
+      "target": "implementation_rules new_person_facts evidence status",
+      "note": "The conditional24-year calculation and comparison with marriage date are conclusions, not source transcription. If project convention keeps TRANSCRIBED for their preserved source components, rationale/value must still explicitly distinguish comparison from quoted source; kind fact/source_comparison already points in the right direction."
+    }
+  ],
+  "not_reviewed": [
+    "Final generated operations",
+    "Temp apply and pending-review payloads",
+    "Complete impact91 disposition",
+    "Canonical apply outcome"
+  ],
+  "canonical_changes": false,
+  "input_preservation_note": "Reviewed pre-precision bytes preserved at immutable historical filename; settled implementation spec incorporates two requested wording changes and expectedVersion null model precision."
+}

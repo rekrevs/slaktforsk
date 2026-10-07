@@ -1,0 +1,89 @@
+# T-0227: Arnefamiljen: fulla öppnade målposter och saknade originalkopior
+
+**Status**: READY | **Size**: M
+
+## Context och mandat
+
+PCD-2026-09-07-026, konkret granskningsföljd av T-0123.
+Efter T-0123 och T-0115; ingen ny forskning under konsolideringen.
+
+## Scope och underlag
+
+P-0003 med direkt berörda P-0007/P-0009/P-0042/P-0043/P-0015/P-0016.
+Exakt C-0008 nr10: samtliga fadder-/statistikfält och doputdragets redan
+lästa hänvisning; C-0034 nr16: samtyckes-/försäkranskolumn7 och
+förrättare; C-0910 familjens egna ytterligare barnrader och Karls
+avskrivna födelsedag; C-1047 A II a/6 b638 full målpost och lokaloriginal;
+C-0923 de redan identifierade gravposterna för Arne/Maj, Axel och Hulda
+med exakt lokalisering, originalkopia och SHA. C-0030–32/C-0894–95
+Arnes egna kristendomsfält är redan prövade; repetera inte dem som olästa.
+Högst en direkt personrelevant fortsättningshänvisning per målpost,
+ingen bredare bostadskedja. Nya identiteter kräver först full läsning
+och dubblettkontroll samt förening med538-baslinjens slutrevision.
+Ingen beställning, vårdjournalinhämtning, kontakt eller ArkivDigital.
+
+## Acceptance Criteria
+
+Full relevant avskrift med prövade läsreservationer, bevarade original
+och hash där åtkomst är möjlig; konkret rest och åtkomstgräns annars.
+Varje berörd aktuell akt/profil och PK-05/11 omprövas individuellt.
+Ingen dödsplats/namnregistrering/obruten vistelse härleds ur gravpost.
+Alla följdfynd har avgränsade ägare; relevanta validatorer passerar.
+
+## Approach
+
+Stäm först av senaste personprofiler och redan bevarade källor.
+Fullutvinn avgränsade målposter, bedöm personbundna följder och båda
+kontraktsnivåerna. Samma observation bokförs en gång i research-log.
+
+## Verification
+
+Saklig efterkontroll; goal-state, research-inventory --write/--check,
+validate-genealogy, node --test scripts/, media-manifest --check,
+person-format för berörda akter och git diff --check.
+
+## Återupptagning
+
+- Uppdaterat:2026-09-07.
+- Utfört: konkret scope och föregående belägg identifierade i T-0123.
+- Nästa ej utförda steg: efter programmet, stäm av aktuella källor/profiler
+  och genomför första personbundna målposten inom scope.
+- Hinder: föregångarna; ingen passage genomförd i denna uppgift.
+
+## Återupptagning 2026-09-18: föregångare avslutade
+
+T-0115 och övriga angivna beroenden är DONE. Uppgiften är READY, inte startad.
+Nästa steg är den tidigare angivna första sakpassagen inom uppgiftens omfång,
+med aktuella Genealogy2-objekt enligt wotan/README.md. Gamla filsökvägar och
+skrivkommandon i planen är historik; det frysta genealogy ska inte redigeras.
+Ingen tidigare källpassage ska repeteras utan ett konkret sakligt skäl.
+
+## Återupptagning 2026-09-25: C-0008 mottaget från T-0677
+
+T-0677:s avgränsade C-0008-kontroll för Flen C/8 1915 nr 10, s. 181 bild 185 är införd genom [käll- och personoperationen](../../genealogy2/verification/T-0677/c0008-combined-proposed-operation-20260925.json) vid journal187 och 22 individuella retainbeslut genom [resolution-operationen](../../genealogy2/verification/T-0677/c0008-22-actual-retains-operation-20260925.json) vid journal188, pending0. Återbruka dess 23 enheter över 21 kolumner: nio hela återbruk, elva hela luckenheter och tre partiella kontroller. Fadder- och statistik-/ytterfälten är prövade med dokumenterade läsreservationer; de ska inte ompassas som olästa.
+
+Maskinisten är återtagen till förmån för rå `lägenhetsäg[?]`; `Jaensson[?]/Jansson`, `Skarpdal[?]`, `f.[?]` och moderns `tjäna[?]/rinna[?]` förblir reserverade. Vittnesidentiteter är fortsatt okända och får inte lösas genom titel, ort eller namnlikhet ensamt. Denna råfältsreservation kräver inte i sig ny källa eller ny person.
+
+T-0227:s övriga namngivna poster kvarstår och måste stämmas av mot senare genomförda journaler före aktivering; i synnerhet C-0034:s samtycke/förrättare och C-1047:s fulla målpost är inte lösta av C-0008. Bevara befintlig gräns högst en direkt personrelevant fortsättningshänvisning per målpost, inget bredare kedjearbete. Eventuell senare vittnesidentifiering kräver avgränsat mandat och dubblettkontroll. PK-05/11 prövas personbundet utan automatisk statuskonvertering. Status READY och köordning är oförändrade.
+
+## Återupptagning 2026-09-25: C-0034 mottaget från T-0677
+
+C0034nr16 är avgränsat fullprövat genom12hela återbruk,3hela luckkontroller och3partiella kontroller. Käll-/personoperation `T-0677/C0034-source-person-adoption-v1` infördesj191;11 individuella retainresolutioner genom `T-0677/C0034-11-actual-retains-v1` infördesj192,pending0. Rootavstämning: `genealogy2/verification/T-0677/c0034-root-postapply-completion-20260925.json`; alla15objekt och11skäl avstämda, tre oberoende verifierarePASS.
+
+Samtyckesförkortningar och förrättarens efternamn är prövade med bevarade alternativ, inte längre olästa fält. Brud.[?]/Brid.[?]/Båd.[?], min.[?], samt.[?]/samty.[?] och Lundin[?]/Lind[?] ger ingen fastställd rättshandling, namngiven mor eller förrättaridentitet. Tryckt kol13 är tom; äldre kol14 var felnumrering. Datum, parter, äktenskapsordning och PK-/trädutfall ändras inte. Ingen ytterligare C0034passage behövs för detta resultat.
+
+**Nästa ej utförda steg inom T0227:** stäm av återstående namngivna C0910/C1047 samt bevarande-/gravdelar mot senare journaler före aktivering; C0008 ochC0034 återbrukas. READY och köordning oförändrade.
+
+
+## Återupptagning 2026-10-02: faktisk källkreditering från T-0778
+
+C-1047 är faktiskt kanoniskt accepterad genom [programkvittot](../../genealogy2/verification/T-0677/c1047-astra-completion-20261002.json) och [roots införandekvitto](../../evaluations/T-0778/canonical-apply-C1047/canonical-result-v1.json), journal278–281, pending0. Bevarat fulloriginal `00153999_00231`, 5675×4046, SHA256 `9aa7cb9021fa8fb6e5faa4bcd55596512c148bdbb6381423f8a2a9321a2a81c3`. Full relevant union: familjens egna rader12/13/15, separat Sandberg14 och Astrids familj18–20; alla18 kolumner, rubriker, egna dittos, tomfält och marginaler,126 enheter. Familjens egna Charlotta-rad13 och dess54-enhetsgrupp tillgodoräknas i P-0043; de andra grupperna innebär inte en gemensam familj eller nya personidentiteter. Råreservationer, andra källors skuld och PK-/trädutfall bevaras. [Exakt fryst paket](../../evaluations/T-0778/C1047-preparation/C1047-final-package-freeze-v1.json) och [oberoende slut-PASS](../../evaluations/T-0778/fresh-independent-review/C1047-final-source-consequence-PASS-v1.json) ska återbrukas; denna fullbild eller prövade egna kolumner ska inte hämtas eller läsas om som olösta.
+
+Övrigt namngivet omfång kvarstår: C-0910:s egna ytterligare barnrader/Karls avskrivna födelsedag och C-0923:s exakt lokaliserade grav-/bevarandeposter måste först stämmas av mot senare accepterade journaler. C-0008 och C-0034 är redan krediterade ovan. Högst en direkt personrelevant fortsättningshänvisning per målpost och inga nya identiteter utan särskilt underlag. Status READY och köordning är oförändrade; T-0227 är inte genomförd eller DONE genom detta källkvitto.
+
+
+## Återupptagning — hård kärnprioritet 2026-10-05
+
+PCD-2026-10-05-001. Status, after, hela tidigare scope/AC och accepted-source/checkpoints består. Denna uppgift är DEFERRED i den gemensamma Wotankön i väntan på individuell kärntriage; detta är ingen saklig sidopersons- eller färdigbedömning. T-0784 äger separat endast den aktuella identitetsgrindomprövningen för P-0211/P-0003/P-0007 enligt dess exakta personbundna avgränsning. T-0227 behåller alla ursprungliga källpassager/bevarandefält och övriga personer/frågor som inte sakligt slutdispositioneras genom redan accepterat återbruk.
+
+Vid framtida aktivering: läs T0784:s faktiska resultat först om det finns; utför ingen överlappande omprövning eller accepterad fullpostläsning igen. Ett T0784utfall kan behålla UNDERKÄND/AVVAKTAR och identifiera en verklig nödvändig förutsättning här; främja då endast den explicit avgränsade relevanta delen med currentperson/source/time/field, inte hela blandade uppdraget. Ingen passage är utförd eller persongrind ändrad genom denna anteckning. Nästa ejutförda steg i ursprungsscope och alla konkreta äldre restfält bevaras ovan; ingen ny utvidgning.

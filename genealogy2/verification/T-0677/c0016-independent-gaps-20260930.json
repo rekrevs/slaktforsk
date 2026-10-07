@@ -1,0 +1,306 @@
+{
+  "task": "T-0677",
+  "stage": "independent-masked-gap-reading-locked",
+  "date": "2026-09-30",
+  "reader": {
+    "agent": "/root/g001_continue/c0016_independent",
+    "role": "independent Astra source reader"
+  },
+  "original": {
+    "path": "genealogy/media/C-0016-riksarkivet-SE-ULA-10830-C8-bild-69.jpg",
+    "sha256": "3812332f70b58e5d2d4919f454d4285ec9ead3f47af40fc37258c996affaf514",
+    "width": 7328,
+    "height": 5568
+  },
+  "stage1": "genealogy2/verification/T-0677/c0016-independent-stage1-20260930.json",
+  "target": "1886 nr 20, Ada Wilhelmina; locator provided, not full blind reading",
+  "mask": {
+    "whole_cell_gaps": [
+      "B4",
+      "B7",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B16",
+      "B17",
+      "B18",
+      "B19",
+      "B20",
+      "B22",
+      "B23",
+      "D4",
+      "D5"
+    ],
+    "partial_cells": [
+      "B5",
+      "B8",
+      "B6",
+      "B15",
+      "B21"
+    ],
+    "reused_no_new_transcription": [
+      "B1",
+      "B2",
+      "B3",
+      "D1",
+      "D2",
+      "D3"
+    ]
+  },
+  "blindness": {
+    "prior_transcripts_opened": false,
+    "person_views_opened": false,
+    "other_reader_files_opened": false,
+    "known_reused_values": "Locator/barnnamn, föräldranamn/hemvist som återbruksområden, Spånga och moderns 19 meddelades i masken; inga tidigare transkriptioner öppnades. Originalets omgivning synlig i geometriska utsnitt men återbrukade värden transkriberas inte här."
+  },
+  "method": {
+    "post_y": [
+      2140,
+      2550
+    ],
+    "header_y": [
+      550,
+      960
+    ],
+    "paired_header_and_cell_views": [
+      {
+        "x": 1080,
+        "width": 1320,
+        "covers": "B4–14"
+      },
+      {
+        "x": 2380,
+        "width": 1150,
+        "covers": "B15"
+      },
+      {
+        "x": 3710,
+        "width": 910,
+        "covers": "B16–23"
+      },
+      {
+        "x": 5710,
+        "width": 770,
+        "covers": "D4–5"
+      }
+    ],
+    "processing": "ImageMagick crops from original; each paired composite appends header crop and same-x target-row crop, no image enhancement or generated pixels. Additional enlargement of D4, B21/B22 and B15 tail. Original remains unchanged."
+  },
+  "cells": [
+    {
+      "id": "B4",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B5",
+      "scope": "partial_raw_mark_only",
+      "status": "avskriven",
+      "raw": "/",
+      "description": "Ett ensamt stigande snedstreck; kön q.-kolumnen.",
+      "reservation": "Tidigare semantik återbrukas; denna läsning tillför den synliga markeringen."
+    },
+    {
+      "id": "B6",
+      "scope": "partial_parenthetical_after_name_only",
+      "status": "avskriven",
+      "raw": "(1)",
+      "description": "Parentetiskt tecken efter barnets namn, tydlig vänsterbåge, en enkel diagonal etta och lång högerbåge.",
+      "interpretation": "Oetiketterat tillägg i dopnamnskolumnen.",
+      "reservation": "Rubriken anger dopnamn och ger ingen explicit funktion för parentesen; ingen slutsats om barnordning. Barnets namn återbrukas och transkriberas inte här."
+    },
+    {
+      "id": "B7",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B8",
+      "scope": "partial_raw_mark_only",
+      "status": "avskriven",
+      "raw": "/",
+      "description": "Ett ensamt stigande snedstreck; de levandeföddas civilstånd äkta q.",
+      "reservation": "Tidigare semantik återbrukas; denna läsning tillför den synliga markeringen."
+    },
+    {
+      "id": "B9",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B10",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B11",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B12",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B13",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B14",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B15",
+      "scope": "partial_maternal_role_marital_duration_tail_only",
+      "status": "osäker",
+      "raw": "h[?], gift 1 år",
+      "secure_components": [
+        "gift",
+        "1 år"
+      ],
+      "uncertain_components": [
+        {
+          "raw": "h[?]",
+          "description": "Högt h-/H-liknande huvudtecken med litet upphöjt/slutligt tecken omedelbart efter moderns namn.",
+          "possible_function": "Roll-/civilståndsförkortning; hustru är en möjlig expansion men inte fastställd av detta råtecken."
+        }
+      ],
+      "reservation": "Den exakta förkortningen är osäker. Gift 1 år är läsbart, men avrundningspraxis eller vigseldatum följer inte. Föräldranamn och hemvist återbrukas, utan ny avskrift."
+    },
+    {
+      "id": "B16",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B17",
+      "scope": "whole_cell",
+      "status": "avskriven",
+      "raw": "/",
+      "description": "Ett ensamt uppåtstigande snedstreck från nedre vänster till övre höger, i Modren: gift.",
+      "interpretation": "Markering i gift-kolumnen; streckets form får inte förväxlas med en separat numerisk sakuppgift."
+    },
+    {
+      "id": "B18",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B19",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B20",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "B21",
+      "scope": "partial_full_raw_geometry_in_age_cell",
+      "status": "avskriven",
+      "raw": "25\n19",
+      "description": "Två vertikalt åtskilda tal i samma tryckta ålderskolumn: 25 på den övre föräldratextradens nivå, 19 på den undre moderns textrad. Ingen linje skiljer dem till egna tryckta personkolumner.",
+      "geometry": {
+        "upper_value": {
+          "raw": "25",
+          "approximately_x": [
+            4007,
+            4082
+          ],
+          "approximately_y": [
+            2235,
+            2300
+          ]
+        },
+        "lower_value": {
+          "raw": "19",
+          "approximately_x": [
+            4008,
+            4082
+          ],
+          "approximately_y": [
+            2350,
+            2465
+          ]
+        }
+      },
+      "reservation": "Rubriken anger Modren: dess sist fyllda ålders år. Moderns 19 återbrukas enligt masken. Övre 25 är en tillkommande råuppgift; placeringen vid faderns textrad gör fadersålder tänkbar men är inte ensam ett explicit märkt ålderspåstående om fadern. Ingen exakt födelsetid härleds."
+    },
+    {
+      "id": "B22",
+      "scope": "whole_cell",
+      "status": "osäker",
+      "raw": "[a-/α-liknande tecken]",
+      "description": "Slingformat kursivt tecken på moderns textrad, en vänster öppen oval med uppåtgående högra ben och utgående högersvans.",
+      "interpretation": null,
+      "reservation": "Tecknet är tydligt närvarande i Examineradt förlossnings-biträde men exakt alfabetisk transkription och ja/nej-expansion är inte säkert fastställda."
+    },
+    {
+      "id": "B23",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    },
+    {
+      "id": "D4",
+      "scope": "whole_cell",
+      "status": "avskriven",
+      "raw": "12/9",
+      "description": "12 ovanför vågrätt/snett bråkstreck, 9 under.",
+      "interpretation": "Datum i kolumnen År, mån. och dag för Kyrktagning eller Absolution.",
+      "reservation": "Inget eget årtal i cellen; 1886 hör till sidans årsrubrik. Rubriken ensam gör inte val mellan kyrktagning och absolution."
+    },
+    {
+      "id": "D5",
+      "scope": "whole_cell",
+      "status": "tom",
+      "raw": null,
+      "reservation": "Tom inom målpostens avgränsade cell; ingen obegränsad negativ slutsats."
+    }
+  ],
+  "assessment_limits": [
+    "Samma original som primärläsaren; samstämmighet kan bli kvalitetskontroll men aldrig ett andra historiskt vittne.",
+    "Förkortningen efter moderns namn och B22-tecknets exakta alfabetiska form reserveras.",
+    "Ingen barnordning av (1), ingen normaliserad exakt fadersålder av 25 och ingen vigseldatering av gift 1 år införs.",
+    "Nya sakvärden i återbrukade hela celler har inte transkriberats."
+  ],
+  "canonical_changes": false,
+  "validation": {
+    "count": 22,
+    "whole_cells": 17,
+    "partial_cells": 5,
+    "json_parse": "pass"
+  }
+}

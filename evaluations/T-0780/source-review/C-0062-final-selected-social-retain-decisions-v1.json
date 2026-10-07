@@ -1,0 +1,63 @@
+{
+  "task": "T-0780",
+  "scope": "One final selected current object not yet represented in primary per-object ledger",
+  "objects": [
+    {
+      "current": {
+        "id": "ASSESS-P-0089-social-inference@1",
+        "object_id": "ASSESS-P-0089-social-inference",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "recorded",
+        "evidence_status": "INFERRED",
+        "rationale": "Överför uttryckligt befintligt underlag med bevarad räckvidd och försiktighet.",
+        "caveat": "",
+        "previous_id": null,
+        "kind": "assessment",
+        "data": {
+          "revision_id": "ASSESS-P-0089-social-inference@1",
+          "subject_id": "P-0089",
+          "criteria": "Dopvittnesrollens sociala räckvidd",
+          "outcome": "preserved_reasoning",
+          "body": "Akten/profilen drar slutsatsen att dopvittnesrollen förutsatte myndighet och betrodd ställning. Detta är projektresonemang; inget eget ålders-, behörighets- eller förtroendefält är läst."
+        },
+        "evidence": [
+          {
+            "revision_id": "ASSESS-P-0089-social-inference@1",
+            "basis_revision_id": "R-9a4e7b22ce37e515b3f9e559@1",
+            "role": "supports",
+            "note": "Befintligt avgränsat underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "origins": [
+          {
+            "revision_id": "ASSESS-P-0089-social-inference@1",
+            "unit_id": "230c94001e3c51056fa9700e07f68e1e4dce59839b08e926f265a97ccfe95107",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0089-forsberg-dopvittne-1867.md",
+            "start_line": 101,
+            "end_line": 101,
+            "raw": "| 1867-12-16 | dopvittne | Degerfors församling | [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md) | Vittnesrollen förutsatte att han var myndig och betrodd i församlingen — den enda indirekta uppgiften om hans ställning. |\n"
+          },
+          {
+            "revision_id": "ASSESS-P-0089-social-inference@1",
+            "unit_id": "2796f5de169fb99e63cd6825edd5389806b78fd3de7e90db142b205a3163d25f",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/research-profiles/P-0089.md",
+            "start_line": 59,
+            "end_line": 60,
+            "raw": "| SAM | AVGRÄNSAT | Vittnesrollen förutsatte att han var myndig och betrodd. Han står utan `och hustru` där två andra har hustrun med — ett läst noll som kan vara dolt av fläcken. | [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md); A-7769 |\n| HAL | ÖPPET | Levde och var närvarande 1867-12-16. Ingen ålder, inget dödsår, ingen riktad sökning möjlig. | [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md) |\n"
+          }
+        ],
+        "current": true
+      },
+      "disposition": "retain_all_fields",
+      "edits": [],
+      "rationale": "Hela body/meta/evidence/origins lästa. Objektet märker uttryckligen äldre myndighets-/förtroendeslutsats som projektresonemang och anger att inget eget sådant fält är läst. INFERRED/preserved_reasoning bevarar historiskt resonemang, inte ett nytt ålders- eller rättsfaktum."
+    }
+  ],
+  "new_objects": [],
+  "implementation": "Retain ledger only; zero revisions/new operations. Previous coverage assertion208/209 until this explicit retain; count reconciliation as production."
+}

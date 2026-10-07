@@ -1,0 +1,124 @@
+{
+  "task": "T-0677",
+  "journal": 219,
+  "captured_at": "2026-09-30T20:08:49.781208+00:00",
+  "scope": "Latest typed data: Ancestry AND(tre barn OR children), case-insensitive; mechanical match only.",
+  "matches": [],
+  "new_outside_existing_captures": {},
+  "observation_impact": {
+    "format": "genealogy2-impact/1",
+    "input": "O-P-0007-ancestry-children",
+    "query": null,
+    "database_state": {
+      "operations": 220,
+      "revisions": 47599,
+      "last_operation": {
+        "sequence": 219,
+        "operation_id": "T-0677/C0009-person-v1"
+      }
+    },
+    "seeds": [
+      {
+        "object_id": "O-P-0007-ancestry-children",
+        "revision_id": "O-P-0007-ancestry-children@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "LEAD",
+        "current": true,
+        "routes": [
+          {
+            "type": "explicit_object"
+          }
+        ]
+      }
+    ],
+    "routing_limit": "C-id maps to bounded records through import representations; this routing is provenance, not source support. No record mapping means no inferred dependency graph.",
+    "dependencies": {
+      "current": [],
+      "historical": []
+    },
+    "provenance": {
+      "classification": "import_provenance_not_evidence",
+      "origins": [
+        {
+          "revision_id": "O-P-0007-ancestry-children@1",
+          "unit_id": "4472bf14fbe1564d9d1a3d59e5fb13bc77d3f29132150500375ba3d4d1aa2ae9",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+          "object_id": "O-P-0007-ancestry-children",
+          "version": 1,
+          "kind": "observation",
+          "document_path": "genealogy/people/P-0007-may-amalia-ekholm.md",
+          "start_line": 47,
+          "end_line": 47,
+          "historical": 0,
+          "sha256": "db5b9d9244ae609fe5b6d66ad7e4ef3a01d633fe5a8d18e2150ed10bfee7e55d"
+        }
+      ],
+      "targets": [
+        {
+          "unit_id": "4472bf14fbe1564d9d1a3d59e5fb13bc77d3f29132150500375ba3d4d1aa2ae9",
+          "decision_id": "UD-4472bf14fbe1564d9d1a3d59e5fb13bc77d3f29132150500375ba3d4d1aa2ae9@1",
+          "target_id": "O-P-0007-ancestry-children",
+          "state": "mapped_complete",
+          "rationale": "Trädobservationen behåller LEAD, aktuellt barnantal separat.",
+          "question": "",
+          "document_path": "genealogy/people/P-0007-may-amalia-ekholm.md",
+          "start_line": 47,
+          "end_line": 47,
+          "historical": 0,
+          "sha256": "db5b9d9244ae609fe5b6d66ad7e4ef3a01d633fe5a8d18e2150ed10bfee7e55d",
+          "object_id": "O-P-0007-ancestry-children",
+          "revision_id": "O-P-0007-ancestry-children@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true
+        }
+      ]
+    },
+    "search": {
+      "matching": "Case-sensitive literal phrase; identifiers require boundaries. No stemming, date normalization or semantic matching.",
+      "terms": [
+        {
+          "value": "O-P-0007-ancestry-children",
+          "source": "identifier",
+          "boundary": true
+        }
+      ]
+    },
+    "text_candidates": {
+      "current": [],
+      "historical": []
+    },
+    "review": {
+      "items": [
+        {
+          "object_id": "O-P-0007-ancestry-children",
+          "revision_id": "O-P-0007-ancestry-children@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence",
+            "import_target_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        }
+      ],
+      "instructions": "Read inspect for each current object and its evidence. Record a reasoned decision in the active Wotan task / authorized operation. Revise through apply only when warranted; resolve only the exact existing pending request after individual review. Text/provenance candidates do not create requests. Null decisions are unreviewed, never approvals."
+    },
+    "limitations": [
+      "Read-only snapshot, not an execution queue. Re-run after revisions.",
+      "Text matches cannot establish copied facts, identity, error, relevance or support. Current text may contain historical retractions.",
+      "Unlinked paraphrases or different date/name spellings may be missed; supply relevant --query variants and inspect affected person profiles.",
+      "No query mutates data, adds evidence, opens/closes reviews or certifies complete semantic coverage."
+    ]
+  }
+}

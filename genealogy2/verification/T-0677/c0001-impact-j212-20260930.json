@@ -1,0 +1,5041 @@
+{
+  "command": "node genealogy2/cli.mjs impact C-0001",
+  "exit": 0,
+  "payload": {
+    "format": "genealogy2-impact/1",
+    "input": "C-0001",
+    "query": null,
+    "database_state": {
+      "operations": 213,
+      "revisions": 47490,
+      "last_operation": {
+        "sequence": 212,
+        "operation_id": "T-0677/C0013-person-v1"
+      }
+    },
+    "seeds": [
+      {
+        "object_id": "R-57465eb99730b7a08dd962c7",
+        "revision_id": "R-57465eb99730b7a08dd962c7@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "routes": [
+          {
+            "type": "citation_representation",
+            "via_object": "R-57465eb99730b7a08dd962c7"
+          },
+          {
+            "type": "citation_representation",
+            "via_object": "READ-87740f0fa417627668b7acba"
+          }
+        ]
+      }
+    ],
+    "routing_limit": "C-id maps to bounded records through import representations; this routing is provenance, not source support. No record mapping means no inferred dependency graph.",
+    "dependencies": {
+      "current": [
+        {
+          "object_id": "E-birth-P-0006",
+          "revision_id": "E-birth-P-0006@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "E-birth-P-0006@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "E-birth-P-0006@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "EP-E-birth-P-0006-P-0006-principal",
+          "revision_id": "EP-E-birth-P-0006-P-0006-principal@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 2,
+          "path": [
+            {
+              "revision_id": "E-birth-P-0006@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            },
+            {
+              "revision_id": "EP-E-birth-P-0006-P-0006-principal@1",
+              "basis_revision_id": "E-birth-P-0006@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: event_id"
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "EP-E-birth-P-0006-P-0006-principal@1",
+              "basis_revision_id": "E-birth-P-0006@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: event_id"
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0006-name_form-correlated",
+          "revision_id": "F-P-0006-name_form-correlated@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0006-name_form-correlated@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0006-name_form-correlated@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0006-name_form-married",
+          "revision_id": "F-P-0006-name_form-married@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0006-name_form-married@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0006-name_form-married@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "F-P-0035-secondary_source_report-A0179",
+          "revision_id": "F-P-0035-secondary_source_report-A0179@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "candidate",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "F-P-0035-secondary_source_report-A0179@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "F-P-0035-secondary_source_report-A0179@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0001-C0001-death",
+          "revision_id": "O-P-0001-C0001-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0001-C0001-death@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0001-C0001-death@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0002-C0001-birthyear",
+          "revision_id": "O-P-0002-C0001-birthyear@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0002-C0001-birthyear@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0002-C0001-birthyear@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0002-C0001-deathyear",
+          "revision_id": "O-P-0002-C0001-deathyear@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0002-C0001-deathyear@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0002-C0001-deathyear@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "O-P-0003-C0001-incomplete-birthyear",
+          "revision_id": "O-P-0003-C0001-incomplete-birthyear@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "O-P-0003-C0001-incomplete-birthyear@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "O-P-0003-C0001-incomplete-birthyear@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "supports",
+              "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        },
+        {
+          "object_id": "READ-87740f0fa417627668b7acba",
+          "revision_id": "READ-87740f0fa417627668b7acba@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "READ-87740f0fa417627668b7acba@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "READ-87740f0fa417627668b7acba@1",
+              "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        }
+      ],
+      "historical": []
+    },
+    "provenance": {
+      "classification": "import_provenance_not_evidence",
+      "origins": [
+        {
+          "revision_id": "R-57465eb99730b7a08dd962c7@1",
+          "unit_id": "0788b903aea9f60970484d5bcd6c14afdffb628f06def802b82f2c960db50931",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-57465eb99730b7a08dd962c7",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0001-geni-utdrag.md",
+          "start_line": 1,
+          "end_line": 52,
+          "historical": 0,
+          "sha256": "96f2dd183834ad5e9b6e5643ee5b6c294bd9da7c536b24d655bf33d6c571bd5b"
+        },
+        {
+          "revision_id": "R-57465eb99730b7a08dd962c7@1",
+          "unit_id": "8d8ae58ce72c9d197740f49528beb4c4c665b88daf699fadfbbdaedd4f810c61",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "R-57465eb99730b7a08dd962c7",
+          "version": 1,
+          "kind": "record",
+          "document_path": "genealogy/citations/C-0001-geni-utdrag.md",
+          "start_line": 9,
+          "end_line": 32,
+          "historical": 0,
+          "sha256": "96f2dd183834ad5e9b6e5643ee5b6c294bd9da7c536b24d655bf33d6c571bd5b"
+        },
+        {
+          "revision_id": "READ-87740f0fa417627668b7acba@1",
+          "unit_id": "0788b903aea9f60970484d5bcd6c14afdffb628f06def802b82f2c960db50931",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-87740f0fa417627668b7acba",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0001-geni-utdrag.md",
+          "start_line": 1,
+          "end_line": 52,
+          "historical": 0,
+          "sha256": "96f2dd183834ad5e9b6e5643ee5b6c294bd9da7c536b24d655bf33d6c571bd5b"
+        },
+        {
+          "revision_id": "READ-87740f0fa417627668b7acba@1",
+          "unit_id": "8d8ae58ce72c9d197740f49528beb4c4c665b88daf699fadfbbdaedd4f810c61",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+          "object_id": "READ-87740f0fa417627668b7acba",
+          "version": 1,
+          "kind": "assessment",
+          "document_path": "genealogy/citations/C-0001-geni-utdrag.md",
+          "start_line": 9,
+          "end_line": 32,
+          "historical": 0,
+          "sha256": "96f2dd183834ad5e9b6e5643ee5b6c294bd9da7c536b24d655bf33d6c571bd5b"
+        }
+      ],
+      "targets": []
+    },
+    "search": {
+      "matching": "Case-sensitive literal phrase; identifiers require boundaries. No stemming, date normalization or semantic matching.",
+      "terms": [
+        {
+          "value": "C-0001",
+          "source": "identifier",
+          "boundary": true
+        },
+        {
+          "value": "R-57465eb99730b7a08dd962c7",
+          "source": "identifier",
+          "boundary": true
+        }
+      ]
+    },
+    "text_candidates": {
+      "current": [
+        {
+          "object_id": "ASSESSMENT-P-0001",
+          "revision_id": "ASSESSMENT-P-0001@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1889,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "-oskar-zingmark-identitet-avvisad.md), [C-0003](../citations/C-0003-rosinedal-sida-103-negativ-kontroll.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [personaktens tidslinje](../people/P-0001-oskar-alfred-zing",
+              "excerpt_start": 1779
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0002",
+          "revision_id": "ASSESSMENT-P-0002@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1952,
+              "line": 15,
+              "occurrences": 2,
+              "excerpt": "rov-yrkeskallor-djup-3-2026-09-06.md), [C-0818](../citations/C-0818-agarens-bekraftelse-zingmark-syskon.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [personaktens tidslinje](../people/P-0002-ebba-alfrida-ande",
+              "excerpt_start": 1842
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0005",
+          "revision_id": "ASSESSMENT-P-0005@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 484,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "ons/C-0005-anvandarens-foraldrauppgift.md), [C-0047](../citations/C-0047-anvandarens-uppgift-maj-farmor.md), [C-0001](../citations/C-0001-geni-utdrag.md), [C-0261](../citations/C-0261-korsberga-lars-mansson-dna-och-attlingar.m",
+              "excerpt_start": 374
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0006",
+          "revision_id": "ASSESSMENT-P-0006@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 550,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "(../../PROJECT-CONTROL.md#pcd-2026-09-03-004), [C-0005](../citations/C-0005-anvandarens-foraldrauppgift.md), [C-0001](../citations/C-0001-geni-utdrag.md), [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md), [",
+              "excerpt_start": 440
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0030",
+          "revision_id": "ASSESSMENT-P-0030@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 854,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "dsforsamling-1917-1925.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens kända hållpunkter](../people/P-0030-livia-sofia-zin",
+              "excerpt_start": 744
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0031",
+          "revision_id": "ASSESSMENT-P-0031@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 814,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "han-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens tretton hållpunkter 1890–1922](../people/P-0031-ast",
+              "excerpt_start": 704
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0032",
+          "revision_id": "ASSESSMENT-P-0032@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 969,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "30-zingmark-umea-och-carlman-kalmar.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens sexton hållpunkter 1892–1949](../people/P-0032-ande",
+              "excerpt_start": 859
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0033",
+          "revision_id": "ASSESSMENT-P-0033@3",
+          "version": 3,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 966,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "30-zingmark-umea-och-carlman-kalmar.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens fjorton hållpunkter 1894–1949](../people/P-0033-joh",
+              "excerpt_start": 856
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0034",
+          "revision_id": "ASSESSMENT-P-0034@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 864,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "gmark-umea-och-carlman-kalmar.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens kända hållpunkter](../people/P-0034-petrus-nikolaus",
+              "excerpt_start": 754
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0036",
+          "revision_id": "ASSESSMENT-P-0036@3",
+          "version": 3,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 811,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "umea-stad-1925-1941.md), [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens nio hållpunkter 1905–1962](../people/P-0036-birger-",
+              "excerpt_start": 701
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0037",
+          "revision_id": "ASSESSMENT-P-0037@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 819,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "umea-stad-1925-1941.md), [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens nio hållpunkter 1907–1981](../people/P-0037-thyra-c",
+              "excerpt_start": 709
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0039",
+          "revision_id": "ASSESSMENT-P-0039@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 526,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "mark-burtrask-gammelbyn-1930-1950.md), [C-0818](../citations/C-0818-agarens-bekraftelse-zingmark-syskon.md), [C-0001](../citations/C-0001-geni-utdrag.md), [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.m",
+              "excerpt_start": 416
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0040",
+          "revision_id": "ASSESSMENT-P-0040@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 522,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "mark-burtrask-gammelbyn-1930-1950.md), [C-0818](../citations/C-0818-agarens-bekraftelse-zingmark-syskon.md), [C-0001](../citations/C-0001-geni-utdrag.md), [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.m",
+              "excerpt_start": 412
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0041",
+          "revision_id": "ASSESSMENT-P-0041@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 548,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "mark-burtrask-gammelbyn-1930-1950.md), [C-0818](../citations/C-0818-agarens-bekraftelse-zingmark-syskon.md), [C-0001](../citations/C-0001-geni-utdrag.md), [PCD-2026-09-03-004](../../PROJECT-CONTROL.md#pcd-2026-09-03-004)\n- Tid",
+              "excerpt_start": 438
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "BIO-P-0001",
+          "revision_id": "BIO-P-0001@4",
+          "version": 4,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 4413,
+              "line": 59,
+              "occurrences": 2,
+              "excerpt": "örsamling, och dödboken är oläst\n([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)). Att makarna och hennes\nföräldrar delar gravplats är ett faktum ur grav",
+              "excerpt_start": 4303
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "BIO-P-0030",
+          "revision_id": "BIO-P-0030@4",
+          "version": 4,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1875,
+              "line": 29,
+              "occurrences": 2,
+              "excerpt": "dsforsamling-1917-1925.md),\n[C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 1765
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "BIO-P-0034",
+          "revision_id": "BIO-P-0034@3",
+          "version": 3,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 2174,
+              "line": 30,
+              "occurrences": 2,
+              "excerpt": "gmark-umea-och-carlman-kalmar.md),\n[C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 2064
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "BIO-P-0035",
+          "revision_id": "BIO-P-0035@3",
+          "version": 3,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 3230,
+              "line": 9,
+              "occurrences": 2,
+              "excerpt": "därträdets dödsår 1979 är inte originalbelagt. [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 3120
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "BIO-P-0038",
+          "revision_id": "BIO-P-0038@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1834,
+              "line": 7,
+              "occurrences": 2,
+              "excerpt": "ödsår 1995 är inte originalbelagt. [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 1724
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "BIO-P-0039",
+          "revision_id": "BIO-P-0039@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 955,
+              "line": 17,
+              "occurrences": 2,
+              "excerpt": "ång, yrke, egen\nfamilj och bostadsorter är okända, och sekundärträdets dödsår 2006 är en\nobekräftad ledtråd ([C-0001](../citations/C-0001-geni-utdrag.md)). Han är\ninte gravsatt i föräldrarnas och morföräldrarnas familjegrav i ",
+              "excerpt_start": 845
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "BIO-P-0040",
+          "revision_id": "BIO-P-0040@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 898,
+              "line": 16,
+              "occurrences": 2,
+              "excerpt": " `JANUARY Oskar` i\nden maskinöversatta delen av Geni-utdraget är ett gränssnittsfel och inte en\nnamnvariant ([C-0001](../citations/C-0001-geni-utdrag.md)).\n\nEfter 1950 är ingenting belagt. Skolgång, yrke, egen familj och bosta",
+              "excerpt_start": 788
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "CONTRACT-P-0004-PK-01",
+          "revision_id": "CONTRACT-P-0004-PK-01@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 153,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "länk och krönika överensstämmer. [C-0252](../citations/C-0252-familjen-janson-namn-datum-och-relationer.md), [C-0001](../citations/C-0001-geni-utdrag.md). |\n",
+              "excerpt_start": 43
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "CONTRACT-P-0006-PK-05",
+          "revision_id": "CONTRACT-P-0006-PK-05@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 43,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "| PK-05 | STYRKT | Hela den del av C-0005, C-0001, C-0266, C-0818 och C-0889 som rör henne är utvunnen: namnformerna, födelseåret, födelseförsamlingen, uppslag",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "CONTRACT-P-0030-PK-10",
+          "revision_id": "CONTRACT-P-0030-PK-10@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 250,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": " gård och yrke är märkta som hans. [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0001](../citations/C-0001-geni-utdrag.md) |\n",
+              "excerpt_start": 140
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "CONTRACT-P-0034-PK-09",
+          "revision_id": "CONTRACT-P-0034-PK-09@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 460,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "gmark-umea-och-carlman-kalmar.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0001](../citations/C-0001-geni-utdrag.md) |\n",
+              "excerpt_start": 350
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "F-P-0035-secondary_source_report-A0179",
+          "revision_id": "F-P-0035-secondary_source_report-A0179@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "candidate",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "value_json",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 123,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": ":\"1901\",\"death_year\":\"1979\",\"death_year_status\":\"LEAD\",\"name\":\"Ludvig Emanuel Zingmark\",\"source\":\"Geni-utdrag C-0001\"}",
+              "excerpt_start": 13
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0001-5348b50b00c1",
+          "revision_id": "KEY-P-0001-5348b50b00c1@3",
+          "version": 3,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 921,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Församlingsformen är omstridd mot [C-0001](../citations/C-0001-geni-utdrag.md). |\n",
+              "excerpt_start": 811
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0006-aa60b392fb9f",
+          "revision_id": "KEY-P-0006-aa60b392fb9f@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 92,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| `Anna Hillevi Janson, född Zingmark`, Geni | Fullständig namnform inklusive gift namn. | [C-0001](../citations/C-0001-geni-utdrag.md) | Sekundärträd, men numera korroborerat av C-0889 i förnamn, år och förä",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0028-a0d204fe9fc0",
+          "revision_id": "KEY-P-0028-a0d204fe9fc0@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 265,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "gmark-ytterhiske-umea-stad-1925-1941.md) | Säker; ersätter den gamla nyckeln \"död 1935 enligt sekundärträd\" ([C-0001](../citations/C-0001-geni-utdrag.md)). |\n",
+              "excerpt_start": 155
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0030-e90bd4fa2f1c",
+          "revision_id": "KEY-P-0030-e90bd4fa2f1c@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 154,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "ll Malå och senare folkbokföring | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0001](../citations/C-0001-geni-utdrag.md) | Äldre makeefternamnshypotes, nu olöst i C0890 efter riktad prövning; i",
+              "excerpt_start": 44
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0031-e51063df565d",
+          "revision_id": "KEY-P-0031-e51063df565d@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 40,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| ~~Namnet `Hörnberg`~~ | efter 1921 | [C-0001](../citations/C-0001-geni-utdrag.md) | **Spärrad som ensam söknyckel.** Endast sekundärträd; inget uppslag i ",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0032-326c71d3a225",
+          "revision_id": "KEY-P-0032-326c71d3a225@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 41,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| ~~Sekundärträdets dödsår 1949~~ | — | [C-0001](../citations/C-0001-geni-utdrag.md) | **Spärrat.** Samma träd ger brodern samma dödsår, vilket är den klassi",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0033-307e20f2f6d4",
+          "revision_id": "KEY-P-0033-307e20f2f6d4@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 52,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| ~~Namnformen `Magnus (Johan)`~~ | sekundärträd | [C-0001](../citations/C-0001-geni-utdrag.md) | **Spärrad som ensam ingång.** Ingen samtida källa kastar om namnleden;",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0033-da122e81cbd8",
+          "revision_id": "KEY-P-0033-da122e81cbd8@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 41,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| ~~Sekundärträdets dödsår 1949~~ | — | [C-0001](../citations/C-0001-geni-utdrag.md) | **Spärrat.** Samma träd ger brodern samma dödsår, vilket är den klassi",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0036-78df6a989db4",
+          "revision_id": "KEY-P-0036-78df6a989db4@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 41,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| ~~Sekundärträdets dödsår 1962~~ | — | [C-0001](../citations/C-0001-geni-utdrag.md) | **Spärrat som ingång.** Obelagt. Till skillnad från två av bröderna bä",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0037-15afa7fc66ec",
+          "revision_id": "KEY-P-0037-15afa7fc66ec@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 41,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| ~~Sekundärträdets dödsår 1981~~ | — | [C-0001](../citations/C-0001-geni-utdrag.md) | **Spärrat.** Obelagt, och utan hennes uppländska hemförsamling finns i",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0037-efb3843796b0",
+          "revision_id": "KEY-P-0037-efb3843796b0@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 43,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| ~~`Tärnvik` som ingång~~ | efter 1932 | [C-0001](../citations/C-0001-geni-utdrag.md) | **Spärrad.** Endast sekundärträd; ingen läst källa nämner en vigsel el",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0039-38f95b163a8a",
+          "revision_id": "KEY-P-0039-38f95b163a8a@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 74,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| Dödsåret 2006 | Tidsfönster för dödbok, gravregister och dödsannons. | [C-0001](../citations/C-0001-geni-utdrag.md) | Sekundärträdsledtråd av låg tillförlitlighet; får styra ett sökinterva",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0040-48e4cd809042",
+          "revision_id": "KEY-P-0040-48e4cd809042@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 191,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "alla index- och registersökningar. | [C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md), [C-0001](../citations/C-0001-geni-utdrag.md) | Sökning på `January Zingmark` är meningslös; `Jan-Oskar` med bindestre",
+              "excerpt_start": 81
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0040-e0c879fffc87",
+          "revision_id": "KEY-P-0040-e0c879fffc87@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 74,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| Dödsåret 1999 | Tidsfönster för dödbok, gravregister och dödsannons. | [C-0001](../citations/C-0001-geni-utdrag.md) | Sekundärträdsledtråd av låg tillförlitlighet; får styra ett sökinterva",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "KEY-P-0041-750610c675e5",
+          "revision_id": "KEY-P-0041-750610c675e5@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 119,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "f Urban Zingmark, född 1942 i Burträsk | Identitetsankare inom projektet; används inte för extern sökning. | [C-0001](../citations/C-0001-geni-utdrag.md), [C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md) ",
+              "excerpt_start": 9
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0001-C0001-death",
+          "revision_id": "O-P-0001-C0001-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-57465eb99730b7a08dd962c7",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-57465eb99730b7a08dd962c7",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0002-C0001-birthyear",
+          "revision_id": "O-P-0002-C0001-birthyear@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-57465eb99730b7a08dd962c7",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-57465eb99730b7a08dd962c7",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0002-C0001-deathyear",
+          "revision_id": "O-P-0002-C0001-deathyear@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-57465eb99730b7a08dd962c7",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-57465eb99730b7a08dd962c7",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "O-P-0003-C0001-incomplete-birthyear",
+          "revision_id": "O-P-0003-C0001-incomplete-birthyear@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "record_id",
+              "term": "R-57465eb99730b7a08dd962c7",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-57465eb99730b7a08dd962c7",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0001/Q-02",
+          "revision_id": "P-0001/Q-02@3",
+          "version": 3,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1276,
+              "line": 7,
+              "occurrences": 2,
+              "excerpt": "([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md)); Geni skriver landsförsamlingen ([C-0001](../citations/C-0001-geni-utdrag.md)).\n- Alternativ och motprövning: Umeå stadsförsamling eller Umeå landsför",
+              "excerpt_start": 1166
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0006/Q-01",
+          "revision_id": "P-0006/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 304,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "lägg.\n- Känt underlag: [C-0005](../citations/C-0005-anvandarens-foraldrauppgift.md) `Hillevi född Zingmark`; [C-0001](../citations/C-0001-geni-utdrag.md) `Anna Hillevi Janson, född Zingmark (född 1938)` som dotter till samma f",
+              "excerpt_start": 194
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0034/Q-03",
+          "revision_id": "P-0034/Q-03@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 260,
+              "line": 6,
+              "occurrences": 2,
+              "excerpt": "ar bouppteckning, grav och dödsannons och\n  stänger den sista stora luckan i hans livsbild.\n- Känt underlag: [C-0001](../citations/C-0001-geni-utdrag.md) för året 1983;\n  sista lästa hållpunkten är uppslag 1704 år 1941 i\n  [C-",
+              "excerpt_start": 150
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0035/Q-04",
+          "revision_id": "P-0035/Q-04@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 181,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "r slutpunkt. Sekundärträdet anger 1979, vilket ligger trettioett år efter sista lästa post.\n- Känt underlag: [C-0001](../citations/C-0001-geni-utdrag.md) A-0179 och [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md).",
+              "excerpt_start": 71
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0038/Q-04",
+          "revision_id": "P-0038/Q-04@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 163,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": ": livslinjen saknar slutpunkt. Sekundärträdet anger 1995, sextio år efter sista lästa post.\n- Känt underlag: [C-0001](../citations/C-0001-geni-utdrag.md) A-0182.\n- Alternativ och motprövning: hon kan ha blivit kvar i Lövånger ",
+              "excerpt_start": 53
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0039/Q-01",
+          "revision_id": "P-0039/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 474,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "-zingmark-burtrask-gammelbyn-1930-1950.md) ger utflyttningen 1950-09-02 med betyg 1950-08-30 till Umeå stad; [C-0001](../citations/C-0001-geni-utdrag.md) ger dödsåret 2006 som ledtråd; [C-0878](../citations/C-0878-oskar-alfred",
+              "excerpt_start": 364
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0040/Q-01",
+          "revision_id": "P-0040/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 484,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "-zingmark-burtrask-gammelbyn-1930-1950.md) ger utflyttningen 1950-09-02 med betyg 1950-08-30 till Umeå stad; [C-0001](../citations/C-0001-geni-utdrag.md) ger dödsåret 1999 som ledtråd; [C-0878](../citations/C-0878-oskar-alfred",
+              "excerpt_start": 374
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "P-0041/Q-01",
+          "revision_id": "P-0041/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 339,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "Frithjof`. Frågan gäller enbart namnformen och påverkar ingen identitet och ingen relation.\n- Känt underlag: [C-0001](../citations/C-0001-geni-utdrag.md) med `Frithiof Urban Zingmark (född 1942)` och [C-0889](../citations/C-08",
+              "excerpt_start": 229
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "PATH-P-0030-KP-03",
+          "revision_id": "PATH-P-0030-KP-03@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 703,
+              "line": 13,
+              "occurrences": 2,
+              "excerpt": "et gifta namnet Hällsten ur\n  [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) och\n  [C-0001](../citations/C-0001-geni-utdrag.md).\n- Beroenden: kräver Malåresultatet från KP-02 för att veta vilken försa",
+              "excerpt_start": 593
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "PATH-P-0030-KP-04",
+          "revision_id": "PATH-P-0030-KP-04@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 702,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "t\n  Hällsten ur [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md);\n  dödsåret 1977 ur [C-0001](../citations/C-0001-geni-utdrag.md).\n- Beroenden: kräver dödsort och en säker senare hemvist. Den generella\n",
+              "excerpt_start": 592
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "PATH-P-0034-KP-05",
+          "revision_id": "PATH-P-0034-KP-05@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 419,
+              "line": 10,
+              "occurrences": 2,
+              "excerpt": "ande, egendom\n  och skulder. Vägen kan inte öppnas utan dödsort.\n- Ingång och söknycklar: dödsåret 1983 ur\n  [C-0001](../citations/C-0001-geni-utdrag.md), födelsedagen 1899-08-06 och\n  hustruns namn.\n- Beroenden: kräver result",
+              "excerpt_start": 309
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "R-57465eb99730b7a08dd962c7",
+          "revision_id": "R-57465eb99730b7a08dd962c7@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": true,
+          "hits": [
+            {
+              "field": "rationale",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 21,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Källpost avgränsad i C-0001. MyHeritage-uppgifter är inbäddade i samma återgivning och har inte här belagd självständig ursprungskedja.",
+              "excerpt_start": 0
+            },
+            {
+              "field": "caveat",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 88,
+              "line": 2,
+              "occurrences": 1,
+              "excerpt": "Ingen stabil profiladress eller bildlokalisering anges; inklistrad sekundär profiltext.\nC-0001: Dokumentet blandar Geni-profil, återgiven MyHeritage-text, gränssnittsfelläsningen January Oskar och ett sep",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "READ-87740f0fa417627668b7acba",
+          "revision_id": "READ-87740f0fa417627668b7acba@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "subject_id",
+              "term": "R-57465eb99730b7a08dd962c7",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "R-57465eb99730b7a08dd962c7",
+              "excerpt_start": 0
+            },
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "C-0001: Dokumentet blandar Geni-profil, återgiven MyHeritage-text, gränssnittsfelläsningen January Oskar och ett sep",
+              "excerpt_start": 0
+            },
+            {
+              "field": "rationale",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 43,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "Dokumenterad avgränsning och läshistorik i C-0001; ingen ny oberoende evidensröst.",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0001-9d76f0343410",
+          "revision_id": "RESEARCH-P-0001-9d76f0343410@5",
+          "version": 5,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 3482,
+              "line": 41,
+              "occurrences": 2,
+              "excerpt": "exakt datum, födelseförsamling, värnpliktsnummer, yrke och\nsidhänvisning, inte på namnlikhet.\n\nGeni-utdraget [C-0001](../citations/C-0001-geni-utdrag.md) anger samma\nföräldrar, hustru, syskon och barn och tillförde död 1963-07",
+              "excerpt_start": 3372
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0002-9d76f0343410",
+          "revision_id": "RESEARCH-P-0002-9d76f0343410@5",
+          "version": 5,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 4058,
+              "line": 39,
+              "occurrences": 2,
+              "excerpt": "genom exakt\nfödelsedatum, men det anger varken hemförsamling eller dödsort, och dödboken\när inte läst. Geni ([C-0001](../citations/C-0001-geni-utdrag.md)) ger samma\nmake och barn samt året 1997 som `LEAD`; barnrelationerna är\n",
+              "excerpt_start": 3948
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0004-9d76f0343410",
+          "revision_id": "RESEARCH-P-0004-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 263,
+              "line": 7,
+              "occurrences": 2,
+              "excerpt": "ed fullständigt namn och födelsedatum 1963-11-27, och tidigare länkad till\nprofilförvaltaren i Geni-utdraget\n[C-0001](../citations/C-0001-geni-utdrag.md). Föräldrarna\n[P-0005](../people/P-0005-jan-christer-janson.md) och\n[P-00",
+              "excerpt_start": 153
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0005-9d76f0343410",
+          "revision_id": "RESEARCH-P-0005-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 770,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": ".\nArnerelationen bärs av Jan-Christers egen namngivna familjeberättelse C-0266,\ni samklang med Geni-utdraget [C-0001](../citations/C-0001-geni-utdrag.md) och\nmed Arnes och Majs arkivbelagda äktenskap 1938.\n\nTill detta kom i T-",
+              "excerpt_start": 660
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0006-9d76f0343410",
+          "revision_id": "RESEARCH-P-0006-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1273,
+              "line": 23,
+              "occurrences": 2,
+              "excerpt": "`. Den samtida kyrkobokföringen stämmer med Geni-utdragets\n`Anna Hillevi Janson, född Zingmark (född 1938)`\n([C-0001](../citations/C-0001-geni-utdrag.md)) i förnamn, födelseår och\nföräldrapar. A-0028 har därför höjts från `LEA",
+              "excerpt_start": 1163
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0030-9d76f0343410",
+          "revision_id": "RESEARCH-P-0030-9d76f0343410@4",
+          "version": 4,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1592,
+              "line": 19,
+              "occurrences": 1,
+              "excerpt": " vidare från samma första uppteckning; egen födelsenotis\ni Degerfors födelsebok 1888 är oläst. Sekundärträdet C-0001 är en familjeuppgift\noch räknas inte som självständigt belägg för datum.\n\nDen enda konkurrerande posten är [P",
+              "excerpt_start": 1482
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0040-9d76f0343410",
+          "revision_id": "RESEARCH-P-0040-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1053,
+              "line": 21,
+              "occurrences": 2,
+              "excerpt": "\nKyrkobokens `Jan` avgör dessutom en bevarad läsfråga. Formen `JANUARY Oskar`\ni den maskinöversatta delen av\n[C-0001](../citations/C-0001-geni-utdrag.md) bedömdes redan 2026-08-19 som\nett gränssnittsfel; den bedömningen har nu",
+              "excerpt_start": 943
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "RESEARCH-P-0041-dc9e05f77b98",
+          "revision_id": "RESEARCH-P-0041-dc9e05f77b98@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 324,
+              "line": 7,
+              "occurrences": 2,
+              "excerpt": " ägarens bekräftelse\n[C-0818](../citations/C-0818-agarens-bekraftelse-zingmark-syskon.md) och\nsekundärträdet [C-0001](../citations/C-0001-geni-utdrag.md), samt K-01,\nhusförhör och församlingsbok, genom föräldrahushållets uppsl",
+              "excerpt_start": 214
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "S-0001",
+          "revision_id": "S-0001@1",
+          "version": 1,
+          "kind": "source",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "description",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 631,
+              "line": 17,
+              "occurrences": 2,
+              "excerpt": "iga namngivna familjemedlemmar och de grunduppgifter\n  som syntes i användarens utdrag har sammanfattats i\n  [C-0001](../citations/C-0001-geni-utdrag.md).\n\n## Källkritik\n\nDetta är en sammanställd användarprofil utan synliga kä",
+              "excerpt_start": 521
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0004-ID",
+          "revision_id": "THEME-P-0004-ID@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 123,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "ITETSMINIMERAT | Självidentifierad proband; namn och födelsedatum är tillräckliga och fullständiga. | C-0252, C-0001. |\n",
+              "excerpt_start": 13
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0006-ID",
+          "revision_id": "THEME-P-0006-ID@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 381,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "-0005-anvandarens-foraldrauppgift.md), [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md), [C-0001](../citations/C-0001-geni-utdrag.md), [C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md);",
+              "excerpt_start": 271
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0028-PER",
+          "revision_id": "THEME-P-0028-PER@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 593,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "-rosinedal-katalogkontroll.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-0001](../citations/C-0001-geni-utdrag.md); KP-03, K-38 via ägaren |\n",
+              "excerpt_start": 483
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0030-HAL",
+          "revision_id": "THEME-P-0030-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 266,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "snotis; orsak och ort är okända. | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0001](../citations/C-0001-geni-utdrag.md); KP-03, KP-04 |\n",
+              "excerpt_start": 156
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0030-PER",
+          "revision_id": "THEME-P-0030-PER@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 206,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "erade. Sekundärträdet är en familjeuppgift utan bilaga för henne, och ingen personlig källgräns är prövad. | [C-0001](../citations/C-0001-geni-utdrag.md); KP-04 |\n",
+              "excerpt_start": 96
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0030-SYN",
+          "revision_id": "THEME-P-0030-SYN@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 255,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": " är namngiven, inte överbryggad. | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0001](../citations/C-0001-geni-utdrag.md); KP-02, KP-03 |\n",
+              "excerpt_start": 145
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0031-HAL",
+          "revision_id": "THEME-P-0031-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 235,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "undärträd, och utan makens namn finns ingen församling att söka i — dödsfrågan är därför beroende av Q-01. | [C-0001](../citations/C-0001-geni-utdrag.md); A-0172; Q-01, KP-01 |\n",
+              "excerpt_start": 125
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0034-HAL",
+          "revision_id": "THEME-P-0034-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 246,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": " sekundäruppgift utan dödsnotis. | [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0001](../citations/C-0001-geni-utdrag.md); KP-05 |\n",
+              "excerpt_start": 136
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0034-SYN",
+          "revision_id": "THEME-P-0034-SYN@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 291,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": " 1941 saknar all läst bokföring. | [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0001](../citations/C-0001-geni-utdrag.md); KP-02, KP-03 |\n",
+              "excerpt_start": 181
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0035-HAL",
+          "revision_id": "THEME-P-0035-HAL@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 455,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "ytterhiske-umea-landsforsamling-1917-1925.md), [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md), [C-0001](../citations/C-0001-geni-utdrag.md); KP-04 |\n",
+              "excerpt_start": 345
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0036-HAL",
+          "revision_id": "THEME-P-0036-HAL@3",
+          "version": 3,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 256,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "erförd år54; ingen dödanteckning på denna rad. Döden är helt obelagd, och sekundärträdets 1962 är spärrat. | [C-0001](../citations/C-0001-geni-utdrag.md); A-0180; Q-01, KP-01 |\n",
+              "excerpt_start": 146
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0037-HAL",
+          "revision_id": "THEME-P-0037-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 254,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "s 1981 är spärrat eftersom det saknas en hemförsamling att söka i — dödsfrågan är därför beroende av Q-01. | [C-0001](../citations/C-0001-geni-utdrag.md); A-0181; Q-01, KP-01 |\n",
+              "excerpt_start": 144
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0038-HAL",
+          "revision_id": "THEME-P-0038-HAL@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 444,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "mea-landsforsamling-1917-1925.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0001](../citations/C-0001-geni-utdrag.md); KP-04 |\n",
+              "excerpt_start": 334
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0039-PER",
+          "revision_id": "THEME-P-0039-PER@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 211,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "m levde till 2000-talet kan mycket väl ha efterlämnat sådant hos familjen; ingen sådan förfrågan är gjord. | [C-0001](../citations/C-0001-geni-utdrag.md); KP-02 |\n",
+              "excerpt_start": 101
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0040-PER",
+          "revision_id": "THEME-P-0040-PER@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 210,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "om levde till slutet av 1900-talet kan ha efterlämnat sådant hos familjen; ingen sådan förfrågan är gjord. | [C-0001](../citations/C-0001-geni-utdrag.md); KP-02 |\n",
+              "excerpt_start": 100
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        },
+        {
+          "object_id": "THEME-P-0041-ID",
+          "revision_id": "THEME-P-0041-ID@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 389,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "mark-burtrask-gammelbyn-1930-1950.md), [C-0818](../citations/C-0818-agarens-bekraftelse-zingmark-syskon.md), [C-0001](../citations/C-0001-geni-utdrag.md); Q-01 |\n",
+              "excerpt_start": 279
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        }
+      ],
+      "historical": [
+        {
+          "object_id": "ASSESSMENT-P-0001",
+          "revision_id": "ASSESSMENT-P-0001@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1889,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "-oskar-zingmark-identitet-avvisad.md), [C-0003](../citations/C-0003-rosinedal-sida-103-negativ-kontroll.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [personaktens tidslinje](../people/P-0001-oskar-alfred-zing",
+              "excerpt_start": 1779
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0002",
+          "revision_id": "ASSESSMENT-P-0002@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1380,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "rov-yrkeskallor-djup-3-2026-09-06.md), [C-0818](../citations/C-0818-agarens-bekraftelse-zingmark-syskon.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [personaktens tidslinje](../people/P-0002-ebba-alfrida-ande",
+              "excerpt_start": 1270
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0005",
+          "revision_id": "ASSESSMENT-P-0005@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 482,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "ons/C-0005-anvandarens-foraldrauppgift.md), [C-0047](../citations/C-0047-anvandarens-uppgift-maj-farmor.md), [C-0001](../citations/C-0001-geni-utdrag.md), [C-0261](../citations/C-0261-korsberga-lars-mansson-dna-och-attlingar.m",
+              "excerpt_start": 372
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0006",
+          "revision_id": "ASSESSMENT-P-0006@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 548,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "(../../PROJECT-CONTROL.md#pcd-2026-09-03-004), [C-0005](../citations/C-0005-anvandarens-foraldrauppgift.md), [C-0001](../citations/C-0001-geni-utdrag.md), [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md), [",
+              "excerpt_start": 438
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0030",
+          "revision_id": "ASSESSMENT-P-0030@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 854,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "dsforsamling-1917-1925.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens kända hållpunkter](../people/P-0030-livia-sofia-zin",
+              "excerpt_start": 744
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0032",
+          "revision_id": "ASSESSMENT-P-0032@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 969,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "30-zingmark-umea-och-carlman-kalmar.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens sexton hållpunkter 1892–1949](../people/P-0032-ande",
+              "excerpt_start": 859
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0033",
+          "revision_id": "ASSESSMENT-P-0033@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 966,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "30-zingmark-umea-och-carlman-kalmar.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens fjorton hållpunkter 1894–1949](../people/P-0033-joh",
+              "excerpt_start": 856
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0033",
+          "revision_id": "ASSESSMENT-P-0033@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 966,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "30-zingmark-umea-och-carlman-kalmar.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens fjorton hållpunkter 1894–1949](../people/P-0033-joh",
+              "excerpt_start": 856
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0036",
+          "revision_id": "ASSESSMENT-P-0036@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 811,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "umea-stad-1925-1941.md), [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens nio hållpunkter 1905–1962](../people/P-0036-birger-",
+              "excerpt_start": 701
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0036",
+          "revision_id": "ASSESSMENT-P-0036@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 811,
+              "line": 14,
+              "occurrences": 2,
+              "excerpt": "umea-stad-1925-1941.md), [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n- Tidslinje: [aktens nio hållpunkter 1905–1962](../people/P-0036-birger-",
+              "excerpt_start": 701
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "ASSESSMENT-P-0041",
+          "revision_id": "ASSESSMENT-P-0041@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 546,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "mark-burtrask-gammelbyn-1930-1950.md), [C-0818](../citations/C-0818-agarens-bekraftelse-zingmark-syskon.md), [C-0001](../citations/C-0001-geni-utdrag.md), [PCD-2026-09-03-004](../../PROJECT-CONTROL.md#pcd-2026-09-03-004)\n- Tid",
+              "excerpt_start": 436
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0001",
+          "revision_id": "BIO-P-0001@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 3529,
+              "line": 57,
+              "occurrences": 2,
+              "excerpt": "örsamling, och dödboken är oläst\n([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)). Att makarna och hennes\nföräldrar delar gravplats är ett faktum ur grav",
+              "excerpt_start": 3419
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0001",
+          "revision_id": "BIO-P-0001@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 4180,
+              "line": 60,
+              "occurrences": 2,
+              "excerpt": "örsamling, och dödboken är oläst\n([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)). Att makarna och hennes\nföräldrar delar gravplats är ett faktum ur grav",
+              "excerpt_start": 4070
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0001",
+          "revision_id": "BIO-P-0001@3",
+          "version": 3,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 4413,
+              "line": 59,
+              "occurrences": 2,
+              "excerpt": "örsamling, och dödboken är oläst\n([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)). Att makarna och hennes\nföräldrar delar gravplats är ett faktum ur grav",
+              "excerpt_start": 4303
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0030",
+          "revision_id": "BIO-P-0030@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1787,
+              "line": 29,
+              "occurrences": 2,
+              "excerpt": "dsforsamling-1917-1925.md),\n[C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 1677
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0030",
+          "revision_id": "BIO-P-0030@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1875,
+              "line": 29,
+              "occurrences": 2,
+              "excerpt": "dsforsamling-1917-1925.md),\n[C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 1765
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0030",
+          "revision_id": "BIO-P-0030@3",
+          "version": 3,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1875,
+              "line": 29,
+              "occurrences": 2,
+              "excerpt": "dsforsamling-1917-1925.md),\n[C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 1765
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0034",
+          "revision_id": "BIO-P-0034@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1945,
+              "line": 32,
+              "occurrences": 2,
+              "excerpt": "gmark-umea-och-carlman-kalmar.md),\n[C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 1835
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0034",
+          "revision_id": "BIO-P-0034@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 2009,
+              "line": 32,
+              "occurrences": 2,
+              "excerpt": "gmark-umea-och-carlman-kalmar.md),\n[C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 1899
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0035",
+          "revision_id": "BIO-P-0035@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 2980,
+              "line": 9,
+              "occurrences": 2,
+              "excerpt": "därträdets dödsår 1979 är inte originalbelagt. [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 2870
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0035",
+          "revision_id": "BIO-P-0035@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 3184,
+              "line": 9,
+              "occurrences": 2,
+              "excerpt": "därträdets dödsår 1979 är inte originalbelagt. [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 3074
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "BIO-P-0038",
+          "revision_id": "BIO-P-0038@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "markdown",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1914,
+              "line": 7,
+              "occurrences": 2,
+              "excerpt": "ödsår 1995 är inte originalbelagt. [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0001](../citations/C-0001-geni-utdrag.md)\n\n",
+              "excerpt_start": 1804
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "KEY-P-0001-5348b50b00c1",
+          "revision_id": "KEY-P-0001-5348b50b00c1@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 270,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Församlingsformen är omstridd mot [C-0001](../citations/C-0001-geni-utdrag.md). |\n",
+              "excerpt_start": 160
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "KEY-P-0001-5348b50b00c1",
+          "revision_id": "KEY-P-0001-5348b50b00c1@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 921,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Församlingsformen är omstridd mot [C-0001](../citations/C-0001-geni-utdrag.md). |\n",
+              "excerpt_start": 811
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "KEY-P-0030-e90bd4fa2f1c",
+          "revision_id": "KEY-P-0030-e90bd4fa2f1c@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 154,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "ll Malå och senare folkbokföring | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0001](../citations/C-0001-geni-utdrag.md) | Belagt som makens efternamn, inte som hennes egen namnform i en läst p",
+              "excerpt_start": 44
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "KEY-P-0032-326c71d3a225",
+          "revision_id": "KEY-P-0032-326c71d3a225@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 41,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| ~~Sekundärträdets dödsår 1949~~ | — | [C-0001](../citations/C-0001-geni-utdrag.md) | **Spärrat.** Samma träd ger brodern samma dödsår, vilket är den klassi",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "KEY-P-0033-307e20f2f6d4",
+          "revision_id": "KEY-P-0033-307e20f2f6d4@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 52,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| ~~Namnformen `Magnus (Johan)`~~ | sekundärträd | [C-0001](../citations/C-0001-geni-utdrag.md) | **Spärrad som ensam ingång.** Ingen samtida källa kastar om namnleden;",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "KEY-P-0033-da122e81cbd8",
+          "revision_id": "KEY-P-0033-da122e81cbd8@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 41,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| ~~Sekundärträdets dödsår 1949~~ | — | [C-0001](../citations/C-0001-geni-utdrag.md) | **Spärrat.** Samma träd ger brodern samma dödsår, vilket är den klassi",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "KEY-P-0036-78df6a989db4",
+          "revision_id": "KEY-P-0036-78df6a989db4@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 41,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "| ~~Sekundärträdets dödsår 1962~~ | — | [C-0001](../citations/C-0001-geni-utdrag.md) | **Spärrat som ingång.** Obelagt. Till skillnad från två av bröderna bä",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "P-0001/Q-02",
+          "revision_id": "P-0001/Q-02@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 625,
+              "line": 4,
+              "occurrences": 2,
+              "excerpt": "([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md)); Geni skriver landsförsamlingen ([C-0001](../citations/C-0001-geni-utdrag.md)).\n- Alternativ och motprövning: Umeå stadsförsamling eller Umeå landsför",
+              "excerpt_start": 515
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "P-0001/Q-02",
+          "revision_id": "P-0001/Q-02@2",
+          "version": 2,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1276,
+              "line": 7,
+              "occurrences": 2,
+              "excerpt": "([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md)); Geni skriver landsförsamlingen ([C-0001](../citations/C-0001-geni-utdrag.md)).\n- Alternativ och motprövning: Umeå stadsförsamling eller Umeå landsför",
+              "excerpt_start": 1166
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "PATH-P-0030-KP-03",
+          "revision_id": "PATH-P-0030-KP-03@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 670,
+              "line": 13,
+              "occurrences": 2,
+              "excerpt": "et gifta namnet Hällsten ur\n  [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) och\n  [C-0001](../citations/C-0001-geni-utdrag.md).\n- Beroenden: kräver Malåresultatet från KP-02 för att veta vilken försa",
+              "excerpt_start": 560
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "PATH-P-0030-KP-04",
+          "revision_id": "PATH-P-0030-KP-04@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 647,
+              "line": 12,
+              "occurrences": 2,
+              "excerpt": "t\n  Hällsten ur [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md);\n  dödsåret 1977 ur [C-0001](../citations/C-0001-geni-utdrag.md).\n- Beroenden: kräver dödsort och en säker senare hemvist. Den generella\n",
+              "excerpt_start": 537
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0001-9d76f0343410",
+          "revision_id": "RESEARCH-P-0001-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 2001,
+              "line": 34,
+              "occurrences": 2,
+              "excerpt": "exakt datum, födelseförsamling, värnpliktsnummer, yrke och\nsidhänvisning, inte på namnlikhet.\n\nGeni-utdraget [C-0001](../citations/C-0001-geni-utdrag.md) anger samma\nföräldrar, hustru, syskon och barn och tillförde död 1963-07",
+              "excerpt_start": 1891
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0001-9d76f0343410",
+          "revision_id": "RESEARCH-P-0001-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 2652,
+              "line": 37,
+              "occurrences": 2,
+              "excerpt": "exakt datum, födelseförsamling, värnpliktsnummer, yrke och\nsidhänvisning, inte på namnlikhet.\n\nGeni-utdraget [C-0001](../citations/C-0001-geni-utdrag.md) anger samma\nföräldrar, hustru, syskon och barn och tillförde död 1963-07",
+              "excerpt_start": 2542
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0001-9d76f0343410",
+          "revision_id": "RESEARCH-P-0001-9d76f0343410@3",
+          "version": 3,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 3138,
+              "line": 39,
+              "occurrences": 2,
+              "excerpt": "exakt datum, födelseförsamling, värnpliktsnummer, yrke och\nsidhänvisning, inte på namnlikhet.\n\nGeni-utdraget [C-0001](../citations/C-0001-geni-utdrag.md) anger samma\nföräldrar, hustru, syskon och barn och tillförde död 1963-07",
+              "excerpt_start": 3028
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0001-9d76f0343410",
+          "revision_id": "RESEARCH-P-0001-9d76f0343410@4",
+          "version": 4,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 3138,
+              "line": 39,
+              "occurrences": 2,
+              "excerpt": "exakt datum, födelseförsamling, värnpliktsnummer, yrke och\nsidhänvisning, inte på namnlikhet.\n\nGeni-utdraget [C-0001](../citations/C-0001-geni-utdrag.md) anger samma\nföräldrar, hustru, syskon och barn och tillförde död 1963-07",
+              "excerpt_start": 3028
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0002-9d76f0343410",
+          "revision_id": "RESEARCH-P-0002-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 2041,
+              "line": 33,
+              "occurrences": 2,
+              "excerpt": "genom exakt\nfödelsedatum, men det anger varken hemförsamling eller dödsort, och dödboken\när inte läst. Geni ([C-0001](../citations/C-0001-geni-utdrag.md)) ger samma\nmake och barn samt året 1997 som `LEAD`; barnrelationerna är\n",
+              "excerpt_start": 1931
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0002-9d76f0343410",
+          "revision_id": "RESEARCH-P-0002-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 2511,
+              "line": 35,
+              "occurrences": 2,
+              "excerpt": "genom exakt\nfödelsedatum, men det anger varken hemförsamling eller dödsort, och dödboken\när inte läst. Geni ([C-0001](../citations/C-0001-geni-utdrag.md)) ger samma\nmake och barn samt året 1997 som `LEAD`; barnrelationerna är\n",
+              "excerpt_start": 2401
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0002-9d76f0343410",
+          "revision_id": "RESEARCH-P-0002-9d76f0343410@3",
+          "version": 3,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 3087,
+              "line": 38,
+              "occurrences": 2,
+              "excerpt": "genom exakt\nfödelsedatum, men det anger varken hemförsamling eller dödsort, och dödboken\när inte läst. Geni ([C-0001](../citations/C-0001-geni-utdrag.md)) ger samma\nmake och barn samt året 1997 som `LEAD`; barnrelationerna är\n",
+              "excerpt_start": 2977
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0002-9d76f0343410",
+          "revision_id": "RESEARCH-P-0002-9d76f0343410@4",
+          "version": 4,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 3705,
+              "line": 41,
+              "occurrences": 2,
+              "excerpt": "genom exakt\nfödelsedatum, men det anger varken hemförsamling eller dödsort, och dödboken\när inte läst. Geni ([C-0001](../citations/C-0001-geni-utdrag.md)) ger samma\nmake och barn samt året 1997 som `LEAD`; barnrelationerna är\n",
+              "excerpt_start": 3595
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0030-9d76f0343410",
+          "revision_id": "RESEARCH-P-0030-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1106,
+              "line": 18,
+              "occurrences": 1,
+              "excerpt": " vidare från samma första uppteckning; egen födelsenotis\ni Degerfors födelsebok 1888 är oläst. Sekundärträdet C-0001 är en familjeuppgift\noch räknas inte som självständigt belägg för datum.\n\nDen enda konkurrerande posten är [P",
+              "excerpt_start": 996
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0030-9d76f0343410",
+          "revision_id": "RESEARCH-P-0030-9d76f0343410@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1106,
+              "line": 18,
+              "occurrences": 1,
+              "excerpt": " vidare från samma första uppteckning; egen födelsenotis\ni Degerfors födelsebok 1888 är oläst. Sekundärträdet C-0001 är en familjeuppgift\noch räknas inte som självständigt belägg för datum.\n\nDen enda konkurrerande posten är [P",
+              "excerpt_start": 996
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "RESEARCH-P-0030-9d76f0343410",
+          "revision_id": "RESEARCH-P-0030-9d76f0343410@3",
+          "version": 3,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 1106,
+              "line": 18,
+              "occurrences": 1,
+              "excerpt": " vidare från samma första uppteckning; egen födelsenotis\ni Degerfors födelsebok 1888 är oläst. Sekundärträdet C-0001 är en familjeuppgift\noch räknas inte som självständigt belägg för datum.\n\nDen enda konkurrerande posten är [P",
+              "excerpt_start": 996
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "THEME-P-0035-HAL",
+          "revision_id": "THEME-P-0035-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 380,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "ytterhiske-umea-landsforsamling-1917-1925.md), [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md), [C-0001](../citations/C-0001-geni-utdrag.md); KP-04 |\n",
+              "excerpt_start": 270
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "THEME-P-0036-HAL",
+          "revision_id": "THEME-P-0036-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 226,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "ndirekt hälsouppgift vid tjugo år. Levde 1951. Döden är helt obelagd, och sekundärträdets 1962 är spärrat. | [C-0001](../citations/C-0001-geni-utdrag.md); A-0180; Q-01, KP-01 |\n",
+              "excerpt_start": 116
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "THEME-P-0036-HAL",
+          "revision_id": "THEME-P-0036-HAL@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 256,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "erförd år54; ingen dödanteckning på denna rad. Döden är helt obelagd, och sekundärträdets 1962 är spärrat. | [C-0001](../citations/C-0001-geni-utdrag.md); A-0180; Q-01, KP-01 |\n",
+              "excerpt_start": 146
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        },
+        {
+          "object_id": "THEME-P-0038-HAL",
+          "revision_id": "THEME-P-0038-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": false,
+          "classification": "historical_text_only",
+          "registered_dependency": false,
+          "seed": false,
+          "hits": [
+            {
+              "field": "body",
+              "term": "C-0001",
+              "term_source": "identifier",
+              "offset": 444,
+              "line": 1,
+              "occurrences": 2,
+              "excerpt": "mea-landsforsamling-1917-1925.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0001](../citations/C-0001-geni-utdrag.md); KP-04 |\n",
+              "excerpt_start": 334
+            }
+          ],
+          "limit": "Superseded revision, not a current assertion. Do not rewrite history."
+        }
+      ]
+    },
+    "review": {
+      "items": [
+        {
+          "object_id": "ASSESSMENT-P-0001",
+          "revision_id": "ASSESSMENT-P-0001@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0002",
+          "revision_id": "ASSESSMENT-P-0002@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0005",
+          "revision_id": "ASSESSMENT-P-0005@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0006",
+          "revision_id": "ASSESSMENT-P-0006@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0030",
+          "revision_id": "ASSESSMENT-P-0030@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0031",
+          "revision_id": "ASSESSMENT-P-0031@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0032",
+          "revision_id": "ASSESSMENT-P-0032@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0033",
+          "revision_id": "ASSESSMENT-P-0033@3",
+          "version": 3,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0034",
+          "revision_id": "ASSESSMENT-P-0034@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0036",
+          "revision_id": "ASSESSMENT-P-0036@3",
+          "version": 3,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0037",
+          "revision_id": "ASSESSMENT-P-0037@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0039",
+          "revision_id": "ASSESSMENT-P-0039@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0040",
+          "revision_id": "ASSESSMENT-P-0040@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "ASSESSMENT-P-0041",
+          "revision_id": "ASSESSMENT-P-0041@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "BIO-P-0001",
+          "revision_id": "BIO-P-0001@4",
+          "version": 4,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "BIO-P-0030",
+          "revision_id": "BIO-P-0030@4",
+          "version": 4,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "BIO-P-0034",
+          "revision_id": "BIO-P-0034@3",
+          "version": 3,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "BIO-P-0035",
+          "revision_id": "BIO-P-0035@3",
+          "version": 3,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "BIO-P-0038",
+          "revision_id": "BIO-P-0038@2",
+          "version": 2,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "BIO-P-0039",
+          "revision_id": "BIO-P-0039@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "BIO-P-0040",
+          "revision_id": "BIO-P-0040@1",
+          "version": 1,
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "CONTRACT-P-0004-PK-01",
+          "revision_id": "CONTRACT-P-0004-PK-01@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "CONTRACT-P-0006-PK-05",
+          "revision_id": "CONTRACT-P-0006-PK-05@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "CONTRACT-P-0030-PK-10",
+          "revision_id": "CONTRACT-P-0030-PK-10@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "CONTRACT-P-0034-PK-09",
+          "revision_id": "CONTRACT-P-0034-PK-09@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "E-birth-P-0006",
+          "revision_id": "E-birth-P-0006@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "EP-E-birth-P-0006-P-0006-principal",
+          "revision_id": "EP-E-birth-P-0006-P-0006-principal@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0006-name_form-correlated",
+          "revision_id": "F-P-0006-name_form-correlated@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0006-name_form-married",
+          "revision_id": "F-P-0006-name_form-married@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0035-secondary_source_report-A0179",
+          "revision_id": "F-P-0035-secondary_source_report-A0179@1",
+          "version": 1,
+          "kind": "fact",
+          "disposition": "candidate",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0001-5348b50b00c1",
+          "revision_id": "KEY-P-0001-5348b50b00c1@3",
+          "version": 3,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0006-aa60b392fb9f",
+          "revision_id": "KEY-P-0006-aa60b392fb9f@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0028-a0d204fe9fc0",
+          "revision_id": "KEY-P-0028-a0d204fe9fc0@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0030-e90bd4fa2f1c",
+          "revision_id": "KEY-P-0030-e90bd4fa2f1c@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0031-e51063df565d",
+          "revision_id": "KEY-P-0031-e51063df565d@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0032-326c71d3a225",
+          "revision_id": "KEY-P-0032-326c71d3a225@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0033-307e20f2f6d4",
+          "revision_id": "KEY-P-0033-307e20f2f6d4@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0033-da122e81cbd8",
+          "revision_id": "KEY-P-0033-da122e81cbd8@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0036-78df6a989db4",
+          "revision_id": "KEY-P-0036-78df6a989db4@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0037-15afa7fc66ec",
+          "revision_id": "KEY-P-0037-15afa7fc66ec@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0037-efb3843796b0",
+          "revision_id": "KEY-P-0037-efb3843796b0@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0039-38f95b163a8a",
+          "revision_id": "KEY-P-0039-38f95b163a8a@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0040-48e4cd809042",
+          "revision_id": "KEY-P-0040-48e4cd809042@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0040-e0c879fffc87",
+          "revision_id": "KEY-P-0040-e0c879fffc87@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "KEY-P-0041-750610c675e5",
+          "revision_id": "KEY-P-0041-750610c675e5@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0001-C0001-death",
+          "revision_id": "O-P-0001-C0001-death@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0002-C0001-birthyear",
+          "revision_id": "O-P-0002-C0001-birthyear@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0002-C0001-deathyear",
+          "revision_id": "O-P-0002-C0001-deathyear@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0003-C0001-incomplete-birthyear",
+          "revision_id": "O-P-0003-C0001-incomplete-birthyear@1",
+          "version": 1,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "LEAD",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0001/Q-02",
+          "revision_id": "P-0001/Q-02@3",
+          "version": 3,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0006/Q-01",
+          "revision_id": "P-0006/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0034/Q-03",
+          "revision_id": "P-0034/Q-03@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0035/Q-04",
+          "revision_id": "P-0035/Q-04@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0038/Q-04",
+          "revision_id": "P-0038/Q-04@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0039/Q-01",
+          "revision_id": "P-0039/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0040/Q-01",
+          "revision_id": "P-0040/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "P-0041/Q-01",
+          "revision_id": "P-0041/Q-01@1",
+          "version": 1,
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "PATH-P-0030-KP-03",
+          "revision_id": "PATH-P-0030-KP-03@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "PATH-P-0030-KP-04",
+          "revision_id": "PATH-P-0030-KP-04@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "PATH-P-0034-KP-05",
+          "revision_id": "PATH-P-0034-KP-05@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "R-57465eb99730b7a08dd962c7",
+          "revision_id": "R-57465eb99730b7a08dd962c7@1",
+          "version": 1,
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "READ-87740f0fa417627668b7acba",
+          "revision_id": "READ-87740f0fa417627668b7acba@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "import_origin_not_evidence",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0001-9d76f0343410",
+          "revision_id": "RESEARCH-P-0001-9d76f0343410@5",
+          "version": 5,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0002-9d76f0343410",
+          "revision_id": "RESEARCH-P-0002-9d76f0343410@5",
+          "version": 5,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0004-9d76f0343410",
+          "revision_id": "RESEARCH-P-0004-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0005-9d76f0343410",
+          "revision_id": "RESEARCH-P-0005-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0006-9d76f0343410",
+          "revision_id": "RESEARCH-P-0006-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0030-9d76f0343410",
+          "revision_id": "RESEARCH-P-0030-9d76f0343410@4",
+          "version": 4,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0040-9d76f0343410",
+          "revision_id": "RESEARCH-P-0040-9d76f0343410@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "RESEARCH-P-0041-dc9e05f77b98",
+          "revision_id": "RESEARCH-P-0041-dc9e05f77b98@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "S-0001",
+          "revision_id": "S-0001@1",
+          "version": 1,
+          "kind": "source",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0004-ID",
+          "revision_id": "THEME-P-0004-ID@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0006-ID",
+          "revision_id": "THEME-P-0006-ID@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0028-PER",
+          "revision_id": "THEME-P-0028-PER@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0030-HAL",
+          "revision_id": "THEME-P-0030-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0030-PER",
+          "revision_id": "THEME-P-0030-PER@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0030-SYN",
+          "revision_id": "THEME-P-0030-SYN@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0031-HAL",
+          "revision_id": "THEME-P-0031-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0034-HAL",
+          "revision_id": "THEME-P-0034-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0034-SYN",
+          "revision_id": "THEME-P-0034-SYN@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0035-HAL",
+          "revision_id": "THEME-P-0035-HAL@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0036-HAL",
+          "revision_id": "THEME-P-0036-HAL@3",
+          "version": 3,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0037-HAL",
+          "revision_id": "THEME-P-0037-HAL@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0038-HAL",
+          "revision_id": "THEME-P-0038-HAL@2",
+          "version": 2,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0039-PER",
+          "revision_id": "THEME-P-0039-PER@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0040-PER",
+          "revision_id": "THEME-P-0040-PER@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "THEME-P-0041-ID",
+          "revision_id": "THEME-P-0041-ID@1",
+          "version": 1,
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "current": true,
+          "reasons": [
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        }
+      ],
+      "instructions": "Read inspect for each current object and its evidence. Record a reasoned decision in the active Wotan task / authorized operation. Revise through apply only when warranted; resolve only the exact existing pending request after individual review. Text/provenance candidates do not create requests. Null decisions are unreviewed, never approvals."
+    },
+    "limitations": [
+      "Read-only snapshot, not an execution queue. Re-run after revisions.",
+      "Text matches cannot establish copied facts, identity, error, relevance or support. Current text may contain historical retractions.",
+      "Unlinked paraphrases or different date/name spellings may be missed; supply relevant --query variants and inspect affected person profiles.",
+      "No query mutates data, adds evidence, opens/closes reviews or certifies complete semantic coverage."
+    ]
+  }
+}

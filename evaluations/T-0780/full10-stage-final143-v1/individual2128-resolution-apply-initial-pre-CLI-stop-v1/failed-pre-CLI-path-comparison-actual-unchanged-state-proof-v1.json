@@ -1,0 +1,42 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T12:47:12.763528+00:00",
+  "failed_helper_pin": {
+    "path": "evaluations/T-0780/implementation/apply_one_authorized_sameclone_2128_resolution_v1.py",
+    "sha256": "0fe9468acb1342d2245a998ec9e9cc18446d97fb4c6f2e575be62d0bb1f1b52d"
+  },
+  "authorization_pin": {
+    "path": "evaluations/T-0780/root-one-sameclone-individual2128-resolution-runtime-authorization-v1.json",
+    "sha256": "eeb4b2294a64b06df69f4caf44ebffed8813eb4dda2859447e42966d1ce43c39"
+  },
+  "failure": "AssertionError at line30 before W.mkdir and before any CLI apply: absolute vs relative path dictionary equality, not SHA mismatch.",
+  "exact_failed_expression": "assert pin(dbp)==a['pre_stage_DB_pin']",
+  "actual_absolute_path_pin": {
+    "path": "/Users/sverker/repos/slaktforsk/evaluations/T-0780/full10-stage-final143-v1/stage.sqlite",
+    "sha256": "ae906e23de24bbded3cf392980c9749fe75d8ba6161fec7a92a1fbfdd17fe5ac"
+  },
+  "authorization_relative_path_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/stage.sqlite",
+    "sha256": "ae906e23de24bbded3cf392980c9749fe75d8ba6161fec7a92a1fbfdd17fe5ac"
+  },
+  "snapshot_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/pre-resolution-stage-original-ae906-v1.sqlite",
+    "sha256": "ae906e23de24bbded3cf392980c9749fe75d8ba6161fec7a92a1fbfdd17fe5ac"
+  },
+  "stage_and_snapshot_original_SHA_exact": true,
+  "actual_readonly_state": {
+    "stage": {
+      "journal_head": 424,
+      "pending": 2128
+    },
+    "main": {
+      "journal_head": 281,
+      "pending": 0
+    }
+  },
+  "CLI_apply_invocations": 0,
+  "resolution_review_directory_created": false,
+  "resolution_rows_added": 0,
+  "no_retry_per_root_instruction": true,
+  "actual_usage": null
+}

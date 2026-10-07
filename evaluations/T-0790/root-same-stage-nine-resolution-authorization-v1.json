@@ -1,0 +1,43 @@
+{
+  "task": "T-0790",
+  "mode": "one-same-stage-request-only-resolve",
+  "pins": {
+    "operation": {
+      "path": "evaluations/T-0790/preparation/exact-nine-request-only-resolution-draft-v1/resolve-literal.json",
+      "sha256": "d46bc7e31475893b36a619ce556b7ac40a350c82a6e3c6e72ed6b6a196fc6e59"
+    },
+    "table": {
+      "path": "evaluations/T-0790/preparation/exact-nine-request-only-resolution-draft-v1/nine-individual-resolution-table.json",
+      "sha256": "bb056c48915a9f916fee47900fdb1a92114019a729f3bd8ab64bfbd67e863165"
+    },
+    "context": {
+      "path": "evaluations/T-0790/preparation/reviewed-stage-v1/actual-requests-full-context.json",
+      "sha256": "98a8337c74663e0b8b5acb95ef6bb0210ba3d91628fcc4c8d0a636f239b7ff37"
+    },
+    "stage": {
+      "path": "evaluations/T-0790/preparation/reviewed-stage-v1/stage.sqlite",
+      "sha256": "29c63298378bddc0c75a994ff3ce5de90ba42c07a3d219f81d053cfed484fdac"
+    },
+    "source_gate": {
+      "path": "evaluations/T-0790/source-review/exact-nine-resolution-prestage-gate-v1.json",
+      "sha256": "938b74517a284c849c401f8240001a3ee9d4227c3676e17822f0210f44bd60ff"
+    },
+    "independent_gate": {
+      "path": "evaluations/T-0790/independent-review/exact-nine-same-stage-resolution-gate-v1.json",
+      "sha256": "c2039ee42e4ed339855974f0922a46675f4c0265eb5bd9c089a86a2298fcdc4c"
+    }
+  },
+  "main_sha256": "405a7330c23522ae3a08e2ad9ae4ac7b57bb4c194a8c8db01e596095f5bcbecf",
+  "before": {
+    "journal_head": 455,
+    "pending": 9
+  },
+  "after": {
+    "journal_head": 456,
+    "pending": 0
+  },
+  "stage_helper_pin": {
+    "path": "evaluations/T-0790/preparation/stage_literal_authorized_v1.py",
+    "sha256": "8959fc3f49dde85eabaf85a874be8abe092d261200fa0a239389418b650d039b"
+  }
+}

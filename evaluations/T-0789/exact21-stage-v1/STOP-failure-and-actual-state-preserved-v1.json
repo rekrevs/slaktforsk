@@ -1,0 +1,35 @@
+{
+  "error": "AssertionError(('Full ordered API difference; stop', 'ID-T0789-P0007-own-annual-1945@1'))",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/sverker/repos/slaktforsk/evaluations/T-0789/preparation/stage_root_authorized_exact21_firstphase_v1.py\", line 230, in main\n    assert actual == expected, ('Full ordered API difference; stop', rid)\n           ^^^^^^^^^^^^^^^^^^\nAssertionError: ('Full ordered API difference; stop', 'ID-T0789-P0007-own-annual-1945@1')\n",
+  "actual_state": {
+    "journal_head": 453,
+    "pending": 16
+  },
+  "stage_DB_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/stage.sqlite",
+    "sha256": "c14b718134c9973320440074ebde59ea3997b45699b135fbd2df6be20f567d71"
+  },
+  "main_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "eabdc5aff2eefdc35136f5823ccb140f155425f61505238b77f29c984baee248"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "operation_id": "T-0789/exact21-own-annual1945-1946-source-adoption-and-current-consequences-v1",
+      "operation_pin": {
+        "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-one-controlled-operation-v1.json",
+        "sha256": "e34073264fda8de0f4c9ed054afa5f5dbd20e2465508c149e2276ba8b04323e2"
+      },
+      "before": {
+        "journal_head": 452,
+        "pending": 0
+      },
+      "after": {
+        "journal_head": 453,
+        "pending": 16
+      }
+    }
+  ],
+  "no_retry_no_newclone_no_resolutions": true
+}

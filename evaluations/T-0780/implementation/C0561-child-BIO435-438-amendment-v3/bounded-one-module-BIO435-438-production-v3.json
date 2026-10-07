@@ -1,0 +1,29 @@
+{
+  "input_pin": {
+    "path": "evaluations/T-0780/implementation/C0561-child-BIO435-438-amendment-v3/exact-source-v2-v3-candidate-and-all-history-input-v3.json",
+    "sha256": "87abb12e6f52d158995668a8526ec73813410516d9c3085c76eeaab93fbe24b3"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0780/implementation/C0561-child-BIO435-438-amendment-v3/current116-candidate-membership-inventory-v3.json",
+    "sha256": "009faa0b7e735f907a908fc5971c282659779810434c73d83cb776ae77b61cba"
+  },
+  "proposal_pin": {
+    "path": "evaluations/T-0780/implementation/C0561-child-BIO435-438-amendment-v3/concrete-current116-partial-sequence-proposal-v3.json",
+    "sha256": "34915c93477f741033114050cf8ddff1f64f11a2b72538c5a5a874ba61372046"
+  },
+  "BIO438_same_native1to2_candidate_amended": true,
+  "BIO435_new_target1to2": true,
+  "other_five_existing_payloads_exact_unchanged": true,
+  "BIO434_fullretain": true,
+  "native_incoming_edges": 0,
+  "candidate_incoming_edges": 0,
+  "failed_attempts": [
+    {
+      "script": "finalize_C0561_child_BIO435_438_amendment_v3.py",
+      "reason": "Source decision rationale changed for explicitly amended BIO438; initial overbroad source-rationale equality guard failed before writes. Native rationale remains exact unchanged; proof now distinguishes source decision explanation from native payload."
+    }
+  ],
+  "elapsed_seconds": 0.11573123931884766,
+  "model_usage_root_collect_after_final": true,
+  "no_stage_probe_apply_actual328_modification": true
+}

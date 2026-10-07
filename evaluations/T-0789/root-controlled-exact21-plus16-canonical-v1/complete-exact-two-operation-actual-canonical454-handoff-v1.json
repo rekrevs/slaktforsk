@@ -1,0 +1,114 @@
+{
+  "task": "T-0789",
+  "authorization_pin": {
+    "path": "evaluations/T-0789/root-authorized-exact21-plus16-canonical-v1.json",
+    "sha256": "b3edcdf8d9780811030946787cd736bf7f4e97f2567be093b2a4c1c7122c3488"
+  },
+  "package_pin": {
+    "path": "evaluations/T-0789/implementation/exact21-plus16-two-operation-resolution-draft-v1/exact21-plus16-two-operation-package-proposal-v1.json",
+    "sha256": "a14cd9dc6721c57b5ad5f0d95ae78cd9830b4d1d64888cd76bd7ca8c03d21cbc"
+  },
+  "membership_pin": {
+    "path": "evaluations/T-0789/implementation/exact21-plus16-two-operation-resolution-draft-v1/exact21-plus16-two-ordered-operation-membership-v1.json",
+    "sha256": "0255743ed8c03947001e563cbca412647963eacfb6d67753cd7514915f6dd49f"
+  },
+  "operation_pins": [
+    {
+      "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-one-controlled-operation-v1.json",
+      "sha256": "e34073264fda8de0f4c9ed054afa5f5dbd20e2465508c149e2276ba8b04323e2"
+    },
+    {
+      "path": "evaluations/T-0789/implementation/exact21-plus16-two-operation-resolution-draft-v1/exact16-resolution-only-operation-v1.json",
+      "sha256": "07675f926723df7d962257a4a478b70e88e6746bfa8834716e3d2f53275b748d"
+    }
+  ],
+  "reviewed_final_stage_handoff_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/exact16-resolution-and-finalchecks-v1/complete-two-op21-plus16-resolution-actual454-final-stage-handoff-v1.json",
+    "sha256": "454f5f70014f12d934c97af5962660a8b5c9fe37945c7f557d6cec062910e201"
+  },
+  "input_binding_projection_proof_pin": {
+    "path": "evaluations/T-0789/exact21-stage-v1/readonly-bindings-projection-continuation-v1/exact-two-operational-bindings-and-native-projection-proof-v1.json",
+    "sha256": "7a5d54c1a50c89c31eb9441dc519eaf8119edd65c1cb6b05f4a0b6fa164a200d"
+  },
+  "actual_state": {
+    "journal_head": 454,
+    "pending": 0
+  },
+  "actual_step_states": [
+    {
+      "step": 1,
+      "operation_id": "T-0789/exact21-own-annual1945-1946-source-adoption-and-current-consequences-v1",
+      "operation_pin": {
+        "path": "evaluations/T-0789/implementation/exact21-draft-v1/exact21-one-controlled-operation-v1.json",
+        "sha256": "e34073264fda8de0f4c9ed054afa5f5dbd20e2465508c149e2276ba8b04323e2"
+      },
+      "before": {
+        "journal_head": 452,
+        "pending": 0
+      },
+      "after": {
+        "journal_head": 453,
+        "pending": 16
+      }
+    },
+    {
+      "step": 2,
+      "operation_id": "T-0789/exact16-individual-actual-source-resolutions-v1",
+      "operation_pin": {
+        "path": "evaluations/T-0789/implementation/exact21-plus16-two-operation-resolution-draft-v1/exact16-resolution-only-operation-v1.json",
+        "sha256": "07675f926723df7d962257a4a478b70e88e6746bfa8834716e3d2f53275b748d"
+      },
+      "before": {
+        "journal_head": 453,
+        "pending": 16
+      },
+      "after": {
+        "journal_head": 454,
+        "pending": 0
+      }
+    }
+  ],
+  "main_pin": {
+    "path": "genealogy2/data/research.sqlite",
+    "sha256": "405a7330c23522ae3a08e2ad9ae4ac7b57bb4c194a8c8db01e596095f5bcbecf"
+  },
+  "all50_raw_stage_comparison_pin": {
+    "path": "evaluations/T-0789/root-controlled-exact21-plus16-canonical-v1/actual-MAIN-vs-reviewed-stage-all50-raw-values-and-order-v1.json",
+    "sha256": "11a9b7667e7284ecddd9ca498ade62fa0999d5a65848c20b7bd84fa46422018a"
+  },
+  "actual16_literal_resolution_pin": {
+    "path": "evaluations/T-0789/root-controlled-exact21-plus16-canonical-v1/actual16-entire-literal-resolution-rows-and-order-v1.json",
+    "sha256": "0ae15703b32a126e5d182f7c332b788d47d6b065ef1f50165017166c1bdea37d"
+  },
+  "all21_native_and_protected42_exact_reviewed_stage": true,
+  "validators": [
+    {
+      "path": "evaluations/T-0789/root-controlled-exact21-plus16-canonical-v1/verify.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0789/root-controlled-exact21-plus16-canonical-v1/verify-assets.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0789/root-controlled-exact21-plus16-canonical-v1/verify-source.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    },
+    {
+      "path": "evaluations/T-0789/root-controlled-exact21-plus16-canonical-v1/inventory.json",
+      "sha256": "e7052d6b6963076520d75fee2d18a0590c8dd44e65b475a35585c3cfa71b9f2c"
+    },
+    {
+      "path": "evaluations/T-0789/root-controlled-exact21-plus16-canonical-v1/P-0269-default-verified-pedigree.json",
+      "sha256": "fda330799bae3cf13bfcc4577a04989b3e5e2611e43df3c0c8f08ca04bf5415a"
+    },
+    {
+      "path": "evaluations/T-0789/root-controlled-exact21-plus16-canonical-v1/P-0270-default-verified-pedigree.json",
+      "sha256": "a92fd6f4e71dfae6e0924c46407fcbb7fb2196e97325f0a49200ecc0f6d8a5bc"
+    }
+  ],
+  "all_six_results_equal_reviewed_final_stage": true,
+  "database_replacement": false,
+  "program_receipts_or_owner_administration_applied": false,
+  "usage": "UNKNOWN pending root collector"
+}

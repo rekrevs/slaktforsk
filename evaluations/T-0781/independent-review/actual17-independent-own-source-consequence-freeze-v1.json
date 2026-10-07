@@ -1,0 +1,881 @@
+{
+  "task": "T-0781",
+  "status": "INDEPENDENT_ACTUAL17_ASSESSMENT_FREEZE_BEFORE_PRIMARY_RUNTIME_GRADES",
+  "saved_utc": "2026-10-04T15:49:05.125572+00:00",
+  "stage_handoff_pin": {
+    "path": "evaluations/T-0781/exact16-fresh-stage-v1/complete-stage-result-and-Astra-handoff.json",
+    "sha256": "dda4c0151838fee1448cd29ed5a7effc397914ff28e90ca8b57fac8b475ca432"
+  },
+  "stage_DB_pin": {
+    "path": "evaluations/T-0781/exact16-fresh-stage-v1/stage.sqlite",
+    "sha256": "f837a784048c7c65d77ed10e46076f7e5167b8194dcaddb0fdaeeae02689e670"
+  },
+  "request_pin": {
+    "path": "evaluations/T-0781/exact16-fresh-stage-v1/all-actual-individual-request-and-complete-dependency-context-routing.json",
+    "sha256": "bc8f9984eb15434ac2fe550d66c30893eacb463de9d831adf467317c496821ab"
+  },
+  "native_context_pin": {
+    "path": "evaluations/T-0781/exact16-fresh-stage-v1/complete-actual-target-request-history-upstream-native-payloads.json",
+    "sha256": "0de84c8afbf5b0ae40afbe26264372f9100a13adacdd99c4418ea7ca1b27249c"
+  },
+  "own_pre_stage_gate": {
+    "path": "evaluations/T-0781/independent-review/two-source-complete-exact174-pre-stage-source-consequence-gate-v1.json",
+    "sha256": "f30a1b6b529a1600fbb5fc3c2f082751755af01359f639c2923d5fd0022c3dab"
+  },
+  "actual17_own_freeze_complete": true,
+  "rows": [
+    {
+      "request_id": "1fb157636071156180495a5c8ac87629976be8405f31b2b1379ba500ef9db0b7",
+      "actual_request": {
+        "id": "1fb157636071156180495a5c8ac87629976be8405f31b2b1379ba500ef9db0b7",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "M-P-0053-C0049@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/0",
+      "affected_exact_revision_id": "M-P-0053-C0049@1",
+      "retained_current_revision_id": "M-P-0053-C0049@2",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "M-P-0053-C0049": [
+          "M-P-0053-C0049@1",
+          "M-P-0053-C0049@2"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_rationale": "Anna Albertinas namn/radperson består. M@2 har den egna uttryckliga D:r-rollen, korrigerad caveat och R49@2/fullTR-stöd. Begäran gäller historisk M@1 och är sakligt omprövad genom denna redan införda efterföljare; inga ytterligare ändringar behövs.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "M-P-0053-C0049@2",
+          "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "M-P-0053-C0049@2",
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/M-P-0053-C0049@2",
+      "full_affected_history_pointer": "/objects/M-P-0053-C0049@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "2bd2d7b817b8955e5c0a27333dd044deef0612f5534d54de057caaddda412294",
+      "actual_request": {
+        "id": "2bd2d7b817b8955e5c0a27333dd044deef0612f5534d54de057caaddda412294",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "ID-P-0053-C0049@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/1",
+      "affected_exact_revision_id": "ID-P-0053-C0049@1",
+      "retained_current_revision_id": "ID-P-0053-C0049@1",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "ID-P-0053-C0049": [
+          "ID-P-0053-C0049@1"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_rationale": "ID53@1 binder samma namngivna Anna Albertina-rad till samma P53. Recordrättelsen ändrar egenortscellen, inte radkorrelationen. ID innehåller ingen egen födelseort; ursprunglig M53@1-grund, accepted/CORROBORATED och avgränsad identitet behålls. E53s separata ort-null och O53@2 återställer inte den gamla dittohärledningen.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "ID-P-0053-C0049@1",
+          "basis_revision_id": "M-P-0053-C0049@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/ID-P-0053-C0049@1",
+      "full_affected_history_pointer": "/objects/ID-P-0053-C0049@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "38d67e0982440abaae505e35bb7098efae623030a131fc5ba85b4d2a980dcc4d",
+      "actual_request": {
+        "id": "38d67e0982440abaae505e35bb7098efae623030a131fc5ba85b4d2a980dcc4d",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "M-P-0052-C0049@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/2",
+      "affected_exact_revision_id": "M-P-0052-C0049@1",
+      "retained_current_revision_id": "M-P-0052-C0049@2",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "M-P-0052-C0049": [
+          "M-P-0052-C0049@1",
+          "M-P-0052-C0049@2"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_rationale": "Catharina Johannas namn/radperson består. M@2 redovisar D:r på egenrad och explicit R49@2/fullTR. Historisk M@1 är ersatt; ingen ny person eller egen födelseort härleds.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "M-P-0052-C0049@2",
+          "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "M-P-0052-C0049@2",
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/M-P-0052-C0049@2",
+      "full_affected_history_pointer": "/objects/M-P-0052-C0049@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "44de3b7f4e22d76245e67a5d4c55de92619b785aed113b329d201490eecfa999",
+      "actual_request": {
+        "id": "44de3b7f4e22d76245e67a5d4c55de92619b785aed113b329d201490eecfa999",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "O-P-0052-C0049@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/3",
+      "affected_exact_revision_id": "O-P-0052-C0049@1",
+      "retained_current_revision_id": "O-P-0052-C0049@2",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "O-P-0052-C0049": [
+          "O-P-0052-C0049@1",
+          "O-P-0052-C0049@2"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_rationale": "O52@2 har redan ersatt falskt födelseortsditto med null/egenblankhet, kvar datum1865-05-11 och samma person. R49@2/M52@2/fullTR exakta stöd. E52s Bygdeå från separat C46 rapport gäller inte C49s tomma cell. Historisk O@1 återtas inte.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "O-P-0052-C0049@2",
+          "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "O-P-0052-C0049@2",
+          "basis_revision_id": "M-P-0052-C0049@2",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "O-P-0052-C0049@2",
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/O-P-0052-C0049@2",
+      "full_affected_history_pointer": "/objects/O-P-0052-C0049@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "4d14ffe73e91618e2aae2a7944d4a4c9b396abacfbb8f2947ed6d343b191a47b",
+      "actual_request": {
+        "id": "4d14ffe73e91618e2aae2a7944d4a4c9b396abacfbb8f2947ed6d343b191a47b",
+        "operation_id": "T-0781/C0049-small14-v1",
+        "affected_revision_id": "ID-P-0053-C0049@1",
+        "changed_revision_id": "M-P-0053-C0049@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/4",
+      "affected_exact_revision_id": "ID-P-0053-C0049@1",
+      "retained_current_revision_id": "ID-P-0053-C0049@1",
+      "changed_exact_revision_id": "M-P-0053-C0049@2",
+      "changed_previous_revision_id": "M-P-0053-C0049@1",
+      "full_histories": {
+        "ID-P-0053-C0049": [
+          "ID-P-0053-C0049@1"
+        ],
+        "M-P-0053-C0049": [
+          "M-P-0053-C0049@1",
+          "M-P-0053-C0049@2"
+        ]
+      },
+      "own_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_rationale": "M53@2 tillför D:r och källgräns men ändrar inte Anna Albertinas namn eller mention/person-ID. Därför behålls hela ID53@1 och dess exakta gamla M53@1-stöd; inget nytt identitetsgodkännande eller automatisk rebind.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "ID-P-0053-C0049@1",
+          "basis_revision_id": "M-P-0053-C0049@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/ID-P-0053-C0049@1",
+      "full_affected_history_pointer": "/objects/ID-P-0053-C0049@1",
+      "changed_full_payload_pointer": "/objects/M-P-0053-C0049@2",
+      "old_changed_payload_pointer": "/objects/M-P-0053-C0049@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "70595676d923bd6c41c18cfe53ba9d215468ae9e1ef8cfd91d55dfa1c21002d8",
+      "actual_request": {
+        "id": "70595676d923bd6c41c18cfe53ba9d215468ae9e1ef8cfd91d55dfa1c21002d8",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "ID-P-0052-C0049@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/5",
+      "affected_exact_revision_id": "ID-P-0052-C0049@1",
+      "retained_current_revision_id": "ID-P-0052-C0049@1",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "ID-P-0052-C0049": [
+          "ID-P-0052-C0049@1"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_rationale": "ID52@1 binder samma Catharina Johanna-rad/person. R49@2s falsktditto-korrigering påverkar inte denna avgränsade identitetslänk. ID saknar egen födelseortsutsaga; accepted/CORROBORATED och M52@1-stöd bevaras. Separata C46-stödet för rapporterad födelseförsamling hålls separat.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "ID-P-0052-C0049@1",
+          "basis_revision_id": "M-P-0052-C0049@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/ID-P-0052-C0049@1",
+      "full_affected_history_pointer": "/objects/ID-P-0052-C0049@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "7d56a787c439291b41ea70c199020eb5437375fcc706f104a97fe2d2097a8443",
+      "actual_request": {
+        "id": "7d56a787c439291b41ea70c199020eb5437375fcc706f104a97fe2d2097a8443",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "O-P-0048-A-0248-child_family@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/6",
+      "affected_exact_revision_id": "O-P-0048-A-0248-child_family@1",
+      "retained_current_revision_id": "O-P-0048-A-0248-child_family@2",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "O-P-0048-A-0248-child_family": [
+          "O-P-0048-A-0248-child_family@1",
+          "O-P-0048-A-0248-child_family@2"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_rationale": "O48@2 har rättat systernamnskopian till Magdalena Euphrosyne med R49@2/fullTR. Befintliga familjeband och äldre sonAnders1862 består; varken uttömt barnantal eller kontinuerlig fysisk hemvist påstås genom upplösningen. Historisk O@1 ersatt.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "O-P-0048-A-0248-child_family@2",
+          "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+          "role": "supports",
+          "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+        },
+        {
+          "revision_id": "O-P-0048-A-0248-child_family@2",
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/O-P-0048-A-0248-child_family@2",
+      "full_affected_history_pointer": "/objects/O-P-0048-A-0248-child_family@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "8b925ecb60e7bcb539ea26df45eecf90a5111cc5b39a1cb0051061be7b478d0e",
+      "actual_request": {
+        "id": "8b925ecb60e7bcb539ea26df45eecf90a5111cc5b39a1cb0051061be7b478d0e",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "O-P-0050-A-0222-name_report@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/7",
+      "affected_exact_revision_id": "O-P-0050-A-0222-name_report@1",
+      "retained_current_revision_id": "O-P-0050-A-0222-name_report@1",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "O-P-0050-A-0222-name_report": [
+          "O-P-0050-A-0222-name_report@1"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_rationale": "Faderns eget Anders Andersson är oförändrat i R49@2; dotternamn, ditto och årsfält ändrar inte O50s name_report. Hela currentO50@1 med R49@1-stöd och historisk två-längds-caveat behålls, ingen ny oberoende namnröst eller rebind.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "O-P-0050-A-0222-name_report@1",
+          "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+          "role": "supports",
+          "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/O-P-0050-A-0222-name_report@1",
+      "full_affected_history_pointer": "/objects/O-P-0050-A-0222-name_report@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "8d3cd2d4cb7e87458a49853ee7aed1f8fcc772e9feda5f9309d3d26764f4c6c5",
+      "actual_request": {
+        "id": "8d3cd2d4cb7e87458a49853ee7aed1f8fcc772e9feda5f9309d3d26764f4c6c5",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "ID-P-0057-C0049@2",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/8",
+      "affected_exact_revision_id": "ID-P-0057-C0049@2",
+      "retained_current_revision_id": "ID-P-0057-C0049@3",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "ID-P-0057-C0049": [
+          "ID-P-0057-C0049@1",
+          "ID-P-0057-C0049@2",
+          "ID-P-0057-C0049@3"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_rationale": "ID57@3 har redan rättat Magdalena-namnet och explicit M57@2/fullTR, samma P57/accepted/TRANSCRIBED. Äldre ID@1CORROBORATED är historisk och ska inte återadopteras; ID@2 ersatt. Familjekontinuitet ger inget andra eget personbelägg eller ny identitetsgrad.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "ID-P-0057-C0049@3",
+          "basis_revision_id": "M-P-0057-C0049@2",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "ID-P-0057-C0049@3",
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/ID-P-0057-C0049@3",
+      "full_affected_history_pointer": "/objects/ID-P-0057-C0049@2",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "8f26407227992bb9f64bccd7e11da460b97716cccca5ab6120c6126811916050",
+      "actual_request": {
+        "id": "8f26407227992bb9f64bccd7e11da460b97716cccca5ab6120c6126811916050",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "READ-afbfe3f933d234b8f0f60c3e@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/9",
+      "affected_exact_revision_id": "READ-afbfe3f933d234b8f0f60c3e@1",
+      "retained_current_revision_id": "READ-afbfe3f933d234b8f0f60c3e@2",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "READ-afbfe3f933d234b8f0f60c3e": [
+          "READ-afbfe3f933d234b8f0f60c3e@1",
+          "READ-afbfe3f933d234b8f0f60c3e@2"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_rationale": "READ@2 redovisar nu full avgränsad sexradsprövning och exakta läsreservationer med R49@2/fullTR. Historiska READ@1s olästa-kolumn/ditto-premiss har uttryckligen ersatts. Detta är källtäckning, inte personkontraktsgodkännande eller generell källuttömning.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "READ-afbfe3f933d234b8f0f60c3e@2",
+          "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+          "role": "derived_from",
+          "note": "Avser denna version av den återbrukade källposten."
+        },
+        {
+          "revision_id": "READ-afbfe3f933d234b8f0f60c3e@2",
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "T-0781 avgjord full egen källpost, samma historiska källa och uttrycklig version."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/READ-afbfe3f933d234b8f0f60c3e@2",
+      "full_affected_history_pointer": "/objects/READ-afbfe3f933d234b8f0f60c3e@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "9ebfba23c47d899a9b74fbb03653812f34f0be0e2b4ec5168926417b56242944",
+      "actual_request": {
+        "id": "9ebfba23c47d899a9b74fbb03653812f34f0be0e2b4ec5168926417b56242944",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "TR-bf8e09efe7e3e3c20156c785@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/10",
+      "affected_exact_revision_id": "TR-bf8e09efe7e3e3c20156c785@1",
+      "retained_current_revision_id": "TR-bf8e09efe7e3e3c20156c785@2",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "TR-bf8e09efe7e3e3c20156c785": [
+          "TR-bf8e09efe7e3e3c20156c785@1",
+          "TR-bf8e09efe7e3e3c20156c785@2"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_rationale": "TR@2 har redan korrekt Magdalena29/5/B:å, yngre tre egna ortblankheter och tydligt nyoriginal-rationale; hela utvinningen hänvisas till fullTR. Record@2/fullTR-stöd är uttryckliga. Historisk feltext@1 behålls som historik, ingen tredje läsning behövs.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "TR-bf8e09efe7e3e3c20156c785@2",
+          "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id"
+        },
+        {
+          "revision_id": "TR-bf8e09efe7e3e3c20156c785@2",
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "T-0781 avgjord full egen källpost, samma historiska källa och uttrycklig version."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/TR-bf8e09efe7e3e3c20156c785@2",
+      "full_affected_history_pointer": "/objects/TR-bf8e09efe7e3e3c20156c785@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "ae27f7c221f4b94cbefa8e382a0448f55056bc2ca220fea9d8ba207caca2a106",
+      "actual_request": {
+        "id": "ae27f7c221f4b94cbefa8e382a0448f55056bc2ca220fea9d8ba207caca2a106",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "F-P-0050-occupation-Jomark@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/11",
+      "affected_exact_revision_id": "F-P-0050-occupation-Jomark@1",
+      "retained_current_revision_id": "F-P-0050-occupation-Jomark@1",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "F-P-0050-occupation-Jomark": [
+          "F-P-0050-occupation-Jomark@1"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_rationale": "F50s bonde/f.d. hemmansägare står kvar: B:n på egen C49rad är oförändrat och senare C44/C569 ger separat tidsbunden titel. Osäkra mantalsmarginalen ger ingen ny markäganderätt, förvärvsdag eller liv1913. Hela F@1 och tre ordnade gamla stöd R49@1/R44@1/R569@1 behålls utan automatisk rebind.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "F-P-0050-occupation-Jomark@1",
+          "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+          "role": "supports",
+          "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+        },
+        {
+          "revision_id": "F-P-0050-occupation-Jomark@1",
+          "basis_revision_id": "R-f81045d395fcb687a2417ed6@1",
+          "role": "supports",
+          "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+        },
+        {
+          "revision_id": "F-P-0050-occupation-Jomark@1",
+          "basis_revision_id": "R-709a6f58d922fa1df3bb75c1@1",
+          "role": "supports",
+          "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/F-P-0050-occupation-Jomark@1",
+      "full_affected_history_pointer": "/objects/F-P-0050-occupation-Jomark@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "c0787c0c0ced63a991a15a6fd247864fdd71834e72962e8c5839d2b30288d0ea",
+      "actual_request": {
+        "id": "c0787c0c0ced63a991a15a6fd247864fdd71834e72962e8c5839d2b30288d0ea",
+        "operation_id": "T-0781/P0052-P0053-structured-birth-place-three-revisions-v1",
+        "affected_revision_id": "EP-E-birth-P-0052-P-0052-principal@1",
+        "changed_revision_id": "E-birth-P-0052@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/12",
+      "affected_exact_revision_id": "EP-E-birth-P-0052-P-0052-principal@1",
+      "retained_current_revision_id": "EP-E-birth-P-0052-P-0052-principal@1",
+      "changed_exact_revision_id": "E-birth-P-0052@2",
+      "changed_previous_revision_id": "E-birth-P-0052@1",
+      "full_histories": {
+        "EP-E-birth-P-0052-P-0052-principal": [
+          "EP-E-birth-P-0052-P-0052-principal@1"
+        ],
+        "E-birth-P-0052": [
+          "E-birth-P-0052@1",
+          "E-birth-P-0052@2"
+        ]
+      },
+      "own_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_rationale": "EP52@1 är enbart samma persons principal-deltagande i samma födelsehändelse. E52@2 behåller datum/place/eventtyp/status; caveat klargör C49blankhet och rapporterad Bygdeå från C46. EPs egenföddpost-oläst-caveat är fortsatt riktig. Hela EP@1 och E52@1-grund kvar, ingen starkare födelse- eller identitetsgrad.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "EP-E-birth-P-0052-P-0052-principal@1",
+          "basis_revision_id": "E-birth-P-0052@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/EP-E-birth-P-0052-P-0052-principal@1",
+      "full_affected_history_pointer": "/objects/EP-E-birth-P-0052-P-0052-principal@1",
+      "changed_full_payload_pointer": "/objects/E-birth-P-0052@2",
+      "old_changed_payload_pointer": "/objects/E-birth-P-0052@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "c21e0bf8a66d84c590c37e0d062e8f7ce673ebb7e0b875d4822acd62f3c33e16",
+      "actual_request": {
+        "id": "c21e0bf8a66d84c590c37e0d062e8f7ce673ebb7e0b875d4822acd62f3c33e16",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "O-P-0053-C0049@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/13",
+      "affected_exact_revision_id": "O-P-0053-C0049@1",
+      "retained_current_revision_id": "O-P-0053-C0049@2",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "O-P-0053-C0049": [
+          "O-P-0053-C0049@1",
+          "O-P-0053-C0049@2"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_rationale": "O53@2 har redan tagit bort falsktditto-normalisering, null i eget reported_birth_place, samma Anna/date1871-09-28, R49@2/M53@2/fullTR. Separat E53place-null är inte geografiskt motbevis. Historisk O@1 är ersatt och återadopteras inte.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "O-P-0053-C0049@2",
+          "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "O-P-0053-C0049@2",
+          "basis_revision_id": "M-P-0053-C0049@2",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "O-P-0053-C0049@2",
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/O-P-0053-C0049@2",
+      "full_affected_history_pointer": "/objects/O-P-0053-C0049@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "d14b6636acdb2dd44ff0323316c08fee38ff5e0c87f1101c3ad7a850dd60264d",
+      "actual_request": {
+        "id": "d14b6636acdb2dd44ff0323316c08fee38ff5e0c87f1101c3ad7a850dd60264d",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "M-P-0057-C0049@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/14",
+      "affected_exact_revision_id": "M-P-0057-C0049@1",
+      "retained_current_revision_id": "M-P-0057-C0049@2",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "M-P-0057-C0049": [
+          "M-P-0057-C0049@1",
+          "M-P-0057-C0049@2"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_rationale": "M57@2 har redan rättat samma dotterrads namn till Magdalena Euphrosyne och D:r; R49@2/fullTR ger samma historiska post, inte ny självständig person. Historisk Margareta@1 ersatt, statusTRANSCRIBED oförändrad.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "M-P-0057-C0049@2",
+          "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "M-P-0057-C0049@2",
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/M-P-0057-C0049@2",
+      "full_affected_history_pointer": "/objects/M-P-0057-C0049@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "d6092c876d0e27cacd70940284a5f41f3b3ce38e0ca1ab8f7f1e0ae2171adb07",
+      "actual_request": {
+        "id": "d6092c876d0e27cacd70940284a5f41f3b3ce38e0ca1ab8f7f1e0ae2171adb07",
+        "operation_id": "T-0781/C0049-small14-v1",
+        "affected_revision_id": "ID-P-0052-C0049@1",
+        "changed_revision_id": "M-P-0052-C0049@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/15",
+      "affected_exact_revision_id": "ID-P-0052-C0049@1",
+      "retained_current_revision_id": "ID-P-0052-C0049@1",
+      "changed_exact_revision_id": "M-P-0052-C0049@2",
+      "changed_previous_revision_id": "M-P-0052-C0049@1",
+      "full_histories": {
+        "ID-P-0052-C0049": [
+          "ID-P-0052-C0049@1"
+        ],
+        "M-P-0052-C0049": [
+          "M-P-0052-C0049@1",
+          "M-P-0052-C0049@2"
+        ]
+      },
+      "own_decision": "RESOLVE_RETAIN_ENTIRE_CURRENT_WITH_EXACT_OLD_BASES",
+      "own_rationale": "M52@2 tillför egen D:r och förtydligad caveat men Catharina Johannas namn/radperson är oförändrad. Därför behålls ID52@1 med M52@1-grund och samma accepted/CORROBORATED; ingen ny identitetsprövning eller blanketversionsuppdatering.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "ID-P-0052-C0049@1",
+          "basis_revision_id": "M-P-0052-C0049@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/ID-P-0052-C0049@1",
+      "full_affected_history_pointer": "/objects/ID-P-0052-C0049@1",
+      "changed_full_payload_pointer": "/objects/M-P-0052-C0049@2",
+      "old_changed_payload_pointer": "/objects/M-P-0052-C0049@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    },
+    {
+      "request_id": "f34b5970c022c2169d5bc595bd424c34d876ae9e0304f2b581ab22701afe7dbf",
+      "actual_request": {
+        "id": "f34b5970c022c2169d5bc595bd424c34d876ae9e0304f2b581ab22701afe7dbf",
+        "operation_id": "T-0781/C0049-record-own-full-source-scope-v1",
+        "affected_revision_id": "O-P-0057-C0049@1",
+        "changed_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      "actual_request_pointer": "/requests/16",
+      "affected_exact_revision_id": "O-P-0057-C0049@1",
+      "retained_current_revision_id": "O-P-0057-C0049@2",
+      "changed_exact_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+      "changed_previous_revision_id": "R-d9840df54c7f19f2454c4d2d@1",
+      "full_histories": {
+        "O-P-0057-C0049": [
+          "O-P-0057-C0049@1",
+          "O-P-0057-C0049@2"
+        ],
+        "R-d9840df54c7f19f2454c4d2d": [
+          "R-d9840df54c7f19f2454c4d2d@1",
+          "R-d9840df54c7f19f2454c4d2d@2"
+        ]
+      },
+      "own_decision": "RESOLVE_AS_ALREADY_EXPLICITLY_SUPERSEDED",
+      "own_rationale": "O57@2 har redan rättat namn och dag till Magdalena Euphrosyne1863-05-29 och egen B:å, sameperson/familj, uttryckliga R49@2/M57@2/fullTR. Egen födelsenotis är fortsatt oläst; äldre24maj/ditto@1 får inte återadopteras.",
+      "current_ordered_evidence": [
+        {
+          "revision_id": "O-P-0057-C0049@2",
+          "basis_revision_id": "R-d9840df54c7f19f2454c4d2d@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "O-P-0057-C0049@2",
+          "basis_revision_id": "M-P-0057-C0049@2",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "O-P-0057-C0049@2",
+          "basis_revision_id": "TR-T0781-C0049-fullpost@1",
+          "role": "supports",
+          "note": "T-0781 hela egna C0049familjeraden; samma historiska registerkälla, ingen extra oberoende identifikation eller egen födelsenotis."
+        }
+      ],
+      "new_native_revisions_needed": false,
+      "new_rebind_needed": false,
+      "full_current_payload_pointer": "/objects/O-P-0057-C0049@2",
+      "full_affected_history_pointer": "/objects/O-P-0057-C0049@1",
+      "changed_full_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@2",
+      "old_changed_payload_pointer": "/objects/R-d9840df54c7f19f2454c4d2d@1",
+      "primary_runtime_grade_or_resolution_candidate_seen_before_freeze": false
+    }
+  ],
+  "counts": {
+    "requests": 17,
+    "historical_affected_already_superseded": 10,
+    "retained_current_requests": 7,
+    "new_native_revisions": 0,
+    "new_rebinds": 0
+  },
+  "own_reading_scope": {
+    "whole_actual_request_objects_read": 17,
+    "whole_affected_changed_current_histories_native_read_ids": [
+      "E-birth-P-0052@1",
+      "E-birth-P-0052@2",
+      "EP-E-birth-P-0052-P-0052-principal@1",
+      "F-P-0050-occupation-Jomark@1",
+      "ID-P-0052-C0049@1",
+      "ID-P-0053-C0049@1",
+      "ID-P-0057-C0049@1",
+      "ID-P-0057-C0049@2",
+      "ID-P-0057-C0049@3",
+      "M-P-0052-C0049@1",
+      "M-P-0052-C0049@2",
+      "M-P-0053-C0049@1",
+      "M-P-0053-C0049@2",
+      "M-P-0057-C0049@1",
+      "M-P-0057-C0049@2",
+      "O-P-0048-A-0248-child_family@1",
+      "O-P-0048-A-0248-child_family@2",
+      "O-P-0050-A-0222-name_report@1",
+      "O-P-0052-C0049@1",
+      "O-P-0052-C0049@2",
+      "O-P-0053-C0049@1",
+      "O-P-0053-C0049@2",
+      "O-P-0057-C0049@1",
+      "O-P-0057-C0049@2",
+      "R-d9840df54c7f19f2454c4d2d@1",
+      "R-d9840df54c7f19f2454c4d2d@2",
+      "READ-afbfe3f933d234b8f0f60c3e@1",
+      "READ-afbfe3f933d234b8f0f60c3e@2",
+      "TR-bf8e09efe7e3e3c20156c785@1",
+      "TR-bf8e09efe7e3e3c20156c785@2"
+    ],
+    "additional_whole_direct_support_native_read_ids": [
+      "R-f81045d395fcb687a2417ed6@1",
+      "R-709a6f58d922fa1df3bb75c1@1",
+      "R-23a0a3adc573124b3fb1c938@1",
+      "S-0042@1"
+    ],
+    "whole398_or208origin_unit_reading_claim": false,
+    "prior_source_and174_API_judgments_reused": true,
+    "truncation_repair": "Initial combined30native display truncated middle; all missing M53new/M57/O48/O50/O52 and bothR49 reprinted in bounded complete second output. No credit from truncated text.",
+    "new_originals": 0
+  },
+  "remaining": "Independently verify actual174 API/native and old/protected exact result binding, then compare primary actual17 instructions and built resolution bytes. Freeze itself is no runtime or finalcanonical approval.",
+  "runtime_authorized": false,
+  "final_global_PASS": false
+}

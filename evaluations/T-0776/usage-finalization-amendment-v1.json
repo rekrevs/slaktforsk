@@ -1,0 +1,56 @@
+{
+  "task": "T-0776",
+  "at_utc": "2026-10-02T08:01:49.568540+00:00",
+  "amends": "measurement-report-v1.json and usage-at-report-v1.json; originals preserved",
+  "final_usage_path": "evaluations/T-0776/usage-final-v1.json",
+  "final_usage_sha256": "12e47acb0118150489c9fc2c0d3df994322a8e98a35091267677d9cef71538b8",
+  "agents": [
+    {
+      "agent": "/root/hybrid_sol_lead",
+      "model": "gpt-6.1-sol",
+      "response_records": 162,
+      "usage": {
+        "input_tokens": 17603603,
+        "cached_input_tokens": 16948096,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 55469,
+        "reasoning_output_tokens": 4550,
+        "total_tokens": 17659072,
+        "uncached_input_tokens_derived": 655507
+      }
+    },
+    {
+      "agent": "/root/hybrid_astra_sources",
+      "model": "gpt-6-astra",
+      "response_records": 75,
+      "usage": {
+        "input_tokens": 10416942,
+        "cached_input_tokens": 10124544,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 32853,
+        "reasoning_output_tokens": 1822,
+        "total_tokens": 10449795,
+        "uncached_input_tokens_derived": 292398
+      }
+    },
+    {
+      "agent": "/root/hybrid_astra_final",
+      "model": "gpt-6-astra",
+      "response_records": 98,
+      "usage": {
+        "input_tokens": 13234924,
+        "cached_input_tokens": 12653312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 33841,
+        "reasoning_output_tokens": 2893,
+        "total_tokens": 13268765,
+        "uncached_input_tokens_derived": 581612
+      }
+    }
+  ],
+  "root": "UNKNOWN model and tokens; never zero",
+  "reasoning": "Subset of output; do not add again",
+  "budget_end_percent": null,
+  "budget_start_percent": 39,
+  "budget_start_quality": "Provisional earlier reading, not fresh task baseline"
+}

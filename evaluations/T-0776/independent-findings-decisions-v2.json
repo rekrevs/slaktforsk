@@ -1,0 +1,70 @@
+{
+  "task": "T-0776",
+  "reviewer": "independent_final_astra",
+  "recorded_at_utc": "2026-10-02T07:28:57.630258+00:00",
+  "state": "SETTLED_BOUNDED_CORRECTIONS_AWAITING_IMPLEMENTATION",
+  "timing": "IF1/IF2 pre-initial-candidate; IF3 discovered against frozen initial C83 candidate after its creation.",
+  "findings": [
+    {
+      "id": "IF1",
+      "severity": "material_precision",
+      "object": "BIO-P-0117",
+      "version": 1,
+      "field": "markdown",
+      "old_quote": "familjen flyttades senare till Wäsby, där\nTure Edvard föddes 1904.",
+      "expected_match_count": 1,
+      "approved_replacement": "familjen flyttades senare till Wäsby. Ture Edvards födelse registrerades i Flen1904; födelseposten anger föräldrarnas hemvist Wästby, inte en säker fysisk nedkomstort.",
+      "evidence": [
+        "R-16bfa07eb8cd8deb39777a3e@1",
+        "O-P-0119-birth1904@1",
+        "THEME-P-0119-BO@1"
+      ],
+      "source_region": "C0083 nr2 col9 parents/residence header and blank col21; full original independently read before primary decisions",
+      "reason": "Parental residence is not exact physical delivery location. Current own observation and child BO already preserve that limitation. Approved exact replacement agrees with primary decision f13eb96063fbf753b2fbf1ccef2f9c1a92757fdfa2ba62d3c671b7b35a187d0b.",
+      "disposition": "revise_exact_span_preserve_all_other_data"
+    },
+    {
+      "id": "IF2",
+      "severity": "material_current_knowledge",
+      "object": "E-other-P-0015-folio1851904",
+      "version": 1,
+      "field": "caveat",
+      "old_quote": "Segerslund är identifierat, men hans egen rad där är oläst",
+      "expected_match_count": 1,
+      "approved_replacement": "Segerslund är identifierat och familjens egna rader5–8 är lästa enligt R-46358c5928bed96b67fa1828; bokförd utflyttning till Hyltinge1905-06-02 är belagd",
+      "evidence": [
+        "R-46358c5928bed96b67fa1828@1",
+        "E-registered_departure-P-0015-Segerslund1905@1"
+      ],
+      "support_scope": "Existing native full household r5–8, arrival fromp2121904-11-11 and departure1905-06-02. No fourth original opened.",
+      "reason": "Current event caveat wrongly calls already read own household row unread. Native R and E explicitly record this father and family. Remaining caveat about volumeperiod not physical residence remains; event date1904-11-11/type/role unchanged.",
+      "disposition": "revise_exact_span_preserve_all_other_data"
+    },
+    {
+      "id": "IF3",
+      "severity": "material_current_knowledge",
+      "object": "PATH-P-0015-KP-06",
+      "version": 2,
+      "baseline_version": 1,
+      "field": "outcome",
+      "old_quote": "EJ UNDERSÖKT. Ingen av de fyra delarna är öppnad. Folio 185 kräver ingen ny arkivåtkomst alls, bara en läsning av en redan speglad helbild. Att Helgesta pekas ut av två skilda uppgifter är en indikation, inte ett resultat.",
+      "expected_match_count": 1,
+      "approved_replacement": "DELVIS UNDERSÖKT. Segerslund185r5–8 är redan lästa med överföring från2121904-11-11 och tillHyltinge1905-06-02. Den delen tillgodoräknas. Egen vigselpost1902, dotterns födelsepost1921, militärlängden och separata flyttlängdskontroller är fortsatt oprövade inom denna väg. Att Helgesta pekas ut av två skilda uppgifter är en indikation, inte ett resultat.",
+      "evidence": [
+        "R-46358c5928bed96b67fa1828@1",
+        "E-registered_departure-P-0015-Segerslund1905@1"
+      ],
+      "candidate_anchor": {
+        "path": "evaluations/T-0776/C-0083-initial-candidate-operation-v1.json",
+        "sha256": "1e3ea5032c647bef21377e4f3bd708590f892736ebc793c33d23c47342036104"
+      },
+      "reason": "Initial candidate corrects the body but leaves separate current outcome explicitly saying all four components unopened. Same known own-row evidence contradicts that field; exact replacement mirrors approved body result, not a new source/gate judgement. This was inherited copy omission in primary field specification, faithfully implemented by Sol, not an invented Sol interpretation.",
+      "disposition": "replace_entire_outcome_preserve_other_data"
+    }
+  ],
+  "protected": "No person/identity/relation/OWNER/gate/life-picture promotion; source-specific correction only.",
+  "previous_receipt": {
+    "path": "evaluations/T-0776/independent-findings-decisions-v1.json",
+    "sha256": "cb3522a0b45d3b58df4dba870cc991646c2f42b39bf0bc0483f6433981c146b9"
+  }
+}

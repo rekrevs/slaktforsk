@@ -1,0 +1,29 @@
+{
+  "task": "T-0778",
+  "source": "G001-closure-actual281-v5.json",
+  "findings": [
+    {
+      "path": "residual_owners[2].state",
+      "old": "candidate credit after final reviewed canonicalreceipt",
+      "evidence": "Actual C1060 accepted at277 and still accepted281; owner T0410 actualcredit checkpoint",
+      "status": "addressed by explicit immutable v6 override"
+    },
+    {
+      "path": "priority_claims59[17].version",
+      "object": "ID-P-0017-index",
+      "manifest_version": 1,
+      "actual_current_version": 2,
+      "evidence": "T-0677/C0015-person-v1; exact birth day and individual parent fields belong later folios, not index. Current caveat directly inspected; existing substantive reason correct.",
+      "required": "Preserve manifest allocation and explicitly bind actual current@2"
+    },
+    {
+      "path": "priority_claims59[20].version",
+      "object": "ID-P-0422-C0751-own",
+      "manifest_version": 1,
+      "actual_current_version": 2,
+      "evidence": "T-0677/C0751-source-marriage-impact-v1; visible13rowclamp corrected, metadatafamily3 not sourcecell. Current caveat directly inspected; existing substantive reason correct.",
+      "required": "Preserve manifest allocation and explicitly bind actual current@2"
+    }
+  ],
+  "other_version_checks": "All48 records and other57 priority claim versions match current281; no canonical changes required."
+}

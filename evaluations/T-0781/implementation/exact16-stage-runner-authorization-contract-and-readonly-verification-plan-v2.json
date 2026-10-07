@@ -1,0 +1,82 @@
+{
+  "task": "T-0781",
+  "status": "STATIC_PREPARED_UNRUN",
+  "runner_pin": {
+    "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v3.py",
+    "sha256": "c6d8cf3885e55ffd180fa47dd1b791a4889e4ea36d5d5fd57d25b881039ac114"
+  },
+  "initial_runner_preserved_pin": {
+    "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v1.py",
+    "sha256": "6ac48119a742f4d7a6ef8fceaebd6262f19b9bcfecac938f70392b5ab51b5661"
+  },
+  "initial_to_v2_static_diff_pin": {
+    "path": "evaluations/T-0781/implementation/stage-runner-v1-to-v2-exact-WITHOUTROWID-static-diff-v1.patch",
+    "sha256": "48aaa4bdecf0edd6f80cfbf61c23f210fe93335cc06def03681fcceccd038be8"
+  },
+  "authorization_template_pin": {
+    "path": "evaluations/T-0781/implementation/stage-authorization-template-NOT-AUTHORIZED-v1.json",
+    "sha256": "e532dcd1c822b298c7545565d5db918c07f7742a62bef68208a334631f4c7c09"
+  },
+  "final_candidate_proposal_pin": {
+    "path": "evaluations/T-0781/implementation/complete-two-source-settled-draft-package-v3/complete-two-source-draft-package-proposal-v1.json",
+    "sha256": "ac29c6eac172cabecc2d403b85bb0833cc9391eda1f635975a2a972f85b9aa96"
+  },
+  "required_auth_values": {
+    "authorization": "ONE_FRESH_EXACT16_SEQUENTIAL_CLONE_STAGE_ONLY",
+    "root_authorized": true,
+    "canonical_apply_authorized": false,
+    "resolution_apply_authorized": false
+  },
+  "required_external_authority": "Root produces new immutable authorization binding exact runner/proposal/membership, both separate exact source/consequence gates, root fresh baseline proof, allreviewpins and locked source media file pins. Template grants nothing.",
+  "exact_baseline": {
+    "journal_head": 425,
+    "pending": 0,
+    "all50_schema_raw_row_and_BLOB_JSON_comparison": "Embedded JSON text never parsed or sorted for table equality",
+    "baseline_clone_pin": {
+      "path": "evaluations/T-0781/mechanical-current425-preparation-v1/baseline-j425.sqlite",
+      "sha256": "ca59629e83c5f7d70dff7c342aca9e6e282bc60f4a03a4147ebc32bf7a118917"
+    },
+    "main_pin": {
+      "path": "genealogy2/data/research.sqlite",
+      "sha256": "efea4dfa8feec3f2f5bff8167792b01513ebb5689d9d2ec5278983a23ca208b3"
+    }
+  },
+  "before_any_clone_or_CLI": "Everyoperationpin/sourcegate/auth/helper/main/baseline/protected42/media/reviewpin exact; all174 object expectedversion/newabsence and currentHEAD for each evidence edge, sequential knownproducers; no prior operations/resolutions/extra media/spans/mappings/unit decisions.",
+  "per_step": "Verify immutablefile+authorization+gates+proposal/membership/main again; actual DB before and after persisted evenfailure; actual head increments1/pendingnondecreasing; storedrequestJSON orderedAPI equality;42fullprotectedcurrentnative unchanged; stopwithoutretry/newclone at anymismatch.",
+  "expected_final_journal": 441,
+  "expected_final_pending": "UNKNOWN_UNTIL_ACTUAL_FULL_STAGE",
+  "full_capture": "All174actualtargetAPI/native, entire histories, all actual pending requests/exactaffected and changed/current/previous native+everyupstreamdependency, fulloriginunits, actualold/support baselinewhole equality, all50schema/rawrows/array-order digests, actualstoredjournalrequests, allperstepstdout/stderr/process/status. No sourcegrade frommechanicalequals.",
+  "preservation": "Existingnative/history/review rows/rowidorder exact; review_resolution unchanged; frozenasset/nativeasset/mediafile pins exact;42protected exact; allmain50+fileSHA unchanged.",
+  "narrow_derived_search_exemption": "Only six object_search virtual/shadow tables may change in clone as domain.indexObject deletes/inserts each touched object; untouched object_id/kind/text rows exact and every174 touched current indextext rebuilt literally from current native according to domain.mjs. Fullall50beforeafter recorded. Finalstage-vsactualMAIN comparison has no derivedtable exemption.",
+  "validators": [
+    "node genealogy2/cli.mjs verify --db STAGE --journal STAGE_JOURNAL",
+    "node genealogy2/cli.mjs verify-assets --db STAGE --journal STAGE_JOURNAL",
+    "node genealogy2/cli.mjs verify-source --db STAGE --journal STAGE_JOURNAL",
+    "node genealogy2/cli.mjs inventory --db STAGE --journal STAGE_JOURNAL",
+    "node genealogy2/cli.mjs pedigree P-0269 --db STAGE (default verified view)"
+  ],
+  "unrun": [
+    "stage clone",
+    "all CLI applies",
+    "allvalidators for this newstage",
+    "resolutions",
+    "canonicalapply"
+  ],
+  "completed_T0780_133_suite_rerun": false,
+  "failure_rules": "Save actualfailure/traceback/currentDBSHA and actualstates; no secondCLI/newstage/resolutions unless root explicitly authorizes newaction. Source/version differences backAstra.",
+  "static_verification": {
+    "AST_parse": true,
+    "runner_imported_or_executed": false,
+    "subprocess_invocations": 0
+  },
+  "new_turn_production": "Allstaticprep/sourceversionblockerreturn/metadataand10edge supersessions/helperv1→v2 counted as newturnproduction; exactworkerusage collectedbyroot afterfinal, unknownhere.",
+  "prior_v2_runner_preserved_pin": {
+    "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py",
+    "sha256": "ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2"
+  },
+  "v2_to_v3_stricter_allowed_append_table_diff_pin": {
+    "path": "evaluations/T-0781/implementation/stage-runner-v2-to-v3-exact-allowed-append-table-guard-diff-v1.patch",
+    "sha256": "d495b5a2e1efe9b205a032b7c3748fbe4257cc4a67228e4372e9515ceaea29be"
+  },
+  "allowed_table_additions_guard": "Only kindtables named inexact174API + operation/operation_payload/object/revision/origin/dependency/review_request/record_asset/record_media; allothers whole rawdigest exact except boundedderivedobject_search. No extra data/schema mutation accepted."
+}

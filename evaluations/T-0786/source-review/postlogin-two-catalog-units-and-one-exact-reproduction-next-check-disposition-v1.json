@@ -1,0 +1,52 @@
+{
+  "task": "T-0786",
+  "phase": "PRIMARY_POSTLOGIN_BOUNDED_ROUTING_DISPOSITION",
+  "at_utc": "2026-10-06T07:22:43.707651+00:00",
+  "input_pin": {
+    "path": "evaluations/T-0786/postlogin-two-catalog-units-root-observation-v1.json",
+    "sha256": "632f4c73fe6f31b19b9530e8c0abdbc0cf996d01c63ff8c6c9aeca7753f0bc9f"
+  },
+  "norm_pin": {
+    "path": "docs/research/riksarkivet-access.md",
+    "sha256": "d948b8205b976363179e39b05a9d18561b342d612e12d8bf5e0d0bafcdbc24d5"
+  },
+  "task_scope_pin": {
+    "path": "wotan/dev-log/T-0786.md",
+    "sha256": "464ce68eee87dd98df325e7df662a12254f9e053f62697e511670a4951193c6d"
+  },
+  "observation_credit": "Root observed logged-in catalogue; primary read the complete preserved observation. No own browser, catalogue original screenshot or person original reading claimed.",
+  "settled_catalogue_scope": {
+    "catalogue_units_used": 2,
+    "remaining_catalogue_units": 0,
+    "volume_candidate": "SE/SSA/1572/A II a/90,1936–1961,Hå–Jans",
+    "candidate_basis": "The current series explicitly sorts surname then person number; Hå–Jans is compatible with Jansson. This bounds a route, not actual placement of Arne/Maj or BI11 uppslag15.",
+    "access_observation": "The exact catalogue says no digital image/no reading-room prerequest, Sekretess Ja; PDM is a separate metadata field. None establishes that related reproduction has no viewable image or that this is their own15."
+  },
+  "next_exact_allowed_check": {
+    "decision": "PROCEED_ROOT_ONLY_WITH_ONE_NAMED_REPRODUCTION_CHECK",
+    "identifier": "00023696",
+    "archive_reference": "SE/RA/83001/01/2004/00023696",
+    "basis": "Explicit Reproducerad på relation in the exact already-read volume90 detail. Not a guessed nearby reproduction or third catalogue discovery.",
+    "method": "Use exact known reproduction identifier in appropriate IIIF/manifest layer; inspect full manifest label/reference/canvas routing and actual access response. If ordinary public access fails, root may use the logged-in exact viewer through the documented access order. No credentials/session extraction.",
+    "limits": [
+      "No new catalogue unit, no vol91 detail or broad surname search.",
+      "Do not guess that canvas15 is folio15. Require explicit label/printed folio and actual target-person correlation.",
+      "A successful manifest or viewer metadata response is not own original reading. Preserve exact response and volume binding first.",
+      "If full image is reachable, root separately locks original/hash/target scope before primary/independent source interpretation.",
+      "No order/archive contact/ArkivDigital. This is the same allowed Riksarkivet provider route, not permission for extra providers beyond the task cap."
+    ],
+    "second_related_identifier": "FST-D01751 is retained as an untested named relation. Do not open a third catalogue unit to pursue it in this step; return exact unresolved access/routing to root if 00023696 cannot resolve it."
+  },
+  "source_and_consequence_disposition": {
+    "originals_read_now": 0,
+    "own15": "UNLOCATED/UNREAD for P-0003/P-0007 until actual source binding.",
+    "existing_SEARCH_T0786": "RETAIN as dated historical pre-login access observation; new login/catalogue data must be additive, not erase former CAPTCHA/403 history.",
+    "current_reviews": "RETAIN accepted T0784 Arne/Maj failed/waiting and exact PK05 premise; no PASS/demotion from catalogue.",
+    "OWNER_and_person_relations": "RETAIN unchanged.",
+    "possible_later_native_update": "Only after this bounded named reproduction check settles current access; no native operation authorized by this routing decision.",
+    "source_exhaustion": false,
+    "T0787": "3011 preserved mechanically, no interpretation/release implied here."
+  },
+  "canonical_authorized": false,
+  "open_question": "Does explicitly related reproduction00023696 expose the candidate volume and an actual printed own15/person entry? This remains untested by catalogue alone."
+}

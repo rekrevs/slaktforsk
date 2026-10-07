@@ -1,0 +1,69 @@
+{
+  "task": "T-0780",
+  "source_pins": [
+    {
+      "path": "evaluations/T-0780/source-review/C-0563-sixteen-question-path-research-decisions-v1.json",
+      "sha256": "0fa5f8c09730a836fa4e203e84eeffa82c63836b0a2de841ffdd5f0709d582fc"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0563-P0471-consequence-adoption-decisions-v1.json",
+      "sha256": "755c6757d83aecfb9642e0be88d9fa4f21eb06d0ed972815fb92045c6f1c62d5"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0563-seventeen-key-decisions-v1.json",
+      "sha256": "0638f32f93736c329b95d6b674a7bf955dffcd1d2f66536fa6ad29f534beff1a"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0563-ten-review-header-retains-v1.json",
+      "sha256": "b8bfa4ff4172da498730d60d3b4db140ebd276edfb25c273135b4e141b97c44e"
+    },
+    {
+      "path": "evaluations/T-0780/source-review/C-0563-twentynine-contract-retains-v1.json",
+      "sha256": "6e85031a6049064af8cdd8382904f4ff35e83085070196d64093c5aee4879985"
+    }
+  ],
+  "candidate_modules": [
+    {
+      "path": "evaluations/T-0780/implementation/C0563-additional-settled-queue-v1/sixteen-question-path-research-operation-v1.json",
+      "sha256": "04cab0f3de14c050585a8939e3978e2bc4faea3e161c55f957d5bf1a19fec9d7",
+      "changes": 3
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0563-additional-settled-queue-v1/P0471-consequence-adoption-operation-v1.json",
+      "sha256": "ecaed4782d75b1b1d2bafd97ce9cfcfb00dfcdcafd9bb26d5596e237a0493db5",
+      "changes": 1
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0563-additional-settled-queue-v1/seventeen-key-operation-v1.json",
+      "sha256": "4ca523aa7a4288ab7f27d8826c34ff04aee59cbfc6d3a1831e6d5daec0f1a380",
+      "changes": 3
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0563-additional-settled-queue-v1/individual-full-field-table-v1.json",
+      "sha256": "bbff0d34b32f361db1accd880b153416d12fbf1cb2d49e24a1d189cce3845d4e"
+    },
+    {
+      "path": "evaluations/T-0780/implementation/C0563-additional-settled-queue-v1/full-incoming-and-cross-module-dependency-input-v1.json",
+      "sha256": "538211d8a9833f372834e1c7d5457b49dde2acfdef49f89a117bdb835659a721"
+    }
+  ],
+  "expected_unique_targets": 7,
+  "revised_objects": 6,
+  "new_objects": 1,
+  "all_exact_full_current_old_matches": "PASS",
+  "full_field_count": 583,
+  "incoming_edges": 0,
+  "cross_module_basis_questions": 0,
+  "stage_or_canonical_applies": 0,
+  "failed_attempts": 2,
+  "failure_history": [
+    {
+      "failure": "P0471 inspect presentation omits top-level kind; native object type verified SQL person and all present metadata/data/origins/evidence exact. First completed module preserved byte-equivalent."
+    },
+    {
+      "failure": "P0471 CLI enriched origin uses id rather than persisted unit_id/revision_id. Exact unit/coverage/note compared mechanically; no source content or canonical state changed."
+    }
+  ],
+  "elapsed_seconds": 0.012488842010498047,
+  "status": "Settled field candidates built; incoming basis dispositions and exact sequence pending Astra, not stage-ready"
+}

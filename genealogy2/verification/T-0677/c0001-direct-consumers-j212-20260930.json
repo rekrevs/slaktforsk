@@ -1,0 +1,214 @@
+{
+  "task": "T-0677",
+  "journal": 212,
+  "purpose": "Potential current direct consumers only; actual pending depends on operation order and revision-disposition filters. No substantive decision.",
+  "rows": [
+    {
+      "revision_id": "READ-87740f0fa417627668b7acba@1",
+      "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+      "role": "derived_from",
+      "note": "Avser denna version av den återbrukade källposten.",
+      "consumer_id": "READ-87740f0fa417627668b7acba",
+      "consumer_version": 1,
+      "kind": "assessment"
+    },
+    {
+      "revision_id": "O-P-0001-C0001-death@1",
+      "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+      "role": "supports",
+      "note": "Avgränsat befintligt underlag; ingen ny källläsning.",
+      "consumer_id": "O-P-0001-C0001-death",
+      "consumer_version": 1,
+      "kind": "observation"
+    },
+    {
+      "revision_id": "O-P-0002-C0001-birthyear@1",
+      "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+      "role": "supports",
+      "note": "Avgränsat befintligt underlag; ingen ny källläsning.",
+      "consumer_id": "O-P-0002-C0001-birthyear",
+      "consumer_version": 1,
+      "kind": "observation"
+    },
+    {
+      "revision_id": "O-P-0002-C0001-deathyear@1",
+      "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+      "role": "supports",
+      "note": "Avgränsat befintligt underlag; ingen ny källläsning.",
+      "consumer_id": "O-P-0002-C0001-deathyear",
+      "consumer_version": 1,
+      "kind": "observation"
+    },
+    {
+      "revision_id": "O-P-0003-C0001-incomplete-birthyear@1",
+      "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+      "role": "supports",
+      "note": "Avgränsat befintligt underlag; ingen ny källläsning.",
+      "consumer_id": "O-P-0003-C0001-incomplete-birthyear",
+      "consumer_version": 1,
+      "kind": "observation"
+    },
+    {
+      "revision_id": "F-P-0006-name_form-correlated@1",
+      "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+      "role": "supports",
+      "note": "Tidigare bevarat underlag, inte en extra oberoende röst.",
+      "consumer_id": "F-P-0006-name_form-correlated",
+      "consumer_version": 1,
+      "kind": "fact"
+    },
+    {
+      "revision_id": "F-P-0006-name_form-married@1",
+      "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+      "role": "supports",
+      "note": "Tidigare bevarat underlag, inte en extra oberoende röst.",
+      "consumer_id": "F-P-0006-name_form-married",
+      "consumer_version": 1,
+      "kind": "fact"
+    },
+    {
+      "revision_id": "E-birth-P-0006@1",
+      "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+      "role": "supports",
+      "note": "Tidigare bevarat underlag, inte en extra oberoende röst.",
+      "consumer_id": "E-birth-P-0006",
+      "consumer_version": 1,
+      "kind": "event"
+    },
+    {
+      "revision_id": "F-P-0035-secondary_source_report-A0179@1",
+      "basis_revision_id": "R-57465eb99730b7a08dd962c7@1",
+      "role": "supports",
+      "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen.",
+      "consumer_id": "F-P-0035-secondary_source_report-A0179",
+      "consumer_version": 1,
+      "kind": "fact"
+    }
+  ],
+  "transitive_current_dependents_v2": {
+    "R-57465eb99730b7a08dd962c7": [
+      {
+        "id": "E-birth-P-0006@1",
+        "object_id": "E-birth-P-0006",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Exakt födelsedag redan minimerad i citationen och återförs inte. Födelseförsamlingen bärs av f275, inte f1006:s tomma ortskolumn.",
+        "previous_id": null,
+        "kind": "event"
+      },
+      {
+        "id": "EP-E-birth-P-0006-P-0006-principal@1",
+        "object_id": "EP-E-birth-P-0006-P-0006-principal",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "",
+        "previous_id": null,
+        "kind": "participation"
+      },
+      {
+        "id": "F-P-0006-name_form-correlated@1",
+        "object_id": "F-P-0006-name_form-correlated",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Registerförnamn, födelseår och föräldrapar korroborerar sekundärträdets identitet; inte två oberoende röster.",
+        "previous_id": null,
+        "kind": "fact"
+      },
+      {
+        "id": "F-P-0006-name_form-married@1",
+        "object_id": "F-P-0006-name_form-married",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Namnbytesdatum och egen namnbyteshandling saknas.",
+        "previous_id": null,
+        "kind": "fact"
+      },
+      {
+        "id": "F-P-0035-secondary_source_report-A0179@1",
+        "object_id": "F-P-0035-secondary_source_report-A0179",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "candidate",
+        "evidence_status": "LEAD",
+        "rationale": "Återger uttrycklig befintlig personkunskap med dess gränser, utan ny forskning eller statusuppgradering.",
+        "caveat": "1979 är sekundär ledtråd, inte belagt livsslut. Födelseåret har senare kyrkoboksstöd.",
+        "previous_id": null,
+        "kind": "fact"
+      },
+      {
+        "id": "O-P-0001-C0001-death@1",
+        "object_id": "O-P-0001-C0001-death",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "recorded",
+        "evidence_status": "LEAD",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Äldre sekundärträdsuppgift. Församlingsformen är upphävd som aktuell slutsats; dödboken är oläst.",
+        "previous_id": null,
+        "kind": "observation"
+      },
+      {
+        "id": "O-P-0002-C0001-birthyear@1",
+        "object_id": "O-P-0002-C0001-birthyear",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "recorded",
+        "evidence_status": "LEAD",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Årsobservationen bevaras, inte som en konkurrerande vag födelseslutsats.",
+        "previous_id": null,
+        "kind": "observation"
+      },
+      {
+        "id": "O-P-0002-C0001-deathyear@1",
+        "object_id": "O-P-0002-C0001-deathyear",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "recorded",
+        "evidence_status": "LEAD",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "LEAD avser den äldre observationen, inte dagens kunskap.",
+        "previous_id": null,
+        "kind": "observation"
+      },
+      {
+        "id": "O-P-0003-C0001-incomplete-birthyear@1",
+        "object_id": "O-P-0003-C0001-incomplete-birthyear",
+        "version": 1,
+        "operation_id": "T-0652/persons-01-v1",
+        "disposition": "recorded",
+        "evidence_status": "LEAD",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Avbruten historisk text; inget år som börjar med 190 accepteras.",
+        "previous_id": null,
+        "kind": "observation"
+      },
+      {
+        "id": "READ-87740f0fa417627668b7acba@1",
+        "object_id": "READ-87740f0fa417627668b7acba",
+        "version": 1,
+        "operation_id": "T-0646/evidence-01-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Dokumenterad avgränsning och läshistorik i C-0001; ingen ny oberoende evidensröst.",
+        "caveat": "Ingen stabil profiladress eller bildlokalisering anges; inklistrad sekundär profiltext.",
+        "previous_id": null,
+        "kind": "assessment"
+      }
+    ],
+    "READ-87740f0fa417627668b7acba": []
+  },
+  "format": "dependencyReviewVersion:2, changes:[], resolve:[{request:actual_pending_id,rationale:individual_approved_reason}]. Actual IDs must come from temp/canonical pending; same-operation revised objects excluded from generated requests."
+}

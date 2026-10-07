@@ -1,0 +1,121 @@
+{
+  "task": "T-0795",
+  "utc": "2026-10-06T14:30:30.161899+00:00",
+  "gate": "PRIMARY SOURCE PASS FOR SIX MEDIA STAGE AND EXACT BASELINE-CLONE TEST ONLY",
+  "PASS": true,
+  "new24_match_exact": true,
+  "revision11_sql_independent_checks": [
+    {
+      "id": "PATH-P-0212-KP-05",
+      "data": true,
+      "caveat": true,
+      "origins_full_order": true,
+      "evidence_full_prefix": true,
+      "metadata": true
+    },
+    {
+      "id": "P-0212/Q-02",
+      "data": true,
+      "caveat": true,
+      "origins_full_order": true,
+      "evidence_full_prefix": true,
+      "metadata": true
+    },
+    {
+      "id": "THEME-P-0212-ARB",
+      "data": true,
+      "caveat": true,
+      "origins_full_order": true,
+      "evidence_full_prefix": true,
+      "metadata": true
+    },
+    {
+      "id": "THEME-P-0212-EKO",
+      "data": true,
+      "caveat": true,
+      "origins_full_order": true,
+      "evidence_full_prefix": true,
+      "metadata": true
+    },
+    {
+      "id": "THEME-P-0212-MIL",
+      "data": true,
+      "caveat": true,
+      "origins_full_order": true,
+      "evidence_full_prefix": true,
+      "metadata": true
+    },
+    {
+      "id": "THEME-P-0212-SAM",
+      "data": true,
+      "caveat": true,
+      "origins_full_order": true,
+      "evidence_full_prefix": true,
+      "metadata": true
+    },
+    {
+      "id": "BIO-P-0212",
+      "data": true,
+      "caveat": true,
+      "origins_full_order": true,
+      "evidence_full_prefix": true,
+      "metadata": true
+    },
+    {
+      "id": "KEY-P-0212-0767ee81003f",
+      "data": true,
+      "caveat": true,
+      "origins_full_order": true,
+      "evidence_full_prefix": true,
+      "metadata": true
+    },
+    {
+      "id": "CONTRACT-P-0212-PK-06",
+      "data": true,
+      "caveat": true,
+      "origins_full_order": true,
+      "evidence_full_prefix": true,
+      "metadata": true
+    },
+    {
+      "id": "CONTRACT-P-0212-PK-08",
+      "data": true,
+      "caveat": true,
+      "origins_full_order": true,
+      "evidence_full_prefix": true,
+      "metadata": true
+    },
+    {
+      "id": "CONTRACT-P-0212-PK-12",
+      "data": true,
+      "caveat": true,
+      "origins_full_order": true,
+      "evidence_full_prefix": true,
+      "metadata": true
+    }
+  ],
+  "media6_exact": true,
+  "pins": [
+    {
+      "path": "evaluations/T-0795/preparation/literal-package-v1/operation-DRAFT-no-media.json",
+      "sha256": "0107f182747a0416abf7cace9b09e24b712f7d848e13ee81364608861f06731e"
+    },
+    {
+      "path": "evaluations/T-0795/preparation/literal-package-v1/six-media-stage-plan.json",
+      "sha256": "486102da3cc2fbfce5e98deb59e3f8b0cf2481dc7af7ed95e252c2818f6a2d34"
+    },
+    {
+      "path": "evaluations/T-0795/preparation/literal-package-v1/individual-consequence-table.json",
+      "sha256": "667882aac820fd0264101b2d1cfd80c4e14de9062adef6a7e75432660e568112"
+    }
+  ],
+  "source_assessment": "All six source meanings and literal48dispositions preserved. OldC0906 remains dated unchanged. Historical T0790life retained; no personalfact or gradechange. U4/U6 unopenedleads explicit.",
+  "helper_provenance_condition": "No blocking condition. Verified actual native() for-loop AST is fixed origins/evidence list PLUS parenthesized conditional record assets/media list. Thus origins/evidence are always read, and only record-specific arrays are conditional. v1 concern was a mistaken reading and is withdrawn. Exact draft independently checked against SQL regardless.",
+  "remaining": "No canonical approval. Actual media bindings, sequential staged dependency requests, per-request source dispositions, protected state checks and final exact hashes require final source gate.",
+  "amends": "v1 source gate preserved; its helper-provenance conditional concern withdrawn after AST verification. No source/draft changes.",
+  "helper_ast": "BinOp(left=List(elts=[Tuple(elts=[Constant(value='origins'), Constant(value='origin')], ctx=Load()), Tuple(elts=[Constant(value='evidence'), Constant(value='dependency')], ctx=Load())], ctx=Load()), op=Add(), right=IfExp(test=Compare(left=Subscript(value=Name(id='n', ctx=Load()), slice=Constant(value='kind'), ctx=Load()), ops=[Eq()], comparators=[Constant(value='record')]), body=List(elts=[Tuple(elts=[Constant(value='assets'), Constant(value='record_asset')], ctx=Load()), Tuple(elts=[Constant(value='media'), Constant(value='record_media')], ctx=Load())], ctx=Load()), orelse=List(ctx=Load())))",
+  "helper_pin": {
+    "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py",
+    "sha256": "ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2"
+  }
+}

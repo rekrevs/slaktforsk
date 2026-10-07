@@ -1,0 +1,9 @@
+
+
+## T-0784: accepterad identitetsnivå, återbruk och kvarvarande omfång
+
+Bevarandet av C0973, Flen AIIa7c fol744 r9–10/F0015634_00156, samordnas först med T0377:s kvarvarande fullrad 10, kolumner 9–13. Bilden och avskriften används redan i Majs helsysterargument. De övriga tre folierna och hela moder- och familjeuppdraget bevaras; de är inte alla automatiska Maj-grindvillkor.
+
+T-0784 är faktiskt applicerad som `T-0784/three-native-identity-tree-and-Maj-current-copy-v1`, journal 443, pending 0. [Rootens faktiska acceptans](../../evaluations/T-0784/root-actual-three-person-canonical-acceptance-v1.json) och [slutliga individuella dispositioner v3](../../evaluations/T-0784/source-review/primary-current-21-comparative-exact-dispositions-v3.json) binder detta avgränsade resultat. [Exakt journaloperation](../../genealogy2/journal/000000443-bffba999540197ac81615a4f3ac2c32c0ecd452d4aea4aa862ce5f3e97d31fad.json) bevarar de versionsbundna besluten.
+
+Uppgiftens befintliga status, beroenden, prioritet och acceptanskriterier behålls. Tillägget bokför återbruk och kvarvarande passage; fortsatt utförande följer separat Wotan- och ägarbeslut.

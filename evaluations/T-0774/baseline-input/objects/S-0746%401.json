@@ -1,0 +1,29 @@
+{
+  "kind": "source",
+  "revision": {
+    "id": "S-0746@1",
+    "object_id": "S-0746",
+    "version": 1,
+    "operation_id": "T-0645/registry-v1",
+    "disposition": "recorded",
+    "evidence_status": null,
+    "rationale": "Den fullständiga äldre källbeskrivningen och dess metadata bevaras ordagrant. Separata normaliserade arkivfält och källklass tilldelas inte genom gissning.",
+    "caveat": "",
+    "previous_id": null
+  },
+  "data": {
+    "title": "S-0746: Rotemansarkivet, Stockholms stadsarkiv",
+    "archive_reference": null,
+    "source_class": null,
+    "description": "# S-0746: Rotemansarkivet, Stockholms stadsarkiv\n\n- Leverantör: Stockholms stadsarkiv,\n  <https://sok.stadsarkivet.stockholm.se/Rotemannen2012/Search.aspx>\n- Omfattning: **4 312 746 poster** ur roteregistren för Stockholms stad\n  **1878–1926**. Rotemännen förde ett löpande register över stadens\n  befolkning vid sidan av kyrkobokföringen; varje post motsvarar en person\n  under en sammanhängande period i ett hushåll på en adress.\n- Källkaraktär: **strukturerad databas, avskrift av original**. Posterna\n  återger roteregistrens fält men visar ingen bild. Databasen ska därför\n  behandlas som en andrahandskälla med hög tillförlitlighet och namnger\n  själv sitt original genom häftesnummer, sida och rad, vilket gör\n  originalbladet återsökbart i stadsarkivets serie.\n- Fält i den enkla sökningen: `tbBirthday` (fullt datum `ÅÅÅÅ-MM-DD`; ett\n  partiellt årtal ger `NoResult`), `tbLastname`, `tbFirstname`,\n  `tbBirthplace`, `ddlBirthcounty`, `ddlRote`, `ddlInyear`, `rblSex`.\n  Kryssrutorna `cbLastname`, `cbFirstname` och `cbBirthplace` betyder\n  **\"Exakt fras\"** och ska lämnas otippade vid vanlig namnsökning.\n- Knappen `btnSearchType` (**Avancerad sökning**) lägger till bland annat\n  `tbTitle` (yrke), `tbInplace`/`ddlIncounty`, `tbOutplace`/`ddlOutcounty`,\n  `tbStreet`, `tbEstate`, `tbLittera`, `ddlCivilstate`, `tbPostID`,\n  `tbLedger`, `tbPage` och `tbRow`. **`tbTitle` matchar hela titeln**, inte\n  en delsträng: `Lokeldare` ger träff, `Rör` ger `NoResult`.\n- Resultatvyn: `SearchResult.aspx`. Träffraderna öppnas med\n  `__doPostBack('gridPeople:_ctlN:_ctl0','')`; menyraden ger\n  `menu$lbSamePerson` (**Samma individ**), `menu$lbSameHousehold`,\n  `menu$lbSamePage` och `menu$lbSameLedger`. Detaljpanelen har ett eget\n  post-id och kan även nås som `SearchResult.aspx?id=<postid>`.\n- Träfflistan är alfabetisk och **avkortas vid 200 rader**; en sökning som\n  kan ge fler måste därför avgränsas med fler fält innan ett nollresultat\n  får tolkas som negativt.\n- Åtkomst 2026-09-06: fri, ingen inloggning och ingen captcha. Ingen lokal\n  kopia av sidorna sparas; posterna citeras med sitt post-id.\n\n## Rättelse 2026-09-06: sökformulärets fält är inte likvärdiga\n\nBeskrivningen ovan av `tbBirthday` och av fältkombinationer är prövad och\ndelvis felaktig. Två positivkontroller misslyckades:\n\n- `tbBirthday=1877-09-25` **ensamt** ger `NoResult`, trots att fyra kända\n  poster (Hulda Amalia Ålund/Ekholm) bär exakt det födelsedatumet. Samma\n  fält med `1878-02-17` gav 200 rader. Fältet ger alltså **falska nollor**.\n- `tbFirstname=Hulda Amalia` + `tbBirthplace=Gryt` ger `NoResult`, trots att\n  hennes poster har födelseorten `Gryt`. Också `tbFirstname` + `tbBirthday`\n  på samma person ger `NoResult`.\n\n**Endast namnfälten är belagt tillförlitliga.** `tbLastname` och\n`tbFirstname`, var för sig eller tillsammans, ger reproducerbart rätt\nträffar (`Ekholm` + `Axel Wilhelm` → 3 poster; `Ekholm` + `Hulda Amalia` →\n4 poster; `Jansson` + `Ada` → 84 poster). Kombinationen två namnfält +\n`tbTitle` är också positivkontrollerad (`Ekholm` + `Axel Wilhelm` +\n`Lokeldare` → rätt 3 poster).\n\n**Regel för detta projekt:** ett nollresultat från Rotemansarkivet får\nåberopas som avgränsat noll **endast** när sökningen använder namnfält, och\nvarje annan fältkombination måste positivkontrolleras på en känd post i\nsamma sökning innan dess nolla får bokföras.\n"
+  },
+  "origins": [
+    {
+      "unit": "f74dbac4df030ce3ccb13786613249b73980f3d98314dc2897cb50f91cf484e5",
+      "coverage": "complete",
+      "note": "Återanvändning av äldre forskningsunderlag; inte ett nytt oberoende belägg."
+    }
+  ],
+  "evidence": [],
+  "assets": []
+}

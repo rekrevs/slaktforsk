@@ -1,0 +1,61 @@
+--- evaluations/T-0780/implementation/prepare_complete_approved_actual2128_resolution_operations_TEMPLATE_v1.py
++++ evaluations/T-0780/implementation/prepare_complete_approved_actual2128_resolution_operations_TEMPLATE_v2.py
+@@ -8,12 +8,24 @@
+ from pathlib import Path
+ ROOT=Path(__file__).resolve().parents[3]
+ EXPECTED_REQUESTS=2128
++PIN_DOCUMENT_CACHE={}
++PIN_PATH_HASHES={}
+ 
+ def digest(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+ def readpin(p):
+- path=ROOT/p['path']
+- assert path.is_file() and digest(path)==p['sha256'],('pin mismatch',p)
+- return json.loads(path.read_text())
++ path=(ROOT/p['path']).resolve()
++ assert path.is_relative_to(ROOT),('pin outside repository',p)
++ previous=PIN_PATH_HASHES.get(str(path))
++ assert previous is None or previous==p['sha256'],('same path with differing pinned hashes',p)
++ key=(str(path),p['sha256'])
++ if key not in PIN_DOCUMENT_CACHE:
++  assert path.is_file() and digest(path)==p['sha256'],('pin mismatch',p)
++  PIN_PATH_HASHES[str(path)]=p['sha256']
++  PIN_DOCUMENT_CACHE[key]=json.loads(path.read_text())
++ return PIN_DOCUMENT_CACHE[key]
++def recheck_all_pins():
++ for path,expected in PIN_PATH_HASHES.items():
++  assert Path(path).is_file() and digest(path)==expected,('pinned input changed during build',path)
+ def pointer(x,p):
+  assert p=='' or p.startswith('/'),p
+  for raw in p.split('/')[1:]:
+@@ -22,10 +34,12 @@
+  return x
+ 
+ def build(manifest_path,output_path):
++ PIN_DOCUMENT_CACHE.clear();PIN_PATH_HASHES.clear()
+  manifest_path=Path(manifest_path).resolve();output_path=Path(output_path).resolve()
+  assert manifest_path.is_relative_to(ROOT/'evaluations/T-0780')
+  assert output_path.is_relative_to(ROOT/'evaluations/T-0780/implementation')
+  assert not output_path.exists(),'Preserve earlier drafts; choose a new review directory'
++ manifest_sha=digest(manifest_path)
+  m=json.loads(manifest_path.read_text())
+  assert m['task']=='T-0780' and m['status']=='COMPLETE_APPROVED_ALL2128_INDIVIDUAL_RESOLUTIONS'
+  assert m['no_canonical_apply_authorized'] is True
+@@ -88,13 +102,16 @@
+  existing=sqlite3.connect('file:'+str(stage_path)+'?mode=ro',uri=True)
+  assert all(existing.execute('select 1 from operation where id=?',(op['id'],)).fetchone() is None for op in operations)
+  existing.close();assert len({op['id'] for op in operations})==len(operations)
++ recheck_all_pins()
++ assert digest(manifest_path)==manifest_sha,'Complete approval manifest changed during build'
+  output_path.mkdir()
+  pins=[]
+  for i,op in enumerate(operations,1):
+   p=output_path/f'{i:03d}-individual-source-approved-resolution-operation-v1.json'
+   p.write_text(json.dumps(op,ensure_ascii=False,indent=2)+'\n');pins.append({'path':str(p.relative_to(ROOT)),'sha256':digest(p),'operation_id':op['id'],'changes':0,'resolve_count':len(op['resolve'])})
+  proof={'task':'T-0780','at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'REVIEWABLE_ONLY_UNAPPLIED',
+-  'manifest_pin':{'path':str(manifest_path.relative_to(ROOT)),'sha256':digest(manifest_path)},'stage_DB_pin':m['stage_DB_pin'],
++  'manifest_pin':{'path':str(manifest_path.relative_to(ROOT)),'sha256':manifest_sha},
++  'memoized_input_pins':{'unique_files':len(PIN_PATH_HASHES),'all_rechecked_after_complete_validation':True},'stage_DB_pin':m['stage_DB_pin'],
+   'actual_stage_state':state,'exact_individual_approvals':rows,'operations':pins,'coverage':{'actual_pending':EXPECTED_REQUESTS,'unique_approved':len(ids),'operation_count':len(pins),'duplicate_IDs':0,'missing_IDs':0,'unexpected_IDs':0},
+   'runtime_mutation_authorized':False,'program_acceptance':False,'no_automatic_retain_or_rebind':True}
+  p=output_path/'complete-individual-resolution-review-package-index-v1.json';p.write_text(json.dumps(proof,ensure_ascii=False,indent=2)+'\n')

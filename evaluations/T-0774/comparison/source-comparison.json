@@ -1,0 +1,482 @@
+{
+  "task": "T-0774",
+  "phase": "C_post_freeze",
+  "candidate_unchanged": true,
+  "scope": "Finite five-source comparison plus all34 existing A/B native revision dispositions; reviewer independently owns CDE precision-reference audit.",
+  "reference_manifest": "evaluations/T-0773/phase-c-reference.private.json",
+  "verified_reference_files": [
+    {
+      "path": "genealogy2/verification/T-0677/c0020-source-comparison-acceptance-20261001.json",
+      "sha256": "77eef8f90cfe2599f25c7b4b85a6ddfa8afd2a250672e3790977801c93fe59e5",
+      "case": "c0020",
+      "hash_verified": true
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0020-settled-implementation-spec-20261001.json",
+      "sha256": "8edebff70229d07377c741c2a7be1e133da3f8c6618e7ba743ec7450481f2c8e",
+      "case": "c0020",
+      "hash_verified": true
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0021-source-comparison-acceptance-20261001.json",
+      "sha256": "3d86d1e55b7071ebd46e5ba9bee776c15a9267e5e2865c65ac14f62a3a45e6ce",
+      "case": "c0021",
+      "hash_verified": true
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0021-settled-implementation-spec-20261001.json",
+      "sha256": "353d96f98b43ec9e150da5dab4fe952041191ac1cec4da90fdcd69c5afb6808f",
+      "case": "c0021",
+      "hash_verified": true
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0023-source-comparison-acceptance-20261001.json",
+      "sha256": "1d57a24a75a0c1a11dbc4248e072e1bc090807786f91a63cbeea3c7694d4035b",
+      "case": "c0023",
+      "hash_verified": true
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0023-settled-implementation-spec-20261001.json",
+      "sha256": "2c5cfa94cecdb61c1a93d87ea07bfb2f9bb583bc6bd7814331b17ad14246fc8a",
+      "case": "c0023",
+      "hash_verified": true
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0024-source-comparison-acceptance-20261001.json",
+      "sha256": "0151f7ab07a6f26d6ca9ff18405e0f52e31eb79fc69f724cca70daa11390d50d",
+      "case": "c0024",
+      "hash_verified": true
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0024-settled-implementation-spec-20261001.json",
+      "sha256": "a4f49c41d7e8b1851fb5e4759be27afa45cba1cd9dd5f79b15a7221dd3fdf282",
+      "case": "c0024",
+      "hash_verified": true
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0025-source-comparison-acceptance-20261001.json",
+      "sha256": "ba15c10cf5cf38372e878576133c34f5edb6fd2ebe17793502c0e8b0f5508d9f",
+      "case": "c0025",
+      "hash_verified": true
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0025-settled-implementation-spec-20261001.json",
+      "sha256": "619547897371251c635a06889a9b23432eadab9fc20080d3e376a1f9fd7c13b1",
+      "case": "c0025",
+      "hash_verified": true
+    }
+  ],
+  "cases": [
+    {
+      "case": "A",
+      "scope": "Nr 15 whole birth-register post, including edge marks; adjacent nr 16 excluded.",
+      "findings": [
+        {
+          "key": "father date; mother maiden name; father title/address",
+          "classification": "QUALIFIED_UNRESOLVED",
+          "candidate_final": "81 [20/30]/3[?]; f[?] [Ålund?/Skund?] änka; [banvkt?/hamnk?] 70",
+          "accepted_final_reference": "20/3; f Ålund änka; qualified title/address",
+          "first_Sol_history": "First Sol read day20 and qualified month3; current firstread day30? partially recovered.",
+          "grounds": "Own original detail favors 20/3 and f Ålund; remaining reservations are weaker extraction, not asserted false dates/names. Stronger older exact knowledge remains separate.",
+          "consequence": "No new person identity or gate conclusion."
+        },
+        {
+          "key": "mother gift and betrothed cells",
+          "classification": "RAW_MARK_OMISSION",
+          "candidate_final": "Blank cells, without separately recording crossing horizontal/oval edge",
+          "accepted_final_reference": "Boundary traces preserved, not positive Gift/Trolofvad statuses",
+          "first_Sol_history": "First Sol also omitted some geometry; final comparison cannot treat shared omission as agreement proof.",
+          "grounds": "The full-post geometry does not fully preserve both cell-edge marks. No status can be inferred from a crossing mark.",
+          "consequence": "No new person identity or gate conclusion."
+        },
+        {
+          "key": "nr15 scope, month, child/status/remarks",
+          "classification": "MATCH_WITH_VALID_RESERVATIONS",
+          "candidate_final": "Nr15; month ditto; Amalia, uä, female1; widow1+v; two remarks-edge marks; lower oval scoped but attribution reserved",
+          "accepted_final_reference": "Same target scope and literal status observations",
+          "first_Sol_history": "First Sol remarks/oval omissions improved in current final.",
+          "grounds": "Whole source scope correctly separated from neighbor; uncertain coding is left open.",
+          "consequence": "No new person identity or gate conclusion."
+        }
+      ]
+    },
+    {
+      "case": "B",
+      "scope": "Karl, Charlotta, Arne only; full printed fields, not surrounding households.",
+      "findings": [
+        {
+          "key": "Charlotta birthplace B08",
+          "classification": "MATERIAL_ERROR_AGAINST_ACCEPTED_FINAL",
+          "candidate_final": "Definite dito transferred from husband to Lilla Mellösa",
+          "accepted_final_reference": "Lerbo (documentary whole reuse)",
+          "first_Sol_history": "First Sol blind d:o/Mellösa; final Lerbo with separate county ditto.",
+          "grounds": "Own original birth-place crop and broader reference crop favor a written Lerbo followed by county quotation. Some glyph doubt remains, but definite transfer is not justified. Accepted reference is not an independent witness.",
+          "consequence": "Unsupported new Lilla Mellösa source-conflict enters old Charlotta adoption, RESEARCH and new adoption/source matrix; stronger own-birth Lerbo remains intact."
+        },
+        {
+          "key": "children heading and household bound",
+          "classification": "MATCH",
+          "candidate_final": "levande men EJ boende; three-person bound",
+          "accepted_final_reference": "Same printed heading and bound",
+          "first_Sol_history": "Initial overbroad household corrected before final.",
+          "grounds": "Printed heading distinguishes nonresident children; no neighboring identity invented.",
+          "consequence": "No new person identity or gate conclusion."
+        },
+        {
+          "key": "Arne Förs.; occupation; income/wealth",
+          "classification": "VALID_LITERAL_OR_QUALIFIED_ALTERNATIVE",
+          "candidate_final": "Förs. literal; Polerare; Karl Maskinarb. prefix reserved; income9 separate wealth dash",
+          "accepted_final_reference": "Semantic Flen; corresponding qualified occupation and separated money cells",
+          "first_Sol_history": "Withdrawn Olerard/Järs readings remain history only.",
+          "grounds": "Literal Förs. is compatible with semantic parish-place interpretation; source income numeral does not newly prove currency or earnings year.",
+          "consequence": "No new person identity or gate conclusion."
+        }
+      ]
+    },
+    {
+      "case": "C",
+      "scope": "Whole bounded nr14 post; number masked in present image, 14 only documentary locator.",
+      "findings": [
+        {
+          "key": "number/date/sex/legitimacy/age22/Ex/(1år)",
+          "classification": "MATCH_OR_VALID_SEPARATION",
+          "candidate_final": "Covered number; 19April1886; male1/legitimate1; mother22; Ex; (1år) text, meaning open",
+          "accepted_final_reference": "14 documentary reuse; same date/status text",
+          "first_Sol_history": "First Sol treated masked14 more confidently; current correctly distinguishes visible reading from locator.",
+          "grounds": "Printed headers govern interpretation. Existing 1May baptism is retained as older knowledge, not a new SCB baptism-column reading.",
+          "consequence": "No new person identity or gate conclusion."
+        },
+        {
+          "key": "col16 and col20 boundary marks",
+          "classification": "RAW_MARK_OMISSION",
+          "candidate_final": "Blank without separate terminal-g/oblique crossing trace",
+          "accepted_final_reference": "Boundary traces, no inferred positive statuses",
+          "first_Sol_history": "Final remarks edge marks recovered, these separate cells still incomplete.",
+          "grounds": "A crossing name/line stroke is physical geometry, not a nobility or marital-status assertion.",
+          "consequence": "No new person identity or gate conclusion."
+        },
+        {
+          "key": "upper36/30 and child inline note",
+          "classification": "UNRESOLVED_WITH_STATE_OVERINTERPRETATION_RISK",
+          "candidate_final": "[36/30?] genomstreckat; child 1:a b.? reserved",
+          "accepted_final_reference": "36 documentary reuse; crossing stroke does not prove age cancellation; 1:a/5 documentary reuse",
+          "first_Sol_history": "First Sol new crossed36/30 also uncertain.",
+          "grounds": "Own admin/parent/child details do not justify discarding older36 or claiming cancellation/first-child/baptism meaning. Older explicit36/rejected30 retained.",
+          "consequence": "No new person identity or gate conclusion."
+        }
+      ]
+    },
+    {
+      "case": "D",
+      "scope": "Four-row administrative/family group; no new identities from neighbors.",
+      "findings": [
+        {
+          "key": "father birth year",
+          "classification": "MATERIAL_ERROR_AGAINST_ACCEPTED_FINAL",
+          "candidate_final": "1830 read, then propagated as new census conflict",
+          "accepted_final_reference": "1850 documentary whole reuse",
+          "first_Sol_history": "First Sol blind1830; final1850 following own flat-top5 versus same-page3 comparison.",
+          "grounds": "Own original and enlarged same-image detail support final1850 more than certain1830. Both current readers agreeing1830 is still one witness and did not resolve the glyph correctly.",
+          "consequence": "False source-variant propagated to father adoption/source and D025–028 current BIO/RESEARCH/key/PK01 copies. Stronger actual1850 remains main fact, but fabricated conflict is material."
+        },
+        {
+          "key": "remaining bounded rows/status/marks",
+          "classification": "MATCH_WITH_RESERVATIONS",
+          "candidate_final": "Four-row scope, bounded blank/status and qualified names",
+          "accepted_final_reference": "Same administrative scope; qualified readings retained",
+          "first_Sol_history": "Blind/final distinction chiefly material for father year.",
+          "grounds": "No additional certainty for doubtful names or neighbors; no general source-exhaustion claim.",
+          "consequence": "No new person identity or gate conclusion."
+        }
+      ]
+    },
+    {
+      "case": "E",
+      "scope": "Full ten-row brace: seven family members plus three servants; no visible farm heading.",
+      "findings": [
+        {
+          "key": "mother short birth year",
+          "classification": "UNSUPPORTED_CERTAINTY_AGAINST_ACCEPTED_FINAL",
+          "candidate_final": "63 read; older67 separately preserved",
+          "accepted_final_reference": "67 documentary whole reuse",
+          "first_Sol_history": "First Sol blind63; final67[?] with explicit glyph reservation.",
+          "grounds": "Own original/parent detail favors67, but weak glyph remains a reservation. Definite63 is not justified by the new image; old67 is a documented older reading, not automatic truth.",
+          "consequence": "New source discrepancy presented too certainly; accepted actual motherbirth remains separate and older67 support is retained."
+        },
+        {
+          "key": "father year and mother place",
+          "classification": "UNRESOLVED_UNDEREXTRACTION",
+          "candidate_final": "[38/58] uncertain; [Värsås?/Mof…?] uncertain",
+          "accepted_final_reference": "58 and Mofalla",
+          "first_Sol_history": "First Sol blind30/Hogstena; final58/Mofalla after glyph comparisons.",
+          "grounds": "Own original supports58/Mofalla more, but final candidate does not assert wrong38/Värsås as fact. Stronger older knowledge is not demoted.",
+          "consequence": "No new person identity or gate conclusion."
+        },
+        {
+          "key": "children names, servants, full administrative blank fields",
+          "classification": "VALID_RESERVATIONS_AND_FIRSTREAD_ERRORS",
+          "candidate_final": "New middle-glyph/name alternatives qualified; older Johan Martin Gabriel/Ragnar Wilhelm/Ruth Ingegerd separate; three staff qualified; special fields bounded blank",
+          "accepted_final_reference": "Corresponding known family names; staff names/places qualified; no universal lifelong negatives",
+          "first_Sol_history": "Initial definite Magnus/Hulda Ingeborg forms were erroneous; final withdrew certainty.",
+          "grounds": "Names underresolved rather than canonical identities changed. Full10-row scope preserved. No new servant identities, visible farm heading or1900 nattvard column invented.",
+          "consequence": "No new person identity or gate conclusion."
+        }
+      ]
+    }
+  ],
+  "A_B_native": {
+    "objects": [
+      {
+        "case": "A",
+        "object_version": "TR-ae7cd3c73bd5f249a12a0501@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "BIO-P-0007@6",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "KEY-P-0007-920781c16092@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "RESEARCH-P-0007-9d76f0343410@3",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "THEME-P-0007-ID@2",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "P-0007/Q-04@3",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "PATH-P-0007-KP-04@3",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "BIO-P-0015@2",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "THEME-P-0015-SAM@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "ASSESSMENT-P-0007@2",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "RESEARCH-P-0015-9d76f0343410@2",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "KEY-P-0007-885be7eb93c0@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "CONTRACT-P-0015-PK-10@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "KEY-P-0007-bf37119ff18f@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "BIO-P-0016@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "KEY-P-0007-5c939ee32973@2",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "P-0016/Q-04@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "PATH-P-0016-KP-01@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "A",
+        "object_version": "KEY-P-0016-7188e33f657e@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "ADOPT-T0677-C0007-P-0003@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "ADOPT-T0677-C0007-P-0042@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "ADOPT-T0677-C0007-P-0043@1",
+        "judgment": "MIXED_SUPPORTED_PRECISION_PLUS_UNSUPPORTED_BIRTHPLACE_VARIANT",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "AUDIT-T0677-C0007@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "BIO-P-0043@4",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "RESEARCH-P-0043-9d76f0343410@1",
+        "judgment": "MIXED_SUPPORTED_PRECISION_PLUS_UNSUPPORTED_BIRTHPLACE_VARIANT",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "P-0003@2",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "P-0042@2",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "P-0043@2",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "O-P-0003-C0007-education-income@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "THEME-P-0003-EKO@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "THEME-P-0043-EKO@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "KEY-P-0043-0d4108391fa3@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "PATH-P-0043-KP-05@1",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      },
+      {
+        "case": "B",
+        "object_version": "BIO-P-0042@4",
+        "judgment": "SUPPORTED_BOUNDED_DOCUMENTARY_CONSOLIDATION",
+        "exact_before_after_locator": "A-B-native-diff-locator.json",
+        "basis": "Exact changed field reads and individual frozen claim/support decisions; no independent revalidation of older archival originals."
+      }
+    ],
+    "A": "All19 existing revisions are scoped documentary consistency/precision repairs: located row16 versus folio16, already-read motherhousehold, acknowledgment versus naming, residence versus physical delivery, seven-post repetition qualification, widow4/11March conflict, explicit gate/review reservations. Older positive evidence warrants wording corrections but is not automatically historically true.",
+    "B": "Fifteen existing revisions chiefly preserve own-parish f.d. occupation, street21/foster-chain older grounds, source-field completion reservations, money-column separation, residence precision and gate distinction; three sex attributes directly follow printed categories. Charlotta source-birthplace variant is the material unsupported subset.",
+    "scope_judgment": "Additional A/B repairs beyond Astra reference are supported within the selected families/source-effect review, with the identified B exception. No new person identities, parent edges or gate uplift; not proof of exhaustive relevant-copy coverage."
+  },
+  "limits": [
+    "Two readers of one image provide quality control, not two independent historical witnesses.",
+    "Accepted final reference is distinguished from initial Astra/Sol raw readings and documentary whole reuse. Its reused glyphs are not newly reread truth by definition.",
+    "No numerical accuracy score: reference256new+63reuse logical fields, candidate subdivisions/claims and selected key-field checks have different denominators.",
+    "Raw mark omissions differ from false substantive facts; reservations differ from certain errors.",
+    "Older originals outside the five were not reopened. A/B documentary support coherence is assessed from exact frozen j227 fields and support versions.",
+    "Coverage remains PARTIAL; no additional candidate repair or new research was performed.",
+    "A/B additional new source/adoption objects were checked for the identified source-effect reservations and preserved gates; this report does not claim an exhaustive independent proof of every added support assertion. Supported existing-revision judgments concern the concrete changed wording, not all untouched object data."
+  ],
+  "conclusion": "Source quality does not pass: definite B birthplace transfer and D1830 source-conflict are material; E63 certainty lacks sufficient source support. A/B supported extra consolidation does not erase these errors or the separate CDE reference coverage failures."
+}

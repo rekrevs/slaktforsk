@@ -1,0 +1,107 @@
+{
+  "task": "T-0780",
+  "at_utc": "2026-10-04T12:29:44.233100+00:00",
+  "role": "Bounded Sol mechanical implementation/preparation only",
+  "artifact_pins": [
+    {
+      "path": "evaluations/T-0780/implementation/actual2128-readonly-preparation-v1/unique-actual-unapproved-current-primary-finite-disposition-locators-v1.json",
+      "sha256": "59230885fee8d5bc039ddf326536b23fd07dff7fb89f86de05118f2f8f235976",
+      "bytes": 2920670
+    },
+    {
+      "path": "evaluations/T-0780/implementation/actual2128-readonly-preparation-v1/unique-approved-actual-current-producer-to-individual-source-spec-locators-v1.json",
+      "sha256": "b559d6c778200aa5f969a709de488d4019069f7fa69eba35e0157611047ba43f",
+      "bytes": 11014070
+    },
+    {
+      "path": "evaluations/T-0780/implementation/actual2128-readonly-preparation-v1/actual220-selected-primary-prior-native-current-equality-bindings-v2.json",
+      "sha256": "e32208794f88fbf6db5f0d03744987b06f302380f4871a1edd6ca1ea7a02e0c9",
+      "bytes": 2123217
+    },
+    {
+      "path": "evaluations/T-0780/implementation/actual2128-resolution-builder-input-contract-v2.json",
+      "sha256": "7adef195db7d2677f287cb5ab67130e7f2648ae92d313b7eadad0a1abbf203bf",
+      "bytes": 4723
+    },
+    {
+      "path": "evaluations/T-0780/implementation/prepare_complete_approved_actual2128_resolution_operations_TEMPLATE_v2.py",
+      "sha256": "35997a68ea4502f96255a1c49cf39accecc832887d28a214a733e3136d313126",
+      "bytes": 8387
+    },
+    {
+      "path": "evaluations/T-0780/implementation/resumed-actual-ten-acceptance-preparation-v1/actual-ten-acceptance-and-remaining21-reconciliation-input-contract-v1.json",
+      "sha256": "81c3450f8e76e0e18d2eea38966f27c83b725730a85baa80780b50bbc3875c61",
+      "bytes": 3146
+    },
+    {
+      "path": "evaluations/T-0780/implementation/resumed-actual-ten-acceptance-preparation-v1/exact-ten-durable-acceptance-receipt-templates-v1.json",
+      "sha256": "ea1c5088bbbabbfb2450523dbdafe773bbbc605403e24b95c06e80688217dc95",
+      "bytes": 11859
+    },
+    {
+      "path": "evaluations/T-0780/implementation/reconcile_actual_G002_ten_receipts_and_remaining21_TEMPLATE_v2.py",
+      "sha256": "7e557ca615b287e30d3b21b6a5f28de84913fbfc6b7495b5f19a5a1a7eb064b1",
+      "bytes": 4563
+    }
+  ],
+  "actual_readonly_state": {
+    "main": {
+      "journal_head": 281,
+      "pending": 0
+    },
+    "authorized_stage": {
+      "journal_head": 424,
+      "pending": 2128
+    }
+  },
+  "authorized_stage_DB_pin": {
+    "path": "evaluations/T-0780/full10-stage-final143-v1/stage.sqlite",
+    "sha256": "ae906e23de24bbded3cf392980c9749fe75d8ba6161fec7a92a1fbfdd17fe5ac",
+    "bytes": 698556416
+  },
+  "literal_counts": {
+    "all_actual_requests": 2128,
+    "changed_revision_fielddiffs": 68,
+    "all_target_API_reconstructions": 893,
+    "prior_baseline_support_payloads": 1013,
+    "selected_primary220_exact_data_caveat_bindings": 220,
+    "selected220_unbound": 0,
+    "baseline_request_locator_index_including_closed": 949,
+    "baseline_unique_current": 722,
+    "baseline_unique_with_primary_literal_locator": 476,
+    "approved_request_locator_index_including_closed": 1179,
+    "approved_unique_current": 607,
+    "approved_unique_with_literal_primary_context": 523,
+    "approved_unique_with_exact_saved_independent_actual_receipt_locator": 607
+  },
+  "verification": {
+    "new_JSON_parse": "PASS",
+    "template_Python_AST_parse": "PASS",
+    "stage_hash_unchanged": "PASS",
+    "live_main_j281_pending0": "PASS",
+    "resolution_builder_execution": "UNRUN",
+    "acceptance_reconciler_execution": "UNRUN"
+  },
+  "failed_static_attempts": [
+    {
+      "path": "evaluations/T-0780/implementation/reconcile_actual_G002_ten_receipts_and_remaining21_TEMPLATE_v1.py",
+      "failure": "AST syntax path expression",
+      "preserved": true,
+      "repair": "Immutable v2 exact path-expression fix; AST PASS"
+    }
+  ],
+  "no_source_grading_or_auto_retain_rebind": true,
+  "no_canonical_or_stage_runtime_mutations": true,
+  "no_resolution_operations_built_or_applied": true,
+  "no_acceptance_marker_or_program_credit": true,
+  "no_Wotan_archive_dashboard_writes": true,
+  "actual_usage": {
+    "input_tokens": null,
+    "cached_input_tokens": null,
+    "output_tokens": null,
+    "reasoning_tokens": null,
+    "status": "Unobservable within worker; root collects actual new-turn usage after worker final; do not report zero."
+  },
+  "work_start_utc": "UNKNOWN_after_context_recovery",
+  "all_failed_attempts_and_preparation_count_as_production": true
+}

@@ -1,0 +1,62 @@
+{
+  "task": "T-0786",
+  "role": "primary Astra",
+  "phase": "own bounded access-fact interpretation before independent comparison",
+  "created_utc": "2026-10-06T06:16:51.364649+00:00",
+  "exposure": "Root raw/current access observations and previously accepted current source knowledge only. No independent T0786 reading or candidate seen. No new original seen.",
+  "inputs": [
+    {
+      "path": "evaluations/T-0786/root-current-input-and-raw-access-release-v1.json",
+      "sha256": "9315216f2584fbaeb3ae0ba8673ae90333c1171644dafc68598da7970cee2595"
+    },
+    {
+      "path": "evaluations/T-0786/mcp-AIIa90-exact-code-query.json",
+      "sha256": "c3d9a0993012eba915d257ceb84e6f9a9a4dca23f944b9f5f77bd7f5ffda9597"
+    },
+    {
+      "path": "evaluations/T-0786/mcp-known-archive-positive-control.json",
+      "sha256": "da72ed806e8ddc6bab37c8cee3c7fc2c96a01f120f3349480607e33bf9f7ee9b"
+    },
+    {
+      "path": "evaluations/T-0786/preparation/both-full-current443-person-views-exact-acceptedT0784-stage-and-canonical-reuse-equality-v1.json",
+      "sha256": "aa1c7977fc90ffb3a745b4728edb863ce9900b588bd3798f927e27523cbab225"
+    }
+  ],
+  "observations": [
+    {
+      "layer": "MCP",
+      "meaning": "Känd arkivkod ger15positiva metadataresultat. ExaktAIIa90-fråga ger0. Detta säger bara något om denna metadatafråga, inte om volymens eller personens existens."
+    },
+    {
+      "layer": "JSONLD",
+      "meaning": "Root registrerar TLS-anslutningsfel och därefter HTTP403 för seriens JSONLD. Full katalog returnerades inte; innebörden är åtkomstfel vid detta prov."
+    },
+    {
+      "layer": "browser",
+      "meaning": "Root observerar människeverifiering på seriens exakta katalogväg. Den fulla katalogen och egna uppslag15 är inte lästa. Ägarens handoff är ännu pending i råsnapshoten; denna status måste avstämmas före slutlig operation."
+    },
+    {
+      "layer": "old_metadata",
+      "meaning": "S0689:s alfabetiska AIIa90/91 och äldre analoguppgift ger en begränsad sökriktning, inte nu säker volymkorrelation eller bevis om uttömda digitala alternativ."
+    }
+  ],
+  "individual_consequences": [
+    {
+      "person": "P-0003",
+      "source_scope": "C0882 BI11 s279 nr132, 1943-11-24, direkt hänvisninguppslag15. Åtkomst till korrekt volym/egen hushållsrad kvarstår.",
+      "retained_identity": "ASSESSMENT-T0784-P0003-identity@1 failed enbart PK05; tree@1 waiting. Ingen ny personosäkerhet eller omprövning av OWNER.",
+      "other_requirements": "Tidigare PK01/02/07/09/11/12 prövningar oförändrade; inget nytt original eller proveniensunderlag för en ny grade."
+    },
+    {
+      "person": "P-0007",
+      "source_scope": "Gemensamma uppslag15 inom redan korrelerad familjekedja; hon namnges inte i nr132.",
+      "retained_identity": "ASSESSMENT-T0784-P0007-identity@1 failed PK05/11; tree@1 waiting. Egna1945–46 och744r10col9–13/bevarande kvarstår separat hosT0789/T0788.",
+      "other_requirements": "Tidigare övriga fem identitetskrav och accepterade relationer oförändrade."
+    }
+  ],
+  "own_result": "Unresolved access to full catalogue/own target. No personnegative, no source-exhaustion, no undigitized conclusion, no identity/tree promotion.",
+  "native_recommendation": "En gemensam ny daterad åtkomstnot/search om detta konkreta prov, om root väljer canonical bevarande. Ingen befintlig PATH/PK behöver ändras för att rätta sakfel: aktuella PATH markerar redan olästa post/oprövade alternativ. Undvik dubbelnoter och omskrivning av äldre historiska prov.",
+  "next_restart": "Faktisk godkänd passage förbi CAPTCHA eller fungerande exakt katalogleverans; därefter full katalog/volymkorrelation och, om tillgängligt inom scope, egen post. Root hanterar handoff/mandat.",
+  "task_disposition_if_no_access": "BLOCKED på den utlovade egenpostläsningen med bevarad exakt provkedja och återstartvillkor; root får fortsätta nästa separat auktoriserade task.",
+  "canonical_authorized": false
+}

@@ -37,8 +37,10 @@ Begreppet profil avser personens samlade versionerade forskningsobjekt.
 Vid start av taskarbete:
 
 1. Läs kontexten enligt AGENTS, inklusive denna fil, och aktuellt mandat.
-2. Läs backloggen. Välj uttryckligen begärd uppgift, annars första
-   `ONGOING`, annars första `READY` med uppfyllda beroenden.
+2. Läs backloggen och kör `node scripts/wotan-priority.mjs`. Välj en
+   uttryckligen begärd uppgift inom dess mandat; annars behörig kärn-
+   `ONGOING`, annars första kärn-`READY` med uppfyllda beroenden.
+   Saknas sådan: Project Control; ingen automatisk DEFERRED-fallback.
 3. Läs den valda uppgiftens dev-log och dess senaste `Återupptagning`.
    Läs äldre uppgiftsloggar eller forskningsbatchar bara när det behövs
    för en konkret referens, ett belägg eller en avvikelse.
@@ -283,3 +285,22 @@ format, innehållskonsistens och personkontrakt separat. Ett materiellt fynd
 kräver avstämning av berörda aktuella texter och profiler före DONE;
 registrera avgränsat beslutat följdarbete i Wotan. Äldre sakligt tillräckliga
 resultat tillgodoräknas, men enbart formatering ger inget kontraktsgodkännande.
+
+
+## Hård kärnträdsprioritet — PCD-2026-10-05-001
+
+Ägarens2026-10-05 beslut ersätter HELA originalrevisionens tidigare automatiska köföreträde. AdamP0269/AxelP0270:s närmaste sakligt otillräckliga direkta anled, identitetsgrindar och föräldrafrågor går först, balanserat mellan Sverkers och Kristinas sida. Använd current body/caveat/PK/stronger/OWNER och exakt accepted återbruk; äldre failed-grind är varken automatiskt personosäkerhet eller automatiskt PASS. Full livsbild är separat och planeras avgränsat i generationsvågen; nästa djup får inte bli skäl att uppskjuta den permanent.
+
+Wotan är fortfarande den enda kön. CORE_IDENTITY och CORE_LIFE kräver exakt P-id/relation/fråga och bounded dev-log; CORE_SUPPORT kräver en konkret nödvändig kärnleverans. Relevanta sidopersoner/kandidater kan vara CORE_IDENTITY när anfrågan kräver dem. DEFERRED är bevarat lägre prioriterat arbete, inte orelaterat/avskrivet/avslutat. Oklassade gamla och nya uppdrag är inte automatiskt tillåtna kärnuppgifter. Främja endast sakligt prövade avgränsade delar. Dela blandade scopes förlustfritt före utförande, med exakt union, restägare, full äldre AC/checkpoint och återbruk. Alla nödvändiga följdrättelser även i sidoobjekt ingår fortsatt i sourcekvaliteten; ny fristående sidoforskning utvidgar aldrig kärnbatchen.
+
+Läs wotan/README.md och kör `node scripts/wotan-priority.mjs` före nästa uppgiftsval. Återuppta behörig ONGOING först; en DEFERRED ONGOING kräver checkpoint/Project Control, aldrig tyst avbrott. Välj annars första behöriga kärn-READY i backlogordning inom faktiskt körmandat. Om sådan saknas: Project Control för verklig kärngrind och möjlig nästa boundedpassage; kör aldrig DEFERRED automatiskt och skapa inte obegränsat mandat. Explicit ägarbeställning av lägre uppgift är ett tillåtet avgränsat undantag, dokumenterat i dess checkpoint/PC, utan generell fallback. Priority eller READY ger inte i sig ett nytt utförandemandat.
+
+Fullmaterialrevisionens fasta union, append-onlyevidens, aktuella person-/granskningsnivåer, egna originals läsomfång och slutgrind består. Håll alla uppskjutna frågor synliga med exactperson/source/time/field, tidigare accepterade steg, återstående steg, ägare och verkligt återstartvillkor; köprioritet får aldrig fabricera after/blocker/IDEA/DONE. Inga frysta arkiv-/dashboardwrites följer av detta beslut.
+
+### Prioriteringsfält och bevarad lägre kö
+
+`priority` är ett schemaläggningsfält i backlog.json: CORE_IDENTITY, CORE_LIFE, CORE_SUPPORT eller DEFERRED. `priority_basis` anger beslut samt person/relation/fråga och hänvisar till full dev-log. Fälten ändrar inga AC, kunskapsbedömningar eller Wotanstatusar. CORE_SUPPORT är inte generell metautveckling utan avgränsat nödvändigt kärnstöd. DONE och IDEA behöver inte märkas om. En ny READY/BLOCKED-uppgift ska ha klassning; oklassad uppgift får inte startas av den vanliga kärnkörningen.
+
+Kärnkön ordnas efter närmaste generation, materiell identitets-/relationsrisk och balans; inte alla lätta personfall på en sida eller bara antal citationer. Ordna inom aktuell generationsvåg även kärnlivsbild, så att låg nivå inte väntar på oändlig anexpansion. Triage/promotions kräver hela aktuella scope och faktisk relevans, inte en titel-/metadataregex. Ny medlemsbild hämtas från canonical state, inte ett tidslöst snapshot.
+
+Den lägre kön visas med `node scripts/wotan-priority.mjs --deferred`: ID/status/basis är ett direkt filter av samma backlog, ingen parallell arbetslista. Alla ägarloggar och faktiska återstående original/checkpoints består. Vid delning måste både avdelad passage och ursprungsrest vara spårbara och unionen kontrolleras; inga överlappande källpassager utförs två gånger. Om ägaren beställer en enskild lägre uppgift gäller dess uttryckliga mandat och fulla kvalitetskrav.

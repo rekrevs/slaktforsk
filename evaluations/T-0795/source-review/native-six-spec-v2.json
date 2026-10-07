@@ -1,0 +1,942 @@
+{
+  "task": "T-0795",
+  "utc": "2026-10-06T14:24:40.193011+00:00",
+  "status": "source-approved specification pending independent package review; NOT apply-ready until media staged",
+  "changes": [
+    {
+      "id": "S-T0795-U1",
+      "kind": "source",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Ingen bild eller personlig post. Ingen negativ slutsats om materialets existens/digitalisering. Inget certifierat personområde.",
+      "data": {
+        "title": "Riksarkivet — katalogmetadata om Stockholms inskrivningsområde",
+        "archive_reference": "SE/KrA/0473/B/01",
+        "source_class": "metadata",
+        "description": "Riksarkivet; möjlig inskrivning omkring1953 för född1933; rätt myndighet/område och digital metadataåtkomst. Daterad metadataingång2026-10-06. Verktygen återger katalog/guide/sökrespons; leverantören och namngivna arkiv/post är källor. Ingen personoriginalkälla."
+      },
+      "origins": [],
+      "evidence": []
+    },
+    {
+      "id": "R-T0795-U1-metadata",
+      "kind": "record",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Ingen bild eller personlig post. Ingen negativ slutsats om materialets existens/digitalisering. Inget certifierat personområde.",
+      "data": {
+        "source_id": "S-T0795-U1",
+        "record_type": "bounded_metadata_access_probe",
+        "locator": "{\"unit\": \"U1\", \"date\": \"2026-10-06\", \"entries\": [{\"id\": \"U1-1\", \"unit\": \"U1\", \"tool\": \"mcp__riksarkivet__search_metadata\", \"args\": {\"keyword\": \"Stockholms inskrivningsområde\", \"offset\": 0, \"limit\": 10, \"only_digitised\": false, \"dedup\": false, \"max_response_tokens\": 6000, \"research_context\": \"T-0795 bounded generic archival metadata routing for inscription authority around 1953; no personal record or name search\"}, \"reserved_utc\": \"2026-10-06T14:11:36.294Z\", \"status\": \"reserved\"}, {\"id\": \"U1-2\", \"unit\": \"U1\", \"tool\": \"web__run\", \"args\": {\"open\": [{\"ref_id\": \"https://sok.riksarkivet.se/arkiv/ScrWZ9F3yITCN9UHUGTIG4\"}], \"response_length\": \"long\"}, \"reserved_utc\": \"2026-10-06T14:14:08.673Z\", \"status\": \"reserved\", \"selection_note\": \"Full selected catalog/guide metadata; no personal original\"}], \"raw_bundle_sha256\": \"f6648ab0cd267c526ea39de44021ec0789d008ab9b73ed317f96464d93dc00d5\"}",
+        "dependence_note": "U1-1 hela MCP-svaret. Stockholms inskrivningsområde SE/KrA/0473/B/01,1902–1969, Riksarkivet i Täby/Krigsarkivet, context Inskrivnings- och rullföringsområden → Inskrivningsområden. Separat arkivbildarträff SE/KrA/1748. Ingen person, volym eller digital reproduktion fastställd. U1-2 katalogdetaljen ej läst: webbverktyget otillgänglig, direkt HTTP200 ledde till CAPTCHA.\nLäsgräns: Ingen bild eller personlig post. Ingen negativ slutsats om materialets existens/digitalisering. Inget certifierat personområde.\nWebbsökningens indexerade text och samma sidas fulltext är inte oberoende källor. Verktygsfel skiljs från faktisk HTTPstatus; hämtat är inte läst personoriginal."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "S-T0795-U1",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ],
+      "bindings": {
+        "S-T0795-U1": 1
+      }
+    },
+    {
+      "id": "SEARCH-T0795-U1",
+      "kind": "search",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Ingen bild eller personlig post. Ingen negativ slutsats om materialets existens/digitalisering. Inget certifierat personområde.",
+      "data": {
+        "question_id": "P-0212/Q-02",
+        "source_id": "S-T0795-U1",
+        "scope_json": {
+          "description": "Riksarkivet; möjlig inskrivning omkring1953 för född1933; rätt myndighet/område och digital metadataåtkomst",
+          "query": [
+            {
+              "keyword": "Stockholms inskrivningsområde",
+              "offset": 0,
+              "limit": 10,
+              "only_digitised": false,
+              "dedup": false,
+              "max_response_tokens": 6000,
+              "research_context": "T-0795 bounded generic archival metadata routing for inscription authority around 1953; no personal record or name search"
+            },
+            {
+              "open": [
+                {
+                  "ref_id": "https://sok.riksarkivet.se/arkiv/ScrWZ9F3yITCN9UHUGTIG4"
+                }
+              ],
+              "response_length": "long"
+            }
+          ],
+          "bounds": {
+            "entry_count": 2,
+            "total_task_count": 12,
+            "unit6_all_organizations_total": null,
+            "date": "2026-10-06",
+            "person_query": false,
+            "personal_original_read": false,
+            "queries_not_exhaustive": true
+          },
+          "raw_bundle_sha256": "f6648ab0cd267c526ea39de44021ec0789d008ab9b73ed317f96464d93dc00d5",
+          "unopened_leads": []
+        },
+        "outcome": "inconclusive",
+        "body": "U1-1 hela MCP-svaret. Stockholms inskrivningsområde SE/KrA/0473/B/01,1902–1969, Riksarkivet i Täby/Krigsarkivet, context Inskrivnings- och rullföringsområden → Inskrivningsområden. Separat arkivbildarträff SE/KrA/1748. Ingen person, volym eller digital reproduktion fastställd. U1-2 katalogdetaljen ej läst: webbverktyget otillgänglig, direkt HTTP200 ledde till CAPTCHA.\nPOSITIV METADATAROUTING till kandidatarkiv; ÅTKOMSTHINDER för vald full katalog; rätt personområde OLÖST.\nIngen bild eller personlig post. Ingen negativ slutsats om materialets existens/digitalisering. Inget certifierat personområde."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U1-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0212-T0795-U1",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Ingen bild eller personlig post. Ingen negativ slutsats om materialets existens/digitalisering. Inget certifierat personområde.",
+      "data": {
+        "subject_id": "P-0212",
+        "criteria": "source_path/1",
+        "outcome": "POSITIV METADATAROUTING till kandidatarkiv; ÅTKOMSTHINDER för vald full katalog; rätt personområde OLÖST.",
+        "body": "T-0795 U1, metadataåtkomst2026-10-06. Riksarkivet; möjlig inskrivning omkring1953 för född1933; rätt myndighet/område och digital metadataåtkomst\n\nLäst/prövat: U1-1 hela MCP-svaret. Stockholms inskrivningsområde SE/KrA/0473/B/01,1902–1969, Riksarkivet i Täby/Krigsarkivet, context Inskrivnings- och rullföringsområden → Inskrivningsområden. Separat arkivbildarträff SE/KrA/1748. Ingen person, volym eller digital reproduktion fastställd. U1-2 katalogdetaljen ej läst: webbverktyget otillgänglig, direkt HTTP200 ledde till CAPTCHA.\n\nBedömning: Stockholms inskrivningsområde finns som katalogträff med period som inkluderar1953. Gunnar är belagd på Lidingö till1951; det fastställer inte hans inskrivningsområde1953. Inga slutsatser om faktisk inskrivning, tjänst eller digital originalåtkomst.\n\nSaknad nyckel: Hemvist/församling omkring den möjliga inskrivningen, eventuellt inskrivningsnummer med provenans, jurisdiktionsuppgift och vald series/volyms exakta täckning.\nAnskaffningsväg/ägare: T0359:s redan avgränsade egna1951fortsättning kan ge senare hemvist eller eget nummer; T0362:s befintliga adressfråga1951–1967 kan ge ledtråd. Ingendera garanteras. Full läsning av exakt katalogpost efter återställd åtkomst behöver eget avgränsat beslut; CAPTCHA inte löst.\n\nGräns: Ingen bild eller personlig post. Ingen negativ slutsats om materialets existens/digitalisering. Inget certifierat personområde.\nUppdragets två ingångar är använda. Fortsatt utförande utöver nämnda redan beslutade T0359/T0362-scope är EJ BESLUTAT UTFÖRANDE och kräver nytt avgränsat beslut. T0767 behåller separat sina exakt två äldre åtkomstmål. Task-DONE är inte person-/källslut."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U1-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "SEARCH-T0795-U1",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "F-P-0212-source_access-C0906",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "F-P-0212-source_reference-Lidingo1951",
+          "version": 2,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "id": "S-T0795-U2",
+      "kind": "source",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Inga anställningsakter, betyg eller elevhälsodata öppnade. Generell skolrouting är inget bevis att särskild akt finns.",
+      "data": {
+        "title": "Falköpings kommun — Kommunens arkiv",
+        "archive_reference": null,
+        "source_class": "metadata",
+        "description": "Falköpings kommunarkiv; Flobyskolan/Fredriksbergskolan1967–2017; arkivrouting och digital tillgång. Daterad metadataingång2026-10-06. Verktygen återger katalog/guide/sökrespons; leverantören och namngivna arkiv/post är källor. Ingen personoriginalkälla."
+      },
+      "origins": [],
+      "evidence": []
+    },
+    {
+      "id": "R-T0795-U2-metadata",
+      "kind": "record",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Inga anställningsakter, betyg eller elevhälsodata öppnade. Generell skolrouting är inget bevis att särskild akt finns.",
+      "data": {
+        "source_id": "S-T0795-U2",
+        "record_type": "bounded_metadata_access_probe",
+        "locator": "{\"unit\": \"U2\", \"date\": \"2026-10-06\", \"entries\": [{\"id\": \"U2-1\", \"unit\": \"U2\", \"tool\": \"web__run\", \"args\": {\"search_query\": [{\"q\": \"site:falkoping.se kommunarkiv skolarkiv Flobyskolan Fredriksbergskolan\"}], \"response_length\": \"long\"}, \"reserved_utc\": \"2026-10-06T14:11:36.296Z\", \"status\": \"reserved\"}, {\"id\": \"U2-2\", \"unit\": \"U2\", \"tool\": \"web__run\", \"args\": {\"open\": [{\"ref_id\": \"https://www.falkoping.se/kommun--politik/kommunen-forvaltningar-bolag/kommunens-arkiv\"}], \"response_length\": \"long\"}, \"reserved_utc\": \"2026-10-06T14:14:08.673Z\", \"status\": \"reserved\", \"selection_note\": \"Full selected catalog/guide metadata; no personal original\"}], \"raw_bundle_sha256\": \"e8feb73e0b34ad05e49c7decb17026723f92ba2ef2dd3dd8fb6d7b7da4eea626\"}",
+        "dependence_note": "U2-2 hela Kommunens arkiv, uppdaterad2026-09-25, webbtext99rader. Arkivet omfattar kommunens verksamheter sedan1974 och införlivade tidigare kommuner från1863. Skolhandlingar nämns generellt. Allmänna handlingar kan tas del av, vissa begränsas av sekretess; frågor/åtkomst/besök hänvisas till kommunarkivet. Endast betygskopior har uttryckligt nämnd e-tjänst.\nLäsgräns: Inga anställningsakter, betyg eller elevhälsodata öppnade. Generell skolrouting är inget bevis att särskild akt finns.\nWebbsökningens indexerade text och samma sidas fulltext är inte oberoende källor. Verktygsfel skiljs från faktisk HTTPstatus; hämtat är inte läst personoriginal."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "S-T0795-U2",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ],
+      "bindings": {
+        "S-T0795-U2": 1
+      }
+    },
+    {
+      "id": "SEARCH-T0795-U2",
+      "kind": "search",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Inga anställningsakter, betyg eller elevhälsodata öppnade. Generell skolrouting är inget bevis att särskild akt finns.",
+      "data": {
+        "question_id": "P-0212/Q-02",
+        "source_id": "S-T0795-U2",
+        "scope_json": {
+          "description": "Falköpings kommunarkiv; Flobyskolan/Fredriksbergskolan1967–2017; arkivrouting och digital tillgång",
+          "query": [
+            {
+              "search_query": [
+                {
+                  "q": "site:falkoping.se kommunarkiv skolarkiv Flobyskolan Fredriksbergskolan"
+                }
+              ],
+              "response_length": "long"
+            },
+            {
+              "open": [
+                {
+                  "ref_id": "https://www.falkoping.se/kommun--politik/kommunen-forvaltningar-bolag/kommunens-arkiv"
+                }
+              ],
+              "response_length": "long"
+            }
+          ],
+          "bounds": {
+            "entry_count": 2,
+            "total_task_count": 12,
+            "unit6_all_organizations_total": null,
+            "date": "2026-10-06",
+            "person_query": false,
+            "personal_original_read": false,
+            "queries_not_exhaustive": true
+          },
+          "raw_bundle_sha256": "e8feb73e0b34ad05e49c7decb17026723f92ba2ef2dd3dd8fb6d7b7da4eea626",
+          "unopened_leads": []
+        },
+        "outcome": "positive",
+        "body": "U2-2 hela Kommunens arkiv, uppdaterad2026-09-25, webbtext99rader. Arkivet omfattar kommunens verksamheter sedan1974 och införlivade tidigare kommuner från1863. Skolhandlingar nämns generellt. Allmänna handlingar kan tas del av, vissa begränsas av sekretess; frågor/åtkomst/besök hänvisas till kommunarkivet. Endast betygskopior har uttryckligt nämnd e-tjänst.\nPOSITIV INSTITUTIONSROUTING; exakt skolarkivserie och digital personåtkomst OLÖST.\nInga anställningsakter, betyg eller elevhälsodata öppnade. Generell skolrouting är inget bevis att särskild akt finns."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U2-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0212-T0795-U2",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Inga anställningsakter, betyg eller elevhälsodata öppnade. Generell skolrouting är inget bevis att särskild akt finns.",
+      "data": {
+        "subject_id": "P-0212",
+        "criteria": "source_path/1",
+        "outcome": "POSITIV INSTITUTIONSROUTING; exakt skolarkivserie och digital personåtkomst OLÖST.",
+        "body": "T-0795 U2, metadataåtkomst2026-10-06. Falköpings kommunarkiv; Flobyskolan/Fredriksbergskolan1967–2017; arkivrouting och digital tillgång\n\nLäst/prövat: U2-2 hela Kommunens arkiv, uppdaterad2026-09-25, webbtext99rader. Arkivet omfattar kommunens verksamheter sedan1974 och införlivade tidigare kommuner från1863. Skolhandlingar nämns generellt. Allmänna handlingar kan tas del av, vissa begränsas av sekretess; frågor/åtkomst/besök hänvisas till kommunarkivet. Endast betygskopior har uttryckligt nämnd e-tjänst.\n\nBedömning: Kommunarkivet är verifierad relevant institutionell ingång över kommunbildningsgränsen1974. Guiden identifierar inte de två skolornas arkivbildare/seriesignum eller tjänstematerial1967–2017 och säger inte att allt skolmaterial är digitalt eller analogt.\n\nSaknad nyckel: Exakt arkivbildare, serie och årstäckning för respektive skola/tjänsteadministration; Gunnars tillträdes-/avgångsår är fortfarande okända.\nAnskaffningsväg/ägare: Kommunarkivets befintliga förfrågningsväg kan precisera arkivbildare/serie efter särskilt kontaktmandat; inga förfrågningar skickade. T0362:s redan beslutade tjänsteårsfråga inom1951–1967 kan ge nyckel för den tidiga delen; senare tjänsteår kräver separat avgränsning.\n\nGräns: Inga anställningsakter, betyg eller elevhälsodata öppnade. Generell skolrouting är inget bevis att särskild akt finns.\nUppdragets två ingångar är använda. Fortsatt utförande utöver nämnda redan beslutade T0359/T0362-scope är EJ BESLUTAT UTFÖRANDE och kräver nytt avgränsat beslut. T0767 behåller separat sina exakt två äldre åtkomstmål. Task-DONE är inte person-/källslut."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U2-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "SEARCH-T0795-U2",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "F-P-0212-occupation-school-career",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "O-P-0212-C0901-own",
+          "version": 2,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "F-P-0212-source_access-C0906",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "id": "S-T0795-U3",
+      "kind": "source",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Ingen titel/ISBN/utgåva uppfunnen; äldreC0906s1857/1889 och exakta tidigare frågor bevaras daterat.",
+      "data": {
+        "title": "LIBRIS — bibliografiska metadatafrågor",
+        "archive_reference": null,
+        "source_class": "metadata",
+        "description": "LIBRIS; lärar-/skolledarmatrikel1950–1980; relevant utgåva och nätåtkomst. Daterad metadataingång2026-10-06. Verktygen återger katalog/guide/sökrespons; leverantören och namngivna arkiv/post är källor. Ingen personoriginalkälla."
+      },
+      "origins": [],
+      "evidence": []
+    },
+    {
+      "id": "R-T0795-U3-metadata",
+      "kind": "record",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Ingen titel/ISBN/utgåva uppfunnen; äldreC0906s1857/1889 och exakta tidigare frågor bevaras daterat.",
+      "data": {
+        "source_id": "S-T0795-U3",
+        "record_type": "bounded_metadata_access_probe",
+        "locator": "{\"unit\": \"U3\", \"date\": \"2026-10-06\", \"entries\": [{\"id\": \"U3-1\", \"unit\": \"U3\", \"tool\": \"web__run\", \"args\": {\"search_query\": [{\"q\": \"site:libris.kb.se \\\"Sveriges lärare\\\" matrikel 1960\"}], \"response_length\": \"long\"}, \"reserved_utc\": \"2026-10-06T14:11:36.296Z\", \"status\": \"reserved\"}, {\"id\": \"U3-2\", \"unit\": \"U3\", \"tool\": \"web__run\", \"args\": {\"open\": [{\"ref_id\": \"https://libris.kb.se/xsearch?query=l%C3%A4rarmatrikel&format=json&n=50\"}], \"response_length\": \"long\"}, \"reserved_utc\": \"2026-10-06T14:14:08.673Z\", \"status\": \"reserved\", \"selection_note\": \"Known LIBRIS xsearch query structure reused from C0906 provider; generic unfiltered title word with full JSON response requested\"}], \"raw_bundle_sha256\": \"40ae6c99cfc8d756e424e7666dd19c9a638f0eae7140449edad9c4123ef698e9\"}",
+        "dependence_note": "U3-1 frågan site:libris.kb.se \"Sveriges lärare\" matrikel1960 gav två irrelevanta träffar, Komvux2000(1990) och Läsförmåga och demokratifråga(2011), knutna till dagens organisationsnamn. Ingen full utgåvepost vald. U3-2 exakt xsearch?query=lärarmatrikel&format=json&n=50 gav HTTP200, hela JSON51bytes: {\"xsearch\":{\"from\":1,\"to\":0,\"records\":0,\"list\":[]}}.\nLäsgräns: Ingen titel/ISBN/utgåva uppfunnen; äldreC0906s1857/1889 och exakta tidigare frågor bevaras daterat.\nWebbsökningens indexerade text och samma sidas fulltext är inte oberoende källor. Verktygsfel skiljs från faktisk HTTPstatus; hämtat är inte läst personoriginal."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "S-T0795-U3",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ],
+      "bindings": {
+        "S-T0795-U3": 1
+      }
+    },
+    {
+      "id": "SEARCH-T0795-U3",
+      "kind": "search",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Ingen titel/ISBN/utgåva uppfunnen; äldreC0906s1857/1889 och exakta tidigare frågor bevaras daterat.",
+      "data": {
+        "question_id": "P-0212/Q-02",
+        "source_id": "S-T0795-U3",
+        "scope_json": {
+          "description": "LIBRIS; lärar-/skolledarmatrikel1950–1980; relevant utgåva och nätåtkomst",
+          "query": [
+            {
+              "search_query": [
+                {
+                  "q": "site:libris.kb.se \"Sveriges lärare\" matrikel 1960"
+                }
+              ],
+              "response_length": "long"
+            },
+            {
+              "open": [
+                {
+                  "ref_id": "https://libris.kb.se/xsearch?query=l%C3%A4rarmatrikel&format=json&n=50"
+                }
+              ],
+              "response_length": "long"
+            }
+          ],
+          "bounds": {
+            "entry_count": 2,
+            "total_task_count": 12,
+            "unit6_all_organizations_total": null,
+            "date": "2026-10-06",
+            "person_query": false,
+            "personal_original_read": false,
+            "queries_not_exhaustive": true
+          },
+          "raw_bundle_sha256": "40ae6c99cfc8d756e424e7666dd19c9a638f0eae7140449edad9c4123ef698e9",
+          "unopened_leads": []
+        },
+        "outcome": "inconclusive",
+        "body": "U3-1 frågan site:libris.kb.se \"Sveriges lärare\" matrikel1960 gav två irrelevanta träffar, Komvux2000(1990) och Läsförmåga och demokratifråga(2011), knutna till dagens organisationsnamn. Ingen full utgåvepost vald. U3-2 exakt xsearch?query=lärarmatrikel&format=json&n=50 gav HTTP200, hela JSON51bytes: {\"xsearch\":{\"from\":1,\"to\":0,\"records\":0,\"list\":[]}}.\nDATERAT SNÄVT FRÅGENOLL/FRÅGESYNLIGHET; relevant utgåva och nätåtkomst OLÖST.\nIngen titel/ISBN/utgåva uppfunnen; äldreC0906s1857/1889 och exakta tidigare frågor bevaras daterat."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U3-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0212-T0795-U3",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Ingen titel/ISBN/utgåva uppfunnen; äldreC0906s1857/1889 och exakta tidigare frågor bevaras daterat.",
+      "data": {
+        "subject_id": "P-0212",
+        "criteria": "source_path/1",
+        "outcome": "DATERAT SNÄVT FRÅGENOLL/FRÅGESYNLIGHET; relevant utgåva och nätåtkomst OLÖST.",
+        "body": "T-0795 U3, metadataåtkomst2026-10-06. LIBRIS; lärar-/skolledarmatrikel1950–1980; relevant utgåva och nätåtkomst\n\nLäst/prövat: U3-1 frågan site:libris.kb.se \"Sveriges lärare\" matrikel1960 gav två irrelevanta träffar, Komvux2000(1990) och Läsförmåga och demokratifråga(2011), knutna till dagens organisationsnamn. Ingen full utgåvepost vald. U3-2 exakt xsearch?query=lärarmatrikel&format=json&n=50 gav HTTP200, hela JSON51bytes: {\"xsearch\":{\"from\":1,\"to\":0,\"records\":0,\"list\":[]}}.\n\nBedömning: Ingen relevant utgåva identifierades i dessa två prov. Xsearch-nollet saknar positiv kontroll och specificerat1950–1980filter; det bär endast den exakta frågan vid detta tillfälle. Varken avsaknad av moderna matriklar eller avsaknad av Gunnar är belagd.\n\nSaknad nyckel: Verifierad titel-/utgivar-/institutionsnyckel för en relevant utgåva1950–1980 och dess fulla katalogpost/tillgänglighetsuppgift.\nAnskaffningsväg/ägare: Befintlig minnesordskälla ger lärarutbildning och två skolnamn, men inget lärosäte/examensår. T0362:s beslutade tidiga tjänsteårsfråga kan begränsa perioden. En senare avgränsad bibliografisk metadatafråga med annan titel/utgivarnyckel och fungerande positiv kontroll behöver nytt beslut; inget sådant utförande bestäms här.\n\nGräns: Ingen titel/ISBN/utgåva uppfunnen; äldreC0906s1857/1889 och exakta tidigare frågor bevaras daterat.\nUppdragets två ingångar är använda. Fortsatt utförande utöver nämnda redan beslutade T0359/T0362-scope är EJ BESLUTAT UTFÖRANDE och kräver nytt avgränsat beslut. T0767 behåller separat sina exakt två äldre åtkomstmål. Task-DONE är inte person-/källslut."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U3-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "SEARCH-T0795-U3",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "F-P-0212-education-teacher",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "F-P-0212-source_access-C0906",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "id": "S-T0795-U4",
+      "kind": "source",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Guide anger institution och begäransvillkor, inte fri direktåtkomst till en1960talsakt; varken analogspärr eller nätåtkomstgaranti.",
+      "data": {
+        "title": "Lantmäteriet — Ta del av allmän handling",
+        "archive_reference": null,
+        "source_class": "metadata",
+        "description": "Lantmäteriet; möjlig historisk fastighetsidentifiering/lagfart i Floby1960-talet. Daterad metadataingång2026-10-06. Verktygen återger katalog/guide/sökrespons; leverantören och namngivna arkiv/post är källor. Ingen personoriginalkälla."
+      },
+      "origins": [],
+      "evidence": []
+    },
+    {
+      "id": "R-T0795-U4-metadata",
+      "kind": "record",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Guide anger institution och begäransvillkor, inte fri direktåtkomst till en1960talsakt; varken analogspärr eller nätåtkomstgaranti.",
+      "data": {
+        "source_id": "S-T0795-U4",
+        "record_type": "bounded_metadata_access_probe",
+        "locator": "{\"unit\": \"U4\", \"date\": \"2026-10-06\", \"entries\": [{\"id\": \"U4-1\", \"unit\": \"U4\", \"tool\": \"web__run\", \"args\": {\"search_query\": [{\"q\": \"site:lantmateriet.se historiska lagfarter fastighetsbeteckning 1960\"}], \"response_length\": \"long\"}, \"reserved_utc\": \"2026-10-06T14:11:36.296Z\", \"status\": \"reserved\"}, {\"id\": \"U4-2\", \"unit\": \"U4\", \"tool\": \"web__run\", \"args\": {\"open\": [{\"ref_id\": \"https://www2.lantmateriet.se/sv/om-lantmateriet/kontakta-oss/ta-del-av-allman-handling/\"}], \"response_length\": \"long\"}, \"reserved_utc\": \"2026-10-06T14:14:08.673Z\", \"status\": \"reserved\", \"selection_note\": \"Full selected catalog/guide metadata; no personal original\"}], \"raw_bundle_sha256\": \"7b2be4476354700b187b728639b07ea0b6adc2fe8e323c0a4e2364fb36e9ee4d\"}",
+        "dependence_note": "U4-2 hela Ta del av allmän handling,110rader. Fullständig fastighetsbeteckning krävs; guiden länkar Min karta för att hitta beteckning. Min fastighet avser den som själv är ägare. Inskrivningshandlingar registrerade före2008-06-01, inklusive lagfart/köpeskilling/inteckning/avtalsservitut, hänvisas till Riksarkivet. Digital leverans kan erbjudas efter myndighetens bedömning; ingen garanti.\nLäsgräns: Guide anger institution och begäransvillkor, inte fri direktåtkomst till en1960talsakt; varken analogspärr eller nätåtkomstgaranti.\nWebbsökningens indexerade text och samma sidas fulltext är inte oberoende källor. Verktygsfel skiljs från faktisk HTTPstatus; hämtat är inte läst personoriginal."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "S-T0795-U4",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ],
+      "bindings": {
+        "S-T0795-U4": 1
+      }
+    },
+    {
+      "id": "SEARCH-T0795-U4",
+      "kind": "search",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Guide anger institution och begäransvillkor, inte fri direktåtkomst till en1960talsakt; varken analogspärr eller nätåtkomstgaranti.",
+      "data": {
+        "question_id": "P-0212/Q-02",
+        "source_id": "S-T0795-U4",
+        "scope_json": {
+          "description": "Lantmäteriet; möjlig historisk fastighetsidentifiering/lagfart i Floby1960-talet",
+          "query": [
+            {
+              "search_query": [
+                {
+                  "q": "site:lantmateriet.se historiska lagfarter fastighetsbeteckning 1960"
+                }
+              ],
+              "response_length": "long"
+            },
+            {
+              "open": [
+                {
+                  "ref_id": "https://www2.lantmateriet.se/sv/om-lantmateriet/kontakta-oss/ta-del-av-allman-handling/"
+                }
+              ],
+              "response_length": "long"
+            }
+          ],
+          "bounds": {
+            "entry_count": 2,
+            "total_task_count": 12,
+            "unit6_all_organizations_total": null,
+            "date": "2026-10-06",
+            "person_query": false,
+            "personal_original_read": false,
+            "queries_not_exhaustive": true
+          },
+          "raw_bundle_sha256": "7b2be4476354700b187b728639b07ea0b6adc2fe8e323c0a4e2364fb36e9ee4d",
+          "unopened_leads": [
+            {
+              "title": "Ekonomiska kartan1935–1978",
+              "url": "https://geotorget.lantmateriet.se/dokument/projects/ekonomiska-kartan/released/2025.04/",
+              "source": "U4-1 search response",
+              "status": "UNOPENED DISCOVERY; no full service/original/map read; potential historical-designation alternative after dated place key and new decision"
+            }
+          ]
+        },
+        "outcome": "positive",
+        "body": "U4-2 hela Ta del av allmän handling,110rader. Fullständig fastighetsbeteckning krävs; guiden länkar Min karta för att hitta beteckning. Min fastighet avser den som själv är ägare. Inskrivningshandlingar registrerade före2008-06-01, inklusive lagfart/köpeskilling/inteckning/avtalsservitut, hänvisas till Riksarkivet. Digital leverans kan erbjudas efter myndighetens bedömning; ingen garanti.\nPOSITIV ROUTING: fastighetsbeteckningsingång hos Lantmäteriet; före2008inskrivningshandlingar till Riksarkivet; konkret fastighet OLÖST.\nGuide anger institution och begäransvillkor, inte fri direktåtkomst till en1960talsakt; varken analogspärr eller nätåtkomstgaranti."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U4-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0212-T0795-U4",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Guide anger institution och begäransvillkor, inte fri direktåtkomst till en1960talsakt; varken analogspärr eller nätåtkomstgaranti.",
+      "data": {
+        "subject_id": "P-0212",
+        "criteria": "source_path/1",
+        "outcome": "POSITIV ROUTING: fastighetsbeteckningsingång hos Lantmäteriet; före2008inskrivningshandlingar till Riksarkivet; konkret fastighet OLÖST.",
+        "body": "T-0795 U4, metadataåtkomst2026-10-06. Lantmäteriet; möjlig historisk fastighetsidentifiering/lagfart i Floby1960-talet\n\nLäst/prövat: U4-2 hela Ta del av allmän handling,110rader. Fullständig fastighetsbeteckning krävs; guiden länkar Min karta för att hitta beteckning. Min fastighet avser den som själv är ägare. Inskrivningshandlingar registrerade före2008-06-01, inklusive lagfart/köpeskilling/inteckning/avtalsservitut, hänvisas till Riksarkivet. Digital leverans kan erbjudas efter myndighetens bedömning; ingen garanti.\n\nBedömning: Ett eventuellt1960talsförvärvs äldre inskrivningshandling ska inte generellt hänföras till dagens Lantmäteriakt. Lantmäteriets guide anger RA för före2008-06-01. Kart-/beteckningsvägen behöver en lokaliserbar plats eller adress; Floby ensamt identifierar inte fastigheten. Ingen fastighet, äganderätt eller handlingsexistens tillskrivs Gunnar.\n\nSaknad nyckel: Daterad Flobyadress/plats och full fastighetsbeteckning, därefter historisk akt-/registreringsreferens och rätt arkivserie.\nAnskaffningsväg/ägare: T0362:s befintliga bostadsadressfråga1951–1967 kan ge avgränsad platsnyckel. Guidens länk till Min karta är en möjlig därefterväg till beteckning, inte utförd kartläsning. RA:s länkade beställningsväg är endast routing; ingen beställning eller personoriginalpassage tillåten här.\n\nGräns: Guide anger institution och begäransvillkor, inte fri direktåtkomst till en1960talsakt; varken analogspärr eller nätåtkomstgaranti.\nUppdragets två ingångar är använda. Fortsatt utförande utöver nämnda redan beslutade T0359/T0362-scope är EJ BESLUTAT UTFÖRANDE och kräver nytt avgränsat beslut. T0767 behåller separat sina exakt två äldre åtkomstmål. Task-DONE är inte person-/källslut.\n\nOlästa uppslag, inte sakbelägg:\n[\n  {\n    \"title\": \"Ekonomiska kartan1935–1978\",\n    \"url\": \"https://geotorget.lantmateriet.se/dokument/projects/ekonomiska-kartan/released/2025.04/\",\n    \"source\": \"U4-1 search response\",\n    \"status\": \"UNOPENED DISCOVERY; no full service/original/map read; potential historical-designation alternative after dated place key and new decision\"\n  }\n]"
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U4-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "SEARCH-T0795-U4",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "F-P-0212-source_access-C0906",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "F-P-0212-event_place-Floby",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "id": "S-T0795-U5",
+      "kind": "source",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Indexed description is retained as discovery only. Inget onlinebeställningsprov, ingen personlig uppgift sänd, inget uteblivet svar tolkat som personnoll.",
+      "data": {
+        "title": "Skatteverket — Bouppteckning och kopieringsrouting",
+        "archive_reference": null,
+        "source_class": "metadata",
+        "description": "Skatteverket; eventuell bouppteckning efter död2017; myndighet och åtkomstväg. Daterad metadataingång2026-10-06. Verktygen återger katalog/guide/sökrespons; leverantören och namngivna arkiv/post är källor. Ingen personoriginalkälla."
+      },
+      "origins": [],
+      "evidence": []
+    },
+    {
+      "id": "R-T0795-U5-metadata",
+      "kind": "record",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Indexed description is retained as discovery only. Inget onlinebeställningsprov, ingen personlig uppgift sänd, inget uteblivet svar tolkat som personnoll.",
+      "data": {
+        "source_id": "S-T0795-U5",
+        "record_type": "bounded_metadata_access_probe",
+        "locator": "{\"unit\": \"U5\", \"date\": \"2026-10-06\", \"entries\": [{\"id\": \"U5-1\", \"unit\": \"U5\", \"tool\": \"web__run\", \"args\": {\"search_query\": [{\"q\": \"site:skatteverket.se beställ kopia bouppteckning 2001 personnummer\"}], \"response_length\": \"long\"}, \"reserved_utc\": \"2026-10-06T14:11:36.296Z\", \"status\": \"reserved\"}, {\"id\": \"U5-2\", \"unit\": \"U5\", \"tool\": \"web__run\", \"args\": {\"open\": [{\"ref_id\": \"https://www.skatteverket.se/privat/folkbokforing/narenanhorigdor/bouppteckning/bestallkopiapabouppteckning.4.12815e4f14a62bc048f10849.html\"}], \"response_length\": \"long\"}, \"reserved_utc\": \"2026-10-06T14:14:08.673Z\", \"status\": \"reserved\", \"selection_note\": \"Full selected catalog/guide metadata; no personal original\"}], \"raw_bundle_sha256\": \"46a86230f466d523138db059b11bde96b1ba00fe3f097b806fe00414acc64948\"}",
+        "dependence_note": "U5-2 beställningsguidens URL omdirigerades till hela allmänna Bouppteckning-guiden213rader. Avsnitt Beställ kopia på bouppteckning anger att bouppteckningar upprättade från2001-07-01 förvaras hos Skatteverket. Kopieringsavsnittets inbäddade komponent återges som [object Object], inte läst fungerande formulär. U5-1 indexerad äldre servicebeskrivning säger personnummer/e-post/registrerad handling men det är inte verifierat aktuellt formulär.\nLäsgräns: Indexed description is retained as discovery only. Inget onlinebeställningsprov, ingen personlig uppgift sänd, inget uteblivet svar tolkat som personnoll.\nWebbsökningens indexerade text och samma sidas fulltext är inte oberoende källor. Verktygsfel skiljs från faktisk HTTPstatus; hämtat är inte läst personoriginal."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "S-T0795-U5",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ],
+      "bindings": {
+        "S-T0795-U5": 1
+      }
+    },
+    {
+      "id": "SEARCH-T0795-U5",
+      "kind": "search",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Indexed description is retained as discovery only. Inget onlinebeställningsprov, ingen personlig uppgift sänd, inget uteblivet svar tolkat som personnoll.",
+      "data": {
+        "question_id": "P-0212/Q-02",
+        "source_id": "S-T0795-U5",
+        "scope_json": {
+          "description": "Skatteverket; eventuell bouppteckning efter död2017; myndighet och åtkomstväg",
+          "query": [
+            {
+              "search_query": [
+                {
+                  "q": "site:skatteverket.se beställ kopia bouppteckning 2001 personnummer"
+                }
+              ],
+              "response_length": "long"
+            },
+            {
+              "open": [
+                {
+                  "ref_id": "https://www.skatteverket.se/privat/folkbokforing/narenanhorigdor/bouppteckning/bestallkopiapabouppteckning.4.12815e4f14a62bc048f10849.html"
+                }
+              ],
+              "response_length": "long"
+            }
+          ],
+          "bounds": {
+            "entry_count": 2,
+            "total_task_count": 12,
+            "unit6_all_organizations_total": null,
+            "date": "2026-10-06",
+            "person_query": false,
+            "personal_original_read": false,
+            "queries_not_exhaustive": true
+          },
+          "raw_bundle_sha256": "46a86230f466d523138db059b11bde96b1ba00fe3f097b806fe00414acc64948",
+          "unopened_leads": []
+        },
+        "outcome": "positive",
+        "body": "U5-2 beställningsguidens URL omdirigerades till hela allmänna Bouppteckning-guiden213rader. Avsnitt Beställ kopia på bouppteckning anger att bouppteckningar upprättade från2001-07-01 förvaras hos Skatteverket. Kopieringsavsnittets inbäddade komponent återges som [object Object], inte läst fungerande formulär. U5-1 indexerad äldre servicebeskrivning säger personnummer/e-post/registrerad handling men det är inte verifierat aktuellt formulär.\nPOSITIV MYNDIGHETSROUTING; aktuellt beställningsformulär, erforderliga nycklar och personlig handling OLÖST.\nIndexed description is retained as discovery only. Inget onlinebeställningsprov, ingen personlig uppgift sänd, inget uteblivet svar tolkat som personnoll."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U5-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0212-T0795-U5",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "Indexed description is retained as discovery only. Inget onlinebeställningsprov, ingen personlig uppgift sänd, inget uteblivet svar tolkat som personnoll.",
+      "data": {
+        "subject_id": "P-0212",
+        "criteria": "source_path/1",
+        "outcome": "POSITIV MYNDIGHETSROUTING; aktuellt beställningsformulär, erforderliga nycklar och personlig handling OLÖST.",
+        "body": "T-0795 U5, metadataåtkomst2026-10-06. Skatteverket; eventuell bouppteckning efter död2017; myndighet och åtkomstväg\n\nLäst/prövat: U5-2 beställningsguidens URL omdirigerades till hela allmänna Bouppteckning-guiden213rader. Avsnitt Beställ kopia på bouppteckning anger att bouppteckningar upprättade från2001-07-01 förvaras hos Skatteverket. Kopieringsavsnittets inbäddade komponent återges som [object Object], inte läst fungerande formulär. U5-1 indexerad äldre servicebeskrivning säger personnummer/e-post/registrerad handling men det är inte verifierat aktuellt formulär.\n\nBedömning: En eventuell2017bouppteckning hör enligt den lästa guiden till Skatteverkets tidsomfång. Ingen begäran gjord, ingen förekomst kontrollerad och ingen handling läst. Guidens möjliga dödsboanmälan innebär inte att något sådant gjordes för Gunnar.\n\nSaknad nyckel: Verifierad aktuell tjänsteingång och dess identifieringskrav; personnummer/registreringsreferens i den mån tjänsten kräver det. Namn/födelse1933-03-26/död2017-09-22 återbrukas men är inte bevis att en registrerad bouppteckning finns.\nAnskaffningsväg/ägare: En framtida separat avgränsad åtkomstkontroll av tjänstebeskrivningen kan fastställa nödvändiga nycklar. Om personnummer behövs får ägaren lämna befintlig uppgift/egen handling inom ett nytt avgränsat mandat; T0362:s1951–1967frågelista utvidgas inte. Kontakt eller beställning kräver separat ägarbeslut.\n\nGräns: Indexed description is retained as discovery only. Inget onlinebeställningsprov, ingen personlig uppgift sänd, inget uteblivet svar tolkat som personnoll.\nUppdragets två ingångar är använda. Fortsatt utförande utöver nämnda redan beslutade T0359/T0362-scope är EJ BESLUTAT UTFÖRANDE och kräver nytt avgränsat beslut. T0767 behåller separat sina exakt två äldre åtkomstmål. Task-DONE är inte person-/källslut."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U5-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "SEARCH-T0795-U5",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "E-death-P-0212",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "F-P-0212-source_access-C0906",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "id": "S-T0795-U6",
+      "kind": "source",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "404 gäller endast den prövade URL:en, inte arkivets eller handlingarnas existens. Searchsnippets är inte personposter; ingen2026uppgift tillskrivs ett historiskt uppdrag.",
+      "data": {
+        "title": "Västra Götalandsregionen — metadatafråga och prövad institutionsadress",
+        "archive_reference": null,
+        "source_class": "metadata",
+        "description": "Kulturnämnden i Västra Götalandsregionen/Liberalerna/FN-föreningsarkiv; före2017 inklusive medalj2008; katalog/registerrouting. Daterad metadataingång2026-10-06. Verktygen återger katalog/guide/sökrespons; leverantören och namngivna arkiv/post är källor. Ingen personoriginalkälla."
+      },
+      "origins": [],
+      "evidence": []
+    },
+    {
+      "id": "R-T0795-U6-metadata",
+      "kind": "record",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "404 gäller endast den prövade URL:en, inte arkivets eller handlingarnas existens. Searchsnippets är inte personposter; ingen2026uppgift tillskrivs ett historiskt uppdrag.",
+      "data": {
+        "source_id": "S-T0795-U6",
+        "record_type": "bounded_metadata_access_probe",
+        "locator": "{\"unit\": \"U6\", \"date\": \"2026-10-06\", \"entries\": [{\"id\": \"U6-1\", \"unit\": \"U6\", \"tool\": \"web__run\", \"args\": {\"search_query\": [{\"q\": \"site:vgregion.se regionarkivet kulturnämnden arkivförteckning protokoll\"}], \"response_length\": \"long\"}, \"reserved_utc\": \"2026-10-06T14:11:36.296Z\", \"status\": \"reserved\"}, {\"id\": \"U6-2\", \"unit\": \"U6\", \"tool\": \"web__run\", \"args\": {\"open\": [{\"ref_id\": \"https://www.vgregion.se/ov/regionarkivet/\"}], \"response_length\": \"long\"}, \"reserved_utc\": \"2026-10-06T14:14:08.673Z\", \"status\": \"reserved\", \"selection_note\": \"Direct institution guide route, URL inferred from official VGR domain; no personal query\"}], \"raw_bundle_sha256\": \"fdd2390936c927832a551f1b9ab13c046e1a47e0356b32c22089318a1aec2d6e\"}",
+        "dependence_note": "U6-1 generisk VGRfråga gav huvudsakligen2022–2026diarier,2026informationshanteringsplan samt PDFprotokollsnippets bl.a.2016-12-08 samt en2003ärendehänvisning. Ingen av dessa öppnades som sakpost eller belägg för person/förtroendeuppdrag. U6-2 gissad officiell institutionsväg https://www.vgregion.se/ov/regionarkivet/ gav webbverktygsfel och därefter faktiskt HTTP404.\nLäsgräns: 404 gäller endast den prövade URL:en, inte arkivets eller handlingarnas existens. Searchsnippets är inte personposter; ingen2026uppgift tillskrivs ett historiskt uppdrag.\nWebbsökningens indexerade text och samma sidas fulltext är inte oberoende källor. Verktygsfel skiljs från faktisk HTTPstatus; hämtat är inte läst personoriginal."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "S-T0795-U6",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ],
+      "bindings": {
+        "S-T0795-U6": 1
+      }
+    },
+    {
+      "id": "SEARCH-T0795-U6",
+      "kind": "search",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "404 gäller endast den prövade URL:en, inte arkivets eller handlingarnas existens. Searchsnippets är inte personposter; ingen2026uppgift tillskrivs ett historiskt uppdrag.",
+      "data": {
+        "question_id": "P-0212/Q-02",
+        "source_id": "S-T0795-U6",
+        "scope_json": {
+          "description": "Kulturnämnden i Västra Götalandsregionen/Liberalerna/FN-föreningsarkiv; före2017 inklusive medalj2008; katalog/registerrouting",
+          "query": [
+            {
+              "search_query": [
+                {
+                  "q": "site:vgregion.se regionarkivet kulturnämnden arkivförteckning protokoll"
+                }
+              ],
+              "response_length": "long"
+            },
+            {
+              "open": [
+                {
+                  "ref_id": "https://www.vgregion.se/ov/regionarkivet/"
+                }
+              ],
+              "response_length": "long"
+            }
+          ],
+          "bounds": {
+            "entry_count": 2,
+            "total_task_count": 12,
+            "unit6_all_organizations_total": 2,
+            "date": "2026-10-06",
+            "person_query": false,
+            "personal_original_read": false,
+            "queries_not_exhaustive": true
+          },
+          "raw_bundle_sha256": "fdd2390936c927832a551f1b9ab13c046e1a47e0356b32c22089318a1aec2d6e",
+          "unopened_leads": [
+            {
+              "title": "Kulturnämnden protocol2016-12-08",
+              "url": "https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/sofia/kun6111-136948837-125/surrogate",
+              "source": "U6-1 search response",
+              "status": "UNOPENED DISCOVERY; PDF snippet only; no original/personal record opened"
+            },
+            {
+              "title": "Regionstyrelseprotokoll snippet mentions kulturnämnden2003-02-07 §18",
+              "url": "https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/sofia/rs3878-551954431-5309/surrogate",
+              "source": "U6-1 search response",
+              "status": "UNOPENED DISCOVERY; search snippet, not independently checked date/role/person"
+            }
+          ]
+        },
+        "outcome": "inconclusive",
+        "body": "U6-1 generisk VGRfråga gav huvudsakligen2022–2026diarier,2026informationshanteringsplan samt PDFprotokollsnippets bl.a.2016-12-08 samt en2003ärendehänvisning. Ingen av dessa öppnades som sakpost eller belägg för person/förtroendeuppdrag. U6-2 gissad officiell institutionsväg https://www.vgregion.se/ov/regionarkivet/ gav webbverktygsfel och därefter faktiskt HTTP404.\nOLÖST INOM TVÅ INGÅNGAR; inget fullständigt relevant för2017 katalog-/guideunderlag läst.\n404 gäller endast den prövade URL:en, inte arkivets eller handlingarnas existens. Searchsnippets är inte personposter; ingen2026uppgift tillskrivs ett historiskt uppdrag."
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U6-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0212-T0795-U6",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0795 AC2–4: bevarar exakt bounded metadata-/åtkomstprov2026-10-06, två ingångar för denna enhet; inga personoriginal.",
+      "caveat": "404 gäller endast den prövade URL:en, inte arkivets eller handlingarnas existens. Searchsnippets är inte personposter; ingen2026uppgift tillskrivs ett historiskt uppdrag.",
+      "data": {
+        "subject_id": "P-0212",
+        "criteria": "source_path/1",
+        "outcome": "OLÖST INOM TVÅ INGÅNGAR; inget fullständigt relevant för2017 katalog-/guideunderlag läst.",
+        "body": "T-0795 U6, metadataåtkomst2026-10-06. Kulturnämnden i Västra Götalandsregionen/Liberalerna/FN-föreningsarkiv; före2017 inklusive medalj2008; katalog/registerrouting\n\nLäst/prövat: U6-1 generisk VGRfråga gav huvudsakligen2022–2026diarier,2026informationshanteringsplan samt PDFprotokollsnippets bl.a.2016-12-08 samt en2003ärendehänvisning. Ingen av dessa öppnades som sakpost eller belägg för person/förtroendeuppdrag. U6-2 gissad officiell institutionsväg https://www.vgregion.se/ov/regionarkivet/ gav webbverktygsfel och därefter faktiskt HTTP404.\n\nBedömning: De två proven fastställde inte vilken katalogserie eller vilket öppet register som täcker Gunnars tidigare uppdrag. U6taket gäller totalt över tre organisationer. Ingen separat Liberal- eller FN-ingång prövades; deras möjlighet är oprövad, inte ett noll. Sökbara historiska uppslag2016 och2003 finns i söksvaret, men underliggande protokoll är olästa; resultatet får inte beskrivas som enbart nutid eller inga historiska uppslag.\n\nSaknad nyckel: Korrekt regionarkiv-/kulturnämndskatalogingång med före2017täckning, nämndens exakt daterade mandatperiod; för föreningsarkiv exakt lokalavdelning och period; för medalj2008 eventuell utdelarfunktion/registeringång, inte bara medaljnamn.\nAnskaffningsväg/ägare: Befintligt C0901 ger organisationsnamn och medalj2008 men inga lokala arkivnycklar. Ny begränsad institutionell metadatarouting eller en särskild ägarfråga om lokalavdelning/mandatperiod kan tillföra nycklar efter nytt beslut. Detta ingår inte i T0362:s befintliga1951–1967lista.\n\nGräns: 404 gäller endast den prövade URL:en, inte arkivets eller handlingarnas existens. Searchsnippets är inte personposter; ingen2026uppgift tillskrivs ett historiskt uppdrag.\nUppdragets två ingångar är använda. Fortsatt utförande utöver nämnda redan beslutade T0359/T0362-scope är EJ BESLUTAT UTFÖRANDE och kräver nytt avgränsat beslut. T0767 behåller separat sina exakt två äldre åtkomstmål. Task-DONE är inte person-/källslut.\n\nOlästa uppslag, inte sakbelägg:\n[\n  {\n    \"title\": \"Kulturnämnden protocol2016-12-08\",\n    \"url\": \"https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/sofia/kun6111-136948837-125/surrogate\",\n    \"source\": \"U6-1 search response\",\n    \"status\": \"UNOPENED DISCOVERY; PDF snippet only; no original/personal record opened\"\n  },\n  {\n    \"title\": \"Regionstyrelseprotokoll snippet mentions kulturnämnden2003-02-07 §18\",\n    \"url\": \"https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/sofia/rs3878-551954431-5309/surrogate\",\n    \"source\": \"U6-1 search response\",\n    \"status\": \"UNOPENED DISCOVERY; search snippet, not independently checked date/role/person\"\n  }\n]"
+      },
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-T0795-U6-metadata",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "SEARCH-T0795-U6",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "F-P-0212-civic_role-obituary",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "F-P-0212-award-Karl-Staaff2008",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        },
+        {
+          "object": "O-P-0212-C0901-own",
+          "version": 2,
+          "role": "context",
+          "note": "Exakt versionsbundet underlag; metadata är inte personlig händelse eller ny oberoende röst."
+        }
+      ]
+    }
+  ],
+  "media_to_stage": [
+    {
+      "record_id": "R-T0795-U1-metadata",
+      "path": "evaluations/T-0795/source-review/U1-raw-source-bundle-v1.json",
+      "sha256": "f6648ab0cd267c526ea39de44021ec0789d008ab9b73ed317f96464d93dc00d5",
+      "provenance": "T-0795 U1; exakt två reserverade generiska metadataingångar2026-10-06, verktygsfrågor/fullrelevantåtergivning/transportfel med UTC. Ej personlig originalhandling; raw manifest4b0898d3 och entryledger kontrolleras.",
+      "region": "U1 två metadataingångar, hela bevarade svar och uttryckliga läsgränser"
+    },
+    {
+      "record_id": "R-T0795-U2-metadata",
+      "path": "evaluations/T-0795/source-review/U2-raw-source-bundle-v1.json",
+      "sha256": "e8feb73e0b34ad05e49c7decb17026723f92ba2ef2dd3dd8fb6d7b7da4eea626",
+      "provenance": "T-0795 U2; exakt två reserverade generiska metadataingångar2026-10-06, verktygsfrågor/fullrelevantåtergivning/transportfel med UTC. Ej personlig originalhandling; raw manifest4b0898d3 och entryledger kontrolleras.",
+      "region": "U2 två metadataingångar, hela bevarade svar och uttryckliga läsgränser"
+    },
+    {
+      "record_id": "R-T0795-U3-metadata",
+      "path": "evaluations/T-0795/source-review/U3-raw-source-bundle-v1.json",
+      "sha256": "40ae6c99cfc8d756e424e7666dd19c9a638f0eae7140449edad9c4123ef698e9",
+      "provenance": "T-0795 U3; exakt två reserverade generiska metadataingångar2026-10-06, verktygsfrågor/fullrelevantåtergivning/transportfel med UTC. Ej personlig originalhandling; raw manifest4b0898d3 och entryledger kontrolleras.",
+      "region": "U3 två metadataingångar, hela bevarade svar och uttryckliga läsgränser"
+    },
+    {
+      "record_id": "R-T0795-U4-metadata",
+      "path": "evaluations/T-0795/source-review/U4-raw-source-bundle-v1.json",
+      "sha256": "7b2be4476354700b187b728639b07ea0b6adc2fe8e323c0a4e2364fb36e9ee4d",
+      "provenance": "T-0795 U4; exakt två reserverade generiska metadataingångar2026-10-06, verktygsfrågor/fullrelevantåtergivning/transportfel med UTC. Ej personlig originalhandling; raw manifest4b0898d3 och entryledger kontrolleras.",
+      "region": "U4 två metadataingångar, hela bevarade svar och uttryckliga läsgränser"
+    },
+    {
+      "record_id": "R-T0795-U5-metadata",
+      "path": "evaluations/T-0795/source-review/U5-raw-source-bundle-v1.json",
+      "sha256": "46a86230f466d523138db059b11bde96b1ba00fe3f097b806fe00414acc64948",
+      "provenance": "T-0795 U5; exakt två reserverade generiska metadataingångar2026-10-06, verktygsfrågor/fullrelevantåtergivning/transportfel med UTC. Ej personlig originalhandling; raw manifest4b0898d3 och entryledger kontrolleras.",
+      "region": "U5 två metadataingångar, hela bevarade svar och uttryckliga läsgränser"
+    },
+    {
+      "record_id": "R-T0795-U6-metadata",
+      "path": "evaluations/T-0795/source-review/U6-raw-source-bundle-v1.json",
+      "sha256": "fdd2390936c927832a551f1b9ab13c046e1a47e0356b32c22089318a1aec2d6e",
+      "provenance": "T-0795 U6; exakt två reserverade generiska metadataingångar2026-10-06, verktygsfrågor/fullrelevantåtergivning/transportfel med UTC. Ej personlig originalhandling; raw manifest4b0898d3 och entryledger kontrolleras.",
+      "region": "U6 två metadataingångar, hela bevarade svar och uttryckliga läsgränser"
+    }
+  ],
+  "rules": [
+    "Sol uses stage-media for exactly six raw bundles; bind resulting mediaIDs to corresponding record. No source refetch.",
+    "Record dependence_note preserves full relevant metadata reading; raw bundles preserve entire tool response. No personal mention/observation/event/fact created.",
+    "Original C0906fact remains unchanged. Six new paths reference stronger older person support as context only.",
+    "Rebind any evidence whose referenced head changes in same operation only after returning exact version pair for Astra decision."
+  ]
+}
