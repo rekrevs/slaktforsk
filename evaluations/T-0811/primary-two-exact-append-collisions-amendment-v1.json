@@ -1,0 +1,31 @@
+{
+  "task": "T-0811",
+  "source_design_v2_sha256": "816442254e7448f6f166708df9a90dda4f566a5e1b7938d5d69092df10aa73aa",
+  "source_design_v3_sha256": "545e9776d53164d9228f8fc62402bcc515592d23be79db3240fea4649e457f16",
+  "failure": "Initial clone rejected UNIQUE(revision,basis,role); initial attempt and V2 preserved. Different notes do not make distinct native supports.",
+  "individual_decisions": [
+    {
+      "target": "CONTRACT-P-0016-PK-05",
+      "remove_only_new_append": {
+        "object": "AUDIT-T0677-C0019",
+        "version": 1,
+        "role": "supports",
+        "note": "T-0811: Individuell tillräcklighet för identitetsnivån med faktiskt fullfältåterbruk; sena source- och livsrester bevarade."
+      },
+      "disposition": "RETAIN_EXISTING_EDGE_EXACT",
+      "reason": "Samma versionsbundna stöd finns redan i befintlig första edge. Dess ursprungliga note och ordning bevaras; det nya sakmotivet står redan i body/spec. Ingen annan edge ändras eller dedupliceras."
+    },
+    {
+      "target": "PATH-P-0016-KP-04",
+      "remove_only_new_append": {
+        "object": "AUDIT-T0676-13",
+        "version": 1,
+        "role": "supports",
+        "note": "T-0811: Tillgodoräknar exakt744 och grav; övriga fullmaterial-/livsrester består."
+      },
+      "disposition": "RETAIN_EXISTING_EDGE_EXACT",
+      "reason": "Samma versionsbundna stöd finns redan i befintlig första edge. Dess ursprungliga note och ordning bevaras; det nya sakmotivet står redan i body/spec. Ingen annan edge ändras eller dedupliceras."
+    }
+  ],
+  "unchanged": "All12APIs data/status/body/caveat/rationale/origins and oneindexedrebind unchanged. No other support changes. No genericdedup authorization."
+}

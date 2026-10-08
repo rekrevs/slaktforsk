@@ -1,0 +1,5 @@
+{
+  "error": "UNIQUE constraint failed: dependency.revision_id, dependency.basis_revision_id, dependency.role\n",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/sverker/repos/slaktforsk/evaluations/T-0811/implementation/stage-initial-UNRUN-v1.py\", line 11, in main\n    args=['node','genealogy2/cli.mjs','apply',str(opfile),'--db',str(db),'--journal',str(journal)];r=subprocess.run(args,cwd=R,capture_output=True,text=True);(S/'apply.json').write_text(r.stdout);save(S/'apply-process.json',{'args':args,'exit':r.returncode,'stderr':r.stderr});assert r.returncode==0,r.stderr;c=h.conn(db);state=h.state(c);assert state['journal_head']==477\n                                                                                                                                                                                                                                                                                            ^^^^^^^^^^^^^^^\nAssertionError: UNIQUE constraint failed: dependency.revision_id, dependency.basis_revision_id, dependency.role\n\n",
+  "elapsed_seconds": 9.118673167016823
+}

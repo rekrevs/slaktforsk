@@ -1,0 +1,142 @@
+{
+  "task": "T-0805",
+  "role": "independent source/consequence and bounded implementation review",
+  "source_semantics_approved": true,
+  "exact_package_source_approved": true,
+  "ready_for_DONE": false,
+  "remaining_technical_condition": "Root must verify full genealogy2 suite and final frozen write/replay regression pass on these exact module hashes; baseline pedigree/journal endpoint checks also required. Any changed reviewed file requires hash-bound amendment.",
+  "pins": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "d0d0f7e018cba6aadc3efae70f3f42bd5366261907cf592e719ab195d409aeb7"
+    },
+    {
+      "path": "genealogy2/README.md",
+      "sha256": "0bb772d324a303924561d2a2c8ce3293363d7711f357a862657a23b997a54e40"
+    },
+    {
+      "path": "genealogy2/docs/working.md",
+      "sha256": "1ac68ad72a76f3feaf467b7d7dae893cf9d0ba7c4790fd4cc8eda972c9df0330"
+    },
+    {
+      "path": "docs/research/person-contract.md",
+      "sha256": "749f3a00dee3a349ad337faced09cbefe879334fcd570a9ba35bcf2636bf94d2"
+    },
+    {
+      "path": "docs/research/source-strategy.md",
+      "sha256": "ddebd83a8e02a5ef45374b743202b733d24580e2253e961049c812aef24e4da4"
+    },
+    {
+      "path": "genealogy2/cli.mjs",
+      "sha256": "375181fae655d86aba4cabb27f2d226d01241174495b25579525e73461c0e00e"
+    },
+    {
+      "path": "genealogy2/lib/work.mjs",
+      "sha256": "91646eeb5a83a20d3a1daa054eeb1698274d935498773b2eb4b7bfd0cf2282b6"
+    },
+    {
+      "path": "genealogy2/lib/search-memory.mjs",
+      "sha256": "217784eee316cecfad1c76b975b43a56e525c98c1614256c1a772b8ee08e8dab"
+    },
+    {
+      "path": "genealogy2/lib/domain.mjs",
+      "sha256": "febd5eddcc1fc2868d9104319736b3fc5f4e3f95055bdc379cfd96ec3a8f07a4"
+    },
+    {
+      "path": "genealogy2/lib/recovery.mjs",
+      "sha256": "413334c0f675a86906a222a2efb2d8c375479e458094a8106002f6d0e1dc1fb6"
+    },
+    {
+      "path": "genealogy2/test/search-memory.test.mjs",
+      "sha256": "56b6d22fbfd2fa761831cf5986001be10fbaac81ba851db3d794e611529087a3"
+    },
+    {
+      "path": "genealogy2/test/work.test.mjs",
+      "sha256": "7f8212758c7380375970fc5c372889fb7b22156bb8f6655cbfc89f09ba1067f5"
+    },
+    {
+      "path": "wotan/node-links.json",
+      "sha256": "b4617811815fb9bae79ff123079ad08558fa630aca2e1ee2990adfc768f9184f"
+    },
+    {
+      "path": "wotan/dev-log/T-0803.md",
+      "sha256": "8b5bf11d57f0b03402d2a16ee61719125649548af2baf8e5043a7aaf745cb60c"
+    },
+    {
+      "path": "wotan/dev-log/T-0217.md",
+      "sha256": "aa1b30472aaf69d18e41d7c09238db3a4ecf6edf34792a1e8e7d09a2426d7ea4"
+    },
+    {
+      "path": "evaluations/T-0805/proposed-PCD-2026-10-07-002-v1.md",
+      "sha256": "c264659a65604a22587ac823cfd0d2b504e290eda65c14688a2f81b7d21a73b3"
+    },
+    {
+      "path": "evaluations/T-0805/independent-initial-semantics-v1.md",
+      "sha256": "99fdecf48b913e88dcf0fdae7e2f8770e7b51b9779f2fc061bbb5f102e619e96"
+    },
+    {
+      "path": "evaluations/T-0805/independent-findings-v1.json",
+      "sha256": "6b587aea938b100ef62d08430c909f90cfa71d724531f4bfeb26e566d9e86afd"
+    },
+    {
+      "path": "evaluations/T-0805/independent-targeted-final-v1.log",
+      "sha256": "fa297665bb5c2810951c840fc6cb806a08f11914a5b3a7e16e850f34dd7fbcfa"
+    },
+    {
+      "path": "evaluations/T-0805/work-P0240-final.json",
+      "sha256": "59ea2055e04d92b1ed69ed7d79165e925ba4f5d67255b261ba2c8e9d6a55572f"
+    },
+    {
+      "path": "evaluations/T-0805/work-P0240-final.md",
+      "sha256": "2a4da79e45a9145ca4ee777be1aa1bfa1380301b62c7a1246c7efb982c439efc"
+    },
+    {
+      "path": "evaluations/T-0805/work-P0241-final.json",
+      "sha256": "aa06b687aa0afd46902661de8c81d63bd64b8fa298b94ceeaca304b98460df23"
+    },
+    {
+      "path": "evaluations/T-0805/work-P0241-final.md",
+      "sha256": "7527a135a7cd2862bbe37102c26af71ce2773cd2016db15a853a2d8df15da40f"
+    },
+    {
+      "path": "evaluations/T-0805/work-P0246-final.json",
+      "sha256": "2b2e901b09589c5b159f457e5b1523e882365a77dc8c4a01747df6af73f178f3"
+    },
+    {
+      "path": "evaluations/T-0805/work-P0246-final.md",
+      "sha256": "4fdd64ed6fa035995b10db21ce310fad535ab18e992177981056c55655ae4309"
+    }
+  ],
+  "findings_dispositions": [
+    {
+      "id": "I1",
+      "status": "resolved",
+      "evidence": "writeOperation previous lookup covers both policies; all new negative requests including legacy:true receive/require marker1; explicit downgrade rejected. Actual apply-legacy CLI tests cover atomic invalid rejection, valid-memory acceptance, exact old legacy retry and full replay.",
+      "boundary": "Internal applyOperation unmarked compatibility retained only for historical restoration/import/replay per root explicit bounded decision, not supported new research. No advertised CLI/native opt-out remains."
+    },
+    {
+      "id": "I2",
+      "status": "resolved",
+      "evidence": "Final JSON knowledge_text_qualification and adjacent Markdown notice explicitly mark embedded historical Wotan/prioritization text; exact current native bodies unchanged."
+    }
+  ],
+  "source_judgements": [
+    "Own initial reading sealed before candidates. FullT0803/T0217 scopes and actualpilot current knowledge read; exact6associations produce3/2/1routes; Emma never receives Axel military route. T0217 remains one executionowner/status/dependencychain.",
+    "Full7distinct mapped question/path bodies/caveats and12search projections read. Six final CLI outputs compared; JSONs equal independently captured reviewed outputs plus onlyapproved historynotice, Markdown exactly generated by current renderer. Raw legacy outcomes and narrower route limits remain distinct.",
+    "Older limited negatives remain useful: nine1933units, selected1931posts, HooknotCarlman, exactHenrikssonfolios/yearwindows, targetnegative with positiveotherhits. Access_problem remains accessfailure. No retrospective certification or inferred archiveabsence.",
+    "New standard distinguishes subject/question/modelsourceversion/provideredition/materialID/snapshot; exact sourcehead and evidence/subject references validated. Timestamps/hashsyntax/unknownreasons/actualscope structure enforced; source review must establish real provenance and completeness. Structural checks do not validate supplied hash content.",
+    "Per-material new searches use separate receipts; incomplete legacy provenance documentary corrections preserve original and use supported assessment/conflict, never fabricatedperformed_at or new-research lower-level bypass.",
+    "Four normative additions, README and exactPCD draft approved. Wotan remains solequeue, no new sourcepass authority or globalcoverage, no new fact/relation/pedigree changes."
+  ],
+  "verification": {
+    "independent_targeted_tests": 7,
+    "passed": 7,
+    "failed": 0,
+    "main_db_sha256": "9a731679039eefb43189c3892f4c1a1310ce15ae5c257a95c029ad442d945547",
+    "main_byte_equal_baseline": true,
+    "full_suite": "pending root final result, not claimed PASS",
+    "new_original_or_catalogue_reads": 0,
+    "canonical_writes": 0
+  },
+  "canonicalApproval": false
+}

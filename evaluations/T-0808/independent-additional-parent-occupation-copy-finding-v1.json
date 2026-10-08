@@ -1,0 +1,33 @@
+{
+  "finding": "Additional necessary current semanticcopy outside83dependencyrequests",
+  "object": {
+    "revision": {
+      "id": "F-P-0312-occupation-source-anchors@1",
+      "object_id": "F-P-0312-occupation-source-anchors",
+      "version": 1,
+      "operation_id": "T-0658/persons-07-v1",
+      "disposition": "accepted",
+      "evidence_status": "CORROBORATED",
+      "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+      "caveat": "Egna två nämndemansbokled bär titeln, inte exakta tjänsteår eller ett känt rättsmål.",
+      "previous_id": null,
+      "kind": "fact"
+    },
+    "payload": {
+      "fact": {
+        "revision_id": "F-P-0312-occupation-source-anchors@1",
+        "subject_id": "P-0312",
+        "property": "occupation",
+        "value_type": "structured",
+        "value_json": "{\"appointed\":null,\"court\":null,\"education\":null,\"fathers1844_namndeman_not_sons_own_title\":true,\"reports\":[{\"date\":\"1870-10-14\",\"title\":\"Hemmanseg.\"},{\"date\":\"1873-01-15\",\"title\":\"Arbet.\"},{\"period\":\"1880–1920,upprepade bokankare\",\"title\":\"hemmansägare\"},{\"book_periods\":[\"1900–1906\",\"1906–1914\"],\"title\":\"nämndeman\"}],\"retired\":null}"
+      }
+    },
+    "matched_terms": [
+      "Arbet."
+    ]
+  },
+  "disposition": "REVISE_ONLY_REPORT_1873_TITLE",
+  "required_change": "reports[date1873-01-15].title Arbet. → hemmansägare with sourceboundnewTRsupport. Preserve 1870Hemmanseg.,1880–1920repeatedanchors,nämndemanbookperiods, unknownappointed/court/education/retired andfathers1844notsonrule. Exactsupportversionchanges requireexplicitprimaryamendment.",
+  "method": "Rechecked independent115allcurrent scan andfullP0312/P0313personpacket. Earlierprintingfiltercase miss acknowledged; actualdependencylistalone insufficient. No newsource.",
+  "canonicalApproval": false
+}

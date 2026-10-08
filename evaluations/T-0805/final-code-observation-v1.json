@@ -1,0 +1,46 @@
+{
+  "task": "T-0805",
+  "observed_utc": "2026-10-07T13:09:53.969170+00:00",
+  "prior_observation": "evaluations/T-0805/mechanical-implementation-progress-v1.json",
+  "reason": "Root-approved both-policy CLI negative hardening and independent embedded-Wotan display qualification; prior attempt unchanged",
+  "final_stable_code_pins": [
+    {
+      "path": "genealogy2/cli.mjs",
+      "sha256": "375181fae655d86aba4cabb27f2d226d01241174495b25579525e73461c0e00e"
+    },
+    {
+      "path": "genealogy2/lib/domain.mjs",
+      "sha256": "febd5eddcc1fc2868d9104319736b3fc5f4e3f95055bdc379cfd96ec3a8f07a4"
+    },
+    {
+      "path": "genealogy2/lib/recovery.mjs",
+      "sha256": "413334c0f675a86906a222a2efb2d8c375479e458094a8106002f6d0e1dc1fb6"
+    },
+    {
+      "path": "genealogy2/lib/search-memory.mjs",
+      "sha256": "217784eee316cecfad1c76b975b43a56e525c98c1614256c1a772b8ee08e8dab"
+    },
+    {
+      "path": "genealogy2/lib/work.mjs",
+      "sha256": "91646eeb5a83a20d3a1daa054eeb1698274d935498773b2eb4b7bfd0cf2282b6"
+    },
+    {
+      "path": "genealogy2/test/search-memory.test.mjs",
+      "sha256": "56b6d22fbfd2fa761831cf5986001be10fbaac81ba851db3d794e611529087a3"
+    },
+    {
+      "path": "genealogy2/test/work.test.mjs",
+      "sha256": "7f8212758c7380375970fc5c372889fb7b22156bb8f6655cbfc89f09ba1067f5"
+    },
+    {
+      "path": "wotan/node-links.json",
+      "sha256": "b4617811815fb9bae79ff123079ad08558fa630aca2e1ee2990adfc768f9184f"
+    }
+  ],
+  "full_suite_attempt": "genealogy2-full-suite-v1.log started before final amendment; explicit final affected-path suite required",
+  "scope_of_final_postfix_suite": "all test files importing writeOperation/replayJournal/bootstrapFromFiles: workflow,consolidation,rebuild,search-memory pluswork",
+  "targeted_log": "evaluations/T-0805/targeted-final-v6.log",
+  "targeted_tests": 7,
+  "targeted_pass": 7,
+  "canonical_mutations_by_sol": 0
+}

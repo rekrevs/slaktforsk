@@ -15,6 +15,7 @@ import {researchInventory} from './lib/inventory.mjs';
 import {renderPersonOverview} from './lib/overview.mjs';
 import {findParticipations} from './lib/vocabulary.mjs';
 import {impact} from './lib/impact.mjs';
+import {workView,renderWork} from './lib/work.mjs';
 import {bootstrapFromFiles} from './lib/rebuild.mjs';
 
 const root=path.resolve(fileURLToPath(new URL('..',import.meta.url)));
@@ -35,8 +36,8 @@ try {
   const mode=option('--mode','verified',false),role=option('--role',null,false),eventType=option('--event',null,false),personId=option('--person',null,false);
   const fullIndex=argv.indexOf('--full'),full=fullIndex>=0;if(full)argv.splice(fullIndex,1);
   const [command,...args]=argv;
-  const format=requestedFormat??(command==='person'?'markdown':'json');
-  if(format!=='json'&&!(format==='markdown'&&['person','context'].includes(command)))throw Error('Format ska vara json, eller markdown för person/context');
+  const format=requestedFormat??(['person','work'].includes(command)?'markdown':'json');
+  if(format!=='json'&&!(format==='markdown'&&['person','context','work'].includes(command)))throw Error('Format ska vara json, eller markdown för person/context/work');
   let result,db,gate;
   try {
     if(command==='snapshot')result=await snapshot(source,baseline);
@@ -48,7 +49,7 @@ try {
     else if(command==='restore')result=restore(JSON.parse(fs.readFileSync(args[0],'utf8')),dbPath);
     else if(command==='restore-bundle')result=await restoreBundle(args[0],args[1]);
     else if(command==='stage-media')result=await stageMedia(source,args[0],provenance);
-    else if(['import','migrate','apply','apply-legacy','person','pedigree','inventory','participations','impact','inspect','coverage','status','verify','verify-assets','search','show','context','export','backup','backup-bundle','journal','replay'].includes(command)) {
+    else if(['import','migrate','apply','apply-legacy','person','work','pedigree','inventory','participations','impact','inspect','coverage','status','verify','verify-assets','search','show','context','export','backup','backup-bundle','journal','replay'].includes(command)) {
       db=openDB(dbPath,{create:command==='import',migrate:command==='migrate',readOnly:!['import','migrate','apply','apply-legacy','replay'].includes(command)});
       if(command==='import')result=importBaseline(db,baseline);
       if(command==='migrate')result={schema:SCHEMA_VERSION};
@@ -56,6 +57,7 @@ try {
       if(command==='journal')result=syncJournal(db,journal);
       if(command==='replay')result=await replayJournal(db,args[0]??journal,{root:source});
       if(command==='pedigree')result=pedigree(db,args[0],{mode});
+      if(command==='work')result=workView(db,args[0],{root:source});
       if(command==='person'){
         result=personView(db,args[0]);
         if(!result.person&&!result.legacy.length&&!result.identityMappings.length)throw Error(`Personen eller arkivreferensen saknas: ${args[0]}`);
@@ -89,11 +91,12 @@ try {
       }
       if(command==='backup') {if(!args[0])throw Error('Ange en ny backupfil');result=await backupDB(db,args[0]);}
       if(command==='backup-bundle') {if(!args[0])throw Error('Ange en ny backupkatalog');result=await backupBundle(db,args[0],{root:source,baseline});}
-    }else throw Error('Kommandon: snapshot | bootstrap <ny.sqlite> | import | migrate | apply <operation.json> | apply-legacy <äldre importpaket> | stage-media <fil> --provenance <text> | person <P-id> [--full --format markdown|json] | pedigree <P-id> [--mode verified|typed] | inventory [--full] | participations [--role witness --event baptism --person P-id] | impact <objekt/C-id> [--query exakt-fras] | inspect <objekt/A-id> | status | verify | verify-assets | verify-source | search <text> | show <P/S/C-id> | context [importsökväg] [--group grupp --query text --format markdown] | export <ny.json> | restore <export.json> | backup <ny.sqlite> | backup-bundle <ny katalog> | restore-bundle <backup> <ny rot> | journal | replay <journal>. Val: --db --baseline --source --journal.');
+    }else throw Error('Kommandon: snapshot | bootstrap <ny.sqlite> | import | migrate | apply <operation.json> | apply-legacy <äldre importpaket> | stage-media <fil> --provenance <text> | person <P-id> [--full --format markdown|json] | work <P-id> [--format markdown|json] | pedigree <P-id> [--mode verified|typed] | inventory [--full] | participations [--role witness --event baptism --person P-id] | impact <objekt/C-id> [--query exakt-fras] | inspect <objekt/A-id> | status | verify | verify-assets | verify-source | search <text> | show <P/S/C-id> | context [importsökväg] [--group grupp --query text --format markdown] | export <ny.json> | restore <export.json> | backup <ny.sqlite> | backup-bundle <ny katalog> | restore-bundle <backup> <ny rot> | journal | replay <journal>. Val: --db --baseline --source --journal.');
     if(format==='markdown'&&command==='person')console.log(full?renderPerson(result):renderPersonOverview(result,{gate}));
+    else if(format==='markdown'&&command==='work')process.stdout.write(renderWork(result));
     else if(format==='markdown'&&command==='context')process.stdout.write(renderContextDocument(result));
     else if(format==='json')console.log(JSON.stringify(result,null,2));
-    else throw Error('Format ska vara json, eller markdown för person/context');
+    else throw Error('Format ska vara json, eller markdown för person/context/work');
     if(result?.ok===false)process.exitCode=1;
   }finally{db?.close();}
 }catch(e){console.error(e.message);process.exitCode=1;}

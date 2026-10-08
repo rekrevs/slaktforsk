@@ -1,0 +1,28 @@
+✔ ny källrevision efter retain öppnar direkt omprövning av äldre versionsbundet underlag (38.227625ms)
+✔ ny källrevision efter retain öppnar även transitiv omprövning av äldre versionsbundet underlag (29.135583ms)
+✔ en orelaterad källrevision öppnar inte redan prövade direkta eller transitiva slutsatser (25.243875ms)
+✔ typad antavla styrs av relationsbeslut, inte släktord i prosa eller fristående CONFLICT-status (41.399667ms)
+✔ v2 följer en kvarvarande gammal kedja men flaggar inte en frikopplad aktuell revision (29.743166ms)
+✔ gamla råjournaler behåller v1-resultat; native skrivning och retries bevarar vald policy och hash (533.020958ms)
+✔ okänd omprövningsversion stoppas före mutation; explicit v1 förblir läsbar (78.70325ms)
+✔ bootstrap preserves existing database and interrupted restore before reading inputs (1.891625ms)
+✔ bootstrap rejects substituted historical operation without creating database (1.34225ms)
+✔ new native negatives enforce complete scope atomically; known and explicitly unknown material alternatives accepted (392.252083ms)
+✔ old requests and replay preserve hashes; marked retries survive source revision; new native explicit policy downgrade fails (407.025459ms)
+✔ explicit subjects retrieve a receipt even with another question subject and no legacy origins (71.702541ms)
+✔ actual apply-legacy CLI cannot bypass negative standard; valid memory accepts, old legacy retry and replay retain exact policy/hash (1439.815208ms)
+Person utanför begränsad nodpilot: P-9999; omappad betyder inte att arbete saknas
+✔ shared task references are identical while own subsets remain separate; live blockers update without a second queue (77.612291ms)
+✔ bad associations, unknown refs, duplicated routes, status metadata and outside pilot fail explicitly (76.765458ms)
+✔ work CLI JSON and default Markdown do not mutate database or journal; unmapped clear failure (602.029583ms)
+✔ hel arbetscykel med nya media, versionsbundna referenser, avbrott, journal och full återställning (684.461625ms)
+✔ fel i sista ändringen lämnar varken operation, sökindex eller journal; föråldrat belägg inom samma operation stoppas (26.318459ms)
+✔ senare journaloperation måste kontrollera även återbrukade gamla och nya medier (178.394917ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3004.474083

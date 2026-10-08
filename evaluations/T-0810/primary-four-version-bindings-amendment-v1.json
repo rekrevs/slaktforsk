@@ -1,0 +1,81 @@
+{
+  "task": "T-0810",
+  "status": "SOURCE_APPROVED_FOUR_BINDINGS_PENDING_NEW_LITERAL_PINS",
+  "operation_v2_sha256": "970e9a22cb45330d5c2a97af2a8541bfa5f51f7d414e7ee7862a8506bac613e4",
+  "amendments": [
+    {
+      "target": "F-P-0247-civil_status-index-conflict",
+      "index": 3,
+      "old": {
+        "object": "O-P-0247-C0677-new388",
+        "version": 1,
+        "role": "supports",
+        "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+      },
+      "new": {
+        "object": "O-P-0247-C0677-new388",
+        "version": 2,
+        "role": "supports",
+        "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+      },
+      "decision": "EXPLICIT_REBIND",
+      "reason": "Den aktuella civilstatusfaktan får andra änkeankaret1948-06-21 från just G2; dess äldre O@1 hade avskriftsfel1951. O@2 behåller samma person/källa och rättar exakt detta fält. Indexkonflikt i annan uppgift kvarstår oförändrad."
+    },
+    {
+      "target": "F-P-0247-family_context-full-qualified",
+      "index": 2,
+      "old": {
+        "object": "O-P-0247-C0677-new388",
+        "version": 1,
+        "role": "supports",
+        "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+      },
+      "new": {
+        "object": "O-P-0247-C0677-new388",
+        "version": 2,
+        "role": "supports",
+        "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+      },
+      "decision": "EXPLICIT_REBIND",
+      "reason": "Familjekontextens andra makes död1948-06-21 ska stödjas av samma Gertrud O@2 med läst eget änkefält/minsta makedödskontext, inte gamla felkopian. Barnens övriga fält/reservationer ändras inte."
+    },
+    {
+      "target": "F-P-0247-registered_household_sequence-bounded",
+      "index": 2,
+      "old": {
+        "object": "O-P-0247-C0677-389",
+        "version": 1,
+        "role": "supports",
+        "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+      },
+      "new": {
+        "object": "O-P-0247-C0677-389",
+        "version": 2,
+        "role": "supports",
+        "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+      },
+      "decision": "EXPLICIT_REBIND",
+      "reason": "Registreringskedjans avgång1931-12-04 kräver just rättad G1 O@2: egna ditton31 4/12 ersätter äldre1942-03-31. Samma källa/person, inget fysiskkontinuitetsanspråk."
+    },
+    {
+      "target": "F-P-0247-registered_household_sequence-bounded",
+      "index": 4,
+      "old": {
+        "object": "O-P-0247-C0677-new388",
+        "version": 1,
+        "role": "supports",
+        "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+      },
+      "new": {
+        "object": "O-P-0247-C0677-new388",
+        "version": 2,
+        "role": "supports",
+        "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+      },
+      "decision": "EXPLICIT_REBIND",
+      "reason": "Registreringskedjans sista positiva ankare1951-11-22 är G2 egen boköverföring; O@2 separerar det från änkedagen1948-06-21. Äldre O@1:s sammanblandning ersätts exakt."
+    }
+  ],
+  "preserve": "Only four specified versions1→2; native edge order, role/note and all other fields remain exact. Source O must precede dependent F. No general automatic rebind.",
+  "canonicalApproval": false
+}

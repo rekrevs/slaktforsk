@@ -1,0 +1,166 @@
+{
+  "actual62_full_native_API_fields_and_metadata_order": "PASS",
+  "actual83_resolution_rows_exact": "PASS",
+  "supported_CLI_normalization": "Only dependencyReviewVersion=2/searchMemoryVersion=1 defaults; no source fields changed",
+  "stage": {
+    "steps": [
+      {
+        "step": 1,
+        "state": {
+          "journal_head": 470,
+          "pending": 83
+        },
+        "changes": 55,
+        "retains": 226
+      },
+      {
+        "step": 2,
+        "state": {
+          "journal_head": 471,
+          "pending": 0
+        },
+        "changes": 7,
+        "retains": 34
+      }
+    ],
+    "state": {
+      "journal_head": 471,
+      "pending": 0
+    },
+    "main_unchanged": true,
+    "exact_sequence_tested": true,
+    "elapsed_seconds": 113.79650100000435
+  },
+  "default_pedigrees": [
+    {
+      "root": "P-0269",
+      "baseline_paths": 29,
+      "final_paths": 34,
+      "added_paths": [
+        {
+          "person": "P-0242",
+          "depth": 4,
+          "via": [
+            "REL-parent-P-0210-P-0269",
+            "REL-parent-P-0212-P-0210",
+            "REL-parent-P-0240-P-0212",
+            "REL-parent-P-0242-P-0240"
+          ]
+        },
+        {
+          "person": "P-0243",
+          "depth": 4,
+          "via": [
+            "REL-parent-P-0210-P-0269",
+            "REL-parent-P-0212-P-0210",
+            "REL-parent-P-0240-P-0212",
+            "REL-parent-P-0243-P-0240"
+          ]
+        },
+        {
+          "person": "P-0310",
+          "depth": 5,
+          "via": [
+            "REL-parent-P-0210-P-0269",
+            "REL-parent-P-0212-P-0210",
+            "REL-parent-P-0240-P-0212",
+            "REL-parent-P-0242-P-0240",
+            "REL-parent-P-0310-P-0242"
+          ]
+        },
+        {
+          "person": "P-0311",
+          "depth": 5,
+          "via": [
+            "REL-parent-P-0210-P-0269",
+            "REL-parent-P-0212-P-0210",
+            "REL-parent-P-0240-P-0212",
+            "REL-parent-P-0242-P-0240",
+            "REL-parent-P-0311-P-0242"
+          ]
+        },
+        {
+          "person": "P-0388",
+          "depth": 6,
+          "via": [
+            "REL-parent-P-0210-P-0269",
+            "REL-parent-P-0212-P-0210",
+            "REL-parent-P-0240-P-0212",
+            "REL-parent-P-0242-P-0240",
+            "REL-parent-P-0311-P-0242",
+            "REL-parent-P-0388-P-0311"
+          ]
+        }
+      ],
+      "source_disposition": "Added downstream paths rely on unchanged explicit legacy identity passed/tree supporting headers and retained recorded_parent relations. No new ancestral-source reassessment or biological upgrade. P0312/P0313 remain blocked. All previously visible nonfocal axis source/outcome/usability/issues unchanged."
+    },
+    {
+      "root": "P-0270",
+      "baseline_paths": 29,
+      "final_paths": 34,
+      "added_paths": [
+        {
+          "person": "P-0242",
+          "depth": 4,
+          "via": [
+            "REL-parent-P-0210-P-0270",
+            "REL-parent-P-0212-P-0210",
+            "REL-parent-P-0240-P-0212",
+            "REL-parent-P-0242-P-0240"
+          ]
+        },
+        {
+          "person": "P-0243",
+          "depth": 4,
+          "via": [
+            "REL-parent-P-0210-P-0270",
+            "REL-parent-P-0212-P-0210",
+            "REL-parent-P-0240-P-0212",
+            "REL-parent-P-0243-P-0240"
+          ]
+        },
+        {
+          "person": "P-0310",
+          "depth": 5,
+          "via": [
+            "REL-parent-P-0210-P-0270",
+            "REL-parent-P-0212-P-0210",
+            "REL-parent-P-0240-P-0212",
+            "REL-parent-P-0242-P-0240",
+            "REL-parent-P-0310-P-0242"
+          ]
+        },
+        {
+          "person": "P-0311",
+          "depth": 5,
+          "via": [
+            "REL-parent-P-0210-P-0270",
+            "REL-parent-P-0212-P-0210",
+            "REL-parent-P-0240-P-0212",
+            "REL-parent-P-0242-P-0240",
+            "REL-parent-P-0311-P-0242"
+          ]
+        },
+        {
+          "person": "P-0388",
+          "depth": 6,
+          "via": [
+            "REL-parent-P-0210-P-0270",
+            "REL-parent-P-0212-P-0210",
+            "REL-parent-P-0240-P-0212",
+            "REL-parent-P-0242-P-0240",
+            "REL-parent-P-0311-P-0242",
+            "REL-parent-P-0388-P-0311"
+          ]
+        }
+      ],
+      "source_disposition": "Added downstream paths rely on unchanged explicit legacy identity passed/tree supporting headers and retained recorded_parent relations. No new ancestral-source reassessment or biological upgrade. P0312/P0313 remain blocked. All previously visible nonfocal axis source/outcome/usability/issues unchanged."
+    }
+  ],
+  "pins": {
+    "implementation/stage471-sequence-v1/after-1-native-proof.json": "3595f8b7de66dc0f77c7bf2ca70486dbfa04aefe5ecc35314ae26ee24b8c1935",
+    "implementation/stage471-sequence-v1/after-2-native-proof.json": "d51d21e09615b6dc2dfadb7d9fe89e702ec35e54683488f8be5231de327c40ba",
+    "implementation/stage471-sequence-v1/protected-native-prefix-proof.json": "e3aebc813f3d248068bf762dec862c914ba4c87341aceb86408a12fd1f2f698a",
+    "implementation/stage471-sequence-v1/axis-and-pedigree-protection-proof.json": "588075750d96fdd4514f04c60a79fe0a567e72e5b3328a0fbb08d6689ae190dd"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "task": "T-0810",
+  "role": "Astra primary SOURCE",
+  "created_at_utc": "2026-10-07T22:59:50.296031+00:00",
+  "ready_for_root_canonical_apply": true,
+  "canonicalApproval": false,
+  "authority": "SOURCE approval of exact tested sequence only. Root alone verifies live473 baseline and performs three controlled canonical operations; never database replacement.",
+  "finalManifestSha256": "d128caa32ec3d0fd73a7cfe1fcd28f95aaa3f393e1c4388c478cdf5182a3f284",
+  "stageDbSha256": "65d06b4efe78821a8107624e6c3e50496d7e2e8a9fa7ca55ed6580ce6e2531d6",
+  "operationSha256": "bd672e6e82bfc185560ab37b851013dd5f009691098ea626d00f083093f6aa01",
+  "repairOperationSha256": "7d753d8b4b83f64f9724660e37395a8899e0a5513e938fe7a249d6761c93b707",
+  "resolutionOperationSha256": "6eea55ac53008fca200a2db888223bf9199a46854078d57b003bf8e596d588d9",
+  "consequenceSha256": "b01ef3cfd573588261e465b14e81e2230693fdcb38b18db8f68503fa265ad6e4",
+  "repairConsequenceSha256": "2466ea1c104d72163b1c2a52e212df01fdf5a23975efd6b9a3062bdec9744dc6",
+  "resolutionConsequenceSha256": "185fa690fc50fdfb2a017888e509302ad39236c7b794641a737bacb99a6b0d87",
+  "operations_in_exact_order": [
+    {
+      "path": "evaluations/T-0810/implementation/operation-v3.json",
+      "sha256": "bd672e6e82bfc185560ab37b851013dd5f009691098ea626d00f083093f6aa01"
+    },
+    {
+      "path": "evaluations/T-0810/implementation/repair-operation-v1.json",
+      "sha256": "7d753d8b4b83f64f9724660e37395a8899e0a5513e938fe7a249d6761c93b707"
+    },
+    {
+      "path": "evaluations/T-0810/implementation/six-resolution-operation-v1.json",
+      "sha256": "6eea55ac53008fca200a2db888223bf9199a46854078d57b003bf8e596d588d9"
+    }
+  ],
+  "consequence_tables": [
+    {
+      "path": "evaluations/T-0810/implementation/consequence-table-v3.json",
+      "sha256": "b01ef3cfd573588261e465b14e81e2230693fdcb38b18db8f68503fa265ad6e4"
+    },
+    {
+      "path": "evaluations/T-0810/implementation/repair-consequence-table-v1.json",
+      "sha256": "2466ea1c104d72163b1c2a52e212df01fdf5a23975efd6b9a3062bdec9744dc6"
+    },
+    {
+      "path": "evaluations/T-0810/implementation/six-resolution-consequence-table-v1.json",
+      "sha256": "185fa690fc50fdfb2a017888e509302ad39236c7b794641a737bacb99a6b0d87"
+    }
+  ],
+  "baseline": {
+    "journal_head": 473,
+    "pending": 0,
+    "sha256": "cefa87241876308998425fd0ac794ddff077ff69556b1b326ab2e991dcbdca89"
+  },
+  "final_stage": {
+    "journal_head": 476,
+    "pending": 0
+  },
+  "qualified_result": {
+    "path": "evaluations/T-0810/implementation/stage476-v1/qualified-final-result-v1.json",
+    "sha256": "897a604593390b68466772d3f3d6afaeb93b62c04632078342599448d6b521ee"
+  },
+  "manifest_pin_review": {
+    "count": 1721,
+    "all_hashes_recomputed_pass": true
+  },
+  "source_decision": {
+    "persons": [
+      "P-0247",
+      "P-0253"
+    ],
+    "fourteen_individual_identity_criteria": "Approved against settled five full own-row readings and sufficient accepted stronger support; no blanket PK05/11 waiver.",
+    "identity": "passed, usable true for both",
+    "tree": "supporting, usable true for both",
+    "legacy_full_contract": "failed, usable true; explicitly qualified ASSESSMENT backing @1→@2; no native LIFE created",
+    "OWNER": "Relevant current provenance and exact scope retained; no inference from absent literal routes and no extension of descendant OWNER facts.",
+    "source_limits": "Five approved own rows only. Three existing Erik images reused and two exact Gertrud images acquired. No register19, death-book, code-source or additional relative-field reading. Raw grades, ditto/blank distinctions and dates remain source-bound.",
+    "chronology": "Gertrud departure1931-12-04; own widow/husband-death anchor1948-06-21; own transfer1951-11-22. Earlier copy errors qualified; no continuous residence inference. C0244 father28/1 remains separate from olderSCB28/2.",
+    "historical_search": "Performed1951 negative receipt retained exact; new supported applicability assessment does not invent1948search or provider metadata.",
+    "remaining_owners": [
+      "T-0231: all nonpromoted source/rest units",
+      "T-0214: sole C0926=C0675 family remainder executor",
+      "T-0234: Gertrud later life/304/death",
+      "T-0235: widow-economic corrected1948 key, no execution here",
+      "T-0628: future Nils death question and separate earlier bilage",
+      "T-0813: bounded generation/life planning"
+    ]
+  },
+  "actual_consequences": {
+    "native_targets": 135,
+    "ordered_individual_resolutions": 65,
+    "step_retain_rows": [
+      246,
+      52,
+      6
+    ],
+    "step_retain_rows_total": 304,
+    "not_unique_retained_object_count": true,
+    "field_scope_retains": 3,
+    "media": 2,
+    "relations19_full_native_order_metadata_exact": true,
+    "nonfocal534_full_axes_exact": true,
+    "P0241_full_LIFE_failed_usable_restored_exact": true,
+    "old44_nonderived_rows_and_order_protected": true,
+    "all_old_pedigree_paths_exact": true,
+    "both_default_pedigrees": "35→37, only P0247/P0253 added",
+    "validators": "verify and verify-assets PASS",
+    "pending": 0
+  },
+  "process_qualification": {
+    "original_readings": "Both own five-row readings sealed before comparison.",
+    "actual59": "Primary sent52retain/7repair target summary and later repair claims before independent own59seal. Independent did not open candidate files, but this phase is separate source review, NOT blind actual59 review. Earlier independent original reading remains separately sealed. Initial attempts and exposure records preserved.",
+    "actual6": "Both own six-disposition seals verified before root comparison release. Primary list_agents summary exposure occurred only after own seal and was disclosed; fullfile comparison followed root release.",
+    "preserved_attempts": "All initial drafts, metadata adapter failure, initial474pending59, fresh475pending6 and final476 sequence retained."
+  },
+  "production": {
+    "original_images_read": 5,
+    "new_acquired_images": 2,
+    "existing_images_reused": 3,
+    "new_original_units_beyond_scope": 0,
+    "model_usage": "Root captures actual worker usage after final response; unknown here, not zero.",
+    "elapsed": "Do not equate mechanical stage timings with total source/review/task time."
+  }
+}

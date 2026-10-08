@@ -1,0 +1,23 @@
+{
+  "task": "T-0805",
+  "role": "independent reviewer verification-method amendment",
+  "baseGateSha256": "daeb408740443d242305f976880948c2a2818fbbd451612f9360c660ec736c8a",
+  "all25BasePinsStillMatch": true,
+  "verificationApproachApproved": true,
+  "finalAffectedPathSuite": {
+    "path": "evaluations/T-0805/final-affected-path-suite-v1.log",
+    "sha256": "19cc803f0b6699df377fa54129d1079c9ce51948b0c3d05d587e6762c50b54dd",
+    "tests": 19,
+    "passed": 19,
+    "failed": 0
+  },
+  "decision": "Accept combined evidence: the original full genealogy2 suite must complete successfully, explicitly described as having started before final hardening; final frozen affected-path regression reruns workflow, consolidation, rebuild, search-memory and work on pinned final code. This covers writeOperation native/legacy policy injection, atomic failures, exact old retry/replay, bootstrap guards, source revisions, shared route state and read-only rendering. Unchanged expensive historical cohorts need not be repeated solely because final recovery/work hardening happened after initial full-suite module loading.",
+  "limits": [
+    "Do not describe original full suite alone as wholly run on frozen final files. Preserve mixed-load provenance.",
+    "Root must verify original full suite completes PASS and record its exact final log hash alongside this final19/19 log and unchanged module pins. Any failure requires diagnosis and appropriate fix/retest before DONE.",
+    "No source/code/documentation changes approved by this amendment; all25 original gate pins verified unchanged.",
+    "MAIN/journal/pedigree endpoint comparisons remain required and root-owned."
+  ],
+  "ready_for_DONE": false,
+  "pending": "Original full suite final result remains pending; this approves verification approach, not an unobserved PASS."
+}

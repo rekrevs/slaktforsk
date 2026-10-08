@@ -1,0 +1,74 @@
+{
+  "task": "T-0808",
+  "amends": "primary-current-consequence-spec-v1.json",
+  "field_changes": [
+    {
+      "id": "CONTRACT-P-0242-PK-08",
+      "expectedVersion": 1,
+      "field": [
+        "data",
+        "body"
+      ],
+      "old": "| PK-08 | EJ STYRKT | Lokal utvinning, ungdoms-/flyttbryggor och personliga ekonomiska vägar återstår; katalogprovet stänger inte företagsfrågan. [C-0950](../citations/C-0950-katalogprov-djup-4-kristinas-sida.md) |\n",
+      "new": "T-0808 avgränsad precisering: C0269post75 och C0395Johanrad5 är nu fullfältslästa till explicita rågränser. De är inte kvarvarande överhoppade målposter. Äldre positiva fynd och gravbevaring återbrukas; övriga T0230-enheter, T0233:s avgränsade kedjor och senare hushålls-/ekonomifrågor består enligt sina egna scopes. PK08:s livsbildsutfall EJ STYRKT bevaras; ingen generell källuttömning eller nytt utförandemandat följer.\n\nÄldre text, historiskt läsläge för berörda målposter:\n| PK-08 | EJ STYRKT | Lokal utvinning, ungdoms-/flyttbryggor och personliga ekonomiska vägar återstår; katalogprovet stänger inte företagsfrågan. [C-0950](../citations/C-0950-katalogprov-djup-4-kristinas-sida.md) |\n",
+      "reason": "T-0808 avgränsad precisering: C0269post75 och C0395Johanrad5 är nu fullfältslästa till explicita rågränser. De är inte kvarvarande överhoppade målposter. Äldre positiva fynd och gravbevaring återbrukas; övriga T0230-enheter, T0233:s avgränsade kedjor och senare hushålls-/ekonomifrågor består enligt sina egna scopes. PK08:s livsbildsutfall EJ STYRKT bevaras; ingen generell källuttömning eller nytt utförandemandat följer.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0269-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 faktiskt utförd egenfältspassage med rågränser."
+        },
+        {
+          "object": "TR-T0808-C0395-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 faktiskt utförd egenfältspassage med rågränser."
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0243-PK-08",
+      "expectedVersion": 1,
+      "field": [
+        "data",
+        "body"
+      ],
+      "old": "| PK-08 | EJ STYRKT | Tidigare katalogprov och positiva fynd tillgodoräknade; senare hushåll/ekonomi och angiven utvinningsskuld återstår, utan generell källuttömning. |\n",
+      "new": "T-0808 avgränsad precisering: C0270post1 och C0406/C0407Elins egna rader är nu fullfältslästa till explicita rågränser. De är inte kvarvarande överhoppade målposter. Äldre positiva fynd och gravbevaring återbrukas; övriga T0230-enheter, T0233:s avgränsade kedjor och senare hushålls-/ekonomifrågor består enligt sina egna scopes. PK08:s livsbildsutfall EJ STYRKT bevaras; ingen generell källuttömning eller nytt utförandemandat följer.\n\nÄldre text, historiskt läsläge för berörda målposter:\n| PK-08 | EJ STYRKT | Tidigare katalogprov och positiva fynd tillgodoräknade; senare hushåll/ekonomi och angiven utvinningsskuld återstår, utan generell källuttömning. |\n",
+      "reason": "T-0808 avgränsad precisering: C0270post1 och C0406/C0407Elins egna rader är nu fullfältslästa till explicita rågränser. De är inte kvarvarande överhoppade målposter. Äldre positiva fynd och gravbevaring återbrukas; övriga T0230-enheter, T0233:s avgränsade kedjor och senare hushålls-/ekonomifrågor består enligt sina egna scopes. PK08:s livsbildsutfall EJ STYRKT bevaras; ingen generell källuttömning eller nytt utförandemandat följer.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 faktiskt utförd egenfältspassage med rågränser."
+        },
+        {
+          "object": "TR-T0808-C0406-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 faktiskt utförd egenfältspassage med rågränser."
+        },
+        {
+          "object": "TR-T0808-C0407-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 faktiskt utförd egenfältspassage med rågränser."
+        }
+      ]
+    }
+  ],
+  "retains_remove": [
+    "CONTRACT-P-0242-PK-08",
+    "CONTRACT-P-0243-PK-08"
+  ],
+  "exact_duplicate_append_once": {
+    "target": "M-C0395-Johan-Fredrik",
+    "object": "TR-T0808-C0395-fullpost",
+    "version": 1,
+    "role": "supports",
+    "note": "T-0808: full egen post/rad till prövade rågränser; samma källkedja.",
+    "reason": "Two source instructions target exactly the same edge. Append it once, preserving all pre-existing edge order. This authorizes only this identified duplicate, no broader evidence deduplication."
+  }
+}

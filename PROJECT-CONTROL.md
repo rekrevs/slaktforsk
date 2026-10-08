@@ -5743,3 +5743,82 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Related records: AGENTS.md; genealogy2/docs/working.md; docs/research/person-contract.md; wotan/dev-log/T-0804.md; wotan/dev-log/T-0800.md; wotan/dev-log/T-0786.md; PCD-2026-08-20-001; PCD-2026-09-03-003; PCD-2026-09-07-023; PCD-2026-09-09-028.
 - Portfolio signal: fastställd ägarkunskap ska nyttjas i kärnträdet medan den avgränsade arkiv- och livsbildsskulden fortsatt hålls synlig.
 - Revisit when: verkligt motbelägg mot det fastställda släktledet, nytt ägarbesked eller återupptaget exakt originalarbete. Beslutet ger inget mandat till ytterligare forskning, global revision av alla ägarfakta, beställning, publicering, dashboard-/arkivändring, commit eller push.
+
+## PCD-2026-10-07-002 — Nodbaserad arbetsvy och generell standard för resultatlösa sökningar
+
+- Record type: decision
+- Date: 2026-10-07
+- Decides review: direkt ägarinstruktion efter hypotetisk jämförelse; ingen separat PCR krävs för att bevara beskedet.
+- Owner: Sverker Adam Janson
+- Decision: Ägaren godkänner att pröva en nodbaserad arbetsvy över den befintliga Genealogy2-modellen och Wotan: ”ok, vi testar detta. committa och pusha först.” Ägaren preciserar att arbetssättet för samtliga resultatlösa sökningar ska byggas in som standard. Sökminnet ska vara person-/frågeanknutet, avgränsat och versions-/materialidentifierat så att faktiskt utfört arbete återbrukas och inte dubbelarbetas.
+- Disposition: approved
+- Scope: bounded pilot P-0240/P-0241/P-0246 med arbetsdelar ur T-0803/T-0217. En läsvy och explicit navigationsmetadata visar samma arbete vid berörda noder, utan parallell status/kö. Den generella söknollstandarden gäller framtida resultatlösa sökningar i hela projektet; äldre kvitton återbrukas enligt faktiskt stöd med saknade metadata kvalificerade, aldrig fabricerade.
+- Execution: T-0805. Förpilotscommit8b71c425 är pushad till den befintliga publika origin/main efter separat direkt bekräftelse av exakt payload/destination; LFS380/380 och remote ref verifierade. Pilot och generell standard implementeras/verifieras avgränsat efter denna säkring. Inga nya original, katalogpass eller anrelationer beslutas genom vyn.
+- Preserved rules: Wotan är ensam utförandekö; Genealogy2 äger fakta, relationer, frågor, källvägar och sökresultat. OWNER_CONFIRMED, hård anprioritet, full relevant läsning av öppnade poster, källbundna slutsatser, individuell följdgranskning och append-only historik består. Kopiehash/materialversion är inte automatisk genealogisk slutsats. Åtkomsthinder skiljs från faktiskt resultatlös sökning.
+- Supersedes decision: ingen; begränsad navigationspilot och precisering av sökdokumentation inom befintlig arbetsmodell. Ingen global taskmigration, ny dashboard eller avskaffande av Wotan.
+- Resulting Wotan tasks: T-0805.
+- Related records: wotan/dev-log/T-0805.md; genealogy2/docs/working.md; docs/research/person-contract.md; docs/research/source-strategy.md; PCD-2026-10-05-001; PCD-2026-10-07-001.
+- Portfolio signal: befintligt aktivt projekt får ett avgränsat försök för bättre anlinjeval och återbruk.
+- Revisit when: pilotens faktiska användbarhet bedöms, överlapp/dubblering eller tappat restansvar upptäcks, eller ägaren begär vidare införande. Försöket ger inget automatiskt mandat till fler källpass, full kömigration, publicering eller ytterligare commit/push.
+
+## PCR-2026-10-07-001 — Verkställ anlinjeprioritet efter nodpiloten
+
+- Record type: review
+- Date: 2026-10-07
+- Mode: checkpoint
+- Trigger: Ägaren frågar om kärnprioriteringen faktiskt sätter säkert fastställande av anlinjer före livsbildsarbete.
+- Control judgement: redirect, operate, preserve
+- Current gate: Kärnkön efter T-0805 innehåller tio READY (nio CORE_LIFE, en CORE_SUPPORT) och en blockerad CORE_LIFE men ingen återstående CORE_IDENTITY. Nästa selectorval T-0217 är livsbildsrouting. T-0793:s närfrontsprövning är ännu inte utförd.
+- Recommendation: Genomför T-0793 före T-0217; pröva aktuella närmaste anled och identitets-/föräldrafrågor balanserat på båda sidor, återbruka accepterat och OWNER_CONFIRMED, omsätt verkliga frågor i bounded CORE_IDENTITY först i Wotan och börja därefter första sakligt motiverade uppgiften. Bevara livsbild och sidoarbete med fullscope och senare aktivt ansvar.
+- Owner decision required: none; ägaren har godkänt rekommendationen.
+- Evidence: wotan/backlog.json; wotan/dev-log/T-0793.md; wotan/dev-log/T-0805.md; faktisk wotan-priority efter T-0805; ägarens frågor och ”då kör vi så”.
+- Uncertainty: Maskinella grindstopp är inte automatiskt materiell identitetsosäkerhet; nästa person-/source-scope väljs först efter currentfullread, stronger/OWNER och accepted kvitton.
+- Revisit when: T-0793:s individuella närfrontsprövning är klar, den första anlinjeuppgiften avslutas eller ett faktiskt hinder kräver annan genomförbar anlinjepassage.
+
+## PCD-2026-10-07-003 — Faktisk anlinjekö före livsbildskön
+
+- Record type: decision
+- Date: 2026-10-07
+- Decides review: PCR-2026-10-07-001
+- Owner: Sverker Adam Janson
+- Decision: Ägaren godkänner med ”då kör vi så” rekommendationen att genomföra T-0793 före T-0217, bygga konkreta anlinjeuppgifter före livsbildsuppgifterna och därefter börja den första sakligt motiverade anlinjeuppgiften. Närmast otillräckligt fastställda anled på Sverkers och Kristinas sida prioriteras balanserat; redan tillräckligt accepterade uppgifter granskas inte om enbart för nya formatfält.
+- Disposition: approved
+- Scope: T-0793:s fasta14nära+16djup4 och160persons planägarskap. Ny sourceexekvering sker endast inom därefter individuellt sakprövad, verifierbar och aktiv bounded Wotanuppgift. Beställningen ger mandat att börja första sådan uppgift, ingen obegränsad kökörning eller allmaterialrevision.
+- Preserved rules: CORE_IDENTITY-frågor går före fristående CORE_LIFE i faktisk körordning; nödvändigt bounded CORE_SUPPORT för närfronten kan föregå dem. Livsbildernas krav och alla uppskjutna scopes kvarstår med namngiven aktiv senare checkpoint och konkreta villkor, aldrig som föräldraledets extra arkivbeviskrav. Full relevant originalutvinning inom öppnade poster, oberoende sakgranskning, individuell följdprövning, OWNER_CONFIRMED och sökminnesstandarden består.
+- Supersedes decision: PCD-2026-10-05-002:s operativa ordning i den del där livsbildsrouting annars föregår oprövad närmaste anfront; tidigare utfört arbete, uppgiftsscopes och deras historik bevaras. PCD-2026-10-05-001:s hårda kärnprioritet förstärks.
+- Resulting Wotan tasks: T-0793 samt dess sakprövade bounded efterföljare, namngivna i slutloggen före DONE.
+- Related records: PCD-2026-10-05-001; PCD-2026-10-05-002; PCD-2026-10-07-001; PCD-2026-10-07-002; wotan/dev-log/T-0793.md.
+- Portfolio signal: Aktivt projekt styrs mot direkt anlinjeprogress; ingen ytterligare metodutbyggnad är beslutad.
+- Revisit when: Aktuellt anlinjepass är utfört, en balanserad generationsvåg nått sin checkpoint eller ett materiellt hinder behöver ny bounded lösning.
+
+- Implemented tasks, 2026-10-07: T0793 verifierad DONE; T0806–T0812 skapade CORE_IDENTITY för exakt11 personer på djup4, T0813 aktiv READY planeringsägare för exakt160 och fulla livsplaneringsrester. Faktisk selector väljer T0806 före T0217; T0806 ONGOING gäller den enda nu beställda käll-/identitetsuppgiften. Fulla sak-/hashgrindar och faktisk bevarandeverifiering finns i T0793:s slutlogg.
+
+## PCR-2026-10-08-001 — Nästa balanserade anfront efter femuppgiftskörningen
+
+- Record type: review
+- Date: 2026-10-08
+- Mode: checkpoint
+- Trigger: Ägarens beställda T-0808–T-0812 är verifierade DONE; T-0813 prövar faktisk fortsättning.
+- Control judgement: continue, operate, preserve
+- Current gate: De första30 personernas aktuella identitets-/trädgrindar är tillräckliga. Nästa utvalda egna identitets- och föräldrafrågor gäller P-0336/P-0337 till P-0287 på Kristinas sida och P-0042/P-0043 till P-0009 på Sverkers sida. Djupare registrerade anor är inte därmed sakcertifierade.
+- Recommendation: Planera T-0814 för Olaus/Brita Stina först och T-0815 för Karl Fredrik/Charlotta Wilhelmina därefter, med accepterat material först och originaltak0. T-0816 blir aktiv avgränsad planeringsägare för hela160unionen och fulla tidigare livsplaneringsappendicer. Vid första faktiska resultat eller konkreta hinder, senast efter tvåuppdragscykeln, fattas ett konkret operativt beslut om T-0217 först och T-0228 därefter före ytterligare djupcykel. Ett faktiskt närmare identitetsbehov kan motivera företräde endast med exakt sakfråga och nytt ändligt omprövningstillfälle.
+- Owner decision required: none för denna beställda planering; utförande av T-0814–T-0816 ligger utanför femuppgiftskörningen med villkorlig T-0813. READY och selector är inte utförandemandat.
+- Evidence: wotan/dev-log/T-0808.md till T-0813.md; genealogy2 journal468–481; evaluations/T-0813/preparation/locked-input-manifest-v1.json; evaluations/T-0813/settled-source-design-v1.json; evaluations/T-0813/settled-fixed160-successor-transfer-v1.json; båda egna Astra-bedömningar och oberoende designgate i samma katalog. Båda default-verifierade antavlorna omfattar41 anor efter de fem uppgifterna, från29 före körningen; åtta fokala personer har fått sakligt prövade identitetsgrindar. Fyra ytterligare redan accepterade anor blir nåbara genom dessa grindar, inga nya föräldrarelationer skapades.
+- Uncertainty: Äldre failed fullkontrakt eller maskinella stopp är inte automatiskt identitetsosäkerhet.130 djupare planposter är inte källgranskade i denna checkpoint. Ingen ny LIFE-granskning eller full källuttömning görs. Framtida bedömningsuppgifter kan ge precist otillräckligt resultat utan framtvingat PASS.
+- Proposed actions: Tre avgränsade Wotanuppgifter T-0814–T-0816, förlustfri aktiv överföring av hela160 och fulla appendicer, oförändrade äldre source-/livsägare och sökminne.
+- Revisit when: Första faktiska accepterade resultat ELLER konkret hinder från T-0814/T-0815; senast efter den balanserade tvåuppdragscykeln och före beslut om ännu en djupcykel. Verkligt motbelägg eller ändrat åtkomstläge prövas inom relevant bounded scope.
+
+## PCD-2026-10-08-001 — Fem identitetsuppgifter och villkorlig planeringscheckpoint
+
+- Record type: decision
+- Date: 2026-10-08
+- Decides review: PCR-2026-10-07-001; direkt fortsatt ägarbeställning efter den godkända anlinjeprioriteringen.
+- Owner: Sverker Adam Janson
+- Decision: Ägaren: ”ok vi kör de fem och sedan t-0813 om det är vad vi borde köra sedan”. Beställningen omfattar T-0808–T-0812 och, efter saklig lämplighetsprövning, T-0813. Den senare är lämplig efter de faktiska fem DONE-resultaten och genomför endast sin avgränsade planeringscheckpoint.
+- Disposition: approved
+- Scope: Fem redan avgränsade identitetsuppgifter samt T-0813:s current30/fixed160-planering. PCR-2026-10-08-001 dokumenterar agenternas sakliga val inom denna checkpoint; ägarens citat är inte ett förhandsgodkännande av de därefter valda personernas sakutfall eller av ny forskning.
+- Resulting Wotan tasks: T-0808–T-0812 och villkorlig T-0813 körda inom beställningen; T-0814–T-0816 är planeringsleveranser från T-0813 och kräver faktiskt utförandemandat innan start.
+- Preserved rules: PCD-2026-10-05-001:s hårda och balanserade kärnprioritet, båda personkontraktsnivåerna, alla relevanta OWNER_CONFIRMED-uppgifter, accepterat återbruk och beständigt sökminne består. Fulla äldre AC/checkpoints,160unionen och hela livsplaneringsresterna bevaras; T-0816 äger deras aktuella planeringsansvar utan ändring av äldre utförandeägare. Ingen ny130persons-audit eller originalpromotion ingår.
+- Portfolio signal: Den beställda ändliga körningen är slutförd och en sakligt motiverad nästa kärnkö är planerad; inget obegränsat fortsättningsmandat.
+- Related records: PCR-2026-10-08-001; PCD-2026-10-07-003; wotan/dev-log/T-0813.md; wotan/dev-log/T-0814.md; wotan/dev-log/T-0815.md; wotan/dev-log/T-0816.md.
+- Revisit when: Ny ägarbeställning av nästa avgränsade uppgift eller T-0816:s verkliga resultat-/hindervillkor. Inga commit/push, dashboard-/frysta arkivwrites, PDF, beställningar eller kontakter följer av detta beslut.

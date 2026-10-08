@@ -72,16 +72,20 @@ async function checkOperationMedia(db,request,root) {
 // If the process dies between them, SQLite is authoritative; repeating apply or
 // running journal regenerates the missing receipt, without executing twice.
 export async function writeOperation(db,request,{root,journal,legacy=false,afterCommit}={}) {
-  if(!legacy&&!Object.hasOwn(request,'dependencyReviewVersion')) {
-    const previous=db.prepare(`SELECT p.request_json FROM operation o
-      LEFT JOIN operation_payload p ON p.operation_id=o.id WHERE o.id=?`).get(request.id);
-    // Preserve old unversioned requests and their hashes on idempotent retries.
-    // A retry of a newly annotated request inherits only its stored policy; all
-    // other submitted fields must still match applyOperation's content hash.
-    const stored=previous?.request_json?JSON.parse(previous.request_json):null;
-    if(!previous)request={...request,dependencyReviewVersion:2};
-    else if(stored&&Object.hasOwn(stored,'dependencyReviewVersion'))
-      request={...request,dependencyReviewVersion:stored.dependencyReviewVersion};
+  const previous=db.prepare(`SELECT p.request_json FROM operation o
+    LEFT JOIN operation_payload p ON p.operation_id=o.id WHERE o.id=?`).get(request.id);
+  // Inherit only stored policy on retries; submitted research fields still
+  // must match the accepted request hash. Old unmarked journals stay unmarked.
+  const stored=previous?.request_json?JSON.parse(previous.request_json):null;
+  const requiresSearchMemory=!legacy||(request.changes??[]).some(c=>c.kind==='search'&&c.data?.outcome==='negative');
+  const policies=[...(!legacy?[['dependencyReviewVersion',2]]:[]),...(requiresSearchMemory||stored&&Object.hasOwn(stored,'searchMemoryVersion')?[['searchMemoryVersion',1]]:[])];
+  for(const [field,value] of policies) {
+    if(!previous&&field==='searchMemoryVersion'&&Object.hasOwn(request,field)&&request[field]!==value)
+      throw Error('Nya negativa sökningar och native operationer kräver searchMemoryVersion 1');
+    if(!Object.hasOwn(request,field)) {
+      if(!previous)request={...request,[field]:value};
+      else if(stored&&Object.hasOwn(stored,field))request={...request,[field]:stored[field]};
+    }
   }
   await checkOperationMedia(db,request,root);
   fs.mkdirSync(journal,{recursive:true});

@@ -1,0 +1,62 @@
+{
+  "task": "T-0810",
+  "status": "SETTLED_ACCEPTED_REUSE_COMPONENT_NOT_COMPLETE_OPERATION",
+  "changes": [
+    {
+      "id": "F-P-0253-birth_date_conflict-three-readings",
+      "expectedVersion": 1,
+      "field": "data.value_json",
+      "old": {
+        "dependent_SCB": true,
+        "later_household": "1860-01-28",
+        "own_birth": "1860-01-23",
+        "reason": "egen födelsepost",
+        "selected": "1860-01-23",
+        "sons_birth_and_SCB": "1860-02-28"
+      },
+      "new": {
+        "dependent_SCB": true,
+        "later_household": "1860-01-28",
+        "own_birth": "1860-01-23",
+        "reason": "egen födelsepost",
+        "selected": "1860-01-23",
+        "sons_birth_original": "1860-01-28",
+        "sons_birth_original_raw": "60 28/1",
+        "SCB_older_report": "1860-02-28",
+        "SCB_original_reread_in_T0787": false
+      },
+      "reason": "T0787 current originalreading O-P-0241-C0244-own@2 separates ownson original from older dependent SCB report. Ownbirthselected23Jan unchanged.",
+      "appendEvidence": [
+        {
+          "id": "O-P-0241-C0244-own",
+          "version": 2,
+          "role": "supports",
+          "note": "T0787 eget C0244-original ger faderns rå60 28/1. C0245 äldre rapport28/2 kvarstår separat; SCB-originalet är inte omläst här."
+        }
+      ],
+      "preserve": "CONFLICT status, accepted disposition, caveat, rationale, all old origins/evidence order and every unrelated field."
+    }
+  ],
+  "retains": [
+    {
+      "id": "KEY-P-0253-d7a22d09fff5",
+      "version": 2,
+      "decision": "RETAIN_EXACT",
+      "reason": "Full current body already applies same exact T0787 separation; no new datum normalization."
+    },
+    {
+      "id": "BIO-P-0253",
+      "version": 1,
+      "decision": "RETAIN_DATE_SENTENCE_PENDING_FINAL_SCOPE",
+      "reason": "Later28Jan/28Feb wording and dependentSCB remain true as general summary, not explicit original28Feb attribution. Possible PK05 caveat update assessed after ownfields."
+    },
+    {
+      "id": "RESEARCH-P-0253-9d76f0343410",
+      "version": 1,
+      "decision": "RETAIN_DATE_SCOPE_PENDING_FINAL_COPY_REVIEW",
+      "reason": "Accepted main23Jan and later conflictingvalues alone not false; whole current copy must govern."
+    }
+  ],
+  "no_new_originals": true,
+  "canonical_apply": false
+}

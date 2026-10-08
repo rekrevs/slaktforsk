@@ -1,0 +1,71 @@
+# T-0241: Hulda: två direkta hushållsbryggor och rätt dödsboarkiv
+
+**Status**: READY | **Size**: M
+
+## Context och mandat
+
+PCD-2026-09-07-026 och T-0125. Efter T-0115. P-0016 med direkt
+berörda hushåll P-0015/P-0532/P-0533/P-0534. Bevara privat minimering.
+
+## Scope och stoppgräns
+
+1. C-0955:s positiva utflyttning Helgesta1913-09-12: exakt mottagarpost
+   och högst två direkt därifrån hänvisade hushållsfolier för bryggan
+   mot Solliden/Helgesta1929. C-0919:s sid16noll tillgodoräknas utan
+   att räknas som hela Huldas familjeutredning.
+2. C-0973 FlensAIIa9as83: uttrycklig nb96, högst två katalog-/register-
+   poster för rätt mottagarbok och exakt mottagarfolio. Ingen generell
+   Flen1955–1964-sökning eller renummereringsgissning.
+3. Huldas dödsbo Flen1964 respektive Axel Vilhelm Ekholms Katarina1913:
+   högst två katalogposter per jurisdiktion, ett rätt tidsomfångsregister
+   och högst en digital positiv bouppteckning per person. Registerslut
+   för Hyltinge1908 är inte noll för dessa år/orter. Om jurisdiktionen
+   eller åtkomsten förblir olöst redovisas exakt prövning, utan beställning.
+
+Äldre öppnade originalkopior/fält ägs T-0237; gravregistret C-0923 ägs
+T-0227. Barnens egna födelseoriginal1907/1910 ingår inte här; deras fasta
+kohort äger full adoption och avgränsning. Inga nya privata adresser eller
+barndata förs in utöver beslutad minimering. Familjebokföring skiljs från
+omsorgsform, faktisk sammanboendedag och säker dödsplats.
+
+## Acceptance Criteria
+
+- Tre delpassager har individuellt positivt, precist negativt eller
+  olöst utfall inom angivna stoppgränser.
+- Varje öppnad relevant post fullutvinns och bevaras med kopia/hash;
+  redan tillräckliga poster och nollomfång tillgodoräknas.
+- Akter/profiler, tio teman, frågor och båda kontraktsnivåer är avstämda
+  med familjepåverkan och privat minimering bevarad.
+- Beslutade följder utanför scope har egen ändlig ägare.
+- Saklig eftergranskning, format, validator, inventering, tester,
+  mediemanifest och diffkontroll passerar.
+
+## Approach
+
+Läs T-0125 och aktuella profiler. Följ tillåten Riksarkivsåtkomst;
+ArkivDigital förbjudet. Inga kontakter, beställningar, publicering,
+PDF-skapande, dashboarduppdatering eller commit/push. En forskningsbatch
+loggas en gång med sitt acceptanskriterium.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: tre positiva ingångar och fasta stoppgränser definierade.
+- Nästa ej utförda steg: efter programmet, läs aktuell profil och
+  pröva första exakta mottagarpost. Ingen passage redan utförd här.
+- Hinder: T-0125/T-0115; ingen generell eller permanent åtkomstspärr antas.
+
+## Återupptagning 2026-09-18: föregångare avslutade
+
+T-0115 och övriga angivna beroenden är DONE. Uppgiften är READY, inte startad.
+Nästa steg är den tidigare angivna första sakpassagen inom uppgiftens omfång,
+med aktuella Genealogy2-objekt enligt wotan/README.md. Gamla filsökvägar och
+skrivkommandon i planen är historik; det frysta genealogy ska inte redigeras.
+Ingen tidigare källpassage ska repeteras utan ett konkret sakligt skäl.
+
+
+## T-0793 förlustfri närfrontsplanering 2026-10-07
+
+Äldre full scope, AC, checkpoint och status ovan bevaras. V3:s individuella källenhetsbeslut styr över kandidatens tak; ingen ännu ej utförd originalenhet överförs ovillkorligt. Eventuell nödvändig enhet kräver exakt SOURCE/oberoende godkänd ändring före utförande.
+
+- T-0811: No unperformed source subset of T0237 or T0241 transfers now. Exact C0955 seven representations/C0973 remaining images/C0976 three/C0979 two remain T0237; nb96 and max2 metadata/register entries plus exact receiver remain T0241 part2. Parts1/3 and other persons unchanged. T0811 owns substantive current native identity reassessment only.

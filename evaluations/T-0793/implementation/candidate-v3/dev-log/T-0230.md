@@ -1,0 +1,119 @@
+# T-0230: Carlmanfamiljen: fulla öppnade personposter och registerprovenans
+
+**Status**: READY | **Size**: M
+
+## Context och mandat
+
+PCD-2026-09-07-026, individuella fynd i T-0124. Efter T-0115.
+Personer: P-0242/P-0243/P-0353 med direkt berörda föräldrar/syskon/barn.
+
+## Scope och stoppgräns
+
+Exakt nio redan öppnade målunderlag: C-0269 nr75fadderfält; C-0270
+nr1faddrar/dopförrättare/statistik; C-0355/C-0395 Carlmanfamiljens
+egna rader inklusive den tidigare utelämnade r9 SigridRagnhild[?];
+C-0406/C-0407 Elins egna kyrkliga datum/attest; C-0538 Rudolfs
+fulla titel och datumreservation; C-0899 Carlmanhushållets samfund,
+skol-/barn-/inkomstkolumner med kodprövning; C-0944 exakt gravpost-
+bevarande för de redan namngivna Carlmanpersonerna. C-0232/S-0182
+fulloriginal, C-0271 Elins tomfält och C-0948 vigseln tillgodoräknas.
+Högst en direkt personbunden fält-/kodförklaring per post.
+Inga nya årgångar. Eventuellt nytt barn-P-id först efter full rad,
+dubblettprövning och explicit avstämning med538-baslinjens revision.
+
+## Acceptance Criteria
+
+- Varje namngiven delpassage har positivt, precist negativt eller
+  olöst utfall inom ovanstående stoppgräns. Inga obundna svep.
+- Hela faktiskt öppnade relevanta poster utvunna, provenans och
+  originalkopior/hash bevarade; prövad oläslighet skiljs från oläst.
+- Berörda aktuella akter/profiler och deras tio teman/två nivåer
+  avstämda individuellt. Inget konstruerat familje- eller åtkomstbevis.
+- Beslutade följder utanför scope har egen avgränsad Wotan-ägare.
+- Saklig efterläsning samt relevanta validatorer/inventering/tester/
+  mediemanifest/personformat/diffkontroll godkända.
+
+## Approach
+
+Återanvänd T-0124:s rättelser innan varje passage. Följ Riksarkivets
+åtkomstordning; ArkivDigital förbjudet. Inga beställningar, kontakter,
+PDF-skapande, dashboarduppdateringar eller commit/push ingår.
+
+## Återupptagning
+
+- Uppdaterat:2026-09-07.
+- Utfört: omfång och tidigare belägg identifierade i T-0124.
+- Nästa ej utförda steg: efter föregångarna, läs aktuella profiler
+  och pröva första namngivna passage.
+- Hinder: T-0124/T-0115; ingen ny passage ännu utförd här.
+
+### Precisering efter oberoende eftergranskning
+
+C-0538:s titel är Phil. Candidat, ett sammanhängande ord, inte en
+ny extra titel efter Cand. Titeln, Frikallad 84 och prövade egna tomfält
+tillgodoräknas; de skall inte återöppnas enbart som fullutvinningsskuld.
+C-0395:s extra barnrad och de övriga uttryckligen outvunna målposterna
+kvarstår inom den fasta omfattningen.
+
+## Inkommen observation från T-0156, 2026-09-08
+
+**Den överstrukna nionde raden i C-0395 är slututvunnen och behöver inte läsas
+om.** Den preliminära läsningen `Sigrid Ragnhild[?], 1874 6/3[?], död 13/3 74[?]`
+var felaktig på namn, kön och båda datumen. Raden lyder `S. Sigfrid Konstantin`,
+född `6/2` 1874 i Högby, död `5/3 74`; prefixet `S.` är samma sonmarkering som på
+raderna 3–6 och 8. Läsningen är oberoende verifierad mot C-0396:s fullbild, där
+dödbokens post nr 12 ger 27 dagars ålder vid dödsfallet 5 mars, dödsorsaken
+`Bröst Katharr` och folio 161. Båda citationerna har fått daterade tillägg.
+
+Det stänger PK-05-bristen på just den raden — den gällde också **P-0353** och
+**P-0354** — och rättar familjens barnantal från sex till sju belagda födslar.
+Sigfrid Konstantin saknar person-id; födelsenotisen i Högby `C/5` 1874 är den enda
+ännu olästa källan om honom.
+
+**Separat läsobservation att pröva:** på samma bild läser rad 3:s födelsedatum ut
+som `23/5` 1863, inte `23/3`. Nämnarens glyf skiljer sig tydligt från rad 4:s
+`17/3` i samma hand. Det skulle stämma med C-0538:s `63 23/5` och tala emot
+C-0395:s avskrift `1863-03-23`, alltså tvärtemot slutsatsen att månaden kan läsas
+som 3. Pröva den mot A I/8 i C-0355 innan konflikten skrivs om.
+
+## Inkommet från T-0158, 2026-09-09
+
+C-0270:s omläsning 2026-09-07 innehöll tre uppgifter ur **P-0243:s egen
+födelsepost** som aldrig nådde någon akt: moderns ålder **23** och
+markeringarna **`1:a Barnet`** och **`2 år`**. De är begränsat införda som
+A-5921. Samma omläsning namnger en kvarstående utvinningsrest — fadderkolumnen
+och dopförrättarens namn är inte avskrivna trots lokal fullbild — som är förd
+som A-5922 och håller PK-05 öppen för posten.
+
+Vid den individuella granskningen här: stäng utvinningsresten ur den redan
+sparade bilden innan PK-05 bedöms, och kontrollera att `1:a Barnet` behandlas
+som moderns barnaföljd och inte som en relation.
+
+## Återupptagning 2026-09-18: föregångare avslutade
+
+T-0115 och övriga angivna beroenden är DONE. Uppgiften är READY, inte startad.
+Nästa steg är den tidigare angivna första sakpassagen inom uppgiftens omfång,
+med aktuella Genealogy2-objekt enligt wotan/README.md. Gamla filsökvägar och
+skrivkommandon i planen är historik; det frysta genealogy ska inte redigeras.
+Ingen tidigare källpassage ska repeteras utan ett konkret sakligt skäl.
+
+## Avgränsat återbruk från T-0675, 2026-09-18
+
+Journal145, `T-0675/Graves-four-v1`, bevarar Johans och Naemis egna
+SvenskaGravar-kort samt Kristina Gustafvas exakta sökresultatkort med
+full lokal HTML, URL och SHA-256. Se
+[införandepaketet](../../genealogy2/verification/T-0675/graves-four-ready-operation.json)
+och [sakjämförelsen](../../genealogy2/verification/T-0675/graves-four-comparison-ledger.json).
+Just dessa tre C-0944-kort behöver inte återhämtas för bevarande. Fångsten
+gäller 2026-09-18, inte en återfunnen fil från den äldre läsdagen.
+Kristinas kort visar ingen medgravslista; äldre tvåpersonersgrav är inte
+nyverifierad. Andra Carlmanpersoners egna kort, övriga öppna källpassager
+och kontraktsbrister omfattas inte av detta tillgodoräknande. Uppgiften
+är inte slutförd och backlogstatus ändras inte.
+
+
+## T-0793 förlustfri närfrontsplanering 2026-10-07
+
+Äldre full scope, AC, checkpoint och status ovan bevaras. V3:s individuella källenhetsbeslut styr över kandidatens tak; ingen ännu ej utförd originalenhet överförs ovillkorligt. Eventuell nödvändig enhet kräver exakt SOURCE/oberoende godkänd ändring före utförande.
+
+- T-0808: Conditionally promote only after the above source necessity decision: these exact own-field units from T0230; retain C0355/Rudolf C0538, other family/grav cards and all remaining original units at T0230. T0233 separate three chains unchanged; no new sibling/brother identification.

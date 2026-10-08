@@ -1,0 +1,4 @@
+{
+  "reason": "Python sorted-key JSON hashing differs from JavaScript canonical JSON for integer-like property keys (first receipt21). Actual DB/receipt payload, id, sequence, policy, timestamp all exact. Corrected check hashes original stored canonical bytes and compares parsed payload canonically with array order retained. JS canonical integrity check also captured in node reader.",
+  "no_data_change": true
+}

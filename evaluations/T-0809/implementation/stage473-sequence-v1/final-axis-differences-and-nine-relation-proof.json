@@ -1,0 +1,145 @@
+{
+  "state": {
+    "journal_head": 473,
+    "pending": 0
+  },
+  "persons": 536,
+  "all_person_axis_differences": [
+    {
+      "person": "P-0009",
+      "differences": {
+        "identityGate": {
+          "before": false,
+          "after": true
+        },
+        "identityReview": {
+          "before": {
+            "outcome": "failed",
+            "usable": true,
+            "source": "legacy_header",
+            "revisions": [
+              "ASSESSMENT-P-0009@1"
+            ]
+          },
+          "after": {
+            "outcome": "passed",
+            "usable": true,
+            "source": "native",
+            "revisions": [
+              "IDENTITY-REVIEW-T0809-P0009@1"
+            ]
+          }
+        },
+        "treeEffect": {
+          "before": {
+            "outcome": "waiting",
+            "usable": true,
+            "source": "legacy_header",
+            "revisions": [
+              "ASSESSMENT-P-0009@1"
+            ]
+          },
+          "after": {
+            "outcome": "supporting",
+            "usable": true,
+            "source": "native",
+            "revisions": [
+              "TREE-EFFECT-T0809-P0009@1"
+            ]
+          }
+        },
+        "lifePictureReview": {
+          "before": {
+            "outcome": "failed",
+            "usable": true,
+            "source": "legacy_header",
+            "scope": "legacy_full_contract",
+            "revisions": [
+              "ASSESSMENT-P-0009@1"
+            ]
+          },
+          "after": {
+            "outcome": "failed",
+            "usable": true,
+            "source": "legacy_header",
+            "scope": "legacy_full_contract",
+            "revisions": [
+              "ASSESSMENT-P-0009@2"
+            ]
+          }
+        },
+        "stopReasons": {
+          "before": [
+            {
+              "code": "gate_outcome_not_supporting",
+              "axis": "identity_review",
+              "revision_ids": [
+                "ASSESSMENT-P-0009@1"
+              ],
+              "message": "Identitetsgranskning är failed; grinden kräver passed."
+            },
+            {
+              "code": "gate_outcome_not_supporting",
+              "axis": "tree_effect",
+              "revision_ids": [
+                "ASSESSMENT-P-0009@1"
+              ],
+              "message": "Trädverkan är waiting; grinden kräver supporting."
+            }
+          ],
+          "after": []
+        }
+      },
+      "requires_source_qualification": false
+    }
+  ],
+  "relations": [
+    {
+      "object_id": "REL-parent-P-0009-P-0300",
+      "revision": "REL-parent-P-0009-P-0300@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-spouse-P-0009-P-0535",
+      "revision": "REL-spouse-P-0009-P-0535@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-sibling-P-0009-P-0044",
+      "revision": "REL-sibling-P-0009-P-0044@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-sibling-P-0009-P-0045",
+      "revision": "REL-sibling-P-0009-P-0045@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-sibling-P-0009-P-0046",
+      "revision": "REL-sibling-P-0009-P-0046@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-sibling-P-0009-P-0047",
+      "revision": "REL-sibling-P-0009-P-0047@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-parent-P-0009-P-0003",
+      "revision": "REL-parent-P-0009-P-0003@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-parent-P-0042-P-0009",
+      "revision": "REL-parent-P-0042-P-0009@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-parent-P-0043-P-0009",
+      "revision": "REL-parent-P-0043-P-0009@1",
+      "full_native_metadata_order_exact": true
+    }
+  ],
+  "all_nine_relation_native_exact": true,
+  "note": "Exact final sequence axes, with focal legacy full-contract backing revision1→2 explicitly reported; outcome/scope/usable remain separate from that source-approved copy correction. All nonfocal differences require explicit qualification."
+}

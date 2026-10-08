@@ -1,0 +1,1169 @@
+{
+  "task": "T-0808",
+  "baseline_stage": 470,
+  "actual_context_sha256": "e92f67f15edde9e3199e49b2e2b4b6139971d439c9a99ce6dfa6a895385f3a6a",
+  "field_changes": [
+    {
+      "id": "M-P-0312-C0270-child-birth",
+      "expectedVersion": 1,
+      "field": [
+        "data",
+        "role_literal"
+      ],
+      "old": "Arbet.",
+      "new": "hemmansägare",
+      "reason": "Färsk egen C0270post visar hemmansägare, inte äldre Arbet.-avskrift.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    },
+    {
+      "id": "M-P-0312-C0270-child-birth",
+      "expectedVersion": 1,
+      "field": [
+        "data",
+        "name_literal"
+      ],
+      "old": "And. Magn. Carlsson",
+      "new": "Carlsson, And. Magnus",
+      "reason": "Källans egna namnordning och förnamnsform; accepterad personkorrelation oförändrad.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    },
+    {
+      "id": "M-P-0312-C0270-child-birth",
+      "expectedVersion": 1,
+      "field": [
+        "caveat"
+      ],
+      "old": "Bokstavlig form från denna post; tolkningar hålls i egna fält.",
+      "new": "T-0808: C0270post1 namnger Carlsson, And. Magnus, hemmansägare. Äldre Arbet.-avskrift rättad; ingen förvärvsdag, rättsform eller ny identitet härleds.\n\nÄldre läsläge, bevarat som historik:\nBokstavlig form från denna post; tolkningar hålls i egna fält.",
+      "reason": "T-0808: C0270post1 namnger Carlsson, And. Magnus, hemmansägare. Äldre Arbet.-avskrift rättad; ingen förvärvsdag, rättsform eller ny identitet härleds.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    },
+    {
+      "id": "O-P-0312-C0270-child-birth",
+      "expectedVersion": 1,
+      "field": [
+        "data",
+        "value_json"
+      ],
+      "old": "{\"child\":\"P-0243\",\"child_baptism\":\"1873-01-19\",\"child_birth\":\"1873-01-15\",\"folio\":71,\"home\":\"Gäddelstad\",\"markers\":[\"1:a Barnet\",\"2 år\"],\"mother_age\":23,\"unextracted\":[\"fadderkolumn\",\"dopförrättare\"],\"wife\":\"Charlotta Larsdotter\"}",
+      "new": {
+        "child": "P-0243",
+        "child_baptism": "1873-01-19",
+        "child_birth": "1873-01-15",
+        "folio": 71,
+        "home": "Gäddelstad",
+        "markers": [
+          "1:a Barnet",
+          "2 år"
+        ],
+        "mother_age": 23,
+        "unextracted": [],
+        "wife": "Charlotta Larsdotter",
+        "tested_reading_limits": "Hela egna C0270post1 inklusive fadder-/förrättarfält prövad T0808; reserverade namnfragment finns i TR-T0808-C0270-fullpost@1. Inget släktskap till faddrar antas.",
+        "age_column_raw": "38[?] upptill och23 nedtill; äldre modern23 bevaras, övre referent inte fastställd.",
+        "own_title": "hemmansägare"
+      },
+      "reason": "Exakt sourceföljd: fullfält prövade, titel rättad, accepterade barn-/familjedatum bevarade.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    },
+    {
+      "id": "O-P-0312-C0270-child-birth",
+      "expectedVersion": 1,
+      "field": [
+        "data",
+        "value_literal"
+      ],
+      "old": "{\"child\":\"P-0243\",\"child_birth\":\"1873-01-15\",\"child_baptism\":\"1873-01-19\",\"wife\":\"Charlotta Larsdotter\",\"home\":\"Gäddelstad\",\"folio\":71,\"mother_age\":23,\"markers\":[\"1:a Barnet\",\"2 år\"],\"unextracted\":[\"fadderkolumn\",\"dopförrättare\"]}",
+      "new": "{\"child\":\"P-0243\",\"child_baptism\":\"1873-01-19\",\"child_birth\":\"1873-01-15\",\"folio\":71,\"home\":\"Gäddelstad\",\"markers\":[\"1:a Barnet\",\"2 år\"],\"mother_age\":23,\"unextracted\":[],\"wife\":\"Charlotta Larsdotter\",\"tested_reading_limits\":\"Hela egna C0270post1 inklusive fadder-/förrättarfält prövad T0808; reserverade namnfragment finns i TR-T0808-C0270-fullpost@1. Inget släktskap till faddrar antas.\",\"age_column_raw\":\"38[?] upptill och23 nedtill; äldre modern23 bevaras, övre referent inte fastställd.\",\"own_title\":\"hemmansägare\"}",
+      "reason": "Samma strukturerade sakrättelse även i serialiserad value_literal-kopia; ingen dold gammal titel/rest.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    },
+    {
+      "id": "O-P-0312-C0270-child-birth",
+      "expectedVersion": 1,
+      "field": [
+        "caveat"
+      ],
+      "old": "Tidig arbetartitel samexisterar med senare hemmansägare. Moderns ålder och barnmarkeringar är inte faderns egna åldrar.",
+      "new": "T-0808: faderns/makens titel i just C0270post1 är hemmansägare. Fadder-/förrättarfält utvunna till rågränser; datum15/19januari1873, modern23 och1:aBarnet/2år bevaras. Övre38[?] saknar säker referent. Titeln överförs inte till modern och ingen ny förvärvs-/ägandehistoria härleds.\n\nÄldre läsläge, bevarat som historik:\nTidig arbetartitel samexisterar med senare hemmansägare. Moderns ålder och barnmarkeringar är inte faderns egna åldrar.",
+      "reason": "T-0808: faderns/makens titel i just C0270post1 är hemmansägare. Fadder-/förrättarfält utvunna till rågränser; datum15/19januari1873, modern23 och1:aBarnet/2år bevaras. Övre38[?] saknar säker referent. Titeln överförs inte till modern och ingen ny förvärvs-/ägandehistoria härleds.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    },
+    {
+      "id": "ID-P-0312-C0270-child-birth",
+      "expectedVersion": 1,
+      "field": [
+        "caveat"
+      ],
+      "old": "Tidig arbetartitel samexisterar med senare hemmansägare. Moderns ålder och barnmarkeringar är inte faderns egna åldrar.",
+      "new": "T-0808: faderns/makens titel i just C0270post1 är hemmansägare. Fadder-/förrättarfält utvunna till rågränser; datum15/19januari1873, modern23 och1:aBarnet/2år bevaras. Övre38[?] saknar säker referent. Titeln överförs inte till modern och ingen ny förvärvs-/ägandehistoria härleds. Accepterad CORROBORATED personkorrelation består exakt.\n\nÄldre läsläge, bevarat som historik:\nTidig arbetartitel samexisterar med senare hemmansägare. Moderns ålder och barnmarkeringar är inte faderns egna åldrar.",
+      "reason": "T-0808: faderns/makens titel i just C0270post1 är hemmansägare. Fadder-/förrättarfält utvunna till rågränser; datum15/19januari1873, modern23 och1:aBarnet/2år bevaras. Övre38[?] saknar säker referent. Titeln överförs inte till modern och ingen ny förvärvs-/ägandehistoria härleds. Accepterad CORROBORATED personkorrelation består exakt.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    },
+    {
+      "id": "O-P-0313-C0270-child-birth",
+      "expectedVersion": 1,
+      "field": [
+        "data",
+        "value_json"
+      ],
+      "old": "{\"child\":\"P-0243\",\"child_baptism\":\"1873-01-19\",\"child_birth\":\"1873-01-15\",\"folio\":71,\"home\":\"Gäddelstad\",\"husband_literal\":\"And. Magn. Carlsson\",\"husband_title\":\"Arbet.\",\"markers\":{\"first_child\":\"1:a Barnet\",\"unheaded\":\"2 år\"},\"own_age\":23,\"unextracted\":[\"faddrar\",\"dopförrättare\"]}",
+      "new": {
+        "child": "P-0243",
+        "child_baptism": "1873-01-19",
+        "child_birth": "1873-01-15",
+        "folio": 71,
+        "home": "Gäddelstad",
+        "husband_literal": "Carlsson, And. Magnus",
+        "husband_title": "hemmansägare",
+        "markers": {
+          "first_child": "1:a Barnet",
+          "unheaded": "2 år"
+        },
+        "own_age": 23,
+        "unextracted": [],
+        "tested_reading_limits": "Hela egna C0270post1 inklusive fadder-/förrättarfält prövad T0808; reserverade namnfragment finns i TR-T0808-C0270-fullpost@1. Inget släktskap till faddrar antas.",
+        "age_column_raw": "38[?] upptill och23 nedtill; äldre modern23 bevaras, övre referent inte fastställd."
+      },
+      "reason": "Exakt sourceföljd: fullfält prövade, titel rättad, accepterade barn-/familjedatum bevarade.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    },
+    {
+      "id": "O-P-0313-C0270-child-birth",
+      "expectedVersion": 1,
+      "field": [
+        "data",
+        "value_literal"
+      ],
+      "old": "{\"child\":\"P-0243\",\"child_birth\":\"1873-01-15\",\"child_baptism\":\"1873-01-19\",\"own_age\":23,\"husband_literal\":\"And. Magn. Carlsson\",\"husband_title\":\"Arbet.\",\"home\":\"Gäddelstad\",\"folio\":71,\"markers\":{\"first_child\":\"1:a Barnet\",\"unheaded\":\"2 år\"},\"unextracted\":[\"faddrar\",\"dopförrättare\"]}",
+      "new": "{\"child\":\"P-0243\",\"child_baptism\":\"1873-01-19\",\"child_birth\":\"1873-01-15\",\"folio\":71,\"home\":\"Gäddelstad\",\"husband_literal\":\"Carlsson, And. Magnus\",\"husband_title\":\"hemmansägare\",\"markers\":{\"first_child\":\"1:a Barnet\",\"unheaded\":\"2 år\"},\"own_age\":23,\"unextracted\":[],\"tested_reading_limits\":\"Hela egna C0270post1 inklusive fadder-/förrättarfält prövad T0808; reserverade namnfragment finns i TR-T0808-C0270-fullpost@1. Inget släktskap till faddrar antas.\",\"age_column_raw\":\"38[?] upptill och23 nedtill; äldre modern23 bevaras, övre referent inte fastställd.\"}",
+      "reason": "Samma strukturerade sakrättelse även i serialiserad value_literal-kopia; ingen dold gammal titel/rest.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    },
+    {
+      "id": "O-P-0313-C0270-child-birth",
+      "expectedVersion": 1,
+      "field": [
+        "caveat"
+      ],
+      "old": "Barnets datum rättat från13 till15januari.2år har ingen avskriven rubrik; mannens arbetartitel är inte hennes yrke.",
+      "new": "T-0808: faderns/makens titel i just C0270post1 är hemmansägare. Fadder-/förrättarfält utvunna till rågränser; datum15/19januari1873, modern23 och1:aBarnet/2år bevaras. Övre38[?] saknar säker referent. Titeln överförs inte till modern och ingen ny förvärvs-/ägandehistoria härleds.\n\nÄldre läsläge, bevarat som historik:\nBarnets datum rättat från13 till15januari.2år har ingen avskriven rubrik; mannens arbetartitel är inte hennes yrke.",
+      "reason": "T-0808: faderns/makens titel i just C0270post1 är hemmansägare. Fadder-/förrättarfält utvunna till rågränser; datum15/19januari1873, modern23 och1:aBarnet/2år bevaras. Övre38[?] saknar säker referent. Titeln överförs inte till modern och ingen ny förvärvs-/ägandehistoria härleds.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    },
+    {
+      "id": "ID-P-0313-C0270-child-birth",
+      "expectedVersion": 1,
+      "field": [
+        "caveat"
+      ],
+      "old": "Barnets datum rättat från13 till15januari.2år har ingen avskriven rubrik; mannens arbetartitel är inte hennes yrke.",
+      "new": "T-0808: faderns/makens titel i just C0270post1 är hemmansägare. Fadder-/förrättarfält utvunna till rågränser; datum15/19januari1873, modern23 och1:aBarnet/2år bevaras. Övre38[?] saknar säker referent. Titeln överförs inte till modern och ingen ny förvärvs-/ägandehistoria härleds. Accepterad CORROBORATED personkorrelation består exakt.\n\nÄldre läsläge, bevarat som historik:\nBarnets datum rättat från13 till15januari.2år har ingen avskriven rubrik; mannens arbetartitel är inte hennes yrke.",
+      "reason": "T-0808: faderns/makens titel i just C0270post1 är hemmansägare. Fadder-/förrättarfält utvunna till rågränser; datum15/19januari1873, modern23 och1:aBarnet/2år bevaras. Övre38[?] saknar säker referent. Titeln överförs inte till modern och ingen ny förvärvs-/ägandehistoria härleds. Accepterad CORROBORATED personkorrelation består exakt.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    },
+    {
+      "id": "F-P-0243-family_context-parents-siblings",
+      "expectedVersion": 1,
+      "field": [
+        "data",
+        "value_json"
+      ],
+      "old": "{\"father_role\":\"arbetare vid födelsen1873,senare hemmansägare\",\"mother_death\":\"1891-04-01,rättat från11april\",\"parents\":\"Anders Magnus Carlsson/Karlsson och Carolina/Charlotta Larsdotter,föräldrahem Gäddestad/Gäddelstad\",\"periods\":\"Gäddestad genom explicita hushållsankare1871–1875,1880,1890 och1891–1900boken; inte obruten närvaro varje dag.\",\"siblings\":{\"P-0314\":\"Ida Carolina1875-08-15,Östra Husby,äldre5augusti rättat\",\"P-0358\":\"Karl/Carl Gottfrid1880-03-17,Östra Husby\",\"P-0359\":\"Ester Elisabet1884-01-19,Östra Husby; senare C0406/407 rättar äldre17/21januari\"}}",
+      "new": {
+        "father_role": "hemmansägare redan i egen födelsepost1873; äldre arbetare-avskrift rättad T0808",
+        "mother_death": "1891-04-01,rättat från11april",
+        "parents": "Anders Magnus Carlsson/Karlsson och Carolina/Charlotta Larsdotter,föräldrahem Gäddestad/Gäddelstad",
+        "periods": "Gäddestad genom explicita hushållsankare1871–1875,1880,1890 och1891–1900boken; inte obruten närvaro varje dag.",
+        "siblings": {
+          "P-0314": "Ida Carolina1875-08-15,Östra Husby,äldre5augusti rättat",
+          "P-0358": "Karl/Carl Gottfrid1880-03-17,Östra Husby",
+          "P-0359": "Ester Elisabet1884-01-19,Östra Husby; senare C0406/407 rättar äldre17/21januari"
+        }
+      },
+      "reason": "Källbunden titelrättning når aktuell familjefaktakopia; andra datum, personer och periodgränser oförändrade.",
+      "append_supports": [
+        {
+          "object": "TR-T0808-C0270-fullpost",
+          "version": 1,
+          "role": "supports",
+          "note": "T-0808 full C0270post1: sourceavgjord titel och utvunna fadderfält; samma källpost/identiteter."
+        }
+      ]
+    }
+  ],
+  "explicit_rebinds": [
+    {
+      "id": "M-P-0312-C0270-child-birth",
+      "index": 0,
+      "basis": "R-8e4a247ab1ca47d71eb9e24c",
+      "old_version": 1,
+      "new_version": 2,
+      "reason": "Aktuell samma födelsepost med sourceprecision."
+    },
+    {
+      "id": "O-P-0312-C0270-child-birth",
+      "index": 0,
+      "basis": "R-8e4a247ab1ca47d71eb9e24c",
+      "old_version": 1,
+      "new_version": 2,
+      "reason": "Samma post och titelrättning."
+    },
+    {
+      "id": "O-P-0312-C0270-child-birth",
+      "index": 1,
+      "basis": "M-P-0312-C0270-child-birth",
+      "old_version": 1,
+      "new_version": 2,
+      "reason": "Samma fader, korrekt rånamn/titel; ingen identitetsändring."
+    },
+    {
+      "id": "ID-P-0312-C0270-child-birth",
+      "index": 0,
+      "basis": "M-P-0312-C0270-child-birth",
+      "old_version": 1,
+      "new_version": 2,
+      "reason": "Samma accepterade faderidentitet, korrigerad källtitel."
+    },
+    {
+      "id": "O-P-0313-C0270-child-birth",
+      "index": 0,
+      "basis": "R-8e4a247ab1ca47d71eb9e24c",
+      "old_version": 1,
+      "new_version": 2,
+      "reason": "Samma moder/barnpost; makens titel och egna fältprecisering."
+    },
+    {
+      "id": "F-P-0243-family_context-parents-siblings",
+      "index": 3,
+      "basis": "O-P-0243-C0406-own",
+      "old_version": 1,
+      "new_version": 2,
+      "reason": "Samma Elin/familjedata, kompletterade kyrkofält förändrar inte kvarstående datum."
+    },
+    {
+      "id": "F-P-0243-family_context-parents-siblings",
+      "index": 4,
+      "basis": "O-P-0243-C0407-own",
+      "old_version": 1,
+      "new_version": 2,
+      "reason": "Samma Elin/familjedata, kompletterad attestfras ändrar inte släktkorrelation."
+    }
+  ],
+  "individual_dependency_decisions": [
+    {
+      "request_id": "dfacbae0c69902750c13352b64a0cbd60b2c1b17d6cf482f18a9bc5111dc4ad9",
+      "affected": "AS-P0243-birth-correction@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Egen15januari korrigering mot13 och källberoendereservation består efter nya fullpostläsningen. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "e8e94483a6a007e1fb674a3eaa07e4f44ad229def961317e4f19be977124e738",
+      "affected": "E-baptism-P-0243@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "acb921253876e1e9fb6058b517327d4a9f419f0220fb32da0fcac72d3d380e00",
+      "affected": "E-birth-P-0243@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "12acd4bbb194248b26da0ea476a892c6cea29098f190111afa3e0f4024724395",
+      "affected": "EP-E-baptism-P-0243-P-0243-principal@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "49e7dea73c98112be331348fb892bf5f555a6e92c3b9036fa66cc8779c05c332",
+      "affected": "EP-E-birth-P-0243-P-0243-principal@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "62a503613f7399c87350b1df9b7f2863c2be3fc40f181fd6221ee31264679269",
+      "affected": "F-P-0243-age_at_death-calculated89@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "89år är fortfarande beräknat från oförändrade1873-01-15 och1962-11-10; inget nytt gravfält. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "94a2db8570b7b30da6b8493a3e03c8469cf508058e2079c181e240988d83e26c",
+      "affected": "F-P-0243-event_place-baptism-P-0243@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "aef1f7c6cac232d842bfea0a31da60db226f191251fd0403b04087523884fd70",
+      "affected": "F-P-0243-event_place-birth-P-0243@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "7ff50de4765d3d815cf35482d90c51bb17081fd715d8ccf2dc06e2caeab8077b",
+      "affected": "F-P-0243-residence-source-contexts@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakta registrerade ortankare och uttryckligt förbud mot obruten vistelse/gemensamflytt/dödsplatsmotiv är oförändrade; nya kyrko-/yrkesfält ersätter inte dem. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "d4196ae34808873dc6a57509140e46dab2b9564dc2403522513c8ca266baef25",
+      "affected": "ID-P-0312-C0270-child-birth@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "REVISE_TARGET",
+      "reason": "Aktuell källkopia innehåller konkret felaktig Arbet.-titel eller inaktuell utvinningsrest; revideras med exakt sourceavgjord följdrättelse och i övrigt bevarad native metadata/status. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": "ID-P-0312-C0270-child-birth@2"
+    },
+    {
+      "request_id": "dd06d77db1d4ff44f29ff65792ed14547f00574abebd34b247bad91ebdf547bf",
+      "affected": "ID-P-0313-C0270-child-birth@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "REVISE_TARGET",
+      "reason": "Aktuell källkopia innehåller konkret felaktig Arbet.-titel eller inaktuell utvinningsrest; revideras med exakt sourceavgjord följdrättelse och i övrigt bevarad native metadata/status. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": "ID-P-0313-C0270-child-birth@2"
+    },
+    {
+      "request_id": "26cbf771249dfb403f645ac7fc1a9f004233fd09571a0f8e85c0989c65c2ccfb",
+      "affected": "M-P-0312-C0270-child-birth@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "REVISE_TARGET",
+      "reason": "Aktuell källkopia innehåller konkret felaktig Arbet.-titel eller inaktuell utvinningsrest; revideras med exakt sourceavgjord följdrättelse och i övrigt bevarad native metadata/status. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": "M-P-0312-C0270-child-birth@2"
+    },
+    {
+      "request_id": "33c30ea1b8bdff3593cb50505ac01c9996fae47da781e9b43b049feb147b0a18",
+      "affected": "M-P-0313-C0270-child-birth@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Rånamnet Charlotta Larsdotter och tidigare blankt rollfält bevaras som partiellt omnämnande; fullpostens hustruroll finns i nya TR utan nytt personpåstående. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "2f630e011431938080d9a241bbb8148d1acc34211f32539f0251cf5ab5bd9e29",
+      "affected": "O-P-0312-C0270-child-birth@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "REVISE_TARGET",
+      "reason": "Aktuell källkopia innehåller konkret felaktig Arbet.-titel eller inaktuell utvinningsrest; revideras med exakt sourceavgjord följdrättelse och i övrigt bevarad native metadata/status. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": "O-P-0312-C0270-child-birth@2"
+    },
+    {
+      "request_id": "ee0037c49409872e5d49ea284a44c6835ce767e66deaab3917e838215cd1edbb",
+      "affected": "O-P-0313-C0270-child-birth@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "REVISE_TARGET",
+      "reason": "Aktuell källkopia innehåller konkret felaktig Arbet.-titel eller inaktuell utvinningsrest; revideras med exakt sourceavgjord följdrättelse och i övrigt bevarad native metadata/status. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": "O-P-0313-C0270-child-birth@2"
+    },
+    {
+      "request_id": "237ced7fdbdbc802d81a6ce24143318355d53b4f8df5a962b443aed8d15bf75f",
+      "affected": "READ-7ed88f41baa669658fe68214@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Explicit dokumenterad äldre läshistorik för exakt recordversion1; moderna fullpostgränser finns i separat T0808TR/audit. Historiska outvunnafält är inte ny aktuell forskningsskuld. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "e2c28bf24b3519268d3ff461d542cb10534733ad7efd7f5ec830346658befd0d",
+      "affected": "REL-parent-P-0312-P-0243@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Anders Magnus är samma accepterade registrerade far till Elin; hemmansägartitel ändrar inte parentrelation eller dess sakliga tidsgräns. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "3e78695ca12123bee30b7f19ac2fbb13a85b7f533695d06003fe2b01efaf7e37",
+      "affected": "REL-parent-P-0313-P-0243@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Charlotta/Carolina korreleras fortsatt genom make,barn,datum,ort; makens titel och fadderfält ändrar inte accepterad registrerad mor. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "eb5775c22d238af12a8acc1dbe9ab18b3977183e371faf674a52ab2451aa4e9c",
+      "affected": "TR-cfe283810c6863ca66aa47e9@1",
+      "changed": "R-8e4a247ab1ca47d71eb9e24c@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Explicit ordagrant bevarad äldre avskrift/sammanfattning, ingen ny originalavläsning; äldre13/Arbet.-text raderas inte. Ny fullTR bär aktuell15/hemmansägare. Denna begäran gäller R-8e4a247ab1ca47d71eb9e24c@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "25dc9f5f564a2a417e1fa49a676ee2e6d187659866af86a8d32f2234b55b83f0",
+      "affected": "E-baptism-P-0242@1",
+      "changed": "M-C0269-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans dop1866-11-28/Högby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller M-C0269-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "7af69791118e0c0f7808acfa5d33ea9f02233364dc4ead50432de930aee9c6df",
+      "affected": "E-birth-P-0242@1",
+      "changed": "M-C0269-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans födelse1866-11-08/Högby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller M-C0269-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "512b8f3d81df03d72b0ab296b66a1ec91c06bc1040ca3c9df4cb319a35183af3",
+      "affected": "EP-E-baptism-P-0242-P-0242-principal@1",
+      "changed": "M-C0269-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans dop1866-11-28/Högby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller M-C0269-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "bade781b8727841830b2458d8cee83a1a516ffd0c978a76925e4fa3ea4d87d9c",
+      "affected": "EP-E-birth-P-0242-P-0242-principal@1",
+      "changed": "M-C0269-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans födelse1866-11-08/Högby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller M-C0269-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "a85afc04d32b26d9d33944d467364f3581bf0a217a605f876d40fe04d4e438b9",
+      "affected": "F-P-0242-event_place-baptism-P-0242@1",
+      "changed": "M-C0269-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans dop1866-11-28/Högby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller M-C0269-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "a9f900aa80440c283c5188e01513785296bf3237e5996ccb8a270ad628aa3414",
+      "affected": "F-P-0242-event_place-birth-P-0242@1",
+      "changed": "M-C0269-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans födelse1866-11-08/Högby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller M-C0269-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "e27a55e7007f426f271d763b104a74c61a895ddabdad5cc2e5890373df8a434d",
+      "affected": "F-P-0242-name_form-variants@1",
+      "changed": "M-C0269-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Willehad/Villehad/Vilhelm/Villehard samt Högby/Högsby fortsätter vara sourcevarianter inom accepterad person; CONFLICTstatus inte tyst borttagen. Denna begäran gäller M-C0269-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "74871af3fa7090967388163efa47288688f775a5b9cf58c44da5a7732c54b342",
+      "affected": "REL-parent-P-0310-P-0242@1",
+      "changed": "M-C0269-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Carl/Karl August Carlman är samma accepterade registrerade far till Johan. Titelrättning Kronolänsmannen och nya faddrar förändrar inte CORROBORATED föräldrakorrelation. Denna begäran gäller M-C0269-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "15174bb04dcb863a62590ee4b797ce026eda95651143978c37eaddf038d96d83",
+      "affected": "REL-parent-P-0311-P-0242@1",
+      "changed": "M-C0269-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Moderns osäkra W/R-ingberg-rånamn hålls skilt från starkare Ringberg-hushållskorrelation; accepterad registrerad mor till Johan består, ingen ny mor. Denna begäran gäller M-C0269-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "3ce6265aa8cb0e930c514f960e1f979287164f98a22803e88f6344bbfc8f7e7d",
+      "affected": "F-P-0242-family_context-parents-siblings@1",
+      "changed": "M-C0395-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Korrelerade föräldrar/syskon och moderns datum/ofullständiga barnlista oförändrade; ny1875F-mark ger inte nytt syskon eller levnadstotal. Denna begäran gäller M-C0395-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "ea1ad03ad6ffbdcd5c2776e65ec03bb7c3058db8cb272d486a55b2e96551f8ff",
+      "affected": "REL-sibling-P-0242-P-0353@1",
+      "changed": "M-C0395-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakt REL-sibling-P-0242-P-0353 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns. Denna begäran gäller M-C0395-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "a289e987e361bde6e32938192c4c3e1e78fb0ce8625d18465847dc3c3dbd603b",
+      "affected": "REL-sibling-P-0242-P-0354@1",
+      "changed": "M-C0395-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakt REL-sibling-P-0242-P-0354 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns. Denna begäran gäller M-C0395-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "b10394ea3d80ab56775fbb911c9e5746c7b51f0cdc756f94ef17021d1c018ff7",
+      "affected": "REL-sibling-P-0242-P-0355@1",
+      "changed": "M-C0395-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakt REL-sibling-P-0242-P-0355 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns. Denna begäran gäller M-C0395-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "0d7bc61da1c2cc547c81c5365e767a33630819a25a4b9ed610ccfdda80b8ff45",
+      "affected": "REL-sibling-P-0242-P-0356@1",
+      "changed": "M-C0395-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakt REL-sibling-P-0242-P-0356 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns. Denna begäran gäller M-C0395-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "dffe38f34cd85ab15580905a93c46b31ad5e8946d1fc982800b89d97abe7544a",
+      "affected": "REL-sibling-P-0242-P-0368@1",
+      "changed": "M-C0395-Johan-Fredrik@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakt REL-sibling-P-0242-P-0368 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns. Denna begäran gäller M-C0395-Johan-Fredrik@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "cd67134b5d17d694c30aab4811924ece3af119dce360528f1c0bf6a429a3f885",
+      "affected": "F-P-0243-family_context-parents-siblings@1",
+      "changed": "M-C0406-Elin@2",
+      "disposition": "REVISE_TARGET",
+      "reason": "Aktuell källkopia innehåller konkret felaktig Arbet.-titel eller inaktuell utvinningsrest; revideras med exakt sourceavgjord följdrättelse och i övrigt bevarad native metadata/status. Denna begäran gäller M-C0406-Elin@2.",
+      "replacement_revision": "F-P-0243-family_context-parents-siblings@2"
+    },
+    {
+      "request_id": "54b167842302ab8fd430a96548a8a43108fba580b3ec1cc98733c9342314b9b5",
+      "affected": "ID-M-C0406-Elin-P-0243@1",
+      "changed": "M-C0406-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Samma Elinrad3 och accepterade korrelation; ny rårollD. och kyrkliga utvinningen skapar inte exakt konfirmationsdag eller trosengagemang. Denna begäran gäller M-C0406-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "6315b30911b699266524463097b74bc2c4871082235f3e3b7b256461115d79e2",
+      "affected": "E-registered_departure-P-0243@1",
+      "changed": "M-C0407-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins registrerade avgång1897 till Ljungby i Kalmar län nr15, rollprincipal och uttrycklig avsaknad av exakt fysisk flyttdag består. Nya attestfält ändrar inte detta. Denna begäran gäller M-C0407-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "0b5d20c8ed22e8b35c3fd05f726d1ba3b0c0fabb53bbb36469b6c681a5477661",
+      "affected": "EP-E-registered_departure-P-0243-P-0243-principal@1",
+      "changed": "M-C0407-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins registrerade avgång1897 till Ljungby i Kalmar län nr15, rollprincipal och uttrycklig avsaknad av exakt fysisk flyttdag består. Nya attestfält ändrar inte detta. Denna begäran gäller M-C0407-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "e2afcb2c941115293c6725834f61c42c636b87ac97063bd8f8c94fc354339d70",
+      "affected": "F-P-0243-event_place-registered_departure-P-0243@1",
+      "changed": "M-C0407-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins registrerade avgång1897 till Ljungby i Kalmar län nr15, rollprincipal och uttrycklig avsaknad av exakt fysisk flyttdag består. Nya attestfält ändrar inte detta. Denna begäran gäller M-C0407-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "96b8e97bb93b08302636974aa242845a632883705feec7d38c6f00f8941ed088",
+      "affected": "F-P-0243-family_context-parents-siblings@1",
+      "changed": "M-C0407-Elin@2",
+      "disposition": "REVISE_TARGET",
+      "reason": "Aktuell källkopia innehåller konkret felaktig Arbet.-titel eller inaktuell utvinningsrest; revideras med exakt sourceavgjord följdrättelse och i övrigt bevarad native metadata/status. Denna begäran gäller M-C0407-Elin@2.",
+      "replacement_revision": "F-P-0243-family_context-parents-siblings@2"
+    },
+    {
+      "request_id": "e37598343be06044241f8f74a2797af9d0f7782bad11d7cb37a0f3786c12a51e",
+      "affected": "ID-M-C0407-Elin-P-0243@1",
+      "changed": "M-C0407-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Samma Elinrad2 och accepterad korrelation; rårollD./barnmorskeelev/registreradutflyttning ändrar inte identiteten och faderns egendomsnot är fortsatt inte hennes. Denna begäran gäller M-C0407-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "70f4a312fadebf0df9cd15906d592d1d6642173dcf1d7ee68c5985e51f534230",
+      "affected": "E-baptism-P-0242@1",
+      "changed": "O-P-0242-C0269-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans dop1866-11-28/Högby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller O-P-0242-C0269-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "b584ee113348781c618b1f4664ac2c727bb79a0e82e2eeb68361add8cbb8e115",
+      "affected": "E-birth-P-0242@1",
+      "changed": "O-P-0242-C0269-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans födelse1866-11-08/Högby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller O-P-0242-C0269-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "7a81bd462f07bbbc5e603e28c1d2dd1bf74fb98145e40258df39c59cc093d71b",
+      "affected": "EP-E-baptism-P-0242-P-0242-principal@1",
+      "changed": "O-P-0242-C0269-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans dop1866-11-28/Högby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller O-P-0242-C0269-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "ab7f6cffdf2f15f0adef1b099ab729c2378c6cf50c13dfd8b9e8cea0aa02b98f",
+      "affected": "EP-E-birth-P-0242-P-0242-principal@1",
+      "changed": "O-P-0242-C0269-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans födelse1866-11-08/Högby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller O-P-0242-C0269-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "6e411b92a277077b75c7c2e55d43c017c8c3ea45699d6c2dd2c4107b981be542",
+      "affected": "F-P-0242-event_place-baptism-P-0242@1",
+      "changed": "O-P-0242-C0269-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans dop1866-11-28/Högby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller O-P-0242-C0269-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "567206f26b5729858cce850e168c1d5ebff634388660d1f1699c99a0ca2a0a76",
+      "affected": "F-P-0242-event_place-birth-P-0242@1",
+      "changed": "O-P-0242-C0269-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Johans födelse1866-11-08/Högby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller O-P-0242-C0269-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "fc71b136755c54b9c05372713ef9e287bbe1f2392b5637a8026679cb545ea031",
+      "affected": "F-P-0242-name_form-variants@1",
+      "changed": "O-P-0242-C0269-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Willehad/Villehad/Vilhelm/Villehard samt Högby/Högsby fortsätter vara sourcevarianter inom accepterad person; CONFLICTstatus inte tyst borttagen. Denna begäran gäller O-P-0242-C0269-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "fa7258cc0b76b485b365482a0ea667c4c8cb533e0b0627c5019655ee0b582ef7",
+      "affected": "REL-parent-P-0310-P-0242@1",
+      "changed": "O-P-0242-C0269-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Carl/Karl August Carlman är samma accepterade registrerade far till Johan. Titelrättning Kronolänsmannen och nya faddrar förändrar inte CORROBORATED föräldrakorrelation. Denna begäran gäller O-P-0242-C0269-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "72ab3d48d0fc923ba9aa7b739de212d3652c9c2d48c17386980d78347f0b12e1",
+      "affected": "REL-parent-P-0311-P-0242@1",
+      "changed": "O-P-0242-C0269-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Moderns osäkra W/R-ingberg-rånamn hålls skilt från starkare Ringberg-hushållskorrelation; accepterad registrerad mor till Johan består, ingen ny mor. Denna begäran gäller O-P-0242-C0269-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "3c02c46c77926101ce0a286b51d8b8a984a717b5e0e1c915e53c4be3f848682d",
+      "affected": "F-P-0242-family_context-parents-siblings@1",
+      "changed": "O-P-0242-C0395-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Korrelerade föräldrar/syskon och moderns datum/ofullständiga barnlista oförändrade; ny1875F-mark ger inte nytt syskon eller levnadstotal. Denna begäran gäller O-P-0242-C0395-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "31f44d2e481970d2f760646040dd3fd1fc80346663fbaa8cf5fdf2fd8dfae534",
+      "affected": "REL-sibling-P-0242-P-0353@1",
+      "changed": "O-P-0242-C0395-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakt REL-sibling-P-0242-P-0353 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns. Denna begäran gäller O-P-0242-C0395-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "a694ae47e5e32d4a7dc83bf8a964b7078e400334ac35015e6823efec134e3b87",
+      "affected": "REL-sibling-P-0242-P-0354@1",
+      "changed": "O-P-0242-C0395-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakt REL-sibling-P-0242-P-0354 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns. Denna begäran gäller O-P-0242-C0395-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "fbe45a8671dffcd5806071ffeacf6445209ae5ccaf38993b7fdf3ff530d28c5c",
+      "affected": "REL-sibling-P-0242-P-0355@1",
+      "changed": "O-P-0242-C0395-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakt REL-sibling-P-0242-P-0355 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns. Denna begäran gäller O-P-0242-C0395-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "0f2992484ee5e66769288cf58dd93515ed0921fcd20310a91b02f44f1d9833a3",
+      "affected": "REL-sibling-P-0242-P-0356@1",
+      "changed": "O-P-0242-C0395-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakt REL-sibling-P-0242-P-0356 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns. Denna begäran gäller O-P-0242-C0395-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "63ae9cc619ee3db8aa60bea3c70a700d74a45d624eda026d6230092a1f246974",
+      "affected": "REL-sibling-P-0242-P-0368@1",
+      "changed": "O-P-0242-C0395-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakt REL-sibling-P-0242-P-0368 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns. Denna begäran gäller O-P-0242-C0395-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "b0242639b2b2885bb109bd9b90073a92ae150577e1a82b79470a26a8391b2853",
+      "affected": "F-P-0243-family_context-parents-siblings@1",
+      "changed": "O-P-0243-C0406-own@2",
+      "disposition": "REVISE_TARGET",
+      "reason": "Aktuell källkopia innehåller konkret felaktig Arbet.-titel eller inaktuell utvinningsrest; revideras med exakt sourceavgjord följdrättelse och i övrigt bevarad native metadata/status. Denna begäran gäller O-P-0243-C0406-own@2.",
+      "replacement_revision": "F-P-0243-family_context-parents-siblings@2"
+    },
+    {
+      "request_id": "4c9798ddda0cf56f5955284a24ab70bac4b0897a84f62aabb0d54b99425c259d",
+      "affected": "E-registered_departure-P-0243@1",
+      "changed": "O-P-0243-C0407-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins registrerade avgång1897 till Ljungby i Kalmar län nr15, rollprincipal och uttrycklig avsaknad av exakt fysisk flyttdag består. Nya attestfält ändrar inte detta. Denna begäran gäller O-P-0243-C0407-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "30197a7f08a1b81edbc15d3c20ac3c4594bd8379ed1168adc70186998a827253",
+      "affected": "EP-E-registered_departure-P-0243-P-0243-principal@1",
+      "changed": "O-P-0243-C0407-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins registrerade avgång1897 till Ljungby i Kalmar län nr15, rollprincipal och uttrycklig avsaknad av exakt fysisk flyttdag består. Nya attestfält ändrar inte detta. Denna begäran gäller O-P-0243-C0407-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "d1ef86cfeba01bb5b7c391f58d390addb1b309e4171c55567e999f990c8088b9",
+      "affected": "F-P-0243-event_place-registered_departure-P-0243@1",
+      "changed": "O-P-0243-C0407-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins registrerade avgång1897 till Ljungby i Kalmar län nr15, rollprincipal och uttrycklig avsaknad av exakt fysisk flyttdag består. Nya attestfält ändrar inte detta. Denna begäran gäller O-P-0243-C0407-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "0cdd6e8815a74865cedaa17bfabc5d2a5de49cc2d16e6712b659d8479f0644da",
+      "affected": "F-P-0243-family_context-parents-siblings@1",
+      "changed": "O-P-0243-C0407-own@2",
+      "disposition": "REVISE_TARGET",
+      "reason": "Aktuell källkopia innehåller konkret felaktig Arbet.-titel eller inaktuell utvinningsrest; revideras med exakt sourceavgjord följdrättelse och i övrigt bevarad native metadata/status. Denna begäran gäller O-P-0243-C0407-own@2.",
+      "replacement_revision": "F-P-0243-family_context-parents-siblings@2"
+    },
+    {
+      "request_id": "e18b21308bc3b7fa31470d5704095c7522d175dfe13483104465b35591b7b6af",
+      "affected": "AS-P0243-birth-correction@1",
+      "changed": "M-C0270-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Egen15januari korrigering mot13 och källberoendereservation består efter nya fullpostläsningen. Denna begäran gäller M-C0270-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "11f58a5b5687f0592ae5401989a1f5ae6bd789afcda9072b7de0d95bad895c81",
+      "affected": "E-baptism-P-0243@1",
+      "changed": "M-C0270-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller M-C0270-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "531bc9f40187ca4fae2a197421b042839d5ad8c6463a8c768ad4867b70c2114a",
+      "affected": "E-birth-P-0243@1",
+      "changed": "M-C0270-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller M-C0270-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "4656c55a3fc72d8defb8a430e86e8970a0a3f2119d964c6801ca8b44cca208c7",
+      "affected": "EP-E-baptism-P-0243-P-0243-principal@1",
+      "changed": "M-C0270-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller M-C0270-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "21139a205de49ecdf704dd890ed469b12b74683ff01357dbe2b306563f8fee66",
+      "affected": "EP-E-birth-P-0243-P-0243-principal@1",
+      "changed": "M-C0270-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller M-C0270-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "e899ec16adad91a47eb23327412908f3a6bb97e4b55986006847cecc7c890305",
+      "affected": "F-P-0243-age_at_death-calculated89@1",
+      "changed": "M-C0270-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "89år är fortfarande beräknat från oförändrade1873-01-15 och1962-11-10; inget nytt gravfält. Denna begäran gäller M-C0270-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "29e9e4aec761269d2fb50d4bf1321ccb8f151a94d559ab66d0c52861fe555cfd",
+      "affected": "F-P-0243-event_place-baptism-P-0243@1",
+      "changed": "M-C0270-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller M-C0270-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "2d4c0d7ccbf55f146e825abf22a303541b141af872dee87068a03010a2e63d26",
+      "affected": "F-P-0243-event_place-birth-P-0243@1",
+      "changed": "M-C0270-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller M-C0270-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "9790e09794e6beae01de93c79491a3b0ed4b36e71f74e19830aa64fa61875c86",
+      "affected": "F-P-0243-residence-source-contexts@1",
+      "changed": "M-C0270-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakta registrerade ortankare och uttryckligt förbud mot obruten vistelse/gemensamflytt/dödsplatsmotiv är oförändrade; nya kyrko-/yrkesfält ersätter inte dem. Denna begäran gäller M-C0270-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "d94980af1bae78191f011d5b01878df2229185adf701f07def0ae77441011a78",
+      "affected": "REL-parent-P-0312-P-0243@1",
+      "changed": "M-C0270-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Anders Magnus är samma accepterade registrerade far till Elin; hemmansägartitel ändrar inte parentrelation eller dess sakliga tidsgräns. Denna begäran gäller M-C0270-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "f1d2d9566884883e00944616beb53cc5a4066f2f8da9574dbc4c78bf8f032eb5",
+      "affected": "REL-parent-P-0313-P-0243@1",
+      "changed": "M-C0270-Elin@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Charlotta/Carolina korreleras fortsatt genom make,barn,datum,ort; makens titel och fadderfält ändrar inte accepterad registrerad mor. Denna begäran gäller M-C0270-Elin@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "c93a216a5c4976fbac162910850690725cbabeb9e350026d7978cd3902e0a1db",
+      "affected": "AS-P0243-birth-correction@1",
+      "changed": "O-P-0243-C0270-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Egen15januari korrigering mot13 och källberoendereservation består efter nya fullpostläsningen. Denna begäran gäller O-P-0243-C0270-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "ed9bd867fdeabeab5ec6405a8c745d54d0cbfebebd972bfd07c0b229478fdef6",
+      "affected": "E-baptism-P-0243@1",
+      "changed": "O-P-0243-C0270-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller O-P-0243-C0270-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "28060f52e3021ddb13115cf37499a7990719dd6a30c5df1c75cc02235053e361",
+      "affected": "E-birth-P-0243@1",
+      "changed": "O-P-0243-C0270-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller O-P-0243-C0270-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "fb0e934fb334aed09f909973310e340103bc62645442a7de404b5333bb6d8e19",
+      "affected": "EP-E-baptism-P-0243-P-0243-principal@1",
+      "changed": "O-P-0243-C0270-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller O-P-0243-C0270-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "ecf5a4c43f08f66a24952dd12c11dc764341f9016f0449039a1d95b93af35c48",
+      "affected": "EP-E-birth-P-0243-P-0243-principal@1",
+      "changed": "O-P-0243-C0270-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller O-P-0243-C0270-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "2249885bd9ed93b95559b0c7d036fe7cb0af6e77213a72aef56a48999772b4af",
+      "affected": "F-P-0243-age_at_death-calculated89@1",
+      "changed": "O-P-0243-C0270-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "89år är fortfarande beräknat från oförändrade1873-01-15 och1962-11-10; inget nytt gravfält. Denna begäran gäller O-P-0243-C0270-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "d4c50e59b6d222fe67360b1197408af5a83289f3f0944cf4eec63d39ae68e2ef",
+      "affected": "F-P-0243-event_place-baptism-P-0243@1",
+      "changed": "O-P-0243-C0270-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll. Denna begäran gäller O-P-0243-C0270-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "e921bcd85c5a91329327243461c2ae91686474eb69d3a497fc77a44f06413a45",
+      "affected": "F-P-0243-event_place-birth-P-0243@1",
+      "changed": "O-P-0243-C0270-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs. Denna begäran gäller O-P-0243-C0270-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "11c5c616a30c2a77bb3d3ce8038d141da323e189499d08460680bb43972a9eb6",
+      "affected": "F-P-0243-residence-source-contexts@1",
+      "changed": "O-P-0243-C0270-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Exakta registrerade ortankare och uttryckligt förbud mot obruten vistelse/gemensamflytt/dödsplatsmotiv är oförändrade; nya kyrko-/yrkesfält ersätter inte dem. Denna begäran gäller O-P-0243-C0270-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "0ae7aeabbe99bb665a0af527dcb94cca3cc82a7bc4e4291264b8730979a636af",
+      "affected": "REL-parent-P-0312-P-0243@1",
+      "changed": "O-P-0243-C0270-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Anders Magnus är samma accepterade registrerade far till Elin; hemmansägartitel ändrar inte parentrelation eller dess sakliga tidsgräns. Denna begäran gäller O-P-0243-C0270-own@2.",
+      "replacement_revision": null
+    },
+    {
+      "request_id": "814f49ae1168c77cef2c9703e0caf1b3a945bf57dc745f99e639e55216132ee7",
+      "affected": "REL-parent-P-0313-P-0243@1",
+      "changed": "O-P-0243-C0270-own@2",
+      "disposition": "RETAIN_EXACT",
+      "reason": "Charlotta/Carolina korreleras fortsatt genom make,barn,datum,ort; makens titel och fadderfält ändrar inte accepterad registrerad mor. Denna begäran gäller O-P-0243-C0270-own@2.",
+      "replacement_revision": null
+    }
+  ],
+  "retained_targets": [
+    {
+      "id": "AS-P0243-birth-correction",
+      "version": 1,
+      "reason": "Egen15januari korrigering mot13 och källberoendereservation består efter nya fullpostläsningen."
+    },
+    {
+      "id": "E-baptism-P-0243",
+      "version": 1,
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll."
+    },
+    {
+      "id": "E-birth-P-0243",
+      "version": 1,
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs."
+    },
+    {
+      "id": "EP-E-baptism-P-0243-P-0243-principal",
+      "version": 1,
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll."
+    },
+    {
+      "id": "EP-E-birth-P-0243-P-0243-principal",
+      "version": 1,
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs."
+    },
+    {
+      "id": "F-P-0243-age_at_death-calculated89",
+      "version": 1,
+      "reason": "89år är fortfarande beräknat från oförändrade1873-01-15 och1962-11-10; inget nytt gravfält."
+    },
+    {
+      "id": "F-P-0243-event_place-baptism-P-0243",
+      "version": 1,
+      "reason": "Elins dop1873-01-19/ÖstraHusby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll."
+    },
+    {
+      "id": "F-P-0243-event_place-birth-P-0243",
+      "version": 1,
+      "reason": "Elins födelse1873-01-15/ÖstraHusby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs."
+    },
+    {
+      "id": "F-P-0243-residence-source-contexts",
+      "version": 1,
+      "reason": "Exakta registrerade ortankare och uttryckligt förbud mot obruten vistelse/gemensamflytt/dödsplatsmotiv är oförändrade; nya kyrko-/yrkesfält ersätter inte dem."
+    },
+    {
+      "id": "M-P-0313-C0270-child-birth",
+      "version": 1,
+      "reason": "Rånamnet Charlotta Larsdotter och tidigare blankt rollfält bevaras som partiellt omnämnande; fullpostens hustruroll finns i nya TR utan nytt personpåstående."
+    },
+    {
+      "id": "READ-7ed88f41baa669658fe68214",
+      "version": 1,
+      "reason": "Explicit dokumenterad äldre läshistorik för exakt recordversion1; moderna fullpostgränser finns i separat T0808TR/audit. Historiska outvunnafält är inte ny aktuell forskningsskuld."
+    },
+    {
+      "id": "REL-parent-P-0312-P-0243",
+      "version": 1,
+      "reason": "Anders Magnus är samma accepterade registrerade far till Elin; hemmansägartitel ändrar inte parentrelation eller dess sakliga tidsgräns."
+    },
+    {
+      "id": "REL-parent-P-0313-P-0243",
+      "version": 1,
+      "reason": "Charlotta/Carolina korreleras fortsatt genom make,barn,datum,ort; makens titel och fadderfält ändrar inte accepterad registrerad mor."
+    },
+    {
+      "id": "TR-cfe283810c6863ca66aa47e9",
+      "version": 1,
+      "reason": "Explicit ordagrant bevarad äldre avskrift/sammanfattning, ingen ny originalavläsning; äldre13/Arbet.-text raderas inte. Ny fullTR bär aktuell15/hemmansägare."
+    },
+    {
+      "id": "E-baptism-P-0242",
+      "version": 1,
+      "reason": "Johans dop1866-11-28/Högby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll."
+    },
+    {
+      "id": "E-birth-P-0242",
+      "version": 1,
+      "reason": "Johans födelse1866-11-08/Högby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs."
+    },
+    {
+      "id": "EP-E-baptism-P-0242-P-0242-principal",
+      "version": 1,
+      "reason": "Johans dop1866-11-28/Högby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll."
+    },
+    {
+      "id": "EP-E-birth-P-0242-P-0242-principal",
+      "version": 1,
+      "reason": "Johans födelse1866-11-08/Högby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs."
+    },
+    {
+      "id": "F-P-0242-event_place-baptism-P-0242",
+      "version": 1,
+      "reason": "Johans dop1866-11-28/Högby och samma principal/registreringsförsamling bekräftas i fullposten; fadder/titelkomplettering ändrar inte datum eller eventroll."
+    },
+    {
+      "id": "F-P-0242-event_place-birth-P-0242",
+      "version": 1,
+      "reason": "Johans födelse1866-11-08/Högby och samma principal/registrerad födelseförsamling består; ingen fysisk födelsebyggnad fastställs."
+    },
+    {
+      "id": "F-P-0242-name_form-variants",
+      "version": 1,
+      "reason": "Willehad/Villehad/Vilhelm/Villehard samt Högby/Högsby fortsätter vara sourcevarianter inom accepterad person; CONFLICTstatus inte tyst borttagen."
+    },
+    {
+      "id": "REL-parent-P-0310-P-0242",
+      "version": 1,
+      "reason": "Carl/Karl August Carlman är samma accepterade registrerade far till Johan. Titelrättning Kronolänsmannen och nya faddrar förändrar inte CORROBORATED föräldrakorrelation."
+    },
+    {
+      "id": "REL-parent-P-0311-P-0242",
+      "version": 1,
+      "reason": "Moderns osäkra W/R-ingberg-rånamn hålls skilt från starkare Ringberg-hushållskorrelation; accepterad registrerad mor till Johan består, ingen ny mor."
+    },
+    {
+      "id": "F-P-0242-family_context-parents-siblings",
+      "version": 1,
+      "reason": "Korrelerade föräldrar/syskon och moderns datum/ofullständiga barnlista oförändrade; ny1875F-mark ger inte nytt syskon eller levnadstotal."
+    },
+    {
+      "id": "REL-sibling-P-0242-P-0353",
+      "version": 1,
+      "reason": "Exakt REL-sibling-P-0242-P-0353 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns."
+    },
+    {
+      "id": "REL-sibling-P-0242-P-0354",
+      "version": 1,
+      "reason": "Exakt REL-sibling-P-0242-P-0354 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns."
+    },
+    {
+      "id": "REL-sibling-P-0242-P-0355",
+      "version": 1,
+      "reason": "Exakt REL-sibling-P-0242-P-0355 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns."
+    },
+    {
+      "id": "REL-sibling-P-0242-P-0356",
+      "version": 1,
+      "reason": "Exakt REL-sibling-P-0242-P-0356 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns."
+    },
+    {
+      "id": "REL-sibling-P-0242-P-0368",
+      "version": 1,
+      "reason": "Exakt REL-sibling-P-0242-P-0368 grundas fortsatt på samma explicita barnrader och flerpostskorrelation; Johans1875förhörsmarkering/rårollS. ändrar varken syskonidentitet eller relationens odaterade gräns."
+    },
+    {
+      "id": "ID-M-C0406-Elin-P-0243",
+      "version": 1,
+      "reason": "Samma Elinrad3 och accepterade korrelation; ny rårollD. och kyrkliga utvinningen skapar inte exakt konfirmationsdag eller trosengagemang."
+    },
+    {
+      "id": "E-registered_departure-P-0243",
+      "version": 1,
+      "reason": "Elins registrerade avgång1897 till Ljungby i Kalmar län nr15, rollprincipal och uttrycklig avsaknad av exakt fysisk flyttdag består. Nya attestfält ändrar inte detta."
+    },
+    {
+      "id": "EP-E-registered_departure-P-0243-P-0243-principal",
+      "version": 1,
+      "reason": "Elins registrerade avgång1897 till Ljungby i Kalmar län nr15, rollprincipal och uttrycklig avsaknad av exakt fysisk flyttdag består. Nya attestfält ändrar inte detta."
+    },
+    {
+      "id": "F-P-0243-event_place-registered_departure-P-0243",
+      "version": 1,
+      "reason": "Elins registrerade avgång1897 till Ljungby i Kalmar län nr15, rollprincipal och uttrycklig avsaknad av exakt fysisk flyttdag består. Nya attestfält ändrar inte detta."
+    },
+    {
+      "id": "ID-M-C0407-Elin-P-0243",
+      "version": 1,
+      "reason": "Samma Elinrad2 och accepterad korrelation; rårollD./barnmorskeelev/registreradutflyttning ändrar inte identiteten och faderns egendomsnot är fortsatt inte hennes."
+    }
+  ],
+  "preserve": "Only six named native target revisions and seven individually explicit edge rebinds. All other40-target subset metadata/data/order retained. No other canonical source execution. Existing stage470 preserved. Sol must materialize native supported resolution syntax, return any additional requests or versionquestions."
+}

@@ -1,0 +1,18 @@
+{
+  "task": "T-0805",
+  "role": "independent source and implementation reviewer",
+  "status": "Two bounded amendments pending before final hash approval",
+  "findings": [
+    {"id":"I1","severity":"required","location":"genealogy2/lib/recovery.mjs writeOperation / CLI apply-legacy","finding":"A new incomplete negative search can bypass marker injection through legacy:true, exposed by ordinary CLI apply-legacy. Internal historical applyOperation compatibility is a distinct restoration boundary.","disposition":"Root accepted minimal correction: every new negative request through writeOperation, including legacy:true, must require or receive searchMemoryVersion1; no explicit downgrade. Preserve exact already accepted retries and hash/sequence-validated replay. Keep internal unmarked applyOperation restricted by documented historical/import/replay purpose; no supported new-research opt-out. Add legacy CLI enforcement and old-legacy retry/replay tests."},
+    {"id":"I2","severity":"clarification","location":"genealogy2/lib/work.mjs renderWork","finding":"Exact PATH-P0240-KP02/KP04 current bodies contain historical Wotan EJ BESLUTAT UTFÖRANDE alongside live READY tasks.","disposition":"Preserve native bodies and add explicit display notice that embedded execution/prioritization language is historical knowledge text; current execution comes only from live Wotan. No canonical research correction required."}
+  ],
+  "approved_semantics": [
+    "Independent current CLI outputs show exact six associations as3/2/1 person routes; T0217 one shared owner and Emma no military route.",
+    "Full mapped current question/path bodies and caveats read. Route overlays limit broad paths without claiming full coverage; live task status is independent of knowledge outcome and authorization.",
+    "All12 displayed legacy search projections fully read:9-unit1933receipt, limited1931weddings, Hook-notCarlman query, captcha/access_problem, exact Henriksson pages/years and target-negative queries with other positive hits. Their usefulness and limits preserved.",
+    "Normative additions/README/PCD draft support global future standard, separate material/provider/model versions, per-material receipts, explicit unknown provenance, assessment/conflict documentary corrections and structural-only validator scope.",
+    "Validator checks actual question subject, source head/evidence version, timestamps, hash syntax and required fields. A syntactically valid snapshot reference is not verified captured content; ordinary source review must validate actual provenance as norms state."
+  ],
+  "canonicalApproval": false,
+  "finalApproval": false
+}

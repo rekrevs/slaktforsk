@@ -1,0 +1,93 @@
+{
+  "task": "T-0805",
+  "role": "mechanical implementation verification",
+  "observed_utc": "2026-10-07T13:32:31.265428+00:00",
+  "files": [
+    {
+      "path": "genealogy2/cli.mjs",
+      "sha256": "375181fae655d86aba4cabb27f2d226d01241174495b25579525e73461c0e00e"
+    },
+    {
+      "path": "genealogy2/lib/domain.mjs",
+      "sha256": "febd5eddcc1fc2868d9104319736b3fc5f4e3f95055bdc379cfd96ec3a8f07a4"
+    },
+    {
+      "path": "genealogy2/lib/recovery.mjs",
+      "sha256": "413334c0f675a86906a222a2efb2d8c375479e458094a8106002f6d0e1dc1fb6"
+    },
+    {
+      "path": "genealogy2/lib/search-memory.mjs",
+      "sha256": "217784eee316cecfad1c76b975b43a56e525c98c1614256c1a772b8ee08e8dab"
+    },
+    {
+      "path": "genealogy2/lib/work.mjs",
+      "sha256": "91646eeb5a83a20d3a1daa054eeb1698274d935498773b2eb4b7bfd0cf2282b6"
+    },
+    {
+      "path": "genealogy2/test/search-memory.test.mjs",
+      "sha256": "56b6d22fbfd2fa761831cf5986001be10fbaac81ba851db3d794e611529087a3"
+    },
+    {
+      "path": "genealogy2/test/work.test.mjs",
+      "sha256": "7f8212758c7380375970fc5c372889fb7b22156bb8f6655cbfc89f09ba1067f5"
+    },
+    {
+      "path": "wotan/node-links.json",
+      "sha256": "b4617811815fb9bae79ff123079ad08558fa630aca2e1ee2990adfc768f9184f"
+    }
+  ],
+  "final_affected_path_suite": {
+    "passed": true,
+    "exit_code": 0,
+    "tests": 19,
+    "pass": 19,
+    "fail": 0,
+    "duration_ms": 3004.474083,
+    "log": "evaluations/T-0805/final-affected-path-suite-v1.log",
+    "sha256": "19cc803f0b6699df377fa54129d1079c9ce51948b0c3d05d587e6762c50b54dd",
+    "all_actual_write_replay_bootstrap_importers_plus_work": true
+  },
+  "targeted": {
+    "tests": 7,
+    "pass": 7,
+    "fail": 0,
+    "log": "evaluations/T-0805/targeted-final-v6.log"
+  },
+  "full_suite": {
+    "status": "PASS",
+    "exit_code": 0,
+    "exit_observation": "existing worker-local exec session21618 completed; no process rerun",
+    "command": "node --test --test-concurrency=4 genealogy2/test/*.test.mjs",
+    "counts": {
+      "tests": 140,
+      "suites": 0,
+      "pass": 140,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0
+    },
+    "duration_ms": 2091604.790041,
+    "log": "evaluations/T-0805/genealogy2-full-suite-v1.log",
+    "sha256": "72cd508c13565584eeb1bf52c708ab7b6f456ab9e501dc4f876cfe5573fc6f1c",
+    "temporal_qualification": "Suite started before final minimal CLI hardening/display amendment; not a fully frozen-version run. Frozen final affected-path19/19 covers every actual write/replay/bootstrap importer plus work. Unchanged historical cohort results retained.",
+    "prior_code_observation": "evaluations/T-0805/mechanical-implementation-progress-v1.json",
+    "final_code_observation": "evaluations/T-0805/final-code-observation-v1.json"
+  },
+  "limitations": [
+    "Restoration-only unmarked applyOperation remains by explicit root decision; new native research uses writeOperation",
+    "Both native and apply-legacy new negative writes enforce complete contract",
+    "Source completeness and capture truth require independent source assessment beyond structure",
+    "Multi-material searches split separate receipts; deficient old provenance corrections use supported assessment/conflict, never fabricated negative upgrade"
+  ],
+  "canonical_mutations_by_sol": 0,
+  "task_status_doc_pc_dashboard_archive_commit_push_mutations_by_sol": 0,
+  "new_archival_reads": 0,
+  "actual_model_usage": "unobservable to worker; root collect actual new-turn usage after final response; unknown not zero",
+  "previous_result_pin": {
+    "path": "evaluations/T-0805/mechanical-implementation-result-v1.json",
+    "sha256": "5bd6f7d4b505bffb051c386af4eee8c6f47109845eb4753e9decd1f203cd821b"
+  },
+  "final_code_pins_reverified": true,
+  "only_completion_report_written_in_resumed_wait_turn": true
+}

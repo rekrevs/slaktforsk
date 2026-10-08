@@ -1,0 +1,132 @@
+{
+  "task": "T-0808",
+  "amends_without_replacing": "primary-actual83-and-six-copy-amendment-v1.json",
+  "scope": "Necessary current semantic consequence of already approved C0270 own-post reading; no new P0312 research or identity review.",
+  "object_id": "F-P-0312-occupation-source-anchors",
+  "expected_version": 1,
+  "resulting_version": 2,
+  "full_old_native": {
+    "id": "F-P-0312-occupation-source-anchors@1",
+    "object_id": "F-P-0312-occupation-source-anchors",
+    "version": 1,
+    "operation_id": "T-0658/persons-07-v1",
+    "disposition": "accepted",
+    "evidence_status": "CORROBORATED",
+    "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+    "caveat": "Egna två nämndemansbokled bär titeln, inte exakta tjänsteår eller ett känt rättsmål.",
+    "previous_id": null,
+    "kind": "fact",
+    "data": {
+      "revision_id": "F-P-0312-occupation-source-anchors@1",
+      "subject_id": "P-0312",
+      "property": "occupation",
+      "value_type": "structured",
+      "value_json": {
+        "appointed": null,
+        "court": null,
+        "education": null,
+        "fathers1844_namndeman_not_sons_own_title": true,
+        "reports": [
+          {
+            "date": "1870-10-14",
+            "title": "Hemmanseg."
+          },
+          {
+            "date": "1873-01-15",
+            "title": "Arbet."
+          },
+          {
+            "period": "1880–1920,upprepade bokankare",
+            "title": "hemmansägare"
+          },
+          {
+            "book_periods": [
+              "1900–1906",
+              "1906–1914"
+            ],
+            "title": "nämndeman"
+          }
+        ],
+        "retired": null
+      }
+    },
+    "origins": [
+      {
+        "revision_id": "F-P-0312-occupation-source-anchors@1",
+        "unit_id": "ccda501256ac26b7687be35fd30d9c7bcda94068864f832e0508a5a9f44412b7",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "revision_id": "F-P-0312-occupation-source-anchors@1",
+        "unit_id": "a7b42eb137af5ece91522c5ffda0dbbc98fd9d7b2acad8cccb510be9b695d008",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "revision_id": "F-P-0312-occupation-source-anchors@1",
+        "unit_id": "9cd5a1e34d8c2bbeea59c3f4328ee401e10991d0ba5f5eeac7d65e749972a036",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "revision_id": "F-P-0312-occupation-source-anchors@1",
+        "unit_id": "13bc2aef65c1caea6f58939ae00bb9ae6deb1040e838e3e56a9c4feba9d7332e",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "revision_id": "F-P-0312-occupation-source-anchors@1",
+        "unit_id": "d822945af5f7e53ec04b0214f9d74023dfab79c64246244021d103bcd4e61a5b",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "revision_id": "F-P-0312-occupation-source-anchors@1",
+        "unit_id": "7542135d13f3d7849e97b4d9fa38c7ae6df10411bce8e0383941c6e4451915e1",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "revision_id": "F-P-0312-occupation-source-anchors@1",
+        "unit_id": "5d0df71dd3ca1dbd05f2aea25a3d4875ee156c79ea01d7f071bdf7b526548d58",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "revision_id": "F-P-0312-occupation-source-anchors@1",
+        "unit_id": "be255f82792b827b40a1599017fc3f75e4ccba50a315f8f2a2663573fb3043e7",
+        "coverage": "partial",
+        "note": "Flera uttryckliga delmål bevarar källgränser, senare rättelser och beroende mellan utdrag."
+      },
+      {
+        "revision_id": "F-P-0312-occupation-source-anchors@1",
+        "unit_id": "cf1d898d50603c936d6b1e6773a74c6e90d8df5b02d8334cca9e5ef52f2332e9",
+        "coverage": "partial",
+        "note": "Flera uttryckliga delmål bevarar källgränser, senare rättelser och beroende mellan utdrag."
+      }
+    ],
+    "evidence": []
+  },
+  "field_changes": [
+    {
+      "field": "data.value_json.reports[1].title",
+      "old": "Arbet.",
+      "new": "hemmansägare",
+      "rationale": "Full C0270 post 1 reads Carlsson, And. Magnus, hemmansägare. The dated 1873-01-15 anchor must reflect that actual source field; previous worker transcription is not a competing historical occupation."
+    }
+  ],
+  "evidence_append": [
+    {
+      "object": "TR-T0808-C0270-fullpost",
+      "version": 1,
+      "role": "supports",
+      "note": "T-0808 full C0270 post 1: faderns titel hemmansägare vid daterat 1873-01-15-ankare; äldre Arbet.-avskrift rättad, övriga yrkesankare oförändrade."
+    }
+  ],
+  "preserve": "All other data including report order, 1870 title, later household and nämndeman anchors and nulls; disposition, CORROBORATED, rationale, caveat, all ordered origins. Existing evidence is empty. No implied continuous occupation or new independent source.",
+  "source_reading_sha256": "f8bdeaa1699866b053afeb7419bf00417122e51e41c1fd1800aad52b73644ff4",
+  "resolution_api_clarification": "Use only native operation.resolve entries {request,rationale}; abstract RETAIN_EXACT/REVISE_TARGET labels remain in individual source consequence table. No invented resolution outcome enum.",
+  "dependency_requirement": "Seven revisions and exact 83 resolutions must be tested; any newly emitted request requires separate individual source disposition before resolution. No blanket resolution authorization.",
+  "canonicalApproval": false
+}

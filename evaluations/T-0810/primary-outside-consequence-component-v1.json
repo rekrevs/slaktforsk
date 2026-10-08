@@ -1,0 +1,697 @@
+{
+  "task": "T-0810",
+  "status": "OUTSIDE_SOURCE_CONSEQUENCES_FOR_INDEPENDENT_REVIEW",
+  "changes": [
+    {
+      "id": "O-P-0467-p388-death",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.value_literal",
+          "old": "1951-06-18",
+          "new": "1948-06-21",
+          "reason": "Exact G2 death-date correction."
+        },
+        {
+          "field": "data.value_json",
+          "old": "{\"death\":\"1951-06-18\"}",
+          "new": {
+            "death": "1948-06-21"
+          },
+          "reason": "Only explicit structured consequences of corrected source fields; other keys retained."
+        },
+        {
+          "field": "caveat",
+          "old": "C0677 pekar ut Nils rad men ger ingen separat rå namnform från just denna bok. Inget påhittat omnämnande eller egen dödspost.",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\nC0677 pekar ut Nils rad men ger ingen separat rå namnform från just denna bok. Inget påhittat omnämnande eller egen dödspost.",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind.",
+      "rebindEvidence": [
+        {
+          "index": 0,
+          "old": {
+            "revision_id": "O-P-0467-p388-death@1",
+            "basis_revision_id": "R-606339082d269e79c0bde039@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          "newObject": "R-606339082d269e79c0bde039",
+          "newVersion": 2,
+          "reason": "Same record, now exact preserved image and corrected source-bound G2 reading; role/note unchanged."
+        }
+      ]
+    },
+    {
+      "id": "E-death-P-0467",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.date_json",
+          "old": "{\"literal\":\"1951-06-18\",\"precision\":\"exact\",\"value\":\"1951-06-18\"}",
+          "new": {
+            "literal": "1948-06-21",
+            "precision": "exact",
+            "value": "1948-06-21"
+          },
+          "reason": "Exact same death event, corrected household date, no new deathplace."
+        },
+        {
+          "field": "caveat",
+          "old": "Återgivet ur AIIa8s388; egen dödsrad inte identifierad och plats okänd.",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\nÅtergivet ur AIIa8s388; egen dödsrad inte identifierad och plats okänd.",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "F-P-0467-source_reference-registration-sequence",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.value_json",
+          "old": "{\"arrival_reported\":\"1918-01-04\",\"arrival_used_only_as_chronology_point\":true,\"book_transfer1943_to\":388,\"book_transfer_is_not_proof_of_physical_move\":true,\"continuous_physical_residence_unproven\":true,\"date_pair_unresolved\":true,\"from\":\"Timrå\",\"index_pages\":[384,389],\"p304_next_reference_subject\":\"P-0247\",\"p304_not_read\":true,\"p388_own_death\":\"1951-06-18\",\"p389_departure_reported\":\"1942-03-31\",\"p392_arrival_reread\":\"1931-12-04\",\"physical_presence_at_child_birth_unknown\":true,\"to\":\"Storbränna(Gårdtjern)N:o3,Sättna\"}",
+          "new": {
+            "arrival_reported": "1918-01-04",
+            "arrival_used_only_as_chronology_point": true,
+            "book_transfer1943_to": 388,
+            "book_transfer_is_not_proof_of_physical_move": true,
+            "continuous_physical_residence_unproven": true,
+            "date_pair_unresolved": false,
+            "from": "Timrå",
+            "index_pages": [
+              384,
+              389
+            ],
+            "p304_next_reference_subject": "P-0247",
+            "p304_not_read": true,
+            "p388_own_death": "1948-06-21",
+            "p389_departure_reported": "1931-12-04",
+            "p392_arrival_reread": "1931-12-04",
+            "physical_presence_at_child_birth_unknown": true,
+            "to": "Storbränna(Gårdtjern)N:o3,Sättna"
+          },
+          "reason": "Only explicit structured consequences of corrected source fields; other keys retained."
+        },
+        {
+          "field": "evidence_status",
+          "old": "CONFLICT",
+          "new": "TRANSCRIBED",
+          "reason": "Only conflict in this structured chronology was copied1931/1942 date; G1 resolves it. No other person/birth conflict changed."
+        },
+        {
+          "field": "caveat",
+          "old": "",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling. T-0810: egen avgång på389 är31 4/12 med dittos,1931-12-04, förenlig med accepterad ankomst på392. Äldre1942-03-31 är avskriftsfel; ingen obruten fysisk vistelse följer. Gertruds eget senaste bokankare är överföringen51 22/11 till304,1951-11-22; nästa304 är oläst.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G1-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        },
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "F-P-0467-family_chronology-source-intervals",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.value_json",
+          "old": "{\"Egnar_birth_to_arrival\":{\"days\":26,\"years\":2},\"Egnar_birth_to_marriage\":{\"months\":3,\"years\":2},\"arrival_to_marriage\":{\"days\":5,\"months\":2},\"intervals_not_proof_of_continuous_contact\":true,\"older_eleven_months_is_rounded\":true,\"own_age_at_marriage\":43,\"own_age_at_reported_death\":76,\"widow_dates_apart\":{\"days\":29,\"months\":5,\"years\":4},\"widower_to_Egnar_birth\":{\"calendar_addition_with_month_end_clamping\":{\"days\":9,\"months\":3,\"years\":1},\"elapsed_days\":465,\"source_interval_not_claimed_as_exact_recalculation\":true,\"source_reported\":{\"days\":8,\"months\":3,\"years\":1}},\"wife\":\"P-0247\",\"wife_birth\":\"1874-02-23\",\"wife_older_by_if_birth19jan\":{\"days\":27,\"months\":10},\"wife_widow_since\":\"1910-03-02\"}",
+          "new": {
+            "Egnar_birth_to_arrival": {
+              "days": 26,
+              "years": 2
+            },
+            "Egnar_birth_to_marriage": {
+              "months": 3,
+              "years": 2
+            },
+            "arrival_to_marriage": {
+              "days": 5,
+              "months": 2
+            },
+            "intervals_not_proof_of_continuous_contact": true,
+            "older_eleven_months_is_rounded": true,
+            "own_age_at_marriage": 43,
+            "own_age_at_reported_death": 73,
+            "widow_dates_apart": {
+              "days": 29,
+              "months": 5,
+              "years": 4
+            },
+            "widower_to_Egnar_birth": {
+              "calendar_addition_with_month_end_clamping": {
+                "days": 9,
+                "months": 3,
+                "years": 1
+              },
+              "elapsed_days": 465,
+              "source_interval_not_claimed_as_exact_recalculation": true,
+              "source_reported": {
+                "days": 8,
+                "months": 3,
+                "years": 1
+              }
+            },
+            "wife": "P-0247",
+            "wife_birth": "1874-02-23",
+            "wife_older_by_if_birth19jan": {
+              "days": 27,
+              "months": 10
+            },
+            "wife_widow_since": "1910-03-02"
+          },
+          "reason": "Only explicit structured consequences of corrected source fields; other keys retained."
+        },
+        {
+          "field": "caveat",
+          "old": "",
+          "new": "T0810: rapporterad död1948-06-21 ger73 fyllda år vid båda kvarstående januari1875-varianterna17/19. Övriga äldre intervall och rådatum omprövas inte här.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "F-P-0467-research_limits-own-life",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.value_json",
+          "old": "{\"children_survival1951_not_proven_by_fathers_death\":true,\"death_place_cause_and_burial_unknown\":true,\"first_wife_unnamed\":true,\"missed_local_row_possible\":true,\"no_lifetime_child_count\":true,\"other_parish_death_is_weak_hypothesis\":true,\"own_military_record_unsearched\":true,\"own_parents_unknown\":true,\"stepsons\":[\"P-0241\",\"P-0248\",\"P-0249\"],\"stepsons_are_not_biological_children\":true}",
+          "new": {
+            "death_place_cause_and_burial_unknown": true,
+            "first_wife_unnamed": true,
+            "no_lifetime_child_count": true,
+            "own_military_record_unsearched": true,
+            "own_parents_unknown": true,
+            "stepsons": [
+              "P-0241",
+              "P-0248",
+              "P-0249"
+            ],
+            "stepsons_are_not_biological_children": true,
+            "children_survival_not_proven_by_fathers_death": true,
+            "death1948_row_not_searched_in_this_task": true,
+            "death1951_negative_not_applicable_to1948": true
+          },
+          "reason": "Only explicit structured consequences of corrected source fields; other keys retained."
+        },
+        {
+          "field": "caveat",
+          "old": "",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling. Barnens egen överlevnad/livslinje beläggs inte av faderns död eller moderns senare bokankare.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "RESEARCH-P-0467-9d76f0343410",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "## Identitetsbedömning\n\nEn rad på Sättna `A II a/4` sida 384 bär honom, och den bär fem datum.\n`Nils August Hallin`, född 1875-01-19 i Tuna, änkling sedan 1914-08-31,\n**vigd 1918-03-09** med [Gertrud Kristina](P-0247.md), född 1874-02-23 i\nSättna och änka sedan 1910-03-02.\n\n**T-0124:s omläsning är gällande:** `Hallin`, `19 januari`, `Tuna`.\n`Timrå` avser inflyttningen 1918-01-04, och `Hallén` och `17 januari` i\n[C-0926](../citations/C-0926-hallen-henriksson-storbranna-fol-384.md) är avskriftsvarianter av samma bild, inte oberoende personfakta.\n\n### En aldrig uppställd kronologi\n\n| Datum | Händelse | Avstånd |\n|---|---|---|\n| 1910-03-02 | Gertrud blir änka | — |\n| 1914-08-31 | han blir änkling | 4 år 5 månader 29 dagar |\n| 1915-12-09 | sonen [Nils Egnar](P-0468.md) föds i Sättna | 1 år 3 månader 8 dagar |\n| 1918-01-04 | han flyttar in i Sättna från Timrå | 2 år 26 dagar |\n| 1918-03-09 | de vigs | 2 månader 5 dagar |\n| 1918-09-28[?] | sonen [Ivar Henning](P-0469.md) föds | 6 månader 19 dagar |\n| 1951-06-18 | död enligt marginalnotering | han var 76 år |\n\n**Sonen föddes i moderns socken två år innan fadern flyttade dit.**\n\n**Källans egen text bekräftar det.** Anteckningen vid sonens rad lyder\n`August Hallin i Timrå har undertecknat vara barnets fader.` Orden\n`i Timrå` placerar honom där när han skrev under — alltså före\ninflyttningen. Faderskapserkännandet avgavs från en annan församling än\nbarnets, och det är den enda rättshandling som är belagd i familjens\nakter.\n\n**Ingen orsak till fördröjningen antas.**\n\n### Det första äktenskapet, aktens största lucka\n\n**`änkling sedan 1914-08-31` är ett exakt datum**, och ett sådant datum\nkommer normalt ur hustruns dödspost. Hon är inte namngiven någonstans i\nprojektet, och hans första vigsel är inte sökt.\n\n**Det är inte en källbrist utan en outnyttjad ingång:** han var född i Tuna\n1875 och skriven i Timrå fram till 1918, så båda socknarnas dödböcker för\n1914 är konkreta mål.\n\n### Dödsuppgiften och nollresultatet\n\n**Marginalnoteringen anger döden 1951-06-18; Sättna `F/2`:s hela 1951-följd\nsaknar en säker dödsrad.**\n\n**A-2686 behandlar nollet som en begränsning** — *\"nollresultatet utesluter\ninte död i annan församling\"* — vilket är riktigt men ofullständigt.\nEn marginalnotering utan lokal dödsrad är den normala signaturen för ett\ndödsfall registrerat annorstädes och rapporterat hem. De två uppgifterna\nmotsäger inte varandra; de pekar åt samma håll.\n\n**Indikationen är svag.** Andra förklaringar finns, bland dem att raden\nfinns men lästs förbi, och ingen dödsort införs.\n\n**Identitetsnivån faller på källbredden:** En församlingsbokspost med fem egna datum, ingen egen födelsenotis, och inga kända föräldrar.\n\n`Trädverkan: EJ BÄRANDE`: ingen anlinje passerar honom. Han är ingift genom [P-0247](P-0247.md)s andra äktenskap.\n\n",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling. Äldre summeringar76år, trettiotre år1918–1951 och trettiosju skrivna år1914–1951 är inte aktuella: dödsåret är1948. Daterade bokankare är inte ett intyg om kontinuerlig fysisk vistelse.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n## Identitetsbedömning\n\nEn rad på Sättna `A II a/4` sida 384 bär honom, och den bär fem datum.\n`Nils August Hallin`, född 1875-01-19 i Tuna, änkling sedan 1914-08-31,\n**vigd 1918-03-09** med [Gertrud Kristina](P-0247.md), född 1874-02-23 i\nSättna och änka sedan 1910-03-02.\n\n**T-0124:s omläsning är gällande:** `Hallin`, `19 januari`, `Tuna`.\n`Timrå` avser inflyttningen 1918-01-04, och `Hallén` och `17 januari` i\n[C-0926](../citations/C-0926-hallen-henriksson-storbranna-fol-384.md) är avskriftsvarianter av samma bild, inte oberoende personfakta.\n\n### En aldrig uppställd kronologi\n\n| Datum | Händelse | Avstånd |\n|---|---|---|\n| 1910-03-02 | Gertrud blir änka | — |\n| 1914-08-31 | han blir änkling | 4 år 5 månader 29 dagar |\n| 1915-12-09 | sonen [Nils Egnar](P-0468.md) föds i Sättna | 1 år 3 månader 8 dagar |\n| 1918-01-04 | han flyttar in i Sättna från Timrå | 2 år 26 dagar |\n| 1918-03-09 | de vigs | 2 månader 5 dagar |\n| 1918-09-28[?] | sonen [Ivar Henning](P-0469.md) föds | 6 månader 19 dagar |\n| 1951-06-18 | död enligt marginalnotering | han var 76 år |\n\n**Sonen föddes i moderns socken två år innan fadern flyttade dit.**\n\n**Källans egen text bekräftar det.** Anteckningen vid sonens rad lyder\n`August Hallin i Timrå har undertecknat vara barnets fader.` Orden\n`i Timrå` placerar honom där när han skrev under — alltså före\ninflyttningen. Faderskapserkännandet avgavs från en annan församling än\nbarnets, och det är den enda rättshandling som är belagd i familjens\nakter.\n\n**Ingen orsak till fördröjningen antas.**\n\n### Det första äktenskapet, aktens största lucka\n\n**`änkling sedan 1914-08-31` är ett exakt datum**, och ett sådant datum\nkommer normalt ur hustruns dödspost. Hon är inte namngiven någonstans i\nprojektet, och hans första vigsel är inte sökt.\n\n**Det är inte en källbrist utan en outnyttjad ingång:** han var född i Tuna\n1875 och skriven i Timrå fram till 1918, så båda socknarnas dödböcker för\n1914 är konkreta mål.\n\n### Dödsuppgiften och nollresultatet\n\n**Marginalnoteringen anger döden 1951-06-18; Sättna `F/2`:s hela 1951-följd\nsaknar en säker dödsrad.**\n\n**A-2686 behandlar nollet som en begränsning** — *\"nollresultatet utesluter\ninte död i annan församling\"* — vilket är riktigt men ofullständigt.\nEn marginalnotering utan lokal dödsrad är den normala signaturen för ett\ndödsfall registrerat annorstädes och rapporterat hem. De två uppgifterna\nmotsäger inte varandra; de pekar åt samma håll.\n\n**Indikationen är svag.** Andra förklaringar finns, bland dem att raden\nfinns men lästs förbi, och ingen dödsort införs.\n\n**Identitetsnivån faller på källbredden:** En församlingsbokspost med fem egna datum, ingen egen födelsenotis, och inga kända föräldrar.\n\n`Trädverkan: EJ BÄRANDE`: ingen anlinje passerar honom. Han är ingift genom [P-0247](P-0247.md)s andra äktenskap.\n\n",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "KEY-P-0467-91d285fc280f",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "| `Storbränna (Gårdtjern) N:o 3` | Sättna 1918–1951 | [C-0675](../citations/C-0675-sattna-AIIa4-gertrud-nils-august-hallin.md) | **Hushållets ort.** Namnregistret `A II b/1` hänvisar till sidorna 384 och 389. |\n",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling. Äldre summeringar76år, trettiotre år1918–1951 och trettiosju skrivna år1914–1951 är inte aktuella: dödsåret är1948. Daterade bokankare är inte ett intyg om kontinuerlig fysisk vistelse.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n| `Storbränna (Gårdtjern) N:o 3` | Sättna 1918–1951 | [C-0675](../citations/C-0675-sattna-AIIa4-gertrud-nils-august-hallin.md) | **Hushållets ort.** Namnregistret `A II b/1` hänvisar till sidorna 384 och 389. |\n",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "CONTRACT-P-0467-PK-06",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "| PK-06 | STYRKT | Tio teman individuellt bedömda. ARB skiljer uttryckligen utvinningslucka från prövad tomhet, och HAL bär marginalnoteringens och nollresultatets gemensamma riktning. |\n",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n| PK-06 | STYRKT | Tio teman individuellt bedömda. ARB skiljer uttryckligen utvinningslucka från prövad tomhet, och HAL bär marginalnoteringens och nollresultatets gemensamma riktning. |\n",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "CONTRACT-P-0467-PK-09",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "| PK-09 | STYRKT | Bärande slutsatser anger stöd och gräns. Ingen orsak till fördröjningen antas, dödsortsindikationen är märkt som svag, och ingen dödsort införs. [C-0675](../citations/C-0675-sattna-AIIa4-gertrud-nils-august-hallin.md) |\n",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n| PK-09 | STYRKT | Bärande slutsatser anger stöd och gräns. Ingen orsak till fördröjningen antas, dödsortsindikationen är märkt som svag, och ingen dödsort införs. [C-0675](../citations/C-0675-sattna-AIIa4-gertrud-nils-august-hallin.md) |\n",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "THEME-P-0467-HAL",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "| HAL | AVGRÄNSAT | **Död 1951-06-18 enligt marginalnotering.** Ingen lokal dödsrad — de två uppgifterna pekar åt samma håll. | [C-0677](../citations/C-0677-sattna-hallin-fortsattning-1927-1955.md); A-7977; Q-02, KP-02 |\n",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n| HAL | AVGRÄNSAT | **Död 1951-06-18 enligt marginalnotering.** Ingen lokal dödsrad — de två uppgifterna pekar åt samma håll. | [C-0677](../citations/C-0677-sattna-hallin-fortsattning-1927-1955.md); A-7977; Q-02, KP-02 |\n",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "THEME-P-0467-SYN",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "| SYN | AVGRÄNSAT | Berättelsen är ny och bär de trettionio oskrivna åren lika tydligt som de trettiosju skrivna. | [aktens berättelse](../people/P-0467-nils-august-hallin.md#biografisk-sammanfattning); A-7977 |\n",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling. Äldre summeringar76år, trettiotre år1918–1951 och trettiosju skrivna år1914–1951 är inte aktuella: dödsåret är1948. Daterade bokankare är inte ett intyg om kontinuerlig fysisk vistelse.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n| SYN | AVGRÄNSAT | Berättelsen är ny och bär de trettionio oskrivna åren lika tydligt som de trettiosju skrivna. | [aktens berättelse](../people/P-0467-nils-august-hallin.md#biografisk-sammanfattning); A-7977 |\n",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "P-0467/Q-02",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "### Q-02: Var dog han 1951-06-18?\n\n- Fråga och betydelse: HAL/BO/SYN. Marginalnoteringen och det lokala nollet\n  pekar åt samma håll, men ingen dödsort är belagd.\n- Känt underlag: döden 1951-06-18 enligt församlingsbokens\n  marginalnotering; Sättna `F/2`:s hela 1951-följd utan säker dödsrad.\n- Alternativ och motprövning: **(a)** en grannförsamlings dödbok bär honom;\n  (b) ett lasarettsutdrag gör det; (c) raden finns i Sättna men har\n  lästs förbi. Diskriminerande uppgift: grannförsamlingarnas dödböcker för\n  1951 och lasarettsförsamlingarnas separata utdrag — samma slags\n  källa som löste [P-0135](P-0135.md)s dödsfall 1920 genom Flens länslasaretts\n  utdrag.\n- Källvägar: KP-02\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: A-2686 står kvar oförändrad. Indikationen\n  ensam räcker inte, och ingen dödsort införs utan en läst post.\n- Påverkade personer/påståenden: A-2686, A-7977.\n\n",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling. Aktuell framtida dödssöknyckel är1948-06-21, Nils August Hallin/Hallén; T0628 äger fortsatt den separata dödsfrågan och bilagefrågan1915–1918. Ingen1948-sökning eller ny katalogkontroll har utförts/auktoriserats här. Äldre1951-rutt nedan är historik, inte aktuell arbetsinstruktion.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n### Q-02: Var dog han 1951-06-18?\n\n- Fråga och betydelse: HAL/BO/SYN. Marginalnoteringen och det lokala nollet\n  pekar åt samma håll, men ingen dödsort är belagd.\n- Känt underlag: döden 1951-06-18 enligt församlingsbokens\n  marginalnotering; Sättna `F/2`:s hela 1951-följd utan säker dödsrad.\n- Alternativ och motprövning: **(a)** en grannförsamlings dödbok bär honom;\n  (b) ett lasarettsutdrag gör det; (c) raden finns i Sättna men har\n  lästs förbi. Diskriminerande uppgift: grannförsamlingarnas dödböcker för\n  1951 och lasarettsförsamlingarnas separata utdrag — samma slags\n  källa som löste [P-0135](P-0135.md)s dödsfall 1920 genom Flens länslasaretts\n  utdrag.\n- Källvägar: KP-02\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: A-2686 står kvar oförändrad. Indikationen\n  ensam räcker inte, och ingen dödsort införs utan en läst post.\n- Påverkade personer/påståenden: A-2686, A-7977.\n\n",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        },
+        {
+          "field": "data.title",
+          "old": "Q-02: Var dog han 1951-06-18?",
+          "new": "Q-02: Var dog han enligt hushållsbokens datum1948-06-21?",
+          "reason": "Current question must use corrected source date."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "PATH-P-0467-KP-02",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "### KP-02: Sättnas och grannförsamlingarnas dödböcker 1951 och kyrkoarkivbilagorna 1915–1918\n\n- Frågor/teman: Q-02, Q-03, HAL, BO, REL, PER.\n- Källklass: K-04, K-01.\n- Tid/plats och arkivbildare: grannförsamlingarnas dödböcker för 1951 och\n  **lasarettsförsamlingarnas separata utdrag**; samt Sättnas och Timrås\n  kyrkoarkivbilagor för 1915–1918.\n- Förväntad information: dödsort och dödsförsamling 1951, och\n  faderskapserkännandet som handling.\n- Ingång och söknycklar: **dödsdagen 1951-06-18**; `Nils August Hallin`,\n  född 1875-01-19; anteckningens ordalydelse.\n- Beroenden: marginalnoteringen ger dagen men inte orten, så sökningen\n  måste gå på dag och namn över flera församlingar. Lasarettsvägen är\n  prövad i projektet förut genom Flens länslasaretts utdrag.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet; EJ KONTROLLERADE.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: vägen sluter hans livslinje och kan ge\n  familjens enda personliga handling. Ägs av\n  [T-0628](../../wotan/dev-log/T-0628.md).\n- Wotan: T-0628\n\n",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling. Aktuell framtida dödssöknyckel är1948-06-21, Nils August Hallin/Hallén; T0628 äger fortsatt den separata dödsfrågan och bilagefrågan1915–1918. Ingen1948-sökning eller ny katalogkontroll har utförts/auktoriserats här. Äldre1951-rutt nedan är historik, inte aktuell arbetsinstruktion.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n### KP-02: Sättnas och grannförsamlingarnas dödböcker 1951 och kyrkoarkivbilagorna 1915–1918\n\n- Frågor/teman: Q-02, Q-03, HAL, BO, REL, PER.\n- Källklass: K-04, K-01.\n- Tid/plats och arkivbildare: grannförsamlingarnas dödböcker för 1951 och\n  **lasarettsförsamlingarnas separata utdrag**; samt Sättnas och Timrås\n  kyrkoarkivbilagor för 1915–1918.\n- Förväntad information: dödsort och dödsförsamling 1951, och\n  faderskapserkännandet som handling.\n- Ingång och söknycklar: **dödsdagen 1951-06-18**; `Nils August Hallin`,\n  född 1875-01-19; anteckningens ordalydelse.\n- Beroenden: marginalnoteringen ger dagen men inte orten, så sökningen\n  måste gå på dag och namn över flera församlingar. Lasarettsvägen är\n  prövad i projektet förut genom Flens länslasaretts utdrag.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet; EJ KONTROLLERADE.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: vägen sluter hans livslinje och kan ge\n  familjens enda personliga handling. Ägs av\n  [T-0628](../../wotan/dev-log/T-0628.md).\n- Wotan: T-0628\n\n",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "BIO-P-0467",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.markdown",
+          "old": "## Biografisk sammanfattning\n\nNils August Hallin föddes den **19 januari 1875** i Tuna. Om de\ntrettionio första åren av hans liv vet projektet ingenting. Han gifte sig,\noch den 31 augusti 1914 blev han änkling. Hans hustru har inget namn i\nnågot av våra papper.\n\nEtt år och tre månader senare, den 9 december 1915, föddes en pojke i\n**Sättna** — Nils Egnar — och modern var Gertrud Kristina Henriksson,\nänka sedan 1910 och mor till tre söner sedan förut. Nils August bodde då i\nTimrå. Församlingsboken noterar torrt: *\"August Hallin i Timrå har\nundertecknat vara barnets fader.\"* Han satte sitt namn på ett papper i en\nannan socken.\n\nFörst den **4 januari 1918** flyttade han in i Sättna. Två månader senare\ngifte de sig, han fyrtiotre och hon fyrtiofyra — hon var elva månader äldre.\nOch i september samma år föddes deras andre son, Ivar Henning — om det nu\nvar i september; en annan bok skriver december, och skillnaden är olöst.\n\nFamiljen står kvar i Sättnas böcker i trettiotre år. Den **18 juni 1951**\nantecknas hans död i marginalen. Men Sättnas dödbok för det året har ingen\nrad om honom. Det talar för att han dog någon annanstans — det är så det\nbrukar se ut när ett dödsfall registreras i en främmande församling och\nskickas hem. Var det var vet vi inte.\n\n",
+          "new": "## Biografisk sammanfattning\n\nNils August Hallin föddes den **19 januari 1875** i Tuna. Om de\ntrettionio första åren av hans liv vet projektet ingenting. Han gifte sig,\noch den 31 augusti 1914 blev han änkling. Hans hustru har inget namn i\nnågot av våra papper.\n\nEtt år och tre månader senare, den 9 december 1915, föddes en pojke i\n**Sättna** — Nils Egnar — och modern var Gertrud Kristina Henriksson,\nänka sedan 1910 och mor till tre söner sedan förut. Nils August bodde då i\nTimrå. Församlingsboken noterar torrt: *\"August Hallin i Timrå har\nundertecknat vara barnets fader.\"* Han satte sitt namn på ett papper i en\nannan socken.\n\nFörst den **4 januari 1918** flyttade han in i Sättna. Två månader senare\ngifte de sig, han fyrtiotre och hon fyrtiofyra — hon var elva månader äldre.\nOch i september samma år föddes deras andre son, Ivar Henning — om det nu\nvar i september; en annan bok skriver december, och skillnaden är olöst.\n\nHushållsboken anger hans död den **21 juni1948**. Datumet läses som48 21/6 och motsvaras av Gertruds egen änkemarkering. Det äldre datumet18 juni1951 var ett avskriftsfel. Bokankarna från1918 till1948 visar registreringar, inte kontinuerlig fysisk vistelse. Den tidigare sökningen i Sättnas dödbok1951 gäller ett annat år och ger ingen slutsats om var han dog1948. Dödsort, dödsorsak och egen dödbokspost är ännu okända.\n\n",
+          "reason": "Replace false date, derived interval and unsupported deathplace inference; rest narrative/caveat retained."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "READ-75508522f91d1d17cf4dba30",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "caveat",
+          "old": "1942-03-31 i äldre avskrift måste stämmas av mot C-0930:s 1931-12-04; Eugen är äldre namnversion.",
+          "new": "T-0810: egen avgång på389 är31 4/12 med dittos,1931-12-04, förenlig med accepterad ankomst på392. Äldre1942-03-31 är avskriftsfel; ingen obruten fysisk vistelse följer. Gertruds eget senaste bokankare är överföringen51 22/11 till304,1951-11-22; nästa304 är oläst. De två hushållsbilderna389/388 är nu bevarade; detta bevarar inte äldre negativa dödboksbilder eller register19 och utvidgar inte deras prövade omfång.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\n1942-03-31 i äldre avskrift måste stämmas av mot C-0930:s 1931-12-04; Eugen är äldre namnversion.",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        },
+        {
+          "field": "data.body",
+          "old": "C-0677: F/2:s 1951 s. 67–68/bilder 71–72 saknar Nils; 1952–1955 s. 69–77/bilder 73–81 saknar Gertrud. Restriktionsblad 82 utsträcker inte nollan till 1956–1976. Manifest/API ersätter inte de namngivna lästa bildernas fullkopior.\nSamma bokkedja som nästa sida 392; ingen obruten kedja antas innan datumkonflikten prövats.",
+          "new": "T-0810: egen avgång på389 är31 4/12 med dittos,1931-12-04, förenlig med accepterad ankomst på392. Äldre1942-03-31 är avskriftsfel; ingen obruten fysisk vistelse följer. Gertruds eget senaste bokankare är överföringen51 22/11 till304,1951-11-22; nästa304 är oläst. Äldre datumkonflikt nedan är nu avgjord; negativpassens utförda år och kopierest består.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\nC-0677: F/2:s 1951 s. 67–68/bilder 71–72 saknar Nils; 1952–1955 s. 69–77/bilder 73–81 saknar Gertrud. Restriktionsblad 82 utsträcker inte nollan till 1956–1976. Manifest/API ersätter inte de namngivna lästa bildernas fullkopior.\nSamma bokkedja som nästa sida 392; ingen obruten kedja antas innan datumkonflikten prövats.",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G1-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        },
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind.",
+      "rebindEvidence": [
+        {
+          "index": 0,
+          "old": {
+            "revision_id": "READ-75508522f91d1d17cf4dba30@1",
+            "basis_revision_id": "R-e1f6443ae9491b0f9c0daf18@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          },
+          "newObject": "R-e1f6443ae9491b0f9c0daf18",
+          "newVersion": 2,
+          "reason": "Same source record after image preservation/own-row correction; prior scope and negative receipts unchanged."
+        }
+      ]
+    },
+    {
+      "id": "READ-faf0aedc8e8794a336568201",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "caveat",
+          "old": "Nils död 1951-06-18; Gertrud ingen dödsnot utan hänvisning nya boken 304. Senaste positiva ankare är 1951, inte 1955.",
+          "new": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling. T-0810: egen avgång på389 är31 4/12 med dittos,1931-12-04, förenlig med accepterad ankomst på392. Äldre1942-03-31 är avskriftsfel; ingen obruten fysisk vistelse följer. Gertruds eget senaste bokankare är överföringen51 22/11 till304,1951-11-22; nästa304 är oläst. De två hushållsbilderna389/388 är nu bevarade; detta bevarar inte äldre negativa dödboksbilder eller register19 och utvidgar inte deras prövade omfång.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\nNils död 1951-06-18; Gertrud ingen dödsnot utan hänvisning nya boken 304. Senaste positiva ankare är 1951, inte 1955.",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G1-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        },
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind.",
+      "rebindEvidence": [
+        {
+          "index": 0,
+          "old": {
+            "revision_id": "READ-faf0aedc8e8794a336568201@1",
+            "basis_revision_id": "R-606339082d269e79c0bde039@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          },
+          "newObject": "R-606339082d269e79c0bde039",
+          "newVersion": 2,
+          "reason": "Same source record after image preservation/own-row correction; prior scope and negative receipts unchanged."
+        }
+      ]
+    },
+    {
+      "id": "READ-1de51037acb8a645a6ff8ae0",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "caveat",
+          "old": "Nils August här17januari1875 Tuna; tidigare bok har senare rättad19januari. Ivar Henning28december1918 står mot september i C0675/C0926. Inflytt från3891931-12-04 står mot äldre avgångsläsning1942-03-31 i C0677. Gertrud c/N och tomförhör13 är lästa egna fält. Nils Egnars värnplikt/slutnot och tvåsiffriga flyttår reserveras; äktenskapsbetyg är inte vigsel.",
+          "new": "T-0810: egen avgång på389 är31 4/12 med dittos,1931-12-04, förenlig med accepterad ankomst på392. Äldre1942-03-31 är avskriftsfel; ingen obruten fysisk vistelse följer. Gertruds eget senaste bokankare är överföringen51 22/11 till304,1951-11-22; nästa304 är oläst. De två hushållsbilderna389/388 är nu bevarade; detta bevarar inte äldre negativa dödboksbilder eller register19 och utvidgar inte deras prövade omfång.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\nNils August här17januari1875 Tuna; tidigare bok har senare rättad19januari. Ivar Henning28december1918 står mot september i C0675/C0926. Inflytt från3891931-12-04 står mot äldre avgångsläsning1942-03-31 i C0677. Gertrud c/N och tomförhör13 är lästa egna fält. Nils Egnars värnplikt/slutnot och tvåsiffriga flyttår reserveras; äktenskapsbetyg är inte vigsel.",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G1-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        },
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "P-0468/Q-02",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "### Q-02: Vad hände efter 1927?\n\n- Fråga och betydelse: BO/SAM/HAL/SYN. Hushållet följs till `A II a/6`\n  sidorna 389 och 392, men ingen har prövat om han står kvar där.\n- Känt underlag: namnregistret `A II b/1` hänvisar till sidorna 384 och\n  389; fadern dog 1951-06-18.\n- Alternativ och motprövning: **(a)** han står kvar i hushållet; (b) han\n  har egen rad eller eget hushåll; (c) han har flyttat ut.\n  Diskriminerande uppgift: Sättnas `A II a/6` sidorna 389 och 392 och\n  flyttningslängderna för 1930- och 1940-talen.\n- Källvägar: KP-02\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: han var tolv år 1927 och skulle nå\n  värnpliktsålder omkring 1936; hela hans vuxna liv ligger utanför det\n  lästa materialet. Dataminimering gäller för uppgifter om levande\n  personer.\n- Påverkade personer/påståenden: A-2679; hela hushållet.\n\n",
+          "new": "### Q-02: Vad hände efter 1927?\n\n- Fråga och betydelse: BO/SAM/HAL/SYN. Hushållet följs till `A II a/6`\n  sidorna 389 och 392, men ingen har prövat om han står kvar där.\n- Känt underlag: namnregistret `A II b/1` hänvisar till sidorna 384 och\n  389; fadern dog 1948-06-21.\n- Alternativ och motprövning: **(a)** han står kvar i hushållet; (b) han\n  har egen rad eller eget hushåll; (c) han har flyttat ut.\n  Diskriminerande uppgift: Sättnas `A II a/6` sidorna 389 och 392 och\n  flyttningslängderna för 1930- och 1940-talen.\n- Källvägar: KP-02\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: han var tolv år 1927 och skulle nå\n  värnpliktsålder omkring 1936; hela hans vuxna liv ligger utanför det\n  lästa materialet. Dataminimering gäller för uppgifter om levande\n  personer.\n- Påverkade personer/påståenden: A-2679; hela hushållet.\n\n",
+          "reason": "Only father date corrected; no new own child extraction or identity review."
+        },
+        {
+          "field": "caveat",
+          "old": "Hela akt/profil och C0675/C0677/C0926/C0930/C0898 lästa. Egnar är rättad läsning; Eugen är avförd på384-raden, Ejnar en indexform. Faderskapserkännandet är odaterat. Senare egna fält på392 är positiv kunskap trots profilens oläst-formulering. Föräldrars1951uppgifter blir inte eget livsbevis.",
+          "new": "T0810: faderns hushållsboksdatum är1948-06-21; moderns1951ankare avser hennes egen boköverföring1951-11-22. Ingetdera bevisar barnets egen överlevnad eller vistelse. Barnets tidigare accepterade392-fält består; ingen ny egenrad läst.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\nHela akt/profil och C0675/C0677/C0926/C0930/C0898 lästa. Egnar är rättad läsning; Eugen är avförd på384-raden, Ejnar en indexform. Faderskapserkännandet är odaterat. Senare egna fält på392 är positiv kunskap trots profilens oläst-formulering. Föräldrars1951uppgifter blir inte eget livsbevis.",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    },
+    {
+      "id": "P-0469/Q-02",
+      "expectedVersion": 1,
+      "disposition": "REVISE_EXACT_CURRENT_CONSEQUENCE",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "### Q-02: Vad hände efter 1927?\n\n- Fråga och betydelse: BO/SAM/HAL/SYN. Hushållet följs till `A II a/6`\n  sidorna 389 och 392, men ingen har prövat om han står kvar där.\n- Känt underlag: namnregistret `A II b/1` hänvisar till sidorna 384 och\n  389; fadern dog 1951-06-18.\n- Alternativ och motprövning: **(a)** han står kvar i hushållet; (b) han\n  har egen rad; (c) han har flyttat ut. Diskriminerande uppgift:\n  Sättnas `A II a/6` sidorna 389 och 392 och flyttningslängderna för\n  1930- och 1940-talen.\n- Källvägar: KP-02\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: han var nio år 1927, och hela hans vuxna liv\n  ligger utanför det lästa materialet. Dataminimering gäller för uppgifter\n  om levande personer.\n- Påverkade personer/påståenden: A-2680; hela hushållet.\n\n",
+          "new": "### Q-02: Vad hände efter 1927?\n\n- Fråga och betydelse: BO/SAM/HAL/SYN. Hushållet följs till `A II a/6`\n  sidorna 389 och 392, men ingen har prövat om han står kvar där.\n- Känt underlag: namnregistret `A II b/1` hänvisar till sidorna 384 och\n  389; fadern dog 1948-06-21.\n- Alternativ och motprövning: **(a)** han står kvar i hushållet; (b) han\n  har egen rad; (c) han har flyttat ut. Diskriminerande uppgift:\n  Sättnas `A II a/6` sidorna 389 och 392 och flyttningslängderna för\n  1930- och 1940-talen.\n- Källvägar: KP-02\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: han var nio år 1927, och hela hans vuxna liv\n  ligger utanför det lästa materialet. Dataminimering gäller för uppgifter\n  om levande personer.\n- Påverkade personer/påståenden: A-2680; hela hushållet.\n\n",
+          "reason": "Only father date corrected; no new own child extraction or identity review."
+        },
+        {
+          "field": "caveat",
+          "old": "Hela akt/profil och C0675/C0677/C0926/C0930/C0898 lästa. September/december1918 förblir olöst; ingen identitetsdubblering, konceptionsmånad eller vald födelsemånad. Senare egna fält på392 är positiv kunskap trots profilens oläst-formulering. Föräldrars1951uppgifter blir inte eget livsbevis.",
+          "new": "T0810: faderns hushållsboksdatum är1948-06-21; moderns1951ankare avser hennes egen boköverföring1951-11-22. Ingetdera bevisar barnets egen överlevnad eller vistelse. Barnets tidigare accepterade392-fält består; ingen ny egenrad läst.\n\nTidigare lydelse, historisk inom det uttryckligen rättade omfånget:\nHela akt/profil och C0675/C0677/C0926/C0930/C0898 lästa. September/december1918 förblir olöst; ingen identitetsdubblering, konceptionsmånad eller vald födelsemånad. Senare egna fält på392 är positiv kunskap trots profilens oläst-formulering. Föräldrars1951uppgifter blir inte eget livsbevis.",
+          "reason": "Current source-bound qualification, preserving exact older wording."
+        }
+      ],
+      "appendEvidence": [
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ],
+      "preserve": "All other metadata, outcomes, ordered origins/evidence remain exact; no implicit rebind."
+    }
+  ],
+  "newObjects": [
+    {
+      "id": "ASSESSMENT-T0810-P0467-death1951-search-applicability",
+      "kind": "assessment",
+      "subject_id": "P-0467",
+      "criteria": "search_result_applicability/1",
+      "outcome": "not_applicable_to_corrected1948_question",
+      "body": "T-0810, 2026-10-08: G2 på Sättna AIIa/8 s388 visar Gertruds egen änkemarkering48 21/6 och makens dödsdatum48 21/6 i nödvändig attributionskontext. Nils Augusts rapporterade dödsdag rättas därför från äldre avskriftsfel1951-06-18 till1948-06-21. Detta är hushållsbokens uppgift, inte en ny egen dödbokspost. Dödsort, dödsorsak och grav är fortfarande obelagda. Det faktiskt utförda1951-nollet består exakt men säger inget om en oprövad1948-dödsrad och ger inte stöd för annan dödsförsamling. SEARCH-P-0467-death1951@1 avser faktiskt SättnaF/2 hela1951, s67–68/bild71–72. Det kvittot och dess kopie-/metadatagränser består. Ingen dödsbok1948 har lästs eller sökts genom T0810. T0231 äger äldre kopierest; T0628 framtida egen dödsfråga och T0235 Gertruds änkeekonomiska nyckel. Inga tidigare nollresultat omtolkas till nya negativa resultat.",
+      "disposition": "accepted",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "Source-bound applicability correction, not a search operation or an upgrade of incomplete historical search provenance.",
+      "caveat": "Nils date derives from household context, not newly read own deathentry; no own identity/tree/LIFE approval.",
+      "origins": [],
+      "evidence": [
+        {
+          "object": "SEARCH-P-0467-death1951",
+          "version": 1,
+          "role": "context",
+          "note": "Exakt historiskt utfört1951pass; inte1948sökning."
+        },
+        {
+          "object": "TR-T0810-G2-full-own-row",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt T0810 egenrad och minsta nödvändiga attributionskontext; ingen ny fullpostläsning för Nils eller barnen."
+        }
+      ]
+    }
+  ],
+  "retains": [
+    {
+      "id": "SEARCH-P-0467-death1951",
+      "version": 1,
+      "disposition": "RETAIN_EXACT",
+      "reason": "Actual historical1951 search receipt, years/method/result/provenance stay exact. New applicability assessment separates corrected1948 question; no fabricated searchmetadata."
+    },
+    {
+      "id": "S-0516",
+      "version": 1,
+      "disposition": "RETAIN_EXACT",
+      "reason": "Full rationale explicitly preserves verbatim older source description/metadata; historical old dates superseded by current R/TR/observations, not a new source claim."
+    },
+    {
+      "id": "TR-000adf16b1301183670de872",
+      "version": 1,
+      "disposition": "RETAIN_EXACT",
+      "reason": "Full rationale explicitly older verbatim C0930 partial transcription, no new originalreading. Receiver1931 accepted; old comparison reservation historical, corrected via current G1 and READ."
+    },
+    {
+      "id": "EP-E-death-P-0467-P-0467-principal",
+      "version": 1,
+      "disposition": "RETAIN_EXACT",
+      "reason": "Same event/person role and unknown deathplace. Event date is corrected separately; participation data has no date claim."
+    }
+  ],
+  "canonicalApproval": false,
+  "source": "settled-five-own-row-reading-v1.json",
+  "qualification": "No other-person original scope extension; all old own identity/tree/LIFE outcomes remain unchanged. Any required additional evidence-version rebind returns to primary before implementation."
+}

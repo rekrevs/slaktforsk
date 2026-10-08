@@ -1,0 +1,44 @@
+{
+  "task": "T-0808",
+  "amends": "primary-current-consequence-spec-v1.json",
+  "failed_preflight_sha256": "fd398470439c37551c4130e4dcb66b64ff35e8d7705f8066fc2b9f9bcb612b7b",
+  "decisions": [
+    {
+      "id": "AS-P0243-untranscribed-fields",
+      "index": 0,
+      "basis": "O-P-0243-C0270-own",
+      "old_version": 1,
+      "new_version": 2,
+      "disposition": "REBIND_EXACT",
+      "reason": "C0270egenpost har nu faktiskt fadder-/förrättarutvinning och rättad faderstitel hemmansägare; samma Elin/födelsedag, ingen ny personrelation. AS aktuella fullfältsprecisering kräver den nya O2-versionen."
+    },
+    {
+      "id": "AS-P0243-untranscribed-fields",
+      "index": 2,
+      "basis": "O-P-0243-C0406-own",
+      "old_version": 1,
+      "new_version": 2,
+      "disposition": "REBIND_EXACT",
+      "reason": "C0406egna kyrkliga fält till rågränser ersätter faktisk äldre utvinningsrest; samma Elinrad3 och accepterade datum. AS aktuella slutsats ska stödjas av O2."
+    },
+    {
+      "id": "AS-P0243-untranscribed-fields",
+      "index": 3,
+      "basis": "O-P-0243-C0407-own",
+      "old_version": 1,
+      "new_version": 2,
+      "disposition": "REBIND_EXACT",
+      "reason": "C0407egenrad2fullfält, barnmorskeelev-not med osäker verbfras, ingen examen; AS aktuella slutsats ska stödjas av O2, inte äldre konfirmationsgissning."
+    },
+    {
+      "id": "AS-P0243-untranscribed-fields",
+      "index": 5,
+      "basis": "O-P-0243-C0944-own",
+      "old_version": 1,
+      "new_version": 2,
+      "disposition": "REBIND_EXACT",
+      "reason": "Redan aktuell T0676gravobservation2 har exakt återanskaffad egenHTML/URL/hash utan ändrade accepterade datum. AS tidigare @1-bevarandeskuld är inaktuell; aktuellt bevaringspåstående binds till2 utan att låtsas återfunnen äldre fångst."
+    }
+  ],
+  "preserve": "Each exact evidence role/note/array position unchanged; only specified version1→2. Stable dependency order must place each revised O before AS. No other bindings authorized."
+}

@@ -1,5 +1,6 @@
 import {sha,canonical} from './archive.mjs';
 import {transaction} from './store.mjs';
+import {validateSearchMemory} from './search-memory.mjs';
 
 export const DOMAIN_TABLES=['operation','object','revision','origin','dependency','review_request','review_resolution','person','source','record','record_asset','transcription','mention','observation','identity','identity_resolution','place','event','participation','relation','fact','question','search','assessment','narrative'];
 const payloadKinds=new Set(DOMAIN_TABLES.slice(DOMAIN_TABLES.indexOf('person')).filter(k=>k!=='record_asset'));
@@ -64,11 +65,14 @@ function validatePayload(db,m) {
   return columns;
 }
 
+// Unmarked calls retain historical/library restore semantics. New research
+// enters through writeOperation, including apply-legacy negative receipts.
 export function applyOperation(db,request,{legacy=false,recordedAt=new Date().toISOString()}={}) {
   if(!request.id||!request.actor||!request.reason||!Array.isArray(request.changes))throw Error('Operation kräver id, actor, reason och changes');
   if(request.changes.length===0&&!request.resolve?.length&&!request.mappings?.length&&!request.unitDecisions?.length)throw Error('Tom operation');
   const dependencyReviewVersion=Object.hasOwn(request,'dependencyReviewVersion')?request.dependencyReviewVersion:1;
   if(![1,2].includes(dependencyReviewVersion))throw Error('Okänd dependencyReviewVersion; stöder 1 eller 2');
+  if(Object.hasOwn(request,'searchMemoryVersion')&&request.searchMemoryVersion!==1)throw Error('Okänd searchMemoryVersion; stöder 1');
   const requestHash=sha(canonical(request));
   return transaction(db,()=> {
     const previous=db.prepare('SELECT request_hash FROM operation WHERE id=?').get(request.id);
@@ -115,6 +119,7 @@ export function applyOperation(db,request,{legacy=false,recordedAt=new Date().to
         db.prepare('INSERT INTO object VALUES (?,?)').run(m.id,m.kind);
       }
       const columns=validatePayload(db,m);
+      if(request.searchMemoryVersion===1&&m.kind==='search'&&m.data.outcome==='negative')validateSearchMemory(db,m);
       const version=(current?.version??0)+1,id=`${m.id}@${version}`;
       const origins=m.origins??[],evidence=m.evidence??[];
       const hasBoundReference=!legacy&&(boundReferences[m.kind]??[]).some(field=>m.data[field]!=null);
@@ -279,7 +284,7 @@ export function personView(db,id) {
     interpretationQuestions:db.prepare(`SELECT d.unit_id,d.question,d.rationale,u.document_path,u.start_line,u.end_line FROM current_unit_decision d JOIN unit u ON u.id=d.unit_id WHERE u.owner_id=? AND d.state='pending_interpretation' ORDER BY u.document_path,u.start_line,u.end_line,u.id`).all(id),
     observations:select('observation',`(${linked}) OR x.mention_id IN (SELECT i.mention_id FROM current_revision ir JOIN identity i ON i.revision_id=ir.id WHERE i.person_id=? AND i.decision='accepted')`,id,id,id),
     mentions:select('mention',`(${linked}) OR r.object_id IN (SELECT i.mention_id FROM current_revision ir JOIN identity i ON i.revision_id=ir.id WHERE i.person_id=? AND i.decision='accepted')`,id,id,id),
-    searches:select('search',`(${linked}) OR x.question_id IN (SELECT qr.object_id FROM current_revision qr JOIN question q ON q.revision_id=qr.id WHERE q.subject_id=?)`,id,id,id),
+    searches:select('search',`(${linked}) OR x.question_id IN (SELECT qr.object_id FROM current_revision qr JOIN question q ON q.revision_id=qr.id WHERE q.subject_id=?) OR EXISTS (SELECT 1 FROM json_each(x.scope_json,'$.search_memory.subjects') subject WHERE subject.value=?)`,id,id,id,id),
     importAssessments:person?[]:select('assessment','r.object_id=?',`IMPORT-${id}`),
     identityMappings:db.prepare('SELECT * FROM legacy_mapping WHERE legacy_id=? OR target_id=? ORDER BY id').all(id,id),
     identities:select('identity','x.person_id=?',id),

@@ -1,0 +1,182 @@
+{
+  "task": "T-0812",
+  "state": {
+    "journal_head": 480,
+    "pending": 0
+  },
+  "changes142_full_native_exact": true,
+  "individual136_resolutions_order_rationales_exact": true,
+  "step_retains": [
+    378,
+    89,
+    2
+  ],
+  "step_retain_rows_total": 469,
+  "unique_retained_objects_not_claimed": true,
+  "field_scope_retains": 5,
+  "new_media": 0,
+  "originals_read": 2,
+  "existing_originals_reused": 2,
+  "old44nonderived_rows_order_preserved": true,
+  "persons": 536,
+  "nonfocal534_full_axes_exact": true,
+  "relations20_full_native_exact": true,
+  "focal_reviews": [
+    {
+      "person": "P-0255",
+      "identityReview": {
+        "outcome": "passed",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "IDENTITY-REVIEW-T0812-P0255@1"
+        ]
+      },
+      "treeEffect": {
+        "outcome": "supporting",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "TREE-EFFECT-T0812-P0255@1"
+        ]
+      },
+      "legacyFullContract": {
+        "outcome": "failed",
+        "usable": true,
+        "source": "legacy_header",
+        "scope": "legacy_full_contract",
+        "revisions": [
+          "ASSESSMENT-P-0255@3"
+        ]
+      }
+    },
+    {
+      "person": "P-0254",
+      "identityReview": {
+        "outcome": "passed",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "IDENTITY-REVIEW-T0812-P0254@1"
+        ]
+      },
+      "treeEffect": {
+        "outcome": "supporting",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "TREE-EFFECT-T0812-P0254@1"
+        ]
+      },
+      "legacyFullContract": {
+        "outcome": "failed",
+        "usable": true,
+        "source": "legacy_header",
+        "scope": "legacy_full_contract",
+        "revisions": [
+          "ASSESSMENT-P-0254@2"
+        ]
+      }
+    }
+  ],
+  "focal_legacy_backing_revision": "ASSESSMENT-P0254/P0255@1→@2 source-approved copy qualification; fullcontract failed scope unchanged, no native LIFE created",
+  "pedigree_controls": [
+    {
+      "root": "P-0269",
+      "baseline": 38,
+      "final": 41,
+      "all_old_paths_exact": true,
+      "added_paths": [
+        {
+          "person": "P-0254",
+          "depth": 4,
+          "via": [
+            "REL-parent-P-0210-P-0269",
+            "REL-parent-P-0211-P-0210",
+            "REL-parent-P-0246-P-0211",
+            "REL-parent-P-0254-P-0246"
+          ]
+        },
+        {
+          "person": "P-0255",
+          "depth": 4,
+          "via": [
+            "REL-parent-P-0210-P-0269",
+            "REL-parent-P-0211-P-0210",
+            "REL-parent-P-0246-P-0211",
+            "REL-parent-P-0255-P-0246"
+          ]
+        },
+        {
+          "person": "P-0315",
+          "depth": 5,
+          "via": [
+            "REL-parent-P-0210-P-0269",
+            "REL-parent-P-0211-P-0210",
+            "REL-parent-P-0246-P-0211",
+            "REL-parent-P-0254-P-0246",
+            "REL-parent-P-0315-P-0254"
+          ]
+        }
+      ]
+    },
+    {
+      "root": "P-0270",
+      "baseline": 38,
+      "final": 41,
+      "all_old_paths_exact": true,
+      "added_paths": [
+        {
+          "person": "P-0254",
+          "depth": 4,
+          "via": [
+            "REL-parent-P-0210-P-0270",
+            "REL-parent-P-0211-P-0210",
+            "REL-parent-P-0246-P-0211",
+            "REL-parent-P-0254-P-0246"
+          ]
+        },
+        {
+          "person": "P-0255",
+          "depth": 4,
+          "via": [
+            "REL-parent-P-0210-P-0270",
+            "REL-parent-P-0211-P-0210",
+            "REL-parent-P-0246-P-0211",
+            "REL-parent-P-0255-P-0246"
+          ]
+        },
+        {
+          "person": "P-0315",
+          "depth": 5,
+          "via": [
+            "REL-parent-P-0210-P-0270",
+            "REL-parent-P-0211-P-0210",
+            "REL-parent-P-0246-P-0211",
+            "REL-parent-P-0254-P-0246",
+            "REL-parent-P-0315-P-0254"
+          ]
+        }
+      ]
+    }
+  ],
+  "verify_assets_pass": true,
+  "main477_unchanged": true,
+  "attempts_preserved": [
+    "initial478 actual134",
+    "repairtableV1 sourceextras correctedONLYtableV2",
+    "fresh477→478→479 actual2",
+    "immutable479→480 exacttworesolve",
+    "builderconsole inherited six/five label onlystdout, actualJSONtwo/two exact"
+  ],
+  "actual_dependency_exposure": "Both own134 and own2 assessments sealed ROOT ONLY before comparison release.",
+  "P0315_path_qualification": "Third addedpath is P0315 with preexisting passed/supporting gate EXACT baseline; no new P0315identity decision. All534nonfocal fullreview structures unchanged.",
+  "elapsed_seconds": {
+    "initial": 31.743677582999226,
+    "two_op_sequence": 43.359349375008605,
+    "third": 16.604608374997042,
+    "final_readers": 82.60776833299315
+  },
+  "model_usage": "unknown; root captures role usage after final responses",
+  "canonical_apply": "Root only; worker did not apply"
+}

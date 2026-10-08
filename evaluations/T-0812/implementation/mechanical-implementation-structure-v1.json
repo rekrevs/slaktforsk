@@ -1,0 +1,61 @@
+{
+  "task": "T-0812",
+  "status": "MECHANICAL_STRUCTURE_ONLY_AWAIT_FINAL_SOURCE_SETTLEMENT",
+  "observed_utc": "2026-10-07T23:43:28.959691+00:00",
+  "baseline_state": {
+    "journal_head": 477,
+    "pending": 0
+  },
+  "baseline_input_pin": {
+    "path": "evaluations/T-0812/preparation/locked-current-input-manifest-v1.json",
+    "sha256": "f9f6c7b08da427a71b8ecb8d7b6ce1a559d244b28c84b787864d16cc8f26780f"
+  },
+  "baseline_backup_pin": {
+    "path": "evaluations/T-0812/preparation/baseline477.sqlite",
+    "sha256": "73dd4b2ff15074b1ba9c8a5bcd63ea9c43acef87f8eb6c75df1229ba26d21cd6"
+  },
+  "reused_method_pins": [
+    {
+      "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py",
+      "sha256": "ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2"
+    },
+    {
+      "path": "evaluations/T-0811/implementation/materialize-literal-v2.py",
+      "sha256": "7450274171009e6cecfab14c1b5877d380544135dcd72f90dbab26b5fa44e450"
+    },
+    {
+      "path": "evaluations/T-0811/implementation/stage-initial-UNRUN-v2.py",
+      "sha256": "f67a69f46b30235661546ba2aba279bd27771ea67764faf42e3702e9ef369531"
+    },
+    {
+      "path": "evaluations/T-0811/implementation/protect-final-native-READONLY-v2.py",
+      "sha256": "a6f22c01bcb5cb6ff500e0082554461b638a84cc86fd6b537afd7b9e2822d0df"
+    },
+    {
+      "path": "evaluations/T-0811/implementation/compare-final-axes-relations-READONLY-v2.py",
+      "sha256": "be45c7c8523f97b1635dea19518b8bdc6882a09ed6cc8702383636a5b3c502b0"
+    },
+    {
+      "path": "evaluations/T-0811/implementation/compare-actual-main-to-stage-READONLY-v1.py",
+      "sha256": "abaaa3401945c0f5779731fc643f616504ddea11507fee4c341deae2311a00b2"
+    }
+  ],
+  "guards": [
+    "No literal operation until complete source-settled field/support/rebind/disposition design.",
+    "Verify every exact old field; zero or unexpected multiple matches return both source roles.",
+    "Actual required and allowed native data schema fields for ALL APIs, including transcription.reading_note.",
+    "For EACH target evidence array, require unique (object,version,role) tuple, regardless of note. Report collisions with indices and full edges; no generic dedup.",
+    "Preserve metadata/data arrays/origins/evidence/assets/media native order; only explicit source-approved deltas.",
+    "Every superseded or projected support requires individual source disposition; no current-version substitution.",
+    "Fresh baseline clone only after both exact operation/table SOURCE gates and root authorization.",
+    "Capture actual pending/current/old/basis/stronger before any further dependent changes; individual resolution SOURCE decisions only.",
+    "Compare full old44 nonderived rows: WITHOUT ROWID oldrow membership, rowid exactprefix; native array order preserved.",
+    "Compare all536 review structures with explicit source-approved focal/backing differences, no blanket field waiver.",
+    "Actual relation count from current data; fullnative relations protected unless explicitly source-revised.",
+    "Root canonical only after final exact SOURCE gates, fresh live baseline and controlled CLI; readonly actual all50/nativeorder comparison allows ONLY named operation.recorded_at runtime differences."
+  ],
+  "source_originals_opened": 0,
+  "native_writes": 0,
+  "operation_materialized": false,
+  "root_task_adoption_files_modified": false
+}

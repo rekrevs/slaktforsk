@@ -1,0 +1,140 @@
+{
+  "state": {
+    "journal_head": 477,
+    "pending": 0
+  },
+  "persons": 536,
+  "all_person_axis_differences": [
+    {
+      "person": "P-0016",
+      "differences": {
+        "identityGate": {
+          "before": false,
+          "after": true
+        },
+        "identityReview": {
+          "before": {
+            "outcome": "failed",
+            "usable": true,
+            "source": "legacy_header",
+            "revisions": [
+              "ASSESSMENT-P-0016@1"
+            ]
+          },
+          "after": {
+            "outcome": "passed",
+            "usable": true,
+            "source": "native",
+            "revisions": [
+              "IDENTITY-REVIEW-T0811-P0016@1"
+            ]
+          }
+        },
+        "treeEffect": {
+          "before": {
+            "outcome": "waiting",
+            "usable": true,
+            "source": "legacy_header",
+            "revisions": [
+              "ASSESSMENT-P-0016@1"
+            ]
+          },
+          "after": {
+            "outcome": "supporting",
+            "usable": true,
+            "source": "native",
+            "revisions": [
+              "TREE-EFFECT-T0811-P0016@1"
+            ]
+          }
+        },
+        "lifePictureReview": {
+          "before": {
+            "outcome": "failed",
+            "usable": true,
+            "source": "legacy_header",
+            "scope": "legacy_full_contract",
+            "revisions": [
+              "ASSESSMENT-P-0016@1"
+            ]
+          },
+          "after": {
+            "outcome": "failed",
+            "usable": true,
+            "source": "legacy_header",
+            "scope": "legacy_full_contract",
+            "revisions": [
+              "ASSESSMENT-P-0016@2"
+            ]
+          }
+        },
+        "stopReasons": {
+          "before": [
+            {
+              "code": "gate_outcome_not_supporting",
+              "axis": "identity_review",
+              "revision_ids": [
+                "ASSESSMENT-P-0016@1"
+              ],
+              "message": "Identitetsgranskning är failed; grinden kräver passed."
+            },
+            {
+              "code": "gate_outcome_not_supporting",
+              "axis": "tree_effect",
+              "revision_ids": [
+                "ASSESSMENT-P-0016@1"
+              ],
+              "message": "Trädverkan är waiting; grinden kräver supporting."
+            }
+          ],
+          "after": []
+        }
+      },
+      "requires_source_qualification": false
+    }
+  ],
+  "relations": [
+    {
+      "object_id": "REL-P-0016-P0007",
+      "revision": "REL-P-0016-P0007@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-P-0110-P0016",
+      "revision": "REL-P-0110-P0016@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-P-0111-P0016",
+      "revision": "REL-P-0111-P0016@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-P0016-P0532",
+      "revision": "REL-P0016-P0532@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-parent-P-0016-P-0017",
+      "revision": "REL-parent-P-0016-P-0017@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-parent-P-0016-P-0533",
+      "revision": "REL-parent-P-0016-P-0533@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-parent-P-0016-P-0534",
+      "revision": "REL-parent-P-0016-P-0534@1",
+      "full_native_metadata_order_exact": true
+    },
+    {
+      "object_id": "REL-sibling-P-0016-P-0112",
+      "revision": "REL-sibling-P-0016-P-0112@1",
+      "full_native_metadata_order_exact": true
+    }
+  ],
+  "all_relation_native_exact": true,
+  "note": "Initial stage full review structures compared; each changed backing revision must be individually source-qualified. No blanket normalization. Outcomes and scope remain distinct from backing metadata."
+}

@@ -1,0 +1,9 @@
+from pathlib import Path
+import sqlite3
+c=sqlite3.connect('genealogy2/data/research.sqlite')
+assert c.execute('select max(sequence) from operation_payload').fetchone()[0]==476
+text='\n\n## Återupptagning 2026-10-08 — accepterad söknyckelrättelse från T-0810\n\nT-0810:s fulla egna läsning av Gertruds rad i Sättna AIIa/8 sida388, bild00205396_00087, ger eget änkefält48 21/6 och makens minimala dödkontext48 21/6: Nils August Hallins dödsdatum1948-06-21. Äldre1951-06-18 var felavskrift; egen överföring51 22/11 till N.b.304 är1951-11-22, inte döddatum. Accepterade operationer: T-0810/five-own-row-adoption-two-images-identity-v1; T-0810/seven-current-copy-repairs-and-59-individual-decisions-v1; T-0810/six-individual-followup-retains-v1 (journal474–476).\n\nTidigare1951söknoll och dess exakta kvitton/material/lästa omfång är historik och ändras inte. De prövar inte dödsåret1948. Ingen ny1948sökning har utförts i T-0810; dödsorten är fortfarande okänd. Återbruk ska före nästa sökning bedömas enligt den beständiga sökminnesstandarden; bristande äldre metadata fabriceras inte.\n'
+with Path('wotan/dev-log/T-0235.md').open('a') as f:
+ f.write(text+'Aktuell del3 använder1948-06-21 som söknyckel för Gertruds änkeekonomi, högst två katalogingångar plus personindex enligt tidigare AC. Del1Eriks1910bouppteckning och del2nummer204/166/81, status/priority/ägare och övriga stoppgränser består. Ingen passage startas här.\n')
+with Path('wotan/dev-log/T-0628.md').open('a') as f:
+ f.write(text+'Aktuell del2 och dess dödsorts-AC gäller1948-06-21. Den äldre indiciekedjan från1951söknoll ger ingen slutsats om1948dödsort; framtida källval måste prövas med rättat år. En dödsort får fortsatt införas endast med läst post. Alla andra delscopes och AC, första hustrun1914, Ivars olösta födelsemånad och faderskapshandlingen, status/priority och T-0214:s familjepostägande består. Ingen ny källa öppnas här.\n')

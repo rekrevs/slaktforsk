@@ -1,0 +1,70 @@
+# T-0215: Agnes och Märtas egna födelser samt Indalflytten1924
+
+**Status**: READY | **Size**: M
+**Phase**: -
+
+## Context och scope
+
+PCD-2026-09-07-026, fynd i T-0119. P-0256/P-0257 och föräldrarna P-0254/P-0255. Agnes Katarina Augusta: Indals födelsebok kalenderåret1888, högst denna enda årgång med namn/föräldrar som filter; Märta: februari1892, med1892-02-04 som senare datum och Kristina/Viktoria som konkurrerande namnformer. C-0242/C-0243/C-0925 återanvänds. Därefter endast Indals inflyttningsbok september–oktober1924 för Märta och sonen Ture Attilio[?], följ högst en direkt angiven mottagarfolio; ingen vidare livskedja eller sonens faderutredning. Fulla målposter, datum-/namnkonflikt och eventuell faktisk personregistrering prövas innan modelländring. Stopp efter två födelsepassager, två inflyttningsmånader och en folio.
+
+## Acceptance Criteria
+
+- [ ] Varje ovan angiven passage har ett dokumenterat utfall inom stoppgränsen; tidigare tillräcklig forskning återanvänds.
+- [ ] Hela faktiskt öppnade målposter utvunna, med fulloriginal, SHA-256 och källbundna läsosäkerheter; olästa delar eller hinder uttryckliga.
+- [ ] Berörda akter/profiler och anhörigberoenden avstämda utan övervida noll eller obestyrkt identitet; identitets- och livsbildsnivå omprövade där resultatet berör dem.
+- [ ] Följder utanför omfånget har egen avgränsad ägare; relevant verifiering godkänd och en batchlogg per passage.
+
+## Approach
+
+Läs aktuella personprofiler och citationsrättelser före första åtkomst.
+Följ source-strategy och method-riksarkivet; fullfölj möjliga oberoende
+passager om en volym är åtkomstbegränsad. Inget ägarmandat för beställning,
+publicering, PDF, dashboard eller nytt privatliv följer av denna task.
+
+## Verification och Outcome
+
+Ännu ej utfört.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsning från granskningsfynd; inga nya källpassager utförda här.
+- Nästa ej utförda steg: läs aktuella profiler och börja första olästa angivna passage efter programmet.
+- Hinder: inga konstaterade; faktisk åtkomst prövas per enhet.
+
+## Inkommet från T-0158, 2026-09-09
+
+**P-0254 A-2082 är begränsat nedgraderad** från `CORROBORATED`/`hög` till
+`TRANSCRIBED`/`medel`. Påståendet vilade på "två folkräkningar", men C-0388 och
+C-0389 bär båda dokumenthuvudet `Utdrag ur Husförhörslängden` för Indals
+församling och är avskrifter ur samma längdserie — en informationsväg, inte
+två. Ingen sakuppgift ändras.
+
+Två utvinningsrester i redan sparade bilder hör till denna kohort:
+
+- **C-0274** (sonens födelsepost 1862) saknar helt fullpostprövning.
+  Dopvittneskolumnens tio namngivna personer är inte avskrivna och moderns
+  kyrktagningsdatum `27/7` saknas. Samma citation har dessutom fått tre
+  avskriftsfel rättade 2026-09-09 — `Byn fol. 85` i stället för `fol. 35`,
+  faderns titel `Bd:n` i stället för `Arb.`, och moderns namn
+  `Cajsa Märta Dahlsten` i stället för `Andersdotter`.
+- **C-0512** (Indal A I/12 s. 132) saknar fullpostprövande tillägg; endast sex
+  kärnrader är avskrivna.
+
+
+## T-0793 förlustfri närfrontsplanering 2026-10-07
+
+Äldre full scope, AC, checkpoint och status ovan bevaras. V3:s individuella källenhetsbeslut styr över kandidatens tak; ingen ännu ej utförd originalenhet överförs ovillkorligt. Eventuell nödvändig enhet kräver exakt SOURCE/oberoende godkänd ändring före utförande.
+
+- T-0812: Conditionally transfer only C0274 after individual necessity approval from T0420; T0420 C0512/C0436/C0437 and other persons remain. T0215 two daughters births/1924migration remains and C0274 note points to new owner as reuse. C0456 exact own-field need is current PK/path requirement; no identified separate executable old task for it after bounded literal search, so T0812 explicitly owns it.
+
+
+## T-0812 förlustfri adoption 2026-10-08
+
+Två egna initiala bedömningar, starkare underlag och separat SOURCE-scopegate har prövats. Exakt plan: `evaluations/T-0812/primary-two-unit-source-plan-v1.json` SHA256 `059b4770c059bc12359c8af2e8dee95a3ed82465a4fba1676db9f10629d2e126`; oberoende gate `b9a18450487846fc32dab5d597714c01c277e0076fb6e97d4be49c99c7b7b710`.
+
+C0274 Sättna C/5 s5 post24, A0003851_00013, full relevant födelse-/doppost inklusive moderns ålder, vittnen och kyrktagning överförs nu till ensam utförandeägare T0812. Nödvändiga följdrättelser från just posten ingår; inga andra original eller ny föräldra-/sidoforskning. Resultatet återbrukas här efter faktisk acceptans; posten är ännu inte läst i denna uppgift.
+
+Äldre formuleringar om tio namngivna outvunna vittnen och saknad kyrktagning bevaras som historik. Starkare accepterat F-P-0254-source_correction-C0274@2 och aktuella observationer innehåller redan sju namngivna samt tre onamngivna hustrur och 27/7. Faktisk kvarstående rest är moderns outvunna ålder och hela postens avstämning; tio namngivna är inte certifierad bildläsning.
+
+T0215 behåller Agnes P0256:s Indalfödelse kalenderåret1888, Märta P0257:s februari1892 med datum-/namnfrågan, C0242/C0243/C0925-återbruk samt inflyttning september–oktober1924 för Märta/Ture Attilio[?] och högst en direkt mottagarfolio. C0512-rest och A2082:s beroende folkräkningsbedömning består. Inget nytt faderskap eller senare liv ingår. Full äldre AC/checkpoint/status/priority/after består. Återstart: när T0215 faktiskt väljs och dess eget utförande är beställt; C0274 återbrukas från T0812, aldrig dubbelutvinns.

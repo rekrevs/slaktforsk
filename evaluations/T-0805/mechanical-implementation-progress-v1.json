@@ -1,0 +1,73 @@
+{
+  "task": "T-0805",
+  "role": "Sol mechanical implementation; no further delegation",
+  "created_utc": "2026-10-07T13:01:04.167570+00:00",
+  "state": "Targeted checks complete; full genealogy2 suite in progress",
+  "files": [
+    {
+      "path": "genealogy2/cli.mjs",
+      "sha256": "375181fae655d86aba4cabb27f2d226d01241174495b25579525e73461c0e00e"
+    },
+    {
+      "path": "genealogy2/lib/domain.mjs",
+      "sha256": "6fa745ada86161b2639e2e3cb960ac0061701a97279d829ead0f3bf873ad1208"
+    },
+    {
+      "path": "genealogy2/lib/recovery.mjs",
+      "sha256": "5f190f647feee96591c2ac339791d43323c13c7e5b36b15a36680e81b157ce4c"
+    },
+    {
+      "path": "genealogy2/lib/search-memory.mjs",
+      "sha256": "217784eee316cecfad1c76b975b43a56e525c98c1614256c1a772b8ee08e8dab"
+    },
+    {
+      "path": "genealogy2/lib/work.mjs",
+      "sha256": "01de1588791ecb807e2c4f92bea3a29c80505f5b3d5a7fb1d7a8d84996ab2b83"
+    },
+    {
+      "path": "genealogy2/test/search-memory.test.mjs",
+      "sha256": "8b2b08e308d12a3f277f52828c81c923828500bfc2a5a051fbdead32182be70f"
+    },
+    {
+      "path": "genealogy2/test/work.test.mjs",
+      "sha256": "7f8212758c7380375970fc5c372889fb7b22156bb8f6655cbfc89f09ba1067f5"
+    },
+    {
+      "path": "wotan/node-links.json",
+      "sha256": "b4617811815fb9bae79ff123079ad08558fa630aca2e1ee2990adfc768f9184f"
+    }
+  ],
+  "targeted": {
+    "log": "evaluations/T-0805/targeted-final-v4.log",
+    "tests": 6,
+    "pass": 6,
+    "fail": 0,
+    "duration_ms": 1645.636208
+  },
+  "full_suite": {
+    "command": "node --test --test-concurrency=4 genealogy2/test/*.test.mjs",
+    "log": "evaluations/T-0805/genealogy2-full-suite-v1.log",
+    "session": 21618,
+    "status": "running"
+  },
+  "implementation": [
+    "read-only work CLI JSON/default Markdown for fixed six association routes",
+    "live Wotan status/dependencies and shared task navigation without independent route status",
+    "current raw question/path outcomes, full caveats/evidence and scoped receipt bodies preserved",
+    "explicit search subjects and canonical question subject lookup; no name inference",
+    "new native writeOperation annotates searchMemoryVersion1 and validates negative search-memory/1 atomically",
+    "old unmarked library operations/replay/idempotent hashes retained; marked identical retries return accepted receipt even after source revisions"
+  ],
+  "settled_limitations": [
+    "structural validation cannot certify actual exhaustive reading or hidden umbrella scopes",
+    "each material/unit requires separate search receipt linked same question/subjects; no multi-material schema",
+    "insufficient inherited provenance does not permit new negative revision; correction is supported assessment/conflict until separate authorized design",
+    "only six-route pilot navigation; no global outstanding-work coverage",
+    "provider version/snapshot unknowns are explicit reasoned unknown, never fabricated"
+  ],
+  "unchanged_authority": [
+    "No canonical DB or journal writes by Sol",
+    "No task status, normative docs, Project Control, dashboard/archive, commit/push mutations by Sol"
+  ],
+  "observable_usage": "Actual new-turn model usage not observable here; root collects after final response. Root work unknown, not zero."
+}

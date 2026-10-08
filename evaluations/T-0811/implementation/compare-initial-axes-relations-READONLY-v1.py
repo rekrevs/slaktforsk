@@ -1,0 +1,9 @@
+import json,pathlib,importlib.util,hashlib
+R=pathlib.Path.cwd();D=R/'evaluations/T-0811';S=D/'implementation/stage477-v1';sp=importlib.util.spec_from_file_location('h',R/'evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py');h=importlib.util.module_from_spec(sp);sp.loader.exec_module(h);b=h.conn(D/'preparation/baseline476.sqlite');a=h.conn(S/'stage.sqlite');before=json.load(open(R/'evaluations/T-0810/implementation/stage476-v1/inventory-full.json'));after=json.load(open(S/'inventory-full.json'));bm={p['id']:p for p in before['people']};am={p['id']:p for p in after['people']};assert set(bm)==set(am);keys=['identityGate','identityReview','treeEffect','lifePictureReview','stopReasons'];diff=[]
+for pid in bm:
+ changes={k:{'before':bm[pid].get(k),'after':am[pid].get(k)} for k in keys if bm[pid].get(k)!=am[pid].get(k)}
+ if changes:diff.append({'person':pid,'differences':changes,'requires_source_qualification':pid not in ['P-0016']})
+ct=json.load(open(D/'implementation/consequence-table-v1.json'));ledger=[x['old_native']for x in ct['retains']if x['old_native']['kind']=='relation'];rels=[]
+for old in ledger:
+ now=h.native(a,h.current(a,old['object_id']));base=h.native(b,h.current(b,old['object_id']));assert now==base;rels.append({'object_id':old['object_id'],'revision':base['id'],'full_native_metadata_order_exact':True})
+p=S/'initial-axis-differences-and-relation-proof.json';p.write_text(json.dumps({'state':h.state(a),'persons':len(bm),'all_person_axis_differences':diff,'relations':rels,'all_relation_native_exact':True,'note':'Initial stage full review structures compared; each changed backing revision must be individually source-qualified. No blanket normalization. Outcomes and scope remain distinct from backing metadata.'},ensure_ascii=False,indent=2)+'\n');print('diffpersons',len(diff),'nonfocal',len([x for x in diff if x['person']not in ['P-0016']]),'relations',len(rels));print(hashlib.sha256(p.read_bytes()).hexdigest())
