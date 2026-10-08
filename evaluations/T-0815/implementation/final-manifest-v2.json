@@ -1,0 +1,901 @@
+{
+  "task": "T-0815",
+  "stage_state": {
+    "journal_head": 484,
+    "pending": 0
+  },
+  "stage_database": "/Users/sverker/repos/slaktforsk/evaluations/T-0815/implementation/stage484-v1/stage.sqlite",
+  "stage_sha256": "81af525749ac939510916bd9e7a1c95f6a42c850aa4b7c6ed17d86b41d38cec2",
+  "main_preimage_sha256": "579621e34a890be16ee55eb9c5baaef29a945b30bf3f2595a08794f5738be76d",
+  "operation": "/Users/sverker/repos/slaktforsk/evaluations/T-0815/implementation/operation-v1.json",
+  "operation_sha256": "f5031a3468bc5487a30d64f256ecd6b02e3c79961945790e77faa76dc511d666",
+  "consequence_table": "/Users/sverker/repos/slaktforsk/evaluations/T-0815/implementation/consequence-table-v1.json",
+  "consequence_sha256": "bb2043636698cecd1633554e34da44466c87dab9722e4087d925351ffdc34bcc",
+  "qualified_result": "/Users/sverker/repos/slaktforsk/evaluations/T-0815/implementation/stage484-v1/final-qualified-result-v1.json",
+  "actual_requests": 0,
+  "canonicalApproval": false,
+  "canonical_apply_root_only": true,
+  "pins": [
+    {
+      "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py",
+      "sha256": "ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2",
+      "bytes": 21230
+    },
+    {
+      "path": "evaluations/T-0813/preparation/actual-accepted-reconciliation-v1.json",
+      "sha256": "1ac41158ff2b2cffe176e98414874f570a757c478fe9f4899aec436f73161902",
+      "bytes": 177053
+    },
+    {
+      "path": "evaluations/T-0813/preparation/all-current-OWNER-scope-v1.json",
+      "sha256": "8a695a4dcbdc106ac237883c33c2bacf4ff1c310ba92c0d29576a39f7dbdf549",
+      "bytes": 163882
+    },
+    {
+      "path": "evaluations/T-0814/actual-main-stage-comparison-v1.json",
+      "sha256": "a65b23f213d74cb2bd2349318d4d847c62ea16f3a5ecdf3e7f7b9412930a6e7e",
+      "bytes": 2709
+    },
+    {
+      "path": "evaluations/T-0814/preparation/PCD-2026-10-08-002-snapshot.md",
+      "sha256": "28de985bcee1f23d112a8befbdfea63e88dbbf9afce6e5ed725c8efb1a3af427",
+      "bytes": 2058
+    },
+    {
+      "path": "evaluations/T-0814/preparation/unchanged481-receipt-reuse-proof-v1.json",
+      "sha256": "08573fa320a4fa3c94e1884cecfed3d409d1cf175aadcfa6b81502b2f700737c",
+      "bytes": 160893
+    },
+    {
+      "path": "evaluations/T-0814/root-actual-final-verification-v1.json",
+      "sha256": "a539c3baa3ca20d4e47c98fdbf7b82633335b415abaac2f9593f04985c5a2028",
+      "bytes": 1098
+    },
+    {
+      "path": "evaluations/T-0814/root-actual-inventory-full-v1.json",
+      "sha256": "4b53df7eed1ec6b706f1d679063f72b03791db3bfe84bc64b390f700b621cd97",
+      "bytes": 1720686
+    },
+    {
+      "path": "evaluations/T-0814/root-actual-pedigree-P0269-v1.json",
+      "sha256": "9f72aa7dbe6cca7c8fb98582721171b06da189a43b071f02aebfb3c84ecb8cc2",
+      "bytes": 14340130
+    },
+    {
+      "path": "evaluations/T-0814/root-actual-pedigree-P0270-v1.json",
+      "sha256": "ecf1ed78c1bd38e7775e85fa25e9b9009660b53998a86f7615f4073c371d9bad",
+      "bytes": 14344770
+    },
+    {
+      "path": "evaluations/T-0815/collect_usage.py",
+      "sha256": "99b06d0cce201528685898e5610329a45c162b3e47f0c0994e513181dc3719d3",
+      "bytes": 3054
+    },
+    {
+      "path": "evaluations/T-0815/implementation/capture-final-readers-READONLY-UNRUN-v1.py",
+      "sha256": "b1b44bfbaa50a98c4e2bbe8b5a9c36fc14cd46fc8f99ffd56f4cb64c20636074",
+      "bytes": 1371
+    },
+    {
+      "path": "evaluations/T-0815/implementation/compare-actual-main-to-stage-READONLY-UNRUN-v1.py",
+      "sha256": "6328e7247827186af469218ac7c19cde5c9bbbbc665eb673c717b09937e4a067",
+      "bytes": 1649
+    },
+    {
+      "path": "evaluations/T-0815/implementation/consequence-table-v1.json",
+      "sha256": "bb2043636698cecd1633554e34da44466c87dab9722e4087d925351ffdc34bcc",
+      "bytes": 2705970
+    },
+    {
+      "path": "evaluations/T-0815/implementation/final-proof-plan-UNRUN-v1.json",
+      "sha256": "5f98f4c4c305ab51d2805c94f23455e7d07ee3398618375010d5c90af068a03e",
+      "bytes": 981
+    },
+    {
+      "path": "evaluations/T-0815/implementation/final-protection-READONLY-v1.py",
+      "sha256": "4954c17757dbecea254dc10b59fc894f481f654a6ad20101383657ae109d2062",
+      "bytes": 3098
+    },
+    {
+      "path": "evaluations/T-0815/implementation/literal-manifest-v1.json",
+      "sha256": "58599ca940edc66c9b772b5d9c8a70113b51c7bc64cad6dc51c3f4b5565fd3dc",
+      "bytes": 2384
+    },
+    {
+      "path": "evaluations/T-0815/implementation/operation-v1.json",
+      "sha256": "f5031a3468bc5487a30d64f256ecd6b02e3c79961945790e77faa76dc511d666",
+      "bytes": 61041
+    },
+    {
+      "path": "evaluations/T-0815/implementation/preflight-v1.json",
+      "sha256": "30e02d36631407c5aff19a3fce44375b9c6ddc403acc8f2d9e9ce3b3dfb4038f",
+      "bytes": 4692
+    },
+    {
+      "path": "evaluations/T-0815/implementation/protect-final-native-READONLY-UNRUN-v1.py",
+      "sha256": "0087da197f41afb1c797bf5e0f1bab58fa37a3f04b2720eb81fd2d271eaff0ab",
+      "bytes": 1104
+    },
+    {
+      "path": "evaluations/T-0815/implementation/seal-final-package-v1.py",
+      "sha256": "1045f63e9bbe805e9109ead2c148b324b6c86193703e6383e31e95aa17c7cc89",
+      "bytes": 5010
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage-initial-UNRUN-v1.py",
+      "sha256": "a865742ce5cfb17c3350baf1354c4ec91b85a81169bc8f6f9583c464a437f337",
+      "bytes": 4084
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/P-0009-person.json",
+      "sha256": "4ec758c4ec2cc469f2acd41b9d3f7bd175a2b9623c473c448c5aefcfe22ee1b6",
+      "bytes": 613523
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/P-0009-person.process.json",
+      "sha256": "653e295711dbf1e32b6787d7d1e0017661b006a8d54267e3bc768baec654739f",
+      "bytes": 158
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/P-0042-person.json",
+      "sha256": "b160e832d42120da78157fa3bbf4eabba2c0421acb5cdb11fcc7bcea4f336ff5",
+      "bytes": 695775
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/P-0042-person.process.json",
+      "sha256": "edd52432b3daa7425af4f0778395a769f1e89358b7f73b5d838874a94d67ed0a",
+      "bytes": 158
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/P-0043-person.json",
+      "sha256": "13b0731701668a6825a2504ef2cf395c6a9bd39ff0645fe512cc3cf2fb0bff88",
+      "bytes": 715296
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/P-0043-person.process.json",
+      "sha256": "99e215bbb773c59ee3c6c7352ef72ef884fbb460196b7a02941be43b991bb906",
+      "bytes": 158
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/P-0269-pedigree.json",
+      "sha256": "77ccf1fda7afb3f137406a5f322c383eb4ad1f2b0a6685ea89bd9cb0dce3872a",
+      "bytes": 14406532
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/P-0269-pedigree.process.json",
+      "sha256": "d8b8f45a4692f4c5270f985f268872fdeb5d0e47ff13a5b0a6a75c1ba4b4e8d0",
+      "bytes": 117
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/P-0270-pedigree.json",
+      "sha256": "aa352b66417ae73a77a9e210d40ee6a85f3cef71fb83fc7514e7241530c7420f",
+      "bytes": 14411172
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/P-0270-pedigree.process.json",
+      "sha256": "36405567edf5610105bda837a8b7c077b68beebed4b5c0436a6f43f6bc49f4e1",
+      "bytes": 118
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/accepted-request-normalization-proof.json",
+      "sha256": "f18ccdc749d8ee2b4982948402e75b1035540f92bced545e169be1a212f86640",
+      "bytes": 125167
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/actual-all50.json",
+      "sha256": "c3678b40ed38a168b871ae14aefeefff336ae0fc5a801208d87e9b4a179153a3",
+      "bytes": 41932
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/actual-pending-contexts-initial.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/actual-pending-full.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/apply-process.json",
+      "sha256": "2279a845c363d1fe8b1259392209535e2392630da5b21863bcb9198671e758f1",
+      "bytes": 410
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/apply.json",
+      "sha256": "5872d9f4ab2ec23936251eaed49cdec6dd59a4b64e6684746c1c1005d75c0842",
+      "bytes": 175
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/baseline-all50.json",
+      "sha256": "d5ee274b51ed2e84945a41efd33f21e93a0711985c91f4ff51a2c87709603ebb",
+      "bytes": 41932
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/final-axis-relations-OWNER-proof-v1.json",
+      "sha256": "e0399a62b8cd2dac678601f9b9b678eae4bd914e2159e205d07475362711c589",
+      "bytes": 10110
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/final-qualified-result-v1.json",
+      "sha256": "a4e62b9db129d120e63caa7931406888923ba2993e988956dea591820795becc",
+      "bytes": 2330
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/fresh-live-baseline-all50-proof.json",
+      "sha256": "705f5fac221a93617232c4ff0302c79ff6d08cd6bf04a8626bf041c96272697a",
+      "bytes": 257
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/initial-result.json",
+      "sha256": "dc20d080dde52c536dfc82aac6ae0609d7fcc0ebdb7bd749f22e45b94ee0e160",
+      "bytes": 183
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/inventory-full.json",
+      "sha256": "acf48334c833b658e0d00221e0fa8a635b7c7f392627114f8e3aa3460009f290",
+      "bytes": 1720722
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/inventory-full.process.json",
+      "sha256": "db59f5726e79304b750f1223ac07aa107bebf2780a226beb95b4a05f7fdf8e3c",
+      "bytes": 119
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/journal/000000484-c962d1e151342cd9536011a7b09cafc3062884b0f6079f059f530df208610f8e.json",
+      "sha256": "801747a9e55da66f7f83731261a3a9dc6349d439c698164643f5505196d4c61f",
+      "bytes": 53849
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/literal-native-and-retains-proof.json",
+      "sha256": "89591e39dfd227d33450614e32746bf80e1d8f44e26ab011d1d4c426c70b3d18",
+      "bytes": 68647
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/protected-native-prefix-proof.json",
+      "sha256": "a745ca8b9adbdca381a4a6a4847c2ae3a19fee31e79bf57d73a88064bc429dff",
+      "bytes": 4259
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/reader-capture-result.json",
+      "sha256": "e1eed3ad7841a67f37aaec082f376921c0b9d9f678d6055ef4ea374c4f4aff7d",
+      "bytes": 3148
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/stage.sqlite",
+      "sha256": "81af525749ac939510916bd9e7a1c95f6a42c850aa4b7c6ed17d86b41d38cec2",
+      "bytes": 718749696
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/targeted-review-pedigree-tests.log",
+      "sha256": "b8df3370fc04913df775439b35ffcbd71cd98fc2b2cce0d6a92eb75d6b171c56",
+      "bytes": 2320
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/verify-assets.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+      "bytes": 33
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/verify-assets.process.json",
+      "sha256": "bde6b9e1b5f0172ec88ff47814eac99a558b3561c9acca13202f75229b6f45dc",
+      "bytes": 109
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/verify-source.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+      "bytes": 60
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/verify-source.process.json",
+      "sha256": "056a97f553983ebca9acace17f88415c2b425298f15ab9a16aba3b702a1a23f2",
+      "bytes": 110
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/verify.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+      "bytes": 33
+    },
+    {
+      "path": "evaluations/T-0815/implementation/stage484-v1/verify.process.json",
+      "sha256": "5a4c41d2663aadb4fb8d3fa6317649b478634a87019173e92fee34bc3e9c0ebc",
+      "bytes": 102
+    },
+    {
+      "path": "evaluations/T-0815/independent-complete-source-design-gate-v1.json",
+      "sha256": "f2d1dc4dbc3792aeb2bdbd2ca928a9b00911b856a48fc7e6df58be8799d5ce87",
+      "bytes": 2997
+    },
+    {
+      "path": "evaluations/T-0815/independent-literal-clone-source-gate-v1.json",
+      "sha256": "c214b0da41f40ad2e145875e24d1adafcb046cc16f5edadf94425b67f0673cac",
+      "bytes": 1921
+    },
+    {
+      "path": "evaluations/T-0815/independent-own-fourteen-criteria-v1.json",
+      "sha256": "71886237202ff7eb5aab33d0bd1abb91941f4f0931326009d47deb5e3d22b75a",
+      "bytes": 57056
+    },
+    {
+      "path": "evaluations/T-0815/materialize-literal-v1.py",
+      "sha256": "13b6e106d2e2ebf5cb1b0b964a33ca6ec31a78fa09862b79f94853f08d0b207b",
+      "bytes": 5438
+    },
+    {
+      "path": "evaluations/T-0815/preparation/OWNER-scope-reuse-v1.json",
+      "sha256": "de813f232533b73fa8f555e6ee873973359e2fdf550e9f4b7c2abbb59d47fbc8",
+      "bytes": 422
+    },
+    {
+      "path": "evaluations/T-0815/preparation/accepted-delta482-483-v1.json",
+      "sha256": "ea76b597ccb6d3a8a847b1af87751ac58d184d79420304c4b5c5e3eaaeaa6183",
+      "bytes": 106618
+    },
+    {
+      "path": "evaluations/T-0815/preparation/accepted-direct-support-operation-index-v1.json",
+      "sha256": "3dc2098052967bf25bbf133520a843059b2363093d4969f5f06dc642b7c6ab3c",
+      "bytes": 20907
+    },
+    {
+      "path": "evaluations/T-0815/preparation/actual-accepted-reconciliation-v1.json",
+      "sha256": "147e99cd299215a4e98a31211ac563a8c65b14457e0e9e2a235727c9bd58014e",
+      "bytes": 480
+    },
+    {
+      "path": "evaluations/T-0815/preparation/baseline-v1.json",
+      "sha256": "9e5f6fa1b93f98ad4ef187c776c89ede1d6dcff461c765ce688daba82995b637",
+      "bytes": 208
+    },
+    {
+      "path": "evaluations/T-0815/preparation/baseline483.sqlite",
+      "sha256": "44070e6f56132a821b2b8373587676b01db955ba9379af67c0b3700503a96148",
+      "bytes": 718749696
+    },
+    {
+      "path": "evaluations/T-0815/preparation/capture-current-inputs-v1.mjs",
+      "sha256": "e2be906582f1c0af2a5849a996bad939acd8cd7ea685b57ba5282d51b0573186",
+      "bytes": 6503
+    },
+    {
+      "path": "evaluations/T-0815/preparation/capture-result-v1.json",
+      "sha256": "0bd2c8c868d727564b924c02b83d500432f1b7751aa5f16f74bbe756349cb606",
+      "bytes": 413
+    },
+    {
+      "path": "evaluations/T-0815/preparation/current-full/P-0009.json",
+      "sha256": "4ec758c4ec2cc469f2acd41b9d3f7bd175a2b9623c473c448c5aefcfe22ee1b6",
+      "bytes": 613523
+    },
+    {
+      "path": "evaluations/T-0815/preparation/current-full/P-0042.json",
+      "sha256": "f2c49ce35b5e17ca8629626ca379bc64e027bf29cbd2eeeaad6561a681032cef",
+      "bytes": 662271
+    },
+    {
+      "path": "evaluations/T-0815/preparation/current-full/P-0043.json",
+      "sha256": "d3fe1fc00479c46ce1736b65527a5f4dda7e5216f715f91be50ddd4df59c3d81",
+      "bytes": 675064
+    },
+    {
+      "path": "evaluations/T-0815/preparation/current-person-index-v1.json",
+      "sha256": "6d4c06168fd1275dbb6cc09d498738c991abae0e51cebd595ba055c130810a4c",
+      "bytes": 1202180
+    },
+    {
+      "path": "evaluations/T-0815/preparation/current-semantic-field-routing-v1.json",
+      "sha256": "2926e867d72bcf23ae2598375f0774f14f5bd05a9922413d3abaa9f1e133427a",
+      "bytes": 666
+    },
+    {
+      "path": "evaluations/T-0815/preparation/exact-parent-to-Ada-links-v1.json",
+      "sha256": "9a990b7725eba88d7213612430237b1528d6fe2118379aa5ad625085a077b40d",
+      "bytes": 8320
+    },
+    {
+      "path": "evaluations/T-0815/preparation/existing-record-media-metadata-v1.json",
+      "sha256": "6d6550b4e5066d3530046dd12509cd495f625d31cd7503f423565c7f1a3074f9",
+      "bytes": 8578
+    },
+    {
+      "path": "evaluations/T-0815/preparation/fixed-scope-v1.json",
+      "sha256": "8bc9bb75b813d511a6ac50846cb5d8ff864718a59c631ecec36e55bd1b9c9b50",
+      "bytes": 754
+    },
+    {
+      "path": "evaluations/T-0815/preparation/fourteen-criterion-input-index-v1.json",
+      "sha256": "2d3de174ec6fa8cf28f3d85841025a0ab411f3991e9ee4a46eccef6d26a8c97e",
+      "bytes": 42091
+    },
+    {
+      "path": "evaluations/T-0815/preparation/locked-input-manifest-v2.json",
+      "sha256": "82ba5c30277afeef38deb22fabee8f1bdc31ed7c69c29d30c8a8470814efdd3d",
+      "bytes": 25730
+    },
+    {
+      "path": "evaluations/T-0815/preparation/native-support-versions-v1.json",
+      "sha256": "f3d2fd07ac466cae6e54ec194f7ead3dfdd181c2853e3ae369c7788ba89d00e0",
+      "bytes": 2701920
+    },
+    {
+      "path": "evaluations/T-0815/preparation/native/P-0009.json",
+      "sha256": "140591d2c1e4767a67da5c1249b7b0189f9b3d31f018b6d21a990ed9247cef5f",
+      "bytes": 1088716
+    },
+    {
+      "path": "evaluations/T-0815/preparation/native/P-0042.json",
+      "sha256": "11a3899b777634cbe34f93aa85f7ac0ed75ec8725f46605208aa428442fd009c",
+      "bytes": 1178632
+    },
+    {
+      "path": "evaluations/T-0815/preparation/native/P-0043.json",
+      "sha256": "e9cef0b9fcd901770843c727e518f09dd5ebb0ccf989f0d15c9642c0a3738f6d",
+      "bytes": 1359580
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/AGENTS.md",
+      "sha256": "18b554c8704d59da3013f05247fdddedae07597676392061878df9531fe0c08c",
+      "bytes": 16299
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/NORTH-STAR.md",
+      "sha256": "8242cb59277a993d45348caca5ffa7511c05799688cd39e2c76180ffbb0a0891",
+      "bytes": 18955
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/docs/research/person-contract.md",
+      "sha256": "749f3a00dee3a349ad337faced09cbefe879334fcd570a9ba35bcf2636bf94d2",
+      "bytes": 27654
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/docs/research/source-strategy.md",
+      "sha256": "ddebd83a8e02a5ef45374b743202b733d24580e2253e961049c812aef24e4da4",
+      "bytes": 22035
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/genealogy2/AGENTS.md",
+      "sha256": "ae4f66ab86b80f9bdde3a4bf8d4b2d2ac1f6630f385a0adcc670492ffec0d9ac",
+      "bytes": 3459
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/genealogy2/docs/working.md",
+      "sha256": "1ac68ad72a76f3feaf467b7d7dae893cf9d0ba7c4790fd4cc8eda972c9df0330",
+      "bytes": 16390
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/wotan/README.md",
+      "sha256": "28473d381e602ab4bc47163831f54bb56ca8333def0be3c3fa55040dd46b6a4f",
+      "bytes": 20504
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/wotan/dev-log/T-0091.md",
+      "sha256": "e3247bc2529c60d84e419f92a1fcf198409a5586d2e26cd27e89196f01088842",
+      "bytes": 28828
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/wotan/dev-log/T-0227.md",
+      "sha256": "31cc88a404ed1f80000986daafbfbb5faa680484ec9ed79f0d053c1ae03b23d7",
+      "bytes": 11142
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/wotan/dev-log/T-0228.md",
+      "sha256": "293a00df1a7cf9de7a1c53c02abe3284cbd9d5271ec3cce82492ba5a63c483e0",
+      "bytes": 3507
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/wotan/dev-log/T-0260.md",
+      "sha256": "d2f0882981082079671916d18bee0f1f0e9e360968f36af6fdd85176c420d12f",
+      "bytes": 2633
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/wotan/dev-log/T-0261.md",
+      "sha256": "5002a1409bbfbb4d876f0ba4aef028a43882450494d4b0066adfdb4365f0565b",
+      "bytes": 2369
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/wotan/dev-log/T-0410.md",
+      "sha256": "33fd80d65bdf21ad35bdd870d0ac1ebef239566690d8a165506470972e3a5fd8",
+      "bytes": 5893
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/wotan/dev-log/T-0411.md",
+      "sha256": "164d995b966a7ef6412f9fed8128a1d804622a77e0d61536316ad8caa9aa7248",
+      "bytes": 2268
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/wotan/dev-log/T-0412.md",
+      "sha256": "7b15c4e05bfe47f7ee0c350efbebf6cba8d24903a109acea9c50147901b8fd44",
+      "bytes": 2125
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/wotan/dev-log/T-0579.md",
+      "sha256": "74d997368a4d5d27fefc8d654a18bb7599f27db96d3f5677425ceca4946fe364",
+      "bytes": 5027
+    },
+    {
+      "path": "evaluations/T-0815/preparation/normative-and-owner-snapshots/wotan/dev-log/T-0815.md",
+      "sha256": "de7573743e44d6ef83ec9a85314f795d4dab849b699e89b7526d1aa33278e3cd",
+      "bytes": 9859
+    },
+    {
+      "path": "evaluations/T-0815/preparation/preparation-result-v1.json",
+      "sha256": "afb77f15dbca4d94362d503c5b5e4839924b8fc09f8ada97b81c10777fd1197d",
+      "bytes": 916
+    },
+    {
+      "path": "evaluations/T-0815/preparation/reused-current-readers-v1.json",
+      "sha256": "33c388a3849014edc8589f23daba5ea3f344e11afe6bad900c42756bb527843e",
+      "bytes": 357
+    },
+    {
+      "path": "evaluations/T-0815/preparation/seal-current-lock-v1.py",
+      "sha256": "d49f9bd30dd1e9b1fc7c8818298211b99953d3eb23433c6bfa78605b7db4c5c3",
+      "bytes": 8467
+    },
+    {
+      "path": "evaluations/T-0815/primary-complete-source-design-v3.json",
+      "sha256": "8ea89b8d4525ecbde0f82d632638fb464492ed10d17c345326f5bdff4e77f5ac",
+      "bytes": 2681745
+    },
+    {
+      "path": "evaluations/T-0815/primary-literal-clone-source-gate-v1.json",
+      "sha256": "093e95159904d30d5ebe3b86daff41b460fcbe33dbf69c7c36fcf35b381d900e",
+      "bytes": 1871
+    },
+    {
+      "path": "evaluations/T-0815/primary-own-fourteen-criteria-v1.json",
+      "sha256": "cf8c69a67dc8bc7fc035390a927d12b8c8d8ad80bcefa2be31be16ab3f9ad4fc",
+      "bytes": 17064
+    },
+    {
+      "path": "evaluations/T-0815/root-actual-zero-requests-proof-v1.json",
+      "sha256": "13c2e7bc237edd253fa6492a868140481ccaeff3dbd3c91ef5973b4e7ea73d69",
+      "bytes": 1033
+    },
+    {
+      "path": "evaluations/T-0815/root-both-own14-comparison-release-v1.json",
+      "sha256": "ce1450536cd280eede21a6713009d03756b381c75a71dd8f98d50e665bbe3524",
+      "bytes": 536
+    },
+    {
+      "path": "evaluations/T-0815/root-imported-helper-pin-supplement-v1.json",
+      "sha256": "6e25f7c33b84af1c644792a76fc01745949052090fc1b47564e9b6aab721a620",
+      "bytes": 553
+    },
+    {
+      "path": "evaluations/T-0815/root-initial-clone-release-v1.json",
+      "sha256": "78796c3e72d620f0da75ca8532499bc56526ac6e666d2977b95e442725a51ef0",
+      "bytes": 1058
+    },
+    {
+      "path": "evaluations/T-0815/root-start-baseline-v1.json",
+      "sha256": "1aa86ea3bca0429f1ede80f7ef7cc48924b412c87abbe0405e5594914830d558",
+      "bytes": 563
+    },
+    {
+      "path": "genealogy2/journal/000000001-a3c2382568fc702e07facc4e64eccb05ac9aecb42680c835766656e15d673857.json",
+      "sha256": "8f7a67c5dfbf197dcb9c58a5ee0e1373aac24c4e606cb0a7e580b680dbf52bfc",
+      "bytes": 2802901
+    },
+    {
+      "path": "genealogy2/journal/000000002-fb5c5988ea216c56a85abc30fba6d2c344190d778af44eb43568655a32edbd67.json",
+      "sha256": "f2bc3b25e0361346463b1d7ac6144f956f92da0f70c6d3100399ed2dafcc6e4b",
+      "bytes": 2598430
+    },
+    {
+      "path": "genealogy2/journal/000000003-015cbfa6bfba8947dedd2f32201ab0667b2a3d770aa5d52d0d23f5e0f5994e03.json",
+      "sha256": "016956a08ab76c26f6643b412b2dd106580b7e10283f6d0df8e5d9645472c40d",
+      "bytes": 2378907
+    },
+    {
+      "path": "genealogy2/journal/000000004-7af3d03f6400e9ca83334f3618b04629ac18c9681673ae33bd75f11a199971f7.json",
+      "sha256": "ad27b3979f1a25d92717f1de0e7a7d2ea38ec14d8ee81da2aa608fc55155e1a3",
+      "bytes": 2608578
+    },
+    {
+      "path": "genealogy2/journal/000000010-9fdfe7d5c6cee5f0dfbcad999ae20c549091fd5bb2c07346cffdd7beb8ac2152.json",
+      "sha256": "124123ae1c66806587c7ee7a0104135f60ccea906cf64292772b4fca6c4113c7",
+      "bytes": 10662
+    },
+    {
+      "path": "genealogy2/journal/000000012-3947129e1208db3e561b4d8e2a081438efbc1ba67f001062a1c77db7bd532f70.json",
+      "sha256": "1cd19bca602a9f0771107397c29823f07a9d2272cb7c9745010b61cd40b5152a",
+      "bytes": 5479154
+    },
+    {
+      "path": "genealogy2/journal/000000018-234343d7f4abcb0680c1146ca445bcf25bfe86976d7c2732b3854d1f2892ba9e.json",
+      "sha256": "29f9d6a9ee5723c04f3f8f0b5482eacfa4009a0823e80a46c99c9e4d48585a71",
+      "bytes": 4365853
+    },
+    {
+      "path": "genealogy2/journal/000000020-bcb8a950d162097fae85d3ebbe13d1fc0e36d5b92c54399a250ca1167d90867b.json",
+      "sha256": "7df8cfbcc570dfaa1751dc35c45f5d855c33e758662b178ecde609f10931f63d",
+      "bytes": 9441801
+    },
+    {
+      "path": "genealogy2/journal/000000023-1497b61bdef8247cd4ee4d8439c0318821cbca60c330c08557748043e7dfbec6.json",
+      "sha256": "38848afbc34373153a2de7b4d269201b40894552bdb2a125029a6e096a86de09",
+      "bytes": 8647869
+    },
+    {
+      "path": "genealogy2/journal/000000025-933257d60bd1ec17d4dbb05ed161ab0f1f4d546ab6254bd4f2cad51538ef7044.json",
+      "sha256": "a26ac2ccd09e50e74afc8578b131c18afa2b541c1498bfbf2e051918510e5696",
+      "bytes": 4860734
+    },
+    {
+      "path": "genealogy2/journal/000000029-bfec78c3a8c9584a7df80e18b87354285366379b5eaae68012f0e317d49ec1f9.json",
+      "sha256": "fb8543a65547740b1481d647069cc604346ba9310ba456bfece536b3d6c1483a",
+      "bytes": 8033042
+    },
+    {
+      "path": "genealogy2/journal/000000037-d229c025eca31294357e9ce6b503dcf2f7d38f76e8b24207802d9a7d4fcf8367.json",
+      "sha256": "b05c2aeb04c82675e1badbd40b922e9960f5de833ea81b5612cc4bb1680a2dc8",
+      "bytes": 4868201
+    },
+    {
+      "path": "genealogy2/journal/000000038-83073e306c205843f6dc229a4d5ba45cd6650f7b7f30a6e2f3aec13f6fcff336.json",
+      "sha256": "830cffb82e0c9416834ca7f13ec8b76f7bf785343cbd76efe6a830981053a5a7",
+      "bytes": 1282756
+    },
+    {
+      "path": "genealogy2/journal/000000050-654b40f3df0c4058919952dba35aee7764eac005726bcec6e194bd01b4f2cade.json",
+      "sha256": "63123cd3923e8aaf5c1599545d2dcc64af9e316fae52e1f52cdaa28007608866",
+      "bytes": 59465
+    },
+    {
+      "path": "genealogy2/journal/000000166-4ca25d971c828f95dc9da3569325e5758a90c8b1da083663958980c3ffdf3288.json",
+      "sha256": "003f0a634e03bb2d0312cf93a5011100e744be87cf9abd8c7fb96ece4f795a2d",
+      "bytes": 296293
+    },
+    {
+      "path": "genealogy2/journal/000000175-c70c124e384f5960897c467cabcac65e475eb03c639322cb9afdad40c80cd52f.json",
+      "sha256": "3583bba31e7a89e4344fc7ef5702ba0d509e74afb86016cc309bfd064f216ce1",
+      "bytes": 286410
+    },
+    {
+      "path": "genealogy2/journal/000000177-d86c261fe64f3fda80a9b5491a13e82e7599caefafe8eb4e655dbbbb6ea78b04.json",
+      "sha256": "867a7763f92137edc85febc192b3f214d141cbbe327318a7058890157f8a7c37",
+      "bytes": 60750
+    },
+    {
+      "path": "genealogy2/journal/000000187-fe438a54fbc28185f920683509b181510806be7beced288bdaf4d2504f83e288.json",
+      "sha256": "f01ded3310884b7ea17375f6e8f1e6bf1a89e4aa2df4569fc8cf7e1f4de1eedf",
+      "bytes": 62116
+    },
+    {
+      "path": "genealogy2/journal/000000191-05bbf0d7b8e76392a0eccaf6fd7c4c30a860149bfccf7e746035527630bd5f39.json",
+      "sha256": "f7e7b58515a6078a3c29f326cb80e65845f592ace871c52d57db9e699c656bbf",
+      "bytes": 69654
+    },
+    {
+      "path": "genealogy2/journal/000000193-aa7fb0682de1cceab14e5c2a7f18b66956c637e78cac6db9990852960ff5ece3.json",
+      "sha256": "3c38781dd874b80c3eac5cfb294e338a9c551844090fa3ecc8d9900906527555",
+      "bytes": 106287
+    },
+    {
+      "path": "genealogy2/journal/000000194-a2fff3136bc026a8880e57fc4d55d2e72a3a89486bdb2da6b28c4b05f6143c23.json",
+      "sha256": "7d3d5066d808886ac51dec3b4dbfeab205932cab8ed1f786ef7961bafc323780",
+      "bytes": 24695
+    },
+    {
+      "path": "genealogy2/journal/000000196-ebfcca218cc7b2f38446c66383574d1a61f9af19efa4964b295fecfc3b35cbce.json",
+      "sha256": "bd1a33cbe5603f515066f99c6fdf5e3db254d95bfb287216543dfe31f84f9162",
+      "bytes": 86896
+    },
+    {
+      "path": "genealogy2/journal/000000197-75204021fc20d7778e2606573e5610777c2311a8c36e81e83d12253f42dee49e.json",
+      "sha256": "a96c19ab8a9b457e285064cfd17996eb9c86a2ab51109761514a7d49c1f59024",
+      "bytes": 30633
+    },
+    {
+      "path": "genealogy2/journal/000000199-48650ed605af67f2c7544f0f70f7eb18c57c09fcd0ad68cf30f350f5d8ce42e0.json",
+      "sha256": "33d527e3acca1ac9fe7156ffb713a9a82658104c9e6576d853d690fabcc2519c",
+      "bytes": 108868
+    },
+    {
+      "path": "genealogy2/journal/000000200-587b18df7d0323abd592e9f6981b69c4b3b0ac47b24e6f382d22e9dd9c3450d3.json",
+      "sha256": "8ae53537985450daad2aac4c113f0e8ff23d11c9729079d9c7d47a7b333f8325",
+      "bytes": 149783
+    },
+    {
+      "path": "genealogy2/journal/000000201-1b237a8fe6eea211d2da9270b1539fb4cabf0cff8215d50579b9625534590191.json",
+      "sha256": "d1bcdd835b163543534e6a8b84ad589c19aa4ec57fcee44f7766be63fb633ccd",
+      "bytes": 2375
+    },
+    {
+      "path": "genealogy2/journal/000000203-463fd7ecc1d8fa07fdeceb7b9aea993936e61200a6f90712b3894f362ee8b673.json",
+      "sha256": "639a606fd01529803c9e951c99a8d54c07ed068c444245c30234921a5b41283b",
+      "bytes": 12162
+    },
+    {
+      "path": "genealogy2/journal/000000204-d6a6b9e73590911fedf70c8e97fd0228d45aa1e4c04c2466859d7ffa05c95f6b.json",
+      "sha256": "f22ef635dcaec12548ea4f1b3fd17287a0ffad67b2badca8d30f93c6a82eaadb",
+      "bytes": 53593
+    },
+    {
+      "path": "genealogy2/journal/000000205-4707cf888572b450d4bbe463c055cd4f3556b6c70cc2a0812fcfaf592123976d.json",
+      "sha256": "d3b427f3e1dfc8700606cd14a40a687893830d4ebb52912fa908426d163aa21e",
+      "bytes": 11854
+    },
+    {
+      "path": "genealogy2/journal/000000206-56ad7e8872d1f9e3bf12d704d2377dc6a6a58a01c7061829dabe59bdb8f7b722.json",
+      "sha256": "905745b52038e18af84f7307d0181e7c9c0a87452ca43d165082f2a8baad2673",
+      "bytes": 38964
+    },
+    {
+      "path": "genealogy2/journal/000000207-45fdb52463508113bfcab2bc3ed0fd1ccdddcfe30a000e62aa309feb329e834b.json",
+      "sha256": "dae7c5ea6b0ce7cad8afeba9ccbd231ef3b4717728b1ce3d1150b7baf50ffa7c",
+      "bytes": 21398
+    },
+    {
+      "path": "genealogy2/journal/000000208-2aabd55f032f306cf9af0a6aed096534d4f5b53896598cac29dd657571518517.json",
+      "sha256": "e0afdc80631a6f453dff2c2d8c1d971660bb773cdf93946f9eb34e2f65d68a2e",
+      "bytes": 21182
+    },
+    {
+      "path": "genealogy2/journal/000000209-f5d6f98ac535f139667e09f002b66fe4fef52dabb8e1e95e1ef34c31c12bd3c7.json",
+      "sha256": "b2a67d4f03b41f52c6d7562325b5d9716bb9f640e3a008f436144c1d4b6e2e24",
+      "bytes": 19517
+    },
+    {
+      "path": "genealogy2/journal/000000210-9d46613a05c010d76cf316554458d353692adcac2b16529028e16e8c92b01bc4.json",
+      "sha256": "e0f1723ee9eca4f19916784004b3ab55ad4c4b566e0c1c3b9087d1f6fa78b51f",
+      "bytes": 13399
+    },
+    {
+      "path": "genealogy2/journal/000000211-f76ca232e3e7a1c0ef86551e3a8ee961f70557ee92c3e1dab4b696dd18c4708e.json",
+      "sha256": "146156b66d7138c63f30374ee61ac575e9777ed1fbf038c78f129b59491a3707",
+      "bytes": 21313
+    },
+    {
+      "path": "genealogy2/journal/000000212-d3c9817d10dabfe7fb17a182422214be345fc6186e8920e5a8a7541bcd273821.json",
+      "sha256": "37201b3eaa4ab4f1abd4d66e76b51dacafa12578e81a4960f6374eb65683f2ea",
+      "bytes": 29468
+    },
+    {
+      "path": "genealogy2/journal/000000216-8c16ccf2f1459be7f9fd4235f488704d9786afcdf10cde9bd15b3063ace020bf.json",
+      "sha256": "45ae3cdd8c0e021cd67fac5c6925b3c05441fc4bc410deb567f455cc7684c467",
+      "bytes": 5465
+    },
+    {
+      "path": "genealogy2/journal/000000217-dccafc127ba1d412ad97d27fbb16c25f6677b33a6a747b4b07907b61b9930c26.json",
+      "sha256": "6cf1191d350db298a007f6c8b1d64e961cb02df5c9e2b9843d746267f85327d6",
+      "bytes": 3300
+    },
+    {
+      "path": "genealogy2/journal/000000218-53ed588cc4cb78c91643b730f2b02609ea39e0cf7d240efed95f9998505ec89b.json",
+      "sha256": "8e64b01ac05023ef0229051e14f5f60fe43aec508a48130174b5d6f1eb26a84d",
+      "bytes": 16603
+    },
+    {
+      "path": "genealogy2/journal/000000219-7da3798271f50210e6b3dd76e5c10bd957d66fbb6ff898f3cf8a8ed2b72f2135.json",
+      "sha256": "85ab10a06614f688ae46153ac9ea7501cc48426f7deeae87973f2e44188291e3",
+      "bytes": 107235
+    },
+    {
+      "path": "genealogy2/journal/000000220-20467a4c70f79e83fff48eb55a017b3799306095a6767af7c9e7ad5bee36a5a1.json",
+      "sha256": "7952d5459ca51bcb3fd48bdd86ad45fcc12f49a1e41e3f2f7f8e08266ceeae6c",
+      "bytes": 5443
+    },
+    {
+      "path": "genealogy2/journal/000000221-b089559dd16e0c26060bbb7ba7268c00f6c5c985e386be8d8a305dc24362bc04.json",
+      "sha256": "5da653eea1937f9ae018838d86458893255239b583316c41fcab7e2bd79cf78d",
+      "bytes": 35598
+    },
+    {
+      "path": "genealogy2/journal/000000230-1a582ca91f2b68d0d9dbac8fc2cf358836a624910dbd5bd79e8fe9b99464317a.json",
+      "sha256": "3d668850d2571c473c5f95901a36e52f2dca08d93130ab59d48766b4e6c7db56",
+      "bytes": 21143
+    },
+    {
+      "path": "genealogy2/journal/000000231-ca35fb1947fb8170ce98ad666e935e16fe83f5e19b3ef882e81075ea1c93e9ac.json",
+      "sha256": "40eae1169b46625fdf1e862dc236d786cc74dafff8dba76d490516fff38275e2",
+      "bytes": 3365
+    },
+    {
+      "path": "genealogy2/journal/000000242-1b249277ac226da4c561672ba29ff6a3add561082cf23134e2ebb25dcfa0dd7d.json",
+      "sha256": "c7a1c79f0f99f1f9f2574c3f3e2263cdec186773c9629fc61a83f88c4c7d4a9e",
+      "bytes": 212615
+    },
+    {
+      "path": "genealogy2/journal/000000247-a8802f9eec347344b2f8879c94536db69b0336ef5568a1bef0971871ef37d11f.json",
+      "sha256": "9d368949e64daa18d21731c8ef7eec02950e7bb90ef57a3cb213bcd359cc3eff",
+      "bytes": 19934
+    },
+    {
+      "path": "genealogy2/journal/000000249-aed96b06ef730ff944b8924694d421507310ba26ef1cd9df47c2a8a27a14dd6b.json",
+      "sha256": "9246619634c495529d557e30310fe11a4f663ab3e52d6353f324c3c9c80b5e0c",
+      "bytes": 33451
+    },
+    {
+      "path": "genealogy2/journal/000000250-6a6be4ac728fa6c82ff1f120b14041739d9add2228a8fd853f57d13ab2995654.json",
+      "sha256": "64ffc804c98e96d97658974879b7aed42796b0284804472ce83bb0f45eed3f78",
+      "bytes": 40579
+    },
+    {
+      "path": "genealogy2/journal/000000263-c6562a2e26e7ac54d6ff8b9a95f7ee3f8ed79d8a7dc95268d11d476bb4535e43.json",
+      "sha256": "b468fc66ac3ef04e7bccd8aaa29177ed2bce04fb6fcb6c0a75e1953cefd51747",
+      "bytes": 38915
+    },
+    {
+      "path": "genealogy2/journal/000000264-407e14ecc59bbdb9f7264a91baf24b51403c35b52c49f86aa240e6e58d2460e3.json",
+      "sha256": "31fc65fd7df76ff4e4af259c14c8cdacb68c4af425bbca794f695a6e52d6e234",
+      "bytes": 2167
+    },
+    {
+      "path": "genealogy2/journal/000000265-731c7e7166dfa57b43e86bdf6d373d87f311598eb60f20dfdd2a5db36b3c13c0.json",
+      "sha256": "946820570dfec59d8291d6fe2fa260d3a4ef6a1e54015bb57657efe758bd607d",
+      "bytes": 37411
+    },
+    {
+      "path": "genealogy2/journal/000000266-8884d5abbfdaadf184e90d7fb491ca11937b69fe61912815ea4d6ca5bece375d.json",
+      "sha256": "f2d3a0a3b5bd9c9b82361f9316a23ab6995222a380a0f43096d9e577d03227de",
+      "bytes": 4303
+    },
+    {
+      "path": "genealogy2/journal/000000267-a7011863d04818f46e223cba37c8a8934b0b957d8075daf1462b65d00c8d64bc.json",
+      "sha256": "5540d9765484f7b43bfae7c4719a29617508299fec957a3330354aeeafa7a65c",
+      "bytes": 139635
+    },
+    {
+      "path": "genealogy2/journal/000000270-368209c8b3bf417266d46bace56eedafd2a4e458875fb168effe465ba98deef8.json",
+      "sha256": "6ebd5b011ae185a7e8091e7f876a2ddd501856e7b8050ad86d805c897ccad837",
+      "bytes": 8327
+    },
+    {
+      "path": "genealogy2/journal/000000271-30f727c7f3c8760e5b5b7ff65739d5b9d17a4064c772bfe8ee0f4e54d4cddca8.json",
+      "sha256": "6733b02058820349c680893b39e05275261814d31b9eb60a6eeb873a3d97c068",
+      "bytes": 20011
+    },
+    {
+      "path": "genealogy2/journal/000000272-6408aed182dd321d0596ef635978d11e140bbb18871208784cda573347532003.json",
+      "sha256": "937d39d268614be70486722caf0a9f452e96912884228fe5c099320b0a03b316",
+      "bytes": 89479
+    },
+    {
+      "path": "genealogy2/journal/000000273-1004ae212892d4a8019c6266e431be84cd6c4bb3f83d70676bef8e54846d111b.json",
+      "sha256": "ed349a040feb319b28766dca07fe74d29f08fb52317f8f3ba054ff89ff9e79bb",
+      "bytes": 85304
+    },
+    {
+      "path": "genealogy2/journal/000000274-0592547f3460879bd0141837b8d70bd5767ceb10ac9761d5e9cbb1f3fdcaa91f.json",
+      "sha256": "56df22d5cdde1890ef69f0724292d6ec04a6d0b3aa827f8e109225fa675c7ccc",
+      "bytes": 41926
+    },
+    {
+      "path": "genealogy2/journal/000000276-905d4756b8b370ff5305c68b78bed5077b3831c7767879735863abbee61c795a.json",
+      "sha256": "8378cd8777d997e2b00626c040f45da63b4e403f0fb1fdd2c59153d021cfde0e",
+      "bytes": 11707
+    },
+    {
+      "path": "genealogy2/journal/000000278-b85b408bfda7c3d9ce00a8adb09edd02e0f8311ddf19d47d42bdf7399a3e8b5a.json",
+      "sha256": "991c7dc45dc88273baaf856c8d94980ccfe9070fdf77bd4b55d9623432d6eb88",
+      "bytes": 5776
+    },
+    {
+      "path": "genealogy2/journal/000000279-3d1af821622ad62ee8932f6b8955be4fd44e6473bca242d08dd413371a0ce657.json",
+      "sha256": "2374b666e7cd3f126893c78b4b38ec37420ca80f0dae0fd3b1b678311136c821",
+      "bytes": 101941
+    },
+    {
+      "path": "genealogy2/journal/000000280-36d3263d1123f0a1ee42bec38bcffeaf6e4ef8b01e1c50c29bbd09e27105fbd6.json",
+      "sha256": "e9346b2ffdfc6d356476f1946985392acad1eae6030efb0074aa87f0a0a201f2",
+      "bytes": 84465
+    },
+    {
+      "path": "genealogy2/journal/000000472-5ec3e7cdde1640856711e1ec531b01805241d4479c3ef5b7c470d898458c9d60.json",
+      "sha256": "e9fc1dd4757ca53da351d89a54f9e96be1f5ea7634510cac711e4499444bef95",
+      "bytes": 258026
+    },
+    {
+      "path": "genealogy2/journal/000000473-977e9cc19a331679a927fda2d3930cba1cb069cd8455b7d29220751a80439208.json",
+      "sha256": "b7e940860fa02513d8e9411b7dac8576d957ecbd8be08bab54bbf29bbe537dfa",
+      "bytes": 33143
+    }
+  ],
+  "reused_stage_journal_prefix": {
+    "count": 483,
+    "qualification": "Supported CLI created duplicate historical journal files in isolated stage. Files preserved locally; canonical483 reconciliation and old prefix/all50 proofs bind equivalent accepted history. Only new484 stage receipt is separately pinned; no source decisions omitted.",
+    "prefix_reconciliation": "evaluations/T-0815/preparation/actual-accepted-reconciliation-v1.json"
+  },
+  "supersedes_manifest": "final-manifest-v1.json; limited removal of redundant clone historical journal pins only; all files and native/results preserved"
+}

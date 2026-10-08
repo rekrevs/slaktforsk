@@ -1,0 +1,29 @@
+{
+  "scope": "Commit preservation T0814\u2013T0816",
+  "standard_cached_diff_check": "Only five blank-at-EOF findings; no trailing whitespace/content errors",
+  "disposition": "Preserve exact hashbound approved candidates/snapshots/appendix/liveT817; no normalization of accepted evidence",
+  "pins": [
+    {
+      "path": "evaluations/T-0814/implementation/queue-candidate-v1/T-0817.md",
+      "sha256": "691ece8f9dfc8efb0a02ea0cb860ffade036bac18f51b33b8171467013238d4a"
+    },
+    {
+      "path": "evaluations/T-0814/implementation/queue-candidate-v2/T-0817.md",
+      "sha256": "691ece8f9dfc8efb0a02ea0cb860ffade036bac18f51b33b8171467013238d4a"
+    },
+    {
+      "path": "evaluations/T-0816/preparation/exact-T0791-T0792-planning-appendices-v1.md",
+      "sha256": "545d1318202c4110a29b9eab40c5e7eb82f87d2f0e316263cf060eb885a1a3fa"
+    },
+    {
+      "path": "evaluations/T-0816/preparation/exact-task-snapshots/T-0817.md",
+      "sha256": "691ece8f9dfc8efb0a02ea0cb860ffade036bac18f51b33b8171467013238d4a"
+    },
+    {
+      "path": "wotan/dev-log/T-0817.md",
+      "sha256": "691ece8f9dfc8efb0a02ea0cb860ffade036bac18f51b33b8171467013238d4a"
+    }
+  ],
+  "applicable_check": "git -c core.whitespace=-blank-at-eof diff --cached --check PASS",
+  "approval_timeout": "First gitadd permissionreview timedout beforeprocess; allowedonce retry gitadd-A succeeded. No safety rejection/no new permission needed."
+}

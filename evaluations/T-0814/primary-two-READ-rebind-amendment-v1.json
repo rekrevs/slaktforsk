@@ -1,0 +1,60 @@
+{
+  "task": "T-0814",
+  "version": 1,
+  "source_spec": {
+    "path": "evaluations/T-0814/primary-complete-source-spec-v2.json",
+    "sha256": "457318d174d7ceff44b31cfaa963dcce010dcc3d50f2d5f66ac8e97ec096ef9c"
+  },
+  "inputs": [
+    {
+      "path": "evaluations/T-0814/implementation/preflight-v1.json",
+      "sha256": "f87b94864b3f9df6982541ae2cbbb95920372fc8316adc695543e8a4e87c6bbc"
+    },
+    {
+      "path": "evaluations/T-0814/implementation/provisional-exact-APIs-for-source-questions-v1.json",
+      "sha256": "dfb7bbbde2f7b3942e2669574fd6964f46bc9b2fbeb3bb579587244ba56ede36"
+    }
+  ],
+  "individual_decisions": [
+    {
+      "object_id": "READ-13e0dd710b86377a4f39cb1b",
+      "expected_version": 1,
+      "index": 0,
+      "old_edge": {
+        "object": "R-154f91f28b634062bb4de0c9",
+        "version": 1,
+        "role": "derived_from",
+        "note": "Avser denna version av den återbrukade källposten."
+      },
+      "new_edge": {
+        "object": "R-154f91f28b634062bb4de0c9",
+        "version": 2,
+        "role": "derived_from",
+        "note": "Avser denna version av den återbrukade källposten."
+      },
+      "decision": "REBIND_EXACT_SAME_RECORD_PROJECTED_REVISION",
+      "reason": "READ avser exakt Alnö B/2 ankomstpost76. Resulting R@2 bevarar samma post, lokator, ankomstuppgifter och hela C0602 negativa gräns; dess nya kvalifikation avvisar endast redan rättat majavskriftsfel. READ:s egna avgjorda prefix anger samma rättelse. Därför bind aktuell READ till samma källposts explicita revision2, inte till en annan källa eller ny oberoende uppgift."
+    },
+    {
+      "object_id": "READ-0981484557adbfd274ccf968",
+      "expected_version": 1,
+      "index": 0,
+      "old_edge": {
+        "object": "R-e2bae79a783e9e27b07877d7",
+        "version": 1,
+        "role": "derived_from",
+        "note": "Avser denna version av den återbrukade källposten."
+      },
+      "new_edge": {
+        "object": "R-e2bae79a783e9e27b07877d7",
+        "version": 2,
+        "role": "derived_from",
+        "note": "Avser denna version av den återbrukade källposten."
+      },
+      "decision": "REBIND_EXACT_SAME_RECORD_PROJECTED_REVISION",
+      "reason": "READ avser exakt Fågelviksattest65 den24oktober1873. Resulting R@2 bevarar ursprunglig attest,4september1852 och alla egna rå-/blankfält. R:s rationale/dependence_note/caveat kvalificerar den redan avvisade majfelläsningen; READ:s avgjorda body gör samma. Därför behövs revision2 av samma källpost, med verkliga september/årsvariationer och okänd egen födelsepost fortsatt bevarade."
+    }
+  ],
+  "preservation": "Only these two evidence[0].version values change1→2. Exact object/role/note and positions retained; all other native data, metadata, origins, evidence order and approved changes preserved. Source records must precede these READ revisions. No general rebind, duplicate removal, new source or clone permission. Earlier provisional package and unanswered preflight preserved.",
+  "canonicalApproval": false
+}

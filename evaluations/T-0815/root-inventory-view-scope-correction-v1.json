@@ -1,0 +1,11 @@
+{
+  "task": "T-0815",
+  "created_utc": "2026-10-08T09:08:11.291170+00:00",
+  "attempt": "Root actual finalization first compared CLI inventory overview(default) against staged inventory --full; assertion correctly failed before any DONE/state mutation.",
+  "exact_difference": "Root detail vs staged people/legacyReferences keys; intersecting fields equal, not native database difference.",
+  "preserved_overview": "root-actual-inventory-full-v1.json (filename inaccurate; output is actual default inventory overview)",
+  "corrected_command": "node genealogy2/cli.mjs inventory --full",
+  "corrected_output": "root-actual-inventory-full-v2.json",
+  "canonical_change": false,
+  "all50_proof": "actual-main-stage-comparison-v1.json PASS already verifies full actual schema/rows/arrays, only named operation actual timestamp."
+}

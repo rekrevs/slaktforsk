@@ -1,0 +1,1034 @@
+{
+  "schema": [
+    [
+      "index",
+      "dependency_basis",
+      "dependency",
+      "CREATE INDEX dependency_basis ON dependency(basis_revision_id)"
+    ],
+    [
+      "index",
+      "origin_unit",
+      "origin",
+      "CREATE INDEX origin_unit ON origin(unit_id)"
+    ],
+    [
+      "index",
+      "revision_object",
+      "revision",
+      "CREATE INDEX revision_object ON revision(object_id,version)"
+    ],
+    [
+      "index",
+      "unit_decision_unit",
+      "unit_decision",
+      "CREATE INDEX unit_decision_unit ON unit_decision(unit_id,version)"
+    ],
+    [
+      "index",
+      "unit_document",
+      "unit",
+      "CREATE INDEX unit_document ON unit(document_path)"
+    ],
+    [
+      "index",
+      "unit_legacy",
+      "unit",
+      "CREATE INDEX unit_legacy ON unit(legacy_id)"
+    ],
+    [
+      "index",
+      "unit_owner",
+      "unit",
+      "CREATE INDEX unit_owner ON unit(owner_id,kind)"
+    ],
+    [
+      "table",
+      "assessment",
+      "assessment",
+      "CREATE TABLE assessment (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  criteria TEXT NOT NULL, outcome TEXT NOT NULL, body TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "asset",
+      "asset",
+      "CREATE TABLE asset (\n  path TEXT PRIMARY KEY, batch_id TEXT NOT NULL REFERENCES import_batch(id),\n  sha256 TEXT NOT NULL, bytes INTEGER NOT NULL, frozen INTEGER NOT NULL CHECK(frozen IN (0,1))\n) STRICT"
+    ],
+    [
+      "table",
+      "dependency",
+      "dependency",
+      "CREATE TABLE dependency (\n  revision_id TEXT NOT NULL REFERENCES revision(id), basis_revision_id TEXT NOT NULL REFERENCES revision(id),\n  role TEXT NOT NULL CHECK(role IN ('supports','contradicts','context','derived_from')),\n  note TEXT NOT NULL, PRIMARY KEY(revision_id,basis_revision_id,role),\n  CHECK(revision_id!=basis_revision_id)\n) STRICT"
+    ],
+    [
+      "table",
+      "document",
+      "document",
+      "CREATE TABLE document (\n  path TEXT PRIMARY KEY, batch_id TEXT NOT NULL REFERENCES import_batch(id),\n  sha256 TEXT NOT NULL, bytes INTEGER NOT NULL, text TEXT NOT NULL,\n  frozen INTEGER NOT NULL CHECK(frozen IN (0,1))\n) STRICT"
+    ],
+    [
+      "table",
+      "document_search",
+      "document_search",
+      "CREATE VIRTUAL TABLE document_search USING fts5(path UNINDEXED,text, tokenize='unicode61 remove_diacritics 2')"
+    ],
+    [
+      "table",
+      "document_search_config",
+      "document_search_config",
+      "CREATE TABLE 'document_search_config'(k PRIMARY KEY, v) WITHOUT ROWID"
+    ],
+    [
+      "table",
+      "document_search_content",
+      "document_search_content",
+      "CREATE TABLE 'document_search_content'(id INTEGER PRIMARY KEY, c0, c1)"
+    ],
+    [
+      "table",
+      "document_search_data",
+      "document_search_data",
+      "CREATE TABLE 'document_search_data'(id INTEGER PRIMARY KEY, block BLOB)"
+    ],
+    [
+      "table",
+      "document_search_docsize",
+      "document_search_docsize",
+      "CREATE TABLE 'document_search_docsize'(id INTEGER PRIMARY KEY, sz BLOB)"
+    ],
+    [
+      "table",
+      "document_search_idx",
+      "document_search_idx",
+      "CREATE TABLE 'document_search_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID"
+    ],
+    [
+      "table",
+      "event",
+      "event",
+      "CREATE TABLE event (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), event_type TEXT NOT NULL,\n  date_json TEXT NOT NULL CHECK(json_valid(date_json)), place_id TEXT REFERENCES object(id),\n  place_role TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "fact",
+      "fact",
+      "CREATE TABLE fact (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  property TEXT NOT NULL, value_type TEXT NOT NULL CHECK(value_type IN ('text','number','date','entity','boolean','structured')),\n  value_json TEXT NOT NULL CHECK(json_valid(value_json))\n) STRICT"
+    ],
+    [
+      "table",
+      "identity",
+      "identity",
+      "CREATE TABLE identity (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), mention_id TEXT NOT NULL REFERENCES object(id),\n  person_id TEXT NOT NULL REFERENCES object(id), decision TEXT NOT NULL CHECK(decision IN ('accepted','candidate','rejected'))\n) STRICT"
+    ],
+    [
+      "table",
+      "identity_resolution",
+      "identity_resolution",
+      "CREATE TABLE identity_resolution (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), person_a TEXT NOT NULL REFERENCES object(id),\n  person_b TEXT NOT NULL REFERENCES object(id), decision TEXT NOT NULL CHECK(decision IN ('same_person','different_people','unresolved')),\n  CHECK(person_a!=person_b)\n) STRICT"
+    ],
+    [
+      "table",
+      "import_batch",
+      "import_batch",
+      "CREATE TABLE import_batch (\n  id TEXT PRIMARY KEY, manifest_json TEXT NOT NULL CHECK(json_valid(manifest_json)),\n  extractor TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "legacy_assertion",
+      "legacy_assertion",
+      "CREATE TABLE legacy_assertion (\n  id TEXT PRIMARY KEY, unit_id TEXT NOT NULL UNIQUE REFERENCES unit(id),\n  owner_id TEXT NOT NULL, status_raw TEXT, reliability_raw TEXT\n) STRICT"
+    ],
+    [
+      "table",
+      "legacy_entity",
+      "legacy_entity",
+      "CREATE TABLE legacy_entity (\n  id TEXT NOT NULL, kind TEXT NOT NULL CHECK(kind IN ('person','source','citation','profile')),\n  document_path TEXT NOT NULL UNIQUE REFERENCES document(path), title TEXT NOT NULL,\n  PRIMARY KEY(kind,id)\n) STRICT"
+    ],
+    [
+      "table",
+      "legacy_mapping",
+      "legacy_mapping",
+      "CREATE TABLE legacy_mapping (\n  id TEXT PRIMARY KEY, legacy_kind TEXT NOT NULL, legacy_id TEXT NOT NULL,\n  target_id TEXT NOT NULL REFERENCES object(id), operation_id TEXT NOT NULL REFERENCES operation(id),\n  mapping_type TEXT NOT NULL CHECK(mapping_type IN ('same_identity','rejected_identity','archival_reference')),\n  origin_unit_id TEXT NOT NULL REFERENCES unit(id), rationale TEXT NOT NULL,\n  FOREIGN KEY(legacy_kind,legacy_id) REFERENCES legacy_entity(kind,id),\n  UNIQUE(legacy_kind,legacy_id,target_id,mapping_type)\n) STRICT"
+    ],
+    [
+      "table",
+      "mention",
+      "mention",
+      "CREATE TABLE mention (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), record_id TEXT NOT NULL REFERENCES object(id),\n  name_literal TEXT NOT NULL, role_literal TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "meta",
+      "meta",
+      "CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL) STRICT"
+    ],
+    [
+      "table",
+      "narrative",
+      "narrative",
+      "CREATE TABLE narrative (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  title TEXT NOT NULL, markdown TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "native_asset",
+      "native_asset",
+      "CREATE TABLE native_asset (\n  id TEXT PRIMARY KEY, storage_path TEXT NOT NULL, sha256 TEXT NOT NULL,\n  bytes INTEGER NOT NULL CHECK(bytes>=0), original_name TEXT NOT NULL,\n  provenance TEXT NOT NULL, operation_id TEXT NOT NULL REFERENCES operation(id)\n) STRICT"
+    ],
+    [
+      "table",
+      "object",
+      "object",
+      "CREATE TABLE object (\n  id TEXT PRIMARY KEY,\n  kind TEXT NOT NULL CHECK(kind IN ('person','source','record','transcription','mention','observation','identity','identity_resolution','place','event','participation','relation','fact','question','search','assessment','narrative'))\n) STRICT"
+    ],
+    [
+      "table",
+      "object_search",
+      "object_search",
+      "CREATE VIRTUAL TABLE object_search USING fts5(object_id UNINDEXED,kind UNINDEXED,text)"
+    ],
+    [
+      "table",
+      "object_search_config",
+      "object_search_config",
+      "CREATE TABLE 'object_search_config'(k PRIMARY KEY, v) WITHOUT ROWID"
+    ],
+    [
+      "table",
+      "object_search_content",
+      "object_search_content",
+      "CREATE TABLE 'object_search_content'(id INTEGER PRIMARY KEY, c0, c1, c2)"
+    ],
+    [
+      "table",
+      "object_search_data",
+      "object_search_data",
+      "CREATE TABLE 'object_search_data'(id INTEGER PRIMARY KEY, block BLOB)"
+    ],
+    [
+      "table",
+      "object_search_docsize",
+      "object_search_docsize",
+      "CREATE TABLE 'object_search_docsize'(id INTEGER PRIMARY KEY, sz BLOB)"
+    ],
+    [
+      "table",
+      "object_search_idx",
+      "object_search_idx",
+      "CREATE TABLE 'object_search_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID"
+    ],
+    [
+      "table",
+      "observation",
+      "observation",
+      "CREATE TABLE observation (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), record_id TEXT NOT NULL REFERENCES object(id),\n  mention_id TEXT REFERENCES object(id), property TEXT NOT NULL, value_literal TEXT NOT NULL,\n  value_json TEXT CHECK(value_json IS NULL OR json_valid(value_json))\n) STRICT"
+    ],
+    [
+      "table",
+      "operation",
+      "operation",
+      "CREATE TABLE operation (\n  id TEXT PRIMARY KEY, request_hash TEXT NOT NULL, actor TEXT NOT NULL,\n  recorded_at TEXT NOT NULL, reason TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "operation_payload",
+      "operation_payload",
+      "CREATE TABLE operation_payload (\n  sequence INTEGER PRIMARY KEY, operation_id TEXT NOT NULL UNIQUE REFERENCES operation(id),\n  policy TEXT NOT NULL CHECK(policy IN ('legacy/1','native/2')),\n  request_json TEXT NOT NULL CHECK(json_valid(request_json))\n) STRICT"
+    ],
+    [
+      "table",
+      "origin",
+      "origin",
+      "CREATE TABLE origin (\n  revision_id TEXT NOT NULL REFERENCES revision(id), unit_id TEXT NOT NULL REFERENCES unit(id),\n  coverage TEXT NOT NULL CHECK(coverage IN ('partial','complete','context')),\n  note TEXT NOT NULL, PRIMARY KEY(revision_id,unit_id)\n) STRICT"
+    ],
+    [
+      "table",
+      "participation",
+      "participation",
+      "CREATE TABLE participation (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), event_id TEXT NOT NULL REFERENCES object(id),\n  person_id TEXT REFERENCES object(id), mention_id TEXT REFERENCES object(id), role TEXT NOT NULL,\n  CHECK(person_id IS NOT NULL OR mention_id IS NOT NULL)\n) STRICT"
+    ],
+    [
+      "table",
+      "person",
+      "person",
+      "CREATE TABLE person (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), display_name TEXT NOT NULL,\n  sex TEXT CHECK(sex IN ('female','male','unknown') OR sex IS NULL),\n  legacy_state TEXT CHECK(legacy_state IN ('active','retired') OR legacy_state IS NULL)\n) STRICT"
+    ],
+    [
+      "table",
+      "place",
+      "place",
+      "CREATE TABLE place (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), name TEXT NOT NULL,\n  jurisdiction TEXT NOT NULL, parent_id TEXT REFERENCES object(id)\n) STRICT"
+    ],
+    [
+      "table",
+      "question",
+      "question",
+      "CREATE TABLE question (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), subject_id TEXT NOT NULL REFERENCES object(id),\n  title TEXT NOT NULL, outcome TEXT NOT NULL, body TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "record",
+      "record",
+      "CREATE TABLE record (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), source_id TEXT NOT NULL REFERENCES object(id),\n  record_type TEXT NOT NULL, locator TEXT NOT NULL, dependence_note TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "record_asset",
+      "record_asset",
+      "CREATE TABLE record_asset (\n  revision_id TEXT NOT NULL REFERENCES record(revision_id), asset_path TEXT NOT NULL REFERENCES asset(path),\n  region TEXT NOT NULL, PRIMARY KEY(revision_id,asset_path)\n) STRICT"
+    ],
+    [
+      "table",
+      "record_media",
+      "record_media",
+      "CREATE TABLE record_media (\n  revision_id TEXT NOT NULL REFERENCES record(revision_id),\n  asset_id TEXT NOT NULL REFERENCES native_asset(id), region TEXT NOT NULL,\n  PRIMARY KEY(revision_id,asset_id)\n) STRICT"
+    ],
+    [
+      "table",
+      "relation",
+      "relation",
+      "CREATE TABLE relation (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), from_person TEXT NOT NULL REFERENCES object(id),\n  to_person TEXT NOT NULL REFERENCES object(id), relation_type TEXT NOT NULL,\n  nature TEXT NOT NULL, date_json TEXT NOT NULL CHECK(json_valid(date_json)),\n  CHECK(from_person!=to_person)\n) STRICT"
+    ],
+    [
+      "table",
+      "review_request",
+      "review_request",
+      "CREATE TABLE review_request (\n  id TEXT PRIMARY KEY, operation_id TEXT NOT NULL REFERENCES operation(id),\n  affected_revision_id TEXT NOT NULL REFERENCES revision(id),\n  changed_revision_id TEXT NOT NULL REFERENCES revision(id), reason TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "review_resolution",
+      "review_resolution",
+      "CREATE TABLE review_resolution (\n  request_id TEXT PRIMARY KEY REFERENCES review_request(id),\n  operation_id TEXT NOT NULL REFERENCES operation(id), rationale TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "revision",
+      "revision",
+      "CREATE TABLE revision (\n  id TEXT PRIMARY KEY, object_id TEXT NOT NULL REFERENCES object(id),\n  version INTEGER NOT NULL CHECK(version>0), operation_id TEXT NOT NULL REFERENCES operation(id),\n  disposition TEXT NOT NULL CHECK(disposition IN ('recorded','accepted','candidate','rejected','retired')),\n  evidence_status TEXT, rationale TEXT NOT NULL, caveat TEXT NOT NULL,\n  previous_id TEXT REFERENCES revision(id), UNIQUE(object_id,version)\n) STRICT"
+    ],
+    [
+      "table",
+      "search",
+      "search",
+      "CREATE TABLE search (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), question_id TEXT REFERENCES object(id),\n  source_id TEXT NOT NULL REFERENCES object(id), scope_json TEXT NOT NULL CHECK(json_valid(scope_json)),\n  outcome TEXT NOT NULL CHECK(outcome IN ('negative','positive','access_problem','inconclusive')),\n  body TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "source",
+      "source",
+      "CREATE TABLE source (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), title TEXT NOT NULL,\n  archive_reference TEXT, source_class TEXT, description TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "transcription",
+      "transcription",
+      "CREATE TABLE transcription (\n  revision_id TEXT PRIMARY KEY REFERENCES revision(id), record_id TEXT NOT NULL REFERENCES object(id),\n  text TEXT NOT NULL, reading_note TEXT NOT NULL\n) STRICT"
+    ],
+    [
+      "table",
+      "unit",
+      "unit",
+      "CREATE TABLE unit (\n  id TEXT PRIMARY KEY, document_path TEXT NOT NULL REFERENCES document(path),\n  kind TEXT NOT NULL, legacy_id TEXT, owner_id TEXT, section TEXT NOT NULL,\n  start_byte INTEGER NOT NULL, end_byte INTEGER NOT NULL,\n  start_line INTEGER NOT NULL, end_line INTEGER NOT NULL,\n  raw TEXT NOT NULL, parsed_json TEXT NOT NULL CHECK(json_valid(parsed_json)),\n  historical INTEGER NOT NULL CHECK(historical IN (0,1)),\n  CHECK(start_byte >= 0 AND end_byte > start_byte)\n) STRICT"
+    ],
+    [
+      "table",
+      "unit_decision",
+      "unit_decision",
+      "CREATE TABLE unit_decision (\n  id TEXT PRIMARY KEY, unit_id TEXT NOT NULL REFERENCES unit(id),\n  version INTEGER NOT NULL CHECK(version>0), operation_id TEXT NOT NULL REFERENCES operation(id),\n  state TEXT NOT NULL CHECK(state IN ('mapped_complete','preserved_text','pending_interpretation','preserved_history')),\n  target_id TEXT REFERENCES object(id), rationale TEXT NOT NULL, question TEXT NOT NULL,\n  previous_id TEXT REFERENCES unit_decision(id), UNIQUE(unit_id,version),\n  CHECK(state!='mapped_complete' OR target_id IS NOT NULL),\n  CHECK(state!='pending_interpretation' OR length(trim(question))>0)\n) STRICT"
+    ],
+    [
+      "table",
+      "unit_decision_target",
+      "unit_decision_target",
+      "CREATE TABLE unit_decision_target (\n  decision_id TEXT NOT NULL REFERENCES unit_decision(id),\n  target_id TEXT NOT NULL REFERENCES object(id),\n  PRIMARY KEY(decision_id,target_id)\n) STRICT"
+    ],
+    [
+      "trigger",
+      "protect_assessment_DELETE",
+      "assessment",
+      "CREATE TRIGGER protect_assessment_DELETE BEFORE DELETE ON assessment BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_assessment_UPDATE",
+      "assessment",
+      "CREATE TRIGGER protect_assessment_UPDATE BEFORE UPDATE ON assessment BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_asset_DELETE",
+      "asset",
+      "CREATE TRIGGER protect_asset_DELETE BEFORE DELETE ON asset BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_asset_UPDATE",
+      "asset",
+      "CREATE TRIGGER protect_asset_UPDATE BEFORE UPDATE ON asset BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_dependency_DELETE",
+      "dependency",
+      "CREATE TRIGGER protect_dependency_DELETE BEFORE DELETE ON dependency BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_dependency_UPDATE",
+      "dependency",
+      "CREATE TRIGGER protect_dependency_UPDATE BEFORE UPDATE ON dependency BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_document_DELETE",
+      "document",
+      "CREATE TRIGGER protect_document_DELETE BEFORE DELETE ON document BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_document_UPDATE",
+      "document",
+      "CREATE TRIGGER protect_document_UPDATE BEFORE UPDATE ON document BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_event_DELETE",
+      "event",
+      "CREATE TRIGGER protect_event_DELETE BEFORE DELETE ON event BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_event_UPDATE",
+      "event",
+      "CREATE TRIGGER protect_event_UPDATE BEFORE UPDATE ON event BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_fact_DELETE",
+      "fact",
+      "CREATE TRIGGER protect_fact_DELETE BEFORE DELETE ON fact BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_fact_UPDATE",
+      "fact",
+      "CREATE TRIGGER protect_fact_UPDATE BEFORE UPDATE ON fact BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_identity_DELETE",
+      "identity",
+      "CREATE TRIGGER protect_identity_DELETE BEFORE DELETE ON identity BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_identity_UPDATE",
+      "identity",
+      "CREATE TRIGGER protect_identity_UPDATE BEFORE UPDATE ON identity BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_identity_resolution_DELETE",
+      "identity_resolution",
+      "CREATE TRIGGER protect_identity_resolution_DELETE BEFORE DELETE ON identity_resolution BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_identity_resolution_UPDATE",
+      "identity_resolution",
+      "CREATE TRIGGER protect_identity_resolution_UPDATE BEFORE UPDATE ON identity_resolution BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_import_batch_DELETE",
+      "import_batch",
+      "CREATE TRIGGER protect_import_batch_DELETE BEFORE DELETE ON import_batch BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_import_batch_UPDATE",
+      "import_batch",
+      "CREATE TRIGGER protect_import_batch_UPDATE BEFORE UPDATE ON import_batch BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_legacy_assertion_DELETE",
+      "legacy_assertion",
+      "CREATE TRIGGER protect_legacy_assertion_DELETE BEFORE DELETE ON legacy_assertion BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_legacy_assertion_UPDATE",
+      "legacy_assertion",
+      "CREATE TRIGGER protect_legacy_assertion_UPDATE BEFORE UPDATE ON legacy_assertion BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_legacy_entity_DELETE",
+      "legacy_entity",
+      "CREATE TRIGGER protect_legacy_entity_DELETE BEFORE DELETE ON legacy_entity BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_legacy_entity_UPDATE",
+      "legacy_entity",
+      "CREATE TRIGGER protect_legacy_entity_UPDATE BEFORE UPDATE ON legacy_entity BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_legacy_mapping_DELETE",
+      "legacy_mapping",
+      "CREATE TRIGGER protect_legacy_mapping_DELETE BEFORE DELETE ON legacy_mapping BEGIN SELECT RAISE(ABORT,'Importbeslut är oföränderliga'); END"
+    ],
+    [
+      "trigger",
+      "protect_legacy_mapping_UPDATE",
+      "legacy_mapping",
+      "CREATE TRIGGER protect_legacy_mapping_UPDATE BEFORE UPDATE ON legacy_mapping BEGIN SELECT RAISE(ABORT,'Importbeslut är oföränderliga'); END"
+    ],
+    [
+      "trigger",
+      "protect_mention_DELETE",
+      "mention",
+      "CREATE TRIGGER protect_mention_DELETE BEFORE DELETE ON mention BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_mention_UPDATE",
+      "mention",
+      "CREATE TRIGGER protect_mention_UPDATE BEFORE UPDATE ON mention BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_narrative_DELETE",
+      "narrative",
+      "CREATE TRIGGER protect_narrative_DELETE BEFORE DELETE ON narrative BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_narrative_UPDATE",
+      "narrative",
+      "CREATE TRIGGER protect_narrative_UPDATE BEFORE UPDATE ON narrative BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_native_asset_DELETE",
+      "native_asset",
+      "CREATE TRIGGER protect_native_asset_DELETE BEFORE DELETE ON native_asset BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_native_asset_UPDATE",
+      "native_asset",
+      "CREATE TRIGGER protect_native_asset_UPDATE BEFORE UPDATE ON native_asset BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_object_DELETE",
+      "object",
+      "CREATE TRIGGER protect_object_DELETE BEFORE DELETE ON object BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_object_UPDATE",
+      "object",
+      "CREATE TRIGGER protect_object_UPDATE BEFORE UPDATE ON object BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_observation_DELETE",
+      "observation",
+      "CREATE TRIGGER protect_observation_DELETE BEFORE DELETE ON observation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_observation_UPDATE",
+      "observation",
+      "CREATE TRIGGER protect_observation_UPDATE BEFORE UPDATE ON observation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_operation_DELETE",
+      "operation",
+      "CREATE TRIGGER protect_operation_DELETE BEFORE DELETE ON operation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_operation_UPDATE",
+      "operation",
+      "CREATE TRIGGER protect_operation_UPDATE BEFORE UPDATE ON operation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_operation_payload_DELETE",
+      "operation_payload",
+      "CREATE TRIGGER protect_operation_payload_DELETE BEFORE DELETE ON operation_payload BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_operation_payload_UPDATE",
+      "operation_payload",
+      "CREATE TRIGGER protect_operation_payload_UPDATE BEFORE UPDATE ON operation_payload BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_origin_DELETE",
+      "origin",
+      "CREATE TRIGGER protect_origin_DELETE BEFORE DELETE ON origin BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_origin_UPDATE",
+      "origin",
+      "CREATE TRIGGER protect_origin_UPDATE BEFORE UPDATE ON origin BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_participation_DELETE",
+      "participation",
+      "CREATE TRIGGER protect_participation_DELETE BEFORE DELETE ON participation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_participation_UPDATE",
+      "participation",
+      "CREATE TRIGGER protect_participation_UPDATE BEFORE UPDATE ON participation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_person_DELETE",
+      "person",
+      "CREATE TRIGGER protect_person_DELETE BEFORE DELETE ON person BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_person_UPDATE",
+      "person",
+      "CREATE TRIGGER protect_person_UPDATE BEFORE UPDATE ON person BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_place_DELETE",
+      "place",
+      "CREATE TRIGGER protect_place_DELETE BEFORE DELETE ON place BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_place_UPDATE",
+      "place",
+      "CREATE TRIGGER protect_place_UPDATE BEFORE UPDATE ON place BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_question_DELETE",
+      "question",
+      "CREATE TRIGGER protect_question_DELETE BEFORE DELETE ON question BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_question_UPDATE",
+      "question",
+      "CREATE TRIGGER protect_question_UPDATE BEFORE UPDATE ON question BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_record_DELETE",
+      "record",
+      "CREATE TRIGGER protect_record_DELETE BEFORE DELETE ON record BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_record_UPDATE",
+      "record",
+      "CREATE TRIGGER protect_record_UPDATE BEFORE UPDATE ON record BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_record_asset_DELETE",
+      "record_asset",
+      "CREATE TRIGGER protect_record_asset_DELETE BEFORE DELETE ON record_asset BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_record_asset_UPDATE",
+      "record_asset",
+      "CREATE TRIGGER protect_record_asset_UPDATE BEFORE UPDATE ON record_asset BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_record_media_DELETE",
+      "record_media",
+      "CREATE TRIGGER protect_record_media_DELETE BEFORE DELETE ON record_media BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_record_media_UPDATE",
+      "record_media",
+      "CREATE TRIGGER protect_record_media_UPDATE BEFORE UPDATE ON record_media BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_relation_DELETE",
+      "relation",
+      "CREATE TRIGGER protect_relation_DELETE BEFORE DELETE ON relation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_relation_UPDATE",
+      "relation",
+      "CREATE TRIGGER protect_relation_UPDATE BEFORE UPDATE ON relation BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_review_request_DELETE",
+      "review_request",
+      "CREATE TRIGGER protect_review_request_DELETE BEFORE DELETE ON review_request BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_review_request_UPDATE",
+      "review_request",
+      "CREATE TRIGGER protect_review_request_UPDATE BEFORE UPDATE ON review_request BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_review_resolution_DELETE",
+      "review_resolution",
+      "CREATE TRIGGER protect_review_resolution_DELETE BEFORE DELETE ON review_resolution BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_review_resolution_UPDATE",
+      "review_resolution",
+      "CREATE TRIGGER protect_review_resolution_UPDATE BEFORE UPDATE ON review_resolution BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_revision_DELETE",
+      "revision",
+      "CREATE TRIGGER protect_revision_DELETE BEFORE DELETE ON revision BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_revision_UPDATE",
+      "revision",
+      "CREATE TRIGGER protect_revision_UPDATE BEFORE UPDATE ON revision BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_search_DELETE",
+      "search",
+      "CREATE TRIGGER protect_search_DELETE BEFORE DELETE ON search BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_search_UPDATE",
+      "search",
+      "CREATE TRIGGER protect_search_UPDATE BEFORE UPDATE ON search BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_source_DELETE",
+      "source",
+      "CREATE TRIGGER protect_source_DELETE BEFORE DELETE ON source BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_source_UPDATE",
+      "source",
+      "CREATE TRIGGER protect_source_UPDATE BEFORE UPDATE ON source BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_transcription_DELETE",
+      "transcription",
+      "CREATE TRIGGER protect_transcription_DELETE BEFORE DELETE ON transcription BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_transcription_UPDATE",
+      "transcription",
+      "CREATE TRIGGER protect_transcription_UPDATE BEFORE UPDATE ON transcription BEGIN SELECT RAISE(ABORT,'Revisionshistorik är oföränderlig'); END"
+    ],
+    [
+      "trigger",
+      "protect_unit_DELETE",
+      "unit",
+      "CREATE TRIGGER protect_unit_DELETE BEFORE DELETE ON unit BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_unit_UPDATE",
+      "unit",
+      "CREATE TRIGGER protect_unit_UPDATE BEFORE UPDATE ON unit BEGIN SELECT RAISE(ABORT,'Bevarat underlag är oföränderligt'); END"
+    ],
+    [
+      "trigger",
+      "protect_unit_decision_DELETE",
+      "unit_decision",
+      "CREATE TRIGGER protect_unit_decision_DELETE BEFORE DELETE ON unit_decision BEGIN SELECT RAISE(ABORT,'Konverteringsbeslut är oföränderliga'); END"
+    ],
+    [
+      "trigger",
+      "protect_unit_decision_UPDATE",
+      "unit_decision",
+      "CREATE TRIGGER protect_unit_decision_UPDATE BEFORE UPDATE ON unit_decision BEGIN SELECT RAISE(ABORT,'Konverteringsbeslut är oföränderliga'); END"
+    ],
+    [
+      "trigger",
+      "protect_unit_decision_target_DELETE",
+      "unit_decision_target",
+      "CREATE TRIGGER protect_unit_decision_target_DELETE BEFORE DELETE ON unit_decision_target BEGIN SELECT RAISE(ABORT,'Konverteringsmål är oföränderliga'); END"
+    ],
+    [
+      "trigger",
+      "protect_unit_decision_target_UPDATE",
+      "unit_decision_target",
+      "CREATE TRIGGER protect_unit_decision_target_UPDATE BEFORE UPDATE ON unit_decision_target BEGIN SELECT RAISE(ABORT,'Konverteringsmål är oföränderliga'); END"
+    ],
+    [
+      "view",
+      "current_participation",
+      "current_participation",
+      "CREATE VIEW current_participation AS\n  SELECT r.object_id,r.version,r.disposition,r.evidence_status,r.caveat,p.*\n  FROM current_revision r JOIN participation p ON p.revision_id=r.id"
+    ],
+    [
+      "view",
+      "current_relation",
+      "current_relation",
+      "CREATE VIEW current_relation AS\n  SELECT r.object_id,r.version,r.disposition,r.evidence_status,r.caveat,p.*\n  FROM current_revision r JOIN relation p ON p.revision_id=r.id"
+    ],
+    [
+      "view",
+      "current_revision",
+      "current_revision",
+      "CREATE VIEW current_revision AS\n  SELECT r.*,o.kind FROM revision r JOIN object o ON o.id=r.object_id\n  WHERE NOT EXISTS(SELECT 1 FROM revision newer WHERE newer.object_id=r.object_id AND newer.version>r.version)"
+    ],
+    [
+      "view",
+      "current_unit_decision",
+      "current_unit_decision",
+      "CREATE VIEW current_unit_decision AS SELECT d.* FROM unit_decision d\n  WHERE NOT EXISTS(SELECT 1 FROM unit_decision newer WHERE newer.unit_id=d.unit_id AND newer.version>d.version)"
+    ],
+    [
+      "view",
+      "current_unit_target",
+      "current_unit_target",
+      "CREATE VIEW current_unit_target AS\n  SELECT d.unit_id,d.id AS decision_id,d.target_id FROM current_unit_decision d WHERE d.target_id IS NOT NULL\n  UNION\n  SELECT d.unit_id,d.id AS decision_id,t.target_id FROM current_unit_decision d\n  JOIN unit_decision_target t ON t.decision_id=d.id"
+    ],
+    [
+      "view",
+      "pending_review",
+      "pending_review",
+      "CREATE VIEW pending_review AS\n  SELECT q.* FROM review_request q WHERE NOT EXISTS(SELECT 1 FROM review_resolution s WHERE s.request_id=q.id)"
+    ]
+  ],
+  "tables": {
+    "assessment": {
+      "rows": 24325,
+      "sha256": "263d9b2cc458b706a57a0a058b468adba11bd71d59f7d05b8e61b1daa920d92c"
+    },
+    "asset": {
+      "rows": 5067,
+      "sha256": "a2e2d3612213d2e43faac9d8241f6df066f9de1d08fbe6b9aa242b692b5b6edf"
+    },
+    "dependency": {
+      "rows": 42003,
+      "sha256": "2a59114431a257f75368db690fc593b28485a0b4711708724c54da2d8e0f4521"
+    },
+    "document": {
+      "rows": 3717,
+      "sha256": "b75d148da3cf79c972c70744cf648939063181168ffc027b105a3a1589c924b7"
+    },
+    "document_search": {
+      "rows": 3717,
+      "sha256": "1f7e3c645aed3a54ac11b91a0b447047c0c1931c1b3a87f6d8fa9e5690c390a6"
+    },
+    "document_search_config": {
+      "rows": 1,
+      "sha256": "7d6af8d5f3a5b7959afb40dd2dcc5bb8a3f5737f06e0e5f0b9b4fda81e65f1f5"
+    },
+    "document_search_content": {
+      "rows": 3717,
+      "sha256": "07557b1faa11539567e6828d3280ce5df244126b9eabec074f1eff3719410068"
+    },
+    "document_search_data": {
+      "rows": 4239,
+      "sha256": "c9c0d155be7449c2b0e9f91c68499d343d4cdc603ea1ba255bd01c071b325e03"
+    },
+    "document_search_docsize": {
+      "rows": 3717,
+      "sha256": "190dc4ddd52b6ff60ecffddd7acda1f06942bfc6783629c49bef0f679a517707"
+    },
+    "document_search_idx": {
+      "rows": 4446,
+      "sha256": "a80085bf0bd7d60511bfef0796448f196ec1b0c655b0da050bceb10ab12ada05"
+    },
+    "event": {
+      "rows": 1541,
+      "sha256": "af1783bb633e491b3a708083ab0e9c7a4cfe94349a6c06142cec9f51d6134992"
+    },
+    "fact": {
+      "rows": 3734,
+      "sha256": "6d7a0d31403f91dfb4c0880c201d4c68bf102db220d74923f9ea1bf5ce8a74ca"
+    },
+    "identity": {
+      "rows": 1874,
+      "sha256": "b08120c0ba694ccdab92e2418f5ad2ae8dc690fbfb4e3c6dabd1f0de4b730257"
+    },
+    "identity_resolution": {
+      "rows": 11,
+      "sha256": "ec2df1450fb57882ca73f22c9b711eadd06115c39b4d087ffa849b1e9451dd9f"
+    },
+    "import_batch": {
+      "rows": 1,
+      "sha256": "18f899daf061895bce0aaef3a9258f46b6a77df09cae0f9ef4962b5698c745bb"
+    },
+    "legacy_assertion": {
+      "rows": 5130,
+      "sha256": "3c7bb9f6d864cf337e8cab341720ad1419aa043fb71d429ebb54ddc83c2c717a"
+    },
+    "legacy_entity": {
+      "rows": 2992,
+      "sha256": "80d6979662ab3e44a6c68e6df627859d8b3486aec486955782759fbaff29990b"
+    },
+    "legacy_mapping": {
+      "rows": 539,
+      "sha256": "a2ac3d9a65e1104b79a9a332a148d4e2c90d92d93305f93fb4c6d13be19610e2"
+    },
+    "mention": {
+      "rows": 2612,
+      "sha256": "bb7e51de96c833ba01839f79effcf098c423b1085f96ce109c58dbceb2301c22"
+    },
+    "meta": {
+      "rows": 1,
+      "sha256": "aba4fd9e74a26d8889dd8f6018a4c71a833632374c54183310ae0b2b47a73ebc"
+    },
+    "narrative": {
+      "rows": 797,
+      "sha256": "97a9eea23df4f127ffc1491fefe83e5c2f3e59d74f7e75ec0b833ee737230c8e"
+    },
+    "native_asset": {
+      "rows": 70,
+      "sha256": "40aa3658390f789a532fb7ad7c51ec23e52e060cbaa05c5a56ecf0aa6a2e7a7e"
+    },
+    "object": {
+      "rows": 44463,
+      "sha256": "2c7e2c88c8f17eb73657a5133dd23cae26c50760e250e64841d086e626193750"
+    },
+    "object_search": {
+      "rows": 44463,
+      "sha256": "7d17ee1e9a4436de4b553f65a1ef29f5f2c2cfeef92f01f5e884e08133d2c929"
+    },
+    "object_search_config": {
+      "rows": 1,
+      "sha256": "7d6af8d5f3a5b7959afb40dd2dcc5bb8a3f5737f06e0e5f0b9b4fda81e65f1f5"
+    },
+    "object_search_content": {
+      "rows": 44463,
+      "sha256": "57ae552dc4a37f64638f62d727c29cb2ced9c1b89474c201b1d5bbfc75bbe38f"
+    },
+    "object_search_data": {
+      "rows": 7651,
+      "sha256": "c21125d4ac43d8d4abbd6f841535e0c401c53fa95f58aea905f32cf695183d36"
+    },
+    "object_search_docsize": {
+      "rows": 44463,
+      "sha256": "30e740398b128fe1fbe9cca4b49b57754bb7a712164576b6e35ea481ce3cb611"
+    },
+    "object_search_idx": {
+      "rows": 5622,
+      "sha256": "62c429946d8fd7c45faf683b9946b4eba754da957959a98cb55f4ae364c0b91b"
+    },
+    "observation": {
+      "rows": 3608,
+      "sha256": "fe0351c4803de0c425ab94adfc333034c3e9fc85a00272463e3a91aae9943fd1"
+    },
+    "operation": {
+      "rows": 484,
+      "sha256": "3eca309786f3933f99cfd8cf9861e7a2f29adf970d3a0e3168898391097affdc"
+    },
+    "operation_payload": {
+      "rows": 483,
+      "sha256": "603cab0e13ba5a17ebf51263661ae2c8f0203e89af7939c7b942e14391d2cc82"
+    },
+    "origin": {
+      "rows": 101375,
+      "sha256": "3c4fff62df018d8ab70c96423a88e21f8dc3e71f43176691eb49895f841bce8e"
+    },
+    "participation": {
+      "rows": 2579,
+      "sha256": "562d0014b58ecbc1ae7554bdd82860541b106f540a3de03f510a8ba82cc0679d"
+    },
+    "person": {
+      "rows": 1112,
+      "sha256": "607bc3129e8da498b6de374e08b8f0ea33ca4a9c599ddb08c2434f621d870a64"
+    },
+    "place": {
+      "rows": 21,
+      "sha256": "d5fb8d8697e5f0cde8e5da229ee1f57608cbb7088205de329f84a45ea16e1259"
+    },
+    "question": {
+      "rows": 1612,
+      "sha256": "b5cebb268404f838e16e31cae4e58ecb042081f7b9d06edff1c0c83178f84ef7"
+    },
+    "record": {
+      "rows": 2145,
+      "sha256": "331a4542ba43a6d92fcefa23a7088964502b868751bb4e4ae5de7dbb44a106e5"
+    },
+    "record_asset": {
+      "rows": 1540,
+      "sha256": "3352f2aedf617b7e20c5cd2cb651347dfcd8939fd82e70e994b493bf008a3b99"
+    },
+    "record_media": {
+      "rows": 75,
+      "sha256": "26a2c993ae33f31513268c6cf519767e7781b440bf0896d84fdc32eb64aa5705"
+    },
+    "relation": {
+      "rows": 1705,
+      "sha256": "138bc8ee94bf7110e1690a66f83e4d9afea838a67dc03b0cf0245153d0113c94"
+    },
+    "review_request": {
+      "rows": 7344,
+      "sha256": "5589e2af32f20f5f46bfda794c83714ec5b4f9b146e7fbb54c9a40ae9788837d"
+    },
+    "review_resolution": {
+      "rows": 7344,
+      "sha256": "280ccb651a5b422fb7277b4fc847c15a3f54e337259c331ee8f90e33398e9a2c"
+    },
+    "revision": {
+      "rows": 50234,
+      "sha256": "589146c7f0a00b7ac531e094ba886faafa0dd1e112079ca67520f5c938602154"
+    },
+    "search": {
+      "rows": 464,
+      "sha256": "95f195ea8851b43f550184ee523fa3d654337ac9648987d625a3c5f665e3cd04"
+    },
+    "source": {
+      "rows": 859,
+      "sha256": "15bd01d69ef3619325361efb76d87e1ac79dd5a57872f96ad146f8202d073994"
+    },
+    "transcription": {
+      "rows": 1235,
+      "sha256": "7668a30fee0af4aed88d24074ea26fd35eb5eda20717b8eb1da6467e0941de47"
+    },
+    "unit": {
+      "rows": 97854,
+      "sha256": "f63644a948a16c6c0901f8e48aeff1c24fb6c4ed98892c7be4c7208558c8053e"
+    },
+    "unit_decision": {
+      "rows": 97905,
+      "sha256": "858e07f3bed4bff05660bec59c0cfa97ff4cf9104e7e7e23bf5856ef07ef9ace"
+    },
+    "unit_decision_target": {
+      "rows": 81238,
+      "sha256": "72d69dbd4705404cdd8d6466da8801541a7249d33f749e5ad038f42831818424"
+    }
+  },
+  "ordered_native_arrays": {
+    "origin": "a48659d34105a452385c46d44ae316931d650de1f7a97a96c1fcf02a015c7053",
+    "dependency": "5b9108ba5bae78a08049271df37672de171385b156b42ec5a56a2e3819e92192",
+    "record_asset": "05aa053558b1e9e0d51ee350ccdb71d5b5d4adcb5ff3d03e2d7a9848cee73707",
+    "record_media": "9b63890396906f5d3c62d3c161ccb37983aa8fd2e9f5a61f7316f1c8d24c6775"
+  }
+}

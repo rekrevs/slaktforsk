@@ -1,0 +1,54 @@
+{
+  "task": "T-0814",
+  "decision": "APPROVE_EXACT_TWO_REBINDS_FOR_MATERIALIZATION",
+  "amendment": {
+    "path": "evaluations/T-0814/primary-two-READ-rebind-amendment-v1.json",
+    "sha256": "f23745247c00266401068c979468409ba59cd1e3868d2f7aade9e972cf0636a0"
+  },
+  "sourceSpecSha256": "457318d174d7ceff44b31cfaa963dcce010dcc3d50f2d5f66ac8e97ec096ef9c",
+  "prior_design_gate_sha256": "87e8e69a44b031f91f6a571108efd3a2fc08fb38d28b74f8fd2a30756eb451c9",
+  "individual_decisions": [
+    {
+      "object_id": "READ-13e0dd710b86377a4f39cb1b",
+      "expected_version": 1,
+      "index": 0,
+      "old_edge": {
+        "object": "R-154f91f28b634062bb4de0c9",
+        "version": 1,
+        "role": "derived_from",
+        "note": "Avser denna version av den återbrukade källposten."
+      },
+      "new_edge": {
+        "object": "R-154f91f28b634062bb4de0c9",
+        "version": 2,
+        "role": "derived_from",
+        "note": "Avser denna version av den återbrukade källposten."
+      },
+      "decision": "REBIND_EXACT_SAME_RECORD_PROJECTED_REVISION",
+      "reason": "READ avser exakt Alnö B/2 ankomstpost76. Resulting R@2 bevarar samma post, lokator, ankomstuppgifter och hela C0602 negativa gräns; dess nya kvalifikation avvisar endast redan rättat majavskriftsfel. READ:s egna avgjorda prefix anger samma rättelse. Därför bind aktuell READ till samma källposts explicita revision2, inte till en annan källa eller ny oberoende uppgift."
+    },
+    {
+      "object_id": "READ-0981484557adbfd274ccf968",
+      "expected_version": 1,
+      "index": 0,
+      "old_edge": {
+        "object": "R-e2bae79a783e9e27b07877d7",
+        "version": 1,
+        "role": "derived_from",
+        "note": "Avser denna version av den återbrukade källposten."
+      },
+      "new_edge": {
+        "object": "R-e2bae79a783e9e27b07877d7",
+        "version": 2,
+        "role": "derived_from",
+        "note": "Avser denna version av den återbrukade källposten."
+      },
+      "decision": "REBIND_EXACT_SAME_RECORD_PROJECTED_REVISION",
+      "reason": "READ avser exakt Fågelviksattest65 den24oktober1873. Resulting R@2 bevarar ursprunglig attest,4september1852 och alla egna rå-/blankfält. R:s rationale/dependence_note/caveat kvalificerar den redan avvisade majfelläsningen; READ:s avgjorda body gör samma. Därför behövs revision2 av samma källpost, med verkliga september/årsvariationer och okänd egen födelsepost fortsatt bevarade."
+    }
+  ],
+  "independent_basis": "Both current READ fullbody/caveat/rationale and ownold edge checked; same source records preserve full locator/raw/negative boundaries. Revised source reservation matches respective revised READ, so each exact projected revision2 is required without changing evidentiary meaning or independence. Only two version positions, no generic rebinding. Amendment input hashes match.",
+  "ready_for_literal_materialization": true,
+  "ready_for_clone_stage": false,
+  "canonicalApproval": false
+}

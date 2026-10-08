@@ -1,0 +1,47 @@
+{
+  "task": "T-0814",
+  "prepared_utc": "2026-10-08T07:32:24.385587+00:00",
+  "reuse_machinery": [
+    {
+      "path": "evaluations/T-0812/implementation/materialize-literal-v1.py",
+      "sha256": "f284036a7d9641d25ae7449059991bf89043efe3b32089c7eaddd3623db8dc7b"
+    },
+    {
+      "path": "evaluations/T-0811/implementation/stage-initial-UNRUN-v2.py",
+      "sha256": "f67a69f46b30235661546ba2aba279bd27771ea67764faf42e3702e9ef369531"
+    },
+    {
+      "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py",
+      "sha256": "ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2"
+    },
+    {
+      "path": "evaluations/T-0812/implementation/compare-actual-main-to-stage-READONLY-v3.py",
+      "sha256": "32d6eb82c72431c57c43c4b65c5a1ac31381c3c738c73a983a31fffad06b36f7"
+    },
+    {
+      "path": "evaluations/T-0813/materialize-queue-candidate-v1.py",
+      "sha256": "90a398ed1922e067dd4329eac88ff51d792518fafc40806705e0fc74b27d994f"
+    },
+    {
+      "path": "evaluations/T-0814/preparation/baseline481.sqlite",
+      "sha256": "ff965907e8497b169a19f1158df3924d3b9d728a46c42ad77239643d4ed7e47b"
+    },
+    {
+      "path": "evaluations/T-0814/preparation/locked-input-manifest-v1.json",
+      "sha256": "55afc2fe47edd46c1d75d79a5967c90b4d7f579ee311182faa77e15516ac6bbb"
+    }
+  ],
+  "gates_before_any_operation": [
+    "Root release of independently approved exact SOURCE V2",
+    "Full required/allowed payload schema PRAGMA including new review criteria/body and transcription reading_note where applicable",
+    "Evidence tuple uniqueness (object,version,role); no silent dedup",
+    "Exact oldfield and currentversion matches; explicit indexed oldEdge/projected rebinds only",
+    "Complete old metadata/data/evidence/origin array order and individual retains",
+    "Both exact literal SOURCE hash gates + root fresh baseline/helper authorization before clone"
+  ],
+  "T0817_candidate": "Use exact source-approved bounded task data and immutable live backlog preimage; no live allocation. Task will remain READY/after[] only as settled design directs.",
+  "stage": "Fresh isolated481 clone; capture actual pending/alloldbasis+currentstronger before any disposition; preserve any failed attempt.",
+  "operations_materialized": false,
+  "source_judgments": false,
+  "live_writes": false
+}

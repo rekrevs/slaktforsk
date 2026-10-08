@@ -5822,3 +5822,36 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Portfolio signal: Den beställda ändliga körningen är slutförd och en sakligt motiverad nästa kärnkö är planerad; inget obegränsat fortsättningsmandat.
 - Related records: PCR-2026-10-08-001; PCD-2026-10-07-003; wotan/dev-log/T-0813.md; wotan/dev-log/T-0814.md; wotan/dev-log/T-0815.md; wotan/dev-log/T-0816.md.
 - Revisit when: Ny ägarbeställning av nästa avgränsade uppgift eller T-0816:s verkliga resultat-/hindervillkor. Inga commit/push, dashboard-/frysta arkivwrites, PDF, beställningar eller kontakter följer av detta beslut.
+
+
+## PCD-2026-10-08-002 — Treuppgiftskörning och stående pushgodkännande
+
+- Record type: decision
+- Date: 2026-10-08
+- Decides review: direkt ägarinstruktion som fortsätter PCR-2026-10-08-001:s planerade nästa kärnuppgifter.
+- Owner: Sverker Adam Janson
+- Decision: Ägaren beställer ”committa och pusha. kör seedan dessa tre”, bekräftar därefter den exakta commit927b9eb2336d83dbf830b33914cf35b584a9c2c3 till publika rekrevs/slaktforsk origin/main och preciserar: ”stanna inte och fråga om sådant utan kör på. jag godkänner alla pushar i detta projekt.” Alla framtida pushar i detta projekt har därmed stående ägargodkännande; nytt rutinmedgivande ska inte efterfrågas.
+- Disposition: approved
+- Scope: Exakt beställd forskning T-0814/T-0815 och avgränsad T-0816-checkpoint inom deras oförändrade AC/originaltak0. Stående pushmandat gäller projektets befintliga origin/main; utvidgar inte forskningsomfång, personuppgiftsinsamling, kontakt, beställning eller dashboardpublicering. Framtida commit följer tillämpligt commitmandat; aktuell commit och push var uttryckligen beställda.
+- Resulting Wotan tasks: T-0814, T-0815, T-0816; inga ytterligare forskningsuppgifter startas genom detta beslut.
+- Execution: Commit927b9eb2 genomförd; push lyckades efter exakt ägarbekräftelse. LFS84/84objekt38MB rapporterade uppladdade; faktisk remote ref verifieras före forskningsstart. Tidigare auto-review-avslag och senare godkännande bevaras som historik.
+- Supersedes decision: Tidigare krav på separat ägarmedgivande för varje push i detta projekt ersätts av det stående godkännandet. Övriga avgränsningar och evidens-/granskningsregler består.
+- Portfolio signal: Beställd ändlig treuppgiftskörning fortsätter; rutinmässig push behöver ingen ny ägarfråga.
+- Related records: wotan/dev-log/T-0814.md; PCD-2026-10-08-001; evaluations/git-preservation-20261008.json; evaluations/git-push-927b9eb2-auto-review-rejection.json.
+- Revisit when: Ägaren ändrar mandatet eller projektets destination ändras.
+
+
+## PCR-2026-10-08-002 — Nära identitetsrester och ändlig livsbildscheckpoint
+
+- Record type: review
+- Date: 2026-10-08
+- Mode: checkpoint
+- Trigger: Beställda T-0814/T-0815 är verifierade DONE; T-0816 prövar faktisk fortsatt kärnordning enligt PCR-2026-10-08-001 och PCD-2026-10-08-002.
+- Control judgement: continue, operate, preserve
+- Current gate: Olaus P-0336, Brita Stina P-0337, Karl Fredrik P-0042 och Charlotta Wilhelmina P-0043 har accepterade egna identiteter/föräldralänkar men precisa kvarvarande egna utvinnings-/provenienskrav. Native identity/tree är failed/waiting usable; det är inte ett återtagande av accepterade relationer eller OWNER_CONFIRMED-information. Första30 aktuella anpersoner och båda antavlornas41 anor består;130 djupare planposter är inte källcertifierade.
+- Recommendation: Bevara befintlig T-0817 för Britas enda egna C0446-rad. Planera balanserad T-0818 för exakt C1062 C0006950_00205, Karl rad16 och Charlotta rad24, med en ensam delad kopieatom. Samma Charlottaatom krediterar T-0237/T-0410:s överlapp; alla övriga fält, äldre AC/checkpoints och restägare består. T-0819 blir efter faktisk allokering aktiv avgränsad planeringsägare för hela160 och fulla4898-teckensappendicen.
+- Owner decision required: none för dessa planeringsleveranser inom beställd T-0816. Den aktuella körningen avslutas efter tredje uppgiften; planerade efterföljare startas inte genom READY eller stående pushgodkännande.
+- Evidence: genealogy2 journal482–484; evaluations/T-0814/root-actual-final-verification-v1.json; evaluations/T-0815/root-actual-final-verification-v1.json; evaluations/T-0816/settled-source-design-v3.json; evaluations/T-0816/settled-fixed160-successor-transfer-v3.json; evaluations/T-0816/independent-settled-source-design-gate-v1.json. Exakt faktisk allokering och verifiering hör till wotan/dev-log/T-0816.md och dess rootkvitto, inte en parallell kö här.
+- Uncertainty: Två snäva källatomer kan förbättra identitetsnivån utan att färdigställa hela persongrinden. Ingen ny källa, native LIFE-granskning, all130-audit, automatisk PASS eller ändring av gamla sökkvitton ingår.
+- Proposed actions: Endast förlustfri avgränsad Wotan-allokering och bevarande enligt granskad V3; utförande av ytterligare källpass ligger utanför treuppgiftskörningen.
+- Revisit when: T-0819 prövar första faktiska accepterade resultat ELLER konkret hinder från endera T-0817/T-0818, senast efter den högst tvåatomiga balanserade cykeln och före vidare uppgiftsval. T-0217 är första planerade nära livsbildsslot, T-0228 nästa. Ett verkligt nödvändigt närmare identitetsföreträde måste ange exakt person/relation/källa/enhet/fält, bounded ägare och ändlig ny livsbildsomprövning efter resultat eller hinder. Inget allPASS-/allaDONE-villkor, automatisk restserie eller djupare130 som uppskovsskäl. Detta är en agentbedömning inom tidigare mandat, inte ett nytt ägarundantag från hård kärnprioritet.
