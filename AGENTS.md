@@ -6,20 +6,44 @@ still require authorization as stated below.
 
 ## Model allocation
 
-Owner-approved working rule, 2026-09-19, based on the
-[T-0769 evaluation](evaluations/T-0769/report.md):
+Owner-approved working rule, 2026-10-08, recorded in
+PCD-2026-10-08-005. This supersedes the broader mandatory Astra allocation
+from 2026-09-19, based on [T-0769](evaluations/T-0769/report.md).
 
-- Use **Astra** for source interpretation, identity and evidence judgements,
-  conflicts, and final assessment of how corrections affect existing knowledge.
-- Use **Sol** for bounded implementation of already-settled decisions with
-  explicit inputs, expected changes and verifiable acceptance criteria. Run
-  the applicable validators; return unresolved interpretation or evidence
-  questions to Astra before applying dependent changes.
+- Use **gpt-6-astra** as before for establishing and revising identities,
+  parent relations and evidence supporting Adam P-0269/Axel P-0270's direct
+  ancestry and core tree. Preserve the existing independent Astra source
+  and consequence review for these decisions.
+- Use **gpt-6.1-sol** for all complementary research about already identified
+  core persons and for side-person tasks, including source reading,
+  interpretation, evidence assessment, life-picture completion and controlled
+  implementation. These scopes do not require routine Astra interpretation
+  or an Astra final review of every result. Verification and review remain
+  proportionate to the actual scope and consequences.
+- Route by the actual question and downstream effect, not only by person or
+  task label. A side person or candidate needed to establish a core identity
+  or ancestor relation belongs to Astra. A biographical finding that challenges
+  such an identity/relation, changes its supporting evidence, requires a
+  core-person merge/split or could affect the verified pedigree is referred
+  to Astra before dependent canonical changes. Sol may continue separable
+  complementary work while preserving the unresolved finding.
+- For mixed tasks, identify the protected core-identity/relation decisions
+  and separate the Sol work without losing source context, consequences or
+  remaining responsibility. An identity-review/tree-effect amendment for a
+  core person is Astra work even if found during a LIFE task. Genuine doubts
+  about impact on the core tree go to Astra; uncertainty within an ordinary
+  biographical or independent side-person question does not alone require it.
+- Preserve provenance, full relevant extraction, source uncertainty,
+  OWNER_CONFIRMED knowledge, persistent search memory, controlled versioned
+  writes, applicable validators and protected knowledge. The owner accepts
+  greater risk of small local errors in the Sol scopes; this does not permit
+  invented evidence or unexamined propagation into the core ancestry.
+- Model allocation does not change hard core-tree priority, task scopes,
+  acceptance criteria or execution authorization. Side-person work remains
+  lower priority unless separately selected under existing rules.
 - Do not use **Terra or Luna** for project work unless the owner changes this
-  rule. When the boundary between Astra and Sol is unclear, choose Astra.
-
-This is a practical allocation rule from a small benchmark, not a guarantee
-of correctness. Existing source checks and review requirements still apply.
+  rule. No cost or quality improvement has yet been demonstrated for the new
+  allocation.
 
 ### Working procedure for bounded G001 research batches
 
@@ -28,6 +52,15 @@ This clarifies the existing allocation; it does not establish a cost-saving
 guarantee or expand an approved batch. The evidence is preserved in
 [T-0776's review](evaluations/T-0776/independent-final-review-v1.md) and
 [working rubric](evaluations/T-0776/rubric-v1.md).
+
+Applicability after PCD-2026-10-08-005: the mandatory primary Astra plus
+independent final Astra procedure below applies to core-identity/ancestry
+source and consequence decisions. Sol-led complementary and independent
+side-person research follows the same preservation, extraction, controlled
+write and verification safeguards, with Sol responsible for interpretation
+and proportionate final review. Do not reintroduce mandatory Astra review
+for those scopes through the older wording below. Escalate the exact
+core-affecting part when the routing criteria above apply.
 
 - Root coordinates the bounded batch. Delegate mechanical preparation and
   settled implementation to **gpt-6.1-sol**, source/evidence decisions to

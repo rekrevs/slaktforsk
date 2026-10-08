@@ -5915,3 +5915,33 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Evidence: evaluations/T-0820/root-actual-final-verification-v1.json; evaluations/T-0821/settled-source-planning-design-v2.json; evaluations/T-0821/settled-fixed160-successor-transfer-v2.json; evaluations/T-0821/primary-final-literal-allocation-source-gate-v1.json; evaluations/T-0821/independent-final-literal-allocation-source-gate-v1.json; evaluations/T-0821/root-actual-allocation-v1.json.
 - Resulting Wotan planning: T-0822 faktiskt READY och inte startad. Full160/source_plan, hela4898-teckensappendix, historiska current30 och aktuellt fyrpersons-overlay är bevarade. Alla821 äldre taskobjekt/relativ ordning och sex äldre fulla loggar var exakt bevarade vid allokering; därefter endast T-0821:s egen avslutsstatus/notering uppdaterad.
 - Revisit when: Första accepterade T-0217-resultat ELLER konkret hinder före vidare passage, under separat mandat. Detta är en styrgranskning, inget nytt ägarundantag.
+
+
+## PCR-2026-10-08-005 — Modellfördelning efter konsekvens för kärnträdet
+
+- Record type: review
+- Date: 2026-10-08
+- Mode: checkpoint
+- Trigger: Ägaren vill behålla nuvarande Astra-arbetssätt för identiteter och anlinjer men använda Sol för kompletterande kärnbiografi och sidopersoner, med större tolerans för mindre lokala fel.
+- Control judgement: redirect, operate, preserve
+- Current gate: Den tidigare generella Astra-regeln och G001-proceduren kräver Astra även för källtolkning utan faktisk effekt på kärnidentitet eller anlinje. Modellval behöver följa frågans konsekvenser.
+- Recommendation: Låt Astra fortsatt fastställa och slutgranska kärnidentiteter, föräldrarelationer och deras bärande belägg. Låt Sol utföra kompletterings- och sidopersonsuppgifter genom hela forsknings- och införandevägen, utan rutinmässig Astra-slutgranskning. Återför endast den kärnpåverkande delen av ett blandat eller nytillkommet fynd till Astra före beroende ändringar. Bevara full utvinning, osäkerheter, sökminne, OWNER_CONFIRMED, versionering och tekniska kontroller.
+- Owner decision required: none; detta omsätter ägarens nya fördelning med konsekvensgränsen för fortsatt Astra-ansvar.
+- Evidence: Ägarens aktuella instruktion; AGENTS.md:s tidigare modellfördelning och G001-procedur; evaluations/T-0769/report.md; evaluations/T-0776/independent-final-review-v1.md; PCD-2026-10-05-001; PCR-2026-10-08-004.
+- Uncertainty: Lägre kostnad, högre tempo eller acceptabel felfrekvens för den nya fördelningen är ännu inte uppmätta. Ägarens tolerans gäller mindre fel i kompletteringar/sidoforskning; inga nya generella kvalitetsgarantier påstås.
+- Revisit when: Ett Sol-fynd faktiskt berör kärnidentitet/anrelation, eller verklig rättelsebörda visar behov av ändrad modellfördelning.
+
+## PCD-2026-10-08-005 — Astra för anlinjer, Sol för kompletteringar och sidopersoner
+
+- Record type: decision
+- Date: 2026-10-08
+- Decides review: PCR-2026-10-08-005; direkt ägarinstruktion om modellfördelning.
+- Owner: Sverker Adam Janson
+- Decision: Ägaren: ”vi skall använda astra på samma sätt som nu för att fastställa identiteter och framför allt i anlinjerna och kärnträdet men att vi kan börja använda sol för all komplettering av information om personerna i kärnträdet och för alla uppgifter som gäller sidorpersoner, där det känns mindre problematiskt om vi råkar göra mindre fel”. Detta innebär Sol även för källtolkning och bedömning inom dessa kompletterings-/sidopersonsscope, utan generell obligatorisk Astra-slutgranskning. Kärnidentiteter, anrelationer och deras bärande belägg behåller Astra-förfarandet.
+- Disposition: approved
+- Scope: Modellfördelning för framtida redan avgränsat och beställt arbete. Sidopersoner/kandidater som behövs för en kärnidentitet eller anrelation hanteras av Astra i just den frågan. Nytillkomna kärnpåverkande fynd återförs till Astra före beroende canonical ändringar; separat komplettering kan fortsätta med Sol. Källspårbarhet, sökminne, full relevant utvinning, ägarbekräftade fakta och kontrollerad skrivväg består.
+- Supersedes decision: Den generella 2026-09-19-fördelningen och 2026-10-02 G001-procedurens krav på Astra för varje källtolkning/slutgranskning ersätts endast inom de nya Sol-scope. Kärnidentitets-/anlinjeförfarandet består.
+- Resulting Wotan tasks: none; AGENTS.md:s normativa modellfördelning uppdaterad. Ingen ny forskning eller uppgift startad och ingen köprioritet, gammal AC eller accepterad forskningsbedömning ändrad.
+- Portfolio signal: Fortsatt hård kärnprioritet; Sol kan användas för kompletteringar när de valts inom faktiskt utförandemandat. Sidopersoner främjas inte automatiskt.
+- Related records: PCR-2026-10-08-005; PCD-2026-10-05-001; PCD-2026-10-08-004; AGENTS.md.
+- Revisit when: Kärnpåverkande fynd eller faktisk rättelsebörda motiverar omprövning, eller ägaren ändrar fördelningen.
