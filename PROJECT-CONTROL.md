@@ -5964,3 +5964,30 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 ### Metadata amendment — PCD-2026-10-08-006
 
 2026-10-08T17:07:12.084491+00:00: Den första beställningsanteckningen ovan och rootens workerinstruktion hade namn/P-id omkastade. Aktuell canonical personvy visar Axel Edvin Henriksson = P-0241 och Emma Petronella Eugenia = P-0246. Beställningen gäller samma två personer och samma T-0217-scope; detta är en rättelse av routingtext, ingen identitetsändring eller ny forskning. Initialt försök bevaras.
+
+
+## PCD-2026-10-08-007 — T0822 beställd separat
+
+- Record type: decision
+- Date: 2026-10-08
+- Decides review: PCR-2026-10-08-004; direkt beställning av nästa redovisade checkpoint.
+- Owner: Sverker Adam Janson
+- Decision: Ägarens ”ok kör” beställer T-0822 efter accepterat T0217-test.
+- Disposition: approved
+- Scope: Befintliga femAC, originaltak0/native0. T0228 eller annan forskning startas inte av detta mandat.
+- Resulting Wotan tasks: T-0822; förlustfritt följdansvar allokeras som dess planeringsleverans.
+- Revisit when: Checkpointens sakliga beslut och nästa faktiskt beställda passage.
+
+## PCR-2026-10-08-006 — LIFE-ordningen består efter Emma/Axel-testet
+
+- Record type: review
+- Date: 2026-10-08
+- Mode: checkpoint
+- Trigger: Accepterat T0217-resultat journal492–495 och separat T0822-beställning.
+- Control judgement: continue, operate, preserve
+- Current gate: Katalogrouting lokaliserar möjliga original men ingen egen personrad eller originalakt lästes. Accepterad identitet/anlinje/OWNER och granskningsgrader ändrades inte; inget faktiskt nytt kärnidentitetsföreträde följer av dessa olästa livsrester.
+- Recommendation: T0228 nästa CORE_LIFE med fulla äldre caps/AC och återbruk: ArneP0003/KarlP0042/CharlottaP0043, Flen1923–1930, högst2volymdelar/3personbundna adressuppslag. Sol enligt PCD005; kärnpåverkande fynd hänskjuts exakt till Astra före beroende ändring. Ingen uppgift startas här.
+- Owner decision required: none för beställd checkpoint; separat framtida utförandemandat krävs för T0228/T0823.
+- Evidence: evaluations/T-0217/root-actual-final-verification-v1.json; evaluations/T-0822/decision-and-successor-v1.json; oförändrad T0821 fulltransfer; T0228 fulla dev-log.
+- Resulting Wotan planning: T0823 faktiskt allokerad som aktiv förlustfri ytterägare. Emma1963register/akt, Axel1983register/akt/jurisdiktion och28965/21 exakt1921enhet/guide bevarade med exakt planeringsägare/återstart, ingen originalexecution beställd. Historiska innerägare och alla lägre restscopes består.
+- Revisit when: Första accepterade T0228-resultat ELLER konkret hinder före annan källuppgift eller djupare passage; inget DONE/PASS-krav eller automatserie.

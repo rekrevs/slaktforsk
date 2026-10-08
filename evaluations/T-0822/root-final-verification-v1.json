@@ -1,0 +1,45 @@
+{
+  "task": "T-0822",
+  "verified_at": "2026-10-08T20:01:40.009529+00:00",
+  "AC_pass": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "fixed_union_and_six_current_logs_unchanged": true,
+  "T0217_historical_log_hash_qualification": "T0822 original listed preexecution hash; accepted T0217 completion current hash preserved as currentbaseline, no repeat or historical overwrite.",
+  "all_other_task_objects_and_relative_order_unchanged": true,
+  "successor_allocated": "T-0823",
+  "actual_next_source_task": "T-0228",
+  "originals_read": 0,
+  "native_changes": 0,
+  "canonical_sqlite_sha256": "3a6f2c4ff32af5f620455cffa0c8baf983666b5815bb166624526506b5b9af20",
+  "accepted_T0217_journal": 495,
+  "accepted_pending": 0,
+  "pedigrees": {
+    "P-0269": {
+      "mode": "verified",
+      "paths": 43,
+      "truncated": false
+    },
+    "P-0270": {
+      "mode": "verified",
+      "paths": 43,
+      "truncated": false
+    }
+  },
+  "checks": [
+    "inventory",
+    "pedigree P-0269 verified",
+    "pedigree P-0270 verified",
+    "immutable reference and appendix hashes,160unique,30+4counts",
+    "all baseline hashes",
+    "old backlog objects/order",
+    "unique IDs,existing dependencies,actual successor log",
+    "git diff --check"
+  ],
+  "validators_reuse": "T0217 actual live db/assets/source PASS reused for identical canonical SQLite/media; no model/code change.",
+  "decision_artifact_sha256": "c288af5a5ce18fa6e5076784df7ffa0acab95d8a72f95f4435134f995d406872"
+}

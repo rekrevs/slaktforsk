@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 823,
+  "next_id": 824,
   "tasks": [
     {
       "id": "T-0783",
@@ -4098,11 +4098,11 @@
       "id": "T-0822",
       "summary": "Ändlig checkpoint efter första LIFE-resultatet med aktiv full160-rest",
       "size": "S",
-      "status": "READY",
+      "status": "DONE",
       "priority": "CORE_SUPPORT",
       "priority_basis": "Nödvändig bounded planeringsägare för P-0241/P-0246 T0217, nästa P-0003/P-0042/P-0043 T0228 och bevarad P-0336/P-0337/full160-rest; ingen ny sourceaudit.",
       "after": [],
-      "note": "Allocation är planeringsoutput av T0821; T0822 får inte utföras inom nuvarande tvåtasksbeställning."
+      "note": "Separat beställd checkpoint klar: T0228 nästa LIFE-slot, T0823 faktisk aktiv full160-restägare. Original0/native0; ingen ny sourceexecution."
     },
     {
       "id": "T-0218",
@@ -4238,6 +4238,16 @@
       "note": "Avgränsad följd av T-0123; utförs efter hela personaktsprogrammet.",
       "priority": "CORE_LIFE",
       "priority_basis": "PCD-2026-10-05-002: exakt P-0003; hela befintliga boundedtaskscopet sakligt främjat, P-0042/P-0043 Flen1923–30 högst2volymer/3personfolios; C0910/C1047 återbruk, nödvändigt kärnlivsstöd. Full äldre AC/checkpoint består, ingen forskningsstart."
+    },
+    {
+      "id": "T-0823",
+      "summary": "Avgränsad checkpoint efter Flen-bryggan med bevarad full160-rest",
+      "size": "S",
+      "status": "READY",
+      "priority": "CORE_SUPPORT",
+      "priority_basis": "T0822: exakt P-0003/P-0042/P-0043 T0228-resultat och bevarade P-0241/P-0246-frågor/full160; original0/native0, ingen ny sourceaudit.",
+      "after": [],
+      "note": "Aktiv ytterplaneringsägare. Verklig trigger: första accepterade T0228-resultat ELLER konkret hinder före annan passage. Separat utförandemandat krävs."
     },
     {
       "id": "T-0229",
