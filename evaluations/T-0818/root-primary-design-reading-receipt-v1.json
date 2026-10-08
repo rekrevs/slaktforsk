@@ -1,0 +1,22 @@
+{
+  "task": "T-0818",
+  "utc": "2026-10-08T11:58:52.904323+00:00",
+  "source_design_sha256": "023823a2c1065618b5d3ce6029cb607129707f0ba16d808d9c20c18dce05b585",
+  "mechanical_old_native_exact": {
+    "existing_changes": 26,
+    "retains": 652,
+    "exact_relation_retains": 26
+  },
+  "all_declared_old_fields_and_rebind_positions_exact": true,
+  "comparison_representation": "Only *_json SQL strings decoded to compare API dict representation; arrays untouched/no writes.",
+  "new_observation_value_json_equals_full_sealed_rows": true,
+  "root_read": "All unique new fields/body/caveat, evidence append/rebind tuples and projected revisions, source metadata, relation/protection/rest rules read using bounded projections. Embedded fullrows exactly equal already fullread seals; historic/native duplicates equality checked against locked inputs and routing current heads.",
+  "mechanical_attempts": [
+    "First readonly dictionary used lockedbound772 alone, missing SvenPK11; no write.",
+    "Expanded heads then E-arrival date_json dict versus SQL string; representation only.",
+    "Comparison-only *_json decoding; all equality PASS."
+  ],
+  "source_gate": "Independent full SOURCE design gate still pending",
+  "canonicalApproval": false,
+  "cloneApproval": false
+}

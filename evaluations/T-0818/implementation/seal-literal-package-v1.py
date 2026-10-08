@@ -1,0 +1,22 @@
+import json,pathlib,hashlib,copy,importlib.util
+R=pathlib.Path.cwd();D=R/'evaluations/T-0818';I=D/'implementation';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();load=lambda p:json.load(open(p));design=D/'source-design/primary-complete-source-design-v1.json';s=load(design);op=load(I/'operation-v1.json');ct=load(I/'consequence-table-v1.json');pf=load(I/'preflight-v1.json');assert pf['issues']==[];assert len(op['changes'])==32 and len(ct['retains'])==652;assert op['media']==[load(D/'originals/staged-media-v1.json')]
+hp=R/'evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py';sp=importlib.util.spec_from_file_location('h',hp);h=importlib.util.module_from_spec(sp);sp.loader.exec_module(h);c=h.conn(D/'preparation/baseline486.sqlite');am={a['id']:a for a in op['changes']};proof=[]
+for x in s['existing_changes']:
+ n=h.native(c,h.current(c,x['object']));expected=h.api(n);expected['expectedVersion']=n['version']
+ for f in x['fields']:
+  pp=f['path'].split('.');parent=expected
+  for k in pp[:-1]:parent=parent[k]
+  assert parent[pp[-1]]==f['old'];parent[pp[-1]]=copy.deepcopy(f['new'])
+ expected['evidence'].extend(copy.deepcopy(x['evidence_append']))
+ for e in x['evidence_rebind']:
+  assert n['evidence'][e['index']]==e['old'];b,v=e['new']['basis_revision_id'].rsplit('@',1);expected['evidence'][e['index']]={'object':b,'version':int(v),'role':e['new']['role'],'note':e['new']['note']}
+ if x.get('media_append'):expected.setdefault('media',[]).extend(copy.deepcopy(x['media_append']))
+ assert expected==am[x['object']]
+ proof.append({'object':x['object'],'current_revision':n['id'],'projected_version':n['version']+1,'literal_field_paths':[f['path']for f in x['fields']],'indexed_rebinds':[e['index']for e in x['evidence_rebind']],'full_API_reconstruction_exact':True,'old_metadata_origins_data_arrays_preserved_except_literal_fields':True})
+for x in s['new_objects']:assert x==am[x['id']]
+assert sum(len(x['fields'])for x in s['existing_changes'])==29;assert sum(len(x['evidence_rebind'])for x in s['existing_changes'])==16
+p=I/'fullnative-API-projection-proof-v1.json';p.write_text(json.dumps({'precondition':h.state(c),'existing26_full_API_projections':proof,'new6_full_API_payloads_exact':True,'retains652_fullnative_exact':'preflight-v1.json and consequence-table-v1.json','one_media_descriptor_exact':True,'field_count':29,'indexed_rebind_count':16,'no_actual_write_or_claim_of_executed_revision':True,'JSON_boundary':'Parsed *_json values are native API representation only; old raw fullnative SQL rows remain in consequence table and baseline, with arrays and values exact.'},ensure_ascii=False,indent=2)+'\n')
+paths=[design,D/'primary-complete-design-source-approval-v1.json',D/'independent-complete-source-design-gate-v1.json',D/'root-dual-source-design-materialization-release-v1.json',D/'materialize-literal-v1.py',D/'preparation/locked-input-manifest-v2.json',D/'preparation/consequence-input-supplement-manifest-v1.json',D/'preparation/baseline486.sqlite',D/'root-original-input-supplement-v1.json',D/'root-own-original-reading-release-v1.json',D/'originals/staged-media-v1.json',R/op['media'][0]['storagePath'],hp,p]+[I/n for n in ['operation-v1.json','consequence-table-v1.json','preflight-v1.json','stage-initial-UNRUN-v1.py','seal-literal-package-v1.py']]
+for key in ['settled_reading','source_adoption_component']:pin=s[key];assert sha(R/pin['path'])==pin['sha256'];paths.append(R/pin['path'])
+main=R/'genealogy2/data/research.sqlite';assert sha(main)==sha(D/'preparation/baseline486.sqlite');pins=[{'path':str(p.relative_to(R)),'sha256':sha(p),'bytes':p.stat().st_size}for p in paths]
+m={'task':'T-0818','baseline_state':h.state(c),'main_sha256':sha(main),'native_changes':32,'existing_revisions':26,'new_source_objects':6,'literal_fields':29,'explicit_indexed_rebinds':16,'full_native_retains':652,'relation_retains':26,'media_descriptors':1,'record_media_bindings':2,'preflight_issues':0,'operation_sha256':sha(I/'operation-v1.json'),'consequence_sha256':sha(I/'consequence-table-v1.json'),'helper_UNRUN_sha256':sha(I/'stage-initial-UNRUN-v1.py'),'cloneApproval':False,'canonicalApproval':False,'pins':pins};p=I/'literal-manifest-v1.json';p.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'manifest':sha(p),'pins':len(pins),'operation':m['operation_sha256'],'table':m['consequence_sha256'],'helper':m['helper_UNRUN_sha256']}))
