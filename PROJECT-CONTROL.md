@@ -5945,3 +5945,22 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Portfolio signal: Fortsatt hård kärnprioritet; Sol kan användas för kompletteringar när de valts inom faktiskt utförandemandat. Sidopersoner främjas inte automatiskt.
 - Related records: PCR-2026-10-08-005; PCD-2026-10-05-001; PCD-2026-10-08-004; AGENTS.md.
 - Revisit when: Kärnpåverkande fynd eller faktisk rättelsebörda motiverar omprövning, eller ägaren ändrar fördelningen.
+
+
+## PCD-2026-10-08-006 — Tvåpersonstest med Sol i T-0217
+
+- Record type: decision
+- Date: 2026-10-08
+- Decides review: PCR-2026-10-08-004 och PCR-2026-10-08-005; direkt beställning efter redovisad T0217-rekommendation.
+- Owner: Sverker Adam Janson
+- Decision: Ägaren ”vi kör de två som ett test” beställer T-0217:s komplettering för Emma Henriksson P-0241 och Axel Henriksson P-0246 med Sol.
+- Disposition: approved
+- Scope: Fullt befintligt bounded T0217-scope/AC: högst2katalogenheter+1namnregister per dödsår1963/1983, C0936återbruk; Axels28965/21 mot högst2identifierade1921enheter. Ingen fullbouppteckning, kontakt/beställning eller nytt privatliv. Modellfördelning enligt PCD005. Första faktiska resultat/hinder bevaras som checkpointtrigger men ingen T0822/T0228execution ingår.
+- Resulting Wotan tasks: T-0217; ingen ny uppgift.
+- Portfolio signal: Ändligt tvåpersonstest av Sol-komplettering, fortsatt hård kärnprioritet och stående pushgodkännande.
+- Revisit when: Första faktiska resultat eller konkret hinder och slutlig testredovisning; nästa beslutade checkpoint är T-0822 under separat utförandemandat.
+
+
+### Metadata amendment — PCD-2026-10-08-006
+
+2026-10-08T17:07:12.084491+00:00: Den första beställningsanteckningen ovan och rootens workerinstruktion hade namn/P-id omkastade. Aktuell canonical personvy visar Axel Edvin Henriksson = P-0241 och Emma Petronella Eugenia = P-0246. Beställningen gäller samma två personer och samma T-0217-scope; detta är en rättelse av routingtext, ingen identitetsändring eller ny forskning. Initialt försök bevaras.
