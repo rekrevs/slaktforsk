@@ -1,0 +1,74 @@
+{
+  "task": "T-0819",
+  "role": "primary Astra",
+  "created_utc": "2026-10-08T13:29:44.248677+00:00",
+  "status": "APPROVED_READY_FOR_ROOT_ALLOCATION",
+  "ready_for_root_allocation": true,
+  "worker_apply": false,
+  "native_approval": false,
+  "future_execution_authorized": false,
+  "manifest": {
+    "path": "evaluations/T-0819/candidate-v1/literal-manifest-v1.json",
+    "sha256": "f65c5200ec9d255655b4c7e3c8f9c70885672e3e24e123d430a9b35668a53d87"
+  },
+  "bound_outputs": [
+    {
+      "path": "evaluations/T-0819/candidate-v1/backlog.json",
+      "sha256": "a6fc2cd739f6cf33ccdfc1069fda5cf02745e84b72ba838668ff0b4b24470d2a"
+    },
+    {
+      "path": "evaluations/T-0819/candidate-v1/individual-consequence-table.json",
+      "sha256": "b3ef645ecdaa2882cb7cd271da25fdf5dd58df737689ac95bfc7fbf56ff8ccc8"
+    },
+    {
+      "path": "evaluations/T-0819/candidate-v1/T-0820.md",
+      "sha256": "9dae29ee6e4a4de39c98c13ff48d15f6b19513a52e33728ca220585cc47f3d78"
+    },
+    {
+      "path": "evaluations/T-0819/candidate-v1/T-0821.md",
+      "sha256": "e7a877162a1c2c01031c34b4c11d07ceb994ccbec6b854218dd4dd71cf918366"
+    },
+    {
+      "path": "evaluations/T-0819/candidate-v1/T-0255.md",
+      "sha256": "00f250ec3a60847c6b0db0b5ec73a0c09528980379366461e25560a2687c78e7"
+    },
+    {
+      "path": "evaluations/T-0819/candidate-v1/PCR-draft.md",
+      "sha256": "1a6ef2ca5dfc4eaf326c795237216719949b56707a887fc1e3d6abbbbab85783"
+    },
+    {
+      "path": "evaluations/T-0819/candidate-v1/allocation-checkpoint-proposals.md",
+      "sha256": "9d139eb384cddb430b683bb7a1ce00d4ba4eb588417d6c6d731e9da4189ea59a"
+    },
+    {
+      "path": "evaluations/T-0819/candidate-v1/ROOTONLY-allocate-UNRUN-v1.py",
+      "sha256": "e93fdae5c88227d8960ab71873ea50acc2d185e5c0a9ffe040dabfc5cec708c9"
+    }
+  ],
+  "source_design": {
+    "path": "evaluations/T-0819/settled-source-planning-design-v2.json",
+    "sha256": "6668fde9c734723450c35f9d27968d95d00076c42a78f29d42f9ab1182829242"
+  },
+  "transfer": {
+    "path": "evaluations/T-0819/settled-fixed160-successor-transfer-v2.json",
+    "sha256": "633180dbd8248c826d832cd61cbe770d947368d523a07eeef764bfebb937140f"
+  },
+  "verification": {
+    "all19pins": true,
+    "all819old_fullrecords_and_order": true,
+    "two_new_fulltask_payloads_match_source": true,
+    "individual_table_old_and_new_rows_exact": true,
+    "full160_source_plan_previous_payload_and4898appendix_exact": true,
+    "T0255_fullprefix_exact_and_only_source_append": true,
+    "PCR_exact_review_text_no_new_owner_decision": true,
+    "allocator_full_read_not_executed": true
+  },
+  "source_consequence": "Endast framtida C0800-familjepostatom, inte Olaus egna barnceller/födelseföräldralösning eller garanterad PASS. Sidbalans motiverar valet mellan samma närfronts faktiska rester; C0127 bevarat alternativ. T0821 blir efter faktisk allocation aktiv full160-ägare med förstaresultat ELLER blocker före ny passage och explicit T0217 först/T0228 sedan-prövning. Inga andra gamla scopes/status/dependencies eller OWNER ändras.",
+  "checkpoint_disposition": "De separat hashbundna föreslagna faktacheckpointsen godkänns endast efter verklig allocation: READY ej startad, T0821 faktisk aktiv full160-planägare, inga kvarvarande allocationgrindar; nästa ej utförda steg framtida separat beställd taskstart/result-or-blocker. Tidigare kandidatcheckpoint bevaras som historia.",
+  "conditions": [
+    "Root verifierar färsk backlog/T0255/native/node-links mot helperpreimages och båda slutliga SOURCE-grindar.",
+    "Root ensam allokerar exakta bytes; faktisk receipt/checkpoints och T0819DONE separat därefter.",
+    "Ingen T0820/T0821/LIFE-exekvering under avslutad tre-taskbeställning."
+  ],
+  "findings": []
+}

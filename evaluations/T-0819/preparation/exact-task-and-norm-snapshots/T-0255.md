@@ -62,8 +62,3 @@ Nästa steg är den tidigare angivna första sakpassagen inom uppgiftens omfång
 med aktuella Genealogy2-objekt enligt wotan/README.md. Gamla filsökvägar och
 skrivkommandon i planen är historik; det frysta genealogy ska inte redigeras.
 Ingen tidigare källpassage ska repeteras utan ett konkret sakligt skäl.
-### T-0819: förlustfri avgränsning av C0800, endast efter faktisk allocation
-
-T-0820 blir ensam utförandeägare för den redan befintliga C0800-punkten: pröva accepterat/lokalt återbruk och vid faktiskt behov högst ett manifest och en direkt angränsande fortsättningsbild efter Folk_901017-090, familj Folk_111631011, Folkräkning 1890 Kungsholm, Jordgubben 1–5, sida 46 rad 47. Exakt fortsättnings-ID måste fastställas och SOURCE-grindas före originalläsning; inget gissat bild-ID. Hela återstående relevanta familjeposten läses med rubriker, ditton, blankfält och marginaler inom denna enda bild. Tre återstående barnrader är familjepostfält, inte Olaus egna celler eller bevis för hans födelse/föräldrar.
-
-Hela föregående T-0255-text, AC, checkpoints, status, priority, after och accepterat återbruk bevaras. Resten ägs fortsatt av T-0255: samtliga sju C0473-poster, C0792:s 33 bilder, C0481:s 84–116 med redan accepterad 105, C0476:s precisa sida/äldre artiklar samt C0963:s tre historiska routingoriginal och alla övriga tidigare delar. Unionen är exakt gammalt scope = överförd C0800-atom + oförändrad rest; inga dubbla utförandeägare för C0800 efter allocation. T-0821 är aktiv planeringsägare för full160/appendices och omprövar T-0217 först/T-0228 sedan vid första faktiska resultat ELLER hinder från enda passagen, före ytterligare passage/djupval. Framtida utförande kräver ny beställning; inget original utförs i T-0819.
