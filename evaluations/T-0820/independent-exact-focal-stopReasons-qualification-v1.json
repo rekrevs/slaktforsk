@@ -1,0 +1,104 @@
+{
+  "task": "T-0820",
+  "status": "APPROVED_EXACT_FOCAL_REVISION_REFERENCE_DIFFERENCES_ONLY",
+  "failure_receipt": {
+    "path": "evaluations/T-0820/implementation/stage490-sequence-v1/final-protection-check-failure-v1.json",
+    "sha256": "1a959d1f5221f9a17800e3af893fbd58d9ab8c643695249573a66ca7780d6770"
+  },
+  "before_inventory": {
+    "path": "evaluations/T-0818/implementation/stage488-sequence-v1/inventory-full.json",
+    "sha256": "4d20d3afcfc38e669da6129c3da61034876955903e4bc0679e227f6280108365"
+  },
+  "after_inventory": {
+    "path": "evaluations/T-0820/implementation/stage490-sequence-v1/inventory-full.json",
+    "sha256": "fe7dbcabf4a74194f3859ceaa5bc643764b96908721e76169d218849091a9aad"
+  },
+  "stageDbSha256": "e313bd94ea6a45931705bd2790f70ba05870593c3ce061c4a4989f7fbbbe32f7",
+  "sourceDesignSha256": "0be0a21330ec3a8b93cc683adb9f9b4caa98547aef2e940ca26010323398feb4",
+  "initialOperationSha256": "2f43fb2d179d855f8e239098eb19231f791e6ec0b43930ccf8b1edf045d88870",
+  "exact_authorized_focal_before_after": {
+    "identityReview": {
+      "before": {
+        "outcome": "failed",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "IDENTITY-REVIEW-T0814-P0336@1"
+        ]
+      },
+      "after": {
+        "outcome": "failed",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "IDENTITY-REVIEW-T0814-P0336@2"
+        ]
+      }
+    },
+    "treeEffect": {
+      "before": {
+        "outcome": "waiting",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "TREE-EFFECT-T0814-P0336@1"
+        ]
+      },
+      "after": {
+        "outcome": "waiting",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "TREE-EFFECT-T0814-P0336@2"
+        ]
+      }
+    },
+    "stopReasons": {
+      "before": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "IDENTITY-REVIEW-T0814-P0336@1"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "TREE-EFFECT-T0814-P0336@1"
+          ],
+          "message": "Trädverkan är waiting; grinden kräver supporting."
+        }
+      ],
+      "after": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "IDENTITY-REVIEW-T0814-P0336@2"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "TREE-EFFECT-T0814-P0336@2"
+          ],
+          "message": "Trädverkan är waiting; grinden kräver supporting."
+        }
+      ]
+    }
+  },
+  "reason": "Native IDENTITY-REVIEW-T0814-P0336 and TREE-EFFECT-T0814-P0336 were explicitly source-approved and literally revised to version2 to credit only completed C0800 continuation while preserving remaining seven C0473 own-field/provenance deficiencies. Failed/waiting and usable:true remain. The two stopReasons keep exact same codes/axes/messages/order; only revision_ids now point at those actual current native version2 reviews. This is accurate reader provenance, not changed gate or suppressed stop reason.",
+  "verified_exact_unchanged": [
+    "P0336 identityGate",
+    "P0336 full lifePictureReview",
+    "all535 nonfocal complete five-axis structures"
+  ],
+  "limits": "Authorize only these whole before/after structures for corrected read-only proof. No broad normalization, no data/API/review change, no generic exemption, no reapply. Preserve initial assertion failure. Final immutable package gate still required.",
+  "canonicalApproval": false,
+  "final_SOURCE_approval": false
+}

@@ -1,0 +1,20 @@
+{
+  "task": "T-0820",
+  "created_utc": "2026-10-08T15:53:18.367875+00:00",
+  "phase": "CONTROLLED_SEQUENTIAL_CLONE_ONLY",
+  "gates": [
+    {
+      "path": "evaluations/T-0820/primary-repair20-literal-source-gate-v1.json",
+      "sha256": "cfecd9d1e3fb814da2e12ccd8fae8d93e2def10157b6e46009b77a8fdbfc347f"
+    },
+    {
+      "path": "evaluations/T-0820/independent-repair20-literal-source-gate-v1.json",
+      "sha256": "013dc5f9f6345674c25b03373ce39e472af320e3bec7a7d39cc8649f33a14a2a"
+    }
+  ],
+  "helper_sha256": "9ff9fdb7ba5903c2056e7670cb5bb00d05481cfda337e59f69412834a1047ecb",
+  "root_checks": "Both gates fully read, all11literal pins verified, exact20resolution rationale equality verified, fullhelper read; baseline main488 hash unchanged.",
+  "canonical_apply": false,
+  "new_source": false,
+  "unexpected_requests": "capture actual and source-review individually before dependent changes"
+}

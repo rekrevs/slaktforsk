@@ -1,7 +1,18 @@
 {
-  "version": "2.1.0",
-  "next_id": 823,
-  "tasks": [
+  "new_record": {
+    "id": "T-0822",
+    "summary": "Ändlig checkpoint efter första LIFE-resultatet med aktiv full160-rest",
+    "size": "S",
+    "status": "READY",
+    "priority": "CORE_SUPPORT",
+    "priority_basis": "Nödvändig bounded planeringsägare för P-0241/P-0246 T0217, nästa P-0003/P-0042/P-0043 T0228 och bevarad P-0336/P-0337/full160-rest; ingen ny sourceaudit.",
+    "after": [],
+    "note": "Allocation är planeringsoutput av T0821; T0822 får inte utföras inom nuvarande tvåtasksbeställning."
+  },
+  "new_log": "T-0822.md",
+  "next_id_old": 822,
+  "next_id_new": 823,
+  "all_old_record_retains": [
     {
       "id": "T-0783",
       "status": "DONE",
@@ -4074,13 +4085,14 @@
     },
     {
       "id": "T-0821",
-      "status": "DONE",
+      "status": "ONGOING",
       "size": "S",
       "priority": "CORE_SUPPORT",
       "priority_basis": "Nödvändig full160-restägare och finite checkpoint för P-0336/P-0337/P-0042/P-0043, T0217/T0228 och bevarad generationsvåg.",
       "after": [],
       "summary": "Ändligt LIFE-beslut och aktiv full160-rest efter en C0800-passage",
-      "note": "Verifierad original0/native0-checkpoint; T0217 först/T0228 nästa LIFE-slot. Full160/appendix lossless, T0822 faktiskt allokerad aktiv restägare READY ej startad; rootproof evaluations/T-0821/root-actual-allocation-v1.json. Tvåuppdragsbeställningen avslutad."
+      "note": "Beställd PCD2026-10-08-004: originaltak0, faktiskT0820resultat491/0; lätt återbrukfull160/appendix, faktiskLIFEordningT0217/T0228 och boundedaktiverestägare. Max2execution slutarhär.",
+      "phase": "DOING"
     },
     {
       "id": "T-0217",
@@ -4093,16 +4105,6 @@
       "note": "Avgränsat följdarbete från T-0119. Utförs efter personaktsprogrammet; ingen ny löpande forskning under konsolideringen.",
       "priority": "CORE_LIFE",
       "priority_basis": "PCD-2026-10-05-002: exakt P-0241/P-0246; hela befintliga boundedtaskscopet sakligt främjat, Emma1963/Axel1983 bouppteckningsrouting högst2katalogenheter+1namnregister per år; Axel28965/21 högst2enheter1921. Full äldre AC/checkpoint består, ingen forskningsstart."
-    },
-    {
-      "id": "T-0822",
-      "summary": "Ändlig checkpoint efter första LIFE-resultatet med aktiv full160-rest",
-      "size": "S",
-      "status": "READY",
-      "priority": "CORE_SUPPORT",
-      "priority_basis": "Nödvändig bounded planeringsägare för P-0241/P-0246 T0217, nästa P-0003/P-0042/P-0043 T0228 och bevarad P-0336/P-0337/full160-rest; ingen ny sourceaudit.",
-      "after": [],
-      "note": "Allocation är planeringsoutput av T0821; T0822 får inte utföras inom nuvarande tvåtasksbeställning."
     },
     {
       "id": "T-0218",
@@ -9593,5 +9595,38 @@
       "priority": "CORE_SUPPORT",
       "priority_basis": "Ägarbeställning2026-10-07: konkret kärnstöd för strikt anlinjeval och återbruk; bounded pilot P-0240/P-0241/P-0246, befintliga frågor/källvägar/T0803/T0217 och gemensamma länkar. Global norm för framtida resultatlösa sökningar; ingen massomtolkning eller originalsökning."
     }
-  ]
+  ],
+  "old_log_retains": [
+    {
+      "task": "T-0217",
+      "path": "wotan/dev-log/T-0217.md",
+      "sha256": "aa1b30472aaf69d18e41d7c09238db3a4ecf6edf34792a1e8e7d09a2426d7ea4"
+    },
+    {
+      "task": "T-0228",
+      "path": "wotan/dev-log/T-0228.md",
+      "sha256": "293a00df1a7cf9de7a1c53c02abe3284cbd9d5271ec3cce82492ba5a63c483e0"
+    },
+    {
+      "task": "T-0255",
+      "path": "wotan/dev-log/T-0255.md",
+      "sha256": "00f250ec3a60847c6b0db0b5ec73a0c09528980379366461e25560a2687c78e7"
+    },
+    {
+      "task": "T-0237",
+      "path": "wotan/dev-log/T-0237.md",
+      "sha256": "ae831ca1517622b6a4dc3f8b26716468a6850bf2818aefd21503cb3b790e7db7"
+    },
+    {
+      "task": "T-0410",
+      "path": "wotan/dev-log/T-0410.md",
+      "sha256": "6071c4e31838a6593aac71aa4028032d88affda432194e6c1fa868bf0720f3c3"
+    },
+    {
+      "task": "T-0307",
+      "path": "wotan/dev-log/T-0307.md",
+      "sha256": "cfacca4802086f1bf95fd639543cd5ff0d87a3c520c1f8c62dd5dff7bce64988"
+    }
+  ],
+  "transfer_sha256": "f3dc4e237a400df9196901d4adfe834f416efd1899a3a3d91bc826e893be2c49"
 }

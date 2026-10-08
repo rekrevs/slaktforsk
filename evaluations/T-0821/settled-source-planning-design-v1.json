@@ -1,0 +1,177 @@
+{
+  "task": "T-0821",
+  "version": 1,
+  "source_opens": 0,
+  "native_changes": 0,
+  "actual_result": {
+    "path": "evaluations/T-0820/root-actual-final-verification-v1.json",
+    "sha256": "a7b1645e46a27b5640d63e1796d705e7fd90d761bcac4654140950f30a46497c"
+  },
+  "source_decision": {
+    "ordered_execution_slots": [
+      "T-0217",
+      "T-0228"
+    ],
+    "decision": "C0800-undantaget är faktiskt utfört och stängt. T-0217 väljs nu konkret först; T-0228 är nästa LIFE-slot efter den ändliga checkpointen. Ingen ny näridentitetsnödvändighet eller ett nytt undantag är avgjort i denna task.",
+    "remaining_identity_priority": "Sju C0473 är verklig kvarvarande PK05/proveniensrest hos T0255 men DEFERRED med hela kvarvarande scope, inte automatiskt nästa serie. Olaus failed/waiting och Karl/Charlottafält räcker inte ensamma att skjuta LIFE på nytt. Vid en konkret ny motsägelse/näridentitetsfråga krävs exakt person/relation/källa/enhet/fält, separat bounded beslut och ny ändlig LIFE-checkpoint.",
+    "checkpoint": "Vid första faktiska accepterade resultat ELLER konkret blocker från T-0217, före nästa källa/annan eller djupare passage. Varken DONE eller PASS krävs. T-0228 är nästa planerade LIFE-slot; checkpointen får inte skapa en automatisk ny restserie.",
+    "T0217_caps": "Emma1963/Axel1983 högst2katalogenheter+1namnregister per dödsår medC0936återbruk; Axel28965/21 högst2identifierade1921enheter. Ingen fullbouppteckning/kontakt/beställning.",
+    "T0228_caps": "Flen1923–1930 högst2volymdelar/3personbundnaadressfolios mellanC0910/C1047, T0778återbruk, ingen fel5b638omtagning eller fysiskomsorgsinferens.",
+    "authority": "Planeringsbeslut och T0822allocation endast. Ingen T0217/T0228/T0822-exekvering i denna sista beställda T0821; separat faktisk beställning krävs."
+  },
+  "new_task": {
+    "id": "T-0822",
+    "summary": "Ändlig checkpoint efter första LIFE-resultatet med aktiv full160-rest",
+    "size": "S",
+    "status": "READY",
+    "priority": "CORE_SUPPORT",
+    "priority_basis": "Nödvändig bounded planeringsägare för P-0241/P-0246 T0217, nästa P-0003/P-0042/P-0043 T0228 och bevarad P-0336/P-0337/full160-rest; ingen ny sourceaudit.",
+    "after": [],
+    "trigger": "Vid första faktiska accepterade resultat ELLER konkret blocker från T-0217, före nästa källa/annan eller djupare passage. Varken DONE eller PASS krävs. T-0228 är nästa planerade LIFE-slot; checkpointen får inte skapa en automatisk ny restserie.",
+    "scope": "Endast första faktiska T0217-resultat/blocker och accepterad oförändrad fulltransfer. Avgör exakt om T0228 kan vara nästa LIFE-slot eller om konkret nytt näridentitetsbehov kräver separat bounded beslut. Ingen160/130/30-omprövning, originalåtkomst eller nativeändring.",
+    "original_cap": 0,
+    "native_change_cap": 0,
+    "acceptance_criteria": [
+      "Återbruka hashbunden full160/source_plan/4898appendix/current30 och senaste fyrpersons-overlay; historiska innerowners/fulloldAC bevaras.",
+      "Pröva första T0217-resultat ELLER blocker före annan passage; ingen DONE/PASS-förutsättning eller sjuRotman-automatserie.",
+      "T0228 är nästa konkreta LIFE-slot med gamla caps/AC. Eventuellt nytt företräde måste ha exakt fråga/person/relation/enhet/fält/skäl och ny ändlig LIFE-omprövning; annars består ordningen.",
+      "Före DONE finns för varje faktisk ny följd exakt befintlig eller separat bounded ägare samt namngiven aktiv förlustfri planeringssuccessor med verklig trigger.",
+      "Ingen källa/native/nyresearch utförs i checkpointen; separat mandat krävs för framtida execution."
+    ],
+    "transfer": {
+      "path": "evaluations/T-0821/settled-fixed160-successor-transfer-v1.json",
+      "sha256": "19c152c6875bd68ff0d9834bf194d7ef5fcbd0498074890f40dc29ab85386ca1"
+    },
+    "mandate": "Allocation är planeringsoutput av T0821; T0822 får inte utföras inom nuvarande tvåtasksbeställning."
+  },
+  "queue_design": {
+    "allocate_only": "T-0822",
+    "expected_next_id_before": 822,
+    "expected_next_id_after": 823,
+    "relative_slots": [
+      "T-0217",
+      "T-0822",
+      "T-0228"
+    ],
+    "placement": "Insert newT0822 immediately after existingT0217, before existingT0228. Preserve every old record and old relative order exactly, no priority/status/after changes.",
+    "no_after_dependency": "after[] preserves first-result-OR-blocker checkpoint, not afterT0217DONE. Future runningT0217 records/checkpoints any blocker/result before selecting next passage; no fabricatedBLOCKED."
+  },
+  "transfer": {
+    "path": "evaluations/T-0821/settled-fixed160-successor-transfer-v1.json",
+    "sha256": "19c152c6875bd68ff0d9834bf194d7ef5fcbd0498074890f40dc29ab85386ca1"
+  },
+  "old_records_preserve": {
+    "T-0217": {
+      "id": "T-0217",
+      "status": "READY",
+      "size": "M",
+      "after": [
+        "T-0119"
+      ],
+      "summary": "Henrikssonparets ekonomi och Axels inskrivningsenhet",
+      "note": "Avgränsat följdarbete från T-0119. Utförs efter personaktsprogrammet; ingen ny löpande forskning under konsolideringen.",
+      "priority": "CORE_LIFE",
+      "priority_basis": "PCD-2026-10-05-002: exakt P-0241/P-0246; hela befintliga boundedtaskscopet sakligt främjat, Emma1963/Axel1983 bouppteckningsrouting högst2katalogenheter+1namnregister per år; Axel28965/21 högst2enheter1921. Full äldre AC/checkpoint består, ingen forskningsstart."
+    },
+    "T-0228": {
+      "id": "T-0228",
+      "status": "READY",
+      "size": "M",
+      "after": [
+        "T-0123",
+        "T-0115"
+      ],
+      "summary": "Arne och morföräldrarna: hushållsbryggan1923–1930 i Flen",
+      "note": "Avgränsad följd av T-0123; utförs efter hela personaktsprogrammet.",
+      "priority": "CORE_LIFE",
+      "priority_basis": "PCD-2026-10-05-002: exakt P-0003; hela befintliga boundedtaskscopet sakligt främjat, P-0042/P-0043 Flen1923–30 högst2volymer/3personfolios; C0910/C1047 återbruk, nödvändigt kärnlivsstöd. Full äldre AC/checkpoint består, ingen forskningsstart."
+    },
+    "T-0255": {
+      "id": "T-0255",
+      "status": "READY",
+      "size": "M",
+      "after": [
+        "T-0128",
+        "T-0115"
+      ],
+      "summary": "Olaus: bevara fast använda original och 1890 års familjefortsättning",
+      "note": "Fast följd från T-0128; se eget källomfång och stoppgräns.",
+      "priority": "DEFERRED",
+      "priority_basis": "PCD-2026-10-05-001: exakt äldre uppdrag bevarat; ännu inte individuellt klassat för hård kärnkörning. DEFERRED betyder lägre planeringsprioritet, inte orelaterad eller sakligt avslutad."
+    },
+    "T-0237": {
+      "id": "T-0237",
+      "status": "READY",
+      "size": "M",
+      "after": [
+        "T-0125",
+        "T-0115"
+      ],
+      "summary": "Jansson och Ålund: fulla öppnade personfält och saknade källkopior",
+      "note": "Avgränsad följd av T-0125; efter hela personaktsprogrammet.",
+      "priority": "DEFERRED",
+      "priority_basis": "PCD-2026-10-05-001: exakt äldre uppdrag bevarat; ännu inte individuellt klassat för hård kärnkörning. DEFERRED betyder lägre planeringsprioritet, inte orelaterad eller sakligt avslutad."
+    },
+    "T-0410": {
+      "id": "T-0410",
+      "status": "READY",
+      "size": "M",
+      "after": [
+        "T-0157",
+        "T-0115"
+      ],
+      "summary": "Fullutvinn P-0043:s egna kolumner och spegla elva fullbilder",
+      "priority": "DEFERRED",
+      "priority_basis": "PCD-2026-10-05-001: exakt äldre uppdrag bevarat; ännu inte individuellt klassat för hård kärnkörning. DEFERRED betyder lägre planeringsprioritet, inte orelaterad eller sakligt avslutad."
+    },
+    "T-0307": {
+      "id": "T-0307",
+      "status": "READY",
+      "size": "M",
+      "after": [
+        "T-0137",
+        "T-0115"
+      ],
+      "summary": "Återbevara Brita Kajsas äldre kopior och fullpröva egna hushållsfält",
+      "note": "Fast personbunden följd från T-0137.",
+      "priority": "DEFERRED",
+      "priority_basis": "PCD-2026-10-05-001: exakt äldre uppdrag bevarat; ännu inte individuellt klassat för hård kärnkörning. DEFERRED betyder lägre planeringsprioritet, inte orelaterad eller sakligt avslutad."
+    }
+  },
+  "old_full_logs_preserve": [
+    {
+      "task": "T-0217",
+      "path": "wotan/dev-log/T-0217.md",
+      "sha256": "aa1b30472aaf69d18e41d7c09238db3a4ecf6edf34792a1e8e7d09a2426d7ea4"
+    },
+    {
+      "task": "T-0228",
+      "path": "wotan/dev-log/T-0228.md",
+      "sha256": "293a00df1a7cf9de7a1c53c02abe3284cbd9d5271ec3cce82492ba5a63c483e0"
+    },
+    {
+      "task": "T-0255",
+      "path": "wotan/dev-log/T-0255.md",
+      "sha256": "00f250ec3a60847c6b0db0b5ec73a0c09528980379366461e25560a2687c78e7"
+    },
+    {
+      "task": "T-0237",
+      "path": "wotan/dev-log/T-0237.md",
+      "sha256": "ae831ca1517622b6a4dc3f8b26716468a6850bf2818aefd21503cb3b790e7db7"
+    },
+    {
+      "task": "T-0410",
+      "path": "wotan/dev-log/T-0410.md",
+      "sha256": "6071c4e31838a6593aac71aa4028032d88affda432194e6c1fa868bf0720f3c3"
+    },
+    {
+      "task": "T-0307",
+      "path": "wotan/dev-log/T-0307.md",
+      "sha256": "cfacca4802086f1bf95fd639543cd5ff0d87a3c520c1f8c62dd5dff7bce64988"
+    }
+  ],
+  "log_render": "T0822 log contains fullnew scope/AC/trigger, bounded currentdecision and hash links to transfer/old full logs. Do not embed recursive megabyte earliertransfers. Entirefixed160/source_plan/appendix is physically retained in newtransfer; previousfullfile hash preserves all remaining nested details.",
+  "completion": "Root must actually allocate namedT0822 and verify losslessunion before T0821DONE. Allocation-only factualcheckpoint may be appended after actualproof. No futuretask executes now.",
+  "PCR_draft": "T0821 har efter accepterad T0820 (491/0, tre C0800-fortsättningsrader, inga nya reviewutfall/personer/föräldrar) avslutat det enda identitetsundantaget. T0217 väljs konkret först och T0228 därefter, med fulla tidigare caps/AC/reuse oförändrade. T0822 allokeras endast som bounded aktiv full160-planeringsägare vid första T0217-resultat eller blocker, före annan passage. Sju C0473 och övriga rester behåller sina DEFERRED-ägare; ingen automatisk restserie. Detta är granskning inom befintligt ägarmandat, inget nytt ägarbeslut eller framtida utförandemandat.",
+  "approval": "SOURCE design only; independent approval then exact literal gate/rootallocation required."
+}

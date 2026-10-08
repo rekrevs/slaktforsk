@@ -1,0 +1,81 @@
+{
+  "failure": "focal full identityGate/lifePictureReview/stopReasons exact assertion; no payload/data change",
+  "exact_focal_differences": {
+    "identityReview": {
+      "before": {
+        "outcome": "failed",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "IDENTITY-REVIEW-T0814-P0336@1"
+        ]
+      },
+      "after": {
+        "outcome": "failed",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "IDENTITY-REVIEW-T0814-P0336@2"
+        ]
+      }
+    },
+    "treeEffect": {
+      "before": {
+        "outcome": "waiting",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "TREE-EFFECT-T0814-P0336@1"
+        ]
+      },
+      "after": {
+        "outcome": "waiting",
+        "usable": true,
+        "source": "native",
+        "revisions": [
+          "TREE-EFFECT-T0814-P0336@2"
+        ]
+      }
+    },
+    "stopReasons": {
+      "before": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "IDENTITY-REVIEW-T0814-P0336@1"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "TREE-EFFECT-T0814-P0336@1"
+          ],
+          "message": "Trädverkan är waiting; grinden kräver supporting."
+        }
+      ],
+      "after": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "IDENTITY-REVIEW-T0814-P0336@2"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "TREE-EFFECT-T0814-P0336@2"
+          ],
+          "message": "Trädverkan är waiting; grinden kräver supporting."
+        }
+      ]
+    }
+  },
+  "completed_prior_checks": "36APIs/560retains/13dependencytargets/20resolutionrationales/allothercurrentnative/OWNER45/44historyprefix/full535nonfocal axes assertions passed before failure",
+  "SOURCE_qualification_required": true
+}

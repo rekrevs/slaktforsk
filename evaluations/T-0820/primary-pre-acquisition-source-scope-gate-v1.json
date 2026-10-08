@@ -1,0 +1,60 @@
+{
+  "task": "T-0820",
+  "role": "primary Astra",
+  "created_utc": "2026-10-08T15:11:21.006745+00:00",
+  "phase": "INDEPENDENT_PRE_ACQUISITION_SCOPE_GATE_ROOT_ONLY",
+  "inputs": [
+    {
+      "path": "evaluations/T-0820/preparation/locked-input-manifest-v3.json",
+      "sha256": "47949df90d43d1b5a7c57e4847c4c43ba1ae04924bc019490f5cb7e3e7a2039a"
+    },
+    {
+      "path": "evaluations/T-0820/originals/folk901017-manifest.json",
+      "sha256": "e9e52ec37ba38b283368f16e716eb95f2697e9480c0f967b07d0962d1646c911"
+    },
+    {
+      "path": "evaluations/T-0820/originals/exact-manifest-routing-receipt-v1.json",
+      "sha256": "fc4cf0bc1dcba2742194b9c96e97ae891f2f07d50d6f0c9670843f86f8da2167"
+    },
+    {
+      "path": "evaluations/T-0820/preparation/exact-current-C0800-source-record-observation-v1.json",
+      "sha256": "55b4cd4f3a33e44a98a7991baf5cce0488be2591619c7da97ae05bf81dad363f"
+    },
+    {
+      "path": "evaluations/T-0820/preparation/C0800-local-copy-and-manifest-locators-v1.json",
+      "sha256": "46518e221c24b3aaa1b20f7c751e79a17bb6e79c11715e9775706dad3be8118c"
+    }
+  ],
+  "verification": {
+    "39_input_pins_exact": true,
+    "manifest_direct_adjacency_exact": true,
+    "anchor_index": 89,
+    "next_index": 90,
+    "provider_version": "unknown"
+  },
+  "decision": "APPROVE_ROOT_ACQUISITION_OF_EXACT_ONE_ADJACENT_IMAGE_CONDITIONAL_ON_DUAL_SCOPE_GATE",
+  "image_id": "Folk_901017-091",
+  "url": "https://lbiiif.riksarkivet.se/folk!901017-091/full/max/0/default.jpg",
+  "referrer": "https://sok.riksarkivet.se/bildvisning/Folk_901017-091",
+  "declared_dimensions": [
+    800,
+    639
+  ],
+  "actual_image_hash": "NOT_YET_ACQUIRED_OR_READ_BY_PRIMARY",
+  "necessity": "Aktuell R-f350624d174adb78e71026fe@1 och O-P-0336-C0800-census@1 skiljer fem registerbarn från sparad bild090 med endast Olaus/Johanna/Robert/Johannes. Senare T0160referens sluter inte uttryckligen denna bildgräns. Metadata inventerar befintlig anchor och ger ingen tillräcklig bevarad fortsättning. Manifestet fastställer nu exakt direkt nästa canvas; dess innehåll eller tre barnrader är inte därmed belagda.",
+  "read_scope": "Efter rootactualhash och egen läsrelease: orientera exakt091 och utvinn hela återstående relevanta C0800familjeposten OM den kan attribueras, med alla rubriker/ditton/blankfält/marginaler och minsta ankarkontext. Återbruka accepterad090 samt redan lokalt bevarad anchor för minsta attribution; ingen ny090hämtning. Tre möjliga barnrader är familjepostfullständighet, inte Olaus egna celler eller egen födelse-/föräldralösning.",
+  "stop_rules": [
+    "Ingen annan manifesthämtning eller bild än091; inga gissade nästa-ID, nya årgångar, familjer, Rotmanposter eller fristående barnbiografier.",
+    "Om091 inte visar fortsättningen, är otillräckligt läsbar eller kräver annan sida/header: dokumentera exakt läsgräns/blocker och återför till root/T0821, expandera inte.",
+    "Bevara rå namn-/relationsosäkerhet; ingen automatisk efternamnskonstruktion eller oberoende evidensröst från index/original i samma kedja.",
+    "HTTPåtkomsthinder är inte söknoll. Eventuellt faktiskt negativt utfall får exakt läst bild/omfång/hash/datum/providerunknown och återstartvillkor, inte universell familjefrånvaro."
+  ],
+  "protected": "Accepterad vuxenidentitet och recorded_parent till Johannes, OWNERscope, sjuC0473rester/T0255fullrest samt LIFE oförändrade. Ingen garanterad identityPASS.",
+  "ownreading_protocol": "Vänta rootactualimagehash/dimension/proveniens och release; därefter egen fullreadingseal ROOTONLY före counterpartclaims. Denna grind tolkar inga pixels.",
+  "image_opened": false,
+  "network_by_primary": false,
+  "native_changes": [],
+  "queue_changes": false,
+  "canonical_approval": false,
+  "source_reading_approval_now": false
+}

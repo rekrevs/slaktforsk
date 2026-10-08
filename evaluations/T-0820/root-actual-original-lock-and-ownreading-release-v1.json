@@ -1,0 +1,51 @@
+{
+  "task": "T-0820",
+  "observed_utc": "2026-10-08T15:12:37.827864+00:00",
+  "decision": "RELEASE_SEPARATE_AUTHENTIC_OWN_READINGS_ROOT_ONLY",
+  "pins": [
+    {
+      "path": "evaluations/T-0820/primary-pre-acquisition-source-scope-gate-v1.json",
+      "sha256": "7abf1fbefba40896f6662b6044f19a8849cfd94069e61251d1bcdae3fea9368d"
+    },
+    {
+      "path": "evaluations/T-0820/independent-pre-acquisition-source-scope-gate-v1.json",
+      "sha256": "3b6c62d4b07145e3a52646e01007a55c9f1ce109d5d363fb7bc2269914c92a16"
+    },
+    {
+      "path": "evaluations/T-0820/preparation/locked-input-manifest-v3.json",
+      "sha256": "47949df90d43d1b5a7c57e4847c4c43ba1ae04924bc019490f5cb7e3e7a2039a"
+    },
+    {
+      "path": "evaluations/T-0820/originals/exact-manifest-routing-receipt-v1.json",
+      "sha256": "fc4cf0bc1dcba2742194b9c96e97ae891f2f07d50d6f0c9670843f86f8da2167"
+    },
+    {
+      "path": "evaluations/T-0820/originals/Folk_901017-091.jpg",
+      "sha256": "fb706b7da4ef62465b6fa1ed2b23f362e5530d70c00bfea0559ce8c81fc9215c"
+    },
+    {
+      "path": "evaluations/T-0820/originals/exact-continuation-acquisition-receipt-v1.json",
+      "sha256": "72a79954aef25ddcf89fb83e6da7a63a554e1e40a3cdb90fe2d1ed257ab97e38"
+    }
+  ],
+  "actual_dimensions": [
+    800,
+    639
+  ],
+  "ceiling_observed": {
+    "manifests": 1,
+    "images": 1
+  },
+  "scope": "Only remaining relevant C0800 family record within091, full headers/dittos/blanks/margins; accepted090 reuse/minimal attribution only, no new090 acquisition or independent re-review; no child biography/other household/source",
+  "protocol": "Both own readings ROOT ONLY before counterpart claims; no canonical approval or native write yet. Stop exact limitation if other source/context required. Metadata no personproof.",
+  "failed_attempts": [
+    {
+      "kind": "local preparation",
+      "detail": "PIL unavailable before acquisition; replaced dimension inspection with sips"
+    },
+    {
+      "kind": "sandbox network",
+      "detail": "DNS lookup restricted; noHTTP/image fetched; authorized reviewed network escalation successful"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 # T-0820 — Pröva Olaus C0800-familjefortsättning inom en bild
 
 - Size: M
-- Status: DONE
-- Phase: —
+- Status: ONGOING
+- Phase: PLANNING
 - Priority: CORE_IDENTITY
 - After: []
 
@@ -152,60 +152,3 @@ Faktisk verifierad allocation: evaluations/T-0819/root-actual-allocation-v1.json
 Ägarens ”ok kör dem” beställer exaktT0820/T0821 inom avgjorda scope/AC. T0820ONGOING/PLANNING: högst1manifest/1direktangränsande C0800bild, sufficientcurrent/local/accepted återbruk först. T0821beställt checkpoint efter förstaresultat ELLER blocker, ingen tredjeexecution. Tidigare allokering/literalSOURCEgrindar/160union är accepted, inte återstående arbete.
 
 Nästa ej utförda steg: avstäm actualjournal/currentR/O/S/OWNER/media/sökminne och låsscope/proveniens; pröva om tillräcklig fortsättning redan finns. Därefter endast faktiskt nödvändigt manifest för exactID och source/hashgate före eventuell endaoriginalläsning. Åtkomsthinder är inte söknoll. Solmechanicalprepare,tvåAstra source/finalreview; no furtherdelegation.
-
-
-## Återupptagning — original låst, separata läsningar pågår
-
-Uppdaterat: 2026-10-08T15:13:47.451722+00:00. Current488/pending0 och39inputpinnar är verifierade; befintlig090/T0160/OWNER/starkare stöd återbrukas. Ett manifest identifierar exakt direkt091; båda autentiska SOURCE-förvärvsgrindar godkänner detta scope. Faktiskt hämtad091: HTTP200,800×639,163230bytes,SHA256 fb706b7da4ef62465b6fa1ed2b23f362e5530d70c00bfea0559ce8c81fc9215c,leverantörsversionUNKNOWN. Se evaluations/T-0820/root-actual-original-lock-and-ownreading-release-v1.json och originals/exact-continuation-acquisition-receipt-v1.json. Taket1manifest/1bild är förbrukat; inga ytterligare hämtningar.
-
-Nästa ej utförda steg: båda separata fulla egenläsningar förseglas ROOTONLY före jämförelse. Därefter endast nödvändiga individuella följdbeslut och SOURCE-godkänd kontrollerad adoption. Ingen nativeändring eller trädstatusändring har skett. T0821 skall följa första accepterade resultat ELLER konkret hinder, utan annan passage. Lokal PIL-förberedelse och sandbox-DNS misslyckades före bildhämtning; sips och godkänd nätåtkomst gav det verifierade originalet, inget källnoll.
-
-
-## Återupptagning — egenläsningar jämförda
-
-Uppdaterat: 2026-10-08T15:21:22.557183+00:00. Båda autentiska egenläsningar förseglades före jämförelse och är fullständigt lästa av root; jämförelserelease och initialer bevaras i evaluations/T-0820/. SOURCE-läsningarna stämmer överens om exakt tre dötterrader1883/1885/1890 med egna d.-roller, reserverad ortförkortning/yrkesmarkering och blanka högerfält. Den felaktiga extra age_cell i primärens initial stryks uttryckligen i settled-original-reading-v1.json; initialen ändras inte. Ingen ytterligare bild behövs för denna avgränsade utvinning.
-
-Nästa ej utförda steg: SOURCE-beslut om nödvändiga aktuella följdrättelser inklusive structured/caveat/PK/källväg och starkare äldre stöd, sedan exakt versionerat operationspaket, individuella faktiska beroendegrindar och rootadoption. Oberoende semantisk kontroll hittade även två residence-chain-kopior utanför den förberedda routingen; fullnative har hämtats mekaniskt, inga nya personfakta eller arkivsökningar. Main488/pending0 oförändrad. Ingen slutlig canonicalSOURCE-approval ännu. T0821 återstår beställt efter första accepterade utfall från denna enda passage.
-
-
-## Återupptagning — exakt SOURCE-design godkänd för materialisering
-
-Uppdaterat: 2026-10-08T15:32:14.022090+00:00. Complete-source-design-v3.json SHA0be0a21330ec3a8b93cc683adb9f9b4caa98547aef2e940ca26010323398feb4 och separat independent-complete-source-design-gate-v1.json godkänner exakt25befintliga/9nya/15indexedrebinds/562retains för mekanisk materialisering. Root verifierade samtliga fullnative25+562 mot actualmain488 samt9nya ID-frånvaron. V1/V2 och initialläsningar bevaras; broad whole_family_original_extracted-uppgraderingen avvisades, endast separat091-continuation_complete blir true och bredare äldre totalfalse bevaras. Två felriktade gravhänvisningar kvalificerades bort.
-
-Nästa ej utförda steg: Sol materialiserar exaktV3 med full metadata/evidence/origins/ordning; båda literalSOURCE-grindar före första klonapply. Därefter actualrequests/individuella SOURCEbeslut, exakt sekventiell slutklon och båda slutSOURCEgrindar före rootcanonical. Ingen nativeapply har skett; originaltaket förbrukat. T0821 beställt och kvarstår efter detta enda resultat, inga andra passager.
-
-
-## Återupptagning — första faktiska klonprovet
-
-Uppdaterat: 2026-10-08T15:38:23.496582+00:00. Båda literalSOURCE-grindar binder samma operation2f43fb2d179d855f8e239098eb19231f791e6ec0b43930ccf8b1edf045d88870/table21015eff4695781e0aaeda3e4b1dbb887d6c0e3d03f99d66a32fea063360d815/manifestc89b69402eb88d11b24b6051ba2fdbf0f242e9e325179016a2c2138a0c96b65f. Root körde exakt initialklon via stödjad CLI: stage489-v1,34nativeändringar och562retains exakta,489/pending20,23.865s. Main488/pending0/hash oförändrad. Se root-initial-clone-apply-release-v1.json och root-actual-initial-stage-and-dependency-source-release-v1.json.
-
-Nästa ej utförda steg: två autentiska separata ROOTONLY SOURCE-beslut för samtliga20faktiska requests/14targets, fullcurrent/old/stronger i actual-pending-contexts-initial.json. Ingen resolution är ännu antagen eller utförd. Därefter rootläst jämförelse/avgjorda beslut, exakt andraoperation, sekventiell slutklon/fullprotection/readers/validators och båda finalSOURCEgrindar före rootcanonical. Inga fler original tillåtna. T0821 kommer efter utfallet utan ny passage.
-
-
-## Återupptagning — faktiska beroendebeslut jämförda
-
-2026-10-08T15:46:32.842435+00:00: Båda autentiska ROOTONLY-sealer lästa och jämförelse frigiven i root-authentic-actual20-comparison-release-v1.json. Överens om18exakta retains och2requests som kräver samma snäva Robertfact-revision. Exakt structured/caveat-scope och kvalifikation av direkt Olausfamiljefakta avgörs nu; ingen ny källa eller ny personforskning. Nästa ej utförda steg: primär exakt amendmentdesign, separat independentSOURCE-grind, mekanisk andraoperation och sekventiell slutklon; eventuella nya faktiska requests bedöms individuellt. Main488/pending0 oförändrad; inget canonicalapply. T0821 återstår därefter, ingen tredje execution.
-
-
-## Återupptagning — faktisk slutklon och skyddskontroll
-
-2026-10-08T15:57:49.759936+00:00: Båda literalgates godkände oförändrad initialoperation och exakt andraoperation med2facts/20individuella resolutions. Rootkört sekventiellt slutprov: actual490/pending0, inga nyarequests, main488oförändrad; root-actual-final-sequence-source-release-v1.json. Alla9läsare/validators och18tester PASS. Skyddskontroll stannade på OlausstopReasons exakta revision_id@1→@2; fullföre/efter är bevarad i stage490/final-protection-check-failure-v1.json, ingen dataändring eller generellt normaliseringsundantag. BådaSOURCEroller prövar exakt följd nu. Nästa ej utförda steg: bådaSOURCEförankrad explicit guardqualification, korrigerat fullskyddsbevis, båda hashbundna finalSOURCEgrindar och därefter rootstyrt CLIcanonicalapply/livevstageverify. Ingen nyoriginalkälla. T0821 beställt efter detta enda resultat utan annan passage.
-
-
-## Återupptagning — konkret kopiefel i slutgranskningen
-
-2026-10-08T16:03:19.246483+00:00: Korrigerat klonskydd V2 och slutmanifestV1 b1b77853… PASS, men independentfinalSOURCE återförde F-P0336-preservation_assessment-gaps-and-life-limits@2 med aktuell original1890_last_three_family_rows_missing:true; detta avser exakt redan fullprövad091, inte bredare090gräns. Fynd92917116… med fullnative bevaras. Tidigare retain missade fältet; inget canonicalapply/finalapproval. Primär minimal amendment29cc45e9… rättar endast flaggan false +namngivetTR-stöd; independentdesigngate pågår. Nästa ej utförda steg: slutsemanticcopycheck/exactSOURCEgate, tredje literaloperation, distinct klonfortsättning från verifierad490 med actualdependencies, skydd/readersdelta och båda nyafinalgates. Originaltak förbrukat, inga nya källor/personfrågor. Alla tidigare kandidatbevis behålls. T0821 följer detta enda resultat, ingen tredje uppgift.
-
-
-## Återupptagning — sista flaggan faktiskt klonprövad
-
-2026-10-08T16:11:16.242656+00:00: DualSOURCE literalgrindar eda5355f…/8251d426… och rootthirdrelease godkände enbart exakt flaggfalse/TRappend. Root tredjeoperation6aa8165c… på distinct fortsattklon: actual491/pending0, inga nyarequests; root-actual-third-continuation-release-v1.jsondd90b68b…; stageed65ba73… och main488oförändrad. Oberoende boundedsemantisk scan cd1674f4… prövade138relevanta currentnative/kopior av244routingträffar, inga fler rättelser utöver preservationflaggan. Nästa ej utförda steg: slut491readonlydelta/helper022bb959… körs (Sol session67233), nytt hashbundetfinalmanifest och båda finalSOURCEgrindar, rootkontrollerad3CLIapply och exakt50tabellerslivevstageverifiering (endast3namngivna recorded_at). Inga fler original. T0821 följer resultatet; ingen tredjeuppgift.
-
-
-## Outcome och verifiering
-
-2026-10-08T16:19:13.862458+00:00: DONE inom enda beställda C0800-passage. Original091:s tre fulla dötterrader Frida1883/Ruth1885/Augusta1890 är bevarade/utvunna med råreservationer och eget källomfång. Befintlig AugustaP0489 används; inga nya personer, föräldrarelationer eller gradhöjningar.37nativeändringar och20individuella resolutions införda genom exakt3SOURCE-godkända CLIoperationer journal489–491; rootverifierade actual491/pending0 mot granskadklon50tabeller/arrayordning, endast3namngivna operation.recorded_at kvalificeras. Verify/assets/source PASS,18relevantatester PASS under exakt återbruk, båda antavlor43anvägar oförändrade, OWNER45/alla1669relationer skyddade. Slutligt kvitto: evaluations/T-0820/root-actual-final-verification-v1.json. Båda finalSOURCEgrindar7ca2896c…/4011dd8c… binder korrigerat7119aa4f…manifest.
-
-## Återupptagning — avslutad uppgift
-
-T0820 skall inte repeteras. Faktiskt utfall och alla initialer/missadeflagga/checkerfailure är bevarade. Real elapsed 79.6min inklusive förberedelser/bådaSOURCEroller/repairs/finalisering; faktisknyturnusage i usage-snapshot.json, rootUNKNOWN. Kvarvarande egna Olausfödelser-/föräldra- och7C0473fält/bevaranderester kvar hosT0255 (DEFERRED), inte ny automatisktbeställdserie. Nästa ej utförda steg är beställd T0821: explicitLIFEordningT0217/T0228/full160restägarskap, originaltak0, ingen tredjeuppgift.

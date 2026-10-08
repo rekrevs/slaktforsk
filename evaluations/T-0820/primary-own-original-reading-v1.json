@@ -1,0 +1,162 @@
+{
+  "task": "T-0820",
+  "role": "primary Astra",
+  "created_utc": "2026-10-08T15:14:41.544165+00:00",
+  "phase": "OWN_ORIGINAL_READING_SEALED_ROOT_ONLY_BEFORE_COMPARISON",
+  "input_pins": [
+    {
+      "path": "evaluations/T-0820/root-actual-original-lock-and-ownreading-release-v1.json",
+      "sha256": "b2cba8f64441ce9ca68d483ea0caa7f38127b4cb191ea830cafdc4340ad3bb04"
+    },
+    {
+      "path": "evaluations/T-0820/originals/Folk_901017-091.jpg",
+      "sha256": "fb706b7da4ef62465b6fa1ed2b23f362e5530d70c00bfea0559ce8c81fc9215c"
+    },
+    {
+      "path": "evaluations/T-0820/preparation/locked-input-manifest-v3.json",
+      "sha256": "47949df90d43d1b5a7c57e4847c4c43ba1ae04924bc019490f5cb7e3e7a2039a"
+    },
+    {
+      "path": "evaluations/T-0820/preparation/exact-current-C0800-source-record-observation-v1.json",
+      "sha256": "55b4cd4f3a33e44a98a7991baf5cce0488be2591619c7da97ae05bf81dad363f"
+    }
+  ],
+  "original": {
+    "image_id": "Folk_901017-091",
+    "bytes": 163230,
+    "dimensions": [
+      800,
+      639
+    ],
+    "provider_version": "unknown",
+    "images_newly_read": 1,
+    "extra_images": 0,
+    "anchor090": "Accepterad tidigare text återbrukad; ingen ny090bildläsning eller hämtning."
+  },
+  "view_derivative": {
+    "path": "/tmp/t820-091-double.jpg",
+    "sha256": "a7ab7571210ea2961189c1cab694f5b0a0b306bab2d6ab4b6b3cff5807aa5103",
+    "transformation": "sips -z 1278 1600; hela samma bild, ingen beskärning eller ny detaljdata",
+    "original_rectangle": [
+      0,
+      0,
+      800,
+      639
+    ]
+  },
+  "headers": {
+    "printed_title": "Folkräkningen i Stockholm d. 31 dec. 1890. Rotelista för ... roten.",
+    "written_rote": "17de[?]",
+    "written_parish": "Kungsholms",
+    "page_written": "47",
+    "name_heading": "Qvarter och egendomens N:o i qvarteret; Namn (fullständigt) å hvarje person; familjeställning (h=hustru,s=son,d=dotter o.s.v.)",
+    "occupation": "Yrke, embete, tjenst, näringsfång",
+    "count_groups": "Mantalsskr. i egendomen / Ej mantalsskr. i egendomen; ogifta/gifta/enklingar/en kor/frånskilda grupper med könskolumner",
+    "birth": "Födelse-år/ort; ortens socken eller stad och län",
+    "church": "Kyrkoskrifningsort",
+    "other": "Lyte; främmande nationalitet; religionsbekännelse; frånvarande. Anmärkningar.",
+    "header_limits": "Små tryckta förkortningars exakta stavning och samtliga tryckta kolumnnummer normaliseras inte som nya persondata."
+  },
+  "orientation_and_attribution": "Överst Transport. De första tre personraderna är d.Frida Elisabeth, d.Ruth Fredrika och d.Augusta Gerda Charlotta. Vänster klammer fortsätter från överkant och slutar efter Augusta. Därefter börjar ett annat hushåll, vilket endast används som gräns och inte utvinns. Den direkt angränsande bilden, namn/år/kön och fortsättningsklammer samstämmer med accepterade Folk_111631011-indexfamiljen och sparad090-text. Sidans47 är inte en rättelse av familjens startlokator s46 rad47. Inga andra familjer undersökta.",
+  "remaining_family_rows": [
+    {
+      "name_raw": "Frida Elisabeth",
+      "role_raw": "d.",
+      "surname": "Ej utskrivet i egen rad; konstrueras inte ur faderns efternamn.",
+      "occupation_cell": {
+        "raw": "litet upprepningstecken/kommaliknande tecken",
+        "status": "READ_WITH_RESERVATION",
+        "interpretation": "Ingen egen yrkestitel utskriven; ingen normalisering till faderns arbete."
+      },
+      "mantalsskriven_i_egendomen": {
+        "raw": "/ i kvinnlig ogift-kolumn",
+        "status": "READ",
+        "other_own_subcolumns": "blanka"
+      },
+      "ej_mantalsskriven_i_egendomen": "egna underkolumner blanka",
+      "age_cell": "blank",
+      "birth_year": "1883",
+      "birth_place_raw": "St.[?]",
+      "birth_place_interpretation": "Första ortförkortningens grafik reserveras; accepterat register Stockholm används separat, inte som säker ny expansion. Följande egna ditton tillhör ortkolumnen.",
+      "church_registration_raw": "här",
+      "church_registration_interpretation": "här med egna ditton; anger kyrkoskrivning i listans församling, inte fysisk oavbruten vistelse.",
+      "lyte_foreign_nationality_non_lutheran_absence_column": "blank",
+      "remarks": "blank",
+      "margins": "Ingen egen marginalnotering. Fortsatt vänster familjeklammer avslutas efter tredje raden."
+    },
+    {
+      "name_raw": "Ruth Fredrika",
+      "role_raw": "d.",
+      "surname": "Ej utskrivet i egen rad; konstrueras inte ur faderns efternamn.",
+      "occupation_cell": {
+        "raw": "litet upprepningstecken/kommaliknande tecken",
+        "status": "READ_WITH_RESERVATION",
+        "interpretation": "Ingen egen yrkestitel utskriven; ingen normalisering till faderns arbete."
+      },
+      "mantalsskriven_i_egendomen": {
+        "raw": "/ i kvinnlig ogift-kolumn",
+        "status": "READ",
+        "other_own_subcolumns": "blanka"
+      },
+      "ej_mantalsskriven_i_egendomen": "egna underkolumner blanka",
+      "age_cell": "blank",
+      "birth_year": "1885",
+      "birth_place_raw": "ditto till föregående ortcell",
+      "birth_place_interpretation": "Första ortförkortningens grafik reserveras; accepterat register Stockholm används separat, inte som säker ny expansion. Följande egna ditton tillhör ortkolumnen.",
+      "church_registration_raw": "ditto till föregående kyrkoskrivningscell",
+      "church_registration_interpretation": "här med egna ditton; anger kyrkoskrivning i listans församling, inte fysisk oavbruten vistelse.",
+      "lyte_foreign_nationality_non_lutheran_absence_column": "blank",
+      "remarks": "blank",
+      "margins": "Ingen egen marginalnotering. Fortsatt vänster familjeklammer avslutas efter tredje raden."
+    },
+    {
+      "name_raw": "Augusta Gerda Charlotta",
+      "role_raw": "d.",
+      "surname": "Ej utskrivet i egen rad; konstrueras inte ur faderns efternamn.",
+      "occupation_cell": {
+        "raw": "litet upprepningstecken/kommaliknande tecken",
+        "status": "READ_WITH_RESERVATION",
+        "interpretation": "Ingen egen yrkestitel utskriven; ingen normalisering till faderns arbete."
+      },
+      "mantalsskriven_i_egendomen": {
+        "raw": "/ i kvinnlig ogift-kolumn",
+        "status": "READ",
+        "other_own_subcolumns": "blanka"
+      },
+      "ej_mantalsskriven_i_egendomen": "egna underkolumner blanka",
+      "age_cell": "blank",
+      "birth_year": "1890",
+      "birth_place_raw": "ditto till föregående ortcell",
+      "birth_place_interpretation": "Första ortförkortningens grafik reserveras; accepterat register Stockholm används separat, inte som säker ny expansion. Följande egna ditton tillhör ortkolumnen.",
+      "church_registration_raw": "ditto till föregående kyrkoskrivningscell",
+      "church_registration_interpretation": "här med egna ditton; anger kyrkoskrivning i listans församling, inte fysisk oavbruten vistelse.",
+      "lyte_foreign_nationality_non_lutheran_absence_column": "blank",
+      "remarks": "blank",
+      "margins": "Ingen egen marginalnotering. Fortsatt vänster familjeklammer avslutas efter tredje raden."
+    }
+  ],
+  "transport_totals": "Transportens numeriska kolumntotaler är sidans aggregat, inte egna familjefält; inte adopterade som familjeantal.",
+  "uncertainties": [
+    "Första födelseortens råförkortning St.[?] bevaras; Stockholm är tidigare accepterat registerstöd, inte oberoende ny röst.",
+    "Litet tecken i yrkeskolumnen hålls rått, inget dotteryrke härleds.",
+    "Ny bild innehåller inga säkra efternamn för de tre; inga nya identiteter eller släktskap utöver prövad familjeattribution antas."
+  ],
+  "proposed_source_dispositions": {
+    "C0800_continuation": "POSITIVT: tre återstående dötterrader nu faktiskt originalprövade inom en091bild. original_continuation_read kan efter dualreading/finalSOURCE adoption bli true; last_three_children_index_only kan kvalificeras false för exakt dessa fält.",
+    "five_children_total": "Fem totalt består: två accepterade tidigare söner + tre nu egna radläsningar, inte fem äldre plus Augusta.",
+    "record_scope": "Behåll090+befintlig indexrepresentation och tillägg091; samma kedja inte oberoende belägg. Historiska äldre ofullständighetsutsagor får daterad kvalifikation, inte radering.",
+    "source_parent": "S0616 omfattar även separata Grill/Bygdeå sökpass som inte omprövas eller generaliseras.",
+    "identity_and_tree": "Ingen automatisk PASS. Olaus vuxenidentitet och parent→Johannes förblir accepterade, eget ursprung/föräldrar och sju C0473egna fullfält kvarstår. C0800atom sluter endast denna konkreta familjepostrest.",
+    "OWNER": "Ingen utvidgning eller nedgradering av exakt ägarbekräftade fakta.",
+    "LIFE": "Ingen ny LIFE-bedömning eller uppgradering; inga barnbiografier."
+  },
+  "remaining_owners": {
+    "T0255": "Samtliga sjuC0473 och alla andra förlustfritt bevarade fasta passage-/kopierester oförändrade.",
+    "T0821": "Första faktiska resultat rapporteras; omedelbar ändlig LIFE-planeringscheckpoint före ny passage, T0217 först/T0228 sedan enligt avgjord prövning.",
+    "T0820": "Efter jämförelse full exakt SOURCEadoption/currentsemantic consequences och oberoende granskning, literal/actual dependency/finalgates. Ingen implementation i denna egen seal."
+  },
+  "exposure": "Ingen oberoende reading eller kandidat läst; endast egna pixels och redan accepterade textgränser.",
+  "native_changes": [],
+  "network": false,
+  "final_source_approval": false
+}
