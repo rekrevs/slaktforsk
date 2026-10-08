@@ -16,3 +16,6 @@ genealogy2/import/baseline/objects/* -filter -text
 # Locked T-0677 review images; full source originals remain separately preserved.
 genealogy2/verification/T-0677/**/*.png filter=lfs diff=lfs merge=lfs -text
 genealogy2/verification/T-0677/*.png filter=lfs diff=lfs merge=lfs -text
+
+# T-0228 exact IIIF response bytes, including provider CRLF line endings.
+evaluations/T-0228/manifest-00153997.json -text whitespace=cr-at-eol

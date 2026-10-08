@@ -1,0 +1,149 @@
+{
+  "task": "T-0228",
+  "recorded_at": "2026-10-08T20:24:18.141765+00:00",
+  "images": [
+    {
+      "path": "evaluations/T-0228/00153996_00005.jpg",
+      "sha256": "0447d718c1aff180e7c8e42e8e64f4d911beef423cba5bdb49a3d0c76ed31458",
+      "bytes": 2110510,
+      "method": "Official Riksarkivet Chrome viewer Hela bilden download; copied from Downloads; no cookies or credentials extracted"
+    },
+    {
+      "path": "evaluations/T-0228/00153996_00006.jpg",
+      "sha256": "c0a5d0537a25cf0ef0651cd9ed15192ae97f20bd78a19c24fe17505502680528",
+      "bytes": 1060871,
+      "method": "Official Riksarkivet Chrome viewer Hela bilden download; copied from Downloads; no cookies or credentials extracted"
+    },
+    {
+      "path": "evaluations/T-0228/00153997_00001.jpg",
+      "sha256": "0cbb2c11cc3db756dc0e6beeb671a75bcebdc241135b32c380009de3abdb081a",
+      "bytes": 240108,
+      "method": "Official Riksarkivet Chrome viewer Hela bilden download; copied from Downloads; no cookies or credentials extracted"
+    },
+    {
+      "path": "evaluations/T-0228/00153997_00002.jpg",
+      "sha256": "26b83f74221bd0d767427348f8a29967cf0b60b7af6f46666f561c89b671d854",
+      "bytes": 3291387,
+      "method": "Official Riksarkivet Chrome viewer Hela bilden download; copied from Downloads; no cookies or credentials extracted"
+    },
+    {
+      "path": "evaluations/T-0228/00153997_00003.jpg",
+      "sha256": "6e37b08c4187b9c3ba4578ad322cda60e7928c35eea9744817c142fcf252d08f",
+      "bytes": 823550,
+      "method": "Official Riksarkivet Chrome viewer Hela bilden download; copied from Downloads; no cookies or credentials extracted"
+    },
+    {
+      "path": "evaluations/T-0228/00153997_00101.jpg",
+      "sha256": "2294d2b3ed962ced1c185aa1efa762ff2dfd3105c192e2519edc3d9230e8fccc",
+      "bytes": 1214155,
+      "method": "Official Riksarkivet Chrome viewer Hela bilden download; copied from Downloads; no cookies or credentials extracted"
+    }
+  ],
+  "manifest5c": {
+    "path": "evaluations/T-0228/manifest-00153997.json",
+    "sha256": "bb709be998eb398fc37f5cbb005a63f4d048d3408127e669650237d2045fdb14"
+  },
+  "reuse_manifest5b": {
+    "path": "genealogy/media/S-0706-manifest-00153996.json",
+    "sha256": "1b6107b024b11c5f0e61bbf586506a37072094bfa2b9c0c55982121db43b742a"
+  },
+  "caps": {
+    "intermediate_volume_parts": 2,
+    "person_bound_folios_read": 1,
+    "originals_reused": [
+      "C-0910",
+      "C-1047"
+    ],
+    "remaining_guesses_not_executed": true
+  },
+  "technical_attempts": [
+    {
+      "id": "ACCESS-T0228-TECH-01",
+      "revision": 1,
+      "date": "2026-10-08",
+      "result": "MCP search initial wrong parameter names returned validation error; no query executed.",
+      "coverage": "technical method only; no person reading",
+      "raw_copy": "not retained; method/status documented from actual tool execution",
+      "restart": "No automatic retry; official viewer already delivered relevant originals. Repeat only on changed method or exact new source need.",
+      "operational_bounds": {
+        "tool": "MCP search_metadata",
+        "executed_search": false,
+        "parameter_failure": "Initial wrong parameter names; exact discarded argument object not preserved. Actual successful keyword/offset requests and responses in metadata-MCP-v1.json."
+      }
+    },
+    {
+      "id": "ACCESS-T0228-TECH-02",
+      "revision": 1,
+      "date": "2026-10-08",
+      "result": "MCP manifest initial wrong endpoint returned No pages found; wrong endpoint has no source-negative consequence.",
+      "coverage": "technical method only; no person reading",
+      "raw_copy": "not retained; method/status documented from actual tool execution",
+      "restart": "No automatic retry; official viewer already delivered relevant originals. Repeat only on changed method or exact new source need.",
+      "operational_bounds": {
+        "tool": "MCP manifest request",
+        "url": "https://lbiiif.riksarkivet.se/manifest/00153997",
+        "response": "No pages found",
+        "source_read": false,
+        "raw_response": "Preserved inside metadata-MCP-v1.json/incorrect_manifest_attempt"
+      }
+    },
+    {
+      "id": "ACCESS-T0228-TECH-03",
+      "revision": 1,
+      "date": "2026-10-08",
+      "result": "Initial sandbox urllib DNS denied; same request outside sandbox reached proper manifest and 401.",
+      "coverage": "technical method only; no person reading",
+      "raw_copy": "not retained; method/status documented from actual tool execution",
+      "restart": "No automatic retry; official viewer already delivered relevant originals. Repeat only on changed method or exact new source need.",
+      "operational_bounds": {
+        "method": "Default-sandbox Python urllib, DNS resolution failed",
+        "urls": [
+          "https://lbiiif.riksarkivet.se/arkis!00153997/manifest",
+          "https://lbiiif.riksarkivet.se/arkis!00153997_00004/full/max/0/default.jpg"
+        ],
+        "exact_time": "unknown;2026-10-08 date known",
+        "source_read": false,
+        "reserve": "same exact requests outside sandbox succeeded as manifest/401; no broadened scan"
+      }
+    },
+    {
+      "id": "ACCESS-T0228-TECH-04",
+      "revision": 1,
+      "date": "2026-10-08",
+      "result": "Viewer download menu initially showed only unnamed pending button; reopened and downloaded Hela bilden after actual format became visible.",
+      "coverage": "technical method only; no person reading",
+      "raw_copy": "not retained; method/status documented from actual tool execution",
+      "restart": "No automatic retry; official viewer already delivered relevant originals. Repeat only on changed method or exact new source need.",
+      "operational_bounds": {
+        "method": "Official Chrome viewer downloadpane initially pending/unnamed choice; reopen revealed Hela bilden",
+        "material": "00153997 first downloads; no exact historical UI timing or raw screenshot preserved",
+        "source_read": "No person consequence from menu state",
+        "actual_success": "Six originals independently preserved/hash-bound"
+      }
+    }
+  ],
+  "direct5c401": {
+    "url": "https://lbiiif.riksarkivet.se/arkis!00153997_00004/full/max/0/default.jpg",
+    "referer": "https://sok.riksarkivet.se/bildvisning/00153997_00004",
+    "status": 401,
+    "performed_at": "2026-10-08",
+    "exact_time_unknown": "Shell output only; no contemporaneous timestamp retained",
+    "copy_unavailable": "HTTPError status preserved in tool receipt; raw401body not preserved. Page801 original never read."
+  },
+  "receipt_revision": 1,
+  "provider_version": "unknown",
+  "copy_limitation_scope": "Initial validation/DNS/UI timing lacks raw copies; exact preserved success metadata and originals cited independently. No synthetic response or old timing invented.",
+  "illustrative_page4": {
+    "id": "ACCESS-T0228-5b00004-EXAMPLE",
+    "revision": 1,
+    "material": "00153996_00004",
+    "source": "S-0706@1",
+    "date": "2026-10-08",
+    "method": "Chrome viewer screenshot, visual orientation only",
+    "coverage": "printed illustrative Vårby Nr1,½mtl example; no person-bound household page",
+    "outcome": "not person routing; no target source finding",
+    "snapshot_sha256": null,
+    "copy_limitation": "Only transient tool screenshot; no raw persistent copy saved. Never described as fulloriginal.",
+    "restart": "Only new substantive need; no reason to reopen printed example."
+  }
+}

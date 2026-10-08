@@ -1,0 +1,81 @@
+{
+  "at": "2026-10-08",
+  "description": "Exact successful MCP responses; preceding schema-validation attempt did not execute search",
+  "queries": [
+    {
+      "keyword": "Flen A II a 5 c",
+      "offset": 0,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Found 1 volumes matching metadata\n\n📚 Document: SE/ULA/10257/A II a/5 c\n🏛️  Institution: Riksarkivet i Uppsala\n📅 Date: 1923 - 1930\n📄 Title: (No title)\n🏷️  Type: Record / Volume\n📂 Context: Flens kyrkoarkiv → Församlingsböcker. Bunden serie\n👤 Creator: Flens församling ( - 1999)\n🔗 View: https://sok.riksarkivet.se/arkiv/yMBzRBOITKHfkq00aG21xB\n🖼️  View Images: https://sok.riksarkivet.se/bildvisning/00153997\n\n\nTip: Use browse_document to read full pages of interesting results."
+          }
+        ],
+        "structuredContent": {
+          "result": "Found 1 volumes matching metadata\n\n📚 Document: SE/ULA/10257/A II a/5 c\n🏛️  Institution: Riksarkivet i Uppsala\n📅 Date: 1923 - 1930\n📄 Title: (No title)\n🏷️  Type: Record / Volume\n📂 Context: Flens kyrkoarkiv → Församlingsböcker. Bunden serie\n👤 Creator: Flens församling ( - 1999)\n🔗 View: https://sok.riksarkivet.se/arkiv/yMBzRBOITKHfkq00aG21xB\n🖼️  View Images: https://sok.riksarkivet.se/bildvisning/00153997\n\n\nTip: Use browse_document to read full pages of interesting results."
+        },
+        "isError": false
+      },
+      "id": "ACCESS-T0228-MCP-5c",
+      "revision": 1,
+      "provider_version": "unknown",
+      "source_version": "S-T0228-Flen5c@1",
+      "coverage": "single exact metadataquery offset0; positive catalog routing only; no original reading",
+      "restart": "Reuse exact result; new metadata only if supplier changes or new bounded need."
+    },
+    {
+      "keyword": "Flen A II a 5 b",
+      "offset": 0,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Found 1 volumes matching metadata\n\n📚 Document: SE/ULA/10257/A II a/5 b\n🏛️  Institution: Riksarkivet i Uppsala\n📅 Date: 1923 - 1930\n📄 Title: (No title)\n🏷️  Type: Record / Volume\n📂 Context: Flens kyrkoarkiv → Församlingsböcker. Bunden serie\n👤 Creator: Flens församling ( - 1999)\n🔗 View: https://sok.riksarkivet.se/arkiv/yEBzRBOITKHfkq00aG21xB\n🖼️  View Images: https://sok.riksarkivet.se/bildvisning/00153996\n\n\nTip: Use browse_document to read full pages of interesting results."
+          }
+        ],
+        "structuredContent": {
+          "result": "Found 1 volumes matching metadata\n\n📚 Document: SE/ULA/10257/A II a/5 b\n🏛️  Institution: Riksarkivet i Uppsala\n📅 Date: 1923 - 1930\n📄 Title: (No title)\n🏷️  Type: Record / Volume\n📂 Context: Flens kyrkoarkiv → Församlingsböcker. Bunden serie\n👤 Creator: Flens församling ( - 1999)\n🔗 View: https://sok.riksarkivet.se/arkiv/yEBzRBOITKHfkq00aG21xB\n🖼️  View Images: https://sok.riksarkivet.se/bildvisning/00153996\n\n\nTip: Use browse_document to read full pages of interesting results."
+        },
+        "isError": false
+      },
+      "id": "ACCESS-T0228-MCP-5b",
+      "revision": 1,
+      "provider_version": "unknown",
+      "source_version": "S-0706@1",
+      "coverage": "single exact metadataquery offset0; positive catalog routing only; no original reading",
+      "restart": "Reuse exact result; new metadata only if supplier changes or new bounded need."
+    }
+  ],
+  "incorrect_manifest_attempt": {
+    "url": "https://lbiiif.riksarkivet.se/manifest/00153997",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "No pages found in manifest: https://lbiiif.riksarkivet.se/manifest/00153997"
+        }
+      ],
+      "isError": false
+    },
+    "interpretation": "Wrong endpoint; no negative archive/material conclusion",
+    "id": "ACCESS-T0228-MCP-WRONG-MANIFEST",
+    "revision": 1,
+    "date": "2026-10-08",
+    "provider_version": "unknown",
+    "coverage": "wrong endpoint technical response only; no source reading or source-negative consequence",
+    "restart": "Correct endpoint already succeeded; reuse persisted manifest."
+  },
+  "manifest_access": {
+    "id": "ACCESS-T0228-MANIFEST-5c",
+    "revision": 1,
+    "date": "2026-10-08",
+    "material": "00153997",
+    "url": "https://lbiiif.riksarkivet.se/arkis!00153997/manifest",
+    "provider_version": "unknown",
+    "coverage": "full manifest catalog/canvas labels; no original-person reading",
+    "copy": "evaluations/T-0228/manifest-00153997.json",
+    "sha256": "bb709be998eb398fc37f5cbb005a63f4d048d3408127e669650237d2045fdb14",
+    "restart": "Reuse routing; no further sweep allowed by this task."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "completed_at": "2026-10-08T20:30:42.454641+00:00",
+  "timestamp_scope": "Dokumentationstid efter slutlig visuellt bekräftad sökläsning; exakt tid för bildvisning inte registrerad. Native performed_at anger separat ärligt dokumenterad slutkontrolltid, inte historisk första läsning.",
+  "images": [
+    "00153997_00003",
+    "00153996_00005",
+    "00153996_00006",
+    "00153997_00101"
+  ],
+  "earlier_build_failure": {
+    "stage": "read-only baseline schema check before media/package/stage apply",
+    "error": "sqlite3.OperationalError: no such column: sequence",
+    "repair": "operation count verified against495; no source or canonical data changed"
+  },
+  "stray_empty_db": "An accidental read of genealogy2/knowledge.sqlite created an empty file; removed immediately after confirming0bytes. Canonical database unaffected.",
+  "second_readonly_repair": {
+    "reason": "operation count496 includes bootstrap; latest operation_payload.sequence495 is canonical journalHEAD. Hash unchanged.",
+    "repair": "Assert max(sequence) from operation_payload495 plus exact live DB hash."
+  }
+}

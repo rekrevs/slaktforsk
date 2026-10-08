@@ -1,0 +1,89 @@
+{
+  "task": "T-0228",
+  "prepared_at": "2026-10-08T20:39:09.519323+00:00",
+  "authorized_apply_order": [
+    "evaluations/T-0228/operation-v1.json",
+    "evaluations/T-0228/retain-resolutions-v2.json"
+  ],
+  "baseline_live_sha256": "3a6f2c4ff32af5f620455cffa0c8baf983666b5815bb166624526506b5b9af20",
+  "baseline_clone_sha256": "8f22b926b11c2e74018a0f49540e8c4198af9385dc8447a624a2372538e52a10",
+  "baseline_journal": 495,
+  "stage_path": "evaluations/T-0228/clone/final-stage.sqlite",
+  "stage_sha256": "d05a65586466cd96e93f6d54747c8843114a9bac36bc7dddb8ec55edc453b603",
+  "stage_journal": 497,
+  "pending": 0,
+  "caps": {
+    "parts": 2,
+    "person_folios": 1,
+    "originals_downloaded": 6,
+    "reused_endpoint_records": [
+      "C-0910",
+      "C-1047"
+    ]
+  },
+  "changes": 30,
+  "new_objects": 23,
+  "revised_objects": 7,
+  "mechanical_resolutions": 4,
+  "files": [
+    {
+      "path": "evaluations/T-0228/operation-v1.json",
+      "sha256": "dfe55d99fdda8fabc863bf4df50da03856ac15098de44c3fcc8d8f0fc6d06a06"
+    },
+    {
+      "path": "evaluations/T-0228/retain-resolutions-v2.json",
+      "sha256": "a87eaee201d37d94974a0d9f6ab72f3c4334d4b0226f3d3a29dd2d046a97bff2"
+    },
+    {
+      "path": "evaluations/T-0228/stage-proof-v2.json",
+      "sha256": "8ee1d867ff6b663351df754431221b41321c4283a29e78ee853f626e45a87699"
+    },
+    {
+      "path": "evaluations/T-0228/report.md",
+      "sha256": "f90d1ec23bec5478b61c61ecae2345134f5b8f687dfa891366fc00df7e12796d"
+    },
+    {
+      "path": "evaluations/T-0228/individual-consequences-v1.json",
+      "sha256": "a6e98c65024d20d09aa6744e680ee50022716a3940b3e63485b8f3e15d8add95"
+    },
+    {
+      "path": "evaluations/T-0228/source-access-and-originals-v1.json",
+      "sha256": "ff115f1f9408408fa6be44435289ccd9af785aac656eed6caa67f5eeff440a4d"
+    },
+    {
+      "path": "evaluations/T-0228/metadata-MCP-v1.json",
+      "sha256": "8a05585dc135294ed19e9da502d333a6f1d6d2754f9536c59edea566e91a6f18"
+    },
+    {
+      "path": "evaluations/T-0228/direct-5b-register-access-v1.json",
+      "sha256": "5100ca718d18faa3c5c2532b95ffd006289faab58f32c0e6da182b7b2ccfae58"
+    },
+    {
+      "path": "evaluations/T-0228/final-source-reading-v1.json",
+      "sha256": "fdea907d21f7143125165583e7fcf08d32ab79c33c3a2ec1bcefd21c921c4383"
+    },
+    {
+      "path": "evaluations/T-0228/verify-final-v2.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0228/verify-assets-v1.json",
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evaluations/T-0228/verify-source-v1.json",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    }
+  ],
+  "real_elapsed_seconds_from_mandated_start": 1564.788409,
+  "production_scope": "Includes prep, access failures, original reading, two read-only schema repairs, initial and corrected stage, four retain rationales, proof normalization and report. Root coordination time/usage not separately measured.",
+  "corrections": [
+    "Journal field/count repair before mutation",
+    "Empty accidental SQLitefile removed0bytes",
+    "Two TREE retain rationales v1→v2 actual indirect support",
+    "Proof derived FTS and CLI-default qualification; no domain mismatch"
+  ],
+  "model_usage": "Worker/root new-turn usage to be collected after final; unobservable root usage UNKNOWN, not0",
+  "source_assets_reused_after_v2": "Six media/originals unchanged; verify-assets/source-v1 reusable because only four resolution rationales changed.",
+  "status": "Prepared only; no live apply/commit/push. Wotan remainsONGOING for root."
+}

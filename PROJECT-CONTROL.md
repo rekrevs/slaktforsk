@@ -5991,3 +5991,16 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Evidence: evaluations/T-0217/root-actual-final-verification-v1.json; evaluations/T-0822/decision-and-successor-v1.json; oförändrad T0821 fulltransfer; T0228 fulla dev-log.
 - Resulting Wotan planning: T0823 faktiskt allokerad som aktiv förlustfri ytterägare. Emma1963register/akt, Axel1983register/akt/jurisdiktion och28965/21 exakt1921enhet/guide bevarade med exakt planeringsägare/återstart, ingen originalexecution beställd. Historiska innerägare och alla lägre restscopes består.
 - Revisit when: Första accepterade T0228-resultat ELLER konkret hinder före annan källuppgift eller djupare passage; inget DONE/PASS-krav eller automatserie.
+
+
+## PCD-2026-10-08-008 — T0228 beställd
+
+- Record type: decision
+- Date: 2026-10-08
+- Decides review: PCR-2026-10-08-006; direkt beställning efter redovisat nästa steg.
+- Owner: Sverker Adam Janson
+- Decision: Ägarens ”kör på med det” beställer T0228 med Sol.
+- Disposition: approved
+- Scope: Befintligt P0003/P0042/P0043 Flen1923–1930, högst2volymdelar/3personbundna adressuppslag, fulla gamla AC/återbruk. Modellregel PCD005; exakt kärnpåverkande fynd till Astra. Ingen annan taskexecution följer.
+- Resulting Wotan tasks: T-0228.
+- Revisit when: Första accepterade resultat ELLER konkret hinder bevaras som T0823-trigger; ingen automatisk T0823-execution.
