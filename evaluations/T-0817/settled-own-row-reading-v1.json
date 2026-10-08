@@ -1,0 +1,190 @@
+{
+  "task": "T-0817",
+  "version": 1,
+  "settled_at_utc": "2026-10-08T10:43:46.435573+00:00",
+  "primary_initial": {
+    "path": "evaluations/T-0817/primary-own-original-reading-v1.json",
+    "sha256": "5040b57f2454f712eb3646cf9f8e2c9a1d3ff76589b792567570e4a154a14710"
+  },
+  "independent_initial": {
+    "path": "evaluations/T-0817/independent-own-original-reading-v1.json",
+    "sha256": "517cf91ce83a80255fc0af52506d72956294513a928dbd62c36ae0b4ec70af5a"
+  },
+  "comparison_release": "evaluations/T-0817/root-both-own-original-comparison-release-v1.json",
+  "source": {
+    "original": {
+      "path": "genealogy/media/C-0446-riksarkivet-hemsjo-AI4-bild-110-sida-98-familj.jpg",
+      "sha256": "04155810d3ffc48a324e060e2a8d2fe30c5da612d8f84a670402ced1fdcaed3f",
+      "bytes": 1494379
+    },
+    "dimensions": [
+      6284,
+      4700
+    ],
+    "image_id": "C0043834_00110",
+    "citation": "C-0446",
+    "record": "R-508b3628d54f6430658fa240@1",
+    "source_id": "S-0349@1",
+    "material": "Hemsjö A I/4 1849–1860 s98 Västra Bodarne",
+    "supplier_version": "unknown"
+  },
+  "crops": [
+    {
+      "path": "evaluations/T-0817/primary-reading-crops/upper-family-and-header.jpg",
+      "sha256": "1cb82f78782b201d1c150a7c8f92dd05d09ad58044cf1c0ebe69239f7649f86d",
+      "bytes": 463349,
+      "source_xywh": [
+        650,
+        450,
+        2500,
+        1600
+      ],
+      "method": "sips -c height width --cropOffset y x; same original, no rotation"
+    },
+    {
+      "path": "evaluations/T-0817/primary-reading-crops/own-row-full-width.jpg",
+      "sha256": "f83d705fd94e4ebce9095f82d45c7623cf06f3eb1c511b71b21ac23ef77be6c0",
+      "bytes": 138910,
+      "source_xywh": [
+        620,
+        1580,
+        2750,
+        430
+      ],
+      "method": "sips -c height width --cropOffset y x; same original, no rotation"
+    },
+    {
+      "path": "evaluations/T-0817/primary-reading-crops/own-column-headers.jpg",
+      "sha256": "85f698cea65b189f5ca1b8006579dac187e7125b80d9953a155e1c25c3a2320e",
+      "bytes": 55314,
+      "source_xywh": [
+        1840,
+        550,
+        520,
+        700
+      ],
+      "method": "sips -c height width --cropOffset y x; same original, no rotation"
+    }
+  ],
+  "orientation_and_attribution": "Whole double-page inspected for orientation; target on left s98, heading Andra Roten / Vesterbodarne. Britta row is between crossed Olaus and crossed Cajsa. Own name is not crossed out. Horizontal cancellations and death annotations of the adjacent rows are not her entries. Parent/family attribution reuses accepted Sven Olofsson/Catharina Andersd:r; no new relative-field pass. Own right-hand remark area and margin inspected.",
+  "full_own_fields": [
+    {
+      "header": "Bostad och Personer",
+      "status": "read",
+      "raw": "D.[?] Britta Stina",
+      "assessment": "Dotterlikt D.-prefix med reserverad teckenläsning; accepterad dotterattribution kvar. Inget patronymikon utskrivet."
+    },
+    {
+      "header": "Födelse: Ort",
+      "status": "read_with_reservation",
+      "raw": "h. l.",
+      "assessment": "Kortformen återges utan utveckling. Ingen ny säker ortnormalisering från dessa bokstäver; accepterad egen födelsepost är separat stöd."
+    },
+    {
+      "header": "Födelse: År",
+      "status": "read_with_overwriting",
+      "raw": "1851",
+      "assessment": "Året urskiljbart; överlagrade närliggande tecken bevaras utan ny exakt dag."
+    },
+    {
+      "header": "Födelse: Dag och månad",
+      "status": "tested_reading_limit",
+      "raw": "[överlagrad dag/månad]",
+      "assessment": "Ingen säker egen dag-/månadsavskrift; 9 maj från C0445 fylls inte i hushållsråfältet."
+    },
+    {
+      "header": "Christend. kunskap: Innanläsning",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Britas egen cell saknar synligt eget tecken. Närliggande personers kunskapstecken överförs inte; tom cell säger inte att kunskap eller förmåga saknades."
+    },
+    {
+      "header": "Christend. kunskap: Utanläsning: Luth. Cath.",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Britas egen cell saknar synligt eget tecken. Närliggande personers kunskapstecken överförs inte; tom cell säger inte att kunskap eller förmåga saknades."
+    },
+    {
+      "header": "Christend. kunskap: Utanläsning: Förklaringen",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Britas egen cell saknar synligt eget tecken. Närliggande personers kunskapstecken överförs inte; tom cell säger inte att kunskap eller förmåga saknades."
+    },
+    {
+      "header": "Förestår.",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Britas egen cell saknar synligt eget tecken. Närliggande personers kunskapstecken överförs inte; tom cell säger inte att kunskap eller förmåga saknades."
+    },
+    {
+      "header": "Koppor.",
+      "status": "read_with_semantic_limit",
+      "raw": "v",
+      "assessment": "Eget v-likt tecken under Koppor. Rubrik och råmarkering bevaras. Ingen extern kodförklaring har lästs; inget vaccinationsdatum, sjukdomsdatum eller säkrare medicinsk händelse normaliseras."
+    },
+    {
+      "header": "Inflyttad: År",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Ingen egen uppgift synlig i den prövade raden; detta är avgränsad celltomhet, inte frånvaro av flyttning eller annan livshändelse."
+    },
+    {
+      "header": "Inflyttad: ifrån",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Ingen egen uppgift synlig i den prövade raden; detta är avgränsad celltomhet, inte frånvaro av flyttning eller annan livshändelse."
+    },
+    {
+      "header": "Utflyttad: År",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Ingen egen uppgift synlig i den prövade raden; detta är avgränsad celltomhet, inte frånvaro av flyttning eller annan livshändelse."
+    },
+    {
+      "header": "Utflyttad: till",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Ingen egen uppgift synlig i den prövade raden; detta är avgränsad celltomhet, inte frånvaro av flyttning eller annan livshändelse."
+    },
+    {
+      "header": "Anmärkningar",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Ingen egen uppgift synlig i den prövade raden; detta är avgränsad celltomhet, inte frånvaro av flyttning eller annan livshändelse."
+    }
+  ],
+  "explicit_amendments": [
+    {
+      "field": "printed header before Koppor",
+      "primary_initial": "Förestår.",
+      "independent_initial": "Förstånd",
+      "settled": "Förestår.",
+      "reason": "Exakt samma bilds tryckta rubrik i primary-reading-crops/own-column-headers.jpg visar Förestår.; independent har omprövat sin första rubrik. Egen cell blank i båda."
+    },
+    {
+      "field": "name prefix",
+      "primary_initial": "D.",
+      "independent_initial": "D.[?]",
+      "settled": "D.[?]",
+      "reason": "Gemensam försiktigare råteckenprecision; befintlig dotterattribution stöds av accepterad familjekorrelation och ändras inte."
+    },
+    {
+      "field": "birth locality",
+      "settled": "h. l. utan utveckling",
+      "reason": "Båda läser samma råförkortning. Här/lokalt var independent tolkning, inte utskriven ort; ingen ortnormalisering tillförs."
+    },
+    {
+      "field": "birth year and day",
+      "settled": "Två separata råfält,1851 respektive överlagrad dag/månad; totalt14 egna fält.",
+      "reason": "Primärsammanslagen cell delas, ingen ny avläsning eller ändrad täckning."
+    }
+  ],
+  "source_limits": {
+    "own_birth": "C0445 accepted birth1851-05-09/baptism1851-05-11; not a transcription of overlaid C0446day/month.",
+    "correction": "F-P-0337-source_correction-C0445-and-household@2 preserves Hem. alternatives, mother forms, own overlaid-date limit and father1840note not her migration.",
+    "death": "F-P-0337-source_assessment-death-and-home@1 own1886-10-01 versus preceding1886-09-30; 37 D/sannolik adressditto, no assured physical deathplace. Unchanged.",
+    "current_prior_review": "IDENTITY-REVIEW-T0814-P0337@1 and TREE-EFFECT-T0814-P0337@1 read with full bodies/caveats; precise PK05 ownfieldrest assessed above."
+  },
+  "full_row_quality": "Alla egna tryckta kolumner, rubriker, tomfält, eventuell ditto och marginal prövade; andra familjemedlemmars egna fält har inte nyutvunnits i T0817. Deras tidigare accepterade uppgifter och specifika rester består. v lämnas rått under Koppor utan säker medicinsk händelse/datexpansion. Bokperiod är inte obruten fysisk vistelse till1877.",
+  "canonicalApproval": false
+}

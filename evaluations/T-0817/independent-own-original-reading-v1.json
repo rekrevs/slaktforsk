@@ -1,0 +1,224 @@
+{
+  "task": "T-0817",
+  "role": "independent Astra original SOURCE reader",
+  "sealed_at_utc": "2026-10-08T10:39:11.712337+00:00",
+  "process": {
+    "root_reading_release": "root-original-own-reading-release-v1.json",
+    "primary_T0817_reading_or_candidate_files_seen": false,
+    "primary_T0817_source_claims_seen": false,
+    "delivery": "ROOT ONLY before comparison",
+    "original_images": 1,
+    "extra_images_or_code_sources": 0,
+    "canonical_writes": 0,
+    "queue_writes": 0,
+    "delegation": 0
+  },
+  "input_lock": {
+    "path": "evaluations/T-0817/preparation/locked-input-manifest-v2.json",
+    "sha256": "7907c6014536df87ea5ef43fe966c0b19cd4d13a1dec8efffeb954c626e61c56",
+    "all55_pins_recomputed": true,
+    "actual_journal": 484,
+    "pending": 0
+  },
+  "accepted_underlay": "Read exact current7criteria/fulltargetO and R, stronger sourcecorrectionF@2, acceptedT0814fullnativeID/tree and three direct childbasis observations; prior independent T0814source reading reused. CurrentOWNER45/headproof and exact prior decisions used unchanged; PCD003 onlymandate, no new OWNERfact. No descendantOWNER extension.",
+  "original": {
+    "path": "genealogy/media/C-0446-riksarkivet-hemsjo-AI4-bild-110-sida-98-familj.jpg",
+    "sha256": "04155810d3ffc48a324e060e2a8d2fe30c5da612d8f84a670402ced1fdcaed3f",
+    "dimensions": [
+      6284,
+      4700
+    ],
+    "record": "R-508b3628d54f6430658fa240@1",
+    "source": "S-0349@1",
+    "citation": "C-0446",
+    "provider_version": "unknown",
+    "new_acquisition": false
+  },
+  "orientation_and_attribution": "Unrotated open spread; fol98 at upper left, Andre Roten/Vesterbodarne heading, relevant family on upper left; facingpage blank form. Own D.BrittaStina row immediately below crossed LarsOlaus and above crossed Cajsa. Entire spread viewed first, then exact sameimage crops for headers/ownrow. Neighbouring names only row attribution, no new family ownfield extraction.",
+  "crops": [
+    {
+      "path": "evaluations/T-0817/independent-crops/header-and-own-context.jpg",
+      "sha256": "3806e10e5f844aa9c7a2bb19f1752cf8dbe8380e964e7ac44961d364c4cbe040",
+      "box_xyxy_original_pixels": [
+        680,
+        500,
+        3120,
+        1910
+      ],
+      "method": "sips --cropToHeightWidth H W --cropOffset Y X; no resize/rotation; JPEG derivative for inspection only"
+    },
+    {
+      "path": "evaluations/T-0817/independent-crops/own-birth-and-knowledge.jpg",
+      "sha256": "a7126c58d612803a0742878e3e8b4a92a569f58b3a7d534df629329d2dfdeb86",
+      "box_xyxy_original_pixels": [
+        1400,
+        1460,
+        2650,
+        1890
+      ],
+      "method": "sips --cropToHeightWidth H W --cropOffset Y X; no resize/rotation; JPEG derivative for inspection only"
+    }
+  ],
+  "inspection_attempt": "PIL import failed because unavailable; no package installed/no derivative created by that attempt. Reused native sips crops only; original unchanged.",
+  "printed_headers": [
+    "Bostad och Personer",
+    "Födelse: Ort; År och Dag",
+    "Christend. kunskap: Innanläsning; Utanläsning Luth. Cath.; Förklaringen",
+    "Förstånd",
+    "Koppor",
+    "Inflyttad: År; ifrån",
+    "Utflyttad: År; till",
+    "Anmärkningar"
+  ],
+  "own_field_readings": [
+    {
+      "field": "name_role",
+      "raw": "D.[?] Britta Stina",
+      "status": "read",
+      "limitation": "Dotter-like prefix; raw name has no patronymic. Normalized Svensdotter comes from other accepted records."
+    },
+    {
+      "field": "birth_place",
+      "raw": "h. l.",
+      "status": "read_abbreviation",
+      "limitation": "Own locality abbreviation immediately below Hemsjö on preceding row; interpreted local/here in this Hemsjö book, not an independently spelled place or a newly read parent field."
+    },
+    {
+      "field": "birth_year",
+      "raw": "1851",
+      "status": "read_with_overwriting",
+      "limitation": "Year discernible; preserve prior1851 accepted, overlapping adjacent date strokes not normalized."
+    },
+    {
+      "field": "birth_day_month",
+      "raw": "[överlagrad dag/månad]",
+      "status": "tested_uncertain",
+      "limitation": "No secure own day/month transcription from this cell. Visible superposed figures/strokes must not be filled with9/5 from C0445; exact date remains that separate stronger source."
+    },
+    {
+      "field": "Christendomskunskap_Innanläsning",
+      "raw": null,
+      "status": "own_blank",
+      "limitation": "No own sign. c-like marks in three preceding sibling rows are not Britas."
+    },
+    {
+      "field": "Christendomskunskap_Utanläsning_Luth_Cath",
+      "raw": null,
+      "status": "own_blank",
+      "limitation": "No own sign or ditto."
+    },
+    {
+      "field": "Christendomskunskap_Utanläsning_Förklaringen",
+      "raw": null,
+      "status": "own_blank",
+      "limitation": "No own sign or ditto."
+    },
+    {
+      "field": "Förstånd",
+      "raw": null,
+      "status": "own_blank",
+      "limitation": "Narrow own cell before Koppor blank; do not infer ability or disability."
+    },
+    {
+      "field": "Koppor",
+      "raw": "v",
+      "status": "read_mark",
+      "limitation": "Own v-shaped mark is in Koppor column, not Förstånd. Preserve literal v; no vaccination date, provider, success or exact ritual/event expanded."
+    },
+    {
+      "field": "Inflyttad_År",
+      "raw": null,
+      "status": "own_blank",
+      "limitation": "No own year; fathers upper notation excluded."
+    },
+    {
+      "field": "Inflyttad_ifrån",
+      "raw": null,
+      "status": "own_blank",
+      "limitation": "No own place; father Wäsenbo not hers."
+    },
+    {
+      "field": "Utflyttad_År",
+      "raw": null,
+      "status": "own_blank",
+      "limitation": "Adjacent död1851 belongs preceding crossed row; död1856 below belongs next crossed row. Neither is her departure/death."
+    },
+    {
+      "field": "Utflyttad_till",
+      "raw": null,
+      "status": "own_blank",
+      "limitation": "No own destination."
+    },
+    {
+      "field": "Anmärkningar",
+      "raw": null,
+      "status": "own_blank",
+      "limitation": "No own right-margin note. 1840 3/1 upper father line and18/3 preceding crossed row not hers."
+    }
+  ],
+  "own_row_boundary": "No visible strikeout through Britas name/row; long crossed lines on adjacent rows do not constitute her death/exit. Right-side own in/out/remarks inspected under sameimage headers, no additional own mark identified. Pageheading is householdregistrationplace, not independent physicalresidenceinterval to1877.",
+  "stronger_date_separate": {
+    "C0445": "Accepted exact1851-05-09/dop1851-05-11 retained from ownbirthrecord; not newly read in this task.",
+    "C0446": "Own1851 and overwritten day/month preserved, no replacement by strongerdate as rawtranscription.",
+    "F-P-0337-source_correction-C0445-and-household@2": "own_household_birth_exact_readable=false remains warranted; Hem.titlereservation/mothername distinctions unaffected."
+  },
+  "seven_criteria": [
+    {
+      "criterion": "PK-01",
+      "decision": "STYRKT",
+      "individual_reason": "Own C0445birth1851-05-09/dop11 and accepted household/youngpersonfolio138, own1877vigsel/utflyttning and1886death provide sameperson; newrow adds no rivalidentity. Overwrittendate remainsuncertain, notconflict invented from guessednumbers."
+    },
+    {
+      "criterion": "PK-02",
+      "decision": "STYRKT",
+      "individual_reason": "Separate rawD/name/h.l/v/blanks and interpretation; C0445 exactday separate, fathersHem./mothersAndreasdotter vsAndersd:r distinctions retained. No certainty transferred between rows."
+    },
+    {
+      "criterion": "PK-05",
+      "decision": "STYRKT within identity level after actual adoption",
+      "individual_reason": "Full own C0446 row now examined including all headers/own blanks/mark/margins. Actual prior ownknowledge/vaccination-unextracted flag becomes superseded. Tested undecipherable day/month is a readinglimit, not an unread field. Four prior accepted closures C0382/C0445/C0651 reused. No otherfamily extraction claimed."
+    },
+    {
+      "criterion": "PK-07",
+      "decision": "STYRKT",
+      "individual_reason": "Exact sourcefolio98/image/ownname plus acceptedfolio138, vigsel20Sep1877/avgång28Sep1877 retained; no new sourcekey or sourceopening required. v is not a new date."
+    },
+    {
+      "criterion": "PK-09",
+      "decision": "STYRKT",
+      "individual_reason": "Samechurchbookchain not independent; blank knowledge cells not absence of learning/religion. Own Koppor v not transferred to mother. EnlDb/latebanns not threeindependentdeathvoices; narrownegative scopes retained."
+    },
+    {
+      "criterion": "PK-11",
+      "decision": "STYRKT within identity level",
+      "individual_reason": "Actual immutable full C0446 04155810… and six positive ownsource originals previously accepted T0814 provide identitychain provenance. T0303/T0444 negativecopyrest stays exact; this does not waive allpreservation or certify unknownolder copies."
+    },
+    {
+      "criterion": "PK-12",
+      "decision": "STYRKT upon explicit individual updated review",
+      "individual_reason": "This own sevencriterion assessment supports identity passed/tree supporting after sourceadoption and exactcurrentconsequences, not automatic legacyconversion. Preserve initialfailed/waiting history and oldfullcontract/LIFE; no new nativeLIFE."
+    }
+  ],
+  "proposed_identity_outcome": "passed after exact adoption/currentcopy/dependency/independent final gate",
+  "proposed_tree_effect": "supporting for Brita only; actual protectedpedigree requires later staged proof",
+  "actual_relations": {
+    "REL-parent-P-0337-P-0287@1": "RETAIN_EXACT CORROBORATED recorded_parent. O-P-0287-C0326-own@1 namesmotherBritaStina in1880, O-P-0287-C0474-own@1 firstmarriage1888familylist, O-P-0287-C0382-parent-names@1 Roberts1878parents givesfullsurname separately; no retroactive surname in1880.",
+    "incoming_P0383_P0384": "RETAIN acceptedrecordedparent relations and their sourcequalification; no parentidentitygate or ancestry extension from this row.",
+    "spouse_P0336": "RETAIN recorded_spouse@2 from acceptedown1877vigsel, no Olausownidentityupgrade.",
+    "other_existing_relations": "No newreading provides contradiction or necessary relationrevision; retaintypedrelationmetadata pendingfullconsequencecheck."
+  },
+  "necessary_current_consequence_candidates": [
+    "O-P-0337-C0446-child@1 value_literal/value_json own_individual_knowledge_or_vaccination_not_fully_extracted true is superseded by actualfullownrow; preserve allprevioussource limits and addliteralownv/blanks withboundoriginalsupport.",
+    "NativeT0814 identity/tree failed/waiting and currentPK05/PK12/currentresearchgap descriptions need exactdated individualreassessment, not forced rewriting of dated historical passages.",
+    "Current shared caveats saying bothidentityandLIFEremainUNDERKÄND require semanticqualification only whereunqualifiedcurrentassertion. Legacyfullcontract/LIFE remainunchanged; exactcoverage searched aftercomparison, no bulkapproval.",
+    "M rawname/current source record/transcription/adoption scopes checked in fullconsequencephase; no invented new fieldvalues or supportversions."
+  ],
+  "remaining_owners": {
+    "T-0303": "Exact olderHemsjöcopy scopes remain, not autoidentityblocker or completed by this oneimage.",
+    "T-0444": "C0384/C0385negativecopyprovenance and otherfixedpreservationremain; unknownmetadata notfabricated.",
+    "T-0445": "Probate/avvittring/mantal lifequestions remain, no lifeapproval.",
+    "T-0819": "Active whole160/futureprioritycheckpoint receives actualT0817resultorblocker; no automatic additionaloriginal.",
+    "T-0818": "Separate authorized Karl/Charlotta atom unchanged, notreadhere."
+  },
+  "approval_limit": "Authentic ownreading and independent criterion recommendation only. No candidatecomparison yet, no literaloperation/final SOURCE/canonicalgate. Rawreading amendments and initialseal must be preserved."
+}

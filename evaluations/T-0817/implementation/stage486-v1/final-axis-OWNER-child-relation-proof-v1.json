@@ -1,0 +1,96 @@
+{
+  "persons": 536,
+  "nonfocal_axes_full_exact": 535,
+  "focal_full_axis_differences": [
+    {
+      "person": "P-0337",
+      "differences": {
+        "identityGate": {
+          "before": false,
+          "after": true
+        },
+        "identityReview": {
+          "before": {
+            "outcome": "failed",
+            "usable": true,
+            "source": "native",
+            "revisions": [
+              "IDENTITY-REVIEW-T0814-P0337@1"
+            ]
+          },
+          "after": {
+            "outcome": "passed",
+            "usable": true,
+            "source": "native",
+            "revisions": [
+              "IDENTITY-REVIEW-T0814-P0337@2"
+            ]
+          }
+        },
+        "treeEffect": {
+          "before": {
+            "outcome": "waiting",
+            "usable": true,
+            "source": "native",
+            "revisions": [
+              "TREE-EFFECT-T0814-P0337@1"
+            ]
+          },
+          "after": {
+            "outcome": "supporting",
+            "usable": true,
+            "source": "native",
+            "revisions": [
+              "TREE-EFFECT-T0814-P0337@2"
+            ]
+          }
+        },
+        "lifePictureReview": {
+          "before": {
+            "outcome": "failed",
+            "usable": true,
+            "source": "legacy_header",
+            "scope": "legacy_full_contract",
+            "revisions": [
+              "ASSESSMENT-P-0337@1"
+            ]
+          },
+          "after": {
+            "outcome": "failed",
+            "usable": true,
+            "source": "legacy_header",
+            "scope": "legacy_full_contract",
+            "revisions": [
+              "ASSESSMENT-P-0337@2"
+            ]
+          }
+        },
+        "stopReasons": {
+          "before": [
+            {
+              "code": "gate_outcome_not_supporting",
+              "axis": "identity_review",
+              "revision_ids": [
+                "IDENTITY-REVIEW-T0814-P0337@1"
+              ],
+              "message": "Identitetsgranskning är failed; grinden kräver passed."
+            },
+            {
+              "code": "gate_outcome_not_supporting",
+              "axis": "tree_effect",
+              "revision_ids": [
+                "TREE-EFFECT-T0814-P0337@1"
+              ],
+              "message": "Trädverkan är waiting; grinden kräver supporting."
+            }
+          ],
+          "after": []
+        }
+      }
+    }
+  ],
+  "OWNER45_fullnative_exact": true,
+  "Johannes185_fullnative_exact": true,
+  "relations22_fullnative_exact": true,
+  "elapsed_seconds": 0.10807533300248906
+}

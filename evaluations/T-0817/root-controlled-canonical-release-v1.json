@@ -1,0 +1,22 @@
+{
+  "task": "T-0817",
+  "created_utc": "2026-10-08T11:20:43.393763+00:00",
+  "final_manifest_sha256": "eb291bb02055f68b173211c3da89e59e4efc4894f7c422e578e6e0d620ff49fb",
+  "source_gates": {
+    "evaluations/T-0817/primary-final-source-gate-v1.json": "f98d24facd776138aba571e9fe9135f335b818b2fbb4fd8a8971d7591ad4706b",
+    "evaluations/T-0817/independent-final-source-gate-v1.json": "a72ce33075d8d0b97842f345e0ffa6e15a8f23fa412a094c6ce44537aa6a9d38"
+  },
+  "main_preimage_sha256": "f73c9599c70b2938b581593c1250995122d79bfa4451e72be1e040cc6c339d0e",
+  "operations": [
+    {
+      "path": "evaluations/T-0817/implementation/operation-v2.json",
+      "sha256": "9cdc61e4d8e1ca83d7331cc1435fa442c5431aa999f83502d0a54cb6a25ea08a"
+    },
+    {
+      "path": "evaluations/T-0817/implementation/seven-resolution-operation-v1.json",
+      "sha256": "76bcf8687ac61214d1f47ba7efbae9e3bd4c17ab9eb0932f9a42675b2afce986"
+    }
+  ],
+  "release": "ROOT controlled sequential supportedCLI apply exact two operations then read-only all50 actual-stage comparator; no database replacement. Both SOURCEgates/fullrootread, all1062pins and fresh unchangedmain hash verified.",
+  "canonicalApproval": true
+}

@@ -1,0 +1,24 @@
+{
+  "task": "T-0817",
+  "created_utc": "2026-10-08T11:18:28.073155+00:00",
+  "checks": [
+    {
+      "command": "node scripts/validate-genealogy.mjs",
+      "exit": 0,
+      "result": "5130 assertions;3035Markdownrecords;5065media;WotanJSONvalid"
+    },
+    {
+      "command": "node scripts/media-manifest.mjs --check",
+      "exit": 0,
+      "result": "5064media;3140exact/1879source-scoped/28citation-scoped/17unlinked"
+    },
+    {
+      "command": "node --test scripts/",
+      "exit": 0,
+      "tests": 75,
+      "pass": 75,
+      "fail": 0
+    }
+  ],
+  "writes": "None; frozen archive/dashboard unchanged. Technical validity is separate from SOURCE approval."
+}

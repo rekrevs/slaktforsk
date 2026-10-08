@@ -1,0 +1,250 @@
+{
+  "task": "T-0817",
+  "artifact": "primary-own-original-reading-v1",
+  "sealed_at_utc": "2026-10-08T10:40:49.542717+00:00",
+  "phase": "own reading sealed ROOT ONLY before comparison",
+  "canonicalApproval": false,
+  "final_source_design": false,
+  "process": {
+    "independent_reading_or_candidate_read": false,
+    "claims_sent_to_independent_or_Sol": false,
+    "list_agents_used": false,
+    "reading_sequence": [
+      "Whole original for orientation and full relevant ownrow",
+      "Same-image upper-family/header crop",
+      "Same-image full ownrow crop",
+      "Same-image printed column-header crop"
+    ],
+    "scope": "Only Brita P-0337 own C0446 row plus required header/ditto/margin attribution; no other person extraction, extra image, catalogue or code lookup."
+  },
+  "input_lock": {
+    "path": "evaluations/T-0817/preparation/locked-input-manifest-v2.json",
+    "sha256": "7907c6014536df87ea5ef43fe966c0b19cd4d13a1dec8efffeb954c626e61c56",
+    "bytes": 12198
+  },
+  "source": {
+    "original": {
+      "path": "genealogy/media/C-0446-riksarkivet-hemsjo-AI4-bild-110-sida-98-familj.jpg",
+      "sha256": "04155810d3ffc48a324e060e2a8d2fe30c5da612d8f84a670402ced1fdcaed3f",
+      "bytes": 1494379
+    },
+    "dimensions": [
+      6284,
+      4700
+    ],
+    "image_id": "C0043834_00110",
+    "citation": "C-0446",
+    "record": "R-508b3628d54f6430658fa240@1",
+    "source_id": "S-0349@1",
+    "material": "Hemsjö A I/4 1849–1860 s98 Västra Bodarne",
+    "supplier_version": "unknown"
+  },
+  "crops": [
+    {
+      "path": "evaluations/T-0817/primary-reading-crops/upper-family-and-header.jpg",
+      "sha256": "1cb82f78782b201d1c150a7c8f92dd05d09ad58044cf1c0ebe69239f7649f86d",
+      "bytes": 463349,
+      "source_xywh": [
+        650,
+        450,
+        2500,
+        1600
+      ],
+      "method": "sips -c height width --cropOffset y x; same original, no rotation"
+    },
+    {
+      "path": "evaluations/T-0817/primary-reading-crops/own-row-full-width.jpg",
+      "sha256": "f83d705fd94e4ebce9095f82d45c7623cf06f3eb1c511b71b21ac23ef77be6c0",
+      "bytes": 138910,
+      "source_xywh": [
+        620,
+        1580,
+        2750,
+        430
+      ],
+      "method": "sips -c height width --cropOffset y x; same original, no rotation"
+    },
+    {
+      "path": "evaluations/T-0817/primary-reading-crops/own-column-headers.jpg",
+      "sha256": "85f698cea65b189f5ca1b8006579dac187e7125b80d9953a155e1c25c3a2320e",
+      "bytes": 55314,
+      "source_xywh": [
+        1840,
+        550,
+        520,
+        700
+      ],
+      "method": "sips -c height width --cropOffset y x; same original, no rotation"
+    }
+  ],
+  "orientation_and_attribution": "Whole double-page inspected for orientation; target on left s98, heading Andra Roten / Vesterbodarne. Britta row is between crossed Olaus and crossed Cajsa. Own name is not crossed out. Horizontal cancellations and death annotations of the adjacent rows are not her entries. Parent/family attribution reuses accepted Sven Olofsson/Catharina Andersd:r; no new relative-field pass. Own right-hand remark area and margin inspected.",
+  "own_fields": [
+    {
+      "header": "Bostad och Personer",
+      "status": "read",
+      "raw": "D. Britta Stina",
+      "assessment": "D. i den egna namnpositionen; inget eget efternamn utskrivet. Accepterad normalform Brita Stina Svensdotter ändras inte genom råstavningen."
+    },
+    {
+      "header": "Födelse: Ort",
+      "status": "read_with_reservation",
+      "raw": "h. l.",
+      "assessment": "Kortformen återges utan utveckling. Ingen ny säker ortnormalisering från dessa bokstäver; accepterad egen födelsepost är separat stöd."
+    },
+    {
+      "header": "Födelse: År och Dag",
+      "status": "tested_reading_limit",
+      "raw": "1851 [överlagrat dag-/månadsfält]",
+      "assessment": "Året kan avläsas; flera korsande/överlagrade tecken hindrar säker egen dag-/månadsnormalisering. 9 maj fylls inte in från C0445. Ingen ny avvikande födelsedag hävdas."
+    },
+    {
+      "header": "Christend. kunskap: Innanläsning",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Britas egen cell saknar synligt eget tecken. Närliggande personers kunskapstecken överförs inte; tom cell säger inte att kunskap eller förmåga saknades."
+    },
+    {
+      "header": "Christend. kunskap: Utanläsning: Luth. Cath.",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Britas egen cell saknar synligt eget tecken. Närliggande personers kunskapstecken överförs inte; tom cell säger inte att kunskap eller förmåga saknades."
+    },
+    {
+      "header": "Christend. kunskap: Utanläsning: Förklaringen",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Britas egen cell saknar synligt eget tecken. Närliggande personers kunskapstecken överförs inte; tom cell säger inte att kunskap eller förmåga saknades."
+    },
+    {
+      "header": "Förestår.",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Britas egen cell saknar synligt eget tecken. Närliggande personers kunskapstecken överförs inte; tom cell säger inte att kunskap eller förmåga saknades."
+    },
+    {
+      "header": "Koppor.",
+      "status": "read_with_semantic_limit",
+      "raw": "v",
+      "assessment": "Eget v-likt tecken under Koppor. Rubrik och råmarkering bevaras. Ingen extern kodförklaring har lästs; inget vaccinationsdatum, sjukdomsdatum eller säkrare medicinsk händelse normaliseras."
+    },
+    {
+      "header": "Inflyttad: År",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Ingen egen uppgift synlig i den prövade raden; detta är avgränsad celltomhet, inte frånvaro av flyttning eller annan livshändelse."
+    },
+    {
+      "header": "Inflyttad: ifrån",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Ingen egen uppgift synlig i den prövade raden; detta är avgränsad celltomhet, inte frånvaro av flyttning eller annan livshändelse."
+    },
+    {
+      "header": "Utflyttad: År",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Ingen egen uppgift synlig i den prövade raden; detta är avgränsad celltomhet, inte frånvaro av flyttning eller annan livshändelse."
+    },
+    {
+      "header": "Utflyttad: till",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Ingen egen uppgift synlig i den prövade raden; detta är avgränsad celltomhet, inte frånvaro av flyttning eller annan livshändelse."
+    },
+    {
+      "header": "Anmärkningar",
+      "status": "tested_blank",
+      "raw": null,
+      "assessment": "Ingen egen uppgift synlig i den prövade raden; detta är avgränsad celltomhet, inte frånvaro av flyttning eller annan livshändelse."
+    }
+  ],
+  "separate_stronger_accepted_support": {
+    "own_birth": "C0445 accepted birth1851-05-09/baptism1851-05-11; not a transcription of overlaid C0446day/month.",
+    "correction": "F-P-0337-source_correction-C0445-and-household@2 preserves Hem. alternatives, mother forms, own overlaid-date limit and father1840note not her migration.",
+    "death": "F-P-0337-source_assessment-death-and-home@1 own1886-10-01 versus preceding1886-09-30; 37 D/sannolik adressditto, no assured physical deathplace. Unchanged.",
+    "current_prior_review": "IDENTITY-REVIEW-T0814-P0337@1 and TREE-EFFECT-T0814-P0337@1 read with full bodies/caveats; precise PK05 ownfieldrest assessed above."
+  },
+  "individual_identity_criteria": [
+    {
+      "criterion": "PK-01",
+      "initial_disposition": "sufficient",
+      "source_bound_reason": "C0445 egen födelse/dop 9/11 maj1851, accepterad föräldrafamilj och ungdomsrad samt reciproka folio138 i vigsel/utflyttning1877 bär samma person. Sonpost1878, familj1880/1888 och död1886 bär vuxenkorrelation. Den nya C0446läsningen tillför inte ett självständigt exakt födelsedatum."
+    },
+    {
+      "criterion": "PK-02",
+      "initial_disposition": "sufficient_with_explicit_raw_limits",
+      "source_bound_reason": "Britta i egenraden, accepterad Brita-normalform och starkare C0445datum hålls isär. Hem. för fadern förblir utan säker hemmansägare/hemmansbrukare-normalisering; Catharina Andreasdotter/Andersd:r är källbundna former. v under Koppor och h. l. utvecklas inte till osedda fakta."
+    },
+    {
+      "criterion": "PK-05",
+      "initial_disposition": "sufficient_after_this_bounded_full_row_adoption",
+      "source_bound_reason": "Den uttryckliga egna C0446resten är nu faktiskt prövad: alla kunskapsfält/Förestår tomma, eget Koppor-tecken v, födelsefält med läsgräns, egna flyttfält/anmärkning tomma. Inga föräldrablanker har lånats. Fyra tidigare slutna C0382/C0445/C0651luckor återbrukas. Detta är en individuell fullpostslutsats med testad reservation, ingen generell dispens."
+    },
+    {
+      "criterion": "PK-07",
+      "initial_disposition": "sufficient",
+      "source_bound_reason": "Accepterade egna datum/folio138, vigsel20sep och avgång28sep1877 är kvar som positiva nycklar. C0446 s98/VästraBodarne är rätt källrad; den ger inte ett utflyttningsår. Inga nya söknycklar för annan person eller automatisk källpassage uppstår."
+    },
+    {
+      "criterion": "PK-09",
+      "initial_disposition": "sufficient_with_retained_reservations",
+      "source_bound_reason": "Samma registreringskedja räknas inte som oberoende röster. Överlagrat datum testas utan fyllnad; egna tomfält och v får exakt omfång. Accepterad dödsortstomhet/adressditto/EnlDb-beroende och namnsektionsnoll består."
+    },
+    {
+      "criterion": "PK-11",
+      "initial_disposition": "sufficient_for_this_identity_scope",
+      "source_bound_reason": "Sex positiva egna original C0445/C0446/C0479/C0477/C0478/C0651 har accepterad bevarandeproveniens enligt T0814. C0446originalets exakta hash och härledda cropkoordinater binds här. T0303/T0444 historiska negativa kopieskulder kvarstår; varken utförda sökår eller okänd leverantörsversion fylls i."
+    },
+    {
+      "criterion": "PK-12",
+      "initial_disposition": "proposed_pass_after_independent_settlement_and_controlled_adoption",
+      "source_bound_reason": "Egen initial individuell slutsats: identitetsnivå passed och trädverkan supporting kan motiveras efter faktisk adoption och full följdprövning. Tidigare failed/waiting hade konkret ownfieldrest som nu prövats, inte osäker vuxenperson. Detta är inte final gate eller kanonisk ändring; äldre fullkontrakt/LIFE består."
+    }
+  ],
+  "tree_and_child_relation": {
+    "proposed_person_tree_effect": "supporting after controlled adoption; not currently applied",
+    "relation": "REL-parent-P-0337-P-0287@1",
+    "disposition": "RETAIN_EXACT",
+    "status": "CORROBORATED",
+    "nature": "recorded_parent",
+    "reason": "O-P-0287-C0326-own@1 mother Brita Stina in1880household; O-P-0287-C0474-own@1 first-marriage1888banns; O-P-0287-C0382-parent-names@1 fullmothername from Robert1878birth retained with exact source/time. Fullname not retroinserted into1880raw. No biological-strength or childidentity change."
+  },
+  "OWNER": "Locked full45 OWNER objects and exact decisions reused within prioraccepted scope. Johannes→Ivar confirmation does not confer Britas own birth/parents or her archival rawcode. No ownerfact downgraded or expanded.",
+  "proposed_adoption_scope": [
+    "New complete own-row transcription/audit bound to R508@1/original hash, preserving rawlimits and all testedcells.",
+    "O-P-0337-C0446-child@1 own_individual_knowledge_or_vaccination_not_fully_extracted must be explicitly replaced by actually tested fields; no unsupported normalized vaccination/date.",
+    "Current ownfield-ignorance assertions in PK05/research/profile/person caveats and relevant paths must be individually qualified against full body+caveat, retaining genuinely historical scopes and otherperson gaps.",
+    "New individual identity/tree review decision only after both ownreadings settlement and exact native metadata/version/consequence review. No native LIFE, parentgate, relation-strength or childrecord update proposed."
+  ],
+  "remaining_owners": [
+    {
+      "owner": "T-0817",
+      "scope": "Finish independent comparison, exact native adoption/current semantic consequences, actual dependency dispositions, final SOURCE/clone/root controls; raw overlaiddate and unexpandedv preserved as testedlimits, reopen only on concrete better evidence and new bounded necessity."
+    },
+    {
+      "owner": "T-0303 / T-0444",
+      "scope": "Existing fixed historical negative/copy preservation work remains exact; own C0446image110 is not the fixed20 missing-image list. No fabricated searchmetadata or new search undertaken."
+    },
+    {
+      "owner": "T-0445",
+      "scope": "Existing probate/avvittring/mantal life questions unchanged; no life completion."
+    },
+    {
+      "owner": "T-0255",
+      "scope": "Olaus older complete scope remains, not promoted or executed by this Brita row."
+    },
+    {
+      "owner": "T-0819",
+      "scope": "Active fixed160 planning checkpoint and finite LIFE consideration per settled allocation; no new research here."
+    }
+  ],
+  "production": {
+    "existing_original_images_newly_read": 1,
+    "new_acquisitions": 0,
+    "same_image_crops": 3,
+    "new_source_units": 0,
+    "native_writes": 0,
+    "queue_writes": 0
+  },
+  "next_step": "Root must receive/verify both ownreading seals before comparison. This initial proposed outcome is not a final source-design, implementation or canonical authorization."
+}

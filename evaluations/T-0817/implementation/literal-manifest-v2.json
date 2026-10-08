@@ -1,0 +1,82 @@
+{
+  "task": "T-0817",
+  "baseline_state": {
+    "journal_head": 484,
+    "pending": 0
+  },
+  "main_sha256": "f73c9599c70b2938b581593c1250995122d79bfa4451e72be1e040cc6c339d0e",
+  "native_changes": 47,
+  "existing_revisions": 45,
+  "new_source_objects": 2,
+  "retains": 483,
+  "explicit_relation_retains": 7,
+  "explicit_indexed_evidence_rebinds": 10,
+  "preflight_issues": 0,
+  "candidate_only": true,
+  "cloneApproval": false,
+  "canonicalApproval": false,
+  "pins": [
+    {
+      "path": "evaluations/T-0817/primary-complete-source-design-v2.json",
+      "sha256": "b848f44fb92d1c8833f2a3ec60c555ad81d71db5712d95fc506e9783523d3165"
+    },
+    {
+      "path": "evaluations/T-0817/primary-complete-source-design-gate-v1.json",
+      "sha256": "928c35b7b7f54a9033ab9a49548900e1c6ed4cefd0d75abe9b267daa4af28056"
+    },
+    {
+      "path": "evaluations/T-0817/independent-complete-source-design-gate-v1.json",
+      "sha256": "62b796ee13292f4652378e8164efce3f0652ea831ee3e45328eea6d56723ffc0"
+    },
+    {
+      "path": "evaluations/T-0817/settled-own-row-reading-v1.json",
+      "sha256": "c6368a511052abbf883acd80c85024e200a7ec8e03c02fdf7d9cb9ac8988e308"
+    },
+    {
+      "path": "evaluations/T-0817/root-literal-materialization-release-v1.json",
+      "sha256": "cffcb1d3326cde3fe8646d6371accd421a67eab876822a2a8d0af5cde4c74943"
+    },
+    {
+      "path": "evaluations/T-0817/root-full-source-design-reading-v1.json",
+      "sha256": "0873600e7bc118cb6014542f7b0fb80dad52f07107ee4f225d3ef9f5806b6da3"
+    },
+    {
+      "path": "evaluations/T-0817/preparation/locked-input-manifest-v2.json",
+      "sha256": "7907c6014536df87ea5ef43fe966c0b19cd4d13a1dec8efffeb954c626e61c56"
+    },
+    {
+      "path": "evaluations/T-0817/preparation/baseline484.sqlite",
+      "sha256": "f73c9599c70b2938b581593c1250995122d79bfa4451e72be1e040cc6c339d0e"
+    },
+    {
+      "path": "evaluations/T-0817/materialize-literal-v2.py",
+      "sha256": "7523fe9855d5004aef384a5fe3e1bbc2fae60647e5e77cd27d082e2bdf05bd02"
+    },
+    {
+      "path": "evaluations/T-0817/implementation/operation-v2.json",
+      "sha256": "9cdc61e4d8e1ca83d7331cc1435fa442c5431aa999f83502d0a54cb6a25ea08a"
+    },
+    {
+      "path": "evaluations/T-0817/implementation/consequence-table-v2.json",
+      "sha256": "dcea5008b0bdcc60f8d7fda9d082e63e505d64d5c2923790573c4df84058f690"
+    },
+    {
+      "path": "evaluations/T-0817/implementation/preflight-v1.json",
+      "sha256": "8bdb4a9f393d427cba9beca1c321b8da5ed1a8e531b50c6154285389b65cdded"
+    },
+    {
+      "path": "evaluations/T-0817/implementation/stage-initial-UNRUN-v2.py",
+      "sha256": "26a3a6357aabd17bc2a931b39b79bf14e26e6fa56b7a35c199cc105918b6d564"
+    },
+    {
+      "path": "evaluations/T-0781/implementation/stage_exact_two_settled_package_v2.py",
+      "sha256": "ce9c424a2f1f36748880e15c83b44e4aa8aa407ab627ee723bf7c90b6b709ce2"
+    }
+  ],
+  "operation": "evaluations/T-0817/implementation/operation-v2.json",
+  "consequence_table": "evaluations/T-0817/implementation/consequence-table-v2.json",
+  "helper": "evaluations/T-0817/implementation/stage-initial-UNRUN-v2.py",
+  "no_new_original_acquisition": true,
+  "next_step": "Dual exact literal SOURCE gates and rootrelease before clone; actualrequests ownsealed ROOTONLY beforecomparison",
+  "administrative_metadata_correction": "V1 preserved. Sole operation delta reason AC1–6→AC1–5 matches actual five T0817 acceptance criteria; all47 APIs/483retains unchanged. No apply attempt."
+}
