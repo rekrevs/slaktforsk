@@ -1,0 +1,204 @@
+{
+  "schema": "primary-source-decisions/1",
+  "task": "T-0832",
+  "at": "2026-10-09T15:12:04.162494+00:00",
+  "status": "TWO_SELECTED_UNITS_SETTLED_WHOLE_PERSON_GATE_HELD_FOR_EXACT_C0660_REUSE_CHECK",
+  "bindings": [
+    {
+      "path": "evaluations/T-0832/primary/locked-source-only-plan-v1.json",
+      "sha256": "78913b9e119343f017929aca8267b6b1ca818212619851aa02617e9c3bda5022"
+    },
+    {
+      "path": "evaluations/T-0832/primary/full-record-extraction-v3.json",
+      "sha256": "310e04d58f48f155647fe215f074e8bda6f6423cb9b515a867e2abd2b0c456ae"
+    },
+    {
+      "path": "evaluations/T-0832/preparation/current-input-manifest-v1.json",
+      "sha256": "e8365b3178dbe12e2c6c6a8d1daa8c84086db81fa96bba52b9075065bc16decd"
+    },
+    {
+      "path": "evaluations/T-0832/independent/original-first-two-v2.json",
+      "sha256": "a55945393d6aa89622ae5d50bd7e5c90d9f64b0fb69b1fcb168743549a777343"
+    }
+  ],
+  "baseline": {
+    "journal": 507,
+    "pending": 0,
+    "actual_established_this_run": 4
+  },
+  "actual_scope": {
+    "originals": 2,
+    "new_fetches": 0,
+    "new_negative_person_searches": 0,
+    "canonical_writes": 0,
+    "independent_first_before_claims": true
+  },
+  "person": "P-0272",
+  "adult_identity_and_descent": {
+    "disposition": "RETAIN_ACCEPTED_CORROBORATED",
+    "relation": "REL-parent-P-0272-P-0255@1",
+    "reason": "Own C0343 birth1844-12-04/baptism8Dec and C0346/C0836 childhood identify Anna Stina Strandlund; marriageC0347 identifies same adult in Högsjö, and full C0253=C1046 names her as mother of Ingri Christina/Widusina. Later household source chains support continuity but are dependent registration. Remaining source-field completeness is not a new competing adult identity.",
+    "exact_bearing_support": [
+      "R-d1f0403bd3925c93c0e1c183@1",
+      "R-e8a90d1636c6a21bedbb8072@1",
+      "R-7d99e8402017d41b9b04f1e7@1",
+      "R-99991e48385452e4d6d3744a@1",
+      "O-P-0272-C0253-mother@1",
+      "O-P-0255-C0253-own@1",
+      "TR-b648f370487c75057d66fea9@1",
+      "READ-658c18c6da445b2f5a29151d@1"
+    ],
+    "upward": "Retain existing recorded_parent P0343/P0344→P0272; no new parent origin/generation or their gate approval.",
+    "not_inferred": [
+      "No father for Anna Erika Lydia from marriage/household",
+      "No biological child total from 8de barnet",
+      "No exact residence duration or move from book periods/blank fields",
+      "No owner-confirmed fact downgraded or extended"
+    ]
+  },
+  "identity_criteria": [
+    {
+      "criterion": "PK01",
+      "source_judgment": "STYRKT",
+      "reason": "Own birth and childhood accepted exact records name date/place/parents; accepted later chain and daughter-own mother statement identify the bearing adult. No additional original demanded."
+    },
+    {
+      "criterion": "PK02",
+      "source_judgment": "STYRKT_AFTER_EXACT_CURRENT_CONSEQUENCES",
+      "reason": "Observations remain separate from identity, religious source claim and causal unknowns. Preserve corrected surname/date history and source-specific raw7. Current stale C0457 and religious-null copies require exact amendment."
+    },
+    {
+      "criterion": "PK05",
+      "source_judgment": "HELD_NOT_PASS",
+      "reason": "C0456 motherownrow2 now fulltested; C0658 fullpost46 and notes now fulltested; C0457 completeaccepted ownrow/annualblank reuse sufficient. Additional current C0660 parent-age incompleteness is actual source-field question and awaits stronger accepted extraction check, not silently called LIFE.",
+      "remaining_objects": [
+        "R-1b298271e291a92acce34ca7@1",
+        "O-P-0346-C0660-birth@1: value_json.parent_age_field_fully_extracted=false",
+        "TR-9c91122a69b02cfbb06b56eb@1"
+      ],
+      "no_third_original_authorized": true
+    },
+    {
+      "criterion": "PK07",
+      "source_judgment": "STYRKT_AFTER_EXACT_CURRENT_CONSEQUENCES",
+      "reason": "Exact accepted name/date/home/relations kept; C0457 is not evidence for7/22 or three-versus-three. Add bounded1880 Baptist key; no congregation or era-wide inference."
+    },
+    {
+      "criterion": "PK09",
+      "source_judgment": "STYRKT",
+      "reason": "Source weighting, genuine older day variants, corrected transcriptions and identity continuity distinguished. C0658 Baptist wording does not undo1863 marriage or assign father1868;1888Ejvigda remains an actual source conflict."
+    },
+    {
+      "criterion": "PK11",
+      "source_judgment": "SUPPORTED_PENDING_FINAL_PRESERVATION_CHECK",
+      "reason": "Two exactlocal originals and acceptedC0457 hash/provenance bound, no provider version invented; existing own birth/childhood/marriage/daughter/death asset mappings requested mechanically to verify current preservation. No explicit additional copy_missing flag located in fullcurrentP0272/relevantobjects. Scope not inferred solely from old STYRKT."
+    },
+    {
+      "criterion": "PK12",
+      "source_judgment": "STYRKT_FOR_TRUTHFUL_DATED_REVIEW",
+      "reason": "New dated review must bind exact final source outcome and remaining C0660 disposition. It cannot count a pass until actual required work, independent approval and canonical apply."
+    }
+  ],
+  "tree_effect_now": "Keep actual failed/waiting pending C0660 source-floor judgment and exact implementation; not a new downgrade of accepted person or relation.",
+  "settled_consequence_groups": [
+    {
+      "key": "C0456_own",
+      "targets": [
+        "R-237a94ab0d124e6adec2a7be@2",
+        "M-C0456-Anna-Stina",
+        "O-P-0272-C0456-own@1",
+        "associated ID/READ/TR and own person current research fields"
+      ],
+      "amend": "Full ownrow2 extraction per v3: h. Anna Stina Strandlund;44 4/12; dittoIndal; ditto2/10/63 marriage; v/check pox; every own incoming/death/grades/20F-N/military/frejd/outgoing field blank. Preserve unlabelled name-end mark without interpretation. Household gb127 contextual, no exactownmove.",
+      "retain": "T0812 daughterrow4 complete and reservations unchanged; other household ownfield debts not globally closed. No affiliation inferred from blanks."
+    },
+    {
+      "key": "C0658_fullpost",
+      "targets": [
+        "R-cb27515d61b6f4077a013394@1",
+        "S-0502@1 if current relevant boundary copy requires prefix",
+        "M-C0658-Nils-Petter@1",
+        "O-P-0271-C0658-father@1",
+        "M-P-0349-C0658-birth@1",
+        "O-P-0349-C0658-birth@1",
+        "ID-P-0349-C0658-birth@1",
+        "source TR/READ and P0272 parent-source representation"
+      ],
+      "amend": "Use full v3 fields; father raw strongest Pehrsson[Persson?], raw role torpare,46; motherAnnaStinaStrandlund36,17deåretgifta; father bapt.[ist?], mother baptister. Own male/legitimate/gift checks and all blank columns distinguished. religious_notes_in_parents_column_fully_extracted=true. Preserve no independent extra vote. Existing C0658 no own mother mention is model representation gap, not missing source identity; permitted bounded own-source M/O/ID creation for existingP0272 only if needed, no newperson/edge.",
+      "retain": "Birth1880-11-12 and parents existingIDs; own source ordinal8 is not total. odöpt belongs precedingpost45 here; C0659 ownodöpt retained as a distinct source report, not pasted into C0658."
+    },
+    {
+      "key": "religion_source_bound",
+      "targets": [
+        "F-P-0271-source_assessment-family-notes@1",
+        "P0271/P0272/P0349 current O/F/KEY/BIO/RESEARCH/THEME-SAM/Q01/PATH-KP01/KP02/PK05 copies actually claiming C0658 notes unread or no religious source statement"
+      ],
+      "exact_clause": "T0832: SCB:s Indalsutdrag1880, post46, skriver bapt.[ist?] på faderns rad och tydligt baptister på modern Anna Stina Strandlunds rad. Detta är ett källbelagt baptistpåstående om föräldraparet i denna post. Ingen namngiven församling, medlemskapsperiod, övergångsdag eller livslång tillhörighet är fastställd; noten förklarar inte ensam1868oäkta eller1888Ejvigda.",
+      "typed": "Replace unqualified denomination:null only with a scoped structured statement (reported_at_1880_C0658=baptister; congregation=null; membership_dates=null; lifelong=false; causal_explanation_of_other_notes=null), preserving old null in history. exact_five_scope_verified:false remains; unknown congregation remains unknown, not universally no religious evidence.",
+      "scope": "Necessary same-source family consequences, no independent religious research or T0093 completion."
+    },
+    {
+      "key": "C0457_accepted_reuse",
+      "targets": [
+        "R-b3e23944d836bea3dfc27e8a@1",
+        "S-0360@1",
+        "C0457 related current TR/READ/KEY/claims",
+        "KEY-P-0272-b040db51cb66@1"
+      ],
+      "amend": "Accepted AUDIT-T0110-C-0457@1 reads AnnaStina4Dec1844 and Jonas12Nov1880; old7/22 in this image are transcription errors. Retain actual O-P0272-C0457-own@2/Fbirthdate@2 conclusions. Correct current record/source/copy claims and false three-against-three majority, preserving old text as explicitly superseded history. Complete ownrightblankfield reuse closes this source debt without reopening.",
+      "retain": "Raw7 in C0254/AI9 and C0349/AI10a remains source-specific actual older report. C0654 laterJonas22 is a separate retained rawsource deviation, not corrected from C0457. Gustaf reserved4/12month comparison and Katarina movement retain accepted exact scope."
+    },
+    {
+      "key": "reviews_and_rest",
+      "amend": "Only named source debts actually closed are superseded in current body/caveat/structured flags; final identity review waits C0660 assessment. Each touched research scope gets native boundedadoption; allolderfulllegacy review scope retained.",
+      "retain": "PK03/04/08 full life/network gaps; PK06/10 as accepted bounded assessments with necessary narrative clause only. T0093 religion beyond explicitpost, T0218 other ownfields, unselectedT0116 and outerT0833 unchanged. OWNER45, fourHenrikLEAD, origins/evidence/arrayorder/history preserved."
+    },
+    {
+      "key": "C0456_Johan_minimal_attribution_context",
+      "targets": [
+        "F-P-0273-household_membership-Hogsjo@1",
+        "BIO-P-0273@1",
+        "current copies of only two books/no post1880 source anchor"
+      ],
+      "amend": "Own mother-row attribution already required adjacent row3: Johan Petter64 14/8 is recorded in same continuing Högsjö household, book1882–1891. Preserve exact raw14/8 alongside older18/8, no changed accepted actual birthdate. continuation_after1880_unread:false only with explicit added context-scope field: one minimal row3 name/date/household anchor tested, other own fields not tested. Existing earlierperiods retained and new bounded sourceperiod appended.",
+      "retain": "No full ownrow/rightfield closure, no biologicalparent edge/ownbirthcertainty/identitygate change, no continuousresidence or new source search. Earlier C0351 date-local negative receipt unchanged; raw14Aug is a possible future reactivation key, not a new resultless search or newly adopted task.",
+      "basis": "Same opened C0456 original, primary leftcontext crop and independent originalfirst note."
+    },
+    {
+      "key": "P0277_analogical_context",
+      "targets": [
+        "P-0277/Q-01@1 and exact semantic copies"
+      ],
+      "amend": "Indal comparison must say exact five-undoped scope remains unverified, C0658 explicitly reports Baptist wording for AnnaStina/NilsPetter in1880, and1888Ejvigda remains source conflict with own1863marriage. This gives no Baptist proof for Hök family; analogy cannot become evidence of their religion.",
+      "retain": "Hök own question/outcome/evidence/missionary hypotheses and all unrelated fields unchanged."
+    },
+    {
+      "key": "C0459_child_specific_rest",
+      "targets": [
+        "O-P-0385-C0459-child@1",
+        "CONTRACT-P-0385-PK-05@1",
+        "P-0385/Q-01@1",
+        "PATH-P-0385-KP-01@1"
+      ],
+      "disposition": "RETAIN_WITH_SOURCE_SCOPE; no new original required for P0272 gate merely from this child flag",
+      "reason": "Full current and frozenT0120/T0218 identify remaining child statistical/(8)/baptism interpretation; motherAnnaStina43, father54,home andEjvigda already explicit accepted. No named additional unread maternal field is documented. Reuse only those accepted maternal claims, not certification of unviewed maternal statistical blanks/fullchildpost. Independent source-scope concurrence received.",
+      "rest_owner": "T0218 childstatistics/(8),T0219 separateownbirthsource; unchanged."
+    },
+    {
+      "key": "C0457_complete_accepted_sidefield_scope",
+      "targets": [
+        "O-P-0345-C0457-own current own_remaining_annotations_extracted:false",
+        "O-P-0385-C0457-own current other_own_columns:not_extracted",
+        "P0271 exact ownC0457 sourcefields and associated currentcopies"
+      ],
+      "amend": "AUDIT-T0110-C-0457@1 expressly enumerates all relevant leftfields for named NilsPetter/AnnaStina/Katarina/Erik/Jonas/Gustaf plus all other right in/out/frejd/military/F-N1892–1901 blank with exactexceptions. Thus close only these source-specific untestedflags from acceptedfullaudit, preserving individual raw fields/reservations; no new original. P0345 own_remaining_annotations_extracted:true. P0385 other_own_columns becomes tested map per accepted audit, not globalpersoncomplete.",
+      "retain": "Nils headG.b.130 incoming context/blankdate; Katarina Timrå no4 1900-02-10 is register departure notphysicaltravel; Gustaf12/4[?] ownmonth reservation remains, accepted factualDOB not revised; Erik uncertain military/frejd note remains tested-reserved, no service inference. No sideperson identity/fulllegacy review upgrade or C0456 otherrows closure."
+    }
+  ],
+  "implementation_rules": "Sol must build exactindividual field consequences including retains. Zero/unexpectedmultiple matches and every required evidence rebind return to Astra; no blanketlatest or blindlexicalreplacement. Independent final exactpackage/stage approval still required.",
+  "prior_version": {
+    "path": "evaluations/T-0832/primary/source-decisions-v1.json",
+    "sha256": "a01539e234e4202e71492515537c780da76b355d6f6d08c4cd948dc7ace84c33"
+  },
+  "scope_dispositions": "Independent concurs child-specific C0459 retain, minimal Johan context and P0277 analogy qualifier; exact final implementation review still pending. C0660 remains held pending stronger accepted extraction check."
+}

@@ -1,0 +1,100 @@
+{
+  "task": "T-0832",
+  "at": "2026-10-09T14:48:54.952401+00:00",
+  "journal": 507,
+  "pending": 0,
+  "database_sha256": "a77cd5669b32e9cb0225f750b636fd40290b712406d517a1c9435c509463f71f",
+  "inventory": {
+    "format": "genealogy2-research-inventory/1",
+    "note": "Registrerade aktuella bedömningar, inte ny sakgranskning eller utförandekö. Identitetsgrind och livsbild är separata. Äldre helkontraktsutfall behåller sitt ursprungliga omfång och sina kvalificeringar.",
+    "active": {
+      "persons": 511,
+      "identityPassed": 220,
+      "treeSupporting": 72,
+      "identityGatePassed": 72,
+      "explicitNativeLifePassed": 1,
+      "legacyContractPassed": 0
+    },
+    "all": {
+      "persons": 536,
+      "identityPassed": 220,
+      "treeSupporting": 72,
+      "identityGatePassed": 72,
+      "explicitNativeLifePassed": 1,
+      "legacyContractPassed": 0
+    },
+    "detail": "inventory --full visar personer och använda bedömningsrevisioner."
+  },
+  "pedigrees": [
+    {
+      "root": "P-0269",
+      "mode": "verified",
+      "truncated": false,
+      "paths": 47,
+      "edges": 46,
+      "whole_view_sha256": "3606015f5652ac7d71f561cdbbff62671e131ac2c6efc582b270b84b4c33aeee",
+      "gate_P0272": [
+        {
+          "person_id": "P-0272",
+          "criteria": "identity_gate/1",
+          "passed": false,
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "gate_outcome_not_supporting",
+              "axis": "identity_review",
+              "revision_ids": [
+                "ASSESSMENT-P-0272@1"
+              ],
+              "message": "Identitetsgranskning är failed; grinden kräver passed."
+            },
+            {
+              "code": "gate_outcome_not_supporting",
+              "axis": "tree_effect",
+              "revision_ids": [
+                "ASSESSMENT-P-0272@1"
+              ],
+              "message": "Trädverkan är waiting; grinden kräver supporting."
+            }
+          ],
+          "explanation": "Identitetsgrinden stoppas av de uttryckliga skälen; detta ändrar ingen person, ägarkunskap eller relation."
+        }
+      ]
+    },
+    {
+      "root": "P-0270",
+      "mode": "verified",
+      "truncated": false,
+      "paths": 47,
+      "edges": 46,
+      "whole_view_sha256": "1941879ef7354b40cf9703881f8e0e5e366ca0227683c3b48d68071fb1b2776c",
+      "gate_P0272": [
+        {
+          "person_id": "P-0272",
+          "criteria": "identity_gate/1",
+          "passed": false,
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "gate_outcome_not_supporting",
+              "axis": "identity_review",
+              "revision_ids": [
+                "ASSESSMENT-P-0272@1"
+              ],
+              "message": "Identitetsgranskning är failed; grinden kräver passed."
+            },
+            {
+              "code": "gate_outcome_not_supporting",
+              "axis": "tree_effect",
+              "revision_ids": [
+                "ASSESSMENT-P-0272@1"
+              ],
+              "message": "Trädverkan är waiting; grinden kräver supporting."
+            }
+          ],
+          "explanation": "Identitetsgrinden stoppas av de uttryckliga skälen; detta ändrar ingen person, ägarkunskap eller relation."
+        }
+      ]
+    }
+  ]
+}
