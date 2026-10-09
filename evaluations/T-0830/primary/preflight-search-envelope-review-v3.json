@@ -1,0 +1,57 @@
+{
+  "task": "T-0830",
+  "role": "primary Astra finite search envelope review",
+  "recorded_at": "2026-10-09T14:08:48.587927+00:00",
+  "baseline": 505,
+  "operation": {
+    "path": "evaluations/T-0830/implementation/operation-ordered-v3.json",
+    "sha256": "3df0d210d5143189913776aeca7715ab147de7aca443af23d58b0aafe3e4726e"
+  },
+  "prior_approval": {
+    "path": "evaluations/T-0830/primary/preflight-rebind-review-v2.json",
+    "sha256": "fc29734558dbdf18d57f7c699974ee71bf37e1208cd6bc2a2f65da05cbf45a13",
+    "scope": "64 exact rebind payload approvals unchanged; four historical retains unchanged; old v2 operation/hash and failed clone receipt preserved."
+  },
+  "settled_actual_search": {
+    "path": "evaluations/T-0830/primary/search-memory-C4-1853-v1.json",
+    "sha256": "6ec42d3379ba68417df07c09dcfd09615546b763a38da41813dd35d45b087b58"
+  },
+  "standard": {
+    "path": "genealogy2/docs/working.md",
+    "section": "Beständigt sökminne – standard för resultatlösa sökningar, lines81–95",
+    "sha256": "1ac68ad72a76f3feaf467b7d7dae893cf9d0ba7c4790fd4cc8eda972c9df0330"
+  },
+  "changed_object": "SEARCH-T0830-P0134-C0005633-00014-1853-parentpair",
+  "changed_field": "data.scope_json only; top-level operation id and searchMemoryVersion:1 additionally changed",
+  "disposition": "APPROVE_EXACT_V3_SEARCH_ENVELOPE",
+  "field_decisions": {
+    "description_query_bounds": "Faithful to actual target parent-pair query and21 displayed1853rightpage rows; not entire1853 or parishabsence. OtherAnna and Kallvik controls positive, not contradictory target matches.",
+    "subjects": "P0134 is actual question subject; no extra relative search claim.",
+    "performed_at": "Exact preserved actual2026-10-09T13:25:11.404199+00:00, not clone-retry time.",
+    "method": "Same fullspread/overlapping fullresolution crops, every21 child/parent rows; no newread or OCR substitute.",
+    "material_identifier": "Exact C0005633_00014/ÅrdalaC4right1853; one original representation, no multi-material aggregate.",
+    "source_version": "Model source_version2 exactly bound S0121@2 updated samevolume; actualread S0121@1 retained separately in source_revision_at_read and original_extraction. Neither is provider edition.",
+    "provider_version": "Explicit null/unknown reason retained; no provider version invented.",
+    "snapshot": "Full preserved original file andSHA verified bytewise; not a screenshot/index response.",
+    "coverage": "completed true only for named21-rowpass, first17Jan/bapt23Jan throughlast12Nov/bapt20Nov; left1852notsearched1853 and noyearclosure/1854boundary.",
+    "reactivation": "Preserved actual new-discriminating-key or explicitlyselected later1853 boundedquestion; no newcontinuation authorized.",
+    "original_extraction": "Byte-semantic original memory embedded unchanged; oldhistoricalsearchreceipts remain untouched.",
+    "access_rest": "C0984 HTTP401/login remains separate and is not included as a negativepass."
+  },
+  "verified_unchanged": {
+    "other134_change_payloads": true,
+    "same135_order": true,
+    "all_evidence_edges_roles_notes": true,
+    "media": true,
+    "search_body_rationale_caveat_evidence": true,
+    "64_exact_rebind_approvals": true
+  },
+  "limits": "Finite source authorization only. Independent v3 amendment review and successful clone validation/pending/final exactstage approval still required. No canonicalapply authorization supplied by this artifact.",
+  "work": {
+    "new_originals": 0,
+    "new_searches": 0,
+    "external_calls": 0,
+    "canonical_writes": 0,
+    "one_envelope_reviewed": 1
+  }
+}

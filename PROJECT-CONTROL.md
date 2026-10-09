@@ -6115,3 +6115,19 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Resulting Wotan tasks: T0829DONEsource0/resultatplan; T0830READY; T0831faktisktallokeradfullrest/resultatägare; T828BLOCKEDkvar.
 - Portfolio signal: Faktisktbeställdanlinjekörningfortsätter, trefastställda; forsknings-/rättelseproduktion är inte femgodkännanden.
 - Revisit when: FörstaacceptedT0830resultatellerkonkrethinder, före annan/deeperpassage; actual≥5kontroll. VerkligRAloginåterstartar endastsparadT828passage utanomtag ellerförloratrestansvar.
+
+## PCR-2026-10-09-004 — Fjärde anpersonen införd, fortsätt med åtkomligt Kristinafall
+
+- Record type: review
+- Date: 2026-10-09T14:36:01.603232+00:00
+- Mode: checkpoint
+- Trigger: Faktisk accepterad T0830-delpassage journal507 och4/≥5; dess utvidgade sjätte original har verklig inloggningsspärr.
+- Control judgement: continue, operate, preserve
+- Evidence: evaluations/T-0830/root-final-partial-verification-v1.json (38tabeller equality, verifierad P0134, all45OWNER/historik bevarad); evaluations/T-0831/primary-source-zero-alternative-assessment-v1.json9c749971 och independent/source-zero-plan-concurrence-v1.jsonba15200e; full oldT0116 bytecopy/allaAC; evaluations/T-0831/decision-and-successor-v1.json3cc39a776cde7e29c486e77f75f24e9de92b0dc1b06a988258d1883f53da8733. Fullmonolitens oförändrade tidigareprefixläsning återbrukas och föregående PCR003-appendix är läst; ingen historik rekonstrueras från chat.
+- Current gate: T0828 exact15authbilder ochT0830 P0316own1901C0984exact00199095_00032. Åtkomstfel är inte söknoll; saknadeoriginal höjer inte beviskraven för OWNER_CONFIRMED fakta. P0316 accepterade vuxenidentitet/barnrelation kvar; dess sakliga PK11-kopieskuld är separat.
+- Options: Enbart väntan skjuter upp ett åtkomligt närgenerationsfall. Djupare/LIFE/DEFERRED ger fel prioritet. P0272 på Kristinas sida har två verkliga lokala egna fältrester och tillräckligt acceptedC0457fullrow-reuse.
+- Recommendation: Kör T0832 exakt två lokala original C0033072_00137 egenrad2/A0036201_00112 post46 med fullfresh507prep, primär/separatAstra och Solmekanik, individuella identitetskriterier/följder, exactclone/hashgrind/normalapply. Nyfetch0; ingen förhandsPASS eller sammanblandning med livsbild.
+- Owner decision required: none; befintligt PCD2026-10-09-005 ≥5mandat medger motiverade ytterligare boundedpersonuppgifter. Ingen ny ägaruppfattning fabriceras.
+- Resulting Wotan tasks: T0830BLOCKED exact1rest ochT0828BLOCKED exact15rest; T0831DONE source0/currentcount/fulltransfer; T0832READY boundedP0272; T0833 faktiskallokeradouterfullrestägare med bibehållna innerowners/allaolderAC.
+- Portfolio signal: Fyra fastställda denna körning, fortfarande ett ofullbordat minstfemmål. Produktions-/uppgiftsantal är inte personfastställande.
+- Revisit when: Första actualT0832resultat/hinder före annan/deeperpassage. ActualRAlogin återstartar endast sparad authpassage med fullacceptedreuse; efter faktiskt minstfem prövas kvarvarande ansvar utan automatiskt utökat forskningsmandat.

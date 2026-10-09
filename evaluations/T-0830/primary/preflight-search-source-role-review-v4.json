@@ -1,0 +1,42 @@
+{
+  "task": "T-0830",
+  "role": "primary Astra finite source-role amendment",
+  "recorded_at": "2026-10-09T14:10:58.572020+00:00",
+  "baseline": 505,
+  "operation": {
+    "path": "evaluations/T-0830/implementation/operation-ordered-v4.json",
+    "sha256": "a121f75cd32b313fd35bb2f19f736303ff7011e252dc60e0e0085c8c7f1470f4"
+  },
+  "preserved_previous_operation": {
+    "path": "evaluations/T-0830/implementation/operation-ordered-v3.json",
+    "sha256": "3df0d210d5143189913776aeca7715ab147de7aca443af23d58b0aafe3e4726e"
+  },
+  "preserved_previous_reviews": [
+    {
+      "path": "evaluations/T-0830/primary/preflight-rebind-review-v2.json",
+      "sha256": "fc29734558dbdf18d57f7c699974ee71bf37e1208cd6bc2a2f65da05cbf45a13"
+    },
+    {
+      "path": "evaluations/T-0830/primary/preflight-search-envelope-review-v3.json",
+      "sha256": "30f3059637ca5f43b12e0377ede6fe180f2a91b7486e2251affb36a18e0dd438"
+    }
+  ],
+  "disposition": "APPROVE_EXACT_ONE_ROLE_AMENDMENT",
+  "object": "SEARCH-T0830-P0134-C0005633-00014-1853-parentpair",
+  "change_array_index": 115,
+  "field": "evidence[0].role",
+  "before": "derived_from",
+  "after": "context",
+  "bound_source": "S-0121@2",
+  "note_unchanged": "Actualread source@1 preserved in memory; exact same correctedsourcehead@2 currentscope amendment, provider_version unknown.",
+  "source_judgment": "Context faithfully identifies the corrected model-source description and material framework for the exact21-row pass. Actual inspected original remains C0005633_00014 with preserved image hash and actual-read sourceS0121@1 separately recorded. Existing two R controlposts remain supports for differentAnna/Kallvik limits, not independent negative votes. No new evidence or personabsence inference is added.",
+  "exact_diff_proof": "Loaded both complete operations. Replacing only top-level id and changes[115].evidence[0].role in v3 yields complete equality to v4. Thus all135 change payloads except this single role, all64 prior rebinds, source-memory scope/body, notes/versions/evidencearrayorder, media and changeorder remain exact.",
+  "conditions": "Sol must preflight full actual native validator conditions before next clone; preserve both earlier transaction rejections. Independent finite v4 source-role review and final exactstage/pending approval remain required. This is not fullpackage/canonicalapply approval.",
+  "work": {
+    "new_originals": 0,
+    "external_calls": 0,
+    "native_writes": 0,
+    "one_role_reviewed": 1,
+    "local_review_attempts": "One local comparison script syntax error corrected before successful read-only comparison; no files or state changed by failed attempt."
+  }
+}

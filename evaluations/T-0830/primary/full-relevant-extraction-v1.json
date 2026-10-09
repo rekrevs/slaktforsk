@@ -1,0 +1,632 @@
+{
+  "schema": "full-relevant-source-extraction/1",
+  "task": "T-0830",
+  "role": "primaryAstra",
+  "recorded_at": "2026-10-09T13:20:53.001834+00:00",
+  "source_manifest": {
+    "path": "evaluations/T-0830/primary/source-only-blind-manifest-v2.json",
+    "sha256": "19ea773a57e4457873647b2b16b4e9243be55588b36e8a0354fdb39714ccc42b"
+  },
+  "units": [
+    {
+      "unit": 1,
+      "image_id": "C0005634_00013",
+      "source": "S-0122@1",
+      "record": "R-2c30f50bb85f191a282e6867@1",
+      "locator": "Left page, first own row under Mars1852",
+      "page_header": "Födde och Döpte i Årdala Församling år1852",
+      "headers": [
+        "Födelsedag",
+        "Christningsdag",
+        "Barnens namn",
+        "Ägta m./q.",
+        "Oägta m./q.",
+        "Dödfödde[heading spelling reserved]",
+        "Föräldrar",
+        "modrens ålder",
+        "Faddrar"
+      ],
+      "own_fields": {
+        "birth": {
+          "state": "TRANSCRIBED",
+          "raw": "21",
+          "note": "Mars1852 heading;1852-03-21"
+        },
+        "baptism": {
+          "state": "TRANSCRIBED",
+          "raw": "25",
+          "note": "1852-03-25"
+        },
+        "name": {
+          "state": "TRANSCRIBED",
+          "raw": "Anna Christina"
+        },
+        "legitimate_boy": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "legitimate_girl": {
+          "state": "TRANSCRIBED",
+          "raw": "1 / tally"
+        },
+        "illegitimate_boy": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "illegitimate_girl": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "stillborn": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "parents": {
+          "state": "TRANSCRIBED",
+          "raw": "Statdräng. Lars Eric Jansson o Brita Christina Ersdotter i Kallvik"
+        },
+        "mother_age": {
+          "state": "TRANSCRIBED",
+          "raw": "33"
+        },
+        "churching_annotation": {
+          "state": "TRANSCRIBED",
+          "raw": "18/4",
+          "note": "Written below parents;1852-04-18; no separate printed churching column."
+        },
+        "witnesses": {
+          "state": "TESTED_RESERVED",
+          "raw": "Arrendat. And. Nilson o hu. A. S. Gillman, dr. A. J. Nilson, och Pig. A. Br.[?] Jonsdotter, alla i Månad[?].",
+          "note": "Abbreviations retained; no witness identity merged or names expanded. Nilson/Nilsson exact single/double-s spelling reserved; raw geographic ending retained separately from normalization."
+        },
+        "margins": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "post_or_folio_number": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        }
+      },
+      "correction": "The older terminal |29 is not a field in this own row. No ownpostnumber29 orfolio29 is present; right page begins a different child born29May. Preserve old transcription as superseded; do not invent a29 locator.",
+      "dependence": "Samechurchregistration as accepted C4 own1852 record; not independent double proof."
+    },
+    {
+      "unit": 2,
+      "image_id": "C0005633_00014",
+      "source": "S-0121@1",
+      "records": [
+        "R-ab67d38b58e92a0c9b0329d2@1",
+        "R-f9c30454d2afaad13941d205@1"
+      ],
+      "headers": [
+        "Födelse Månad/dag",
+        "Dopets dag",
+        "Barnens namn",
+        "Ägta m./q.",
+        "Oägta m./q.",
+        "Föräldrarnes yrke, namn och hemvist"
+      ],
+      "read_bounds": "Full spread visually inspected; left1852 continuation April–December ends annual total; right1853 from Jan17/23 to Nov12/20, no finalyear total or1854 heading. All displayed1853 parent/name rows checked for targetpair.",
+      "own_control_records": [
+        {
+          "name": "Anna Christina",
+          "birth": "1853-05-09",
+          "baptism": "1853-05-15",
+          "sex_status": "Tally in Oägta q. column; other tally cells blank",
+          "parents": "Pig. Johanna Jonsdotter vid Stäringe",
+          "father": "No father named",
+          "margins": "No own added marginal note",
+          "identity": "Different child; not P0134; no newperson creation."
+        },
+        {
+          "name": "Augusta Mathilda",
+          "birth": "1853-10-09",
+          "baptism": "1853-10-16",
+          "sex_status": "Tally in Ägta q. column; other tally cells blank",
+          "parents": "Statdr.[?] Johan Ersson o Eva Lotta Andersdotter i Kallvik",
+          "margins": "No own added marginal note",
+          "identity": "Place-control only; no relation to P0134 inferred."
+        }
+      ],
+      "form_limits": "No witness, maternal-age or churching columns on this abbreviated form. No unread such field manufactured.",
+      "negative": "No child to Lars Eric/Erik Jansson and Brita Christina Ersdotter in the actual1853 right-page rows. This page alone does NOT certify whole1853; historical full-year claim overstates the shown boundary.",
+      "negative_id": "SEARCH-T0830-P0134-C0005633-00014-1853-parentpair",
+      "new_scope_requirement": "No extra source opens. Source-backed own1852 identity remains positive; absence of full1853 annualcoverage is not a new proof requirement for that positive identity."
+    },
+    {
+      "unit": 3,
+      "image_id": "C0033067_00212",
+      "source": "S-0272@1",
+      "record": "R-45b297a69f523f7abcb7fdf5@1",
+      "locator": "Säter N:o1 s185, daughterCajsaMärta fourth household line",
+      "headers": [
+        "Stånd och Namn",
+        "Födelse-år och Dag",
+        "Koppor",
+        "Gifto.-År",
+        "Läser och förstår",
+        "Hvarifrån",
+        "Hvarthän",
+        "År1836–1845 each Förhör / Nattvardsgång",
+        "Anmärkningar för Seder m.m."
+      ],
+      "own_fields": {
+        "name_role": {
+          "state": "TRANSCRIBED",
+          "raw": "D:r Cajsa Märta"
+        },
+        "birth": {
+          "state": "TRANSCRIBED",
+          "raw": "1834 21/3"
+        },
+        "birthplace_column": {
+          "state": "NOT_IN_FORM",
+          "raw": null
+        },
+        "koppor": {
+          "state": "TRANSCRIBED",
+          "raw": "V."
+        },
+        "marriage": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "reads_understands": {
+          "state": "TESTED_RESERVED",
+          "raw": "Six[?] dot marks above horizontal bracket with downstrokes",
+          "note": "Graphic marks retained, no modern ability grade inferred."
+        },
+        "from": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "to": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "margin": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        }
+      },
+      "annual_fields": {
+        "1836": {
+          "forhor": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          },
+          "communion": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1837": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "short horizontal dash"
+          },
+          "communion": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1838": {
+          "forhor": {
+            "state": "TESTED_RESERVED",
+            "raw": "short dash[?]"
+          },
+          "communion": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1839": {
+          "forhor": {
+            "state": "TESTED_RESERVED",
+            "raw": "faint mark/dash[?]"
+          },
+          "communion": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1840": {
+          "forhor": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          },
+          "communion": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1841": {
+          "forhor": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          },
+          "communion": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1842": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "N-like mark"
+          },
+          "communion": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1843": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "N-like mark"
+          },
+          "communion": {
+            "state": "TESTED_RESERVED",
+            "raw": "two small dots[?]",
+            "note": "No legible calendar date."
+          }
+        },
+        "1844": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "n-like mark"
+          },
+          "communion": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1845": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "n-like mark"
+          },
+          "communion": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        }
+      },
+      "right_annotation": {
+        "state": "TESTED_RESERVED",
+        "raw": "n-like mark at left edge of remarks column",
+        "note": "No printed later-year heading; not assigned to1846 or treated as dated sacramental event."
+      },
+      "context": "ParentsAndersDahlsten/StinaCajsaLarsd.; NilsPetter above, LarsJohan below. Existing T0134 corrected parentalname/month and existing deceased-child separations reused. Own son/sibling rows not newly declared complete."
+    },
+    {
+      "unit": 4,
+      "image_id": "C0033068_00224",
+      "source": "S-0273@1",
+      "record": "R-dd31c2714bc0d4606128259b@1",
+      "locator": "Säther N:o1 s193, daughterCajsaMärta fourth household line",
+      "headers": [
+        "Stånd och Namn",
+        "Födelse-år och Dag",
+        "Födelse-ort",
+        "Koppor",
+        "Läser och förstår",
+        "Frejd",
+        "Äktenskap",
+        "Hvarifrån",
+        "Hvarthän",
+        "År1847–1854 each Förhör/Nattvardsgång",
+        "Anmärkningar"
+      ],
+      "own_fields": {
+        "name_role": {
+          "state": "TRANSCRIBED",
+          "raw": "D:r Cajsa Märta"
+        },
+        "birth": {
+          "state": "TRANSCRIBED",
+          "raw": "34 21/3",
+          "note": "1834-03-21 in retained household chronology"
+        },
+        "birthplace": {
+          "state": "TRANSCRIBED",
+          "raw": "ditto",
+          "note": "Carries householdhead Indahl; not an empty own birthplace."
+        },
+        "koppor": {
+          "state": "TRANSCRIBED",
+          "raw": "V."
+        },
+        "reads_understands": {
+          "state": "TESTED_RESERVED",
+          "raw": "dotted horizontal/bracket figure with three downward posts",
+          "note": "No modern score assigned."
+        },
+        "frejd": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "marriage": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "from": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "to": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "remarks": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "margins": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        }
+      },
+      "annual_fields": {
+        "1847": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "n/N-like mark"
+          },
+          "communion": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1848": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "n/N-like mark"
+          },
+          "communion": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1849": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "n/N-like mark"
+          },
+          "communion": {
+            "state": "TRANSCRIBED",
+            "raw": "24/6"
+          }
+        },
+        "1850": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "n/N-like mark"
+          },
+          "communion": {
+            "state": "TRANSCRIBED",
+            "raw": "9/6"
+          }
+        },
+        "1851": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "n/N-like mark"
+          },
+          "communion": {
+            "state": "TRANSCRIBED",
+            "raw": "6/7"
+          }
+        },
+        "1852": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "n/N-like mark"
+          },
+          "communion": {
+            "state": "TRANSCRIBED",
+            "raw": "21/3"
+          }
+        },
+        "1853": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "n/N-like mark"
+          },
+          "communion": {
+            "state": "TRANSCRIBED",
+            "raw": "6/3 and6/11"
+          }
+        },
+        "1854": {
+          "forhor": {
+            "state": "TRANSCRIBED",
+            "raw": "n/N-like mark"
+          },
+          "communion": {
+            "state": "TRANSCRIBED",
+            "raw": "2/7"
+          }
+        }
+      },
+      "context": "Same parental household with StinaCajsa/LarsJohan corrected forms and Indahl ditto. Existing parental ownorigin/date conflicts remain; childidentity not inferred from a normalized patronymic."
+    },
+    {
+      "unit": 5,
+      "image_id": "C0033073_00134",
+      "source": "S-0360@1",
+      "record": "R-2feea08ce24e0d5e40d9734d@1",
+      "locator": "Högsjö s132, ownnumber3",
+      "headers": [
+        "Nummer",
+        "Skatt",
+        "1Personernas namn",
+        "2Yrke:Stam:Lyte:",
+        "3–4Född år/mån.ochdag",
+        "Döpt",
+        "5Födelseort (församling i län,stad)",
+        "6–7Äktenskap Gift/Enkl.ellerEnka",
+        "8Koppor",
+        "9Läserochförstår",
+        "10Konfirmerad",
+        "11I Sv.Kyrkan begått Nattv.",
+        "12Död årochdag",
+        "13Flyttadfrån förs.ilän,stad ellerpag.iboken",
+        "14Inflyttningens årochnummer",
+        "15Flyttadtill förs.ilän,stad ellerpag.iboken",
+        "16Utflyttningens årochnummer",
+        "17Frejdochsärskildaanteckningar",
+        "18Värnpligtsförhållanden",
+        "19FörhörochNattvardsgång1892/1897,1893/1898,1894/1899,1895/1900,1896/1901 eachF./N."
+      ],
+      "own_fields": {
+        "number": {
+          "state": "TRANSCRIBED",
+          "raw": "3"
+        },
+        "tax": {
+          "state": "TRANSCRIBED",
+          "raw": "check-like mark"
+        },
+        "name_role": {
+          "state": "TRANSCRIBED",
+          "raw": "Dalsten, Kajsa Märta Hu."
+        },
+        "occupation": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "birth": {
+          "state": "TRANSCRIBED",
+          "raw": "34 21/3",
+          "note": "1834-03-21"
+        },
+        "baptized": {
+          "state": "TRANSCRIBED",
+          "raw": "slash/dot mark"
+        },
+        "birthplace": {
+          "state": "TRANSCRIBED",
+          "raw": "ditto",
+          "note": "Carries husband Ind. (Indal) above."
+        },
+        "marriage": {
+          "state": "TRANSCRIBED",
+          "raw": "ditto",
+          "note": "Carries husband58 21/2 =1858-02-21."
+        },
+        "widow": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "koppor": {
+          "state": "TRANSCRIBED",
+          "raw": "v/check-like mark"
+        },
+        "reads_understands": {
+          "state": "TESTED_RESERVED",
+          "raw": "Försv.[?]",
+          "note": "Abbreviated raw grading word; no expanded modern proficiency claim."
+        },
+        "confirmed": {
+          "state": "TRANSCRIBED",
+          "raw": "slash/dot mark"
+        },
+        "communion_in_swedish_church": {
+          "state": "TRANSCRIBED",
+          "raw": "slash/dot mark"
+        },
+        "death": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "from": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "in_year_number": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "to": {
+          "state": "TESTED_RESERVED",
+          "raw": "faint strokes near row boundary",
+          "note": "No readable own destination; do not borrow next sonNilsPetter d.b.138."
+        },
+        "out_year_number": {
+          "state": "TESTED_RESERVED",
+          "raw": "faint/erased traces without legible date"
+        },
+        "frejd_notes": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "military": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        },
+        "margins": {
+          "state": "TESTED_BLANK",
+          "raw": null
+        }
+      },
+      "annual_fields": {
+        "1892_or1897": {
+          "F": {
+            "state": "TESTED_RESERVED",
+            "raw": "faint n-like trace"
+          },
+          "N": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1893_or1898": {
+          "F": {
+            "state": "TRANSCRIBED",
+            "raw": "n-like mark"
+          },
+          "N": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1894_or1899": {
+          "F": {
+            "state": "TESTED_RESERVED",
+            "raw": "faint mark"
+          },
+          "N": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1895_or1900": {
+          "F": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          },
+          "N": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        },
+        "1896_or1901": {
+          "F": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          },
+          "N": {
+            "state": "TESTED_BLANK",
+            "raw": null
+          }
+        }
+      },
+      "annual_limit": "Two printedyears share each column; no independently dated own entry identifies which year. Do not turn n-like marks into precise dates or continuous physical residence.",
+      "context": "Husband LarsPetterNilsson first row; own daughter/sons below. G.b.131 stands on husbandrow, not own written arrivaldate. NilsPetter outgoingd.b.138 and KatarinaPetronella Sä(t)tna/out97 annotations are separate ownrows; no transfer to mother. AndersNiklas existing adultfamily context retained, no new gate for relatives."
+    }
+  ],
+  "status": "PRIMARY_READ; independent comparison pending; tested reservations are source-quality findings, not source conflicts or untested flags.",
+  "scope": "Five exact original units only; all target ownfields tested. Stronger accepted readings reused; no blanket other-household-member fullfield closure."
+}

@@ -1,0 +1,53 @@
+import json,hashlib,datetime
+from pathlib import Path
+p=Path('evaluations/T-0830'); imp=p/'implementation'; out=p/'independent'
+def read(f):return json.loads(f.read_text())
+def sha(f):return hashlib.sha256(f.read_bytes()).hexdigest()
+def jhash(x):return hashlib.sha256(json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+op=read(imp/'operation-candidate-v1.json'); tab=read(imp/'individual-consequence-table-candidate-v1.json'); req=read(imp/'individual-rebind-review-request-v1.json'); idx=read(imp/'field-disposition-index-candidate-v1.json'); groups=read(out/'consolidated-consequence-requirements-v2.json'); cm={c['id']:c for c in op['changes']}; tm={r['object_id']:r for r in tab['objects']}
+assets=['R-45b297a69f523f7abcb7fdf5','R-dd31c2714bc0d4606128259b','R-2feea08ce24e0d5e40d9734d','R-d6ef52c986e2385ad3234a8b']
+findings=[{'id':'F1','severity':'BLOCKING_PACKAGE','objects':assets,'field':'assets','finding':'Four existing exact original asset rows become empty arrays. This is loss of current source preservation, despite historical rows remaining.','required':'Restore exact baseline record_asset and record_media arrays, including region and order. Existing three local originals and accepted C4 own1852 original must remain attached. Rebind request record snapshots also omit assets/media; corrected final proof must use complete native rows.'},{'id':'F2','severity':'BLOCKING_PACKAGE','finding':'Repeated qualify() wraps newly composed T0830 current clauses inside historical separators, including current gate, copy closure, marriage precision and boundary qualifications.','required':'Collect all newly settled current clauses before one separator and preserve untouched exact old native text as its suffix. Do not remove older historical context already present within that old suffix. Apply to all affected body/markdown/caveat/reading_note fields; no rewriting original evidence history.'},{'id':'F3','severity':'BLOCKING_FINAL_NATIVE_STATE','objects':['IDENTITY-REVIEW-T0830-0134','IDENTITY-REVIEW-T0830-0316'],'field':'data.body','finding':'Current native review bodies copied proposed_identity_review/proposed_tree_effect and STYRKT_ON_MEDIA_PRESERVATION/STYRKT_ON_INDEPENDENT_REVIEW rather than final settled criteria.','required':'Use settled identity_review/tree_effect keys and PK12 STYRKT for both under this source/consequence review; P0134 PK11 STYRKT with exact two-media preservation verified in final stage. Preserve primary proposals as earlier artifacts. P0316 PK11 remains EJ STYRKT, identity failed, tree waiting, exact unread C0984 copy rest. This is authorization of precise settled wording, not final package approval.'}]
+source_reason={
+'R-2c30f50bb85f191a282e6867':'C5 own Anna Christina 21/25 March1852 full row: mother33, qualified18/4, reserved witnesses/place, no own29; same registration chain.',
+'R-d6ef52c986e2385ad3234a8b':'Accepted C4 own1852 short positive birth row is reused, not reread; independent evidence is not multiplied. Restore its existing image asset.',
+'R-45b297a69f523f7abcb7fdf5':'C0436 own Cajsa Märta daughter row 1834-03-21 and all annual/blank/reserved fields tested; no birthplace column or side-person full-contract closure.',
+'R-dd31c2714bc0d4606128259b':'C0437 own Cajsa Märta daughter row and Indahl ditto/annual dates fully tested; preserve tested ambiguity and accepted contextual month limits.',
+'R-2feea08ce24e0d5e40d9734d':'C0512 own Dalsten, Kajsa Märta, Hu. row with registered marriage ditto, paired annual headers and tested faint marks; no certain wedding date or side-row closure.',
+'R-ab67d38b58e92a0c9b0329d2':'C4 image14 other Anna Christina 9/15May1853, mother Johanna Jonsdotter, kept distinct; positive row not target identity.',
+'R-f9c30454d2afaad13941d205':'C4 image14 Augusta Mathilda9/16October1853, JohanErsson/EvaLottaAndersdotter, Kallvik place control only; no kinship inferred.',
+'R-35c4ddb8e024b328b9e6c853':'Accepted image12 final19March1852 boundary retained without new image read; does not cover own21March post or whole year.',
+'S-0121':'Same C4 volume, source metadata only; exact21 displayed1853 rows17January–12November/lastbapt20November, not annual negative; C4/C5 dependent.',
+'S-0122':'Same C5 volume, exact newly preserved image13 and accepted image12 boundary separately scoped; no independent duplicate evidence.'}
+rows=[]
+for n,r in enumerate(req['exact_rebind_requests']):
+ dep=r['dependent'];basis=r['exact_old_edge']['object'];b=r['basis_candidate'];d=r['dependent_candidate'];assert b==cm[basis] and d==cm[dep]
+ # Compare complete semantic old objects, explicitly account for request's omitted record arrays.
+ for key,oid in [('dependent_full_old',dep),('basis_full_current',basis)]:
+  a=r[key];z=tm[oid]['old_native'];assert all(a.get(k)==v for k,v in z.items() if k not in ['assets','media'])
+ reason=source_reason.get(basis)
+ if reason is None:
+  bd=b['data']
+  if b['kind']=='mention':reason=source_reason[bd['record_id']]+' Exact mention/role or witness glyph reservation persists; same referent, no new person identification.'
+  elif basis=='O-P-0134-C1041-C5-birth':reason=source_reason['R-2c30f50bb85f191a282e6867']+' Older18April churching interpretation remains explicitly qualified; no new printed heading inferred.'
+  elif basis=='E-other-P-0215-churching1852':reason='Same accepted mother-event endpoint and exact18April notation retained; source function explicitly qualified as earlier churching interpretation, not newly printed heading.'
+  else:raise ValueError(basis)
+ rows.append({'index':n,'dependent':dep,'old_edge':r['exact_old_edge'],'new_edge':dict(r['exact_old_edge'],version=r['proposed_basis_version']),'decision':'APPROVE_EXACT_REBIND','source_bound_reason':reason,'dependent_claim_scope':d['data'].get('property',d['data'].get('criteria',d['data'].get('role',d['kind']))),'dependent_candidate_sha256':jhash(d),'basis_candidate_sha256':jhash(b),'complete_old_dependent_sha256':jhash(tm[dep]['old_native']),'complete_old_basis_sha256':jhash(tm[basis]['old_native']),'conditions':'Only this exact edge, no latest-version rule; current final package must repair F1/F2/F3 as applicable and retain all other semantics/history. Final staged package approval remains separate.'})
+fields=[]
+sep='Historisk tidigare ordalydelse/läsomfång (ovan angiven följd ersätter endast exakt den frågan):'
+for n,f in enumerate(tab['fields']):
+ issues=[]
+ if f['field']=='assets' and f['object_id'] in assets:issues.append('F1')
+ val=f['new_value'];oldval=f['old_value']
+ if isinstance(val,str) and isinstance(oldval,str) and val.endswith(oldval):
+  prefix=val[:-len(oldval)] if oldval else val
+  if prefix.count(sep)>1:issues.append('F2')
+ if f['object_id'].startswith('IDENTITY-REVIEW-'):issues.append('F3')
+ fields.append({'index':n,'object':f['object_id'],'field':f['field'],'old_sha256':jhash(oldval),'new_sha256':jhash(val),'disposition':'REPAIR_REQUIRED' if issues else 'SOURCE_SEMANTICS_CONCUR','findings':issues,'scope':'Exact source/consequence only; final complete native preservation and actual pending dispositions remain required.'})
+targets=[]
+ret={r['object']:r for r in idx['explicit_retains']}
+for g in groups['groups']:
+ for t in g['targets']:
+  oid=t['revision'].rsplit('@',1)[0];assert oid in cm or oid in ret
+  targets.append({'group':g['group'],'object':oid,'target_fields':t['fields'],'disposition':'AMENDMENT_PRESENT_SUBJECT_TO_FINDINGS' if oid in cm else 'RETAIN_CONFIRMED','source_disposition':g['decision']})
+report={'task':'T-0830','reviewer_role':'independent Astra source and consequence','date':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'PRELIMINARY_REVIEW_COMPLETE_REPAIRS_REQUIRED_NOT_FINAL_PACKAGE_APPROVAL','baseline_journal':505,'baseline_pending':0,'inputs':{str(f):sha(f) for f in [imp/'operation-candidate-v1.json',imp/'individual-consequence-table-candidate-v1.json',imp/'individual-rebind-review-request-v1.json',imp/'field-disposition-index-candidate-v1.json',out/'source-comparison-five-v2.json',out/'consolidated-consequence-requirements-v2.json',out/'source-concurrence-and-waiting-candidate-v1.json',p/'primary/source-decisions-v3.json',p/'primary/full-relevant-extraction-v2.json']},'work':{'candidate_objects':135,'field_consequences':403,'independent_unique_targets':126,'targets_amended':119,'targets_retained':7,'individual_numeric_rebinds':64,'new_originals_this_phase':0,'prior_original_first_units_reused':5,'new_source_units_unread':1,'external_calls':0,'canonical_writes':0,'independent_review_method':'Read unique complete new values and their exact field associations, compare primary full-field source payloads with independent settled readings, reuse previously read complete current bodies/metadata and 233 dependency objects, inspect each64 dependent/basis claim scope, verify candidate equality and full-old semantic equality. Request omissions of record arrays detected against full consequence table. No accepted source reread.'},'findings':findings,'individual_rebind_decisions':rows,'individual_field_dispositions':fields,'target_mapping':targets,'retains':idx['explicit_retains'],'protected_conclusions':{'P0134':'Proposed passed/supporting only after exact media/state/consequence final approval; legacy full-contract/LIFE unchanged.','P0316':'Failed/waiting solely remaining own C0984 image00199095_00032 copy preservation; accepted adult identity/descendant recorded_parent untouched.401 is access blockage, not negative search.','OWNER_CONFIRMED':'45 current objects and scope preserved; final stage proof required, no source conflict or downgrade proposed.','descendant_edges':'REL-parent-P0134-P0015 and REL-parent-P0316-P0254 retained CORROBORATED recorded_parent.','historical_search':'Old SEARCH-P0134-Ardala1851-1853 unchanged; new exact21row memory carries actual date/hash/providerunknown, no invented whole-year negative.','source_independence':'C4/C5 and household registration chains are not independent confirmations.','source_uncertainty':'Reserved witness glyphs/18April function/pairedannualyears/registered marriage date remain source-bound; no new uncertainty or inferred persons.'},'next':'Sol repairs finite3findings, implements exactly64 approved references in ordered candidate, then source/consequence delta and actual clone pending resolution review; final approval binds exact operations/media/stage/history/protectedstates. No canonical authorization from this preliminary report.'}
+f=out/'candidate-v1-independent-review-v1.json';f.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(f,sha(f));print('fields',len(fields),'edges',len(rows),'targetoccurrences',len(targets))

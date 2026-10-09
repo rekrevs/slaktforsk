@@ -1,0 +1,35 @@
+{
+  "task": "T-0830",
+  "date": "2026-10-09T14:10:53.009250+00:00",
+  "decision": "APPROVE_EXACT_V4_SOURCE_ROLE_DELTA_CONDITIONAL_ON_COMPLETE_NATIVE_SEARCH_PREFLIGHT",
+  "hashes": {
+    "evaluations/T-0830/implementation/operation-ordered-v3.json": "3df0d210d5143189913776aeca7715ab147de7aca443af23d58b0aafe3e4726e",
+    "evaluations/T-0830/implementation/operation-ordered-v4.json": "a121f75cd32b313fd35bb2f19f736303ff7011e252dc60e0e0085c8c7f1470f4",
+    "evaluations/T-0830/implementation/stage-v3/rejected-stage-proof.json": "80536f47ab1169db6b46c1fb3cfe3d043718de8f69c56fe11621a97f56d9bab4",
+    "evaluations/T-0830/independent/candidate-v3-search-envelope-review-v1.json": "fcb3dd6b36033cf4680135b059d2aeb907a070af95c45211a1f641c4e48939b4"
+  },
+  "exact_delta": {
+    "object": "SEARCH-T0830-P0134-C0005633-00014-1853-parentpair",
+    "edge_index": 0,
+    "old": {
+      "object": "S-0121",
+      "version": 2,
+      "role": "derived_from",
+      "note": "Actualread source@1 preserved in memory; exact same correctedsourcehead@2 currentscope amendment, provider_version unknown."
+    },
+    "new": {
+      "object": "S-0121",
+      "version": 2,
+      "role": "context",
+      "note": "Actualread source@1 preserved in memory; exact same correctedsourcehead@2 currentscope amendment, provider_version unknown."
+    },
+    "other_changes": "Operation ID only. Other134 objects, all64 reviewed numeric edges, all media and array order unchanged; one search all other fields unchanged."
+  },
+  "source_disposition": "CONCUR: S0121@2 supplies the exact model-source context for bounded C4 image14 search. context accurately expresses its function, adds no independent evidence vote and does not change observed result or scope. At-read S0121@1 and provider unknown remain explicit. Positive other-child/place record supports are unchanged.",
+  "failed_attempt": "V3 transaction rejected before journal commit, clone505/pending0 and unchanged canonical baseline proof read.",
+  "conditions": [
+    "Complete native search-memory validator-path preflight before another clone, as root directs.",
+    "Then exact orderedv4 fresh reversible clone only; review full actual pending requests and validators/protected history/media before final package approval.",
+    "No canonical authorization, no new original read, no task/scope expansion. P0316 remains failed/waiting on unread C0984 exact copy."
+  ]
+}

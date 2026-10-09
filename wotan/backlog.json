@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 832,
+  "next_id": 834,
   "tasks": [
     {
       "id": "T-0783",
@@ -9592,27 +9592,49 @@
     },
     {
       "id": "T-0830",
-      "summary": "Anna Christina/Cajsa Märta: fem exakta källrester för två anlinjegrindar",
+      "summary": "Anna Christina/Cajsa Märta: sex exakta källrester för två anlinjegrindar",
       "size": "L",
-      "status": "ONGOING",
+      "status": "BLOCKED",
       "after": [
         "T-0829"
       ],
       "priority": "CORE_IDENTITY",
-      "priority_basis": "PCD2026-10-09-005 ≥5anpersoner; actual3/≥5 efter505, PCR2026-10-09-003; P-0134→P-0015 ochP-0316→P-0254 gen5 balanserat. Exact2copies+3ownrows/fulloldscope+rest förestart, primär/separatAstra; dev-log.",
-      "phase": "PLANNING"
+      "priority_basis": "PCD2026-10-09-005 ≥5anpersoner; actual3/≥5 efter505, PCR2026-10-09-003; P-0134→P-0015 ochP-0316→P-0254 gen5 balanserat. Exact2copies+3ownrows/fulloldscope+rest förestart, primär/separatAstra; dev-log. Explicit bounded scope-v2 beforefetch: one actual C0984 P-0316 own1901copy/PK11rest; fixed6 only/max3fetch+3local, fullbefore5AC preserved; dev-log.",
+      "blocker": "Fem av sex originals enheter accepterade i journal506–507; P0134passed/supporting. Exakt P0316/C0984 own1901post10 bild00199095_00032 HTTP401/viewerlogin återstår; återbruk femaccepted utan omtag."
     },
     {
       "id": "T-0831",
       "summary": "Anlinjekörningens faktiska minstfemresultat och fullrest efter nästa två personer",
       "size": "S",
-      "status": "BLOCKED",
+      "status": "DONE",
       "after": [
-        "T-0830"
+        "T-0829"
       ],
-      "blocker": "Inväntar faktiskt acceptedT0830resultat eller konkret hinder; original0/native0 checkpoint och losslessfullrest, inte förhandsPASS.",
       "priority": "CORE_SUPPORT",
       "priority_basis": "PCD2026-10-09-005: faktiskräkning P-0051/P-0336/P-0338 plusP-0134/P-0316, samtidigt blockeradeP-0021/P-0339; aktivfullunion/äldreAC/restowner, firstactualresult/hindertrigger; dev-log."
+    },
+    {
+      "id": "T-0832",
+      "summary": "Anna Stina Strandlund: två lokala original för identitet och anlinje",
+      "size": "L",
+      "status": "READY",
+      "after": [
+        "T-0831"
+      ],
+      "priority": "CORE_IDENTITY",
+      "priority_basis": "PCD2026-10-09-005 minst fem; P-0272→P-0255, Kristina generation5. Exakt C0456 egenrad2 och C0658 post46; acceptedC0457 återbruk, inga nya fetches; full bounded dev-log."
+    },
+    {
+      "id": "T-0833",
+      "summary": "Anlinjekörningens faktiska fempersonresultat och bevarade fullrest",
+      "size": "S",
+      "status": "BLOCKED",
+      "after": [
+        "T-0832"
+      ],
+      "blocker": "Inväntar faktiskt accepted T0832 resultat eller dess konkreta hinder; dependencyguard måste preciseras uttryckligen före alternativtrigger.",
+      "priority": "CORE_SUPPORT",
+      "priority_basis": "PCD2026-10-09-005: faktiskräkning och aktiv fullrest efter P-0272; T0828 femton och T0830 en authrest, immutable gamla union/alla AC/innerowners. Dev-log."
     },
     {
       "id": "T-0798",

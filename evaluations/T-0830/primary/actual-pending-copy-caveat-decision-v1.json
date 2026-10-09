@@ -1,0 +1,92 @@
+{
+  "task": "T-0830",
+  "recorded_at": "2026-10-09T14:14:49.805406+00:00",
+  "role": "primary Astra finite actualpending source-copy correction",
+  "input": {
+    "path": "evaluations/T-0830/implementation/stage-v4/actual-pending-full-native-v1.json",
+    "sha256": "286bfac6085fa7fe9bcdf055720c7206910a3874e2fb9216557bb51af945f431"
+  },
+  "object": "READ-aff688277ca14239677e115c@1",
+  "full_old_native": {
+    "revision": {
+      "id": "READ-aff688277ca14239677e115c@1",
+      "object_id": "READ-aff688277ca14239677e115c",
+      "version": 1,
+      "operation_id": "T-0646/evidence-01-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Dokumenterad avgränsning och läshistorik i C-0151; ingen ny oberoende evidensröst.",
+      "caveat": "Äldre negativ avskrift är upphävd. C/5 bild 12 når bara 19 mars; den positiva C/5-posten ligger enligt C-1041 på bild 13 som saknas lokalt.",
+      "previous_id": null,
+      "kind": "assessment"
+    },
+    "data": {
+      "revision_id": "READ-aff688277ca14239677e115c@1",
+      "subject_id": "R-d6ef52c986e2385ad3234a8b",
+      "criteria": "legacy_record_boundary",
+      "outcome": "record_located",
+      "body": "C-0151: T-0132 hittar målpost i bevarad C/4-bild 13 och rättar felaktigt C/5-sökomfång till 19 mars. Två ursprungliga volymkontroller hålls skilda; inga positiva poster skapas på C/5-bild 12.\nSamma C/4-post behandlas mer utförligt i C-1041; ingen andra oberoende födelse av denna citation."
+    },
+    "origins": [
+      {
+        "revision_id": "READ-aff688277ca14239677e115c@1",
+        "unit_id": "203d86e5028591b6c61d3adb13591734cd2e94695f7415e87c7a32d794b2da64",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "revision_id": "READ-aff688277ca14239677e115c@1",
+        "unit_id": "ba14e9dad3d412386780e032cd940f72a24267aa66703690225a5e48177c3367",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+      },
+      {
+        "revision_id": "READ-aff688277ca14239677e115c@1",
+        "unit_id": "df518e3cc2679c1365c712e4285bfc3ce2385e0c2eedfcf65d0aaf07380970b0",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+      }
+    ],
+    "evidence": [
+      {
+        "revision_id": "READ-aff688277ca14239677e115c@1",
+        "basis_revision_id": "R-d6ef52c986e2385ad3234a8b@1",
+        "role": "derived_from",
+        "note": "Avser denna version av den återbrukade källposten."
+      }
+    ]
+  },
+  "decision": "CONCUR_NARROW_CURRENT_COPY_CAVEAT_AMENDMENT",
+  "exact_current_prefix": "T-0830: Den positiva egna C/5-posten på C0005634_00013 är nu bevarad med SHA-256 47b64838bbf5420dc451ae5f32ed6f42ab2b3d508c02fc206401752b35c55907 och fullständigt prövad för Anna Christina. Uppgiften att just denna kopia saknas är ersatt. C/5-bild12:s gräns19mars och den accepterade egna C/4-posten på bild13 återbrukas oförändrade; dessa två bilder är inte nyöppnade här. Parallellregistreringarna är inte oberoende händelsebelägg.",
+  "field_rules": {
+    "revision.caveat": "Prepend exactcurrentprefix, one clearly historical separator, entireoldcaveat verbatim.",
+    "data.body": "Existing whole body remains correct; RETAIN verbatim. Same prefix may additionally precede it if implementation requires clearcurrentcontext, but no body proposition is withdrawn.",
+    "data.subject_id_criteria_outcome": "RETAIN exact existing values; no status/gate change.",
+    "origins_disposition_evidence_status": "RETAIN all existingmetadata/origins/order."
+  },
+  "evidence_dispositions": [
+    {
+      "before": "R-d6ef52c986e2385ad3234a8b@1",
+      "after": "R-d6ef52c986e2385ad3234a8b@2",
+      "role": "derived_from",
+      "note": "Avser denna version av den återbrukade källposten.",
+      "decision": "APPROVE_EXACT_REBIND_FOR_THIS_NEW_REVISION",
+      "reason": "Same accepted C4image13 post; revisedmetadata closes adjacentC5copy claim, no new C4read."
+    },
+    {
+      "add": "AUDIT-T0830-unit-1@1",
+      "role": "supports",
+      "note": "Exakt bevarad och fullprövad egen C/5-post; samma registreringskedja, ingen ny oberoende evidensröst.",
+      "decision": "APPROVE_EXACT_ADDED_SOURCE_SUPPORT",
+      "reason": "Actualunit1 audit subjects R2c30@2 ownC5image13; supports onlynewcopy/read claim, not proof of allC4fields."
+    }
+  ],
+  "birth_event_principle": "Kopierester ger ingen ny personosäkerhet is a true bounded principle. No mandatory birth/event revision from this wording alone. If exact event fullbody/caveat conveys a still-current two-copy debt, source-approved narrow closure may be added after exactfield review; date/place/grade unchanged. This artifact does not preapprove unseen eventpayloads.",
+  "limits": "Source-only concurrence. Sol exact operation and independent actualpending/fullpackage review remain required. No new original or source interpretation.",
+  "work": {
+    "new_originals": 0,
+    "external_calls": 0,
+    "native_writes": 0,
+    "source_copy_caveats_reviewed": 1
+  }
+}

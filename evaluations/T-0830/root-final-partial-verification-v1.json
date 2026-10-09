@@ -1,0 +1,59 @@
+{
+  "task": "T-0830",
+  "accepted_partial_at": "2026-10-09T14:31:29.385760+00:00",
+  "journal": 507,
+  "pending": 0,
+  "approved_manifest_sha256": "64b1bedbbb8c3b7aeb88a6ce5b618a320c56d6e2445e80189e76d691479416b0",
+  "independent_approval_sha256": "438a04bfb013427b9356373d58d9cf05a44dd76292866d74c035f33e441559a4",
+  "actual_stage_equality": {
+    "path": "evaluations/T-0830/root-actual-stage-equality-v1.json",
+    "sha256": "584e7862f81fdc547f127e11b2c08d4457d43c7dde205ec27c72df47250dda15",
+    "tables": 38
+  },
+  "checks": {
+    "root-verify-after.json": {
+      "ok": true,
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    "root-verify-assets-after.json": {
+      "ok": true,
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    "root-verify-source-after.json": {
+      "ok": true,
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a"
+    }
+  },
+  "archive_assertions": 5130,
+  "native_changes": 136,
+  "changed_field_rows": 439,
+  "dependency_resolutions": 201,
+  "read_units": 5,
+  "fixed_units": 6,
+  "new_originals": 2,
+  "archived_original_reuses": 3,
+  "new_negative_memory_receipts": 1,
+  "established_in_owner_run": [
+    "P-0051",
+    "P-0336",
+    "P-0338",
+    "P-0134"
+  ],
+  "person_count_in_owner_run": 4,
+  "remaining_task_units": [
+    {
+      "person": "P-0316",
+      "image": "00199095_00032",
+      "source": "S-0511@1",
+      "reason": "HTTP401 + exact viewer login; no original read/negative"
+    }
+  ],
+  "task_complete": false,
+  "owner_minimum_five_met": false,
+  "actual_pedigree_proof": {
+    "path": "evaluations/T-0830/root-pedigree-inventory-proof-v1.json",
+    "sha256": "a4865b2b8855e8a3b5a7a9c8a429f887888a5590a6741499857a4bbc63c15048"
+  },
+  "live_sha256": "a77cd5669b32e9cb0225f750b636fd40290b712406d517a1c9435c509463f71f",
+  "administrative_repair": "Initial archive validation found two ONGOING tasks and reflected that error in frozen inventory equality. T0831 planning status corrected BLOCKED on real pending actual-result guard; rerun PASS with no archive/dashboard write."
+}
