@@ -6058,3 +6058,15 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Evidence: evaluations/T-0824/decision-and-successor-v1.json och root-final-verification-v1.json; accepted T0796 journal498–499.
 - Resulting Wotan tasks: T0824 DONE; T0797 READY/inteutförd; T0825 READY/inteutförd.
 - Revisit when: Första accepterade T0797-resultat ELLER konkret hinder före annan/djupare passage. Separat framtida utförandemandat krävs; detta beslut beställer endast T0824.
+
+
+## PCD-2026-10-09-004 — T0797 beställd
+
+- Record type: decision
+- Date: 2026-10-09
+- Owner: Sverker Adam Janson
+- Decision: Ägarens ”kör den” efterT0824 beställer exaktT0797/P0007 med Sol.
+- Disposition: approved
+- Scope: Tre fasta metadata-routes, högst2faktiska namngivnaingångar totalt perroute,0personoriginal; fulla äldreAC/ägare/OWNER består. Kärnpåverkande fynd tillAstra före beroende ändring. Ingen annan taskexecution.
+- Resulting Wotan tasks: T0797.
+- Revisit when: Första accepterade resultat ELLER konkret hinder bevaras hosT0825; ingen automatisk checkpoint-/källserie.

@@ -1,0 +1,63 @@
+{
+  "baseline_head": 499,
+  "stage_head": 501,
+  "stage_pending": 0,
+  "old_heads_changed": [
+    "P-0007/Q-02",
+    "THEME-P-0007-SAM",
+    "P-0007/Q-03",
+    "PATH-P-0007-KP-03",
+    "KEY-P-0007-61b77d7b301e",
+    "KEY-P-0007-1a11bf2908b0",
+    "KEY-P-0007-8b6bca962679",
+    "PATH-P-0007-KP-02",
+    "PATH-P-0007-KP-06",
+    "THEME-P-0007-ARB",
+    "THEME-P-0007-EKO"
+  ],
+  "new_objects": [
+    "S-T0797-R1-CFN",
+    "SEARCH-T0797-R1-CFN",
+    "S-T0797-R1-TAM",
+    "SEARCH-T0797-R1-TAM",
+    "S-T0797-R2-PRV",
+    "SEARCH-T0797-R2-PRV",
+    "S-T0797-R2-PoIT",
+    "SEARCH-T0797-R2-PoIT",
+    "S-T0797-R3-RA",
+    "SEARCH-T0797-R3-RA",
+    "S-T0797-R3-SKV",
+    "SEARCH-T0797-R3-SKV",
+    "AUDIT-T0797-metadata-routing"
+  ],
+  "untouched_old_head_count": 44524,
+  "protected_kinds_unchanged": true,
+  "owner_heads_unchanged": true,
+  "review_gate_heads_unchanged": true,
+  "historical_rows_unchanged": {
+    "revision": true,
+    "source": true,
+    "search": true,
+    "assessment": true,
+    "question": true,
+    "origin": true,
+    "dependency": true,
+    "operation_payload": true
+  },
+  "mechanical_proof_corrections": [
+    "Initial proof mistakenly counted all assessment-kind metadata paths/keys/themes as review grades; assertion caught this, no stage change. Correct check uses exact review criteria.",
+    "Current_revision is a view with no rowid; removed invalid query ordering and uses full-row multisets for history."
+  ],
+  "operations": [
+    {
+      "path": "evaluations/T-0797/metadata-routing-operation-v1.json",
+      "sha256": "1d5f8f67cbbb75de555544e06a99e52f6ef087d5b99bb7c74638384a0fa50782"
+    },
+    {
+      "path": "evaluations/T-0797/individual-life-retains-operation-v1.json",
+      "sha256": "7eed19a2b2e3531a4340c4147c149a16d1e30f0d3f19e12f5ca63d2efe5737c0"
+    }
+  ],
+  "stage_sha256": "b9d648d4e405b78c254eef4e32050ec9ce1d6f5abcd1ebd991a718e53b22cb8d",
+  "stage_heads_semantic_sha256": "dbf264ac151bce5b32cb45cd0e40f7cf8177dad8bc5785ad2f0da33fb91ae84a"
+}

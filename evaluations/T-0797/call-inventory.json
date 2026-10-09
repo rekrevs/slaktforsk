@@ -1,0 +1,206 @@
+{
+  "named_entrypoints_by_route": {
+    "R1": [
+      "CFN corporate metadata",
+      "TAM SIF metadata"
+    ],
+    "R2": [
+      "RA PRV name-file metadata",
+      "KB/Libris PoIT collection metadata"
+    ],
+    "R3": [
+      "RA probate metadata",
+      "Skatteverket custodian access metadata"
+    ]
+  },
+  "actual_tool_calls": 8,
+  "calls": [
+    {
+      "receipt": "evaluations/T-0797/R2-PRV-receipt.json",
+      "sha256": "e0fdbd1d5d3a56cebfef3b322a0d61dc1dabf91f9a50095cdaedcc085dcd9241",
+      "args": {
+        "keyword": "Patent registreringsverket namnärenden",
+        "offset": 0,
+        "limit": 10,
+        "only_digitised": false,
+        "dedup": false,
+        "research_context": "T-0797 P-0007 metadata-only archive/custodian routing; no personal decision or probate original."
+      },
+      "received_at": "2026-10-09T09:37:10.895Z"
+    },
+    {
+      "receipt": "evaluations/T-0797/R3-RA-receipt.json",
+      "sha256": "11698c0ebaaba51af81e9faabe8ff429d6384ee2955d91c091949bce9802a972",
+      "args": {
+        "keyword": "Bouppteckningar",
+        "offset": 0,
+        "limit": 10,
+        "only_digitised": false,
+        "dedup": false,
+        "research_context": "T-0797 P-0007 metadata-only archive/custodian routing; no personal decision or probate original."
+      },
+      "received_at": "2026-10-09T09:37:13.390Z"
+    },
+    {
+      "receipt": "evaluations/T-0797/web-discovery-receipt.json",
+      "sha256": "5507f0fe5d560aca76989628f422a70da4332586a9d8ef79876016d0812c934a",
+      "args": {
+        "search_query": [
+          {
+            "q": "site.naringslivshistoria.se Scania arkiv"
+          },
+          {
+            "q": "site.tam-arkiv.se SIF arkiv"
+          },
+          {
+            "q": "site.kb.se Post Inrikes Tidningar 1950 digital"
+          },
+          {
+            "q": "site.skatteverket.se kopia bouppteckning 1 juli 2001"
+          }
+        ],
+        "response_length": "long"
+      },
+      "received_at": "2026-10-09T09:37:24.218Z"
+    },
+    {
+      "receipt": "evaluations/T-0797/web-open1-receipt.json",
+      "sha256": "091cb84fe7294541ac918af2f0d4f113375d6b08801cb28087672783a0956425",
+      "args": {
+        "open": [
+          {
+            "ref_id": "https://naringslivshistoria.se/sok-i-arkiven/digitala-lasesalen/"
+          },
+          {
+            "ref_id": "https://tam-arkiv.se/"
+          },
+          {
+            "ref_id": "https://riksarkivet.se/utforska-och-bestall/bestall-kopior-och-undersokningsuppdrag/bouppteckningar"
+          },
+          {
+            "ref_id": "https://www.skatteverket.se/privat/folkbokforing/narenanhorigdor/bouppteckning/bestallkopiapabouppteckning.4.12815e4f14a62bc048f10849.html"
+          }
+        ],
+        "response_length": "long"
+      },
+      "received_at": "2026-10-09T09:37:48.179Z"
+    },
+    {
+      "receipt": "evaluations/T-0797/web-open2-receipt.json",
+      "sha256": "b03b9e7c261986e821362bc8263fe4e90301408d4c6efea30d8a4f20d72c17cd",
+      "args": {
+        "click": [
+          {
+            "ref_id": "turn15view0",
+            "id": 23
+          },
+          {
+            "ref_id": "turn15view1",
+            "id": 2
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://sok.riksarkivet.se/bouppteckningar"
+          },
+          {
+            "ref_id": "https://www.skatteverket.se/privat/folkbokforing/narenanhorigdor/bouppteckning/bestallkopiapabouppteckning.4.12815e4f14a62bc048f10849.html?q=behandling+hos+naprapat"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"Post- och inrikes tidningar\" 1950",
+            "domains": [
+              "libris.kb.se"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "received_at": "2026-10-09T09:38:00.167Z"
+    },
+    {
+      "receipt": "evaluations/T-0797/web-open3-receipt.json",
+      "sha256": "789d722d04be6769668cb699bddc52dbc9c57f0043b86b45371221bdcc496fd2",
+      "args": {
+        "click": [
+          {
+            "ref_id": "turn16view2",
+            "id": 35
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn16view3",
+            "lineno": 50
+          }
+        ],
+        "response_length": "long"
+      },
+      "received_at": "2026-10-09T09:38:08.280Z"
+    },
+    {
+      "receipt": "evaluations/T-0797/web-open4-receipt.json",
+      "sha256": "c6cab17a200e1c74d7e675807dd150c20464e5cbc032cdf2fd12c48fed3b7323",
+      "args": {
+        "find": [
+          {
+            "ref_id": "turn17view1",
+            "pattern": "Scania"
+          },
+          {
+            "ref_id": "turn17view1",
+            "pattern": "Vabis"
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn17view0",
+            "id": 208
+          }
+        ],
+        "response_length": "long"
+      },
+      "received_at": "2026-10-09T09:38:25.625Z"
+    },
+    {
+      "receipt": "evaluations/T-0797/web-targeted-receipt.json",
+      "sha256": "5eb92679d5561dcdf4a43b5a00d8e7d4bd33abd13ec064f7fe7a8bf071fb966f",
+      "args": {
+        "search_query": [
+          {
+            "q": "Scania",
+            "domains": [
+              "naringslivshistoria.se"
+            ]
+          },
+          {
+            "q": "SIF arkiv",
+            "domains": [
+              "tam-arkiv.se"
+            ]
+          },
+          {
+            "q": "\"Post- och inrikes tidningar\" katalog",
+            "domains": [
+              "libris.kb.se"
+            ]
+          },
+          {
+            "q": "bouppteckningar 2001",
+            "domains": [
+              "riksarkivet.se"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "received_at": "2026-10-09T09:37:35.232Z"
+    }
+  ],
+  "extra_failed_copy_attempt": "Python urllib exact linked CFN PDF; DNS failure,0bytes; not an additional named entrypoint",
+  "personal_originals": 0,
+  "orders_contacts_purchases_accounts": 0,
+  "actual_web_request_items": 22,
+  "actual_mcp_calls": 2
+}
