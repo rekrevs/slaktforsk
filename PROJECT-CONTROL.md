@@ -6004,3 +6004,31 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Scope: Befintligt P0003/P0042/P0043 Flen1923–1930, högst2volymdelar/3personbundna adressuppslag, fulla gamla AC/återbruk. Modellregel PCD005; exakt kärnpåverkande fynd till Astra. Ingen annan taskexecution följer.
 - Resulting Wotan tasks: T-0228.
 - Revisit when: Första accepterade resultat ELLER konkret hinder bevaras som T0823-trigger; ingen automatisk T0823-execution.
+
+
+## PCD-2026-10-09-001 — T0823 beställd
+
+- Record type: decision
+- Date: 2026-10-09
+- Decides review: PCR-2026-10-08-006 och accepterad T0228-resultattrigger; direkt ägarbeställning.
+- Owner: Sverker Adam Janson
+- Decision: Ägaren ”kör på med t-0823” beställer exakt checkpointens femAC.
+- Disposition: approved
+- Scope: Original0/native0, ingen160/130/30-omprövning eller annan taskexecution. Förlustfritt följdansvar är planeringsleverans.
+- Resulting Wotan tasks: T-0823.
+- Revisit when: Checkpointens beslut; nästa beställda avgränsade källpassage.
+
+## PCR-2026-10-09-001 — Nästa kärnlivsbild efter olöst Flen-brygga
+
+- Record type: review
+- Date: 2026-10-09
+- Mode: checkpoint
+- Trigger: T0228 faktiskt accepterad journal496–497/pending0 och T0823 separat beställd.
+- Control judgement: continue, preserve
+- Current gate: Tvåmellanvolymdelar och ettfolioprov gav inga målpersonposter eller ny säker Flenhänvisning; ingen ny identitets-/föräldramotsägelse. Familjens1923–1930hushåll/omsorg består som öppet biografiskt behov, inget källslut. Tidigare acceptedfullrest/grindbedömningar återbrukas utan nyskapat PASS eller generellt nytt failedföreträde.
+- Options: RepeteraFlen utan nyckel avstår vi från; automatisk fullrestpromotion saknar nytt sakskäl; nästa redan sakprövade LIFE-slot kvarstår. Maj/T0797 och senare sidor behåller sin planerade ordning.
+- Recommendation: T0796 nästa med Sol: ArneP0003:s två fasta metadata-routes för1951/1948–70registreringsrouting och möbelrestaurering/Sesam1950–1993; högst2ingångar totalt perroute,0personoriginal. Full äldre scope/AC bevarade. Kandidatjurisdiktion och C0876LEAD blir inga ownerfakta. Exakt kärnpåverkande fynd till Astra före beroende ändring.
+- Owner decision required: none för beställd checkpoint; separat framtida utförandemandat krävs förT0796/T0824.
+- Evidence: evaluations/T-0228/root-actual-final-verification-v1.json; evaluations/T-0823/decision-and-successor-v1.json; immutableT0821fulltransfer/T0822overlay; fullT0796log.
+- Resulting Wotan planning: T0824 faktiskt allokerad aktiv förlustfri ytterägare för helaunionen, Emma/Axelrester och exaktaFlenfrågor/återstart. Ingen originaltask beställd, inga andra promotions eller omklassningar.
+- Revisit when: Första accepteradeT0796resultat ELLER konkret hinder före annan/djupare passage, inget DONE/PASS-krav. Ingen automatisk checkpoint-/källserie.
