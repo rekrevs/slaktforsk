@@ -6045,3 +6045,16 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Scope: Fulla gamla R1/R2metadata-routes, högst2faktiska ingångar totalt perroute,0personoriginal. ModellfördelningPCD005; kärnpåverkande fynd tillAstra. Ingen annan taskexecution följer.
 - Resulting Wotan tasks: T-0796.
 - Revisit when: Första accepterade resultat ELLER konkret hinder bevaras förT0824; ingen automatisk checkpointexecution.
+
+
+## PCD-2026-10-09-003 — T0824 beställd och nästa bounded kärnuppgift
+
+- Record type: decision
+- Date: 2026-10-09
+- Owner: Sverker Adam Janson
+- Decision: Ägarens ”kör den” beställer exakt T0824 efter redovisad T0796. Disposition approved för checkpointens femAC; original0/native0, ingen ny källtolkning eller annan taskexecution.
+- Result: T0797/P0007 väljs som nästa befintliga närgenerations-LIFE-slot. T0796 ändrar ingen identitet/föräldrarelation och ger ingen säker ny personoriginalrouting som kräver företräde. Fulla tre metadata-routes/caps/AC består; tidigare C0924/gravkort/egna accepterade register återbrukas. Sol enligt PCD005 och exakt kärnpåverkande fråga till Astra.
+- Preservation: T0825 faktiskt allokerad aktiv förlustfri ytterägare för immutablefull160/appendix/current30/fyrpersons-overlay, alla äldre exklusiva scopes/AC och Emma/Axel/Flen/ArneR1R2-rester. Ingen automatisk DEFERREDpromotion, djupvåg eller livsbildsPASS.
+- Evidence: evaluations/T-0824/decision-and-successor-v1.json och root-final-verification-v1.json; accepted T0796 journal498–499.
+- Resulting Wotan tasks: T0824 DONE; T0797 READY/inteutförd; T0825 READY/inteutförd.
+- Revisit when: Första accepterade T0797-resultat ELLER konkret hinder före annan/djupare passage. Separat framtida utförandemandat krävs; detta beslut beställer endast T0824.

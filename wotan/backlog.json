@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 825,
+  "next_id": 826,
   "tasks": [
     {
       "id": "T-0783",
@@ -9524,7 +9524,7 @@
       "id": "T-0824",
       "summary": "Avgränsad checkpoint efter Arnes metadatarouting med fullrest bevarad",
       "size": "S",
-      "status": "READY",
+      "status": "DONE",
       "priority": "CORE_SUPPORT",
       "priority_basis": "T0823: exakt P0003/T0796 två fasta routes och bevarade P0003/P0042/P0043Flen samt P0241/P0246/full160. Original0/native0, ingen sourceaudit.",
       "after": [],
@@ -9538,6 +9538,16 @@
       "summary": "P-0007: avgränsad livsbildsrouting, metadata endast",
       "priority": "CORE_LIFE",
       "priority_basis": "T-0791 AC4 och PCD-2026-10-05-002: exakt P-0007, fasta metadatafrågor/ingångsgräns i dev-log; självständigt sakprövat v2-scope. Registrering ger inget utförandemandat."
+    },
+    {
+      "id": "T-0825",
+      "summary": "Avgränsad checkpoint efter Majs metadatarouting med fullrest bevarad",
+      "size": "S",
+      "status": "READY",
+      "priority": "CORE_SUPPORT",
+      "priority_basis": "T0824: exakt P0007/T0797 tre fasta metadata-routes och bevarad P0003R1/R2/Flen samt P0241/P0246/full160. Original0/native0, ingen sourceaudit.",
+      "after": [],
+      "note": "Aktiv förlustfri ytterplaneringsägare; första accepterade T0797-resultat ELLER konkret hinder före annan/djupare passage. Separat utförandemandat krävs."
     },
     {
       "id": "T-0798",
