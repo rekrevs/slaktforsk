@@ -1,0 +1,36 @@
+{
+  "task": "T-0826",
+  "state": "mechanical inventory ready; awaiting primary settled instructions",
+  "canonical_writes": false,
+  "source_interpretation": false,
+  "independent_candidate_transmission": false,
+  "baseline": {
+    "journal": 501,
+    "pending": 0
+  },
+  "scan": {
+    "current_objects": 44548,
+    "matched_objects": 2826,
+    "matching_fields": 9509,
+    "scope": "exact five persons, their exact current supporting source IDs and locked source locators/names; raw typed fields, parsed JSON, revision caveats/outcomes/status and dependencies"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "method": "readCurrent expansion of every current object",
+      "outcome": "interrupted exit130 before outputs; inefficient"
+    },
+    {
+      "attempt": 2,
+      "method": "raw current typed queries per object",
+      "outcome": "completed during interrupt request; 2826/9509; superseded by cached equivalent scan"
+    },
+    {
+      "attempt": 3,
+      "method": "cached current joins and dependency mapping",
+      "outcome": "completed; native target payload hash identical to attempt2; semantic dependency leaf ordering differs; final baseline-lock-v1 binds final index"
+    }
+  ],
+  "preservation": "Full native rows, raw JSON array order, metadata, evidence and origins preserved. Prior task/full-union support linked by exact existing file hashes in baseline-lock-v1. No old task status, scope or acceptance criteria changed.",
+  "next": "Primary Astra settles source findings and each exact disposition; then consequence table and controlled clone operations. Independent original-first review remains unexposed to candidate claims."
+}

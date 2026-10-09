@@ -1,0 +1,36 @@
+{
+  "task": "T-0826",
+  "scope": "Mechanical preparation and settled implementation, source decisions separate Astra roles",
+  "source_units": 7,
+  "final_native_changes": 283,
+  "existing_revisions": 254,
+  "new_objects": 29,
+  "field_consequences": 641,
+  "final_actual_dependency_resolutions": 171,
+  "prior_review_requests": 185,
+  "additional_current_objects_repaired_after_pending_scan": 12,
+  "prior_requests_obviated_by_explicit_source_revision": 14,
+  "preserved_unrelated_current_heads": 44294,
+  "candidate_versions_preserved": 15,
+  "accepted_clone_candidates": [
+    "v12",
+    "v13",
+    "v14",
+    "v15"
+  ],
+  "failed_clone_attempts_preserved": [
+    "v9 unsafe storage symlink ancestors",
+    "v9b new-object expectedVersion omission",
+    "v11 dependency ordering stale basis"
+  ],
+  "implementation_readonly_retry": "v15 actualpending query locked during clone transaction; retried after completion, no DB mutation",
+  "model_usage": "Root collects actual new-turn worker usage after FINAL; unobservable local usage/elapsed not fabricated",
+  "baseline": {
+    "journal": 501,
+    "pending": 0
+  },
+  "finalstage": {
+    "journal": 503,
+    "pending": 0
+  }
+}

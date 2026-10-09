@@ -1,0 +1,120 @@
+{
+  "task": "T-0826",
+  "locked_at": "2026-10-09T10:43:37.882477+00:00",
+  "baseline_journal": 501,
+  "pending": 0,
+  "persons": [
+    "P-0021",
+    "P-0051",
+    "P-0336",
+    "P-0338",
+    "P-0339"
+  ],
+  "scope": "Adult identity and own descendant edge, with own birth/parents judged separately. No new generation/person merge. Existing accepted full readings reused; new original reads full relevant row/group including headers/dittos/margins.",
+  "new_units": [
+    {
+      "person": "P-0021",
+      "material": "Mofalla AI/4 1862–1876 Bjerg fol18 C0051781_00024",
+      "question": "Full Augusta/maternal household fields and conflict-bearing grouping; full original preservation.",
+      "limit": "Only named household with headers; no whole-book search"
+    },
+    {
+      "person": "P-0021",
+      "material": "Mofalla AI/5 1876–1890 Bjerg fol18 C0051782_00025",
+      "question": "Full Augusta row and first-marriage grouping, own annotations and source continuity.",
+      "limit": "Only named household with headers"
+    },
+    {
+      "person": "P-0051",
+      "material": "Lövånger AI/7 1826–1835 Bodan fol68 C0034164_00082",
+      "question": "Full candidate household/hint fol66 and own Barbru continuation. Kept separate from adult P0051.",
+      "limit": "One candidate household; no candidate fusion"
+    },
+    {
+      "person": "P-0051",
+      "material": "Lövånger AI/7 1826–1835 fol66; image locator to be verified via same manifest/page labels",
+      "question": "Test explicit fol66 routing from candidate household; does target identify same candidate/parent chain?",
+      "limit": "One referenced household page; no additional onward read"
+    },
+    {
+      "person": "P-0336",
+      "material": "Rotemansarkivet own post046010030010 1879–1884",
+      "question": "First of seven already read but incompletely extracted/preserved own registry representations; complete exact post.",
+      "limit": "One exact own post; references recorded but not followed beyond selected other post"
+    },
+    {
+      "person": "P-0336",
+      "material": "Rotemansarkivet own post434800120100 1885–1891",
+      "question": "Complete exact own post spanning family transition, with own role/date fields.",
+      "limit": "One exact own post; remaining five retain explicit debt"
+    },
+    {
+      "person": "P-0338",
+      "material": "Ljustorp BI/1 1850 entry12 C0033130_00015",
+      "question": "Full headings, date ditto anchor, exact source/destination fields; close specifically missing 1850 own-row context.",
+      "limit": "Full double page contextual read, full extraction only target/ditto anchors"
+    }
+  ],
+  "reuse": [
+    "P0021 C0023/C0024 accepted T0677 plus C0114/C0917",
+    "P0051 C0049 accepted T0781/C0200 accepted T0766, C0184 and C0569 entire own row",
+    "P0336 C0326/C0474 own family and C0601 accepted original chain; birth candidates remain separate",
+    "P0338/P0339 C0272 child own birth, C0374 family, C0592 own marriage; P0339 C0606 and C0607 accepted readings"
+  ],
+  "stopping": "Max two new units/person; source failures are access_problem not noll. No unused allowance transfer. P0336 seven-record remainder cannot be claimed closed by two records. No automatic five PASS.",
+  "inputs": [
+    {
+      "path": "evaluations/T-0826/preparation/P-0021-full.json",
+      "sha256": "90fbdbba3ea1102d68ee6b65dc30f82ec8412b59d2cf8b2010daf24ba5f16d90"
+    },
+    {
+      "path": "evaluations/T-0826/preparation/P-0021-support.json",
+      "sha256": "99a29f7bdedfba0c0376418585833052b74ce0598c6ebf148aeae34f127d1dd0"
+    },
+    {
+      "path": "evaluations/T-0826/preparation/P-0051-full.json",
+      "sha256": "a1acf957ec225d0ec6359e588a42a670d6efda332f1182fe6d133aff33643a40"
+    },
+    {
+      "path": "evaluations/T-0826/preparation/P-0051-support.json",
+      "sha256": "a9bee68f8e94c53129fb912e5276f589a552fe88ace8120836341e8b80e28186"
+    },
+    {
+      "path": "evaluations/T-0826/preparation/P-0336-full.json",
+      "sha256": "b385030997696bf5f90a7128a828bede356af882fca2e5c916dd63ae9e3d967d"
+    },
+    {
+      "path": "evaluations/T-0826/preparation/P-0336-support.json",
+      "sha256": "cda5f6a9d04e2ba253d7eff7fadefa1990a6d6e1ef2d302115980577f9af7cd5"
+    },
+    {
+      "path": "evaluations/T-0826/preparation/P-0338-full.json",
+      "sha256": "9b4dd4de466ed3e3147649d7c14a809b3f523141e5368d2d072c04c57f4ddf41"
+    },
+    {
+      "path": "evaluations/T-0826/preparation/P-0338-support.json",
+      "sha256": "80170d9b0bfbffb7c7f3e8536c286d7c09803ebcf534332ff6652a41523a59d5"
+    },
+    {
+      "path": "evaluations/T-0826/preparation/P-0339-full.json",
+      "sha256": "362caa1f3d3f5afea7f63245b0320edd43d7cc701059000c6541aaceb65c82f7"
+    },
+    {
+      "path": "evaluations/T-0826/preparation/P-0339-support.json",
+      "sha256": "8a90932f481d306f945346b458e15a0fba7845b5fecc46216f1081d29ae7ebba"
+    }
+  ],
+  "amendment": "Metadata-only correction before source decision: exact known native S0812 gives AI/4 1862–1876 and S0811 AI/5 1876–1890, not mistaken period labels in v1. Exact images/question/cap unchanged.",
+  "amendment_v3": {
+    "recorded_at": "2026-10-09T10:48:07.489011+00:00",
+    "decision_timing": "Primary notified root before fetching second own post; root accepted amendment. Original fixed first request was auto-display in public search response, not intended material expansion.",
+    "first_rotman_unit": "046010030010 1879–1884 replaces unvisited038540010180 1878",
+    "exact_remaining_five": [
+      "038540010180",
+      "045850170100",
+      "434840120030",
+      "434870120010",
+      "030080030190"
+    ]
+  }
+}

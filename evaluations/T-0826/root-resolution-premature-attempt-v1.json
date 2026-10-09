@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-09T11:48:13.615345+00:00",
+  "error": "database is locked",
+  "cause": "Root launched resolution command before source subprocess completion was confirmed; locked transaction rejected resolution before mutation.",
+  "source_completed_receipt": {
+    "unchanged": false,
+    "operation": "T-0826/ordered-seven-units-and-source-consequences-v15",
+    "changes": 283,
+    "pendingReviews": 171,
+    "journal": {
+      "written": 1
+    }
+  },
+  "receipt_field_note": "journal.written is file count, not sequence. Stage emptyjournal wrote502 historicalfiles; live wrote1newfile. Actual DB sequence independentlyread503 afterretry.",
+  "correction": "After source subprocess exit0, exact unchanged resolution operation retried successfully; live503/pending0; fullstagecomparison next.",
+  "journal": 503,
+  "pending": 0
+}

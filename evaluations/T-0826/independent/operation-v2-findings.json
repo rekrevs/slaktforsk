@@ -1,0 +1,59 @@
+{
+  "package": "operation-candidate-v2.json",
+  "sha256": "2b8f9f7fad5f0e346bbdb01118f482e347ca62a251cc8f958c6143d71651406d",
+  "reviewed_at": "2026-10-09T11:14:00.164191+00:00",
+  "approved": false,
+  "repaired": [
+    "P0287 protected review and relatives generic Olaus amendments removed",
+    "duplicate Olaus review pair removed",
+    "P0051 actual adult/descendant support added",
+    "structured recorded father fields corrected",
+    "Roth true raw literals restored",
+    "main Olaus reported date list corrected",
+    "source audits bind new source revisions"
+  ],
+  "remaining_or_new": [
+    {
+      "id": "V2-01",
+      "target": "New IDENTITY-REVIEW-T0826 evidence",
+      "finding": "Identity review binds itself@1 as supports; tree→identity loop correction was applied to both.",
+      "resolution": "Remove self references, retain only tree→exact identity."
+    },
+    {
+      "id": "V2-02",
+      "target": "F-P0021-household_comparison.biological_parentage_resolved",
+      "finding": "Flipped true beyond approved recordedfather assertion; Sol already holding v2.",
+      "resolution": "Preserve false with explicit known recorded father / biological precision / model endpoint distinction."
+    },
+    {
+      "id": "V2-03",
+      "target": "O-P0021-household-date-variants",
+      "finding": "Omitted; current structured three AI5 dates remain wrong.",
+      "resolution": "Correct source-bound current fields with old revision retained."
+    },
+    {
+      "id": "V2-04",
+      "target": "F-P0536-parentage_assessment.post9_context and post10_witness_fragment",
+      "finding": "Retains Johannes as post9 father and SjönAnders as post10 witness; probable adjacentrow errors.",
+      "resolution": "Primary source decision requested; do not blindly retain current or invent witnesses."
+    },
+    {
+      "id": "V2-05",
+      "target": "AUDIT-T0826-margareta",
+      "finding": "No evidence binding despite source/death/gate claims.",
+      "resolution": "Bind actual corrected current source support and exact PK11 remaining state."
+    },
+    {
+      "id": "V2-06",
+      "target": "Two Rotman own observations",
+      "finding": "Generic cleanup removed updates entirely. Old original_booklet_read:false is valid for photograph, but two actual registry extractions need unambiguous representation/read-role state.",
+      "resolution": "Preserve original photograph limitation while linking complete new register representation/extraction; no stale role unread claim."
+    },
+    {
+      "id": "V2-07",
+      "target": "TREE-EFFECT-T0814-P0336 evidence",
+      "finding": "Old identity@2 and new@3 both supports with indistinguishable current notes.",
+      "resolution": "Current exact binding must identify@3; preserve@2 as historical basis with explicit note/role if retained."
+    }
+  ]
+}

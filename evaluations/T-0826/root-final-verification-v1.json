@@ -1,0 +1,153 @@
+{
+  "task": "T-0826",
+  "verified_at": "2026-10-09T11:50:23.495759+00:00",
+  "acceptance_criteria": {
+    "1": "PASS",
+    "2": "PASS",
+    "3": "PASS",
+    "4": "PASS",
+    "5": "PASS"
+  },
+  "journal": 503,
+  "pending": 0,
+  "actual_established_persons": 1,
+  "established": [
+    "P-0051"
+  ],
+  "reviewed_persons": 5,
+  "not_counted_as_established": [
+    "P-0021",
+    "P-0336",
+    "P-0338",
+    "P-0339"
+  ],
+  "native_changes": 283,
+  "field_consequences": 641,
+  "individual_dependency_resolutions": 171,
+  "new_source_units": 7,
+  "validators": {
+    "verify": "PASS",
+    "verify_assets": "PASS",
+    "verify_source": "PASS",
+    "archive_validate": "PASS5130assertions"
+  },
+  "full38table_equality_receipt": "root-actual-stage-equality-v1.json",
+  "pedigrees": [
+    {
+      "root": "P-0269",
+      "paths": 44,
+      "edges": 43,
+      "truncated": false,
+      "full_local_output": "evaluations/T-0826/root-pedigree-adam-after.json",
+      "sha256": "c62945fa624c33da234fd362d2d070932397d400654d261f8c30da737d76c907",
+      "selected_gates": [
+        {
+          "person": "P-0051",
+          "passed": true,
+          "identity": "passed",
+          "tree": "supporting"
+        },
+        {
+          "person": "P-0021",
+          "passed": false,
+          "identity": "failed",
+          "tree": "waiting"
+        },
+        {
+          "person": "P-0336",
+          "passed": false,
+          "identity": "failed",
+          "tree": "waiting"
+        },
+        {
+          "person": "P-0338",
+          "passed": false,
+          "identity": "failed",
+          "tree": "waiting"
+        },
+        {
+          "person": "P-0339",
+          "passed": false,
+          "identity": "failed",
+          "tree": "waiting"
+        },
+        {
+          "person": "P-0287",
+          "passed": true,
+          "identity": "passed",
+          "tree": "supporting"
+        },
+        {
+          "person": "P-0008",
+          "passed": false,
+          "identity": "passed",
+          "tree": "non_supporting"
+        }
+      ]
+    },
+    {
+      "root": "P-0270",
+      "paths": 44,
+      "edges": 43,
+      "truncated": false,
+      "full_local_output": "evaluations/T-0826/root-pedigree-axel-after.json",
+      "sha256": "df16aefef9d66ebdd10bbb149098f82abdc57c488730d9e774b93549cac37bb1",
+      "selected_gates": [
+        {
+          "person": "P-0051",
+          "passed": true,
+          "identity": "passed",
+          "tree": "supporting"
+        },
+        {
+          "person": "P-0021",
+          "passed": false,
+          "identity": "failed",
+          "tree": "waiting"
+        },
+        {
+          "person": "P-0336",
+          "passed": false,
+          "identity": "failed",
+          "tree": "waiting"
+        },
+        {
+          "person": "P-0338",
+          "passed": false,
+          "identity": "failed",
+          "tree": "waiting"
+        },
+        {
+          "person": "P-0339",
+          "passed": false,
+          "identity": "failed",
+          "tree": "waiting"
+        },
+        {
+          "person": "P-0287",
+          "passed": true,
+          "identity": "passed",
+          "tree": "supporting"
+        },
+        {
+          "person": "P-0008",
+          "passed": false,
+          "identity": "passed",
+          "tree": "non_supporting"
+        }
+      ]
+    }
+  ],
+  "after_inventory": {
+    "persons": 511,
+    "identityPassed": 217,
+    "treeSupporting": 69,
+    "identityGatePassed": 69,
+    "explicitNativeLifePassed": 1,
+    "legacyContractPassed": 0
+  },
+  "remaining_exact23_source_owner": "T-0828",
+  "active_fullunion_checkpoint_owner": "T-0827",
+  "owner_confirmed": "All45 unchanged in approvedstage and actualfull38tableequal",
+  "run_requirement": "Atleastfiveactualestablished; continuesT0827checkpoint thenT0828new23units. Four reviewed failed/waiting are notcounted asestablished."
+}

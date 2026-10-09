@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 826,
+  "next_id": 830,
   "tasks": [
     {
       "id": "T-0783",
@@ -9543,11 +9543,53 @@
       "id": "T-0825",
       "summary": "Avgränsad checkpoint efter Majs metadatarouting med fullrest bevarad",
       "size": "S",
-      "status": "READY",
+      "status": "DONE",
       "priority": "CORE_SUPPORT",
       "priority_basis": "T0824: exakt P0007/T0797 tre fasta metadata-routes och bevarad P0003R1/R2/Flen samt P0241/P0246/full160. Original0/native0, ingen sourceaudit.",
       "after": [],
       "note": "Aktiv förlustfri ytterplaneringsägare; första accepterade T0797-resultat ELLER konkret hinder före annan/djupare passage. Separat utförandemandat krävs."
+    },
+    {
+      "id": "T-0826",
+      "summary": "Generation fem: fem direkta anpersoners identitet och bärande relationer",
+      "size": "L",
+      "status": "DONE",
+      "after": [],
+      "priority": "CORE_IDENTITY",
+      "priority_basis": "Ägarbeställning2026-10-09: fastställande av minstfempersoner. Aktuell verifierad frontier, tvåSverker/treKristina: P-0051/P-0021/P-0336/P-0338/P-0339; exakt käll-/relationsscope i dev-log, Astra plus separatAstrareview."
+    },
+    {
+      "id": "T-0827",
+      "summary": "Anlinjekörning: resultatgrind för fem personer och fullrestansvar",
+      "size": "S",
+      "status": "DONE",
+      "after": [],
+      "priority": "CORE_SUPPORT",
+      "priority_basis": "Ägarbeställd>=5ancestryrun/T0825: exactT0826five persons och förlustfritt helaunion/Maj/Arne/övrigLIFE. Ingennytolkning i checkpoint."
+    },
+    {
+      "id": "T-0828",
+      "summary": "Fyra anpersoner: 23 exakta egna originalrester för anlinjegrindarna",
+      "size": "L",
+      "status": "ONGOING",
+      "after": [
+        "T-0826"
+      ],
+      "priority": "CORE_IDENTITY",
+      "priority_basis": "Ägarensminstfemmandat: P-0021/P-0336/P-0338/P-0339 generation5; currentPK05/11 mandatorysource-rest, exact23units/oldscopeunion locked förestart i dev-log. Primär+oberoendeAstra.",
+      "phase": "PLANNING"
+    },
+    {
+      "id": "T-0829",
+      "summary": "Anlinjekörningens faktiska fempersonsresultat och förlustfria fullrestcheckpoint",
+      "size": "S",
+      "status": "BLOCKED",
+      "after": [
+        "T-0828"
+      ],
+      "blocker": "Faktiskt acceptedT0828resultat eller dokumenterat hinder saknas ännu; source0/native0checkpoint efter23exaktaunits.",
+      "priority": "CORE_SUPPORT",
+      "priority_basis": "Ägarens≥5anlinjekörning P-0021/P-0051/P-0336/P-0338/P-0339: faktiskresultaträkning/fullrest inklusiveJohannesmodellgap, exactunion/äldreACinnerowners, ingen nyoriginaltolkning; dev-log."
     },
     {
       "id": "T-0798",

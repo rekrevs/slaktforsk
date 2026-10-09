@@ -6070,3 +6070,32 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Scope: Tre fasta metadata-routes, högst2faktiska namngivnaingångar totalt perroute,0personoriginal; fulla äldreAC/ägare/OWNER består. Kärnpåverkande fynd tillAstra före beroende ändring. Ingen annan taskexecution.
 - Resulting Wotan tasks: T0797.
 - Revisit when: Första accepterade resultat ELLER konkret hinder bevaras hosT0825; ingen automatisk checkpoint-/källserie.
+
+
+## PCR-2026-10-09-002 — Från närgenerationslivsbild till faktiskt anlinjearbete
+
+- Record type: review
+- Date: 2026-10-09
+- Mode: direction-review
+- Trigger: Ägaren efterT0797 vill pressa anlinjearbete och fastställa minstfempersoner.
+- Control judgement: redirect, operate, preserve
+- Evidence: T0796/T0797 gav routing men inga nya identiteter/relationsbeslut; currentverifiedfrontier samt completecurrentfempersonsupport i evaluations/T-0826/preparation och full äldre immutableunion.
+- Current gate: Generation5 har verkliga ursprungs-/föräldra-/identitetsfrågor; gamla failedetiketter/proveniensrest betyder inte automatiskt ny personosäkerhet. P0008 tidigare ownerexkluderad och får inte återtas som påstått nærgrindbehov.
+- Options: Fortsatt LIFE-metadata ger inte önskatfastställande; generellpromotion av gamla sourceuppdrag skulle växa scope; en exaktbalancedfempersoncohort prövar faktiskanlinjeeffekt.
+- Recommendation: T0826, P0021/P0051 påSverkers sida ochP0336/P0338/P0339 påKristinas, generation5. PrimärAstra/oberoendeAstra, Solmekanik, fullcurrentsupport/OWNER/acceptedreuse, sourceplanlock och controlledapply. Antalfastställda skiljs från granskade/olösta; osäkra föräldrar propagerasinte.
+- Portfolio signal: Prioritera substantiella anlinjebeslut underdenbeställda körningen; LIFE kvar med exaktåterstart,ingenpermanentdispens.
+- Owner decision required: none; beställningen omfattar den häromstyrningen och nödvändig bounded execution.
+- Revisit when: FörstaacceptedT0826resultat ELLER konkret hinder; batchslutkontroll motminstfem.
+
+## PCD-2026-10-09-005 — Anlinjekörning för minst fem fastställda personer
+
+- Record type: decision
+- Date: 2026-10-09
+- Decides review: PCR-2026-10-09-002
+- Owner: Sverker Adam Janson
+- Decision: ”pressa på lite med anlinjearbete. kör tasks för åtminstone fastställande av fem personer”.
+- Disposition: approved
+- Scope: Faktiskt boundedidentitets-/föräldraarbete iAdam/Axelkärnträdet, inklberedning/source/review/controlledwrites och justifiedytterligareboundedpersonuppgifter omförstafemolösta. Fem ska intefabricerasfrån granskadeetiketter. Tidigare order/contact/purchase/AD/PDF/dashboardförbud och OWNERkunskap består.
+- Resulting Wotan tasks: T0825DONEoperativcheckpoint, T0826ONGOINGfempersoncohort, T0827READYaktivfullrest/resultatgrind. TidigareLIFE/resttaskscope/AC/status/after bevarade.
+- Evidence: evaluations/T-0825/decision-and-successor-v1.json; evaluations/T-0826/preparation/candidate-index.json och hashbundencurrentunderlag.
+- Revisit when: Faktiska T0826-resultat/hinder och fastställdräkning; fortsätt inomägarmandat tillminstfem eller verkligtkäll-/åtkomsthinder utanrutinmedgivandefråga.

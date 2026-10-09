@@ -1,0 +1,38 @@
+{
+  "task": "T-0826",
+  "reviewer": "independent Astra",
+  "timestamp_utc": "2026-10-09T11:31:52.918915+00:00",
+  "reviewed": {
+    "operation-candidate-v11.json": "7ff617f91e8ac4a54f7c8387d663da5f4f91bde8077877d8a4e42191805c7e30",
+    "changed-dependency-graph-v1.json": "21de1936feb0e7e976925b90ebdcd39c3cc795fab5b5aeb1226d4fdad1126cb1",
+    "primary/dependency-disposition-v1.md": "aede43e9149c505a8f13f7edbf3be8b9ed2a5b14e7f77fbed686e16ec94f6ee1"
+  },
+  "actual_schema_review": "Read domain.mjs boundReferences and evidence current-version checks. Assessment.subject_id is existence-only, not bound evidence. Independent whole candidate graph includes explicit evidence and actual structural boundReferences.",
+  "exact_permitted_removals": [
+    {
+      "dependent": "S-0377",
+      "basis": "AUDIT-T0826-olaus_date@1",
+      "reason": "Introduced uncommitted source-to-interpretation reverse evidence; source provenance/origins and current description remain, audit derives from corrected ownrecord."
+    },
+    {
+      "dependent": "P-0051",
+      "basis": "IDENTITY-REVIEW-T0826-P0051@1",
+      "reason": "Introduced uncommitted review-as-person-proof edge removed; existing source origins retained, current review text and source-supported identity review remain."
+    }
+  ],
+  "independent_graph_result": {
+    "changes": 271,
+    "topological_layer_sizes": [
+      40,
+      76,
+      129,
+      20,
+      3,
+      3
+    ],
+    "cyclic_nodes_after_two_exact_removals": []
+  },
+  "retain": "All other source, record, person and audit edges retained. Specifically P0021 to Augusta audit and direct accepted sources remain; no general source-to-audit removal authorization.",
+  "version_disposition": "Concur single ordered operation with each exact existing source/record revision rebind individually accounted for and semantically checked against settled current assertion. No blanket historical retention or blanket latest-head support approval. Historical-only exceptions must name object/field/reason and preserve prior version explicitly.",
+  "approval_scope": "Dependency design only. Final operation hash, per-edge dispositions, sequential stage, resolutions, complete metadata/evidence/origins and protected states still require independent final approval."
+}
