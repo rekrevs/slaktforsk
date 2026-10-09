@@ -1,0 +1,76 @@
+{
+  "task": "T-0796",
+  "completed_at": "2026-10-09T07:18:59.829535+00:00",
+  "scope": "P-0003 R1/R2 metadata only",
+  "new_external_calls": 3,
+  "named_entrypoints": 4,
+  "person_originals_read": 0,
+  "native_operations": 2,
+  "journal_sequences": [
+    498,
+    499
+  ],
+  "new_objects": 7,
+  "existing_object_revisions": 10,
+  "individual_life_retains": 3,
+  "identity_parent_owner_or_review_grade_changes": 0,
+  "source_outcomes": {
+    "R1": "Sufficient exact dated metadata reused; district/own row unresolved.",
+    "R2_E22A": "Corrected reference query positive: 10+ matches, only first 10 shown; personal route and series meaning not established.",
+    "R2_PRV": "Precise query and coverage unknown; not source or person absence."
+  },
+  "checks": [
+    "root exact package and reuse hashes",
+    "full old data/body and all untouched heads",
+    "full 38-table live-stage equality except two recorded_at fields",
+    "live verify/assets/source PASS",
+    "worker archive and media-manifest PASS"
+  ],
+  "actual_stage_proof": {
+    "task": "T-0796",
+    "verified_at": "2026-10-09T07:16:54.141Z",
+    "journal_head": 499,
+    "pending": 0,
+    "all_exported_tables_equal": true,
+    "table_count": 38,
+    "native_json_array_order_preserved": true,
+    "normalized_fields_only": [
+      {
+        "table": "operation",
+        "id": "T-0796/metadata-routing-v1",
+        "field": "recorded_at"
+      },
+      {
+        "table": "operation",
+        "id": "T-0796/individual-life-retains-v1",
+        "field": "recorded_at"
+      }
+    ],
+    "normalized_export_sha256": "bd06b2106ea358913c506eee89dd489195325580233f79df4c5e109811a9d753",
+    "live_file_sha256": "ee4c58b09c5b369ea4e34222abd414a5eaf27a147f87ce898808b5c27a3715ed",
+    "stage_file_sha256": "96077ce98be816b3401b7a2606e1a10da13456116dc2140aa8a9e09632fe6f3d"
+  },
+  "elapsed_seconds_at_acceptance": 1056,
+  "worker_usage": {
+    "task": "T-0796",
+    "agent": "/root/t0796_sol",
+    "model": "gpt-6.1-sol",
+    "collected_after_final": true,
+    "distinct_responses": 37,
+    "usage": {
+      "input_tokens": 3800161,
+      "cached_input_tokens": 3657088,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 15063,
+      "reasoning_output_tokens": 1589,
+      "total_tokens": 3815224
+    },
+    "uncached_input_tokens": 143073,
+    "root_usage": "UNKNOWN: not metered here",
+    "worker_elapsed_seconds_approx": 640,
+    "usage_is_repeated_turn_tokens_not_unique_material": true
+  },
+  "remaining_owner": "T-0824 planning only; prior exclusive source owners preserved",
+  "reproducible_derived_exports": "baseline-heads/stage-final-heads/pedigree snapshots retained locally, ignored by Git; canonical journal and exact operations reconstruct their state.",
+  "attempt_limitation": "First rejected schema attempt failed before transaction; exact rejected request not preserved, limitation documented."
+}

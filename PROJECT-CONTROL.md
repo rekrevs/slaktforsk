@@ -6032,3 +6032,16 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Evidence: evaluations/T-0228/root-actual-final-verification-v1.json; evaluations/T-0823/decision-and-successor-v1.json; immutableT0821fulltransfer/T0822overlay; fullT0796log.
 - Resulting Wotan planning: T0824 faktiskt allokerad aktiv förlustfri ytterägare för helaunionen, Emma/Axelrester och exaktaFlenfrågor/återstart. Ingen originaltask beställd, inga andra promotions eller omklassningar.
 - Revisit when: Första accepteradeT0796resultat ELLER konkret hinder före annan/djupare passage, inget DONE/PASS-krav. Ingen automatisk checkpoint-/källserie.
+
+
+## PCD-2026-10-09-002 — T0796 beställd
+
+- Record type: decision
+- Date: 2026-10-09
+- Decides review: PCR-2026-10-09-001; direkt beställning efter redovisat nästa steg.
+- Owner: Sverker Adam Janson
+- Decision: Ägarens ”kör” beställer exaktT0796 med Sol.
+- Disposition: approved
+- Scope: Fulla gamla R1/R2metadata-routes, högst2faktiska ingångar totalt perroute,0personoriginal. ModellfördelningPCD005; kärnpåverkande fynd tillAstra. Ingen annan taskexecution följer.
+- Resulting Wotan tasks: T-0796.
+- Revisit when: Första accepterade resultat ELLER konkret hinder bevaras förT0824; ingen automatisk checkpointexecution.

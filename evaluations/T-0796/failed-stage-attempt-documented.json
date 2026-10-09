@@ -1,0 +1,8 @@
+{
+  "attempt": "Initial metadata-routing CLI apply on stage.sqlite",
+  "outcome": "Rejected/transaction rolled back",
+  "error_text": "Provided value cannot be bound to SQLite parameter 1.",
+  "cause": "Evidence helper used revision instead of required object/version keys",
+  "correction": "Corrected helper, regenerated request, successful clone apply",
+  "limitations": "Exact rejected request file not separately preserved before correction; error text copied from actual tool result; no invented attempt timestamp or raw-body claim. Later final clone supersedes preliminary stage."
+}

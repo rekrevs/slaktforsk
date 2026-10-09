@@ -1,0 +1,107 @@
+{
+  "task": "T-0796",
+  "stage_only": true,
+  "scope": "P0003 complementary CORE_LIFE metadata only; no person originals/images/news/contacts/order/AD/newtasks",
+  "named_entrypoints": {
+    "R1": {
+      "new_external_calls": 0,
+      "reused": [
+        "S0688 F I aa9–10 candidatejurisdiction1951; exact dated JSON-LD/articles",
+        "S0689 AIIc99 O88tCNBZPaozjCscDcC063 metadata1948–1970 Tranbäret–Tunet"
+      ],
+      "unknowns": [
+        "Tranbäret1951district",
+        "2828/bild620/sida260 mapping",
+        "personal household after1947",
+        "new presentday originalaccess untested"
+      ]
+    },
+    "R2": {
+      "new_external_calls": 3,
+      "named_entrypoints": 2,
+      "results": [
+        "E22A initial extraE22 pathzero: inconclusive queryvisibility, not absence",
+        "corrected E22A10+matching/only1–10displayed; exactrefs/years/SSA/creator/context/URLs; titles absent, seriesmeaning not newly certified, no fullperiod/access/person proof",
+        "PRV exactwildcard/allterms queryzero with syntaxhint: precise query/coverageunknown, no historicalcatalogue or Sesam absence conclusion"
+      ]
+    }
+  },
+  "sources_opened": {
+    "person_originals": 0,
+    "returned_metadata_items_fully_preserved": 10,
+    "actual_tool_responses_preserved": 3
+  },
+  "operations_order": [
+    {
+      "path": "evaluations/T-0796/metadata-routing-operation-v1.json",
+      "sha256": "b20118d8ffcff712b48bc27748004ac7481bcad3d0da58155ac69e5ad824f064"
+    },
+    {
+      "path": "evaluations/T-0796/individual-life-retains-operation-v1.json",
+      "sha256": "74d8797ec88667e56d90282e7b721bb654300e14ac55f6ba3bd558ee6ce39738"
+    }
+  ],
+  "baseline": {
+    "task": "T-0796",
+    "started_at": "2026-10-09T07:01:24.143447+00:00",
+    "baseline_sha256": "a8e0d8adaeca396813457da2290b0043967530a6f45416927c30f7de99f14e8b",
+    "baseline_journal": 497,
+    "pending": 0,
+    "scope": "P0003, exaktR1/R2metadata endast,2ingångar perroute,0personoriginal",
+    "root_usage": "UNKNOWN"
+  },
+  "stage": {
+    "checks": [
+      "All pre-existing untouched object heads identical, including all identities/relations/OWNER_CONFIRMED/review heads worldwide",
+      "Ten amendments preserve full old body suffix, caveat, outcome and every other payload field; origins and old evidence order exact prefix",
+      "Every prior revision and domain payload row exact, append-only ledger preserved",
+      "Three actual life dependency requests individually resolved; no pending requests"
+    ],
+    "baseline_max_sequence": 497,
+    "stage_max_sequence": 499,
+    "stage_pending": 0,
+    "stage_db_sha256": "96077ce98be816b3401b7a2606e1a10da13456116dc2140aa8a9e09632fe6f3d",
+    "changed_ids": [
+      "S-T0796-E22A-attempt1",
+      "SEARCH-T0796-E22A-attempt1",
+      "S-T0796-E22A-attempt2",
+      "SEARCH-T0796-E22A-attempt2",
+      "S-T0796-PRV",
+      "SEARCH-T0796-PRV",
+      "AUDIT-T0796-metadata-routing",
+      "P-0003/Q-01",
+      "P-0003/Q-05",
+      "PATH-P-0003-KP-01",
+      "PATH-P-0003-KP-05",
+      "KEY-P-0003-0fbf93cb4e0f",
+      "KEY-P-0003-c4df7c772e8f",
+      "KEY-P-0003-df61854d250b",
+      "THEME-P-0003-ARB",
+      "THEME-P-0003-BO",
+      "THEME-P-0003-EKO"
+    ],
+    "live_max_sequence": 497,
+    "stage_path": "evaluations/T-0796/stage-final.sqlite",
+    "stage_heads_sha256": "58af54c6d61f1a2c629205d088b723fd5ba685d62c0690cc891ccbb6661e1a80",
+    "stage_operation_count_including_bootstrap": 500,
+    "live_sha256": "a8e0d8adaeca396813457da2290b0043967530a6f45416927c30f7de99f14e8b"
+  },
+  "validators": {
+    "verify": "PASS",
+    "verify-assets": "PASS",
+    "verify-source": "PASS",
+    "validate-genealogy": "PASS including WotanJSON",
+    "media-manifest-check": "PASS",
+    "tests": "No code/model change; relevant data/source/asset/archive/preservation checks used."
+  },
+  "semantic_current_candidates": 92,
+  "remaining_owners": "T0228 childhood;T0786own15;T0229military/probate;T0227accepted-sourcecontrol;T0793planninglaterlife/property. R1district/original and R2firm/markoriginal execution not ordered.",
+  "failures_and_corrections": [
+    "One initial malformed reference search preserved",
+    "One first CLI schema rejection corrected before successful clone apply, exact error documented; rejectedrequest not separately retained",
+    "Final17change package rebuilt on fresh baseline after root wording qualification, preliminary stage superseded"
+  ],
+  "production_elapsed_from_root_start_seconds": 640,
+  "production_includes": "Preparation, all3sourcecalls, malformedcandidate, failedCLI, repair, bothstagepasses, semantic/protection review, validators/report. Root independentreview/finalization and usage meter collection still ongoing, so fullbatchelapsed not yet complete.",
+  "usage": "Worker actualusage to be collected after final response; root usage UNKNOWN."
+}
