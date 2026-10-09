@@ -1,0 +1,69 @@
+{
+  "task": "T-0826",
+  "recorded_at": "2026-10-09T11:58:04.224128+00:00",
+  "workers": [
+    {
+      "path": "evaluations/T-0826/usage/prep-and-implementation-T0826-final-v1.json",
+      "agent": "/root/five_ancestry_prep",
+      "model": "gpt-6.1-sol",
+      "distinct_responses": 230,
+      "first_record": "2026-10-09T10:36:42.571Z",
+      "last_record": "2026-10-09T11:45:24.903Z",
+      "usage": {
+        "input_tokens": 25234962,
+        "cached_input_tokens": 24646016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 77743,
+        "reasoning_output_tokens": 14813,
+        "total_tokens": 25312705
+      },
+      "uncached_input_tokens": 588946
+    },
+    {
+      "path": "evaluations/T-0826/usage/primary-T0826-final-v3.json",
+      "agent": "/root/five_ancestry_primary",
+      "model": "gpt-6-astra",
+      "distinct_responses": 140,
+      "first_record": "2026-10-09T10:41:21.257Z",
+      "last_record": "2026-10-09T11:40:03.177Z",
+      "usage": {
+        "input_tokens": 17128930,
+        "cached_input_tokens": 16675072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 53305,
+        "reasoning_output_tokens": 6935,
+        "total_tokens": 17182235
+      },
+      "uncached_input_tokens": 453858
+    },
+    {
+      "path": "evaluations/T-0826/usage/independent-T0826-final-v1.json",
+      "agent": "/root/five_ancestry_independent",
+      "model": "gpt-6-astra",
+      "distinct_responses": 241,
+      "first_record": "2026-10-09T10:45:02.439Z",
+      "last_record": "2026-10-09T11:46:46.001Z",
+      "usage": {
+        "input_tokens": 32282922,
+        "cached_input_tokens": 31602688,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 79248,
+        "reasoning_output_tokens": 13922,
+        "total_tokens": 32362170
+      },
+      "uncached_input_tokens": 680234
+    }
+  ],
+  "worker_sum": {
+    "input_tokens": 74646814,
+    "cached_input_tokens": 72923776,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 210296,
+    "reasoning_output_tokens": 35670,
+    "total_tokens": 74857110
+  },
+  "uncached_input_tokens": 1723038,
+  "root_usage": "UNKNOWN",
+  "production_scope": "Allprep/fullPCread/sourceinterpretation/independentreading/semanticreviews/failedattempts/15candidateversions/repair/staging/finalization included. Concurrent role elapsed intervals are shown separately and not summed as wall time. T828same-role usage mustexclude these exactresponseIDs.",
+  "substantive_measurements": "implementation/mechanical-work-measures-v15.json; root-final-verification-v1.json. Actual5reviewed/1established,7newsourceunits; no cost or quality savings assertion."
+}

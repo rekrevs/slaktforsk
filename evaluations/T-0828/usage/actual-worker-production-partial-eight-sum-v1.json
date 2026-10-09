@@ -1,0 +1,69 @@
+{
+  "task": "T-0828",
+  "recorded_at": "2026-10-09T13:01:11.308265+00:00",
+  "workers": [
+    {
+      "path": "evaluations/T-0828/usage/prep-and-implementation-partial-eight-final-v1.json",
+      "agent": "/root/five_ancestry_prep",
+      "model": "gpt-6.1-sol",
+      "distinct_responses": 171,
+      "first_record": "2026-10-09T11:54:18.136Z",
+      "last_record": "2026-10-09T12:55:58.235Z",
+      "usage": {
+        "input_tokens": 17116928,
+        "cached_input_tokens": 16712192,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 59566,
+        "reasoning_output_tokens": 8649,
+        "total_tokens": 17176494
+      },
+      "uncached_input_tokens": 404736
+    },
+    {
+      "path": "evaluations/T-0828/usage/primary-partial-eight-final-v1.json",
+      "agent": "/root/five_ancestry_primary",
+      "model": "gpt-6-astra",
+      "distinct_responses": 117,
+      "first_record": "2026-10-09T11:54:40.015Z",
+      "last_record": "2026-10-09T12:41:10.672Z",
+      "usage": {
+        "input_tokens": 17354339,
+        "cached_input_tokens": 17005696,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 40708,
+        "reasoning_output_tokens": 4960,
+        "total_tokens": 17395047
+      },
+      "uncached_input_tokens": 348643
+    },
+    {
+      "path": "evaluations/T-0828/usage/independent-partial-eight-final-v1.json",
+      "agent": "/root/five_ancestry_independent",
+      "model": "gpt-6-astra",
+      "distinct_responses": 195,
+      "first_record": "2026-10-09T11:54:52.778Z",
+      "last_record": "2026-10-09T12:55:52.794Z",
+      "usage": {
+        "input_tokens": 28818761,
+        "cached_input_tokens": 28179840,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 76471,
+        "reasoning_output_tokens": 11136,
+        "total_tokens": 28895232
+      },
+      "uncached_input_tokens": 638921
+    }
+  ],
+  "worker_sum": {
+    "input_tokens": 63290028,
+    "cached_input_tokens": 61897728,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 176745,
+    "reasoning_output_tokens": 24745,
+    "total_tokens": 63466773
+  },
+  "uncached_input_tokens": 1392300,
+  "root_usage": "UNKNOWN",
+  "production_scope": "Complete partial8 production: preparation/primary and independent source/semantic reads, nine candidate versions/four clone attempts/failures/corrections/finalization. Intervals concurrent, not summed as wall time. Earlier partial snapshots superseded, not added. Excludes T0826 usage and later T0829 or additional15 work.",
+  "substantive_measurements": "implementation/mechanical-work-measurement-v1.json; root-final-partial-verification-v1.json; cumulative3established/atleast5,8newunits/15blocked. No cost-saving or quality-superiority assertion."
+}

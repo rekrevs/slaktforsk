@@ -1,0 +1,34 @@
+{
+  "task": "T-0828",
+  "version": 5,
+  "recorded_at": "2026-10-09T12:40:42.478124+00:00",
+  "scope": "Exactly two unchanged-existing basis edges in operation-ordered-v4; no blanket currenthead policy.",
+  "rejected_attempt": {
+    "path": "evaluations/T-0828/implementation/rejected-stale-existing-bindings-v4.json",
+    "sha256": "0eec171731fdd7befbc6486e581e605048b7bf6cfc487fbdcedb01d9593e6b34",
+    "retained": true
+  },
+  "current_full_inspects": "evaluations/T-0828/primary/unchanged-basis-rebind-current-v1.json",
+  "basis": "R-e86aa5ec1aa886e5c62475e1@2, acceptedT0826 exact same046010030010 owncard with completeHTML/correctedrawfields; sourceS0376@1 unchanged",
+  "approved_rebinds": [
+    {
+      "dependent": "M-P-0336-C0473-046010030010",
+      "candidate_expected_version": 1,
+      "edge_from": "R-e86aa5ec1aa886e5c62475e1@1",
+      "edge_to": "R-e86aa5ec1aa886e5c62475e1@2",
+      "role": "supports",
+      "reason": "Candidate corrects exact ownrawname Fredriksson→Fredrikson basedon acceptedT0826 completeHTML already represented inR@2/AUDIT-T0826-unit5. Samepost/mention, no newperson or inventedhouseholdrole. Emptyrole_literal retained."
+    },
+    {
+      "dependent": "F-P-0367-residence_context-linked-rote1878-1884",
+      "candidate_expected_version": 1,
+      "edge_from": "R-e86aa5ec1aa886e5c62475e1@1",
+      "edge_to": "R-e86aa5ec1aa886e5c62475e1@2",
+      "role": "supports",
+      "reason": "Same1879–1884linkedhouselist remainsunderlyingbasis forRobert1878-06-07 listed1879–84. R@2 adds exactactualfullHTML withperiodboundarystatus and preservesearliermeaning. It doesnot supportfather1907/1911/1915movesasRoberts, continuousresidence, ornewkinship. New1891–1896list support remainsseparateexact434840120030audit."
+    }
+  ],
+  "historical_policy": "Retain previous@1bindings in originalimmutable dependentrevisions; candidateevidencebinds individually reviewed@2 and retains priornote plus source-specific amendment. No basisobject mutation required and nonewindependentvote.",
+  "Robert_flag_scope": "precise_child_dates_per_subrecord_unextracted=true can remain ONLY explicitly scoped to Roberts ownindividualcard exact in/out/dayfields, which were notopened. Displayedhousehold name/DOB/periods1878–79,1879–84,and1891–96 are nowread in fathersowncards and may not be labelled unextracted. Add adjacent scopeclarifier/knownhouseholdperiods without pretending hisowncardread.",
+  "validation": "Rerun exactorderedclone and normalindividualpendingreview; successfulbindingcheck is not finalsourceapproval."
+}

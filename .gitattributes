@@ -22,3 +22,12 @@ evaluations/T-0228/manifest-00153997.json -text whitespace=cr-at-eol
 
 # T-0826 exact provider HTML response bytes; preserve CRLF and original whitespace.
 evaluations/T-0826/primary/*.html -text -whitespace
+
+# T-0828 exact provider HTML response bytes.
+evaluations/T-0828/primary/*.html -text -whitespace
+
+# T-0828 exact access-response bytes and literal current-source review extracts.
+evaluations/T-0828/primary/*-access-response.bin -text -whitespace
+evaluations/T-0828/independent/*read*.txt -text -whitespace
+evaluations/T-0828/independent/semantic-*.txt -text -whitespace
+evaluations/T-0828/independent/candidate-v4-semantic-*.txt -text -whitespace

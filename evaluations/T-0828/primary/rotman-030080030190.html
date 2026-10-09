@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html>
+	<head><title>
+	Sökresultat
+</title>
+		<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<![endif]-->
+		<meta content="text/html;charset=utf-8" http-equiv="Content-type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+<link rel="stylesheet" type="text/css" href="Styles/roteman.css" />
+<script type="text/javascript">
+	//<![CDATA[     
+	function SexClicked()
+	{         
+		var rbSex = document.getElementById("rblSex_1");
+		var lastCh = document.getElementById("lastCheck");
+		var rdolist = document.getElementsByName("rblSex");	
+	}  
+     
+    // This function sets the scroll position of div to cookie.
+	function setScrollPos()
+	{
+		var divY = document.getElementById('postDiv').scrollTop;         
+		document.getElementById("saveScrollPos").value = "divPos=!*" + divY + "*!"; 
+	} 
+	
+	// Attaching a function on window.onload event.
+	window.onload = function()
+	{      
+		var strCook = document.getElementById("saveScrollPos").value
+		if(strCook.indexOf("!~")!=0)
+		{ 
+			var intS = strCook.indexOf("!~"); 
+			var intE = strCook.indexOf("~!"); 
+			var strPos = strCook.substring(intS+2,intE); 
+			document.body.scrollTop = strPos; 
+		} 
+        
+		// This condition will set scroll position of <div>.
+		if(strCook.indexOf("!*")!=0)
+		{ 
+			var intdS = strCook.indexOf("!*"); 
+			var intdE = strCook.indexOf("*!"); 
+			var strdPos = strCook.substring(intdS+2,intdE); 
+			document.getElementById('postDiv').scrollTop = strdPos; 
+		}
+	}
+
+	// Function to set Scroll position of page before postback. 
+	function SetScrollPosition()
+	{ 
+		var intY = document.body.scrollTop; 
+		document.getElementById("saveScrollPos").value = "yPos=!~" + intY + "~!"; 
+	}
+	// Attaching   SetScrollPosition() function to window.onscroll event.
+    window.onscroll = SetScrollPosition;
+	//]]>
+</script>
+
+
+		    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['requireCookieConsent']);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//sok.stadsarkivet.stockholm.se/matomo/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '3']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
+
+		    <!-- Cookies Manager -->
+			<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"></script>
+				  <script type="text/javascript" src="https://sok.stadsarkivet.stockholm.se/CookiesManager/js/cookies_manager.js"></script>
+				  <link rel="stylesheet" href="https://sok.stadsarkivet.stockholm.se/CookiesManager/cookies.css" /></head>
+	<body>
+		<form method="post" action="./SearchResult.aspx" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DA7841DD" />
+			<table class="TableMain" border="0">
+				<tr>
+					<td class="marginCell"></td>
+					<td class="TopRow" colspan="3"><img class="TopLeftImageSearchForm" src="Images/HeadRoteman.gif" alt="" style="border-bottom: solid 3px #006699;"></td>
+				</tr>
+				<tr>
+					<td class="marginCell"></td>
+					<td class="TopLeftSearchForm2"> 
+<div class="LeftAligned" style="width: 98%">
+	<table>
+		<tr>
+			<td><span id="menu_lblSearchHeadline" class="menuHeadline bold">Sök</span></td>
+		</tr>
+		<tr>
+			<td style="text-align: left; padding: 0px 5px;">
+				<a href="Search.aspx" class="LinkNavigation"><span id="menu_lblSameSearch">Tillbaka till sök</span></a>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: left; padding: 0px 5px;">
+				<a id="menu_lbSamePerson" class="LinkNavigation" href="javascript:__doPostBack(&#39;menu$lbSamePerson&#39;,&#39;&#39;)"><span id="menu_lblSamePerson">Samma individ</span></a>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: left; padding: 0px 5px;">
+				<a id="menu_lbSameHousehold" class="LinkNavigation" href="javascript:__doPostBack(&#39;menu$lbSameHousehold&#39;,&#39;&#39;)"><span id="menu_lblSameHousehold">Samma hushåll</span></a>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: left; padding: 0px 5px;">
+				<a id="menu_lbSamePage" class="LinkNavigation" href="javascript:__doPostBack(&#39;menu$lbSamePage&#39;,&#39;&#39;)"><span id="menu_lblSamePage">Samma sida</span></a>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: left; padding: 0px 5px;">
+				<a id="menu_lbSameLedger" class="LinkNavigation" href="javascript:__doPostBack(&#39;menu$lbSameLedger&#39;,&#39;&#39;)"><span id="menu_lblSameLedger">Samma häfte</span></a>
+			</td>
+		</tr>
+
+
+		<tr>
+			<td><span id="menu_lblDataHeadline" class="menuHeadline bold">Data</span></td>
+		</tr>
+		<tr>
+			<td><a href='Print.aspx' target='_blank' class="LinkNavigation"><span id="menu_lblSkrivUt">Skriv ut</span></a></td>
+		</tr>
+	</table>
+</div>
+</td>
+					<td class="ContainerTableSearchFormMain2">	
+						<table class="TableSearchResultsMain" border="0" style="width: 815px !important;">
+							<tr>
+								<td style="vertical-align: top;">
+									<!-- Div för Sökresultat-->
+									<div class="GridHeadline"><span id="lblPostsHeadline">Utvalda poster</span> (<span id="lblResultCount">1</span>)</div>
+									<div id="postDiv" onscroll="setScrollPos();" class="postDiv">
+										<input name="saveScrollPos" type="hidden" id="saveScrollPos" value="0" />
+										<table class="postGrid" cellspacing="0" cellpadding="3" rules="all" border="1" id="gridPeople">
+	<tr>
+		<td><a href="javascript:__doPostBack(&#39;gridPeople$_ctl1$_ctl0&#39;,&#39;&#39;)">Namn</a></td><td><a href="javascript:__doPostBack(&#39;gridPeople$_ctl1$_ctl1&#39;,&#39;&#39;)">Född</a></td><td><a href="javascript:__doPostBack(&#39;gridPeople$_ctl1$_ctl2&#39;,&#39;&#39;)">Period</a></td>
+	</tr><tr onmouseover="this.style.backgroundColor=&#39;#cccccc&#39;; this.style.cursor=&#39;hand&#39;; this.style.cursor=&#39;pointer&#39;;" onmouseout="this.style.backgroundColor=&#39;#ffffff&#39;" OnClick="__doPostBack(&#39;gridPeople:_ctl2:_ctl0&#39;,&#39;&#39;)">
+		<td width="240">Fredberg Fredriksson, Olaus</td><td width="80">1852-09-04</td><td width="80">1911-1915</td>
+	</tr>
+</table>
+									</div>
+								</td>
+								<td rowspan="2" style="vertical-align: top;">
+									<!-- Div för detaljerad post-->
+									<div class="detailsInfoHeadline">
+										<span id="lblDetailsHeadline">Detaljer för markerad post</span>(<span id="lblCurrentPage">Sida 1 av 1</span>)
+										<!-- <input type="submit" name="cmdPrev" value="&lt;&lt;" id="cmdPrev" disabled="disabled" class="aspNetDisabled navigateButton" />
+										<input type="submit" name="cmdNext" value=">>" id="cmdNext" disabled="disabled" class="aspNetDisabled navigateButton" />-->
+										<span id="lblPostID" class="small ">030080030190</span>
+									</div>
+									<div class="detailsInfoHeadline">&nbsp;</div>
+									<div class="detailsDiv">
+<!-- 
+#######################################################################
+### Personuppgifter                                                 ###
+#######################################################################
+-->
+										
+												<div class="postRepeater">
+											
+												<div class="detailsHeadline"><span id="repeaterDetails_lblPersonalInfoHeadline_0">Personuppgifter</span></div>
+												<div class="infoHeadline"><span id="repeaterDetails_lblPersonalInfoName_0">Namn</span></div>
+												Olaus Fredberg Fredriksson<br>
+												<div class="infoHeadline">Titel:</div>
+												Stationskarlsförman<br>
+												<!-- <div class="infoHeadline"><span id="repeaterDetails_lblPersonalInfoBirth_0"></span></div> -->
+												Födelseuppgifter:
+												1852-09-04 (Stora Lundby),
+												Älvsborgs län
+												<div class="infoHeadline"><span id="repeaterDetails_lblPersonalInfoStatus_0"></span></div>
+												Status:
+												Gift, Sammanboende med barn<br>
+												<br>
+											
+												</div>
+											
+<!-- 
+#######################################################################
+### Boendeuppgifter                                                 ###
+#######################################################################
+-->
+										
+												<div class="postRepeater">
+												<div class="detailsHeadline">Boendeuppgifter<span id="repeaterLivingInfo_lblLivingInfoFirst"></span></div>
+											
+												<div class="infoHeadline">
+												Gata</div>
+												:
+												Bryggaregatan,23 25<br>
+												<div class="infoHeadline" style='display: none;'>Häftets sida och rad : 003   -19<br></div>
+												<div class="infoHeadline" style='display: none;'>Ledger page and row : 003   -19<br></div>
+											
+												<div class="infoHeadline">
+												Fastighet</div>
+												:
+												Gösen,4 15<br>
+												<div class="infoHeadline" style='display: none;'>Häftets sida och rad : 003   -19<br></div>
+												<div class="infoHeadline" style='display: none;'>Ledger page and row : 003   -19<br></div>
+											
+												<div class="infoHeadline">
+												Littera</div>
+												:
+												D 2<br>
+												<div class="infoHeadline" style='display: none;'>Häftets sida och rad : 003   -19<br></div>
+												<div class="infoHeadline" style='display: none;'>Ledger page and row : 003   -19<br></div>
+											
+												<div class="infoHeadline">
+												Församling</div>
+												:
+												Klara<br>
+												<div class="infoHeadline" style='display: none;'>Häftets sida och rad : 003   -19<br></div>
+												<div class="infoHeadline" style='display: none;'>Ledger page and row : 003   -19<br></div>
+											
+												<div class="infoHeadline">
+												Häftets nummer och tidsperiod</div>
+												:
+												03008 (1907-1925)<br>
+												<div class="infoHeadline">Häftets sida och rad : 003   -19<br></div>
+												<div class="infoHeadline" style='display: none;'>Ledger page and row : 003   -19<br></div>
+											
+												<div class="infoHeadline">
+												Arkivrote och stadsdel</div>
+												:
+												03 (Norrmalm)<br>
+												<div class="infoHeadline" style='display: none;'>Häftets sida och rad : 003   -19<br></div>
+												<div class="infoHeadline" style='display: none;'>Ledger page and row : 003   -19<br></div>
+											
+												<br>
+												</div> 
+											
+<!-- 
+#######################################################################
+### Inflyttningsuppgifter                                           ###
+#######################################################################
+-->
+										
+												<div class="postRepeater">
+											
+												<div class="detailsHeadline">Inflyttningsuppgifter</div>
+												<div class="infoHeadline">
+													Inflyttad: 1911-01-03<br>Inflyttad från annan rote 27<br>
+												</div>
+											
+												<br>
+												</div>
+											
+<!-- 
+#######################################################################
+### Utflyttningsuppgifter                                           ###
+#######################################################################
+-->
+										
+												<div class="postRepeater">
+											
+												<div class="detailsHeadline">Utflyttningsuppgifter</div>
+												<div class="infoHeadline">
+													Utflyttad 1915-10-13 till rote 27<br>
+												</div>
+											
+												<br>
+												</div>
+											
+<!-- 
+#######################################################################
+### Övriga uppgifter                                                ###
+#######################################################################
+-->
+										<b></b>
+										
+<!-- 
+#######################################################################
+### Källtrogna uppgifter vid avvikelse                              ###
+#######################################################################
+-->
+										<b><span id="lblSourceHeadLine" class="postRepeater">Källtrogna uppgifter vid avvikelse</span></b>
+										
+												<div class="postRepeater">
+																							
+
+<div class='infoHeadline'>Född:</div> Lundby<br>
+
+
+											
+												</div>
+											
+									</div>					 
+								</td>
+							</tr>
+							<tr>
+								<td style="border-top: solid 3px #006699;">
+									<!-- Div för Hushåll-->
+									<div class="householdDiv">
+										<div class="GridHeadline"><span id="lblHouseholdHeadline">Hushåll för ovan markerad post</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="lblHousehold" class="small">030080030190</span></div>
+										<table class="postGrid" cellspacing="0" cellpadding="3" rules="all" border="1" id="gridHousehold">
+	<tr>
+		<td width="240">Fredberg Fredriksson, Olaus</td><td width="80">1852-09-04</td><td width="80">1911-1915</td>
+	</tr><tr>
+		<td width="240">&nbsp;&nbsp;&nbsp;Fredberg /Jansson/,Johanna Ch...</td><td width="80">1866-10-16</td><td width="80">1911-1915</td>
+	</tr><tr>
+		<td width="240">&nbsp;&nbsp;&nbsp;Fredberg, Oskar Fredrik</td><td width="80">1895-10-16</td><td width="80">1911-1915</td>
+	</tr><tr>
+		<td width="240">&nbsp;&nbsp;&nbsp;Fredberg, Elvira Fredina Gully</td><td width="80">1902-11-28</td><td width="80">1911-1915</td>
+	</tr>
+</table>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class="marginCell"></td>
+					<td colspan="3" style="border-bottom: solid 3px #006699;"></td>
+				</tr>
+			</table>
+			<span id="labelTest"></span>
+			</form>
+		<script type="text/javascript">
+			//<![CDATA[
+/*
+			alert
+			(
+				"documentMode: " + document.documentMode + "\n" + 
+				"compatMode  : " + document.compatMode   + "\n" +
+				"userAgent   : " + navigator.userAgent
+			);
+*/
+			//]]>
+		</script>
+	</body>
+</html>

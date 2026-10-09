@@ -1,0 +1,725 @@
+
+<!DOCTYPE html>
+<html>
+  <head><title>
+	
+      Sök
+</title>
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta content="text/html;charset=utf-8" http-equiv="Content-type">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+<link rel="stylesheet" type="text/css" href="Styles/roteman.css" />
+<script type="text/javascript">
+	//<![CDATA[     
+	function SexClicked()
+	{         
+		var rbSex = document.getElementById("rblSex_1");
+		var lastCh = document.getElementById("lastCheck");
+		var rdolist = document.getElementsByName("rblSex");	
+	}  
+     
+    // This function sets the scroll position of div to cookie.
+	function setScrollPos()
+	{
+		var divY = document.getElementById('postDiv').scrollTop;         
+		document.getElementById("saveScrollPos").value = "divPos=!*" + divY + "*!"; 
+	} 
+	
+	// Attaching a function on window.onload event.
+	window.onload = function()
+	{      
+		var strCook = document.getElementById("saveScrollPos").value
+		if(strCook.indexOf("!~")!=0)
+		{ 
+			var intS = strCook.indexOf("!~"); 
+			var intE = strCook.indexOf("~!"); 
+			var strPos = strCook.substring(intS+2,intE); 
+			document.body.scrollTop = strPos; 
+		} 
+        
+		// This condition will set scroll position of <div>.
+		if(strCook.indexOf("!*")!=0)
+		{ 
+			var intdS = strCook.indexOf("!*"); 
+			var intdE = strCook.indexOf("*!"); 
+			var strdPos = strCook.substring(intdS+2,intdE); 
+			document.getElementById('postDiv').scrollTop = strdPos; 
+		}
+	}
+
+	// Function to set Scroll position of page before postback. 
+	function SetScrollPosition()
+	{ 
+		var intY = document.body.scrollTop; 
+		document.getElementById("saveScrollPos").value = "yPos=!~" + intY + "~!"; 
+	}
+	// Attaching   SetScrollPosition() function to window.onscroll event.
+    window.onscroll = SetScrollPosition;
+	//]]>
+</script>
+
+
+    <!-- Matomo -->
+    <script type="text/javascript">
+      var _paq = (window._paq = window._paq || []);
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["requireCookieConsent"]);
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+      (function () {
+        var u = "//sok.stadsarkivet.stockholm.se/matomo/";
+        _paq.push(["setTrackerUrl", u + "matomo.php"]);
+        _paq.push(["setSiteId", "3"]);
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.type = "text/javascript";
+        g.async = true;
+        g.src = u + "matomo.js";
+        s.parentNode.insertBefore(g, s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+
+    <!-- Cookies Manager -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://sok.stadsarkivet.stockholm.se/CookiesManager/js/cookies_manager.js"
+    ></script>
+    <link rel="stylesheet" href="https://sok.stadsarkivet.stockholm.se/CookiesManager/cookies.css" /></head>
+  <body>
+    <form method="post" action="./Search.aspx" id="Form1">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="btnSearch" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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MTICMTMCMTQCMTUCMTYCMTcCMTgCMTkCMjACMjECMjICMjMCMjQCMjUCNTACOTkUKwMcZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2RkAjMPEA8WBh8CBQZvdXRkYXQfAwUGb3V0ZGF0HwRnZBAVMw8tLS1Ww6RsaiDDpXItLS0EMTg3NwQxODc4BDE4NzkEMTg4MAQxODgxBDE4ODIEMTg4MwQxODg0BDE4ODUEMTg4NgQxODg3BDE4ODgEMTg4OQQxODkwBDE4OTEEMTg5MgQxODkzBDE4OTQEMTg5NQQxODk2BDE4OTcEMTg5OAQxODk5BDE5MDAEMTkwMQQxOTAyBDE5MDMEMTkwNAQxOTA1BDE5MDYEMTkwNwQxOTA4BDE5MDkEMTkxMAQxOTExBDE5MTIEMTkxMwQxOTE0BDE5MTUEMTkxNgQxOTE3BDE5MTgEMTkxOQQxOTIwBDE5MjEEMTkyMgQxOTIzBDE5MjQEMTkyNQQxOTI2FTMBMAQxODc3BDE4NzgEMTg3OQQxODgwBDE4ODEEMTg4MgQxODgzBDE4ODQEMTg4NQQxODg2BDE4ODcEMTg4OAQxODg5BDE4OTAEMTg5MQQxODkyBDE4OTMEMTg5NAQxODk1BDE4OTYEMTg5NwQxODk4BDE4OTkEMTkwMAQxOTAxBDE5MDIEMTkwMwQxOTA0BDE5MDUEMTkwNgQxOTA3BDE5MDgEMTkwOQQxOTEwBDE5MTEEMTkxMgQxOTEzBDE5MTQEMTkxNQQxOTE2BDE5MTcEMTkxOAQxOTE5BDE5MjAEMTkyMQQxOTIyBDE5MjMEMTkyNAQxOTI1BDE5MjYUKwMzZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZGQCNA8PFgIfAAULQ2l2aWxzdMOlbmRkZAI1DxAPFgYfAgUJQ2l2aWx0ZXh0HwMFCENpdmlsS29kHwRnZBAVBxctLS1Ww6RsaiBjaXZpbHN0w6VuZC0tLRJPa8OkbnQgY2l2aWxzdMOlbmQKRnLDpW5za2lsZARHaWZ0BU9naWZ0DU9rw6RudCB2w6RyZGUOw4Rua2Evw4Rua2xpbmcVBwEwAUUBRgFHAU8BWALDhBQrAwdnZ2dnZ2dnZGQCNg8PFgIfAAUGUG9zdElEZGQCNw8PFgIfAAUGSMOkZnRlZGQCOg8PFgIfAAUEU2lkYWRkAjsPDxYCHwAFA1JhZGRkAj8PDxYCHwAFDkVua2VsIHPDtmtuaW5nZGQCQA8PFgIfAAUFUmVuc2FkZAJBDw8WAh8ABQRTw7ZrZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgoFCmJ0blN3ZWRpc2gFCmJ0bkVuZ2xpc2gFCWNiSW5wbGFjZQUKY2JMYXN0bmFtZQULY2JGaXJzdG5hbWUFCGNiU3RyZWV0BQxjYkJpcnRocGxhY2UFCGNiRXN0YXRlBQpjYk91dHBsYWNlBQdjYlRpdGxlLTCSbEBzQ4I0AAq+Eqa3loqIaO/Qli/94nyEeUQe3oM=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9D7EA181" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+      <table class="TableMain" style="text-align: center">
+        <tr>
+          <td class="marginCell"></td>
+          <td
+            class="TopRow"
+            style="border-bottom: solid 3px #006699"
+            background="Images/HeadRoteman.gif"
+            colSpan="2"
+          >
+            <div class="TopRowDiv">
+              <b
+                ></b>
+              <b><span id="lblHeadNoPosts">Antal Poster:</span></b
+              >&nbsp;
+              <span id="lblRowCountPosts">4 312 746 </span>
+              <b><span id="lblHeadTimeLimit">Tidsperiod</span></b
+              >: 1878 - 1926&nbsp;
+              <b
+                ></b>
+              
+            </div>
+            <div class="TopRowFlagsDiv">
+              <input type="image" name="btnSwedish" id="btnSwedish" class="btnLanguage" alt="Swedish" src="Images/flag-se.gif" />&nbsp;
+              <input type="image" name="btnEnglish" id="btnEnglish" class="btnLanguage" alt="English" src="Images/flag-en.gif" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="marginCell"></td>
+          <td class="TopLeftSearchForm">
+            
+
+<div class="DivNavigation LeftAligned">
+
+<a href="Help.aspx" class="LinkNavigation"></a>
+<br />
+<!--&nbsp;<img src="Images/WEB4.jpg" width=150 height=400>-->
+</div>	
+
+          </td>
+          <td class="ContainerTableSearchFormMain">
+            <table class="TableSearchFormMain" style="width: 700px">
+              
+              <!-- Rad 1 -->
+              <tr>
+                <td style="border-color: black; text-align: left" rowspan="2">
+                  <!-- Rad 1 + 2 -->
+                  <table style="width: 100%">
+                    <tr>
+                      <td class="tdSearchForm">
+                        <span id="lblBirthday" class="LabelSearchForm LeftAligned">Födelsedatum (ÅÅÅÅMMDD)</span>
+                      </td>
+                      <td class="tdSearchForm">
+                        <span id="lblSex" class="LabelSearchForm LabelSexPuff">Kön</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input name="tbBirthday" type="text" id="tbBirthday" tabindex="1" class="TextBoxSearchFormSmall" />
+                      </td>
+                      <td class="RbSexPuff">
+                        <span id="rblSex" class="RadioButtonSearchForm" onclick="javascript:SexClicked();" style="display:inline-block;"><input id="rblSex_0" type="radio" name="rblSex" value="M" /><label for="rblSex_0">M</label><input id="rblSex_1" type="radio" name="rblSex" value="K" /><label for="rblSex_1">K</label></span>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                
+                <td class="tdSearchForm" style="text-align: left">
+                  <span id="lblInplace" class="LabelSearchForm2 LeftAligned">Inflyttningsort</span>
+                  <span class="CheckBoxSearchForm RightAligned RightPadding"><input id="cbInplace" type="checkbox" name="cbInplace" /><label for="cbInplace">Exakt fras</label></span>
+                </td>
+                <td style="width: 100px">&nbsp;</td>
+                
+              </tr>
+              <!-- Rad 2 -->
+              <tr>
+                
+                <td style="text-align: left">
+                  <input name="tbInplace" type="text" id="tbInplace" tabindex="8" class="TextBoxSearchForm" />
+                </td>
+                <td>&nbsp;</td>
+                
+              </tr>
+              <!-- Rad 3 -->
+              <tr>
+                <td class="tdSearchForm">
+                  <span id="lblLastname" class="LabelSearchForm2 LeftAligned">Efternamn</span>
+                  <span class="CheckBoxSearchForm RightAligned RightPadding"><input id="cbLastname" type="checkbox" name="cbLastname" /><label for="cbLastname">Exakt fras</label></span>
+                </td>
+                
+                <td class="tdSearchForm">
+                  <span id="lblIncounty" class="LabelSearchForm LeftAligned">Inflyttningslän</span>
+                </td>
+                
+                <td class="tdSearchForm">
+                  <span id="lblInyear" class="LabelSearchForm LeftAligned">Inflyttningsår</span>
+                </td>
+                
+              </tr>
+              <!-- Rad 4 -->
+              <tr>
+                <td>
+                  <input name="tbLastname" type="text" id="tbLastname" tabindex="2" class="TextBoxSearchForm" />
+                </td>
+                
+                <td>
+                  <select name="ddlIncounty" id="ddlIncounty" tabindex="9" class="DropDownSearchFormLarge">
+	<option value="0">---V&#228;lj l&#228;n---</option>
+	<option value="01">Stockholms stad</option>
+	<option value="02">Stockholms l&#228;n</option>
+	<option value="03">Uppsala l&#228;n</option>
+	<option value="04">S&#246;dermanlands l&#228;n</option>
+	<option value="05">&#214;sterg&#246;tlands l&#228;n</option>
+	<option value="06">J&#246;nk&#246;pings l&#228;n</option>
+	<option value="07">Kronobergs l&#228;n</option>
+	<option value="08">Kalmar l&#228;n</option>
+	<option value="09">Gotlands l&#228;n</option>
+	<option value="10">Blekinge l&#228;n</option>
+	<option value="11">Kristianstads l&#228;n</option>
+	<option value="12">Malm&#246;hus l&#228;n</option>
+	<option value="13">Hallands l&#228;n</option>
+	<option value="14">G&#246;teborgs- och Bohus l&#228;n</option>
+	<option value="15">&#196;lvsborgs l&#228;n</option>
+	<option value="16">Skaraborgs l&#228;n</option>
+	<option value="17">V&#228;rmlands l&#228;n</option>
+	<option value="18">&#214;rebro l&#228;n</option>
+	<option value="19">V&#228;stmanlands l&#228;n</option>
+	<option value="20">Kopparbergs l&#228;n</option>
+	<option value="21">G&#228;vleborgs l&#228;n</option>
+	<option value="22">V&#228;sternorrlands l&#228;n</option>
+	<option value="23">J&#228;mtlands l&#228;n</option>
+	<option value="24">V&#228;sterbottens l&#228;n</option>
+	<option value="25">Norrbottens l&#228;n</option>
+	<option value="50">Utlandet</option>
+	<option value="99">Ok&#228;nt v&#228;rde</option>
+
+</select>
+                </td>
+                
+                <td>
+                  <select name="ddlInyear" id="ddlInyear" tabindex="10" class="DropDownSearchFormSmall">
+	<option value="0">---V&#228;lj &#229;r---</option>
+	<option value="1877">1877</option>
+	<option value="1878">1878</option>
+	<option value="1879">1879</option>
+	<option value="1880">1880</option>
+	<option value="1881">1881</option>
+	<option value="1882">1882</option>
+	<option value="1883">1883</option>
+	<option value="1884">1884</option>
+	<option value="1885">1885</option>
+	<option value="1886">1886</option>
+	<option value="1887">1887</option>
+	<option value="1888">1888</option>
+	<option value="1889">1889</option>
+	<option value="1890">1890</option>
+	<option value="1891">1891</option>
+	<option value="1892">1892</option>
+	<option value="1893">1893</option>
+	<option value="1894">1894</option>
+	<option value="1895">1895</option>
+	<option value="1896">1896</option>
+	<option value="1897">1897</option>
+	<option value="1898">1898</option>
+	<option value="1899">1899</option>
+	<option value="1900">1900</option>
+	<option value="1901">1901</option>
+	<option value="1902">1902</option>
+	<option value="1903">1903</option>
+	<option value="1904">1904</option>
+	<option value="1905">1905</option>
+	<option value="1906">1906</option>
+	<option value="1907">1907</option>
+	<option value="1908">1908</option>
+	<option value="1909">1909</option>
+	<option value="1910">1910</option>
+	<option value="1911">1911</option>
+	<option value="1912">1912</option>
+	<option value="1913">1913</option>
+	<option value="1914">1914</option>
+	<option value="1915">1915</option>
+	<option value="1916">1916</option>
+	<option value="1917">1917</option>
+	<option value="1918">1918</option>
+	<option value="1919">1919</option>
+	<option value="1920">1920</option>
+	<option value="1921">1921</option>
+	<option value="1922">1922</option>
+	<option value="1923">1923</option>
+	<option value="1924">1924</option>
+	<option value="1925">1925</option>
+	<option value="1926">1926</option>
+
+</select>
+                </td>
+                
+              </tr>
+              <!-- Rad 5 -->
+              <tr>
+                <td class="tdSearchForm">
+                  <span id="lblFirstname" class="LabelSearchForm2 LeftAligned">Förnamn</span>
+                  <span class="CheckBoxSearchForm RightAligned RightPadding"><input id="cbFirstname" type="checkbox" name="cbFirstname" /><label for="cbFirstname">Exakt fras</label></span>
+                </td>
+                
+                <td class="tdSearchForm">
+                  <span id="lblStreet" class="LabelSearchForm2 LeftAligned">Gatuadress</span>
+                  <span class="CheckBoxSearchForm RightAligned RightPadding"><input id="cbStreet" type="checkbox" name="cbStreet" /><label for="cbStreet">Exakt fras</label></span>
+                </td>
+                
+                <td class="tdSearchForm">
+                  <span id="lblRote" class="LabelSearchForm LeftAligned">Rote</span>
+                </td>
+                
+              </tr>
+              <!-- Rad 6 -->
+              <tr>
+                <td>
+                  <input name="tbFirstname" type="text" id="tbFirstname" tabindex="3" class="TextBoxSearchForm" />
+                </td>
+                
+                <td>
+                  <input name="tbStreet" type="text" id="tbStreet" tabindex="11" class="TextBoxSearchForm" />
+                </td>
+                
+                <td>
+                  <select name="ddlRote" id="ddlRote" tabindex="12" class="DropDownSearchFormSmall">
+	<option value="0">---V&#228;lj rote---</option>
+	<option value="01">01</option>
+	<option value="02">02</option>
+	<option value="03">03</option>
+	<option value="04">04</option>
+	<option value="05">05</option>
+	<option value="06">06</option>
+	<option value="07">07</option>
+	<option value="08">08</option>
+	<option value="09">09</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	<option value="13">13</option>
+	<option value="14">14</option>
+	<option value="15">15</option>
+	<option value="16">16</option>
+	<option value="17">17</option>
+	<option value="18">18</option>
+	<option value="19">19</option>
+	<option value="20">20</option>
+	<option value="21">21</option>
+	<option value="22">22</option>
+	<option value="23">23</option>
+	<option value="24">24</option>
+	<option value="25">25</option>
+	<option value="26">26</option>
+	<option value="27">27</option>
+	<option value="28">28</option>
+	<option value="29">29</option>
+	<option value="30">30</option>
+	<option value="31">31</option>
+	<option value="32">32</option>
+	<option value="33">33</option>
+	<option value="34">34</option>
+	<option value="35">35</option>
+	<option value="36">36</option>
+
+</select>
+                </td>
+                
+              </tr>
+              <!-- Rad 7 -->
+              <tr>
+                <td class="tdSearchForm">
+                  <span id="lblBirthplace" class="LabelSearchForm2 LeftAligned">Födelseort</span>
+                  <span class="CheckBoxSearchForm RightAligned RightPadding"><input id="cbBirthplace" type="checkbox" name="cbBirthplace" /><label for="cbBirthplace">Exakt fras</label></span>
+                </td>
+                
+                <td class="tdSearchForm">
+                  <span id="lblEstate" class="LabelSearchForm2 LeftAligned">Fastighet</span>
+                  <span class="CheckBoxSearchForm RightAligned RightPadding"><input id="cbEstate" type="checkbox" name="cbEstate" /><label for="cbEstate">Exakt fras</label></span>
+                </td>
+                <td class="tdSearchForm">
+                  <span id="lblLittera" class="LabelSearchForm LeftAligned">Littera</span>
+                </td>
+                
+              </tr>
+              <!-- Rad 8 -->
+              <tr>
+                <td>
+                  <input name="tbBirthplace" type="text" id="tbBirthplace" tabindex="4" class="TextBoxSearchForm" />
+                </td>
+                
+                <td>
+                  <input name="tbEstate" type="text" id="tbEstate" tabindex="13" class="TextBoxSearchForm" />
+                </td>
+                <td>
+                  <input name="tbLittera" type="text" id="tbLittera" tabindex="14" class="TextBoxSearchSmall" />
+                </td>
+                
+              </tr>
+              <!-- Rad 9 -->
+              <tr>
+                <td class="tdSearchForm">
+                  <span id="lblBirthcounty" class="LabelSearchForm LeftAligned">Födelselän</span>
+                </td>
+                
+                <td class="tdSearchForm">
+                  <span id="lblOutplace" class="LabelSearchForm2 LeftAligned">Utflyttningsort</span>
+                  <span class="CheckBoxSearchForm RightAligned RightPadding"><input id="cbOutplace" type="checkbox" name="cbOutplace" /><label for="cbOutplace">Exakt fras</label></span>
+                </td>
+                <td class="tdSearchForm">&nbsp;</td>
+                
+              </tr>
+              <!-- Rad 10 -->
+              <tr>
+                <td style="padding-left: 2px">
+                  <select name="ddlBirthcounty" id="ddlBirthcounty" tabindex="5" class="DropDownSearchFormLarge">
+	<option value="0">---V&#228;lj l&#228;n---</option>
+	<option value="01">Stockholms stad</option>
+	<option value="02">Stockholms l&#228;n</option>
+	<option value="03">Uppsala l&#228;n</option>
+	<option value="04">S&#246;dermanlands l&#228;n</option>
+	<option value="05">&#214;sterg&#246;tlands l&#228;n</option>
+	<option value="06">J&#246;nk&#246;pings l&#228;n</option>
+	<option value="07">Kronobergs l&#228;n</option>
+	<option value="08">Kalmar l&#228;n</option>
+	<option value="09">Gotlands l&#228;n</option>
+	<option value="10">Blekinge l&#228;n</option>
+	<option value="11">Kristianstads l&#228;n</option>
+	<option value="12">Malm&#246;hus l&#228;n</option>
+	<option value="13">Hallands l&#228;n</option>
+	<option value="14">G&#246;teborgs- och Bohus l&#228;n</option>
+	<option value="15">&#196;lvsborgs l&#228;n</option>
+	<option value="16">Skaraborgs l&#228;n</option>
+	<option value="17">V&#228;rmlands l&#228;n</option>
+	<option value="18">&#214;rebro l&#228;n</option>
+	<option value="19">V&#228;stmanlands l&#228;n</option>
+	<option value="20">Kopparbergs l&#228;n</option>
+	<option value="21">G&#228;vleborgs l&#228;n</option>
+	<option value="22">V&#228;sternorrlands l&#228;n</option>
+	<option value="23">J&#228;mtlands l&#228;n</option>
+	<option value="24">V&#228;sterbottens l&#228;n</option>
+	<option value="25">Norrbottens l&#228;n</option>
+	<option value="50">Utlandet</option>
+	<option value="99">Ok&#228;nt v&#228;rde</option>
+
+</select>
+                </td>
+                
+                <td style="text-align: left">
+                  <input name="tbOutplace" type="text" id="tbOutplace" tabindex="15" class="TextBoxSearchForm" />
+                </td>
+                <td>&nbsp;</td>
+                
+              </tr>
+              <!-- Rad 11 -->
+              
+              <tr>
+                <td class="tdSearchForm">
+                  <span id="lblTitle" class="LabelSearchForm2 LeftAligned">Titel</span>
+                  <span class="CheckBoxSearchForm RightAligned RightPadding"><input id="cbTitle" type="checkbox" name="cbTitle" /><label for="cbTitle">Exakt fras</label></span>
+                </td>
+                <td class="tdSearchForm">
+                  <span id="lblOutcounty" class="LabelSearchForm LeftAligned">Utflyttningslän</span>
+                </td>
+                <td class="tdSearchForm">
+                  <span id="lblOutyear" class="LabelSearchForm LeftAligned">Utflyttningsår</span>
+                </td>
+              </tr>
+              
+              <!-- Rad 12 -->
+              
+              <tr>
+                <td>
+                  <input name="tbTitle" type="text" id="tbTitle" tabindex="6" class="TextBoxSearchForm" />
+                </td>
+                <td>
+                  <select name="ddlOutcounty" id="ddlOutcounty" tabindex="16" class="DropDownSearchFormLarge">
+	<option value="0">---V&#228;lj l&#228;n---</option>
+	<option value="01">Stockholms stad</option>
+	<option value="02">Stockholms l&#228;n</option>
+	<option value="03">Uppsala l&#228;n</option>
+	<option value="04">S&#246;dermanlands l&#228;n</option>
+	<option value="05">&#214;sterg&#246;tlands l&#228;n</option>
+	<option value="06">J&#246;nk&#246;pings l&#228;n</option>
+	<option value="07">Kronobergs l&#228;n</option>
+	<option value="08">Kalmar l&#228;n</option>
+	<option value="09">Gotlands l&#228;n</option>
+	<option value="10">Blekinge l&#228;n</option>
+	<option value="11">Kristianstads l&#228;n</option>
+	<option value="12">Malm&#246;hus l&#228;n</option>
+	<option value="13">Hallands l&#228;n</option>
+	<option value="14">G&#246;teborgs- och Bohus l&#228;n</option>
+	<option value="15">&#196;lvsborgs l&#228;n</option>
+	<option value="16">Skaraborgs l&#228;n</option>
+	<option value="17">V&#228;rmlands l&#228;n</option>
+	<option value="18">&#214;rebro l&#228;n</option>
+	<option value="19">V&#228;stmanlands l&#228;n</option>
+	<option value="20">Kopparbergs l&#228;n</option>
+	<option value="21">G&#228;vleborgs l&#228;n</option>
+	<option value="22">V&#228;sternorrlands l&#228;n</option>
+	<option value="23">J&#228;mtlands l&#228;n</option>
+	<option value="24">V&#228;sterbottens l&#228;n</option>
+	<option value="25">Norrbottens l&#228;n</option>
+	<option value="50">Utlandet</option>
+	<option value="99">Ok&#228;nt v&#228;rde</option>
+
+</select>
+                </td>
+                <td>
+                  <select name="ddlOutyear" id="ddlOutyear" tabindex="17" class="DropDownSearchFormSmall">
+	<option value="0">---V&#228;lj &#229;r---</option>
+	<option value="1877">1877</option>
+	<option value="1878">1878</option>
+	<option value="1879">1879</option>
+	<option value="1880">1880</option>
+	<option value="1881">1881</option>
+	<option value="1882">1882</option>
+	<option value="1883">1883</option>
+	<option value="1884">1884</option>
+	<option value="1885">1885</option>
+	<option value="1886">1886</option>
+	<option value="1887">1887</option>
+	<option value="1888">1888</option>
+	<option value="1889">1889</option>
+	<option value="1890">1890</option>
+	<option value="1891">1891</option>
+	<option value="1892">1892</option>
+	<option value="1893">1893</option>
+	<option value="1894">1894</option>
+	<option value="1895">1895</option>
+	<option value="1896">1896</option>
+	<option value="1897">1897</option>
+	<option value="1898">1898</option>
+	<option value="1899">1899</option>
+	<option value="1900">1900</option>
+	<option value="1901">1901</option>
+	<option value="1902">1902</option>
+	<option value="1903">1903</option>
+	<option value="1904">1904</option>
+	<option value="1905">1905</option>
+	<option value="1906">1906</option>
+	<option value="1907">1907</option>
+	<option value="1908">1908</option>
+	<option value="1909">1909</option>
+	<option value="1910">1910</option>
+	<option value="1911">1911</option>
+	<option value="1912">1912</option>
+	<option value="1913">1913</option>
+	<option value="1914">1914</option>
+	<option value="1915">1915</option>
+	<option value="1916">1916</option>
+	<option value="1917">1917</option>
+	<option value="1918">1918</option>
+	<option value="1919">1919</option>
+	<option value="1920">1920</option>
+	<option value="1921">1921</option>
+	<option value="1922">1922</option>
+	<option value="1923">1923</option>
+	<option value="1924">1924</option>
+	<option value="1925">1925</option>
+	<option value="1926">1926</option>
+
+</select>
+                </td>
+              </tr>
+              
+              <!-- Rad 13 -->
+              
+              <tr style="height: 40px">
+                <td style="vertical-align: top">
+                  <table style="width: 100%">
+                    <tr style="height: 20px">
+                      <td class="tdSearchForm" style="width: 100%">
+                        <span id="lblCivilstate" class="LabelSearchForm LeftAligned">Civilstånd</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="width: 100%">
+                        <select name="ddlCivilstate" id="ddlCivilstate" tabindex="7" class="DropDownSearchFormLarge">
+	<option value="0">---V&#228;lj civilst&#229;nd---</option>
+	<option value="E">Ok&#228;nt civilst&#229;nd</option>
+	<option value="F">Fr&#229;nskild</option>
+	<option value="G">Gift</option>
+	<option value="O">Ogift</option>
+	<option value="X">Ok&#228;nt v&#228;rde</option>
+	<option value="Ä">&#196;nka/&#196;nkling</option>
+
+</select>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td style="vertical-align: top">
+                  <table style="width: 100%">
+                    <tr style="height: 20px">
+                      <td class="tdSearchForm" style="width: 50%">
+                        <span id="lblPostID" class="LabelSearchForm LeftAligned">PostID</span>
+                      </td>
+                      <td class="tdSearchForm">
+                        <span id="lblLedger" class="LabelSearchForm LeftAligned">Häfte</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input name="tbPostID" type="text" id="tbPostID" tabindex="18" class="TextBoxSearchLarge LeftAligned" />
+                      </td>
+                      <td>
+                        <input name="tbLedger" type="text" id="tbLedger" tabindex="19" class="TextBoxSearchLarge LeftAligned" />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td style="vertical-align: top">
+                  <table style="width: 100%">
+                    <tr style="height: 20px">
+                      <td class="tdSearchForm" style="width: 50%">
+                        <span id="lblPage" class="LabelSearchForm LeftAligned">Sida</span>
+                      </td>
+                      <td class="tdSearchForm" style="width: 50%">
+                        <span id="lblRow" class="LabelSearchForm LeftAligned LastCell">Rad</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input name="tbPage" type="text" id="tbPage" tabindex="20" class="TextBoxSearchVerySmall LeftAligned" />
+                      </td>
+                      <td>
+                        <input name="tbRow" type="text" id="tbRow" tabindex="21" class="TextBoxSearchVerySmall  LastCell" />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              
+              <!-- Rad 14 -->
+              <tr
+                style="
+                  height: 40px;
+                  vertical-align: bottom;
+                  text-align: left;
+                  padding: 5px;
+                "
+              >
+                <td
+                  colspan="3"
+                  style="vertical-align: bottom; text-align: left; padding: 5px"
+                >
+                  <table>
+                    <tr>
+                      <td
+                        style="
+                          vertical-align: bottom;
+                          text-align: left;
+                          padding: 5px;
+                        "
+                      >
+                        <div id="postDiv"></div>
+                        <input name="saveScrollPos" type="hidden" id="saveScrollPos" value="0" />
+                        <input type="submit" name="btnSearchType" value="Enkel sökning" id="btnSearchType" class="button" />
+                      </td>
+                      <td
+                        style="
+                          vertical-align: bottom;
+                          text-align: left;
+                          padding: 5px;
+                        "
+                      >
+                        <div
+                          style="
+                            background-color: #ff3333;
+                            padding: 1px;
+                            width: 80px;
+                          "
+                        >
+                          <input type="submit" name="btnClean" value="Rensa" id="btnClean" class="button" />
+                        </div>
+                      </td>
+                      <td
+                        style="
+                          vertical-align: bottom;
+                          text-align: left;
+                          padding: 5px;
+                        "
+                      >
+                        <div
+                          style="
+                            background-color: #66cc33;
+                            padding: 1px;
+                            width: 80px;
+                          "
+                        >
+                          <input type="submit" name="btnSearch" value="Sök" id="btnSearch" class="button" />
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class="marginCell"></td>
+          <td colspan="2" style="border-bottom: solid 3px #006699"></td>
+        </tr>
+      </table>
+      <span id="lblTest"></span>
+    </form>
+    <script type="text/javascript">
+      //<![CDATA[
+      /*
+			alert
+			(
+				"documentMode: " + document.documentMode + "\n" + 
+				"compatMode  : " + document.compatMode   + "\n" +
+				"userAgent   : " + navigator.userAgent
+			);
+*/
+      //]]>
+    </script>
+  </body>
+</html>

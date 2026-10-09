@@ -1,0 +1,29 @@
+from pathlib import Path
+from html.parser import HTMLParser
+import re,json,hashlib,datetime
+class P(HTMLParser):
+ def __init__(self):super().__init__();self.ignore=0;self.out=[]
+ def handle_starttag(self,t,a):
+  if t in ('script','style'):self.ignore+=1
+  if t in ('br','div','tr','table'):self.out.append('\n')
+ def handle_endtag(self,t):
+  if t in ('script','style'):self.ignore-=1
+  if t in ('span','td'):self.out.append(' | ')
+  if t=='tr':self.out.append('\n')
+ def handle_data(self,d):
+  if not self.ignore and d.strip():self.out.append(d.strip())
+notes={
+'038540010180':{'name':'Olaus Fredberg','period':'1878-1878','title':'Stationskarl','birth_display':'1852-09-04 (Lundby), Göteborgs- och Bohus län','source_literal_birthplace':'Lundeby','status':'Gift, Sammanboende utan barn','addresses':['Lilla Västra Kvarngränd,5','Kungsholms Kyrkoplan,5'],'property':'Bergsklippan Större,28','littera':'C 10','parish':'Kungsholmen','rote':'04 (Kungsholmen)','ledger':'03854 (1878-1880), 001-18','in':'1878; kvarstående från början, not a dated move','out':'1878-05-22 till annan fastighet i roten (G 6/17)','other_fields':'No Övriga values shown','interpretation':'First ledger boundary not actual arrival. Keep C 10 address littera versus next card B 10/1 reference as distinct reported fields, without silently harmonizing.'},
+'045850170100':{'name':'Olaus Fredberg Fredriksson','period':'1878-1879','title':'Stationskarl','birth_display':'1852-09-04 (Lundby), Okänt värde','source_literal_birthplace':None,'status':'Gift, Sammanboende utan barn','addresses':['Järnv.Bostäderna Reparebansgatan'],'property':'Åkermannen,8','littera':'G 6','parish':'Kungsholmen','rote':'04 (Kungsholmen)','ledger':'04585 (1878-1879), 017-10','in':'1878-05-22 från annan fastighet i roten B 10/1','out':'1879; kvarstående till slutet, not a dated move','other_fields':'No Övriga or source-deviation values shown','interpretation':'Displayed utan barn retained even though displayed household includes Robert Nikolaus born1878-06-07. These are provider fields covering a period; do not overwrite status or infer no child existed through period.'},
+'434840120030':{'name':'Olaus Fredberg Fredriksson','period':'1891-1897','title':'Stationskarlsförman','source_literal_title':'St.karlsförman','birth_display':'1852-09-04 (Stora Lundby), Älvsborgs län','source_literal_birthplace':'Lundby','status':'Gift, Sammanboende med barn','addresses':['Pilgatan,15 17 19','Kungsholmsgatan,22 24','Fleminggatan,35 37'],'property':'Jordgubben,1-5','littera':'D 1','parish':'Kungsholmen','rote':'17 (Kungsholmen)','ledger':'43484 (1891-1897), 012-03','in':'1891; kvarstående från början','out':'1897; kvarstående till slutet','other_fields':{'Civilståndskommentar':'V.1888-12-08','Kyrkoskrivningsår':'1876'},'interpretation':'Both years are ledger boundaries, not moves. V. marriage comment preserved as registry assertion, no new independent marriage original.'},
+'434870120010':{'name':'Olaus Fredberg','period':'1897-1907','title':'Stationskarlsförman','source_literal_title':'Stk.förman','birth_display':'1852-09-04 (Stora Lundby), Älvsborgs län','source_literal_birthplace':'Lundby','status':'Gift, Sammanboende med barn','addresses':['Kungsholmsgatan,38','Pilgatan,17 19','Kungsholmsgatan,22 24','Fleminggatan,35 37'],'property':'Jordgubben,3 10 11','littera':'E 1','parish':'Kungsholmen','rote':'17 (Kungsholmen)','ledger':'43487 (1897-1919), 012-01','in':'1897; kvarstående från början','out':'1907-10-09 till rote 27','other_fields':{'Kyrkoskrivningsår':'1876'},'interpretation':'Own period ends1907 although ledger ends1919; own1907 move explicit. Household names and periods vary, preserve displayed spellings.'},
+'030080030190':{'name':'Olaus Fredberg Fredriksson','period':'1911-1915','title':'Stationskarlsförman','birth_display':'1852-09-04 (Stora Lundby), Älvsborgs län','source_literal_birthplace':'Lundby','status':'Gift, Sammanboende med barn','addresses':['Bryggaregatan,23 25'],'property':'Gösen,4 15','littera':'D 2','parish':'Klara','rote':'03 (Norrmalm)','ledger':'03008 (1907-1925), 003-19','in':'1911-01-03 från annan rote 27','out':'1915-10-13 till rote 27','other_fields':'No Övriga values shown','interpretation':'Both precise dates explicit moves. Does not fill1907–1911 or1915+ beyond reported rote27 endpoints.'}}
+m=json.loads(Path('evaluations/T-0828/primary/blind-source-manifest-v2.json').read_text()); rows=[]
+for f in m['files']:
+ if 'post_id' not in f:continue
+ b=Path(f['path']).read_bytes();assert hashlib.sha256(b).hexdigest()==f['sha256'];s=b.decode('utf-8-sig');p=P();p.feed(s)
+ full='\n'.join(x.strip() for x in ''.join(p.out).splitlines() if x.strip())
+ household=full.split('Hushåll för ovan markerad post',1)[1]
+ rows.append(dict(source=f,own_reading=notes[f['post_id']],complete_text_read=full,displayed_household_read=household,household_role='No separate explicit role field shown; do not infer head/father/husband from indentation or list position',uncertainty='Provider HTML register representation; source image not opened. Truncated Johanna name retained as displayed; no individual relative card opened. No genealogical identity/parentage extension from household display alone.'))
+o={'task':'T-0828','created_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_first':True,'new_primary_claims_seen_for_these_units':False,'new_units':5,'scope':'Five exact selected own Rotman cards, full own fields and displayed household. Same registration chain, not five independent proofs. Provider normalized Stora Lundby does not resolve original Lundby place identity. All dates1852-09-04 match these five register displays; older census1854 andother1853 remain separate accepted variants.','records':rows}
+p=Path('evaluations/T-0828/independent/original-first-v4-Rotman-five.json');p.write_text(json.dumps(o,ensure_ascii=False,indent=2)+'\n');print(p,hashlib.sha256(p.read_bytes()).hexdigest())
