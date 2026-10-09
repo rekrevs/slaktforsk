@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 830,
+  "next_id": 832,
   "tasks": [
     {
       "id": "T-0783",
@@ -9583,13 +9583,36 @@
       "id": "T-0829",
       "summary": "Anlinjekörningens faktiska fempersonsresultat och förlustfria fullrestcheckpoint",
       "size": "S",
-      "status": "ONGOING",
+      "status": "DONE",
       "after": [
         "T-0826"
       ],
       "priority": "CORE_SUPPORT",
-      "priority_basis": "Ägarens≥5anlinjekörning P-0021/P-0051/P-0336/P-0338/P-0339: faktiskresultaträkning/fullrest inklusiveJohannesmodellgap, exactunion/äldreACinnerowners, ingen nyoriginaltolkning; dev-log. Explicit dependency amendment: actual accepted T0828 partial505/hinder triggers source0 checkpoint before fullT0828DONE; exact guard in dev-log, no waived23AC.",
-      "phase": "DOING"
+      "priority_basis": "Ägarens≥5anlinjekörning P-0021/P-0051/P-0336/P-0338/P-0339: faktiskresultaträkning/fullrest inklusiveJohannesmodellgap, exactunion/äldreACinnerowners, ingen nyoriginaltolkning; dev-log. Explicit dependency amendment: actual accepted T0828 partial505/hinder triggers source0 checkpoint before fullT0828DONE; exact guard in dev-log, no waived23AC."
+    },
+    {
+      "id": "T-0830",
+      "summary": "Anna Christina/Cajsa Märta: fem exakta källrester för två anlinjegrindar",
+      "size": "L",
+      "status": "ONGOING",
+      "after": [
+        "T-0829"
+      ],
+      "priority": "CORE_IDENTITY",
+      "priority_basis": "PCD2026-10-09-005 ≥5anpersoner; actual3/≥5 efter505, PCR2026-10-09-003; P-0134→P-0015 ochP-0316→P-0254 gen5 balanserat. Exact2copies+3ownrows/fulloldscope+rest förestart, primär/separatAstra; dev-log.",
+      "phase": "PLANNING"
+    },
+    {
+      "id": "T-0831",
+      "summary": "Anlinjekörningens faktiska minstfemresultat och fullrest efter nästa två personer",
+      "size": "S",
+      "status": "BLOCKED",
+      "after": [
+        "T-0830"
+      ],
+      "blocker": "Inväntar faktiskt acceptedT0830resultat eller konkret hinder; original0/native0 checkpoint och losslessfullrest, inte förhandsPASS.",
+      "priority": "CORE_SUPPORT",
+      "priority_basis": "PCD2026-10-09-005: faktiskräkning P-0051/P-0336/P-0338 plusP-0134/P-0316, samtidigt blockeradeP-0021/P-0339; aktivfullunion/äldreAC/restowner, firstactualresult/hindertrigger; dev-log."
     },
     {
       "id": "T-0798",
